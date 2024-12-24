@@ -20922,7 +20922,8 @@
           "onlyOneThingNeedsToHappen": "Solo necesita suceder una cosa de ese grupo.",
           "everythingInGroupMustHappen": "Todo en ese grupo debe suceder.",
           "workflowHasNotBegun":"No se especificó un disparador de inicio.",
-          "clickHereToAdd":"Haga clic aquí para agregar."
+          "clickHereToAdd":"Haga clic aquí para agregar.",
+          "noOfRules":"Núm. de reglas"
       }
     },
     "templates": {
