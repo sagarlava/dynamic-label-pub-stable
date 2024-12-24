@@ -13889,10 +13889,10 @@
             "setupVisible": false
           },
           "allowViewSalesOrdPrice": {
-            "original": "Allow View Sales Order Price",
-            "singular": "Benarkan Lihat Harga Pesanan Jualan",
+            "original": "Allowed to View Sales Order Price",
+            "singular": "Dibenarkan untuk Melihat Harga Pesanan Jualan",
             "plural": "",
-            "setupEdit": true,
+            "setupEdit": false,
             "setupVisible": false
           },
           "allowAssignTask": {

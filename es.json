@@ -13889,10 +13889,10 @@
             "setupVisible": false
           },
           "allowViewSalesOrdPrice": {
-            "original": "Allow View Sales Order Price",
-            "singular": "Permitir Ver Precio de Orden de Venta",
+            "original": "Allowed to View Sales Order Price",
+            "singular": "Permitido ver el precio de la orden de venta",
             "plural": "",
-            "setupEdit": true,
+            "setupEdit": false,
             "setupVisible": false
           },
           "allowAssignTask": {
