@@ -13896,10 +13896,10 @@
             "setupVisible": false
           },
           "allowAssignTask": {
-            "original": "Allow to Assign Task",
-            "singular": "Allow to Assign Task",
+            "original": "Allowed to Assign Task",
+            "singular": "Allowed to Assign Task",
             "plural": "",
-            "setupEdit": true,
+            "setupEdit": false,
             "setupVisible": false
           },
           "allowAssignShift": {

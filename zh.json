@@ -13896,10 +13896,10 @@
             "setupVisible": false
           },
           "allowAssignTask": {
-            "original": "Allow to Assign Task",
+            "original": "Allowed to Assign Task",
             "singular": "允许分配任务",
             "plural": "",
-            "setupEdit": true,
+            "setupEdit": false,
             "setupVisible": false
           },
           "allowAssignShift": {

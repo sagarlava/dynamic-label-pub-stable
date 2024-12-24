@@ -13896,10 +13896,10 @@
             "setupVisible": false
           },
           "allowAssignTask": {
-            "original": "Allow to Assign Task",
-            "singular": "Permitir Asignar Tarea",
+            "original": "Allowed to Assign Task",
+            "singular": "Permitido asignar tareas",
             "plural": "",
-            "setupEdit": true,
+            "setupEdit": false,
             "setupVisible": false
           },
           "allowAssignShift": {
