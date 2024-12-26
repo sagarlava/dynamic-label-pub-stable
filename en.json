@@ -15522,10 +15522,10 @@
             "setupVisible": false
           },
           "sec4":{
-            "original": "Subform Record Type Selection",
-            "singular": "Subform Record Type Selection",
-            "plural": "Subform Record Type Selection",
-            "setupEdit": true,
+            "original": "Record Type Selection",
+            "singular": "Record Type Selection",
+            "plural": "Record Type Selection",
+            "setupEdit": false,
             "setupVisible": false
           },
           "sec5":{

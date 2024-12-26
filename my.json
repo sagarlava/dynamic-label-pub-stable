@@ -15521,10 +15521,10 @@
             "setupVisible": false
           },
           "sec4": {
-            "original": "Subform Record Type Selection",
-            "singular": "Pemilihan Jenis Rekod Borang Sub",
-            "plural": "Pemilihan Jenis Rekod Borang Sub",
-            "setupEdit": true,
+            "original": "Record Type Selection",
+            "singular": "Pemilihan Jenis Rekod",
+            "plural": "Pemilihan Jenis Rekod",
+            "setupEdit": false,
             "setupVisible": false
           },
           "sec5": {

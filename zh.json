@@ -15522,10 +15522,10 @@
             "setupVisible": false
           },
           "sec4": {
-            "original": "Subform Record Type Selection",
-            "singular": "子表单记录类型选择",
-            "plural": "子表单记录类型选择",
-            "setupEdit": true,
+            "original": "Record Type Selection",
+            "singular": "记录类型选择",
+            "plural": "记录类型选择",
+            "setupEdit": false,
             "setupVisible": false
           },
           "sec5": {

@@ -15521,10 +15521,10 @@
             "setupVisible": false
           },
           "sec4": {
-            "original": "Subform Record Type Selection",
-            "singular": "Auswahl des Datensatztyps für Unterformulare",
-            "plural": "Auswahl des Datensatztyps für Unterformulare",
-            "setupEdit": true,
+            "original": "Record Type Selection",
+            "singular": "Auswahl des Datensatztyps",
+            "plural": "Auswahl der Datensatztypen",
+            "setupEdit": false,
             "setupVisible": false
           },
           "sec5": {

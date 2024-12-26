@@ -15523,10 +15523,10 @@
             "setupVisible": false
           },
           "sec4": {
-            "original": "Subform Record Type Selection",
-            "singular": "Selección de Tipo de Registro del Subformulario",
-            "plural": "Selección de Tipo de Registro del Subformulario",
-            "setupEdit": true,
+            "original": "Record Type Selection",
+            "singular": "Selección de Tipo de Registro",
+            "plural": "Selecciones de Tipos de Registro",
+            "setupEdit": false,
             "setupVisible": false
           },
           "sec5": {
