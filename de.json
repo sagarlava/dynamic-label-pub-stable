@@ -16074,6 +16074,20 @@
             "plural": "Geben Sie Namen für Ihre neuen Unterformulare ein",
             "setupEdit": false,
             "setupVisible": false
+          },
+          "createdDate": {
+            "original": "Created Date",
+            "singular": "Erstellungsdatum",
+            "plural": "Erstellungsdaten",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "mandatory": {
+            "original": "Mandatory",
+            "singular": "Verpflichtend",
+            "plural": "Verpflichtend",
+            "setupEdit": false,
+            "setupVisible": false
           }
         },
         "messages": {

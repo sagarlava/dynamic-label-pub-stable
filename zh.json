@@ -16075,6 +16075,20 @@
             "plural": "为您的新子表单输入一个名称",
             "setupEdit": false,
             "setupVisible": false
+          },
+          "createdDate": {
+            "original": "Created Date",
+            "singular": "创建日期",
+            "plural": "创建日期",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "mandatory": {
+            "original": "Mandatory",
+            "singular": "强制性",
+            "plural": "强制性",
+            "setupEdit": false,
+            "setupVisible": false
           }
         },
         "messages": {

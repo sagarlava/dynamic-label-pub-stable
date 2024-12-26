@@ -16076,6 +16076,20 @@
             "plural": "Ingrese nombres para sus nuevos subformularios",
             "setupEdit": false,
             "setupVisible": false
+          },
+          "createdDate": {
+            "original": "Created Date",
+            "singular": "Fecha de Creación",
+            "plural": "Fechas de Creación",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "mandatory": {
+            "original": "Mandatory",
+            "singular": "Obligatorio",
+            "plural": "Obligatorios",
+            "setupEdit": false,
+            "setupVisible": false
           }
         },
         "messages": {

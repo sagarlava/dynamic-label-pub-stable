@@ -16075,6 +16075,20 @@
             "plural": "Enter a name for your new subform",
             "setupEdit": false,
             "setupVisible": false
+          },
+          "createdDate": {
+            "original": "Created Date",
+            "singular": "Created Date",
+            "plural": "Created Date",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "mandatory": {
+            "original": "Mandatory",
+            "singular": "Mandatory",
+            "plural": "Mandatory",
+            "setupEdit": false,
+            "setupVisible": false
           }
         },
         "messages":{

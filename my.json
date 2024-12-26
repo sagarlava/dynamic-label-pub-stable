@@ -16074,6 +16074,20 @@
             "plural": "Masukkan nama untuk subborang baru anda",
             "setupEdit": false,
             "setupVisible": false
+          },
+          "createdDate": {
+            "original": "Created Date",
+            "singular": "Tarikh Dicipta",
+            "plural": "Tarikh Dicipta",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "mandatory": {
+            "original": "Mandatory",
+            "singular": "Wajib",
+            "plural": "Wajib",
+            "setupEdit": false,
+            "setupVisible": false
           }
         },
         "messages": {
