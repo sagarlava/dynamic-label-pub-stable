@@ -15723,6 +15723,20 @@
             "plural": "Section Layout",
             "setupEdit": false,
             "setupVisible": false
+          },
+          "sec33":{
+            "original": "Job Order Preferences",
+            "singular": "Job Order Preference",
+            "plural": "Job Order Preferences",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec34":{
+            "original": "Subform Details",
+            "singular": "Subform Details",
+            "plural": "Subform Details",
+            "setupEdit": false,
+            "setupVisible": false
           }
         },
         "fields":{

@@ -15722,6 +15722,20 @@
             "plural": "Abschnitts-Layouts",
             "setupEdit": false,
             "setupVisible": false
+          },
+          "sec33":{
+            "original": "Job Order Preferences",
+            "singular": "Arbeitsauftrag-Vorliebe",
+            "plural": "Arbeitsauftrag-Vorlieben",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec34":{
+            "original": "Subform Details",
+            "singular": "Unterformular-Details",
+            "plural": "Unterformular-Details",
+            "setupEdit": false,
+            "setupVisible": false
           }
         },
         "fields": {

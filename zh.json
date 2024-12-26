@@ -15723,6 +15723,20 @@
             "plural": "部分布局",
             "setupEdit": false,
             "setupVisible": false
+          },
+          "sec33":{
+            "original": "Job Order Preferences",
+            "singular": "工作单偏好",
+            "plural": "工作单偏好",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec34":{
+            "original": "Subform Details",
+            "singular": "子表单详情",
+            "plural": "子表单详情",
+            "setupEdit": false,
+            "setupVisible": false
           }
         },
         "fields": {

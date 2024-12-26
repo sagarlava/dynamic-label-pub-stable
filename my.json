@@ -15722,6 +15722,20 @@
             "plural": "Susun Atur Bahagian-Bahagian",
             "setupEdit": false,
             "setupVisible": false
+          },
+          "sec33":{
+            "original": "Job Order Preferences",
+            "singular": "Keutamaan Pesanan Kerja",
+            "plural": "Keutamaan Pesanan-Persanan Kerja",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec34":{
+            "original": "Subform Details",
+            "singular": "Butiran Subborang",
+            "plural": "Butiran Subborang",
+            "setupEdit": false,
+            "setupVisible": false
           }
         },
         "fields": {

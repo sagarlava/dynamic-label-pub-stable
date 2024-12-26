@@ -15724,6 +15724,20 @@
             "plural": "Diseños de Sección",
             "setupEdit": false,
             "setupVisible": false
+          },
+          "sec33":{
+            "original": "Job Order Preferences",
+            "singular": "Preferencia de Orden de Trabajo",
+            "plural": "Preferencias de Órdenes de Trabajo",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec34":{
+            "original": "Subform Details",
+            "singular": "Detalles del Subformulario",
+            "plural": "Detalles de los Subformularios",
+            "setupEdit": false,
+            "setupVisible": false
           }
         },
         "fields": {
