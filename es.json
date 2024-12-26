@@ -13426,6 +13426,13 @@
           "plural": "Selección de Plantilla de Tarea",
           "setupEdit": false,
           "setupVisible": false
+        },
+        "sec18": {
+          "original": "Select Task Template From List",
+          "singular": "Seleccionar Plantilla de Tarea de la Lista",
+          "plural": "Seleccionar Plantillas de Tarea de la Lista",
+          "setupEdit": false,
+          "setupVisible": false
         }
       },
       "fields": {
