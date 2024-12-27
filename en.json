@@ -10680,6 +10680,7 @@
       "invalidFileTypeExclamation": "Invalid file type!",
       "allowedFileSize": "File size should be less than 25MB",
       "allowedFileSizeKb": "File size should be less than 100KB",
+      "allowedFileSize500Kb": "File size should be less than 500KB",
       "allowedFileSizeOnly": "File size should be less than",
       "cannotFindFile":"Cannot find filename and filetype",
       "pdfNotAvailable": "Sorry! PDF is not available",
