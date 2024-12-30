@@ -15591,10 +15591,10 @@
             "setupVisible": false
           },
           "sec4":{
-            "original": "Subform Record Type Selection",
-            "singular": "Subform Record Type Selection",
-            "plural": "Subform Record Type Selection",
-            "setupEdit": true,
+            "original": "Record Type Selection",
+            "singular": "Record Type Selection",
+            "plural": "Record Type Selection",
+            "setupEdit": false,
             "setupVisible": false
           },
           "sec5":{
@@ -15790,6 +15790,20 @@
             "original": "Section Layout",
             "singular": "Section Layout",
             "plural": "Section Layout",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec33":{
+            "original": "Job Order Preferences",
+            "singular": "Job Order Preference",
+            "plural": "Job Order Preferences",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec34":{
+            "original": "Subform Details",
+            "singular": "Subform Details",
+            "plural": "Subform Details",
             "setupEdit": false,
             "setupVisible": false
           }
@@ -16128,6 +16142,20 @@
             "original": "Enter a name for your new subform",
             "singular": "Enter a name for your new subform",
             "plural": "Enter a name for your new subform",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "createdDate": {
+            "original": "Created Date",
+            "singular": "Created Date",
+            "plural": "Created Date",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "mandatory": {
+            "original": "Mandatory",
+            "singular": "Mandatory",
+            "plural": "Mandatory",
             "setupEdit": false,
             "setupVisible": false
           }

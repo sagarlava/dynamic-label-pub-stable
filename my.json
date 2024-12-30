@@ -15591,10 +15591,10 @@
             "setupVisible": false
           },
           "sec4": {
-            "original": "Subform Record Type Selection",
-            "singular": "Pemilihan Jenis Rekod Borang Sub",
-            "plural": "Pemilihan Jenis Rekod Borang Sub",
-            "setupEdit": true,
+            "original": "Record Type Selection",
+            "singular": "Pemilihan Jenis Rekod",
+            "plural": "Pemilihan Jenis Rekod",
+            "setupEdit": false,
             "setupVisible": false
           },
           "sec5": {
@@ -15790,6 +15790,20 @@
             "original": "Section Layout",
             "singular": "Susun Atur Bahagian",
             "plural": "Susun Atur Bahagian-Bahagian",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec33":{
+            "original": "Job Order Preferences",
+            "singular": "Keutamaan Pesanan Kerja",
+            "plural": "Keutamaan Pesanan-Persanan Kerja",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec34":{
+            "original": "Subform Details",
+            "singular": "Butiran Subborang",
+            "plural": "Butiran Subborang",
             "setupEdit": false,
             "setupVisible": false
           }
@@ -16128,6 +16142,20 @@
             "original": "Enter a name for your new subform",
             "singular": "Masukkan nama untuk subborang baru anda",
             "plural": "Masukkan nama untuk subborang baru anda",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "createdDate": {
+            "original": "Created Date",
+            "singular": "Tarikh Dicipta",
+            "plural": "Tarikh Dicipta",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "mandatory": {
+            "original": "Mandatory",
+            "singular": "Wajib",
+            "plural": "Wajib",
             "setupEdit": false,
             "setupVisible": false
           }

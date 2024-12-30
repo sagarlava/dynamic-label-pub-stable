@@ -15591,10 +15591,10 @@
             "setupVisible": false
           },
           "sec4": {
-            "original": "Subform Record Type Selection",
-            "singular": "Selección de Tipo de Registro del Subformulario",
-            "plural": "Selección de Tipo de Registro del Subformulario",
-            "setupEdit": true,
+            "original": "Record Type Selection",
+            "singular": "Selección de Tipo de Registro",
+            "plural": "Selecciones de Tipos de Registro",
+            "setupEdit": false,
             "setupVisible": false
           },
           "sec5": {
@@ -15790,6 +15790,20 @@
             "original": "Section Layout",
             "singular": "Diseño de Sección",
             "plural": "Diseños de Sección",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec33":{
+            "original": "Job Order Preferences",
+            "singular": "Preferencia de Orden de Trabajo",
+            "plural": "Preferencias de Órdenes de Trabajo",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec34":{
+            "original": "Subform Details",
+            "singular": "Detalles del Subformulario",
+            "plural": "Detalles de los Subformularios",
             "setupEdit": false,
             "setupVisible": false
           }
@@ -16128,6 +16142,20 @@
             "original": "Enter a name for your new subform",
             "singular": "Ingrese un nombre para su nuevo subformulario",
             "plural": "Ingrese nombres para sus nuevos subformularios",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "createdDate": {
+            "original": "Created Date",
+            "singular": "Fecha de Creación",
+            "plural": "Fechas de Creación",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "mandatory": {
+            "original": "Mandatory",
+            "singular": "Obligatorio",
+            "plural": "Obligatorios",
             "setupEdit": false,
             "setupVisible": false
           }

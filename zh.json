@@ -15591,10 +15591,10 @@
             "setupVisible": false
           },
           "sec4": {
-            "original": "Subform Record Type Selection",
-            "singular": "子表单记录类型选择",
-            "plural": "子表单记录类型选择",
-            "setupEdit": true,
+            "original": "Record Type Selection",
+            "singular": "记录类型选择",
+            "plural": "记录类型选择",
+            "setupEdit": false,
             "setupVisible": false
           },
           "sec5": {
@@ -15790,6 +15790,20 @@
             "original": "Section Layout",
             "singular": "部分布局",
             "plural": "部分布局",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec33":{
+            "original": "Job Order Preferences",
+            "singular": "工作单偏好",
+            "plural": "工作单偏好",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec34":{
+            "original": "Subform Details",
+            "singular": "子表单详情",
+            "plural": "子表单详情",
             "setupEdit": false,
             "setupVisible": false
           }
@@ -16128,6 +16142,20 @@
             "original": "Enter a name for your new subform",
             "singular": "为您的新子表单输入一个名称",
             "plural": "为您的新子表单输入一个名称",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "createdDate": {
+            "original": "Created Date",
+            "singular": "创建日期",
+            "plural": "创建日期",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "mandatory": {
+            "original": "Mandatory",
+            "singular": "强制性",
+            "plural": "强制性",
             "setupEdit": false,
             "setupVisible": false
           }

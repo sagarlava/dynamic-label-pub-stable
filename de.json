@@ -15591,10 +15591,10 @@
             "setupVisible": false
           },
           "sec4": {
-            "original": "Subform Record Type Selection",
-            "singular": "Auswahl des Datensatztyps für Unterformulare",
-            "plural": "Auswahl des Datensatztyps für Unterformulare",
-            "setupEdit": true,
+            "original": "Record Type Selection",
+            "singular": "Auswahl des Datensatztyps",
+            "plural": "Auswahl der Datensatztypen",
+            "setupEdit": false,
             "setupVisible": false
           },
           "sec5": {
@@ -15790,6 +15790,20 @@
             "original": "Section Layout",
             "singular": "Abschnitts-Layout",
             "plural": "Abschnitts-Layouts",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec33":{
+            "original": "Job Order Preferences",
+            "singular": "Arbeitsauftrag-Vorliebe",
+            "plural": "Arbeitsauftrag-Vorlieben",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec34":{
+            "original": "Subform Details",
+            "singular": "Unterformular-Details",
+            "plural": "Unterformular-Details",
             "setupEdit": false,
             "setupVisible": false
           }
@@ -16128,6 +16142,20 @@
             "original": "Enter a name for your new subform",
             "singular": "Geben Sie einen Namen für Ihr neues Unterformular ein",
             "plural": "Geben Sie Namen für Ihre neuen Unterformulare ein",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "createdDate": {
+            "original": "Created Date",
+            "singular": "Erstellungsdatum",
+            "plural": "Erstellungsdaten",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "mandatory": {
+            "original": "Mandatory",
+            "singular": "Verpflichtend",
+            "plural": "Verpflichtend",
             "setupEdit": false,
             "setupVisible": false
           }
