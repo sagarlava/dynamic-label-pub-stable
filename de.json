@@ -13822,6 +13822,20 @@
             "plural": "Klone zuweisen",
             "setupEdit": true,
             "setupVisible": false
+          },
+          "sec17": {
+            "original": "Allowed to Access Web App",
+            "singular": "Zugriff auf Web-App erlaubt",
+            "plural": "Zugriff auf Web-App erlaubt",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec18": {
+            "original": "Allowed to Access Mobile App",
+            "singular": "Zugriff auf mobile App erlaubt",
+            "plural": "Zugriff auf mobile App erlaubt",
+            "setupEdit": false,
+            "setupVisible": false
           }
         },
         "fields": {

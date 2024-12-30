@@ -13822,6 +13822,20 @@
             "plural": "Clone Assign",
             "setupEdit": true,
             "setupVisible": false
+          },
+          "sec17": {
+            "original": "Allowed to Access Web App",
+            "singular": "Allowed to Access Web App",
+            "plural": "Allowed to Access Web App",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec18": {
+            "original": "Allowed to Access Mobile App",
+            "singular": "Allowed to Access Mobile App",
+            "plural": "Allowed to Access Mobile App",
+            "setupEdit": false,
+            "setupVisible": false
           }
         },
         "fields": {

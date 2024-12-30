@@ -13822,6 +13822,20 @@
             "plural": "Klon Tugasan",
             "setupEdit": true,
             "setupVisible": false
+          },
+          "sec17": {
+            "original": "Allowed to Access Web App",
+            "singular": "Dibenarkan Mengakses Aplikasi Web",
+            "plural": "Dibenarkan Mengakses Aplikasi Web",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec18": {
+            "original": "Allowed to Access Mobile App",
+            "singular": "Dibenarkan Mengakses Aplikasi Mudah Alih",
+            "plural": "Dibenarkan Mengakses Aplikasi Mudah Alih",
+            "setupEdit": false,
+            "setupVisible": false
           }
         },
         "fields": {

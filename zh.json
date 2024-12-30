@@ -13822,6 +13822,20 @@
             "plural": "克隆分配",
             "setupEdit": true,
             "setupVisible": false
+          },
+          "sec17": {
+            "original": "Allowed to Access Web App",
+            "singular": "允许访问网页应用",
+            "plural": "允许访问网页应用",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec18": {
+            "original": "Allowed to Access Mobile App",
+            "singular": "允许访问移动应用",
+            "plural": "允许访问移动应用",
+            "setupEdit": false,
+            "setupVisible": false
           }
         },
         "fields": {

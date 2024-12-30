@@ -13822,6 +13822,20 @@
             "plural": "Clonar Asignación",
             "setupEdit": true,
             "setupVisible": false
+          },
+          "sec17": {
+            "original": "Allowed to Access Web App",
+            "singular": "Permitido acceder a la aplicación web",
+            "plural": "Permitido acceder a la aplicación web",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec18": {
+            "original": "Allowed to Access Mobile App",
+            "singular": "Permitido acceder a la aplicación móvil",
+            "plural": "Permitido acceder a la aplicación móvil",
+            "setupEdit": true,
+            "setupVisible": false
           }
         },
         "fields": {
