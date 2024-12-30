@@ -14213,6 +14213,20 @@
             "plural": "",
             "setupEdit": true,
             "setupVisible": false
+          },
+          "usersCanUseWebApp": {
+            "original": "Users with this access can use the web app",
+            "singular": "Benutzer mit diesem Zugriff können die Web-App verwenden",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "usersCanUseMobileApp": {
+            "original": "Users with this access can use the mobile app",
+            "singular": "Benutzer mit diesem Zugriff können die mobile App verwenden",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": false
           }
         },
         "messages": {
