@@ -6222,6 +6222,13 @@
         "plural": "",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "sec54": {
+        "original": "Task and Spare Part Details",
+        "singular": "Detalles de las Tarea y Piezas de Repuesto",
+        "plural": "Detalles de las Tareas y Piezas de Repuesto",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "fields": {
@@ -13427,6 +13434,13 @@
           "original": "Task Template Selection",
           "singular": "Selección de Plantilla de Tarea",
           "plural": "Selección de Plantilla de Tarea",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "sec18": {
+          "original": "Select Task Template From List",
+          "singular": "Seleccionar Plantilla de Tarea de la Lista",
+          "plural": "Seleccionar Plantillas de Tarea de la Lista",
           "setupEdit": false,
           "setupVisible": false
         }

@@ -6222,6 +6222,13 @@
         "plural": "",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "sec54": {
+        "original": "Task and Spare Part Details",
+        "singular": "Task and Spare Part Details",
+        "plural": "Task and Spare Part Details",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "fields": {
@@ -13427,6 +13434,13 @@
           "original": "Task Template Selection",
           "singular": "Task Template Selection",
           "plural": "Task Template Selection",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "sec18": {
+          "original": "Select Task Template From List",
+          "singular": "Select Task Template From List",
+          "plural": "Select Task Template From List",
           "setupEdit": false,
           "setupVisible": false
         }

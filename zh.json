@@ -6222,6 +6222,13 @@
         "plural": "",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "sec54": {
+        "original": "Task and Spare Part Details",
+        "singular": "任务和备件详情",
+        "plural": "任务和备件详情",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "fields": {
@@ -13427,6 +13434,13 @@
           "original": "Task Template Selection",
           "singular": "任务模板选择",
           "plural": "任务模板选择",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "sec18": {
+          "original": "Select Task Template From List",
+          "singular": "从列表中选择任务模板",
+          "plural": "从列表中选择任务模板",
           "setupEdit": false,
           "setupVisible": false
         }

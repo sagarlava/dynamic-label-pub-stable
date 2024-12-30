@@ -6222,6 +6222,13 @@
         "plural": "",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "sec54": {
+        "original": "Task and Spare Part Details",
+        "singular": "Aufgaben- und Ersatzteildetails",
+        "plural": "Aufgaben- und Ersatzteildetails",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "fields": {
@@ -13427,6 +13434,13 @@
           "original": "Task Template Selection",
           "singular": "Auswahl der Aufgaben-Vorlage",
           "plural": "Auswahl der Aufgaben-Vorlage",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "sec18": {
+          "original": "Select Task Template From List",
+          "singular": "Aufgabenvorlage aus der Liste auswählen",
+          "plural": "Aufgabenvorlagen aus der Liste auswählen",
           "setupEdit": false,
           "setupVisible": false
         }

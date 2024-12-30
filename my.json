@@ -6222,6 +6222,13 @@
         "plural": "",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "sec54": {
+        "original": "Task and Spare Part Details",
+        "singular": "Butiran Tugasan dan Alat Ganti",
+        "plural": "Butiran Tugasan dan Alat Ganti",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "fields": {
@@ -13427,6 +13434,13 @@
           "original": "Task Template Selection",
           "singular": "Pemilihan Templat Tugasan",
           "plural": "Pemilihan Templat Tugasan",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "sec18": {
+          "original": "Select Task Template From List",
+          "singular": "Pilih Templat Tugasan Dari Senarai",
+          "plural": "Pilih Templat Tugasan Dari Senarai",
           "setupEdit": false,
           "setupVisible": false
         }
