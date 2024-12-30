@@ -4481,7 +4481,8 @@
       "teamSkillIdExists": "Eine neue Teamfähigkeit kann nicht bereits eine ID haben",
       "userTaskIdExists": "Eine neue Benutzeraufgabe kann nicht bereits eine ID haben",
       "userTaskIdNotFound": "ID nicht gefunden",
-      "userTaskNotFound": "Benutzeraufgabe nicht gefunden"
+      "userTaskNotFound": "Benutzeraufgabe nicht gefunden",
+      "userNotAllowedToAssignTask": "Benutzer darf kein Mitglied zur Aufgabe hinzufügen"
     },
     "tooltips": {
       "setupVisible": false,

@@ -4481,7 +4481,8 @@
       "teamSkillIdExists": "A new Team Skill cannot already have an ID",
       "userTaskIdExists": "A new User Task cannot already have an ID",
       "userTaskIdNotFound": "Id not found",
-      "userTaskNotFound": "User Task not found"
+      "userTaskNotFound": "User Task not found",
+      "userNotAllowedToAssignTask": "User not allowed to add member to the Task"
     },
     "tooltips": {
       "setupVisible": false,

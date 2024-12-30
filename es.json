@@ -4481,7 +4481,8 @@
       "teamSkillIdExists": "Una nueva Habilidad del Equipo no puede tener ya un ID",
       "userTaskIdExists": "Una nueva Tarea de Usuario no puede tener ya un ID",
       "userTaskIdNotFound": "ID no encontrado",
-      "userTaskNotFound": "Tarea de Usuario no encontrada"
+      "userTaskNotFound": "Tarea de Usuario no encontrada",
+      "userNotAllowedToAssignTask": "Usuario no tiene permitido agregar miembros a la tarea"
     },
     "tooltips": {
       "setupVisible": false,
