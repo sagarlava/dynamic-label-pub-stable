@@ -10688,6 +10688,7 @@
       "invalidFileTypeExclamation": "Jenis fail tidak sah!",
       "allowedFileSize": "Saiz fail harus kurang daripada 25MB",
       "allowedFileSizeKb": "Saiz fail hendaklah kurang daripada 100KB",
+      "allowedFileSize500Kb": "Saiz fail harus kurang daripada 500KB",
       "allowedFileSizeOnly": "Saiz fail hendaklah kurang daripada",
       "cannotFindFile": "Tidak dapat mencari nama fail dan jenis fail",
       "pdfNotAvailable": "Maaf! PDF tidak tersedia",
@@ -21150,7 +21151,8 @@
         "onlyOneThingNeedsToHappen": "Hanya satu perkara daripada kumpulan itu perlu berlaku.",
         "everythingInGroupMustHappen": "Semua dalam kumpulan itu mesti berlaku.",
         "workflowHasNotBegun": "Tiada pencetus mula ditentukan.",
-        "clickHereToAdd": "Klik di sini untuk menambah."
+        "clickHereToAdd": "Klik di sini untuk menambah.",
+        "noOfRules":"Bilangan peraturan"
       }
     },
     "templates": {
