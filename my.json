@@ -13871,6 +13871,20 @@
             "plural": "Klon Tugasan",
             "setupEdit": true,
             "setupVisible": false
+          },
+          "sec17": {
+            "original": "Allowed to Access Web App",
+            "singular": "Dibenarkan Mengakses Aplikasi Web",
+            "plural": "Dibenarkan Mengakses Aplikasi Web",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec18": {
+            "original": "Allowed to Access Mobile App",
+            "singular": "Dibenarkan Mengakses Aplikasi Mudah Alih",
+            "plural": "Dibenarkan Mengakses Aplikasi Mudah Alih",
+            "setupEdit": false,
+            "setupVisible": false
           }
         },
         "fields": {
@@ -14247,6 +14261,20 @@
             "singular": "Notifikasi emel akan dihantar kepada pengurus untuk memaklumkan bahawa pengguna telah secara manual menukar dari dalam talian ke luar talian dalam waktu kerja yang ditentukan",
             "plural": "",
             "setupEdit": true,
+            "setupVisible": false
+          },
+          "usersCanUseWebApp": {
+            "original": "Users with this access can use the web app",
+            "singular": "Pengguna dengan akses ini boleh menggunakan aplikasi web",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "usersCanUseMobileApp": {
+            "original": "Users with this access can use the mobile app",
+            "singular": "Pengguna dengan akses ini boleh menggunakan aplikasi mudah alih",
+            "plural": "",
+            "setupEdit": false,
             "setupVisible": false
           }
         },

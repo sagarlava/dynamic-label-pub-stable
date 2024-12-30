@@ -13871,6 +13871,20 @@
             "plural": "Clone Assign",
             "setupEdit": true,
             "setupVisible": false
+          },
+          "sec17": {
+            "original": "Allowed to Access Web App",
+            "singular": "Allowed to Access Web App",
+            "plural": "Allowed to Access Web App",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec18": {
+            "original": "Allowed to Access Mobile App",
+            "singular": "Allowed to Access Mobile App",
+            "plural": "Allowed to Access Mobile App",
+            "setupEdit": false,
+            "setupVisible": false
           }
         },
         "fields": {
@@ -14247,6 +14261,20 @@
             "singular": "An email notification will be sent to the manager to inform them that a user has manually switched from online to offline within their specified working hours",
             "plural": "",
             "setupEdit": true,
+            "setupVisible": false
+          },
+          "usersCanUseWebApp": {
+            "original": "Users with this access can use the web app",
+            "singular": "Users with this access can use the web app",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "usersCanUseMobileApp": {
+            "original": "Users with this access can use the mobile app",
+            "singular": "Users with this access can use the mobile app",
+            "plural": "",
+            "setupEdit": false,
             "setupVisible": false
           }
         },

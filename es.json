@@ -13871,6 +13871,20 @@
             "plural": "Clonar Asignación",
             "setupEdit": true,
             "setupVisible": false
+          },
+          "sec17": {
+            "original": "Allowed to Access Web App",
+            "singular": "Permitido acceder a la aplicación web",
+            "plural": "Permitido acceder a la aplicación web",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec18": {
+            "original": "Allowed to Access Mobile App",
+            "singular": "Permitido acceder a la aplicación móvil",
+            "plural": "Permitido acceder a la aplicación móvil",
+            "setupEdit": true,
+            "setupVisible": false
           }
         },
         "fields": {
@@ -14247,6 +14261,20 @@
             "singular": "Se enviará una notificación por correo electrónico al gerente para informarle que un usuario ha cambiado manualmente de en línea a fuera de línea dentro de sus horas de trabajo especificadas",
             "plural": "",
             "setupEdit": true,
+            "setupVisible": false
+          },
+          "usersCanUseWebApp": {
+            "original": "Users with this access can use the web app",
+            "singular": "Los usuarios con este acceso pueden usar la aplicación web",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "usersCanUseMobileApp": {
+            "original": "Users with this access can use the mobile app",
+            "singular": "Los usuarios con este acceso pueden usar la aplicación móvil",
+            "plural": "",
+            "setupEdit": false,
             "setupVisible": false
           }
         },
