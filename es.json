@@ -16279,6 +16279,46 @@
           "editFormArrangement":"¿Está seguro de que desea editar la disposición de este formulario? Los cambios realizados también se reflejarán en los formularios anteriores. Esto no se puede deshacer.",
           "selectLayoutPreferred":"Seleccione el diseño que prefiera para su sección. Los campos que agregue a la sección se mostrarán de acuerdo con el diseño de su sección."
         }
+      },
+      "artificialIntelligence":{
+        "setupEdit": false,
+        "setupVisible": false,
+        "label":{
+          "original": "AI",
+          "singular": "AI",
+          "plural": "AI",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "sections":{
+          "setupEdit": false,
+          "setupVisible": false,
+          "sec0":{
+            "original": "Suggestions",
+            "singular": "Sugerencia",
+            "plural": "Sugerencias",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec1":{
+            "original": "AI Suggestions",
+            "singular": "Sugerencia de AI",
+            "plural": "Sugerencias de AI",
+            "setupEdit": false,
+            "setupVisible": false
+          }
+        },
+        "fields":{
+          "setupEdit": false,
+          "setupVisible": false,
+          "enableAi":{
+            "original": "Enable AI suggestions",
+            "singular": "Habilitar sugerencia de AI",
+            "plural": "Habilitar sugerencia de AI",
+            "setupEdit": false,
+            "setupVisible": false
+          }
+        }
       }
     },
     "serviceZone": {

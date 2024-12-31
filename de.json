@@ -16279,6 +16279,46 @@
           "editFormArrangement":"Sind Sie sicher, dass Sie die Anordnung dieses Formulars bearbeiten möchten? Änderungen werden auch in früheren Formularen übernommen. Dies kann nicht rückgängig gemacht werden.",
           "selectLayoutPreferred":"Wählen Sie das Layout aus, das Sie für Ihren Abschnitt bevorzugen. Felder, die Sie dem Abschnitt hinzufügen, werden gemäß Ihrem Abschnitts-Layout angezeigt."
         }
+      },
+      "artificialIntelligence":{
+        "setupEdit": false,
+        "setupVisible": false,
+        "label":{
+          "original": "AI",
+          "singular": "AI",
+          "plural": "AI",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "sections":{
+          "setupEdit": false,
+          "setupVisible": false,
+          "sec0":{
+            "original": "Suggestions",
+            "singular": "Vorschlag",
+            "plural": "Vorschläge",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec1":{
+            "original": "AI Suggestions",
+            "singular": "AI-Vorschlag",
+            "plural": "AI-Vorschläge",
+            "setupEdit": false,
+            "setupVisible": false
+          }
+        },
+        "fields":{
+          "setupEdit": false,
+          "setupVisible": false,
+          "enableAi":{
+            "original": "Enable AI suggestions",
+            "singular": "AI-vorschlag aktivieren",
+            "plural": "AI-vorschläge aktivieren",
+            "setupEdit": false,
+            "setupVisible": false
+          }
+        }
       }
     },
     "serviceZone": {

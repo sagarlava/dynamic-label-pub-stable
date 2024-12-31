@@ -16279,6 +16279,46 @@
           "editFormArrangement":"您确定要编辑此表单的排列吗？所做的更改也将反映在以前的表单中。这无法撤销。",
           "selectLayoutPreferred":"选择您希望为部分使用的布局。您添加到部分的字段将根据部分布局显示。"
         }
+      },
+      "artificialIntelligence":{
+        "setupEdit": false,
+        "setupVisible": false,
+        "label":{
+          "original": "AI",
+          "singular": "AI",
+          "plural": "AI",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "sections":{
+          "setupEdit": false,
+          "setupVisible": false,
+          "sec0":{
+            "original": "Suggestions",
+            "singular": "建议",
+            "plural": "建议",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec1":{
+            "original": "AI Suggestions",
+            "singular": "AI建议",
+            "plural": "AI建议",
+            "setupEdit": false,
+            "setupVisible": false
+          }
+        },
+        "fields":{
+          "setupEdit": false,
+          "setupVisible": false,
+          "enableAi":{
+            "original": "Enable AI Suggestions",
+            "singular": "启用AI建议",
+            "plural": "启用AI建议",
+            "setupEdit": false,
+            "setupVisible": false
+          }
+        }
       }
     },
     "serviceZone": {
