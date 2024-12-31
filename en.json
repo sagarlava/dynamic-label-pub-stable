@@ -13956,14 +13956,14 @@
             "original": "Allowed to View Sales Order Price",
             "singular": "Allowed to View Sales Order Price",
             "plural": "",
-            "setupEdit": true,
+            "setupEdit": false,
             "setupVisible": false
           },
           "allowAssignTask": {
             "original": "Allowed to Assign Task",
             "singular": "Allowed to Assign Task",
             "plural": "",
-            "setupEdit": true,
+            "setupEdit": false,
             "setupVisible": false
           },
           "allowAssignShift": {
@@ -13975,7 +13975,7 @@
           },
           "jmpMandatory": {
             "original": "JMP Mandatory",
-            "singular": "View Staff Downline Based on Hierarchy",
+            "singular": "JMP Mandatory",
             "plural": "",
             "setupEdit": true,
             "setupVisible": false
@@ -14187,8 +14187,8 @@
             "setupVisible": false
           },
           "userBinTransferReceiveProd": {
-            "original": "A 'User Bin' may be created for users with this access to transfer and receive Assets and Spare Parts",
-            "singular": "A 'User Bin' may be created for users with this access to transfer and receive Assets and Spare Parts",
+            "original": "A 'User Bin' is created for users with this access to transfer and receive Assets and Spare Parts",
+            "singular": "A 'User Bin' is created for users with this access to transfer and receive Assets and Spare Parts",
             "plural": "",
             "setupEdit": true,
             "setupVisible": false

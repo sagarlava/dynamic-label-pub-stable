@@ -13954,16 +13954,16 @@
           },
           "allowViewSalesOrdPrice": {
             "original": "Allowed to View Sales Order Price",
-            "singular": "Permitido Ver Precio de la Orden de Venta",
+            "singular": "Permitido ver el precio de la orden de venta",
             "plural": "",
-            "setupEdit": true,
+            "setupEdit": false,
             "setupVisible": false
           },
           "allowAssignTask": {
             "original": "Allowed to Assign Task",
-            "singular": "Permitido Asignar Tarea",
+            "singular": "Permitido asignar tareas",
             "plural": "",
-            "setupEdit": true,
+            "setupEdit": false,
             "setupVisible": false
           },
           "allowAssignShift": {
@@ -13975,7 +13975,7 @@
           },
           "jmpMandatory": {
             "original": "JMP Mandatory",
-            "singular": "Ver Personal en Línea Basado en la Jerarquía",
+            "singular": "JMP obligatorio",
             "plural": "",
             "setupEdit": true,
             "setupVisible": false
@@ -14187,8 +14187,8 @@
             "setupVisible": false
           },
           "userBinTransferReceiveProd": {
-            "original": "A 'User Bin' may be created for users with this access to transfer and receive Assets and Spare Parts",
-            "singular": "Se puede crear un 'Contenedor de Usuario' para usuarios con este acceso para transferir y recibir Activos y Piezas de Repuesto",
+            "original": "A 'User Bin' is created for users with this access to transfer and receive Assets and Spare Parts",
+            "singular": "Se crea un 'Contenedor de Usuario' para los usuarios con este acceso para transferir y recibir Activos y Repuestos",
             "plural": "",
             "setupEdit": true,
             "setupVisible": false

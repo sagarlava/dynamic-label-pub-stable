@@ -13954,16 +13954,16 @@
           },
           "allowViewSalesOrdPrice": {
             "original": "Allowed to View Sales Order Price",
-            "singular": "Dibenarkan Untuk Lihat Harga Pesanan Jualan",
+            "singular": "Dibenarkan untuk Melihat Harga Pesanan Jualan",
             "plural": "",
-            "setupEdit": true,
+            "setupEdit": false,
             "setupVisible": false
           },
           "allowAssignTask": {
             "original": "Allowed to Assign Task",
-            "singular": "Dibenarkan Tugaskan Tugas",
+            "singular": "Dibenarkan untuk Menetapkan Tugasan",
             "plural": "",
-            "setupEdit": true,
+            "setupEdit": false,
             "setupVisible": false
           },
           "allowAssignShift": {
@@ -14187,8 +14187,8 @@
             "setupVisible": false
           },
           "userBinTransferReceiveProd": {
-            "original": "A 'User Bin' may be created for users with this access to transfer and receive Assets and Products",
-            "singular": "Bin Pengguna boleh dibuat untuk pengguna dengan akses ini untuk pindah dan terima Aset dan Alat Ganti",
+            "original": "A 'User Bin' is created for users with this access to transfer and receive Assets and Spare Parts",
+            "singular": "Sebuah 'Bin Pengguna' dicipta untuk pengguna dengan akses ini untuk memindahkan dan menerima Aset dan Alat Ganti",
             "plural": "",
             "setupEdit": true,
             "setupVisible": false

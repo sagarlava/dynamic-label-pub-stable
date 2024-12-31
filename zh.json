@@ -13956,14 +13956,14 @@
             "original": "Allowed to View Sales Order Price",
             "singular": "允许查看销售订单价格",
             "plural": "",
-            "setupEdit": true,
+            "setupEdit": false,
             "setupVisible": false
           },
           "allowAssignTask": {
             "original": "Allowed to Assign Task",
             "singular": "允许分配任务",
             "plural": "",
-            "setupEdit": true,
+            "setupEdit": false,
             "setupVisible": false
           },
           "allowAssignShift": {
@@ -14187,8 +14187,8 @@
             "setupVisible": false
           },
           "userBinTransferReceiveProd": {
-            "original": "A 'User Bin' may be created for users with this access to transfer and receive Assets and Products",
-            "singular": "可以为具有此访问权限的用户创建“用户仓”以转移和接收资产和备件",
+            "original": "A 'User Bin' is created for users with this access to transfer and receive Assets and Spare Parts",
+            "singular": "为具有此权限的用户创建一个“用户仓”以转移和接收资产及备件",
             "plural": "",
             "setupEdit": true,
             "setupVisible": false
