@@ -16025,6 +16025,46 @@
           "mapPicklistFields": "通过选择父字段，然后选择其必要的选择列表字段来映射选择列表字段。您可以在下方查看映射的字段。",
           "addDescriptionHere": "在此添加描述..."
         }
+      },
+      "artificialIntelligence":{
+        "setupEdit": false,
+        "setupVisible": false,
+        "label":{
+          "original": "AI",
+          "singular": "AI",
+          "plural": "AI",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "sections":{
+          "setupEdit": false,
+          "setupVisible": false,
+          "sec0":{
+            "original": "Suggestions",
+            "singular": "建议",
+            "plural": "建议",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec1":{
+            "original": "AI Suggestions",
+            "singular": "AI建议",
+            "plural": "AI建议",
+            "setupEdit": false,
+            "setupVisible": false
+          }
+        },
+        "fields":{
+          "setupEdit": false,
+          "setupVisible": false,
+          "enableAi":{
+            "original": "Enable AI Suggestions",
+            "singular": "启用AI建议",
+            "plural": "启用AI建议",
+            "setupEdit": false,
+            "setupVisible": false
+          }
+        }
       }
     },
     "serviceZone": {

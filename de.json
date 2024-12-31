@@ -16025,6 +16025,46 @@
           "mapPicklistFields": "Ordnen Sie die Auswahllistenfelder zu, indem Sie ein übergeordnetes Feld auswählen und dann die erforderlichen Auswahllistenfelder dafür auswählen. Die zugeordneten Felder können Sie unten einsehen.",
           "addDescriptionHere": "Hier Beschreibung hinzufügen..."
         }
+      },
+      "artificialIntelligence":{
+        "setupEdit": false,
+        "setupVisible": false,
+        "label":{
+          "original": "AI",
+          "singular": "AI",
+          "plural": "AI",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "sections":{
+          "setupEdit": false,
+          "setupVisible": false,
+          "sec0":{
+            "original": "Suggestions",
+            "singular": "Vorschlag",
+            "plural": "Vorschläge",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec1":{
+            "original": "AI Suggestions",
+            "singular": "AI-Vorschlag",
+            "plural": "AI-Vorschläge",
+            "setupEdit": false,
+            "setupVisible": false
+          }
+        },
+        "fields":{
+          "setupEdit": false,
+          "setupVisible": false,
+          "enableAi":{
+            "original": "Enable AI suggestions",
+            "singular": "AI-vorschlag aktivieren",
+            "plural": "AI-vorschläge aktivieren",
+            "setupEdit": false,
+            "setupVisible": false
+          }
+        }
       }
     },
     "serviceZone": {

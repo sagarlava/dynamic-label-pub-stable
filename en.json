@@ -16025,6 +16025,46 @@
           "mapPicklistFields":"Map picklist fields by selecting a Parent Field and then selecting the necessary Picklist Fields for it. You can view the Mapped Fields below.",
           "addDescriptionHere":"Add description here..."
         }
+      },
+      "artificialIntelligence":{
+        "setupEdit": false,
+        "setupVisible": false,
+        "label":{
+          "original": "AI",
+          "singular": "AI",
+          "plural": "AI",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "sections":{
+          "setupEdit": false,
+          "setupVisible": false,
+          "sec0":{
+            "original": "Suggestions",
+            "singular": "Suggestion",
+            "plural": "Suggestions",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec1":{
+            "original": "AI Suggestions",
+            "singular": "AI Suggestion",
+            "plural": "AI Suggestions",
+            "setupEdit": false,
+            "setupVisible": false
+          }
+        },
+        "fields":{
+          "setupEdit": false,
+          "setupVisible": false,
+          "enableAi":{
+            "original": "Enable AI suggestions",
+            "singular": "Enable AI suggestion",
+            "plural": "Enable AI suggestions",
+            "setupEdit": false,
+            "setupVisible": false
+          }
+        }
       }
     },
     "serviceZone": {
