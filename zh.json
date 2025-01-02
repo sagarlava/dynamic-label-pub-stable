@@ -16052,6 +16052,27 @@
             "plural": "AI建议",
             "setupEdit": false,
             "setupVisible": false
+          },
+          "sec2":{
+            "original": "Auto-create a checklist with AI",
+            "singular": "使用AI自动创建检查表",
+            "plural": "使用AI自动创建检查表",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec3":{
+            "original": "Describe your checklist",
+            "singular": "描述您的检查表",
+            "plural": "描述您的检查表",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec4":{
+            "original": "Attach a reference file",
+            "singular": "附加参考文件",
+            "plural": "附加参考文件",
+            "setupEdit": false,
+            "setupVisible": false
           }
         },
         "fields":{
@@ -16064,6 +16085,11 @@
             "setupEdit": false,
             "setupVisible": false
           }
+        },
+        "messages":{
+          "moreDetailYouProvide":"您提供的详细信息越多，检查表就越能满足您的需求。",
+          "convertYourPhysicalChecklist":"将您的实体检查表和表单转换为FieldEx检查表（PDF或PNG - 最大5 MB）",
+          "mentionDetailsConsidered":"提及需要考虑的资产、字段和其他详细信息"
         }
       }
     },

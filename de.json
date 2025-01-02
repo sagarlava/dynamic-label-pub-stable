@@ -16031,8 +16031,8 @@
         "setupVisible": false,
         "label":{
           "original": "AI",
-          "singular": "AI",
-          "plural": "AI",
+          "singular": "KI",
+          "plural": "KI",
           "setupEdit": false,
           "setupVisible": false
         },
@@ -16048,8 +16048,29 @@
           },
           "sec1":{
             "original": "AI Suggestions",
-            "singular": "AI-Vorschlag",
-            "plural": "AI-Vorschläge",
+            "singular": "KI-Vorschlag",
+            "plural": "KI-Vorschläge",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec2":{
+            "original": "Auto-create a checklist with AI",
+            "singular": "Checkliste automatisch mit KI erstellen",
+            "plural": "Checklisten automatisch mit KI erstellen",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec3":{
+            "original": "Describe your checklist",
+            "singular": "Beschreiben Sie Ihre Checkliste",
+            "plural": "Beschreiben Sie Ihre Checklisten",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec4":{
+            "original": "Attach a reference file",
+            "singular": "Eine Referenzdatei anhängen",
+            "plural": "Referenzdateien anhängen",
             "setupEdit": false,
             "setupVisible": false
           }
@@ -16059,11 +16080,16 @@
           "setupVisible": false,
           "enableAi":{
             "original": "Enable AI suggestions",
-            "singular": "AI-vorschlag aktivieren",
-            "plural": "AI-vorschläge aktivieren",
+            "singular": "KI-vorschlag aktivieren",
+            "plural": "KI-vorschläge aktivieren",
             "setupEdit": false,
             "setupVisible": false
           }
+        },
+        "messages":{
+          "moreDetailYouProvide":"Je mehr Details Sie angeben, desto besser wird die Checkliste Ihren Anforderungen entsprechen.",
+          "convertYourPhysicalChecklist":"Konvertieren Sie Ihre physischen Checklisten und Formulare in eine FieldEx-Checkliste (PDF oder PNG - bis zu 5 MB)",
+          "mentionDetailsConsidered":"Geben Sie die zu berücksichtigenden Vermögenswerte, Felder und andere Details an"
         }
       }
     },

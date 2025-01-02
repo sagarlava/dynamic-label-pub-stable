@@ -16052,6 +16052,27 @@
             "plural": "Cadangan-cadangan AI",
             "setupEdit": false,
             "setupVisible": false
+          },
+          "sec2":{
+            "original": "Auto-create a checklist with AI",
+            "singular": "Cipta senarai semak secara automatik dengan AI",
+            "plural": "Cipta senarai semak secara automatik dengan AI",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec3":{
+            "original": "Describe your checklist",
+            "singular": "Huraikan senarai semak anda",
+            "plural": "Huraikan senarai semak anda",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec4":{
+            "original": "Attach a reference file",
+            "singular": "Lampirkan fail rujukan",
+            "plural": "Lampirkan fail rujukan",
+            "setupEdit": false,
+            "setupVisible": false
           }
         },
         "fields":{
@@ -16064,6 +16085,11 @@
             "setupEdit": false,
             "setupVisible": false
           }
+        },
+        "messages":{
+          "moreDetailYouProvide":"Lebih banyak butiran yang anda berikan, lebih baik senarai semak itu akan memenuhi keperluan anda.",
+          "convertYourPhysicalChecklist":"Tukar senarai semak dan borang fizikal anda kepada senarai semak FieldEx (PDF atau PNG - sehingga 5 MB)",
+          "mentionDetailsConsidered":"Nyatakan aset, medan, dan butiran lain yang perlu dipertimbangkan"
         }
       }
     },
