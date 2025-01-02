@@ -12166,6 +12166,20 @@
         "plural": "",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "discard":{
+        "original": "Discard",
+        "singular": "Descartar",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "createWithAi":{
+        "original": "Create with AI",
+        "singular": "Crear con IA",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "status": {
@@ -16294,9 +16308,9 @@
           "setupEdit": false,
           "setupVisible": false,
           "sec0":{
-            "original": "Suggestions",
-            "singular": "Sugerencia",
-            "plural": "Sugerencias",
+            "original": "Finley Suggestions",
+            "singular": "Sugerencia de Finley",
+            "plural": "Sugerencias de Finley",
             "setupEdit": false,
             "setupVisible": false
           },
@@ -16304,6 +16318,34 @@
             "original": "AI Suggestions",
             "singular": "Sugerencia de AI",
             "plural": "Sugerencias de AI",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec2":{
+            "original": "Auto-create a checklist with AI",
+            "singular": "Crear automáticamente una lista de verificación con IA",
+            "plural": "Crear automáticamente una lista de verificación con IA",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec3":{
+            "original": "Describe your checklist",
+            "singular": "Describa su lista de verificación",
+            "plural": "Describa sus listas de verificación",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec4":{
+            "original": "Attach a reference file",
+            "singular": "Adjuntar un archivo de referencia",
+            "plural": "Adjuntar archivos de referencia",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec5":{
+            "original": "Completion Summary",
+            "singular": "Resumen de Finalización",
+            "plural": "Resumen de Finalizaciones",
             "setupEdit": false,
             "setupVisible": false
           }
@@ -16318,6 +16360,13 @@
             "setupEdit": false,
             "setupVisible": false
           }
+        },
+        "messages":{
+          "moreDetailYouProvide":"Cuantos más detalles proporcione, mejor se ajustará la lista de verificación a sus requisitos.",
+          "convertYourPhysicalChecklist":"Convierta sus listas de verificación y formularios físicos en una lista de verificación de FieldEx (PDF o PNG - hasta 5 MB)",
+          "mentionDetailsConsidered":"Mencione el activo, los campos y cualquier otro detalle a considerar",
+          "suggestedBy":"Sugerido por Finley",
+          "completedBy":"Completado por"
         }
       }
     },

@@ -12166,6 +12166,20 @@
         "plural": "",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "discard":{
+        "original": "Discard",
+        "singular": "Buang",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "createWithAi":{
+        "original": "Create with AI",
+        "singular": "Cipta dengan AI",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "status": {
@@ -16294,16 +16308,44 @@
           "setupEdit": false,
           "setupVisible": false,
           "sec0":{
-            "original": "Suggestions",
-            "singular": "Cadangan",
-            "plural": "Cadangan-cadangan",
+            "original": "Finley Suggestions",
+            "singular": "Cadangan Finley",
+            "plural": "Cadangan-cadangan Finley",
             "setupEdit": false,
             "setupVisible": false
           },
           "sec1":{
-            "original": "Cadangan AI",
+            "original": "AI Suggestions",
             "singular": "Cadangan AI",
             "plural": "Cadangan-cadangan AI",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec2":{
+            "original": "Auto-create a checklist with AI",
+            "singular": "Cipta senarai semak secara automatik dengan AI",
+            "plural": "Cipta senarai semak secara automatik dengan AI",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec3":{
+            "original": "Describe your checklist",
+            "singular": "Huraikan senarai semak anda",
+            "plural": "Huraikan senarai semak anda",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec4":{
+            "original": "Attach a reference file",
+            "singular": "Lampirkan fail rujukan",
+            "plural": "Lampirkan fail rujukan",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec5":{
+            "original": "Completion Summary",
+            "singular": "Ringkasan Penyelesaian",
+            "plural": "Ringkasan Penyelesaian",
             "setupEdit": false,
             "setupVisible": false
           }
@@ -16318,6 +16360,13 @@
             "setupEdit": false,
             "setupVisible": false
           }
+        },
+        "messages":{
+          "moreDetailYouProvide":"Lebih banyak butiran yang anda berikan, lebih baik senarai semak itu akan memenuhi keperluan anda.",
+          "convertYourPhysicalChecklist":"Tukar senarai semak dan borang fizikal anda kepada senarai semak FieldEx (PDF atau PNG - sehingga 5 MB)",
+          "mentionDetailsConsidered":"Nyatakan aset, medan, dan butiran lain yang perlu dipertimbangkan",
+          "suggestedBy":"Dicadangkan oleh Finley",
+          "completedBy":"Disiapkan oleh"
         }
       }
     },

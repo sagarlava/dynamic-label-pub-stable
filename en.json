@@ -12166,6 +12166,20 @@
         "plural": "",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "discard":{
+        "original": "Discard",
+        "singular": "Discard",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "createWithAi":{
+        "original": "Create with AI",
+        "singular": "Create with AI",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "status": {
@@ -16294,9 +16308,9 @@
           "setupEdit": false,
           "setupVisible": false,
           "sec0":{
-            "original": "Suggestions",
-            "singular": "Suggestion",
-            "plural": "Suggestions",
+            "original": "Finley Suggestions",
+            "singular": "Finley Suggestion",
+            "plural": "Finley Suggestions",
             "setupEdit": false,
             "setupVisible": false
           },
@@ -16304,6 +16318,34 @@
             "original": "AI Suggestions",
             "singular": "AI Suggestion",
             "plural": "AI Suggestions",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec2":{
+            "original": "Auto-create a checklist with AI",
+            "singular": "Auto-create a checklist with AI",
+            "plural": "Auto-create a checklist with AI",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec3":{
+            "original": "Describe your checklist",
+            "singular": "Describe your checklist",
+            "plural": "Describe your checklist",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec4":{
+            "original": "Attach a reference file",
+            "singular": "Attach a reference file",
+            "plural": "Attach a reference file",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec5":{
+            "original": "Completion Summary",
+            "singular": "Completion Summary",
+            "plural": "Completion Summary",
             "setupEdit": false,
             "setupVisible": false
           }
@@ -16318,6 +16360,13 @@
             "setupEdit": false,
             "setupVisible": false
           }
+        },
+        "messages":{
+          "moreDetailYouProvide":"The more detail you provide, the better the checklist will match your requirements.",
+          "convertYourPhysicalChecklist":"Convert your physical checklists and forms into a FieldEx checklist (PDF or PNG - up to 5 MB)",
+          "mentionDetailsConsidered":"Mention the asset, fields, and any other details to be considered",
+          "suggestedBy":"Suggested by Finley",
+          "completedBy":"Completed by"
         }
       }
     },
