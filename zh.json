@@ -12142,6 +12142,13 @@
         "plural": "",
         "setupEdit": true,
         "setupVisible": false
+      },
+      "discard":{
+        "original": "Discard",
+        "singular": "丢弃",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "status": {
