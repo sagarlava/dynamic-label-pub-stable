@@ -13862,29 +13862,29 @@
             "setupVisible": false
           },
           "web": {
-            "original": "Web",
-            "singular": "Web",
-            "plural": "",
-            "setupEdit": true,
+            "original": "Allowed to Access Web App",
+            "singular": "Permitido acceder a la aplicación web",
+            "plural": "Permitido acceder a la aplicación web",
+            "setupEdit": false,
             "setupVisible": false
           },
           "loginWeb": {
-            "original": "User is able to login from the web",
-            "singular": "El usuario puede iniciar sesión desde la web",
+            "original": "Users with this access can use the web app",
+            "singular": "Los usuarios con este acceso pueden usar la aplicación web",
             "plural": "",
             "setupEdit": true,
             "setupVisible": false
           },
           "mobile": {
-            "original": "Mobile Access",
-            "singular": "Acceso Móvil",
-            "plural": "",
-            "setupEdit": true,
+            "original": "Allowed to Access Mobile App",
+            "singular": "Permitido acceder a la aplicación móvil",
+            "plural": "Permitido acceder a la aplicación móvil",
+            "setupEdit": false,
             "setupVisible": false
           },
           "loginMobile": {
-            "original": "User is able to login via the mobile application",
-            "singular": "El usuario puede iniciar sesión a través de la aplicación móvil",
+            "original": "Users with this access can use the mobile app",
+            "singular": "Los usuarios con este acceso pueden usar la aplicación móvil",
             "plural": "",
             "setupEdit": true,
             "setupVisible": false

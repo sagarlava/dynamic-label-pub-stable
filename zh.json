@@ -13862,29 +13862,29 @@
             "setupVisible": false
           },
           "web": {
-            "original": "Web",
-            "singular": "网页",
-            "plural": "",
-            "setupEdit": true,
+            "original": "Allowed to Access Web App",
+            "singular": "允许访问网页应用",
+            "plural": "允许访问网页应用",
+            "setupEdit": false,
             "setupVisible": false
           },
           "loginWeb": {
-            "original": "User is able to login from the web",
-            "singular": "用户可以从网页登录",
+            "original": "Users with this access can use the web app",
+            "singular": "具有此权限的用户可以使用网页应用",
             "plural": "",
             "setupEdit": true,
             "setupVisible": false
           },
           "mobile": {
-            "original": "Mobile Access",
-            "singular": "移动访问",
-            "plural": "",
-            "setupEdit": true,
+            "original": "Allowed to Access Mobile App",
+            "singular": "允许访问移动应用",
+            "plural": "允许访问移动应用",
+            "setupEdit": false,
             "setupVisible": false
           },
           "loginMobile": {
-            "original": "User is able to login via the mobile application",
-            "singular": "用户可以通过移动应用程序登录",
+            "original": "Users with this access can use the mobile app",
+            "singular": "具有此权限的用户可以使用移动应用",
             "plural": "",
             "setupEdit": true,
             "setupVisible": false
