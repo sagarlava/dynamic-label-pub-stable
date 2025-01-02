@@ -13831,10 +13831,10 @@
             "setupVisible": false
           },
           "sec11": {
-            "original": "Device Enablement",
-            "singular": "Device Enablement",
-            "plural": "",
-            "setupEdit": true,
+            "original": "Device Permissions",
+            "singular": "Device Permissions",
+            "plural": "Device Permissions",
+            "setupEdit": false,
             "setupVisible": false
           },
           "sec12": {
@@ -13911,29 +13911,29 @@
             "setupVisible": false
           },
           "web": {
-            "original": "Web",
-            "singular": "Web",
-            "plural": "",
-            "setupEdit": true,
+            "original": "Allowed to Access Web App",
+            "singular": "Allowed to Access Web App",
+            "plural": "Allowed to Access Web App",
+            "setupEdit": false,
             "setupVisible": false
           },
           "loginWeb": {
-            "original": "User is able to login from the web",
-            "singular": "User is able to login from the web",
+            "original": "Users with this access can use the web app",
+            "singular": "Users with this access can use the web app",
             "plural": "",
             "setupEdit": true,
             "setupVisible": false
           },
           "mobile": {
-            "original": "Mobile Access",
-            "singular": "Mobile Access",
-            "plural": "",
-            "setupEdit": true,
+            "original": "Allowed to Access Mobile App",
+            "singular": "Allowed to Access Mobile App",
+            "plural": "Allowed to Access Mobile App",
+            "setupEdit": false,
             "setupVisible": false
           },
           "loginMobile": {
-            "original": "User is able to login via the mobile application",
-            "singular": "User is able to login via the mobile application",
+            "original": "Users with this access can use the mobile app",
+            "singular": "Users with this access can use the mobile app",
             "plural": "",
             "setupEdit": true,
             "setupVisible": false
