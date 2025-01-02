@@ -13782,10 +13782,10 @@
             "setupVisible": false
           },
           "sec11": {
-            "original": "Device Enablement",
-            "singular": "Device Enablement",
-            "plural": "",
-            "setupEdit": true,
+            "original": "Device Permissions",
+            "singular": "Device Permissions",
+            "plural": "Device Permissions",
+            "setupEdit": false,
             "setupVisible": false
           },
           "sec12": {

@@ -13782,10 +13782,10 @@
             "setupVisible": false
           },
           "sec11": {
-            "original": "Device Enablement",
-            "singular": "Pengaktifan Peranti",
+            "original": "Device Permissions",
+            "singular": "Kebenaran Peranti",
             "plural": "",
-            "setupEdit": true,
+            "setupEdit": false,
             "setupVisible": false
           },
           "sec12": {

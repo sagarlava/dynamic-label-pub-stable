@@ -13782,10 +13782,10 @@
             "setupVisible": false
           },
           "sec11": {
-            "original": "Device Enablement",
-            "singular": "Geräteaktivierung",
+            "original": "Device Permissions",
+            "singular": "Geräteberechtigungen",
             "plural": "",
-            "setupEdit": true,
+            "setupEdit": false,
             "setupVisible": false
           },
           "sec12": {
