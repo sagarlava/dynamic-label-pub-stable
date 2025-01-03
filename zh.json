@@ -16103,6 +16103,13 @@
             "plural": "模块",
             "setupEdit": false,
             "setupVisible": false
+          },
+          "selectPicklist": {
+            "original": "Select Picklist",
+            "singular": "选择选择列表",
+            "plural": "选择选择列表",
+            "setupEdit": false,
+            "setupVisible": false
           }
         },
         "messages": {

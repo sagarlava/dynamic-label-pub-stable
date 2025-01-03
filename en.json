@@ -16103,6 +16103,13 @@
             "plural": "Modules",
             "setupEdit": false,
             "setupVisible": false
+          },
+          "selectPicklist": {
+            "original": "Select Picklist",
+            "singular": "Select Picklist",
+            "plural": "Select Picklist",
+            "setupEdit": false,
+            "setupVisible": false
           }
         },
         "messages":{

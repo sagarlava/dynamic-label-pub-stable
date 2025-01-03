@@ -16102,6 +16102,13 @@
             "plural": "Module",
             "setupEdit": false,
             "setupVisible": false
+          },
+          "selectPicklist": {
+            "original": "Select Picklist",
+            "singular": "Auswahlliste auswählen",
+            "plural": "Auswahllisten auswählen",
+            "setupEdit": false,
+            "setupVisible": false
           }
         },
         "messages": {
