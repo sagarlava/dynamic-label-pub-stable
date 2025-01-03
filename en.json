@@ -16183,7 +16183,10 @@
           "example":"Example",
           "selectModuleDesc":"Select a module to link it to this field and retrieve related data from it.",
           "moduleSelectedDesc":"Choose the field you want to look up from the selected module. This will allow you to retrieve and link relevant data from that field.",
-          "selectFieldDesc":"Choose a dynamic picklist field you want to select from the chosen module. This will allow you to retrieve relevant data from that picklist."
+          "selectFieldDesc":"Choose a dynamic picklist field you want to select from the chosen module. This will allow you to retrieve relevant data from that picklist.",
+          "parentPicklistDesc":"Parent picklists are Dropdowns or Buttons that have already been created. Select a parent picklist to link and map its options to this dropdown in the mapping page. The options available for this dropdown will then be based on the parent picklist selection.",
+          "fieldsDesc":"Add the fields that should appear in this Dropdown. These fields will be available for users to choose from when interacting with the Dropdown.",
+          "selectPicklistDesc":"Choose a dynamic picklist you want to select from the chosen module. This will allow you to retrieve relevant data from that picklist."
         }
       }
     },

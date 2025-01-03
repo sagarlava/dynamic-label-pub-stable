@@ -16182,7 +16182,10 @@
           "example":"Contoh",
           "selectModuleDesc":"Pilih modul untuk memautkannya ke medan ini dan mendapatkan data berkaitan daripadanya.",
           "moduleSelectedDesc":"Pilih medan yang ingin anda rujuk daripada modul yang dipilih. Ini akan membolehkan anda mendapatkan dan memautkan data berkaitan daripada medan tersebut.",
-          "selectFieldDesc":"Pilih medan senarai pilihan dinamik yang anda ingin pilih daripada modul yang dipilih. Ini akan membolehkan anda mendapatkan data berkaitan daripada senarai pilihan itu."
+          "selectFieldDesc":"Pilih medan senarai pilihan dinamik yang anda ingin pilih daripada modul yang dipilih. Ini akan membolehkan anda mendapatkan data berkaitan daripada senarai pilihan itu.",
+          "parentPicklistDesc":"Senarai pilihan induk adalah Dropdown atau Butang yang telah dicipta. Pilih senarai pilihan induk untuk memautkan dan memetakan opsinya ke dropdown ini di halaman pemetaan. Opsyen yang tersedia untuk dropdown ini akan berdasarkan pemilihan senarai pilihan induk.",
+          "fieldsDesc":"Tambah medan yang sepatutnya muncul dalam Dropdown ini. Medan ini akan tersedia untuk pengguna pilih semasa berinteraksi dengan Dropdown.",
+          "selectPicklistDesc":"Pilih senarai pilihan dinamik yang anda ingin pilih daripada modul yang dipilih. Ini akan membolehkan anda mendapatkan data berkaitan daripada senarai pilihan tersebut."
         }
       }
     },

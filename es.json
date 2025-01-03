@@ -16184,7 +16184,10 @@
           "example":"Ejemplo",
           "selectModuleDesc":"Seleccione un módulo para vincularlo a este campo y recuperar datos relacionados de él.",
           "moduleSelectedDesc":"Elija el campo que desea consultar del módulo seleccionado. Esto le permitirá recuperar y vincular datos relevantes de ese campo.",
-          "selectFieldDesc":"Elija un campo de lista de selección dinámica que desea seleccionar del módulo elegido. Esto le permitirá recuperar datos relevantes de esa lista de selección."
+          "selectFieldDesc":"Elija un campo de lista de selección dinámica que desea seleccionar del módulo elegido. Esto le permitirá recuperar datos relevantes de esa lista de selección.",
+          "parentPicklistDesc":"Las listas de selección principales son menús desplegables o botones que ya se han creado. Seleccione una lista de selección principal para vincular y asignar sus opciones a este desplegable en la página de mapeo. Las opciones disponibles para este desplegable se basarán en la selección de la lista de selección principal.",
+          "fieldsDesc":"Agregue los campos que deberían aparecer en este desplegable. Estos campos estarán disponibles para que los usuarios los seleccionen al interactuar con el desplegable.",
+          "selectPicklistDesc":"Elija una lista de selección dinámica que desea seleccionar del módulo elegido. Esto le permitirá recuperar datos relevantes de esa lista de selección."
         }
       }
     },
