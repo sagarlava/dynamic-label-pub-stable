@@ -16366,7 +16366,9 @@
           "convertYourPhysicalChecklist":"Konvertieren Sie Ihre physischen Checklisten und Formulare in eine FieldEx-Checkliste (PDF oder PNG - bis zu 5 MB)",
           "mentionDetailsConsidered":"Geben Sie die zu berücksichtigenden Vermögenswerte, Felder und andere Details an",
           "suggestedBy":"Vorgeschlagen von Finley",
-          "completedBy":"Abgeschlossen von"
+          "completedBy":"Abgeschlossen von",
+          "beta":"beta",
+          "enableOrDisableSuggestions":"Aktivieren oder deaktivieren Sie Vorschläge und Funktionen, die von unserer freundlichen KI Finley unterstützt werden. Aktivierte Funktionen sind für alle Benutzer in Ihrer Organisation zugänglich, sodass sie ihre Präferenzen durch Ein- oder Ausschalten bestimmter Funktionen anpassen können."
         }
       }
     },

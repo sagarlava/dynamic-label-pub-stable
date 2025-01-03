@@ -16366,7 +16366,9 @@
           "convertYourPhysicalChecklist":"Convert your physical checklists and forms into a FieldEx checklist (PDF or PNG - up to 5 MB)",
           "mentionDetailsConsidered":"Mention the asset, fields, and any other details to be considered",
           "suggestedBy":"Suggested by Finley",
-          "completedBy":"Completed by"
+          "completedBy":"Completed by",
+          "beta":"beta",
+          "enableOrDisableSuggestions":"Enable or disable suggestions and features powered by our friendly AI, Finley. Features that are enabled will be accessible to all users in your organization, allowing them to customize their preferences by turning specific features on or off."
         }
       }
     },
