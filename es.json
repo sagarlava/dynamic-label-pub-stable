@@ -10688,7 +10688,8 @@
       "maxUploadFileSize": "El tamaño máximo de archivo para subir es 25MB",
       "fileExtension": "Solo se permiten archivos con extensiones *.pdf, *.docx, *.jpg",
       "fileTypeUnsupported":"Este tipo de archivo no es compatible. Por favor, elija un archivo diferente.",
-      "allowedFileSize4MB":"El tamaño del archivo excede el límite de 4 MB. Por favor, suba un archivo más pequeño."
+      "allowedFileSize4MB":"El tamaño del archivo excede el límite de 4 MB. Por favor, suba un archivo más pequeño.",
+      "onlyAcceptImagesExt":"Solo se aceptan JPG, JPEG y PNG"
     }
   },
   "history": {
@@ -15421,8 +15422,8 @@
             "setupVisible": false
           },
           "userInField": {
-            "original": "User in Field",
-            "singular": "Usuario en Campo",
+            "original": "User Field",
+            "singular": "Campo de Usuario",
             "plural": "",
             "setupEdit": true,
             "setupVisible": false
@@ -15464,7 +15465,7 @@
           },
           "emailInField": {
             "original": "Email in Field",
-            "singular": "Correo electrónico en el campo",
+            "singular": "Campo de Correo Electrónico",
             "plural": "",
             "setupEdit": false,
             "setupVisible": false
@@ -20876,9 +20877,9 @@
           "emailNotificationsDesc": "Diseñe plantillas de correo electrónico personalizadas con valores de campo para notificar a los usuarios de FieldEx o contactos externos.",
           "whetherRemindersCustomer": "Ya sean recordatorios, actualizaciones para clientes o alertas para el equipo, los flujos de trabajo facilitan mantenerse conectado de manera simple y efectiva.",
           "useThisPageToCreateNewWorkflows": "Utiliza esta página para crear nuevos flujos de trabajo o gestionar los que ya has configurado.",
-          "triggerWhenNewRecordCreated": "Cuando se crea un registro: El flujo de trabajo se activará cuando se añada un nuevo registro y se cumplan las condiciones establecidas.",
-          "triggerWhenUpdatedFirstTime": "Cuando un registro cambia por primera vez: El flujo de trabajo se activa la primera vez que se realizan cambios en el registro y se cumplen las condiciones especificadas.",
-          "triggerWhenRecordUpdatedEverytime": "Cada vez que se actualiza un registro: El flujo de trabajo se activa cada vez que se realizan cambios en el registro y se cumplen las condiciones especificadas.",
+          "triggerWhenNewRecordCreated": "El flujo de trabajo se activará cuando se añada un nuevo registro y se cumplan las condiciones establecidas.",
+          "triggerWhenUpdatedFirstTime": "El flujo de trabajo se activa la primera vez que se realizan cambios en el registro y se cumplen las condiciones especificadas.",
+          "triggerWhenRecordUpdatedEverytime": "El flujo de trabajo se activa cada vez que se realizan cambios en el registro y se cumplen las condiciones especificadas.",
           "triggerWhenRecordDeleted": "Esta opción activará el flujo de trabajo cada vez que se elimine un registro.",
           "selectStatus": "Seleccionar estado",
           "selectAttribute": "Seleccionar atributo",

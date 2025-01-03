@@ -10688,7 +10688,8 @@
       "maxUploadFileSize": "Maximum upload file size is 25MB",
       "fileExtension":"Only files with extensions *.pdf, *.docx, *.jpg are allowed",
       "fileTypeUnsupported":"This file type is Unsupported. Please choose a different file.",
-      "allowedFileSize4MB":"File size exceeds 4MB limit. Please upload a smaller file."
+      "allowedFileSize4MB":"File size exceeds 4MB limit. Please upload a smaller file.",
+      "onlyAcceptImagesExt":"Only Accept JPG, JPEG and PNG"
     }
   },
   "history": {
@@ -15421,8 +15422,8 @@
             "setupVisible": false
           },
           "userInField": {
-            "original": "User in Field",
-            "singular": "User in Field",
+            "original": "User Field",
+            "singular": "User Field",
             "plural": "",
             "setupEdit": true,
             "setupVisible": false
@@ -15463,8 +15464,8 @@
             "setupVisible": false
           },
           "emailInField": {
-            "original": "Email in Field",
-            "singular": "Email in Field",
+            "original": "Email Field",
+            "singular": "Email Field",
             "plural": "",
             "setupEdit": false,
             "setupVisible": false
@@ -20876,9 +20877,9 @@
         "emailNotificationsDesc":"Design custom email templates with field values to notify FieldEx users or external contacts.",
         "whetherRemindersCustomer":"Whether it's reminders, customer updates, or team alerts, workflows make staying connected simple and effective.",
         "useThisPageToCreateNewWorkflows": "Use this page to create new workflows or manage the ones you've already set up.",
-        "triggerWhenNewRecordCreated":"When a record is created: The workflow will trigger when a new record is added and the set conditions are met.",
-        "triggerWhenUpdatedFirstTime":"When a record is changed for the first time: The workflow triggers the first time changes are made to the record and meet the specified conditions.",
-        "triggerWhenRecordUpdatedEverytime":"Every time a record is updated: The workflow triggers every time changes are made to the record and meet the specified conditions.",
+        "triggerWhenNewRecordCreated":"The workflow will trigger when a new record is added and the set conditions are met.",
+        "triggerWhenUpdatedFirstTime":"The workflow triggers the first time changes are made to the record and meet the specified conditions.",
+        "triggerWhenRecordUpdatedEverytime":"The workflow triggers every time changes are made to the record and meet the specified conditions.",
         "triggerWhenRecordDeleted":"This option will trigger the workflow whenever a record is deleted.",
         "selectStatus":"Select Status",
         "selectAttribute": "Select Attribute",
