@@ -16110,6 +16110,13 @@
             "plural": "Select Picklist",
             "setupEdit": false,
             "setupVisible": false
+          },
+          "example": {
+            "original": "Example",
+            "singular": "Example",
+            "plural": "Example",
+            "setupEdit": false,
+            "setupVisible": false
           }
         },
         "messages":{
