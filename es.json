@@ -16090,6 +16090,20 @@
             "plural": "Obligatorios",
             "setupEdit": false,
             "setupVisible": false
+          },
+          "selectModule": {
+            "original": "Select Module",
+            "singular": "Seleccionar Módulo",
+            "plural": "Seleccionar Módulos",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "module": {
+            "original": "Module",
+            "singular": "Módulo",
+            "plural": "Módulos",
+            "setupEdit": false,
+            "setupVisible": false
           }
         },
         "messages": {

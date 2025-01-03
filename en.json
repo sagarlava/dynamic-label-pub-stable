@@ -16089,6 +16089,20 @@
             "plural": "Mandatory",
             "setupEdit": false,
             "setupVisible": false
+          },
+          "selectModule": {
+            "original": "Select Module",
+            "singular": "Select Module",
+            "plural": "Select Modules",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "module": {
+            "original": "Module",
+            "singular": "Module",
+            "plural": "Modules",
+            "setupEdit": false,
+            "setupVisible": false
           }
         },
         "messages":{

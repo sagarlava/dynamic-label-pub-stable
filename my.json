@@ -16088,6 +16088,20 @@
             "plural": "Wajib",
             "setupEdit": false,
             "setupVisible": false
+          },
+          "selectModule": {
+            "original": "Select Module",
+            "singular": "Pilih Modul",
+            "plural": "Pilih Modul-Modul",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "module": {
+            "original": "Module",
+            "singular": "Modul",
+            "plural": "Modul-Modul",
+            "setupEdit": false,
+            "setupVisible": false
           }
         },
         "messages": {

@@ -16088,6 +16088,20 @@
             "plural": "Verpflichtend",
             "setupEdit": false,
             "setupVisible": false
+          },
+          "selectModule": {
+            "original": "Select Module",
+            "singular": "Modul auswählen",
+            "plural": "Module auswählen",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "module": {
+            "original": "Module",
+            "singular": "Modul",
+            "plural": "Module",
+            "setupEdit": false,
+            "setupVisible": false
           }
         },
         "messages": {

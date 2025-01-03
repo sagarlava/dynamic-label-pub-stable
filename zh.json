@@ -16089,6 +16089,20 @@
             "plural": "强制性",
             "setupEdit": false,
             "setupVisible": false
+          },
+          "selectModule": {
+            "original": "Select Module",
+            "singular": "选择模块",
+            "plural": "选择模块",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "module": {
+            "original": "Module",
+            "singular": "模块",
+            "plural": "模块",
+            "setupEdit": false,
+            "setupVisible": false
           }
         },
         "messages": {
