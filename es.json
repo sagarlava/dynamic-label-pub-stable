@@ -16181,7 +16181,10 @@
           "completeAllStepSubform":"Complete todos los pasos para configurar completamente su subformulario",
           "editFormArrangement":"¿Está seguro de que desea editar la disposición de este formulario? Los cambios realizados también se reflejarán en los formularios anteriores. Esto no se puede deshacer.",
           "selectLayoutPreferred":"Seleccione el diseño que prefiera para su sección. Los campos que agregue a la sección se mostrarán de acuerdo con el diseño de su sección.",
-          "example":"Ejemplo"
+          "example":"Ejemplo",
+          "selectModuleDesc":"Seleccione un módulo para vincularlo a este campo y recuperar datos relacionados de él.",
+          "moduleSelectedDesc":"Elija el campo que desea consultar del módulo seleccionado. Esto le permitirá recuperar y vincular datos relevantes de ese campo.",
+          "selectFieldDesc":"Elija un campo de lista de selección dinámica que desea seleccionar del módulo elegido. Esto le permitirá recuperar datos relevantes de esa lista de selección."
         }
       }
     },
