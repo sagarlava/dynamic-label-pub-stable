@@ -20934,7 +20934,18 @@
         "isGreaterThan":"ist größer als",
         "isGreaterThanOrEqualTo":"ist größer oder gleich wie",
         "isLessThan":"ist kleiner als",
-        "isLessThanOrEqualTo":"ist kleiner oder gleich wie"
+        "isLessThanOrEqualTo":"ist kleiner oder gleich wie",
+        "today":"Heute",
+        "yesterday":"Gestern",
+        "tomorrow":"Morgen",
+        "thisWeek":"Diese Woche",
+        "lastWeek":"Letzte Woche",
+        "nextWeek":"Nächste Woche",
+        "thisMonth":"Diesen Monat",
+        "lastMonth":"Letzten Monat",
+        "nextMonth":"Nächsten Monat",
+        "thisYear":"Dieses Jahr",
+        "addDays":"Tage Hinzufügen"
       }
     },
     "templates": {

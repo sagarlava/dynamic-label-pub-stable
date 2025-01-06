@@ -20934,7 +20934,18 @@
         "isGreaterThan":"lebih besar daripada",
         "isGreaterThanOrEqualTo":"lebih besar atau sama dengan",
         "isLessThan":"kurang daripada",
-        "isLessThanOrEqualTo":"kurang atau sama dengan"
+        "isLessThanOrEqualTo":"kurang atau sama dengan",
+        "today":"Hari Ini",
+        "yesterday":"Semalam",
+        "tomorrow":"Esok",
+        "thisWeek":"Minggu Ini",
+        "lastWeek":"Minggu Lepas",
+        "nextWeek":"Minggu Depan",
+        "thisMonth":"Bulan Ini",
+        "lastMonth":"Bulan Lepas",
+        "nextMonth":"Bulan Depan",
+        "thisYear":"Tahun Ini",
+        "addDays":"Tambah Hari"
       }
     },
     "templates": {
