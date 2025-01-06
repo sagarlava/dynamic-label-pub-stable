@@ -15737,6 +15737,13 @@
             "plural": "Subform Details",
             "setupEdit": false,
             "setupVisible": false
+          },
+          "sec35":{
+            "original": "Mapping",
+            "singular": "Mapping",
+            "plural": "Mapping",
+            "setupEdit": false,
+            "setupVisible": false
           }
         },
         "fields":{
@@ -16200,7 +16207,13 @@
           "selectFieldDesc":"Choose a dynamic picklist field you want to select from the chosen module. This will allow you to retrieve relevant data from that picklist.",
           "parentPicklistDesc":"Parent picklists are Dropdowns or Buttons that have already been created. Select a parent picklist to link and map its options to this dropdown in the mapping page. The options available for this dropdown will then be based on the parent picklist selection.",
           "fieldsDesc":"Add the fields that should appear in this Dropdown. These fields will be available for users to choose from when interacting with the Dropdown.",
-          "selectPicklistDesc":"Choose a dynamic picklist you want to select from the chosen module. This will allow you to retrieve relevant data from that picklist."
+          "selectPicklistDesc":"Choose a dynamic picklist you want to select from the chosen module. This will allow you to retrieve relevant data from that picklist.",
+          "looksLikeNoFieldsCreated":"It looks like you don't have any forms created just yet. Don't worry, just follow these steps and we'll have your forms up and running in no time!",
+          "beginCreateFieldClickNew":"Begin creating a field by clicking on the + New button.",
+          "selectComponentTypeFromSelection":"Select a component type from the available selection that best fits your use case.",
+          "fillInAllNecessaryDets":"Fill in all the necessary details for your field.",
+          "onlyForDropdownButton":"Only For Dropdown or Button",
+          "selectDropdownButtonLinkParent":"If you select a Dropdown or Button component you can link it to a parent picklist, which is another Dropdown or Button component that you have already created. This will take you to the Picklist Mapping page where you can set up the mapping. Alternatively, you can access the Picklist Mapping page by clicking the 'Map Picklist' button in the field list view."
         }
       }
     },

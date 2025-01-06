@@ -16199,7 +16199,13 @@
           "selectFieldDesc":"Wählen Sie ein dynamisches Auswahllistenfeld aus, das Sie aus dem ausgewählten Modul auswählen möchten. Dies ermöglicht es Ihnen, relevante Daten aus dieser Auswahlliste abzurufen.",
           "parentPicklistDesc":"Übergeordnete Auswahllisten sind Dropdowns oder Schaltflächen, die bereits erstellt wurden. Wählen Sie eine übergeordnete Auswahlliste aus, um deren Optionen auf dieser Dropdown-Liste auf der Zuordnungsseite zu verknüpfen und zuzuordnen. Die verfügbaren Optionen für dieses Dropdown basieren dann auf der Auswahl der übergeordneten Auswahlliste.",
           "fieldsDesc":"Fügen Sie die Felder hinzu, die in diesem Dropdown angezeigt werden sollen. Diese Felder stehen Benutzern zur Auswahl zur Verfügung, wenn sie mit dem Dropdown interagieren.",
-          "selectPicklistDesc":"Wählen Sie eine dynamische Auswahlliste aus, die Sie aus dem ausgewählten Modul auswählen möchten. Dies ermöglicht es Ihnen, relevante Daten aus dieser Auswahlliste abzurufen."
+          "selectPicklistDesc":"Wählen Sie eine dynamische Auswahlliste aus, die Sie aus dem ausgewählten Modul auswählen möchten. Dies ermöglicht es Ihnen, relevante Daten aus dieser Auswahlliste abzurufen.",
+          "looksLikeNoFieldsCreated":"Es sieht so aus, als hätten Sie noch keine Formulare erstellt. Keine Sorge, folgen Sie einfach diesen Schritten und wir bringen Ihre Formulare im Handumdrehen zum Laufen!",
+          "beginCreateFieldClickNew":"Beginnen Sie mit der Erstellung eines Feldes, indem Sie auf die Schaltfläche + Neu klicken.",
+          "selectComponentTypeFromSelection":"Wählen Sie einen Komponententyp aus der verfügbaren Auswahl, der am besten zu Ihrem Anwendungsfall passt.",
+          "fillInAllNecessaryDets":"Füllen Sie alle erforderlichen Details für Ihr Feld aus.",
+          "onlyForDropdownButton":"Nur für Dropdown oder Schaltfläche",
+          "selectDropdownButtonLinkParent":"Wenn Sie eine Dropdown- oder Schaltflächenkomponente auswählen, können Sie diese mit einer übergeordneten Auswahlliste verknüpfen, also einer anderen Dropdown- oder Schaltflächenkomponente, die Sie bereits erstellt haben. Dies führt Sie zur Auswahllisten-Zuordnungsseite, auf der Sie die Zuordnung einrichten können. Alternativ können Sie auf die Auswahllisten-Zuordnungsseite zugreifen, indem Sie in der Feldlistenansicht auf die Schaltfläche 'Auswahlliste zuordnen' klicken."
         }
       }
     },

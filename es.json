@@ -16201,7 +16201,13 @@
           "selectFieldDesc":"Elija un campo de lista de selección dinámica que desea seleccionar del módulo elegido. Esto le permitirá recuperar datos relevantes de esa lista de selección.",
           "parentPicklistDesc":"Las listas de selección principales son menús desplegables o botones que ya se han creado. Seleccione una lista de selección principal para vincular y asignar sus opciones a este desplegable en la página de mapeo. Las opciones disponibles para este desplegable se basarán en la selección de la lista de selección principal.",
           "fieldsDesc":"Agregue los campos que deberían aparecer en este desplegable. Estos campos estarán disponibles para que los usuarios los seleccionen al interactuar con el desplegable.",
-          "selectPicklistDesc":"Elija una lista de selección dinámica que desea seleccionar del módulo elegido. Esto le permitirá recuperar datos relevantes de esa lista de selección."
+          "selectPicklistDesc":"Elija una lista de selección dinámica que desea seleccionar del módulo elegido. Esto le permitirá recuperar datos relevantes de esa lista de selección.",
+          "looksLikeNoFieldsCreated":"Parece que aún no ha creado ningún formulario. ¡No se preocupe, simplemente siga estos pasos y sus formularios estarán listos en poco tiempo!",
+          "beginCreateFieldClickNew":"Comience a crear un campo haciendo clic en el botón + Nuevo.",
+          "selectComponentTypeFromSelection":"Seleccione un tipo de componente de la selección disponible que mejor se ajuste a su caso de uso.",
+          "fillInAllNecessaryDets":"Complete todos los detalles necesarios para su campo.",
+          "onlyForDropdownButton":"Solo para Menú Desplegable o Botón",
+          "selectDropdownButtonLinkParent":"Si selecciona un componente de Menú Desplegable o Botón, puede vincularlo a una lista de selección principal, que es otro componente de Menú Desplegable o Botón que ya ha creado. Esto lo llevará a la página de Mapeo de Listas de Selección, donde puede configurar el mapeo. Alternativamente, puede acceder a la página de Mapeo de Listas de Selección haciendo clic en el botón 'Mapear Lista de Selección' en la vista de lista de campos."
         }
       }
     },
