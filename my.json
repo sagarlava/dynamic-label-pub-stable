@@ -4481,7 +4481,8 @@
       "teamSkillIdExists": "Kemahiran Pasukan baru tidak boleh sudah mempunyai ID",
       "userTaskIdExists": "Tugas Pengguna baru tidak boleh sudah mempunyai ID",
       "userTaskIdNotFound": "ID tidak dijumpai",
-      "userTaskNotFound": "Tugas Pengguna tidak dijumpai"
+      "userTaskNotFound": "Tugas Pengguna tidak dijumpai",
+      "userNotAllowedToAssignTask": "Pengguna tidak dibenarkan menambah ahli kepada Tugas"
     },
     "tooltips": {
       "setupVisible": false,
