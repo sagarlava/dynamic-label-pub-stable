@@ -21855,7 +21855,11 @@
       "setupWorkflowDeleteAlertInUse":"La notificación se utiliza en uno o más flujos de trabajo",
       "setupWorkflowIdValuesRequired":"Se requiere el valor del ID del flujo de trabajo",
       "setupWorkflowLinkedToNotifications":"El flujo de trabajo tiene notificaciones asignadas. Por favor, elimínelas primero",
-      "setupWorkflowMaxAllowedCount":"Se ha alcanzado el máximo de flujos de trabajo activos"
+      "setupWorkflowMaxAllowedCount":"Se ha alcanzado el máximo de flujos de trabajo activos",
+      "setupWorkflowMaxActionsPerWorkflow": "Acciones máximas por flujo de trabajo alcanzadas",
+      "setupWorkflowEmailsMax": "Se alcanzó el número máximo permitido de direcciones de correo electrónico para notificaciones de flujo de trabajo",
+      "setupWorkflowEmailUserMax": "Se alcanzó el número máximo de usuarios permitidos para notificaciones de flujo de trabajo",
+      "setupWorkflowEmailUserGroupMax": "Se alcanzó el número máximo de usuarios permitidos para notificaciones de flujo de trabajo"
     },
     "labelBE": {
       "profileTableColumnSetup": {

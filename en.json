@@ -21855,7 +21855,11 @@
       "setupWorkflowDeleteAlertInUse":"Notification is used in one or more Workflows",
       "setupWorkflowIdValuesRequired": "Workflow id value required",
       "setupWorkflowLinkedToNotifications": "Workflow has Notifications assigned to it. Please remove them first",
-      "setupWorkflowMaxAllowedCount":"Maximum active workflows reached"
+      "setupWorkflowMaxAllowedCount":"Maximum active workflows reached",
+      "setupWorkflowMaxActionsPerWorkflow": "Maximum actions per workflow reached",
+      "setupWorkflowEmailsMax": "Maximum allowed email addresses reached for workflow notification",
+      "setupWorkflowEmailUserMax": "Maximum allowed users reached for workflow notification",
+      "setupWorkflowEmailUserGroupMax": "Maximum allowed users reached for workflow notification"
     },
     "labelBE": {
       "profileTableColumnSetup": {
