@@ -15737,6 +15737,20 @@
             "plural": "子表单详情",
             "setupEdit": false,
             "setupVisible": false
+          },
+          "sec35":{
+            "original": "Mapping",
+            "singular": "映射",
+            "plural": "映射",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec36":{
+            "original": "Fields",
+            "singular": "字段",
+            "plural": "字段",
+            "setupEdit": false,
+            "setupVisible": false
           }
         },
         "fields": {

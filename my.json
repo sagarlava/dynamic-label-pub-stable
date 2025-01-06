@@ -15736,6 +15736,20 @@
             "plural": "Butiran Subborang",
             "setupEdit": false,
             "setupVisible": false
+          },
+          "sec35":{
+            "original": "Mapping",
+            "singular": "Pemetaan",
+            "plural": "Pemetaan",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec36":{
+            "original": "Fields",
+            "singular": "Medan",
+            "plural": "Medan-medan",
+            "setupEdit": false,
+            "setupVisible": false
           }
         },
         "fields": {

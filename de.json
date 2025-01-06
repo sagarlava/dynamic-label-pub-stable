@@ -15736,6 +15736,20 @@
             "plural": "Unterformular-Details",
             "setupEdit": false,
             "setupVisible": false
+          },
+          "sec35":{
+            "original": "Mapping",
+            "singular": "Zuordnung",
+            "plural": "Zuordnungen",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec36":{
+            "original": "Fields",
+            "singular": "Feld",
+            "plural": "Felder",
+            "setupEdit": false,
+            "setupVisible": false
           }
         },
         "fields": {

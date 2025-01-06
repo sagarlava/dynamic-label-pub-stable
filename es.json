@@ -15738,6 +15738,20 @@
             "plural": "Detalles de los Subformularios",
             "setupEdit": false,
             "setupVisible": false
+          },
+          "sec35":{
+            "original": "Mapping",
+            "singular": "Mapeo",
+            "plural": "Mapeos",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec36":{
+            "original": "Fields",
+            "singular": "Campo",
+            "plural": "Campos",
+            "setupEdit": false,
+            "setupVisible": false
           }
         },
         "fields": {
