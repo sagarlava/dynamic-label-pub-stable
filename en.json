@@ -10681,6 +10681,7 @@
       "invalidFileTypeExclamation": "Invalid file type!",
       "allowedFileSize": "File size should be less than 25MB",
       "allowedFileSizeKb": "File size should be less than 100KB",
+      "allowedFileSize500Kb": "File size should be less than 500KB",
       "allowedFileSizeOnly": "File size should be less than",
       "cannotFindFile":"Cannot find filename and filetype",
       "pdfNotAvailable": "Sorry! PDF is not available",
@@ -20931,7 +20932,8 @@
         "onlyOneThingNeedsToHappen": "Only one thing from that group needs to happen.",
         "everythingInGroupMustHappen": "Everything in that group must happen.",
         "workflowHasNotBegun":"No start trigger specified.",
-        "clickHereToAdd":"Click here to add."
+        "clickHereToAdd":"Click here to add.",
+        "noOfRules":"No. of rules"
       }
     },
     "templates":{

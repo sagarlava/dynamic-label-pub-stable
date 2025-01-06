@@ -10681,6 +10681,7 @@
       "invalidFileTypeExclamation": "无效的文件类型！",
       "allowedFileSize": "文件大小应小于25MB",
       "allowedFileSizeKb": "文件大小应小于100KB",
+      "allowedFileSize500Kb": "文件大小应小于500KB",
       "allowedFileSizeOnly": "文件大小应小于",
       "cannotFindFile": "无法找到文件名和文件类型",
       "pdfNotAvailable": "抱歉！PDF不可用",
@@ -20931,7 +20932,8 @@
         "onlyOneThingNeedsToHappen": "该组中的一件事需要发生。",
         "everythingInGroupMustHappen": "该组中的所有事情都必须发生。",
         "workflowHasNotBegun":"未指定开始触发器。",
-        "clickHereToAdd":"点击此处添加。"
+        "clickHereToAdd":"点击此处添加。",
+        "noOfRules":"规则数量"
       }
     },
     "templates": {
