@@ -20923,7 +20923,18 @@
         "onlyOneThingNeedsToHappen": "Only one thing from that group needs to happen.",
         "everythingInGroupMustHappen": "Everything in that group must happen.",
         "workflowHasNotBegun":"No start trigger specified.",
-        "clickHereToAdd":"Click here to add."
+        "clickHereToAdd":"Click here to add.",
+        "equalTo":"equal to",
+        "equalToEmpty":"equal to ' '",
+        "notEqualTo":"not equal to",
+        "notEqualToEmpty":"not equal to ' '",
+        "contains":"contains",
+        "startsWith":"starts with",
+        "endsWith":"ends with",
+        "isGreaterThan":"is greater than",
+        "isGreaterThanOrEqualTo":"is greater than or equal to",
+        "isLessThan":"is less than",
+        "isLessThanOrEqualTo":"is less than or equal to"
       }
     },
     "templates":{

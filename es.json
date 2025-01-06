@@ -20923,7 +20923,18 @@
           "onlyOneThingNeedsToHappen": "Solo necesita suceder una cosa de ese grupo.",
           "everythingInGroupMustHappen": "Todo en ese grupo debe suceder.",
           "workflowHasNotBegun":"No se especificó un disparador de inicio.",
-          "clickHereToAdd":"Haga clic aquí para agregar."
+          "clickHereToAdd":"Haga clic aquí para agregar.",
+          "equalTo":"igual a",
+          "equalToEmpty":"igual a ' '",
+          "notEqualTo":"no igual a",
+          "notEqualToEmpty":"no igual a ' '",
+          "contains":"contiene",
+          "startsWith":"empieza con",
+          "endsWith":"termina con",
+          "isGreaterThan":"es mayor que",
+          "isGreaterThanOrEqualTo":"es mayor o igual que",
+          "isLessThan":"es menor que",
+          "isLessThanOrEqualTo":"es menor o igual que"
       }
     },
     "templates": {

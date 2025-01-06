@@ -20923,7 +20923,18 @@
         "onlyOneThingNeedsToHappen": "Nur eine Sache aus dieser Gruppe muss passieren.",
         "everythingInGroupMustHappen": "Alles in dieser Gruppe muss passieren.",
         "workflowHasNotBegun": "Kein Startauslöser angegeben",
-        "clickHereToAdd": "Klicken Sie hier, um hinzuzufügen."
+        "clickHereToAdd": "Klicken Sie hier, um hinzuzufügen.",
+        "equalTo":"gleich wie",
+        "equalToEmpty":"gleich wie ' '",
+        "notEqualTo":"ungleich wie",
+        "notEqualToEmpty":"ungleich wie ' '",
+        "contains":"enthält",
+        "startsWith":"beginnt mit",
+        "endsWith":"endet mit",
+        "isGreaterThan":"ist größer als",
+        "isGreaterThanOrEqualTo":"ist größer oder gleich wie",
+        "isLessThan":"ist kleiner als",
+        "isLessThanOrEqualTo":"ist kleiner oder gleich wie"
       }
     },
     "templates": {
