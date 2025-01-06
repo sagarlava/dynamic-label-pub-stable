@@ -15481,6 +15481,13 @@
             "plural": "",
             "setupEdit": true,
             "setupVisible": false
+          },
+          "separateEmail": {
+            "original": "Separate multiple email addresses with commas",
+            "singular": "Separate multiple email addresses with commas",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": false
           }
         },
         "messages":{
@@ -21269,7 +21276,7 @@
             "firstSelectSettings":"First select a module in the 'Settings' tab to start building your email",
             "includeButtonInEmail":"Include a button in the email",
             "includeTableInEmail":"Include a table in the email",
-            "selectFieldFilter":"Table should filter by...",
+            "selectFieldFilter":"Filter by...",
             "selectModule":"Select Module",
             "selectSortBy":"Table should sort by...",
             "maximumFiveColumnsAdded":"Maximum 5 columns can be added"

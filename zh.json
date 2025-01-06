@@ -15481,6 +15481,13 @@
             "plural": "",
             "setupEdit": true,
             "setupVisible": false
+          },
+          "separateEmail": {
+            "original": "Separate multiple email addresses with commas",
+            "singular": "用逗号分隔多个电子邮件地址",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": false
           }
         },
         "messages": {
@@ -21269,7 +21276,7 @@
             "firstSelectSettings": "首先在“设置”选项卡中选择一个模块以开始构建电子邮件",
             "includeButtonInEmail": "在电子邮件中包含一个按钮",
             "includeTableInEmail": "在电子邮件中包含一个表格",
-            "selectFieldFilter": "表格应按以下内容筛选...",
+            "selectFieldFilter": "按...筛选",
             "selectModule": "选择模块",
             "selectSortBy": "表格应按以下内容排序...",
             "maximumFiveColumnsAdded": "最多可以添加 5 列"
