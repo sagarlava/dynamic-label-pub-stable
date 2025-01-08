@@ -4481,7 +4481,8 @@
       "teamSkillIdExists": "A new Team Skill cannot already have an ID",
       "userTaskIdExists": "A new User Task cannot already have an ID",
       "userTaskIdNotFound": "Id not found",
-      "userTaskNotFound": "User Task not found"
+      "userTaskNotFound": "User Task not found",
+      "userNotAllowedToAssignTask": "User not allowed to add member to the Task"
     },
     "tooltips": {
       "setupVisible": false,
@@ -10680,6 +10681,7 @@
       "invalidFileTypeExclamation": "Invalid file type!",
       "allowedFileSize": "File size should be less than 25MB",
       "allowedFileSizeKb": "File size should be less than 100KB",
+      "allowedFileSize500Kb": "File size should be less than 500KB",
       "allowedFileSizeOnly": "File size should be less than",
       "cannotFindFile":"Cannot find filename and filetype",
       "pdfNotAvailable": "Sorry! PDF is not available",
@@ -15479,6 +15481,13 @@
             "singular": "When the user clicks the notification, where should it take them?",
             "plural": "",
             "setupEdit": true,
+            "setupVisible": false
+          },
+          "separateEmail": {
+            "original": "Separate multiple email addresses with commas",
+            "singular": "Separate multiple email addresses with commas",
+            "plural": "",
+            "setupEdit": false,
             "setupVisible": false
           }
         },
@@ -20924,6 +20933,7 @@
         "everythingInGroupMustHappen": "Everything in that group must happen.",
         "workflowHasNotBegun":"No start trigger specified.",
         "clickHereToAdd":"Click here to add.",
+        "noOfRules":"No. of rules",
         "equalTo":"equal to",
         "equalToEmpty":"equal to ' '",
         "notEqualTo":"not equal to",
@@ -21290,8 +21300,9 @@
             "firstSelectSettings":"First select a module in the 'Settings' tab to start building your email",
             "includeButtonInEmail":"Include a button in the email",
             "includeTableInEmail":"Include a table in the email",
-            "selectFieldFilter":"Table should filter by...",
+            "selectFieldFilter":"Filter by...",
             "selectModule":"Select Module",
+            "selectTemplate":"Select Template",
             "selectSortBy":"Table should sort by...",
             "maximumFiveColumnsAdded":"Maximum 5 columns can be added"
           }

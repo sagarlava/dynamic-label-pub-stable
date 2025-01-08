@@ -4481,7 +4481,8 @@
       "teamSkillIdExists": "Una nueva Habilidad del Equipo no puede tener ya un ID",
       "userTaskIdExists": "Una nueva Tarea de Usuario no puede tener ya un ID",
       "userTaskIdNotFound": "ID no encontrado",
-      "userTaskNotFound": "Tarea de Usuario no encontrada"
+      "userTaskNotFound": "Tarea de Usuario no encontrada",
+      "userNotAllowedToAssignTask": "Usuario no tiene permitido agregar miembros a la tarea"
     },
     "tooltips": {
       "setupVisible": false,
@@ -10680,6 +10681,7 @@
       "invalidFileTypeExclamation": "¡Tipo de archivo inválido!",
       "allowedFileSize": "El tamaño del archivo debe ser menor a 25MB",
       "allowedFileSizeKb": "El tamaño del archivo debe ser menor a 100KB",
+      "allowedFileSize500Kb": "El tamaño del archivo debe ser menor a 500KB",
       "allowedFileSizeOnly": "El tamaño del archivo debe ser menor a",
       "cannotFindFile": "No se puede encontrar el nombre de archivo y tipo de archivo",
       "pdfNotAvailable": "¡Lo siento! El PDF no está disponible",
@@ -15477,6 +15479,13 @@
           "navigateTo": {
             "original": "When the user clicks the notification, where should it take them?",
             "singular": "¿A dónde debería llevar al usuario cuando haga clic en la notificación?",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "separateEmail": {
+            "original": "Separate multiple email addresses with commas",
+            "singular": "Separe múltiples direcciones de correo electrónico con comas",
             "plural": "",
             "setupEdit": false,
             "setupVisible": false
@@ -20924,6 +20933,7 @@
           "everythingInGroupMustHappen": "Todo en ese grupo debe suceder.",
           "workflowHasNotBegun":"No se especificó un disparador de inicio.",
           "clickHereToAdd":"Haga clic aquí para agregar.",
+          "noOfRules":"Núm. de reglas",
           "equalTo":"igual a",
           "equalToEmpty":"igual a ' '",
           "notEqualTo":"no igual a",
@@ -21290,8 +21300,9 @@
             "firstSelectSettings": "Primero selecciona un módulo en la pestaña 'Configuraciones' para comenzar a construir tu correo electrónico",
             "includeButtonInEmail": "Incluir un botón en el correo electrónico",
             "includeTableInEmail": "Incluir una tabla en el correo electrónico",
-            "selectFieldFilter": "La tabla debería filtrar por...",
+            "selectFieldFilter": "Filtrar por...",
             "selectModule": "Seleccionar módulo",
+            "selectTemplate":"Seleccionar plantilla",
             "selectSortBy": "La tabla debería ordenar por...",
             "maximumFiveColumnsAdded": "Se pueden agregar un máximo de 5 columnas"
           }

@@ -4481,7 +4481,8 @@
       "teamSkillIdExists": "Eine neue Teamfähigkeit kann nicht bereits eine ID haben",
       "userTaskIdExists": "Eine neue Benutzeraufgabe kann nicht bereits eine ID haben",
       "userTaskIdNotFound": "ID nicht gefunden",
-      "userTaskNotFound": "Benutzeraufgabe nicht gefunden"
+      "userTaskNotFound": "Benutzeraufgabe nicht gefunden",
+      "userNotAllowedToAssignTask": "Benutzer darf kein Mitglied zur Aufgabe hinzufügen"
     },
     "tooltips": {
       "setupVisible": false,
@@ -10680,6 +10681,7 @@
       "invalidFileTypeExclamation": "Ungültiger Dateityp!",
       "allowedFileSize": "Die Dateigröße sollte weniger als 25 MB betragen",
       "allowedFileSizeKb": "Die Dateigröße sollte weniger als 100 KB betragen",
+      "allowedFileSize500Kb": "Die Dateigröße sollte weniger als 500KB betragen",
       "allowedFileSizeOnly": "Die Dateigröße sollte weniger als",
       "cannotFindFile": "Dateiname und Dateityp können nicht gefunden werden",
       "pdfNotAvailable": "Entschuldigung! PDF ist nicht verfügbar",
@@ -15477,6 +15479,13 @@
           "navigateTo": {
             "original": "When the user clicks the notification, where should it take them?",
             "singular": "Wohin soll der Benutzer geleitet werden, wenn er auf die Benachrichtigung klickt?",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "separateEmail": {
+            "original": "Separate multiple email addresses with commas",
+            "singular": "Trennen Sie mehrere E-Mail-Adressen mit Kommas",
             "plural": "",
             "setupEdit": false,
             "setupVisible": false
@@ -20924,6 +20933,7 @@
         "everythingInGroupMustHappen": "Alles in dieser Gruppe muss passieren.",
         "workflowHasNotBegun": "Kein Startauslöser angegeben",
         "clickHereToAdd": "Klicken Sie hier, um hinzuzufügen.",
+        "noOfRules":"Anz. der Regeln",
         "equalTo":"gleich wie",
         "equalToEmpty":"gleich wie ' '",
         "notEqualTo":"ungleich wie",
@@ -21290,8 +21300,9 @@
             "firstSelectSettings": "Wählen Sie zuerst ein Modul im Tab 'Einstellungen', um mit dem Erstellen Ihrer E-Mail zu beginnen.",
             "includeButtonInEmail": "Fügen Sie einen Button in die E-Mail ein.",
             "includeTableInEmail": "Fügen Sie eine Tabelle in die E-Mail ein.",
-            "selectFieldFilter": "Tabelle sollte filtern nach...",
+            "selectFieldFilter": "Filtern nach...",
             "selectModule": "Modul auswählen.",
+            "selectTemplate":"Vorlage auswählen",
             "selectSortBy": "Tabelle sollte sortieren nach...",
             "maximumFiveColumnsAdded": "Es können maximal 5 Spalten hinzugefügt werden"
           }

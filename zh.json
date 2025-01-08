@@ -4481,7 +4481,8 @@
       "teamSkillIdExists": "新的团队技能不能已有ID",
       "userTaskIdExists": "新的用户任务不能已有ID",
       "userTaskIdNotFound": "未找到ID",
-      "userTaskNotFound": "未找到用户任务"
+      "userTaskNotFound": "未找到用户任务",
+      "userNotAllowedToAssignTask": "用户不允许将成员添加到任务中"
     },
     "tooltips": {
       "setupVisible": false,
@@ -10680,6 +10681,7 @@
       "invalidFileTypeExclamation": "无效的文件类型！",
       "allowedFileSize": "文件大小应小于25MB",
       "allowedFileSizeKb": "文件大小应小于100KB",
+      "allowedFileSize500Kb": "文件大小应小于500KB",
       "allowedFileSizeOnly": "文件大小应小于",
       "cannotFindFile": "无法找到文件名和文件类型",
       "pdfNotAvailable": "抱歉！PDF不可用",
@@ -15479,6 +15481,13 @@
             "singular": "当用户点击通知时，它应该带他们去哪里？",
             "plural": "",
             "setupEdit": true,
+            "setupVisible": false
+          },
+          "separateEmail": {
+            "original": "Separate multiple email addresses with commas",
+            "singular": "用逗号分隔多个电子邮件地址",
+            "plural": "",
+            "setupEdit": false,
             "setupVisible": false
           }
         },
@@ -20924,6 +20933,7 @@
         "everythingInGroupMustHappen": "该组中的所有事情都必须发生。",
         "workflowHasNotBegun":"未指定开始触发器。",
         "clickHereToAdd":"点击此处添加。",
+        "noOfRules":"规则数量",
         "equalTo":"等于",
         "equalToEmpty":"等于 ' '",
         "notEqualTo":"不等于",
@@ -21290,8 +21300,9 @@
             "firstSelectSettings": "首先在“设置”选项卡中选择一个模块以开始构建电子邮件",
             "includeButtonInEmail": "在电子邮件中包含一个按钮",
             "includeTableInEmail": "在电子邮件中包含一个表格",
-            "selectFieldFilter": "表格应按以下内容筛选...",
+            "selectFieldFilter": "按...筛选",
             "selectModule": "选择模块",
+            "selectTemplate":"选择模板",
             "selectSortBy": "表格应按以下内容排序...",
             "maximumFiveColumnsAdded": "最多可以添加 5 列"
           }
