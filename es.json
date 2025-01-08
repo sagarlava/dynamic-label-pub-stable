@@ -21488,6 +21488,7 @@
       "setupTmplChecklistHasCircularFollowupCheckList": "Los datos de la lista de verificación de seguimiento circular existen en el sistema para la lista de verificación",
       "setupTmplChecklistHasFollowupCheckList": "Los datos de la lista de verificación de seguimiento existen en el sistema para la lista de verificación",
       "setupTmplChecklistHasQuestions": "Los datos de preguntas existen en el sistema para la lista de verificación",
+      "setupTmplChecklistUsedInFollowupCheckList":"Esta lista de verificación está configurada como una lista de verificación de seguimiento para otra lista de verificación",
       "setupTmplChecklistModelTypeNotFound": "Se requiere modelo o tipo",
       "setupTmplJobOrderProductIdExists": "Un nuevo TmplJobOrderSparePart no puede ya tener un ID",
       "setupTmplJobOrderIdExists": "Un nuevo TmplJobOrder no puede ya tener un ID",
