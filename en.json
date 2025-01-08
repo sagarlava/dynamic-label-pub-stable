@@ -16166,6 +16166,13 @@
             "plural": "Subform Name",
             "setupEdit": false,
             "setupVisible": false
+          },
+          "formName": {
+            "original": "Form Name",
+            "singular": "Form Name",
+            "plural": "Form Name",
+            "setupEdit": false,
+            "setupVisible": false
           }
         },
         "messages":{

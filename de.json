@@ -16165,6 +16165,13 @@
             "plural": "Unterformularnamen",
             "setupEdit": false,
             "setupVisible": false
+          },
+          "formName": {
+            "original": "Form Name",
+            "singular": "Formularname",
+            "plural": "Formularname",
+            "setupEdit": false,
+            "setupVisible": false
           }
         },
         "messages": {

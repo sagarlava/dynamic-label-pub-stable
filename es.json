@@ -16167,6 +16167,13 @@
             "plural": "Nombres de Subformularios",
             "setupEdit": false,
             "setupVisible": false
+          },
+          "formName": {
+            "original": "Form Name",
+            "singular": "Nombre del Formulario",
+            "plural": "Nombre del Formulario",
+            "setupEdit": false,
+            "setupVisible": false
           }
         },
         "messages": {

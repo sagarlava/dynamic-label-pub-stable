@@ -16166,6 +16166,13 @@
             "plural": "子表单名称",
             "setupEdit": false,
             "setupVisible": false
+          },
+          "formName": {
+            "original": "Form Name",
+            "singular": "表单名称",
+            "plural": "表单名称",
+            "setupEdit": false,
+            "setupVisible": false
           }
         },
         "messages": {
