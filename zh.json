@@ -16131,6 +16131,13 @@
             "plural": "示例",
             "setupEdit": false,
             "setupVisible": false
+          },
+          "subformName": {
+            "original": "Subform Name",
+            "singular": "子表单名称",
+            "plural": "子表单名称",
+            "setupEdit": false,
+            "setupVisible": false
           }
         },
         "messages": {

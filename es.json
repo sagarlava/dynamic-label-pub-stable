@@ -16132,6 +16132,13 @@
             "plural": "Ejemplo",
             "setupEdit": false,
             "setupVisible": false
+          },
+          "subformName": {
+            "original": "Subform Name",
+            "singular": "Nombre del Subformulario",
+            "plural": "Nombres de Subformularios",
+            "setupEdit": false,
+            "setupVisible": false
           }
         },
         "messages": {
