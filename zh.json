@@ -15751,6 +15751,34 @@
             "plural": "字段",
             "setupEdit": false,
             "setupVisible": false
+          },
+          "sec37":{
+            "original": "Create Form",
+            "singular": "创建表单",
+            "plural": "创建表单",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec38":{
+            "original": "Setup Subform",
+            "singular": "设置子表单",
+            "plural": "设置子表单",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec39":{
+            "original": "Setup List View",
+            "singular": "设置列表视图",
+            "plural": "设置列表视图",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec40":{
+            "original": "Create Subform",
+            "singular": "创建子表单",
+            "plural": "创建子表单",
+            "setupEdit": false,
+            "setupVisible": false
           }
         },
         "fields": {

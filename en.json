@@ -15751,6 +15751,34 @@
             "plural": "Fields",
             "setupEdit": false,
             "setupVisible": false
+          },
+          "sec37":{
+            "original": "Create Form",
+            "singular": "Create Form",
+            "plural": "Create Forms",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec38":{
+            "original": "Setup Subform",
+            "singular": "Setup Subform",
+            "plural": "Setup Subforms",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec39":{
+            "original": "Setup List View",
+            "singular": "Setup List View",
+            "plural": "Setup List Views",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec40":{
+            "original": "Create Subform",
+            "singular": "Create Subform",
+            "plural": "Create Subforms",
+            "setupEdit": false,
+            "setupVisible": false
           }
         },
         "fields":{

@@ -15750,6 +15750,34 @@
             "plural": "Felder",
             "setupEdit": false,
             "setupVisible": false
+          },
+          "sec37":{
+            "original": "Create Form",
+            "singular": "Formular erstellen",
+            "plural": "Formulare erstellen",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec38":{
+            "original": "Setup Subform",
+            "singular": "Unterformular einrichten",
+            "plural": "Unterformulare einrichten",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec39":{
+            "original": "Setup List View",
+            "singular": "Listenansicht einrichten",
+            "plural": "Listenansichten einrichten",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec40":{
+            "original": "Create Subform",
+            "singular": "Unterformular erstellen",
+            "plural": "Unterformulare erstellen",
+            "setupEdit": false,
+            "setupVisible": false
           }
         },
         "fields": {

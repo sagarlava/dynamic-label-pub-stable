@@ -15750,6 +15750,34 @@
             "plural": "Medan-medan",
             "setupEdit": false,
             "setupVisible": false
+          },
+          "sec37":{
+            "original": "Create Form",
+            "singular": "Cipta Borang",
+            "plural": "Cipta Borang-Borang",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec38":{
+            "original": "Setup Subform",
+            "singular": "Persediaan Subborang",
+            "plural": "Persediaan Subborang-Subborang",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec39":{
+            "original": "Setup List View",
+            "singular": "Persediaan Paparan Senarai",
+            "plural": "Persediaan Paparan-Paparan Senarai",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec40":{
+            "original": "Create Subform",
+            "singular": "Cipta Subborang",
+            "plural": "Cipta Subborang-Subborang",
+            "setupEdit": false,
+            "setupVisible": false
           }
         },
         "fields": {

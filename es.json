@@ -15752,6 +15752,34 @@
             "plural": "Campos",
             "setupEdit": false,
             "setupVisible": false
+          },
+          "sec37":{
+            "original": "Create Form",
+            "singular": "Crear Formulario",
+            "plural": "Crear Formularios",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec38":{
+            "original": "Setup Subform",
+            "singular": "Configurar Subformulario",
+            "plural": "Configurar Subformularios",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec39":{
+            "original": "Setup List View",
+            "singular": "Configurar Vista de Lista",
+            "plural": "Configurar Vistas de Lista",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec40":{
+            "original": "Create Subform",
+            "singular": "Crear Subformulario",
+            "plural": "Crear Subformularios",
+            "setupEdit": false,
+            "setupVisible": false
           }
         },
         "fields": {
