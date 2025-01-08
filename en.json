@@ -16256,7 +16256,8 @@
           "fillInAllNecessaryDets":"Fill in all the necessary details for your field.",
           "onlyForDropdownButton":"Only For Dropdown or Button",
           "selectDropdownButtonLinkParent":"If you select a Dropdown or Button component you can link it to a parent picklist, which is another Dropdown or Button component that you have already created. This will take you to the Picklist Mapping page where you can set up the mapping. Alternatively, you can access the Picklist Mapping page by clicking the 'Map Picklist' button in the field list view.",
-          "dragDropToYourLiking":"Drag and drop fields into sections according to your liking"
+          "dragDropToYourLiking":"Drag and drop fields into sections according to your liking",
+          "copyOf":"Copy of"
         }
       }
     },

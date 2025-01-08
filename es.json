@@ -16257,7 +16257,8 @@
           "fillInAllNecessaryDets":"Complete todos los detalles necesarios para su campo.",
           "onlyForDropdownButton":"Solo para Menú Desplegable o Botón",
           "selectDropdownButtonLinkParent":"Si selecciona un componente de Menú Desplegable o Botón, puede vincularlo a una lista de selección principal, que es otro componente de Menú Desplegable o Botón que ya ha creado. Esto lo llevará a la página de Mapeo de Listas de Selección, donde puede configurar el mapeo. Alternativamente, puede acceder a la página de Mapeo de Listas de Selección haciendo clic en el botón 'Mapear Lista de Selección' en la vista de lista de campos.",
-          "dragDropToYourLiking":"Arrastre y suelte campos en secciones según su preferencia"
+          "dragDropToYourLiking":"Arrastre y suelte campos en secciones según su preferencia",
+          "copyOf":"Copia de"
         }
       }
     },
