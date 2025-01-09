@@ -12113,6 +12113,13 @@
         "plural": "",
         "setupEdit": true,
         "setupVisible": false
+      },
+      "mapPicklist":{
+        "original": "Map Picklist",
+        "singular": "Pemetaan Pilihan",
+        "plural": "Pemetaan Pilihan",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "status": {

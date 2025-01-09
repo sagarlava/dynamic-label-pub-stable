@@ -12115,6 +12115,13 @@
         "plural": "",
         "setupEdit": true,
         "setupVisible": false
+      },
+      "mapPicklist":{
+        "original": "Map Picklist",
+        "singular": "Mapear Lista de Selección",
+        "plural": "Mapear Lista de Selección",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "status": {

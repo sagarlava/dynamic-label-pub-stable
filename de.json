@@ -12113,6 +12113,13 @@
         "plural": "",
         "setupEdit": true,
         "setupVisible": false
+      },
+      "mapPicklist":{
+        "original": "Map Picklist",
+        "singular": "Auswahlliste zuordnen",
+        "plural": "Auswahlliste zuordnen",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "status": {

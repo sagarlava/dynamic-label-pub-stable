@@ -12114,6 +12114,13 @@
         "plural": "",
         "setupEdit": true,
         "setupVisible": false
+      },
+      "mapPicklist":{
+        "original": "Map Picklist",
+        "singular": "映射选择列表",
+        "plural": "映射选择列表",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "status": {
