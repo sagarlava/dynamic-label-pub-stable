@@ -16255,7 +16255,7 @@
           "completeAllStepForm":"Schließen Sie alle Schritte ab, um Ihr Formular vollständig einzurichten",
           "completeAllStepSubform":"Schließen Sie alle Schritte ab, um Ihr Unterformular vollständig einzurichten",
           "editFormArrangement":"Sind Sie sicher, dass Sie die Anordnung dieses Formulars bearbeiten möchten? Änderungen werden auch in früheren Formularen übernommen. Dies kann nicht rückgängig gemacht werden.",
-          "selectLayoutPreferred":"Wählen Sie das Layout aus, das Sie für Ihren Abschnitt bevorzugen. Felder, die Sie dem Abschnitt hinzufügen, werden gemäß Ihrem Abschnitts-Layout angezeigt.",
+          "selectLayoutPreferred":"Wählen Sie das Layout, das Sie für Ihren Abschnitt bevorzugen. Felder, die Sie dem Abschnitt hinzufügen, werden entsprechend Ihrem Abschnittslayout angezeigt. Beachten Sie, dass Abschnitts-Layouts nur für die FieldEx-Webanwendung gelten. Das Layout der FieldEx-Mobile-App ist auf eine Spalte festgelegt.",
           "example":"Beispiel",
           "selectModuleDesc":"Wählen Sie ein Modul aus, um es mit diesem Feld zu verknüpfen und relevante Daten daraus abzurufen.",
           "moduleSelectedDesc":"Wählen Sie das Feld aus, das Sie aus dem ausgewählten Modul nachschlagen möchten. Dies ermöglicht es Ihnen, relevante Daten aus diesem Feld abzurufen und zu verknüpfen.",
