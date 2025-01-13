@@ -15557,10 +15557,10 @@
             "setupVisible": false
           },
           "sec8":{
-            "original": "Component Type Selection",
-            "singular": "Component Type Selection",
-            "plural": "Component Type Selection",
-            "setupEdit": true,
+            "original": "Field Type Selection",
+            "singular": "Field Type Selection",
+            "plural": "Field Type Selection",
+            "setupEdit": false,
             "setupVisible": false
           },
           "sec9":{

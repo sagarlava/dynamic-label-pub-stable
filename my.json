@@ -15555,11 +15555,11 @@
             "setupEdit": true,
             "setupVisible": false
           },
-          "sec8": {
-            "original": "Component Type Selection",
-            "singular": "Pemilihan Jenis Komponen",
-            "plural": "Pemilihan Jenis Komponen",
-            "setupEdit": true,
+          "sec8":{
+            "original": "Field Type Selection",
+            "singular": "Pemilihan Jenis Medan",
+            "plural": "Pemilihan Jenis Medan",
+            "setupEdit": false,
             "setupVisible": false
           },
           "sec9": {

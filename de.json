@@ -15555,11 +15555,11 @@
             "setupEdit": true,
             "setupVisible": false
           },
-          "sec8": {
-            "original": "Component Type Selection",
-            "singular": "Auswahl des Komponententyps",
-            "plural": "Auswahl des Komponententyps",
-            "setupEdit": true,
+          "sec8":{
+            "original": "Field Type Selection",
+            "singular": "Auswahl des Feldtyps",
+            "plural": "Auswahlen der Feldtypen",
+            "setupEdit": false,
             "setupVisible": false
           },
           "sec9": {
