@@ -20924,7 +20924,8 @@
           "everythingInGroupMustHappen": "Todo en ese grupo debe suceder.",
           "workflowHasNotBegun":"No se especificó un disparador de inicio.",
           "clickHereToAdd":"Haga clic aquí para agregar.",
-          "noOfRules":"Núm. de reglas"
+          "noOfRules":"Núm. de reglas",
+          "activeWorkflow":"Flujo(s) de Trabajo Activo(s):"
       }
     },
     "templates": {
