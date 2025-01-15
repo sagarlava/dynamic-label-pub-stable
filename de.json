@@ -13334,6 +13334,13 @@
           "plural": "",
           "setupEdit": true,
           "setupVisible": false
+        },
+        "sec16": {
+          "original": "Select a Price Book from the list",
+          "singular": "Wählen Sie ein Preisbuch aus der Liste",
+          "plural": "",
+          "setupEdit": false,
+          "setupVisible": false
         }
       },
       "fields": {
