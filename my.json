@@ -24731,7 +24731,8 @@
       }
     },
     "validationFE": {
-       "oneActiveRateCardPerContract":"Hanya satu kad kadar aktif dibenarkan bagi setiap kontrak"
+       "oneActiveRateCardPerContract":"Hanya satu kad kadar aktif dibenarkan bagi setiap kontrak",
+       "pleaseEnterValueBetween":"Sila masukkan nilai antara 1 dan 59."
     },
     "validationBE": {
       "rateCardNotFound": "Kad Kadar tidak dijumpai",

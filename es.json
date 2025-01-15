@@ -24731,7 +24731,8 @@
       }
     },
     "validationFE": {
-       "oneActiveRateCardPerContract":"Solo se permite una tarjeta de tarifa activa por contrato"
+       "oneActiveRateCardPerContract":"Solo se permite una tarjeta de tarifa activa por contrato",
+       "pleaseEnterValueBetween":"Por favor, introduzca un valor entre 1 y 59."
     },
     "validationBE": {
       "rateCardNotFound": "Tarjeta de tarifas no encontrada",

@@ -24731,7 +24731,8 @@
       }
     },
     "validationFE": {
-       "oneActiveRateCardPerContract":"每个合同只允许一个活跃费率卡"
+       "oneActiveRateCardPerContract":"每个合同只允许一个活跃费率卡",
+       "pleaseEnterValueBetween":"请输入1到59之间的值。"
     },
     "validationBE": {
       "rateCardNotFound": "未找到费率卡",

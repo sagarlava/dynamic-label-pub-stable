@@ -24731,7 +24731,8 @@
       }
     },
     "validationFE": {
-       "oneActiveRateCardPerContract":"Pro Vertrag ist nur eine aktive Tarifkarte erlaubt"
+       "oneActiveRateCardPerContract":"Pro Vertrag ist nur eine aktive Tarifkarte erlaubt",
+       "pleaseEnterValueBetween":"Bitte geben Sie einen Wert zwischen 1 und 59 ein."
     },
     "validationBE": {
       "rateCardNotFound": "Ratekarte  nicht gefunden",
