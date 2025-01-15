@@ -24610,7 +24610,11 @@
         "setupVisible": false
       }
     },
-    "validationFE": {},
+    "validationFE": {
+      "contractPriceGreater":"Harga Kontrak mesti lebih besar daripada 0",
+      "pleaseSelectProduct":"Sila pilih produk",
+      "productAdded":"Produk telah ditambahkan"
+    },
     "validationBE": {
       "priceBookStandardNotChangeable": "Tidak boleh mengubah buku harga standard; tetapkan yang lain sebagai standard terlebih dahulu",
       "priceBookNameExists": "Nama Buku Harga sudah wujud",

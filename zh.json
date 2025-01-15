@@ -24610,7 +24610,11 @@
         "setupVisible": false
       }
     },
-    "validationFE": {},
+    "validationFE": {
+      "contractPriceGreater":"合同价格必须大于0",
+      "pleaseSelectProduct":"请选择一个产品。",
+      "productAdded":"产品已添加"
+    },
     "validationBE": {
       "priceBookStandardNotChangeable": "标准价格书无法更改；请先将其他价格书设为标准",
       "priceBookNameExists": "价格手册名称已经存在",

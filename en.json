@@ -24610,7 +24610,11 @@
         "setupVisible": false
       }
     },
-    "validationFE": {},
+    "validationFE": {
+      "contractPriceGreater":"Contract Price must be greater than 0",
+      "pleaseSelectProduct":"Please select a product.",
+      "productAdded":"Product is already added"
+    },
     "validationBE": {
       "priceBookStandardNotChangeable": "Cannot change the standard price book; set another as standard first",
       "priceBookNameExists": "Price Book Name already exists",
