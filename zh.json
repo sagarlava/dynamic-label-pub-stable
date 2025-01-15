@@ -24723,7 +24723,9 @@
         "setupVisible": false
       }
     },
-    "validationFE": {},
+    "validationFE": {
+       "oneActiveRateCardPerContract":"每个合同只允许一个活跃费率卡"
+    },
     "validationBE": {
       "rateCardNotFound": "未找到费率卡",
       "rateCardContractEmpty": "费率卡必须有一个合同",

@@ -24723,7 +24723,9 @@
         "setupVisible": false
       }
     },
-    "validationFE": {},
+    "validationFE": {
+       "oneActiveRateCardPerContract":"Solo se permite una tarjeta de tarifa activa por contrato"
+    },
     "validationBE": {
       "rateCardNotFound": "Tarjeta de tarifas no encontrada",
       "rateCardContractEmpty": "La tarjeta de tarifas debe tener un contrato",

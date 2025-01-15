@@ -24723,7 +24723,9 @@
         "setupVisible": false
       }
     },
-    "validationFE": {},
+    "validationFE": {
+      "oneActiveRateCardPerContract":"Only one active rate card is allowed per contract"
+    },
     "validationBE": {
       "rateCardNotFound": "Rate Card not found",
       "rateCardContractEmpty": "Rate Card should have a contract",

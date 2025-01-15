@@ -24723,7 +24723,9 @@
         "setupVisible": false
       }
     },
-    "validationFE": {},
+    "validationFE": {
+       "oneActiveRateCardPerContract":"Hanya satu kad kadar aktif dibenarkan bagi setiap kontrak"
+    },
     "validationBE": {
       "rateCardNotFound": "Kad Kadar tidak dijumpai",
       "rateCardContractEmpty": "Kad Kadar harus mempunyai kontrak",
