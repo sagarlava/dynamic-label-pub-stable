@@ -16142,7 +16142,11 @@
           "suggestedBy":"Dicadangkan oleh Finley",
           "completedBy":"Disiapkan oleh",
           "beta":"beta",
-          "enableOrDisableSuggestions":"Aktifkan atau nyahaktifkan cadangan dan ciri yang dikuasakan oleh AI mesra kami, Finley. Ciri yang diaktifkan akan dapat diakses oleh semua pengguna dalam organisasi anda, membolehkan mereka menyesuaikan keutamaan mereka dengan menghidupkan atau mematikan ciri tertentu."
+          "enableOrDisableSuggestions":"Aktifkan atau nyahaktifkan cadangan dan ciri yang dikuasakan oleh AI mesra kami, Finley. Ciri yang diaktifkan akan dapat diakses oleh semua pengguna dalam organisasi anda, membolehkan mereka menyesuaikan keutamaan mereka dengan menghidupkan atau mematikan ciri tertentu.",
+          "aCategorizedSummary":"Ringkasan dikategorikan mengenai pekerjaan anda untuk hari ini.",
+          "conciseSummaryKeyDetails":"Ringkasan ringkas butiran utama untuk pesanan kerja yang telah diselesaikan, dipaparkan dalam pandangan pesanan kerja.",
+          "taskTimeSuggestions":"Cadangan masa tugasan berdasarkan data pekerjaan dan tugasan sebelumnya.",
+          "useAiToGenerateChecklist":"Gunakan AI untuk menjana soalan senarai semak daripada arahan ringkas atau borang sampel."
         }
       }
     },

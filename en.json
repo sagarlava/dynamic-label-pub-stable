@@ -16142,7 +16142,11 @@
           "suggestedBy":"Suggested by Finley",
           "completedBy":"Completed by",
           "beta":"beta",
-          "enableOrDisableSuggestions":"Enable or disable suggestions and features powered by our friendly AI, Finley. Features that are enabled will be accessible to all users in your organization, allowing them to customize their preferences by turning specific features on or off."
+          "enableOrDisableSuggestions":"Enable or disable suggestions and features powered by our friendly AI, Finley. Features that are enabled will be accessible to all users in your organization, allowing them to customize their preferences by turning specific features on or off.",
+          "aCategorizedSummary":"A categorized summary of your jobs for today.",
+          "conciseSummaryKeyDetails":"A concise summary of key details for completed job orders, displayed in the job order view",
+          "taskTimeSuggestions":"Task time suggestions based on previous job and task data.",
+          "useAiToGenerateChecklist":"Use AI to generate checklist questions from a brief prompt or sample forms."
         }
       }
     },

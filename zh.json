@@ -16142,7 +16142,11 @@
           "suggestedBy":"由 Finley 提议",
           "completedBy":"由...完成",
           "beta":"测试版",
-          "enableOrDisableSuggestions":"启用或禁用由我们友好的AI Finley提供支持的建议和功能。启用的功能将对您组织中的所有用户可用，允许他们通过打开或关闭特定功能来自定义其偏好。"
+          "enableOrDisableSuggestions":"启用或禁用由我们友好的AI Finley提供支持的建议和功能。启用的功能将对您组织中的所有用户可用，允许他们通过打开或关闭特定功能来自定义其偏好。",
+          "aCategorizedSummary":"今天工作的分类摘要。",
+          "conciseSummaryKeyDetails":"已完成工单关键详细信息的简洁摘要，显示在工单视图中。",
+          "taskTimeSuggestions":"基于以前的工作和任务数据的任务时间建议。",
+          "useAiToGenerateChecklist":"使用AI从简短的提示或示例表单生成检查表问题。"
         }
       }
     },
