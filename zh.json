@@ -564,6 +564,20 @@
     "fields": {
       "setupEdit": true,
       "setupVisible": true,
+      "category":{
+        "original": "Category",
+        "singular": "类别",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "subCategory":{
+        "original": "Sub Category",
+        "singular": "子类别",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
       "type": {
         "original": "Type",
         "singular": "类型",
@@ -610,15 +624,15 @@
         "original": "Asset Name",
         "singular": "资产名称",
         "plural": "",
-        "setupEdit": false,
-        "setupVisible": false
+        "setupEdit": true,
+        "setupVisible": true
       },
       "name": {
         "original": "Name",
         "singular": "名称",
         "plural": "",
-        "setupEdit": false,
-        "setupVisible": false
+        "setupEdit": true,
+        "setupVisible": true
       },
       "status": {
         "original": "Status",
@@ -997,7 +1011,9 @@
       "assetSubCategoryExists": "资产子类别已存在",
       "assetSubCategorySystemGenerated": "系统生成的资产子类别不允许删除",
       "assetCategoryIdExists": "新资产类别不能已经有ID",
-      "assetSubCategoryIdExists": "新资产子类别不能已经有ID"
+      "assetSubCategoryIdExists": "新资产子类别不能已经有ID",
+      "assetCategoryCannotDeleteByAssets":"无法删除：资产类别在一个或多个资产中使用",
+      "assetSubCategoryCannotDeleteByAssets":"无法删除：资产子类别在一个或多个资产中使用"
     },
     "tooltips": {
       "setupVisible": false,
@@ -2219,7 +2235,8 @@
       "contractIdExists": "新合同不能已有ID",
       "contractPriceBookNotFound": "未找到合同价格手册",
       "contractPriceBookIdNotFound": "未找到合同价格手册ID",
-      "contractPriceBookUpdateFailed": "更新合同价格手册失败"
+      "contractPriceBookUpdateFailed": "更新合同价格手册失败",
+      "contractAssetsSerialNumberExists": "资产序列号已分配给重叠的活动合同"
     },
     "tooltips": {
       "setupVisible": false,
@@ -2559,6 +2576,20 @@
         "plural": "添加产品",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "sec14": {
+        "original": "Use the fields below to filter the Checklist(s) you'd like to add",
+        "singular": "使用以下字段过滤您想要添加的检查清单",
+        "plural": "使用以下字段过滤您想要添加的检查清单",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec15": {
+        "original": "Select the Checklist(s) you'd like to add to this Job Order",
+        "singular": "选择您想添加到此工单的检查清单",
+        "plural": "选择您想添加到此工单的检查清单",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "fields": {
@@ -2659,6 +2690,41 @@
         "original": "New Checklist to be Generated",
         "singular": "要生成的新清单",
         "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "jobOrderType": {
+        "original": "Job Order Type",
+        "singular": "工作单类型",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": false
+      },
+      "assetStatusBeforeChecklist": {
+        "original": "Asset status before checklist",
+        "singular": "检查表之前的资产状态",
+        "plural": "检查表之前的资产状态",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "assetStatusAfterChecklist": {
+        "original": "Asset status after checklist",
+        "singular":"检查表之后的资产状态",
+        "plural": "检查表之后的资产状态",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "equipmentMeterReadingBeforeChecklist": {
+        "original": "Equipment meter reading before checklist",
+        "singular": "检查表之前的设备仪表读数",
+        "plural": "检查表之前的设备仪表读数",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "equipmentMeterReadingAfterChecklist": {
+        "original": "Equipment meter reading after checklist",
+        "singular": "检查表之后的设备仪表读数",
+        "plural": "检查表之后的设备仪表读数",
         "setupEdit": false,
         "setupVisible": false
       }
@@ -4415,7 +4481,8 @@
       "teamSkillIdExists": "新的团队技能不能已有ID",
       "userTaskIdExists": "新的用户任务不能已有ID",
       "userTaskIdNotFound": "未找到ID",
-      "userTaskNotFound": "未找到用户任务"
+      "userTaskNotFound": "未找到用户任务",
+      "userNotAllowedToAssignTask": "用户不允许将成员添加到任务中"
     },
     "tooltips": {
       "setupVisible": false,
@@ -5738,7 +5805,8 @@
       "ticketHasTicketType": "系统中存在该工单的类型数据",
       "ticketTypeSystemGenerated": "系统生成的工单类型不允许删除",
       "ticketTypeIdExists": "新的工单类型不能已有ID",
-      "slaTicketIdExists": "新的SLA工单不能已有ID"
+      "slaTicketIdExists": "新的SLA工单不能已有ID",
+      "ticketDuplicateTicketCannotBeSameAsTicket":"重复票不能与原始票相同" 
     },
     "tooltips": {
       "setupVisible": true,
@@ -10613,13 +10681,17 @@
       "invalidFileTypeExclamation": "无效的文件类型！",
       "allowedFileSize": "文件大小应小于25MB",
       "allowedFileSizeKb": "文件大小应小于100KB",
+      "allowedFileSize500Kb": "文件大小应小于500KB",
       "allowedFileSizeOnly": "文件大小应小于",
       "cannotFindFile": "无法找到文件名和文件类型",
       "pdfNotAvailable": "抱歉！PDF不可用",
       "invalidFileType": "无效的文件类型。 只能上传图像文件（.jpg、.png、.svg 等）。",
       "onlyAllowVisualFiles": "仅允许大小不超过100kb的图像文件，支持的格式：PNG和JPG/JPEG",
       "maxUploadFileSize": "最大上传文件大小为 25MB",
-      "fileExtension": "仅允许扩展名为 *.pdf, *.docx, *.jpg 的文件"
+      "fileExtension": "仅允许扩展名为 *.pdf, *.docx, *.jpg 的文件",
+      "fileTypeUnsupported":"此文件类型不受支持。请选择其他文件。",
+      "allowedFileSize4MB":"文件大小超过4MB限制。请上传较小的文件。",
+      "onlyAcceptImagesExt":"仅接受 JPG、JPEG 和 PNG"
     }
   },
   "history": {
@@ -13728,10 +13800,10 @@
             "setupVisible": false
           },
           "sec11": {
-            "original": "Device Enablement",
-            "singular": "设备启用",
+            "original": "Device Permissions",
+            "singular": "设备权限",
             "plural": "",
-            "setupEdit": true,
+            "setupEdit": false,
             "setupVisible": false
           },
           "sec12": {
@@ -13768,6 +13840,20 @@
             "plural": "克隆分配",
             "setupEdit": true,
             "setupVisible": false
+          },
+          "sec17": {
+            "original": "Allowed to Access Web App",
+            "singular": "允许访问网页应用",
+            "plural": "允许访问网页应用",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec18": {
+            "original": "Allowed to Access Mobile App",
+            "singular": "允许访问移动应用",
+            "plural": "允许访问移动应用",
+            "setupEdit": false,
+            "setupVisible": false
           }
         },
         "fields": {
@@ -13794,29 +13880,29 @@
             "setupVisible": false
           },
           "web": {
-            "original": "Web",
-            "singular": "网页",
-            "plural": "",
-            "setupEdit": true,
+            "original": "Allowed to Access Web App",
+            "singular": "允许访问网页应用",
+            "plural": "允许访问网页应用",
+            "setupEdit": false,
             "setupVisible": false
           },
           "loginWeb": {
-            "original": "User is able to login from the web",
-            "singular": "用户可以从网页登录",
+            "original": "Users with this access can use the web app",
+            "singular": "具有此权限的用户可以使用网页应用",
             "plural": "",
             "setupEdit": true,
             "setupVisible": false
           },
           "mobile": {
-            "original": "Mobile Access",
-            "singular": "移动访问",
-            "plural": "",
-            "setupEdit": true,
+            "original": "Allowed to Access Mobile App",
+            "singular": "允许访问移动应用",
+            "plural": "允许访问移动应用",
+            "setupEdit": false,
             "setupVisible": false
           },
           "loginMobile": {
-            "original": "User is able to login via the mobile application",
-            "singular": "用户可以通过移动应用程序登录",
+            "original": "Users with this access can use the mobile app",
+            "singular": "具有此权限的用户可以使用移动应用",
             "plural": "",
             "setupEdit": true,
             "setupVisible": false
@@ -14144,6 +14230,20 @@
             "singular": "将向经理发送电子邮件通知，告知他们用户已在其指定的工作时间内手动从在线切换为离线",
             "plural": "",
             "setupEdit": true,
+            "setupVisible": false
+          },
+          "usersCanUseWebApp": {
+            "original": "Users with this access can use the web app",
+            "singular": "具有此权限的用户可以使用网页应用",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "usersCanUseMobileApp": {
+            "original": "Users with this access can use the mobile app",
+            "singular": "具有此权限的用户可以使用移动应用",
+            "plural": "",
+            "setupEdit": false,
             "setupVisible": false
           }
         },
@@ -15367,8 +15467,8 @@
             "setupVisible": false
           },
           "userInField": {
-            "original": "User in Field",
-            "singular": "现场用户",
+            "original": "User Field",
+            "singular": "用户字段",
             "plural": "",
             "setupEdit": true,
             "setupVisible": false
@@ -15410,7 +15510,7 @@
           },
           "emailInField": {
             "original": "Email in Field",
-            "singular": "字段中的电子邮件",
+            "singular": "电子邮件字段",
             "plural": "",
             "setupEdit": false,
             "setupVisible": false
@@ -15424,6 +15524,13 @@
             "singular": "当用户点击通知时，它应该带他们去哪里？",
             "plural": "",
             "setupEdit": true,
+            "setupVisible": false
+          },
+          "separateEmail": {
+            "original": "Separate multiple email addresses with commas",
+            "singular": "用逗号分隔多个电子邮件地址",
+            "plural": "",
+            "setupEdit": false,
             "setupVisible": false
           }
         },
@@ -18553,6 +18660,13 @@
           "plural": "",
           "setupEdit": true,
           "setupVisible": false
+        },
+        "sec15": {
+          "original": "Specify the details of the Job Orders this Checklist is for. Job Orders matching the below values will trigger this Checklist.", 
+          "singular": "指定此检查清单适用的工单详细信息。符合以下值的工单将触发此检查清单。",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
         }
       },
       "fields": {
@@ -18675,6 +18789,13 @@
           "plural": "",
           "setupEdit": true,
           "setupVisible": false
+        },
+        "whenWillChecklistPrompted": {
+          "original": "When Will Checklist be Prompted?",
+          "singular": "何时会提示检查清单?",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
         }
       },
       "tooltips": {
@@ -18699,7 +18820,10 @@
         "selectAssetTypes": "选择资产类型",
         "selectServiceZone": "选择服务区域域",
         "selectEquipmentType": "选择设备类型",
-        "checklistName": "清单名称"
+        "checklistName": "清单名称",
+        "previousFileOverwritten":"您确定要上传新文件吗？之前的文件将被覆盖。此操作无法撤销。",
+        "fileTypeUnsupported":"此文件类型不受支持。请选择其他文件。",
+        "exceedFileSizeSmall":"文件大小超过4MB限制。请上传较小的文件。"
       }
     },
     "department": {
@@ -18871,6 +18995,34 @@
           "plural": "",
           "setupEdit": true,
           "setupVisible": false
+        },
+        "photo": {
+          "original": "Photo",
+          "singular": "照片",
+          "plural": "",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "answerType": {
+          "original": "Answer Type",
+          "singular": "答案类型",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "from": {
+          "original": "From",
+          "singular": "从",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "to": {
+          "original": "To",
+          "singular": "到",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
         }
       },
       "validationFE": {},
@@ -18900,6 +19052,20 @@
         "aJobOrderGeneratedSelectedTemplate": {
           "original": "A Job Order and it's associated Tasks and Products will be generated from the selected template if the answer is submitted",
           "singular": "如果提交答案，将从选定的模板生成工作订单及其相关任务和备件",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "chooseTextOrNumber": {
+          "original": "This choice sets the format for the Answer fields in the Answers section. Choose 'Text' for word answers or 'Number' for number range answers.",
+          "singular": "此选项设置答案部分中答案字段的格式。选择“文本”以输入文字答案，或选择“数字”以输入数字范围答案。",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "enterRangeOfNumbers": {
+          "original": "Enter the range of numbers that act as a threshold in the From and To fields. If the values fall within this range, the selected Job Order Template will be triggered. Note that the 'To' value must be equal to or greater than the 'From' value.",
+          "singular": "输入充当“从”和“到”字段阈值的数字范围。如果值在此范围内，则会触发所选的工单模板。请注意，“到”值必须等于或大于“从”值。",
           "plural": "",
           "setupEdit": true,
           "setupVisible": false
@@ -20763,9 +20929,9 @@
         "emailNotificationsDesc": "设计包含字段值的自定义电子邮件模板，以通知FieldEx用户或外部联系人。",
         "whetherRemindersCustomer": "无论是提醒、客户更新还是团队警报，工作流程使保持联系变得简单而有效。",
         "useThisPageToCreateNewWorkflows": "使用此页面创建新工作流或管理您已设置的工作流。",
-        "triggerWhenNewRecordCreated": "当创建记录时：当添加新记录且满足设定条件时，工作流程将被触发。",
-        "triggerWhenUpdatedFirstTime": "当记录第一次更改时：工作流程将在第一次更改记录且满足指定条件时触发。",
-        "triggerWhenRecordUpdatedEverytime": "每次更新记录时：每次更改记录且满足指定条件时，工作流程都会被触发。",
+        "triggerWhenNewRecordCreated": "当添加新记录且满足设定条件时，工作流程将被触发。",
+        "triggerWhenUpdatedFirstTime": "工作流程将在第一次更改记录且满足指定条件时触发。",
+        "triggerWhenRecordUpdatedEverytime": "每次更改记录且满足指定条件时，工作流程都会被触发。",
         "triggerWhenRecordDeleted": "此选项将在记录删除时触发工作流。",
         "selectStatus": "选择状态",
         "selectAttribute": "选择属性",
@@ -20809,7 +20975,30 @@
         "onlyOneThingNeedsToHappen": "该组中的一件事需要发生。",
         "everythingInGroupMustHappen": "该组中的所有事情都必须发生。",
         "workflowHasNotBegun":"未指定开始触发器。",
-        "clickHereToAdd":"点击此处添加。"
+        "clickHereToAdd":"点击此处添加。",
+        "noOfRules":"规则数量",
+        "equalTo":"等于",
+        "equalToEmpty":"等于 ' '",
+        "notEqualTo":"不等于",
+        "notEqualToEmpty":"不等于 ' '",
+        "contains":"包含",
+        "startsWith":"以...开始",
+        "endsWith":"以...结束",
+        "isGreaterThan":"大于",
+        "isGreaterThanOrEqualTo":"大于或等于",
+        "isLessThan":"小于",
+        "isLessThanOrEqualTo":"小于或等于",
+        "today":"今天",
+        "yesterday":"昨天",
+        "tomorrow":"明天",
+        "thisWeek":"本周",
+        "lastWeek":"上周",
+        "nextWeek":"下周",
+        "thisMonth":"本月",
+        "lastMonth":"上个月",
+        "nextMonth":"下个月",
+        "thisYear":"今年",
+        "addDays":"添加天数"
       }
     },
     "templates": {
@@ -21154,8 +21343,9 @@
             "firstSelectSettings": "首先在“设置”选项卡中选择一个模块以开始构建电子邮件",
             "includeButtonInEmail": "在电子邮件中包含一个按钮",
             "includeTableInEmail": "在电子邮件中包含一个表格",
-            "selectFieldFilter": "表格应按以下内容筛选...",
+            "selectFieldFilter": "按...筛选",
             "selectModule": "选择模块",
+            "selectTemplate":"选择模板",
             "selectSortBy": "表格应按以下内容排序...",
             "maximumFiveColumnsAdded": "最多可以添加 5 列"
           }
@@ -21388,7 +21578,15 @@
       "setupUserShiftStartTimeNotFound": "未找到班次开始时间",
       "setupUserShiftEndTimeNotFound": "未找到班次结束时间",
       "setupUserShiftNotFound": "未找到用户班次",
-      "setupZoneHasInventoryNotAllowedChangeLocation": "有库存时无法更改区域位置"
+      "setupZoneHasInventoryNotAllowedChangeLocation": "有库存时无法更改区域位置",
+      "setupWorkflowDeleteAlertInUse":"通知已在一个或多个工作流中使用",
+      "setupWorkflowIdValuesRequired":"工作流ID值是必需的",
+      "setupWorkflowLinkedToNotifications":"工作流已分配通知。请先删除它们",
+      "setupWorkflowMaxAllowedCount":"已达到最大活动工作流数量",
+      "setupWorkflowMaxActionsPerWorkflow": "已达到每个工作流程的最大操作次数",
+      "setupWorkflowEmailsMax": "已达到工作流通知允许的最大电子邮件地址数量",
+      "setupWorkflowEmailUserMax": "已达到工作流通知允许的最大用户数量",
+      "setupWorkflowEmailUserGroupMax": "已达到工作流通知允许的最大用户数量"
     },
     "labelBE": {
       "profileTableColumnSetup": {
@@ -24485,6 +24683,34 @@
         "original": "Status",
         "singular": "Status",
         "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "assetStatusBeforeChecklist": {
+        "original": "Asset status before checklist",
+        "singular": "Asset status before checklist",
+        "plural": "Asset status before checklist",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "assetStatusAfterChecklist": {
+        "original": "Asset status after checklist",
+        "singular":"Asset status after checklist",
+        "plural": "Asset status after checklist",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "equipmentMeterReadingBeforeChecklist": {
+        "original": "Equipment meter reading before checklist",
+        "singular": "Equipment meter reading before checklist",
+        "plural": "Equipment meter reading before checklist",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "equipmentMeterReadingAfterChecklist": {
+        "original": "Equipment meter reading after checklist",
+        "singular": "Equipment meter reading after checklist",
+        "plural": "Equipment meter reading after checklist",
         "setupEdit": false,
         "setupVisible": false
       }

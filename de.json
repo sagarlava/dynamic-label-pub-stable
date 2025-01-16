@@ -564,6 +564,20 @@
     "fields": {
       "setupVisible": true,
       "setupEdit": true,
+      "category": {
+        "original": "Category",
+        "singular": "Kategorie",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "subCategory": {
+        "original": "Sub Category",
+        "singular": "Unterkategorie",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
       "type": {
         "original": "Type",
         "singular": "Typ",
@@ -610,15 +624,15 @@
         "original": "Asset Name",
         "singular": "Anlagenname",
         "plural": "",
-        "setupEdit": false,
-        "setupVisible": false
+        "setupEdit": true,
+        "setupVisible": true
       },
       "name": {
         "original": "Name",
         "singular": "Name",
         "plural": "",
-        "setupEdit": false,
-        "setupVisible": false
+        "setupEdit": true,
+        "setupVisible": true
       },
       "status": {
         "original": "Status",
@@ -997,7 +1011,9 @@
       "assetSubCategoryExists": "Asset-Unterkategorie existiert bereits",
       "assetSubCategorySystemGenerated": "Systemgenerierte Asset-Unterkategorien dürfen nicht gelöscht werden",
       "assetCategoryIdExists": "Eine neue Asset-Kategorie darf keine ID haben",
-      "assetSubCategoryIdExists": "Eine neue Asset-Unterkategorie darf keine ID haben"
+      "assetSubCategoryIdExists": "Eine neue Asset-Unterkategorie darf keine ID haben",
+      "assetCategoryCannotDeleteByAssets":"Löschen nicht möglich: Asset-Kategorie wird in einem oder mehreren Assets verwendet",
+      "assetSubCategoryCannotDeleteByAssets": "Löschen nicht möglich: Asset-Unterkategorie wird in einem oder mehreren Assets verwendet"
     },
     "tooltips": {
       "setupVisible": false,
@@ -2219,7 +2235,8 @@
       "contractIdExists": "Ein neuer Vertrag kann bereits keine ID haben",
       "contractPriceBookNotFound": "Vertragspreisbuch nicht gefunden",
       "contractPriceBookIdNotFound": "Vertragspreisbuch-ID nicht gefunden",
-      "contractPriceBookUpdateFailed": "Fehler beim Aktualisieren des Vertragspreisbuchs"
+      "contractPriceBookUpdateFailed": "Fehler beim Aktualisieren des Vertragspreisbuchs",
+      "contractAssetsSerialNumberExists": "Asset-Seriennummer ist bereits einem sich überschneidenden aktiven Vertrag zugewiesen"
     },
     "tooltips": {
       "setupVisible": false,
@@ -2559,6 +2576,20 @@
         "plural": "Produkte hinzufügen",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "sec14": {
+        "original": "Use the fields below to filter the Checklist(s) you'd like to add",
+        "singular": "Verwenden Sie die Felder unten, um die Checkliste(n) zu filtern, die Sie hinzufügen möchten",
+        "plural": "Verwenden Sie die Felder unten, um die Checkliste(n) zu filtern, die Sie hinzufügen möchten",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec15": {
+        "original": "Select the Checklist(s) you'd like to add to this Job Order",
+        "singular": "Wählen Sie die Checkliste(n) aus, die Sie zu diesem Arbeitsauftrag hinzufügen möchten",
+        "plural": "Wählen Sie die Checkliste(n) aus, die Sie zu diesem Arbeitsauftrag hinzufügen möchten",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "fields": {
@@ -2659,6 +2690,41 @@
         "original": "New Checklist to be Generated",
         "singular": "Neue Prüfliste zu erstellen",
         "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "jobOrderType": {
+        "original": "Job Order Type",
+        "singular": "Auftragstyp",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": false
+      },
+      "assetStatusBeforeChecklist": {
+        "original": "Asset status before checklist",
+        "singular": "Anlagenstatus vor der Checklisten",
+        "plural": "Anlagenstatus vor den Checklisten",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "assetStatusAfterChecklist": {
+        "original": "Asset status after checklist",
+        "singular":"Anlagenstatus nach der Checkliste",
+        "plural": "Anlagenstatus nach den Checklisten",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "equipmentMeterReadingBeforeChecklist": {
+        "original": "Equipment meter reading before checklist",
+        "singular": "Gerätezählerstand vor der Checkliste",
+        "plural": "Gerätezählerstände vor den Checklisten",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "equipmentMeterReadingAfterChecklist": {
+        "original": "Equipment meter reading after checklist",
+        "singular": "Gerätezählerstand nach der Checkliste",
+        "plural": "Gerätezählerstände nach den Checklisten",
         "setupEdit": false,
         "setupVisible": false
       }
@@ -4415,7 +4481,8 @@
       "teamSkillIdExists": "Eine neue Teamfähigkeit kann nicht bereits eine ID haben",
       "userTaskIdExists": "Eine neue Benutzeraufgabe kann nicht bereits eine ID haben",
       "userTaskIdNotFound": "ID nicht gefunden",
-      "userTaskNotFound": "Benutzeraufgabe nicht gefunden"
+      "userTaskNotFound": "Benutzeraufgabe nicht gefunden",
+      "userNotAllowedToAssignTask": "Benutzer darf kein Mitglied zur Aufgabe hinzufügen"
     },
     "tooltips": {
       "setupVisible": false,
@@ -5738,7 +5805,8 @@
       "ticketHasTicketType": "Tickettypdaten existieren im System für das Ticket",
       "ticketTypeSystemGenerated": "Systemgenerierte Tickettypen dürfen nicht gelöscht werden",
       "ticketTypeIdExists": "Ein neuer Tickettyp kann bereits keine ID haben",
-      "slaTicketIdExists": "Ein neues SLA-Ticket kann bereits keine ID haben"
+      "slaTicketIdExists": "Ein neues SLA-Ticket kann bereits keine ID haben",
+      "ticketDuplicateTicketCannotBeSameAsTicket": "Das doppelte Ticket kann nicht mit dem Originalticket identisch sein"
     },
     "tooltips": {
       "setupVisible": true,
@@ -10613,13 +10681,17 @@
       "invalidFileTypeExclamation": "Ungültiger Dateityp!",
       "allowedFileSize": "Die Dateigröße sollte weniger als 25 MB betragen",
       "allowedFileSizeKb": "Die Dateigröße sollte weniger als 100 KB betragen",
+      "allowedFileSize500Kb": "Die Dateigröße sollte weniger als 500KB betragen",
       "allowedFileSizeOnly": "Die Dateigröße sollte weniger als",
       "cannotFindFile": "Dateiname und Dateityp können nicht gefunden werden",
       "pdfNotAvailable": "Entschuldigung! PDF ist nicht verfügbar",
       "invalidFileType": "Ungültiger Dateityp. Nur Bilddateien (.jpg, .png, .svg usw.) können hochgeladen werden.",
       "onlyAllowVisualFiles": "Nur Bilder bis zu 100 KB und die folgenden Dateiformate: PNG und JPG/JPEG sind erlaubt",
       "maxUploadFileSize": "Maximale Upload-Dateigröße beträgt 25 MB",
-      "fileExtension": "Nur Dateien mit den Erweiterungen *.pdf, *.docx, *.jpg sind erlaubt"
+      "fileExtension": "Nur Dateien mit den Erweiterungen *.pdf, *.docx, *.jpg sind erlaubt",
+      "fileTypeUnsupported":"Dieser Dateityp wird nicht unterstützt. Bitte wählen Sie eine andere Datei.",
+      "allowedFileSize4MB":"Die Dateigröße überschreitet das Limit von 4 MB. Bitte laden Sie eine kleinere Datei hoch.",
+      "onlyAcceptImagesExt":"Nur JPG, JPEG und PNG werden akzeptiert"
     }
   },
   "history": {
@@ -12053,21 +12125,21 @@
         "setupEdit": true,
         "setupVisible": false
       },
-      "proceedAnyway":{
+      "proceedAnyway": {
         "original": "Proceed anyway",
         "singular": "Trotzdem fortfahren",
         "plural": "",
         "setupEdit": true,
         "setupVisible": false
       },
-      "addEmailNotification":{
+      "addEmailNotification": {
         "original": "Add Email Notification",
         "singular": "E-Mail-Benachrichtigung hinzufügen",
         "plural": "",
         "setupEdit": true,
         "setupVisible": false
       },
-      "addAppNotification":{
+      "addAppNotification": {
         "original": "Add App Notification",
         "singular": "App-Benachrichtigung hinzufügen",
         "plural": "",
@@ -13728,10 +13800,10 @@
             "setupVisible": false
           },
           "sec11": {
-            "original": "Device Enablement",
-            "singular": "Geräteaktivierung",
+            "original": "Device Permissions",
+            "singular": "Geräteberechtigungen",
             "plural": "",
-            "setupEdit": true,
+            "setupEdit": false,
             "setupVisible": false
           },
           "sec12": {
@@ -13768,6 +13840,20 @@
             "plural": "Klone zuweisen",
             "setupEdit": true,
             "setupVisible": false
+          },
+          "sec17": {
+            "original": "Allowed to Access Web App",
+            "singular": "Zugriff auf Web-App erlaubt",
+            "plural": "Zugriff auf Web-App erlaubt",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec18": {
+            "original": "Allowed to Access Mobile App",
+            "singular": "Zugriff auf mobile App erlaubt",
+            "plural": "Zugriff auf mobile App erlaubt",
+            "setupEdit": false,
+            "setupVisible": false
           }
         },
         "fields": {
@@ -13794,29 +13880,29 @@
             "setupVisible": false
           },
           "web": {
-            "original": "Web",
-            "singular": "Web",
-            "plural": "",
-            "setupEdit": true,
+            "original": "Allowed to Access Web App",
+            "singular": "Zugriff auf Web-App erlaubt",
+            "plural": "Zugriff auf Web-App erlaubt",
+            "setupEdit": false,
             "setupVisible": false
           },
           "loginWeb": {
-            "original": "User is able to login from the web",
-            "singular": "Benutzer kann sich über das Web anmelden",
+            "original": "Users with this access can use the web app",
+            "singular": "Benutzer mit diesem Zugriff können die Web-App verwenden",
             "plural": "",
             "setupEdit": true,
             "setupVisible": false
           },
           "mobile": {
-            "original": "Mobile Access",
-            "singular": "Mobiler Zugriff",
-            "plural": "",
-            "setupEdit": true,
+            "original": "Allowed to Access Mobile App",
+            "singular": "Zugriff auf mobile App erlaubt",
+            "plural": "Zugriff auf mobile App erlaubt",
+            "setupEdit": false,
             "setupVisible": false
           },
           "loginMobile": {
-            "original": "User is able to login via the mobile application",
-            "singular": "Benutzer kann sich über die mobile Anwendung anmelden",
+            "original": "Users with this access can use the mobile app",
+            "singular": "Benutzer mit diesem Zugriff können die mobile App verwenden",
             "plural": "",
             "setupEdit": true,
             "setupVisible": false
@@ -14144,6 +14230,20 @@
             "singular": "Eine E-Mail-Benachrichtigung wird an den Manager gesendet, um ihn darüber zu informieren, dass ein Benutzer manuell während seiner festgelegten Arbeitszeiten von online auf offline umgeschaltet hat",
             "plural": "",
             "setupEdit": true,
+            "setupVisible": false
+          },
+          "usersCanUseWebApp": {
+            "original": "Users with this access can use the web app",
+            "singular": "Benutzer mit diesem Zugriff können die Web-App verwenden",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "usersCanUseMobileApp": {
+            "original": "Users with this access can use the mobile app",
+            "singular": "Benutzer mit diesem Zugriff können die mobile App verwenden",
+            "plural": "",
+            "setupEdit": false,
             "setupVisible": false
           }
         },
@@ -15367,8 +15467,8 @@
             "setupVisible": false
           },
           "userInField": {
-            "original": "User in Field",
-            "singular": "Benutzer im Feld",
+            "original": "User Field",
+            "singular": "Benutzerfeld",
             "plural": "",
             "setupEdit": true,
             "setupVisible": false
@@ -15410,7 +15510,7 @@
           },
           "emailInField": {
             "original": "Email in Field",
-            "singular": "E-Mail im Feld",
+            "singular": "E-Mail-Feld",
             "plural": "",
             "setupEdit": false,
             "setupVisible": false
@@ -15425,22 +15525,29 @@
             "plural": "",
             "setupEdit": false,
             "setupVisible": false
+          },
+          "separateEmail": {
+            "original": "Separate multiple email addresses with commas",
+            "singular": "Trennen Sie mehrere E-Mail-Adressen mit Kommas",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": false
           }
         },
         "messages": {
           "notificationsAllowNotify": "Benachrichtigungen ermöglichen es Ihnen, Benutzer über spezifische Aktivitäten in FieldEx zu informieren, wie z. B. Updates und Zuweisungen, sowohl innerhalb der App als auch als E-Mail-Benachrichtigungen. Erstellen Sie Workflows, um Ihre Benachrichtigungen auszulösen und konfigurieren Sie diese, um Ihren Geschäftsprozessen gerecht zu werden.",
-          "fillEmailNotificationDetails":"Füllen Sie die Details Ihrer E-Mail-Benachrichtigung mit einem Namen und einer Beschreibung aus.",
-          "fillAppNotificationDetails":"Füllen Sie die Details Ihrer App-Benachrichtigung mit einem Namen und einer Beschreibung aus.",
+          "fillEmailNotificationDetails": "Füllen Sie die Details Ihrer E-Mail-Benachrichtigung mit einem Namen und einer Beschreibung aus.",
+          "fillAppNotificationDetails": "Füllen Sie die Details Ihrer App-Benachrichtigung mit einem Namen und einer Beschreibung aus.",
           "typeOutMessage": "Geben Sie Ihre Nachricht ein, wählen Sie die Felder aus, die Sie einfügen möchten, und kopieren Sie den angezeigten Text in den Nachrichteninhalt links.",
           "selectWhereLikeNotificationNavigate": "Wählen Sie, wohin die Benachrichtigung navigieren soll und ob Sie wichtige Informationen fett gedruckt haben möchten.",
-          "textWithinCurly":"Hinweis: Der Text in den geschweiften Klammern ({{}}) wird beim Senden der Benachrichtigung durch die tatsächlichen Feldwerte ersetzt.",
+          "textWithinCurly": "Hinweis: Der Text in den geschweiften Klammern ({{}}) wird beim Senden der Benachrichtigung durch die tatsächlichen Feldwerte ersetzt.",
           "selectEmailTemplate": "Wählen Sie die E-Mail-Vorlage aus, die für diese Benachrichtigung versendet werden soll.",
-          "defineEmailRecipients":"Wählen Sie, wer diese E-Mail erhält, indem Sie Systembenutzer, spezifische E-Mail-Adressen oder Kontakte aus Feldern auswählen (z. B. die Kontakt-E-Mail eines Arbeitsauftrags).",
-          "defineAppRecipients":"Wählen Sie, wer diese E-Mail erhält, indem Sie Systembenutzer oder Gruppen auswählen.",
+          "defineEmailRecipients": "Wählen Sie, wer diese E-Mail erhält, indem Sie Systembenutzer, spezifische E-Mail-Adressen oder Kontakte aus Feldern auswählen (z. B. die Kontakt-E-Mail eines Arbeitsauftrags).",
+          "defineAppRecipients": "Wählen Sie, wer diese E-Mail erhält, indem Sie Systembenutzer oder Gruppen auswählen.",
           "makeKeyDataBold": "Wichtige Daten fett formatieren",
           "createEmailTemplate": "E-Mail-Vorlage erstellen",
           "selectModule": "Modul auswählen",
-          "selectTemplate":"Vorlage auswählen",
+          "selectTemplate": "Vorlage auswählen",
           "selectGroup": "Gruppe auswählen",
           "selectUserInField": "Benutzer im Feld auswählen",
           "testEmailSentSuccessfully": "Test-E-Mail erfolgreich gesendet",
@@ -18553,6 +18660,13 @@
           "plural": "",
           "setupEdit": true,
           "setupVisible": false
+        },
+        "sec15": {
+          "original": "Specify the details of the Job Orders this Checklist is for. Job Orders matching the below values will trigger this Checklist.",
+          "singular": "Geben Sie die Details der Arbeitsaufträge an, für die diese Checkliste gilt. Arbeitsaufträge, die den untenstehenden Werten entsprechen, lösen diese Checkliste aus.",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
         }
       },
       "fields": {
@@ -18675,6 +18789,13 @@
           "plural": "",
           "setupEdit": true,
           "setupVisible": false
+        },
+        "whenWillChecklistPrompted": {
+          "original": "When Will Checklist be Prompted?",
+          "singular": "Wann wird die Checkliste angezeigt?",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
         }
       },
       "tooltips": {
@@ -18699,7 +18820,10 @@
         "selectAssetTypes": "Vermögenswerttypen auswählen",
         "selectServiceZone": "Servicezone auswählen",
         "selectEquipmentType": "Gerätetyp auswählen",
-        "checklistName": "Name der Checkliste"
+        "checklistName": "Name der Checkliste",
+        "previousFileOverwritten":"Sind Sie sicher, dass Sie eine neue Datei hochladen möchten? Die vorherige wird überschrieben. Diese Aktion kann nicht rückgängig gemacht werden.",
+        "fileTypeUnsupported":"Dieser Dateityp wird nicht unterstützt. Bitte wählen Sie eine andere Datei.",
+        "exceedFileSizeSmall":"Die Dateigröße überschreitet das Limit von 4 MB. Bitte laden Sie eine kleinere Datei hoch."
       }
     },
     "department": {
@@ -18871,6 +18995,34 @@
           "plural": "",
           "setupEdit": true,
           "setupVisible": false
+        },
+        "photo": {
+          "original": "Photo",
+          "singular": "Foto",
+          "plural": "",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "answerType": {
+          "original": "Answer Type",
+          "singular": "Antworttyp",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "from": {
+          "original": "From",
+          "singular": "Von",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "to": {
+          "original": "To",
+          "singular": "Zu",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
         }
       },
       "validationFE": {},
@@ -18900,6 +19052,20 @@
         "aJobOrderGeneratedSelectedTemplate": {
           "original": "A Job Order and it's associated Tasks and Spare Parts will be generated from the selected template if the answer is submitted",
           "singular": "Ein Arbeitsauftrag sowie die zugehörigen Aufgaben und Ersatzteile werden aus der ausgewählten Vorlage generiert, wenn die Antwort eingereicht wird",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "chooseTextOrNumber": {
+          "original": "This choice sets the format for the Answer fields in the Answers section. Choose 'Text' for word answers or 'Number' for number range answers.",
+          "singular": "Diese Auswahl legt das Format für die Antwortfelder im Abschnitt Antworten fest. Wählen Sie 'Text' für Wortantworten oder 'Nummer' für Zahlenbereich-Antworten.",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "enterRangeOfNumbers": {
+          "original": "Enter the range of numbers that act as a threshold in the From and To fields. If the values fall within this range, the selected Job Order Template will be triggered. Note that the 'To' value must be equal to or greater than the 'From' value.",
+          "singular": "Geben Sie den Zahlenbereich ein, der als Schwellenwert in den Feldern Von und Bis dient. Liegen die Werte innerhalb dieses Bereichs, wird die ausgewählte Arbeitsauftrag-Vorlage ausgelöst. Beachten Sie, dass der 'Bis'-Wert gleich oder größer als der 'Von'-Wert sein muss.",
           "plural": "",
           "setupEdit": true,
           "setupVisible": false
@@ -20763,9 +20929,9 @@
         "emailNotificationsDesc": "Erstellen Sie benutzerdefinierte E-Mail-Vorlagen mit Feldwerten, um FieldEx-Benutzer oder externe Kontakte zu benachrichtigen.",
         "whetherRemindersCustomer": "Egal ob Erinnerungen, Kunden-Updates oder Team-Benachrichtigungen – Workflows machen die Verbindung einfach und effektiv.",
         "useThisPageToCreateNewWorkflows": "Verwenden Sie diese Seite, um neue Workflows zu erstellen oder die bereits eingerichteten zu verwalten.",
-        "triggerWhenNewRecordCreated": "Wenn ein Datensatz erstellt wird: Der Workflow wird ausgelöst, wenn ein neuer Datensatz hinzugefügt wird und die festgelegten Bedingungen erfüllt sind.",
-        "triggerWhenUpdatedFirstTime": "Wenn ein Datensatz zum ersten Mal geändert wird: Der Workflow wird beim ersten Mal ausgelöst, wenn Änderungen am Datensatz vorgenommen werden und die angegebenen Bedingungen erfüllt sind.",
-        "triggerWhenRecordUpdatedEverytime": "Jedes Mal, wenn ein Datensatz aktualisiert wird: Der Workflow wird jedes Mal ausgelöst, wenn Änderungen am Datensatz vorgenommen werden und die angegebenen Bedingungen erfüllt sind.",
+        "triggerWhenNewRecordCreated": "Der Workflow wird ausgelöst, wenn ein neuer Datensatz hinzugefügt wird und die festgelegten Bedingungen erfüllt sind.",
+        "triggerWhenUpdatedFirstTime": "Der Workflow wird beim ersten Mal ausgelöst, wenn Änderungen am Datensatz vorgenommen werden und die angegebenen Bedingungen erfüllt sind.",
+        "triggerWhenRecordUpdatedEverytime": "Der Workflow wird jedes Mal ausgelöst, wenn Änderungen am Datensatz vorgenommen werden und die angegebenen Bedingungen erfüllt sind.",
         "triggerWhenRecordDeleted": "Diese Option löst den Workflow aus, wenn ein Datensatz gelöscht wird.",
         "selectStatus": "Status auswählen",
         "selectAttribute": "Attribut auswählen",
@@ -20808,8 +20974,31 @@
         "andPartIsStrict": "Der UND-Teil ist streng:",
         "onlyOneThingNeedsToHappen": "Nur eine Sache aus dieser Gruppe muss passieren.",
         "everythingInGroupMustHappen": "Alles in dieser Gruppe muss passieren.",
-        "workflowHasNotBegun":"Kein Startauslöser angegeben",
-        "clickHereToAdd":"Klicken Sie hier, um hinzuzufügen."
+        "workflowHasNotBegun": "Kein Startauslöser angegeben",
+        "clickHereToAdd": "Klicken Sie hier, um hinzuzufügen.",
+        "noOfRules":"Anz. der Regeln",
+        "equalTo":"gleich wie",
+        "equalToEmpty":"gleich wie ' '",
+        "notEqualTo":"ungleich wie",
+        "notEqualToEmpty":"ungleich wie ' '",
+        "contains":"enthält",
+        "startsWith":"beginnt mit",
+        "endsWith":"endet mit",
+        "isGreaterThan":"ist größer als",
+        "isGreaterThanOrEqualTo":"ist größer oder gleich wie",
+        "isLessThan":"ist kleiner als",
+        "isLessThanOrEqualTo":"ist kleiner oder gleich wie",
+        "today":"Heute",
+        "yesterday":"Gestern",
+        "tomorrow":"Morgen",
+        "thisWeek":"Diese Woche",
+        "lastWeek":"Letzte Woche",
+        "nextWeek":"Nächste Woche",
+        "thisMonth":"Diesen Monat",
+        "lastMonth":"Letzten Monat",
+        "nextMonth":"Nächsten Monat",
+        "thisYear":"Dieses Jahr",
+        "addDays":"Tage Hinzufügen"
       }
     },
     "templates": {
@@ -20934,10 +21123,10 @@
           "copyFieldsToAutoFillWithFieldExData": "Kopieren Sie Felder, um sie automatisch mit FieldEx-Daten zu füllen",
           "addAButton": "Fügen Sie einen Button hinzu",
           "addATable": "Fügen Sie eine Tabelle hinzu",
-          "fileSizeRestriction":"Dateigrößenbeschränkung",
-          "acceptedFileFormats":"Akzeptierte Dateiformate",
-          "maxAllowedIs100Kb":"Die maximal zulässige Dateigröße beträgt 100kb.",
-          "onlyImgFormat":"Nur JPEG-, JPG- und PNG-Formate werden unterstützt"
+          "fileSizeRestriction": "Dateigrößenbeschränkung",
+          "acceptedFileFormats": "Akzeptierte Dateiformate",
+          "maxAllowedIs100Kb": "Die maximal zulässige Dateigröße beträgt 100kb.",
+          "onlyImgFormat": "Nur JPEG-, JPG- und PNG-Formate werden unterstützt"
         },
         "settings": {
           "label": {
@@ -21154,8 +21343,9 @@
             "firstSelectSettings": "Wählen Sie zuerst ein Modul im Tab 'Einstellungen', um mit dem Erstellen Ihrer E-Mail zu beginnen.",
             "includeButtonInEmail": "Fügen Sie einen Button in die E-Mail ein.",
             "includeTableInEmail": "Fügen Sie eine Tabelle in die E-Mail ein.",
-            "selectFieldFilter": "Tabelle sollte filtern nach...",
+            "selectFieldFilter": "Filtern nach...",
             "selectModule": "Modul auswählen.",
+            "selectTemplate":"Vorlage auswählen",
             "selectSortBy": "Tabelle sollte sortieren nach...",
             "maximumFiveColumnsAdded": "Es können maximal 5 Spalten hinzugefügt werden"
           }
@@ -21233,7 +21423,7 @@
       "setupSystemCategoryIdExists": "Eine neue Systemkategorie kann bereits keine ID haben.",
       "setupSystemCategoryIdNotFound": "ID nicht gefunden.",
       "setupSystemCategoryNameExists": "Name existiert bereits.",
-      "setupSystemCategoryCannotDeleteByJobOrderTemplates" : "Löschen nicht möglich: Die Systemkategorie ist Teil von einer oder mehreren Arbeitsauftragsvorlagen.",
+      "setupSystemCategoryCannotDeleteByJobOrderTemplates": "Löschen nicht möglich: Die Systemkategorie ist Teil von einer oder mehreren Arbeitsauftragsvorlagen.",
       "setupJobOrderTypeIdExists": "Ein neuer Auftragstyp kann bereits keine ID haben.",
       "setupJobOrderTypeIdNotFound": "ID nicht gefunden.",
       "setupJobOrderTypeNameExists": "Name existiert bereits.",
@@ -21388,7 +21578,15 @@
       "setupUserShiftStartTimeNotFound": "Startzeit für den Schichtwechsel nicht gefunden.",
       "setupUserShiftEndTimeNotFound": "Endzeit für den Schichtwechsel nicht gefunden.",
       "setupUserShiftNotFound": "Benutzerschicht nicht gefunden.",
-      "setupZoneHasInventoryNotAllowedChangeLocation": "Standort der Zone kann bei bestehendem Inventar nicht geändert werden."
+      "setupZoneHasInventoryNotAllowedChangeLocation": "Standort der Zone kann bei bestehendem Inventar nicht geändert werden.",
+      "setupWorkflowDeleteAlertInUse":"Benachrichtigung wird in einem oder mehreren Workflows verwendet",
+      "setupWorkflowIdValuesRequired": "Workflow-ID-Wert ist erforderlich",
+      "setupWorkflowLinkedToNotifications": "Dem Workflow sind Benachrichtigungen zugewiesen. Bitte entfernen Sie diese zuerst",
+      "setupWorkflowMaxAllowedCount":"Die maximale Anzahl aktiver Workflows wurde erreicht",
+      "setupWorkflowMaxActionsPerWorkflow": "Maximale Aktionen pro Workflow erreicht",
+      "setupWorkflowEmailsMax": "Die maximale Anzahl erlaubter E-Mail-Adressen für Workflow-Benachrichtigungen wurde erreicht",
+      "setupWorkflowEmailUserMax": "Maximale Anzahl an erlaubten Benutzern für Workflow-Benachrichtigungen erreicht",
+      "setupWorkflowEmailUserGroupMax": "Maximale Anzahl an erlaubten Benutzern für Workflow-Benachrichtigungen erreicht"
     },
     "labelBE": {
       "profileTableColumnSetup": {
@@ -24485,6 +24683,34 @@
         "original": "Status",
         "singular": "Status",
         "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "assetStatusBeforeChecklist": {
+        "original": "Asset status before checklist",
+        "singular": "Asset status before checklist",
+        "plural": "Asset status before checklist",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "assetStatusAfterChecklist": {
+        "original": "Asset status after checklist",
+        "singular":"Asset status after checklist",
+        "plural": "Asset status after checklist",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "equipmentMeterReadingBeforeChecklist": {
+        "original": "Equipment meter reading before checklist",
+        "singular": "Equipment meter reading before checklist",
+        "plural": "Equipment meter reading before checklist",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "equipmentMeterReadingAfterChecklist": {
+        "original": "Equipment meter reading after checklist",
+        "singular": "Equipment meter reading after checklist",
+        "plural": "Equipment meter reading after checklist",
         "setupEdit": false,
         "setupVisible": false
       }
