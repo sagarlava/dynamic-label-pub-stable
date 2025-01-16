@@ -13785,10 +13785,10 @@
             "setupVisible": false
           },
           "sec11": {
-            "original": "Device Enablement",
-            "singular": "Geräteaktivierung",
+            "original": "Device Permissions",
+            "singular": "Geräteberechtigungen",
             "plural": "",
-            "setupEdit": true,
+            "setupEdit": false,
             "setupVisible": false
           },
           "sec12": {
@@ -13825,6 +13825,20 @@
             "plural": "Klone zuweisen",
             "setupEdit": true,
             "setupVisible": false
+          },
+          "sec17": {
+            "original": "Allowed to Access Web App",
+            "singular": "Zugriff auf Web-App erlaubt",
+            "plural": "Zugriff auf Web-App erlaubt",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec18": {
+            "original": "Allowed to Access Mobile App",
+            "singular": "Zugriff auf mobile App erlaubt",
+            "plural": "Zugriff auf mobile App erlaubt",
+            "setupEdit": false,
+            "setupVisible": false
           }
         },
         "fields": {
@@ -13851,29 +13865,29 @@
             "setupVisible": false
           },
           "web": {
-            "original": "Web",
-            "singular": "Web",
-            "plural": "",
-            "setupEdit": true,
+            "original": "Allowed to Access Web App",
+            "singular": "Zugriff auf Web-App erlaubt",
+            "plural": "Zugriff auf Web-App erlaubt",
+            "setupEdit": false,
             "setupVisible": false
           },
           "loginWeb": {
-            "original": "User is able to login from the web",
-            "singular": "Benutzer kann sich über das Web anmelden",
+            "original": "Users with this access can use the web app",
+            "singular": "Benutzer mit diesem Zugriff können die Web-App verwenden",
             "plural": "",
             "setupEdit": true,
             "setupVisible": false
           },
           "mobile": {
-            "original": "Mobile Access",
-            "singular": "Mobiler Zugriff",
-            "plural": "",
-            "setupEdit": true,
+            "original": "Allowed to Access Mobile App",
+            "singular": "Zugriff auf mobile App erlaubt",
+            "plural": "Zugriff auf mobile App erlaubt",
+            "setupEdit": false,
             "setupVisible": false
           },
           "loginMobile": {
-            "original": "User is able to login via the mobile application",
-            "singular": "Benutzer kann sich über die mobile Anwendung anmelden",
+            "original": "Users with this access can use the mobile app",
+            "singular": "Benutzer mit diesem Zugriff können die mobile App verwenden",
             "plural": "",
             "setupEdit": true,
             "setupVisible": false
@@ -14201,6 +14215,20 @@
             "singular": "Eine E-Mail-Benachrichtigung wird an den Manager gesendet, um ihn darüber zu informieren, dass ein Benutzer manuell während seiner festgelegten Arbeitszeiten von online auf offline umgeschaltet hat",
             "plural": "",
             "setupEdit": true,
+            "setupVisible": false
+          },
+          "usersCanUseWebApp": {
+            "original": "Users with this access can use the web app",
+            "singular": "Benutzer mit diesem Zugriff können die Web-App verwenden",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "usersCanUseMobileApp": {
+            "original": "Users with this access can use the mobile app",
+            "singular": "Benutzer mit diesem Zugriff können die mobile App verwenden",
+            "plural": "",
+            "setupEdit": false,
             "setupVisible": false
           }
         },
