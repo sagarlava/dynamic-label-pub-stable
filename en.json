@@ -16146,7 +16146,9 @@
           "aCategorizedSummary":"A categorized summary of your jobs for today.",
           "conciseSummaryKeyDetails":"A concise summary of key details for completed job orders, displayed in the job order view",
           "taskTimeSuggestions":"Task time suggestions based on previous job and task data.",
-          "useAiToGenerateChecklist":"Use AI to generate checklist questions from a brief prompt or sample forms."
+          "useAiToGenerateChecklist":"Use AI to generate checklist questions from a brief prompt or sample forms.",
+          "web":"Web",
+          "mobile":"Mobile"
         }
       }
     },

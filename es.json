@@ -16146,7 +16146,9 @@
           "aCategorizedSummary":"Un resumen categorizado de sus trabajos para hoy.",
           "conciseSummaryKeyDetails":"Un resumen conciso de los detalles clave para las órdenes de trabajo completadas, mostrado en la vista de órdenes de trabajo.",
           "taskTimeSuggestions":"Sugerencias de tiempo para tareas basadas en datos de trabajos y tareas previos.",
-          "useAiToGenerateChecklist":"Utilice IA para generar preguntas de listas de verificación a partir de un breve aviso o formularios de muestra."
+          "useAiToGenerateChecklist":"Utilice IA para generar preguntas de listas de verificación a partir de un breve aviso o formularios de muestra.",
+          "web":"Web",
+          "mobile":"Móvil"
         }
       }
     },
