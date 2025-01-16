@@ -16366,6 +16366,34 @@
             "plural": "Habilitar sugerencia de AI",
             "setupEdit": false,
             "setupVisible": false
+          },
+          "dailyJobRundown":{
+            "original": "Daily Job Rundown",
+            "singular": "Resumen Diario de Trabajo",
+            "plural": "Resúmenes Diarios de Trabajo",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "postJobSummary": {
+            "original": "Post-Job Summary",
+            "singular": "Resumen Posterior al Trabajo",
+            "plural": "Resúmenes Posteriores al Trabajo",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "taskDurationSuggestion": {
+            "original": "Task Duration Suggestion",
+            "singular": "Sugerencia de Duración de la Tarea",
+            "plural": "Sugerencias de Duración de las Tareas",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "checklistGeneration": {
+            "original": "Checklist Generation",
+            "singular": "Generación de Lista de Verificación",
+            "plural": "Generaciones de Lista de Verificación",
+            "setupEdit": false,
+            "setupVisible": false
           }
         },
         "messages":{
@@ -16375,7 +16403,13 @@
           "suggestedBy":"Sugerido por Finley",
           "completedBy":"Completado por",
           "beta":"beta",
-          "enableOrDisableSuggestions":"Habilite o deshabilite sugerencias y funciones impulsadas por nuestra amigable IA, Finley. Las funciones habilitadas estarán disponibles para todos los usuarios de su organización, permitiéndoles personalizar sus preferencias activando o desactivando funciones específicas."
+          "enableOrDisableSuggestions":"Habilite o deshabilite sugerencias y funciones impulsadas por nuestra amigable IA, Finley. Las funciones habilitadas estarán disponibles para todos los usuarios de su organización, permitiéndoles personalizar sus preferencias activando o desactivando funciones específicas.",
+          "aCategorizedSummary":"Un resumen categorizado de sus trabajos para hoy.",
+          "conciseSummaryKeyDetails":"Un resumen conciso de los detalles clave para las órdenes de trabajo completadas, mostrado en la vista de órdenes de trabajo.",
+          "taskTimeSuggestions":"Sugerencias de tiempo para tareas basadas en datos de trabajos y tareas previos.",
+          "useAiToGenerateChecklist":"Utilice IA para generar preguntas de listas de verificación a partir de un breve aviso o formularios de muestra.",
+          "web":"Web",
+          "mobile":"Móvil"
         }
       }
     },

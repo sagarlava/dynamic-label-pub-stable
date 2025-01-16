@@ -16366,6 +16366,34 @@
             "plural": "KI-vorschläge aktivieren",
             "setupEdit": false,
             "setupVisible": false
+          },
+          "dailyJobRundown":{
+            "original": "Daily Job Rundown",
+            "singular": "Tägliche Arbeitsübersicht",
+            "plural": "Tägliche Arbeitsübersichten",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "postJobSummary": {
+            "original": "Post-Job Summary",
+            "singular": "Nacharbeitszusammenfassung",
+            "plural": "Nacharbeitszusammenfassungen",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "taskDurationSuggestion": {
+            "original": "Task Duration Suggestion",
+            "singular": "Vorschlag zur Aufgabendauer",
+            "plural": "Vorschläge zur Aufgabendauer",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "checklistGeneration": {
+            "original": "Checklist Generation",
+            "singular": "Checklistenerstellung",
+            "plural": "Checklistenerstellungen",
+            "setupEdit": false,
+            "setupVisible": false
           }
         },
         "messages":{
@@ -16375,7 +16403,13 @@
           "suggestedBy":"Vorgeschlagen von Finley",
           "completedBy":"Abgeschlossen von",
           "beta":"beta",
-          "enableOrDisableSuggestions":"Aktivieren oder deaktivieren Sie Vorschläge und Funktionen, die von unserer freundlichen KI Finley unterstützt werden. Aktivierte Funktionen sind für alle Benutzer in Ihrer Organisation zugänglich, sodass sie ihre Präferenzen durch Ein- oder Ausschalten bestimmter Funktionen anpassen können."
+          "enableOrDisableSuggestions":"Aktivieren oder deaktivieren Sie Vorschläge und Funktionen, die von unserer freundlichen KI Finley unterstützt werden. Aktivierte Funktionen sind für alle Benutzer in Ihrer Organisation zugänglich, sodass sie ihre Präferenzen durch Ein- oder Ausschalten bestimmter Funktionen anpassen können.",
+          "aCategorizedSummary":"Eine kategorisierte Zusammenfassung Ihrer heutigen Aufgaben",
+          "conciseSummaryKeyDetails":"Eine prägnante Zusammenfassung der wichtigsten Details für abgeschlossene Arbeitsaufträge, angezeigt in der Arbeitsauftragsansicht.",
+          "taskTimeSuggestions":"Aufgabenzeitvorschläge basierend auf früheren Arbeits- und Aufgabendaten.",
+          "useAiToGenerateChecklist":"Verwenden Sie KI, um Checklistenfragen aus einer kurzen Eingabeaufforderung oder Musterformularen zu generieren.",
+          "web":"Web",
+          "mobile":"Mobil"
         }
       }
     },
