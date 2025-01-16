@@ -13907,17 +13907,17 @@
             "setupVisible": false
           },
           "allowViewSalesOrdPrice": {
-            "original": "Allow View Sales Order Price",
-            "singular": "Allow View Sales Order Price",
+            "original": "Allowed to View Sales Order Price",
+            "singular": "Allowed to View Sales Order Price",
             "plural": "",
-            "setupEdit": true,
+            "setupEdit": false,
             "setupVisible": false
           },
           "allowAssignTask": {
-            "original": "Allow to Assign Task",
-            "singular": "Allow to Assign Task",
+            "original": "Allowed to Assign Task",
+            "singular": "Allowed to Assign Task",
             "plural": "",
-            "setupEdit": true,
+            "setupEdit": false,
             "setupVisible": false
           },
           "allowAssignShift": {
@@ -13929,7 +13929,7 @@
           },
           "jmpMandatory": {
             "original": "JMP Mandatory",
-            "singular": "View Staff Downline Based on Hierarchy",
+            "singular": "JMP Mandatory",
             "plural": "",
             "setupEdit": true,
             "setupVisible": false
@@ -14099,17 +14099,17 @@
         "descriptions": {
           "setupVisible": false,
           "userWithAccessAssignTask": {
-            "original": "Users with this access are able to assign tasks",
-            "singular": "Users with this access are able to assign tasks",
+            "original": "Users with this access can assign Tasks",
+            "singular": "Users with this access can assign Tasks",
             "plural": "",
-            "setupEdit": true,
+            "setupEdit": false,
             "setupVisible": false
           },
           "userWithAccessViewPricing": {
-            "original": "Users with this access are able to view pricing details for Sales Orders",
-            "singular": "Users with this access are able to view pricing details for Sales Orders",
+            "original": "Users with this access can view pricing details for Sales Orders",
+            "singular": "Users with this access can view pricing details for Sales Orders",
             "plural": "",
-            "setupEdit": true,
+            "setupEdit": false,
             "setupVisible": false
           },
           "userWithAccessAssignShift": {
@@ -14127,31 +14127,31 @@
             "setupVisible": false
           },
           "userWithAccessCreateModifyTix": {
-            "original": "Users with this access are able to create and modify tickets as well as view the Helpdesk module",
-            "singular": "Users with this access are able to create and modify tickets as well as view the Helpdesk module",
+            "original": "Users with this access can create and modify tickets as well as view Helpdesk Module",
+            "singular": "Users with this access can create and modify tickets as well as view Helpdesk Module",
             "plural": "",
-            "setupEdit": true,
+            "setupEdit": false,
             "setupVisible": false
           },
           "leaveUncheckedMarkOnline": {
-            "original": "Leave unchecked to always be marked as 'Online' by default",
-            "singular": "Leave unchecked to always be marked as 'Online' by default",
+            "original": "If not selected, user will always be marked as 'Online' by default",
+            "singular": "If not selected, user will always be marked as 'Online' by default",
             "plural": "",
-            "setupEdit": true,
+            "setupEdit": false,
             "setupVisible": false
           },
           "userBinTransferReceiveProd": {
-            "original": "A 'User Bin' may be created for users with this access to transfer and receive Assets and Spare Parts",
-            "singular": "A 'User Bin' may be created for users with this access to transfer and receive Assets and Spare Parts",
+            "original": "A 'User Bin' is created for users with this access to transfer and receive Assets and Spare Parts",
+            "singular": "A 'User Bin' is created for users with this access to transfer and receive Assets and Spare Parts",
             "plural": "",
             "setupEdit": true,
             "setupVisible": false
           },
           "leaveRequestAutoApprove": {
-            "original": "Leave requests will be automatically approved for users with this access",
-            "singular": "Leave requests will be automatically approved for users with this access",
+            "original": "Users with this access have their leave requests automatically approved",
+            "singular": "Users with this access have their leave requests automatically approved",
             "plural": "",
-            "setupEdit": true,
+            "setupEdit": false,
             "setupVisible": false
           },
           "allowUserSendViewSurvey": {

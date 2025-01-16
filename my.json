@@ -13907,17 +13907,17 @@
             "setupVisible": false
           },
           "allowViewSalesOrdPrice": {
-            "original": "Allow View Sales Order Price",
-            "singular": "Benarkan Lihat Harga Pesanan Jualan",
+            "original": "Allowed to View Sales Order Price",
+            "singular": "Dibenarkan untuk Melihat Harga Pesanan Jualan",
             "plural": "",
-            "setupEdit": true,
+            "setupEdit": false,
             "setupVisible": false
           },
           "allowAssignTask": {
-            "original": "Allow to Assign Task",
-            "singular": "Benarkan Tugaskan Tugas",
+            "original": "Allowed to Assign Task",
+            "singular": "Dibenarkan untuk Menetapkan Tugasan",
             "plural": "",
-            "setupEdit": true,
+            "setupEdit": false,
             "setupVisible": false
           },
           "allowAssignShift": {
@@ -14099,17 +14099,17 @@
         "descriptions": {
           "setupVisible": false,
           "userWithAccessAssignTask": {
-            "original": "Users with this access are able to assign tasks",
-            "singular": "Pengguna dengan akses ini boleh tugaskan tugas",
+            "original": "Users with this access can assign Tasks",
+            "singular": "Pengguna dengan akses ini boleh menetapkan Tugasan",
             "plural": "",
-            "setupEdit": true,
+            "setupEdit": false,
             "setupVisible": false
           },
           "userWithAccessViewPricing": {
-            "original": "Users with this access are able to view pricing details for Sales Orders",
-            "singular": "Pengguna dengan akses ini boleh lihat butiran harga untuk Pesanan Jualan",
+            "original": "Users with this access can view pricing details for Sales Orders",
+            "singular": "Pengguna dengan akses ini boleh melihat butiran harga untuk Pesanan Jualan",
             "plural": "",
-            "setupEdit": true,
+            "setupEdit": false,
             "setupVisible": false
           },
           "userWithAccessAssignShift": {
@@ -14127,31 +14127,31 @@
             "setupVisible": false
           },
           "userWithAccessCreateModifyTix": {
-            "original": "Users with this access are able to create and modify tickets as well as view the Helpdesk module",
-            "singular": "Pengguna dengan akses ini boleh buat dan ubah tiket serta lihat modul Meja Bantuan",
+            "original": "Users with this access can create and modify tickets as well as view Helpdesk Module",
+            "singular": "Pengguna dengan akses ini boleh mencipta dan mengubah suai tiket serta melihat Modul Meja Bantuan",
             "plural": "",
-            "setupEdit": true,
+            "setupEdit": false,
             "setupVisible": false
           },
           "leaveUncheckedMarkOnline": {
-            "original": "Leave unchecked to always be marked as 'Online' by default",
-            "singular": "Biarkan tidak ditandakan untuk sentiasa ditandakan sebagai 'Online' secara lalai",
+            "original": "If not selected, user will always be marked as 'Online' by default",
+            "singular": "Jika tidak dipilih, pengguna akan sentiasa ditandakan sebagai 'Online' secara lalai",
             "plural": "",
-            "setupEdit": true,
+            "setupEdit": false,
             "setupVisible": false
           },
           "userBinTransferReceiveProd": {
-            "original": "A 'User Bin' may be created for users with this access to transfer and receive Assets and Products",
-            "singular": "Bin Pengguna boleh dibuat untuk pengguna dengan akses ini untuk pindah dan terima Aset dan Alat Ganti",
+            "original": "A 'User Bin' is created for users with this access to transfer and receive Assets and Spare Parts",
+            "singular": "Sebuah 'Bin Pengguna' dicipta untuk pengguna dengan akses ini untuk memindahkan dan menerima Aset dan Alat Ganti",
             "plural": "",
             "setupEdit": true,
             "setupVisible": false
           },
           "leaveRequestAutoApprove": {
-            "original": "Leave requests will be automatically approved for users with this access",
-            "singular": "Permohonan cuti akan diluluskan secara automatik untuk pengguna dengan akses ini",
+            "original": "Users with this access have their leave requests automatically approved",
+            "singular": "Pengguna dengan akses ini mempunyai permohonan cuti mereka diluluskan secara automatik",
             "plural": "",
-            "setupEdit": true,
+            "setupEdit": false,
             "setupVisible": false
           },
           "allowUserSendViewSurvey": {

@@ -13907,17 +13907,17 @@
             "setupVisible": false
           },
           "allowViewSalesOrdPrice": {
-            "original": "Allow View Sales Order Price",
+            "original": "Allowed to View Sales Order Price",
             "singular": "允许查看销售订单价格",
             "plural": "",
-            "setupEdit": true,
+            "setupEdit": false,
             "setupVisible": false
           },
           "allowAssignTask": {
-            "original": "Allow to Assign Task",
+            "original": "Allowed to Assign Task",
             "singular": "允许分配任务",
             "plural": "",
-            "setupEdit": true,
+            "setupEdit": false,
             "setupVisible": false
           },
           "allowAssignShift": {
@@ -14099,17 +14099,17 @@
         "descriptions": {
           "setupVisible": false,
           "userWithAccessAssignTask": {
-            "original": "Users with this access are able to assign tasks",
-            "singular": "具有此访问权限的用户可以分配任务",
+            "original": "Users with this access can assign Tasks",
+            "singular": "具有此权限的用户可以分配任务",
             "plural": "",
-            "setupEdit": true,
+            "setupEdit": false,
             "setupVisible": false
           },
           "userWithAccessViewPricing": {
-            "original": "Users with this access are able to view pricing details for Sales Orders",
-            "singular": "具有此访问权限的用户可以查看销售订单的定价详情",
+            "original": "Users with this access can view pricing details for Sales Orders",
+            "singular": "具有此权限的用户可以查看销售订单的定价详细信息",
             "plural": "",
-            "setupEdit": true,
+            "setupEdit": false,
             "setupVisible": false
           },
           "userWithAccessAssignShift": {
@@ -14127,31 +14127,31 @@
             "setupVisible": false
           },
           "userWithAccessCreateModifyTix": {
-            "original": "Users with this access are able to create and modify tickets as well as view the Helpdesk module",
-            "singular": "具有此访问权限的用户可以创建和修改票据以及查看帮助台模块",
+            "original": "Users with this access can create and modify tickets as well as view Helpdesk Module",
+            "singular": "具有此权限的用户可以创建和修改票据，并查看帮助台模块",
             "plural": "",
-            "setupEdit": true,
+            "setupEdit": false,
             "setupVisible": false
           },
           "leaveUncheckedMarkOnline": {
-            "original": "Leave unchecked to always be marked as 'Online' by default",
-            "singular": "保持未选中状态，以默认标记为“在线”",
+            "original": "If not selected, user will always be marked as 'Online' by default",
+            "singular": "如果未选择，用户默认始终会被标记为“在线”",
             "plural": "",
-            "setupEdit": true,
+            "setupEdit": false,
             "setupVisible": false
           },
           "userBinTransferReceiveProd": {
-            "original": "A 'User Bin' may be created for users with this access to transfer and receive Assets and Products",
-            "singular": "可以为具有此访问权限的用户创建“用户仓”以转移和接收资产和备件",
+            "original": "A 'User Bin' is created for users with this access to transfer and receive Assets and Spare Parts",
+            "singular": "为具有此权限的用户创建一个“用户仓”以转移和接收资产及备件",
             "plural": "",
             "setupEdit": true,
             "setupVisible": false
           },
           "leaveRequestAutoApprove": {
-            "original": "Leave requests will be automatically approved for users with this access",
-            "singular": "具有此访问权限的用户的请假请求将自动批准",
+            "original": "Users with this access have their leave requests automatically approved",
+            "singular": "具有此权限的用户其请假请求会被自动批准",
             "plural": "",
-            "setupEdit": true,
+            "setupEdit": false,
             "setupVisible": false
           },
           "allowUserSendViewSurvey": {
