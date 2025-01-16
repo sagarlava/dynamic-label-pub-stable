@@ -13458,6 +13458,13 @@
           "plural": "Seleccionar Plantillas de Tarea de la Lista",
           "setupEdit": false,
           "setupVisible": false
+        },
+        "sec19": {
+          "original": "Select a Price Book from the list",
+          "singular": "Seleccione un Libro de Precios de la lista",
+          "plural": "",
+          "setupEdit": false,
+          "setupVisible": false
         }
       },
       "fields": {
@@ -25145,7 +25152,11 @@
         "setupVisible": false
       }
     },
-    "validationFE": {},
+    "validationFE": {
+      "contractPriceGreater":"El precio del contrato debe ser mayor que 0",
+      "pleaseSelectProduct":"Por favor, seleccione un producto.",
+      "productAdded":"El producto ya está agregado"
+    },
     "validationBE": {
       "priceBookStandardNotChangeable": "No se puede cambiar el libro de precios estándar; configure otro como estándar primero",
       "priceBookNameExists": "El nombre del libro de precios ya existe",
@@ -25265,7 +25276,10 @@
         "setupVisible": false
       }
     },
-    "validationFE": {},
+    "validationFE": {
+       "oneActiveRateCardPerContract":"Solo se permite una tarjeta de tarifa activa por contrato",
+       "pleaseEnterValueBetween":"Por favor, introduzca un valor entre 1 y 59."
+    },
     "validationBE": {
       "rateCardNotFound": "Tarjeta de tarifas no encontrada",
       "rateCardContractEmpty": "La tarjeta de tarifas debe tener un contrato",

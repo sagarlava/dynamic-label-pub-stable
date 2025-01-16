@@ -13458,6 +13458,13 @@
           "plural": "从列表中选择任务模板",
           "setupEdit": false,
           "setupVisible": false
+        },
+        "sec19": {
+          "original": "Select a Price Book from the list",
+          "singular": "从列表中选择一个价格簿",
+          "plural": "",
+          "setupEdit": false,
+          "setupVisible": false
         }
       },
       "fields": {
@@ -25145,7 +25152,11 @@
         "setupVisible": false
       }
     },
-    "validationFE": {},
+    "validationFE": {
+      "contractPriceGreater":"合同价格必须大于0",
+      "pleaseSelectProduct":"请选择一个产品。",
+      "productAdded":"产品已添加"
+    },
     "validationBE": {
       "priceBookStandardNotChangeable": "标准价格书无法更改；请先将其他价格书设为标准",
       "priceBookNameExists": "价格手册名称已经存在",
@@ -25265,7 +25276,10 @@
         "setupVisible": false
       }
     },
-    "validationFE": {},
+    "validationFE": {
+       "oneActiveRateCardPerContract":"每个合同只允许一个活跃费率卡",
+       "pleaseEnterValueBetween":"请输入1到59之间的值。"
+    },
     "validationBE": {
       "rateCardNotFound": "未找到费率卡",
       "rateCardContractEmpty": "费率卡必须有一个合同",

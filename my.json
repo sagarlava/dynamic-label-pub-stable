@@ -13458,6 +13458,13 @@
           "plural": "Pilih Templat Tugasan Dari Senarai",
           "setupEdit": false,
           "setupVisible": false
+        },
+        "sec19": {
+          "original": "Select a Price Book from the list",
+          "singular": "Pilih Buku Harga daripada senarai",
+          "plural": "",
+          "setupEdit": false,
+          "setupVisible": false
         }
       },
       "fields": {
@@ -25145,7 +25152,11 @@
         "setupVisible": false
       }
     },
-    "validationFE": {},
+    "validationFE": {
+      "contractPriceGreater":"Harga Kontrak mesti lebih besar daripada 0",
+      "pleaseSelectProduct":"Sila pilih produk",
+      "productAdded":"Produk telah ditambahkan"
+    },
     "validationBE": {
       "priceBookStandardNotChangeable": "Tidak boleh mengubah buku harga standard; tetapkan yang lain sebagai standard terlebih dahulu",
       "priceBookNameExists": "Nama Buku Harga sudah wujud",
@@ -25265,7 +25276,10 @@
         "setupVisible": false
       }
     },
-    "validationFE": {},
+    "validationFE": {
+       "oneActiveRateCardPerContract":"Hanya satu kad kadar aktif dibenarkan bagi setiap kontrak",
+       "pleaseEnterValueBetween":"Sila masukkan nilai antara 1 dan 59."
+    },
     "validationBE": {
       "rateCardNotFound": "Kad Kadar tidak dijumpai",
       "rateCardContractEmpty": "Kad Kadar harus mempunyai kontrak",

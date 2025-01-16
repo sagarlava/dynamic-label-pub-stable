@@ -13458,6 +13458,13 @@
           "plural": "Select Task Template From List",
           "setupEdit": false,
           "setupVisible": false
+        },
+        "sec19": {
+          "original": "Select a Price Book from the list",
+          "singular": "Select a Price Book from the list",
+          "plural": "",
+          "setupEdit": false,
+          "setupVisible": false
         }
       },
       "fields":{
@@ -25145,7 +25152,11 @@
         "setupVisible": false
       }
     },
-    "validationFE": {},
+    "validationFE": {
+      "contractPriceGreater":"Contract Price must be greater than 0",
+      "pleaseSelectProduct":"Please select a product.",
+      "productAdded":"Product is already added"
+    },
     "validationBE": {
       "priceBookStandardNotChangeable": "Cannot change the standard price book; set another as standard first",
       "priceBookNameExists": "Price Book Name already exists",
@@ -25265,7 +25276,10 @@
         "setupVisible": false
       }
     },
-    "validationFE": {},
+    "validationFE": {
+      "oneActiveRateCardPerContract":"Only one active rate card is allowed per contract",
+      "pleaseEnterValueBetween":"Please enter a value between 1 and 59."
+    },
     "validationBE": {
       "rateCardNotFound": "Rate Card not found",
       "rateCardContractEmpty": "Rate Card should have a contract",

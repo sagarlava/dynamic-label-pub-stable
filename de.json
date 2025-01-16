@@ -13458,6 +13458,13 @@
           "plural": "Aufgabenvorlagen aus der Liste auswählen",
           "setupEdit": false,
           "setupVisible": false
+        },
+        "sec19": {
+          "original": "Select a Price Book from the list",
+          "singular": "Wählen Sie ein Preisbuch aus der Liste",
+          "plural": "",
+          "setupEdit": false,
+          "setupVisible": false
         }
       },
       "fields": {
@@ -25145,7 +25152,11 @@
         "setupVisible": false
       }
     },
-    "validationFE": {},
+    "validationFE": {
+      "contractPriceGreater":"Der Vertragspreis muss größer als 0 sein",
+      "pleaseSelectProduct":"Bitte wählen Sie ein Produkt aus.",
+      "productAdded":"Das Produkt wurde bereits hinzugefügt"
+    },
     "validationBE": {
       "priceBookStandardNotChangeable": "Das Standard-Preisbuch kann nicht geändert werden; legen Sie zuerst ein anderes als Standard fest",
       "priceBookNameExists": "Der Preisbuchname existiert bereits",
@@ -25265,7 +25276,10 @@
         "setupVisible": false
       }
     },
-    "validationFE": {},
+    "validationFE": {
+       "oneActiveRateCardPerContract":"Pro Vertrag ist nur eine aktive Tarifkarte erlaubt",
+       "pleaseEnterValueBetween":"Bitte geben Sie einen Wert zwischen 1 und 59 ein."
+    },
     "validationBE": {
       "rateCardNotFound": "Ratekarte  nicht gefunden",
       "rateCardContractEmpty": "Ratekarte sollte einen Vertrag haben",
