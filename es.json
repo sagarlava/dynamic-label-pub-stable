@@ -13724,14 +13724,14 @@
           "sec2": {
             "original": "Module Permission",
             "singular": "Permiso del Módulo",
-            "plural": "",
+            "plural": "Permisos del módulo",
             "setupEdit": true,
             "setupVisible": false
           },
           "sec3": {
             "original": "Picklist Permission",
             "singular": "Permiso de Lista de Selección",
-            "plural": "",
+            "plural": "Permisos de lista de selección",
             "setupEdit": true,
             "setupVisible": false
           },
@@ -13942,8 +13942,8 @@
             "setupVisible": false
           },
           "helpdeskUser": {
-            "original": "Helpdesk user",
-            "singular": "Usuario del Soporte Técnico",
+            "original": "Is a Helpdesk User",
+            "singular": "Es un usuario de Helpdesk",
             "plural": "",
             "setupEdit": true,
             "setupVisible": false
@@ -13956,8 +13956,8 @@
             "setupVisible": false
           },
           "binUser": {
-            "original": "Bin User",
-            "singular": "Usuario de Almacenamiento",
+            "original": "Is a Bin User",
+            "singular": "Es un usuario de almacenamiento",
             "plural": "",
             "setupEdit": true,
             "setupVisible": false
@@ -21593,12 +21593,12 @@
         "moduleAccessFeatures": {
           "feature": {
             "name": {
-              "customers": "Clientes",
+              "customers": "Cliente",
               "sales_order": "Orden de Venta",
               "job_order": "Orden de Trabajo",
-              "products": "Productos",
+              "products": "Pieza de repuesto",
               "teams": "Equipos",
-              "tasks": "Tareas",
+              "tasks": "Tarea",
               "customer_payment": "Pago del Cliente",
               "customer_purchase_history": "Historial de Compras del Cliente",
               "assets_tracking": "Seguimiento de Activos",
@@ -21608,14 +21608,14 @@
               "drivers": "Conductores",
               "packages": "Paquetes",
               "vehicles": "Vehículos",
-              "assets": "Activos",
-              "assets_contracts": "Contratos de Activos",
-              "scheduled_maintenance": "Mantenimiento Programado",
+              "assets": "Activo",
+              "assets_contracts": "Contratos",
+              "scheduled_maintenance": "Mantenimiento Preventivo",
               "inventory": "Inventario",
-              "tickets": "Tickets",
+              "tickets": "Ticket",
               "project": "Proyecto",
               "site": "Sitio",
-              "checklists": "Listas de Verificación",
+              "checklists": "Lista de verificación",
               "attendance": "Asistencia",
               "productivity": "Productividad",
               "overtime": "Horas Extra",
@@ -21628,7 +21628,7 @@
         "adminSettingsFeatures": {
           "feature": {
             "name": {
-              "manage_org_detail": "Gestionar Detalles de la ORG",
+              "manage_org_detail": "Gestionar detalles generales",
               "manage_users": "Gestionar Usuarios",
               "manage_hierarchy": "Gestionar Jerarquía",
               "manage_access": "Gestionar Acceso",
@@ -21639,7 +21639,7 @@
               "manage_geo_fence": "Gestionar Geocercas",
               "manage_notification": "Gestionar Notificaciones",
               "manage_modules": "Gestionar Módulos",
-              "manage_workflow": "Gestionar Flujo de Trabajo",
+              "manage_workflow": "Gestionar Flujos de Trabajo",
               "manage_customer_surveys": "Gestionar Encuestas de Clientes",
               "manage_integrations": "Gestionar Integraciones",
               "customer_survey_link": "Gestionar encuestas de clientes",

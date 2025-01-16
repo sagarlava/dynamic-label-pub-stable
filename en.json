@@ -13724,14 +13724,14 @@
           "sec2": {
             "original": "Module Permission",
             "singular": "Module Permission",
-            "plural": "",
+            "plural": "Module Permissions",
             "setupEdit": true,
             "setupVisible": false
           },
           "sec3": {
             "original": "Picklist Permission",
             "singular": "Picklist Permission",
-            "plural": "",
+            "plural": "Picklist Permissions",
             "setupEdit": true,
             "setupVisible": false
           },
@@ -13942,8 +13942,8 @@
             "setupVisible": false
           },
           "helpdeskUser": {
-            "original": "Helpdesk user",
-            "singular": "Helpdesk user",
+            "original": "Is a Helpdesk User",
+            "singular": "Is a Helpdesk User",
             "plural": "",
             "setupEdit": true,
             "setupVisible": false
@@ -13956,8 +13956,8 @@
             "setupVisible": false
           },
           "binUser": {
-            "original": "Bin User",
-            "singular": "Bin User",
+            "original": "Is a Bin User",
+            "singular": "Is a Bin User",
             "plural": "",
             "setupEdit": true,
             "setupVisible": false
@@ -21593,12 +21593,12 @@
         "moduleAccessFeatures": {
           "feature": {
             "name": {
-              "customers": "Customers",
+              "customers": "Customer",
               "sales_order": "Sales Order",
               "job_order": "Job Order",
-              "products": "Products",
+              "products": "Spare Part",
               "teams": "Teams",
-              "tasks": "Tasks",
+              "tasks": "Task",
               "customer_payment": "Customer Payment",
               "customer_purchase_history": "Customer Purchase History",
               "assets_tracking": "Assets Tracking",
@@ -21608,14 +21608,14 @@
               "drivers": "Drivers",
               "packages": "Packages",
               "vehicles": "Vehicles",
-              "assets": "Assets",
-              "assets_contracts": "Asset Contracts",
-              "scheduled_maintenance": "Scheduled Maintenance",
+              "assets": "Asset",
+              "assets_contracts": "Contract",
+              "scheduled_maintenance": "Preventative Maintenance",
               "inventory": "Inventory",
-              "tickets": "Tickets",
+              "tickets": "Ticket",
               "project": "Project",
               "site": "Site",
-              "checklists": "Checklists",
+              "checklists": "Checklist",
               "attendance":  "Attendance",
               "productivity": "Productivity",
               "overtime": "Overtime",
@@ -21628,7 +21628,7 @@
         "adminSettingsFeatures": {
           "feature": {
             "name": {
-              "manage_org_detail": "Manage ORG Detail",
+              "manage_org_detail": "Manage General Details",
               "manage_users": "Manage Users",
               "manage_hierarchy": "Manage Hierarchy",
               "manage_access": "Manage Access",
@@ -21638,8 +21638,8 @@
               "manage_import_export": "Manage Import & Export",
               "manage_geo_fence": "Manage Geo Fence",
               "manage_notification": "Manage Notification",
-              "manage_modules": "Manage Module",
-              "manage_workflow": "Manage Workflow",
+              "manage_modules": "Manage Modules",
+              "manage_workflow": "Manage Workflows",
               "manage_customer_surveys": "Manage Customer Surveys",
               "manage_integrations": "Manage Integrations",
               "customer_survey_link": "Manage Customer Surveys",
