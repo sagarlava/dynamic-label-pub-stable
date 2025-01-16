@@ -16105,6 +16105,34 @@
             "plural": "启用AI建议",
             "setupEdit": false,
             "setupVisible": false
+          },
+          "dailyJobRundown":{
+            "original": "Daily Job Rundown",
+            "singular": "每日工作概览",
+            "plural": "每日工作概览",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "postJobSummary": {
+            "original": "Post-Job Summary",
+            "singular": "工作后总结",
+            "plural": "工作后总结",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "taskDurationSuggestion": {
+            "original": "Task Duration Suggestion",
+            "singular": "任务时长建议",
+            "plural": "任务时长建议",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "checklistGeneration": {
+            "original": "Checklist Generation",
+            "singular": "检查表生成",
+            "plural": "检查表生成",
+            "setupEdit": false,
+            "setupVisible": false
           }
         },
         "messages":{

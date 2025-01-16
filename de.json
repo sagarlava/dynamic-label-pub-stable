@@ -16105,6 +16105,34 @@
             "plural": "KI-vorschläge aktivieren",
             "setupEdit": false,
             "setupVisible": false
+          },
+          "dailyJobRundown":{
+            "original": "Daily Job Rundown",
+            "singular": "Tägliche Arbeitsübersicht",
+            "plural": "Tägliche Arbeitsübersichten",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "postJobSummary": {
+            "original": "Post-Job Summary",
+            "singular": "Nacharbeitszusammenfassung",
+            "plural": "Nacharbeitszusammenfassungen",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "taskDurationSuggestion": {
+            "original": "Task Duration Suggestion",
+            "singular": "Vorschlag zur Aufgabendauer",
+            "plural": "Vorschläge zur Aufgabendauer",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "checklistGeneration": {
+            "original": "Checklist Generation",
+            "singular": "Checklistenerstellung",
+            "plural": "Checklistenerstellungen",
+            "setupEdit": false,
+            "setupVisible": false
           }
         },
         "messages":{

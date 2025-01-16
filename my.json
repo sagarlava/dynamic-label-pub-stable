@@ -16105,6 +16105,34 @@
             "plural": "Aktifkan cadangan AI",
             "setupEdit": false,
             "setupVisible": false
+          },
+          "dailyJobRundown":{
+            "original": "Daily Job Rundown",
+            "singular": "Gambaran Harian Kerja",
+            "plural": "Gambaran Harian Kerja",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "postJobSummary": {
+            "original": "Post-Job Summary",
+            "singular": "Ringkasan Selepas Kerja",
+            "plural": "Ringkasan Selepas Kerja",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "taskDurationSuggestion": {
+            "original": "Task Duration Suggestion",
+            "singular": "Cadangan Tempoh Tugasan",
+            "plural": "Cadangan Tempoh Tugasan",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "checklistGeneration": {
+            "original": "Checklist Generation",
+            "singular": "Penjanaan Senarai Semak",
+            "plural": "Penjanaan Senarai Semak",
+            "setupEdit": false,
+            "setupVisible": false
           }
         },
         "messages":{

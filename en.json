@@ -16105,6 +16105,34 @@
             "plural": "Enable AI suggestions",
             "setupEdit": false,
             "setupVisible": false
+          },
+          "dailyJobRundown":{
+            "original": "Daily Job Rundown",
+            "singular": "Daily Job Rundown",
+            "plural": "Daily Job Rundown",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "postJobSummary": {
+            "original": "Post-Job Summary",
+            "singular": "Post-Job Summary",
+            "plural": "Post-Job Summaries",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "taskDurationSuggestion": {
+            "original": "Task Duration Suggestion",
+            "singular": "Task Duration Suggestion",
+            "plural": "Task Duration Suggestions",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "checklistGeneration": {
+            "original": "Checklist Generation",
+            "singular": "Checklist Generation",
+            "plural": "Checklist Generations",
+            "setupEdit": false,
+            "setupVisible": false
           }
         },
         "messages":{

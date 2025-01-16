@@ -16105,6 +16105,34 @@
             "plural": "Habilitar sugerencia de AI",
             "setupEdit": false,
             "setupVisible": false
+          },
+          "dailyJobRundown":{
+            "original": "Daily Job Rundown",
+            "singular": "Resumen Diario de Trabajo",
+            "plural": "Resúmenes Diarios de Trabajo",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "postJobSummary": {
+            "original": "Post-Job Summary",
+            "singular": "Resumen Posterior al Trabajo",
+            "plural": "Resúmenes Posteriores al Trabajo",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "taskDurationSuggestion": {
+            "original": "Task Duration Suggestion",
+            "singular": "Sugerencia de Duración de la Tarea",
+            "plural": "Sugerencias de Duración de las Tareas",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "checklistGeneration": {
+            "original": "Checklist Generation",
+            "singular": "Generación de Lista de Verificación",
+            "plural": "Generaciones de Lista de Verificación",
+            "setupEdit": false,
+            "setupVisible": false
           }
         },
         "messages":{
