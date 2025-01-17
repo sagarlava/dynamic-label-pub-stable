@@ -5352,7 +5352,9 @@
       "projectCannotDeleteBySites": "Tidak dapat dihapuskan, Projek digunakan dalam satu atau lebih Tapak",
       "projectCannotDeleteByJobOrders": "Tidak dapat dihapuskan, Projek digunakan dalam satu atau lebih Pesanan Kerja",
       "projectCannotDeleteByJobOrderTemplates": "Tidak dapat memadam, Projek digunakan dalam satu atau lebih templat pesanan kerja",
-      "projectCannotDeleteByTaskTemplates": "Tidak dapat dipadam, Projek digunakan dalam satu atau lebih templat tugas"
+      "projectCannotDeleteByTaskTemplates": "Tidak dapat dipadam, Projek digunakan dalam satu atau lebih templat tugas",
+      "projectHasContact": "Tidak dapat dihapuskan, Projek digunakan dalam satu atau lebih Kenalan",
+      "projectHasTicket": "Tidak dapat dihapuskan, Projek digunakan dalam satu atau lebih Tiket"
     },
     "tooltips": {
       "setupEdit": false,
