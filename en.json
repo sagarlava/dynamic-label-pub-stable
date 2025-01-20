@@ -5352,7 +5352,9 @@
       "projectCannotDeleteBySites": "Unable to delete, Project is used in one or more Sites",
       "projectCannotDeleteByJobOrders": "Unable to delete, Project is used in one or more Job Order",
       "projectCannotDeleteByJobOrderTemplates": "Unable to delete, Project is used in one or more job order templates",
-      "projectCannotDeleteByTaskTemplates": "Unable to delete, Project is used in one or more task templates"
+      "projectCannotDeleteByTaskTemplates": "Unable to delete, Project is used in one or more task templates",
+      "projectHasContact": "Unable to delete, Project is used in one or more Contact",
+      "projectHasTicket": "Unable to delete, Project is used in one or more Ticket"
     },
     "tooltips": {
       "setupEdit": false,
