@@ -16271,7 +16271,7 @@
           "parentPicklistDesc":"父选择列表是已创建的下拉菜单或按钮。在映射页面选择一个父选择列表，将其选项链接并映射到此下拉菜单。此下拉菜单的可用选项将基于父选择列表的选择。",
           "fieldsDesc":"添加应该出现在此下拉菜单中的字段。这些字段将在用户与下拉菜单交互时可供选择。",
           "selectPicklistDesc":"选择您想从所选模块中选择的动态选择列表。这将允许您从该选择列表中检索相关数据。",
-          "looksLikeNoFieldsCreated":"看起来您还没有创建任何表单。别担心，只需按照以下步骤操作，我们会让您的表单快速运行起来！",
+          "looksLikeNoFieldsCreated":"看起来您还没有创建任何字段。别担心，只需按照以下步骤操作，您很快就会创建第一个字段！",
           "beginCreateFieldClickNew":"通过单击+新建按钮开始创建字段。",
           "selectComponentTypeFromSelection":"从可用选择中选择最适合您用例的组件类型。",
           "fillInAllNecessaryDets":"填写字段所需的所有必要详细信息。",
