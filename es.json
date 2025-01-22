@@ -13326,6 +13326,13 @@
           "plural": "",
           "setupEdit": true,
           "setupVisible": false
+        },
+        "sec20": {
+          "original": "Select a Bin from the list",
+          "singular": "Seleccione un contenedor de la lista",
+          "plural": "",
+          "setupEdit": false,
+          "setupVisible": false
         }
       },
       "fields": {

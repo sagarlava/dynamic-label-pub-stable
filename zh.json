@@ -13326,6 +13326,13 @@
           "plural": "",
           "setupEdit": true,
           "setupVisible": false
+        },
+        "sec20": {
+          "original": "Select a Bin from the list",
+          "singular": "从列表中选择一个仓位",
+          "plural": "",
+          "setupEdit": false,
+          "setupVisible": false
         }
       },
       "fields": {
