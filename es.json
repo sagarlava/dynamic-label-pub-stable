@@ -12182,6 +12182,13 @@
         "plural": "",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "mapPicklist":{
+        "original": "Map Picklist",
+        "singular": "Mapear Lista de Selección",
+        "plural": "Mapear Lista de Selección",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "status": {
@@ -15684,11 +15691,11 @@
             "setupEdit": true,
             "setupVisible": false
           },
-          "sec8": {
-            "original": "Component Type Selection",
-            "singular": "Selección de Tipo de Componente",
-            "plural": "Selección de Tipo de Componente",
-            "setupEdit": true,
+          "sec8":{
+            "original": "Field Type Selection",
+            "singular": "Selección de Tipo de Campo",
+            "plural": "Selecciones de Tipos de Campo",
+            "setupEdit": false,
             "setupVisible": false
           },
           "sec9": {
@@ -15860,9 +15867,9 @@
             "setupVisible": false
           },
           "sec33":{
-            "original": "Job Order Preferences",
-            "singular": "Preferencia de Orden de Trabajo",
-            "plural": "Preferencias de Órdenes de Trabajo",
+            "original": "Job Order Details",
+            "singular": "Detalles de la Orden de Trabajo",
+            "plural": "Detalles de la Orden de Trabajo",
             "setupEdit": false,
             "setupVisible": false
           },
@@ -15870,6 +15877,55 @@
             "original": "Subform Details",
             "singular": "Detalles del Subformulario",
             "plural": "Detalles de los Subformularios",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec35":{
+            "original": "Mapping",
+            "singular": "Mapeo",
+            "plural": "Mapeos",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec36":{
+            "original": "Fields",
+            "singular": "Campo",
+            "plural": "Campos",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec37":{
+            "original": "Create Form",
+            "singular": "Crear Formulario",
+            "plural": "Crear Formularios",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec38":{
+            "original": "Setup Subform",
+            "singular": "Configurar Subformulario",
+            "plural": "Configurar Subformularios",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec39":{
+            "original": "Setup List View",
+            "singular": "Configurar Vista de Lista",
+            "plural": "Configurar Vistas de Lista",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec40":{
+            "original": "Create Subform",
+            "singular": "Crear Subformulario",
+            "plural": "Crear Subformularios",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec41":{
+            "original": "Mobile Preview",
+            "singular": "Vista Previa Móvil",
+            "plural": "Vista Previa Móvil",
             "setupEdit": false,
             "setupVisible": false
           }
@@ -16224,6 +16280,48 @@
             "plural": "Obligatorios",
             "setupEdit": false,
             "setupVisible": false
+          },
+          "selectModule": {
+            "original": "Select Module",
+            "singular": "Seleccionar Módulo",
+            "plural": "Seleccionar Módulos",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "module": {
+            "original": "Module",
+            "singular": "Módulo",
+            "plural": "Módulos",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "selectPicklist": {
+            "original": "Select Picklist",
+            "singular": "Seleccionar Lista de Selección",
+            "plural": "Seleccionar Listas de Selección",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "example": {
+            "original": "Example",
+            "singular": "Ejemplo",
+            "plural": "Ejemplo",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "subformName": {
+            "original": "Subform Name",
+            "singular": "Nombre del Subformulario",
+            "plural": "Nombres de Subformularios",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "formName": {
+            "original": "Form Name",
+            "singular": "Nombre del Formulario",
+            "plural": "Nombre del Formulario",
+            "setupEdit": false,
+            "setupVisible": false
           }
         },
         "messages": {
@@ -16244,7 +16342,7 @@
           "lastModifiedOn": "Última modificación el",
           "createFieldsForForm": "Crea campos que se adapten mejor a los requisitos de tu negocio para tu formulario. Los campos que crees aquí estarán disponibles para ser organizados en este formulario.",
           "removeFieldFromArrangement": "Elimina este campo de la página de disposición para borrar este campo.",
-          "selectComponentTypeForField": "Selecciona un tipo de componente que tenga más sentido para el campo que deseas crear.",
+          "selectComponentTypeForField": "Seleccione el tipo de campo",
           "allowTextEntryLimited": "Permite a los usuarios ingresar texto (limitado a 255 caracteres).",
           "allowNumberEntry": "Permite a los usuarios ingresar cualquier número.",
           "allowEmailEntry": "Permite a los usuarios ingresar una dirección de correo electrónico.",
@@ -16300,7 +16398,25 @@
           "completeAllStepForm":"Complete todos los pasos para configurar completamente su formulario",
           "completeAllStepSubform":"Complete todos los pasos para configurar completamente su subformulario",
           "editFormArrangement":"¿Está seguro de que desea editar la disposición de este formulario? Los cambios realizados también se reflejarán en los formularios anteriores. Esto no se puede deshacer.",
-          "selectLayoutPreferred":"Seleccione el diseño que prefiera para su sección. Los campos que agregue a la sección se mostrarán de acuerdo con el diseño de su sección."
+          "selectLayoutPreferred":"Seleccione el diseño que prefiera para su sección. Los campos que agregue a la sección se mostrarán de acuerdo con el diseño de su sección. Tenga en cuenta que los diseños de sección solo se aplican a la aplicación web FieldEx. El diseño de la aplicación móvil FieldEx está fijo en una columna.",
+          "example":"Ejemplo",
+          "selectModuleDesc":"Seleccione un módulo para vincularlo a este campo y recuperar datos relacionados de él.",
+          "moduleSelectedDesc":"Elija el campo que desea consultar del módulo seleccionado. Esto le permitirá recuperar y vincular datos relevantes de ese campo.",
+          "selectFieldDesc":"Elija un campo de lista de selección dinámica que desea seleccionar del módulo elegido. Esto le permitirá recuperar datos relevantes de esa lista de selección.",
+          "parentPicklistDesc":"Las listas de selección principales son menús desplegables o botones que ya se han creado. Seleccione una lista de selección principal para vincular y asignar sus opciones a este desplegable en la página de mapeo. Las opciones disponibles para este desplegable se basarán en la selección de la lista de selección principal.",
+          "fieldsDesc":"Agregue los campos que deberían aparecer en este desplegable. Estos campos estarán disponibles para que los usuarios los seleccionen al interactuar con el desplegable.",
+          "selectPicklistDesc":"Elija una lista de selección dinámica que desea seleccionar del módulo elegido. Esto le permitirá recuperar datos relevantes de esa lista de selección.",
+          "looksLikeNoFieldsCreated":"Parece que aún no ha creado ningún campo. ¡No se preocupe, simplemente siga estos pasos y estará creando su primer campo en poco tiempo!",
+          "beginCreateFieldClickNew":"Comience a crear un campo haciendo clic en el botón + Nuevo.",
+          "selectComponentTypeFromSelection":"Seleccione un tipo de componente de la selección disponible que mejor se ajuste a su caso de uso.",
+          "fillInAllNecessaryDets":"Complete todos los detalles necesarios para su campo.",
+          "onlyForDropdownButton":"Solo para Menú Desplegable o Botón",
+          "selectDropdownButtonLinkParent":"Si selecciona un componente de Menú Desplegable o Botón, puede vincularlo a una lista de selección principal, que es otro componente de Menú Desplegable o Botón que ya ha creado. Esto lo llevará a la página de Mapeo de Listas de Selección, donde puede configurar el mapeo. Alternativamente, puede acceder a la página de Mapeo de Listas de Selección haciendo clic en el botón 'Mapear Lista de Selección' en la vista de lista de campos.",
+          "dragDropToYourLiking":"Arrastre y suelte campos en secciones según su preferencia",
+          "copyOf":"Copia de",
+          "formPreviewDesc":"Previsualice cómo se mostrará su formulario en la aplicación móvil FieldEx. Así es como sus técnicos o agentes de campo verán el formulario en su dispositivo.",
+          "exampleFieldPreview":"Vista previa del campo de ejemplo",
+          "arrangeFormDesc":"Organice el formulario a su gusto haciendo clic en el campo deseado desde la caja de campos disponibles y luego arrastrándolo y soltándolo en el lienzo. Puede renombrar las secciones haciendo clic en los íconos de edición junto a ellas. Para eliminar un campo o sección, haga clic en el botón 'x' junto a él."
         }
       },
       "artificialIntelligence":{

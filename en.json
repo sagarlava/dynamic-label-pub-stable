@@ -12182,6 +12182,13 @@
         "plural": "",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "mapPicklist":{
+        "original": "Map Picklist",
+        "singular": "Map Picklist",
+        "plural": "Map Picklist",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "status": {
@@ -15685,10 +15692,10 @@
             "setupVisible": false
           },
           "sec8":{
-            "original": "Component Type Selection",
-            "singular": "Component Type Selection",
-            "plural": "Component Type Selection",
-            "setupEdit": true,
+            "original": "Field Type Selection",
+            "singular": "Field Type Selection",
+            "plural": "Field Type Selection",
+            "setupEdit": false,
             "setupVisible": false
           },
           "sec9":{
@@ -15860,9 +15867,9 @@
             "setupVisible": false
           },
           "sec33":{
-            "original": "Job Order Preferences",
-            "singular": "Job Order Preference",
-            "plural": "Job Order Preferences",
+            "original": "Job Order Details",
+            "singular": "Job Order Details",
+            "plural": "Job Order Details",
             "setupEdit": false,
             "setupVisible": false
           },
@@ -15870,6 +15877,55 @@
             "original": "Subform Details",
             "singular": "Subform Details",
             "plural": "Subform Details",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec35":{
+            "original": "Mapping",
+            "singular": "Mapping",
+            "plural": "Mapping",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec36":{
+            "original": "Fields",
+            "singular": "Field",
+            "plural": "Fields",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec37":{
+            "original": "Create Form",
+            "singular": "Create Form",
+            "plural": "Create Forms",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec38":{
+            "original": "Setup Subform",
+            "singular": "Setup Subform",
+            "plural": "Setup Subforms",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec39":{
+            "original": "Setup List View",
+            "singular": "Setup List View",
+            "plural": "Setup List Views",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec40":{
+            "original": "Create Subform",
+            "singular": "Create Subform",
+            "plural": "Create Subforms",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec41":{
+            "original": "Mobile Preview",
+            "singular": "Mobile Preview",
+            "plural": "Mobile Preview",
             "setupEdit": false,
             "setupVisible": false
           }
@@ -16224,6 +16280,48 @@
             "plural": "Mandatory",
             "setupEdit": false,
             "setupVisible": false
+          },
+          "selectModule": {
+            "original": "Select Module",
+            "singular": "Select Module",
+            "plural": "Select Modules",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "module": {
+            "original": "Module",
+            "singular": "Module",
+            "plural": "Modules",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "selectPicklist": {
+            "original": "Select Picklist",
+            "singular": "Select Picklist",
+            "plural": "Select Picklist",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "example": {
+            "original": "Example",
+            "singular": "Example",
+            "plural": "Example",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "subformName": {
+            "original": "Subform Name",
+            "singular": "Subform Name",
+            "plural": "Subform Name",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "formName": {
+            "original": "Form Name",
+            "singular": "Form Name",
+            "plural": "Form Name",
+            "setupEdit": false,
+            "setupVisible": false
           }
         },
         "messages":{
@@ -16244,7 +16342,7 @@
           "lastModifiedOn": "Last Modified on",
           "createFieldsForForm": "Create fields which best fit your business requirements for your form. The fields that you create here will be available to be arranged for this form.",
           "removeFieldFromArrangement": "Remove this field from the arrangement page to delete this field.",
-          "selectComponentTypeForField": "Select a component type that makes most sense for the field which you want to create.",
+          "selectComponentTypeForField": "Select field type",
           "allowTextEntryLimited": "Allows users to enter text (limited to 255 characters)",
           "allowNumberEntry": "Allows users to enter any number",
           "allowEmailEntry": "Allows users to enter an email address",
@@ -16300,7 +16398,25 @@
           "completeAllStepForm":"Complete all steps to fully set up your form",
           "completeAllStepSubform":"Complete all steps to fully set up your subform",
           "editFormArrangement":"Are you sure you want to edit this form's arrangement? Changes made will also be reflected on previous forms. This cannot be undone.",
-          "selectLayoutPreferred":"Select the layout that you would prefer for your section. Fields that you add to the seciton will be displayed according to your section layout."
+          "selectLayoutPreferred":"Select the layout that you would prefer for your section. Fields that you add to the seciton will be displayed according to your section layout.",
+          "example":"Example",
+          "selectModuleDesc":"Select a module to link it to this field and retrieve related data from it.",
+          "moduleSelectedDesc":"Choose the field you want to look up from the selected module. This will allow you to retrieve and link relevant data from that field.",
+          "selectFieldDesc":"Choose a dynamic picklist field you want to select from the chosen module. This will allow you to retrieve relevant data from that picklist.",
+          "parentPicklistDesc":"Parent picklists are Dropdowns or Buttons that have already been created. Select a parent picklist to link and map its options to this dropdown in the mapping page. The options available for this dropdown will then be based on the parent picklist selection.",
+          "fieldsDesc":"Add the fields that should appear in this Dropdown. These fields will be available for users to choose from when interacting with the Dropdown.",
+          "selectPicklistDesc":"Choose a dynamic picklist you want to select from the chosen module. This will allow you to retrieve relevant data from that picklist.",
+          "looksLikeNoFieldsCreated":"It looks like you don't have any fields created just yet. Don't worry, just follow these steps and we'll have you creating your first field in no time!",
+          "beginCreateFieldClickNew":"Begin creating a field by clicking on the + New button.",
+          "selectComponentTypeFromSelection":"Select a component type from the available selection that best fits your use case.",
+          "fillInAllNecessaryDets":"Fill in all the necessary details for your field.",
+          "onlyForDropdownButton":"Only For Dropdown or Button",
+          "selectDropdownButtonLinkParent":"If you select a Dropdown or Button component you can link it to a parent picklist, which is another Dropdown or Button component that you have already created. This will take you to the Picklist Mapping page where you can set up the mapping. Alternatively, you can access the Picklist Mapping page by clicking the 'Map Picklist' button in the field list view.",
+          "dragDropToYourLiking":"Drag and drop fields into sections according to your liking",
+          "copyOf":"Copy of",
+          "formPreviewDesc":"Preview how your form will be displayed on the FieldEx mobile app. This is how your technicians or fields agents will be seeing the form on their end.",
+          "exampleFieldPreview":"Example field preview",
+          "arrangeFormDesc":"Arrange the form to your liking by clicking on your desired field from the available fields box, then dragging and dropping it onto the canvas. You can rename the sections by clicking on the edit icons beside them. To remove a field or section, click on the 'x' button beside it."
         }
       },
       "artificialIntelligence":{

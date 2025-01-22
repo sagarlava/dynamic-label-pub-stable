@@ -12182,6 +12182,13 @@
         "plural": "",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "mapPicklist":{
+        "original": "Map Picklist",
+        "singular": "映射选择列表",
+        "plural": "映射选择列表",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "status": {
@@ -15684,11 +15691,11 @@
             "setupEdit": true,
             "setupVisible": false
           },
-          "sec8": {
-            "original": "Component Type Selection",
-            "singular": "组件类型选择",
-            "plural": "组件类型选择",
-            "setupEdit": true,
+          "sec8":{
+            "original": "Field Type Selection",
+            "singular": "字段类型选择",
+            "plural": "字段类型选择",
+            "setupEdit": false,
             "setupVisible": false
           },
           "sec9": {
@@ -15860,9 +15867,9 @@
             "setupVisible": false
           },
           "sec33":{
-            "original": "Job Order Preferences",
-            "singular": "工作单偏好",
-            "plural": "工作单偏好",
+            "original": "Job Order Details",
+            "singular": "工作订单详情",
+            "plural": "工作订单详情",
             "setupEdit": false,
             "setupVisible": false
           },
@@ -15870,6 +15877,55 @@
             "original": "Subform Details",
             "singular": "子表单详情",
             "plural": "子表单详情",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec35":{
+            "original": "Mapping",
+            "singular": "映射",
+            "plural": "映射",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec36":{
+            "original": "Fields",
+            "singular": "字段",
+            "plural": "字段",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec37":{
+            "original": "Create Form",
+            "singular": "创建表单",
+            "plural": "创建表单",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec38":{
+            "original": "Setup Subform",
+            "singular": "设置子表单",
+            "plural": "设置子表单",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec39":{
+            "original": "Setup List View",
+            "singular": "设置列表视图",
+            "plural": "设置列表视图",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec40":{
+            "original": "Create Subform",
+            "singular": "创建子表单",
+            "plural": "创建子表单",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec41":{
+            "original": "Mobile Preview",
+            "singular": "移动预览",
+            "plural": "移动预览",
             "setupEdit": false,
             "setupVisible": false
           }
@@ -16224,6 +16280,48 @@
             "plural": "强制性",
             "setupEdit": false,
             "setupVisible": false
+          },
+          "selectModule": {
+            "original": "Select Module",
+            "singular": "选择模块",
+            "plural": "选择模块",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "module": {
+            "original": "Module",
+            "singular": "模块",
+            "plural": "模块",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "selectPicklist": {
+            "original": "Select Picklist",
+            "singular": "选择选择列表",
+            "plural": "选择选择列表",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "example": {
+            "original": "Example",
+            "singular": "示例",
+            "plural": "示例",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "subformName": {
+            "original": "Subform Name",
+            "singular": "子表单名称",
+            "plural": "子表单名称",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "formName": {
+            "original": "Form Name",
+            "singular": "表单名称",
+            "plural": "表单名称",
+            "setupEdit": false,
+            "setupVisible": false
           }
         },
         "messages": {
@@ -16244,7 +16342,7 @@
           "lastModifiedOn": "最后修改于",
           "createFieldsForForm": "根据您的业务需求创建最适合表单的字段。您在此创建的字段将可用于该表单的排列。",
           "removeFieldFromArrangement": "从排列页面中移除此字段以删除该字段。",
-          "selectComponentTypeForField": "选择最符合您所要创建字段的组件类型。",
+          "selectComponentTypeForField": "选择字段类型",
           "allowTextEntryLimited": "允许用户输入文本（限制为255个字符）",
           "allowNumberEntry": "允许用户输入任意数字",
           "allowEmailEntry": "允许用户输入电子邮件地址",
@@ -16300,7 +16398,25 @@
           "completeAllStepForm":"完成所有步骤以完全设置您的表单",
           "completeAllStepSubform":"完成所有步骤以完全设置您的子表单",
           "editFormArrangement":"您确定要编辑此表单的排列吗？所做的更改也将反映在以前的表单中。这无法撤销。",
-          "selectLayoutPreferred":"选择您希望为部分使用的布局。您添加到部分的字段将根据部分布局显示。"
+          "selectLayoutPreferred":"选择您希望为部分使用的布局。您添加到部分的字段将根据部分布局显示。",
+          "example":"示例",
+          "selectModuleDesc":"选择一个模块，将其链接到此字段并从中检索相关数据。",
+          "moduleSelectedDesc":"从选定的模块中选择您要查询的字段。这将允许您检索并链接该字段的相关数据。",
+          "selectFieldDesc":"选择您想从所选模块中选择的动态选择列表字段。这将允许您从该选择列表中检索相关数据。",
+          "parentPicklistDesc":"父选择列表是已创建的下拉菜单或按钮。在映射页面选择一个父选择列表，将其选项链接并映射到此下拉菜单。此下拉菜单的可用选项将基于父选择列表的选择。",
+          "fieldsDesc":"添加应该出现在此下拉菜单中的字段。这些字段将在用户与下拉菜单交互时可供选择。",
+          "selectPicklistDesc":"选择您想从所选模块中选择的动态选择列表。这将允许您从该选择列表中检索相关数据。",
+          "looksLikeNoFieldsCreated":"看起来您还没有创建任何字段。别担心，只需按照以下步骤操作，您很快就会创建第一个字段！",
+          "beginCreateFieldClickNew":"通过单击+新建按钮开始创建字段。",
+          "selectComponentTypeFromSelection":"从可用选择中选择最适合您用例的组件类型。",
+          "fillInAllNecessaryDets":"填写字段所需的所有必要详细信息。",
+          "onlyForDropdownButton":"仅适用于下拉菜单或按钮",
+          "selectDropdownButtonLinkParent":"如果您选择下拉菜单或按钮组件，可以将其链接到父选择列表，即您已经创建的另一个下拉菜单或按钮组件。这将带您到选择列表映射页面，您可以在其中设置映射。或者，您可以通过单击字段列表视图中的“映射选择列表”按钮访问选择列表映射页面。",
+          "dragDropToYourLiking":"根据您的喜好将字段拖放到部分中",
+          "copyOf":"的副本",
+          "formPreviewDesc":"预览您的表单在FieldEx移动应用上的显示方式。这就是您的技术人员或现场代理将在他们的设备上看到的表单。",
+          "exampleFieldPreview":"示例字段预览",
+          "arrangeFormDesc":"通过从可用字段框中点击所需字段，然后将其拖放到画布上，按您的喜好排列表单。您可以通过点击旁边的编辑图标来重命名部分。要删除字段或部分，请点击旁边的“x”按钮。"
         }
       },
       "artificialIntelligence":{
