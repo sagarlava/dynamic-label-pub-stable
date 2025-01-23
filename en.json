@@ -16161,6 +16161,13 @@
             "plural": "Checklist Generations",
             "setupEdit": false,
             "setupVisible": false
+          },
+          "jobOrderNoteSuggestions": {
+            "original": "Job Order Note Suggestions",
+            "singular": "Job Order Note Suggestions",
+            "plural": "Job Order Note Suggestions",
+            "setupEdit": false,
+            "setupVisible": false
           }
         },
         "messages":{

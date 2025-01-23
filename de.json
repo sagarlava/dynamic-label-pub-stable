@@ -16161,6 +16161,13 @@
             "plural": "Checklistenerstellungen",
             "setupEdit": false,
             "setupVisible": false
+          },
+          "jobOrderNoteSuggestions": {
+            "original": "Job Order Note Suggestions",
+            "singular": "Vorschläge für Arbeitsauftragsnotizen",
+            "plural": "Vorschläge für Arbeitsauftragsnotizen",
+            "setupEdit": false,
+            "setupVisible": false
           }
         },
         "messages":{

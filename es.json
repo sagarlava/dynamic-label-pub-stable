@@ -16161,6 +16161,13 @@
             "plural": "Generaciones de Lista de Verificación",
             "setupEdit": false,
             "setupVisible": false
+          },
+          "jobOrderNoteSuggestions": {
+            "original": "Job Order Note Suggestions",
+            "singular": "Sugerencias de Notas de Órdenes de Trabajo",
+            "plural": "Sugerencias de Notas de Órdenes de Trabajo",
+            "setupEdit": false,
+            "setupVisible": false
           }
         },
         "messages":{
