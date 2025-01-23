@@ -16194,7 +16194,8 @@
           "uploadStoreManual":"Suba y almacene aquí sus manuales, guías y archivos de referencia para que nuestra IA pueda ofrecerle información y sugerencias personalizadas en toda la aplicación, adaptadas específicamente a las necesidades únicas de su organización. Consulte",
           "tips":"Consejos",
           "onHowTo":"sobre cómo aprovechar al máximo esta función.",
-          "storage":"Almacenamiento"
+          "storage":"Almacenamiento",
+          "allowAiSuggestJob":"Permitir que la IA sugiera pasos para completar el trabajo basándose en los materiales de capacitación que ha subido a FieldEx."
         }
       }
     },
