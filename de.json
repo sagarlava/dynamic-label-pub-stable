@@ -21544,7 +21544,8 @@
       "setupWorkflowIdValuesRequired": "Workflow-ID-Wert ist erforderlich",
       "setupWorkflowLinkedToNotifications": "Dem Workflow sind Benachrichtigungen zugewiesen. Bitte entfernen Sie diese zuerst",
       "setupWorkflowMaxAllowedCount":"Die maximale Anzahl aktiver Workflows wurde erreicht",
-      "setupTmplJobOrderLimitReached":"Sie haben das Limit von 50 aktiven Vorlagen überschritten. Setzen Sie den Status einer ungenutzten Vorlage auf 'Inaktiv', um eine weitere aktive Vorlage hinzuzufügen."
+      "setupTmplJobOrderLimitReached":"Sie haben das Limit von 50 aktiven Vorlagen überschritten. Setzen Sie den Status einer ungenutzten Vorlage auf 'Inaktiv', um eine weitere aktive Vorlage hinzuzufügen.",
+      "tmplTaskLimitExceeded":"Sie haben das Limit von 50 aktiven Vorlagen überschritten. Setzen Sie den Status einer ungenutzten Vorlage auf 'Inaktiv', um eine weitere aktive Vorlage hinzuzufügen"
     },
     "labelBE": {
       "profileTableColumnSetup": {
