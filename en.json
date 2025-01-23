@@ -16198,7 +16198,8 @@
           "allowAiSuggestJob":"Allow AI to suggest job completion steps based on the training materials you have uploaded to FieldEx.",
           "allowAiSuggestJobSpareParts":"Allow AI to suggest job spare parts based on the training materials you have uploaded to FieldEx.",
           "of":"of",
-          "selectAFileDropHere":"Select a file or drag and drop here"
+          "selectAFileDropHere":"Select a file or drag and drop here",
+          "txtPdfNoMore15Mb":"TXT or PDF file size no more than 15MB"
         }
       }
     },

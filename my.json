@@ -16198,7 +16198,8 @@
           "allowAiSuggestJob":"Benarkan AI mencadangkan langkah-langkah penyelesaian kerja berdasarkan bahan latihan yang anda telah muat naik ke FieldEx.",
           "allowAiSuggestJobSpareParts":"Benarkan AI mencadangkan alat ganti kerja berdasarkan bahan latihan yang anda telah muat naik ke FieldEx.",
           "of":"daripada",
-          "selectAFileDropHere":"Pilih fail atau seret dan lepaskan di sini"
+          "selectAFileDropHere":"Pilih fail atau seret dan lepaskan di sini",
+          "txtPdfNoMore15Mb":"Fail TXT atau PDF tidak melebihi 15MB"
         }
       }
     },

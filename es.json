@@ -16198,7 +16198,8 @@
           "allowAiSuggestJob":"Permitir que la IA sugiera pasos para completar el trabajo basándose en los materiales de capacitación que ha subido a FieldEx.",
           "allowAiSuggestJobSpareParts":"Permitir que la IA sugiera repuestos para el trabajo basándose en los materiales de capacitación que ha subido a FieldEx.",
           "of":"de",
-          "selectAFileDropHere":"Seleccione un archivo o arrástrelo y suéltelo aquí"
+          "selectAFileDropHere":"Seleccione un archivo o arrástrelo y suéltelo aquí",
+          "txtPdfNoMore15Mb":"El tamaño del archivo TXT o PDF no debe superar los 15 MB"
         }
       }
     },
