@@ -16168,6 +16168,13 @@
             "plural": "工单备注建议",
             "setupEdit": false,
             "setupVisible": false
+          },
+          "jobOrderSparePartSuggestions": {
+            "original": "Job Order Spare Part Suggestions",
+            "singular": "工单备件建议",
+            "plural": "工单备件建议",
+            "setupEdit": false,
+            "setupVisible": false
           }
         },
         "messages":{

@@ -16168,6 +16168,13 @@
             "plural": "Cadangan Nota Pesanan Kerja",
             "setupEdit": false,
             "setupVisible": false
+          },
+          "jobOrderSparePartSuggestions": {
+            "original": "Job Order Spare Part Suggestions",
+            "singular": "Cadangan Alat Ganti Pesanan Kerja",
+            "plural": "Cadangan Alat Ganti Pesanan Kerja",
+            "setupEdit": false,
+            "setupVisible": false
           }
         },
         "messages":{

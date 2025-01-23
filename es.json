@@ -16168,6 +16168,13 @@
             "plural": "Sugerencias de Notas de Órdenes de Trabajo",
             "setupEdit": false,
             "setupVisible": false
+          },
+          "jobOrderSparePartSuggestions": {
+            "original": "Job Order Spare Part Suggestions",
+            "singular": "Sugerencias de Repuestos para Órdenes de Trabajo",
+            "plural": "Sugerencias de Repuestos para Órdenes de Trabajo",
+            "setupEdit": false,
+            "setupVisible": false
           }
         },
         "messages":{

@@ -16168,6 +16168,13 @@
             "plural": "Vorschläge für Arbeitsauftragsnotizen",
             "setupEdit": false,
             "setupVisible": false
+          },
+          "jobOrderSparePartSuggestions": {
+            "original": "Job Order Spare Part Suggestions",
+            "singular": "Vorschläge für Ersatzteile von Arbeitsaufträgen",
+            "plural": "Vorschläge für Ersatzteile von Arbeitsaufträgen",
+            "setupEdit": false,
+            "setupVisible": false
           }
         },
         "messages":{
