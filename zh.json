@@ -12163,6 +12163,13 @@
         "plural": "",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "copyToTaskNotes":{
+        "original": "Copy to task notes",
+        "singular": "复制到任务备注",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "status": {

@@ -12163,6 +12163,13 @@
         "plural": "",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "copyToTaskNotes":{
+        "original": "Copy to task notes",
+        "singular": "Salin ke nota tugasan",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "status": {
