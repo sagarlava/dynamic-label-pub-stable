@@ -12429,6 +12429,13 @@
         "setupEdit": true,
         "setupVisible": false
       },
+      "decline": {
+        "original": "Decline",
+        "singular": "Declinar",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": false
+      },
       "unassigned": {
         "original": "Unassigned",
         "singular": "No Asignado",
