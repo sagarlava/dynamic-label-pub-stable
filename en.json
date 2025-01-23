@@ -21543,7 +21543,8 @@
       "setupWorkflowDeleteAlertInUse":"Notification is used in one or more Workflows",
       "setupWorkflowIdValuesRequired": "Workflow id value required",
       "setupWorkflowLinkedToNotifications": "Workflow has Notifications assigned to it. Please remove them first",
-      "setupWorkflowMaxAllowedCount":"Maximum active workflows reached"
+      "setupWorkflowMaxAllowedCount":"Maximum active workflows reached",
+      "setupTmplJobOrderLimitReached":"You have exceeded the limit of 50 active templates. Set the status of an unused template to 'Inactive' to add another active template."
     },
     "labelBE": {
       "profileTableColumnSetup": {
