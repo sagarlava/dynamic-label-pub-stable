@@ -21546,6 +21546,7 @@
       "setupTmplChecklistHasCircularFollowupCheckList": "系统中存在检查表的循环跟进检查表数据",
       "setupTmplChecklistHasFollowupCheckList": "系统中存在检查表的跟进检查表数据",
       "setupTmplChecklistHasQuestions": "系统中存在检查表的问题数据",
+      "setupTmplChecklistUsedInFollowupCheckList":"此检查表已被设置为另一个检查表的后续检查表",
       "setupTmplChecklistModelTypeNotFound": "需要型号或类型",
       "setupTmplJobOrderProductIdExists": "新TmplJobOrderProduct不能已有ID",
       "setupTmplJobOrderIdExists": "新TmplJobOrder不能已有ID",

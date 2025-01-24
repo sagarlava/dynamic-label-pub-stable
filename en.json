@@ -21546,6 +21546,7 @@
       "setupTmplChecklistHasCircularFollowupCheckList": "Circular Followup CheckList Data exists in the system for the Checklist",
       "setupTmplChecklistHasFollowupCheckList": "Followup CheckList Data exists in the system for the Checklist",
       "setupTmplChecklistHasQuestions": "Question Data exists in the system for the Checklist",
+      "setupTmplChecklistUsedInFollowupCheckList":"This checklist is set as a followup checklist for another checklist",
       "setupTmplChecklistModelTypeNotFound": "Model or Type is required",
       "setupTmplJobOrderProductIdExists": "A new TmplJobOrderSparePart cannot already have an ID",
       "setupTmplJobOrderIdExists": "A new TmplJobOrder cannot already have an ID",
