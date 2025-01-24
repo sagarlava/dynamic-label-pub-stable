@@ -12189,6 +12189,20 @@
         "plural": "映射选择列表",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "smartSuggest":{
+        "original": "Smart Suggest",
+        "singular": "智能建议",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "copyToTaskNotes":{
+        "original": "Copy to task notes",
+        "singular": "复制到任务备注",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "status": {
@@ -16487,6 +16501,20 @@
             "plural": "完成摘要",
             "setupEdit": false,
             "setupVisible": false
+          },
+          "sec6":{
+            "original": "Train Finley",
+            "singular": "训练Finley",
+            "plural": "训练Finley",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec7":{
+            "original": "Suggested Spare Parts",
+            "singular": "建议的备件",
+            "plural": "建议的备件",
+            "setupEdit": false,
+            "setupVisible": false
           }
         },
         "fields":{
@@ -16526,6 +16554,20 @@
             "plural": "检查表生成",
             "setupEdit": false,
             "setupVisible": false
+          },
+          "jobOrderNoteSuggestions": {
+            "original": "Job Order Note Suggestions",
+            "singular": "工单备注建议",
+            "plural": "工单备注建议",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "jobOrderSparePartSuggestions": {
+            "original": "Job Order Spare Part Suggestions",
+            "singular": "工单备件建议",
+            "plural": "工单备件建议",
+            "setupEdit": false,
+            "setupVisible": false
           }
         },
         "messages":{
@@ -16541,7 +16583,16 @@
           "taskTimeSuggestions":"基于以前的工作和任务数据的任务时间建议。",
           "useAiToGenerateChecklist":"使用AI从简短的提示或示例表单生成检查表问题。",
           "web":"网页",
-          "mobile":"移动"
+          "mobile":"移动",
+          "uploadStoreManual":"在此上传和存储您的手册、指南和参考文件，以帮助我们的AI在整个应用程序中提供量身定制的见解和建议，专为您的组织独特需求定制。查看",
+          "tips":"提示",
+          "onHowTo":"了解如何充分利用此功能。",
+          "storage":"存储",
+          "allowAiSuggestJob":"允许AI根据您上传到FieldEx的培训材料建议工作完成步骤。",
+          "allowAiSuggestJobSpareParts":"允许AI根据您上传到FieldEx的培训材料建议工作备件。",
+          "of":"的",
+          "selectAFileDropHere":"选择一个文件或拖放到此处",
+          "txtPdfNoMore15Mb":"TXT或PDF文件大小不超过15MB"
         }
       }
     },

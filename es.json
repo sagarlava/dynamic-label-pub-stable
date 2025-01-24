@@ -12189,6 +12189,20 @@
         "plural": "Mapear Lista de Selección",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "smartSuggest":{
+        "original": "Smart Suggest",
+        "singular": "Sugerencia Inteligente",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "copyToTaskNotes":{
+        "original": "Copy to task notes",
+        "singular": "Copiar a las notas de la tarea",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "status": {
@@ -16487,6 +16501,20 @@
             "plural": "Resumen de Finalizaciones",
             "setupEdit": false,
             "setupVisible": false
+          },
+          "sec6":{
+            "original": "Train Finley",
+            "singular": "Entrenar a Finley",
+            "plural": "Entrenar a Finley",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec7":{
+            "original": "Suggested Spare Parts",
+            "singular": "Piezas de Repuesto Sugeridas",
+            "plural": "Piezas de Repuesto Sugeridas",
+            "setupEdit": false,
+            "setupVisible": false
           }
         },
         "fields":{
@@ -16526,6 +16554,20 @@
             "plural": "Generaciones de Lista de Verificación",
             "setupEdit": false,
             "setupVisible": false
+          },
+          "jobOrderNoteSuggestions": {
+            "original": "Job Order Note Suggestions",
+            "singular": "Sugerencias de Notas de Órdenes de Trabajo",
+            "plural": "Sugerencias de Notas de Órdenes de Trabajo",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "jobOrderSparePartSuggestions": {
+            "original": "Job Order Spare Part Suggestions",
+            "singular": "Sugerencias de Repuestos para Órdenes de Trabajo",
+            "plural": "Sugerencias de Repuestos para Órdenes de Trabajo",
+            "setupEdit": false,
+            "setupVisible": false
           }
         },
         "messages":{
@@ -16541,7 +16583,16 @@
           "taskTimeSuggestions":"Sugerencias de tiempo para tareas basadas en datos de trabajos y tareas previos.",
           "useAiToGenerateChecklist":"Utilice IA para generar preguntas de listas de verificación a partir de un breve aviso o formularios de muestra.",
           "web":"Web",
-          "mobile":"Móvil"
+          "mobile":"Móvil",
+          "uploadStoreManual":"Suba y almacene aquí sus manuales, guías y archivos de referencia para que nuestra IA pueda ofrecerle información y sugerencias personalizadas en toda la aplicación, adaptadas específicamente a las necesidades únicas de su organización. Consulte",
+          "tips":"Consejos",
+          "onHowTo":"sobre cómo aprovechar al máximo esta función.",
+          "storage":"Almacenamiento",
+          "allowAiSuggestJob":"Permitir que la IA sugiera pasos para completar el trabajo basándose en los materiales de capacitación que ha subido a FieldEx.",
+          "allowAiSuggestJobSpareParts":"Permitir que la IA sugiera repuestos para el trabajo basándose en los materiales de capacitación que ha subido a FieldEx.",
+          "of":"de",
+          "selectAFileDropHere":"Seleccione un archivo o arrástrelo y suéltelo aquí",
+          "txtPdfNoMore15Mb":"El tamaño del archivo TXT o PDF no debe superar los 15 MB"
         }
       }
     },

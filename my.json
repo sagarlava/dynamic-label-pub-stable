@@ -12189,6 +12189,20 @@
         "plural": "Pemetaan Pilihan",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "smartSuggest":{
+        "original": "Smart Suggest",
+        "singular": "Cadangan Pintar",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "copyToTaskNotes":{
+        "original": "Copy to task notes",
+        "singular": "Salin ke nota tugasan",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "status": {
@@ -16487,6 +16501,20 @@
             "plural": "Ringkasan Penyelesaian",
             "setupEdit": false,
             "setupVisible": false
+          },
+          "sec6":{
+            "original": "Train Finley",
+            "singular": "Latih Finley",
+            "plural": "Latih Finley",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec7":{
+            "original": "Suggested Spare Parts",
+            "singular": "Alat Ganti yang Dicadangkan",
+            "plural": "Alat Ganti yang Dicadangkan",
+            "setupEdit": false,
+            "setupVisible": false
           }
         },
         "fields":{
@@ -16526,6 +16554,20 @@
             "plural": "Penjanaan Senarai Semak",
             "setupEdit": false,
             "setupVisible": false
+          },
+          "jobOrderNoteSuggestions": {
+            "original": "Job Order Note Suggestions",
+            "singular": "Cadangan Nota Pesanan Kerja",
+            "plural": "Cadangan Nota Pesanan Kerja",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "jobOrderSparePartSuggestions": {
+            "original": "Job Order Spare Part Suggestions",
+            "singular": "Cadangan Alat Ganti Pesanan Kerja",
+            "plural": "Cadangan Alat Ganti Pesanan Kerja",
+            "setupEdit": false,
+            "setupVisible": false
           }
         },
         "messages":{
@@ -16541,7 +16583,16 @@
           "taskTimeSuggestions":"Cadangan masa tugasan berdasarkan data pekerjaan dan tugasan sebelumnya.",
           "useAiToGenerateChecklist":"Gunakan AI untuk menjana soalan senarai semak daripada arahan ringkas atau borang sampel.",
           "web":"Web",
-          "mobile":"Mudah Alih"
+          "mobile":"Mudah Alih",
+          "uploadStoreManual":"Muat naik dan simpan manual, panduan, dan fail rujukan anda di sini untuk membolehkan AI kami memberikan pandangan dan cadangan yang disesuaikan sepanjang aplikasi, direka khusus untuk memenuhi keperluan unik organisasi anda. Lihat",
+          "tips":"Tip",
+          "onHowTo":"tentang cara untuk memanfaatkan ciri ini sepenuhnya.",
+          "storage":"Penyimpanan",
+          "allowAiSuggestJob":"Benarkan AI mencadangkan langkah-langkah penyelesaian kerja berdasarkan bahan latihan yang anda telah muat naik ke FieldEx.",
+          "allowAiSuggestJobSpareParts":"Benarkan AI mencadangkan alat ganti kerja berdasarkan bahan latihan yang anda telah muat naik ke FieldEx.",
+          "of":"daripada",
+          "selectAFileDropHere":"Pilih fail atau seret dan lepaskan di sini",
+          "txtPdfNoMore15Mb":"Fail TXT atau PDF tidak melebihi 15MB"
         }
       }
     },

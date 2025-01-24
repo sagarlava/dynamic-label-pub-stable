@@ -12189,6 +12189,20 @@
         "plural": "Auswahlliste zuordnen",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "smartSuggest":{
+        "original": "Smart Suggest",
+        "singular": "Intelligente Vorschläge",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "copyToTaskNotes":{
+        "original": "Copy to task notes",
+        "singular": "In Aufgabenhinweise kopieren",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "status": {
@@ -16487,6 +16501,20 @@
             "plural": "Abschlusszusammenfassungen",
             "setupEdit": false,
             "setupVisible": false
+          },
+          "sec6":{
+            "original": "Train Finley",
+            "singular": "Finley trainieren",
+            "plural": "Finley trainieren",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec7":{
+            "original": "Suggested Spare Parts",
+            "singular": "Vorgeschlagene Ersatzteile",
+            "plural": "Vorgeschlagene Ersatzteile",
+            "setupEdit": false,
+            "setupVisible": false
           }
         },
         "fields":{
@@ -16526,6 +16554,20 @@
             "plural": "Checklistenerstellungen",
             "setupEdit": false,
             "setupVisible": false
+          },
+          "jobOrderNoteSuggestions": {
+            "original": "Job Order Note Suggestions",
+            "singular": "Vorschläge für Arbeitsauftragsnotizen",
+            "plural": "Vorschläge für Arbeitsauftragsnotizen",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "jobOrderSparePartSuggestions": {
+            "original": "Job Order Spare Part Suggestions",
+            "singular": "Vorschläge für Ersatzteile von Arbeitsaufträgen",
+            "plural": "Vorschläge für Ersatzteile von Arbeitsaufträgen",
+            "setupEdit": false,
+            "setupVisible": false
           }
         },
         "messages":{
@@ -16541,7 +16583,16 @@
           "taskTimeSuggestions":"Aufgabenzeitvorschläge basierend auf früheren Arbeits- und Aufgabendaten.",
           "useAiToGenerateChecklist":"Verwenden Sie KI, um Checklistenfragen aus einer kurzen Eingabeaufforderung oder Musterformularen zu generieren.",
           "web":"Web",
-          "mobile":"Mobil"
+          "mobile":"Mobil",
+          "uploadStoreManual":"Laden Sie hier Ihre Handbücher, Anleitungen und Referenzdateien hoch und speichern Sie sie, damit unsere KI maßgeschneiderte Einblicke und Vorschläge in der gesamten Anwendung liefern kann, die speziell auf die einzigartigen Bedürfnisse Ihrer Organisation zugeschnitten sind. Siehe",
+          "tips":"Tipps",
+          "onHowTo":"wie Sie diese Funktion optimal nutzen können.",
+          "storage":"Speicher",
+          "allowAiSuggestJob":"Erlauben Sie der KI, Schritte zur Arbeitsfertigstellung basierend auf den Schulungsmaterialien vorzuschlagen, die Sie in FieldEx hochgeladen haben.",
+          "allowAiSuggestJobSpareParts":"Erlauben Sie der KI, Ersatzteile für den Job basierend auf den Schulungsmaterialien vorzuschlagen, die Sie in FieldEx hochgeladen haben.",
+          "of":"von",
+          "selectAFileDropHere":"Wählen Sie eine Datei aus oder ziehen Sie sie hierher",
+          "txtPdfNoMore15Mb":"TXT- oder PDF-Dateigröße nicht mehr als 15 MB"
         }
       }
     },

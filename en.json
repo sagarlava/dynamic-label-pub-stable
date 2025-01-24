@@ -12189,6 +12189,20 @@
         "plural": "Map Picklist",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "smartSuggest":{
+        "original": "Smart Suggest",
+        "singular": "Smart Suggest",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "copyToTaskNotes":{
+        "original": "Copy to task notes",
+        "singular": "Copy to task notes",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "status": {
@@ -16487,6 +16501,20 @@
             "plural": "Completion Summary",
             "setupEdit": false,
             "setupVisible": false
+          },
+          "sec6":{
+            "original": "Train Finley",
+            "singular": "Train Finley",
+            "plural": "Train Finley",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec7":{
+            "original": "Suggested Spare Parts",
+            "singular": "Suggested Spare Parts",
+            "plural": "Suggested Spare Parts",
+            "setupEdit": false,
+            "setupVisible": false
           }
         },
         "fields":{
@@ -16526,6 +16554,20 @@
             "plural": "Checklist Generations",
             "setupEdit": false,
             "setupVisible": false
+          },
+          "jobOrderNoteSuggestions": {
+            "original": "Job Order Note Suggestions",
+            "singular": "Job Order Note Suggestions",
+            "plural": "Job Order Note Suggestions",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "jobOrderSparePartSuggestions": {
+            "original": "Job Order Spare Part Suggestions",
+            "singular": "Job Order Spare Part Suggestions",
+            "plural": "Job Order Spare Part Suggestions",
+            "setupEdit": false,
+            "setupVisible": false
           }
         },
         "messages":{
@@ -16541,7 +16583,16 @@
           "taskTimeSuggestions":"Task time suggestions based on previous job and task data.",
           "useAiToGenerateChecklist":"Use AI to generate checklist questions from a brief prompt or sample forms.",
           "web":"Web",
-          "mobile":"Mobile"
+          "mobile":"Mobile",
+          "uploadStoreManual":"Upload and store your manuals, guides, and reference files here to empower our AI to deliver tailored insights and suggestions throughout the application, customized specifically for your organization’s unique needs. See",
+          "tips":"Tips",
+          "onHowTo":"on how to make the most out of this feature.",
+          "storage":"Storage",
+          "allowAiSuggestJob":"Allow AI to suggest job completion steps based on the training materials you have uploaded to FieldEx.",
+          "allowAiSuggestJobSpareParts":"Allow AI to suggest job spare parts based on the training materials you have uploaded to FieldEx.",
+          "of":"of",
+          "selectAFileDropHere":"Select a file or drag and drop here",
+          "txtPdfNoMore15Mb":"TXT or PDF file size no more than 15MB"
         }
       }
     },
