@@ -18317,7 +18317,9 @@
             "setupVisible": false
           }
         },
-        "validationFE": {},
+        "validationFE": {
+          "exceededLimit50Templates":"Sie haben das Limit von 50 aktiven Vorlagen überschritten. Setzen Sie den Status einer nicht verwendeten Vorlage auf „Inaktiv“, um eine weitere aktive Vorlage hinzuzufügen."
+        },
         "tooltips": {
           "setupVisible": false,
           "prependJobName": {

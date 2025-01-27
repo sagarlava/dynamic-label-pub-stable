@@ -18317,7 +18317,9 @@
             "setupVisible": false
           }
         },
-        "validationFE": {},
+        "validationFE": {
+          "exceededLimit50Templates":"您已超过50个活动模板的限制。将未使用的模板状态设置为“非活动”以添加另一个活动模板。"
+        },
         "tooltips": {
           "setupVisible": false,
           "prependJobName": {

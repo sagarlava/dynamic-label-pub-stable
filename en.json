@@ -18317,7 +18317,9 @@
             "setupVisible": false
           }
         },
-        "validationFE": {},
+        "validationFE": {
+          "exceededLimit50Templates":"You have exceeded the limit of 50 active templates. Set the status of an unused template to “Inactive” to add another active template."
+        },
         "tooltips": {
           "setupVisible": false,
           "prependJobName": {

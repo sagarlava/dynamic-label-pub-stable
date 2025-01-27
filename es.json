@@ -18317,7 +18317,9 @@
             "setupVisible": false
           }
         },
-        "validationFE": {},
+        "validationFE": {
+          "exceededLimit50Templates":"Ha excedido el límite de 50 plantillas activas. Establezca el estado de una plantilla no utilizada en “Inactivo” para agregar otra plantilla activa."
+        },
         "tooltips": {
           "setupVisible": false,
           "prependJobName": {
