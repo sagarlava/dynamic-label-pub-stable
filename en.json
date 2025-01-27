@@ -16267,6 +16267,27 @@
             "plural": "Form Name",
             "setupEdit": false,
             "setupVisible": false
+          },
+          "oneColumn": {
+            "original": "One Column",
+            "singular": "One Column",
+            "plural": "One Column",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "twoColumn": {
+            "original": "Two Columns",
+            "singular": "Two Columns",
+            "plural": "Two Columns",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sectionName": {
+            "original": "Section Name",
+            "singular": "Section Name",
+            "plural": "Section Name",
+            "setupEdit": false,
+            "setupVisible": false
           }
         },
         "messages":{

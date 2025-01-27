@@ -16267,6 +16267,27 @@
             "plural": "表单名称",
             "setupEdit": false,
             "setupVisible": false
+          },
+          "oneColumn": {
+            "original": "One Column",
+            "singular": "单列",
+            "plural": "单列",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "twoColumn": {
+            "original": "Two Columns",
+            "singular": "双列",
+            "plural": "双列",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sectionName": {
+            "original": "Section Name",
+            "singular": "部分名称",
+            "plural": "部分名称",
+            "setupEdit": false,
+            "setupVisible": false
           }
         },
         "messages": {

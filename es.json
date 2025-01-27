@@ -16267,6 +16267,27 @@
             "plural": "Nombre del Formulario",
             "setupEdit": false,
             "setupVisible": false
+          },
+          "oneColumn": {
+            "original": "One Column",
+            "singular": "Una Columna",
+            "plural": "Una Columna",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "twoColumn": {
+            "original": "Two Columns",
+            "singular": "Dos Columnas",
+            "plural": "Dos Columnas",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sectionName": {
+            "original": "Section Name",
+            "singular": "Nombre de las Secciones",
+            "plural": "Nombre de las Secciones",
+            "setupEdit": false,
+            "setupVisible": false
           }
         },
         "messages": {
