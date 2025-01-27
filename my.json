@@ -18308,6 +18308,13 @@
             "plural": "",
             "setupEdit": true,
             "setupVisible": false
+          },
+          "createdDate": {
+            "original": "Created Date",
+            "singular": "Tarikh Dicipta",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": false
           }
         },
         "validationFE": {},

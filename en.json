@@ -18308,6 +18308,13 @@
             "plural": "",
             "setupEdit": true,
             "setupVisible": false
+          },
+          "createdDate": {
+            "original": "Created Date",
+            "singular": "Created Date",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": false
           }
         },
         "validationFE": {},
