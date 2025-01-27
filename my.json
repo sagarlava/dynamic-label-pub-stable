@@ -18333,6 +18333,13 @@
             "plural": "",
             "setupEdit": true,
             "setupVisible": false
+          },
+          "dateOptions": {
+            "original": "You can set the date of this Task template to either a specific number of days after the Job Order is created or match the Job Order Date. Selecting the 'Same as Job Order Date' checkbox will disable the Date Calculation field.",
+            "singular": "Anda boleh menetapkan tarikh templat Tugasan ini sama ada kepada bilangan hari tertentu selepas Pesanan Kerja dibuat atau sepadan dengan Tarikh Pesanan Kerja. Memilih kotak semak 'Sama seperti Tarikh Pesanan Kerja' akan menyahaktifkan medan Pengiraan Tarikh.",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": false
           }
         },
         "messages": {}
