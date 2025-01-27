@@ -2235,7 +2235,8 @@
       "contractIdExists": "Kontrak baru tidak boleh mempunyai ID sedia ada",
       "contractPriceBookNotFound": "Buku Harga Kontrak tidak dijumpai",
       "contractPriceBookIdNotFound": "ID Buku Harga Kontrak tidak dijumpai",
-      "contractPriceBookUpdateFailed": "Gagal mengemas kini buku harga kontrak"
+      "contractPriceBookUpdateFailed": "Gagal mengemas kini buku harga kontrak",
+      "contractAssetsSerialNumberExists": "Nombor Siri Aset telah ditetapkan kepada kontrak aktif yang bertindih"
     },
     "tooltips": {
       "setupVisible": false,
@@ -2697,6 +2698,34 @@
         "singular": "Jenis Pesanan Kerja",
         "plural": "",
         "setupEdit": true,
+        "setupVisible": false
+      },
+      "assetStatusBeforeChecklist": {
+        "original": "Asset status before checklist",
+        "singular": "Status aset sebelum senarai semak",
+        "plural": "Status aset sebelum senarai semak",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "assetStatusAfterChecklist": {
+        "original": "Asset status after checklist",
+        "singular":"Status aset selepas senarai semak",
+        "plural": "Status aset selepas senarai semak",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "equipmentMeterReadingBeforeChecklist": {
+        "original": "Equipment meter reading before checklist",
+        "singular": "Bacaan meter peralatan sebelum senarai semak",
+        "plural": "Bacaan meter peralatan sebelum senarai semak",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "equipmentMeterReadingAfterChecklist": {
+        "original": "Equipment meter reading after checklist",
+        "singular": "Bacaan meter peralatan selepas senarai semak",
+        "plural": "Bacaan meter peralatan selepas senarai semak",
+        "setupEdit": false,
         "setupVisible": false
       }
     },
@@ -4452,7 +4481,8 @@
       "teamSkillIdExists": "Kemahiran Pasukan baru tidak boleh sudah mempunyai ID",
       "userTaskIdExists": "Tugas Pengguna baru tidak boleh sudah mempunyai ID",
       "userTaskIdNotFound": "ID tidak dijumpai",
-      "userTaskNotFound": "Tugas Pengguna tidak dijumpai"
+      "userTaskNotFound": "Tugas Pengguna tidak dijumpai",
+      "userNotAllowedToAssignTask": "Pengguna tidak dibenarkan menambah ahli kepada Tugas"
     },
     "tooltips": {
       "setupVisible": false,
@@ -10651,6 +10681,7 @@
       "invalidFileTypeExclamation": "Jenis fail tidak sah!",
       "allowedFileSize": "Saiz fail harus kurang daripada 25MB",
       "allowedFileSizeKb": "Saiz fail hendaklah kurang daripada 100KB",
+      "allowedFileSize500Kb": "Saiz fail harus kurang daripada 500KB",
       "allowedFileSizeOnly": "Saiz fail hendaklah kurang daripada",
       "cannotFindFile": "Tidak dapat mencari nama fail dan jenis fail",
       "pdfNotAvailable": "Maaf! PDF tidak tersedia",
@@ -10659,7 +10690,8 @@
       "maxUploadFileSize": "Saiz fail muat naik maksimum ialah 25MB",
       "fileExtension": "Hanya fail dengan sambungan *.pdf, *.docx, *.jpg dibenarkan",
       "fileTypeUnsupported":"Jenis fail ini tidak disokong. Sila pilih fail yang lain.",
-      "allowedFileSize4MB":"Saiz fail melebihi had 4MB. Sila muat naik fail yang lebih kecil."
+      "allowedFileSize4MB":"Saiz fail melebihi had 4MB. Sila muat naik fail yang lebih kecil.",
+      "onlyAcceptImagesExt":"Hanya Terima JPG, JPEG dan PNG"
     }
   },
   "history": {
@@ -12404,6 +12436,13 @@
         "setupEdit": true,
         "setupVisible": false
       },
+      "decline": {
+        "original": "Decline",
+        "singular": "Tolak",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": false
+      },
       "unassigned": {
         "original": "Unassigned",
         "singular": "Tidak Ditetapkan",
@@ -13699,14 +13738,14 @@
           "sec2": {
             "original": "Module Permission",
             "singular": "Kebenaran Modul",
-            "plural": "",
+            "plural": "Kebenaran Modul",
             "setupEdit": true,
             "setupVisible": false
           },
           "sec3": {
             "original": "Picklist Permission",
             "singular": "Kebenaran Senarai Pilihan",
-            "plural": "",
+            "plural": "Kebenaran Senarai Pilihan",
             "setupEdit": true,
             "setupVisible": false
           },
@@ -13760,10 +13799,10 @@
             "setupVisible": false
           },
           "sec11": {
-            "original": "Device Enablement",
-            "singular": "Pengaktifan Peranti",
+            "original": "Device Permissions",
+            "singular": "Kebenaran Peranti",
             "plural": "",
-            "setupEdit": true,
+            "setupEdit": false,
             "setupVisible": false
           },
           "sec12": {
@@ -13800,6 +13839,20 @@
             "plural": "Klon Tugasan",
             "setupEdit": true,
             "setupVisible": false
+          },
+          "sec17": {
+            "original": "Allowed to Access Web App",
+            "singular": "Dibenarkan Mengakses Aplikasi Web",
+            "plural": "Dibenarkan Mengakses Aplikasi Web",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec18": {
+            "original": "Allowed to Access Mobile App",
+            "singular": "Dibenarkan Mengakses Aplikasi Mudah Alih",
+            "plural": "Dibenarkan Mengakses Aplikasi Mudah Alih",
+            "setupEdit": false,
+            "setupVisible": false
           }
         },
         "fields": {
@@ -13826,29 +13879,29 @@
             "setupVisible": false
           },
           "web": {
-            "original": "Web",
-            "singular": "Web",
-            "plural": "",
-            "setupEdit": true,
+            "original": "Allowed to Access Web App",
+            "singular": "Dibenarkan Mengakses Aplikasi Web",
+            "plural": "Dibenarkan Mengakses Aplikasi Web",
+            "setupEdit": false,
             "setupVisible": false
           },
           "loginWeb": {
-            "original": "User is able to login from the web",
-            "singular": "Pengguna boleh log masuk dari web",
+            "original": "Users with this access can use the web app",
+            "singular": "Pengguna dengan akses ini boleh menggunakan aplikasi web",
             "plural": "",
             "setupEdit": true,
             "setupVisible": false
           },
           "mobile": {
-            "original": "Mobile Access",
-            "singular": "Akses Mudah Alih",
-            "plural": "",
-            "setupEdit": true,
+            "original": "Allowed to Access Mobile App",
+            "singular": "Dibenarkan Mengakses Aplikasi Mudah Alih",
+            "plural": "Dibenarkan Mengakses Aplikasi Mudah Alih",
+            "setupEdit": false,
             "setupVisible": false
           },
           "loginMobile": {
-            "original": "User is able to login via the mobile application",
-            "singular": "Pengguna boleh log masuk melalui aplikasi mudah alih",
+            "original": "Users with this access can use the mobile app",
+            "singular": "Pengguna dengan akses ini boleh menggunakan aplikasi mudah alih",
             "plural": "",
             "setupEdit": true,
             "setupVisible": false
@@ -13868,17 +13921,17 @@
             "setupVisible": false
           },
           "allowViewSalesOrdPrice": {
-            "original": "Allow View Sales Order Price",
-            "singular": "Benarkan Lihat Harga Pesanan Jualan",
+            "original": "Allowed to View Sales Order Price",
+            "singular": "Dibenarkan untuk Melihat Harga Pesanan Jualan",
             "plural": "",
-            "setupEdit": true,
+            "setupEdit": false,
             "setupVisible": false
           },
           "allowAssignTask": {
-            "original": "Allow to Assign Task",
-            "singular": "Benarkan Tugaskan Tugas",
+            "original": "Allowed to Assign Task",
+            "singular": "Dibenarkan untuk Menetapkan Tugasan",
             "plural": "",
-            "setupEdit": true,
+            "setupEdit": false,
             "setupVisible": false
           },
           "allowAssignShift": {
@@ -13903,8 +13956,8 @@
             "setupVisible": false
           },
           "helpdeskUser": {
-            "original": "Helpdesk user",
-            "singular": "Pengguna Meja Bantuan",
+            "original": "Is a Helpdesk User",
+            "singular": "Merupakan Pengguna Helpdesk",
             "plural": "",
             "setupEdit": true,
             "setupVisible": false
@@ -13917,8 +13970,8 @@
             "setupVisible": false
           },
           "binUser": {
-            "original": "Bin User",
-            "singular": "Pengguna Bin",
+            "original": "Is a Bin User",
+            "singular": "Merupakan Pengguna Bin",
             "plural": "",
             "setupEdit": true,
             "setupVisible": false
@@ -14060,17 +14113,17 @@
         "descriptions": {
           "setupVisible": false,
           "userWithAccessAssignTask": {
-            "original": "Users with this access are able to assign tasks",
-            "singular": "Pengguna dengan akses ini boleh tugaskan tugas",
+            "original": "Users with this access can assign Tasks",
+            "singular": "Pengguna dengan akses ini boleh menetapkan Tugasan",
             "plural": "",
-            "setupEdit": true,
+            "setupEdit": false,
             "setupVisible": false
           },
           "userWithAccessViewPricing": {
-            "original": "Users with this access are able to view pricing details for Sales Orders",
-            "singular": "Pengguna dengan akses ini boleh lihat butiran harga untuk Pesanan Jualan",
+            "original": "Users with this access can view pricing details for Sales Orders",
+            "singular": "Pengguna dengan akses ini boleh melihat butiran harga untuk Pesanan Jualan",
             "plural": "",
-            "setupEdit": true,
+            "setupEdit": false,
             "setupVisible": false
           },
           "userWithAccessAssignShift": {
@@ -14088,31 +14141,31 @@
             "setupVisible": false
           },
           "userWithAccessCreateModifyTix": {
-            "original": "Users with this access are able to create and modify tickets as well as view the Helpdesk module",
-            "singular": "Pengguna dengan akses ini boleh buat dan ubah tiket serta lihat modul Meja Bantuan",
+            "original": "Users with this access can create and modify tickets as well as view Helpdesk Module",
+            "singular": "Pengguna dengan akses ini boleh mencipta dan mengubah suai tiket serta melihat Modul Meja Bantuan",
             "plural": "",
-            "setupEdit": true,
+            "setupEdit": false,
             "setupVisible": false
           },
           "leaveUncheckedMarkOnline": {
-            "original": "Leave unchecked to always be marked as 'Online' by default",
-            "singular": "Biarkan tidak ditandakan untuk sentiasa ditandakan sebagai 'Online' secara lalai",
+            "original": "If not selected, user will always be marked as 'Online' by default",
+            "singular": "Jika tidak dipilih, pengguna akan sentiasa ditandakan sebagai 'Online' secara lalai",
             "plural": "",
-            "setupEdit": true,
+            "setupEdit": false,
             "setupVisible": false
           },
           "userBinTransferReceiveProd": {
-            "original": "A 'User Bin' may be created for users with this access to transfer and receive Assets and Products",
-            "singular": "Bin Pengguna boleh dibuat untuk pengguna dengan akses ini untuk pindah dan terima Aset dan Alat Ganti",
+            "original": "A 'User Bin' is created for users with this access to transfer and receive Assets and Spare Parts",
+            "singular": "Sebuah 'Bin Pengguna' dicipta untuk pengguna dengan akses ini untuk memindahkan dan menerima Aset dan Alat Ganti",
             "plural": "",
             "setupEdit": true,
             "setupVisible": false
           },
           "leaveRequestAutoApprove": {
-            "original": "Leave requests will be automatically approved for users with this access",
-            "singular": "Permohonan cuti akan diluluskan secara automatik untuk pengguna dengan akses ini",
+            "original": "Users with this access have their leave requests automatically approved",
+            "singular": "Pengguna dengan akses ini mempunyai permohonan cuti mereka diluluskan secara automatik",
             "plural": "",
-            "setupEdit": true,
+            "setupEdit": false,
             "setupVisible": false
           },
           "allowUserSendViewSurvey": {
@@ -14176,6 +14229,20 @@
             "singular": "Notifikasi emel akan dihantar kepada pengurus untuk memaklumkan bahawa pengguna telah secara manual menukar dari dalam talian ke luar talian dalam waktu kerja yang ditentukan",
             "plural": "",
             "setupEdit": true,
+            "setupVisible": false
+          },
+          "usersCanUseWebApp": {
+            "original": "Users with this access can use the web app",
+            "singular": "Pengguna dengan akses ini boleh menggunakan aplikasi web",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "usersCanUseMobileApp": {
+            "original": "Users with this access can use the mobile app",
+            "singular": "Pengguna dengan akses ini boleh menggunakan aplikasi mudah alih",
+            "plural": "",
+            "setupEdit": false,
             "setupVisible": false
           }
         },
@@ -15399,8 +15466,8 @@
             "setupVisible": false
           },
           "userInField": {
-            "original": "User in Field",
-            "singular": "Pengguna di Lapangan",
+            "original": "User Field",
+            "singular": "Medan Pengguna",
             "plural": "",
             "setupEdit": true,
             "setupVisible": false
@@ -15442,7 +15509,7 @@
           },
           "emailInField": {
             "original": "Email in Field",
-            "singular": "E-mel dalam Medan",
+            "singular": "Medan E-mel",
             "plural": "",
             "setupEdit": false,
             "setupVisible": false
@@ -15456,6 +15523,13 @@
             "singular": "Apabila pengguna klik notifikasi, ke mana ia sepatutnya membawa mereka?",
             "plural": "",
             "setupEdit": true,
+            "setupVisible": false
+          },
+          "separateEmail": {
+            "original": "Separate multiple email addresses with commas",
+            "singular": "Pisahkan berbilang alamat e-mel dengan koma",
+            "plural": "",
+            "setupEdit": false,
             "setupVisible": false
           }
         },
@@ -21139,9 +21213,9 @@
         "emailNotificationsDesc": "Reka templat e-mel tersuai dengan nilai medan untuk memberitahu pengguna FieldEx atau kenalan luar.",
         "whetherRemindersCustomer": "Sama ada peringatan, kemas kini pelanggan, atau amaran pasukan, aliran kerja memudahkan untuk terus berhubung dengan cara yang mudah dan berkesan.",
         "useThisPageToCreateNewWorkflows": "Gunakan halaman ini untuk membuat aliran kerja baharu atau mengurus aliran kerja yang telah anda sediakan.",
-        "triggerWhenNewRecordCreated": "Apabila rekod dicipta: Aliran kerja akan dicetuskan apabila rekod baru ditambah dan syarat yang ditetapkan dipenuhi.",
-        "triggerWhenUpdatedFirstTime": "Apabila rekod diubah untuk kali pertama: Aliran kerja dicetuskan kali pertama perubahan dibuat pada rekod dan memenuhi syarat yang ditentukan.",
-        "triggerWhenRecordUpdatedEverytime": "Setiap kali rekod dikemas kini: Aliran kerja dicetuskan setiap kali perubahan dibuat pada rekod dan memenuhi syarat yang ditentukan.",
+        "triggerWhenNewRecordCreated": "Aliran kerja akan dicetuskan apabila rekod baru ditambah dan syarat yang ditetapkan dipenuhi.",
+        "triggerWhenUpdatedFirstTime": "Aliran kerja dicetuskan kali pertama perubahan dibuat pada rekod dan memenuhi syarat yang ditentukan.",
+        "triggerWhenRecordUpdatedEverytime": "Aliran kerja dicetuskan setiap kali perubahan dibuat pada rekod dan memenuhi syarat yang ditentukan.",
         "triggerWhenRecordDeleted": "Pilihan ini akan mencetuskan aliran kerja setiap kali rekod dipadamkan.",
         "selectStatus": "Pilih Status",
         "selectAttribute": "Pilih Atribut",
@@ -21185,7 +21259,31 @@
         "onlyOneThingNeedsToHappen": "Hanya satu perkara daripada kumpulan itu perlu berlaku.",
         "everythingInGroupMustHappen": "Semua dalam kumpulan itu mesti berlaku.",
         "workflowHasNotBegun": "Tiada pencetus mula ditentukan.",
-        "clickHereToAdd": "Klik di sini untuk menambah."
+        "clickHereToAdd": "Klik di sini untuk menambah.",
+        "noOfRules":"Bilangan peraturan",
+        "activeWorkflow":"Aliran Kerja Aktif:",
+        "equalTo":"sama dengan",
+        "equalToEmpty":"sama dengan ' '",
+        "notEqualTo":"tidak sama dengan",
+        "notEqualToEmpty":"tidak sama dengan ' '",
+        "contains":"mengandungi",
+        "startsWith":"bermula dengan",
+        "endsWith":"berakhir dengan",
+        "isGreaterThan":"lebih besar daripada",
+        "isGreaterThanOrEqualTo":"lebih besar atau sama dengan",
+        "isLessThan":"kurang daripada",
+        "isLessThanOrEqualTo":"kurang atau sama dengan",
+        "today":"Hari Ini",
+        "yesterday":"Semalam",
+        "tomorrow":"Esok",
+        "thisWeek":"Minggu Ini",
+        "lastWeek":"Minggu Lepas",
+        "nextWeek":"Minggu Depan",
+        "thisMonth":"Bulan Ini",
+        "lastMonth":"Bulan Lepas",
+        "nextMonth":"Bulan Depan",
+        "thisYear":"Tahun Ini",
+        "addDays":"Tambah Hari"
       }
     },
     "templates": {
@@ -21530,8 +21628,9 @@
             "firstSelectSettings": "Mula-mula pilih modul dalam tab 'Tetapan' untuk mula membina e-mel anda",
             "includeButtonInEmail": "Sertakan butang dalam e-mel",
             "includeTableInEmail": "Sertakan jadual dalam e-mel",
-            "selectFieldFilter": "Jadual harus ditapis mengikut...",
+            "selectFieldFilter": "Tapis mengikut...",
             "selectModule": "Pilih Modul",
+            "selectTemplate":"Pilih Templat",
             "selectSortBy": "Jadual harus disusun mengikut...",
             "maximumFiveColumnsAdded": "Maksimum 5 lajur boleh ditambah"
           }
@@ -21739,6 +21838,7 @@
       "setupTmplChecklistHasCircularFollowupCheckList": "Data Senarai Semak Susulan Pekeliling wujud dalam sistem untuk Senarai Semak",
       "setupTmplChecklistHasFollowupCheckList": "Data Senarai Semak Susulan wujud dalam sistem untuk Senarai Semak",
       "setupTmplChecklistHasQuestions": "Data Soalan wujud dalam sistem untuk Senarai Semak",
+      "setupTmplChecklistUsedInFollowupCheckList":"Senarai semak ini ditetapkan sebagai senarai semak susulan untuk senarai semak lain",
       "setupTmplChecklistModelTypeNotFound": "Model atau Jenis diperlukan",
       "setupTmplJobOrderProductIdExists": "TmplJobOrderSparePart baru tidak boleh sudah mempunyai ID",
       "setupTmplJobOrderIdExists": "TmplJobOrder baru tidak boleh sudah mempunyai ID",
@@ -21768,7 +21868,11 @@
       "setupWorkflowDeleteAlertInUse":"Notifikasi digunakan dalam satu atau lebih Aliran Kerja",
       "setupWorkflowIdValuesRequired":"Nilai ID Aliran Kerja diperlukan",
       "setupWorkflowLinkedToNotifications":"Aliran Kerja mempunyai Notifikasi yang ditetapkan. Sila padamkannya terlebih dahulu",
-      "setupWorkflowMaxAllowedCount":"Jumlah maksimum Aliran Kerja aktif telah dicapai"
+      "setupWorkflowMaxAllowedCount":"Jumlah maksimum Aliran Kerja aktif telah dicapai",
+      "setupWorkflowMaxActionsPerWorkflow": "Tindakan maksimum bagi setiap aliran kerja telah dicapai",
+      "setupWorkflowEmailsMax": "Jumlah maksimum alamat e-mel yang dibenarkan untuk pemberitahuan aliran kerja telah dicapai",
+      "setupWorkflowEmailUserMax": "Jumlah maksimum pengguna yang dibenarkan untuk pemberitahuan aliran kerja telah dicapa",
+      "setupWorkflowEmailUserGroupMax": "Jumlah maksimum pengguna yang dibenarkan untuk pemberitahuan aliran kerja telah dicapa"
     },
     "labelBE": {
       "profileTableColumnSetup": {
@@ -21793,7 +21897,7 @@
               "customers": "Pelanggan",
               "sales_order": "Pesanan Jualan",
               "job_order": "Pesanan Kerja",
-              "products": "Produk",
+              "products": "Alat Ganti",
               "teams": "Pasukan",
               "tasks": "Tugas",
               "customer_payment": "Bayaran Pelanggan",
@@ -21806,8 +21910,8 @@
               "packages": "Pakej",
               "vehicles": "Kenderaan",
               "assets": "Aset",
-              "assets_contracts": "Kontrak Aset",
-              "scheduled_maintenance": "Penyelenggaraan Berjadual",
+              "assets_contracts": "Kontrak",
+              "scheduled_maintenance": "Penyelenggaraan Pencegahan",
               "inventory": "Inventori",
               "tickets": "Tiket",
               "project": "Projek",
@@ -21825,7 +21929,7 @@
         "adminSettingsFeatures": {
           "feature": {
             "name": {
-              "manage_org_detail": "Urus Butiran Organisasi",
+              "manage_org_detail": "Urus Butiran Am",
               "manage_users": "Urus Pengguna",
               "manage_hierarchy": "Urus Hierarki",
               "manage_access": "Urus Akses",
@@ -24865,6 +24969,34 @@
         "original": "Status",
         "singular": "Status",
         "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "assetStatusBeforeChecklist": {
+        "original": "Asset status before checklist",
+        "singular": "Asset status before checklist",
+        "plural": "Asset status before checklist",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "assetStatusAfterChecklist": {
+        "original": "Asset status after checklist",
+        "singular":"Asset status after checklist",
+        "plural": "Asset status after checklist",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "equipmentMeterReadingBeforeChecklist": {
+        "original": "Equipment meter reading before checklist",
+        "singular": "Equipment meter reading before checklist",
+        "plural": "Equipment meter reading before checklist",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "equipmentMeterReadingAfterChecklist": {
+        "original": "Equipment meter reading after checklist",
+        "singular": "Equipment meter reading after checklist",
+        "plural": "Equipment meter reading after checklist",
         "setupEdit": false,
         "setupVisible": false
       }
