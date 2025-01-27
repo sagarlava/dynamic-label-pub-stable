@@ -16444,7 +16444,13 @@
           "copyOf":"Copy of",
           "formPreviewDesc":"Preview how your form will be displayed on the FieldEx mobile app. This is how your technicians or fields agents will be seeing the form on their end.",
           "exampleFieldPreview":"Example field preview",
-          "arrangeFormDesc":"Arrange the form to your liking by clicking on your desired field from the available fields box, then dragging and dropping it onto the canvas. You can rename the sections by clicking on the edit icons beside them. To remove a field or section, click on the 'x' button beside it."
+          "arrangeFormDesc":"Arrange the form to your liking by clicking on your desired field from the available fields box, then dragging and dropping it onto the canvas. You can rename the sections by clicking on the edit icons beside them. To remove a field or section, click on the 'x' button beside it.",
+          "whatAreForms":"What are Forms?",
+          "whatAreSubforms":"What are Subforms?",
+          "fieldCreationForms":"Field Creation for Forms",
+          "howDoICreateForm":"How do I create forms?",
+          "howDoICreateSubform":"How do I create subforms?",
+          "howDoICreateFIeld":"How do I create fields?"
         }
       },
       "artificialIntelligence":{
@@ -22073,6 +22079,7 @@
       "setupTmplChecklistHasCircularFollowupCheckList": "Circular Followup CheckList Data exists in the system for the Checklist",
       "setupTmplChecklistHasFollowupCheckList": "Followup CheckList Data exists in the system for the Checklist",
       "setupTmplChecklistHasQuestions": "Question Data exists in the system for the Checklist",
+      "setupTmplChecklistUsedInFollowupCheckList":"This checklist is set as a followup checklist for another checklist",
       "setupTmplChecklistModelTypeNotFound": "Model or Type is required",
       "setupTmplJobOrderProductIdExists": "A new TmplJobOrderSparePart cannot already have an ID",
       "setupTmplJobOrderIdExists": "A new TmplJobOrder cannot already have an ID",

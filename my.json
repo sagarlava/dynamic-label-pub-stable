@@ -16444,7 +16444,13 @@
           "copyOf":"Salinan daripada",
           "formPreviewDesc":"Pratonton bagaimana borang anda akan dipaparkan pada aplikasi mudah alih FieldEx. Inilah cara juruteknik atau ejen lapangan anda akan melihat borang di pihak mereka.",
           "exampleFieldPreview":"Pratonton medan contoh",
-          "arrangeFormDesc":"Susun borang mengikut keinginan anda dengan mengklik medan yang dikehendaki dari kotak medan yang tersedia, kemudian seret dan lepaskannya ke kanvas. Anda boleh menamakan semula bahagian dengan mengklik ikon edit di sebelahnya. Untuk menghapus medan atau bahagian, klik butang 'x' di sebelahnya."
+          "arrangeFormDesc":"Susun borang mengikut keinginan anda dengan mengklik medan yang dikehendaki dari kotak medan yang tersedia, kemudian seret dan lepaskannya ke kanvas. Anda boleh menamakan semula bahagian dengan mengklik ikon edit di sebelahnya. Untuk menghapus medan atau bahagian, klik butang 'x' di sebelahnya.",
+          "whatAreForms":"Apakah Borang?",
+          "whatAreSubforms":"Apakah Subborang?",
+          "fieldCreationForms":"Penciptaan Medan untuk Borang",
+          "howDoICreateForm":"Bagaimana saya mencipta borang?",
+          "howDoICreateSubform":"Bagaimana saya mencipta subborang?",
+          "howDoICreateFIeld":"Bagaimana saya mencipta medan?"
         }
       },
       "artificialIntelligence":{
@@ -22073,6 +22079,7 @@
       "setupTmplChecklistHasCircularFollowupCheckList": "Data Senarai Semak Susulan Pekeliling wujud dalam sistem untuk Senarai Semak",
       "setupTmplChecklistHasFollowupCheckList": "Data Senarai Semak Susulan wujud dalam sistem untuk Senarai Semak",
       "setupTmplChecklistHasQuestions": "Data Soalan wujud dalam sistem untuk Senarai Semak",
+      "setupTmplChecklistUsedInFollowupCheckList":"Senarai semak ini ditetapkan sebagai senarai semak susulan untuk senarai semak lain",
       "setupTmplChecklistModelTypeNotFound": "Model atau Jenis diperlukan",
       "setupTmplJobOrderProductIdExists": "TmplJobOrderSparePart baru tidak boleh sudah mempunyai ID",
       "setupTmplJobOrderIdExists": "TmplJobOrder baru tidak boleh sudah mempunyai ID",
