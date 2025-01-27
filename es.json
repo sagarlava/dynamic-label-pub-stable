@@ -12203,6 +12203,13 @@
         "plural": "",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "addSection":{
+        "original": "Add Section",
+        "singular": "Agregar Sección",
+        "plural": "Agregar Sección",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "status": {
@@ -16348,6 +16355,27 @@
             "original": "Form Name",
             "singular": "Nombre del Formulario",
             "plural": "Nombre del Formulario",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "oneColumn": {
+            "original": "One Column",
+            "singular": "Una Columna",
+            "plural": "Una Columna",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "twoColumn": {
+            "original": "Two Columns",
+            "singular": "Dos Columnas",
+            "plural": "Dos Columnas",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sectionName": {
+            "original": "Section Name",
+            "singular": "Nombre de las Secciones",
+            "plural": "Nombre de las Secciones",
             "setupEdit": false,
             "setupVisible": false
           }

@@ -12203,6 +12203,13 @@
         "plural": "",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "addSection":{
+        "original": "Add Section",
+        "singular": "Tambah Bahagian",
+        "plural": "Tambah Bahagian",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "status": {
@@ -16348,6 +16355,27 @@
             "original": "Form Name",
             "singular": "Nama Borang",
             "plural": "Nama Borang",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "oneColumn": {
+            "original": "One Column",
+            "singular": "Satu Lajur",
+            "plural": "Satu Lajur",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "twoColumn": {
+            "original": "Two Columns",
+            "singular": "Dua Lajur",
+            "plural": "Dua Lajur",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sectionName": {
+            "original": "Section Name",
+            "singular": "Nama Bahagian",
+            "plural": "Nama Bahagian",
             "setupEdit": false,
             "setupVisible": false
           }
