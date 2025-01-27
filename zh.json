@@ -18799,9 +18799,18 @@
             "plural": "",
             "setupEdit": true,
             "setupVisible": false
+          },
+          "createdDate": {
+            "original": "Created Date",
+            "singular": "创建日期",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": false
           }
         },
-        "validationFE": {},
+        "validationFE": {
+          "exceededLimit50Templates":"您已超过50个活动模板的限制。将未使用的模板状态设置为“非活动”以添加另一个活动模板。"
+        },
         "tooltips": {
           "setupVisible": false,
           "prependJobName": {
@@ -18816,6 +18825,13 @@
             "singular": "工作订单模板查询",
             "plural": "",
             "setupEdit": true,
+            "setupVisible": false
+          },
+          "dateOptions": {
+            "original": "You can set the date of this Task template to either a specific number of days after the Job Order is created or match the Job Order Date. Selecting the 'Same as Job Order Date' checkbox will disable the Date Calculation field.",
+            "singular": "您可以将此任务模板的日期设置为在工单创建后的特定天数，或与工单日期匹配。选中“与工单日期相同”复选框将禁用日期计算字段。",
+            "plural": "",
+            "setupEdit": false,
             "setupVisible": false
           }
         },

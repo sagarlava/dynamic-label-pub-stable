@@ -18799,9 +18799,18 @@
             "plural": "",
             "setupEdit": true,
             "setupVisible": false
+          },
+          "createdDate": {
+            "original": "Created Date",
+            "singular": "Created Date",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": false
           }
         },
-        "validationFE": {},
+        "validationFE": {
+          "exceededLimit50Templates":"You have exceeded the limit of 50 active templates. Set the status of an unused template to “Inactive” to add another active template."
+        },
         "tooltips": {
           "setupVisible": false,
           "prependJobName": {
@@ -18816,6 +18825,13 @@
             "singular": "Job Order Templates Lookup",
             "plural": "",
             "setupEdit": true,
+            "setupVisible": false
+          },
+          "dateOptions": {
+            "original": "You can set the date of this Task template to either a specific number of days after the Job Order is created or match the Job Order Date. Selecting the 'Same as Job Order Date' checkbox will disable the Date Calculation field.",
+            "singular": "You can set the date of this Task template to either a specific number of days after the Job Order is created or match the Job Order Date. Selecting the 'Same as Job Order Date' checkbox will disable the Date Calculation field.",
+            "plural": "",
+            "setupEdit": false,
             "setupVisible": false
           }
         },
