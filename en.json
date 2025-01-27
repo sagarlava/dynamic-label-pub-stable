@@ -16281,7 +16281,13 @@
           "copyOf":"Copy of",
           "formPreviewDesc":"Preview how your form will be displayed on the FieldEx mobile app. This is how your technicians or fields agents will be seeing the form on their end.",
           "exampleFieldPreview":"Example field preview",
-          "arrangeFormDesc":"Arrange the form to your liking by clicking on your desired field from the available fields box, then dragging and dropping it onto the canvas. You can rename the sections by clicking on the edit icons beside them. To remove a field or section, click on the 'x' button beside it."
+          "arrangeFormDesc":"Arrange the form to your liking by clicking on your desired field from the available fields box, then dragging and dropping it onto the canvas. You can rename the sections by clicking on the edit icons beside them. To remove a field or section, click on the 'x' button beside it.",
+          "whatAreForms":"What are Forms?",
+          "whatAreSubforms":"What are Subforms?",
+          "fieldCreationForms":"Field Creation for Forms",
+          "howDoICreateForm":"How do I create forms?",
+          "howDoICreateSubform":"How do I create subforms?",
+          "howDoICreateFIeld":"How do I create fields?"
         }
       }
     },

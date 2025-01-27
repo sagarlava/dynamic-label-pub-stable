@@ -16281,7 +16281,13 @@
           "copyOf":"的副本",
           "formPreviewDesc":"预览您的表单在FieldEx移动应用上的显示方式。这就是您的技术人员或现场代理将在他们的设备上看到的表单。",
           "exampleFieldPreview":"示例字段预览",
-          "arrangeFormDesc":"通过从可用字段框中点击所需字段，然后将其拖放到画布上，按您的喜好排列表单。您可以通过点击旁边的编辑图标来重命名部分。要删除字段或部分，请点击旁边的“x”按钮。"
+          "arrangeFormDesc":"通过从可用字段框中点击所需字段，然后将其拖放到画布上，按您的喜好排列表单。您可以通过点击旁边的编辑图标来重命名部分。要删除字段或部分，请点击旁边的“x”按钮。",
+          "whatAreForms":"什么是表单？",
+          "whatAreSubforms":"什么是子表单？",
+          "fieldCreationForms":"表单字段创建",
+          "howDoICreateForm":"我如何创建表单？",
+          "howDoICreateSubform":"我如何创建子表单？",
+          "howDoICreateFIeld":"我如何创建字段？"
         }
       }
     },
