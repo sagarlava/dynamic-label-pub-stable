@@ -12152,6 +12152,13 @@
         "plural": "Auswahlliste zuordnen",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "addSection":{
+        "original": "Add Section",
+        "singular": "Abschnitt hinzufügen",
+        "plural": "Abschnitte hinzufügen",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "status": {

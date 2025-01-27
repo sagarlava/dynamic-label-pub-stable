@@ -12152,6 +12152,13 @@
         "plural": "映射选择列表",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "addSection":{
+        "original": "Add Section",
+        "singular": "添加部分",
+        "plural": "添加部分",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "status": {

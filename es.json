@@ -12152,6 +12152,13 @@
         "plural": "Mapear Lista de Selección",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "addSection":{
+        "original": "Add Section",
+        "singular": "Agregar Sección",
+        "plural": "Agregar Sección",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "status": {

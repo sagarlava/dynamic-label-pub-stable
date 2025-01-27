@@ -12152,6 +12152,13 @@
         "plural": "Map Picklist",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "addSection":{
+        "original": "Add Section",
+        "singular": "Add Section",
+        "plural": "Add Sections",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "status": {
