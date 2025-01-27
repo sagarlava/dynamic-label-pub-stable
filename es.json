@@ -2235,7 +2235,8 @@
       "contractIdExists": "Un nuevo contrato no puede tener ya un ID",
       "contractPriceBookNotFound": "Libro de precios del contrato no encontrado",
       "contractPriceBookIdNotFound": "ID del libro de precios del contrato no encontrada",
-      "contractPriceBookUpdateFailed": "Error al actualizar el libro de precios del contrato"
+      "contractPriceBookUpdateFailed": "Error al actualizar el libro de precios del contrato",
+      "contractAssetsSerialNumberExists": "El número de serie del activo ya está asignado a un contrato activo superpuesto"
     },
     "tooltips": {
       "setupVisible": false,
@@ -4480,7 +4481,8 @@
       "teamSkillIdExists": "Una nueva Habilidad del Equipo no puede tener ya un ID",
       "userTaskIdExists": "Una nueva Tarea de Usuario no puede tener ya un ID",
       "userTaskIdNotFound": "ID no encontrado",
-      "userTaskNotFound": "Tarea de Usuario no encontrada"
+      "userTaskNotFound": "Tarea de Usuario no encontrada",
+      "userNotAllowedToAssignTask": "Usuario no tiene permitido agregar miembros a la tarea"
     },
     "tooltips": {
       "setupVisible": false,
@@ -10686,6 +10688,7 @@
       "invalidFileTypeExclamation": "¡Tipo de archivo inválido!",
       "allowedFileSize": "El tamaño del archivo debe ser menor a 25MB",
       "allowedFileSizeKb": "El tamaño del archivo debe ser menor a 100KB",
+      "allowedFileSize500Kb": "El tamaño del archivo debe ser menor a 500KB",
       "allowedFileSizeOnly": "El tamaño del archivo debe ser menor a",
       "cannotFindFile": "No se puede encontrar el nombre de archivo y tipo de archivo",
       "pdfNotAvailable": "¡Lo siento! El PDF no está disponible",
@@ -10694,7 +10697,8 @@
       "maxUploadFileSize": "El tamaño máximo de archivo para subir es 25MB",
       "fileExtension": "Solo se permiten archivos con extensiones *.pdf, *.docx, *.jpg",
       "fileTypeUnsupported":"Este tipo de archivo no es compatible. Por favor, elija un archivo diferente.",
-      "allowedFileSize4MB":"El tamaño del archivo excede el límite de 4 MB. Por favor, suba un archivo más pequeño."
+      "allowedFileSize4MB":"El tamaño del archivo excede el límite de 4 MB. Por favor, suba un archivo más pequeño.",
+      "onlyAcceptImagesExt":"Solo se aceptan JPG, JPEG y PNG"
     }
   },
   "history": {
@@ -12439,6 +12443,13 @@
         "setupEdit": true,
         "setupVisible": false
       },
+      "decline": {
+        "original": "Decline",
+        "singular": "Declinar",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": false
+      },
       "unassigned": {
         "original": "Unassigned",
         "singular": "No Asignado",
@@ -13759,14 +13770,14 @@
           "sec2": {
             "original": "Module Permission",
             "singular": "Permiso del Módulo",
-            "plural": "",
+            "plural": "Permisos del módulo",
             "setupEdit": true,
             "setupVisible": false
           },
           "sec3": {
             "original": "Picklist Permission",
             "singular": "Permiso de Lista de Selección",
-            "plural": "",
+            "plural": "Permisos de lista de selección",
             "setupEdit": true,
             "setupVisible": false
           },
@@ -13820,8 +13831,8 @@
             "setupVisible": false
           },
           "sec11": {
-            "original": "Device Enablement",
-            "singular": "Activación de Dispositivos",
+            "original": "Device Permissions",
+            "singular": "Permisos de los Dispositivos",
             "plural": "",
             "setupEdit": true,
             "setupVisible": false
@@ -13860,6 +13871,20 @@
             "plural": "Clonar Asignación",
             "setupEdit": true,
             "setupVisible": false
+          },
+          "sec17": {
+            "original": "Allowed to Access Web App",
+            "singular": "Permitido acceder a la aplicación web",
+            "plural": "Permitido acceder a la aplicación web",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec18": {
+            "original": "Allowed to Access Mobile App",
+            "singular": "Permitido acceder a la aplicación móvil",
+            "plural": "Permitido acceder a la aplicación móvil",
+            "setupEdit": true,
+            "setupVisible": false
           }
         },
         "fields": {
@@ -13886,29 +13911,29 @@
             "setupVisible": false
           },
           "web": {
-            "original": "Web",
-            "singular": "Web",
-            "plural": "",
-            "setupEdit": true,
+            "original": "Allowed to Access Web App",
+            "singular": "Permitido acceder a la aplicación web",
+            "plural": "Permitido acceder a la aplicación web",
+            "setupEdit": false,
             "setupVisible": false
           },
           "loginWeb": {
-            "original": "User is able to login from the web",
-            "singular": "El usuario puede iniciar sesión desde la web",
+            "original": "Users with this access can use the web app",
+            "singular": "Los usuarios con este acceso pueden usar la aplicación web",
             "plural": "",
             "setupEdit": true,
             "setupVisible": false
           },
           "mobile": {
-            "original": "Mobile Access",
-            "singular": "Acceso Móvil",
-            "plural": "",
-            "setupEdit": true,
+            "original": "Allowed to Access Mobile App",
+            "singular": "Permitido acceder a la aplicación móvil",
+            "plural": "Permitido acceder a la aplicación móvil",
+            "setupEdit": false,
             "setupVisible": false
           },
           "loginMobile": {
-            "original": "User is able to login via the mobile application",
-            "singular": "El usuario puede iniciar sesión a través de la aplicación móvil",
+            "original": "Users with this access can use the mobile app",
+            "singular": "Los usuarios con este acceso pueden usar la aplicación móvil",
             "plural": "",
             "setupEdit": true,
             "setupVisible": false
@@ -13928,17 +13953,17 @@
             "setupVisible": false
           },
           "allowViewSalesOrdPrice": {
-            "original": "Allow View Sales Order Price",
-            "singular": "Permitir Ver Precio de Orden de Venta",
+            "original": "Allowed to View Sales Order Price",
+            "singular": "Permitido ver el precio de la orden de venta",
             "plural": "",
-            "setupEdit": true,
+            "setupEdit": false,
             "setupVisible": false
           },
           "allowAssignTask": {
-            "original": "Allow to Assign Task",
-            "singular": "Permitir Asignar Tarea",
+            "original": "Allowed to Assign Task",
+            "singular": "Permitido asignar tareas",
             "plural": "",
-            "setupEdit": true,
+            "setupEdit": false,
             "setupVisible": false
           },
           "allowAssignShift": {
@@ -13950,7 +13975,7 @@
           },
           "jmpMandatory": {
             "original": "JMP Mandatory",
-            "singular": "Ver Personal en Línea Basado en la Jerarquía",
+            "singular": "JMP obligatorio",
             "plural": "",
             "setupEdit": true,
             "setupVisible": false
@@ -13963,8 +13988,8 @@
             "setupVisible": false
           },
           "helpdeskUser": {
-            "original": "Helpdesk user",
-            "singular": "Usuario del Soporte Técnico",
+            "original": "Is a Helpdesk User",
+            "singular": "Es un usuario de Helpdesk",
             "plural": "",
             "setupEdit": true,
             "setupVisible": false
@@ -13977,8 +14002,8 @@
             "setupVisible": false
           },
           "binUser": {
-            "original": "Bin User",
-            "singular": "Usuario de Almacenamiento",
+            "original": "Is a Bin User",
+            "singular": "Es un usuario de almacenamiento",
             "plural": "",
             "setupEdit": true,
             "setupVisible": false
@@ -14120,17 +14145,17 @@
         "descriptions": {
           "setupVisible": false,
           "userWithAccessAssignTask": {
-            "original": "Users with this access are able to assign tasks",
-            "singular": "Los usuarios con este acceso pueden asignar tareas",
+            "original": "Users with this access can assign Tasks",
+            "singular": "Los usuarios con este acceso pueden asignar Tareas",
             "plural": "",
-            "setupEdit": true,
+            "setupEdit": false,
             "setupVisible": false
           },
           "userWithAccessViewPricing": {
-            "original": "Users with this access are able to view pricing details for Sales Orders",
-            "singular": "Los usuarios con este acceso pueden ver los detalles de precios para las órdenes de venta",
+            "original": "Users with this access can view pricing details for Sales Orders",
+            "singular": "Los usuarios con este acceso pueden ver los detalles de precios para los Pedidos de Venta",
             "plural": "",
-            "setupEdit": true,
+            "setupEdit": false,
             "setupVisible": false
           },
           "userWithAccessAssignShift": {
@@ -14148,31 +14173,31 @@
             "setupVisible": false
           },
           "userWithAccessCreateModifyTix": {
-            "original": "Users with this access are able to create and modify tickets as well as view the Helpdesk module",
-            "singular": "Los usuarios con este acceso pueden crear y modificar tickets, así como ver el módulo de Helpdesk",
+            "original": "Users with this access can create and modify tickets as well as view Helpdesk Module",
+            "singular": "Los usuarios con este acceso pueden crear y modificar tickets, así como ver el Módulo de Mesa de Ayuda",
             "plural": "",
-            "setupEdit": true,
+            "setupEdit": false,
             "setupVisible": false
           },
           "leaveUncheckedMarkOnline": {
-            "original": "Leave unchecked to always be marked as 'Online' by default",
-            "singular": "Dejar sin marcar para ser siempre etiquetado como 'En línea' por defecto",
+            "original": "If not selected, user will always be marked as 'Online' by default",
+            "singular": "Si no se selecciona, el usuario siempre será marcado como 'En línea' por defecto",
             "plural": "",
-            "setupEdit": true,
+            "setupEdit": false,
             "setupVisible": false
           },
           "userBinTransferReceiveProd": {
-            "original": "A 'User Bin' may be created for users with this access to transfer and receive Assets and Spare Parts",
-            "singular": "Se puede crear un 'Contenedor de Usuario' para usuarios con este acceso para transferir y recibir Activos y Piezas de Repuesto",
+            "original": "A 'User Bin' is created for users with this access to transfer and receive Assets and Spare Parts",
+            "singular": "Se crea un 'Contenedor de Usuario' para los usuarios con este acceso para transferir y recibir Activos y Repuestos",
             "plural": "",
             "setupEdit": true,
             "setupVisible": false
           },
           "leaveRequestAutoApprove": {
-            "original": "Leave requests will be automatically approved for users with this access",
-            "singular": "Las solicitudes de licencia se aprobarán automáticamente para los usuarios con este acceso",
+            "original": "Users with this access have their leave requests automatically approved",
+            "singular": "Los usuarios con este acceso tienen sus solicitudes de permiso aprobadas automáticamente",
             "plural": "",
-            "setupEdit": true,
+            "setupEdit": false,
             "setupVisible": false
           },
           "allowUserSendViewSurvey": {
@@ -14236,6 +14261,20 @@
             "singular": "Se enviará una notificación por correo electrónico al gerente para informarle que un usuario ha cambiado manualmente de en línea a fuera de línea dentro de sus horas de trabajo especificadas",
             "plural": "",
             "setupEdit": true,
+            "setupVisible": false
+          },
+          "usersCanUseWebApp": {
+            "original": "Users with this access can use the web app",
+            "singular": "Los usuarios con este acceso pueden usar la aplicación web",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "usersCanUseMobileApp": {
+            "original": "Users with this access can use the mobile app",
+            "singular": "Los usuarios con este acceso pueden usar la aplicación móvil",
+            "plural": "",
+            "setupEdit": false,
             "setupVisible": false
           }
         },
@@ -15459,8 +15498,8 @@
             "setupVisible": false
           },
           "userInField": {
-            "original": "User in Field",
-            "singular": "Usuario en Campo",
+            "original": "User Field",
+            "singular": "Campo de Usuario",
             "plural": "",
             "setupEdit": true,
             "setupVisible": false
@@ -15502,7 +15541,7 @@
           },
           "emailInField": {
             "original": "Email in Field",
-            "singular": "Correo electrónico en el campo",
+            "singular": "Campo de Correo Electrónico",
             "plural": "",
             "setupEdit": false,
             "setupVisible": false
@@ -15514,6 +15553,13 @@
           "navigateTo": {
             "original": "When the user clicks the notification, where should it take them?",
             "singular": "¿A dónde debería llevar al usuario cuando haga clic en la notificación?",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "separateEmail": {
+            "original": "Separate multiple email addresses with commas",
+            "singular": "Separe múltiples direcciones de correo electrónico con comas",
             "plural": "",
             "setupEdit": false,
             "setupVisible": false
@@ -20914,9 +20960,9 @@
           "emailNotificationsDesc": "Diseñe plantillas de correo electrónico personalizadas con valores de campo para notificar a los usuarios de FieldEx o contactos externos.",
           "whetherRemindersCustomer": "Ya sean recordatorios, actualizaciones para clientes o alertas para el equipo, los flujos de trabajo facilitan mantenerse conectado de manera simple y efectiva.",
           "useThisPageToCreateNewWorkflows": "Utiliza esta página para crear nuevos flujos de trabajo o gestionar los que ya has configurado.",
-          "triggerWhenNewRecordCreated": "Cuando se crea un registro: El flujo de trabajo se activará cuando se añada un nuevo registro y se cumplan las condiciones establecidas.",
-          "triggerWhenUpdatedFirstTime": "Cuando un registro cambia por primera vez: El flujo de trabajo se activa la primera vez que se realizan cambios en el registro y se cumplen las condiciones especificadas.",
-          "triggerWhenRecordUpdatedEverytime": "Cada vez que se actualiza un registro: El flujo de trabajo se activa cada vez que se realizan cambios en el registro y se cumplen las condiciones especificadas.",
+          "triggerWhenNewRecordCreated": "El flujo de trabajo se activará cuando se añada un nuevo registro y se cumplan las condiciones establecidas.",
+          "triggerWhenUpdatedFirstTime": "El flujo de trabajo se activa la primera vez que se realizan cambios en el registro y se cumplen las condiciones especificadas.",
+          "triggerWhenRecordUpdatedEverytime": "El flujo de trabajo se activa cada vez que se realizan cambios en el registro y se cumplen las condiciones especificadas.",
           "triggerWhenRecordDeleted": "Esta opción activará el flujo de trabajo cada vez que se elimine un registro.",
           "selectStatus": "Seleccionar estado",
           "selectAttribute": "Seleccionar atributo",
@@ -20960,7 +21006,31 @@
           "onlyOneThingNeedsToHappen": "Solo necesita suceder una cosa de ese grupo.",
           "everythingInGroupMustHappen": "Todo en ese grupo debe suceder.",
           "workflowHasNotBegun":"No se especificó un disparador de inicio.",
-          "clickHereToAdd":"Haga clic aquí para agregar."
+          "clickHereToAdd":"Haga clic aquí para agregar.",
+          "noOfRules":"Núm. de reglas",
+          "activeWorkflow":"Flujo(s) de Trabajo Activo(s):",
+          "equalTo":"igual a",
+          "equalToEmpty":"igual a ' '",
+          "notEqualTo":"no igual a",
+          "notEqualToEmpty":"no igual a ' '",
+          "contains":"contiene",
+          "startsWith":"empieza con",
+          "endsWith":"termina con",
+          "isGreaterThan":"es mayor que",
+          "isGreaterThanOrEqualTo":"es mayor o igual que",
+          "isLessThan":"es menor que",
+          "isLessThanOrEqualTo":"es menor o igual que",
+          "today":"Hoy",
+          "yesterday":"Mañana",
+          "tomorrow":"Mañana",
+          "thisWeek":"Esta Semana",
+          "lastWeek":"La Semana Pasada",
+          "nextWeek":"La Próxima Semana",
+          "thisMonth":"Este Mes",
+          "lastMonth":"El Mes Pasado",
+          "nextMonth":"El Próximo Mes",
+          "thisYear":"Este Año",
+          "addDays":"Agregar Días"
       }
     },
     "templates": {
@@ -21305,8 +21375,9 @@
             "firstSelectSettings": "Primero selecciona un módulo en la pestaña 'Configuraciones' para comenzar a construir tu correo electrónico",
             "includeButtonInEmail": "Incluir un botón en el correo electrónico",
             "includeTableInEmail": "Incluir una tabla en el correo electrónico",
-            "selectFieldFilter": "La tabla debería filtrar por...",
+            "selectFieldFilter": "Filtrar por...",
             "selectModule": "Seleccionar módulo",
+            "selectTemplate":"Seleccionar plantilla",
             "selectSortBy": "La tabla debería ordenar por...",
             "maximumFiveColumnsAdded": "Se pueden agregar un máximo de 5 columnas"
           }
@@ -21514,6 +21585,7 @@
       "setupTmplChecklistHasCircularFollowupCheckList": "Los datos de la lista de verificación de seguimiento circular existen en el sistema para la lista de verificación",
       "setupTmplChecklistHasFollowupCheckList": "Los datos de la lista de verificación de seguimiento existen en el sistema para la lista de verificación",
       "setupTmplChecklistHasQuestions": "Los datos de preguntas existen en el sistema para la lista de verificación",
+      "setupTmplChecklistUsedInFollowupCheckList":"Esta lista de verificación está configurada como una lista de verificación de seguimiento para otra lista de verificación",
       "setupTmplChecklistModelTypeNotFound": "Se requiere modelo o tipo",
       "setupTmplJobOrderProductIdExists": "Un nuevo TmplJobOrderSparePart no puede ya tener un ID",
       "setupTmplJobOrderIdExists": "Un nuevo TmplJobOrder no puede ya tener un ID",
@@ -21543,7 +21615,11 @@
       "setupWorkflowDeleteAlertInUse":"La notificación se utiliza en uno o más flujos de trabajo",
       "setupWorkflowIdValuesRequired":"Se requiere el valor del ID del flujo de trabajo",
       "setupWorkflowLinkedToNotifications":"El flujo de trabajo tiene notificaciones asignadas. Por favor, elimínelas primero",
-      "setupWorkflowMaxAllowedCount":"Se ha alcanzado el máximo de flujos de trabajo activos"
+      "setupWorkflowMaxAllowedCount":"Se ha alcanzado el máximo de flujos de trabajo activos",
+      "setupWorkflowMaxActionsPerWorkflow": "Acciones máximas por flujo de trabajo alcanzadas",
+      "setupWorkflowEmailsMax": "Se alcanzó el número máximo permitido de direcciones de correo electrónico para notificaciones de flujo de trabajo",
+      "setupWorkflowEmailUserMax": "Se alcanzó el número máximo de usuarios permitidos para notificaciones de flujo de trabajo",
+      "setupWorkflowEmailUserGroupMax": "Se alcanzó el número máximo de usuarios permitidos para notificaciones de flujo de trabajo"
     },
     "labelBE": {
       "profileTableColumnSetup": {
@@ -21565,12 +21641,12 @@
         "moduleAccessFeatures": {
           "feature": {
             "name": {
-              "customers": "Clientes",
+              "customers": "Cliente",
               "sales_order": "Orden de Venta",
               "job_order": "Orden de Trabajo",
-              "products": "Productos",
+              "products": "Pieza de repuesto",
               "teams": "Equipos",
-              "tasks": "Tareas",
+              "tasks": "Tarea",
               "customer_payment": "Pago del Cliente",
               "customer_purchase_history": "Historial de Compras del Cliente",
               "assets_tracking": "Seguimiento de Activos",
@@ -21580,14 +21656,14 @@
               "drivers": "Conductores",
               "packages": "Paquetes",
               "vehicles": "Vehículos",
-              "assets": "Activos",
-              "assets_contracts": "Contratos de Activos",
-              "scheduled_maintenance": "Mantenimiento Programado",
+              "assets": "Activo",
+              "assets_contracts": "Contratos",
+              "scheduled_maintenance": "Mantenimiento Preventivo",
               "inventory": "Inventario",
-              "tickets": "Tickets",
+              "tickets": "Ticket",
               "project": "Proyecto",
               "site": "Sitio",
-              "checklists": "Listas de Verificación",
+              "checklists": "Lista de verificación",
               "attendance": "Asistencia",
               "productivity": "Productividad",
               "overtime": "Horas Extra",
@@ -21600,7 +21676,7 @@
         "adminSettingsFeatures": {
           "feature": {
             "name": {
-              "manage_org_detail": "Gestionar Detalles de la ORG",
+              "manage_org_detail": "Gestionar detalles generales",
               "manage_users": "Gestionar Usuarios",
               "manage_hierarchy": "Gestionar Jerarquía",
               "manage_access": "Gestionar Acceso",
@@ -21611,7 +21687,7 @@
               "manage_geo_fence": "Gestionar Geocercas",
               "manage_notification": "Gestionar Notificaciones",
               "manage_modules": "Gestionar Módulos",
-              "manage_workflow": "Gestionar Flujo de Trabajo",
+              "manage_workflow": "Gestionar Flujos de Trabajo",
               "manage_customer_surveys": "Gestionar Encuestas de Clientes",
               "manage_integrations": "Gestionar Integraciones",
               "customer_survey_link": "Gestionar encuestas de clientes",

@@ -2235,7 +2235,8 @@
       "contractIdExists": "新合同不能已有ID",
       "contractPriceBookNotFound": "未找到合同价格手册",
       "contractPriceBookIdNotFound": "未找到合同价格手册ID",
-      "contractPriceBookUpdateFailed": "更新合同价格手册失败"
+      "contractPriceBookUpdateFailed": "更新合同价格手册失败",
+      "contractAssetsSerialNumberExists": "资产序列号已分配给重叠的活动合同"
     },
     "tooltips": {
       "setupVisible": false,
@@ -4480,7 +4481,8 @@
       "teamSkillIdExists": "新的团队技能不能已有ID",
       "userTaskIdExists": "新的用户任务不能已有ID",
       "userTaskIdNotFound": "未找到ID",
-      "userTaskNotFound": "未找到用户任务"
+      "userTaskNotFound": "未找到用户任务",
+      "userNotAllowedToAssignTask": "用户不允许将成员添加到任务中"
     },
     "tooltips": {
       "setupVisible": false,
@@ -10686,6 +10688,7 @@
       "invalidFileTypeExclamation": "无效的文件类型！",
       "allowedFileSize": "文件大小应小于25MB",
       "allowedFileSizeKb": "文件大小应小于100KB",
+      "allowedFileSize500Kb": "文件大小应小于500KB",
       "allowedFileSizeOnly": "文件大小应小于",
       "cannotFindFile": "无法找到文件名和文件类型",
       "pdfNotAvailable": "抱歉！PDF不可用",
@@ -10694,7 +10697,8 @@
       "maxUploadFileSize": "最大上传文件大小为 25MB",
       "fileExtension": "仅允许扩展名为 *.pdf, *.docx, *.jpg 的文件",
       "fileTypeUnsupported":"此文件类型不受支持。请选择其他文件。",
-      "allowedFileSize4MB":"文件大小超过4MB限制。请上传较小的文件。"
+      "allowedFileSize4MB":"文件大小超过4MB限制。请上传较小的文件。",
+      "onlyAcceptImagesExt":"仅接受 JPG、JPEG 和 PNG"
     }
   },
   "history": {
@@ -12439,6 +12443,13 @@
         "setupEdit": true,
         "setupVisible": false
       },
+      "decline": {
+        "original": "Decline",
+        "singular": "拒绝",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": false
+      },
       "unassigned": {
         "original": "Unassigned",
         "singular": "未分配",
@@ -13759,14 +13770,14 @@
           "sec2": {
             "original": "Module Permission",
             "singular": "模块权限",
-            "plural": "",
+            "plural": "模块权限",
             "setupEdit": true,
             "setupVisible": false
           },
           "sec3": {
             "original": "Picklist Permission",
             "singular": "选择列表权限",
-            "plural": "",
+            "plural": "选择列表权限",
             "setupEdit": true,
             "setupVisible": false
           },
@@ -13820,10 +13831,10 @@
             "setupVisible": false
           },
           "sec11": {
-            "original": "Device Enablement",
-            "singular": "设备启用",
+            "original": "Device Permissions",
+            "singular": "设备权限",
             "plural": "",
-            "setupEdit": true,
+            "setupEdit": false,
             "setupVisible": false
           },
           "sec12": {
@@ -13860,6 +13871,20 @@
             "plural": "克隆分配",
             "setupEdit": true,
             "setupVisible": false
+          },
+          "sec17": {
+            "original": "Allowed to Access Web App",
+            "singular": "允许访问网页应用",
+            "plural": "允许访问网页应用",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec18": {
+            "original": "Allowed to Access Mobile App",
+            "singular": "允许访问移动应用",
+            "plural": "允许访问移动应用",
+            "setupEdit": false,
+            "setupVisible": false
           }
         },
         "fields": {
@@ -13886,29 +13911,29 @@
             "setupVisible": false
           },
           "web": {
-            "original": "Web",
-            "singular": "网页",
-            "plural": "",
-            "setupEdit": true,
+            "original": "Allowed to Access Web App",
+            "singular": "允许访问网页应用",
+            "plural": "允许访问网页应用",
+            "setupEdit": false,
             "setupVisible": false
           },
           "loginWeb": {
-            "original": "User is able to login from the web",
-            "singular": "用户可以从网页登录",
+            "original": "Users with this access can use the web app",
+            "singular": "具有此权限的用户可以使用网页应用",
             "plural": "",
             "setupEdit": true,
             "setupVisible": false
           },
           "mobile": {
-            "original": "Mobile Access",
-            "singular": "移动访问",
-            "plural": "",
-            "setupEdit": true,
+            "original": "Allowed to Access Mobile App",
+            "singular": "允许访问移动应用",
+            "plural": "允许访问移动应用",
+            "setupEdit": false,
             "setupVisible": false
           },
           "loginMobile": {
-            "original": "User is able to login via the mobile application",
-            "singular": "用户可以通过移动应用程序登录",
+            "original": "Users with this access can use the mobile app",
+            "singular": "具有此权限的用户可以使用移动应用",
             "plural": "",
             "setupEdit": true,
             "setupVisible": false
@@ -13928,17 +13953,17 @@
             "setupVisible": false
           },
           "allowViewSalesOrdPrice": {
-            "original": "Allow View Sales Order Price",
+            "original": "Allowed to View Sales Order Price",
             "singular": "允许查看销售订单价格",
             "plural": "",
-            "setupEdit": true,
+            "setupEdit": false,
             "setupVisible": false
           },
           "allowAssignTask": {
-            "original": "Allow to Assign Task",
+            "original": "Allowed to Assign Task",
             "singular": "允许分配任务",
             "plural": "",
-            "setupEdit": true,
+            "setupEdit": false,
             "setupVisible": false
           },
           "allowAssignShift": {
@@ -13963,8 +13988,8 @@
             "setupVisible": false
           },
           "helpdeskUser": {
-            "original": "Helpdesk user",
-            "singular": "帮助台用户",
+            "original": "Is a Helpdesk User",
+            "singular": "是帮助台用户",
             "plural": "",
             "setupEdit": true,
             "setupVisible": false
@@ -13977,8 +14002,8 @@
             "setupVisible": false
           },
           "binUser": {
-            "original": "Bin User",
-            "singular": "用户",
+            "original": "Is a Bin User",
+            "singular": "是垃圾箱用户",
             "plural": "",
             "setupEdit": true,
             "setupVisible": false
@@ -14120,17 +14145,17 @@
         "descriptions": {
           "setupVisible": false,
           "userWithAccessAssignTask": {
-            "original": "Users with this access are able to assign tasks",
-            "singular": "具有此访问权限的用户可以分配任务",
+            "original": "Users with this access can assign Tasks",
+            "singular": "具有此权限的用户可以分配任务",
             "plural": "",
-            "setupEdit": true,
+            "setupEdit": false,
             "setupVisible": false
           },
           "userWithAccessViewPricing": {
-            "original": "Users with this access are able to view pricing details for Sales Orders",
-            "singular": "具有此访问权限的用户可以查看销售订单的定价详情",
+            "original": "Users with this access can view pricing details for Sales Orders",
+            "singular": "具有此权限的用户可以查看销售订单的定价详细信息",
             "plural": "",
-            "setupEdit": true,
+            "setupEdit": false,
             "setupVisible": false
           },
           "userWithAccessAssignShift": {
@@ -14148,31 +14173,31 @@
             "setupVisible": false
           },
           "userWithAccessCreateModifyTix": {
-            "original": "Users with this access are able to create and modify tickets as well as view the Helpdesk module",
-            "singular": "具有此访问权限的用户可以创建和修改票据以及查看帮助台模块",
+            "original": "Users with this access can create and modify tickets as well as view Helpdesk Module",
+            "singular": "具有此权限的用户可以创建和修改票据，并查看帮助台模块",
             "plural": "",
-            "setupEdit": true,
+            "setupEdit": false,
             "setupVisible": false
           },
           "leaveUncheckedMarkOnline": {
-            "original": "Leave unchecked to always be marked as 'Online' by default",
-            "singular": "保持未选中状态，以默认标记为“在线”",
+            "original": "If not selected, user will always be marked as 'Online' by default",
+            "singular": "如果未选择，用户默认始终会被标记为“在线”",
             "plural": "",
-            "setupEdit": true,
+            "setupEdit": false,
             "setupVisible": false
           },
           "userBinTransferReceiveProd": {
-            "original": "A 'User Bin' may be created for users with this access to transfer and receive Assets and Products",
-            "singular": "可以为具有此访问权限的用户创建“用户仓”以转移和接收资产和备件",
+            "original": "A 'User Bin' is created for users with this access to transfer and receive Assets and Spare Parts",
+            "singular": "为具有此权限的用户创建一个“用户仓”以转移和接收资产及备件",
             "plural": "",
             "setupEdit": true,
             "setupVisible": false
           },
           "leaveRequestAutoApprove": {
-            "original": "Leave requests will be automatically approved for users with this access",
-            "singular": "具有此访问权限的用户的请假请求将自动批准",
+            "original": "Users with this access have their leave requests automatically approved",
+            "singular": "具有此权限的用户其请假请求会被自动批准",
             "plural": "",
-            "setupEdit": true,
+            "setupEdit": false,
             "setupVisible": false
           },
           "allowUserSendViewSurvey": {
@@ -14236,6 +14261,20 @@
             "singular": "将向经理发送电子邮件通知，告知他们用户已在其指定的工作时间内手动从在线切换为离线",
             "plural": "",
             "setupEdit": true,
+            "setupVisible": false
+          },
+          "usersCanUseWebApp": {
+            "original": "Users with this access can use the web app",
+            "singular": "具有此权限的用户可以使用网页应用",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "usersCanUseMobileApp": {
+            "original": "Users with this access can use the mobile app",
+            "singular": "具有此权限的用户可以使用移动应用",
+            "plural": "",
+            "setupEdit": false,
             "setupVisible": false
           }
         },
@@ -15459,8 +15498,8 @@
             "setupVisible": false
           },
           "userInField": {
-            "original": "User in Field",
-            "singular": "现场用户",
+            "original": "User Field",
+            "singular": "用户字段",
             "plural": "",
             "setupEdit": true,
             "setupVisible": false
@@ -15502,7 +15541,7 @@
           },
           "emailInField": {
             "original": "Email in Field",
-            "singular": "字段中的电子邮件",
+            "singular": "电子邮件字段",
             "plural": "",
             "setupEdit": false,
             "setupVisible": false
@@ -15516,6 +15555,13 @@
             "singular": "当用户点击通知时，它应该带他们去哪里？",
             "plural": "",
             "setupEdit": true,
+            "setupVisible": false
+          },
+          "separateEmail": {
+            "original": "Separate multiple email addresses with commas",
+            "singular": "用逗号分隔多个电子邮件地址",
+            "plural": "",
+            "setupEdit": false,
             "setupVisible": false
           }
         },
@@ -20914,9 +20960,9 @@
         "emailNotificationsDesc": "设计包含字段值的自定义电子邮件模板，以通知FieldEx用户或外部联系人。",
         "whetherRemindersCustomer": "无论是提醒、客户更新还是团队警报，工作流程使保持联系变得简单而有效。",
         "useThisPageToCreateNewWorkflows": "使用此页面创建新工作流或管理您已设置的工作流。",
-        "triggerWhenNewRecordCreated": "当创建记录时：当添加新记录且满足设定条件时，工作流程将被触发。",
-        "triggerWhenUpdatedFirstTime": "当记录第一次更改时：工作流程将在第一次更改记录且满足指定条件时触发。",
-        "triggerWhenRecordUpdatedEverytime": "每次更新记录时：每次更改记录且满足指定条件时，工作流程都会被触发。",
+        "triggerWhenNewRecordCreated": "当添加新记录且满足设定条件时，工作流程将被触发。",
+        "triggerWhenUpdatedFirstTime": "工作流程将在第一次更改记录且满足指定条件时触发。",
+        "triggerWhenRecordUpdatedEverytime": "每次更改记录且满足指定条件时，工作流程都会被触发。",
         "triggerWhenRecordDeleted": "此选项将在记录删除时触发工作流。",
         "selectStatus": "选择状态",
         "selectAttribute": "选择属性",
@@ -20960,7 +21006,31 @@
         "onlyOneThingNeedsToHappen": "该组中的一件事需要发生。",
         "everythingInGroupMustHappen": "该组中的所有事情都必须发生。",
         "workflowHasNotBegun":"未指定开始触发器。",
-        "clickHereToAdd":"点击此处添加。"
+        "clickHereToAdd":"点击此处添加。",
+        "noOfRules":"规则数量",
+        "activeWorkflow":"活动工作流:",
+        "equalTo":"等于",
+        "equalToEmpty":"等于 ' '",
+        "notEqualTo":"不等于",
+        "notEqualToEmpty":"不等于 ' '",
+        "contains":"包含",
+        "startsWith":"以...开始",
+        "endsWith":"以...结束",
+        "isGreaterThan":"大于",
+        "isGreaterThanOrEqualTo":"大于或等于",
+        "isLessThan":"小于",
+        "isLessThanOrEqualTo":"小于或等于",
+        "today":"今天",
+        "yesterday":"昨天",
+        "tomorrow":"明天",
+        "thisWeek":"本周",
+        "lastWeek":"上周",
+        "nextWeek":"下周",
+        "thisMonth":"本月",
+        "lastMonth":"上个月",
+        "nextMonth":"下个月",
+        "thisYear":"今年",
+        "addDays":"添加天数"
       }
     },
     "templates": {
@@ -21305,8 +21375,9 @@
             "firstSelectSettings": "首先在“设置”选项卡中选择一个模块以开始构建电子邮件",
             "includeButtonInEmail": "在电子邮件中包含一个按钮",
             "includeTableInEmail": "在电子邮件中包含一个表格",
-            "selectFieldFilter": "表格应按以下内容筛选...",
+            "selectFieldFilter": "按...筛选",
             "selectModule": "选择模块",
+            "selectTemplate":"选择模板",
             "selectSortBy": "表格应按以下内容排序...",
             "maximumFiveColumnsAdded": "最多可以添加 5 列"
           }
@@ -21514,6 +21585,7 @@
       "setupTmplChecklistHasCircularFollowupCheckList": "系统中存在检查表的循环跟进检查表数据",
       "setupTmplChecklistHasFollowupCheckList": "系统中存在检查表的跟进检查表数据",
       "setupTmplChecklistHasQuestions": "系统中存在检查表的问题数据",
+      "setupTmplChecklistUsedInFollowupCheckList":"此检查表已被设置为另一个检查表的后续检查表",
       "setupTmplChecklistModelTypeNotFound": "需要型号或类型",
       "setupTmplJobOrderProductIdExists": "新TmplJobOrderProduct不能已有ID",
       "setupTmplJobOrderIdExists": "新TmplJobOrder不能已有ID",
@@ -21543,7 +21615,11 @@
       "setupWorkflowDeleteAlertInUse":"通知已在一个或多个工作流中使用",
       "setupWorkflowIdValuesRequired":"工作流ID值是必需的",
       "setupWorkflowLinkedToNotifications":"工作流已分配通知。请先删除它们",
-      "setupWorkflowMaxAllowedCount":"已达到最大活动工作流数量"
+      "setupWorkflowMaxAllowedCount":"已达到最大活动工作流数量",
+      "setupWorkflowMaxActionsPerWorkflow": "已达到每个工作流程的最大操作次数",
+      "setupWorkflowEmailsMax": "已达到工作流通知允许的最大电子邮件地址数量",
+      "setupWorkflowEmailUserMax": "已达到工作流通知允许的最大用户数量",
+      "setupWorkflowEmailUserGroupMax": "已达到工作流通知允许的最大用户数量"
     },
     "labelBE": {
       "profileTableColumnSetup": {
@@ -21568,7 +21644,7 @@
               "customers": "客户",
               "sales_order": "销售订单",
               "job_order": "工作订单",
-              "products": "产品",
+              "products": "备件",
               "teams": "团队",
               "tasks": "任务",
               "customer_payment": "客户付款",
@@ -21581,10 +21657,10 @@
               "packages": "包裹",
               "vehicles": "车辆",
               "assets": "资产",
-              "assets_contracts": "资产合同",
-              "scheduled_maintenance": "计划维护",
+              "assets_contracts": "合同",
+              "scheduled_maintenance": "预防性维护",
               "inventory": "库存",
-              "tickets": "票务",
+              "tickets": "票据",
               "project": "项目",
               "site": "现场",
               "checklists": "清单",
@@ -21600,7 +21676,7 @@
         "adminSettingsFeatures": {
           "feature": {
             "name": {
-              "manage_org_detail": "管理组织详情",
+              "manage_org_detail": "管理一般详情",
               "manage_users": "管理用户",
               "manage_hierarchy": "管理层级",
               "manage_access": "管理访问权限",
