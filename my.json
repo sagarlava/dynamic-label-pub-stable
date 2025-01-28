@@ -16627,7 +16627,9 @@
           "allowAiSuggestJobSpareParts":"Benarkan AI mencadangkan alat ganti kerja berdasarkan bahan latihan yang anda telah muat naik ke FieldEx.",
           "of":"daripada",
           "selectAFileDropHere":"Pilih fail atau seret dan lepaskan di sini",
-          "txtPdfNoMore15Mb":"Fail TXT atau PDF tidak melebihi 15MB"
+          "txtPdfNoMore15Mb":"Fail TXT atau PDF tidak melebihi 15MB",
+          "enableOrDisableSuggestionsOnly":"Aktifkan atau nyahaktifkan cadangan dan ciri yang dikuasakan oleh AI mesra kami, Finley.",
+          "featureEnableAccessible":"Ciri yang diaktifkan akan dapat diakses oleh semua pengguna dalam organisasi anda, membolehkan mereka menyesuaikan keutamaan mereka dengan menghidupkan atau mematikan ciri tertentu."
         }
       }
     },

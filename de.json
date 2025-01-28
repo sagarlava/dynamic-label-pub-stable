@@ -16627,7 +16627,9 @@
           "allowAiSuggestJobSpareParts":"Erlauben Sie der KI, Ersatzteile für den Job basierend auf den Schulungsmaterialien vorzuschlagen, die Sie in FieldEx hochgeladen haben.",
           "of":"von",
           "selectAFileDropHere":"Wählen Sie eine Datei aus oder ziehen Sie sie hierher",
-          "txtPdfNoMore15Mb":"TXT- oder PDF-Dateigröße nicht mehr als 15 MB"
+          "txtPdfNoMore15Mb":"TXT- oder PDF-Dateigröße nicht mehr als 15 MB",
+          "enableOrDisableSuggestionsOnly":"Aktivieren oder deaktivieren Sie Vorschläge und Funktionen, die von unserer freundlichen KI Finley unterstützt werden.",
+          "featureEnableAccessible":"Aktivierte Funktionen stehen allen Benutzern in Ihrer Organisation zur Verfügung und ermöglichen es ihnen, ihre Präferenzen anzupassen, indem sie bestimmte Funktionen ein- oder ausschalten."
         }
       }
     },
