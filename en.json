@@ -16245,7 +16245,9 @@
           "allowAiSuggestJobSpareParts":"Allow AI to suggest job spare parts based on the training materials you have uploaded to FieldEx.",
           "of":"of",
           "selectAFileDropHere":"Select a file or drag and drop here",
-          "txtPdfNoMore15Mb":"TXT or PDF file size no more than 15MB"
+          "txtPdfNoMore15Mb":"TXT or PDF file size no more than 15MB",
+          "enableOrDisableSuggestionsOnly":"Enable or disable suggestions and features powered by our friendly AI, Finley.",
+          "featureEnableAccessible":"Features that are enabled will be accessible to all users in your organization, allowing them to customize their preferences by turning specific features on or off."
         }
       }
     },

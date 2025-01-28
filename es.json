@@ -16245,7 +16245,9 @@
           "allowAiSuggestJobSpareParts":"Permitir que la IA sugiera repuestos para el trabajo basándose en los materiales de capacitación que ha subido a FieldEx.",
           "of":"de",
           "selectAFileDropHere":"Seleccione un archivo o arrástrelo y suéltelo aquí",
-          "txtPdfNoMore15Mb":"El tamaño del archivo TXT o PDF no debe superar los 15 MB"
+          "txtPdfNoMore15Mb":"El tamaño del archivo TXT o PDF no debe superar los 15 MB",
+          "enableOrDisableSuggestionsOnly":"Habilite o deshabilite sugerencias y funciones impulsadas por nuestra amigable IA, Finley.",
+          "featureEnableAccessible":"Las funciones habilitadas estarán disponibles para todos los usuarios de su organización, permitiéndoles personalizar sus preferencias activando o desactivando funciones específicas."
         }
       }
     },
