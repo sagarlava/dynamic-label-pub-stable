@@ -1937,6 +1937,7 @@
       "preventativeFrequencyInvalidType": "Ungültiger Wert für den Frequenztyp",
       "preventativeFrequencyDayWithInvalidFrequency": "Wenn der Frequenztyp TAG ist, muss die Frequenz mindestens 7 Tage betragen",
       "preventativeFrequencyHasPreventativeFrequencyPart": "Daten zu präventiven Frequenzteilen sind im System für die präventive Frequenz vorhanden",
+      "preventativeFrequencyHasMaintenanceRecords":"Diese Frequenz kann nicht gelöscht werden, da sie mit einem oder mehreren Datensätzen verknüpft ist",
       "preventativeMaintenanceFrequencyTemplateIdOrMaintenanceIdNotFound": "Präventive Wartungsvorlagen-ID oder Wartungs-ID nicht gefunden",
       "preventativeMaintenanceFrequencyTemplateNotFound": "Präventive Wartungsvorlage nicht gefunden",
       "preventativeMaintenanceFrequencyInvalidType": "Ungültiger Frequenztyp",
