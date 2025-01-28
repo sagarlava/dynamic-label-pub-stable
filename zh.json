@@ -1937,6 +1937,7 @@
       "preventativeFrequencyInvalidType": "频率类型无效",
       "preventativeFrequencyDayWithInvalidFrequency": "如果频率类型为天，频率必须至少为7天",
       "preventativeFrequencyHasPreventativeFrequencyPart": "系统中存在预防频率的预防频率部分数据",
+      "preventativeFrequencyHasMaintenanceRecords":"无法删除此频率，因为它与一个或多个记录相关联",
       "preventativeMaintenanceFrequencyTemplateIdOrMaintenanceIdNotFound": "找不到预防性维护模板ID或维护ID",
       "preventativeMaintenanceFrequencyTemplateNotFound": "找不到预防性维护模板",
       "preventativeMaintenanceFrequencyInvalidType": "频率类型无效",
