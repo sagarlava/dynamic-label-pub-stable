@@ -16248,6 +16248,10 @@
           "txtPdfNoMore15Mb":"El tamaño del archivo TXT o PDF no debe superar los 15 MB",
           "enableOrDisableSuggestionsOnly":"Habilite o deshabilite sugerencias y funciones impulsadas por nuestra amigable IA, Finley.",
           "featureEnableAccessible":"Las funciones habilitadas estarán disponibles para todos los usuarios de su organización, permitiéndoles personalizar sus preferencias activando o desactivando funciones específicas."
+        },
+        "validationFE": {
+          "onlyTxtPdfAllowed":"Solo se permiten archivos TXT o PDF",
+          "fileSizeNotExceed15":"El tamaño del archivo no debe exceder los 15MB"
         }
       }
     },
