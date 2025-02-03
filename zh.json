@@ -18322,6 +18322,13 @@
             "plural": "",
             "setupEdit": false,
             "setupVisible": false
+          },
+          "sameAsJobOrderDate": {
+            "original": "Same as Job Order Date",
+            "singular": "与工单日期相同",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": false
           }
         },
         "validationFE": {

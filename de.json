@@ -18322,6 +18322,13 @@
             "plural": "",
             "setupEdit": false,
             "setupVisible": false
+          },
+          "sameAsJobOrderDate": {
+            "original": "Same as Job Order Date",
+            "singular": "Gleich wie das Arbeitsauftragsdatum",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": false
           }
         },
         "validationFE": {

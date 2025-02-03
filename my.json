@@ -18322,6 +18322,13 @@
             "plural": "",
             "setupEdit": false,
             "setupVisible": false
+          },
+          "sameAsJobOrderDate": {
+            "original": "Same as Job Order Date",
+            "singular": "Sama seperti Tarikh Pesanan Kerja",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": false
           }
         },
         "validationFE": {
