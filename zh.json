@@ -16630,6 +16630,10 @@
           "txtPdfNoMore15Mb":"TXT或PDF文件大小不超过15MB",
           "enableOrDisableSuggestionsOnly":"启用或禁用由我们友好的AI Finley提供的建议和功能。",
           "featureEnableAccessible":"已启用的功能将对您组织中的所有用户可用，允许他们通过打开或关闭特定功能来自定义自己的偏好。"
+        },
+        "validationFE": {
+          "onlyTxtPdfAllowed":"仅允许TXT或PDF文件",
+          "fileSizeNotExceed15":"文件大小不得超过15MB"
         }
       }
     },

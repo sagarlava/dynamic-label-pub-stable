@@ -16630,6 +16630,10 @@
           "txtPdfNoMore15Mb":"TXT- oder PDF-Dateigröße nicht mehr als 15 MB",
           "enableOrDisableSuggestionsOnly":"Aktivieren oder deaktivieren Sie Vorschläge und Funktionen, die von unserer freundlichen KI Finley unterstützt werden.",
           "featureEnableAccessible":"Aktivierte Funktionen stehen allen Benutzern in Ihrer Organisation zur Verfügung und ermöglichen es ihnen, ihre Präferenzen anzupassen, indem sie bestimmte Funktionen ein- oder ausschalten."
+        },
+        "validationFE": {
+          "onlyTxtPdfAllowed":"Nur TXT- oder PDF-Dateien sind erlaubt",
+          "fileSizeNotExceed15":"Die Dateigröße darf 15MB nicht überschreiten"
         }
       }
     },
