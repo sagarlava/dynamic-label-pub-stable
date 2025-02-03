@@ -1937,6 +1937,7 @@
       "preventativeFrequencyInvalidType": "Jenis frekuensi tidak sah",
       "preventativeFrequencyDayWithInvalidFrequency": "Jika jenis frekuensi adalah HARI, frekuensi mesti sekurang-kurangnya 7 hari",
       "preventativeFrequencyHasPreventativeFrequencyPart": "Data Bahagian Frekuensi Pencegahan wujud dalam sistem untuk Frekuensi Pencegahan",
+      "preventativeFrequencyHasMaintenanceRecords":"Kekerapan ini tidak boleh dipadam kerana ia dikaitkan dengan satu atau lebih rekod",
       "preventativeMaintenanceFrequencyTemplateIdOrMaintenanceIdNotFound": "ID Templat Penyelenggaraan Pencegahan atau ID Penyelenggaraan tidak dijumpai",
       "preventativeMaintenanceFrequencyTemplateNotFound": "Templat Penyelenggaraan Pencegahan tidak dijumpai",
       "preventativeMaintenanceFrequencyInvalidType": "Jenis frekuensi tidak sah",

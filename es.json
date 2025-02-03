@@ -1937,6 +1937,7 @@
       "preventativeFrequencyInvalidType": "Valor inválido para el tipo de frecuencia",
       "preventativeFrequencyDayWithInvalidFrequency": "Si el tipo de frecuencia es DÍA, la frecuencia debe ser mínimo 7 días",
       "preventativeFrequencyHasPreventativeFrequencyPart": "Los datos de las partes de frecuencia preventiva existen en el sistema para la Frecuencia Preventiva",
+      "preventativeFrequencyHasMaintenanceRecords":"No se puede eliminar esta frecuencia porque está vinculada a uno o más registros",
       "preventativeMaintenanceFrequencyTemplateIdOrMaintenanceIdNotFound": "Id de Plantilla de Mantenimiento Preventivo o Id de Mantenimiento no encontrado",
       "preventativeMaintenanceFrequencyTemplateNotFound": "Plantilla de Frecuencia de Mantenimiento Preventivo no encontrada",
       "preventativeMaintenanceFrequencyInvalidType": "Tipo de frecuencia inválido",
