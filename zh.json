@@ -18315,6 +18315,13 @@
             "plural": "",
             "setupEdit": false,
             "setupVisible": false
+          },
+          "dateOptions": {
+            "original": "Date Options",
+            "singular": "日期选项",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": false
           }
         },
         "validationFE": {
