@@ -18337,8 +18337,8 @@
             "setupVisible": false
           },
           "dateOptions": {
-            "original": "You can set the date of this Task template to either a specific number of days after the Job Order is created or match the Job Order Date. Selecting the 'Same as Job Order Date' checkbox will disable the Date Calculation field.",
-            "singular": "Puede establecer la fecha de esta plantilla de tarea en un número específico de días después de que se cree la Orden de Trabajo o hacer que coincida con la Fecha de la Orden de Trabajo. Seleccionar la casilla de verificación 'Igual que la Fecha de la Orden de Trabajo' desactivará el campo de Cálculo de Fechas.",
+            "original": "You can set the Task template date by choosing either the 'Date Calculation' option to set a number of days after the Job Order is created or have it match the Job Order Date by choosing 'Same as Job Order Date'.",
+            "singular": "Puede establecer la fecha de la plantilla de tarea eligiendo la opción ‘Cálculo de Fecha’ para definir un número de días después de la creación de la Orden de Trabajo, o hacer que coincida con la Fecha de la Orden de Trabajo seleccionando ‘Igual que la Fecha de la Orden de Trabajo’.",
             "plural": "",
             "setupEdit": false,
             "setupVisible": false

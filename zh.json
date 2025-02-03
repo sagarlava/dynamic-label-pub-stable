@@ -18337,8 +18337,8 @@
             "setupVisible": false
           },
           "dateOptions": {
-            "original": "You can set the date of this Task template to either a specific number of days after the Job Order is created or match the Job Order Date. Selecting the 'Same as Job Order Date' checkbox will disable the Date Calculation field.",
-            "singular": "您可以将此任务模板的日期设置为在工单创建后的特定天数，或与工单日期匹配。选中“与工单日期相同”复选框将禁用日期计算字段。",
+            "original": "You can set the Task template date by choosing either the 'Date Calculation' option to set a number of days after the Job Order is created or have it match the Job Order Date by choosing 'Same as Job Order Date'.",
+            "singular": "您可以通过选择‘日期计算’选项来设置任务模板日期，使其在工单创建后的特定天数，或通过选择‘与工单日期相同’来匹配工单日期。",
             "plural": "",
             "setupEdit": false,
             "setupVisible": false

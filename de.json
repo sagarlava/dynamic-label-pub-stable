@@ -18337,8 +18337,8 @@
             "setupVisible": false
           },
           "dateOptions": {
-            "original": "You can set the date of this Task template to either a specific number of days after the Job Order is created or match the Job Order Date. Selecting the 'Same as Job Order Date' checkbox will disable the Date Calculation field.",
-            "singular": "Sie können das Datum dieser Aufgaben-Vorlage entweder auf eine bestimmte Anzahl von Tagen nach Erstellung des Arbeitsauftrags festlegen oder es mit dem Datum des Arbeitsauftrags abgleichen. Wenn Sie das Kontrollkästchen 'Gleich wie Arbeitsauftragsdatum' auswählen, wird das Feld für die Datumsberechnung deaktiviert.",
+            "original": "You can set the Task template date by choosing either the 'Date Calculation' option to set a number of days after the Job Order is created or have it match the Job Order Date by choosing 'Same as Job Order Date'.",
+            "singular": "Sie können das Datum der Aufgaben-Vorlage festlegen, indem Sie entweder die Option ‚Datumsberechnung‘ wählen, um eine bestimmte Anzahl von Tagen nach Erstellung des Arbeitsauftrags festzulegen, oder die Option ‚Gleich wie Arbeitsauftragsdatum‘ auswählen, um das Datum anzugleichen.",
             "plural": "",
             "setupEdit": false,
             "setupVisible": false
