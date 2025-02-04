@@ -4463,6 +4463,7 @@
       "taskExternalCalendarIdExists": "A new Task External Calendar cannot already have an ID",
       "taskNoteIdExists": "A new Task Note cannot already have an ID",
       "taskNoteWithIdNotFound": "Invalid ID",
+      "taskNoteRequired":"Task note is required but not provided",
       "teamIdExists": "A new Team cannot already have an ID",
       "teamIdNotFound": "Id not found",
       "teamNotFound": "Team not found",

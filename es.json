@@ -4463,6 +4463,7 @@
       "taskExternalCalendarIdExists": "Un nuevo Calendario Externo de Tarea no puede tener ya un ID",
       "taskNoteIdExists": "Una nueva Nota de Tarea no puede tener ya un ID",
       "taskNoteWithIdNotFound": "ID inválido",
+      "taskNoteRequired":"Se requiere la nota de la tarea, pero no se ha proporcionado",
       "teamIdExists": "Un nuevo Equipo no puede tener ya un ID",
       "teamIdNotFound": "ID no encontrado",
       "teamNotFound": "Equipo no encontrado",

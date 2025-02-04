@@ -4463,6 +4463,7 @@
       "taskExternalCalendarIdExists": "新的任务外部日历不能已有ID",
       "taskNoteIdExists": "新的任务备注不能已有ID",
       "taskNoteWithIdNotFound": "无效的ID",
+      "taskNoteRequired":"任务备注是必需的，但未提供",
       "teamIdExists": "新的团队不能已有ID",
       "teamIdNotFound": "未找到ID",
       "teamNotFound": "未找到团队",
