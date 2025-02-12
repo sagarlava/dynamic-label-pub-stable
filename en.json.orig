@@ -1937,7 +1937,6 @@
       "preventativeFrequencyInvalidType": "Invalid value for frequency type",
       "preventativeFrequencyDayWithInvalidFrequency": "If the frequency type is DAY, the frequency must be minimum 7 days",
       "preventativeFrequencyHasPreventativeFrequencyPart": "Preventative Frequency Parts Data exists in the system for the Preventative Frequency",
-      "preventativeFrequencyHasMaintenanceRecords":"Cannot delete this frequency as it is linked to one or more records",
       "preventativeMaintenanceFrequencyTemplateIdOrMaintenanceIdNotFound": "Preventative Maintenance Template Id or Maintenance Id not found",
       "preventativeMaintenanceFrequencyTemplateNotFound": "Preventative Maintenance Template not found",
       "preventativeMaintenanceFrequencyInvalidType": "Invalid frequency type",
@@ -12437,13 +12436,6 @@
         "setupEdit": true,
         "setupVisible": false
       },
-      "decline": {
-        "original": "Decline",
-        "singular": "Decline",
-        "plural": "",
-        "setupEdit": true,
-        "setupVisible": false
-      },
       "unassigned": {
         "original": "Unassigned",
         "singular": "Unassigned",
@@ -21562,7 +21554,6 @@
       "setupTmplChecklistHasCircularFollowupCheckList": "Circular Followup CheckList Data exists in the system for the Checklist",
       "setupTmplChecklistHasFollowupCheckList": "Followup CheckList Data exists in the system for the Checklist",
       "setupTmplChecklistHasQuestions": "Question Data exists in the system for the Checklist",
-      "setupTmplChecklistUsedInFollowupCheckList":"This checklist is set as a followup checklist for another checklist",
       "setupTmplChecklistModelTypeNotFound": "Model or Type is required",
       "setupTmplJobOrderProductIdExists": "A new TmplJobOrderSparePart cannot already have an ID",
       "setupTmplJobOrderIdExists": "A new TmplJobOrder cannot already have an ID",
@@ -24746,6 +24737,7 @@
   "priceBook": {
     "setupVisible": false,
     "setupEdit": false,
+<<<<<<< HEAD
     "label": {
       "original": "Price Book",
       "singular": "Price Book", 
@@ -24753,6 +24745,11 @@
       "setupEdit": false,
       "setupVisible": false
     },
+    "sections": {},
+    "fields": {},
+    "validationFE": {},
+=======
+    "label": {},
     "sections": {
       "setupVisible": false,
       "setupEdit": false,
@@ -24864,6 +24861,7 @@
       "pleaseSelectProduct":"Please select a product.",
       "productAdded":"Product is already added"
     },
+>>>>>>> feature/add-fields-priceBook-rateCard
     "validationBE": {
       "priceBookStandardNotChangeable": "Cannot change the standard price book; set another as standard first",
       "priceBookNameExists": "Price Book Name already exists",
@@ -24905,6 +24903,7 @@
   "rateCard": {
     "setupVisible": false,
     "setupEdit": false,
+<<<<<<< HEAD
     "label": {
       "original": "Rate Card",
       "singular": "Rate Card", 
@@ -24912,6 +24911,11 @@
       "setupEdit": false,
       "setupVisible": false
     },
+    "sections": {},
+    "fields": {},
+    "validationFE": {},
+=======
+    "label": {},
     "sections": {
       "setupVisible": false,
       "setupEdit": false,
@@ -24987,6 +24991,7 @@
       "oneActiveRateCardPerContract":"Only one active rate card is allowed per contract",
       "pleaseEnterValueBetween":"Please enter a value between 1 and 59."
     },
+>>>>>>> feature/add-fields-priceBook-rateCard
     "validationBE": {
       "rateCardNotFound": "Rate Card not found",
       "rateCardContractEmpty": "Rate Card should have a contract",

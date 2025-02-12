@@ -12146,6 +12146,13 @@
         "plural": "",
         "setupEdit": true,
         "setupVisible": false
+      },
+      "addProduct":{
+        "original": "Add Spare Parts",
+        "singular": "Ersatzteil hinzufügen",
+        "plural": "Ersatzteile hinzufügen",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "status": {
@@ -12631,6 +12638,7 @@
       "searchAddress": "Adresse suchen",
       "confirmAction": "Sind Sie sicher?",
       "confirmDelete": "Sind Sie sicher, dass Sie löschen möchten",
+      "confirmRemove": "Sind Sie sicher, dass Sie entfernen möchten",
       "doYouWishToProceed": "Möchten Sie fortfahren?",
       "irreversibleAction": "Diese Aktion ist unwiderruflich.",
       "step1": "Schritt 1",
@@ -13405,6 +13413,13 @@
           "singular": "Wählen Sie ein Ticket aus der Liste",
           "plural": "",
           "setupEdit": true,
+          "setupVisible": false
+        },
+        "sec16": {
+          "original": "Select a Price Book from the list",
+          "singular": "Wählen Sie ein Preisbuch aus der Liste",
+          "plural": "",
+          "setupEdit": false,
           "setupVisible": false
         }
       },
@@ -24731,20 +24746,134 @@
   "priceBook": {
     "setupVisible": false,
     "setupEdit": false,
-    "label": {},
-    "sections": {},
-    "fields": {},
-    "validationFE": {},
+    "label": {
+      "original": "Price Book",
+      "singular": "Preisbuch", 
+      "plural": "Preisbücher",
+      "setupEdit": false,
+      "setupVisible": false
+    },
+    "sections": {
+      "setupVisible": false,
+      "setupEdit": false,
+      "sec0": {
+        "original": "General Details",
+        "singular": "Allgemeine Details",
+        "plural": "Allgemeine Details",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec1": {
+        "original": "Product Pricing",
+        "singular": "Produktpreise",
+        "plural": "Produktpreise",
+        "setupEdit": false,
+        "setupVisible": false
+      }
+    },
+    "fields": {
+      "setupVisible": false,
+      "setupEdit": false,
+      "priceBookName": {
+        "original": "Price Book Name",
+        "singular": "Preislistenname",
+        "plural": "Preislistennamen",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "priceBookNo": {
+        "original": "Price Book No.",
+        "singular": "Preislistennummer",
+        "plural": "Preislistennummern",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "status": {
+        "original": "Status",
+        "singular": "Status",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "description": {
+        "original": "Description",
+        "singular": "Beschreibung",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "orderType": {
+        "original": "Order Type",
+        "singular": "Bestellart",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "standardRate": {
+        "original": "Standard Rate",
+        "singular": "Standardrate",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sameAsStandardRate": {
+        "original": "Same as Standard Rate",
+        "singular": "Gleich wie Standardrate",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "contractPrice": {
+        "original": "Contract Price",
+        "singular": "Vertragspreis",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "defaultPriceBook": {
+        "original": "Default Price Book",
+        "singular": "Standard-Preisliste",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "standardPriceBook": {
+        "original": "Standard Price Book",
+        "singular": "Standardpreisbuch",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "productName": {
+        "original": "Spare Part Name",
+        "singular": "Ersatzteilname",
+        "plural": "Ersatzteilname",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sku": {
+        "original": "SKU",
+        "singular": "SKU",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      }
+    },
+    "validationFE": {
+      "contractPriceGreater":"Der Vertragspreis muss größer als 0 sein",
+      "pleaseSelectProduct":"Bitte wählen Sie ein Produkt aus.",
+      "productAdded":"Das Produkt wurde bereits hinzugefügt"
+    },
     "validationBE": {
       "priceBookStandardNotChangeable": "Das Standard-Preisbuch kann nicht geändert werden; legen Sie zuerst ein anderes als Standard fest",
       "priceBookNameExists": "Der Preisbuchname existiert bereits",
       "priceBookCodeExists": "Der Preisbuchcode existiert bereits",
       "priceBookCannotDeleteDueToProducts": "Dieses Preisbuch kann nicht gelöscht werden, da es mit einem oder mehreren Produkten verknüpft ist",
       "priceBookCannotDeleteDueToCustomers": "Dieses Preisbuch kann nicht gelöscht werden, da es mit einem oder mehreren Kunden verknüpft ist",
-      "priceBookCannotDeleteDueToContracts": "Dieses Preisbuch kann nicht gelöscht werden, da es mit einem oder mehreren Verträgen verknüpft ist",
-      "priceBookCannotDeleteDueToJobOrders": "Dieses Preisbuch kann nicht gelöscht werden, da es mit einem oder mehreren Arbeitsaufträgen verknüpft ist",
       "priceBookCannotDeleteDueToRateCards": "Dieses Preisbuch kann nicht gelöscht werden, da es mit einer oder mehreren Ratekarten verknüpft ist",
-      "priceBookCannotDeleteDueToStandard": "Dieses Preisbuch kann nicht gelöscht werden, da es das Standard-Preisbuch ist",
+      "priceBookCannotDeleteDueToStandard": "Löschen nicht möglich: Dies ist das Standard-Preisbuch", 
+      "priceBookCannotDeleteDueToContracts": "Löschen nicht möglich: Dieses Preisbuch ist derzeit mit aktiven Verträgen verknüpft. Bitte trennen Sie es von allen zugehörigen Verträgen, bevor Sie fortfahren", 
+      "priceBookCannotDeleteDueToJobOrders": "Löschen nicht möglich: Dieses Preisbuch ist derzeit mit einem Arbeitsauftrag verknüpft. Bitte trennen Sie es von allen zugehörigen Arbeitsaufträgen, bevor Sie fortfahren",
       "priceBookIdExists": "Ein neues Preisbuch kann nicht bereits eine ID haben",
       "priceBookConfigIdExists": "Eine neue Preisbuchkonfiguration kann nicht bereits eine ID haben",
       "priceBookNotFound": "Preisbuch nicht gefunden",
@@ -24757,26 +24886,129 @@
       "priceBookNameMandatory": "Der Name des Preisbuchs ist erforderlich",
       "priceBookProductEmptyList": "Die Liste der Preisbuchprodukte darf nicht leer sein",
       "priceBookProductDifferentPriceBooks": "Produkte können nicht gleichzeitig für verschiedene Preisbücher in großen Mengen hinzugefügt werden",
-      "priceBookContractMandatory": "Ein Vertrag ist erforderlich, wenn ein Preisbuch erstellt wird"
+      "priceBookContractMandatory": "Ein Vertrag ist erforderlich, wenn ein Preisbuch erstellt wird",
+      "PriceBookModificationsNotAllowedForStandard": "Standard-Preisbuch kann nicht geändert werden", 
+      "priceBookProductAlreadyAdded": "Produkt wurde bereits hinzugefügt", 
+      "priceBookStatusMandatory": "Preisbuchstatus ist obligatorisch", 
+      "PriceBookProductsModificationsNotAllowedForStandard": "Produkte des Standard-Preisbuchs können nicht geändert werden", 
+      "PriceBookProductsDeletionNotAllowedForStandard": "Produkte des Standard-Preisbuchs können nicht gelöscht werden"
     },
     "tooltips": {},
-    "messages": {}
+    "messages": {
+      "fromThisPriceBook":"aus diesem Preisbuch?",
+      "confirmPriceBookDeletion":"Bestätigen Sie das Löschen des Preisbuchs",
+      "confirmContractRemoval":"Bestätigen Sie die Entfernung des Vertrags",
+      "confirmRemovalPricing":"Bestätigen Sie die Entfernung der Produktpreise",
+      "areYouSureRemoveProduct":"Sind Sie sicher, dass Sie dieses Produkt entfernen möchten aus"
+    }
   },
   "rateCard": {
     "setupVisible": false,
     "setupEdit": false,
-    "label": {},
-    "sections": {},
-    "fields": {},
-    "validationFE": {},
+    "label": {
+      "original": "Rate Card",
+      "singular": "Ratekarte", 
+      "plural": "Ratekarten",
+      "setupEdit": false,
+      "setupVisible": false
+    },
+    "sections": {
+      "setupVisible": false,
+      "setupEdit": false,
+      "sec0": {
+        "original": "General Details",
+        "singular": "Allgemeine Details",
+        "plural": "Allgemeine Details",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec1": {
+        "original": "Calculation for this hourly rate",
+        "singular": "Berechnung für diesen Stundensatz",
+        "plural": "Berechnungen für diese Stundensätze",
+        "setupEdit": false,
+        "setupVisible": false
+      }
+    },
+    "fields": {
+      "setupVisible": false,
+      "setupEdit": false,
+      "rateCardNo": {
+        "original": "Rate Card No.",
+        "singular": "Tarifkartennummer",
+        "plural": "Tarifkartennummern",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "rateCardName": {
+        "original": "Rate Card Name",
+        "singular": "Name der Tarifkarte",
+        "plural": "Namen der Tarifkarten",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "fixedRate": {
+        "original": "Fixed Rate",
+        "singular": "Festpreis",
+        "plural": "Festpreise",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "firstHour": {
+        "original": "First Hour",
+        "singular": "Erste Stunde",
+        "plural": "Erste Stunde",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "subsequentHour": {
+        "original": "Subsequent Hour",
+        "singular": "Folgende Stunde",
+        "plural": "Folgende Stunden",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "status": {
+        "original": "Status",
+        "singular": "Status",
+        "plural": "Status",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "countOfMinutes": {
+        "original": "Count of Minutes",
+        "singular": "Anzahl der Minuten",
+        "plural": "Anzahlen der Minuten",
+        "setupEdit": false,
+        "setupVisible": false
+      }
+    },
+    "validationFE": {
+       "oneActiveRateCardPerContract":"Pro Vertrag ist nur eine aktive Tarifkarte erlaubt",
+       "pleaseEnterValueBetween":"Bitte geben Sie einen Wert zwischen 1 und 59 ein."
+    },
     "validationBE": {
       "rateCardNotFound": "Ratekarte  nicht gefunden",
       "rateCardContractEmpty": "Ratekarte sollte einen Vertrag haben",
       "rateCardIdMismatch": "Ratekarte-ID stimmt nicht überein",
       "rateCardContractNotFound": "Vertrag nicht gefunden",
-      "rateCardIdExists": "Eine neue Ratekarte kann nicht bereits eine ID haben"
+      "rateCardIdExists": "Eine neue Ratekarte kann nicht bereits eine ID haben",
+      "rateCardNameEmpty": "Der Name der Rate Card ist obligatorisch",
+      "rateCardFixedRateValueEmpty": "Ein fester Wert ist für die feste Rate Card erforderlich",
+      "rateCardVariableRatesEmpty": "Der Erststundensatz und der Folgestundensatz sind für die variable Rate Card erforderlich",
+      "rateCardRateRoundingOffMinutesNotValid": "Gültige Abrundungsminuten sind für die variable Rate Card erforderlich"
     },
-    "tooltips": {},
+    "tooltips": {
+      "setupVisible": false,
+      "setupEdit": false,
+      "minutesAdded": {
+        "original": "This minute added will be used as a calculation for the hours. For example, if you input 15 mins, if the duration of the job is less than 15 mins it will not calculate as an hour. If the duration of the job is more than 15 mins then it will be considered as an hour.",
+        "singular": "Diese hinzugefügte Minute wird zur Berechnung der Stunden verwendet. Zum Beispiel, wenn Sie 15 Minuten eingeben: Wenn die Dauer der Arbeit weniger als 15 Minuten beträgt, wird sie nicht als Stunde berechnet. Wenn die Dauer der Arbeit mehr als 15 Minuten beträgt, wird sie als eine Stunde angesehen.",
+        "plural": "Diese hinzugefügten Minuten werden zur Berechnung der Stunden verwendet. Zum Beispiel, wenn Sie 15 Minuten eingeben: Wenn die Dauer der Arbeit weniger als 15 Minuten beträgt, wird sie nicht als Stunde berechnet. Wenn die Dauer der Arbeit mehr als 15 Minuten beträgt, wird sie als eine Stunde angesehen.",
+        "setupEdit": false,
+        "setupVisible": false
+      }
+    },
     "messages": {}
   }
 }
