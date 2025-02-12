@@ -24720,8 +24720,13 @@
     "messages": {}
   },
   "priceBook": {
+<<<<<<< HEAD
     "setupVisible": false,
     "setupEdit": false,
+    "label": {},
+=======
+    "setupVisible": true,
+    "setupEdit": true,
     "label": {
       "original": "Price Book",
       "singular": "Price Book", 
@@ -24729,6 +24734,7 @@
       "setupEdit": false,
       "setupVisible": false
     },
+>>>>>>> feature/price-book-config
     "sections": {},
     "fields": {},
     "validationFE": {},
@@ -24765,8 +24771,13 @@
     "messages": {}
   },
   "rateCard": {
+<<<<<<< HEAD
     "setupVisible": false,
     "setupEdit": false,
+    "label": {},
+=======
+    "setupVisible": true,
+    "setupEdit": true,
     "label": {
       "original": "Rate Card",
       "singular": "Rate Card", 
@@ -24774,6 +24785,7 @@
       "setupEdit": false,
       "setupVisible": false
     },
+>>>>>>> feature/price-book-config
     "sections": {},
     "fields": {},
     "validationFE": {},
