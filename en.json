@@ -8612,7 +8612,8 @@
       "days":"day(s)",
       "hours":"hour(s)",
       "mins":"min(s)",
-      "startSLA":"Start SLA"
+      "startSLA":"Start SLA",
+      "removeSparePartsLinkedTask":"Do you want to remove all spare parts linked to this task from the Job Order?"
     }
   },
   "inventory": {
