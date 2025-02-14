@@ -8613,7 +8613,9 @@
       "hours": "hora(s)",
       "mins": "min(s)",
       "startSLA": "Iniciar SLA",
-      "removeSparePartsLinkedTask":"¿Desea eliminar todas las piezas de repuesto vinculadas a esta tarea de la orden de trabajo?"
+      "removeSparePartsLinkedTask":"¿Desea eliminar todas las piezas de repuesto vinculadas a esta tarea de la orden de trabajo?",
+      "listOfTask":"Lista de tareas",
+      "listOfSparePart":"Lista de repuestos"
     }
   },
   "inventory": {

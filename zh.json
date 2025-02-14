@@ -8613,7 +8613,9 @@
       "hours": "小时",
       "mins": "分钟",
       "startSLA": "启动SLA",
-      "removeSparePartsLinkedTask":"您是否要从工单中移除与此任务关联的所有备件？"
+      "removeSparePartsLinkedTask":"您是否要从工单中移除与此任务关联的所有备件？",
+      "listOfTask":"任务列表",
+      "listOfSparePart":"备件列表"
     }
   },
   "inventory": {

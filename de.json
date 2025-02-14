@@ -8613,7 +8613,9 @@
       "hours": "Stunde(n)",
       "mins": "Minute(n)",
       "startSLA": "SLA starten",
-      "removeSparePartsLinkedTask":"Möchten Sie alle mit dieser Aufgabe verknüpften Ersatzteile aus dem Arbeitsauftrag entfernen?"
+      "removeSparePartsLinkedTask":"Möchten Sie alle mit dieser Aufgabe verknüpften Ersatzteile aus dem Arbeitsauftrag entfernen?",
+      "listOfTask":"Aufgabenliste",
+      "listOfSparePart":"Ersatzteilliste"
     }
   },
   "inventory": {

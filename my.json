@@ -8613,7 +8613,9 @@
       "hours": "jam",
       "mins": "minit",
       "startSLA": "SLA Bermula",
-      "removeSparePartsLinkedTask":"Adakah anda mahu mengeluarkan semua alat ganti yang dipautkan kepada tugas ini daripada Pesanan Kerja?"
+      "removeSparePartsLinkedTask":"Adakah anda mahu mengeluarkan semua alat ganti yang dipautkan kepada tugas ini daripada Pesanan Kerja?",
+      "listOfTask":"Senarai Tugasan",
+      "listOfSparePart":"Senarai Alat Ganti"
     }
   },
   "inventory": {
