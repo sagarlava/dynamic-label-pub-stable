@@ -8617,7 +8617,9 @@
       "hours": "Stunde(n)",
       "mins": "Minute(n)",
       "startSLA": "SLA starten",
-      "removeSparePartsLinkedTask":"Möchten Sie alle mit dieser Aufgabe verknüpften Ersatzteile aus dem Arbeitsauftrag entfernen?"
+      "removeSparePartsLinkedTask":"Möchten Sie alle mit dieser Aufgabe verknüpften Ersatzteile aus dem Arbeitsauftrag entfernen?",
+      "listOfTask":"Aufgabenliste",
+      "listOfSparePart":"Ersatzteilliste"
     }
   },
   "inventory": {
@@ -12214,7 +12216,14 @@
         "plural": "Abschnitte hinzufügen",
         "setupEdit": false,
         "setupVisible": false
-      }
+      },
+      "groupView":{
+        "original": "Group View",
+        "singular": "Gruppenansicht",
+        "plural": "Gruppenansichten",
+        "setupEdit": false,
+        "setupVisible": false
+      }	
     },
     "status": {
       "setupVisible": false,
@@ -18868,7 +18877,8 @@
           }
         },
         "validationFE": {
-          "exceededLimit50Templates":"Sie haben das Limit von 50 aktiven Vorlagen überschritten. Setzen Sie den Status einer nicht verwendeten Vorlage auf „Inaktiv“, um eine weitere aktive Vorlage hinzuzufügen."
+          "exceededLimit50Templates":"Sie haben das Limit von 50 aktiven Vorlagen überschritten. Setzen Sie den Status einer nicht verwendeten Vorlage auf „Inaktiv“, um eine weitere aktive Vorlage hinzuzufügen.",
+          "itemExists":"Dieses Element existiert bereits in der Liste"
         },
         "tooltips": {
           "setupVisible": false,

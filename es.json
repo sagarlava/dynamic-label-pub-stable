@@ -8617,7 +8617,9 @@
       "hours": "hora(s)",
       "mins": "min(s)",
       "startSLA": "Iniciar SLA",
-      "removeSparePartsLinkedTask":"¿Desea eliminar todas las piezas de repuesto vinculadas a esta tarea de la orden de trabajo?"
+      "removeSparePartsLinkedTask":"¿Desea eliminar todas las piezas de repuesto vinculadas a esta tarea de la orden de trabajo?",
+      "listOfTask":"Lista de tareas",
+      "listOfSparePart":"Lista de repuestos"
     }
   },
   "inventory": {
@@ -12214,7 +12216,14 @@
         "plural": "Agregar Sección",
         "setupEdit": false,
         "setupVisible": false
-      }
+      },
+      "groupView":{
+        "original": "Group View",
+        "singular": "Vista de grupo",
+        "plural": "Vistas de grupo",
+        "setupEdit": false,
+        "setupVisible": false
+      }	
     },
     "status": {
       "setupVisible": false,
@@ -18868,7 +18877,8 @@
           }
         },
         "validationFE": {
-          "exceededLimit50Templates":"Ha excedido el límite de 50 plantillas activas. Establezca el estado de una plantilla no utilizada en “Inactivo” para agregar otra plantilla activa."
+          "exceededLimit50Templates":"Ha excedido el límite de 50 plantillas activas. Establezca el estado de una plantilla no utilizada en “Inactivo” para agregar otra plantilla activa.",
+          "itemExists":"Este elemento ya existe en la lista"
         },
         "tooltips": {
           "setupVisible": false,

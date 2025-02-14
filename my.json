@@ -8617,7 +8617,9 @@
       "hours": "jam",
       "mins": "minit",
       "startSLA": "SLA Bermula",
-      "removeSparePartsLinkedTask":"Adakah anda mahu mengeluarkan semua alat ganti yang dipautkan kepada tugas ini daripada Pesanan Kerja?"
+      "removeSparePartsLinkedTask":"Adakah anda mahu mengeluarkan semua alat ganti yang dipautkan kepada tugas ini daripada Pesanan Kerja?",
+      "listOfTask":"Senarai Tugasan",
+      "listOfSparePart":"Senarai Alat Ganti"
     }
   },
   "inventory": {
@@ -12214,7 +12216,14 @@
         "plural": "Tambah Bahagian",
         "setupEdit": false,
         "setupVisible": false
-      }
+      },
+      "groupView":{
+        "original": "Group View",
+        "singular": "Paparan Kumpulan",
+        "plural": "Paparan Kumpulan",
+        "setupEdit": false,
+        "setupVisible": false
+      }	
     },
     "status": {
       "setupVisible": true,
@@ -18868,7 +18877,8 @@
           }
         },
         "validationFE": {
-          "exceededLimit50Templates":"Anda telah melebihi had 50 templat aktif. Tetapkan status templat yang tidak digunakan kepada 'Tidak Aktif' untuk menambah templat aktif yang lain."
+          "exceededLimit50Templates":"Anda telah melebihi had 50 templat aktif. Tetapkan status templat yang tidak digunakan kepada 'Tidak Aktif' untuk menambah templat aktif yang lain.",
+          "itemExists":"Item ini sudah wujud dalam senarai"
         },
         "tooltips": {
           "setupVisible": false,

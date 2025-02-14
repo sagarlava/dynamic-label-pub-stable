@@ -8617,7 +8617,9 @@
       "hours":"hour(s)",
       "mins":"min(s)",
       "startSLA":"Start SLA",
-      "removeSparePartsLinkedTask":"Do you want to remove all spare parts linked to this task from the Job Order?"
+      "removeSparePartsLinkedTask":"Do you want to remove all spare parts linked to this task from the Job Order?",
+      "listOfTask":"List of Task(s)",
+      "listOfSparePart":"List of Spare Part(s)"
     }
   },
   "inventory": {
@@ -12214,7 +12216,14 @@
         "plural": "Add Sections",
         "setupEdit": false,
         "setupVisible": false
-      }
+      },
+      "groupView":{
+        "original": "Group View",
+        "singular": "Group View",
+        "plural": "Group View",
+        "setupEdit": false,
+        "setupVisible": false
+      }	
     },
     "status": {
       "setupVisible": false,
@@ -18868,7 +18877,8 @@
           }
         },
         "validationFE": {
-          "exceededLimit50Templates":"You have exceeded the limit of 50 active templates. Set the status of an unused template to “Inactive” to add another active template."
+          "exceededLimit50Templates":"You have exceeded the limit of 50 active templates. Set the status of an unused template to “Inactive” to add another active template.",
+          "itemExists":"This item already exists in the list"
         },
         "tooltips": {
           "setupVisible": false,
