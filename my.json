@@ -12168,7 +12168,14 @@
         "plural": "Tambah Alat Ganti",
         "setupEdit": false,
         "setupVisible": false
-      }
+      },
+      "groupView":{
+        "original": "Group View",
+        "singular": "Paparan Kumpulan",
+        "plural": "Paparan Kumpulan",
+        "setupEdit": false,
+        "setupVisible": false
+      }	
     },
     "status": {
       "setupVisible": true,

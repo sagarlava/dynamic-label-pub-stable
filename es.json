@@ -12168,7 +12168,14 @@
         "plural": "Agregar Repuestos",
         "setupEdit": false,
         "setupVisible": false
-      }
+      },
+      "groupView":{
+        "original": "Group View",
+        "singular": "Vista de grupo",
+        "plural": "Vistas de grupo",
+        "setupEdit": false,
+        "setupVisible": false
+      }	
     },
     "status": {
       "setupVisible": false,
