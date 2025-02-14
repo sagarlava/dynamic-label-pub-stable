@@ -18364,7 +18364,8 @@
           }
         },
         "validationFE": {
-          "exceededLimit50Templates":"Anda telah melebihi had 50 templat aktif. Tetapkan status templat yang tidak digunakan kepada 'Tidak Aktif' untuk menambah templat aktif yang lain."
+          "exceededLimit50Templates":"Anda telah melebihi had 50 templat aktif. Tetapkan status templat yang tidak digunakan kepada 'Tidak Aktif' untuk menambah templat aktif yang lain.",
+          "itemExists":"Item ini sudah wujud dalam senarai"
         },
         "tooltips": {
           "setupVisible": false,
