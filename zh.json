@@ -12159,6 +12159,13 @@
         "plural": "添加部分",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "addAPage":{
+        "original": "Add Page",
+        "singular": "添加页面",
+        "plural": "添加多个页面",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "status": {
