@@ -199,11 +199,11 @@
         "setupVisible": false
       },
       "terminalCount": {
-          "original": "Terminal Count",
-          "singular": "终端数量",
-          "plural": "终端数量",
-          "setupEdit": false,
-          "setupVisible": false
+        "original": "Terminal Count",
+        "singular": "终端数量",
+        "plural": "终端数量",
+        "setupEdit": false,
+        "setupVisible": false
       },
       "autoTieGeofence": {
         "original": "Auto-tie Geofence",
@@ -332,11 +332,11 @@
         "setupVisible": false
       },
       "orderName": {
-          "original": "Order Name",
-          "singular": "订单名称",
-          "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
+        "original": "Order Name",
+        "singular": "订单名称",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "validationFE": {},
@@ -564,6 +564,20 @@
     "fields": {
       "setupEdit": true,
       "setupVisible": true,
+      "category":{
+        "original": "Category",
+        "singular": "类别",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "subCategory":{
+        "original": "Sub Category",
+        "singular": "子类别",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
       "type": {
         "original": "Type",
         "singular": "类型",
@@ -610,15 +624,15 @@
         "original": "Asset Name",
         "singular": "资产名称",
         "plural": "",
-        "setupEdit": false,
-        "setupVisible": false
+        "setupEdit": true,
+        "setupVisible": true
       },
       "name": {
         "original": "Name",
         "singular": "名称",
         "plural": "",
-        "setupEdit": false,
-        "setupVisible": false
+        "setupEdit": true,
+        "setupVisible": true
       },
       "status": {
         "original": "Status",
@@ -955,20 +969,6 @@
         "plural": "",
         "setupEdit": false,
         "setupVisible": false
-      },
-      "category": {
-          "original": "Category",
-          "singular": "类别",
-          "plural": "",
-          "setupEdit": true,
-          "setupVisible": true
-      },
-      "subCategory": {
-          "original": "Sub Category",
-          "singular": "子类别",
-          "plural": "",
-          "setupEdit": true,
-          "setupVisible": true
       }
     },
     "validationFE": {},
@@ -1008,12 +1008,12 @@
       "assetCategoryExists": "资产类别已存在",
       "assetCategorySystemGenerated": "系统生成的资产类别不允许删除",
       "assetCategoryCannotDeleteByAssetSubCategory": "无法删除：资产类别在一个或多个资产子类别中使用",
-      "assetCategoryCannotDeleteByAssets": "无法删除：资产类别在一个或多个资产中使用",
-      "assetSubCategoryCannotDeleteByAssets": "无法删除：资产子类别在一个或多个资产中使用",
       "assetSubCategoryExists": "资产子类别已存在",
       "assetSubCategorySystemGenerated": "系统生成的资产子类别不允许删除",
       "assetCategoryIdExists": "新资产类别不能已经有ID",
-      "assetSubCategoryIdExists": "新资产子类别不能已经有ID"
+      "assetSubCategoryIdExists": "新资产子类别不能已经有ID",
+      "assetCategoryCannotDeleteByAssets":"无法删除：资产类别在一个或多个资产中使用",
+      "assetSubCategoryCannotDeleteByAssets":"无法删除：资产子类别在一个或多个资产中使用"
     },
     "tooltips": {
       "setupVisible": false,
@@ -1937,6 +1937,7 @@
       "preventativeFrequencyInvalidType": "频率类型无效",
       "preventativeFrequencyDayWithInvalidFrequency": "如果频率类型为天，频率必须至少为7天",
       "preventativeFrequencyHasPreventativeFrequencyPart": "系统中存在预防频率的预防频率部分数据",
+      "preventativeFrequencyHasMaintenanceRecords":"无法删除此频率，因为它与一个或多个记录相关联",
       "preventativeMaintenanceFrequencyTemplateIdOrMaintenanceIdNotFound": "找不到预防性维护模板ID或维护ID",
       "preventativeMaintenanceFrequencyTemplateNotFound": "找不到预防性维护模板",
       "preventativeMaintenanceFrequencyInvalidType": "频率类型无效",
@@ -2226,6 +2227,7 @@
     "validationBE": {
       "contractNotFound": "未找到合同",
       "contractHasMaintenance": "系统中存在合同的维护数据",
+      "contractCannotDeleteDueToRateCard":"无法删除合同：请先删除费率卡",
       "contractCustomerNotFound": "未找到合同客户",
       "contractStatusNotFound": "无效的合同状态",
       "contractAssetsNotFound": "未找到合同资产",
@@ -2235,7 +2237,8 @@
       "contractIdExists": "新合同不能已有ID",
       "contractPriceBookNotFound": "未找到合同价格手册",
       "contractPriceBookIdNotFound": "未找到合同价格手册ID",
-      "contractPriceBookUpdateFailed": "更新合同价格手册失败"
+      "contractPriceBookUpdateFailed": "更新合同价格手册失败",
+      "contractAssetsSerialNumberExists": "资产序列号已分配给重叠的活动合同"
     },
     "tooltips": {
       "setupVisible": false,
@@ -2575,6 +2578,20 @@
         "plural": "添加产品",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "sec14": {
+        "original": "Use the fields below to filter the Checklist(s) you'd like to add",
+        "singular": "使用以下字段过滤您想要添加的检查清单",
+        "plural": "使用以下字段过滤您想要添加的检查清单",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec15": {
+        "original": "Select the Checklist(s) you'd like to add to this Job Order",
+        "singular": "选择您想添加到此工单的检查清单",
+        "plural": "选择您想添加到此工单的检查清单",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "fields": {
@@ -2675,6 +2692,41 @@
         "original": "New Checklist to be Generated",
         "singular": "要生成的新清单",
         "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "jobOrderType": {
+        "original": "Job Order Type",
+        "singular": "工作单类型",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": false
+      },
+      "assetStatusBeforeChecklist": {
+        "original": "Asset status before checklist",
+        "singular": "检查表之前的资产状态",
+        "plural": "检查表之前的资产状态",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "assetStatusAfterChecklist": {
+        "original": "Asset status after checklist",
+        "singular":"检查表之后的资产状态",
+        "plural": "检查表之后的资产状态",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "equipmentMeterReadingBeforeChecklist": {
+        "original": "Equipment meter reading before checklist",
+        "singular": "检查表之前的设备仪表读数",
+        "plural": "检查表之前的设备仪表读数",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "equipmentMeterReadingAfterChecklist": {
+        "original": "Equipment meter reading after checklist",
+        "singular": "检查表之后的设备仪表读数",
+        "plural": "检查表之后的设备仪表读数",
         "setupEdit": false,
         "setupVisible": false
       }
@@ -4431,7 +4483,8 @@
       "teamSkillIdExists": "新的团队技能不能已有ID",
       "userTaskIdExists": "新的用户任务不能已有ID",
       "userTaskIdNotFound": "未找到ID",
-      "userTaskNotFound": "未找到用户任务"
+      "userTaskNotFound": "未找到用户任务",
+      "userNotAllowedToAssignTask": "用户不允许将成员添加到任务中"
     },
     "tooltips": {
       "setupVisible": false,
@@ -5755,7 +5808,7 @@
       "ticketTypeSystemGenerated": "系统生成的工单类型不允许删除",
       "ticketTypeIdExists": "新的工单类型不能已有ID",
       "slaTicketIdExists": "新的SLA工单不能已有ID",
-      "ticketDuplicateTicketCannotBeSameAsTicket": "重复票不能与原始票相同"
+      "ticketDuplicateTicketCannotBeSameAsTicket":"重复票不能与原始票相同" 
     },
     "tooltips": {
       "setupVisible": true,
@@ -8421,14 +8474,14 @@
         "singular": "资产型号",
         "plural": "",
         "setupEdit": false,
-      "setupVisible": false
+        "setupVisible": false
       },
       "charges": {
         "original": "Charges",
         "singular": "费用",
         "plural": "",
         "setupEdit": false,
-      "setupVisible": false
+        "setupVisible": false
       }
     },
     "validationFE": {
@@ -8558,425 +8611,425 @@
   },
   "inventory": {
     "setupEdit": false,
+    "setupVisible": false,
+    "label": {
+      "original": "Inventory",
+      "singular": "库存",
+      "plural": "库存",
+      "setupEdit": false,
+      "setupVisible": false
+    },
+    "sections": {
+      "setupEdit": false,
       "setupVisible": false,
-      "label": {
-        "original": "Inventory",
-        "singular": "库存",
-        "plural": "库存",
-          "setupEdit": false,
-          "setupVisible": false
-      },
-      "sections": {
+      "sec0": {
+        "original": "General Details",
+        "singular": "基本详情",
+        "plural": "",
         "setupEdit": false,
-          "setupVisible": false,
-        "sec0": {
-          "original": "General Details",
-          "singular": "基本详情",
-          "plural": "",
-            "setupEdit": false,
-            "setupVisible": false
-        },
-        "sec1": {
-          "original": "Inventory Details",
-          "singular": "库存详情",
-          "plural": "",
-            "setupEdit": false,
-            "setupVisible": false
-        },
-        "sec2": {
-          "original": "Spare Part available in other locations",
-          "singular": "其他位置的可用备件",
-          "plural": "",
-            "setupEdit": false,
-            "setupVisible": false
-        },
-        "sec3": {
-          "original": "Select where to check",
-          "singular": "选择检查位置",
-          "plural": "",
-            "setupEdit": false,
-            "setupVisible": false
-        },
-        "sec4": {
-          "original": "Select what to check",
-          "singular": "选择检查内容",
-          "plural": "",
-            "setupEdit": false,
-            "setupVisible": false
-        },
-        "sec5": {
-          "original": "Contact Details",
-          "singular": "联系详情",
-          "plural": "",
-            "setupEdit": false,
-            "setupVisible": false
-        },
-        "sec6": {
-          "original": "Bin Details",
-          "singular": "仓位详情",
-          "plural": "",
-            "setupEdit": false,
-            "setupVisible": false
-        },
-        "sec7": {
-          "original": "Transfer Details Spare Part",
-          "singular": "备件转移详情",
-          "plural": "",
-            "setupEdit": false,
-            "setupVisible": false
-        },
-        "sec8": {
-          "original": "Transfer Details",
-          "singular": "转移详情",
-          "plural": "",
-            "setupEdit": false,
-            "setupVisible": false
-        },
-        "sec9": {
-          "original": "Assignee Details",
-          "singular": "受托人详情",
-          "plural": "",
-            "setupEdit": false,
-            "setupVisible": false
-        },
-        "sec10": {
-          "original": "Transferred Items",
-          "singular": "已转移项目",
-          "plural": "",
-            "setupEdit": false,
-            "setupVisible": false
-        },
-        "sec11": {
-          "original": "Adjust an Asset",
-          "singular": "调整资产",
-          "plural": "",
-            "setupEdit": false,
-            "setupVisible": false
-        },
-        "sec12": {
-          "original": "Adjust a Spare Part",
-          "singular": "调整备件",
-          "plural": "",
-            "setupEdit": false,
-            "setupVisible": false
-        },
-        "sec13": {
-          "original": "Details",
-          "singular": "详情",
-          "plural": "",
-            "setupEdit": false,
-            "setupVisible": false
-        },
-        "sec14": {
-          "original": "Filter By",
-          "singular": "筛选条件",
-          "plural": "",
-            "setupEdit": false,
-            "setupVisible": false
-        },
-        "sec15": {
-          "original": "Adjust Inventory",
-          "singular": "调整库存",
-          "plural": "",
-            "setupEdit": false,
-            "setupVisible": false
-        },
-        "sec16": {
-          "original": "Check availability",
-          "singular": "检查可用性",
-          "plural": "",
-            "setupEdit": false,
-            "setupVisible": false
-        }
+        "setupVisible": false
       },
-      "fields": {
+      "sec1": {
+        "original": "Inventory Details",
+        "singular": "库存详情",
+        "plural": "",
         "setupEdit": false,
-          "setupVisible": false,
-        "binLocation": {
-          "original": "Bin Location",
-          "singular": "仓位位置",
-          "plural": "",
-            "setupEdit": false,
-            "setupVisible": false
-        },
-        "available": {
-          "original": "Available",
-          "singular": "可用",
-          "plural": "",
-            "setupEdit": false,
-            "setupVisible": false
-        },
-        "qtyIn": {
-          "original": "Quantity In",
-          "singular": "入库数量",
-          "plural": "",
-            "setupEdit": false,
-            "setupVisible": false
-        },
-        "qtyOut": {
-          "original": "Quantity Out",
-          "singular": "出库数量",
-          "plural": "",
-            "setupEdit": false,
-            "setupVisible": false
-        },
-        "adjusted": {
-          "original": "Adjusted",
-          "singular": "调整",
-          "plural": "",
-            "setupEdit": false,
-            "setupVisible": false
-        },
-        "reorderQty": {
-          "original": "Reorder Quantity",
-          "singular": "重新订购数量",
-          "plural": "",
-            "setupEdit": false,
-            "setupVisible": false
-        },
-        "understock": {
-          "original": "Understock",
-          "singular": "库存不足",
-          "plural": "",
-            "setupEdit": false,
-            "setupVisible": false
-        },
-        "note": {
-          "original": "Note",
-          "singular": "备注",
-          "plural": "备注",
-            "setupEdit": false,
-            "setupVisible": false
-        },
-        "inventoryNo": {
-          "original": "Inventory No",
-          "singular": "库存编号",
-          "plural": "",
-            "setupEdit": false,
-            "setupVisible": false
-        },
-        "qty": {
-          "original": "Qty",
-          "singular": "数量",
-          "plural": "",
-            "setupEdit": false,
-            "setupVisible": false
-        },
-        "qtyAvail": {
-          "original": "Qty Available",
-          "singular": "可用数量",
-          "plural": "",
-            "setupEdit": false,
-          "setupVisible": false
-        },
-        "qtyAvailable": {
-          "original": "Quantity Available",
-          "singular": "可用数量",
-          "plural": "",
-            "setupEdit": false,
-            "setupVisible": false
-        },
-        "qtyTransfer": {
-          "original": "Quantity to Transfer",
-          "singular": "转移数量",
-          "plural": "",
-            "setupEdit": false,
-            "setupVisible": false
-        },
-        "reorderPoint": {
-          "original": "Reorder Point",
-          "singular": "重新订购点",
-          "plural": "",
-            "setupEdit": false,
-            "setupVisible": false
-        },
-        "zone": {
-          "original": "Zone",
-          "singular": "区域",
-          "plural": "",
-            "setupEdit": false,
-            "setupVisible": false
-        },
-        "bin": {
-          "original": "Bin",
-          "singular": "仓位",
-          "plural": "",
-            "setupEdit": false,
-            "setupVisible": false
-        },
-        "fromBin": {
-          "original": "From Bin",
-          "singular": "源仓位",
-          "plural": "",
-            "setupEdit": false,
-            "setupVisible": false
-        },
-        "toBin": {
-          "original": "To Bin",
-          "singular": "目标仓位",
-          "plural": "",
-            "setupEdit": false,
-            "setupVisible": false
-        },
-        "displayName": {
-          "original": "Display Name",
-          "singular": "显示名称",
-          "plural": "",
-            "setupEdit": false,
-            "setupVisible": false
-        },
-        "userName": {
-          "original": "User Name",
-          "singular": "用户名",
-          "plural": "",
-            "setupEdit": false,
-            "setupVisible": false
-        },
-        "transferNo": {
-          "original": "Transfer No.",
-          "singular": "转移编号",
-          "plural": "",
-            "setupEdit": false,
-            "setupVisible": false
-        },
-        "date": {
-          "original": "Date",
-          "singular": "日期",
-          "plural": "",
-            "setupEdit": false,
-            "setupVisible": false
-        },
-        "referenceNumber": {
-          "original": "Reference Number",
-          "singular": "参考编号",
-          "plural": "",
-            "setupEdit": false,
-            "setupVisible": false
-        },
-        "type": {
-          "original": "Type",
-          "singular": "类型",
-          "plural": "",
-            "setupEdit": false,
-            "setupVisible": false
-        },
-        "transferredBy": {
-          "original": "Transferred By",
-          "singular": "转移者",
-          "plural": "",
-            "setupEdit": false,
-            "setupVisible": false
-        },
-        "assignedStatus": {
-          "original": "Assigned Status",
-          "singular": "分配状态",
-          "plural": "",
-            "setupEdit": false,
-            "setupVisible": false
-        },
-        "assignedTo": {
-          "original": "Assigned To",
-          "singular": "分配给",
-          "plural": "",
-            "setupEdit": false,
-            "setupVisible": false
-        },
-        "transferredDateTime": {
-          "original": "Transferred Date & Time",
-          "singular": "转移日期和时间",
-          "plural": "",
-            "setupEdit": false,
-            "setupVisible": false
-        },
-        "acceptRejectBy": {
-          "original": "Accepted/Rejected By",
-          "singular": "接受/拒绝者",
-          "plural": "",
-            "setupEdit": false,
-            "setupVisible": false
-        },
-        "remarks": {
-          "original": "Remarks",
-          "singular": "备注",
-          "plural": "备注",
-            "setupEdit": false,
-            "setupVisible": false
-        },
-        "assetType": {
-          "original": "Asset Type",
-          "singular": "资产类型",
-          "plural": "",
-            "setupEdit": false,
-            "setupVisible": false
-        },
-        "productType": {
-          "original": "Spare Part Type",
-          "singular": "备件类型",
-          "plural": "",
-            "setupEdit": false,
-            "setupVisible": false
-        },
-        "productFamily": {
-          "original": "Spare Part Family",
-          "singular": "备件系列",
-          "plural": "",
-            "setupEdit": false,
-            "setupVisible": false
-        },
-        "productName": {
-          "original": "Spare Part Name",
-          "singular": "备件名称",
-          "plural": "",
-            "setupEdit": false,
-          "setupVisible": false
-        },
-        "productSku": {
-          "original": "Spare Part SKU",
-          "singular": "备件SKU",
-          "plural": "",
-            "setupEdit": false,
-          "setupVisible": false
-        },
-        "assetName": {
-          "original": "Asset Name",
-          "singular": "资产名称",
-          "plural": "",
-            "setupEdit": false,
-          "setupVisible": false
-        }
+        "setupVisible": false
       },
-      "validationFE": {
-        "pleaseSelectOne": "请选择一个备件或一项资产"
+      "sec2": {
+        "original": "Spare Part available in other locations",
+        "singular": "其他位置的可用备件",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
       },
-      "validationBE": {
-        "inventoryIdExists": "新库存不能已经有一个ID",
-        "inventoryItemsNotFound": "未找到库存项目",
-        "inventoryBinNotFound": "未找到仓位",
-        "inventoryZoneNotFound": "未找到区域",
-        "inventoryLocationNotFound": "未找到位置",
-        "inventoryAssetsNotFound": "未找到资产",
-        "inventoryProductNotFound": "未找到备件",
-        "inventoryNotFound": "未找到库存",
-        "inventoryFilterRequired": "请选择至少一个筛选条件",
-        "inventoryStockInsufficient": "备件/资产库存不足",
-        "inventoryTableSetupNotFound": "未找到库存表格设置，请联系支持"
+      "sec3": {
+        "original": "Select where to check",
+        "singular": "选择检查位置",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
       },
-      "messages": {
-        "selectLocation": "选择位置",
-        "selectZone": "选择区域",
-        "selectBin": "选择仓位",
-        "selectUserBin": "选择用户仓位",
-        "searchProduct": "搜索备件",
-        "searchAsset": "搜索资产",
-        "selectType": "选择类型",
-        "selectFamily": "选择系列",
-        "pleaseSelectOneFilter": "请至少选择一个筛选条件",
-        "availableOtherLocations": "在其他位置可用",
-        "sameProductBinTransferNotAllowed": "您不允许在仓库转移中选择相同的备件",
-        "sameProductBinNotAllowed": "您不允许在仓库中选择相同的备件",
-        "sameAssetBinNotAllowed": "您不允许在仓库中选择相同的资产"
+      "sec4": {
+        "original": "Select what to check",
+        "singular": "选择检查内容",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec5": {
+        "original": "Contact Details",
+        "singular": "联系详情",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec6": {
+        "original": "Bin Details",
+        "singular": "仓位详情",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec7": {
+        "original": "Transfer Details Spare Part",
+        "singular": "备件转移详情",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec8": {
+        "original": "Transfer Details",
+        "singular": "转移详情",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec9": {
+        "original": "Assignee Details",
+        "singular": "受托人详情",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec10": {
+        "original": "Transferred Items",
+        "singular": "已转移项目",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec11": {
+        "original": "Adjust an Asset",
+        "singular": "调整资产",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec12": {
+        "original": "Adjust a Spare Part",
+        "singular": "调整备件",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec13": {
+        "original": "Details",
+        "singular": "详情",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec14": {
+        "original": "Filter By",
+        "singular": "筛选条件",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec15": {
+        "original": "Adjust Inventory",
+        "singular": "调整库存",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec16": {
+        "original": "Check availability",
+        "singular": "检查可用性",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
+    "fields": {
+      "setupEdit": false,
+      "setupVisible": false,
+      "binLocation": {
+        "original": "Bin Location",
+        "singular": "仓位位置",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "available": {
+        "original": "Available",
+        "singular": "可用",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "qtyIn": {
+        "original": "Quantity In",
+        "singular": "入库数量",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "qtyOut": {
+        "original": "Quantity Out",
+        "singular": "出库数量",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "adjusted": {
+        "original": "Adjusted",
+        "singular": "调整",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "reorderQty": {
+        "original": "Reorder Quantity",
+        "singular": "重新订购数量",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "understock": {
+        "original": "Understock",
+        "singular": "库存不足",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "note": {
+        "original": "Note",
+        "singular": "备注",
+        "plural": "备注",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "inventoryNo": {
+        "original": "Inventory No",
+        "singular": "库存编号",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "qty": {
+        "original": "Qty",
+        "singular": "数量",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "qtyAvail": {
+        "original": "Qty Available",
+        "singular": "可用数量",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "qtyAvailable": {
+        "original": "Quantity Available",
+        "singular": "可用数量",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "qtyTransfer": {
+        "original": "Quantity to Transfer",
+        "singular": "转移数量",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "reorderPoint": {
+        "original": "Reorder Point",
+        "singular": "重新订购点",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "zone": {
+        "original": "Zone",
+        "singular": "区域",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "bin": {
+        "original": "Bin",
+        "singular": "仓位",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "fromBin": {
+        "original": "From Bin",
+        "singular": "源仓位",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "toBin": {
+        "original": "To Bin",
+        "singular": "目标仓位",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "displayName": {
+        "original": "Display Name",
+        "singular": "显示名称",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "userName": {
+        "original": "User Name",
+        "singular": "用户名",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "transferNo": {
+        "original": "Transfer No.",
+        "singular": "转移编号",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "date": {
+        "original": "Date",
+        "singular": "日期",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "referenceNumber": {
+        "original": "Reference Number",
+        "singular": "参考编号",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "type": {
+        "original": "Type",
+        "singular": "类型",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "transferredBy": {
+        "original": "Transferred By",
+        "singular": "转移者",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "assignedStatus": {
+        "original": "Assigned Status",
+        "singular": "分配状态",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "assignedTo": {
+        "original": "Assigned To",
+        "singular": "分配给",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "transferredDateTime": {
+        "original": "Transferred Date & Time",
+        "singular": "转移日期和时间",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "acceptRejectBy": {
+        "original": "Accepted/Rejected By",
+        "singular": "接受/拒绝者",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "remarks": {
+        "original": "Remarks",
+        "singular": "备注",
+        "plural": "备注",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "assetType": {
+        "original": "Asset Type",
+        "singular": "资产类型",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "productType": {
+        "original": "Spare Part Type",
+        "singular": "备件类型",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "productFamily": {
+        "original": "Spare Part Family",
+        "singular": "备件系列",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "productName": {
+        "original": "Spare Part Name",
+        "singular": "备件名称",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "productSku": {
+        "original": "Spare Part SKU",
+        "singular": "备件SKU",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "assetName": {
+        "original": "Asset Name",
+        "singular": "资产名称",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      }
+    },
+    "validationFE": {
+      "pleaseSelectOne": "请选择一个备件或一项资产"
+    },
+    "validationBE": {
+      "inventoryIdExists": "新库存不能已经有一个ID",
+      "inventoryItemsNotFound": "未找到库存项目",
+      "inventoryBinNotFound": "未找到仓位",
+      "inventoryZoneNotFound": "未找到区域",
+      "inventoryLocationNotFound": "未找到位置",
+      "inventoryAssetsNotFound": "未找到资产",
+      "inventoryProductNotFound": "未找到备件",
+      "inventoryNotFound": "未找到库存",
+      "inventoryFilterRequired": "请选择至少一个筛选条件",
+      "inventoryStockInsufficient": "备件/资产库存不足",
+      "inventoryTableSetupNotFound": "未找到库存表格设置，请联系支持"
+    },
+    "messages": {
+      "selectLocation": "选择位置",
+      "selectZone": "选择区域",
+      "selectBin": "选择仓位",
+      "selectUserBin": "选择用户仓位",
+      "searchProduct": "搜索备件",
+      "searchAsset": "搜索资产",
+      "selectType": "选择类型",
+      "selectFamily": "选择系列",
+      "pleaseSelectOneFilter": "请至少选择一个筛选条件",
+      "availableOtherLocations": "在其他位置可用",
+      "sameProductBinTransferNotAllowed": "您不允许在仓库转移中选择相同的备件",
+      "sameProductBinNotAllowed": "您不允许在仓库中选择相同的备件",
+      "sameAssetBinNotAllowed": "您不允许在仓库中选择相同的资产"
+    }
+  },
   "bin": {
     "setupVisible": false,
     "label": {
@@ -10630,13 +10683,17 @@
       "invalidFileTypeExclamation": "无效的文件类型！",
       "allowedFileSize": "文件大小应小于25MB",
       "allowedFileSizeKb": "文件大小应小于100KB",
+      "allowedFileSize500Kb": "文件大小应小于500KB",
       "allowedFileSizeOnly": "文件大小应小于",
       "cannotFindFile": "无法找到文件名和文件类型",
       "pdfNotAvailable": "抱歉！PDF不可用",
       "invalidFileType": "无效的文件类型。 只能上传图像文件（.jpg、.png、.svg 等）。",
       "onlyAllowVisualFiles": "仅允许大小不超过100kb的图像文件，支持的格式：PNG和JPG/JPEG",
       "maxUploadFileSize": "最大上传文件大小为 25MB",
-      "fileExtension": "仅允许扩展名为 *.pdf, *.docx, *.jpg 的文件"
+      "fileExtension": "仅允许扩展名为 *.pdf, *.docx, *.jpg 的文件",
+      "fileTypeUnsupported":"此文件类型不受支持。请选择其他文件。",
+      "allowedFileSize4MB":"文件大小超过4MB限制。请上传较小的文件。",
+      "onlyAcceptImagesExt":"仅接受 JPG、JPEG 和 PNG"
     }
   },
   "history": {
@@ -12090,6 +12147,13 @@
         "plural": "",
         "setupEdit": true,
         "setupVisible": false
+      },
+      "addProduct":{
+        "original": "Add Spare Parts",
+        "singular": "添加备件",
+        "plural": "添加备件",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "status": {
@@ -12374,6 +12438,13 @@
         "setupEdit": true,
         "setupVisible": false
       },
+      "decline": {
+        "original": "Decline",
+        "singular": "拒绝",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": false
+      },
       "unassigned": {
         "original": "Unassigned",
         "singular": "未分配",
@@ -12568,6 +12639,7 @@
       "searchAddress": "搜索地址",
       "confirmAction": "你确定吗？",
       "confirmDelete": "你确定要删除",
+      "confirmRemove": "您确定要删除吗",
       "doYouWishToProceed": "您是否希望继续？",
       "irreversibleAction": "此操作不可撤销。",
       "step1": "步骤 1",
@@ -13343,6 +13415,13 @@
           "plural": "",
           "setupEdit": true,
           "setupVisible": false
+        },
+        "sec19": {
+          "original": "Select a Price Book from the list",
+          "singular": "从列表中选择一个价格簿",
+          "plural": "",
+          "setupEdit": false,
+          "setupVisible": false
         }
       },
       "fields": {
@@ -13669,14 +13748,14 @@
           "sec2": {
             "original": "Module Permission",
             "singular": "模块权限",
-            "plural": "",
+            "plural": "模块权限",
             "setupEdit": true,
             "setupVisible": false
           },
           "sec3": {
             "original": "Picklist Permission",
             "singular": "选择列表权限",
-            "plural": "",
+            "plural": "选择列表权限",
             "setupEdit": true,
             "setupVisible": false
           },
@@ -13730,10 +13809,10 @@
             "setupVisible": false
           },
           "sec11": {
-            "original": "Device Enablement",
-            "singular": "设备启用",
+            "original": "Device Permissions",
+            "singular": "设备权限",
             "plural": "",
-            "setupEdit": true,
+            "setupEdit": false,
             "setupVisible": false
           },
           "sec12": {
@@ -13770,6 +13849,20 @@
             "plural": "克隆分配",
             "setupEdit": true,
             "setupVisible": false
+          },
+          "sec17": {
+            "original": "Allowed to Access Web App",
+            "singular": "允许访问网页应用",
+            "plural": "允许访问网页应用",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec18": {
+            "original": "Allowed to Access Mobile App",
+            "singular": "允许访问移动应用",
+            "plural": "允许访问移动应用",
+            "setupEdit": false,
+            "setupVisible": false
           }
         },
         "fields": {
@@ -13796,29 +13889,29 @@
             "setupVisible": false
           },
           "web": {
-            "original": "Web",
-            "singular": "网页",
-            "plural": "",
-            "setupEdit": true,
+            "original": "Allowed to Access Web App",
+            "singular": "允许访问网页应用",
+            "plural": "允许访问网页应用",
+            "setupEdit": false,
             "setupVisible": false
           },
           "loginWeb": {
-            "original": "User is able to login from the web",
-            "singular": "用户可以从网页登录",
+            "original": "Users with this access can use the web app",
+            "singular": "具有此权限的用户可以使用网页应用",
             "plural": "",
             "setupEdit": true,
             "setupVisible": false
           },
           "mobile": {
-            "original": "Mobile Access",
-            "singular": "移动访问",
-            "plural": "",
-            "setupEdit": true,
+            "original": "Allowed to Access Mobile App",
+            "singular": "允许访问移动应用",
+            "plural": "允许访问移动应用",
+            "setupEdit": false,
             "setupVisible": false
           },
           "loginMobile": {
-            "original": "User is able to login via the mobile application",
-            "singular": "用户可以通过移动应用程序登录",
+            "original": "Users with this access can use the mobile app",
+            "singular": "具有此权限的用户可以使用移动应用",
             "plural": "",
             "setupEdit": true,
             "setupVisible": false
@@ -13838,17 +13931,17 @@
             "setupVisible": false
           },
           "allowViewSalesOrdPrice": {
-            "original": "Allow View Sales Order Price",
+            "original": "Allowed to View Sales Order Price",
             "singular": "允许查看销售订单价格",
             "plural": "",
-            "setupEdit": true,
+            "setupEdit": false,
             "setupVisible": false
           },
           "allowAssignTask": {
-            "original": "Allow to Assign Task",
+            "original": "Allowed to Assign Task",
             "singular": "允许分配任务",
             "plural": "",
-            "setupEdit": true,
+            "setupEdit": false,
             "setupVisible": false
           },
           "allowAssignShift": {
@@ -13873,8 +13966,8 @@
             "setupVisible": false
           },
           "helpdeskUser": {
-            "original": "Helpdesk user",
-            "singular": "帮助台用户",
+            "original": "Is a Helpdesk User",
+            "singular": "是帮助台用户",
             "plural": "",
             "setupEdit": true,
             "setupVisible": false
@@ -13887,8 +13980,8 @@
             "setupVisible": false
           },
           "binUser": {
-            "original": "Bin User",
-            "singular": "用户",
+            "original": "Is a Bin User",
+            "singular": "是垃圾箱用户",
             "plural": "",
             "setupEdit": true,
             "setupVisible": false
@@ -14030,17 +14123,17 @@
         "descriptions": {
           "setupVisible": false,
           "userWithAccessAssignTask": {
-            "original": "Users with this access are able to assign tasks",
-            "singular": "具有此访问权限的用户可以分配任务",
+            "original": "Users with this access can assign Tasks",
+            "singular": "具有此权限的用户可以分配任务",
             "plural": "",
-            "setupEdit": true,
+            "setupEdit": false,
             "setupVisible": false
           },
           "userWithAccessViewPricing": {
-            "original": "Users with this access are able to view pricing details for Sales Orders",
-            "singular": "具有此访问权限的用户可以查看销售订单的定价详情",
+            "original": "Users with this access can view pricing details for Sales Orders",
+            "singular": "具有此权限的用户可以查看销售订单的定价详细信息",
             "plural": "",
-            "setupEdit": true,
+            "setupEdit": false,
             "setupVisible": false
           },
           "userWithAccessAssignShift": {
@@ -14058,31 +14151,31 @@
             "setupVisible": false
           },
           "userWithAccessCreateModifyTix": {
-            "original": "Users with this access are able to create and modify tickets as well as view the Helpdesk module",
-            "singular": "具有此访问权限的用户可以创建和修改票据以及查看帮助台模块",
+            "original": "Users with this access can create and modify tickets as well as view Helpdesk Module",
+            "singular": "具有此权限的用户可以创建和修改票据，并查看帮助台模块",
             "plural": "",
-            "setupEdit": true,
+            "setupEdit": false,
             "setupVisible": false
           },
           "leaveUncheckedMarkOnline": {
-            "original": "Leave unchecked to always be marked as 'Online' by default",
-            "singular": "保持未选中状态，以默认标记为“在线”",
+            "original": "If not selected, user will always be marked as 'Online' by default",
+            "singular": "如果未选择，用户默认始终会被标记为“在线”",
             "plural": "",
-            "setupEdit": true,
+            "setupEdit": false,
             "setupVisible": false
           },
           "userBinTransferReceiveProd": {
-            "original": "A 'User Bin' may be created for users with this access to transfer and receive Assets and Products",
-            "singular": "可以为具有此访问权限的用户创建“用户仓”以转移和接收资产和备件",
+            "original": "A 'User Bin' is created for users with this access to transfer and receive Assets and Spare Parts",
+            "singular": "为具有此权限的用户创建一个“用户仓”以转移和接收资产及备件",
             "plural": "",
             "setupEdit": true,
             "setupVisible": false
           },
           "leaveRequestAutoApprove": {
-            "original": "Leave requests will be automatically approved for users with this access",
-            "singular": "具有此访问权限的用户的请假请求将自动批准",
+            "original": "Users with this access have their leave requests automatically approved",
+            "singular": "具有此权限的用户其请假请求会被自动批准",
             "plural": "",
-            "setupEdit": true,
+            "setupEdit": false,
             "setupVisible": false
           },
           "allowUserSendViewSurvey": {
@@ -14146,6 +14239,20 @@
             "singular": "将向经理发送电子邮件通知，告知他们用户已在其指定的工作时间内手动从在线切换为离线",
             "plural": "",
             "setupEdit": true,
+            "setupVisible": false
+          },
+          "usersCanUseWebApp": {
+            "original": "Users with this access can use the web app",
+            "singular": "具有此权限的用户可以使用网页应用",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "usersCanUseMobileApp": {
+            "original": "Users with this access can use the mobile app",
+            "singular": "具有此权限的用户可以使用移动应用",
+            "plural": "",
+            "setupEdit": false,
             "setupVisible": false
           }
         },
@@ -15369,8 +15476,8 @@
             "setupVisible": false
           },
           "userInField": {
-            "original": "User in Field",
-            "singular": "现场用户",
+            "original": "User Field",
+            "singular": "用户字段",
             "plural": "",
             "setupEdit": true,
             "setupVisible": false
@@ -15412,7 +15519,7 @@
           },
           "emailInField": {
             "original": "Email in Field",
-            "singular": "字段中的电子邮件",
+            "singular": "电子邮件字段",
             "plural": "",
             "setupEdit": false,
             "setupVisible": false
@@ -15426,6 +15533,13 @@
             "singular": "当用户点击通知时，它应该带他们去哪里？",
             "plural": "",
             "setupEdit": true,
+            "setupVisible": false
+          },
+          "separateEmail": {
+            "original": "Separate multiple email addresses with commas",
+            "singular": "用逗号分隔多个电子邮件地址",
+            "plural": "",
+            "setupEdit": false,
             "setupVisible": false
           }
         },
@@ -15442,6 +15556,7 @@
           "makeKeyDataBold": "使关键信息加粗。",
           "createEmailTemplate": "创建电子邮件模板。",
           "selectModule": "选择模块",
+          "selectTemplate":"选择模板",
           "selectGroup": "选择组",
           "selectUserInField": "选择现场用户",
           "testEmailSentSuccessfully": "测试电子邮件发送成功",
@@ -18554,6 +18669,13 @@
           "plural": "",
           "setupEdit": true,
           "setupVisible": false
+        },
+        "sec15": {
+          "original": "Specify the details of the Job Orders this Checklist is for. Job Orders matching the below values will trigger this Checklist.", 
+          "singular": "指定此检查清单适用的工单详细信息。符合以下值的工单将触发此检查清单。",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
         }
       },
       "fields": {
@@ -18676,6 +18798,13 @@
           "plural": "",
           "setupEdit": true,
           "setupVisible": false
+        },
+        "whenWillChecklistPrompted": {
+          "original": "When Will Checklist be Prompted?",
+          "singular": "何时会提示检查清单?",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
         }
       },
       "tooltips": {
@@ -18700,7 +18829,10 @@
         "selectAssetTypes": "选择资产类型",
         "selectServiceZone": "选择服务区域域",
         "selectEquipmentType": "选择设备类型",
-        "checklistName": "清单名称"
+        "checklistName": "清单名称",
+        "previousFileOverwritten":"您确定要上传新文件吗？之前的文件将被覆盖。此操作无法撤销。",
+        "fileTypeUnsupported":"此文件类型不受支持。请选择其他文件。",
+        "exceedFileSizeSmall":"文件大小超过4MB限制。请上传较小的文件。"
       }
     },
     "department": {
@@ -18872,6 +19004,34 @@
           "plural": "",
           "setupEdit": true,
           "setupVisible": false
+        },
+        "photo": {
+          "original": "Photo",
+          "singular": "照片",
+          "plural": "",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "answerType": {
+          "original": "Answer Type",
+          "singular": "答案类型",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "from": {
+          "original": "From",
+          "singular": "从",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "to": {
+          "original": "To",
+          "singular": "到",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
         }
       },
       "validationFE": {},
@@ -18901,6 +19061,20 @@
         "aJobOrderGeneratedSelectedTemplate": {
           "original": "A Job Order and it's associated Tasks and Products will be generated from the selected template if the answer is submitted",
           "singular": "如果提交答案，将从选定的模板生成工作订单及其相关任务和备件",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "chooseTextOrNumber": {
+          "original": "This choice sets the format for the Answer fields in the Answers section. Choose 'Text' for word answers or 'Number' for number range answers.",
+          "singular": "此选项设置答案部分中答案字段的格式。选择“文本”以输入文字答案，或选择“数字”以输入数字范围答案。",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "enterRangeOfNumbers": {
+          "original": "Enter the range of numbers that act as a threshold in the From and To fields. If the values fall within this range, the selected Job Order Template will be triggered. Note that the 'To' value must be equal to or greater than the 'From' value.",
+          "singular": "输入充当“从”和“到”字段阈值的数字范围。如果值在此范围内，则会触发所选的工单模板。请注意，“到”值必须等于或大于“从”值。",
           "plural": "",
           "setupEdit": true,
           "setupVisible": false
@@ -20669,11 +20843,11 @@
           "setupVisible": false
         },
         "sec24": {
-            "original": "Now, define what actions the workflow should take when triggered. You can choose to send notifications via email, display in-app messages, or perform other actions based on the conditions you've set. This step ensures that the right actions are taken automatically when the workflow runs.",
-            "singular": "现在，定义工作流程在触发时应执行的操作。您可以选择通过电子邮件发送通知、显示应用内消息，或根据您设置的条件执行其他操作。此步骤确保在工作流程运行时自动执行正确的操作。",
-            "plural": "",
-            "setupEdit": false,
-            "setupVisible": false
+          "original": "Now, define what actions the workflow should take when triggered. You can choose to send notifications via email, display in-app messages, or perform other actions based on the conditions you've set. This step ensures that the right actions are taken automatically when the workflow runs.",
+          "singular": "现在，定义工作流程在触发时应执行的操作。您可以选择通过电子邮件发送通知、显示应用内消息，或根据您设置的条件执行其他操作。此步骤确保在工作流程运行时自动执行正确的操作。",
+          "plural": "",
+          "setupEdit": false,
+          "setupVisible": false
         }
       },
       "fields": {
@@ -20748,7 +20922,7 @@
           "setupEdit": true,
           "setupVisible": false
         },
-      "workflowDetails": {
+        "workflowDetails": {
           "original": "Workflow Details",
           "singular": "工作流程详情",
           "plural": "工作流程详情",
@@ -20764,15 +20938,15 @@
         "emailNotificationsDesc": "设计包含字段值的自定义电子邮件模板，以通知FieldEx用户或外部联系人。",
         "whetherRemindersCustomer": "无论是提醒、客户更新还是团队警报，工作流程使保持联系变得简单而有效。",
         "useThisPageToCreateNewWorkflows": "使用此页面创建新工作流或管理您已设置的工作流。",
-        "triggerWhenNewRecordCreated": "当添加新记录并满足设置的条件时，将触发工作流。",
-        "triggerWhenUpdatedFirstTime": "当首次对记录进行更改并满足指定条件时，将触发工作流。",
-        "triggerWhenRecordUpdatedEverytime": "每次对记录进行更改并满足指定条件时，将触发工作流。",
+        "triggerWhenNewRecordCreated": "当添加新记录且满足设定条件时，工作流程将被触发。",
+        "triggerWhenUpdatedFirstTime": "工作流程将在第一次更改记录且满足指定条件时触发。",
+        "triggerWhenRecordUpdatedEverytime": "每次更改记录且满足指定条件时，工作流程都会被触发。",
         "triggerWhenRecordDeleted": "此选项将在记录删除时触发工作流。",
         "selectStatus": "选择状态",
         "selectAttribute": "选择属性",
         "selectOperator": "选择运算符",
         "noConditionsAvailable": "点击 '添加/编辑条件' 按钮以设置启动此工作流的规则。",
-        "noWorkflowActionsAvailable": "尚未添加任何操作。单击“添加电子邮件通知”或“添加应用程序通知”以创建一个。",
+        "noWorkflowActionsAvailable": "尚未添加任何操作。点击 '添加通知' 来创建一个。",
         "addExistingNotification": "选择通知",
         "pleaseSelectOneTriggerEvent": "请至少选择一个触发事件",
         "ascending": "升序",
@@ -20808,7 +20982,33 @@
         "orPartGivesFlexibility": "OR部分给您灵活性：",
         "andPartIsStrict": "AND部分是严格的：",
         "onlyOneThingNeedsToHappen": "该组中的一件事需要发生。",
-        "everythingInGroupMustHappen": "该组中的所有事情都必须发生。"
+        "everythingInGroupMustHappen": "该组中的所有事情都必须发生。",
+        "workflowHasNotBegun":"未指定开始触发器。",
+        "clickHereToAdd":"点击此处添加。",
+        "noOfRules":"规则数量",
+        "activeWorkflow":"活动工作流:",
+        "equalTo":"等于",
+        "equalToEmpty":"等于 ' '",
+        "notEqualTo":"不等于",
+        "notEqualToEmpty":"不等于 ' '",
+        "contains":"包含",
+        "startsWith":"以...开始",
+        "endsWith":"以...结束",
+        "isGreaterThan":"大于",
+        "isGreaterThanOrEqualTo":"大于或等于",
+        "isLessThan":"小于",
+        "isLessThanOrEqualTo":"小于或等于",
+        "today":"今天",
+        "yesterday":"昨天",
+        "tomorrow":"明天",
+        "thisWeek":"本周",
+        "lastWeek":"上周",
+        "nextWeek":"下周",
+        "thisMonth":"本月",
+        "lastMonth":"上个月",
+        "nextMonth":"下个月",
+        "thisYear":"今年",
+        "addDays":"添加天数"
       }
     },
     "templates": {
@@ -20932,7 +21132,11 @@
           "addAHeaderFooterImage": "添加页眉/页脚图片",
           "copyFieldsToAutoFillWithFieldExData": "复制字段以使用 FieldEx 数据自动填写",
           "addAButton": "添加一个按钮",
-          "addATable": "添加一个表格"
+          "addATable": "添加一个表格",
+          "fileSizeRestriction":"文件大小限制",
+          "acceptedFileFormats":"接受的文件格式",
+          "maxAllowedIs100Kb":"允许的最大文件大小为100kb。",
+          "onlyImgFormat":"仅支持JPEG、JPG和PNG格式"
         },
         "settings": {
           "label": {
@@ -21149,8 +21353,9 @@
             "firstSelectSettings": "首先在“设置”选项卡中选择一个模块以开始构建电子邮件",
             "includeButtonInEmail": "在电子邮件中包含一个按钮",
             "includeTableInEmail": "在电子邮件中包含一个表格",
-            "selectFieldFilter": "表格应按以下内容筛选...",
+            "selectFieldFilter": "按...筛选",
             "selectModule": "选择模块",
+            "selectTemplate":"选择模板",
             "selectSortBy": "表格应按以下内容排序...",
             "maximumFiveColumnsAdded": "最多可以添加 5 列"
           }
@@ -21358,6 +21563,7 @@
       "setupTmplChecklistHasCircularFollowupCheckList": "系统中存在检查表的循环跟进检查表数据",
       "setupTmplChecklistHasFollowupCheckList": "系统中存在检查表的跟进检查表数据",
       "setupTmplChecklistHasQuestions": "系统中存在检查表的问题数据",
+      "setupTmplChecklistUsedInFollowupCheckList":"此检查表已被设置为另一个检查表的后续检查表",
       "setupTmplChecklistModelTypeNotFound": "需要型号或类型",
       "setupTmplJobOrderProductIdExists": "新TmplJobOrderProduct不能已有ID",
       "setupTmplJobOrderIdExists": "新TmplJobOrder不能已有ID",
@@ -21385,9 +21591,13 @@
       "setupUserShiftNotFound": "未找到用户班次",
       "setupZoneHasInventoryNotAllowedChangeLocation": "有库存时无法更改区域位置",
       "setupWorkflowDeleteAlertInUse":"通知已在一个或多个工作流中使用",
-       "setupWorkflowIdValuesRequired":"工作流ID值是必需的",
-       "setupWorkflowLinkedToNotifications":"工作流已分配通知。请先删除它们",
-       "setupWorkflowMaxAllowedCount":"已达到最大活动工作流数量"
+      "setupWorkflowIdValuesRequired":"工作流ID值是必需的",
+      "setupWorkflowLinkedToNotifications":"工作流已分配通知。请先删除它们",
+      "setupWorkflowMaxAllowedCount":"已达到最大活动工作流数量",
+      "setupWorkflowMaxActionsPerWorkflow": "已达到每个工作流程的最大操作次数",
+      "setupWorkflowEmailsMax": "已达到工作流通知允许的最大电子邮件地址数量",
+      "setupWorkflowEmailUserMax": "已达到工作流通知允许的最大用户数量",
+      "setupWorkflowEmailUserGroupMax": "已达到工作流通知允许的最大用户数量"
     },
     "labelBE": {
       "profileTableColumnSetup": {
@@ -21412,7 +21622,7 @@
               "customers": "客户",
               "sales_order": "销售订单",
               "job_order": "工作订单",
-              "products": "产品",
+              "products": "备件",
               "teams": "团队",
               "tasks": "任务",
               "customer_payment": "客户付款",
@@ -21425,10 +21635,10 @@
               "packages": "包裹",
               "vehicles": "车辆",
               "assets": "资产",
-              "assets_contracts": "资产合同",
-              "scheduled_maintenance": "计划维护",
+              "assets_contracts": "合同",
+              "scheduled_maintenance": "预防性维护",
               "inventory": "库存",
-              "tickets": "票务",
+              "tickets": "票据",
               "project": "项目",
               "site": "现场",
               "checklists": "清单",
@@ -21444,7 +21654,7 @@
         "adminSettingsFeatures": {
           "feature": {
             "name": {
-              "manage_org_detail": "管理组织详情",
+              "manage_org_detail": "管理一般详情",
               "manage_users": "管理用户",
               "manage_hierarchy": "管理层级",
               "manage_access": "管理访问权限",
@@ -24486,6 +24696,34 @@
         "plural": "",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "assetStatusBeforeChecklist": {
+        "original": "Asset status before checklist",
+        "singular": "Asset status before checklist",
+        "plural": "Asset status before checklist",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "assetStatusAfterChecklist": {
+        "original": "Asset status after checklist",
+        "singular":"Asset status after checklist",
+        "plural": "Asset status after checklist",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "equipmentMeterReadingBeforeChecklist": {
+        "original": "Equipment meter reading before checklist",
+        "singular": "Equipment meter reading before checklist",
+        "plural": "Equipment meter reading before checklist",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "equipmentMeterReadingAfterChecklist": {
+        "original": "Equipment meter reading after checklist",
+        "singular": "Equipment meter reading after checklist",
+        "plural": "Equipment meter reading after checklist",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "validationFE": {},
@@ -24507,8 +24745,8 @@
     "messages": {}
   },
   "priceBook": {
-    "setupVisible": true,
-    "setupEdit": true,
+    "setupVisible": false,
+    "setupEdit": false,
     "label": {
       "original": "Price Book",
       "singular": "价格表", 
@@ -24516,9 +24754,117 @@
       "setupEdit": false,
       "setupVisible": false
     },
-    "sections": {},
-    "fields": {},
-    "validationFE": {},
+    "sections": {
+      "setupVisible": false,
+      "setupEdit": false,
+      "sec0": {
+        "original": "General Details",
+        "singular": "基本信息",
+        "plural": "基本信息",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec1": {
+        "original": "Product Pricing",
+        "singular": "产品定价",
+        "plural": "产品定价",
+        "setupEdit": false,
+        "setupVisible": false
+      }
+    },
+    "fields": {
+      "setupVisible": false,
+      "setupEdit": false,
+      "priceBookName": {
+        "original": "Price Book Name",
+        "singular": "价格书名称",
+        "plural": "价格书名称",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "priceBookNo": {
+        "original": "Price Book No.",
+        "singular": "价格书编号",
+        "plural": "价格书编号",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "status": {
+        "original": "Status",
+        "singular": "状态",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "description": {
+        "original": "Description",
+        "singular": "描述",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "orderType": {
+        "original": "Order Type",
+        "singular": "订单类型",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "standardRate": {
+        "original": "Standard Rate",
+        "singular": "标准费率",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sameAsStandardRate": {
+        "original": "Same as Standard Rate",
+        "singular": "与标准费率相同",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "contractPrice": {
+        "original": "Contract Price",
+        "singular": "合同价格",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "defaultPriceBook": {
+        "original": "Default Price Book",
+        "singular": "默认价格书",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "standardPriceBook": {
+        "original": "Standard Price Book",
+        "singular": "标准价格书",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "productName": {
+        "original": "Spare Part Name",
+        "singular": "备件名称",
+        "plural": "备件名称",
+        "setupEdit": false,
+        "setupVisible": true
+      },
+      "sku": {
+        "original": "SKU",
+        "singular": "SKU",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      }
+    },
+    "validationFE": {
+      "contractPriceGreater":"合同价格必须大于0",
+      "pleaseSelectProduct":"请选择一个产品。",
+      "productAdded":"产品已添加"
+    },
     "validationBE": {
       "priceBookStandardNotChangeable": "标准价格书无法更改；请先将其他价格书设为标准",
       "priceBookNameExists": "价格手册名称已经存在",
@@ -24549,11 +24895,17 @@
       "PriceBookProductsDeletionNotAllowedForStandard": "标准价格表产品无法删除"
     },
     "tooltips": {},
-    "messages": {}
+    "messages": {
+      "fromThisPriceBook":"从此价格书中?",
+      "confirmPriceBookDeletion":"确认删除价格书",
+      "confirmContractRemoval":"确认移除合同",
+      "confirmRemovalPricing":"确认移除产品定价",
+      "areYouSureRemoveProduct":"您确定要将此产品移除吗？从"
+    }
   },
   "rateCard": {
-    "setupVisible": true,
-    "setupEdit": true,
+    "setupVisible": false,
+    "setupEdit": false,
     "label": {
       "original": "Rate Card",
       "singular": "费率卡", 
@@ -24561,9 +24913,81 @@
       "setupEdit": false,
       "setupVisible": false
     },
-    "sections": {},
-    "fields": {},
-    "validationFE": {},
+    "sections": {
+      "setupVisible": false,
+      "setupEdit": false,
+      "sec0": {
+        "original": "General Details",
+        "singular": "基本信息",
+        "plural": "基本信息",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec1": {
+        "original": "Calculation for this hourly rate",
+        "singular": "此小时费率的计算",
+        "plural": "此小时费率的计算",
+        "setupEdit": false,
+        "setupVisible": false
+      }
+    },
+    "fields": {
+      "setupVisible": false,
+      "setupEdit": false,
+      "rateCardNo": {
+        "original": "Rate Card No.",
+        "singular": "费率卡编号",
+        "plural": "费率卡编号",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "rateCardName": {
+        "original": "Rate Card Name",
+        "singular": "费率卡名称",
+        "plural": "费率卡名称",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "fixedRate": {
+        "original": "Fixed Rate",
+        "singular": "固定费率",
+        "plural": "固定费率",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "firstHour": {
+        "original": "First Hour",
+        "singular": "第一小时",
+        "plural": "第一小时",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "subsequentHour": {
+        "original": "Subsequent Hour",
+        "singular": "后续小时",
+        "plural": "后续小时",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "status": {
+        "original": "Status",
+        "singular": "状态",
+        "plural": "状态",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "countOfMinutes": {
+        "original": "Count of Minutes",
+        "singular": "分钟计数",
+        "plural": "分钟计数",
+        "setupEdit": false,
+        "setupVisible": false
+      }
+    },
+    "validationFE": {
+       "oneActiveRateCardPerContract":"每个合同只允许一个活跃费率卡",
+       "pleaseEnterValueBetween":"请输入1到59之间的值。"
+    },
     "validationBE": {
       "rateCardNotFound": "未找到费率卡",
       "rateCardContractEmpty": "费率卡必须有一个合同",
@@ -24575,7 +24999,17 @@
       "rateCardVariableRatesEmpty": "可变费率卡需要第一小时费率和后续小时费率",
       "rateCardRateRoundingOffMinutesNotValid": "可变费率卡需要有效的舍入分钟"
     },
-    "tooltips": {},
+    "tooltips": {
+      "setupVisible": false,
+      "setupEdit": false,
+      "minutesAdded": {
+        "original": "This minute added will be used as a calculation for the hours. For example, if you input 15 mins, if the duration of the job is less than 15 mins it will not calculate as an hour. If the duration of the job is more than 15 mins then it will be considered as an hour.",
+        "singular": "添加的分钟将用于小时的计算。例如，如果您输入 15 分钟，如果工作的持续时间少于 15 分钟，则不会计算为一小时。如果工作的持续时间超过 15 分钟，则将其视为一小时。",
+        "plural": "添加的分钟将用于小时的计算。例如，如果您输入 15 分钟，如果工作的持续时间少于 15 分钟，则不会计算为一小时。如果工作的持续时间超过 15 分钟，则将其视为一小时。",
+        "setupEdit": false,
+        "setupVisible": false
+      }
+    },
     "messages": {}
   }
 }
