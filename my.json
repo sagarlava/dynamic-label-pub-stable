@@ -2227,6 +2227,7 @@
     "validationBE": {
       "contractNotFound": "Kontrak tidak dijumpai",
       "contractHasMaintenance": "Data Penyelenggaraan wujud dalam sistem untuk Kontrak",
+      "contractCannotDeleteDueToRateCard":"Tidak dapat memadam kontrak: Padamkan kad kadar terlebih dahulu",
       "contractCustomerNotFound": "Pelanggan Kontrak tidak dijumpai",
       "contractStatusNotFound": "Status Kontrak tidak sah",
       "contractAssetsNotFound": "Aset Kontrak tidak dijumpai",
