@@ -2227,6 +2227,7 @@
     "validationBE": {
       "contractNotFound": "未找到合同",
       "contractHasMaintenance": "系统中存在合同的维护数据",
+      "contractCannotDeleteDueToRateCard":"无法删除合同：请先删除费率卡",
       "contractCustomerNotFound": "未找到合同客户",
       "contractStatusNotFound": "无效的合同状态",
       "contractAssetsNotFound": "未找到合同资产",

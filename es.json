@@ -2227,6 +2227,7 @@
     "validationBE": {
       "contractNotFound": "Contrato no encontrado",
       "contractHasMaintenance": "Los datos de mantenimiento existen en el sistema para el contrato",
+      "contractCannotDeleteDueToRateCard":"No se puede eliminar el contrato: Elimine primero la tarjeta de tarifas",
       "contractCustomerNotFound": "Cliente del contrato no encontrado",
       "contractStatusNotFound": "Estado del contrato no válido",
       "contractAssetsNotFound": "Activos del contrato no encontrados",

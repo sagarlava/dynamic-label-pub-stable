@@ -2227,6 +2227,7 @@
     "validationBE": {
       "contractNotFound": "Contract not found",
       "contractHasMaintenance": "Maintenance Data exists in the system for the Contract",
+      "contractCannotDeleteDueToRateCard":"Cannot delete contract: Delete the rate card first",
       "contractCustomerNotFound": "Contract Customer not found",
       "contractStatusNotFound": "Invalid Contract status",
       "contractAssetsNotFound": "Contract Assets not found",
