@@ -12223,7 +12223,14 @@
         "plural": "Group View",
         "setupEdit": false,
         "setupVisible": false
-      }	
+      },
+      "addAPage":{
+        "original": "Add Page",
+        "singular": "Add Page",
+        "plural": "Add Pages",
+        "setupEdit": false,
+        "setupVisible": false
+      }
     },
     "status": {
       "setupVisible": false,
@@ -16491,7 +16498,9 @@
           "fieldCreationForms":"Field Creation for Forms",
           "howDoICreateForm":"How do I create forms?",
           "howDoICreateSubform":"How do I create subforms?",
-          "howDoICreateFIeld":"How do I create fields?"
+          "howDoICreateFIeld":"How do I create fields?",
+          "checkFormatNumber":"Check 'Format Number' to allow decimal values for this field, then enter the required 'Decimal Places' (max 6 places).",
+          "addFieldHere":"Add a field here"
         }
       },
       "artificialIntelligence":{

@@ -12223,6 +12223,13 @@
         "plural": "Vistas de grupo",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "addAPage":{
+        "original": "Add Page",
+        "singular": "Agregar página",
+        "plural": "Agregar páginas",
+        "setupEdit": false,
+        "setupVisible": false
       }	
     },
     "status": {
@@ -16491,7 +16498,9 @@
           "fieldCreationForms":"Creación de Campos para Formularios",
           "howDoICreateForm":"¿Cómo creo formularios?",
           "howDoICreateSubform":"¿Cómo creo subformularios?",
-          "howDoICreateFIeld":"¿Cómo creo campos?"
+          "howDoICreateFIeld":"¿Cómo creo campos?",
+          "checkFormatNumber":"Marque 'Formato de número' para permitir valores decimales en este campo y luego ingrese las 'Posiciones decimales' requeridas (máximo 6 posiciones).",
+          "addFieldHere":"Agregar un campo aquí"
         }
       },
       "artificialIntelligence":{
