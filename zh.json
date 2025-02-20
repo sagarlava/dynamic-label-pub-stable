@@ -2227,6 +2227,7 @@
     "validationBE": {
       "contractNotFound": "未找到合同",
       "contractHasMaintenance": "系统中存在合同的维护数据",
+      "contractCannotDeleteDueToRateCard":"无法删除合同：请先删除费率卡",
       "contractCustomerNotFound": "未找到合同客户",
       "contractStatusNotFound": "无效的合同状态",
       "contractAssetsNotFound": "未找到合同资产",
@@ -12174,6 +12175,13 @@
         "plural": "",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "addProduct":{
+        "original": "Add Spare Parts",
+        "singular": "添加备件",
+        "plural": "添加备件",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "status": {
@@ -12659,6 +12667,7 @@
       "searchAddress": "搜索地址",
       "confirmAction": "你确定吗？",
       "confirmDelete": "你确定要删除",
+      "confirmRemove": "您确定要删除吗",
       "doYouWishToProceed": "您是否希望继续？",
       "irreversibleAction": "此操作不可撤销。",
       "step1": "步骤 1",
@@ -13433,6 +13442,13 @@
           "singular": "从列表中选择票",
           "plural": "",
           "setupEdit": true,
+          "setupVisible": false
+        },
+        "sec19": {
+          "original": "Select a Price Book from the list",
+          "singular": "从列表中选择一个价格簿",
+          "plural": "",
+          "setupEdit": false,
           "setupVisible": false
         }
       },
@@ -21535,6 +21551,11 @@
       "setupAssetsStatusIdExists": "新资产状态不能已有ID",
       "setupAssetsStatusSystemGenerated": "不允许删除系统生成的资产状态",
       "setupAssetsStatusNameExists": "名称已存在",
+      "setupAssetsStatusHasChecklistRecord": "资产状态与一个或多个检查清单记录相关联，因此无法删除",
+      "setupAssetsStatusHasAssets": "资产状态与一个或多个资产相关联，因此无法删除",
+      "setupAssetsTypeSystemGenerated": "系统生成的资产类型不允许删除",
+      "setupAssetsTypeHasAssets": "资产类型与一个或多个资产相关联，因此无法删除",
+      "setupAssetsTypeHasTemplateChecklist": "资产类型与一个或多个模板检查清单相关联，因此无法删除",
       "setupCustomerConfigIdExists": "新客户配置不能已有ID",
       "setupCustomerConfigIdNotFound": "未找到ID",
       "setupCategoryTypeIdExists": "新类别类型不能已有ID",
@@ -24914,20 +24935,134 @@
   "priceBook": {
     "setupVisible": false,
     "setupEdit": false,
-    "label": {},
-    "sections": {},
-    "fields": {},
-    "validationFE": {},
+    "label": {
+      "original": "Price Book",
+      "singular": "价格表", 
+      "plural": "价格表",
+      "setupEdit": false,
+      "setupVisible": false
+    },
+    "sections": {
+      "setupVisible": false,
+      "setupEdit": false,
+      "sec0": {
+        "original": "General Details",
+        "singular": "基本信息",
+        "plural": "基本信息",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec1": {
+        "original": "Product Pricing",
+        "singular": "产品定价",
+        "plural": "产品定价",
+        "setupEdit": false,
+        "setupVisible": false
+      }
+    },
+    "fields": {
+      "setupVisible": false,
+      "setupEdit": false,
+      "priceBookName": {
+        "original": "Price Book Name",
+        "singular": "价格书名称",
+        "plural": "价格书名称",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "priceBookNo": {
+        "original": "Price Book No.",
+        "singular": "价格书编号",
+        "plural": "价格书编号",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "status": {
+        "original": "Status",
+        "singular": "状态",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "description": {
+        "original": "Description",
+        "singular": "描述",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "orderType": {
+        "original": "Order Type",
+        "singular": "订单类型",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "standardRate": {
+        "original": "Standard Rate",
+        "singular": "标准费率",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sameAsStandardRate": {
+        "original": "Same as Standard Rate",
+        "singular": "与标准费率相同",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "contractPrice": {
+        "original": "Contract Price",
+        "singular": "合同价格",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "defaultPriceBook": {
+        "original": "Default Price Book",
+        "singular": "默认价格书",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "standardPriceBook": {
+        "original": "Standard Price Book",
+        "singular": "标准价格书",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "productName": {
+        "original": "Spare Part Name",
+        "singular": "备件名称",
+        "plural": "备件名称",
+        "setupEdit": false,
+        "setupVisible": true
+      },
+      "sku": {
+        "original": "SKU",
+        "singular": "SKU",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      }
+    },
+    "validationFE": {
+      "contractPriceGreater":"合同价格必须大于0",
+      "pleaseSelectProduct":"请选择一个产品。",
+      "productAdded":"产品已添加"
+    },
     "validationBE": {
       "priceBookStandardNotChangeable": "标准价格书无法更改；请先将其他价格书设为标准",
       "priceBookNameExists": "价格手册名称已经存在",
       "priceBookCodeExists": "价格手册代码已经存在",
       "priceBookCannotDeleteDueToProducts": "此价格手册无法删除，因为它与一个或多个产品相关联",
       "priceBookCannotDeleteDueToCustomers": "此价格手册无法删除，因为它与一个或多个客户相关联",
-      "priceBookCannotDeleteDueToContracts": "此价格手册无法删除，因为它与一个或多个合同相关联",
-      "priceBookCannotDeleteDueToJobOrders": "此价格手册无法删除，因为它与一个或多个工作订单相关联",
       "priceBookCannotDeleteDueToRateCards": "此价格手册无法删除，因为它与一个或多个费率卡相关联",
-      "priceBookCannotDeleteDueToStandard": "该价格书无法删除，因为它是标准的",
+      "priceBookCannotDeleteDueToStandard": "无法删除：这是标准价格表", 
+      "priceBookCannotDeleteDueToContracts": "无法删除：该价格表当前链接到有效合同。请先取消与所有相关合同的链接，然后再删除", 
+      "priceBookCannotDeleteDueToJobOrders": "无法删除：该价格表当前链接到工作订单。请先取消与所有相关工作订单的链接，然后再删除",
       "priceBookIdExists": "新的价格手册不能已经有ID",
       "priceBookConfigIdExists": "新的价格手册配置不能已经有ID",
       "priceBookNotFound": "未找到价格手册",
@@ -24940,26 +25075,129 @@
       "priceBookNameMandatory": "价格书名称是必填的",
       "priceBookProductEmptyList": "价格书产品列表不能为空",
       "priceBookProductDifferentPriceBooks": "无法一次性批量添加不同价格书的产品",
-      "priceBookContractMandatory": "创建价格书时合同是必填项"
+      "priceBookContractMandatory": "创建价格书时合同是必填项",
+      "PriceBookModificationsNotAllowedForStandard": "标准价格表无法修改", 
+      "priceBookProductAlreadyAdded": "产品已添加", 
+      "priceBookStatusMandatory": "价格表状态为必填项", 
+      "PriceBookProductsModificationsNotAllowedForStandard": "标准价格表产品无法修改", 
+      "PriceBookProductsDeletionNotAllowedForStandard": "标准价格表产品无法删除"
     },
     "tooltips": {},
-    "messages": {}
+    "messages": {
+      "fromThisPriceBook":"从此价格书中?",
+      "confirmPriceBookDeletion":"确认删除价格书",
+      "confirmContractRemoval":"确认移除合同",
+      "confirmRemovalPricing":"确认移除产品定价",
+      "areYouSureRemoveProduct":"您确定要将此产品移除吗？从"
+    }
   },
   "rateCard": {
     "setupVisible": false,
     "setupEdit": false,
-    "label": {},
-    "sections": {},
-    "fields": {},
-    "validationFE": {},
+    "label": {
+      "original": "Rate Card",
+      "singular": "费率卡", 
+      "plural": "费率卡",
+      "setupEdit": false,
+      "setupVisible": false
+    },
+    "sections": {
+      "setupVisible": false,
+      "setupEdit": false,
+      "sec0": {
+        "original": "General Details",
+        "singular": "基本信息",
+        "plural": "基本信息",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec1": {
+        "original": "Calculation for this hourly rate",
+        "singular": "此小时费率的计算",
+        "plural": "此小时费率的计算",
+        "setupEdit": false,
+        "setupVisible": false
+      }
+    },
+    "fields": {
+      "setupVisible": false,
+      "setupEdit": false,
+      "rateCardNo": {
+        "original": "Rate Card No.",
+        "singular": "费率卡编号",
+        "plural": "费率卡编号",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "rateCardName": {
+        "original": "Rate Card Name",
+        "singular": "费率卡名称",
+        "plural": "费率卡名称",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "fixedRate": {
+        "original": "Fixed Rate",
+        "singular": "固定费率",
+        "plural": "固定费率",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "firstHour": {
+        "original": "First Hour",
+        "singular": "第一小时",
+        "plural": "第一小时",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "subsequentHour": {
+        "original": "Subsequent Hour",
+        "singular": "后续小时",
+        "plural": "后续小时",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "status": {
+        "original": "Status",
+        "singular": "状态",
+        "plural": "状态",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "countOfMinutes": {
+        "original": "Count of Minutes",
+        "singular": "分钟计数",
+        "plural": "分钟计数",
+        "setupEdit": false,
+        "setupVisible": false
+      }
+    },
+    "validationFE": {
+       "oneActiveRateCardPerContract":"每个合同只允许一个活跃费率卡",
+       "pleaseEnterValueBetween":"请输入1到59之间的值。"
+    },
     "validationBE": {
       "rateCardNotFound": "未找到费率卡",
       "rateCardContractEmpty": "费率卡必须有一个合同",
       "rateCardIdMismatch": "费率卡ID不匹配",
       "rateCardContractNotFound": "未找到合同",
-      "rateCardIdExists": "新的费率卡不能已经有ID"
+      "rateCardIdExists": "新的费率卡不能已经有ID",
+      "rateCardNameEmpty": "费率卡名称为必填项",
+      "rateCardFixedRateValueEmpty": "固定费率卡需要固定值",
+      "rateCardVariableRatesEmpty": "可变费率卡需要第一小时费率和后续小时费率",
+      "rateCardRateRoundingOffMinutesNotValid": "可变费率卡需要有效的舍入分钟"
     },
-    "tooltips": {},
+    "tooltips": {
+      "setupVisible": false,
+      "setupEdit": false,
+      "minutesAdded": {
+        "original": "This minute added will be used as a calculation for the hours. For example, if you input 15 mins, if the duration of the job is less than 15 mins it will not calculate as an hour. If the duration of the job is more than 15 mins then it will be considered as an hour.",
+        "singular": "添加的分钟将用于小时的计算。例如，如果您输入 15 分钟，如果工作的持续时间少于 15 分钟，则不会计算为一小时。如果工作的持续时间超过 15 分钟，则将其视为一小时。",
+        "plural": "添加的分钟将用于小时的计算。例如，如果您输入 15 分钟，如果工作的持续时间少于 15 分钟，则不会计算为一小时。如果工作的持续时间超过 15 分钟，则将其视为一小时。",
+        "setupEdit": false,
+        "setupVisible": false
+      }
+    },
     "messages": {}
   }
 }
