@@ -6224,6 +6224,13 @@
         "plural": "",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "sec54": {
+        "original": "Task and Spare Part Details",
+        "singular": "Butiran Tugasan dan Alat Ganti",
+        "plural": "Butiran Tugasan dan Alat Ganti",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "fields": {
@@ -8606,7 +8613,10 @@
       "days": "hari",
       "hours": "jam",
       "mins": "minit",
-      "startSLA": "SLA Bermula"
+      "startSLA": "SLA Bermula",
+      "removeSparePartsLinkedTask":"Adakah anda mahu mengeluarkan semua alat ganti yang dipautkan kepada tugas ini daripada Pesanan Kerja?",
+      "listOfTask":"Senarai Tugasan",
+      "listOfSparePart":"Senarai Alat Ganti"
     }
   },
   "inventory": {
@@ -12151,13 +12161,27 @@
         "setupEdit": true,
         "setupVisible": false
       },
+      "createViaTemplate":{
+        "original": "Create via Template",
+        "singular": "Cipta melalui Templat",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
       "addProduct":{
         "original": "Add Spare Parts",
         "singular": "Tambah Alat Ganti",
         "plural": "Tambah Alat Ganti",
         "setupEdit": false,
         "setupVisible": false
-      }
+      },
+      "groupView":{
+        "original": "Group View",
+        "singular": "Paparan Kumpulan",
+        "plural": "Paparan Kumpulan",
+        "setupEdit": false,
+        "setupVisible": false
+      }	
     },
     "status": {
       "setupVisible": true,
@@ -12643,8 +12667,11 @@
       "confirmAction": "Adakah anda pasti?",
       "confirmDelete": "Adakah anda pasti mahu memadam",
       "confirmRemove": "Adakah anda pasti mahu membuang",
+      "confirmDeleteThis": "Adakah anda pasti mahu memadam ini",
+      "confirmRemoveThis": "Adakah anda pasti mahu membuang ini",
       "doYouWishToProceed": "Adakah anda ingin meneruskan?",
       "irreversibleAction": "Tindakan ini tidak boleh dibatalkan.",
+      "cannotBeUndone": "Tindakan ini tidak boleh dibatalkan.",
       "step1": "Langkah 1",
       "step2": "Langkah 2",
       "step3": "Langkah 3",
@@ -13417,6 +13444,27 @@
           "singular": "Pilih Tiket dari senarai",
           "plural": "",
           "setupEdit": true,
+          "setupVisible": false
+        },
+        "sec16": {
+          "original": "Job Order Template Selection",
+          "singular": "Pemilihan Templat Pesanan Kerja",
+          "plural": "Pemilihan Templat Tugasan",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "sec17": {
+          "original": "Task Template Selection",
+          "singular": "Pemilihan Templat Tugasan",
+          "plural": "Pemilihan Templat Tugasan",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "sec18": {
+          "original": "Select Task Template From List",
+          "singular": "Pilih Templat Tugasan Dari Senarai",
+          "plural": "Pilih Templat Tugasan Dari Senarai",
+          "setupEdit": false,
           "setupVisible": false
         },
         "sec19": {
@@ -18289,9 +18337,40 @@
             "plural": "",
             "setupEdit": true,
             "setupVisible": false
+          },
+          "createdDate": {
+            "original": "Created Date",
+            "singular": "Tarikh Dicipta",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "dateOptions": {
+            "original": "Date Options",
+            "singular": "Pilihan Tarikh",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sameAsJobOrderDate": {
+            "original": "Same as Job Order Date",
+            "singular": "Sama seperti Tarikh Pesanan Kerja",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "dateCalculation": {
+            "original": "Date Calculation",
+            "singular": "Pengiraan Tarikh",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": false
           }
         },
-        "validationFE": {},
+        "validationFE": {
+          "exceededLimit50Templates":"Anda telah melebihi had 50 templat aktif. Tetapkan status templat yang tidak digunakan kepada 'Tidak Aktif' untuk menambah templat aktif yang lain.",
+          "itemExists":"Item ini sudah wujud dalam senarai"
+        },
         "tooltips": {
           "setupVisible": false,
           "prependJobName": {
@@ -18306,6 +18385,13 @@
             "singular": "Carian Templat Pesanan Kerja",
             "plural": "",
             "setupEdit": true,
+            "setupVisible": false
+          },
+          "dateOptions": {
+            "original": "You can set the Task template date by choosing either the 'Date Calculation' option to set a number of days after the Job Order is created or have it match the Job Order Date by choosing 'Same as Job Order Date'.",
+            "singular": "Anda boleh menetapkan tarikh templat Tugasan dengan memilih sama ada pilihan 'Pengiraan Tarikh' untuk menetapkan bilangan hari selepas Pesanan Kerja dibuat atau memadankannya dengan Tarikh Pesanan Kerja dengan memilih 'Sama seperti Tarikh Pesanan Kerja'.",
+            "plural": "",
+            "setupEdit": false,
             "setupVisible": false
           }
         },
@@ -21605,7 +21691,9 @@
       "setupWorkflowMaxActionsPerWorkflow": "Tindakan maksimum bagi setiap aliran kerja telah dicapai",
       "setupWorkflowEmailsMax": "Jumlah maksimum alamat e-mel yang dibenarkan untuk pemberitahuan aliran kerja telah dicapai",
       "setupWorkflowEmailUserMax": "Jumlah maksimum pengguna yang dibenarkan untuk pemberitahuan aliran kerja telah dicapa",
-      "setupWorkflowEmailUserGroupMax": "Jumlah maksimum pengguna yang dibenarkan untuk pemberitahuan aliran kerja telah dicapa"
+      "setupWorkflowEmailUserGroupMax": "Jumlah maksimum pengguna yang dibenarkan untuk pemberitahuan aliran kerja telah dicapa",
+      "setupTmplJobOrderLimitReached":"Anda telah melebihi had 50 templat aktif. Tetapkan status templat yang tidak digunakan kepada 'Tidak Aktif' untuk menambah satu lagi templat aktif.",
+      "tmplTaskLimitExceeded": "Anda telah melebihi had 50 templat aktif. Tukar status templat yang tidak digunakan kepada 'Tidak Aktif' untuk menambah satu lagi templat aktif"
     },
     "labelBE": {
       "profileTableColumnSetup": {
