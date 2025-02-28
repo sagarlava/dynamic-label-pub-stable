@@ -6224,6 +6224,13 @@
         "plural": "",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "sec54": {
+        "original": "Task and Spare Part Details",
+        "singular": "Aufgaben- und Ersatzteildetails",
+        "plural": "Aufgaben- und Ersatzteildetails",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "fields": {
@@ -8606,7 +8613,10 @@
       "days": "Tag(e)",
       "hours": "Stunde(n)",
       "mins": "Minute(n)",
-      "startSLA": "SLA starten"
+      "startSLA": "SLA starten",
+      "removeSparePartsLinkedTask":"Möchten Sie alle mit dieser Aufgabe verknüpften Ersatzteile aus dem Arbeitsauftrag entfernen?",
+      "listOfTask":"Aufgabenliste",
+      "listOfSparePart":"Ersatzteilliste"
     }
   },
   "inventory": {
@@ -12148,13 +12158,27 @@
         "setupEdit": true,
         "setupVisible": false
       },
+      "createViaTemplate":{
+        "original": "Create via Template",
+        "singular": "Erstellen über Vorlage",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
       "addProduct":{
         "original": "Add Spare Parts",
         "singular": "Ersatzteil hinzufügen",
         "plural": "Ersatzteile hinzufügen",
         "setupEdit": false,
         "setupVisible": false
-      }
+      },
+      "groupView":{
+        "original": "Group View",
+        "singular": "Gruppenansicht",
+        "plural": "Gruppenansichten",
+        "setupEdit": false,
+        "setupVisible": false
+      }	
     },
     "status": {
       "setupVisible": false,
@@ -12640,8 +12664,11 @@
       "confirmAction": "Sind Sie sicher?",
       "confirmDelete": "Sind Sie sicher, dass Sie löschen möchten",
       "confirmRemove": "Sind Sie sicher, dass Sie entfernen möchten",
+      "confirmDeleteThis": "Sind Sie sicher, dass Sie dies löschen möchten",
+      "confirmRemoveThis": "Sind Sie sicher, dass Sie dies entfernen möchten",
       "doYouWishToProceed": "Möchten Sie fortfahren?",
       "irreversibleAction": "Diese Aktion ist unwiderruflich.",
+      "cannotBeUndone": "Diese Aktion kann nicht rückgängig gemacht werden.",
       "step1": "Schritt 1",
       "step2": "Schritt 2",
       "step3": "Schritt 3",
@@ -13414,6 +13441,27 @@
           "singular": "Wählen Sie ein Ticket aus der Liste",
           "plural": "",
           "setupEdit": true,
+          "setupVisible": false
+        },
+        "sec16": {
+          "original": "Job Order Template Selection",
+          "singular": "Auswahl der Arbeitsauftragvorlage",
+          "plural": "Auswahl der Arbeitsauftragvorlage",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "sec17": {
+          "original": "Task Template Selection",
+          "singular": "Auswahl der Aufgaben-Vorlage",
+          "plural": "Auswahl der Aufgaben-Vorlage",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "sec18": {
+          "original": "Select Task Template From List",
+          "singular": "Aufgabenvorlage aus der Liste auswählen",
+          "plural": "Aufgabenvorlagen aus der Liste auswählen",
+          "setupEdit": false,
           "setupVisible": false
         },
         "sec19": {
@@ -18286,9 +18334,40 @@
             "plural": "",
             "setupEdit": true,
             "setupVisible": false
+          },
+          "createdDate": {
+            "original": "Created Date",
+            "singular": "Erstellungsdatum",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "dateOptions": {
+            "original": "Date Options",
+            "singular": "Datumsoptionen",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sameAsJobOrderDate": {
+            "original": "Same as Job Order Date",
+            "singular": "Gleich wie das Arbeitsauftragsdatum",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "dateCalculation": {
+            "original": "Date Calculation",
+            "singular": "Datumsberechnung",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": false
           }
         },
-        "validationFE": {},
+        "validationFE": {
+          "exceededLimit50Templates":"Sie haben das Limit von 50 aktiven Vorlagen überschritten. Setzen Sie den Status einer nicht verwendeten Vorlage auf „Inaktiv“, um eine weitere aktive Vorlage hinzuzufügen.",
+          "itemExists":"Dieses Element existiert bereits in der Liste"
+        },
         "tooltips": {
           "setupVisible": false,
           "prependJobName": {
@@ -18303,6 +18382,13 @@
             "singular": "Jobauftragsvorlagen suchen",
             "plural": "",
             "setupEdit": true,
+            "setupVisible": false
+          },
+          "dateOptions": {
+            "original": "You can set the Task template date by choosing either the 'Date Calculation' option to set a number of days after the Job Order is created or have it match the Job Order Date by choosing 'Same as Job Order Date'.",
+            "singular": "Sie können das Datum der Aufgaben-Vorlage festlegen, indem Sie entweder die Option ‚Datumsberechnung‘ wählen, um eine bestimmte Anzahl von Tagen nach Erstellung des Arbeitsauftrags festzulegen, oder die Option ‚Gleich wie Arbeitsauftragsdatum‘ auswählen, um das Datum anzugleichen.",
+            "plural": "",
+            "setupEdit": false,
             "setupVisible": false
           }
         },
@@ -21602,7 +21688,9 @@
       "setupWorkflowMaxActionsPerWorkflow": "Maximale Aktionen pro Workflow erreicht",
       "setupWorkflowEmailsMax": "Die maximale Anzahl erlaubter E-Mail-Adressen für Workflow-Benachrichtigungen wurde erreicht",
       "setupWorkflowEmailUserMax": "Maximale Anzahl an erlaubten Benutzern für Workflow-Benachrichtigungen erreicht",
-      "setupWorkflowEmailUserGroupMax": "Maximale Anzahl an erlaubten Benutzern für Workflow-Benachrichtigungen erreicht"
+      "setupWorkflowEmailUserGroupMax": "Maximale Anzahl an erlaubten Benutzern für Workflow-Benachrichtigungen erreicht",
+      "setupTmplJobOrderLimitReached":"Sie haben das Limit von 50 aktiven Vorlagen überschritten. Setzen Sie den Status einer ungenutzten Vorlage auf 'Inaktiv', um eine weitere aktive Vorlage hinzuzufügen.",
+      "tmplTaskLimitExceeded":"Sie haben das Limit von 50 aktiven Vorlagen überschritten. Setzen Sie den Status einer ungenutzten Vorlage auf 'Inaktiv', um eine weitere aktive Vorlage hinzuzufügen"
     },
     "labelBE": {
       "profileTableColumnSetup": {

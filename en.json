@@ -6224,6 +6224,13 @@
         "plural": "",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "sec54": {
+        "original": "Task and Spare Part Details",
+        "singular": "Task and Spare Part Details",
+        "plural": "Task and Spare Part Details",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "fields": {
@@ -8606,7 +8613,10 @@
       "days":"day(s)",
       "hours":"hour(s)",
       "mins":"min(s)",
-      "startSLA":"Start SLA"
+      "startSLA":"Start SLA",
+      "removeSparePartsLinkedTask":"Do you want to remove all spare parts linked to this task from the Job Order?",
+      "listOfTask":"List of Task(s)",
+      "listOfSparePart":"List of Spare Part(s)"
     }
   },
   "inventory": {
@@ -12148,13 +12158,27 @@
         "setupEdit": true,
         "setupVisible": false
       },
+      "createViaTemplate":{
+        "original": "Create via Template",
+        "singular": "Create via Template",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
       "addProduct":{
         "original": "Add Spare Parts",
         "singular": "Add Spare Part",
         "plural": "Add Spare Parts",
         "setupEdit": false,
         "setupVisible": false
-      }
+      },
+      "groupView":{
+        "original": "Group View",
+        "singular": "Group View",
+        "plural": "Group View",
+        "setupEdit": false,
+        "setupVisible": false
+      }	
     },
     "status": {
       "setupVisible": false,
@@ -12640,8 +12664,11 @@
       "confirmAction": "Are you sure?",
       "confirmDelete": "Are you sure you want to delete",
       "confirmRemove": "Are you sure you want to remove",
+      "confirmDeleteThis": "Are you sure you want to delete this",
+      "confirmRemoveThis": "Are you sure you want to remove this",
       "doYouWishToProceed": "Do you wish to proceed?",
       "irreversibleAction": "This action is irreversible.",
+      "cannotBeUndone": "This action cannot be undone.",
       "step1": "Step 1",
       "step2": "Step 2",
       "step3": "Step 3",
@@ -13414,6 +13441,27 @@
           "singular": "Select a Ticket from the list",
           "plural": "",
           "setupEdit": true,
+          "setupVisible": false
+        },
+        "sec16": {
+          "original": "Job Order Template Selection",
+          "singular": "Job Order Template Selection",
+          "plural": "Job Order Template Selection",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "sec17": {
+          "original": "Task Template Selection",
+          "singular": "Task Template Selection",
+          "plural": "Task Template Selection",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "sec18": {
+          "original": "Select Task Template From List",
+          "singular": "Select Task Template From List",
+          "plural": "Select Task Template From List",
+          "setupEdit": false,
           "setupVisible": false
         },
         "sec19": {
@@ -18286,9 +18334,40 @@
             "plural": "",
             "setupEdit": true,
             "setupVisible": false
+          },
+          "createdDate": {
+            "original": "Created Date",
+            "singular": "Created Date",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "dateOptions": {
+            "original": "Date Options",
+            "singular": "Date Options",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sameAsJobOrderDate": {
+            "original": "Same as Job Order Date",
+            "singular": "Same as Job Order Date",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "dateCalculation": {
+            "original": "Date Calculation",
+            "singular": "Date Calculation",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": false
           }
         },
-        "validationFE": {},
+        "validationFE": {
+          "exceededLimit50Templates":"You have exceeded the limit of 50 active templates. Set the status of an unused template to “Inactive” to add another active template.",
+          "itemExists":"This item already exists in the list"
+        },
         "tooltips": {
           "setupVisible": false,
           "prependJobName": {
@@ -18303,6 +18382,13 @@
             "singular": "Job Order Templates Lookup",
             "plural": "",
             "setupEdit": true,
+            "setupVisible": false
+          },
+          "dateOptions": {
+            "original": "You can set the Task template date by choosing either the 'Date Calculation' option to set a number of days after the Job Order is created or have it match the Job Order Date by choosing 'Same as Job Order Date'.",
+            "singular": "You can set the Task template date by choosing either the 'Date Calculation' option to set a number of days after the Job Order is created or have it match the Job Order Date by choosing 'Same as Job Order Date'.",
+            "plural": "",
+            "setupEdit": false,
             "setupVisible": false
           }
         },
@@ -21602,7 +21688,9 @@
       "setupWorkflowMaxActionsPerWorkflow": "Maximum actions per workflow reached",
       "setupWorkflowEmailsMax": "Maximum allowed email addresses reached for workflow notification",
       "setupWorkflowEmailUserMax": "Maximum allowed users reached for workflow notification",
-      "setupWorkflowEmailUserGroupMax": "Maximum allowed users reached for workflow notification"
+      "setupWorkflowEmailUserGroupMax": "Maximum allowed users reached for workflow notification",
+      "setupTmplJobOrderLimitReached":"You have exceeded the limit of 50 active templates. Set the status of an unused template to 'Inactive' to add another active template.",
+      "tmplTaskLimitExceeded":"You have exceeded the limit of 50 active templates. Set the status of an unused template to 'Inactive' to add another active template."
     },
     "labelBE": {
       "profileTableColumnSetup": {

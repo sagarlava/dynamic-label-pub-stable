@@ -6224,6 +6224,13 @@
         "plural": "",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "sec54": {
+        "original": "Task and Spare Part Details",
+        "singular": "任务和备件详情",
+        "plural": "任务和备件详情",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "fields": {
@@ -8606,7 +8613,10 @@
       "days": "天",
       "hours": "小时",
       "mins": "分钟",
-      "startSLA": "启动SLA"
+      "startSLA": "启动SLA",
+      "removeSparePartsLinkedTask":"您是否要从工单中移除与此任务关联的所有备件？",
+      "listOfTask":"任务列表",
+      "listOfSparePart":"备件列表"
     }
   },
   "inventory": {
@@ -12148,13 +12158,27 @@
         "setupEdit": true,
         "setupVisible": false
       },
+      "createViaTemplate":{
+        "original": "Create via Template",
+        "singular": "通过模板创建",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
       "addProduct":{
         "original": "Add Spare Parts",
         "singular": "添加备件",
         "plural": "添加备件",
         "setupEdit": false,
         "setupVisible": false
-      }
+      },
+      "groupView":{
+        "original": "Group View",
+        "singular": "分组视图",
+        "plural": "分组视图",
+        "setupEdit": false,
+        "setupVisible": false
+      }	
     },
     "status": {
       "setupVisible": true,
@@ -12639,9 +12663,12 @@
       "searchAddress": "搜索地址",
       "confirmAction": "你确定吗？",
       "confirmDelete": "你确定要删除",
-      "confirmRemove": "您确定要删除吗",
+      "confirmRemove": "您确定要删除",
+      "confirmDeleteThis": "您确定要删除此内容吗",
+      "confirmRemoveThis": "您确定要移除此内容吗",
       "doYouWishToProceed": "您是否希望继续？",
       "irreversibleAction": "此操作不可撤销。",
+      "cannotBeUndone": "此操作无法撤销。",
       "step1": "步骤 1",
       "step2": "步骤 2",
       "step3": "步骤 3",
@@ -13414,6 +13441,27 @@
           "singular": "从列表中选择票",
           "plural": "",
           "setupEdit": true,
+          "setupVisible": false
+        },
+        "sec16": {
+          "original": "Job Order Template Selection",
+          "singular": "工作单模板选择",
+          "plural": "工作单模板选择",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "sec17": {
+          "original": "Task Template Selection",
+          "singular": "任务模板选择",
+          "plural": "任务模板选择",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "sec18": {
+          "original": "Select Task Template From List",
+          "singular": "从列表中选择任务模板",
+          "plural": "从列表中选择任务模板",
+          "setupEdit": false,
           "setupVisible": false
         },
         "sec19": {
@@ -18286,9 +18334,40 @@
             "plural": "",
             "setupEdit": true,
             "setupVisible": false
+          },
+          "createdDate": {
+            "original": "Created Date",
+            "singular": "创建日期",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "dateOptions": {
+            "original": "Date Options",
+            "singular": "日期选项",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sameAsJobOrderDate": {
+            "original": "Same as Job Order Date",
+            "singular": "与工单日期相同",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "dateCalculation": {
+            "original": "Date Calculation",
+            "singular": "日期计算",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": false
           }
         },
-        "validationFE": {},
+        "validationFE": {
+          "exceededLimit50Templates":"您已超过50个活动模板的限制。将未使用的模板状态设置为“非活动”以添加另一个活动模板。",
+          "itemExists":"此项目已存在于列表中"
+        },
         "tooltips": {
           "setupVisible": false,
           "prependJobName": {
@@ -18303,6 +18382,13 @@
             "singular": "工作订单模板查询",
             "plural": "",
             "setupEdit": true,
+            "setupVisible": false
+          },
+          "dateOptions": {
+            "original": "You can set the Task template date by choosing either the 'Date Calculation' option to set a number of days after the Job Order is created or have it match the Job Order Date by choosing 'Same as Job Order Date'.",
+            "singular": "您可以通过选择‘日期计算’选项来设置任务模板日期，使其在工单创建后的特定天数，或通过选择‘与工单日期相同’来匹配工单日期。",
+            "plural": "",
+            "setupEdit": false,
             "setupVisible": false
           }
         },
@@ -21602,7 +21688,9 @@
       "setupWorkflowMaxActionsPerWorkflow": "已达到每个工作流程的最大操作次数",
       "setupWorkflowEmailsMax": "已达到工作流通知允许的最大电子邮件地址数量",
       "setupWorkflowEmailUserMax": "已达到工作流通知允许的最大用户数量",
-      "setupWorkflowEmailUserGroupMax": "已达到工作流通知允许的最大用户数量"
+      "setupWorkflowEmailUserGroupMax": "已达到工作流通知允许的最大用户数量",
+      "setupTmplJobOrderLimitReached":"您已超出50个活动模板的限制。将未使用的模板状态设置为“未激活”以添加另一个活动模板",
+      "tmplTaskLimitExceeded": "您已超出50个活动模板的限制。将未使用的模板状态设置为“未激活”以添加另一个活动模板"
     },
     "labelBE": {
       "profileTableColumnSetup": {

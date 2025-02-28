@@ -6224,6 +6224,13 @@
         "plural": "",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "sec54": {
+        "original": "Task and Spare Part Details",
+        "singular": "Detalles de las Tarea y Piezas de Repuesto",
+        "plural": "Detalles de las Tareas y Piezas de Repuesto",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "fields": {
@@ -8606,7 +8613,10 @@
       "days": "día(s)",
       "hours": "hora(s)",
       "mins": "min(s)",
-      "startSLA": "Iniciar SLA"
+      "startSLA": "Iniciar SLA",
+      "removeSparePartsLinkedTask":"¿Desea eliminar todas las piezas de repuesto vinculadas a esta tarea de la orden de trabajo?",
+      "listOfTask":"Lista de tareas",
+      "listOfSparePart":"Lista de repuestos"
     }
   },
   "inventory": {
@@ -12148,13 +12158,27 @@
         "setupEdit": true,
         "setupVisible": false
       },
+      "createViaTemplate":{
+        "original": "Create via Template",
+        "singular": "Crear a través de Plantilla",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
       "addProduct":{
         "original": "Add Spare Parts",
         "singular": "Agregar Repuesto",
         "plural": "Agregar Repuestos",
         "setupEdit": false,
         "setupVisible": false
-      }
+      },
+      "groupView":{
+        "original": "Group View",
+        "singular": "Vista de grupo",
+        "plural": "Vistas de grupo",
+        "setupEdit": false,
+        "setupVisible": false
+      }	
     },
     "status": {
       "setupVisible": false,
@@ -12638,10 +12662,13 @@
       "search": "Buscar",
       "searchAddress": "Buscar Dirección",
       "confirmAction": "¿Está seguro?",
-      "confirmDelete": "¿Está seguro de que desea eliminar",
+      "confirmDelete": "¿Está seguro de que desea eliminar?",
       "confirmRemove": "¿Está seguro de que desea eliminar",
+      "confirmDeleteThis": "¿Está seguro de que desea eliminar esto",
+      "confirmRemoveThis": "¿Está seguro de que desea eliminar esto",
       "doYouWishToProceed": "¿Desea continuar?",
       "irreversibleAction": "Esta acción es irreversible.",
+      "cannotBeUndone": "Esta acción no se puede deshacer.",
       "step1": "Paso 1",
       "step2": "Paso 2",
       "step3": "Paso 3",
@@ -13414,6 +13441,27 @@
           "singular": "Selecciona un ticket de la lista",
           "plural": "",
           "setupEdit": true,
+          "setupVisible": false
+        },
+        "sec16": {
+          "original": "Job Order Template Selection",
+          "singular": "Selección de Plantilla de Orden de Trabajo",
+          "plural": "Selección de Plantilla de Orden de Trabajo",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "sec17": {
+          "original": "Task Template Selection",
+          "singular": "Selección de Plantilla de Tarea",
+          "plural": "Selección de Plantilla de Tarea",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "sec18": {
+          "original": "Select Task Template From List",
+          "singular": "Seleccionar Plantilla de Tarea de la Lista",
+          "plural": "Seleccionar Plantillas de Tarea de la Lista",
+          "setupEdit": false,
           "setupVisible": false
         },
         "sec19": {
@@ -18286,9 +18334,40 @@
             "plural": "",
             "setupEdit": true,
             "setupVisible": false
+          },
+          "createdDate": {
+            "original": "Created Date",
+            "singular": "Fecha de Creación",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "dateOptions": {
+            "original": "Date Options",
+            "singular": "Opciones de Fecha",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sameAsJobOrderDate": {
+            "original": "Same as Job Order Date",
+            "singular": "Igual que la Fecha de la Orden de Trabajo",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "dateCalculation": {
+            "original": "Date Calculation",
+            "singular": "Cálculo de Fecha",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": false
           }
         },
-        "validationFE": {},
+        "validationFE": {
+          "exceededLimit50Templates":"Ha excedido el límite de 50 plantillas activas. Establezca el estado de una plantilla no utilizada en “Inactivo” para agregar otra plantilla activa.",
+          "itemExists":"Este elemento ya existe en la lista"
+        },
         "tooltips": {
           "setupVisible": false,
           "prependJobName": {
@@ -18303,6 +18382,13 @@
             "singular": "Búsqueda de Plantillas de Orden de Trabajo",
             "plural": "",
             "setupEdit": true,
+            "setupVisible": false
+          },
+          "dateOptions": {
+            "original": "You can set the Task template date by choosing either the 'Date Calculation' option to set a number of days after the Job Order is created or have it match the Job Order Date by choosing 'Same as Job Order Date'.",
+            "singular": "Puede establecer la fecha de la plantilla de tarea eligiendo la opción ‘Cálculo de Fecha’ para definir un número de días después de la creación de la Orden de Trabajo, o hacer que coincida con la Fecha de la Orden de Trabajo seleccionando ‘Igual que la Fecha de la Orden de Trabajo’.",
+            "plural": "",
+            "setupEdit": false,
             "setupVisible": false
           }
         },
@@ -21602,7 +21688,9 @@
       "setupWorkflowMaxActionsPerWorkflow": "Acciones máximas por flujo de trabajo alcanzadas",
       "setupWorkflowEmailsMax": "Se alcanzó el número máximo permitido de direcciones de correo electrónico para notificaciones de flujo de trabajo",
       "setupWorkflowEmailUserMax": "Se alcanzó el número máximo de usuarios permitidos para notificaciones de flujo de trabajo",
-      "setupWorkflowEmailUserGroupMax": "Se alcanzó el número máximo de usuarios permitidos para notificaciones de flujo de trabajo"
+      "setupWorkflowEmailUserGroupMax": "Se alcanzó el número máximo de usuarios permitidos para notificaciones de flujo de trabajo",
+      "setupTmplJobOrderLimitReached":"Has superado el límite de 50 plantillas activas. Cambia el estado de una plantilla no utilizada a 'Inactiva' para agregar otra plantilla activa.",
+      "tmplTaskLimitExceeded":"Has superado el límite de 50 plantillas activas. Cambia el estado de una plantilla no utilizada a 'Inactiva' para agregar otra plantilla activa."
     },
     "labelBE": {
       "profileTableColumnSetup": {
