@@ -9642,6 +9642,13 @@
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
+      },
+      "sec4": {
+        "original": "Summary of Results",
+        "singular": "Summary of Results",
+        "plural": "Summary of Results",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "fields": {

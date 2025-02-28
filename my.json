@@ -9642,6 +9642,13 @@
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
+      },
+      "sec4": {
+        "original": "Summary of Results",
+        "singular": "Ringkasan Keputusan",
+        "plural": "Ringkasan Keputusan",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "fields": {

@@ -9642,6 +9642,13 @@
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
+      },
+      "sec4": {
+        "original": "Summary of Results",
+        "singular": "结果摘要",
+        "plural": "结果摘要",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "fields": {
