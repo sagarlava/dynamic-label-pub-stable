@@ -3123,6 +3123,13 @@
         "plural": "",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "family": {
+        "original": "Family",
+        "singular": "Family",
+        "plural": "Families",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "validationFE": {},

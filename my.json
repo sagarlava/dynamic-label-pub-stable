@@ -3123,6 +3123,13 @@
         "plural": "Jumlah Kecil",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "family": {
+        "original": "Family",
+        "singular": "Keluarga",
+        "plural": "Keluarga",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "validationFE": {},

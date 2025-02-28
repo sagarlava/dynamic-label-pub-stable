@@ -3123,6 +3123,13 @@
         "plural": "小计",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "family": {
+        "original": "Family",
+        "singular": "家庭",
+        "plural": "家庭",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "validationFE": {},
