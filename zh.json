@@ -8750,6 +8750,20 @@
         "plural": "",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "sec17": {
+        "original": "Select where to search",
+        "singular": "选择搜索位置",
+        "plural": "选择搜索位置",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec18": {
+        "original": "Select what to search",
+        "singular": "选择搜索内容",
+        "plural": "选择搜索内容",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "fields": {

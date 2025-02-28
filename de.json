@@ -8750,6 +8750,20 @@
         "plural": "",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "sec17": {
+        "original": "Select where to search",
+        "singular": "Wählen Sie, wo Sie suchen möchten",
+        "plural": "Wählen Sie, wo Sie suchen möchten",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec18": {
+        "original": "Select what to search",
+        "singular": "Wählen Sie, wonach Sie suchen möchten",
+        "plural": "Wählen Sie, wonach Sie suchen möchten",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "fields": {
