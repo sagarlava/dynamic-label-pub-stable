@@ -3123,6 +3123,13 @@
         "plural": "",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "family": {
+        "original": "Family",
+        "singular": "Familia",
+        "plural": "Familias",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "validationFE": {},
@@ -8753,6 +8760,20 @@
         "plural": "",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "sec17": {
+        "original": "Select where to search",
+        "singular": "Seleccionar dónde buscar",
+        "plural": "Seleccionar dónde buscar",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec18": {
+        "original": "Select what to search",
+        "singular": "Seleccionar qué buscar",
+        "plural": "Seleccionar qué buscar",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "fields": {
@@ -9040,7 +9061,10 @@
       "availableOtherLocations": "disponible en otras ubicaciones",
       "sameProductBinTransferNotAllowed": "No está permitido seleccionar el mismo Repuesto en una transferencia de contenedor",
       "sameProductBinNotAllowed": "No está permitido seleccionar el mismo Repuesto en un contenedor",
-      "sameAssetBinNotAllowed": "No está permitido seleccionar el mismo Activo en un contenedor"
+      "sameAssetBinNotAllowed": "No está permitido seleccionar el mismo Activo en un contenedor",
+      "selectCategory":"Seleccionar Categoría",
+      "selectSubCategory":"Seleccionar Subcategoría",
+      "selectStatus":"Seleccionar Estado"
     }
   },
   "bin": {
@@ -9628,6 +9652,13 @@
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
+      },
+      "sec4": {
+        "original": "Summary of Results",
+        "singular": "Resumen de resultados",
+        "plural": "Resúmenes de resultados",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "fields": {
@@ -12230,7 +12261,14 @@
         "plural": "Agregar páginas",
         "setupEdit": false,
         "setupVisible": false
-      }	
+      },
+      "locateAsset":{
+        "original": "Locate Asset",
+        "singular": "Ubicar activo",
+        "plural": "Ubicar activos",
+        "setupEdit": false,
+        "setupVisible": false
+      }		
     },
     "status": {
       "setupVisible": false,

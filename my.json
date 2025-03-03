@@ -3123,6 +3123,13 @@
         "plural": "Jumlah Kecil",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "family": {
+        "original": "Family",
+        "singular": "Keluarga",
+        "plural": "Keluarga",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "validationFE": {},
@@ -8753,6 +8760,20 @@
         "plural": "",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "sec17": {
+        "original": "Select where to search",
+        "singular": "Pilih tempat untuk mencari",
+        "plural": "Pilih tempat untuk mencari",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec18": {
+        "original": "Select what to search",
+        "singular": "Pilih apa yang hendak dicari",
+        "plural": "Pilih apa yang hendak dicari",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "fields": {
@@ -9040,7 +9061,10 @@
       "availableOtherLocations": "tersedia di lokasi lain",
       "sameProductBinTransferNotAllowed": "Anda tidak dibenarkan untuk memilih Alat Ganti yang sama dalam pemindahan bin",
       "sameProductBinNotAllowed": "Anda tidak dibenarkan untuk memilih Alat Ganti yang sama dalam bin",
-      "sameAssetBinNotAllowed": "Anda tidak dibenarkan untuk memilih aset yang sama dalam bin"
+      "sameAssetBinNotAllowed": "Anda tidak dibenarkan untuk memilih aset yang sama dalam bin",
+      "selectCategory":"Pilih Kategori",
+      "selectSubCategory":"Pilih Subkategori",
+      "selectStatus":"Pilih Status"
     }
   },
   "bin": {
@@ -9628,6 +9652,13 @@
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
+      },
+      "sec4": {
+        "original": "Summary of Results",
+        "singular": "Ringkasan Keputusan",
+        "plural": "Ringkasan Keputusan",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "fields": {
@@ -12230,7 +12261,14 @@
         "plural": "Tambah Halaman",
         "setupEdit": false,
         "setupVisible": false
-      }
+      },
+      "locateAsset":{
+        "original": "Locate Asset",
+        "singular": "Cari Aset",
+        "plural": "Cari Aset",
+        "setupEdit": false,
+        "setupVisible": false
+      }	
     },
     "status": {
       "setupVisible": true,
