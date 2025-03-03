@@ -12209,6 +12209,13 @@
         "plural": "Paparan Kumpulan",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "locateAsset":{
+        "original": "Locate Asset",
+        "singular": "Cari Aset",
+        "plural": "Cari Aset",
+        "setupEdit": false,
+        "setupVisible": false
       }	
     },
     "status": {

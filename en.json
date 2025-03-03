@@ -12209,6 +12209,13 @@
         "plural": "Group View",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "locateAsset":{
+        "original": "Locate Asset",
+        "singular": "Locate Asset",
+        "plural": "Locate Assets",
+        "setupEdit": false,
+        "setupVisible": false
       }	
     },
     "status": {

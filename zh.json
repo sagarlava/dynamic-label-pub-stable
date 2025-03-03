@@ -12209,6 +12209,13 @@
         "plural": "分组视图",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "locateAsset":{
+        "original": "Locate Asset",
+        "singular": "定位资产",
+        "plural": "定位资产",
+        "setupEdit": false,
+        "setupVisible": false
       }	
     },
     "status": {

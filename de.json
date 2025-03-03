@@ -12209,7 +12209,14 @@
         "plural": "Gruppenansichten",
         "setupEdit": false,
         "setupVisible": false
-      }	
+      },
+      "locateAsset":{
+        "original": "Locate Asset",
+        "singular": "Asset lokalisieren",
+        "plural": "Assets lokalisieren",
+        "setupEdit": false,
+        "setupVisible": false
+      }		
     },
     "status": {
       "setupVisible": false,
