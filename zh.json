@@ -12158,6 +12158,34 @@
         "setupEdit": true,
         "setupVisible": false
       },
+      "discard":{
+        "original": "Discard",
+        "singular": "丢弃",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "createWithAi":{
+        "original": "Create with AI",
+        "singular": "用AI创建",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "smartSuggest":{
+        "original": "Smart Suggest",
+        "singular": "智能建议",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "copyToTaskNotes":{
+        "original": "Copy to task notes",
+        "singular": "复制到任务备注",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
       "createViaTemplate":{
         "original": "Create via Template",
         "singular": "通过模板创建",
@@ -16134,6 +16162,161 @@
           "runningNoDesc": "流水号格式允许您为表单的自动编号字段自定义格式。这包括替换变量以及您希望前缀或后缀的任何字符。",
           "mapPicklistFields": "通过选择父字段，然后选择其必要的选择列表字段来映射选择列表字段。您可以在下方查看映射的字段。",
           "addDescriptionHere": "在此添加描述..."
+        }
+      },
+      "artificialIntelligence":{
+        "setupEdit": false,
+        "setupVisible": false,
+        "label":{
+          "original": "AI",
+          "singular": "AI",
+          "plural": "AI",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "sections":{
+          "setupEdit": false,
+          "setupVisible": false,
+          "sec0":{
+            "original": "Finley Suggestions",
+            "singular": "建议 Finley",
+            "plural": "建议 Finley",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec1":{
+            "original": "AI Suggestions",
+            "singular": "AI建议",
+            "plural": "AI建议",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec2":{
+            "original": "Auto-create a checklist with AI",
+            "singular": "使用AI自动创建检查表",
+            "plural": "使用AI自动创建检查表",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec3":{
+            "original": "Describe your checklist",
+            "singular": "描述您的检查表",
+            "plural": "描述您的检查表",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec4":{
+            "original": "Attach a reference file",
+            "singular": "附加参考文件",
+            "plural": "附加参考文件",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec5":{
+            "original": "Completion Summary",
+            "singular": "完成摘要",
+            "plural": "完成摘要",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec6":{
+            "original": "Train Finley",
+            "singular": "训练Finley",
+            "plural": "训练Finley",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec7":{
+            "original": "Suggested Spare Parts",
+            "singular": "建议的备件",
+            "plural": "建议的备件",
+            "setupEdit": false,
+            "setupVisible": false
+          }
+        },
+        "fields":{
+          "setupEdit": false,
+          "setupVisible": false,
+          "enableAi":{
+            "original": "Enable AI Suggestions",
+            "singular": "启用AI建议",
+            "plural": "启用AI建议",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "dailyJobRundown":{
+            "original": "Daily Job Rundown",
+            "singular": "每日工作概览",
+            "plural": "每日工作概览",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "postJobSummary": {
+            "original": "Post-Job Summary",
+            "singular": "工作后总结",
+            "plural": "工作后总结",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "taskDurationSuggestion": {
+            "original": "Task Duration Suggestion",
+            "singular": "任务时长建议",
+            "plural": "任务时长建议",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "checklistGeneration": {
+            "original": "Checklist Generation",
+            "singular": "检查表生成",
+            "plural": "检查表生成",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "jobOrderNoteSuggestions": {
+            "original": "Job Order Note Suggestions",
+            "singular": "工单备注建议",
+            "plural": "工单备注建议",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "jobOrderSparePartSuggestions": {
+            "original": "Job Order Spare Part Suggestions",
+            "singular": "工单备件建议",
+            "plural": "工单备件建议",
+            "setupEdit": false,
+            "setupVisible": false
+          }
+        },
+        "messages":{
+          "moreDetailYouProvide":"您提供的详细信息越多，检查表就越能满足您的需求。",
+          "convertYourPhysicalChecklist":"将您的实体检查表和表单转换为FieldEx检查表（PDF或PNG - 最大5 MB）",
+          "mentionDetailsConsidered":"提及需要考虑的资产、字段和其他详细信息",
+          "suggestedBy":"由 Finley 提议",
+          "completedBy":"由...完成",
+          "beta":"测试版",
+          "enableOrDisableSuggestions":"启用或禁用由我们友好的AI Finley提供支持的建议和功能。启用的功能将对您组织中的所有用户可用，允许他们通过打开或关闭特定功能来自定义其偏好。",
+          "aCategorizedSummary":"今天工作的分类摘要。",
+          "conciseSummaryKeyDetails":"已完成工单关键详细信息的简洁摘要，显示在工单视图中。",
+          "taskTimeSuggestions":"基于以前的工作和任务数据的任务时间建议。",
+          "useAiToGenerateChecklist":"使用AI从简短的提示或示例表单生成检查表问题。",
+          "web":"网页",
+          "mobile":"移动",
+          "uploadStoreManual":"在此上传和存储您的手册、指南和参考文件，以帮助我们的AI在整个应用程序中提供量身定制的见解和建议，专为您的组织独特需求定制。查看",
+          "see":"查看",
+          "tips":"提示",
+          "onHowTo":"了解如何充分利用此功能。",
+          "storage":"存储",
+          "allowAiSuggestJob":"允许AI根据您上传到FieldEx的培训材料建议工作完成步骤。",
+          "allowAiSuggestJobSpareParts":"允许AI根据您上传到FieldEx的培训材料建议工作备件。",
+          "of":"的",
+          "selectAFileDropHere":"选择一个文件或拖放到此处",
+          "txtPdfNoMore15Mb":"TXT或PDF文件大小不超过15MB",
+          "enableOrDisableSuggestionsOnly":"启用或禁用由我们友好的AI Finley提供的建议和功能。",
+          "featureEnableAccessible":"已启用的功能将对您组织中的所有用户可用，允许他们通过打开或关闭特定功能来自定义自己的偏好。"
+        },
+        "validationFE": {
+          "onlyTxtPdfAllowed":"仅允许TXT或PDF文件",
+          "fileSizeNotExceed15":"文件大小不得超过15MB"
         }
       }
     },

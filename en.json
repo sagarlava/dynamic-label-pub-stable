@@ -12158,6 +12158,34 @@
         "setupEdit": true,
         "setupVisible": false
       },
+      "discard":{
+        "original": "Discard",
+        "singular": "Discard",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "createWithAi":{
+        "original": "Create with AI",
+        "singular": "Create with AI",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "smartSuggest":{
+        "original": "Smart Suggest",
+        "singular": "Smart Suggest",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "copyToTaskNotes":{
+        "original": "Copy to task notes",
+        "singular": "Copy to task notes",  
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
       "createViaTemplate":{
         "original": "Create via Template",
         "singular": "Create via Template",
@@ -16134,6 +16162,161 @@
           "runningNoDesc":"Running Number Format Allows you to customize the Auto Number Field for your forms. This includes substitution variables and any characters you wish to prefix or append",
           "mapPicklistFields":"Map picklist fields by selecting a Parent Field and then selecting the necessary Picklist Fields for it. You can view the Mapped Fields below.",
           "addDescriptionHere":"Add description here..."
+        }
+      },
+      "artificialIntelligence":{
+        "setupEdit": false,
+        "setupVisible": false,
+        "label":{
+          "original": "AI",
+          "singular": "AI",
+          "plural": "AI",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "sections":{
+          "setupEdit": false,
+          "setupVisible": false,
+          "sec0":{
+            "original": "Finley Suggestions",
+            "singular": "Finley Suggestion",
+            "plural": "Finley Suggestions",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec1":{
+            "original": "AI Suggestions",
+            "singular": "AI Suggestion",
+            "plural": "AI Suggestions",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec2":{
+            "original": "Auto-create a checklist with AI",
+            "singular": "Auto-create a checklist with AI",
+            "plural": "Auto-create a checklist with AI",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec3":{
+            "original": "Describe your checklist",
+            "singular": "Describe your checklist",
+            "plural": "Describe your checklist",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec4":{
+            "original": "Attach a reference file",
+            "singular": "Attach a reference file",
+            "plural": "Attach a reference file",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec5":{
+            "original": "Completion Summary",
+            "singular": "Completion Summary",
+            "plural": "Completion Summary",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec6":{
+            "original": "Train Finley",
+            "singular": "Train Finley",
+            "plural": "Train Finley",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec7":{
+            "original": "Suggested Spare Parts",
+            "singular": "Suggested Spare Parts",
+            "plural": "Suggested Spare Parts",
+            "setupEdit": false,
+            "setupVisible": false
+          }
+        },
+        "fields":{
+          "setupEdit": false,
+          "setupVisible": false,
+          "enableAi":{
+            "original": "Enable AI suggestions",
+            "singular": "Enable AI suggestion",
+            "plural": "Enable AI suggestions",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "dailyJobRundown":{
+            "original": "Daily Job Rundown",
+            "singular": "Daily Job Rundown",
+            "plural": "Daily Job Rundown",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "postJobSummary": {
+            "original": "Post-Job Summary",
+            "singular": "Post-Job Summary",
+            "plural": "Post-Job Summaries",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "taskDurationSuggestion": {
+            "original": "Task Duration Suggestion",
+            "singular": "Task Duration Suggestion",
+            "plural": "Task Duration Suggestions",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "checklistGeneration": {
+            "original": "Checklist Generation",
+            "singular": "Checklist Generation",
+            "plural": "Checklist Generations",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "jobOrderNoteSuggestions": {
+            "original": "Job Order Note Suggestions",
+            "singular": "Job Order Note Suggestions",
+            "plural": "Job Order Note Suggestions",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "jobOrderSparePartSuggestions": {
+            "original": "Job Order Spare Part Suggestions",
+            "singular": "Job Order Spare Part Suggestions",
+            "plural": "Job Order Spare Part Suggestions",
+            "setupEdit": false,
+            "setupVisible": false
+          }
+        },
+        "messages":{
+          "moreDetailYouProvide":"The more detail you provide, the better the checklist will match your requirements.",
+          "convertYourPhysicalChecklist":"Convert your physical checklists and forms into a FieldEx checklist (PDF or PNG - up to 5 MB)",
+          "mentionDetailsConsidered":"Mention the asset, fields, and any other details to be considered",
+          "suggestedBy":"Suggested by Finley",
+          "completedBy":"Completed by",
+          "beta":"beta",
+          "enableOrDisableSuggestions":"Enable or disable suggestions and features powered by our friendly AI, Finley. Features that are enabled will be accessible to all users in your organization, allowing them to customize their preferences by turning specific features on or off.",
+          "aCategorizedSummary":"A categorized summary of your jobs for today.",
+          "conciseSummaryKeyDetails":"A concise summary of key details for completed job orders, displayed in the job order view",
+          "taskTimeSuggestions":"Task time suggestions based on previous job and task data.",
+          "useAiToGenerateChecklist":"Use AI to generate checklist questions from a brief prompt or sample forms.",
+          "web":"Web",
+          "mobile":"Mobile",
+          "uploadStoreManual":"Upload and store your manuals, guides, and reference files here to empower our AI to deliver tailored insights and suggestions throughout the application, customized specifically for your organization’s unique needs.",
+          "see":"See",
+          "tips":"Tips",
+          "onHowTo":"on how to make the most out of this feature.",
+          "storage":"Storage",
+          "allowAiSuggestJob":"Allow AI to suggest job completion steps based on the training materials you have uploaded to FieldEx.",
+          "allowAiSuggestJobSpareParts":"Allow AI to suggest job spare parts based on the training materials you have uploaded to FieldEx.",
+          "of":"of",
+          "selectAFileDropHere":"Select a file or drag and drop here",
+          "txtPdfNoMore15Mb":"TXT or PDF file size no more than 15MB",
+          "enableOrDisableSuggestionsOnly":"Enable or disable suggestions and features powered by our friendly AI, Finley.",
+          "featureEnableAccessible":"Features that are enabled will be accessible to all users in your organization, allowing them to customize their preferences by turning specific features on or off."
+        },
+        "validationFE": {
+          "onlyTxtPdfAllowed":"Only TXT or PDF files are allowed",
+          "fileSizeNotExceed15":"File size should not exceed 15MB"
         }
       }
     },

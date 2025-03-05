@@ -12158,6 +12158,34 @@
         "setupEdit": true,
         "setupVisible": false
       },
+      "discard":{
+        "original": "Discard",
+        "singular": "Verwerfen",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "createWithAi":{
+        "original": "Create with AI",
+        "singular": "Mit KI erstellen",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "smartSuggest":{
+        "original": "Smart Suggest",
+        "singular": "Intelligente Vorschläge",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "copyToTaskNotes":{
+        "original": "Copy to task notes",
+        "singular": "In Aufgabenhinweise kopieren",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
       "createViaTemplate":{
         "original": "Create via Template",
         "singular": "Erstellen über Vorlage",
@@ -16134,6 +16162,161 @@
           "runningNoDesc": "Das Format der laufenden Nummer ermöglicht es Ihnen, das automatische Nummernfeld für Ihre Formulare anzupassen. Dies umfasst Ersetzungsvariablen und beliebige Zeichen, die Sie als Präfix oder Suffix hinzufügen möchten.",
           "mapPicklistFields": "Ordnen Sie die Auswahllistenfelder zu, indem Sie ein übergeordnetes Feld auswählen und dann die erforderlichen Auswahllistenfelder dafür auswählen. Die zugeordneten Felder können Sie unten einsehen.",
           "addDescriptionHere": "Hier Beschreibung hinzufügen..."
+        }
+      },
+      "artificialIntelligence":{
+        "setupEdit": false,
+        "setupVisible": false,
+        "label":{
+          "original": "AI",
+          "singular": "KI",
+          "plural": "KI",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "sections":{
+          "setupEdit": false,
+          "setupVisible": false,
+          "sec0":{
+            "original": "Finley Suggestions",
+            "singular": "Finley-Vorschlag",
+            "plural": "Finley-Vorschläge",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec1":{
+            "original": "AI Suggestions",
+            "singular": "KI-Vorschlag",
+            "plural": "KI-Vorschläge",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec2":{
+            "original": "Auto-create a checklist with AI",
+            "singular": "Checkliste automatisch mit KI erstellen",
+            "plural": "Checklisten automatisch mit KI erstellen",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec3":{
+            "original": "Describe your checklist",
+            "singular": "Beschreiben Sie Ihre Checkliste",
+            "plural": "Beschreiben Sie Ihre Checklisten",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec4":{
+            "original": "Attach a reference file",
+            "singular": "Eine Referenzdatei anhängen",
+            "plural": "Referenzdateien anhängen",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec5":{
+            "original": "Completion Summary",
+            "singular": "Abschlusszusammenfassung",
+            "plural": "Abschlusszusammenfassungen",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec6":{
+            "original": "Train Finley",
+            "singular": "Finley trainieren",
+            "plural": "Finley trainieren",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec7":{
+            "original": "Suggested Spare Parts",
+            "singular": "Vorgeschlagene Ersatzteile",
+            "plural": "Vorgeschlagene Ersatzteile",
+            "setupEdit": false,
+            "setupVisible": false
+          }
+        },
+        "fields":{
+          "setupEdit": false,
+          "setupVisible": false,
+          "enableAi":{
+            "original": "Enable AI suggestions",
+            "singular": "KI-vorschlag aktivieren",
+            "plural": "KI-vorschläge aktivieren",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "dailyJobRundown":{
+            "original": "Daily Job Rundown",
+            "singular": "Tägliche Arbeitsübersicht",
+            "plural": "Tägliche Arbeitsübersichten",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "postJobSummary": {
+            "original": "Post-Job Summary",
+            "singular": "Nacharbeitszusammenfassung",
+            "plural": "Nacharbeitszusammenfassungen",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "taskDurationSuggestion": {
+            "original": "Task Duration Suggestion",
+            "singular": "Vorschlag zur Aufgabendauer",
+            "plural": "Vorschläge zur Aufgabendauer",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "checklistGeneration": {
+            "original": "Checklist Generation",
+            "singular": "Checklistenerstellung",
+            "plural": "Checklistenerstellungen",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "jobOrderNoteSuggestions": {
+            "original": "Job Order Note Suggestions",
+            "singular": "Vorschläge für Arbeitsauftragsnotizen",
+            "plural": "Vorschläge für Arbeitsauftragsnotizen",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "jobOrderSparePartSuggestions": {
+            "original": "Job Order Spare Part Suggestions",
+            "singular": "Vorschläge für Ersatzteile von Arbeitsaufträgen",
+            "plural": "Vorschläge für Ersatzteile von Arbeitsaufträgen",
+            "setupEdit": false,
+            "setupVisible": false
+          }
+        },
+        "messages":{
+          "moreDetailYouProvide":"Je mehr Details Sie angeben, desto besser wird die Checkliste Ihren Anforderungen entsprechen.",
+          "convertYourPhysicalChecklist":"Konvertieren Sie Ihre physischen Checklisten und Formulare in eine FieldEx-Checkliste (PDF oder PNG - bis zu 5 MB)",
+          "mentionDetailsConsidered":"Geben Sie die zu berücksichtigenden Vermögenswerte, Felder und andere Details an",
+          "suggestedBy":"Vorgeschlagen von Finley",
+          "completedBy":"Abgeschlossen von",
+          "beta":"beta",
+          "enableOrDisableSuggestions":"Aktivieren oder deaktivieren Sie Vorschläge und Funktionen, die von unserer freundlichen KI Finley unterstützt werden. Aktivierte Funktionen sind für alle Benutzer in Ihrer Organisation zugänglich, sodass sie ihre Präferenzen durch Ein- oder Ausschalten bestimmter Funktionen anpassen können.",
+          "aCategorizedSummary":"Eine kategorisierte Zusammenfassung Ihrer heutigen Aufgaben",
+          "conciseSummaryKeyDetails":"Eine prägnante Zusammenfassung der wichtigsten Details für abgeschlossene Arbeitsaufträge, angezeigt in der Arbeitsauftragsansicht.",
+          "taskTimeSuggestions":"Aufgabenzeitvorschläge basierend auf früheren Arbeits- und Aufgabendaten.",
+          "useAiToGenerateChecklist":"Verwenden Sie KI, um Checklistenfragen aus einer kurzen Eingabeaufforderung oder Musterformularen zu generieren.",
+          "web":"Web",
+          "mobile":"Mobil",
+          "uploadStoreManual":"Laden Sie hier Ihre Handbücher, Anleitungen und Referenzdateien hoch und speichern Sie sie, damit unsere KI maßgeschneiderte Einblicke und Vorschläge in der gesamten Anwendung liefern kann, die speziell auf die einzigartigen Bedürfnisse Ihrer Organisation zugeschnitten sind. Siehe",
+          "see":"Ansehen",
+          "tips":"Tipps",
+          "onHowTo":"wie Sie diese Funktion optimal nutzen können.",
+          "storage":"Speicher",
+          "allowAiSuggestJob":"Erlauben Sie der KI, Schritte zur Arbeitsfertigstellung basierend auf den Schulungsmaterialien vorzuschlagen, die Sie in FieldEx hochgeladen haben.",
+          "allowAiSuggestJobSpareParts":"Erlauben Sie der KI, Ersatzteile für den Job basierend auf den Schulungsmaterialien vorzuschlagen, die Sie in FieldEx hochgeladen haben.",
+          "of":"von",
+          "selectAFileDropHere":"Wählen Sie eine Datei aus oder ziehen Sie sie hierher",
+          "txtPdfNoMore15Mb":"TXT- oder PDF-Dateigröße nicht mehr als 15 MB",
+          "enableOrDisableSuggestionsOnly":"Aktivieren oder deaktivieren Sie Vorschläge und Funktionen, die von unserer freundlichen KI Finley unterstützt werden.",
+          "featureEnableAccessible":"Aktivierte Funktionen stehen allen Benutzern in Ihrer Organisation zur Verfügung und ermöglichen es ihnen, ihre Präferenzen anzupassen, indem sie bestimmte Funktionen ein- oder ausschalten."
+        },
+        "validationFE": {
+          "onlyTxtPdfAllowed":"Nur TXT- oder PDF-Dateien sind erlaubt",
+          "fileSizeNotExceed15":"Die Dateigröße darf 15MB nicht überschreiten"
         }
       }
     },
