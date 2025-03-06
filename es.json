@@ -3160,7 +3160,8 @@
       "newProductFamily": "Nueva Familia de Repuesto",
       "newProductType": "Nuevo Tipo de Repuesto",
       "subTotal": "Subtotal",
-      "totalAmount": "Monto Total"
+      "totalAmount": "Monto Total",
+      "deleteTaskTemplateRemoveSpareParts":"Eliminar esta plantilla de tarea también eliminará todas las piezas de repuesto asociadas"
     }
   },
   "task": {

@@ -3160,7 +3160,8 @@
       "newProductFamily": "新备件系列",
       "newProductType": "新备件类型",
       "subTotal": "小计",
-      "totalAmount": "总金额"
+      "totalAmount": "总金额",
+      "deleteTaskTemplateRemoveSpareParts":"删除此任务模板将同时移除所有相关的备件"
     }
   },
   "task": {
