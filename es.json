@@ -3167,7 +3167,8 @@
       "newProductFamily": "Nueva Familia de Repuesto",
       "newProductType": "Nuevo Tipo de Repuesto",
       "subTotal": "Subtotal",
-      "totalAmount": "Monto Total"
+      "totalAmount": "Monto Total",
+      "deleteTaskTemplateRemoveSpareParts":"Eliminar esta plantilla de tarea también eliminará todas las piezas de repuesto asociadas"
     }
   },
   "task": {
@@ -12199,13 +12200,6 @@
         "setupEdit": false,
         "setupVisible": false
       },
-      "createViaTemplate":{
-        "original": "Create via Template",
-        "singular": "Crear a través de Plantilla",
-        "plural": "",
-        "setupEdit": false,
-        "setupVisible": false
-      },
       "discard":{
         "original": "Discard",
         "singular": "Descartar",
@@ -12237,6 +12231,13 @@
       "copyToTaskNotes":{
         "original": "Copy to task notes",
         "singular": "Copiar a las notas de la tarea",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "createViaTemplate":{
+        "original": "Create via Template",
+        "singular": "Crear a través de Plantilla",
         "plural": "",
         "setupEdit": false,
         "setupVisible": false

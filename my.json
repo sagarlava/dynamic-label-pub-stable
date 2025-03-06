@@ -3167,7 +3167,8 @@
       "newProductFamily": "Keluarga Alat Ganti Baru",
       "newProductType": "Jenis Alat Ganti Baru",
       "subTotal": "Jumlah Kecil",
-      "totalAmount": "Jumlah Keseluruhan"
+      "totalAmount": "Jumlah Keseluruhan",
+      "deleteTaskTemplateRemoveSpareParts":"Menghapus templat tugas ini juga akan membuang semua alat ganti yang berkaitan"
     }
   },
   "task": {
@@ -12199,13 +12200,6 @@
         "setupEdit": false,
         "setupVisible": false
       },
-      "createViaTemplate":{
-        "original": "Create via Template",
-        "singular": "Cipta melalui Templat",
-        "plural": "",
-        "setupEdit": false,
-        "setupVisible": false
-      },
       "discard":{
         "original": "Discard",
         "singular": "Buang",
@@ -12237,6 +12231,13 @@
       "copyToTaskNotes":{
         "original": "Copy to task notes",
         "singular": "Salin ke nota tugasan",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "createViaTemplate":{
+        "original": "Create via Template",
+        "singular": "Cipta melalui Templat",
         "plural": "",
         "setupEdit": false,
         "setupVisible": false

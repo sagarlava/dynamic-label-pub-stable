@@ -3167,7 +3167,8 @@
       "newProductFamily": "新备件系列",
       "newProductType": "新备件类型",
       "subTotal": "小计",
-      "totalAmount": "总金额"
+      "totalAmount": "总金额",
+      "deleteTaskTemplateRemoveSpareParts":"删除此任务模板将同时移除所有相关的备件"
     }
   },
   "task": {
@@ -12199,13 +12200,6 @@
         "setupEdit": false,
         "setupVisible": false
       },
-      "createViaTemplate":{
-        "original": "Create via Template",
-        "singular": "通过模板创建",
-        "plural": "",
-        "setupEdit": false,
-        "setupVisible": false
-      },
       "discard":{
         "original": "Discard",
         "singular": "丢弃",
@@ -12237,6 +12231,13 @@
       "copyToTaskNotes":{
         "original": "Copy to task notes",
         "singular": "复制到任务备注",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "createViaTemplate":{
+        "original": "Create via Template",
+        "singular": "通过模板创建",
         "plural": "",
         "setupEdit": false,
         "setupVisible": false

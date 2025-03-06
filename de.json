@@ -3167,7 +3167,8 @@
       "newProductFamily": "Neue Ersatzteilfamilie",
       "newProductType": "Neuer Ersatzteiltyp",
       "subTotal": "Zwischensumme",
-      "totalAmount": "Gesamtbetrag"
+      "totalAmount": "Gesamtbetrag",
+      "deleteTaskTemplateRemoveSpareParts":"Das Löschen dieser Aufgaben-Vorlage entfernt auch alle zugehörigen Ersatzteile"
     }
   },
   "task": {
@@ -12199,13 +12200,6 @@
         "setupEdit": false,
         "setupVisible": false
       },
-      "createViaTemplate":{
-        "original": "Create via Template",
-        "singular": "Erstellen über Vorlage",
-        "plural": "",
-        "setupEdit": false,
-        "setupVisible": false
-      },
       "discard":{
         "original": "Discard",
         "singular": "Verwerfen",
@@ -12237,6 +12231,13 @@
       "copyToTaskNotes":{
         "original": "Copy to task notes",
         "singular": "In Aufgabenhinweise kopieren",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "createViaTemplate":{
+        "original": "Create via Template",
+        "singular": "Erstellen über Vorlage",
         "plural": "",
         "setupEdit": false,
         "setupVisible": false

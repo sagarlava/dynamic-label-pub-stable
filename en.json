@@ -3167,7 +3167,8 @@
       "newProductFamily":"New Spare Part Family",
       "newProductType":"New Spare Part Type",
       "subTotal": "Sub Total",
-      "totalAmount": "Total Amount"
+      "totalAmount": "Total Amount",
+      "deleteTaskTemplateRemoveSpareParts":"Deleting this task template will also remove all associated spare parts"
     }
   },
   "task": {
@@ -12199,13 +12200,6 @@
         "setupEdit": false,
         "setupVisible": false
       },
-      "createViaTemplate":{
-        "original": "Create via Template",
-        "singular": "Create via Template",
-        "plural": "",
-        "setupEdit": false,
-        "setupVisible": false
-      },
       "discard":{
         "original": "Discard",
         "singular": "Discard",
@@ -12237,6 +12231,13 @@
       "copyToTaskNotes":{
         "original": "Copy to task notes",
         "singular": "Copy to task notes",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "createViaTemplate":{
+        "original": "Create via Template",
+        "singular": "Create via Template",
         "plural": "",
         "setupEdit": false,
         "setupVisible": false
