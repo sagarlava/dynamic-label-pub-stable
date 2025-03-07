@@ -969,6 +969,34 @@
         "plural": "",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "allAssets": {
+        "original": "All Assets",
+        "singular": "所有资产",
+        "plural": "所有资产",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "groupByParent": {
+        "original": "Group by Parent",
+        "singular": "按父级分组",
+        "plural": "按父级分组",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "assetsByParent": {
+        "original": "Assets by Parent",
+        "singular": "按父级分类的资产",
+        "plural": "按父级分类的资产",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "parent": {
+        "original": "Parent",
+        "singular": "父级",
+        "plural": "父级",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "validationFE": {},

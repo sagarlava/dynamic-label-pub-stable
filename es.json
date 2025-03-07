@@ -969,6 +969,34 @@
         "plural": "",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "allAssets": {
+        "original": "All Assets",
+        "singular": "Todos los activos",
+        "plural": "Todos los activos",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "groupByParent": {
+        "original": "Group by Parent",
+        "singular": "Agrupar por padre",
+        "plural": "Agrupar por padres",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "assetsByParent": {
+        "original": "Assets by Parent",
+        "singular": "Activos por padre",
+        "plural": "Activos por padres",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "parent": {
+        "original": "Parent",
+        "singular": "Padre",
+        "plural": "Padres",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "validationFE": {},

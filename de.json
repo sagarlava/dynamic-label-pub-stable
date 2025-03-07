@@ -969,6 +969,34 @@
         "plural": "",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "allAssets": {
+        "original": "All Assets",
+        "singular": "Alle Assets",
+        "plural": "Alle Assets",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "groupByParent": {
+        "original": "Group by Parent",
+        "singular": "Nach übergeordnetem Element gruppieren",
+        "plural": "Nach übergeordneten Elementen gruppieren",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "assetsByParent": {
+        "original": "Assets by Parent",
+        "singular": "Assets nach übergeordnetem Element",
+        "plural": "Assets nach übergeordneten Elementen",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "parent": {
+        "original": "Parent",
+        "singular": "Übergeordnetes Element",
+        "plural": "Übergeordnete Elemente",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "validationFE": {},

@@ -969,6 +969,34 @@
         "plural": "",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "allAssets": {
+        "original": "All Assets",
+        "singular": "All Asset",
+        "plural": "All Assets",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "groupByParent": {
+        "original": "Group by Parent",
+        "singular": "Group by Parent",
+        "plural": "Group by Parent",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "assetsByParent": {
+        "original": "Assets by Parent",
+        "singular": "Assets by Parent",
+        "plural": "Assets by Parent",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "parent": {
+        "original": "Parent",
+        "singular": "Parent",
+        "plural": "Parents",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "validationFE": {},
