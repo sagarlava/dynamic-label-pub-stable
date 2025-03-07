@@ -9642,7 +9642,8 @@
       "binTransferSavedSuccessfully":"Bin Transfer saved successfully",
       "assetsTransferred":"Asset(s) transferred",
       "productsTransferred":"Spare Part(s) transferred",
-      "assetsAreNotAllowedToTransfer": "Assets are not allowed to transfer to Job order"
+      "assetsAreNotAllowedToTransfer": "Assets are not allowed to transfer to Job order",
+      "selectAssetsToTransfer":"Select the assets you want to transfer"
     }
   },
   "checkAvailibility": {

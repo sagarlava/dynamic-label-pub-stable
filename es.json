@@ -9642,7 +9642,8 @@
       "binTransferSavedSuccessfully": "Transferencia de Contenedor guardada con éxito",
       "assetsTransferred": "Activo(s) transferido(s)",
       "productsTransferred": "Pieza(s) de Repuesto transferida(s)",
-      "assetsAreNotAllowedToTransfer": "No se permite transferir activos a la orden de trabajo"
+      "assetsAreNotAllowedToTransfer": "No se permite transferir activos a la orden de trabajo",
+      "selectAssetsToTransfer":"Seleccione los activos que desea transferir"
     }
   },
   "checkAvailibility": {

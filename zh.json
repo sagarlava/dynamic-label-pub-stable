@@ -9642,7 +9642,8 @@
       "binTransferSavedSuccessfully": "仓位转移保存成功",
       "assetsTransferred": "资产已转移",
       "productsTransferred": "备件已转移",
-      "assetsAreNotAllowedToTransfer": "资产不允许转移到工作订单"
+      "assetsAreNotAllowedToTransfer": "资产不允许转移到工作订单",
+      "selectAssetsToTransfer":"选择要转移的资产"
     }
   },
   "checkAvailibility": {
