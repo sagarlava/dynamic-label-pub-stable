@@ -12311,7 +12311,14 @@
         "plural": "转移资产",
         "setupEdit": false,
         "setupVisible": false
-      }		
+      },
+      "addAsset":{
+        "original": "Add Asset",
+        "singular": "添加资产",
+        "plural": "添加资产",
+        "setupEdit": false,
+        "setupVisible": false
+      }			
     },
     "status": {
       "setupVisible": true,

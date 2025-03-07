@@ -12311,6 +12311,13 @@
         "plural": "Transfer Asset",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "addAsset":{
+        "original": "Add Asset",
+        "singular": "Add Asset",
+        "plural": "Add Asset",
+        "setupEdit": false,
+        "setupVisible": false
       }	
     },
     "status": {

@@ -12311,7 +12311,14 @@
         "plural": "Transferir Activos",
         "setupEdit": false,
         "setupVisible": false
-      }		
+      },
+      "addAsset":{
+        "original": "Add Asset",
+        "singular": "Añadir Activo",
+        "plural": "Añadir Activos",
+        "setupEdit": false,
+        "setupVisible": false
+      }			
     },
     "status": {
       "setupVisible": false,
