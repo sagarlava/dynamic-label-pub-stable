@@ -4484,7 +4484,8 @@
       "userTaskIdExists": "Tugas Pengguna baru tidak boleh sudah mempunyai ID",
       "userTaskIdNotFound": "ID tidak dijumpai",
       "userTaskNotFound": "Tugas Pengguna tidak dijumpai",
-      "userNotAllowedToAssignTask": "Pengguna tidak dibenarkan menambah ahli kepada Tugas"
+      "userNotAllowedToAssignTask": "Pengguna tidak dibenarkan menambah ahli kepada Tugas",
+      "taskNoteRequired": "Nota tugas diperlukan tetapi tidak diberikan"
     },
     "tooltips": {
       "setupVisible": false,

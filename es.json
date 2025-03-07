@@ -4484,7 +4484,8 @@
       "userTaskIdExists": "Una nueva Tarea de Usuario no puede tener ya un ID",
       "userTaskIdNotFound": "ID no encontrado",
       "userTaskNotFound": "Tarea de Usuario no encontrada",
-      "userNotAllowedToAssignTask": "Usuario no tiene permitido agregar miembros a la tarea"
+      "userNotAllowedToAssignTask": "Usuario no tiene permitido agregar miembros a la tarea",
+      "taskNoteRequired": "Se requiere la nota de la tarea, pero no se ha proporcionado"
     },
     "tooltips": {
       "setupVisible": false,
