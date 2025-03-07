@@ -1241,6 +1241,13 @@
         "plural": "",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "pendingTransfer": {
+        "original": "Show only Assets with a pending transfer",
+        "singular": "Nur Assets mit ausstehender Übertragung anzeigen",
+        "plural": "SNur Assets mit ausstehenden Übertragungen anzeigen",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "messages": {

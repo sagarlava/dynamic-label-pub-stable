@@ -1241,6 +1241,13 @@
         "plural": "",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "pendingTransfer": {
+        "original": "Show only Assets with a pending transfer",
+        "singular": "仅显示具有待处理转移的资产",
+        "plural": "仅显示具有待处理转移的资产",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "messages": {
