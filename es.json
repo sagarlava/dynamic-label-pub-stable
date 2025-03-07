@@ -9426,6 +9426,13 @@
         "plural": "Transferencias por activos",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "sec16": {
+        "original": "Add Assets Via Serial Number",
+        "singular": "Agregar activos mediante número de serie",
+        "plural": "Agregar activos mediante números de serie",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "fields": {
