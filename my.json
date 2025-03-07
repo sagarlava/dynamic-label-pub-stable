@@ -12303,6 +12303,13 @@
         "plural": "Paparan Kumpulan",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "transferAsset":{
+        "original": "Transfer Asset",
+        "singular": "Pindahkan Aset",
+        "plural": "Pindahkan Aset",
+        "setupEdit": false,
+        "setupVisible": false
       }	
     },
     "status": {

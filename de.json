@@ -12303,7 +12303,14 @@
         "plural": "Gruppenansichten",
         "setupEdit": false,
         "setupVisible": false
-      }	
+      },
+      "transferAsset":{
+        "original": "Transfer Asset",
+        "singular": "Asset übertragen",
+        "plural": "Assets übertragen",
+        "setupEdit": false,
+        "setupVisible": false
+      }		
     },
     "status": {
       "setupVisible": false,

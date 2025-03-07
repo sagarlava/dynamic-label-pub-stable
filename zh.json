@@ -12303,7 +12303,14 @@
         "plural": "分组视图",
         "setupEdit": false,
         "setupVisible": false
-      }	
+      },
+      "transferAsset":{
+        "original": "Transfer Asset",
+        "singular": "转移资产",
+        "plural": "转移资产",
+        "setupEdit": false,
+        "setupVisible": false
+      }		
     },
     "status": {
       "setupVisible": true,
