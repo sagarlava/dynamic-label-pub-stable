@@ -12318,7 +12318,14 @@
         "plural": "Añadir Activos",
         "setupEdit": false,
         "setupVisible": false
-      }			
+      },
+      "openExternally":{
+        "original": "Open Externally",
+        "singular": "Abrir externamente",
+        "plural": "Abrir externamente",
+        "setupEdit": false,
+        "setupVisible": false
+      }				
     },
     "status": {
       "setupVisible": false,

@@ -12318,7 +12318,14 @@
         "plural": "添加资产",
         "setupEdit": false,
         "setupVisible": false
-      }			
+      },
+      "openExternally":{
+        "original": "Open Externally",
+        "singular": "外部打开",
+        "plural": "外部打开",
+        "setupEdit": false,
+        "setupVisible": false
+      }				
     },
     "status": {
       "setupVisible": true,

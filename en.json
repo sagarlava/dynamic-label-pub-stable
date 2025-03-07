@@ -12318,6 +12318,13 @@
         "plural": "Add Asset",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "openExternally":{
+        "original": "Open Externally",
+        "singular": "Open Externally",
+        "plural": "Open Externally",
+        "setupEdit": false,
+        "setupVisible": false
       }	
     },
     "status": {

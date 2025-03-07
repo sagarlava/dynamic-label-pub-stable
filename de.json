@@ -12318,7 +12318,14 @@
         "plural": "Assets hinzufügen",
         "setupEdit": false,
         "setupVisible": false
-      }			
+      },
+      "openExternally":{
+        "original": "Open Externally",
+        "singular": "Extern öffnen",
+        "plural": "Extern öffnen",
+        "setupEdit": false,
+        "setupVisible": false
+      }				
     },
     "status": {
       "setupVisible": false,
