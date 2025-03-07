@@ -12325,7 +12325,14 @@
         "plural": "外部打开",
         "setupEdit": false,
         "setupVisible": false
-      }				
+      },
+      "pasteSerialNumbers":{
+        "original": "Paste Serial Numbers",
+        "singular": "粘贴序列号",
+        "plural": "粘贴序列号",
+        "setupEdit": false,
+        "setupVisible": false
+      }			
     },
     "status": {
       "setupVisible": true,

@@ -12325,7 +12325,14 @@
         "plural": "Buka Secara Luaran",
         "setupEdit": false,
         "setupVisible": false
-      }	
+      },
+      "pasteSerialNumbers":{
+        "original": "Paste Serial Numbers",
+        "singular": "Tampal Nombor Siri",
+        "plural": "Tampal Nombor Siri",
+        "setupEdit": false,
+        "setupVisible": false
+      }
     },
     "status": {
       "setupVisible": true,

@@ -12325,6 +12325,13 @@
         "plural": "Extern öffnen",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "pasteSerialNumbers":{
+        "original": "Paste Serial Numbers",
+        "singular": "Seriennummern einfügen",
+        "plural": "Seriennummern einfügen",
+        "setupEdit": false,
+        "setupVisible": false
       }				
     },
     "status": {
