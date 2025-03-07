@@ -997,6 +997,13 @@
         "plural": "父级",
         "setupEdit": false,
         "setupVisible": false
+      }, 
+      "pendingTransfer": {
+        "original": "Pending Transfers",
+        "singular": "待处理转移",
+        "plural": "待处理转移",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "validationFE": {},

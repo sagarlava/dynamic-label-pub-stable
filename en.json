@@ -997,6 +997,13 @@
         "plural": "Parents",
         "setupEdit": false,
         "setupVisible": false
+      }, 
+      "pendingTransfer": {
+        "original": "Pending Transfers",
+        "singular": "Pending Transfer",
+        "plural": "Pending Transfers",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "validationFE": {},
