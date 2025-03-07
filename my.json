@@ -10862,6 +10862,27 @@
         "plural": "",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "transferredBy": {
+        "original": "Transferred By",
+        "singular": "Dipindahkan Oleh",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "transferredDate": {
+        "original": "Transferred Date",
+        "singular": "Tarikh Pemindahan",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "transferNo": {
+        "original": "Transfer No.",
+        "singular": "No. Pemindahan",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
       }
     }
   },

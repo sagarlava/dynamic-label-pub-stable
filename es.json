@@ -10862,6 +10862,27 @@
         "plural": "",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "transferredBy": {
+        "original": "Transferred By",
+        "singular": "Transferido por",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "transferredDate": {
+        "original": "Transferred Date",
+        "singular": "Fecha de transferencia",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "transferNo": {
+        "original": "Transfer No.",
+        "singular": "N.º de transferencia",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
       }
     }
   },
