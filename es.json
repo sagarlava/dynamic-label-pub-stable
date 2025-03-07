@@ -9304,284 +9304,285 @@
     }
   },
   "binTransfer": {
+    "setupEdit": false,
     "setupVisible": false,
     "label": {
       "original": "Bin Transfer",
       "singular": "Transferencia de Contenedor",
       "plural": "Transferencias de Contenedor",
-      "setupEdit": true,
-      "setupVisible": true
+      "setupEdit": false,
+      "setupVisible": false
     },
     "sections": {
-      "setupVisible": true,
+      "setupVisible": false,
       "sec0": {
         "original": "Transfer Details",
         "singular": "Detalles de la Transferencia",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "sec1": {
         "original": "Location Bin Details",
         "singular": "Detalles del Contenedor en la Ubicación",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "sec2": {
         "original": "User Details",
         "singular": "Detalles del Usuario",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "sec3": {
         "original": "Transfer by Bin",
         "singular": "Transferir por Contenedor",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "sec4": {
         "original": "Assignee Details",
         "singular": "Detalles del Asignado",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "sec5": {
         "original": "Transferred Items",
         "singular": "Artículos Transferidos",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "sec6": {
         "original": "Decline Transfer",
         "singular": "Rechazar Transferencia",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "sec7": {
         "original": "Transfer by Spare Part",
         "singular": "Transferir por Pieza de Repuesto",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "sec8": {
         "original": "Transaction Details",
         "singular": "Detalles de la Transacción",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "sec9": {
         "original": "Product/Assets Transfer",
         "singular": "Transferencia de Productos/Activos",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "sec10": {
         "original": "Transfer",
         "singular": "Transferir",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "sec11": {
         "original": "Locate",
         "singular": "Localizar",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "sec12": {
         "original": "Movement History",
         "singular": "Historial de movimientos",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "sec13": {
         "original": "Asset(s) to Transfer",
         "singular": "Activo(s) a transferir",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "sec14": {
         "original": "Part(s) to Transfer",
         "singular": "Parte(s) a transferir",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "fields": {
-      "setupVisible": true,
+      "setupVisible": false,
       "approvalStatus": {
         "original": "Approval Status",
         "singular": "Estado de Aprobación",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "fromBin": {
         "original": "From Bin",
         "singular": "Desde el Contenedor",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "toBin": {
         "original": "To Bin",
         "singular": "Al Contenedor",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "referenceNumber": {
         "original": "Reference Number",
         "singular": "Número de Referencia",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "notes": {
         "original": "Notes",
         "singular": "Nota",
         "plural": "Notas",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "productName": {
         "original": "Spare Part Name",
         "singular": "Nombre de la Pieza de Repuesto",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "assetName": {
         "original": "Asset Name",
         "singular": "Nombre del Activo",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "sku": {
         "original": "SKU",
         "singular": "SKU",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "qtyAvailable": {
         "original": "Quantity Available",
         "singular": "Cantidad Disponible",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "qtyTransfer": {
         "original": "Quantity to Transfer",
         "singular": "Cantidad a Transferir",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "transferNo": {
         "original": "Transfer No.",
         "singular": "N° de Transferencia",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "date": {
         "original": "Date",
         "singular": "Fecha",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "referenceNo": {
         "original": "Reference Number",
         "singular": "Número de Referencia",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "type": {
         "original": "Type",
         "singular": "Tipo",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "transferredBy": {
         "original": "Transferred By",
         "singular": "Transferido Por",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "assignedStatus": {
         "original": "Assigned Status",
         "singular": "Estado Asignado",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "assignedTo": {
         "original": "Assigned To",
         "singular": "Asignado A",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "transferredDateTime": {
         "original": "Transferred Date & Time",
         "singular": "Fecha y Hora de Transferencia",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "acceptedRejectedBy": {
         "original": "Accepted/Rejected By",
         "singular": "Aceptado/Rechazado Por",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "remarks": {
         "original": "Remark",
         "singular": "Observación",
         "plural": "Observaciones",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "userBin": {
         "original": "User Bin",
         "singular": "Contenedor del Usuario",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "locationBin": {
         "original": "Location Bin",
         "singular": "Contenedor de Ubicación",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "acceptedDate": {
         "original": "Accepted Date",
         "singular": "Fecha de Aceptación",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "tooltips": {
@@ -9589,8 +9590,8 @@
         "original": "Bin Lookup",
         "singular": "Búsqueda de Contenedor",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "validationBE": {

@@ -9304,284 +9304,285 @@
     }
   },
   "binTransfer": {
+    "setupEdit": false,
     "setupVisible": false,
     "label": {
       "original": "Transfer",
       "singular": "Transfer",
       "plural": "Transfers",
-      "setupEdit": true,
-      "setupVisible": true
+      "setupEdit": false,
+      "setupVisible": false
     },
     "sections": {
-      "setupVisible": true,
+      "setupVisible": false,
       "sec0": {
         "original": "Transfer Details",
         "singular": "Transfer Details",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "sec1": {
         "original": "Location Bin Details",
         "singular": "Location Bin Details",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "sec2": {
         "original": "User Details",
         "singular": "User Details",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "sec3": {
         "original": "Transfer by Bin",
         "singular": "Transfer by Bin",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "sec4": {
         "original": "Assignee Details",
         "singular": "Assignee Details",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "sec5": {
         "original": "Transferred Items",
         "singular": "Transferred Items",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "sec6": {
         "original": "Decline Transfer",
         "singular": "Decline Transfer",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "sec7": {
         "original": "Transfer by Spare Part",
         "singular": "Transfer by Spare Part",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "sec8": {
         "original": "Transaction Details",
         "singular": "Transaction Details",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "sec9": {
         "original": "Spare Part/Assets Transfer",
         "singular": "Spare Part/Assets Transfer",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "sec10": {
         "original": "Transfer",
         "singular": "Transfer",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "sec11": {
         "original": "Locate",
         "singular": "Locate",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "sec12": {
         "original": "Movement History",
         "singular": "Movement History",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "sec13": {
         "original": "Asset(s) to Transfer",
         "singular": "Asset(s) to Transfer",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "sec14": {
         "original": "Part(s) to Transfer",
         "singular": "Part(s) to Transfer",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "fields": {
-      "setupVisible": true,
+      "setupVisible": false,
       "approvalStatus": {
         "original": "Approval Status",
         "singular": "Approval Status",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "fromBin": {
         "original": "From Bin",
         "singular": "From Bin",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "toBin": {
         "original": "To Bin",
         "singular": "To Bin",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "referenceNumber": {
         "original": "Reference Number",
         "singular": "Reference Number",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "notes": {
         "original": "Notes",
         "singular": "Note",
         "plural": "Notes",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "productName": {
         "original": "Spare Part Name",
         "singular": "Spare Part Name",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "assetName": {
         "original": "Asset Name",
         "singular": "Asset Name",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "sku": {
         "original": "SKU",
         "singular": "SKU",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "qtyAvailable": {
         "original": "Quantity Available",
         "singular": "Quantity Available",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "qtyTransfer": {
         "original": "Quantity to Transfer",
         "singular": "Quantity to Transfer",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "transferNo": {
         "original": "Transfer No.",
         "singular": "Transfer No.",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "date": {
         "original": "Date",
         "singular": "Date",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "referenceNo": {
         "original": "Reference Number",
         "singular": "Reference Number",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "type": {
         "original": "Type",
         "singular": "Type",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "transferredBy": {
         "original": "Transferred By",
         "singular": "Transferred By",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "assignedStatus": {
         "original": "Assigned Status",
         "singular": "Assigned Status",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "assignedTo": {
         "original": "Assigned To",
         "singular": "Assigned To",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "transferredDateTime": {
         "original": "Transferred Date & Time",
         "singular": "Transferred Date & Time",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "acceptedRejectedBy": {
         "original": "Accepted/Rejected By",
         "singular": "Accepted/Rejected By",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "remarks": {
         "original": "Remark",
         "singular": "Remark",
         "plural": "Remarks",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "userBin": {
         "original": "User Bin",
         "singular": "User Bin",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "locationBin": {
         "original": "Location Bin",
         "singular": "Location Bin",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "acceptedDate": {
         "original": "Accepted Date",
         "singular": "Accepted Date",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "tooltips": {
@@ -9589,8 +9590,8 @@
         "original": "Bin Lookup",
         "singular": "Bin Lookup",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "validationBE": {

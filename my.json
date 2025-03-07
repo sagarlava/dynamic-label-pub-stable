@@ -9304,284 +9304,285 @@
     }
   },
   "binTransfer": {
+    "setupEdit": false,
     "setupVisible": false,
     "label": {
       "original": "Bin Transfer",
       "singular": "Pemindahan",
       "plural": "Pemindahan",
-      "setupEdit": true,
-      "setupVisible": true
+      "setupEdit": false,
+      "setupVisible": false
     },
     "sections": {
-      "setupVisible": true,
+      "setupVisible": false,
       "sec0": {
         "original": "Transfer Details",
         "singular": "Butiran Pemindahan",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "sec1": {
         "original": "Location Bin Details",
         "singular": "Butiran Lokasi Bin",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "sec2": {
         "original": "User Details",
         "singular": "Butiran Pengguna",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "sec3": {
         "original": "Transfer by Bin",
         "singular": "Pemindahan oleh Bin",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "sec4": {
         "original": "Assignee Details",
         "singular": "Butiran Penerima",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "sec5": {
         "original": "Transferred Items",
         "singular": "Item yang Dipindahkan",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "sec6": {
         "original": "Decline Transfer",
         "singular": "Tolak Pemindahan",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "sec7": {
         "original": "Transfer by Spare Part",
         "singular": "Pemindahan oleh Alat Ganti",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "sec8": {
         "original": "Transaction Details",
         "singular": "Butiran Transaksi",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "sec9": {
         "original": "Spare Part/Assets Transfer",
         "singular": "Pemindahan Alat Ganti/Aset",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "sec10": {
         "original": "Transfer",
         "singular": "Pemindahan",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "sec11": {
         "original": "Locate",
         "singular": "Lokasi",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "sec12": {
         "original": "Movement History",
         "singular": "Sejarah Pergerakan",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "sec13": {
         "original": "Asset(s) to Transfer",
         "singular": "Aset untuk Dipindahkan",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "sec14": {
         "original": "Part(s) to Transfer",
         "singular": "Bahagian untuk Dipindahkan",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "fields": {
-      "setupVisible": true,
+      "setupVisible": false,
       "approvalStatus": {
         "original": "Approval Status",
         "singular": "Status Kelulusan",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "fromBin": {
         "original": "From Bin",
         "singular": "Dari Bin",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "toBin": {
         "original": "To Bin",
         "singular": "Ke Bin",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "referenceNumber": {
         "original": "Reference Number",
         "singular": "Nombor Rujukan",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "notes": {
         "original": "Notes",
         "singular": "Nota",
         "plural": "Nota",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "productName": {
         "original": "Spare Part Name",
         "singular": "Nama Alat Ganti",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "assetName": {
         "original": "Asset Name",
         "singular": "Nama Aset",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "sku": {
         "original": "SKU",
         "singular": "SKU",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "qtyAvailable": {
         "original": "Quantity Available",
         "singular": "Kuantiti Tersedia",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "qtyTransfer": {
         "original": "Quantity to Transfer",
         "singular": "Kuantiti untuk Dipindahkan",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "transferNo": {
         "original": "Transfer No.",
         "singular": "No. Pemindahan",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "date": {
         "original": "Date",
         "singular": "Tarikh",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "referenceNo": {
         "original": "Reference Number",
         "singular": "Nombor Rujukan",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "type": {
         "original": "Type",
         "singular": "Jenis",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "transferredBy": {
         "original": "Transferred By",
         "singular": "Dipindahkan Oleh",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "assignedStatus": {
         "original": "Assigned Status",
         "singular": "Status Ditugaskan",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "assignedTo": {
         "original": "Assigned To",
         "singular": "Ditugaskan Kepada",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "transferredDateTime": {
         "original": "Transferred Date & Time",
         "singular": "Tarikh & Masa Pemindahan",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "acceptedRejectedBy": {
         "original": "Accepted/Rejected By",
         "singular": "Diterima/Ditolak Oleh",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "remarks": {
         "original": "Remark",
         "singular": "Catatan",
         "plural": "Catatan",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "userBin": {
         "original": "User Bin",
         "singular": "Bin Pengguna",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "locationBin": {
         "original": "Location Bin",
         "singular": "Lokasi Bin",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "acceptedDate": {
         "original": "Accepted Date",
         "singular": "Tarikh Diterima",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "tooltips": {
@@ -9589,8 +9590,8 @@
         "original": "Bin Lookup",
         "singular": "Carian Bin",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "validationBE": {
