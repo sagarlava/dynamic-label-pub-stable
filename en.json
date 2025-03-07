@@ -9643,7 +9643,8 @@
       "assetsTransferred":"Asset(s) transferred",
       "productsTransferred":"Spare Part(s) transferred",
       "assetsAreNotAllowedToTransfer": "Assets are not allowed to transfer to Job order",
-      "selectAssetsToTransfer":"Select the assets you want to transfer"
+      "selectAssetsToTransfer":"Select the assets you want to transfer",
+      "selectBinToTransferAssets":"Select the bin you want to transfer the assets to"
     }
   },
   "checkAvailibility": {
