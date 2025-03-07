@@ -11199,10 +11199,10 @@
         "setupVisible": false
       },
       "transferByProducts": {
-        "original": "Transfer by Spare Parts",
-        "singular": "Übertragung nach Ersatzteilen",
+        "original": "Transfer Spare Parts",
+        "singular": "Ersatzteile übertragen",
         "plural": "",
-        "setupEdit": true,
+        "setupEdit": false,
         "setupVisible": false
       },
       "transferByBin": {

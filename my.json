@@ -11199,10 +11199,10 @@
         "setupVisible": false
       },
       "transferByProducts": {
-        "original": "Transfer by Products",
-        "singular": "Pindahkan Mengikut Alat Ganti",
+        "original": "Transfer Spare Parts",
+        "singular": "Pindahkan Alat Ganti",
         "plural": "",
-        "setupEdit": true,
+        "setupEdit": false,
         "setupVisible": false
       },
       "transferByBin": {

@@ -11199,10 +11199,10 @@
         "setupVisible": false
       },
       "transferByProducts": {
-        "original": "Transfer by Products",
-        "singular": "按备件转移",
+        "original": "Transfer Spare Parts",
+        "singular": "转移备件",
         "plural": "",
-        "setupEdit": true,
+        "setupEdit": false,
         "setupVisible": false
       },
       "transferByBin": {
