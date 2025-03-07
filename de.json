@@ -9590,6 +9590,20 @@
       "plural": "",
       "setupEdit": false,
       "setupVisible": false
+    },
+    "transferToBin": {
+      "original": "Transfer to Bin",
+      "singular": "In Behälter übertragen",
+      "plural": "",
+      "setupEdit": false,
+      "setupVisible": false
+    },
+    "transferToUser": {
+      "original": "Transfer to User",
+      "singular": "An Benutzer übertragen",
+      "plural": "",
+      "setupEdit": false,
+      "setupVisible": false
     }
   },
   "tooltips": {
