@@ -9048,6 +9048,13 @@
         "plural": "",
         "setupEdit": false,
         "setupVisible": false
+      }, 
+      "pendingTransfer": {
+        "original": "Pending Transfers",
+        "singular": "Pemindahan Tertunda",
+        "plural": "Pemindahan Tertunda",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "validationFE": {

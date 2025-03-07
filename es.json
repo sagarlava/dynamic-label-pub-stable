@@ -9048,6 +9048,13 @@
         "plural": "",
         "setupEdit": false,
         "setupVisible": false
+      }, 
+      "pendingTransfer": {
+        "original": "Pending Transfers",
+        "singular": "Transferencia pendiente",
+        "plural": "Transferencias pendientes",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "validationFE": {
