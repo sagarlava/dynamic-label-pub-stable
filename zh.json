@@ -9433,6 +9433,13 @@
         "plural": "通过序列号添加资产",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "sec17": {
+        "original": "Transfer by Spare Parts",
+        "singular": "按备件转移",
+        "plural": "按备件转移",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "fields": {
