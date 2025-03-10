@@ -9630,7 +9630,8 @@
     }
   },
   "validationFE": {
-    "assetNotFound": "Asset nicht gefunden"
+    "assetNotFound": "Asset nicht gefunden",
+      "addAtLeastOneAsset":"Fügen Sie mindestens ein Asset hinzu, um fortzufahren"
   },
   "validationBE": {
     "binTransferIdExists": "Eine neue Lagerübertragung kann nicht bereits eine ID haben",
