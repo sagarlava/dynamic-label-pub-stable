@@ -9744,7 +9744,8 @@
       "selectAssetsToBeTransferred":"Seleccione los activos a transferir",
       "selectSparePartsToBeTransferred":"Seleccione los repuestos a transferir",
       "selectBinTransferSparePartFrom":"Seleccione el contenedor desde el cual desea transferir repuestos",
-      "selectBinToTransferSpareParts":"Seleccione el contenedor al que desea transferir los repuestos"
+      "selectBinToTransferSpareParts":"Seleccione el contenedor al que desea transferir los repuestos",
+      "specifySparePartQuantity":"Puede especificar la cantidad de repuestos en el siguiente paso"
     }
   },
   "checkAvailibility": {
