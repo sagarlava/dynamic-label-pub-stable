@@ -9632,7 +9632,8 @@
   "validationFE": {
     "assetNotFound": "Asset nicht gefunden",
       "addAtLeastOneAsset":"Fügen Sie mindestens ein Asset hinzu, um fortzufahren",
-      "oneSelectionToProceed":"Wählen Sie mindestens eine Option aus, um fortzufahren"
+      "oneSelectionToProceed":"Wählen Sie mindestens eine Option aus, um fortzufahren",
+      "exceededTotalSerialNoAdded":"Sie haben die maximale Anzahl an Seriennummern überschritten, die auf einmal hinzugefügt werden können. Bitte geben Sie nur bis zu 50 Seriennummern ein."
   },
   "validationBE": {
     "binTransferIdExists": "Eine neue Lagerübertragung kann nicht bereits eine ID haben",
