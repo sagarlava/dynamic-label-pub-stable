@@ -9611,6 +9611,13 @@
         "plural": "",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "removeSelectedAsset": {
+        "original": "Remove selected assets from their respective bins",
+        "singular": "Remove selected assets from their respective bins",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "tooltips": {

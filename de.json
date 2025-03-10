@@ -9620,6 +9620,13 @@
       "plural": "",
       "setupEdit": false,
       "setupVisible": false
+    },
+    "removeSelectedAsset": {
+      "original": "Remove selected assets from their respective bins",
+      "singular": "Ausgewählte Assets aus ihren jeweiligen Behältern entfernen",
+      "plural": "",
+      "setupEdit": false,
+      "setupVisible": false
     }
   },
   "validationFE": {

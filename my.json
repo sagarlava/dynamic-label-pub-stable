@@ -9611,6 +9611,13 @@
         "plural": "",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "removeSelectedAsset": {
+        "original": "Remove selected assets from their respective bins",
+        "singular": "Buang aset terpilih dari tong masing-masing",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "tooltips": {
