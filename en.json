@@ -9705,6 +9705,7 @@
       "selectBinToTransferAboveAsset":"Select the bin you want to transfer the above asset to",
       "typePasteSerialNumbers":"Type or paste serial numbers of the assets you want to transfer with a maximum of 50 serial numbers at a time. Note: Separate serial numbers with ',' or a new line.",
       "inputSerialNumbers":"Type or paste serial numbers of the assets you want to transfer with a maximum of 50 serial numbers at a time.",
+      "inputSKU":"Type or paste SKUs of the spare parts you want to transfer with a maximum of 50 SKUs at a time. ",
       "serialNumberNote":"Note",
       "serialNumberSeparation":"Separate serial numbers with ',' or a new line.",
       "transferCompletedImmediately":"This transfer will be completed immediately.",
