@@ -12391,6 +12391,13 @@
         "plural": "Paste Serial Numbers",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "pasteSku":{
+        "original": "Paste SKU",
+        "singular": "Paste SKU",
+        "plural": "Paste SKU",
+        "setupEdit": false,
+        "setupVisible": false
       }	
     },
     "status": {

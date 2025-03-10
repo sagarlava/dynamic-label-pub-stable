@@ -12391,7 +12391,14 @@
         "plural": "粘贴序列号",
         "setupEdit": false,
         "setupVisible": false
-      }			
+      },
+      "pasteSku":{
+        "original": "Paste SKU",
+        "singular": "粘贴 SKU",
+        "plural": "粘贴 SKU",
+        "setupEdit": false,
+        "setupVisible": false
+      }		
     },
     "status": {
       "setupVisible": true,

@@ -12391,7 +12391,14 @@
         "plural": "Tampal Nombor Siri",
         "setupEdit": false,
         "setupVisible": false
-      }
+      },
+      "pasteSku":{
+        "original": "Paste SKU",
+        "singular": "Tampal SKU",
+        "plural": "Tampal SKU",
+        "setupEdit": false,
+        "setupVisible": false
+      }	
     },
     "status": {
       "setupVisible": true,

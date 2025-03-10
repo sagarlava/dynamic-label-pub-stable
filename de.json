@@ -12391,6 +12391,13 @@
         "plural": "Seriennummern einfügen",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "pasteSku":{
+        "original": "Paste SKU",
+        "singular": "SKU einfügen",
+        "plural": "SKUs einfügen",
+        "setupEdit": false,
+        "setupVisible": false
       }				
     },
     "status": {

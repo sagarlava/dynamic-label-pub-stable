@@ -12391,7 +12391,14 @@
         "plural": "Pegar números de serie",
         "setupEdit": false,
         "setupVisible": false
-      }			
+      },
+      "pasteSku":{
+        "original": "Paste SKU",
+        "singular": "Pegar SKU",
+        "plural": "Pegar SKUs",
+        "setupEdit": false,
+        "setupVisible": false
+      }				
     },
     "status": {
       "setupVisible": false,
