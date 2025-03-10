@@ -9665,7 +9665,8 @@
       "productsTransferred": "备件已转移",
       "assetsAreNotAllowedToTransfer": "资产不允许转移到工作订单",
       "selectAssetsToTransfer":"选择要转移的资产",
-      "selectBinToTransferAssets":"选择要将资产转移到的存储箱"
+      "selectBinToTransferAssets":"选择要将资产转移到的存储箱",
+      "confirmAssetToTransfer":"确认要转移的资产"
     }
   },
   "checkAvailibility": {

@@ -9665,7 +9665,8 @@
       "productsTransferred": "Pieza(s) de Repuesto transferida(s)",
       "assetsAreNotAllowedToTransfer": "No se permite transferir activos a la orden de trabajo",
       "selectAssetsToTransfer":"Seleccione los activos que desea transferir",
-      "selectBinToTransferAssets":"Seleccione el contenedor al que desea transferir los activos"
+      "selectBinToTransferAssets":"Seleccione el contenedor al que desea transferir los activos",
+      "confirmAssetToTransfer":"Confirme el activo que desea transferir"
     }
   },
   "checkAvailibility": {
