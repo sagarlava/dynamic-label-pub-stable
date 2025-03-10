@@ -9694,7 +9694,8 @@
       "serialNumberNote":"注意",
       "serialNumberSeparation":"请用 ',' 或换行符分隔序列号。",
       "transferCompletedImmediately":"此转移将立即完成。",
-      "transferNeedApproval":"此转移需要获得批准才能完成。"
+      "transferNeedApproval":"此转移需要获得批准才能完成。",
+      "selectSparePartsToTransfer":"选择要转移的备件"
     }
   },
   "checkAvailibility": {

@@ -9694,7 +9694,8 @@
       "serialNumberNote":"Note",
       "serialNumberSeparation":"Separate serial numbers with ',' or a new line.",
       "transferCompletedImmediately":"This transfer will be completed immediately.",
-      "transferNeedApproval":"This transfer will need to be approved before completion."
+      "transferNeedApproval":"This transfer will need to be approved before completion.",
+      "selectSparePartsToTransfer":"Select the spare parts you want to transfer"
     }
   },
   "checkAvailibility": {
