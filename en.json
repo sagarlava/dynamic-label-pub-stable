@@ -9732,7 +9732,10 @@
       "selectBinsToAdjustSpareParts":"Select the bins you want to adjust spare parts in",
       "selectOptionTransferSpecificItems":"Select this option to transfer specific items by",
       "selectOptionTo":"Select this option to",
-      "browseAssetList":"Browsing your Asset list"
+      "browseAssetList":"Browsing your Asset list",
+      "browseSparePartsList":"Browsing your Spare Parts list",
+      "selectAssetsViaSerialNo":"Selecting Assets via serial number",
+      "addingViaSku":"Adding via SKU"
     }
   },
   "checkAvailibility": {

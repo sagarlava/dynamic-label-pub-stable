@@ -9732,7 +9732,10 @@
     "selectBinsToAdjustSpareParts":"Wählen Sie die Behälter aus, in denen Sie Ersatzteile anpassen möchten",
     "selectOptionTransferSpecificItems":"Wählen Sie diese Option, um bestimmte Artikel zu übertragen nach",
     "selectOptionTo":"Wählen Sie diese Option, um",
-    "browseAssetList":"Durchsuchen Ihrer Asset-Liste"
+    "browseAssetList":"Durchsuchen Ihrer Asset-Liste",
+    "browseSparePartsList":"Durchsuchen Ihrer Ersatzteilliste",
+    "selectAssetsViaSerialNo":"Auswahl von Assets über die Seriennummer",
+    "addingViaSku":"Hinzufügen über SKU"
   }
 },
   "checkAvailibility": {
