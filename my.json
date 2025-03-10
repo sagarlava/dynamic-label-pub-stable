@@ -2231,7 +2231,7 @@
       },
       "transferredFromBin": {
         "original": "Transfered from Bin",
-        "singular": "Dipindahkan dari Tong",
+        "singular": "Dipindahkan dari Bin",
         "plural": "",
         "setupEdit": false,
         "setupVisible": false
@@ -9621,7 +9621,7 @@
       },
       "transferToBin": {
         "original": "Transfer to Bin",
-        "singular": "Pindahkan ke Tong",
+        "singular": "Pindahkan ke Bin",
         "plural": "",
         "setupEdit": false,
         "setupVisible": false
@@ -9650,6 +9650,20 @@
       "from": {
         "original": "From",
         "singular": "Dari",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "transferFromBin": {
+        "original": "Transfer from Bin",
+        "singular": "Pindahkan dari Bin",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "transferFromUser": {
+        "original": "Transfer from User",
+        "singular": "Pindahkan dari Pengguna",
         "plural": "",
         "setupEdit": false,
         "setupVisible": false
