@@ -9720,7 +9720,8 @@
       "transferCompletedImmediately":"此转移将立即完成。",
       "transferNeedApproval":"此转移需要获得批准才能完成。",
       "selectSparePartsToTransfer":"选择要转移的备件",
-      "selectBinToTransferAboveSpareParts":"选择要将上述备件转移到的存储箱"
+      "selectBinToTransferAboveSpareParts":"选择要将上述备件转移到的存储箱",
+      "confirmSparePartsAdjust":"确认要调整的备件"
     }
   },
   "checkAvailibility": {

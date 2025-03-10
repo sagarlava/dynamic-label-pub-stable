@@ -9720,7 +9720,8 @@
       "transferCompletedImmediately":"This transfer will be completed immediately.",
       "transferNeedApproval":"This transfer will need to be approved before completion.",
       "selectSparePartsToTransfer":"Select the spare parts you want to transfer",
-      "selectBinToTransferAboveSpareParts":"Select the bin you want to transfer the above spare parts to"
+      "selectBinToTransferAboveSpareParts":"Select the bin you want to transfer the above spare parts to",
+      "confirmSparePartsAdjust":"Confirm the spare parts you want to adjust"
     }
   },
   "checkAvailibility": {
