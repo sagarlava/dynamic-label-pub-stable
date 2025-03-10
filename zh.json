@@ -9667,6 +9667,20 @@
         "plural": "",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "selectAsset": {
+        "original": "Select Asset",
+        "singular": "选择资产",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "selectSparePart": {
+        "original": "Select Spare Part",
+        "singular": "选择备件",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "tooltips": {
