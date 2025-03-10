@@ -9709,7 +9709,8 @@
       "serialNumberSeparation":"Trennen Sie die Seriennummern mit ',' oder einer neuen Zeile.",
       "transferCompletedImmediately":"Diese Übertragung wird sofort abgeschlossen.",
       "transferNeedApproval":"Diese Übertragung muss vor der Fertigstellung genehmigt werden.",
-      "selectSparePartsToTransfer":"Wählen Sie die Ersatzteile aus, die Sie übertragen möchten"
+      "selectSparePartsToTransfer":"Wählen Sie die Ersatzteile aus, die Sie übertragen möchten",
+      "selectBinToTransferAboveSpareParts":"Wählen Sie den Behälter aus, in den Sie die oben genannten Ersatzteile übertragen möchten"
   }
 },
   "checkAvailibility": {
