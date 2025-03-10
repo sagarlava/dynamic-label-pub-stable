@@ -9674,7 +9674,8 @@
       "typePasteSerialNumbers":"Type or paste serial numbers of the assets you want to transfer with a maximum of 50 serial numbers at a time. Note: Separate serial numbers with ',' or a new line.",
       "inputSerialNumbers":"Type or paste serial numbers of the assets you want to transfer with a maximum of 50 serial numbers at a time.",
       "serialNumberNote":"Note",
-      "serialNumberSeparation":"Separate serial numbers with ',' or a new line."
+      "serialNumberSeparation":"Separate serial numbers with ',' or a new line.",
+      "transferCompletedImmediately":"This transfer will be completed immediately."
     }
   },
   "checkAvailibility": {
