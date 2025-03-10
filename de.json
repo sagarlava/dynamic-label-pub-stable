@@ -9682,7 +9682,8 @@
       "inputSerialNumbers":"Geben Sie die Seriennummern der Assets ein oder fügen Sie sie ein, die Sie übertragen möchten, mit maximal 50 Seriennummern auf einmal.",
       "serialNumberNote":"Hinweis",
       "serialNumberSeparation":"Trennen Sie die Seriennummern mit ',' oder einer neuen Zeile.",
-      "transferCompletedImmediately":"Diese Übertragung wird sofort abgeschlossen."
+      "transferCompletedImmediately":"Diese Übertragung wird sofort abgeschlossen.",
+      "transferNeedApproval":"Diese Übertragung muss vor der Fertigstellung genehmigt werden."
   }
 },
   "checkAvailibility": {

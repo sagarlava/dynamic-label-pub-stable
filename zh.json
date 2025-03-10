@@ -9682,7 +9682,8 @@
       "inputSerialNumbers":"输入或粘贴您要转移的资产序列号，每次最多 50 个。",
       "serialNumberNote":"注意",
       "serialNumberSeparation":"请用 ',' 或换行符分隔序列号。",
-      "transferCompletedImmediately":"此转移将立即完成。"
+      "transferCompletedImmediately":"此转移将立即完成。",
+      "transferNeedApproval":"此转移需要获得批准才能完成。"
     }
   },
   "checkAvailibility": {

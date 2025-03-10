@@ -9682,7 +9682,8 @@
       "inputSerialNumbers":"Taip atau tampal nombor siri aset yang ingin anda pindahkan dengan maksimum 50 nombor siri pada satu masa.",
       "serialNumberNote":"Nota",
       "serialNumberSeparation":"Pisahkan nombor siri dengan ',' atau baris baharu.",
-      "transferCompletedImmediately":"Pemindahan ini akan diselesaikan serta-merta."
+      "transferCompletedImmediately":"Pemindahan ini akan diselesaikan serta-merta.",
+      "transferNeedApproval":"Pemindahan ini perlu mendapat kelulusan sebelum diselesaikan."
     }
   },
   "checkAvailibility": {
