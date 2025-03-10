@@ -9739,7 +9739,8 @@
       "bulkTransferBetweenBins":"在存储箱之间批量转移物品",
       "reorganizeStorageSystem":"重新组织您的存储系统",
       "moveAssetsFromOneBinToAnother":"将资产从一个存储箱移动到另一个",
-      "moveSparePartsFromOneBinToAnother":"将备件从一个存储箱移动到另一个"
+      "moveSparePartsFromOneBinToAnother":"将备件从一个存储箱移动到另一个",
+      "selectBinTransferAssetFrom":"选择要从中转移资产的存储箱"
     }
   },
   "checkAvailibility": {

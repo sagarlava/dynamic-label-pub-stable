@@ -9739,7 +9739,8 @@
       "bulkTransferBetweenBins":"Transferencia masiva de artículos entre contenedores",
       "reorganizeStorageSystem":"Reorganizar su sistema de almacenamiento",
       "moveAssetsFromOneBinToAnother":"Mover activos de un contenedor a otro",
-      "moveSparePartsFromOneBinToAnother":"Mover repuestos de un contenedor a otro"
+      "moveSparePartsFromOneBinToAnother":"Mover repuestos de un contenedor a otro",
+      "selectBinTransferAssetFrom":"Seleccione el contenedor desde el cual desea transferir activos"
     }
   },
   "checkAvailibility": {

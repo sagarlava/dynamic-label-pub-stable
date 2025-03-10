@@ -9739,7 +9739,8 @@
       "bulkTransferBetweenBins":"Bulk transfer items between bins",
       "reorganizeStorageSystem":"Reorganize your storage system",
       "moveAssetsFromOneBinToAnother":"Move assets from one bin to another",
-      "moveSparePartsFromOneBinToAnother":"Move spare parts from one bin to another"
+      "moveSparePartsFromOneBinToAnother":"Move spare parts from one bin to another",
+      "selectBinTransferAssetFrom":"Select the bin you want to transfer assets from"
     }
   },
   "checkAvailibility": {
