@@ -9740,7 +9740,8 @@
       "reorganizeStorageSystem":"Reorganize your storage system",
       "moveAssetsFromOneBinToAnother":"Move assets from one bin to another",
       "moveSparePartsFromOneBinToAnother":"Move spare parts from one bin to another",
-      "selectBinTransferAssetFrom":"Select the bin you want to transfer assets from"
+      "selectBinTransferAssetFrom":"Select the bin you want to transfer assets from",
+      "selectBinTransferSparePartFrom":"Select the bin you want to transfer spare parts from"
     }
   },
   "checkAvailibility": {
