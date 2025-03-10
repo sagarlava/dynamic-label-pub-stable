@@ -9735,7 +9735,11 @@
     "browseAssetList":"Durchsuchen Ihrer Asset-Liste",
     "browseSparePartsList":"Durchsuchen Ihrer Ersatzteilliste",
     "selectAssetsViaSerialNo":"Auswahl von Assets über die Seriennummer",
-    "addingViaSku":"Hinzufügen über SKU"
+    "addingViaSku":"Hinzufügen über SKU",
+    "bulkTransferBetweenBins":"Massenübertragung von Artikeln zwischen Behältern",
+    "reorganizeStorageSystem":"Ihr Lagersystem neu organisieren",
+    "moveAssetsFromOneBinToAnother":"Assets von einem Behälter in einen anderen verschieben",
+    "moveSparePartsFromOneBinToAnother":"Ersatzteile von einem Behälter in einen anderen verschieben"
   }
 },
   "checkAvailibility": {

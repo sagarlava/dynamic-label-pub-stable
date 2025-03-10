@@ -9735,7 +9735,11 @@
       "browseAssetList":"Browsing your Asset list",
       "browseSparePartsList":"Browsing your Spare Parts list",
       "selectAssetsViaSerialNo":"Selecting Assets via serial number",
-      "addingViaSku":"Adding via SKU"
+      "addingViaSku":"Adding via SKU",
+      "bulkTransferBetweenBins":"Bulk transfer items between bins",
+      "reorganizeStorageSystem":"Reorganize your storage system",
+      "moveAssetsFromOneBinToAnother":"Move assets from one bin to another",
+      "moveSparePartsFromOneBinToAnother":"Move spare parts from one bin to another"
     }
   },
   "checkAvailibility": {

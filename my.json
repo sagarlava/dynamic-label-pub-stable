@@ -9735,7 +9735,11 @@
       "browseAssetList":"Melayari senarai aset anda",
       "browseSparePartsList":"Melayari senarai alat ganti anda",
       "selectAssetsViaSerialNo":"Memilih aset melalui nombor siri",
-      "addingViaSku":"Menambah melalui SKU"
+      "addingViaSku":"Menambah melalui SKU",
+      "bulkTransferBetweenBins":"Pindahkan item secara pukal antara tong",
+      "reorganizeStorageSystem":"Susun semula sistem penyimpanan anda",
+      "moveAssetsFromOneBinToAnother":"Pindahkan aset dari satu tong ke tong lain",
+      "moveSparePartsFromOneBinToAnother":"Pindahkan alat ganti dari satu tong ke tong lain"
     }
   },
   "checkAvailibility": {

@@ -9735,7 +9735,11 @@
       "browseAssetList":"Navegando por su lista de activos",
       "browseSparePartsList":"Navegando por su lista de repuestos",
       "selectAssetsViaSerialNo":"Seleccionando activos mediante número de serie",
-      "addingViaSku":"Agregando mediante SKU"
+      "addingViaSku":"Agregando mediante SKU",
+      "bulkTransferBetweenBins":"Transferencia masiva de artículos entre contenedores",
+      "reorganizeStorageSystem":"Reorganizar su sistema de almacenamiento",
+      "moveAssetsFromOneBinToAnother":"Mover activos de un contenedor a otro",
+      "moveSparePartsFromOneBinToAnother":"Mover repuestos de un contenedor a otro"
     }
   },
   "checkAvailibility": {

@@ -9735,7 +9735,11 @@
       "browseAssetList":"浏览您的资产列表",
       "browseSparePartsList":"浏览您的备件列表",
       "selectAssetsViaSerialNo":"通过序列号选择资产",
-      "addingViaSku":"通过 SKU 添加"
+      "addingViaSku":"通过 SKU 添加",
+      "bulkTransferBetweenBins":"在存储箱之间批量转移物品",
+      "reorganizeStorageSystem":"重新组织您的存储系统",
+      "moveAssetsFromOneBinToAnother":"将资产从一个存储箱移动到另一个",
+      "moveSparePartsFromOneBinToAnother":"将备件从一个存储箱移动到另一个"
     }
   },
   "checkAvailibility": {
