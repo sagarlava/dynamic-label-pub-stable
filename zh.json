@@ -9741,7 +9741,8 @@
       "moveAssetsFromOneBinToAnother":"将资产从一个存储箱移动到另一个",
       "moveSparePartsFromOneBinToAnother":"将备件从一个存储箱移动到另一个",
       "selectBinTransferAssetFrom":"选择要从中转移资产的存储箱",
-      "selectBinTransferSparePartFrom":"选择要从中转移备件的存储箱"
+      "selectBinTransferSparePartFrom":"选择要从中转移备件的存储箱",
+      "selectBinToTransferSpareParts":"选择要将备件转移到的存储箱"
     }
   },
   "checkAvailibility": {

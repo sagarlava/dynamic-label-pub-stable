@@ -9741,7 +9741,8 @@
       "moveAssetsFromOneBinToAnother":"Mover activos de un contenedor a otro",
       "moveSparePartsFromOneBinToAnother":"Mover repuestos de un contenedor a otro",
       "selectBinTransferAssetFrom":"Seleccione el contenedor desde el cual desea transferir activos",
-      "selectBinTransferSparePartFrom":"Seleccione el contenedor desde el cual desea transferir repuestos"
+      "selectBinTransferSparePartFrom":"Seleccione el contenedor desde el cual desea transferir repuestos",
+      "selectBinToTransferSpareParts":"Seleccione el contenedor al que desea transferir los repuestos"
     }
   },
   "checkAvailibility": {

@@ -9741,7 +9741,8 @@
       "moveAssetsFromOneBinToAnother":"Move assets from one bin to another",
       "moveSparePartsFromOneBinToAnother":"Move spare parts from one bin to another",
       "selectBinTransferAssetFrom":"Select the bin you want to transfer assets from",
-      "selectBinTransferSparePartFrom":"Select the bin you want to transfer spare parts from"
+      "selectBinTransferSparePartFrom":"Select the bin you want to transfer spare parts from",
+      "selectBinToTransferSpareParts":"Select the bin you want to transfer the spare parts to"
     }
   },
   "checkAvailibility": {

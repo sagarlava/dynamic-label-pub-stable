@@ -9741,7 +9741,8 @@
     "moveAssetsFromOneBinToAnother":"Assets von einem Behälter in einen anderen verschieben",
     "moveSparePartsFromOneBinToAnother":"Ersatzteile von einem Behälter in einen anderen verschieben",
     "selectBinTransferAssetFrom":"Wählen Sie den Behälter aus, aus dem Sie Assets übertragen möchten",
-    "selectBinTransferSparePartFrom":"Wählen Sie den Behälter aus, aus dem Sie Ersatzteile übertragen möchten"
+    "selectBinTransferSparePartFrom":"Wählen Sie den Behälter aus, aus dem Sie Ersatzteile übertragen möchten",
+    "selectBinToTransferSpareParts":"Wählen Sie den Behälter aus, in den Sie die Ersatzteile übertragen möchten"
   }
 },
   "checkAvailibility": {
