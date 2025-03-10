@@ -9622,6 +9622,9 @@
         "setupVisible": false
       }
     },
+    "validationFE": {
+      "assetNotFound": "Asset not found"
+    },
     "validationBE": {
       "binTransferIdExists": "A new Bin Transfer cannot already have an ID",
       "binTransferCannotBeEdited": "This record is not allowed to edit as it has being accepted",

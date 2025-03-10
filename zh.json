@@ -9622,6 +9622,9 @@
         "setupVisible": false
       }
     },
+    "validationFE": {
+      "assetNotFound": "未找到资产"
+    },
     "validationBE": {
       "binTransferIdExists": "新的仓位转移不能已经有一个ID",
       "binTransferCannotBeEdited": "此记录不允许编辑，因为它已被接受",

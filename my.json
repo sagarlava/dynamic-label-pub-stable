@@ -9622,6 +9622,9 @@
         "setupVisible": false
       }
     },
+    "validationFE": {
+      "assetNotFound": "Aset tidak ditemui"
+    },
     "validationBE": {
       "binTransferIdExists": "Pemindahan Bin baru tidak boleh mempunyai ID yang sudah ada",
       "binTransferCannotBeEdited": "Rekod ini tidak dibenarkan untuk diedit kerana ia telah diterima",

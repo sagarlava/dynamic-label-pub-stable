@@ -9622,6 +9622,9 @@
       "setupVisible": false
     }
   },
+  "validationFE": {
+    "assetNotFound": "Asset nicht gefunden"
+  },
   "validationBE": {
     "binTransferIdExists": "Eine neue Lagerübertragung kann nicht bereits eine ID haben",
     "binTransferCannotBeEdited": "Dieser Datensatz darf nicht bearbeitet werden, da er akzeptiert wurde",
