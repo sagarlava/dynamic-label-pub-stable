@@ -9618,19 +9618,33 @@
       "plural": "",
       "setupEdit": false,
       "setupVisible": false
+    },
+    "removeSelectedAsset": {
+      "original": "Remove selected assets from their respective bins",
+      "singular": "Ausgewählte Assets aus ihren jeweiligen Behältern entfernen",
+      "plural": "",
+      "setupEdit": false,
+      "setupVisible": false
+    },
+    "status": {
+      "original": "Status",
+      "singular": "Status",
+      "plural": "",
+      "setupEdit": false,
+      "setupVisible": false
+    },
+    "from": {
+      "original": "From",
+      "singular": "Von",
+      "plural": "",
+      "setupEdit": false,
+      "setupVisible": false
     }
   },
   "tooltips": {
     "binLookup": {
       "original": "Bin Lookup",
       "singular": "Lager Suche",
-      "plural": "",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "removeSelectedAsset": {
-      "original": "Remove selected assets from their respective bins",
-      "singular": "Ausgewählte Assets aus ihren jeweiligen Behältern entfernen",
       "plural": "",
       "setupEdit": false,
       "setupVisible": false
