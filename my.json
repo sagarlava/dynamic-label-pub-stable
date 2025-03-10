@@ -9699,7 +9699,8 @@
       "addAtLeastOneSparePart":"Tambah sekurang-kurangnya satu alat ganti untuk meneruskan",
       "oneSelectionToProceed":"Buat sekurang-kurangnya satu pilihan untuk meneruskan",
       "exceededTotalSerialNoAdded":"Anda telah melebihi jumlah nombor siri yang boleh ditambah dalam satu masa. Sila masukkan hanya sehingga 50 nombor siri.",
-      "assetHasBeenSelected":"Aset ini telah dipilih, sila pilih aset lain."
+      "assetHasBeenSelected":"Aset ini telah dipilih, sila pilih aset lain.",
+      "selectBinToProceed":"Pilih bin untuk meneruskan"
     },
     "validationBE": {
       "binTransferIdExists": "Pemindahan Bin baru tidak boleh mempunyai ID yang sudah ada",
