@@ -9667,7 +9667,8 @@
       "selectAssetsToTransfer":"Select the assets you want to transfer",
       "selectBinToTransferAssets":"Select the bin you want to transfer the assets to",
       "confirmAssetToTransfer":"Confirm the asset you want to transfer",
-      "selectBinToTransferAboveAsset":"Select the bin you want to transfer the above asset to"
+      "selectBinToTransferAboveAsset":"Select the bin you want to transfer the above asset to",
+      "typePasteSerialNumbers":"Type or paste serial numbers of the assets you want to transfer with a maximum of 50 serial numbers at a time. Note: Separate serial numbers with ',' or a new line."
     }
   },
   "checkAvailibility": {

@@ -9667,7 +9667,8 @@
       "selectAssetsToTransfer":"选择要转移的资产",
       "selectBinToTransferAssets":"选择要将资产转移到的存储箱",
       "confirmAssetToTransfer":"确认要转移的资产",
-      "selectBinToTransferAboveAsset":"选择要将上述资产转移到的存储箱"
+      "selectBinToTransferAboveAsset":"选择要将上述资产转移到的存储箱",
+      "typePasteSerialNumbers":"输入或粘贴您要转移的资产序列号，每次最多 50 个。注意：请用 ',' 或换行符分隔序列号。"
     }
   },
   "checkAvailibility": {
