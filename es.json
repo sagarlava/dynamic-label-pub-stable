@@ -9668,7 +9668,10 @@
       "selectBinToTransferAssets":"Seleccione el contenedor al que desea transferir los activos",
       "confirmAssetToTransfer":"Confirme el activo que desea transferir",
       "selectBinToTransferAboveAsset":"Seleccione el contenedor al que desea transferir el activo mencionado arriba",
-      "typePasteSerialNumbers":"Escriba o pegue los números de serie de los activos que desea transferir, con un máximo de 50 números de serie a la vez. Nota: Separe los números de serie con ',' o una nueva línea."
+      "typePasteSerialNumbers":"Escriba o pegue los números de serie de los activos que desea transferir, con un máximo de 50 números de serie a la vez. Nota: Separe los números de serie con ',' o una nueva línea.",
+      "inputSerialNumbers":"Escriba o pegue los números de serie de los activos que desea transferir, con un máximo de 50 números de serie a la vez.",
+      "serialNumberNote":"Nota",
+      "serialNumberSeparation":"Separe los números de serie con ',' o una nueva línea."
     }
   },
   "checkAvailibility": {
