@@ -9631,7 +9631,8 @@
     },
     "validationFE": {
       "assetNotFound": "Aset tidak ditemui",
-      "addAtLeastOneAsset":"Tambah sekurang-kurangnya satu aset untuk meneruskan"
+      "addAtLeastOneAsset":"Tambah sekurang-kurangnya satu aset untuk meneruskan",
+      "oneSelectionToProceed":"Buat sekurang-kurangnya satu pilihan untuk meneruskan"
     },
     "validationBE": {
       "binTransferIdExists": "Pemindahan Bin baru tidak boleh mempunyai ID yang sudah ada",

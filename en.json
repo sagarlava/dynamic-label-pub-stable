@@ -9631,7 +9631,8 @@
     },
     "validationFE": {
       "assetNotFound": "Asset not found",
-      "addAtLeastOneAsset":"Add at least one asset to proceed"
+      "addAtLeastOneAsset":"Add at least one asset to proceed",
+      "oneSelectionToProceed":"Make at least one selection to proceed"
     },
     "validationBE": {
       "binTransferIdExists": "A new Bin Transfer cannot already have an ID",

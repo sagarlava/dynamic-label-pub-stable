@@ -9631,7 +9631,8 @@
     },
     "validationFE": {
       "assetNotFound": "Activo no encontrado",
-      "addAtLeastOneAsset":"Agregue al menos un activo para continuar"
+      "addAtLeastOneAsset":"Agregue al menos un activo para continuar",
+      "oneSelectionToProceed":"Realice al menos una selección para continuar"
     },
     "validationBE": {
       "binTransferIdExists": "Una nueva Transferencia de Contenedor no puede tener ya un ID",
