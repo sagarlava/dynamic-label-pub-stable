@@ -9659,6 +9659,7 @@
     },
     "validationFE": {
       "assetNotFound": "Activo no encontrado",
+      "sparePartNotFound": "Repuesto no encontrado",
       "addAtLeastOneAsset":"Agregue al menos un activo para continuar",
       "addAtLeastOneSparePart":"Agregue al menos un repuesto para continuar",
       "oneSelectionToProceed":"Realice al menos una selección para continuar",

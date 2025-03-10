@@ -9659,6 +9659,7 @@
     },
     "validationFE": {
       "assetNotFound": "未找到资产",
+      "sparePartNotFound": "未找到备件",
       "addAtLeastOneAsset":"添加至少一个资产以继续",
       "addAtLeastOneSparePart":"添加至少一个备件以继续",
       "oneSelectionToProceed":"至少选择一个选项以继续",
