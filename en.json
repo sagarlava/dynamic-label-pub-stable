@@ -9633,7 +9633,8 @@
       "assetNotFound": "Asset not found",
       "addAtLeastOneAsset":"Add at least one asset to proceed",
       "oneSelectionToProceed":"Make at least one selection to proceed",
-      "exceededTotalSerialNoAdded":"You have exceeded the total number of serial numbers that can be added at a time. Please enter only up to 50 serial numbers."
+      "exceededTotalSerialNoAdded":"You have exceeded the total number of serial numbers that can be added at a time. Please enter only up to 50 serial numbers.",
+      "assetHasBeenSelected":"This asset has already been selected, please select a different asset."
     },
     "validationBE": {
       "binTransferIdExists": "A new Bin Transfer cannot already have an ID",
