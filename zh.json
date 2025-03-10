@@ -9660,6 +9660,7 @@
     "validationFE": {
       "assetNotFound": "未找到资产",
       "addAtLeastOneAsset":"添加至少一个资产以继续",
+      "addAtLeastOneSparePart":"添加至少一个备件以继续",
       "oneSelectionToProceed":"至少选择一个选项以继续",
       "exceededTotalSerialNoAdded":"您已超出一次可添加的序列号总数。请仅输入最多 50 个序列号。",
       "assetHasBeenSelected":"此资产已被选中，请选择其他资产。"

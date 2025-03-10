@@ -9660,6 +9660,7 @@
     "validationFE": {
       "assetNotFound": "Activo no encontrado",
       "addAtLeastOneAsset":"Agregue al menos un activo para continuar",
+      "addAtLeastOneSparePart":"Agregue al menos un repuesto para continuar",
       "oneSelectionToProceed":"Realice al menos una selección para continuar",
       "exceededTotalSerialNoAdded":"Ha excedido el número total de números de serie que se pueden agregar a la vez. Por favor, ingrese solo hasta 50 números de serie.",
       "assetHasBeenSelected":"Este activo ya ha sido seleccionado, por favor seleccione un activo diferente."
