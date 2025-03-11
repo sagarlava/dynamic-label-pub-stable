@@ -4493,7 +4493,8 @@
       "userTaskIdExists": "A new User Task cannot already have an ID",
       "userTaskIdNotFound": "Id not found",
       "userTaskNotFound": "User Task not found",
-      "userNotAllowedToAssignTask": "User not allowed to add member to the Task"
+      "userNotAllowedToAssignTask": "User not allowed to add member to the Task",
+      "taskNoteRequired": "Task note is required but not provided"
     },
     "tooltips": {
       "setupVisible": false,
@@ -12267,6 +12268,20 @@
         "original": "Locate Asset",
         "singular": "Locate Asset",
         "plural": "Locate Assets",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "searchByAddress":{
+        "original": "Search by address",
+        "singular": "Search by address",
+        "plural": "Search by address",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "searchLatLang":{
+        "original": "Search by Lat & Long",
+        "singular": "Search by Lat & Long",
+        "plural": "Search by Lat & Long",
         "setupEdit": false,
         "setupVisible": false
       }	

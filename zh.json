@@ -4493,7 +4493,8 @@
       "userTaskIdExists": "新的用户任务不能已有ID",
       "userTaskIdNotFound": "未找到ID",
       "userTaskNotFound": "未找到用户任务",
-      "userNotAllowedToAssignTask": "用户不允许将成员添加到任务中"
+      "userNotAllowedToAssignTask": "用户不允许将成员添加到任务中",
+      "taskNoteRequired": "任务备注是必需的，但未提供"
     },
     "tooltips": {
       "setupVisible": false,
@@ -12267,6 +12268,20 @@
         "original": "Locate Asset",
         "singular": "定位资产",
         "plural": "定位资产",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "searchByAddress":{
+        "original": "Search by address",
+        "singular": "按地址搜索",
+        "plural": "按地址搜索",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "searchLatLang":{
+        "original": "Search by Lat & Long",
+        "singular": "按纬度和经度搜索",
+        "plural": "按纬度和经度搜索",
         "setupEdit": false,
         "setupVisible": false
       }	
