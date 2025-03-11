@@ -12272,9 +12272,9 @@
         "setupVisible": false
       },
       "searchByAddress":{
-        "original": "Search by address",
-        "singular": "Cari berdasarkan alamat",
-        "plural": "Cari berdasarkan alamat",
+        "original": "Search Address",
+        "singular": "Cari Alamat",
+        "plural": "Cari Alamat",
         "setupEdit": false,
         "setupVisible": false
       },
@@ -12282,6 +12282,13 @@
         "original": "Search by Lat & Long",
         "singular": "Cari berdasarkan Lat & Long",
         "plural": "Cari berdasarkan Lat & Long",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "useCoordinates":{
+        "original": "Use Coordinates",
+        "singular": "Gunakan Koordinat",
+        "plural": "Gunakan Koordinat",
         "setupEdit": false,
         "setupVisible": false
       }	
