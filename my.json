@@ -12207,6 +12207,20 @@
         "plural": "Paparan Kumpulan",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "searchByAddress":{
+        "original": "Search by address",
+        "singular": "Cari berdasarkan alamat",
+        "plural": "Cari berdasarkan alamat",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "searchLatLang":{
+        "original": "Search by Lat & Long",
+        "singular": "Cari berdasarkan Lat & Long",
+        "plural": "Cari berdasarkan Lat & Long",
+        "setupEdit": false,
+        "setupVisible": false
       }	
     },
     "status": {

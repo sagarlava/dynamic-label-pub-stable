@@ -12207,6 +12207,20 @@
         "plural": "Gruppenansichten",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "searchByAddress":{
+        "original": "Search by address",
+        "singular": "Suche nach Adresse",
+        "plural": "Suche nach Adressen",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "searchLatLang":{
+        "original": "Search by Lat & Long",
+        "singular": "Suche nach Breitengrad & Längengrad",
+        "plural": "Suche nach Breitengraden & Längengraden",
+        "setupEdit": false,
+        "setupVisible": false
       }	
     },
     "status": {

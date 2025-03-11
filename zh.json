@@ -12207,6 +12207,20 @@
         "plural": "分组视图",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "searchByAddress":{
+        "original": "Search by address",
+        "singular": "按地址搜索",
+        "plural": "按地址搜索",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "searchLatLang":{
+        "original": "Search by Lat & Long",
+        "singular": "按纬度和经度搜索",
+        "plural": "按纬度和经度搜索",
+        "setupEdit": false,
+        "setupVisible": false
       }	
     },
     "status": {
