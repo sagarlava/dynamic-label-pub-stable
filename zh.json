@@ -12209,9 +12209,9 @@
         "setupVisible": false
       },
       "searchByAddress":{
-        "original": "Search by address",
-        "singular": "按地址搜索",
-        "plural": "按地址搜索",
+        "original": "Search Address",
+        "singular": "搜索地址",
+        "plural": "搜索地址",
         "setupEdit": false,
         "setupVisible": false
       },
@@ -12219,6 +12219,13 @@
         "original": "Search by Lat & Long",
         "singular": "按纬度和经度搜索",
         "plural": "按纬度和经度搜索",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "useCoordinates":{
+        "original": "Use Coordinates",
+        "singular": "使用坐标",
+        "plural": "使用坐标",
         "setupEdit": false,
         "setupVisible": false
       }	

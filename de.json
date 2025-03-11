@@ -12209,9 +12209,9 @@
         "setupVisible": false
       },
       "searchByAddress":{
-        "original": "Search by address",
-        "singular": "Suche nach Adresse",
-        "plural": "Suche nach Adressen",
+        "original": "Search Address",
+        "singular": "Adresse suchen",
+        "plural": "Adressen suchen",
         "setupEdit": false,
         "setupVisible": false
       },
@@ -12219,6 +12219,13 @@
         "original": "Search by Lat & Long",
         "singular": "Suche nach Breitengrad & Längengrad",
         "plural": "Suche nach Breitengraden & Längengraden",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "useCoordinates":{
+        "original": "Use Coordinates",
+        "singular": "Koordinaten verwenden",
+        "plural": "Koordinaten verwenden",
         "setupEdit": false,
         "setupVisible": false
       }	
