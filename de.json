@@ -3165,6 +3165,13 @@
         "plural": "",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "family": {
+        "original": "Family",
+        "singular": "Familie",
+        "plural": "Familien",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "validationFE": {},
@@ -8792,6 +8799,20 @@
         "plural": "",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "sec17": {
+        "original": "Select where to search",
+        "singular": "Wählen Sie, wo Sie suchen möchten",
+        "plural": "Wählen Sie, wo Sie suchen möchten",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec18": {
+        "original": "Select what to search",
+        "singular": "Wählen Sie, wonach Sie suchen möchten",
+        "plural": "Wählen Sie, wonach Sie suchen möchten",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "fields": {
@@ -9086,7 +9107,10 @@
       "availableOtherLocations": "verfügbar in anderen Standorten",
       "sameProductBinTransferNotAllowed": "Es ist nicht erlaubt, dasselbe Ersatzteil bei einem Lagertransfer auszuwählen",
       "sameProductBinNotAllowed": "Es ist nicht erlaubt, dasselbe Ersatzteil in einem Lager auszuwählen",
-      "sameAssetBinNotAllowed": "Es ist nicht erlaubt, dasselbe Asset in einem Lager auszuwählen"
+      "sameAssetBinNotAllowed": "Es ist nicht erlaubt, dasselbe Asset in einem Lager auszuwählen",
+      "selectCategory":"Kategorie Auswählen",
+      "selectSubCategory":"Unterkategorie Auswählen",
+      "selectStatus":"Status Auswählen"
     }
   },
   "bin": {
@@ -9815,6 +9839,13 @@
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
+      },
+      "sec4": {
+        "original": "Summary of Results",
+        "singular": "Zusammenfassung der Ergebnisse",
+        "plural": "Zusammenfassungen der Ergebnisse",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "fields": {

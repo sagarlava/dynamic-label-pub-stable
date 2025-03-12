@@ -3165,6 +3165,13 @@
         "plural": "",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "family": {
+        "original": "Family",
+        "singular": "Family",
+        "plural": "Families",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "validationFE": {},
@@ -8792,6 +8799,20 @@
         "plural": "",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "sec17": {
+        "original": "Select where to search",
+        "singular": "Select where to search",
+        "plural": "Select where to search",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec18": {
+        "original": "Select what to search",
+        "singular": "Select what to search",
+        "plural": "Select what to search",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "fields": {
@@ -9086,7 +9107,10 @@
       "availableOtherLocations":"available in other locations",
       "sameProductBinTransferNotAllowed": "You are not allowed to select the same Spare Part in a bin transfer",
       "sameProductBinNotAllowed": "You are not allowed to select the same Spare Part in a bin",
-      "sameAssetBinNotAllowed": "You are not allowed to select the same asset in a bin"
+      "sameAssetBinNotAllowed": "You are not allowed to select the same asset in a bin",
+      "selectCategory":"Select Category",
+      "selectSubCategory":"Select Sub Category",
+      "selectStatus":"Select Status"
     }
   },
   "bin": {
@@ -9815,6 +9839,13 @@
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
+      },
+      "sec4": {
+        "original": "Summary of Results",
+        "singular": "Summary of Results",
+        "plural": "Summary of Results",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "fields": {
@@ -12442,6 +12473,13 @@
         "original": "Group View",
         "singular": "Group View",
         "plural": "Group View",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "locateAsset":{
+        "original": "Locate Asset",
+        "singular": "Locate Asset",
+        "plural": "Locate Assets",
         "setupEdit": false,
         "setupVisible": false
       },

@@ -3165,6 +3165,13 @@
         "plural": "小计",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "family": {
+        "original": "Family",
+        "singular": "家庭",
+        "plural": "家庭",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "validationFE": {},
@@ -8792,6 +8799,20 @@
         "plural": "",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "sec17": {
+        "original": "Select where to search",
+        "singular": "选择搜索位置",
+        "plural": "选择搜索位置",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec18": {
+        "original": "Select what to search",
+        "singular": "选择搜索内容",
+        "plural": "选择搜索内容",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "fields": {
@@ -9086,7 +9107,10 @@
       "availableOtherLocations": "在其他位置可用",
       "sameProductBinTransferNotAllowed": "您不允许在仓库转移中选择相同的备件",
       "sameProductBinNotAllowed": "您不允许在仓库中选择相同的备件",
-      "sameAssetBinNotAllowed": "您不允许在仓库中选择相同的资产"
+      "sameAssetBinNotAllowed": "您不允许在仓库中选择相同的资产",
+      "selectCategory":"选择类别",
+      "selectSubCategory":"选择子类别",
+      "selectStatus":"选择状态"
     }
   },
   "bin": {
@@ -9803,18 +9827,25 @@
         "setupVisible": true
       },
       "sec2": {
-        "original": "选择备用零件",
+        "original": "Select Spare Part(s)",
         "singular": "选择备用零件",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "sec3": {
-        "original": "选择资产",
+        "original": "Select Asset(s)",
         "singular": "选择资产",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
+      },
+      "sec4": {
+        "original": "Summary of Results",
+        "singular": "结果摘要",
+        "plural": "结果摘要",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "fields": {
