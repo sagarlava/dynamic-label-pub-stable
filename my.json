@@ -1018,6 +1018,13 @@
         "plural": "Kumpulan",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "classification": {
+        "original": "Classification",
+        "singular": "Klasifikasi",
+        "plural": "Klasifikasi",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "validationFE": {},

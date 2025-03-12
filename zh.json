@@ -1018,6 +1018,13 @@
         "plural": "群组",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "classification": {
+        "original": "Classification",
+        "singular": "分类",
+        "plural": "分类",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "validationFE": {},

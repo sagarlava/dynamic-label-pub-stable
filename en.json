@@ -1018,6 +1018,13 @@
         "plural": "Group",
         "setupEdit": false,
         "setupVisible": false
+      }, 
+      "classification": {
+        "original": "Classification",
+        "singular": "Classification",
+        "plural": "Classification",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "validationFE": {},
