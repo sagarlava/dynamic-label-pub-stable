@@ -1013,7 +1013,8 @@
       "assetCategoryIdExists": "Kategori Aset baharu tidak boleh sudah mempunyai ID",
       "assetSubCategoryIdExists": "Subkategori Aset baharu tidak boleh sudah mempunyai ID",
       "assetCategoryCannotDeleteByAssets":"Tidak dapat memadam: Kategori aset digunakan dalam satu atau lebih Aset",
-      "assetSubCategoryCannotDeleteByAssets":"Tidak dapat memadam: Subkategori aset digunakan dalam satu atau lebih Aset"
+      "assetSubCategoryCannotDeleteByAssets":"Tidak dapat memadam: Subkategori aset digunakan dalam satu atau lebih Aset",
+      "assetParentInvalid":"Induk yang dipilih sudah berada dalam hierarki aset"
     },
     "tooltips": {
       "setupVisible": false,

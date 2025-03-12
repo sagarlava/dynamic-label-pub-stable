@@ -1013,7 +1013,8 @@
       "assetCategoryIdExists": "Una nueva categoría de activos no puede tener ya un ID",
       "assetSubCategoryIdExists": "Una nueva subcategoría de activos no puede tener ya un ID",
       "assetCategoryCannotDeleteByAssets":"No se puede eliminar: La categoría de activos se utiliza en uno o más activos",
-      "assetSubCategoryCannotDeleteByAssets":"No se puede eliminar: La subcategoría de activos se utiliza en uno o más activos"
+      "assetSubCategoryCannotDeleteByAssets":"No se puede eliminar: La subcategoría de activos se utiliza en uno o más activos",
+      "assetParentInvalid":"El padre elegido ya está en la jerarquía de activos"
     },
     "tooltips": {
       "setupVisible": false,
