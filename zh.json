@@ -21759,7 +21759,7 @@
       "setupCalendlyConfigIdNotFound": "未找到ID",
       "setupCountryIdExists": "新国家不能已有ID",
       "setupCustomerSurveyConfigIdExists": "新客户调查配置不能已有ID",
-      "setupCustomerSurveyConfigHasJobOrderSurvey": "系统中存在该客户调查配置的工单调查数据",
+      "setupCustomerSurveyConfigHasJobOrderSurvey": "此调查问卷无法删除，因为它当前关联了一个或多个工作订单",
       "setupCustomerSurveyConfigWorkflowIdExists": "新客户调查配置工作流不能已有ID",
       "setupFaultJobOrderMappingIdExists": "新故障工单映射不能已有ID",
       "setupFaultJobOrderMappingIdNotFound": "未找到ID",
