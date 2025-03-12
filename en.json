@@ -1011,6 +1011,13 @@
         "plural": "Pending Transfers",
         "setupEdit": false,
         "setupVisible": false
+      }, 
+      "group": {
+        "original": "Group",
+        "singular": "Group",
+        "plural": "Group",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "validationFE": {},

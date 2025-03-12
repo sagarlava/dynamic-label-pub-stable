@@ -1011,6 +1011,13 @@
         "plural": "Pemindahan Tertunda",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "group": {
+        "original": "Group",
+        "singular": "Kumpulan",
+        "plural": "Kumpulan",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "validationFE": {},
