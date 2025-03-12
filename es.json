@@ -1013,7 +1013,8 @@
         "assetSubCategoryExists": "La subcategoría de activos ya existe",
         "assetSubCategorySystemGenerated": "Las subcategorías de activos generadas por el sistema no se pueden eliminar",
         "assetCategoryIdExists": "Una nueva categoría de activos no puede tener ya un ID",
-        "assetSubCategoryIdExists": "Una nueva subcategoría de activos no puede tener ya un ID"
+        "assetSubCategoryIdExists": "Una nueva subcategoría de activos no puede tener ya un ID",
+        "assetParentInvalid":"El padre elegido ya está en la jerarquía de activos"
       },
       "tooltips": {
         "setupVisible": false,

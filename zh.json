@@ -1013,7 +1013,8 @@
       "assetSubCategoryExists": "资产子类别已存在",
       "assetSubCategorySystemGenerated": "系统生成的资产子类别不允许删除",
       "assetCategoryIdExists": "新资产类别不能已经有ID",
-      "assetSubCategoryIdExists": "新资产子类别不能已经有ID"
+      "assetSubCategoryIdExists": "新资产子类别不能已经有ID",
+      "assetParentInvalid":"所选父级已在资产层次结构中"
     },
     "tooltips": {
       "setupVisible": false,

@@ -1013,7 +1013,8 @@
       "assetSubCategoryExists": "Subkategori Aset sudah wujud",
       "assetSubCategorySystemGenerated": "Subkategori Aset yang dihasilkan oleh sistem tidak dibenarkan untuk dipadamkan",
       "assetCategoryIdExists": "Kategori Aset baharu tidak boleh sudah mempunyai ID",
-      "assetSubCategoryIdExists": "Subkategori Aset baharu tidak boleh sudah mempunyai ID"
+      "assetSubCategoryIdExists": "Subkategori Aset baharu tidak boleh sudah mempunyai ID",
+      "assetParentInvalid":"Induk yang dipilih sudah berada dalam hierarki aset"
     },
     "tooltips": {
       "setupVisible": false,

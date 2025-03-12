@@ -1013,7 +1013,8 @@
       "assetSubCategoryExists": "Asset Sub Category already exists",
       "assetSubCategorySystemGenerated": "System generated Asset Sub Category are not allowed to be deleted",
       "assetCategoryIdExists":"A new Asset Category cannot already have an ID",
-      "assetSubCategoryIdExists":"A new Asset Sub Category cannot already have an ID"
+      "assetSubCategoryIdExists":"A new Asset Sub Category cannot already have an ID",
+      "assetParentInvalid":"The chosen parent is already in the asset hierarchy"
     },
     "tooltips": {
       "setupVisible": false,

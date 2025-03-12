@@ -1013,7 +1013,8 @@
         "assetSubCategoryExists": "Asset-Unterkategorie existiert bereits",
         "assetSubCategorySystemGenerated": "Systemgenerierte Asset-Unterkategorien dürfen nicht gelöscht werden",
         "assetCategoryIdExists": "Eine neue Asset-Kategorie darf keine ID haben",
-        "assetSubCategoryIdExists": "Eine neue Asset-Unterkategorie darf keine ID haben"        
+        "assetSubCategoryIdExists": "Eine neue Asset-Unterkategorie darf keine ID haben",
+        "assetParentInvalid":"Der gewählte übergeordnete Eintrag befindet sich bereits in der Anlagenhierarchie"        
       },
       "tooltips": {
         "setupVisible": false,
