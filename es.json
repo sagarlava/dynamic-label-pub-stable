@@ -22154,7 +22154,7 @@
       "setupCalendlyConfigIdNotFound": "ID no encontrado",
       "setupCountryIdExists": "Un nuevo país no puede ya tener un ID",
       "setupCustomerSurveyConfigIdExists": "Una nueva configuración de encuesta de cliente no puede ya tener un ID",
-      "setupCustomerSurveyConfigHasJobOrderSurvey": "Los datos de encuesta de orden de trabajo existen en el sistema para la configuración de encuesta de cliente",
+      "setupCustomerSurveyConfigHasJobOrderSurvey": "Esta encuesta no se puede eliminar porque actualmente está vinculada a una o más órdenes de trabajo.",
       "setupCustomerSurveyConfigWorkflowIdExists": "Una nueva configuración de flujo de trabajo de encuesta de cliente no puede ya tener un ID",
       "setupFaultJobOrderMappingIdExists": "Un nuevo mapeo de orden de trabajo de falla no puede ya tener un ID",
       "setupFaultJobOrderMappingIdNotFound": "ID no encontrado",
