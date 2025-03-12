@@ -705,8 +705,8 @@
         "setupVisible": false
       },
       "acquisitionDate": {
-        "original": "Acquisition Date",
-        "singular": "Erwerbsdatum",
+        "original": "Purchase Date",
+        "singular": "Kaufdatum",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
