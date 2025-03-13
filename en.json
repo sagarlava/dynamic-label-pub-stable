@@ -1013,7 +1013,8 @@
       "assetSubCategoryExists": "Asset Sub Category already exists",
       "assetSubCategorySystemGenerated": "System generated Asset Sub Category are not allowed to be deleted",
       "assetCategoryIdExists":"A new Asset Category cannot already have an ID",
-      "assetSubCategoryIdExists":"A new Asset Sub Category cannot already have an ID"
+      "assetSubCategoryIdExists":"A new Asset Sub Category cannot already have an ID",
+      "assetParentInvalid":"The chosen parent is already in the asset hierarchy"
     },
     "tooltips": {
       "setupVisible": false,
@@ -22161,7 +22162,7 @@
       "setupCalendlyConfigIdNotFound": "Id not found",
       "setupCountryIdExists": "A new Country cannot already have an ID",
       "setupCustomerSurveyConfigIdExists": "A new Customer Survey Config cannot already have an ID",
-      "setupCustomerSurveyConfigHasJobOrderSurvey": "Job Order Survey Data exists in the system for the Customer Survey Config",
+      "setupCustomerSurveyConfigHasJobOrderSurvey": "This survey cannot be deleted because it is currently linked to one or more job orders.",
       "setupCustomerSurveyConfigWorkflowIdExists": "A new Customer Survey Config Workflow cannot already have an ID",
       "setupFaultJobOrderMappingIdExists": "A new Fault Job Order Mapping cannot already have an ID",
       "setupFaultJobOrderMappingIdNotFound": "Id not found",
