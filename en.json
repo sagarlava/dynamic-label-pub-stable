@@ -1386,6 +1386,9 @@
         "setupEdit": true,
         "setupVisible": true
       }
+    },
+    "validationFE":{
+      "customerRequiredCreateVanLog":"Customer is required to create a van log record"
     }
   },
   "accessories": {

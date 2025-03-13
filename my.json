@@ -1386,6 +1386,9 @@
         "setupEdit": true,
         "setupVisible": true
       }
+    },
+    "validationFE":{
+      "customerRequiredCreateVanLog":"Pelanggan dikehendaki membuat rekod log van"
     }
   },
   "accessories": {
