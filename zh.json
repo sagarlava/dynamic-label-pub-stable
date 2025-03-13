@@ -1385,6 +1385,9 @@
         "setupEdit": true,
         "setupVisible": true
       }
+    },
+    "validationFE":{
+      "customerRequiredCreateVanLog":"客户必须创建货车日志记录"
     }
   },
   "accessories": {
