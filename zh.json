@@ -442,15 +442,15 @@
         "setupVisible": true
       },
       "sec1": {
-        "original": "Ownership & Location",
-        "singular": "所有权与位置",
+        "original": "Hierarchy and Classification",
+        "singular": "层级与分类",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "sec2": {
-        "original": "Coverage Period & Acquisition",
-        "singular": "覆盖期与获取",
+        "original": "Coverage Period",
+        "singular": "保障期限",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
@@ -556,6 +556,13 @@
       "sec17": {
         "original": "Change Status",
         "singular": "更改状态",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec18": {
+        "original": "Location Details",
+        "singular": "位置详情",
         "plural": "",
         "setupEdit": false,
         "setupVisible": false
@@ -684,8 +691,8 @@
         "setupVisible": false
       },
       "acquisitionDate": {
-        "original": "Acquisition Date",
-        "singular": "获取日期",
+        "original": "Purchase Date",
+        "singular": "购买日期",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
@@ -969,9 +976,63 @@
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
+      },
+      "allAssets": {
+        "original": "All Assets",
+        "singular": "所有资产",
+        "plural": "所有资产",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "groupByParent": {
+        "original": "Group by Parent",
+        "singular": "按父级分组",
+        "plural": "按父级分组",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "assetsByParent": {
+        "original": "Assets by Parent",
+        "singular": "按父级分类的资产",
+        "plural": "按父级分类的资产",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "parent": {
+        "original": "Parent",
+        "singular": "父级",
+        "plural": "父级",
+        "setupEdit": false,
+        "setupVisible": false
+      }, 
+      "pendingTransfer": {
+        "original": "Pending Transfers",
+        "singular": "待处理转移",
+        "plural": "待处理转移",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "group": {
+        "original": "Group",
+        "singular": "群组",
+        "plural": "群组",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "classification": {
+        "original": "Classification",
+        "singular": "分类",
+        "plural": "分类",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
-    "validationFE": {},
+    "validationFE": {
+      "warrantyEndDateAfterStartDate":"保修结束日期必须在开始日期之后。",
+      "serialNumberMustBeUnique":"序列号必须是唯一的。输入的值已被使用。",
+      "serialNumberContain":"序列号只能包含字母和数字。",
+      "temporarySerialNumberGenerationFailed":"临时序列号生成失败。请再试一次。"
+    },
     "validationBE": {
       "assetIdNotFound": "未找到 ID",
       "assetIdExidNotFound": "未找到 ID/资产外部ID",
@@ -1207,6 +1268,13 @@
         "plural": "",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "pendingTransfer": {
+        "original": "Show only Assets with a pending transfer",
+        "singular": "仅显示具有待处理转移的资产",
+        "plural": "仅显示具有待处理转移的资产",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "messages": {
@@ -1224,6 +1292,235 @@
       "warrantyStartDate": "保修开始日期不应晚于保修结束日期",
       "errorFetchingAllAssets": "获取所有资产时出错",
       "errorOccuredWhileFetchingAccessories": "获取配件时发生错误"
+    }
+  },
+  "analytic": {
+    "setupVisible": false,
+    "setupEdit": false,
+    "label": {
+      "original": "Analytics",
+      "singular": "分析",
+      "plural": "分析",
+      "setupEdit": false,
+      "setupVisible": false
+    },
+    "sections": {
+      "setupVisible": false,
+      "setupEdit": false,
+      "sec0": {
+        "original": "Lifespan and Financial Details",
+        "singular": "使用寿命和财务详情",
+        "plural": "使用寿命和财务详情",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec1": {
+        "original": "Operational Metrics",
+        "singular": "运营指标",
+        "plural": "运营指标",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec2": {
+        "original": "Downtime and Maintenance Analytics",
+        "singular": "停机和维护分析",
+        "plural": "停机和维护分析",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec3": {
+        "original": "Condition and Inspection Details",
+        "singular": "状况和检查详情",
+        "plural": "状况和检查详情",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec4": {
+        "original": "Performance and Cost Analysis",
+        "singular": "性能和成本分析",
+        "plural": "性能和成本分析",
+        "setupEdit": false,
+        "setupVisible": false
+      }
+    },
+    "fields": {
+      "setupVisible": false,
+      "setupEdit": false,
+      "estimatedLifespan": {
+        "original": "Estimated Lifespan (Months)",
+        "singular": "预计寿命（月）",
+        "plural": "预计寿命（月）",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "initialCost": {
+        "original": "Initial Cost",
+        "singular": "初始成本",
+        "plural": "初始成本",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "salvageValue": {
+        "original": "Salvage Value",
+        "singular": "残值",
+        "plural": "残值",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "depriciationRate": {
+        "original": "Depreciation Rate",
+        "singular": "折旧率",
+        "plural": "折旧率",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "expectedAvailableTime": {
+        "original": "Expected Available Time (Months)",
+        "singular": "预计可用时间（月）",
+        "plural": "预计可用时间（月）",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "timeUsed": {
+        "original": "Time Used",
+        "singular": "已使用时间",
+        "plural": "已使用时间",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "totalAvailableTime": {
+        "original": "Total Available Time",
+        "singular": "总可用时间",
+        "plural": "总可用时间",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "utilizationRate": {
+        "original": "Utilization Rate",
+        "singular": "使用率",
+        "plural": "使用率",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "remainingUsefulLife": {
+        "original": "Remaining Useful Life (RUL)",
+        "singular": "剩余使用寿命 (RUL)",
+        "plural": "剩余使用寿命 (RUL)",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "assetAge": {
+        "original": "Asset Age",
+        "singular": "资产年龄",
+        "plural": "资产年龄",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "totalDowntimePeriod": {
+        "original": "Total Downtime Period",
+        "singular": "总停机时长",
+        "plural": "总停机时长",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "avgRepairCost": {
+        "original": "Average Repair Cost",
+        "singular": "平均维修成本",
+        "plural": "平均维修成本",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "avgMaintenanceCost": {
+        "original": "Average Maintenance Cost",
+        "singular": "平均维护成本",
+        "plural": "平均维护成本",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "numberOfRepair": {
+        "original": "Number of Repairs",
+        "singular": "维修次数",
+        "plural": "维修次数",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "totalRepairTime": {
+        "original": "Total Repair Time",
+        "singular": "总维修时间",
+        "plural": "总维修时间",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "mttr": {
+        "original": "MTTR (Mean Time To Repair)",
+        "singular": "MTTR (平均维修时间)",
+        "plural": "MTTR (平均维修时间)",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "mtbf": {
+        "original": "MTBF (Mean Time Between Failures)",
+        "singular": "MTBF (平均故障间隔时间)",
+        "plural": "MTBF (平均故障间隔时间)",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "conditionIndex": {
+        "original": "Condition Index",
+        "singular": "状态指数",
+        "plural": "状态指数",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "lastCalibrationDate": {
+        "original": "Last Calibration Date",
+        "singular": "上次校准日期",
+        "plural": "上次校准日期",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "latestSafetyInspection": {
+        "original": "Latest Safety Inspection",
+        "singular": "最新安全检查",
+        "plural": "最新安全检查",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "failureRate": {
+        "original": "Failure Rate",
+        "singular": "故障率",
+        "plural": "故障率",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "operatingCostHour": {
+        "original": "Operating Costs per Hour",
+        "singular": "每小时运营成本",
+        "plural": "每小时运营成本",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "repairCostHour": {
+        "original": "Repair Costs per Hour",
+        "singular": "每小时维修成本",
+        "plural": "每小时维修成本",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "lifetimeCostHour": {
+        "original": "Lifetime Repair Cost",
+        "singular": "生命周期维修成本",
+        "plural": "生命周期维修成本",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "lifetimeMaintenanceCost": {
+        "original": "Lifetime Maintenance Cost",
+        "singular": "生命周期维护成本",
+        "plural": "生命周期维护成本",
+        "setupEdit": false,
+        "setupVisible": false
+      }
     }
   },
   "assetLog": {
@@ -9036,6 +9333,13 @@
         "plural": "",
         "setupEdit": false,
         "setupVisible": false
+      }, 
+      "pendingTransfer": {
+        "original": "Pending Transfers",
+        "singular": "待处理转移",
+        "plural": "待处理转移",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "validationFE": {
@@ -9288,284 +9592,383 @@
     }
   },
   "binTransfer": {
+    "setupEdit": false,
     "setupVisible": false,
     "label": {
       "original": "Bin Transfer",
       "singular": "转移",
       "plural": "转移",
-      "setupEdit": true,
-      "setupVisible": true
+      "setupEdit": false,
+      "setupVisible": false
     },
     "sections": {
-      "setupVisible": true,
+      "setupVisible": false,
       "sec0": {
         "original": "Transfer Details",
         "singular": "转移详情",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "sec1": {
         "original": "Location Bin Details",
         "singular": "位置仓位详情",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "sec2": {
         "original": "User Details",
         "singular": "用户详情",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "sec3": {
         "original": "Transfer by Bin",
         "singular": "按仓位转移",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "sec4": {
         "original": "Assignee Details",
         "singular": "受托人详情",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "sec5": {
         "original": "Transferred Items",
         "singular": "已转移项目",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "sec6": {
         "original": "Decline Transfer",
         "singular": "拒绝转移",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "sec7": {
         "original": "Transfer by Spare Part",
         "singular": "按备件转移",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "sec8": {
         "original": "Transaction Details",
         "singular": "交易详情",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "sec9": {
         "original": "Spare Part/Assets Transfer",
         "singular": "备件/资产转移",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "sec10": {
         "original": "Transfer",
         "singular": "转移",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "sec11": {
         "original": "Locate",
         "singular": "定位",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "sec12": {
         "original": "Movement History",
         "singular": "移动历史",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "sec13": {
         "original": "Asset(s) to Transfer",
         "singular": "待转移的资产",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "sec14": {
         "original": "Part(s) to Transfer",
         "singular": "待转移的部件",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec15": {
+        "original": "Transfer by Assets",
+        "singular": "按资产转移",
+        "plural": "按资产转移",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec16": {
+        "original": "Add Assets Via Serial Number",
+        "singular": "通过序列号添加资产",
+        "plural": "通过序列号添加资产",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec17": {
+        "original": "Transfer by Spare Parts",
+        "singular": "按备件转移",
+        "plural": "按备件转移",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec18": {
+        "original": "Add Spare Parts Via SKU",
+        "singular": "通过 SKU 添加备件",
+        "plural": "通过 SKU 添加备件",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec19": {
+        "original": "Adjust Spare Parts",
+        "singular": "调整备件",
+        "plural": "调整备件",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "fields": {
-      "setupVisible": true,
+      "setupVisible": false,
       "approvalStatus": {
         "original": "Approval Status",
         "singular": "审批状态",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "fromBin": {
         "original": "From Bin",
         "singular": "源仓位",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "toBin": {
         "original": "To Bin",
         "singular": "目标仓位",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "referenceNumber": {
         "original": "Reference Number",
         "singular": "参考编号",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "notes": {
         "original": "Notes",
         "singular": "备注",
         "plural": "备注",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "productName": {
         "original": "Spare Part Name",
         "singular": "备件名称",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "assetName": {
         "original": "Asset Name",
         "singular": "资产名称",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "sku": {
         "original": "SKU",
         "singular": "SKU",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "qtyAvailable": {
         "original": "Quantity Available",
         "singular": "可用数量",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "qtyTransfer": {
         "original": "Quantity to Transfer",
         "singular": "转移数量",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "transferNo": {
         "original": "Transfer No.",
         "singular": "转移编号",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "date": {
         "original": "Date",
         "singular": "日期",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "referenceNo": {
         "original": "Reference Number",
         "singular": "参考编号",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "type": {
         "original": "Type",
         "singular": "类型",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "transferredBy": {
         "original": "Transferred By",
         "singular": "转移者",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "assignedStatus": {
         "original": "Assigned Status",
         "singular": "分配状态",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "assignedTo": {
         "original": "Assigned To",
         "singular": "分配给",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "transferredDateTime": {
         "original": "Transferred Date & Time",
         "singular": "转移日期和时间",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "acceptedRejectedBy": {
         "original": "Accepted/Rejected By",
         "singular": "接受/拒绝者",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "remarks": {
         "original": "Remark",
         "singular": "备注",
         "plural": "备注",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "userBin": {
         "original": "User Bin",
         "singular": "用户仓位",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "locationBin": {
         "original": "Location Bin",
         "singular": "位置仓位",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "acceptedDate": {
         "original": "Accepted Date",
         "singular": "接受日期",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "transferToBin": {
+        "original": "Transfer to Bin",
+        "singular": "转移到存储箱",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "transferToUser": {
+        "original": "Transfer to User",
+        "singular": "转移到用户",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "removeSelectedAsset": {
+        "original": "Remove selected assets from their respective bins",
+        "singular": "从各自的存储箱中移除所选资产",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "status": {
+        "original": "Status",
+        "singular": "状态",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "from": {
+        "original": "From",
+        "singular": "从",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "transferFromBin": {
+        "original": "Transfer from Bin",
+        "singular": "从存储箱转移",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "transferFromUser": {
+        "original": "Transfer from User",
+        "singular": "从用户转移",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "selectAsset": {
+        "original": "Select Asset",
+        "singular": "选择资产",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "selectSparePart": {
+        "original": "Select Spare Part",
+        "singular": "选择备件",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "tooltips": {
@@ -9573,9 +9976,19 @@
         "original": "Bin Lookup",
         "singular": "仓位查询",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       }
+    },
+    "validationFE": {
+      "assetNotFound": "未找到资产",
+      "sparePartNotFound": "未找到备件",
+      "addAtLeastOneAsset":"添加至少一个资产以继续",
+      "addAtLeastOneSparePart":"添加至少一个备件以继续",
+      "oneSelectionToProceed":"至少选择一个选项以继续",
+      "exceededTotalSerialNoAdded":"您已超出一次可添加的序列号总数。请仅输入最多 50 个序列号。",
+      "assetHasBeenSelected":"此资产已被选中，请选择其他资产。",
+      "selectBinToProceed":"选择一个存储箱以继续"
     },
     "validationBE": {
       "binTransferIdExists": "新的仓位转移不能已经有一个ID",
@@ -9618,7 +10031,42 @@
       "binTransferSavedSuccessfully": "仓位转移保存成功",
       "assetsTransferred": "资产已转移",
       "productsTransferred": "备件已转移",
-      "assetsAreNotAllowedToTransfer": "资产不允许转移到工作订单"
+      "assetsAreNotAllowedToTransfer": "资产不允许转移到工作订单",
+      "selectAssetsToTransfer":"选择要转移的资产",
+      "selectBinToTransferAssets":"选择要将资产转移到的存储箱",
+      "confirmAssetToTransfer":"确认要转移的资产",
+      "selectBinToTransferAboveAsset":"选择要将上述资产转移到的存储箱",
+      "typePasteSerialNumbers":"输入或粘贴您要转移的资产序列号，每次最多 50 个。注意：请用 ',' 或换行符分隔序列号。",
+      "inputSerialNumbers":"输入或粘贴您要转移的资产序列号，每次最多 50 个。",
+      "inputSKU":"输入或粘贴您要转移的备件 SKU，每次最多 50 个。",
+      "serialNumberNote":"注意",
+      "serialNumberSeparation":"请用 ',' 或换行符分隔序列号。",
+      "skuSeparation":"用 ',' 或新行分隔 SKU。",
+      "transferCompletedImmediately":"此转移将立即完成。",
+      "transferNeedApproval":"此转移需要获得批准才能完成。",
+      "selectSparePartsToTransfer":"选择要转移的备件",
+      "selectBinToTransferAboveSpareParts":"选择要将上述备件转移到的存储箱",
+      "confirmSparePartsAdjust":"确认要调整的备件",
+      "selectBinsToAdjustSpareParts":"选择要调整备件的存储箱",
+      "selectOptionTransferSpecificItems":"选择此选项以按以下方式转移特定物品",
+      "selectOptionTo":"选择此选项以",
+      "browseAssetList":"浏览您的资产列表",
+      "browseSparePartsList":"浏览您的备件列表",
+      "selectAssetsViaSerialNo":"通过序列号选择资产",
+      "addingViaSku":"通过 SKU 添加",
+      "bulkTransferBetweenBins":"在存储箱之间批量转移物品",
+      "reorganizeStorageSystem":"重新组织您的存储系统",
+      "moveAssetsFromOneBinToAnother":"将资产从一个存储箱移动到另一个",
+      "moveSparePartsFromOneBinToAnother":"将备件从一个存储箱移动到另一个",
+      "selectBinTransferAssetFrom":"选择要从中转移资产的存储箱",
+      "selectAssetsToBeTransferred":"选择要转移的资产",
+      "selectSparePartsToBeTransferred":"选择要转移的备件",
+      "selectBinTransferSparePartFrom":"选择要从中转移备件的存储箱",
+      "selectBinToTransferSpareParts":"选择要将备件转移到的存储箱",
+      "specifySparePartQuantity":"您可以在下一步指定备件数量",
+      "addQuantitiesTransferred":"添加要转移的数量",
+      "enterSerialNumberHere":"在此输入序列号。",
+      "enterSKUHere":"在此输入 SKU。"
     }
   },
   "checkAvailibility": {
@@ -9646,14 +10094,14 @@
         "setupVisible": true
       },
       "sec2": {
-        "original": "选择备用零件",
+        "original": "Select Spare Part(s)",
         "singular": "选择备用零件",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "sec3": {
-        "original": "选择资产",
+        "original": "Select Asset(s)",
         "singular": "选择资产",
         "plural": "",
         "setupEdit": true,
@@ -10829,6 +11277,54 @@
       }
     }
   },
+  "movement": {
+    "setupEdit": false,
+    "setupVisible": false,
+    "label": {
+      "original": "Movements",
+      "singular": "移动",
+      "plural": "移动",
+      "setupEdit": false,
+      "setupVisible": false
+    },
+    "fields": {
+      "from": {
+        "original": "From",
+        "singular": "从",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "to": {
+        "original": "To",
+        "singular": "到",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "transferredBy": {
+        "original": "Transferred By",
+        "singular": "转移者",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "transferredDate": {
+        "original": "Transferred Date",
+        "singular": "转移日期",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "transferNo": {
+        "original": "Transfer No.",
+        "singular": "转移编号",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      }
+    }
+  },
   "header": {
     "setupVisible": false,
     "label": {
@@ -11142,10 +11638,10 @@
         "setupVisible": false
       },
       "transferByProducts": {
-        "original": "Transfer by Products",
-        "singular": "按备件转移",
+        "original": "Transfer Spare Parts",
+        "singular": "转移备件",
         "plural": "",
-        "setupEdit": true,
+        "setupEdit": false,
         "setupVisible": false
       },
       "transferByBin": {
@@ -12295,7 +12791,42 @@
         "plural": "使用坐标",
         "setupEdit": false,
         "setupVisible": false
-      }	
+      },
+      "transferAsset":{
+        "original": "Transfer Asset",
+        "singular": "转移资产",
+        "plural": "转移资产",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "addAsset":{
+        "original": "Add Asset",
+        "singular": "添加资产",
+        "plural": "添加资产",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "openExternally":{
+        "original": "Open Externally",
+        "singular": "外部打开",
+        "plural": "外部打开",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "pasteSerialNumbers":{
+        "original": "Paste Serial Numbers",
+        "singular": "粘贴序列号",
+        "plural": "粘贴序列号",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "pasteSku":{
+        "original": "Paste SKU",
+        "singular": "粘贴 SKU",
+        "plural": "粘贴 SKU",
+        "setupEdit": false,
+        "setupVisible": false
+      }		
     },
     "status": {
       "setupVisible": true,
@@ -13186,7 +13717,8 @@
       "requiredField": "必填字段",
       "pleaseSignBeforeProceed": "请签名后继续",
       "charactersExceed": "文本超过字符限制（255）。",
-      "endDateThanStartDate": "结束日期必须在开始日期之后"
+      "endDateThanStartDate": "结束日期必须在开始日期之后",
+      "thisFieldIsRequired":"此字段为必填项"
     },
     "validationBE": {
       "sendGridEmailTenantReferenceIdExists": "新的Send Grid电子邮件租户引用不能已有ID",
@@ -13274,6 +13806,13 @@
         "sec6": {
           "original": "Contact Details",
           "singular": "联系详情",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "sec7": {
+          "original": "Transfer Summary",
+          "singular": "转账摘要",
           "plural": "",
           "setupEdit": true,
           "setupVisible": false
@@ -13442,6 +13981,17 @@
           "setupEdit": true,
           "setupVisible": false
         }
+      },
+      "messages":{
+        "theFollowingAssetTransferToBin":"以下资产将被转移到以下存储箱",
+        "theFollowingAssetTransferTo":"以下资产将被转移到",
+        "willBeTransferTo":"将被转移到",
+        "theFollowingAssetRemoveFromBin":"以下资产将从以下存储箱中移除",
+        "theFollowingAssetRemoveFrom":"以下资产将被移除自",
+        "willBeRemovedFrom":"将被移除自",
+        "theFollowingSparePartTransferToBin":"以下备件将被转移到以下存储箱",
+        "theFollowingSparePartTransferTo":"以下备件将被转移到",
+        "willBeAdjustedInBin":"将在以下存储箱中调整"
       }
     },
     "commonComponent": {
@@ -21684,7 +22234,9 @@
         "lastMonth":"上个月",
         "nextMonth":"下个月",
         "thisYear":"今年",
-        "addDays":"添加天数"
+        "addDays":"添加天数",
+        "exampleCaps":"示例",
+        "exampleShort":"例"
       }
     },
     "templates": {

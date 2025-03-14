@@ -442,15 +442,15 @@
           "setupVisible": true
         },
         "sec1": {
-          "original": "Ownership & Location",
-          "singular": "Propiedad y Ubicación",
+          "original": "Hierarchy and Classification",
+          "singular": "Jerarquía y Clasificación",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "sec2": {
-          "original": "Coverage Period & Acquisition",
-          "singular": "Período de Cobertura y Adquisición",
+          "original": "Coverage Period",
+          "singular": "Período de Cobertura",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
@@ -559,7 +559,14 @@
           "plural": "",
           "setupEdit": false,
           "setupVisible": false
-        }
+        },
+      "sec18": {
+        "original": "Location Details",
+        "singular": "Detalles de ubicación",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      }
       },
       "fields": {
         "setupVisible": true,
@@ -684,8 +691,8 @@
           "setupVisible": false
         },
         "acquisitionDate": {
-          "original": "Acquisition Date",
-          "singular": "Fecha de Adquisición",
+          "original": "Purchase Date",
+          "singular": "Fecha de Compra",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
@@ -969,9 +976,63 @@
             "plural": "",
             "setupEdit": true,
             "setupVisible": true
-        }
+        },
+      "allAssets": {
+        "original": "All Assets",
+        "singular": "Todos los activos",
+        "plural": "Todos los activos",
+        "setupEdit": false,
+        "setupVisible": false
+        },
+        "groupByParent": {
+        "original": "Group by Parent",
+        "singular": "Agrupar por padre",
+        "plural": "Agrupar por padres",
+        "setupEdit": false,
+        "setupVisible": false
       },
-      "validationFE": {},
+      "assetsByParent": {
+        "original": "Assets by Parent",
+        "singular": "Activos por padre",
+        "plural": "Activos por padres",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "parent": {
+        "original": "Parent",
+        "singular": "Padre",
+        "plural": "Padres",
+        "setupEdit": false,
+        "setupVisible": false
+      }, 
+      "pendingTransfer": {
+        "original": "Pending Transfers",
+        "singular": "Transferencia pendiente",
+        "plural": "Transferencias pendientes",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "group": {
+        "original": "Group",
+        "singular": "Grupo",
+        "plural": "Grupos",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "classification": {
+        "original": "Classification",
+        "singular": "Clasificación",
+        "plural": "Clasificación",
+        "setupEdit": false,
+        "setupVisible": false
+      }
+    },
+    "validationFE": {
+      "warrantyEndDateAfterStartDate":"La fecha de finalización de la garantía debe ser posterior a la fecha de inicio.",
+      "serialNumberMustBeUnique":"El número de serie debe ser único. El valor ingresado ya está en uso.",
+      "serialNumberContain":"El número de serie solo debe contener letras y números.",
+      "temporarySerialNumberGenerationFailed":"La generación del número de serie temporal ha fallado. Por favor, inténtelo de nuevo."
+    },
       "validationBE": {
         "assetIdNotFound": "ID no encontrado",
         "assetIdExidNotFound": "ID/ID Externo del Activo no encontrado",
@@ -1207,7 +1268,14 @@
           "plural": "",
           "setupEdit": false,
           "setupVisible": false
-        }
+        },
+      "pendingTransfer": {
+        "original": "Show only Assets with a pending transfer",
+        "singular": "Mostrar solo activos con una transferencia pendiente",
+        "plural": "Mostrar solo activos con transferencias pendientes",
+        "setupEdit": false,
+        "setupVisible": false
+      }
       },
       "messages": {
         "configureQrBarcodeInAssetSetup": "Para configurar un código QR o de barras, vaya a Configuración de Activos en el Setup",
@@ -1225,6 +1293,235 @@
         "errorFetchingAllAssets": "Error al recuperar todos los activos",
         "errorOccuredWhileFetchingAccessories": "Error al obtener los accesorios"
       }
+  },
+  "analytic": {
+    "setupVisible": false,
+    "setupEdit": false,
+    "label": {
+      "original": "Analytics",
+      "singular": "Analític",
+      "plural": "Analíticas",
+      "setupEdit": false,
+      "setupVisible": false
+    },
+    "sections": {
+      "setupVisible": false,
+      "setupEdit": false,
+      "sec0": {
+        "original": "Lifespan and Financial Details",
+        "singular": "Detalles de vida útil y financieros",
+        "plural": "Detalles de vida útil y financieros",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec1": {
+        "original": "Operational Metrics",
+        "singular": "Métricas operativas",
+        "plural": "Métricas operativas",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec2": {
+        "original": "Downtime and Maintenance Analytics",
+        "singular": "Analítica de tiempo de inactividad y mantenimiento",
+        "plural": "Analítica de tiempo de inactividad y mantenimiento",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec3": {
+        "original": "Condition and Inspection Details",
+        "singular": "Detalles de condición e inspección",
+        "plural": "Detalles de condición e inspección",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec4": {
+        "original": "Performance and Cost Analysis",
+        "singular": "Análisis de rendimiento y costos",
+        "plural": "Análisis de rendimiento y costos",
+        "setupEdit": false,
+        "setupVisible": false
+      }
+    },
+    "fields": {
+      "setupVisible": false,
+      "setupEdit": false,
+      "estimatedLifespan": {
+        "original": "Estimated Lifespan (Months)",
+        "singular": "Vida útil estimada (Meses)",
+        "plural": "Vida útil estimada (Meses)",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "initialCost": {
+        "original": "Initial Cost",
+        "singular": "Costo inicial",
+        "plural": "Costos inicial",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "salvageValue": {
+        "original": "Salvage Value",
+        "singular": "Valor de rescate",
+        "plural": "Valores de rescate",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "depriciationRate": {
+        "original": "Depreciation Rate",
+        "singular": "Tasas de depreciación",
+        "plural": "Tasas de depreciación",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "expectedAvailableTime": {
+        "original": "Expected Available Time (Months)",
+        "singular": "Tiempo disponible esperado (meses)",
+        "plural": "Tiempo disponible esperado (meses)",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "timeUsed": {
+        "original": "Time Used",
+        "singular": "Tiempos utilizados",
+        "plural": "Tiempos utilizados",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "totalAvailableTime": {
+        "original": "Total Available Time",
+        "singular": "Tiempos totales disponibles",
+        "plural": "Tiempos totales disponibles",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "utilizationRate": {
+        "original": "Utilization Rate",
+        "singular": "Tasa de utilización",
+        "plural": "Tasa de utilización",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "remainingUsefulLife": {
+        "original": "Remaining Useful Life (RUL)",
+        "singular": "Vidas útiles restantes (RUL)",
+        "plural": "Vidas útiles restantes (RUL)",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "assetAge": {
+        "original": "Asset Age",
+        "singular": "Edades de los activos",
+        "plural": "Edades de los activos",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "totalDowntimePeriod": {
+        "original": "Total Downtime Period",
+        "singular": "Períodos totales de inactividad",
+        "plural": "Períodos totales de inactividad",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "avgRepairCost": {
+        "original": "Average Repair Cost",
+        "singular": "Costo promedio de reparación",
+        "plural": "Costo promedio de reparación",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "avgMaintenanceCost": {
+        "original": "Average Maintenance Cost",
+        "singular": "Costo promedio de mantenimiento",
+        "plural": "Costo promedio de mantenimiento",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "numberOfRepair": {
+        "original": "Number of Repairs",
+        "singular": "Número de reparaciones",
+        "plural": "Número de reparaciones",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "totalRepairTime": {
+        "original": "Total Repair Time",
+        "singular": "Tiempos totales de reparación",
+        "plural": "Tiempos totales de reparación",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "mttr": {
+        "original": "MTTR (Mean Time To Repair)",
+        "singular": "MTTR (Tiempos Medios de Reparación)",
+        "plural": "MTTR (Tiempos Medios de Reparación)",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "mtbf": {
+        "original": "MTBF (Mean Time Between Failures)",
+        "singular": "MTBF (Tiempos Medios Entre Fallos)",
+        "plural": "MTBF (Tiempos Medios Entre Fallos)",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "conditionIndex": {
+        "original": "Condition Index",
+        "singular": "Índices de condición",
+        "plural": "Índices de condición",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "lastCalibrationDate": {
+        "original": "Last Calibration Date",
+        "singular": "Fechas de la última calibración",
+        "plural": "Fechas de la última calibración",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "latestSafetyInspection": {
+        "original": "Latest Safety Inspection",
+        "singular": "Últimas inspecciones de seguridad",
+        "plural": "Últimas inspecciones de seguridad",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "failureRate": {
+        "original": "Failure Rate",
+        "singular": "Tasas de fallos",
+        "plural": "Tasas de fallos",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "operatingCostHour": {
+        "original": "Operating Costs per Hour",
+        "singular": "Costos operativos por hora",
+        "plural": "Costos operativos por hora",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "repairCostHour": {
+        "original": "Repair Costs per Hour",
+        "singular": "Costos de reparación por hora",
+        "plural": "Costos de reparación por hora",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "lifetimeCostHour": {
+        "original": "Lifetime Repair Cost",
+        "singular": "Costos de reparación durante la vida útil",
+        "plural": "Costos de reparación durante la vida útil",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "lifetimeMaintenanceCost": {
+        "original": "Lifetime Maintenance Cost",
+        "singular": "Costos de mantenimiento durante la vida útil",
+        "plural": "Costos de mantenimiento durante la vida útil",
+        "setupEdit": false,
+        "setupVisible": false
+      }
+    }
   },
   "assetLog": {
     "setupVisible": true,
@@ -9036,6 +9333,13 @@
         "plural": "",
         "setupEdit": false,
         "setupVisible": false
+      }, 
+      "pendingTransfer": {
+        "original": "Pending Transfers",
+        "singular": "Transferencia pendiente",
+        "plural": "Transferencias pendientes",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "validationFE": {
@@ -9288,284 +9592,383 @@
     }
   },
   "binTransfer": {
+    "setupEdit": false,
     "setupVisible": false,
     "label": {
       "original": "Bin Transfer",
       "singular": "Transferencia de Contenedor",
       "plural": "Transferencias de Contenedor",
-      "setupEdit": true,
-      "setupVisible": true
+      "setupEdit": false,
+      "setupVisible": false
     },
     "sections": {
-      "setupVisible": true,
+      "setupVisible": false,
       "sec0": {
         "original": "Transfer Details",
         "singular": "Detalles de la Transferencia",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "sec1": {
         "original": "Location Bin Details",
         "singular": "Detalles del Contenedor en la Ubicación",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "sec2": {
         "original": "User Details",
         "singular": "Detalles del Usuario",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "sec3": {
         "original": "Transfer by Bin",
         "singular": "Transferir por Contenedor",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "sec4": {
         "original": "Assignee Details",
         "singular": "Detalles del Asignado",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "sec5": {
         "original": "Transferred Items",
         "singular": "Artículos Transferidos",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "sec6": {
         "original": "Decline Transfer",
         "singular": "Rechazar Transferencia",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "sec7": {
         "original": "Transfer by Spare Part",
         "singular": "Transferir por Pieza de Repuesto",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "sec8": {
         "original": "Transaction Details",
         "singular": "Detalles de la Transacción",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "sec9": {
         "original": "Product/Assets Transfer",
         "singular": "Transferencia de Productos/Activos",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "sec10": {
         "original": "Transfer",
         "singular": "Transferir",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "sec11": {
         "original": "Locate",
         "singular": "Localizar",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "sec12": {
         "original": "Movement History",
         "singular": "Historial de movimientos",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "sec13": {
         "original": "Asset(s) to Transfer",
         "singular": "Activo(s) a transferir",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "sec14": {
         "original": "Part(s) to Transfer",
         "singular": "Parte(s) a transferir",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec15": {
+        "original": "Transfer by Assets",
+        "singular": "Transferencia por activos",
+        "plural": "Transferencias por activos",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec16": {
+        "original": "Add Assets Via Serial Number",
+        "singular": "Agregar activos mediante número de serie",
+        "plural": "Agregar activos mediante números de serie",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec17": {
+        "original": "Transfer by Spare Parts",
+        "singular": "Transferencia por repuestos",
+        "plural": "Transferencias por repuestos",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec18": {
+        "original": "Add Spare Parts Via SKU",
+        "singular": "Agregar repuestos mediante SKU",
+        "plural": "Agregar repuestos mediante SKUs",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec19": {
+        "original": "Adjust Spare Parts",
+        "singular": "Ajustar repuestos",
+        "plural": "Ajustar repuestos",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "fields": {
-      "setupVisible": true,
+      "setupVisible": false,
       "approvalStatus": {
         "original": "Approval Status",
         "singular": "Estado de Aprobación",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "fromBin": {
         "original": "From Bin",
         "singular": "Desde el Contenedor",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "toBin": {
         "original": "To Bin",
         "singular": "Al Contenedor",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "referenceNumber": {
         "original": "Reference Number",
         "singular": "Número de Referencia",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "notes": {
         "original": "Notes",
         "singular": "Nota",
         "plural": "Notas",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "productName": {
         "original": "Spare Part Name",
         "singular": "Nombre de la Pieza de Repuesto",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "assetName": {
         "original": "Asset Name",
         "singular": "Nombre del Activo",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "sku": {
         "original": "SKU",
         "singular": "SKU",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "qtyAvailable": {
         "original": "Quantity Available",
         "singular": "Cantidad Disponible",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "qtyTransfer": {
         "original": "Quantity to Transfer",
         "singular": "Cantidad a Transferir",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "transferNo": {
         "original": "Transfer No.",
         "singular": "N° de Transferencia",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "date": {
         "original": "Date",
         "singular": "Fecha",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "referenceNo": {
         "original": "Reference Number",
         "singular": "Número de Referencia",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "type": {
         "original": "Type",
         "singular": "Tipo",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "transferredBy": {
         "original": "Transferred By",
         "singular": "Transferido Por",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "assignedStatus": {
         "original": "Assigned Status",
         "singular": "Estado Asignado",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "assignedTo": {
         "original": "Assigned To",
         "singular": "Asignado A",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "transferredDateTime": {
         "original": "Transferred Date & Time",
         "singular": "Fecha y Hora de Transferencia",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "acceptedRejectedBy": {
         "original": "Accepted/Rejected By",
         "singular": "Aceptado/Rechazado Por",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "remarks": {
         "original": "Remark",
         "singular": "Observación",
         "plural": "Observaciones",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "userBin": {
         "original": "User Bin",
         "singular": "Contenedor del Usuario",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "locationBin": {
         "original": "Location Bin",
         "singular": "Contenedor de Ubicación",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "acceptedDate": {
         "original": "Accepted Date",
         "singular": "Fecha de Aceptación",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "transferToBin": {
+        "original": "Transfer to Bin",
+        "singular": "Transferir al contenedor",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "transferToUser": {
+        "original": "Transfer to User",
+        "singular": "Transferir al usuario",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "removeSelectedAsset": {
+        "original": "Remove selected assets from their respective bins",
+        "singular": "Eliminar los activos seleccionados de sus respectivos contenedores",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "status": {
+        "original": "Status",
+        "singular": "Estado",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "from": {
+        "original": "From",
+        "singular": "Desde",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "transferFromBin": {
+        "original": "Transfer from Bin",
+        "singular": "Transferir desde contenedor",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "transferFromUser": {
+        "original": "Transfer from User",
+        "singular": "Transferir desde usuario",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "selectAsset": {
+        "original": "Select Asset",
+        "singular": "Seleccionar activo",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "selectSparePart": {
+        "original": "Select Spare Part",
+        "singular": "Seleccionar repuesto",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "tooltips": {
@@ -9573,9 +9976,19 @@
         "original": "Bin Lookup",
         "singular": "Búsqueda de Contenedor",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       }
+    },
+    "validationFE": {
+      "assetNotFound": "Activo no encontrado",
+      "sparePartNotFound": "Repuesto no encontrado",
+      "addAtLeastOneAsset":"Agregue al menos un activo para continuar",
+      "addAtLeastOneSparePart":"Agregue al menos un repuesto para continuar",
+      "oneSelectionToProceed":"Realice al menos una selección para continuar",
+      "exceededTotalSerialNoAdded":"Ha excedido el número total de números de serie que se pueden agregar a la vez. Por favor, ingrese solo hasta 50 números de serie.",
+      "assetHasBeenSelected":"Este activo ya ha sido seleccionado, por favor seleccione un activo diferente.",
+      "selectBinToProceed":"Seleccione un contenedor para continuar"
     },
     "validationBE": {
       "binTransferIdExists": "Una nueva Transferencia de Contenedor no puede tener ya un ID",
@@ -9618,7 +10031,42 @@
       "binTransferSavedSuccessfully": "Transferencia de Contenedor guardada con éxito",
       "assetsTransferred": "Activo(s) transferido(s)",
       "productsTransferred": "Pieza(s) de Repuesto transferida(s)",
-      "assetsAreNotAllowedToTransfer": "No se permite transferir activos a la orden de trabajo"
+      "assetsAreNotAllowedToTransfer": "No se permite transferir activos a la orden de trabajo",
+      "selectAssetsToTransfer":"Seleccione los activos que desea transferir",
+      "selectBinToTransferAssets":"Seleccione el contenedor al que desea transferir los activos",
+      "confirmAssetToTransfer":"Confirme el activo que desea transferir",
+      "selectBinToTransferAboveAsset":"Seleccione el contenedor al que desea transferir el activo mencionado arriba",
+      "typePasteSerialNumbers":"Escriba o pegue los números de serie de los activos que desea transferir, con un máximo de 50 números de serie a la vez. Nota: Separe los números de serie con ',' o una nueva línea.",
+      "inputSerialNumbers":"Escriba o pegue los números de serie de los activos que desea transferir, con un máximo de 50 números de serie a la vez.",
+      "inputSKU":"Escriba o pegue los SKUs de los repuestos que desea transferir, con un máximo de 50 SKUs a la vez.",
+      "serialNumberNote":"Nota",
+      "serialNumberSeparation":"Separe los números de serie con ',' o una nueva línea.",
+      "skuSeparation":"Separe los SKU con ',' o una nueva línea.",
+      "transferCompletedImmediately":"Esta transferencia se completará de inmediato.",
+      "transferNeedApproval":"Esta transferencia necesitará ser aprobada antes de completarse.",
+      "selectSparePartsToTransfer":"Seleccione los repuestos que desea transferir",
+      "selectBinToTransferAboveSpareParts":"Seleccione el contenedor al que desea transferir los repuestos mencionados arriba",
+      "confirmSparePartsAdjust":"Confirme los repuestos que desea ajustar",
+      "selectBinsToAdjustSpareParts":"Seleccione los contenedores en los que desea ajustar los repuestos",
+      "selectOptionTransferSpecificItems":"Seleccione esta opción para transferir artículos específicos por",
+      "selectOptionTo":"Seleccione esta opción para",
+      "browseAssetList":"Navegando por su lista de activos",
+      "browseSparePartsList":"Navegando por su lista de repuestos",
+      "selectAssetsViaSerialNo":"Seleccionando activos mediante número de serie",
+      "addingViaSku":"Agregando mediante SKU",
+      "bulkTransferBetweenBins":"Transferencia masiva de artículos entre contenedores",
+      "reorganizeStorageSystem":"Reorganizar su sistema de almacenamiento",
+      "moveAssetsFromOneBinToAnother":"Mover activos de un contenedor a otro",
+      "moveSparePartsFromOneBinToAnother":"Mover repuestos de un contenedor a otro",
+      "selectBinTransferAssetFrom":"Seleccione el contenedor desde el cual desea transferir activos",
+      "selectAssetsToBeTransferred":"Seleccione los activos a transferir",
+      "selectSparePartsToBeTransferred":"Seleccione los repuestos a transferir",
+      "selectBinTransferSparePartFrom":"Seleccione el contenedor desde el cual desea transferir repuestos",
+      "selectBinToTransferSpareParts":"Seleccione el contenedor al que desea transferir los repuestos",
+      "specifySparePartQuantity":"Puede especificar la cantidad de repuestos en el siguiente paso",
+      "addQuantitiesTransferred":"Agregue las cantidades a transferir",
+      "enterSerialNumberHere":"Ingrese los números de serie aquí",
+      "enterSKUHere":"Ingrese los SKU aquí."
     }
   },
   "checkAvailibility": {
@@ -10829,6 +11277,54 @@
       }
     }
   },
+  "movement": {
+    "setupEdit": false,
+    "setupVisible": false,
+    "label": {
+      "original": "Movements",
+      "singular": "Movimiento",
+      "plural": "Movimientos",
+      "setupEdit": false,
+      "setupVisible": false
+    },
+    "fields": {
+      "from": {
+        "original": "From",
+        "singular": "De",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "to": {
+        "original": "To",
+        "singular": "A",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "transferredBy": {
+        "original": "Transferred By",
+        "singular": "Transferido por",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "transferredDate": {
+        "original": "Transferred Date",
+        "singular": "Fecha de transferencia",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "transferNo": {
+        "original": "Transfer No.",
+        "singular": "N.º de transferencia",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      }
+    }
+  },
   "header": {
     "setupVisible": false,
     "label": {
@@ -11142,10 +11638,10 @@
         "setupVisible": false
       },
       "transferByProducts": {
-        "original": "Transfer by Spare Parts",
-        "singular": "Transferir por Repuestos",
+        "original": "Transfer Spare Parts",
+        "singular": "Transferir Repuestos",
         "plural": "",
-        "setupEdit": true,
+        "setupEdit": false,
         "setupVisible": false
       },
       "transferByBin": {
@@ -12295,7 +12791,42 @@
         "plural": "Usar coordenadas",
         "setupEdit": false,
         "setupVisible": false
-      }	
+      },
+      "transferAsset":{
+        "original": "Transfer Asset",
+        "singular": "Transferir Activo",
+        "plural": "Transferir Activos",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "addAsset":{
+        "original": "Add Asset",
+        "singular": "Añadir Activo",
+        "plural": "Añadir Activos",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "openExternally":{
+        "original": "Open Externally",
+        "singular": "Abrir externamente",
+        "plural": "Abrir externamente",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "pasteSerialNumbers":{
+        "original": "Paste Serial Numbers",
+        "singular": "Pegar números de serie",
+        "plural": "Pegar números de serie",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "pasteSku":{
+        "original": "Paste SKU",
+        "singular": "Pegar SKU",
+        "plural": "Pegar SKUs",
+        "setupEdit": false,
+        "setupVisible": false
+      }				
     },
     "status": {
       "setupVisible": false,
@@ -13186,7 +13717,8 @@
       "requiredField": "Campo Requerido",
       "pleaseSignBeforeProceed": "Por favor, firme antes de continuar",
       "charactersExceed": "El texto excede el límite de caracteres (255).",
-      "endDateThanStartDate": "La fecha de finalización debe ser posterior a la fecha de inicio"
+      "endDateThanStartDate": "La fecha de finalización debe ser posterior a la fecha de inicio",
+      "thisFieldIsRequired":"Este campo es obligatorio"
     },
     "validationBE": {
       "sendGridEmailTenantReferenceIdExists": "Una nueva referencia de inquilino de correo electrónico de Send Grid no puede tener ya un ID",
@@ -13274,6 +13806,13 @@
         "sec6": {
           "original": "Contact Details",
           "singular": "Detalles de Contacto",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "sec7": {
+          "original": "Transfer Summary",
+          "singular": "Resumen de transferencia",
           "plural": "",
           "setupEdit": true,
           "setupVisible": false
@@ -13442,6 +13981,17 @@
           "setupEdit": true,
           "setupVisible": false
         }
+      },
+      "messages":{
+        "theFollowingAssetTransferToBin":"Los siguientes activos serán transferidos a los siguientes contenedores",
+        "theFollowingAssetTransferTo":"Los siguientes activos serán transferidos a",
+        "willBeTransferTo":"será transferido a",
+        "theFollowingAssetRemoveFromBin":"Los siguientes activos serán eliminados de los siguientes contenedores",
+        "theFollowingAssetRemoveFrom":"Los siguientes activos serán eliminados de",
+        "willBeRemovedFrom":"será eliminado de",
+        "theFollowingSparePartTransferToBin":"Las siguientes piezas de repuesto serán transferidas a los siguientes contenedores",
+        "theFollowingSparePartTransferTo":"Las siguientes piezas de repuesto serán transferidas a",
+        "willBeAdjustedInBin":"serán ajustadas en los siguientes contenedores"
       }
     },
     "commonComponent": {
@@ -21684,7 +22234,9 @@
           "lastMonth":"El Mes Pasado",
           "nextMonth":"El Próximo Mes",
           "thisYear":"Este Año",
-          "addDays":"Agregar Días"
+          "addDays":"Agregar Días",
+          "exampleCaps":"Ejemplo",
+          "exampleShort":"Ej"
       }
     },
     "templates": {
