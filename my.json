@@ -1409,6 +1409,13 @@
         "plural": "Umur Aset",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "totalDowntimePeriod": {
+        "original": "Total Downtime Period",
+        "singular": "Jumlah Tempoh Waktu Henti",
+        "plural": "Jumlah Tempoh Waktu Henti",
+        "setupEdit": false,
+        "setupVisible": false
       }
     }
   },

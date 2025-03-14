@@ -1409,6 +1409,13 @@
         "plural": "Anlagealter",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "totalDowntimePeriod": {
+        "original": "Total Downtime Period",
+        "singular": "Gesamtausfallzeiten",
+        "plural": "Gesamtausfallzeiten",
+        "setupEdit": false,
+        "setupVisible": false
       }
     }
   },

@@ -1409,6 +1409,13 @@
         "plural": "Edades de los activos",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "totalDowntimePeriod": {
+        "original": "Total Downtime Period",
+        "singular": "Períodos totales de inactividad",
+        "plural": "Períodos totales de inactividad",
+        "setupEdit": false,
+        "setupVisible": false
       }
     }
   },

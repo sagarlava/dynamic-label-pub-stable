@@ -1409,6 +1409,13 @@
         "plural": "Asset Age",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "totalDowntimePeriod": {
+        "original": "Total Downtime Period",
+        "singular": "Total Downtime Period",
+        "plural": "Total Downtime Period",
+        "setupEdit": false,
+        "setupVisible": false
       }
     }
   },

@@ -1409,6 +1409,13 @@
         "plural": "资产年龄",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "totalDowntimePeriod": {
+        "original": "Total Downtime Period",
+        "singular": "总停机时长",
+        "plural": "总停机时长",
+        "setupEdit": false,
+        "setupVisible": false
       }
     }
   },
