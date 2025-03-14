@@ -1423,6 +1423,13 @@
         "plural": "Costo promedio de reparación",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "avgMaintenanceCost": {
+        "original": "Average Maintenance Cost",
+        "singular": "Costo promedio de mantenimiento",
+        "plural": "Costo promedio de mantenimiento",
+        "setupEdit": false,
+        "setupVisible": false
       }
     }
   },

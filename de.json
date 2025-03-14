@@ -1423,6 +1423,13 @@
         "plural": "Durchschnittliche Reparaturkosten",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "avgMaintenanceCost": {
+        "original": "Average Maintenance Cost",
+        "singular": "Durchschnittliche Wartungskosten",
+        "plural": "Durchschnittliche Wartungskosten",
+        "setupEdit": false,
+        "setupVisible": false
       }
     }
   },

@@ -1423,6 +1423,13 @@
         "plural": "平均维修成本",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "avgMaintenanceCost": {
+        "original": "Average Maintenance Cost",
+        "singular": "平均维护成本",
+        "plural": "平均维护成本",
+        "setupEdit": false,
+        "setupVisible": false
       }
     }
   },

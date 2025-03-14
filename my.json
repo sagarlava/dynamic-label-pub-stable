@@ -1423,6 +1423,13 @@
         "plural": "Purata Kos Pembaikan",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "avgMaintenanceCost": {
+        "original": "Average Maintenance Cost",
+        "singular": "Purata Kos Penyelenggaraan",
+        "plural": "Purata Kos Penyelenggaraan",
+        "setupEdit": false,
+        "setupVisible": false
       }
     }
   },

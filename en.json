@@ -1423,6 +1423,13 @@
         "plural": "Average Repair Cost",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "avgMaintenanceCost": {
+        "original": "Average Maintenance Cost",
+        "singular": "Average Maintenance Cost",
+        "plural": "Average Maintenance Cost",
+        "setupEdit": false,
+        "setupVisible": false
       }
     }
   },
