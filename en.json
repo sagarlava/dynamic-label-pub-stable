@@ -1472,6 +1472,13 @@
         "plural": "Last Calibration Date",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "latestSafetyInspection": {
+        "original": "Latest Safety Inspection",
+        "singular": "Latest Safety Inspection",
+        "plural": "Latest Safety Inspection",
+        "setupEdit": false,
+        "setupVisible": false
       }
     }
   },

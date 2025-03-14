@@ -1472,6 +1472,13 @@
         "plural": "Tarikh Penentukuran Terakhir",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "latestSafetyInspection": {
+        "original": "Latest Safety Inspection",
+        "singular": "Pemeriksaan Keselamatan Terkini",
+        "plural": "Pemeriksaan Keselamatan Terkini",
+        "setupEdit": false,
+        "setupVisible": false
       }
     }
   },

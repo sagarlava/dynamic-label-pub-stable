@@ -1472,6 +1472,13 @@
         "plural": "上次校准日期",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "latestSafetyInspection": {
+        "original": "Latest Safety Inspection",
+        "singular": "最新安全检查",
+        "plural": "最新安全检查",
+        "setupEdit": false,
+        "setupVisible": false
       }
     }
   },
