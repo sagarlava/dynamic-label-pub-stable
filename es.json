@@ -1437,6 +1437,13 @@
         "plural": "Número de reparaciones",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "totalRepairTime": {
+        "original": "Total Repair Time",
+        "singular": "Tiempos totales de reparación",
+        "plural": "Tiempos totales de reparación",
+        "setupEdit": false,
+        "setupVisible": false
       }
     }
   },

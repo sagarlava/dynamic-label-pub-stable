@@ -1437,6 +1437,13 @@
         "plural": "Bilangan Pembaikan",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "totalRepairTime": {
+        "original": "Total Repair Time",
+        "singular": "Jumlah Masa Pembaikan",
+        "plural": "Jumlah Masa Pembaikan",
+        "setupEdit": false,
+        "setupVisible": false
       }
     }
   },
