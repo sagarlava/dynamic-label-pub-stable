@@ -1451,6 +1451,13 @@
         "plural": "MTTR (Durchschnittliche Reparaturzeiten)",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "mtbf": {
+        "original": "MTBF (Mean Time Between Failures)",
+        "singular": "MTBF (Mittlere Zeiten zwischen Ausfällen)",
+        "plural": "MTBF (Mittlere Zeiten zwischen Ausfällen)",
+        "setupEdit": false,
+        "setupVisible": false
       }
     }
   },

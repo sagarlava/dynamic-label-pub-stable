@@ -1451,6 +1451,13 @@
         "plural": "MTTR (Mean Time To Repair)",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "mtbf": {
+        "original": "MTBF (Mean Time Between Failures)",
+        "singular": "MTBF (Mean Time Between Failures)",
+        "plural": "MTBF (Mean Time Between Failures)",
+        "setupEdit": false,
+        "setupVisible": false
       }
     }
   },

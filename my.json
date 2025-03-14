@@ -1451,6 +1451,13 @@
         "plural": "MTTR (Purata Masa Untuk Membaiki)",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "mtbf": {
+        "original": "MTBF (Mean Time Between Failures)",
+        "singular": "MTBF (Purata Masa Antara Kegagalan)",
+        "plural": "MTBF (Purata Masa Antara Kegagalan)",
+        "setupEdit": false,
+        "setupVisible": false
       }
     }
   },

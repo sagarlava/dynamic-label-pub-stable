@@ -1451,6 +1451,13 @@
         "plural": "MTTR (平均维修时间)",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "mtbf": {
+        "original": "MTBF (Mean Time Between Failures)",
+        "singular": "MTBF (平均故障间隔时间)",
+        "plural": "MTBF (平均故障间隔时间)",
+        "setupEdit": false,
+        "setupVisible": false
       }
     }
   },
