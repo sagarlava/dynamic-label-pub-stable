@@ -9822,7 +9822,8 @@
       "selectBinToTransferSpareParts":"选择要将备件转移到的存储箱",
       "specifySparePartQuantity":"您可以在下一步指定备件数量",
       "addQuantitiesTransferred":"添加要转移的数量",
-      "enterSerialNumberHere":"在此输入序列号。"
+      "enterSerialNumberHere":"在此输入序列号。",
+      "enterSKUHere":"在此输入 SKU。"
     }
   },
   "checkAvailibility": {
