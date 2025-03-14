@@ -1388,6 +1388,13 @@
         "plural": "总可用时间",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "utilizationRate": {
+        "original": "Utilization Rate",
+        "singular": "使用率",
+        "plural": "使用率",
+        "setupEdit": false,
+        "setupVisible": false
       }
     }
   },

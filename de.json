@@ -1388,6 +1388,13 @@
         "plural": "Gesamtverfügbare Zeiten",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "utilizationRate": {
+        "original": "Utilization Rate",
+        "singular": "Nutzungsraten",
+        "plural": "Nutzungsraten",
+        "setupEdit": false,
+        "setupVisible": false
       }
     }
   },

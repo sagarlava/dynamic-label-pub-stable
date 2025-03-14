@@ -1388,6 +1388,13 @@
         "plural": "Total Available Time",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "utilizationRate": {
+        "original": "Utilization Rate",
+        "singular": "Utilization Rate",
+        "plural": "Utilization Rate",
+        "setupEdit": false,
+        "setupVisible": false
       }
     }
   },

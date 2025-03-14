@@ -1388,6 +1388,13 @@
         "plural": "Jumlah Masa Ketersediaan",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "utilizationRate": {
+        "original": "Utilization Rate",
+        "singular": "Kadar Penggunaan",
+        "plural": "Kadar Penggunaan",
+        "setupEdit": false,
+        "setupVisible": false
       }
     }
   },
