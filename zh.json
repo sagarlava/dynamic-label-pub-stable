@@ -1336,6 +1336,17 @@
         "setupEdit": false,
         "setupVisible": false
       }
+    },
+    "fields": {
+      "setupVisible": false,
+      "setupEdit": false,
+      "estimatedLifespan": {
+        "original": "Estimated Lifespan (Months)",
+        "singular": "预计寿命（月）",
+        "plural": "预计寿命（月）",
+        "setupEdit": false,
+        "setupVisible": false
+      }
     }
   },
   "assetLog": {

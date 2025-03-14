@@ -1336,6 +1336,17 @@
         "setupEdit": false,
         "setupVisible": false
       }
+    },
+    "fields": {
+      "setupVisible": false,
+      "setupEdit": false,
+      "estimatedLifespan": {
+        "original": "Estimated Lifespan (Months)",
+        "singular": "Vida útil estimada (Meses)",
+        "plural": "Vida útil estimada (Meses)",
+        "setupEdit": false,
+        "setupVisible": false
+      }
     }
   },
   "assetLog": {

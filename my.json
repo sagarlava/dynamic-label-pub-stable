@@ -1336,6 +1336,17 @@
         "setupEdit": false,
         "setupVisible": false
       }
+    },
+    "fields": {
+      "setupVisible": false,
+      "setupEdit": false,
+      "estimatedLifespan": {
+        "original": "Estimated Lifespan (Months)",
+        "singular": "Jangka Hayat Anggaran (Bulan)",
+        "plural": "Jangka Hayat Anggaran (Bulan)",
+        "setupEdit": false,
+        "setupVisible": false
+      }
     }
   },
   "assetLog": {
