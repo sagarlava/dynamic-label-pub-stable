@@ -1682,6 +1682,9 @@
         "setupEdit": true,
         "setupVisible": true
       }
+    },
+    "validationFE":{
+      "customerRequiredCreateVanLog":"El cliente debe crear un registro de la furgoneta"
     }
   },
   "accessories": {
@@ -4788,7 +4791,8 @@
       "userTaskIdExists": "Una nueva Tarea de Usuario no puede tener ya un ID",
       "userTaskIdNotFound": "ID no encontrado",
       "userTaskNotFound": "Tarea de Usuario no encontrada",
-      "userNotAllowedToAssignTask": "Usuario no tiene permitido agregar miembros a la tarea"
+      "userNotAllowedToAssignTask": "Usuario no tiene permitido agregar miembros a la tarea",
+      "taskNoteRequired": "Se requiere la nota de la tarea, pero no se ha proporcionado"
     },
     "tooltips": {
       "setupVisible": false,
@@ -22348,7 +22352,7 @@
       "setupCalendlyConfigIdNotFound": "ID no encontrado",
       "setupCountryIdExists": "Un nuevo país no puede ya tener un ID",
       "setupCustomerSurveyConfigIdExists": "Una nueva configuración de encuesta de cliente no puede ya tener un ID",
-      "setupCustomerSurveyConfigHasJobOrderSurvey": "Los datos de encuesta de orden de trabajo existen en el sistema para la configuración de encuesta de cliente",
+      "setupCustomerSurveyConfigHasJobOrderSurvey": "Esta encuesta no se puede eliminar porque actualmente está vinculada a una o más órdenes de trabajo.",
       "setupCustomerSurveyConfigWorkflowIdExists": "Una nueva configuración de flujo de trabajo de encuesta de cliente no puede ya tener un ID",
       "setupFaultJobOrderMappingIdExists": "Un nuevo mapeo de orden de trabajo de falla no puede ya tener un ID",
       "setupFaultJobOrderMappingIdNotFound": "ID no encontrado",

@@ -1682,6 +1682,9 @@
         "setupEdit": true,
         "setupVisible": true
       }
+    },
+    "validationFE":{
+      "customerRequiredCreateVanLog":"Customer is required to create a van log record"
     }
   },
   "accessories": {
@@ -4788,7 +4791,8 @@
       "userTaskIdExists": "A new User Task cannot already have an ID",
       "userTaskIdNotFound": "Id not found",
       "userTaskNotFound": "User Task not found",
-      "userNotAllowedToAssignTask": "User not allowed to add member to the Task"
+      "userNotAllowedToAssignTask": "User not allowed to add member to the Task",
+      "taskNoteRequired": "Task note is required but not provided"
     },
     "tooltips": {
       "setupVisible": false,
@@ -22348,7 +22352,7 @@
       "setupCalendlyConfigIdNotFound": "Id not found",
       "setupCountryIdExists": "A new Country cannot already have an ID",
       "setupCustomerSurveyConfigIdExists": "A new Customer Survey Config cannot already have an ID",
-      "setupCustomerSurveyConfigHasJobOrderSurvey": "Job Order Survey Data exists in the system for the Customer Survey Config",
+      "setupCustomerSurveyConfigHasJobOrderSurvey": "This survey cannot be deleted because it is currently linked to one or more job orders.",
       "setupCustomerSurveyConfigWorkflowIdExists": "A new Customer Survey Config Workflow cannot already have an ID",
       "setupFaultJobOrderMappingIdExists": "A new Fault Job Order Mapping cannot already have an ID",
       "setupFaultJobOrderMappingIdNotFound": "Id not found",

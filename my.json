@@ -1682,6 +1682,9 @@
         "setupEdit": true,
         "setupVisible": true
       }
+    },
+    "validationFE":{
+      "customerRequiredCreateVanLog":"Pelanggan dikehendaki membuat rekod log van"
     }
   },
   "accessories": {
@@ -4788,7 +4791,8 @@
       "userTaskIdExists": "Tugas Pengguna baru tidak boleh sudah mempunyai ID",
       "userTaskIdNotFound": "ID tidak dijumpai",
       "userTaskNotFound": "Tugas Pengguna tidak dijumpai",
-      "userNotAllowedToAssignTask": "Pengguna tidak dibenarkan menambah ahli kepada Tugas"
+      "userNotAllowedToAssignTask": "Pengguna tidak dibenarkan menambah ahli kepada Tugas",
+      "taskNoteRequired": "Nota tugas diperlukan tetapi tidak diberikan"
     },
     "tooltips": {
       "setupVisible": false,
@@ -22348,7 +22352,7 @@
       "setupCalendlyConfigIdNotFound": "ID tidak ditemui",
       "setupCountryIdExists": "Negara baru tidak boleh sudah mempunyai ID",
       "setupCustomerSurveyConfigIdExists": "Konfigurasi Tinjauan Pelanggan baru tidak boleh sudah mempunyai ID",
-      "setupCustomerSurveyConfigHasJobOrderSurvey": "Data Tinjauan Pesanan Kerja wujud dalam sistem untuk Konfigurasi Tinjauan Pelanggan",
+      "setupCustomerSurveyConfigHasJobOrderSurvey": "Tinjauan ini tidak boleh dipadam kerana ia sedang dipautkan kepada satu atau lebih pesanan kerja.",
       "setupCustomerSurveyConfigWorkflowIdExists": "Aliran Kerja Konfigurasi Tinjauan Pelanggan baru tidak boleh sudah mempunyai ID",
       "setupFaultJobOrderMappingIdExists": "Pemetaan Pesanan Kerja Kerosakan baru tidak boleh sudah mempunyai ID",
       "setupFaultJobOrderMappingIdNotFound": "ID tidak ditemui",
