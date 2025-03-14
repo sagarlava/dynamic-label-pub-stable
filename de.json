@@ -12498,6 +12498,13 @@
         "setupEdit": false,
         "setupVisible": false
       },
+      "locateAsset":{
+        "original": "Locate Asset",
+        "singular": "Asset lokalisieren",
+        "plural": "Assets lokalisieren",
+        "setupEdit": false,
+        "setupVisible": false
+      },
       "transferAsset":{
         "original": "Transfer Asset",
         "singular": "Asset übertragen",
