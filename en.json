@@ -1374,6 +1374,13 @@
         "plural": "Expected Available Time (Months)",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "timeUsed": {
+        "original": "Time Used",
+        "singular": "Time Used",
+        "plural": "Time Used",
+        "setupEdit": false,
+        "setupVisible": false
       }
     }
   },
