@@ -13697,8 +13697,11 @@
       },
       "messages":{
         "theFollowingAssetTransferToBin":"The following assets will be transferred to the following bins",
+        "theFollowingSparePartTransferToBin":"The following spare parts will be transferred to the following bins",
         "theFollowingAssetTransferTo":"The following assets will be transferred to",
+        "theFollowingSparePartTransferTo":"The following spare parts will be transferred to",
         "willBeTransferTo":"will be transferred to",
+        "willBeAdjustedInBin":"will be adjusted in the following bins",
         "theFollowingAssetRemoveFromBin":"The following assets will be removed from the following bins",
         "theFollowingAssetRemoveFrom":"The following assets will be removed from",
         "willBeRemovedFrom":"will be removed from"

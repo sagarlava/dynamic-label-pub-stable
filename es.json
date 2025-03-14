@@ -13701,7 +13701,10 @@
         "willBeTransferTo":"será transferido a",
         "theFollowingAssetRemoveFromBin":"Los siguientes activos serán eliminados de los siguientes contenedores",
         "theFollowingAssetRemoveFrom":"Los siguientes activos serán eliminados de",
-        "willBeRemovedFrom":"será eliminado de"
+        "willBeRemovedFrom":"será eliminado de",
+        "theFollowingSparePartTransferToBin":"Las siguientes piezas de repuesto serán transferidas a los siguientes contenedores",
+        "theFollowingSparePartTransferTo":"Las siguientes piezas de repuesto serán transferidas a",
+        "willBeAdjustedInBin":"serán ajustadas en los siguientes contenedores"
       }
     },
     "commonComponent": {

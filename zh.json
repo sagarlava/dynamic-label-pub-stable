@@ -13701,7 +13701,10 @@
         "willBeTransferTo":"将被转移到",
         "theFollowingAssetRemoveFromBin":"以下资产将从以下存储箱中移除",
         "theFollowingAssetRemoveFrom":"以下资产将被移除自",
-        "willBeRemovedFrom":"将被移除自"
+        "willBeRemovedFrom":"将被移除自",
+        "theFollowingSparePartTransferToBin":"以下备件将被转移到以下存储箱",
+        "theFollowingSparePartTransferTo":"以下备件将被转移到",
+        "willBeAdjustedInBin":"将在以下存储箱中调整"
       }
     },
     "commonComponent": {
