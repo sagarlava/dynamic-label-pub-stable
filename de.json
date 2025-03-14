@@ -1288,6 +1288,56 @@
       "errorOccuredWhileFetchingAccessories": "Fehler beim Abrufen von Zubehör aufgetreten"
     }
   },
+  "analytics": {
+    "setupVisible": false,
+    "setupEdit": false,
+    "label": {
+      "original": "Analytics",
+      "singular": "Analyse",
+      "plural": "Analytik",
+      "setupEdit": false,
+      "setupVisible": false
+    },
+    "sections": {
+      "setupVisible": false,
+      "setupEdit": false,
+      "sec0": {
+        "original": "Lifespan and Financial Details",
+        "singular": "Lebensdauer und finanzielle Details",
+        "plural": "Lebensdauer und finanzielle Details",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec1": {
+        "original": "Operational Metrics",
+        "singular": "Betriebskennzahl",
+        "plural": "Betriebskennzahl",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec2": {
+        "original": "Downtime and Maintenance Analytics",
+        "singular": "Ausfallzeit- und Wartungsanalytik",
+        "plural": "Ausfallzeit- und Wartungsanalytik",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec3": {
+        "original": "Condition and Inspection Details",
+        "singular": "Zustands- und Inspektionsdetails",
+        "plural": "Zustands- und Inspektionsdetails",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec4": {
+        "original": "Performance and Cost Analysis",
+        "singular": "Leistungs- und Kostenanalysen",
+        "plural": "Leistungs- und Kostenanalysen",
+        "setupEdit": false,
+        "setupVisible": false
+      }
+    }
+  },
   "assetLog": {
     "setupVisible": true,
     "setupEdit": true,

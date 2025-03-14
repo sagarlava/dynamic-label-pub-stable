@@ -1288,6 +1288,56 @@
       "errorOccuredWhileFetchingAccessories": "Error al obtener los accesorios"
     }
   },
+  "analytics": {
+    "setupVisible": false,
+    "setupEdit": false,
+    "label": {
+      "original": "Analytics",
+      "singular": "Analític",
+      "plural": "Analíticas",
+      "setupEdit": false,
+      "setupVisible": false
+    },
+    "sections": {
+      "setupVisible": false,
+      "setupEdit": false,
+      "sec0": {
+        "original": "Lifespan and Financial Details",
+        "singular": "Detalles de vida útil y financieros",
+        "plural": "Detalles de vida útil y financieros",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec1": {
+        "original": "Operational Metrics",
+        "singular": "Métricas operativas",
+        "plural": "Métricas operativas",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec2": {
+        "original": "Downtime and Maintenance Analytics",
+        "singular": "Analítica de tiempo de inactividad y mantenimiento",
+        "plural": "Analítica de tiempo de inactividad y mantenimiento",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec3": {
+        "original": "Condition and Inspection Details",
+        "singular": "Detalles de condición e inspección",
+        "plural": "Detalles de condición e inspección",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec4": {
+        "original": "Performance and Cost Analysis",
+        "singular": "Análisis de rendimiento y costos",
+        "plural": "Análisis de rendimiento y costos",
+        "setupEdit": false,
+        "setupVisible": false
+      }
+    }
+  },
   "assetLog": {
     "setupVisible": true,
     "setupEdit": true,

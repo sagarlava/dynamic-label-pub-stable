@@ -1288,6 +1288,56 @@
       "errorOccuredWhileFetchingAccessories": "获取配件时发生错误"
     }
   },
+  "analytics": {
+    "setupVisible": false,
+    "setupEdit": false,
+    "label": {
+      "original": "Analytics",
+      "singular": "分析",
+      "plural": "分析",
+      "setupEdit": false,
+      "setupVisible": false
+    },
+    "sections": {
+      "setupVisible": false,
+      "setupEdit": false,
+      "sec0": {
+        "original": "Lifespan and Financial Details",
+        "singular": "使用寿命和财务详情",
+        "plural": "使用寿命和财务详情",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec1": {
+        "original": "Operational Metrics",
+        "singular": "运营指标",
+        "plural": "运营指标",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec2": {
+        "original": "Downtime and Maintenance Analytics",
+        "singular": "停机和维护分析",
+        "plural": "停机和维护分析",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec3": {
+        "original": "Condition and Inspection Details",
+        "singular": "状况和检查详情",
+        "plural": "状况和检查详情",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec4": {
+        "original": "Performance and Cost Analysis",
+        "singular": "性能和成本分析",
+        "plural": "性能和成本分析",
+        "setupEdit": false,
+        "setupVisible": false
+      }
+    }
+  },
   "assetLog": {
     "setupVisible": true,
     "setupEdit": true,

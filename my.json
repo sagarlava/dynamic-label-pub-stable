@@ -1288,6 +1288,56 @@
       "errorOccuredWhileFetchingAccessories": "Ralat semasa mengambil aksesori"
     }
   },
+  "analytics": {
+    "setupVisible": false,
+    "setupEdit": false,
+    "label": {
+      "original": "Analytics",
+      "singular": "Analitik",
+      "plural": "Analitik",
+      "setupEdit": false,
+      "setupVisible": false
+    },
+    "sections": {
+      "setupVisible": false,
+      "setupEdit": false,
+      "sec0": {
+        "original": "Lifespan and Financial Details",
+        "singular": "Jangka Hayat dan Butiran Kewangan",
+        "plural": "Jangka Hayat dan Butiran Kewangan",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec1": {
+        "original": "Operational Metrics",
+        "singular": "Metrik Operasi",
+        "plural": "Metrik Operasi",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec2": {
+        "original": "Downtime and Maintenance Analytics",
+        "singular": "Analitik Waktu Henti dan Penyelenggaraan",
+        "plural": "Analitik Waktu Henti dan Penyelenggaraan",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec3": {
+        "original": "Condition and Inspection Details",
+        "singular": "Butiran Keadaan dan Pemeriksaan",
+        "plural": "Butiran Keadaan dan Pemeriksaan",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec4": {
+        "original": "Performance and Cost Analysis",
+        "singular": "Analisis Prestasi dan Kos",
+        "plural": "Analisis Prestasi dan Kos",
+        "setupEdit": false,
+        "setupVisible": false
+      }
+    }
+  },
   "assetLog": {
     "setupVisible": true,
     "setupEdit": true,
