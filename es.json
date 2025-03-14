@@ -1346,6 +1346,13 @@
         "plural": "Vida útil estimada (Meses)",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "initialCost": {
+        "original": "Initial Cost",
+        "singular": "Costo inicial",
+        "plural": "Costo inicial",
+        "setupEdit": false,
+        "setupVisible": false
       }
     }
   },

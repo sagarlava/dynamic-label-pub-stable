@@ -1346,6 +1346,13 @@
         "plural": "Estimated Lifespan (Months)",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "initialCost": {
+        "original": "Initial Cost",
+        "singular": "Initial Cost",
+        "plural": "Initial Cost",
+        "setupEdit": false,
+        "setupVisible": false
       }
     }
   },

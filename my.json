@@ -1346,6 +1346,13 @@
         "plural": "Jangka Hayat Anggaran (Bulan)",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "initialCost": {
+        "original": "Initial Cost",
+        "singular": "Kos Permulaan",
+        "plural": "Kos Permulaan",
+        "setupEdit": false,
+        "setupVisible": false
       }
     }
   },

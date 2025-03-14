@@ -1346,6 +1346,13 @@
         "plural": "Geschätzte Lebensdauer (Monate)",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "initialCost": {
+        "original": "Initial Cost",
+        "singular": "Anfangskosten",
+        "plural": "Anfangskosten",
+        "setupEdit": false,
+        "setupVisible": false
       }
     }
   },
