@@ -1353,6 +1353,13 @@
         "plural": "Anfangskosten",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "salvageValue": {
+        "original": "Salvage Value",
+        "singular": "Restwert",
+        "plural": "Restwerte",
+        "setupEdit": false,
+        "setupVisible": false
       }
     }
   },

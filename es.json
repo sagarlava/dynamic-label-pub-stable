@@ -1350,7 +1350,14 @@
       "initialCost": {
         "original": "Initial Cost",
         "singular": "Costo inicial",
-        "plural": "Costo inicial",
+        "plural": "Costos inicial",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "salvageValue": {
+        "original": "Salvage Value",
+        "singular": "Valor de rescate",
+        "plural": "Valores de rescate",
         "setupEdit": false,
         "setupVisible": false
       }

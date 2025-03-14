@@ -1353,6 +1353,13 @@
         "plural": "初始成本",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "salvageValue": {
+        "original": "Salvage Value",
+        "singular": "残值",
+        "plural": "残值",
+        "setupEdit": false,
+        "setupVisible": false
       }
     }
   },

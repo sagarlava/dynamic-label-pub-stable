@@ -1353,6 +1353,13 @@
         "plural": "Initial Cost",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "salvageValue": {
+        "original": "Salvage Value",
+        "singular": "Salvage Value",
+        "plural": "Salvage Value",
+        "setupEdit": false,
+        "setupVisible": false
       }
     }
   },
