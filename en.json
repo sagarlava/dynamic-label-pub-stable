@@ -1027,7 +1027,12 @@
         "setupVisible": false
       }
     },
-    "validationFE": {},
+    "validationFE": {
+      "warrantyEndDateAfterStartDate":"Warranty End Date must be after the Start Date.",
+      "serialNumberMustBeUnique":"Serial Number must be unique. The entered value is already in use.",
+      "serialNumberContain":"Serial Number must be contain only letters and numbers.",
+      "temporarySerialNumberGenerationFailed":"Temporary Serial Number generation failed. Please try again."
+    },
     "validationBE": {
       "assetIdNotFound": "Id not found",
       "assetIdExidNotFound": "Id/AssetExternalId not found",

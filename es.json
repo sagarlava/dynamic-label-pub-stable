@@ -1027,7 +1027,12 @@
         "setupVisible": false
       }
     },
-    "validationFE": {},
+    "validationFE": {
+      "warrantyEndDateAfterStartDate":"La fecha de finalización de la garantía debe ser posterior a la fecha de inicio.",
+      "serialNumberMustBeUnique":"El número de serie debe ser único. El valor ingresado ya está en uso.",
+      "serialNumberContain":"El número de serie solo debe contener letras y números.",
+      "temporarySerialNumberGenerationFailed":"La generación del número de serie temporal ha fallado. Por favor, inténtelo de nuevo."
+    },
     "validationBE": {
       "assetIdNotFound": "ID no encontrado",
       "assetIdExidNotFound": "ID/ID Externo del Activo no encontrado",

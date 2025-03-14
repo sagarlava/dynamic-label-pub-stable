@@ -1027,7 +1027,12 @@
         "setupVisible": false
       }
     },
-    "validationFE": {},
+    "validationFE": {
+      "warrantyEndDateAfterStartDate":"保修结束日期必须在开始日期之后。",
+      "serialNumberMustBeUnique":"序列号必须是唯一的。输入的值已被使用。",
+      "serialNumberContain":"序列号只能包含字母和数字。",
+      "temporarySerialNumberGenerationFailed":"临时序列号生成失败。请再试一次。"
+    },
     "validationBE": {
       "assetIdNotFound": "未找到 ID",
       "assetIdExidNotFound": "未找到 ID/资产外部ID",

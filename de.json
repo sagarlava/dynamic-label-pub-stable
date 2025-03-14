@@ -1027,7 +1027,12 @@
         "setupVisible": false
       }
     },
-    "validationFE": {},
+    "validationFE": {
+      "warrantyEndDateAfterStartDate":"Das Garantie-Enddatum muss nach dem Startdatum liegen.",
+      "serialNumberMustBeUnique":"Die Seriennummer muss eindeutig sein. Der eingegebene Wert wird bereits verwendet.",
+      "serialNumberContain":"Die Seriennummer darf nur Buchstaben und Zahlen enthalten.",
+      "temporarySerialNumberGenerationFailed":"Die vorübergehende Seriennummerngenerierung ist fehlgeschlagen. Bitte versuchen Sie es erneut."
+    },
     "validationBE": {
       "assetIdNotFound": "Id nicht gefunden",
       "assetIdExidNotFound": "Id/AssetExternalId nicht gefunden",

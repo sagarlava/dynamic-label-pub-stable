@@ -1027,7 +1027,12 @@
         "setupVisible": false
       }
     },
-    "validationFE": {},
+    "validationFE": {
+      "warrantyEndDateAfterStartDate":"Tarikh Tamat Waranti mesti selepas Tarikh Mula.",
+      "serialNumberMustBeUnique":"Nombor Siri mesti unik. Nilai yang dimasukkan sudah digunakan.",
+      "serialNumberContain":"Nombor Siri hanya boleh mengandungi huruf dan nombor.",
+      "temporarySerialNumberGenerationFailed":"Penjanaan Nombor Siri Sementara gagal. Sila cuba lagi."
+    },
     "validationBE": {
       "assetIdNotFound": "ID tidak dijumpai",
       "assetIdExidNotFound": "ID/AssetExternalId tidak dijumpai",
