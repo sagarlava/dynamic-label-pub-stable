@@ -13694,6 +13694,14 @@
           "setupEdit": true,
           "setupVisible": false
         }
+      },
+      "messages":{
+        "theFollowingAssetTransferToBin":"Die folgenden Vermögenswerte werden in die folgenden Behälter übertragen",
+        "theFollowingAssetTransferTo":"Die folgenden Vermögenswerte werden übertragen zu",
+        "willBeTransferTo":"wird übertragen zu",
+        "theFollowingAssetRemoveFromBin":"Die folgenden Vermögenswerte werden aus den folgenden Behältern entfernt",
+        "theFollowingAssetRemoveFrom":"Die folgenden Vermögenswerte werden entfernt aus",
+        "willBeRemovedFrom":"wird entfernt au"
       }
     },
     "commonComponent": {

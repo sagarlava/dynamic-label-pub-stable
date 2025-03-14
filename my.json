@@ -13694,6 +13694,14 @@
           "setupEdit": true,
           "setupVisible": false
         }
+      },
+      "messages":{
+        "theFollowingAssetTransferToBin":"Aset berikut akan dipindahkan ke bin berikut",
+        "theFollowingAssetTransferTo":"Aset berikut akan dipindahkan ke",
+        "willBeTransferTo":"akan dipindahkan ke",
+        "theFollowingAssetRemoveFromBin":"Aset berikut akan dikeluarkan dari bin berikut",
+        "theFollowingAssetRemoveFrom":"Aset berikut akan dikeluarkan dari",
+        "willBeRemovedFrom":"akan dikeluarkan dari"
       }
     },
     "commonComponent": {

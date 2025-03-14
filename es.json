@@ -13694,6 +13694,14 @@
           "setupEdit": true,
           "setupVisible": false
         }
+      },
+      "messages":{
+        "theFollowingAssetTransferToBin":"Los siguientes activos serán transferidos a los siguientes contenedores",
+        "theFollowingAssetTransferTo":"Los siguientes activos serán transferidos a",
+        "willBeTransferTo":"será transferido a",
+        "theFollowingAssetRemoveFromBin":"Los siguientes activos serán eliminados de los siguientes contenedores",
+        "theFollowingAssetRemoveFrom":"Los siguientes activos serán eliminados de",
+        "willBeRemovedFrom":"será eliminado de"
       }
     },
     "commonComponent": {

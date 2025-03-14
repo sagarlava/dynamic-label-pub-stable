@@ -13694,6 +13694,14 @@
           "setupEdit": true,
           "setupVisible": false
         }
+      },
+      "messages":{
+        "theFollowingAssetTransferToBin":"以下资产将被转移到以下存储箱",
+        "theFollowingAssetTransferTo":"以下资产将被转移到",
+        "willBeTransferTo":"将被转移到",
+        "theFollowingAssetRemoveFromBin":"以下资产将从以下存储箱中移除",
+        "theFollowingAssetRemoveFrom":"以下资产将被移除自",
+        "willBeRemovedFrom":"将被移除自"
       }
     },
     "commonComponent": {

@@ -13694,6 +13694,14 @@
           "setupEdit": true,
           "setupVisible": false
         }
+      },
+      "messages":{
+        "theFollowingAssetTransferToBin":"The following assets will be transferred to the following bins",
+        "theFollowingAssetTransferTo":"The following assets will be transferred to",
+        "willBeTransferTo":"will be transferred to",
+        "theFollowingAssetRemoveFromBin":"The following assets will be removed from the following bins",
+        "theFollowingAssetRemoveFrom":"The following assets will be removed from",
+        "willBeRemovedFrom":"will be removed from"
       }
     },
     "commonComponent":{
