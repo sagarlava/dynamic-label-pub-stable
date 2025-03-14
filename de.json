@@ -1381,6 +1381,13 @@
         "plural": "Verwendete Zeiten",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "totalAvailableTime": {
+        "original": "Total Available Time",
+        "singular": "Gesamtverfügbare Zeiten",
+        "plural": "Gesamtverfügbare Zeiten",
+        "setupEdit": false,
+        "setupVisible": false
       }
     }
   },

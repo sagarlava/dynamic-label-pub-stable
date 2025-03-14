@@ -1381,6 +1381,13 @@
         "plural": "Masa Digunakan",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "totalAvailableTime": {
+        "original": "Total Available Time",
+        "singular": "Jumlah Masa Ketersediaan",
+        "plural": "Jumlah Masa Ketersediaan",
+        "setupEdit": false,
+        "setupVisible": false
       }
     }
   },
