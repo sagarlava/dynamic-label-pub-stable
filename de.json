@@ -1416,6 +1416,13 @@
         "plural": "Gesamtausfallzeiten",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "avgRepairCost": {
+        "original": "Average Repair Cost",
+        "singular": "Durchschnittliche Reparaturkosten",
+        "plural": "Durchschnittliche Reparaturkosten",
+        "setupEdit": false,
+        "setupVisible": false
       }
     }
   },

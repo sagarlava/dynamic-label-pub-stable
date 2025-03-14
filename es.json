@@ -1416,6 +1416,13 @@
         "plural": "Períodos totales de inactividad",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "avgRepairCost": {
+        "original": "Average Repair Cost",
+        "singular": "Costo promedio de reparación",
+        "plural": "Costo promedio de reparación",
+        "setupEdit": false,
+        "setupVisible": false
       }
     }
   },

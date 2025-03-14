@@ -1416,6 +1416,13 @@
         "plural": "总停机时长",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "avgRepairCost": {
+        "original": "Average Repair Cost",
+        "singular": "平均维修成本",
+        "plural": "平均维修成本",
+        "setupEdit": false,
+        "setupVisible": false
       }
     }
   },

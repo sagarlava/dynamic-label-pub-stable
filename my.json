@@ -1416,6 +1416,13 @@
         "plural": "Jumlah Tempoh Waktu Henti",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "avgRepairCost": {
+        "original": "Average Repair Cost",
+        "singular": "Purata Kos Pembaikan",
+        "plural": "Purata Kos Pembaikan",
+        "setupEdit": false,
+        "setupVisible": false
       }
     }
   },

@@ -1416,6 +1416,13 @@
         "plural": "Total Downtime Period",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "avgRepairCost": {
+        "original": "Average Repair Cost",
+        "singular": "Average Repair Cost",
+        "plural": "Average Repair Cost",
+        "setupEdit": false,
+        "setupVisible": false
       }
     }
   },
