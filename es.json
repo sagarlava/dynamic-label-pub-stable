@@ -1367,6 +1367,13 @@
         "plural": "Tasas de depreciación",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "expectedAvailableTime": {
+        "original": "Expected Available Time (Months)",
+        "singular": "Tiempo disponible esperado (meses)",
+        "plural": "Tiempo disponible esperado (meses)",
+        "setupEdit": false,
+        "setupVisible": false
       }
     }
   },

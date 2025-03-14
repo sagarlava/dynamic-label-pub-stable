@@ -1367,6 +1367,13 @@
         "plural": "折旧率",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "expectedAvailableTime": {
+        "original": "Expected Available Time (Months)",
+        "singular": "预计可用时间（月）",
+        "plural": "预计可用时间（月）",
+        "setupEdit": false,
+        "setupVisible": false
       }
     }
   },

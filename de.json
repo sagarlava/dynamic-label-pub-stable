@@ -1367,6 +1367,13 @@
         "plural": "Abschreibungsraten",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "expectedAvailableTime": {
+        "original": "Expected Available Time (Months)",
+        "singular": "Erwartete verfügbare Zeiten (Monate)",
+        "plural": "Erwartete verfügbare Zeiten (Monate)",
+        "setupEdit": false,
+        "setupVisible": false
       }
     }
   },

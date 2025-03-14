@@ -1367,6 +1367,13 @@
         "plural": "Kadar Susut Nilai",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "expectedAvailableTime": {
+        "original": "Expected Available Time (Months)",
+        "singular": "Jangkaan Masa Ketersediaan (Bulan)",
+        "plural": "Jangkaan Masa Ketersediaan (Bulan)",
+        "setupEdit": false,
+        "setupVisible": false
       }
     }
   },

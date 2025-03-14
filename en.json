@@ -1367,6 +1367,13 @@
         "plural": "Depreciation Rate",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "expectedAvailableTime": {
+        "original": "Expected Available Time (Months)",
+        "singular": "Expected Available Time (Months)",
+        "plural": "Expected Available Time (Months)",
+        "setupEdit": false,
+        "setupVisible": false
       }
     }
   },
