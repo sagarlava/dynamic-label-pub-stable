@@ -1360,6 +1360,13 @@
         "plural": "Restwerte",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "depriciationRate": {
+        "original": "Depreciation Rate",
+        "singular": "Abschreibungsraten",
+        "plural": "Abschreibungsraten",
+        "setupEdit": false,
+        "setupVisible": false
       }
     }
   },

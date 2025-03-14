@@ -1360,6 +1360,13 @@
         "plural": "Salvage Value",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "depriciationRate": {
+        "original": "Depreciation Rate",
+        "singular": "Depreciation Rate",
+        "plural": "Depreciation Rate",
+        "setupEdit": false,
+        "setupVisible": false
       }
     }
   },

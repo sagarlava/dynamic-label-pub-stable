@@ -1360,6 +1360,13 @@
         "plural": "Valores de rescate",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "depriciationRate": {
+        "original": "Depreciation Rate",
+        "singular": "Tasas de depreciación",
+        "plural": "Tasas de depreciación",
+        "setupEdit": false,
+        "setupVisible": false
       }
     }
   },

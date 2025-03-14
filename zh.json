@@ -1360,6 +1360,13 @@
         "plural": "残值",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "depriciationRate": {
+        "original": "Depreciation Rate",
+        "singular": "折旧率",
+        "plural": "折旧率",
+        "setupEdit": false,
+        "setupVisible": false
       }
     }
   },

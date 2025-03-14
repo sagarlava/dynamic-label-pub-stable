@@ -1360,6 +1360,13 @@
         "plural": "Nilai Sisa",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "depriciationRate": {
+        "original": "Depreciation Rate",
+        "singular": "Kadar Susut Nilai",
+        "plural": "Kadar Susut Nilai",
+        "setupEdit": false,
+        "setupVisible": false
       }
     }
   },
