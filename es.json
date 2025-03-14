@@ -1430,6 +1430,13 @@
         "plural": "Costo promedio de mantenimiento",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "numberOfRepair": {
+        "original": "Number of Repairs",
+        "singular": "Número de reparaciones",
+        "plural": "Número de reparaciones",
+        "setupEdit": false,
+        "setupVisible": false
       }
     }
   },
