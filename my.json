@@ -1444,6 +1444,13 @@
         "plural": "Jumlah Masa Pembaikan",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "mttr": {
+        "original": "MTTR (Mean Time To Repair)",
+        "singular": "MTTR (Purata Masa Untuk Membaiki)",
+        "plural": "MTTR (Purata Masa Untuk Membaiki)",
+        "setupEdit": false,
+        "setupVisible": false
       }
     }
   },

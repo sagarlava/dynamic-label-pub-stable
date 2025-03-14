@@ -1444,6 +1444,13 @@
         "plural": "总维修时间",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "mttr": {
+        "original": "MTTR (Mean Time To Repair)",
+        "singular": "MTTR (平均维修时间)",
+        "plural": "MTTR (平均维修时间)",
+        "setupEdit": false,
+        "setupVisible": false
       }
     }
   },

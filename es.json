@@ -1444,6 +1444,13 @@
         "plural": "Tiempos totales de reparación",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "mttr": {
+        "original": "MTTR (Mean Time To Repair)",
+        "singular": "MTTR (Tiempos Medios de Reparación)",
+        "plural": "MTTR (Tiempos Medios de Reparación)",
+        "setupEdit": false,
+        "setupVisible": false
       }
     }
   },

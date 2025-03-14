@@ -1444,6 +1444,13 @@
         "plural": "Total Repair Time",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "mttr": {
+        "original": "MTTR (Mean Time To Repair)",
+        "singular": "MTTR (Mean Time To Repair)",
+        "plural": "MTTR (Mean Time To Repair)",
+        "setupEdit": false,
+        "setupVisible": false
       }
     }
   },

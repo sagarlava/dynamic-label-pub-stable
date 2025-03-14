@@ -1444,6 +1444,13 @@
         "plural": "Gesamte Reparaturzeiten",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "mttr": {
+        "original": "MTTR (Mean Time To Repair)",
+        "singular": "MTTR (Durchschnittliche Reparaturzeiten)",
+        "plural": "MTTR (Durchschnittliche Reparaturzeiten)",
+        "setupEdit": false,
+        "setupVisible": false
       }
     }
   },
