@@ -1479,6 +1479,13 @@
         "plural": "Latest Safety Inspection",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "failureRate": {
+        "original": "Failure Rate",
+        "singular": "Failure Rate",
+        "plural": "Failure Rate",
+        "setupEdit": false,
+        "setupVisible": false
       }
     }
   },

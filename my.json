@@ -1479,6 +1479,13 @@
         "plural": "Pemeriksaan Keselamatan Terkini",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "failureRate": {
+        "original": "Failure Rate",
+        "singular": "Kadar Kegagalan",
+        "plural": "Kadar Kegagalan",
+        "setupEdit": false,
+        "setupVisible": false
       }
     }
   },

@@ -1479,6 +1479,13 @@
         "plural": "最新安全检查",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "failureRate": {
+        "original": "Failure Rate",
+        "singular": "故障率",
+        "plural": "故障率",
+        "setupEdit": false,
+        "setupVisible": false
       }
     }
   },

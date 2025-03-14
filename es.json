@@ -1479,6 +1479,13 @@
         "plural": "Últimas inspecciones de seguridad",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "failureRate": {
+        "original": "Failure Rate",
+        "singular": "Tasas de fallos",
+        "plural": "Tasas de fallos",
+        "setupEdit": false,
+        "setupVisible": false
       }
     }
   },
