@@ -1395,6 +1395,13 @@
         "plural": "使用率",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "remainingUsefulLife": {
+        "original": "Remaining Useful Life (RUL)",
+        "singular": "剩余使用寿命 (RUL)",
+        "plural": "剩余使用寿命 (RUL)",
+        "setupEdit": false,
+        "setupVisible": false
       }
     }
   },

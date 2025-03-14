@@ -1395,6 +1395,13 @@
         "plural": "Tasa de utilización",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "remainingUsefulLife": {
+        "original": "Remaining Useful Life (RUL)",
+        "singular": "Vidas útiles restantes (RUL)",
+        "plural": "Vidas útiles restantes (RUL)",
+        "setupEdit": false,
+        "setupVisible": false
       }
     }
   },

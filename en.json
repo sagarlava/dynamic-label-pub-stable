@@ -1395,6 +1395,13 @@
         "plural": "Utilization Rate",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "remainingUsefulLife": {
+        "original": "Remaining Useful Life (RUL)",
+        "singular": "Remaining Useful Life (RUL)",
+        "plural": "Remaining Useful Life (RUL)",
+        "setupEdit": false,
+        "setupVisible": false
       }
     }
   },

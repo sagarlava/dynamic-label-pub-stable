@@ -1395,6 +1395,13 @@
         "plural": "Kadar Penggunaan",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "remainingUsefulLife": {
+        "original": "Remaining Useful Life (RUL)",
+        "singular": "Jangka Hayat Berguna Baki (RUL)",
+        "plural": "Jangka Hayat Berguna Baki (RUL)",
+        "setupEdit": false,
+        "setupVisible": false
       }
     }
   },
