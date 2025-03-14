@@ -1465,6 +1465,13 @@
         "plural": "Indeks Keadaan",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "lastCalibrationDate": {
+        "original": "Last Calibration Date",
+        "singular": "Tarikh Penentukuran Terakhir",
+        "plural": "Tarikh Penentukuran Terakhir",
+        "setupEdit": false,
+        "setupVisible": false
       }
     }
   },

@@ -1465,6 +1465,13 @@
         "plural": "Índices de condición",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "lastCalibrationDate": {
+        "original": "Last Calibration Date",
+        "singular": "Fechas de la última calibración",
+        "plural": "Fechas de la última calibración",
+        "setupEdit": false,
+        "setupVisible": false
       }
     }
   },

@@ -1465,6 +1465,13 @@
         "plural": "Zustandsindizes",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "lastCalibrationDate": {
+        "original": "Last Calibration Date",
+        "singular": "Letzte Kalibrierdaten",
+        "plural": "Letzte Kalibrierdaten",
+        "setupEdit": false,
+        "setupVisible": false
       }
     }
   },

@@ -1465,6 +1465,13 @@
         "plural": "状态指数",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "lastCalibrationDate": {
+        "original": "Last Calibration Date",
+        "singular": "上次校准日期",
+        "plural": "上次校准日期",
+        "setupEdit": false,
+        "setupVisible": false
       }
     }
   },
