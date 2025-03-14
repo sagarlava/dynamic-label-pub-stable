@@ -1402,6 +1402,13 @@
         "plural": "Vidas útiles restantes (RUL)",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "assetAge": {
+        "original": "Asset Age",
+        "singular": "Edades de los activos",
+        "plural": "Edades de los activos",
+        "setupEdit": false,
+        "setupVisible": false
       }
     }
   },

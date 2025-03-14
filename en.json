@@ -1402,6 +1402,13 @@
         "plural": "Remaining Useful Life (RUL)",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "assetAge": {
+        "original": "Asset Age",
+        "singular": "Asset Age",
+        "plural": "Asset Age",
+        "setupEdit": false,
+        "setupVisible": false
       }
     }
   },

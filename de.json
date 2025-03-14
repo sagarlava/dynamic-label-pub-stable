@@ -1402,6 +1402,13 @@
         "plural": "Verbleibende Nutzungsdauern (RUL)",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "assetAge": {
+        "original": "Asset Age",
+        "singular": "Anlagealter",
+        "plural": "Anlagealter",
+        "setupEdit": false,
+        "setupVisible": false
       }
     }
   },

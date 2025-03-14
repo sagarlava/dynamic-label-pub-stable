@@ -1402,6 +1402,13 @@
         "plural": "剩余使用寿命 (RUL)",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "assetAge": {
+        "original": "Asset Age",
+        "singular": "资产年龄",
+        "plural": "资产年龄",
+        "setupEdit": false,
+        "setupVisible": false
       }
     }
   },

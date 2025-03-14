@@ -1402,6 +1402,13 @@
         "plural": "Jangka Hayat Berguna Baki (RUL)",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "assetAge": {
+        "original": "Asset Age",
+        "singular": "Umur Aset",
+        "plural": "Umur Aset",
+        "setupEdit": false,
+        "setupVisible": false
       }
     }
   },
