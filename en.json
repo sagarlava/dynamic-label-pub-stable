@@ -9798,6 +9798,7 @@
       "inputSKU":"Type or paste SKUs of the spare parts you want to transfer with a maximum of 50 SKUs at a time. ",
       "serialNumberNote":"Note",
       "serialNumberSeparation":"Separate serial numbers with ',' or a new line.",
+      "skuSeparation":"Separate SKUs with ',' or a new line.",
       "transferCompletedImmediately":"This transfer will be completed immediately.",
       "transferNeedApproval":"This transfer will need to be approved before completion.",
       "selectSparePartsToTransfer":"Select the spare parts you want to transfer",
