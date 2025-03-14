@@ -1486,6 +1486,34 @@
         "plural": "故障率",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "operatingCostHour": {
+        "original": "Operating Costs per Hour",
+        "singular": "每小时运营成本",
+        "plural": "每小时运营成本",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "repairCostHour": {
+        "original": "Repair Costs per Hour",
+        "singular": "每小时维修成本",
+        "plural": "每小时维修成本",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "lifetimeCostHour": {
+        "original": "Lifetime Repair Cost",
+        "singular": "生命周期维修成本",
+        "plural": "生命周期维修成本",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "lifetimeMaintenanceCost": {
+        "original": "Lifetime Maintenance Cost",
+        "singular": "生命周期维护成本",
+        "plural": "生命周期维护成本",
+        "setupEdit": false,
+        "setupVisible": false
       }
     }
   },

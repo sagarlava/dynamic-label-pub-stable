@@ -1486,6 +1486,34 @@
         "plural": "Kadar Kegagalan",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "operatingCostHour": {
+        "original": "Operating Costs per Hour",
+        "singular": "Kos Operasi setiap Jam",
+        "plural": "Kos Operasi setiap Jam",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "repairCostHour": {
+        "original": "Repair Costs per Hour",
+        "singular": "Kos Pembaikan setiap Jam",
+        "plural": "Kos Pembaikan setiap Jam",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "lifetimeCostHour": {
+        "original": "Lifetime Repair Cost",
+        "singular": "Kos Pembaikan Sepanjang Hayat",
+        "plural": "Kos Pembaikan Sepanjang Hayat",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "lifetimeMaintenanceCost": {
+        "original": "Lifetime Maintenance Cost",
+        "singular": "Kos Penyelenggaraan Sepanjang Hayat",
+        "plural": "Kos Penyelenggaraan Sepanjang Hayat",
+        "setupEdit": false,
+        "setupVisible": false
       }
     }
   },

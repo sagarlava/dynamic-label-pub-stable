@@ -1486,6 +1486,34 @@
         "plural": "Tasas de fallos",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "operatingCostHour": {
+        "original": "Operating Costs per Hour",
+        "singular": "Costos operativos por hora",
+        "plural": "Costos operativos por hora",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "repairCostHour": {
+        "original": "Repair Costs per Hour",
+        "singular": "Costos de reparación por hora",
+        "plural": "Costos de reparación por hora",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "lifetimeCostHour": {
+        "original": "Lifetime Repair Cost",
+        "singular": "Costos de reparación durante la vida útil",
+        "plural": "Costos de reparación durante la vida útil",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "lifetimeMaintenanceCost": {
+        "original": "Lifetime Maintenance Cost",
+        "singular": "Costos de mantenimiento durante la vida útil",
+        "plural": "Costos de mantenimiento durante la vida útil",
+        "setupEdit": false,
+        "setupVisible": false
       }
     }
   },

@@ -1486,6 +1486,34 @@
         "plural": "Failure Rate",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "operatingCostHour": {
+        "original": "Operating Costs per Hour",
+        "singular": "Operating Costs per Hour",
+        "plural": "Operating Costs per Hour",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "repairCostHour": {
+        "original": "Repair Costs per Hour",
+        "singular": "Repair Costs per Hour",
+        "plural": "Repair Costs per Hour",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "lifetimeCostHour": {
+        "original": "Lifetime Repair Cost",
+        "singular": "Lifetime Repair Cost",
+        "plural": "Lifetime Repair Cost",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "lifetimeMaintenanceCost": {
+        "original": "Lifetime Maintenance Cost",
+        "singular": "Lifetime Maintenance Cost",
+        "plural": "Lifetime Maintenance Cost",
+        "setupEdit": false,
+        "setupVisible": false
       }
     }
   },

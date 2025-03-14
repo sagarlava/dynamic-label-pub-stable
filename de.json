@@ -1486,6 +1486,34 @@
         "plural": "Ausfallraten",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "operatingCostHour": {
+        "original": "Operating Costs per Hour",
+        "singular": "Betriebskosten pro Stunde",
+        "plural": "Betriebskosten pro Stunde",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "repairCostHour": {
+        "original": "Repair Costs per Hour",
+        "singular": "Reparaturkosten pro Stunde",
+        "plural": "Reparaturkosten pro Stunde",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "lifetimeCostHour": {
+        "original": "Lifetime Repair Cost",
+        "singular": "Lebenslange Reparaturkosten",
+        "plural": "Lebenslange Reparaturkosten",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "lifetimeMaintenanceCost": {
+        "original": "Lifetime Maintenance Cost",
+        "singular": "Lebenslange Wartungskosten",
+        "plural": "Lebenslange Wartungskosten",
+        "setupEdit": false,
+        "setupVisible": false
       }
     }
   },
