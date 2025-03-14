@@ -1458,6 +1458,13 @@
         "plural": "MTBF (Mean Time Between Failures)",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "conditionIndex": {
+        "original": "Condition Index",
+        "singular": "Condition Index",
+        "plural": "Condition Index",
+        "setupEdit": false,
+        "setupVisible": false
       }
     }
   },

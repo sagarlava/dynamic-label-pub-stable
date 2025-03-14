@@ -1458,6 +1458,13 @@
         "plural": "MTBF (Purata Masa Antara Kegagalan)",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "conditionIndex": {
+        "original": "Condition Index",
+        "singular": "Indeks Keadaan",
+        "plural": "Indeks Keadaan",
+        "setupEdit": false,
+        "setupVisible": false
       }
     }
   },

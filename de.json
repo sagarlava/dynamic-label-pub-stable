@@ -1458,6 +1458,13 @@
         "plural": "MTBF (Mittlere Zeiten zwischen Ausfällen)",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "conditionIndex": {
+        "original": "Condition Index",
+        "singular": "Zustandsindizes",
+        "plural": "Zustandsindizes",
+        "setupEdit": false,
+        "setupVisible": false
       }
     }
   },
