@@ -13430,7 +13430,8 @@
       "requiredField": "Required Field",
       "pleaseSignBeforeProceed": "Please sign before proceed",
       "charactersExceed": "Text exceeds character limit (255).",
-      "endDateThanStartDate": "End date must be after start date"
+      "endDateThanStartDate": "End date must be after start date",
+      "thisFieldIsRequired":"This field is required"
     },
     "validationBE": {
       "sendGridEmailTenantReferenceIdExists": "A new Send Grid Email Tenant Reference cannot already have an ID",
