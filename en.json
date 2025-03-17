@@ -1297,7 +1297,8 @@
       "from":"From",
       "warrantyStartDate":"Warranty start date should not be greater than warranty end date",
       "errorFetchingAllAssets": "Error fetching all assets",
-      "errorOccuredWhileFetchingAccessories": "Error occured while fetching accessories"
+      "errorOccuredWhileFetchingAccessories": "Error occured while fetching accessories",
+      "showUpdatesRelated":"Show Updates Related To:"
     }
   },
   "analytic": {
