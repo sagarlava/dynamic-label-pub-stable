@@ -1025,6 +1025,13 @@
         "plural": "Klasifikasi",
         "setupEdit": false,
         "setupVisible": false
+      }, 
+      "offlineSince": {
+        "original": "Offline Since",
+        "singular": "Luar Talian Sejak",
+        "plural": "Luar Talian Sejak",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "validationFE": {

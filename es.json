@@ -1025,6 +1025,13 @@
         "plural": "Clasificación",
         "setupEdit": false,
         "setupVisible": false
+      }, 
+      "offlineSince": {
+        "original": "Offline Since",
+        "singular": "Desconectado desde",
+        "plural": "Desconectado desde",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "validationFE": {

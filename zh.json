@@ -1025,6 +1025,13 @@
         "plural": "分类",
         "setupEdit": false,
         "setupVisible": false
+      }, 
+      "offlineSince": {
+        "original": "Offline Since",
+        "singular": "离线时间",
+        "plural": "离线时间",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "validationFE": {
