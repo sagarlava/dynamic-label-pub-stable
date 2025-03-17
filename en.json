@@ -564,8 +564,8 @@
         "original": "Location Details",
         "singular": "Location Details",
         "plural": "",
-        "setupEdit": false,
-        "setupVisible": false
+        "setupEdit": true,
+        "setupVisible": true
       }
     },
     "fields": {

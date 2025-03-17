@@ -564,8 +564,8 @@
         "original": "Location Details",
         "singular": "Butiran Lokasi",
         "plural": "",
-        "setupEdit": false,
-        "setupVisible": false
+        "setupEdit": true,
+        "setupVisible": true
       }
     },
     "fields": {
