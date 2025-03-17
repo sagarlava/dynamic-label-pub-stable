@@ -1275,6 +1275,27 @@
         "setupEdit": false,
         "setupVisible": false
       },
+      "parentUpdate": {
+        "original": "Parent Update",
+        "singular": "Übergeordnete Aktualisierung",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "parentChange": {
+        "original": "Parent Change",
+        "singular": "Übergeordnete Änderung",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "parentRemove": {
+        "original": "Parent Remove",
+        "singular": "Übergeordnetes Entfernen",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
       "pendingTransfer": {
         "original": "Show only Assets with a pending transfer",
         "singular": "Nur Assets mit ausstehender Übertragung anzeigen",

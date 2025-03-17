@@ -1275,6 +1275,27 @@
         "setupEdit": false,
         "setupVisible": false
       },
+      "parentUpdate": {
+        "original": "Parent Update",
+        "singular": "父级更新",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "parentChange": {
+        "original": "Parent Change",
+        "singular": "父级更改",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "parentRemove": {
+        "original": "Parent Remove",
+        "singular": "父级移除",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
       "pendingTransfer": {
         "original": "Show only Assets with a pending transfer",
         "singular": "仅显示具有待处理转移的资产",
