@@ -1302,6 +1302,20 @@
         "plural": "Show only Assets with a pending transfer",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "transferRequestApproval": {
+        "original": "A transfer request is pending approval for this asset. The location will be updated to",
+        "singular": "A transfer request is pending approval for this asset. The location will be updated to",
+        "plural": "A transfer request is pending approval for this asset. The location will be updated to",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "uponArrival": {
+        "original": "upon arrival.",
+        "singular": "upon arrival.",
+        "plural": "upon arrival.",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "messages": {

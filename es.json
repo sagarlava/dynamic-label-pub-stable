@@ -1302,6 +1302,20 @@
         "plural": "Mostrar solo activos con transferencias pendientes",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "transferRequestApproval": {
+        "original": "A transfer request is pending approval for this asset. The location will be updated to",
+        "singular": "Una solicitud de transferencia está pendiente de aprobación para este activo. La ubicación se actualizará a",
+        "plural": "Una solicitud de transferencia está pendiente de aprobación para este activo. La ubicación se actualizará a",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "uponArrival": {
+        "original": "upon arrival.",
+        "singular": "al llegar.",
+        "plural": "al llegar.",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "messages": {

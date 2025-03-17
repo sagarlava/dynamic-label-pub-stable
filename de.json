@@ -1302,6 +1302,20 @@
         "plural": "SNur Assets mit ausstehenden Übertragungen anzeigen",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "transferRequestApproval": {
+        "original": "A transfer request is pending approval for this asset. The location will be updated to",
+        "singular": "Ein Übertragungsantrag für dieses Asset wartet auf Genehmigung. Der Standort wird aktualisiert auf",
+        "plural": "Ein Übertragungsantrag für dieses Asset wartet auf Genehmigung. Der Standort wird aktualisiert auf",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "uponArrival": {
+        "original": "upon arrival.",
+        "singular": "bei Ankunft.",
+        "plural": "bei Ankunft.",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "messages": {

@@ -1302,6 +1302,20 @@
         "plural": "Tunjukkan hanya aset dengan pemindahan tertunda",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "transferRequestApproval": {
+        "original": "A transfer request is pending approval for this asset. The location will be updated to",
+        "singular": "Permohonan pemindahan sedang menunggu kelulusan untuk aset ini. Lokasi akan dikemas kini ke",
+        "plural": "Permohonan pemindahan sedang menunggu kelulusan untuk aset ini. Lokasi akan dikemas kini ke",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "uponArrival": {
+        "original": "upon arrival.",
+        "singular": "sebaik tiba.",
+        "plural": "sebaik tiba.",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "messages": {

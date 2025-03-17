@@ -1302,6 +1302,20 @@
         "plural": "仅显示具有待处理转移的资产",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "transferRequestApproval": {
+        "original": "A transfer request is pending approval for this asset. The location will be updated to",
+        "singular": "此资产的转移请求正在等待批准。位置将更新为",
+        "plural": "此资产的转移请求正在等待批准。位置将更新为",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "uponArrival": {
+        "original": "upon arrival.",
+        "singular": "到达时。",
+        "plural": "到达时。",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "messages": {
