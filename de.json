@@ -3163,7 +3163,8 @@
       "newProductFamily": "Neue Ersatzteilfamilie",
       "newProductType": "Neuer Ersatzteiltyp",
       "subTotal": "Zwischensumme",
-      "totalAmount": "Gesamtbetrag"
+      "totalAmount": "Gesamtbetrag",
+      "deleteTaskTemplateRemoveSpareParts":"Das Löschen dieser Aufgaben-Vorlage entfernt auch alle zugehörigen Ersatzteile"
     }
   },
   "task": {

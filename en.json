@@ -3163,7 +3163,8 @@
       "newProductFamily":"New Spare Part Family",
       "newProductType":"New Spare Part Type",
       "subTotal": "Sub Total",
-      "totalAmount": "Total Amount"
+      "totalAmount": "Total Amount",
+      "deleteTaskTemplateRemoveSpareParts":"Deleting this task template will also remove all associated spare parts"
     }
   },
   "task": {
