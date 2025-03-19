@@ -10551,6 +10551,13 @@
         "plural": "Verificaciones",
         "setupEdit": true,
         "setupVisible": true
+      },
+      "sec10": {
+        "original": "New Requisition Note",
+        "singular": "Nueva nota de requisición",
+        "plural": "Nuevas notas de requisición",
+        "setupEdit": true,
+        "setupVisible": true
       }
     },
     "fields": {
