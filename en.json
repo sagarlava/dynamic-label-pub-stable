@@ -10103,8 +10103,8 @@
       "selectBinToTransferSpareParts":"Select the bin you want to transfer the spare parts to",
       "specifySparePartQuantity":"You may specify spare part quantity in the next step",
       "addQuantitiesTransferred":"Add the quantities to be transferred to",
-      "enterSerialNumberHere":"Enter serial numbers here.",
-      "enterSKUHere":"Enter SKUs here."
+      "enterSerialNumberHere":"Enter serial numbers here. Eg. 128371253ABC",
+      "enterSKUHere":"Enter SKUs here. Eg. 128371253ABC"
     }
   },
   "checkAvailibility": {
