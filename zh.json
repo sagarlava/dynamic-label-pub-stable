@@ -12822,7 +12822,14 @@
         "plural": "粘贴 SKU",
         "setupEdit": false,
         "setupVisible": false
-      }		
+      },
+      "generateTemporarySerialNo":{
+        "original": "Generate Temporary Serial No",
+        "singular": "生成临时序列号",
+        "plural": "生成临时序列号",
+        "setupEdit": false,
+        "setupVisible": false
+      }			
     },
     "status": {
       "setupVisible": true,

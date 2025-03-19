@@ -12822,7 +12822,14 @@
         "plural": "Pegar SKUs",
         "setupEdit": false,
         "setupVisible": false
-      }				
+      },
+      "generateTemporarySerialNo":{
+        "original": "Generate Temporary Serial No",
+        "singular": "Generar número de serie temporal",
+        "plural": "Generar número de serie temporal",
+        "setupEdit": false,
+        "setupVisible": false
+      }					
     },
     "status": {
       "setupVisible": false,

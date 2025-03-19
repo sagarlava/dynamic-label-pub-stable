@@ -12822,6 +12822,13 @@
         "plural": "Paste SKU",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "generateTemporarySerialNo":{
+        "original": "Generate Temporary Serial No",
+        "singular": "Generate Temporary Serial No",
+        "plural": "Generate Temporary Serial No",
+        "setupEdit": false,
+        "setupVisible": false
       }	
     },
     "status": {

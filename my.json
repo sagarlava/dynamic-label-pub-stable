@@ -12822,6 +12822,13 @@
         "plural": "Tampal SKU",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "generateTemporarySerialNo":{
+        "original": "Generate Temporary Serial No",
+        "singular": "Jana Nombor Siri Sementara",
+        "plural": "Jana Nombor Siri Sementara",
+        "setupEdit": false,
+        "setupVisible": false
       }	
     },
     "status": {
