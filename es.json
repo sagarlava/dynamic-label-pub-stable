@@ -10565,6 +10565,27 @@
         "plural": "Personalizados",
         "setupEdit": true,
         "setupVisible": true
+      },
+      "sec12": {
+        "original": "Request Details",
+        "singular": "Detalles de la solicitud",
+        "plural": "Detalles de la solicitud",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "sec13": {
+        "original": "Destination",
+        "singular": "Destino",
+        "plural": "Destino",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "sec14": {
+        "original": "Review",
+        "singular": "Revisión",
+        "plural": "Revisiónes",
+        "setupEdit": true,
+        "setupVisible": true
       }
     },
     "fields": {

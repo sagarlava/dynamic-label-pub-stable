@@ -10565,6 +10565,27 @@
         "plural": "Tersuai",
         "setupEdit": true,
         "setupVisible": true
+      },
+      "sec12": {
+        "original": "Request Details",
+        "singular": "Butiran Permintaan",
+        "plural": "Butiran Permintaan",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "sec13": {
+        "original": "Destination",
+        "singular": "Destinasi",
+        "plural": "Destinasi",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "sec14": {
+        "original": "Review",
+        "singular": "Semakan",
+        "plural": "Semakan",
+        "setupEdit": true,
+        "setupVisible": true
       }
     },
     "fields": {

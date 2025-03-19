@@ -10565,6 +10565,27 @@
         "plural": "Benutzerdefiniert",
         "setupEdit": true,
         "setupVisible": true
+      },
+      "sec12": {
+        "original": "Request Details",
+        "singular": "Anforderungsdetails",
+        "plural": "Anforderungsdetails",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "sec13": {
+        "original": "Destination",
+        "singular": "Zielort",
+        "plural": "Zielorte",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "sec14": {
+        "original": "Review",
+        "singular": "Überprüfung",
+        "plural": "Überprüfungen",
+        "setupEdit": true,
+        "setupVisible": true
       }
     },
     "fields": {
