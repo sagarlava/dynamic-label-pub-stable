@@ -10558,6 +10558,13 @@
         "plural": "New Requisition Note",
         "setupEdit": true,
         "setupVisible": true
+      },
+      "sec11": {
+        "original": "Custom",
+        "singular": "Custom",
+        "plural": "Custom",
+        "setupEdit": true,
+        "setupVisible": true
       }
     },
     "fields": {

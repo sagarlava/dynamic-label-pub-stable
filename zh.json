@@ -10558,6 +10558,13 @@
         "plural": "新申请单",
         "setupEdit": true,
         "setupVisible": true
+      },
+      "sec11": {
+        "original": "Custom",
+        "singular": "自定义",
+        "plural": "自定义",
+        "setupEdit": true,
+        "setupVisible": true
       }
     },
     "fields": {
