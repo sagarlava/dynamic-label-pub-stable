@@ -10848,7 +10848,11 @@
       "specificAssets":"Specific Assets",
       "assetsByType":"Assets by Type",
       "requestFromBin":"Request from Bin",
-      "requestAnyAvailable":"Request Any Available"
+      "requestAnyAvailable":"Request Any Available",
+      "chooseThisSerialNumber":"Choose this if you know the bin and asset serial numbers.",
+      "requestAssetByTypeQty":"Request assets by type and quantity instead of serial numbers",
+      "selectSparePartFromBin":"Select specific spare parts from a known bin",
+      "requestSparePartFromBin":"Request spare parts from any available bin"
     }
   },
   "contacts": {

@@ -10848,7 +10848,11 @@
       "specificAssets":"Activos específicos",
       "assetsByType":"Activos por tipo",
       "requestFromBin":"Solicitar desde contenedor",
-      "requestAnyAvailable":"Solicitar cualquier disponible"
+      "requestAnyAvailable":"Solicitar cualquier disponible",
+      "chooseThisSerialNumber":"Elija esto si conoce el número de serie del contenedor y del activo.",
+      "requestAssetByTypeQty":"Solicite activos por tipo y cantidad en lugar de por números de serie.",
+      "selectSparePartFromBin":"Seleccione piezas de repuesto específicas de un contenedor conocido.",
+      "requestSparePartFromBin":"Solicite piezas de repuesto de cualquier contenedor disponible."
     }
   },
   "contacts": {

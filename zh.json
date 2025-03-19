@@ -10848,7 +10848,11 @@
       "specificAssets":"特定资产",
       "assetsByType":"按类型分类的资产",
       "requestFromBin":"从存储箱请求",
-      "requestAnyAvailable":"请求任何可用的"
+      "requestAnyAvailable":"请求任何可用的",
+      "chooseThisSerialNumber":"如果您知道存储箱和资产的序列号，请选择此选项。",
+      "requestAssetByTypeQty":"按类型和数量请求资产，而不是序列号。",
+      "selectSparePartFromBin":"从已知存储箱中选择特定备件。",
+      "requestSparePartFromBin":"请求来自任何可用存储箱的备件。"
     }
   },
   "contacts": {

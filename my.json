@@ -10848,7 +10848,11 @@
       "specificAssets":"Aset Tertentu",
       "assetsByType":"Aset mengikut Jenis",
       "requestFromBin":"Permintaan dari Bin",
-      "requestAnyAvailable":"Minta Mana-mana yang Tersedia"
+      "requestAnyAvailable":"Minta Mana-mana yang Tersedia",
+      "chooseThisSerialNumber":"Pilih ini jika anda tahu nombor siri tong dan aset.",
+      "requestAssetByTypeQty":"Minta aset mengikut jenis dan kuantiti dan bukan nombor siri.",
+      "selectSparePartFromBin":"Pilih alat ganti tertentu dari tong yang diketahui.",
+      "requestSparePartFromBin":"Minta alat ganti dari mana-mana tong yang tersedia."
     }
   },
   "contacts": {
