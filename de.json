@@ -10586,6 +10586,13 @@
         "plural": "Überprüfungen",
         "setupEdit": true,
         "setupVisible": true
+      },
+      "sec15": {
+        "original": "Request Summary",
+        "singular": "Anforderungsübersicht",
+        "plural": "Anforderungsübersichten",
+        "setupEdit": true,
+        "setupVisible": true
       }
     },
     "fields": {
