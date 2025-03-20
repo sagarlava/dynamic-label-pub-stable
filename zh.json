@@ -10874,7 +10874,9 @@
       "requestAssetByTypeQty":"按类型和数量请求资产，而不是序列号。",
       "selectSparePartFromBin":"从已知存储箱中选择特定备件。",
       "requestSparePartFromBin":"请求来自任何可用存储箱的备件。",
-      "selectBinRequestFrom":"选择您要请求资产的存储箱"
+      "selectBinRequestFrom":"选择您要请求资产的存储箱",
+      "unsureOfAssetLocation":"不确定资产位置?",
+      "notSureBinAvailableAsset":"不确定哪些存储箱有可用资产?"
     }
   },
   "contacts": {

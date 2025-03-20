@@ -10874,7 +10874,9 @@
       "requestAssetByTypeQty":"Minta aset mengikut jenis dan kuantiti dan bukan nombor siri.",
       "selectSparePartFromBin":"Pilih alat ganti tertentu dari bin yang diketahui.",
       "requestSparePartFromBin":"Minta alat ganti dari mana-mana bin yang tersedia.",
-      "selectBinRequestFrom":"Pilih bin yang anda minta aset daripadanya"
+      "selectBinRequestFrom":"Pilih bin yang anda minta aset daripadanya",
+      "unsureOfAssetLocation":"Tidak pasti lokasi aset?",
+      "notSureBinAvailableAsset":"Tidak pasti tong mana yang mempunyai aset tersedia?"
     }
   },
   "contacts": {
