@@ -10888,7 +10888,9 @@
       "selectBinToTransferAssetTo":"Seleccione el contenedor al que desea transferir los activos",
       "youCanSelectBinInCharge":"Solo puede seleccionar los contenedores de los que está a cargo",
       "reviewSelectionsMade":"Revise las selecciones que ha realizado antes de enviar su solicitud.",
-      "selectBinRequestSparePartFrom":"Seleccione el contenedor desde el cual está solicitando repuestos"
+      "selectBinRequestSparePartFrom":"Seleccione el contenedor desde el cual está solicitando repuestos",
+      "unsureOfSparePartAvailability":"¿No está seguro de la disponibilidad de repuestos?",
+      "notSureBinAvailableSpareParts":"¿No está seguro en qué contenedor están disponibles los repuestos?"
     }
   },
   "contacts": {
