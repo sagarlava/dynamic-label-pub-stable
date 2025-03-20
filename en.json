@@ -10873,7 +10873,8 @@
       "chooseThisSerialNumber":"Choose this if you know the bin and asset serial numbers.",
       "requestAssetByTypeQty":"Request assets by type and quantity instead of serial numbers",
       "selectSparePartFromBin":"Select specific spare parts from a known bin",
-      "requestSparePartFromBin":"Request spare parts from any available bin"
+      "requestSparePartFromBin":"Request spare parts from any available bin",
+      "selectBinRequestFrom":"Select the bin you are requesting assets from"
     }
   },
   "contacts": {

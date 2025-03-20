@@ -10873,7 +10873,8 @@
       "chooseThisSerialNumber":"如果您知道存储箱和资产的序列号，请选择此选项。",
       "requestAssetByTypeQty":"按类型和数量请求资产，而不是序列号。",
       "selectSparePartFromBin":"从已知存储箱中选择特定备件。",
-      "requestSparePartFromBin":"请求来自任何可用存储箱的备件。"
+      "requestSparePartFromBin":"请求来自任何可用存储箱的备件。",
+      "selectBinRequestFrom":"选择您要请求资产的存储箱"
     }
   },
   "contacts": {

@@ -10873,7 +10873,8 @@
       "chooseThisSerialNumber":"Wählen Sie dies, wenn Sie die Behälter- und Vermögensseriennummern kennen.",
       "requestAssetByTypeQty":"Fordern Sie Vermögenswerte nach Typ und Menge anstatt nach Seriennummern an.",
       "selectSparePartFromBin":"Wählen Sie bestimmte Ersatzteile aus einem bekannten Behälter.",
-      "requestSparePartFromBin":"Fordern Sie Ersatzteile aus einem beliebigen verfügbaren Behälter an."
+      "requestSparePartFromBin":"Fordern Sie Ersatzteile aus einem beliebigen verfügbaren Behälter an.",
+      "selectBinRequestFrom":"Wählen Sie den Behälter aus, aus dem Sie Vermögenswerte anfordern"
     }
   },
   "contacts": {

@@ -10873,7 +10873,8 @@
       "chooseThisSerialNumber":"Elija esto si conoce el número de serie del contenedor y del activo.",
       "requestAssetByTypeQty":"Solicite activos por tipo y cantidad en lugar de por números de serie.",
       "selectSparePartFromBin":"Seleccione piezas de repuesto específicas de un contenedor conocido.",
-      "requestSparePartFromBin":"Solicite piezas de repuesto de cualquier contenedor disponible."
+      "requestSparePartFromBin":"Solicite piezas de repuesto de cualquier contenedor disponible.",
+      "selectBinRequestFrom":"Seleccione el contenedor desde el cual está solicitando activos"
     }
   },
   "contacts": {
