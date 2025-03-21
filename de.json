@@ -13600,7 +13600,10 @@
       "errorOccuredWhileSigning": "Ein Fehler ist beim Unterschreiben aufgetreten",
       "noDocumentIsGenerated": "Kein Dokument wurde erstellt, da nur teilweise Daten ausgefüllt sind.",
       "pullToRefreshToSeeTheCompletion": "Zum Aktualisieren nach unten ziehen, um den Abschluss zu sehen",
-      "phoneNumberNotAvailable": "Telefonnummer nicht verfügbar"
+      "phoneNumberNotAvailable": "Telefonnummer nicht verfügbar",
+      "approvalConfirmation":"Genehmigungsbestätigung",
+      "approval":"Genehmigung",
+      "areYouSureApprove":"Sind Sie sicher, dass Sie genehmigen möchten"
     },
     "currency": {
       "australianDollar": "AUD",

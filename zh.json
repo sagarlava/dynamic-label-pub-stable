@@ -13600,7 +13600,10 @@
       "errorOccuredWhileSigning": "签名时发生错误",
       "noDocumentIsGenerated": "未生成文档",
       "pullToRefreshToSeeTheCompletion": "下拉刷新以查看完成情况",
-      "phoneNumberNotAvailable": "电话号码不可用"
+      "phoneNumberNotAvailable": "电话号码不可用",
+      "approvalConfirmation":"批准确认",
+      "approval":"批准",
+      "areYouSureApprove":"您确定要批准吗"
     },
     "currency": {
       "australianDollar": "AUD",

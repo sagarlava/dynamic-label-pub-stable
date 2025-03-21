@@ -13600,7 +13600,10 @@
       "errorOccuredWhileSigning": "Ocurrió un error al firmar",
       "noDocumentIsGenerated": "No se ha generado ningún documento ya que los datos están incompletos.",
       "pullToRefreshToSeeTheCompletion": "Desliza hacia abajo para actualizar y ver la finalización",
-      "phoneNumberNotAvailable": "Número de teléfono no disponible"
+      "phoneNumberNotAvailable": "Número de teléfono no disponible",
+      "approvalConfirmation":"Confirmación de aprobación",
+      "approval":"Aprobación",
+      "areYouSureApprove":"¿Está seguro de que desea aprobar"
     },
     "currency": {
       "australianDollar": "AUD",

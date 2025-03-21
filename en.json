@@ -13600,7 +13600,10 @@
       "errorOccuredWhileSigning":"An error occured while signing",
       "noDocumentIsGenerated":"No document is generated since partial data is filled.",
       "pullToRefreshToSeeTheCompletion":"Pull to refresh to see the completion",
-      "phoneNumberNotAvailable":"Phone number not available"
+      "phoneNumberNotAvailable":"Phone number not available",
+      "approvalConfirmation":"Approval Confirmation",
+      "approval":"Approval",
+      "areYouSureApprove":"Are you sure you want to approve"
     },
     "currency":{
       "australianDollar": "AUD",
