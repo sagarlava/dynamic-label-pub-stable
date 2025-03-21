@@ -10835,6 +10835,13 @@
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
+      },
+      "totalUnit": {
+        "original": "Total Units",
+        "singular": "Unidad total",
+        "plural": "Unidades totales",
+        "setupEdit": true,
+        "setupVisible": true
       }
     },
     "tooltips": {
