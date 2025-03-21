@@ -12211,6 +12211,27 @@
         "plural": "Group View",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "searchByAddress":{
+        "original": "Search Address",
+        "singular": "Search Address",
+        "plural": "Search Address",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "searchLatLang":{
+        "original": "Search by Lat & Long",
+        "singular": "Search by Lat & Long",
+        "plural": "Search by Lat & Long",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "useCoordinates":{
+        "original": "Use Coordinates",
+        "singular": "Use Coordinates",
+        "plural": "Use Coordinates",
+        "setupEdit": false,
+        "setupVisible": false
       }	
     },
     "status": {

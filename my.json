@@ -12211,6 +12211,27 @@
         "plural": "Paparan Kumpulan",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "searchByAddress":{
+        "original": "Search Address",
+        "singular": "Cari Alamat",
+        "plural": "Cari Alamat",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "searchLatLang":{
+        "original": "Search by Lat & Long",
+        "singular": "Cari berdasarkan Lat & Long",
+        "plural": "Cari berdasarkan Lat & Long",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "useCoordinates":{
+        "original": "Use Coordinates",
+        "singular": "Gunakan Koordinat",
+        "plural": "Gunakan Koordinat",
+        "setupEdit": false,
+        "setupVisible": false
       }	
     },
     "status": {
