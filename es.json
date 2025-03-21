@@ -10958,7 +10958,14 @@
       "selectBinToTransferSparePartTo":"Seleccione el contenedor al que desea transferir los repuestos",
       "unsureItemsRequestStored":"Si no está seguro de dónde se almacenan los artículos que solicita, seleccione un contenedor gestionado por un equipo que pueda localizar y cumplir su solicitud",
       "selectBinRequestFrom":"Seleccione el contenedor desde el cual está solicitando artículos",
-      "selectBinToTransferTo":"Seleccione el contenedor al que desea transferir los artículos"
+      "selectBinToTransferTo":"Seleccione el contenedor al que desea transferir los artículos",
+      "hasRejectedRequisitionNote":"ha rechazado su nota de requisición",
+      "hasApprovedRequisitionNote":"ha aprobado su nota de requisición",
+      "hasBeenApprovedRequisitionNote":"ha sido aprobada. Ahora puede proceder con la transferencia de los artículos seleccionados.",
+      "has":"ha",
+      "hasBeen":"ha sido",
+      "yourRequisitionNote":"su nota de requisición",
+      "youCanProceedToTransfer":"Ahora puede proceder con la transferencia de los artículos seleccionados."
     }
   },
   "contacts": {
