@@ -13604,7 +13604,11 @@
       "approvalConfirmation":"批准确认",
       "approval":"批准",
       "areYouSureApprove":"您确定要批准吗",
-      "approvedSuccessfully":"批准成功"
+      "approvedSuccessfully":"批准成功",
+      "rejectionConfirmation":"拒绝确认",
+      "rejection":"拒绝",
+      "areYouSureReject":"您确定要拒绝吗",
+      "rejectSuccessfully":"已成功拒绝"
     },
     "currency": {
       "australianDollar": "AUD",

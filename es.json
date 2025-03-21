@@ -13604,7 +13604,11 @@
       "approvalConfirmation":"Confirmación de aprobación",
       "approval":"Aprobación",
       "areYouSureApprove":"¿Está seguro de que desea aprobar",
-      "approvedSuccessfully":"Aprobado con éxito"
+      "approvedSuccessfully":"Aprobado con éxito",
+      "rejectionConfirmation":"Confirmación de rechazo",
+      "rejection":"Rechazo",
+      "areYouSureReject":"¿Está seguro de que desea rechazar",
+      "rejectSuccessfully":"Rechazado con éxito"
     },
     "currency": {
       "australianDollar": "AUD",

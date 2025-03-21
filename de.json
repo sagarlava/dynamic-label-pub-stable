@@ -13604,7 +13604,11 @@
       "approvalConfirmation":"Genehmigungsbestätigung",
       "approval":"Genehmigung",
       "areYouSureApprove":"Sind Sie sicher, dass Sie genehmigen möchten",
-      "approvedSuccessfully":"Erfolgreich genehmigt"
+      "approvedSuccessfully":"Erfolgreich genehmigt",
+      "rejectionConfirmation":"Ablehnungsbestätigung",
+      "rejection":"Ablehnung",
+      "areYouSureReject":"Sind Sie sicher, dass Sie ablehnen möchten",
+      "rejectSuccessfully":"Erfolgreich abgelehnt"
     },
     "currency": {
       "australianDollar": "AUD",

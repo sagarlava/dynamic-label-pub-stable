@@ -13604,7 +13604,11 @@
       "approvalConfirmation":"Pengesahan Kelulusan",
       "approval":"Kelulusan",
       "areYouSureApprove":"Adakah anda pasti ingin meluluskan",
-      "approvedSuccessfully":"Diluluskan dengan berjaya"
+      "approvedSuccessfully":"Diluluskan dengan berjaya",
+      "rejectionConfirmation":"Pengesahan Penolakan",
+      "rejection":"Penolakan",
+      "areYouSureReject":"Adakah anda pasti ingin menolak",
+      "rejectSuccessfully":"Ditolak dengan berjaya"
     },
     "currency": {
       "australianDollar": "AUD",
