@@ -10915,6 +10915,13 @@
         "plural": "Nota-nota",
         "setupEdit": true,
         "setupVisible": true
+      },
+      "transferId": {
+        "original": "Transfer ID",
+        "singular": "ID Pemindahan",
+        "plural": "ID Pemindahan",
+        "setupEdit": true,
+        "setupVisible": true
       }
     },
     "tooltips": {

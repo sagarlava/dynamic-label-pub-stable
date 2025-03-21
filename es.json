@@ -10915,6 +10915,13 @@
         "plural": "Notas",
         "setupEdit": true,
         "setupVisible": true
+      },
+      "transferId": {
+        "original": "Transfer ID",
+        "singular": "ID de transferencia",
+        "plural": "ID de transferencias",
+        "setupEdit": true,
+        "setupVisible": true
       }
     },
     "tooltips": {

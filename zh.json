@@ -10915,6 +10915,13 @@
         "plural": "备注",
         "setupEdit": true,
         "setupVisible": true
+      },
+      "transferId": {
+        "original": "Transfer ID",
+        "singular": "转移编号",
+        "plural": "转移编号",
+        "setupEdit": true,
+        "setupVisible": true
       }
     },
     "tooltips": {
