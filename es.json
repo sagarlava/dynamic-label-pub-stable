@@ -10908,7 +10908,8 @@
       "enterQtySparePartsRequired":"Ingrese la cantidad de repuestos requeridos",
       "selectBinToTransferSparePartTo":"Seleccione el contenedor al que desea transferir los repuestos",
       "unsureItemsRequestStored":"Si no está seguro de dónde se almacenan los artículos que solicita, seleccione un contenedor gestionado por un equipo que pueda localizar y cumplir su solicitud",
-      "selectBinRequestFrom":"Seleccione el contenedor desde el cual está solicitando artículos"
+      "selectBinRequestFrom":"Seleccione el contenedor desde el cual está solicitando artículos",
+      "selectBinToTransferTo":"Seleccione el contenedor al que desea transferir los artículos"
     }
   },
   "contacts": {
