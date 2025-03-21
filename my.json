@@ -10880,6 +10880,13 @@
         "plural": "Kuantiti untuk Dipindahkan",
         "setupEdit": true,
         "setupVisible": true
+      },
+      "approvalStatus": {
+        "original": "Approval Status",
+        "singular": "Status Kelulusan",
+        "plural": "Status Kelulusan",
+        "setupEdit": true,
+        "setupVisible": true
       }
     },
     "tooltips": {

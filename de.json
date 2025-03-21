@@ -10880,6 +10880,13 @@
         "plural": "Mengen zum Übertragen",
         "setupEdit": true,
         "setupVisible": true
+      },
+      "approvalStatus": {
+        "original": "Approval Status",
+        "singular": "Genehmigungsstatus",
+        "plural": "Genehmigungsstatus",
+        "setupEdit": true,
+        "setupVisible": true
       }
     },
     "tooltips": {

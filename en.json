@@ -10880,6 +10880,13 @@
         "plural": "Qty to Transfer",
         "setupEdit": true,
         "setupVisible": true
+      },
+      "approvalStatus": {
+        "original": "Approval Status",
+        "singular": "Approval Status",
+        "plural": "Approval Status",
+        "setupEdit": true,
+        "setupVisible": true
       }
     },
     "tooltips": {
