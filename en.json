@@ -12970,6 +12970,13 @@
         "plural": "Initiate Bin Transfer",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "manualBinTransfer":{
+        "original": "Manual Bin Transfer",
+        "singular": "Manual Bin Transfer",
+        "plural": "Manual Bin Transfer",
+        "setupEdit": false,
+        "setupVisible": false
       }	
     },
     "status": {

@@ -12970,6 +12970,13 @@
         "plural": "Mulakan Pemindahan Tong",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "manualBinTransfer":{
+        "original": "Manual Bin Transfer",
+        "singular": "Pemindahan Tong Secara Manual",
+        "plural": "Pemindahan Tong Secara Manual",
+        "setupEdit": false,
+        "setupVisible": false
       }	
     },
     "status": {

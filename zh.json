@@ -12970,7 +12970,14 @@
         "plural": "发起存储箱转移",
         "setupEdit": false,
         "setupVisible": false
-      }				
+      },
+      "manualBinTransfer":{
+        "original": "Manual Bin Transfer",
+        "singular": "手动存储箱转移",
+        "plural": "手动存储箱转移",
+        "setupEdit": false,
+        "setupVisible": false
+      }	
     },
     "status": {
       "setupVisible": true,

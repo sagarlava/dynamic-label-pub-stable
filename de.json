@@ -12970,7 +12970,14 @@
         "plural": "Behälterübertragungen starten",
         "setupEdit": false,
         "setupVisible": false
-      }						
+      },
+      "manualBinTransfer":{
+        "original": "Manual Bin Transfer",
+        "singular": "Manuelle Behälterübertragung",
+        "plural": "Manuelle Behälterübertragungen",
+        "setupEdit": false,
+        "setupVisible": false
+      }	
     },
     "status": {
       "setupVisible": false,
