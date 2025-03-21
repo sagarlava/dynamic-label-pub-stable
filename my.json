@@ -10908,6 +10908,13 @@
         "plural": "Diminta Oleh",
         "setupEdit": true,
         "setupVisible": true
+      },
+      "note": {
+        "original": "Note",
+        "singular": "Nota",
+        "plural": "Nota-nota",
+        "setupEdit": true,
+        "setupVisible": true
       }
     },
     "tooltips": {

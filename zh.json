@@ -10908,6 +10908,13 @@
         "plural": "请求人",
         "setupEdit": true,
         "setupVisible": true
+      },
+      "note": {
+        "original": "Note",
+        "singular": "备注",
+        "plural": "备注",
+        "setupEdit": true,
+        "setupVisible": true
       }
     },
     "tooltips": {

@@ -10908,6 +10908,13 @@
         "plural": "Solicitado por",
         "setupEdit": true,
         "setupVisible": true
+      },
+      "note": {
+        "original": "Note",
+        "singular": "Nota",
+        "plural": "Notas",
+        "setupEdit": true,
+        "setupVisible": true
       }
     },
     "tooltips": {
