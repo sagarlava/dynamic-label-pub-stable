@@ -10614,6 +10614,13 @@
         "plural": "Detalles de la transferencia",
         "setupEdit": true,
         "setupVisible": true
+      },
+      "sec17": {
+        "original": "Approval Details",
+        "singular": "Detalles de aprobación",
+        "plural": "Detalles de aprobaciones",
+        "setupEdit": true,
+        "setupVisible": true
       }
     },
     "fields": {
