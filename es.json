@@ -10887,6 +10887,20 @@
         "plural": "Estado de aprobación",
         "setupEdit": true,
         "setupVisible": true
+      },
+      "requestDate": {
+        "original": "Request Date",
+        "singular": "Fecha de solicitud",
+        "plural": "Fechas de solicitud",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "approvedDateTime": {
+        "original": "Approved Date & Time",
+        "singular": "Fecha y hora de aprobación",
+        "plural": "Fecha y hora de aprobación",
+        "setupEdit": true,
+        "setupVisible": true
       }
     },
     "tooltips": {

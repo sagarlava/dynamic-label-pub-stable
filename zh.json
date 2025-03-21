@@ -10887,6 +10887,20 @@
         "plural": "审批状态",
         "setupEdit": true,
         "setupVisible": true
+      },
+      "requestDate": {
+        "original": "Request Date",
+        "singular": "请求日期",
+        "plural": "请求日期",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "approvedDateTime": {
+        "original": "Approved Date & Time",
+        "singular": "批准日期和时间",
+        "plural": "批准日期和时间",
+        "setupEdit": true,
+        "setupVisible": true
       }
     },
     "tooltips": {

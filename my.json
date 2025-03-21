@@ -10887,6 +10887,20 @@
         "plural": "Status Kelulusan",
         "setupEdit": true,
         "setupVisible": true
+      },
+      "requestDate": {
+        "original": "Request Date",
+        "singular": "Tarikh Permintaan",
+        "plural": "Tarikh Permintaan",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "approvedDateTime": {
+        "original": "Approved Date & Time",
+        "singular": "Tarikh & Masa Diluluskan",
+        "plural": "Tarikh & Masa Diluluskan",
+        "setupEdit": true,
+        "setupVisible": true
       }
     },
     "tooltips": {
