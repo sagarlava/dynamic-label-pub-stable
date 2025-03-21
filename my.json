@@ -10901,6 +10901,13 @@
         "plural": "Tarikh & Masa Diluluskan",
         "setupEdit": true,
         "setupVisible": true
+      },
+      "requestedBy": {
+        "original": "Requested By",
+        "singular": "Diminta Oleh",
+        "plural": "Diminta Oleh",
+        "setupEdit": true,
+        "setupVisible": true
       }
     },
     "tooltips": {

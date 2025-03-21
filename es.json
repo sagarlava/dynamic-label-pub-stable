@@ -10901,6 +10901,13 @@
         "plural": "Fecha y hora de aprobación",
         "setupEdit": true,
         "setupVisible": true
+      },
+      "requestedBy": {
+        "original": "Requested By",
+        "singular": "Solicitado por",
+        "plural": "Solicitado por",
+        "setupEdit": true,
+        "setupVisible": true
       }
     },
     "tooltips": {

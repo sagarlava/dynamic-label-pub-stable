@@ -10901,6 +10901,13 @@
         "plural": "Genehmigungsdaten und -uhrzeiten",
         "setupEdit": true,
         "setupVisible": true
+      },
+      "requestedBy": {
+        "original": "Requested By",
+        "singular": "Angefordert von",
+        "plural": "Angefordert von",
+        "setupEdit": true,
+        "setupVisible": true
       }
     },
     "tooltips": {
