@@ -10645,6 +10645,20 @@
         "plural": "请求者主管审批",
         "setupEdit": true,
         "setupVisible": true
+      },
+      "sec19": {
+        "original": "Receiver Approval 1",
+        "singular": "接收者审批 1",
+        "plural": "接收者审批 1",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "sec20": {
+        "original": "Receiver Approval 2",
+        "singular": "接收者审批 2",
+        "plural": "接收者审批 2",
+        "setupEdit": true,
+        "setupVisible": true
       }
     },
     "fields": {
