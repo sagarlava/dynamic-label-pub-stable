@@ -3473,6 +3473,13 @@
         "plural": "Familien",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "model": {
+        "original": "Model",
+        "singular": "Modell",
+        "plural": "Modelle",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "validationFE": {},

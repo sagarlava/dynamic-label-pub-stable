@@ -3473,6 +3473,13 @@
         "plural": "家庭",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "model": {
+        "original": "Model",
+        "singular": "型号",
+        "plural": "型号",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "validationFE": {},
