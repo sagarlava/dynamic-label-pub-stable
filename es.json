@@ -12932,7 +12932,14 @@
         "plural": "Generar número de serie temporal",
         "setupEdit": false,
         "setupVisible": false
-      }					
+      },
+      "initiateBinTransfer":{
+        "original": "Initiate Bin Transfer",
+        "singular": "Iniciar transferencia de contenedor",
+        "plural": "Iniciar transferencias de contenedores",
+        "setupEdit": false,
+        "setupVisible": false
+      }						
     },
     "status": {
       "setupVisible": false,

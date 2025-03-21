@@ -12932,7 +12932,14 @@
         "plural": "生成临时序列号",
         "setupEdit": false,
         "setupVisible": false
-      }			
+      },
+      "initiateBinTransfer":{
+        "original": "Initiate Bin Transfer",
+        "singular": "发起存储箱转移",
+        "plural": "发起存储箱转移",
+        "setupEdit": false,
+        "setupVisible": false
+      }				
     },
     "status": {
       "setupVisible": true,

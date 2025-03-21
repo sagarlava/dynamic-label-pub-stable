@@ -12932,7 +12932,14 @@
         "plural": "Temporäre Seriennummer generieren",
         "setupEdit": false,
         "setupVisible": false
-      }					
+      },
+      "initiateBinTransfer":{
+        "original": "Initiate Bin Transfer",
+        "singular": "Behälterübertragung starten",
+        "plural": "Behälterübertragungen starten",
+        "setupEdit": false,
+        "setupVisible": false
+      }						
     },
     "status": {
       "setupVisible": false,

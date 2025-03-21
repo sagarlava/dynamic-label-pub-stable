@@ -12932,6 +12932,13 @@
         "plural": "Generate Temporary Serial No",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "initiateBinTransfer":{
+        "original": "Initiate Bin Transfer",
+        "singular": "Initiate Bin Transfer",
+        "plural": "Initiate Bin Transfer",
+        "setupEdit": false,
+        "setupVisible": false
       }	
     },
     "status": {
