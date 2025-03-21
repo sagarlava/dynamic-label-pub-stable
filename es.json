@@ -10870,7 +10870,8 @@
       }
     },
     "validationFE": {
-      "atLeastOneAssetRequired":"Se requiere al menos un activo para continuar"
+      "atLeastOneAssetRequired":"Se requiere al menos un activo para continuar",
+      "atLeastOneSparePartRequired":"Se requiere al menos un repuesto para continuar"
     },
     "validationBE": {
       "requisitionIdNotFound": "ID no encontrado",

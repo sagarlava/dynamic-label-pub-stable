@@ -10870,7 +10870,8 @@
       }
     },
     "validationFE": {
-      "atLeastOneAssetRequired":"Sekurang-kurangnya satu aset diperlukan untuk meneruskan"
+      "atLeastOneAssetRequired":"Sekurang-kurangnya satu aset diperlukan untuk meneruskan",
+      "atLeastOneSparePartRequired":"Sekurang-kurangnya satu alat ganti diperlukan untuk meneruskan"
     },
     "validationBE": {
       "requisitionIdNotFound": "ID tidak dijumpai",

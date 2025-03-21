@@ -10870,7 +10870,8 @@
       }
     },
     "validationFE": {
-      "atLeastOneAssetRequired":"Mindestens ein Vermögenswert ist erforderlich, um fortzufahren"
+      "atLeastOneAssetRequired":"Mindestens ein Vermögenswert ist erforderlich, um fortzufahren",
+      "atLeastOneSparePartRequired":"Mindestens ein Ersatzteil ist erforderlich, um fortzufahren"
     },
     "validationBE": {
       "requisitionIdNotFound": "ID nicht gefunden",

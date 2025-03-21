@@ -10870,7 +10870,8 @@
       }
     },
     "validationFE": {
-      "atLeastOneAssetRequired":"At least one asset is required to proceed"
+      "atLeastOneAssetRequired":"At least one asset is required to proceed",
+      "atLeastOneSparePartRequired":"At least one spare part is required to proceed"
     },
     "validationBE": {
       "requisitionIdNotFound": "Id not found",

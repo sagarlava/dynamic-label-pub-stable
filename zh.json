@@ -10870,7 +10870,8 @@
       }
     },
     "validationFE": {
-      "atLeastOneAssetRequired":"至少需要一个资产才能继续"
+      "atLeastOneAssetRequired":"至少需要一个资产才能继续",
+      "atLeastOneSparePartRequired":"至少需要一个备件才能继续"
     },
     "validationBE": {
       "requisitionIdNotFound": "未找到ID",
