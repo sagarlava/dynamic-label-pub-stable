@@ -10842,6 +10842,13 @@
         "plural": "Jumlah Unit",
         "setupEdit": true,
         "setupVisible": true
+      },
+      "qtyToTransfer": {
+        "original": "Qty to Transfer",
+        "singular": "Kuantiti untuk Dipindahkan",
+        "plural": "Kuantiti untuk Dipindahkan",
+        "setupEdit": true,
+        "setupVisible": true
       }
     },
     "tooltips": {

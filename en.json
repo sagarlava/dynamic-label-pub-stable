@@ -10842,6 +10842,13 @@
         "plural": "Total Units",
         "setupEdit": true,
         "setupVisible": true
+      },
+      "qtyToTransfer": {
+        "original": "Qty to Transfer",
+        "singular": "Qty to Transfer",
+        "plural": "Qty to Transfer",
+        "setupEdit": true,
+        "setupVisible": true
       }
     },
     "tooltips": {
