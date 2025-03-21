@@ -10125,7 +10125,8 @@
       "specifySparePartQuantity":"You may specify spare part quantity in the next step",
       "addQuantitiesTransferred":"Add the quantities to be transferred to",
       "enterSerialNumberHere":"Enter serial numbers here. Eg. 128371253ABC",
-      "enterSKUHere":"Enter SKUs here. Eg. 128371253ABC"
+      "enterSKUHere":"Enter SKUs here. Eg. 128371253ABC",
+      "areYouSureInitiateTransfer":"Are you sure you want to initiate this bin transfer?"
     }
   },
   "checkAvailibility": {

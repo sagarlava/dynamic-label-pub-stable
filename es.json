@@ -10125,7 +10125,8 @@
       "specifySparePartQuantity":"Puede especificar la cantidad de repuestos en el siguiente paso",
       "addQuantitiesTransferred":"Agregue las cantidades a transferir",
       "enterSerialNumberHere":"Ingrese los números de serie aquí. Eg. 128371253ABC",
-      "enterSKUHere":"Ingrese los SKU aquí. Eg. 128371253ABC"
+      "enterSKUHere":"Ingrese los SKU aquí. Eg. 128371253ABC",
+      "areYouSureInitiateTransfer":"¿Está seguro de que desea iniciar esta transferencia de contenedor?"
     }
   },
   "checkAvailibility": {

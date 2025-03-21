@@ -10125,7 +10125,8 @@
       "specifySparePartQuantity":"您可以在下一步指定备件数量",
       "addQuantitiesTransferred":"添加要转移的数量",
       "enterSerialNumberHere":"在此输入序列号。 Eg. 128371253ABC",
-      "enterSKUHere":"在此输入 SKU。 Eg. 128371253ABC"
+      "enterSKUHere":"在此输入 SKU。 Eg. 128371253ABC",
+      "areYouSureInitiateTransfer":"您确定要发起此存储箱转移吗？"
     }
   },
   "checkAvailibility": {
