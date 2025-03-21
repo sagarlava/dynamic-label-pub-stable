@@ -10892,7 +10892,8 @@
       "unsureOfSparePartAvailability":"Unsure of spare part availability?",
       "notSureBinAvailableSpareParts":"Not sure which bin the spare parts are available in?",
       "enterQtySparePartsRequired":"Enter the quantity of spare parts required",
-      "selectBinToTransferSparePartTo":"Select the bin you would like to transfer the spare parts to"
+      "selectBinToTransferSparePartTo":"Select the bin you would like to transfer the spare parts to",
+      "unsureItemsRequestStored":"If you're unsure where the items you are requesting are stored, select a bin managed by a team that can locate and fulfill your request"
     }
   },
   "contacts": {
