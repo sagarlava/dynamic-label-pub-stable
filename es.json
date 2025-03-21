@@ -10922,6 +10922,20 @@
         "plural": "ID de transferencias",
         "setupEdit": true,
         "setupVisible": true
+      },
+      "fromBin": {
+        "original": "From Bin",
+        "singular": "Desde el Contenedor",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "toBin": {
+        "original": "To Bin",
+        "singular": "Al Contenedor",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "tooltips": {

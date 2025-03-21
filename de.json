@@ -10922,6 +10922,20 @@
         "plural": "Transfer-IDs",
         "setupEdit": true,
         "setupVisible": true
+      },
+      "fromBin": {
+        "original": "From Bin",
+        "singular": "Von Lager",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "toBin": {
+        "original": "To Bin",
+        "singular": "Nach Lager",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "tooltips": {

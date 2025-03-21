@@ -10922,6 +10922,20 @@
         "plural": "ID Pemindahan",
         "setupEdit": true,
         "setupVisible": true
+      },
+      "fromBin": {
+        "original": "From Bin",
+        "singular": "Dari Bin",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "toBin": {
+        "original": "To Bin",
+        "singular": "Ke Bin",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "tooltips": {
