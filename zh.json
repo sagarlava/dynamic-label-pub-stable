@@ -9794,6 +9794,13 @@
         "plural": "调整备件",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "sec20": {
+        "original": "Initiate Bin Transfer Confirmation",
+        "singular": "发起存储箱转移确认",
+        "plural": "发起存储箱转移确认",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "fields": {
