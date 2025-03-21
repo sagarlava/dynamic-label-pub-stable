@@ -10126,7 +10126,9 @@
       "addQuantitiesTransferred":"Tambah kuantiti yang akan dipindahkan",
       "enterSerialNumberHere":"Masukkan nombor siri di sini. Eg. 128371253ABC",
       "enterSKUHere":"Masukkan SKU di sini. Eg. 128371253ABC",
-      "areYouSureInitiateTransfer":"Adakah anda pasti ingin mulakan pemindahan tong ini?"
+      "areYouSureInitiateTransfer":"Adakah anda pasti ingin mulakan pemindahan tong ini?",
+      "selectedBinNoLongerContains":"Tong yang dipilih tidak lagi mengandungi item berikut",
+      "needTransferItemManually":"Anda perlu memilih dan memindahkan item-item ini secara manual. Item lain yang dipilih akan dipindahkan."
     }
   },
   "checkAvailibility": {

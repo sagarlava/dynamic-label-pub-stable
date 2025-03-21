@@ -10126,7 +10126,9 @@
       "addQuantitiesTransferred":"Add the quantities to be transferred to",
       "enterSerialNumberHere":"Enter serial numbers here. Eg. 128371253ABC",
       "enterSKUHere":"Enter SKUs here. Eg. 128371253ABC",
-      "areYouSureInitiateTransfer":"Are you sure you want to initiate this bin transfer?"
+      "areYouSureInitiateTransfer":"Are you sure you want to initiate this bin transfer?",
+      "selectedBinNoLongerContains":"The selected bin no longer contains the following items",
+      "needTransferItemManually":"You will need to select and transfer these items manually. The other selected items will be transferred."
     }
   },
   "checkAvailibility": {

@@ -10126,7 +10126,9 @@
       "addQuantitiesTransferred":"Agregue las cantidades a transferir",
       "enterSerialNumberHere":"Ingrese los números de serie aquí. Eg. 128371253ABC",
       "enterSKUHere":"Ingrese los SKU aquí. Eg. 128371253ABC",
-      "areYouSureInitiateTransfer":"¿Está seguro de que desea iniciar esta transferencia de contenedor?"
+      "areYouSureInitiateTransfer":"¿Está seguro de que desea iniciar esta transferencia de contenedor?",
+      "selectedBinNoLongerContains":"El contenedor seleccionado ya no contiene los siguientes artículos",
+      "needTransferItemManually":"Tendrá que seleccionar y transferir estos artículos manualmente. Los demás artículos seleccionados serán transferidos."
     }
   },
   "checkAvailibility": {
