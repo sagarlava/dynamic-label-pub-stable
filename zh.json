@@ -1032,6 +1032,13 @@
         "plural": "离线时间",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "model": {
+        "original": "Model",
+        "singular": "型号",
+        "plural": "型号",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "validationFE": {

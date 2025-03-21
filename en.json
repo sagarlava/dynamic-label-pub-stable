@@ -1032,6 +1032,13 @@
         "plural": "Offline Since",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "model": {
+        "original": "Model",
+        "singular": "Model",
+        "plural": "Model",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "validationFE": {
