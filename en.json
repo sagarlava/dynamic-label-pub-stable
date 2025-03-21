@@ -10607,6 +10607,13 @@
         "plural": "Request Summary",
         "setupEdit": true,
         "setupVisible": true
+      },
+      "sec16": {
+        "original": "Transfer Details",
+        "singular": "Transfer Details",
+        "plural": "Transfer Details",
+        "setupEdit": true,
+        "setupVisible": true
       }
     },
     "fields": {
