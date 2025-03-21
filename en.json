@@ -10638,6 +10638,13 @@
         "plural": "Approval Details",
         "setupEdit": true,
         "setupVisible": true
+      },
+      "sec18": {
+        "original": "Requestor’s Manager Approval",
+        "singular": "Requestor’s Manager Approval",
+        "plural": "Requestor’s Manager Approval",
+        "setupEdit": true,
+        "setupVisible": true
       }
     },
     "fields": {

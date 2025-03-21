@@ -10638,6 +10638,13 @@
         "plural": "Genehmigungsdetails",
         "setupEdit": true,
         "setupVisible": true
+      },
+      "sec18": {
+        "original": "Requestor’s Manager Approval",
+        "singular": "Genehmigung durch den Vorgesetzten des Anforderers",
+        "plural": "Genehmigung durch den Vorgesetzten des Anforderers",
+        "setupEdit": true,
+        "setupVisible": true
       }
     },
     "fields": {
