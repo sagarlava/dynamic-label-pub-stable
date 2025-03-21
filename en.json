@@ -9801,6 +9801,13 @@
         "plural": "Initiate Bin Transfer Confirmation",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "sec21": {
+        "original": "Missing Items Detected",
+        "singular": "Missing Items Detected",
+        "plural": "Missing Items Detected",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "fields": {
