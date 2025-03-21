@@ -10862,6 +10862,9 @@
         "setupVisible": true
       }
     },
+    "validationFE": {
+      "atLeastOneAssetRequired":"Sekurang-kurangnya satu aset diperlukan untuk meneruskan"
+    },
     "validationBE": {
       "requisitionIdNotFound": "ID tidak dijumpai",
       "requisitionNotFound": "Permintaan tidak dijumpai",

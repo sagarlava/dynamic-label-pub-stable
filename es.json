@@ -10862,6 +10862,9 @@
         "setupVisible": true
       }
     },
+    "validationFE": {
+      "atLeastOneAssetRequired":"Se requiere al menos un activo para continuar"
+    },
     "validationBE": {
       "requisitionIdNotFound": "ID no encontrado",
       "requisitionNotFound": "Requisición no encontrada",

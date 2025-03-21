@@ -10862,6 +10862,9 @@
         "setupVisible": true
       }
     },
+    "validationFE": {
+      "atLeastOneAssetRequired":"Mindestens ein Vermögenswert ist erforderlich, um fortzufahren"
+    },
     "validationBE": {
       "requisitionIdNotFound": "ID nicht gefunden",
       "requisitionNotFound": "Anforderung nicht gefunden",

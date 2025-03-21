@@ -10862,6 +10862,9 @@
         "setupVisible": true
       }
     },
+    "validationFE": {
+      "atLeastOneAssetRequired":"At least one asset is required to proceed"
+    },
     "validationBE": {
       "requisitionIdNotFound": "Id not found",
       "requisitionNotFound": "Requisition not found",
