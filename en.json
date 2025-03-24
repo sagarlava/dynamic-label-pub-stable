@@ -10241,7 +10241,8 @@
       "setupVisible": true
     },
     "sections": {
-      "setupVisible": true,
+      "setupVisible": false,
+      "setupEdit": false,
       "sec0": {
         "original": "Pending Approvals",
         "singular": "Pending Approval",
@@ -10555,6 +10556,7 @@
       "selectItemsToBeSent":"Select the items to be sent",
       "selectBinSendAssetTo":"Select the bin you would like to send the assets to",
       "reviewSelectionsMadeBeforeSubmit":"Review the selections that you have made before submitting",
+      "reviewSelectionsMade":"Review the selections that you have made before submitting your request.",
       "selectBinSendingSparePartFrom":"Select the bin you are sending spare parts from",
       "enterQtySparePartsRequired":"Enter the quantity of spare parts required",
       "selectBinSendSparePartsTo":"Select the bin you would like to send the spare parts to"
