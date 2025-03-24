@@ -1952,7 +1952,7 @@
       "pmFrequencyPartsIdExists": "A new PmFrequencyParts cannot already have an ID",
       "preventativeFrequencyPartsIdExists": "A new Preventative Frequency Parts cannot already have an ID",
       "preventativeFrequencyIdExists": "A new Preventative Frequency cannot already have an ID",
-      "preventativeMaintenanceFrequencyIdExists": "A new Preventative Maintenance Frequency cannot already have an ID",
+      "preventativeMaintenanceFrequencyIdExists": "A new Preventive Maintenance Frequency cannot already have an ID",
       "preventativeMaintenanceTemplateIdExists": "A new Preventative Maintenance Template cannot already have an ID",
       "preventativeMaintenanceTemplateHasPreventiveMaintenanceFrequency": "Preventative Maintenance Frequency Data exists in the system for the Preventative Maintenance Template",
       "preventativeMaintenanceTemplateHasPreventativeMaintenanceFrequency": "Preventative Maintenance Frequency Data exists in the system for the Preventative Maintenance Template"
