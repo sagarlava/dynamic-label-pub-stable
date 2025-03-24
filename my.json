@@ -10540,7 +10540,12 @@
       "selectSparePartFromBin":"Pilih alat ganti tertentu dari bin yang diketahui",
       "defineCustomListOfItems":"Tentukan senarai item tersuai untuk dihantar",
       "sendAssetByTypeQty":"Hantar aset mengikut jenis dan kuantiti dan bukan nombor siri",
-      "sendSparePartAvailableFromBin":"Hantar alat ganti dari mana-mana tong yang tersedia"
+      "sendSparePartAvailableFromBin":"Hantar alat ganti dari mana-mana tong yang tersedia",
+      "selectBinSendingAssetFrom":"Pilih tong yang anda hantar aset daripadanya",
+      "youCanSelectBinInCharge":"Anda hanya boleh memilih tong yang anda bertanggungjawab ke atasnya",
+      "selectItemsToBeSent":"Pilih item yang akan dihantar",
+      "selectBinSendAssetTo":"Pilih tong yang anda ingin hantar aset ke",
+      "reviewSelectionsMadeBeforeSubmit":"Semak pilihan yang telah anda buat sebelum menghantar"
     }
   },
   "requisition": {

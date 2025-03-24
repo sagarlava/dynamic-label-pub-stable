@@ -10539,7 +10539,12 @@
       "selectSparePartFromBin":"Select specific spare parts from a known bin",
       "defineCustomListOfItems":"Define a custom list of items to send",
       "sendAssetByTypeQty":"Send assets by type and quantity instead of serial numbers",
-      "sendSparePartAvailableFromBin":"Send spare parts from any available bin"
+      "sendSparePartAvailableFromBin":"Send spare parts from any available bin",
+      "selectBinSendingAssetFrom":"Select the bin you are sending assets from",
+      "youCanSelectBinInCharge":"You can only select bins that you are in charge of",
+      "selectItemsToBeSent":"Select the items to be sent",
+      "selectBinSendAssetTo":"Select the bin you would like to send the assets to",
+      "reviewSelectionsMadeBeforeSubmit":"Review the selections that you have made before submitting"
     }
   },
   "requisition": {

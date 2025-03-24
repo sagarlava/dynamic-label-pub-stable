@@ -10540,7 +10540,12 @@
       "selectSparePartFromBin":"从已知存储箱中选择特定备件",
       "defineCustomListOfItems":"定义要发送的自定义项目列表",
       "sendAssetByTypeQty":"按类型和数量发送资产，而不是序列号",
-      "sendSparePartAvailableFromBin":"从任何可用存储箱发送备件"
+      "sendSparePartAvailableFromBin":"从任何可用存储箱发送备件",
+      "selectBinSendingAssetFrom":"选择您要从中发送资产的存储箱",
+      "youCanSelectBinInCharge":"您只能选择您负责的存储箱",
+      "selectItemsToBeSent":"选择要发送的项目",
+      "selectBinSendAssetTo":"选择您要发送资产的存储箱",
+      "reviewSelectionsMadeBeforeSubmit":"提交前请检查您所做的选择"
     }
   },
   "requisition": {

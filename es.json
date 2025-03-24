@@ -10540,7 +10540,12 @@
       "selectSparePartFromBin":"Seleccione piezas de repuesto específicas de un contenedor conocido",
       "defineCustomListOfItems":"Defina una lista personalizada de artículos para enviar",
       "sendAssetByTypeQty":"Enviar activos por tipo y cantidad en lugar de por números de serie",
-      "sendSparePartAvailableFromBin":"Enviar repuestos desde cualquier contenedor disponible"
+      "sendSparePartAvailableFromBin":"Enviar repuestos desde cualquier contenedor disponible",
+      "selectBinSendingAssetFrom":"Seleccione el contenedor desde el cual está enviando activos",
+      "youCanSelectBinInCharge":"Solo puede seleccionar los contenedores de los que está a cargo",
+      "selectItemsToBeSent":"Seleccione los artículos a enviar",
+      "selectBinSendAssetTo":"Seleccione el contenedor al que desea enviar los activos",
+      "reviewSelectionsMadeBeforeSubmit":"Revise las selecciones que ha realizado antes de enviar"
     }
   },
   "requisition": {
