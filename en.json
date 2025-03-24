@@ -10659,6 +10659,20 @@
         "plural": "Receiver Approval 2",
         "setupEdit": true,
         "setupVisible": true
+      },
+      "sec21": {
+        "original": "All Requisitions",
+        "singular": "All Requisitions",
+        "plural": "All Requisitions",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "sec22": {
+        "original": "Pending My Approval",
+        "singular": "Pending My Approval",
+        "plural": "Pending My Approval",
+        "setupEdit": true,
+        "setupVisible": true
       }
     },
     "fields": {

@@ -10659,6 +10659,20 @@
         "plural": "Empfänger-Genehmigung 2",
         "setupEdit": true,
         "setupVisible": true
+      },
+      "sec21": {
+        "original": "All Requisitions",
+        "singular": "Alle Anfragen",
+        "plural": "Alle Anfragen",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "sec22": {
+        "original": "Pending My Approval",
+        "singular": "Wartet auf meine Genehmigung",
+        "plural": "Wartet auf meine Genehmigung",
+        "setupEdit": true,
+        "setupVisible": true
       }
     },
     "fields": {

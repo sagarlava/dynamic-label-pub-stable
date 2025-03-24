@@ -10659,6 +10659,20 @@
         "plural": "Kelulusan Penerima 2",
         "setupEdit": true,
         "setupVisible": true
+      },
+      "sec21": {
+        "original": "All Requisitions",
+        "singular": "Semua Permohonan",
+        "plural": "Semua Permohonan",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "sec22": {
+        "original": "Pending My Approval",
+        "singular": "Menunggu Kelulusan Saya",
+        "plural": "Menunggu Kelulusan Saya",
+        "setupEdit": true,
+        "setupVisible": true
       }
     },
     "fields": {
