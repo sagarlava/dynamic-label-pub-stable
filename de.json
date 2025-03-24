@@ -10510,7 +10510,16 @@
       "uploadCopyApproved": "Bitte laden Sie eine Kopie der genehmigten Sendung hoch",
       "approvedCannotDelete": "Die Sendungsnotiz wurde genehmigt, daher kann sie nicht gelöscht werden",
       "acknowledgeCannotDelete": "Die Sendungsnotiz wurde anerkannt, daher kann sie nicht gelöscht werden",
-      "whatWouldYouLikeSend":"Was möchten Sie senden?"
+      "whatWouldYouLikeSend":"Was möchten Sie senden?",
+      "specificAssets":"Specific Assets",
+      "sendByType":"Send by Type",
+      "sendFromBin":"Send from Bin",
+      "sendAnyAvailable":"Send Any Available",
+      "chooseThisSerialNumber":"Choose this if you know the bin and asset serial numbers.",
+      "selectSparePartFromBin":"Select specific spare parts from a known bin",
+      "defineCustomListOfItems":"Define a custom list of items to send",
+      "sendAssetByTypeQty":"Send assets by type and quantity instead of serial numbers",
+      "sendSparePartAvailableFromBin":"Send spare parts from any available bin"
     }
   },
   "requisition": {

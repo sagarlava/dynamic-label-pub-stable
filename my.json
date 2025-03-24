@@ -10510,7 +10510,16 @@
       "uploadCopyApproved": "Sila muat naik salinan Konsainan yang Diluluskan",
       "approvedCannotDelete": "Nota Konsainan telah diluluskan, oleh itu tidak dapat dipadamkan",
       "acknowledgeCannotDelete": "Nota Konsainan telah disahkan, oleh itu tidak boleh dipadamkan",
-      "whatWouldYouLikeSend":"Apa yang anda ingin hantar?"
+      "whatWouldYouLikeSend":"Apa yang anda ingin hantar?",
+      "specificAssets":"Aset Tertentu",
+      "sendByType":"Hantar mengikut Jenis",
+      "sendFromBin":"Hantar dari Bin",
+      "sendAnyAvailable":"Hantar Mana-mana yang Tersedia",
+      "chooseThisSerialNumber":"Pilih ini jika anda tahu nombor siri bin dan aset.",
+      "selectSparePartFromBin":"Pilih alat ganti tertentu dari bin yang diketahui",
+      "defineCustomListOfItems":"Tentukan senarai item tersuai untuk dihantar",
+      "sendAssetByTypeQty":"Hantar aset mengikut jenis dan kuantiti dan bukan nombor siri",
+      "sendSparePartAvailableFromBin":"Hantar alat ganti dari mana-mana tong yang tersedia"
     }
   },
   "requisition": {

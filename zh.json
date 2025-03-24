@@ -10510,7 +10510,16 @@
       "uploadCopyApproved": "请上传批准的托运副本",
       "approvedCannotDelete": "托运单已批准，因此无法删除",
       "acknowledgeCannotDelete": "托运单已被确认，无法删除",
-      "whatWouldYouLikeSend":"您想发送什么？"
+      "whatWouldYouLikeSend":"您想发送什么？",
+      "specificAssets":"特定资产",
+      "sendByType":"按类型发送",
+      "sendFromBin":"从存储箱发送",
+      "sendAnyAvailable":"发送任何可用的",
+      "chooseThisSerialNumber":"如果您知道存储箱和资产的序列号，请选择此项。",
+      "selectSparePartFromBin":"从已知存储箱中选择特定备件",
+      "defineCustomListOfItems":"定义要发送的自定义项目列表",
+      "sendAssetByTypeQty":"按类型和数量发送资产，而不是序列号",
+      "sendSparePartAvailableFromBin":"从任何可用存储箱发送备件"
     }
   },
   "requisition": {

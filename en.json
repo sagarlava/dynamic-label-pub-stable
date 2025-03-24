@@ -10509,7 +10509,16 @@
       "uploadCopyApproved":"Please upload a copy of Approved Consignment",
       "approvedCannotDelete":"Consignment Note has been approved hence unable to delete",
       "acknowledgeCannotDelete":"Consignment Note has been acknowledged hence unable to delete",
-      "whatWouldYouLikeSend":"What would you like to send?"
+      "whatWouldYouLikeSend":"What would you like to send?",
+      "specificAssets":"Specific Assets",
+      "sendByType":"Send by Type",
+      "sendFromBin":"Send from Bin",
+      "sendAnyAvailable":"Send Any Available",
+      "chooseThisSerialNumber":"Choose this if you know the bin and asset serial numbers.",
+      "selectSparePartFromBin":"Select specific spare parts from a known bin",
+      "defineCustomListOfItems":"Define a custom list of items to send",
+      "sendAssetByTypeQty":"Send assets by type and quantity instead of serial numbers",
+      "sendSparePartAvailableFromBin":"Send spare parts from any available bin"
     }
   },
   "requisition": {

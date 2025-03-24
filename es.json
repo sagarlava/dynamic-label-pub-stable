@@ -10510,7 +10510,16 @@
       "uploadCopyApproved": "Por favor, suba una copia de la Consignación Aprobada",
       "approvedCannotDelete": "La Nota de Consignación ha sido aprobada, por lo tanto, no se puede eliminar",
       "acknowledgeCannotDelete": "La Nota de Consignación ha sido reconocida, por lo tanto, no se puede eliminar",
-      "whatWouldYouLikeSend":"¿Qué le gustaría enviar?"
+      "whatWouldYouLikeSend":"¿Qué le gustaría enviar?",
+      "specificAssets":"Activos específicos",
+      "sendByType":"Enviar por tipo",
+      "sendFromBin":"Enviar desde contenedor",
+      "sendAnyAvailable":"Enviar cualquiera disponible",
+      "chooseThisSerialNumber":"Elija esto si conoce el número de serie del contenedor y del activo.",
+      "selectSparePartFromBin":"Seleccione piezas de repuesto específicas de un contenedor conocido",
+      "defineCustomListOfItems":"Defina una lista personalizada de artículos para enviar",
+      "sendAssetByTypeQty":"Enviar activos por tipo y cantidad en lugar de por números de serie",
+      "sendSparePartAvailableFromBin":"Enviar repuestos desde cualquier contenedor disponible"
     }
   },
   "requisition": {
