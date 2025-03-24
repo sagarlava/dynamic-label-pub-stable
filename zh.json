@@ -10518,6 +10518,9 @@
         "setupVisible": true
       }
     },
+    "validationFE": {
+      "qtyTransferExceedsQtyAvailable":"要转移的数量超过可用数量"
+    },
     "validationBE": {
       "consignmentIdNotFound": "未找到ID",
       "consignmentNotFound": "未找到托运",

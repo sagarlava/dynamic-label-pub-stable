@@ -10518,6 +10518,9 @@
         "setupVisible": true
       }
     },
+    "validationFE": {
+      "qtyTransferExceedsQtyAvailable":"Kuantiti untuk dipindahkan melebihi kuantiti yang tersedia"
+    },
     "validationBE": {
       "consignmentIdNotFound": "ID tidak dijumpai",
       "consignmentNotFound": "Konsainan tidak dijumpai",

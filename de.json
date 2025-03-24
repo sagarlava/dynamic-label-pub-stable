@@ -10518,6 +10518,9 @@
         "setupVisible": true
       }
     },
+    "validationFE": {
+      "qtyTransferExceedsQtyAvailable":"Die zu übertragende Menge übersteigt die verfügbare Menge"
+    },
     "validationBE": {
       "consignmentIdNotFound": "ID nicht gefunden",
       "consignmentNotFound": "Sendung nicht gefunden",
