@@ -10544,7 +10544,10 @@
       "youCanSelectBinInCharge":"You can only select bins that you are in charge of",
       "selectItemsToBeSent":"Select the items to be sent",
       "selectBinSendAssetTo":"Select the bin you would like to send the assets to",
-      "reviewSelectionsMadeBeforeSubmit":"Review the selections that you have made before submitting"
+      "reviewSelectionsMadeBeforeSubmit":"Review the selections that you have made before submitting",
+      "selectBinSendingSparePartFrom":"Select the bin you are sending spare parts from",
+      "enterQtySparePartsRequired":"Enter the quantity of spare parts required",
+      "selectBinSendSparePartsTo":"Select the bin you would like to send the spare parts to"
     }
   },
   "requisition": {

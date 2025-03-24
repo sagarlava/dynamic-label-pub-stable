@@ -10545,7 +10545,10 @@
       "youCanSelectBinInCharge":"Sie können nur Behälter auswählen, für die Sie verantwortlich sind",
       "selectItemsToBeSent":"Wählen Sie die zu sendenden Artikel aus",
       "selectBinSendAssetTo":"Wählen Sie den Behälter aus, in den Sie die Vermögenswerte senden möchten",
-      "reviewSelectionsMadeBeforeSubmit":"Überprüfen Sie die getroffenen Auswahlmöglichkeiten, bevor Sie absenden"
+      "reviewSelectionsMadeBeforeSubmit":"Überprüfen Sie die getroffenen Auswahlmöglichkeiten, bevor Sie absenden",
+      "selectBinSendingSparePartFrom":"Wählen Sie den Behälter aus, aus dem Sie Ersatzteile senden",
+      "enterQtySparePartsRequired":"Geben Sie die benötigte Menge an Ersatzteilen ein",
+      "selectBinSendSparePartsTo":"Wählen Sie den Behälter aus, in den Sie die Ersatzteile senden möchten"
     }
   },
   "requisition": {
