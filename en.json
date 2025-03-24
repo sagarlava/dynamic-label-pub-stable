@@ -1955,7 +1955,7 @@
       "preventativeMaintenanceFrequencyIdExists": "A new Preventive Maintenance Frequency cannot already have an ID",
       "preventativeMaintenanceTemplateIdExists": "A new Preventive Maintenance Template cannot already have an ID",
       "preventativeMaintenanceTemplateHasPreventiveMaintenanceFrequency": "Preventive Maintenance Frequency Data exists in the system for the Preventive Maintenance Template",
-      "preventativeMaintenanceTemplateHasPreventativeMaintenanceFrequency": "Preventative Maintenance Frequency Data exists in the system for the Preventative Maintenance Template"
+      "preventativeMaintenanceTemplateHasPreventativeMaintenanceFrequency": "Preventive Maintenance Frequency Data exists in the system for the Preventive Maintenance Template"
     },
     "tooltips": {
       "setupEdit": false,
