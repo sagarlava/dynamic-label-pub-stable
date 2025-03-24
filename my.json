@@ -10135,7 +10135,8 @@
       "enterSKUHere":"Masukkan SKU di sini. Eg. 128371253ABC",
       "areYouSureInitiateTransfer":"Adakah anda pasti ingin mulakan pemindahan tong ini?",
       "selectedBinNoLongerContains":"Tong yang dipilih tidak lagi mengandungi item berikut",
-      "needTransferItemManually":"Anda perlu memilih dan memindahkan item-item ini secara manual. Item lain yang dipilih akan dipindahkan."
+      "needTransferItemManually":"Anda perlu memilih dan memindahkan item-item ini secara manual. Item lain yang dipilih akan dipindahkan.",
+      "transferCannotContinue":"Pemindahan tidak dapat diteruskan kerana tong yang dipilih tidak lagi mengandungi item berikut"
     }
   },
   "checkAvailibility": {

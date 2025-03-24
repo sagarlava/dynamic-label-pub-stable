@@ -10135,7 +10135,8 @@
     "enterSKUHere":"Geben Sie hier die SKUs ein. Eg. 128371253ABC",
     "areYouSureInitiateTransfer":"Sind Sie sicher, dass Sie diese Behälterübertragung einleiten möchten?",
     "selectedBinNoLongerContains":"Der ausgewählte Behälter enthält die folgenden Artikel nicht mehr",
-    "needTransferItemManually":"Sie müssen diese Artikel manuell auswählen und übertragen. Die anderen ausgewählten Artikel werden übertragen."
+    "needTransferItemManually":"Sie müssen diese Artikel manuell auswählen und übertragen. Die anderen ausgewählten Artikel werden übertragen.",
+    "transferCannotContinue":"Die Übertragung kann nicht fortgesetzt werden, da der ausgewählte Behälter die folgenden Artikel nicht mehr enthält"
   }
 },
   "checkAvailibility": {

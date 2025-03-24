@@ -10135,7 +10135,8 @@
       "enterSKUHere":"在此输入 SKU。 Eg. 128371253ABC",
       "areYouSureInitiateTransfer":"您确定要发起此存储箱转移吗？",
       "selectedBinNoLongerContains":"所选存储箱不再包含以下项目",
-      "needTransferItemManually":"您需要手动选择并转移这些项目。其他选中的项目将被转移。"
+      "needTransferItemManually":"您需要手动选择并转移这些项目。其他选中的项目将被转移。",
+      "transferCannotContinue":"无法继续转移，因为所选存储箱不再包含以下项目"
     }
   },
   "checkAvailibility": {
