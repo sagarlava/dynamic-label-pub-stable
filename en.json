@@ -1941,7 +1941,7 @@
       "preventativeFrequencyDayWithInvalidFrequency": "If the frequency type is DAY, the frequency must be minimum 7 days",
       "preventativeFrequencyHasPreventativeFrequencyPart": "Preventative Frequency Parts Data exists in the system for the Preventative Frequency",
       "preventativeFrequencyHasMaintenanceRecords":"Cannot delete this frequency as it is linked to one or more records",
-      "preventativeMaintenanceFrequencyTemplateIdOrMaintenanceIdNotFound": "Preventative Maintenance Template Id or Maintenance Id not found",
+      "preventativeMaintenanceFrequencyTemplateIdOrMaintenanceIdNotFound": "Preventive Maintenance Template Id or Maintenance Id not found",
       "preventativeMaintenanceFrequencyTemplateNotFound": "Preventative Maintenance Template not found",
       "preventativeMaintenanceFrequencyInvalidType": "Invalid frequency type",
       "preventativeMaintenanceTemplateMaintenanceNotFound": "Maintenance not found",
