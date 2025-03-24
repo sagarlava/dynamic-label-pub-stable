@@ -10978,6 +10978,13 @@
         "plural": "备注",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "requestNote": {
+        "original": "Request Note",
+        "singular": "请求单",
+        "plural": "请求单",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "tooltips": {

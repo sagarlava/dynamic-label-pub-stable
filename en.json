@@ -10978,6 +10978,13 @@
         "plural": "Remarks",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "requestNote": {
+        "original": "Request Note",
+        "singular": "Request Note",
+        "plural": "Request Note",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "tooltips": {

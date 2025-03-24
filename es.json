@@ -10978,6 +10978,13 @@
         "plural": "Observaciones",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "requestNote": {
+        "original": "Request Note",
+        "singular": "Nota de solicitud",
+        "plural": "Notas de solicitud",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "tooltips": {
