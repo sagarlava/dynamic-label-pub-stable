@@ -10985,6 +10985,13 @@
         "plural": "Anforderungsnotizen",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "totalCount": {
+        "original": "Total Count",
+        "singular": "Gesamtanzahl",
+        "plural": "Gesamtanzahlen",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "tooltips": {

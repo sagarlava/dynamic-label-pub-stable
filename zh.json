@@ -10985,6 +10985,13 @@
         "plural": "请求单",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "totalCount": {
+        "original": "Total Count",
+        "singular": "总计数",
+        "plural": "总计数",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "tooltips": {

@@ -10985,6 +10985,13 @@
         "plural": "Nota Permintaan",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "totalCount": {
+        "original": "Total Count",
+        "singular": "Jumlah Kiraan",
+        "plural": "Jumlah Kiraan",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "tooltips": {

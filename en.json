@@ -10982,7 +10982,14 @@
       "requestNote": {
         "original": "Request Note",
         "singular": "Request Note",
-        "plural": "Request Note",
+        "plural": "Request Notes",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "totalCount": {
+        "original": "Total Count",
+        "singular": "Total Count",
+        "plural": "Total Count",
         "setupEdit": false,
         "setupVisible": false
       }

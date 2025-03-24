@@ -10985,6 +10985,13 @@
         "plural": "Notas de solicitud",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "totalCount": {
+        "original": "Total Count",
+        "singular": "Recuento total",
+        "plural": "Recuentos totales",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "tooltips": {
