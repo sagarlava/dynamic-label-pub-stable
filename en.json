@@ -10596,6 +10596,13 @@
         "plural": "Approver",
         "setupEdit": true,
         "setupVisible": true
+      },
+      "responseDateTime": {
+        "original": "Response Date & Time",
+        "singular": "Response Date & Time",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "tooltips": {

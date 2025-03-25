@@ -10596,6 +10596,13 @@
         "plural": "Pemeriksa",
         "setupEdit": true,
         "setupVisible": true
+      },
+      "responseDateTime": {
+        "original": "Response Date & Time",
+        "singular": "Tarikh & Masa Respons",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "tooltips": {

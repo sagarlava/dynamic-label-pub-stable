@@ -10596,6 +10596,13 @@
         "plural": "Genehmiger",
         "setupEdit": true,
         "setupVisible": true
+      },
+      "responseDateTime": {
+        "original": "Response Date & Time",
+        "singular": "Antwortdatum und -uhrzeit",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "tooltips": {

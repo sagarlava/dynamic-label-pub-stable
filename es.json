@@ -10596,6 +10596,13 @@
         "plural": "Aprobadores",
         "setupEdit": true,
         "setupVisible": true
+      },
+      "responseDateTime": {
+        "original": "Response Date & Time",
+        "singular": "Fecha y hora de respuesta",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "tooltips": {
