@@ -10542,7 +10542,8 @@
     "validationFE": {
       "qtyTransferExceedsQtyAvailable":"Kuantiti untuk dipindahkan melebihi kuantiti yang tersedia",
       "atLeastOneAssetRequired":"Sekurang-kurangnya satu aset diperlukan untuk meneruskan",
-      "atLeastOneSparePartRequired":"Sekurang-kurangnya satu alat ganti diperlukan untuk meneruskan"
+      "atLeastOneSparePartRequired":"Sekurang-kurangnya satu alat ganti diperlukan untuk meneruskan",
+      "atLeastOneItemRequired":"Sekurang-kurangnya satu item diperlukan untuk meneruskan"
     },
     "validationBE": {
       "consignmentIdNotFound": "ID tidak dijumpai",
@@ -11115,7 +11116,8 @@
     },
     "validationFE": {
       "atLeastOneAssetRequired":"Sekurang-kurangnya satu aset diperlukan untuk meneruskan",
-      "atLeastOneSparePartRequired":"Sekurang-kurangnya satu alat ganti diperlukan untuk meneruskan"
+      "atLeastOneSparePartRequired":"Sekurang-kurangnya satu alat ganti diperlukan untuk meneruskan",
+      "atLeastOneItemRequired":"Sekurang-kurangnya satu item diperlukan untuk meneruskan"
     },
     "validationBE": {
       "requisitionIdNotFound": "ID tidak dijumpai",

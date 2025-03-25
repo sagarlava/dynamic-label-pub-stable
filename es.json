@@ -10542,7 +10542,8 @@
     "validationFE": {
       "qtyTransferExceedsQtyAvailable":"La cantidad a transferir excede la cantidad disponible",
       "atLeastOneAssetRequired":"Se requiere al menos un activo para continuar",
-      "atLeastOneSparePartRequired":"Se requiere al menos un repuesto para continuar"
+      "atLeastOneSparePartRequired":"Se requiere al menos un repuesto para continuar",
+      "atLeastOneItemRequired":"Se requiere al menos un artículo para continuar"
     },
     "validationBE": {
       "consignmentIdNotFound": "ID no encontrado",
@@ -11115,7 +11116,8 @@
     },
     "validationFE": {
       "atLeastOneAssetRequired":"Se requiere al menos un activo para continuar",
-      "atLeastOneSparePartRequired":"Se requiere al menos un repuesto para continuar"
+      "atLeastOneSparePartRequired":"Se requiere al menos un repuesto para continuar",
+      "atLeastOneItemRequired":"Se requiere al menos un artículo para continuar"
     },
     "validationBE": {
       "requisitionIdNotFound": "ID no encontrado",

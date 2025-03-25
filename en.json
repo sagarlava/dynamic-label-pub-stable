@@ -10542,7 +10542,8 @@
     "validationFE": {
       "qtyTransferExceedsQtyAvailable":"Quantity to transfer exceeds quantity available",
       "atLeastOneAssetRequired":"At least one asset is required to proceed",
-      "atLeastOneSparePartRequired":"At least one spare part is required to proceed"
+      "atLeastOneSparePartRequired":"At least one spare part is required to proceed",
+      "atLeastOneItemRequired":"At least one item is required to proceed"
     },
     "validationBE": {
       "consignmentIdNotFound": "Id not found",
@@ -11115,7 +11116,8 @@
     },
     "validationFE": {
       "atLeastOneAssetRequired":"At least one asset is required to proceed",
-      "atLeastOneSparePartRequired":"At least one spare part is required to proceed"
+      "atLeastOneSparePartRequired":"At least one spare part is required to proceed",
+      "atLeastOneItemRequired":"At least one item is required to proceed"
     },
     "validationBE": {
       "requisitionIdNotFound": "Id not found",
