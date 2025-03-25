@@ -10498,6 +10498,13 @@
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
+      },
+      "totalUnit": {
+        "original": "Total Units",
+        "singular": "Jumlah Unit",
+        "plural": "Jumlah Unit",
+        "setupEdit": true,
+        "setupVisible": true
       }
     },
     "tooltips": {
