@@ -10505,6 +10505,13 @@
         "plural": "Gesamteinheiten",
         "setupEdit": true,
         "setupVisible": true
+      },
+      "transferId": {
+        "original": "Transfer ID",
+        "singular": "Transfer-ID",
+        "plural": "Transfer-IDs",
+        "setupEdit": true,
+        "setupVisible": true
       }
     },
     "tooltips": {
