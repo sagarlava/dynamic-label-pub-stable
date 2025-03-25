@@ -569,414 +569,414 @@
       }
     },
     "fields": {
-        "setupVisible": true,
+      "category":{
+        "original": "Category",
+        "singular": "Category",
+        "plural": "",
         "setupEdit": true,
-        "type": {
-          "original": "Type",
-          "singular": "Type",
-          "plural": "",
-          "setupEdit": true,
-          "setupVisible": true
-        },
-        "equipmentNumber": {
-          "original": "Equipment Number",
-          "singular": "Equipment Number",
-          "plural": "",
-          "setupEdit": true,
-          "setupVisible": true
-        },
-        "code": {
-          "original": "Code",
-          "singular": "Code",
-          "plural": "",
-          "setupEdit": true,
-          "setupVisible": true
-        },
-        "engineNumberOne": {
-          "original": "Engine Number 1",
-          "singular": "Engine Number 1",
-          "plural": "",
-          "setupEdit": true,
-          "setupVisible": true
-        },
-        "engineNumberTwo": {
-          "original": "Engine Number 2",
-          "singular": "Engine Number 2",
-          "plural": "",
-          "setupEdit": true,
-          "setupVisible": true
-        },
-        "extId": {
-          "original": "External ID",
-          "singular": "External ID",
-          "plural": "",
-          "setupEdit": true,
-          "setupVisible": true
-        },
-        "assetName": {
-          "original": "Asset Name",
-          "singular": "Asset Name",
-          "plural": "",
-          "setupEdit": true,
-          "setupVisible": true
-        },
-        "name": {
-          "original": "Name",
-          "singular": "Name",
-          "plural": "",
-          "setupEdit": true,
-          "setupVisible": true
-        },
-        "status": {
-          "original": "Status",
-          "singular": "Status",
-          "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "serialNo": {
-          "original": "Serial No",
-          "singular": "Serial No",
-          "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "serialNumber": {
-          "original": "Serial Number",
-          "singular": "Serial Number",
-          "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "assetCode": {
-          "original": "Asset Code",
-          "singular": "Asset Code",
-          "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "description": {
-          "original": "Description",
-          "singular": "Description",
-          "plural": "",
-          "setupEdit": true,
-          "setupVisible": true
-        },
-        "photo": {
-          "original": "Photo",
-          "singular": "Photo",
-          "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "custodian": {
-          "original": "Custodian",
-          "singular": "Custodian",
-          "plural": "",
-          "setupEdit": true,
-          "setupVisible": true
-        },
-        "warrantyStartDate": {
-          "original": "Warranty Start Date",
-          "singular": "Warranty Start Date",
-          "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "warrantyEndDate": {
-          "original": "Warranty End Date",
-          "singular": "Warranty End Date",
-          "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "acquisitionDate": {
-          "original": "Purchase Date",
-          "singular": "Purchase Date",
-          "plural": "",
-          "setupEdit": true,
-          "setupVisible": true
-        },
-        "equipmentType": {
-          "original": "Equipment Type",
-          "singular": "Equipment Type",
-          "plural": "",
-          "setupEdit": true,
-          "setupVisible": true
-        },
-        "engineMake": {
-          "original": "Engine Make",
-          "singular": "Engine Make",
-          "plural": "",
-          "setupEdit": true,
-          "setupVisible": true
-        },
-        "manufacturer": {
-          "original": "Manufacturer",
-          "singular": "Manufacturer",
-          "plural": "",
-          "setupEdit": true,
-          "setupVisible": true
-        },
-        "engineModel": {
-          "original": "Engine Model",
-          "singular": "Engine Model",
-          "plural": "",
-          "setupEdit": true,
-          "setupVisible": true
-        },
-        "makeModel": {
-          "original": "Make/Model",
-          "singular": "Make/Model",
-          "plural": "",
-          "setupEdit": true,
-          "setupVisible": true
-        },
-        "engineNumber": {
-          "original": "Engine Number",
-          "singular": "Engine Number",
-          "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "manufacturerYear": {
-          "original": "Manufacture Year",
-          "singular": "Manufacture Year",
-          "plural": "",
-          "setupEdit": true,
-          "setupVisible": true
-        },
-        "note": {
-          "original": "Note",
-          "singular": "Note",
-          "plural": "Notes",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "upcoming": {
-          "original": "Upcoming",
-          "singular": "Upcoming",
-          "plural": "Upcoming",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "lastCompleted": {
-          "original": "Last Completed",
-          "singular": "Last Completed",
-          "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "next": {
-          "original": "Next",
-          "singular": "Next",
-          "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "finish": {
-          "original": "Finish",
-          "singular": "Finish",
-          "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "next30Days": {
-          "original": "Next 30 Days",
-          "singular": "Next 30 Days",
-          "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "overdue": {
-          "original": "Overdue",
-          "singular": "Overdue",
-          "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "dueOn": {
-          "original": "Due on",
-          "singular": "Due on",
-          "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "expiresIn": {
-          "original": "Expires in",
-          "singular": "Expires in",
-          "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "latestActiveContract": {
-          "original": "Latest Active Contract",
-          "singular": "Latest Active Contract",
-          "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "updatedBy": {
-          "original": "Updated by",
-          "singular": "Updated by",
-          "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "transferredBy": {
-          "original": "Transferred By",
-          "singular": "Transferred By",
-          "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "assetId": {
-          "original": "Asset ID",
-          "singular": "Asset ID",
-          "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "nextMaintenanceDate": {
-          "original": "Next Maintenance Date",
-          "singular": "Next Maintenance Date",
-          "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "maintenanceStatus": {
-          "original": "Maintenance Status",
-          "singular": "Maintenance Status",
-          "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "nextMaintenanceType": {
-          "original": "Next Maintenance Type",
-          "singular": "Next Maintenance Type",
-          "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "minorMajorServiceFrequency": {
-          "original": "Minor/Major Service Frequency(Months)",
-          "singular": "Minor/Major Service Frequency(Months)",
-          "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "majorServiceFrequency": {
-          "original": "Major Service Frequency(Months)",
-          "singular": "Major Service Frequency(Months)",
-          "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "minorServiceFrequency": {
-          "original": "Minor Service Frequency(Months)",
-          "singular": "Minor Service Frequency(Months)",
-          "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "accessory": {
-          "original": "Accessory",
-          "singular": "Accessory",
-          "plural": "Accessories",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "accessoryNo": {
-          "original": "Accessory No.",
-          "singular": "Accessory No.",
-          "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "currentReading": {
-          "original": "Current Meter Reading",
-          "singular": "Current Meter Reading",
-          "plural": "",
-          "setupEdit": true,
-          "setupVisible": true
-        },
-        "logDateTime": {
-          "original": "Log Date & Time",
-          "singular": "Log Date & Time",
-          "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "modifiedDateTime": {
-          "original": "Modified Date & Time",
-          "singular": "Modified Date & Time",
-          "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "newValue": {
-          "original": "New Value",
-          "singular": "New Value",
-          "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "oldValue": {
-          "original": "Old Value",
-          "singular": "Old Value",
-          "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "newMeterReading": {
-          "original": "New Meter Reading",
-          "singular": "New Meter Reading",
-          "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "allAsset": {
-          "original": "All Assets",
-          "singular": "All Asset",
-          "plural": "All Assets",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "assetsByCustomer": {
-          "original": "Assets by Customer",
-          "singular": "Assets by Customer",
-          "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "day": {
-          "original": "day",
-          "singular": "day",
-          "plural": "days",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "assetNo": {
-          "original": "Asset No.",
-          "singular": "Asset No.",
-          "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "category": {
-            "original": "Category",
-            "singular": "Category",
-            "plural": "",
-            "setupEdit": true,
-            "setupVisible": true
-        },
-        "subCategory": {
-            "original": "Sub Category",
-            "singular": "Sub Category",
-            "plural": "",
-            "setupEdit": true,
-            "setupVisible": true
-        },
+        "setupVisible": true
+      },
+      "subCategory":{
+        "original": "Sub Category",
+        "singular": "Sub Category",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "setupVisible": true,
+      "setupEdit": true,
+      "type": {
+        "original": "Type",
+        "singular": "Type",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "equipmentNumber": {
+        "original": "Equipment Number",
+        "singular": "Equipment Number",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "code": {
+        "original": "Code",
+        "singular": "Code",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "engineNumberOne": {
+        "original": "Engine Number 1",
+        "singular": "Engine Number 1",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "engineNumberTwo": {
+        "original": "Engine Number 2",
+        "singular": "Engine Number 2",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "extId": {
+        "original": "External ID",
+        "singular": "External ID",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "assetName": {
+        "original": "Asset Name",
+        "singular": "Asset Name",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "name": {
+        "original": "Name",
+        "singular": "Name",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "status": {
+        "original": "Status",
+        "singular": "Status",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "serialNo": {
+        "original": "Serial No",
+        "singular": "Serial No",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "serialNumber": {
+        "original": "Serial Number",
+        "singular": "Serial Number",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "assetCode": {
+        "original": "Asset Code",
+        "singular": "Asset Code",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "description": {
+        "original": "Description",
+        "singular": "Description",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "photo": {
+        "original": "Photo",
+        "singular": "Photo",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "custodian": {
+        "original": "Custodian",
+        "singular": "Custodian",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "warrantyStartDate": {
+        "original": "Warranty Start Date",
+        "singular": "Warranty Start Date",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "warrantyEndDate": {
+        "original": "Warranty End Date",
+        "singular": "Warranty End Date",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "acquisitionDate": {
+        "original": "Purchase Date",
+        "singular": "Purchase Date",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "equipmentType": {
+        "original": "Equipment Type",
+        "singular": "Equipment Type",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "engineMake": {
+        "original": "Engine Make",
+        "singular": "Engine Make",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "manufacturer": {
+        "original": "Manufacturer",
+        "singular": "Manufacturer",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "engineModel": {
+        "original": "Engine Model",
+        "singular": "Engine Model",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "makeModel": {
+        "original": "Make/Model",
+        "singular": "Make/Model",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "engineNumber": {
+        "original": "Engine Number",
+        "singular": "Engine Number",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "manufacturerYear": {
+        "original": "Manufacture Year",
+        "singular": "Manufacture Year",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "note": {
+        "original": "Note",
+        "singular": "Note",
+        "plural": "Notes",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "upcoming": {
+        "original": "Upcoming",
+        "singular": "Upcoming",
+        "plural": "Upcoming",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "lastCompleted": {
+        "original": "Last Completed",
+        "singular": "Last Completed",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "next": {
+        "original": "Next",
+        "singular": "Next",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "finish": {
+        "original": "Finish",
+        "singular": "Finish",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "next30Days": {
+        "original": "Next 30 Days",
+        "singular": "Next 30 Days",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "overdue": {
+        "original": "Overdue",
+        "singular": "Overdue",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "dueOn": {
+        "original": "Due on",
+        "singular": "Due on",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "expiresIn": {
+        "original": "Expires in",
+        "singular": "Expires in",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "latestActiveContract": {
+        "original": "Latest Active Contract",
+        "singular": "Latest Active Contract",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "updatedBy": {
+        "original": "Updated by",
+        "singular": "Updated by",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "transferredBy": {
+        "original": "Transferred By",
+        "singular": "Transferred By",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "assetId": {
+        "original": "Asset ID",
+        "singular": "Asset ID",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "nextMaintenanceDate": {
+        "original": "Next Maintenance Date",
+        "singular": "Next Maintenance Date",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "maintenanceStatus": {
+        "original": "Maintenance Status",
+        "singular": "Maintenance Status",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "nextMaintenanceType": {
+        "original": "Next Maintenance Type",
+        "singular": "Next Maintenance Type",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "minorMajorServiceFrequency": {
+        "original": "Minor/Major Service Frequency(Months)",
+        "singular": "Minor/Major Service Frequency(Months)",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "majorServiceFrequency": {
+        "original": "Major Service Frequency(Months)",
+        "singular": "Major Service Frequency(Months)",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "minorServiceFrequency": {
+        "original": "Minor Service Frequency(Months)",
+        "singular": "Minor Service Frequency(Months)",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "accessory": {
+        "original": "Accessory",
+        "singular": "Accessory",
+        "plural": "Accessories",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "accessoryNo": {
+        "original": "Accessory No.",
+        "singular": "Accessory No.",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "currentReading": {
+        "original": "Current Meter Reading",
+        "singular": "Current Meter Reading",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "logDateTime": {
+        "original": "Log Date & Time",
+        "singular": "Log Date & Time",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "modifiedDateTime": {
+        "original": "Modified Date & Time",
+        "singular": "Modified Date & Time",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "newValue": {
+        "original": "New Value",
+        "singular": "New Value",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "oldValue": {
+        "original": "Old Value",
+        "singular": "Old Value",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "newMeterReading": {
+        "original": "New Meter Reading",
+        "singular": "New Meter Reading",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "allAsset": {
+        "original": "All Assets",
+        "singular": "All Asset",
+        "plural": "All Assets",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "assetsByCustomer": {
+        "original": "Assets by Customer",
+        "singular": "Assets by Customer",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "day": {
+        "original": "day",
+        "singular": "day",
+        "plural": "days",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "assetNo": {
+        "original": "Asset No.",
+        "singular": "Asset No.",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
       "allAssets": {
         "original": "All Assets",
         "singular": "All Asset",
@@ -1023,6 +1023,20 @@
         "original": "Classification",
         "singular": "Classification",
         "plural": "Classification",
+        "setupEdit": false,
+        "setupVisible": false
+      }, 
+      "offlineSince": {
+        "original": "Offline Since",
+        "singular": "Offline Since",
+        "plural": "Offline Since",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "model": {
+        "original": "Model",
+        "singular": "Model",
+        "plural": "Model",
         "setupEdit": false,
         "setupVisible": false
       }
@@ -1269,10 +1283,45 @@
         "setupEdit": false,
         "setupVisible": false
       },
+      "parentUpdate": {
+        "original": "Parent Update",
+        "singular": "Parent Update",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "parentChange": {
+        "original": "Parent Change",
+        "singular": "Parent Change",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "parentRemove": {
+        "original": "Parent Remove",
+        "singular": "Parent Remove",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
       "pendingTransfer": {
         "original": "Show only Assets with a pending transfer",
         "singular": "Show only Assets with a pending transfer",
         "plural": "Show only Assets with a pending transfer",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "transferRequestApproval": {
+        "original": "A transfer request is pending approval for this asset. The location will be updated to",
+        "singular": "A transfer request is pending approval for this asset. The location will be updated to",
+        "plural": "A transfer request is pending approval for this asset. The location will be updated to",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "uponArrival": {
+        "original": "upon arrival.",
+        "singular": "upon arrival.",
+        "plural": "upon arrival.",
         "setupEdit": false,
         "setupVisible": false
       }
@@ -1291,7 +1340,8 @@
       "from":"From",
       "warrantyStartDate":"Warranty start date should not be greater than warranty end date",
       "errorFetchingAllAssets": "Error fetching all assets",
-      "errorOccuredWhileFetchingAccessories": "Error occured while fetching accessories"
+      "errorOccuredWhileFetchingAccessories": "Error occured while fetching accessories",
+      "showUpdatesRelated":"Show Updates Related To:"
     }
   },
   "analytic": {
@@ -3429,6 +3479,13 @@
         "original": "Family",
         "singular": "Family",
         "plural": "Families",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "model": {
+        "original": "Model",
+        "singular": "Model",
+        "plural": "Model",
         "setupEdit": false,
         "setupVisible": false
       }
@@ -9742,6 +9799,20 @@
         "plural": "Adjust Spare Parts",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "sec20": {
+        "original": "Initiate Bin Transfer Confirmation",
+        "singular": "Initiate Bin Transfer Confirmation",
+        "plural": "Initiate Bin Transfer Confirmation",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec21": {
+        "original": "Missing Items Detected",
+        "singular": "Missing Items Detected",
+        "plural": "Missing Items Detected",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "fields": {
@@ -10065,8 +10136,12 @@
       "selectBinToTransferSpareParts":"Select the bin you want to transfer the spare parts to",
       "specifySparePartQuantity":"You may specify spare part quantity in the next step",
       "addQuantitiesTransferred":"Add the quantities to be transferred to",
-      "enterSerialNumberHere":"Enter serial numbers here.",
-      "enterSKUHere":"Enter SKUs here."
+      "enterSerialNumberHere":"Enter serial numbers here. Eg. 128371253ABC",
+      "enterSKUHere":"Enter SKUs here. Eg. 128371253ABC",
+      "areYouSureInitiateTransfer":"Are you sure you want to initiate this bin transfer?",
+      "selectedBinNoLongerContains":"The selected bin no longer contains the following items",
+      "needTransferItemManually":"You will need to select and transfer these items manually. The other selected items will be transferred.",
+      "transferCannotContinue":"The transfer cannot continue since the selected bin no longer contains the following items"
     }
   },
   "checkAvailibility": {
@@ -10162,6 +10237,7 @@
   },
   "consignment": {
     "setupVisible": false,
+    "setupEdit": false,
     "label": {
       "original": "Consignment",
       "singular": "Consignment",
@@ -10170,7 +10246,8 @@
       "setupVisible": true
     },
     "sections": {
-      "setupVisible": true,
+      "setupVisible": false,
+      "setupEdit": false,
       "sec0": {
         "original": "Pending Approvals",
         "singular": "Pending Approval",
@@ -10219,10 +10296,95 @@
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
+      },
+      "sec7": {
+        "original": "New Consignment Note",
+        "singular": "New Consignment Note",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "sec8": {
+        "original": "Consignment Details",
+        "singular": "Consignment Details",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "sec9": {
+        "original": "Destination",
+        "singular": "Destination",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "sec10": {
+        "original": "Review",
+        "singular": "Review",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "sec11": {
+        "original": "Consignment Summary",
+        "singular": "Consignment Summary",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "sec12": {
+        "original": "Requestor’s Manager Approval",
+        "singular": "Requestor’s Manager Approval",
+        "plural": "Requestor’s Manager Approval",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "sec13": {
+        "original": "Receiver Approval 1",
+        "singular": "Receiver Approval 1",
+        "plural": "Receiver Approval 1",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "sec14": {
+        "original": "Receiver Approval 2",
+        "singular": "Receiver Approval 2",
+        "plural": "Receiver Approval 2",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "sec15": {
+        "original": "Request Details",
+        "singular": "Request Details",
+        "plural": "Request Details",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "sec16": {
+        "original": "Transfer Details",
+        "singular": "Transfer Details",
+        "plural": "Transfer Details",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "sec17": {
+        "original": "Approver Details",
+        "singular": "Approver Details",
+        "plural": "Approver Details",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "sec18": {
+        "original": "Request Summary",
+        "singular": "Request Summary",
+        "plural": "Request Summary",
+        "setupEdit": true,
+        "setupVisible": true
       }
     },
     "fields": {
-      "setupVisible": true,
+      "setupVisible": false,
+      "setupEdit": false,
       "purpose": {
         "original": "Purpose",
         "singular": "Purpose",
@@ -10390,10 +10552,123 @@
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
+      },
+      "totalUnit": {
+        "original": "Total Units",
+        "singular": "Total Unit",
+        "plural": "Total Units",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "transferId": {
+        "original": "Transfer ID",
+        "singular": "Transfer ID",
+        "plural": "Transfer ID",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "note": {
+        "original": "Note",
+        "singular": "Note",
+        "plural": "Notes",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "approvalStatus": {
+        "original": "Approval Status",
+        "singular": "Approval Status",
+        "plural": "Approval Status",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "consignedDate": {
+        "original": "Consigned Date",
+        "singular": "Consigned Date",
+        "plural": "Consigned Date",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "approvedDateTime": {
+        "original": "Approved Date & Time",
+        "singular": "Approved Date & Time",
+        "plural": "Approved Date & Time",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "consignedBy": {
+        "original": "Consigned By",
+        "singular": "Consigned By",
+        "plural": "Consigned By",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "approver": {
+        "original": "Approver",
+        "singular": "Approver",
+        "plural": "Approver",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "responseDateTime": {
+        "original": "Response Date & Time",
+        "singular": "Response Date & Time",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "requestNote": {
+        "original": "Request Note",
+        "singular": "Request Note",
+        "plural": "Request Notes",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "totalCount": {
+        "original": "Total Count",
+        "singular": "Total Count",
+        "plural": "Total Count",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "qtyToTransfer": {
+        "original": "Qty to Transfer",
+        "singular": "Qty to Transfer",
+        "plural": "Qty to Transfer",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "from": {
+        "original": "From",
+        "singular": "From",
+        "plural": "From",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "fromBin": {
+        "original": "From Bin",
+        "singular": "From Bin",
+        "plural": "From Bin",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "toBin": {
+        "original": "To Bin",
+        "singular": "To Bin",
+        "plural": "To Bin",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "consignmentNote": {
+        "original": "Consignment Note",
+        "singular": "Consignment Note",
+        "plural": "Consignment Note",
+        "setupEdit": true,
+        "setupVisible": true
       }
     },
     "tooltips": {
-      "setupVisible": true,
+      "setupVisible": false,
+      "setupEdit": false,
       "assetSerialNoLookup": {
         "original": "Asset Serial No. Lookup",
         "singular": "Asset Serial No. Lookup",
@@ -10408,6 +10683,12 @@
         "setupEdit": true,
         "setupVisible": true
       }
+    },
+    "validationFE": {
+      "qtyTransferExceedsQtyAvailable":"Quantity to transfer exceeds quantity available",
+      "atLeastOneAssetRequired":"At least one asset is required to proceed",
+      "atLeastOneSparePartRequired":"At least one spare part is required to proceed",
+      "atLeastOneItemRequired":"At least one item is required to proceed"
     },
     "validationBE": {
       "consignmentIdNotFound": "Id not found",
@@ -10428,11 +10709,43 @@
       "selectCompany": "Select Company",
       "uploadCopyApproved":"Please upload a copy of Approved Consignment",
       "approvedCannotDelete":"Consignment Note has been approved hence unable to delete",
-      "acknowledgeCannotDelete":"Consignment Note has been acknowledged hence unable to delete"
+      "acknowledgeCannotDelete":"Consignment Note has been acknowledged hence unable to delete",
+      "whatWouldYouLikeSend":"What would you like to send?",
+      "specificAssets":"Specific Assets",
+      "sendByType":"Send by Type",
+      "sendFromBin":"Send from Bin",
+      "sendAnyAvailable":"Send Any Available",
+      "chooseThisSerialNumber":"Choose this if you know the bin and asset serial numbers.",
+      "selectSparePartFromBin":"Select specific spare parts from a known bin",
+      "defineCustomListOfItems":"Define a custom list of items to send",
+      "sendAssetByTypeQty":"Send assets by type and quantity instead of serial numbers",
+      "sendSparePartAvailableFromBin":"Send spare parts from any available bin",
+      "selectBinSendingAssetFrom":"Select the bin you are sending assets from",
+      "youCanSelectBinInCharge":"You can only select bins that you are in charge of",
+      "selectItemsToBeSent":"Select the items to be sent",
+      "selectBinSendAssetTo":"Select the bin you would like to send the assets to",
+      "reviewSelectionsMadeBeforeSubmit":"Review the selections that you have made before submitting",
+      "reviewSelectionsMade":"Review the selections that you have made before submitting your request.",
+      "selectBinSendingSparePartFrom":"Select the bin you are sending spare parts from",
+      "enterQtySparePartsRequired":"Enter the quantity of spare parts required",
+      "selectBinSendSparePartsTo":"Select the bin you would like to send the spare parts to",
+      "selectBinConsignItemFrom":"Select the bin you are consigning items from",
+      "selectBinSendItemsTo":"Select the bin you would like to send the items to",
+      "hasCreatedConsignmentNote":"has created a Consignment Note",
+      "andIsWaitingApproval":"and is awaiting your approval",
+      "from":"from",
+      "hasApprovedConsignmentNote":"has Approved your Consignment Note",
+      "hasRejectedConsignmentNote":"has Rejected your Consignment Note",
+      "hasBeenApprovedRequisitionNote":"has been Approved. You can now proceed to transfer the selected items.",
+      "has":"has",
+      "hasBeen":"has been",
+      "yourRequisitionNote":"your Consignment Note",
+      "youCanProceedToTransfer":"You can now proceed to transfer the selected items."
     }
   },
   "requisition": {
     "setupVisible": false,
+    "setupEdit": false,
     "label": {
       "original": "Requisition",
       "singular": "Requisition",
@@ -10441,7 +10754,8 @@
       "setupVisible": true
     },
     "sections": {
-      "setupVisible": true,
+      "setupVisible": false,
+      "setupEdit": false,
       "sec0": {
         "original": "Pending Approvals",
         "singular": "Pending Approval",
@@ -10511,10 +10825,102 @@
         "plural": "Verification",
         "setupEdit": true,
         "setupVisible": true
+      },
+      "sec10": {
+        "original": "New Requisition Note",
+        "singular": "New Requisition Note",
+        "plural": "New Requisition Note",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "sec11": {
+        "original": "Custom",
+        "singular": "Custom",
+        "plural": "Custom",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "sec12": {
+        "original": "Request Details",
+        "singular": "Request Details",
+        "plural": "Request Details",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "sec13": {
+        "original": "Destination",
+        "singular": "Destination",
+        "plural": "Destination",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "sec14": {
+        "original": "Review",
+        "singular": "Review",
+        "plural": "Review",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "sec15": {
+        "original": "Request Summary",
+        "singular": "Request Summary",
+        "plural": "Request Summary",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "sec16": {
+        "original": "Transfer Details",
+        "singular": "Transfer Details",
+        "plural": "Transfer Details",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "sec17": {
+        "original": "Approval Details",
+        "singular": "Approval Details",
+        "plural": "Approval Details",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "sec18": {
+        "original": "Requestor’s Manager Approval",
+        "singular": "Requestor’s Manager Approval",
+        "plural": "Requestor’s Manager Approval",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "sec19": {
+        "original": "Receiver Approval 1",
+        "singular": "Receiver Approval 1",
+        "plural": "Receiver Approval 1",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "sec20": {
+        "original": "Receiver Approval 2",
+        "singular": "Receiver Approval 2",
+        "plural": "Receiver Approval 2",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "sec21": {
+        "original": "All Requisitions",
+        "singular": "All Requisitions",
+        "plural": "All Requisitions",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "sec22": {
+        "original": "Pending My Approval",
+        "singular": "Pending My Approval",
+        "plural": "Pending My Approval",
+        "setupEdit": true,
+        "setupVisible": true
       }
     },
     "fields": {
-      "setupVisible": true,
+      "setupVisible": false,
+      "setupEdit": false,
       "priority": {
         "original": "Priority",
         "singular": "Priority",
@@ -10738,10 +11144,116 @@
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
+      },
+      "totalUnit": {
+        "original": "Total Units",
+        "singular": "Total Unit",
+        "plural": "Total Units",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "qtyToTransfer": {
+        "original": "Qty to Transfer",
+        "singular": "Qty to Transfer",
+        "plural": "Qty to Transfer",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "approvalStatus": {
+        "original": "Approval Status",
+        "singular": "Approval Status",
+        "plural": "Approval Status",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "requestDate": {
+        "original": "Request Date",
+        "singular": "Request Date",
+        "plural": "Request Date",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "approvedDateTime": {
+        "original": "Approved Date & Time",
+        "singular": "Approved Date & Time",
+        "plural": "Approved Date & Time",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "requestedBy": {
+        "original": "Requested By",
+        "singular": "Requested By",
+        "plural": "Requested By",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "note": {
+        "original": "Note",
+        "singular": "Note",
+        "plural": "Notes",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "transferId": {
+        "original": "Transfer ID",
+        "singular": "Transfer ID",
+        "plural": "Transfer ID",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "fromBin": {
+        "original": "From Bin",
+        "singular": "From Bin",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "toBin": {
+        "original": "To Bin",
+        "singular": "To Bin",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "approver": {
+        "original": "Approver",
+        "singular": "Approver",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "responseDateTime": {
+        "original": "Response Date & Time",
+        "singular": "Response Date & Time",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "remark": {
+        "original": "Remarks",
+        "singular": "Remark",
+        "plural": "Remarks",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "requestNote": {
+        "original": "Request Note",
+        "singular": "Request Note",
+        "plural": "Request Notes",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "totalCount": {
+        "original": "Total Count",
+        "singular": "Total Count",
+        "plural": "Total Count",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "tooltips": {
-      "setupVisible": true,
+      "setupVisible": false,
+      "setupEdit": false,
       "assetSerialNoLookup": {
         "original": "Asset Serial No. Lookup",
         "singular": "Asset Serial No. Lookup",
@@ -10756,6 +11268,11 @@
         "setupEdit": true,
         "setupVisible": true
       }
+    },
+    "validationFE": {
+      "atLeastOneAssetRequired":"At least one asset is required to proceed",
+      "atLeastOneSparePartRequired":"At least one spare part is required to proceed",
+      "atLeastOneItemRequired":"At least one item is required to proceed"
     },
     "validationBE": {
       "requisitionIdNotFound": "Id not found",
@@ -10786,7 +11303,42 @@
       "uploadCopyApproved":"Please upload a copy of Approved Requisition",
       "requisitionAcceptedSuccessfully": "Requisition accepted successfully",
       "requisitionRejectedSuccessfully": "Requisition rejected successfully",
-      "requisitionSubmittedSuccessfully": "Requisition submitted successfully"
+      "requisitionSubmittedSuccessfully": "Requisition submitted successfully",
+      "whatWouldYouLikeRequest":"What would you like to do request?",
+      "defineCustomListOfItems":"Define a custom list of items to request",
+      "specificAssets":"Specific Assets",
+      "assetsByType":"Assets by Type",
+      "requestFromBin":"Request from Bin",
+      "requestAnyAvailable":"Request Any Available",
+      "chooseThisSerialNumber":"Choose this if you know the bin and asset serial numbers.",
+      "requestAssetByTypeQty":"Request assets by type and quantity instead of serial numbers",
+      "selectSparePartFromBin":"Select specific spare parts from a known bin",
+      "requestSparePartFromBin":"Request spare parts from any available bin",
+      "selectBinRequestAssetFrom":"Select the bin you are requesting assets from",
+      "unsureOfAssetLocation":"Unsure of asset locations?",
+      "notSureBinAvailableAsset":"Not sure which bin the assets are available in?",
+      "selectItemsRequested":"Select the items to be requested",
+      "selectBinToTransferAssetTo":"Select the bin you would like to transfer the assets to",
+      "youCanSelectBinInCharge":"You can only select bins that you are in charge of",
+      "reviewSelectionsMade":"Review the selections that you have made before submitting your request.",
+      "selectBinRequestSparePartFrom":"Select the bin you are requesting spare parts from",
+      "unsureOfSparePartAvailability":"Unsure of spare part availability?",
+      "notSureBinAvailableSpareParts":"Not sure which bin the spare parts are available in?",
+      "enterQtySparePartsRequired":"Enter the quantity of spare parts required",
+      "selectBinToTransferSparePartTo":"Select the bin you would like to transfer the spare parts to",
+      "unsureItemsRequestStored":"If you're unsure where the items you are requesting are stored, select a bin managed by a team that can locate and fulfill your request",
+      "selectBinRequestFrom":"Select the bin you are requesting items from",
+      "selectBinToTransferTo":"Select the bin you would like to transfer the items to",
+      "hasRejectedRequisitionNote":"has Rejected your Requisition Note",
+      "hasApprovedRequisitionNote":"has Approved your Requisition Note",
+      "hasBeenApprovedRequisitionNote":"has been Approved. You can now proceed to transfer the selected items.",
+      "has":"has",
+      "hasBeen":"has been",
+      "yourRequisitionNote":"your Requisition Note",
+      "youCanProceedToTransfer":"You can now proceed to transfer the selected items.",
+      "hasCreatedRequisitionNote":"has created a Requisition Note",
+      "andIsWaitingApproval":"and is awaiting your approval",
+      "from":"from"
     }
   },
   "contacts": {
@@ -12826,6 +13378,27 @@
         "plural": "Paste SKU",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "generateTemporarySerialNo":{
+        "original": "Generate Temporary Serial No",
+        "singular": "Generate Temporary Serial No",
+        "plural": "Generate Temporary Serial No",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "initiateBinTransfer":{
+        "original": "Initiate Bin Transfer",
+        "singular": "Initiate Bin Transfer",
+        "plural": "Initiate Bin Transfer",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "manualBinTransfer":{
+        "original": "Manual Bin Transfer",
+        "singular": "Manual Bin Transfer",
+        "plural": "Manual Bin Transfer",
+        "setupEdit": false,
+        "setupVisible": false
       }	
     },
     "status": {
@@ -13271,6 +13844,20 @@
         "setupEdit": false,
         "setupVisible": false
       },
+      "transferPending": {
+        "original": "Transfer Pending",
+        "singular": "Transfer Pending",
+        "plural": "Transfer Pending",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "transferFulfilled": {
+        "original": "Transfer Fulfilled",
+        "singular": "Transfer Fulfilled",
+        "plural": "Transfer Fulfilled",
+        "setupEdit": false,
+        "setupVisible": false
+      },
       "messages":{
         "forIncompleteChecklists": "For incomplete checklists to be updated in the future. No Jobs or Tasks will be triggered using this status",
         "thisStatusWillTriggerAnyJobOrders": "This status will trigger any Job Orders and Tasks related to this checklist's answers",
@@ -13449,7 +14036,15 @@
       "errorOccuredWhileSigning":"An error occured while signing",
       "noDocumentIsGenerated":"No document is generated since partial data is filled.",
       "pullToRefreshToSeeTheCompletion":"Pull to refresh to see the completion",
-      "phoneNumberNotAvailable":"Phone number not available"
+      "phoneNumberNotAvailable":"Phone number not available",
+      "approvalConfirmation":"Approval Confirmation",
+      "approval":"Approval",
+      "areYouSureApprove":"Are you sure you want to approve",
+      "approvedSuccessfully":"Approved successfully",     
+      "rejectionConfirmation":"Rejection Confirmation",
+      "rejection":"Rejection",
+      "areYouSureReject":"Are you sure you want to reject",
+      "editedSuccessfully":"Edited successfully"
     },
     "currency":{
       "australianDollar": "AUD",

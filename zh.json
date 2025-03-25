@@ -564,8 +564,8 @@
         "original": "Location Details",
         "singular": "位置详情",
         "plural": "",
-        "setupEdit": false,
-        "setupVisible": false
+        "setupEdit": true,
+        "setupVisible": true
       }
     },
     "fields": {
@@ -1025,6 +1025,20 @@
         "plural": "分类",
         "setupEdit": false,
         "setupVisible": false
+      }, 
+      "offlineSince": {
+        "original": "Offline Since",
+        "singular": "离线时间",
+        "plural": "离线时间",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "model": {
+        "original": "Model",
+        "singular": "型号",
+        "plural": "型号",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "validationFE": {
@@ -1269,10 +1283,45 @@
         "setupEdit": false,
         "setupVisible": false
       },
+      "parentUpdate": {
+        "original": "Parent Update",
+        "singular": "父级更新",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "parentChange": {
+        "original": "Parent Change",
+        "singular": "父级更改",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "parentRemove": {
+        "original": "Parent Remove",
+        "singular": "父级移除",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
       "pendingTransfer": {
         "original": "Show only Assets with a pending transfer",
         "singular": "仅显示具有待处理转移的资产",
         "plural": "仅显示具有待处理转移的资产",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "transferRequestApproval": {
+        "original": "A transfer request is pending approval for this asset. The location will be updated to",
+        "singular": "此资产的转移请求正在等待批准。位置将更新为",
+        "plural": "此资产的转移请求正在等待批准。位置将更新为",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "uponArrival": {
+        "original": "upon arrival.",
+        "singular": "到达时。",
+        "plural": "到达时。",
         "setupEdit": false,
         "setupVisible": false
       }
@@ -1291,7 +1340,8 @@
       "from": "从",
       "warrantyStartDate": "保修开始日期不应晚于保修结束日期",
       "errorFetchingAllAssets": "获取所有资产时出错",
-      "errorOccuredWhileFetchingAccessories": "获取配件时发生错误"
+      "errorOccuredWhileFetchingAccessories": "获取配件时发生错误",
+      "showUpdatesRelated":"显示相关更新:"
     }
   },
   "analytic": {
@@ -3429,6 +3479,13 @@
         "original": "Family",
         "singular": "家庭",
         "plural": "家庭",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "model": {
+        "original": "Model",
+        "singular": "型号",
+        "plural": "型号",
         "setupEdit": false,
         "setupVisible": false
       }
@@ -9742,6 +9799,20 @@
         "plural": "调整备件",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "sec20": {
+        "original": "Initiate Bin Transfer Confirmation",
+        "singular": "发起存储箱转移确认",
+        "plural": "发起存储箱转移确认",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec21": {
+        "original": "Missing Items Detected",
+        "singular": "检测到缺失项目",
+        "plural": "检测到缺失项目",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "fields": {
@@ -10065,8 +10136,12 @@
       "selectBinToTransferSpareParts":"选择要将备件转移到的存储箱",
       "specifySparePartQuantity":"您可以在下一步指定备件数量",
       "addQuantitiesTransferred":"添加要转移的数量",
-      "enterSerialNumberHere":"在此输入序列号。",
-      "enterSKUHere":"在此输入 SKU。"
+      "enterSerialNumberHere":"在此输入序列号。 Eg. 128371253ABC",
+      "enterSKUHere":"在此输入 SKU。 Eg. 128371253ABC",
+      "areYouSureInitiateTransfer":"您确定要发起此存储箱转移吗？",
+      "selectedBinNoLongerContains":"所选存储箱不再包含以下项目",
+      "needTransferItemManually":"您需要手动选择并转移这些项目。其他选中的项目将被转移。",
+      "transferCannotContinue":"无法继续转移，因为所选存储箱不再包含以下项目"
     }
   },
   "checkAvailibility": {
@@ -10162,6 +10237,7 @@
   },
   "consignment": {
     "setupVisible": false,
+    "setupEdit": false,
     "label": {
       "original": "Consignment",
       "singular": "寄售",
@@ -10170,7 +10246,8 @@
       "setupVisible": true
     },
     "sections": {
-      "setupVisible": true,
+      "setupVisible": false,
+      "setupEdit": false,
       "sec0": {
         "original": "Pending Approvals",
         "singular": "待审批",
@@ -10219,10 +10296,95 @@
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
+      },
+      "sec7": {
+        "original": "New Consignment Note",
+        "singular": "新托运单",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "sec8": {
+        "original": "Consignment Details",
+        "singular": "托运详情",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "sec9": {
+        "original": "Destination",
+        "singular": "目的地",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "sec10": {
+        "original": "Review",
+        "singular": "审核",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "sec11": {
+        "original": "Consignment Summary",
+        "singular": "托运摘要",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "sec12": {
+        "original": "Requestor’s Manager Approval",
+        "singular": "请求者主管审批",
+        "plural": "请求者主管审批",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "sec13": {
+        "original": "Receiver Approval 1",
+        "singular": "接收者审批 1",
+        "plural": "接收者审批 1",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "sec14": {
+        "original": "Receiver Approval 2",
+        "singular": "接收者审批 2",
+        "plural": "接收者审批 2",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "sec15": {
+        "original": "Request Details",
+        "singular": "请求详情",
+        "plural": "请求详情",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "sec16": {
+        "original": "Transfer Details",
+        "singular": "转移详情",
+        "plural": "转移详情",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "sec17": {
+        "original": "Approver Details",
+        "singular": "审批人详情",
+        "plural": "审批人详情",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "sec18": {
+        "original": "Request Summary",
+        "singular": "请求摘要",
+        "plural": "请求摘要",
+        "setupEdit": true,
+        "setupVisible": true
       }
     },
     "fields": {
-      "setupVisible": true,
+      "setupVisible": false,
+      "setupEdit": false,
       "purpose": {
         "original": "Purpose",
         "singular": "目的",
@@ -10390,10 +10552,123 @@
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
+      },
+      "totalUnit": {
+        "original": "Total Units",
+        "singular": "总单位",
+        "plural": "总单位",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "transferId": {
+        "original": "Transfer ID",
+        "singular": "转移编号",
+        "plural": "转移编号",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "note": {
+        "original": "Note",
+        "singular": "备注",
+        "plural": "备注",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "approvalStatus": {
+        "original": "Approval Status",
+        "singular": "审批状态",
+        "plural": "审批状态",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "consignedDate": {
+        "original": "Consigned Date",
+        "singular": "托运日期",
+        "plural": "托运日期",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "approvedDateTime": {
+        "original": "Approved Date & Time",
+        "singular": "批准日期和时间",
+        "plural": "批准日期和时间",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "consignedBy": {
+        "original": "Consigned By",
+        "singular": "托运人",
+        "plural": "托运人",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "approver": {
+        "original": "Approver",
+        "singular": "审批人",
+        "plural": "审批人",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "responseDateTime": {
+        "original": "Response Date & Time",
+        "singular": "响应日期和时间",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "requestNote": {
+        "original": "Request Note",
+        "singular": "请求单",
+        "plural": "请求单",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "totalCount": {
+        "original": "Total Count",
+        "singular": "总计数",
+        "plural": "总计数",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "qtyToTransfer": {
+        "original": "Qty to Transfer",
+        "singular": "要转移的数量",
+        "plural": "要转移的数量",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "from": {
+        "original": "From",
+        "singular": "来自",
+        "plural": "来自",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "fromBin": {
+        "original": "From Bin",
+        "singular": "从存储箱",
+        "plural": "从存储箱",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "toBin": {
+        "original": "To Bin",
+        "singular": "到存储箱",
+        "plural": "到存储箱",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "consignmentNote": {
+        "original": "Consignment Note",
+        "singular": "托运单",
+        "plural": "托运单",
+        "setupEdit": true,
+        "setupVisible": true
       }
     },
     "tooltips": {
-      "setupVisible": true,
+      "setupVisible": false,
+      "setupEdit": false,
       "assetSerialNoLookup": {
         "original": "Asset Serial No. Lookup",
         "singular": "资产序列号查询",
@@ -10408,6 +10683,12 @@
         "setupEdit": true,
         "setupVisible": true
       }
+    },
+    "validationFE": {
+      "qtyTransferExceedsQtyAvailable":"要转移的数量超过可用数量",
+      "atLeastOneAssetRequired":"至少需要一个资产才能继续",
+      "atLeastOneSparePartRequired":"至少需要一个备件才能继续",
+      "atLeastOneItemRequired":"至少需要一个项目才能继续"
     },
     "validationBE": {
       "consignmentIdNotFound": "未找到ID",
@@ -10428,11 +10709,43 @@
       "selectCompany": "选择公司",
       "uploadCopyApproved": "请上传批准的托运副本",
       "approvedCannotDelete": "托运单已批准，因此无法删除",
-      "acknowledgeCannotDelete": "托运单已被确认，无法删除"
+      "acknowledgeCannotDelete": "托运单已被确认，无法删除",
+      "whatWouldYouLikeSend":"您想发送什么？",
+      "specificAssets":"特定资产",
+      "sendByType":"按类型发送",
+      "sendFromBin":"从存储箱发送",
+      "sendAnyAvailable":"发送任何可用的",
+      "chooseThisSerialNumber":"如果您知道存储箱和资产的序列号，请选择此项。",
+      "selectSparePartFromBin":"从已知存储箱中选择特定备件",
+      "defineCustomListOfItems":"定义要发送的自定义项目列表",
+      "sendAssetByTypeQty":"按类型和数量发送资产，而不是序列号",
+      "sendSparePartAvailableFromBin":"从任何可用存储箱发送备件",
+      "selectBinSendingAssetFrom":"选择您要从中发送资产的存储箱",
+      "youCanSelectBinInCharge":"您只能选择您负责的存储箱",
+      "selectItemsToBeSent":"选择要发送的项目",
+      "selectBinSendAssetTo":"选择您要发送资产的存储箱",
+      "reviewSelectionsMade":"在提交请求之前，请检查您所做的选择。",
+      "reviewSelectionsMadeBeforeSubmit":"提交前请检查您所做的选择",
+      "selectBinSendingSparePartFrom":"选择您要从中发送备件的存储箱",
+      "enterQtySparePartsRequired":"输入所需备件的数量",
+      "selectBinSendSparePartsTo":"选择您要发送备件的存储箱",
+      "selectBinConsignItemFrom":"选择您要托运物品的存储箱",
+      "selectBinSendItemsTo":"选择您要发送物品的存储箱",
+      "hasCreatedConsignmentNote":"已创建托运单",
+      "andIsWaitingApproval":"并正在等待您的审批",
+      "from": "从",
+      "hasApprovedConsignmentNote":"已批准您的托运单",
+      "hasRejectedConsignmentNote":"已拒绝您的托运单",
+      "hasBeenApprovedRequisitionNote":"已被批准。您现在可以继续转移所选物品。",
+      "has":"已",
+      "hasBeen":"已被",
+      "yourRequisitionNote":"您的托运单",
+      "youCanProceedToTransfer":"您现在可以继续转移所选物品。"
     }
   },
   "requisition": {
     "setupVisible": false,
+    "setupEdit": false,
     "label": {
       "original": "Requisition",
       "singular": "请购单",
@@ -10441,7 +10754,8 @@
       "setupVisible": true
     },
     "sections": {
-      "setupVisible": true,
+      "setupVisible": false,
+      "setupEdit": false,
       "sec0": {
         "original": "Pending Approvals",
         "singular": "待审批",
@@ -10511,10 +10825,102 @@
         "plural": "验证",
         "setupEdit": true,
         "setupVisible": true
+      },
+      "sec10": {
+        "original": "New Requisition Note",
+        "singular": "新申请单",
+        "plural": "新申请单",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "sec11": {
+        "original": "Custom",
+        "singular": "自定义",
+        "plural": "自定义",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "sec12": {
+        "original": "Request Details",
+        "singular": "请求详情",
+        "plural": "请求详情",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "sec13": {
+        "original": "Destination",
+        "singular": "目的地",
+        "plural": "目的地",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "sec14": {
+        "original": "Review",
+        "singular": "审核",
+        "plural": "审核",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "sec15": {
+        "original": "Request Summary",
+        "singular": "请求摘要",
+        "plural": "请求摘要",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "sec16": {
+        "original": "Transfer Details",
+        "singular": "转移详情",
+        "plural": "转移详情",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "sec17": {
+        "original": "Approval Details",
+        "singular": "审批详情",
+        "plural": "审批详情",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "sec18": {
+        "original": "Requestor’s Manager Approval",
+        "singular": "请求者主管审批",
+        "plural": "请求者主管审批",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "sec19": {
+        "original": "Receiver Approval 1",
+        "singular": "接收者审批 1",
+        "plural": "接收者审批 1",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "sec20": {
+        "original": "Receiver Approval 2",
+        "singular": "接收者审批 2",
+        "plural": "接收者审批 2",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "sec21": {
+        "original": "All Requisitions",
+        "singular": "所有申请",
+        "plural": "所有申请",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "sec22": {
+        "original": "Pending My Approval",
+        "singular": "待我审批",
+        "plural": "待我审批",
+        "setupEdit": true,
+        "setupVisible": true
       }
     },
     "fields": {
-      "setupVisible": true,
+      "setupVisible": false,
+      "setupEdit": false,
       "priority": {
         "original": "Priority",
         "singular": "优先级",
@@ -10738,10 +11144,116 @@
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
+      },
+      "totalUnit": {
+        "original": "Total Units",
+        "singular": "总单位",
+        "plural": "总单位",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "qtyToTransfer": {
+        "original": "Qty to Transfer",
+        "singular": "要转移的数量",
+        "plural": "要转移的数量",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "approvalStatus": {
+        "original": "Approval Status",
+        "singular": "审批状态",
+        "plural": "审批状态",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "requestDate": {
+        "original": "Request Date",
+        "singular": "请求日期",
+        "plural": "请求日期",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "approvedDateTime": {
+        "original": "Approved Date & Time",
+        "singular": "批准日期和时间",
+        "plural": "批准日期和时间",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "requestedBy": {
+        "original": "Requested By",
+        "singular": "请求人",
+        "plural": "请求人",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "note": {
+        "original": "Note",
+        "singular": "备注",
+        "plural": "备注",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "transferId": {
+        "original": "Transfer ID",
+        "singular": "转移编号",
+        "plural": "转移编号",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "fromBin": {
+        "original": "From Bin",
+        "singular": "源仓位",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "toBin": {
+        "original": "To Bin",
+        "singular": "目标仓位",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "approver": {
+        "original": "Approver",
+        "singular": "审批人",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "responseDateTime": {
+        "original": "Response Date & Time",
+        "singular": "响应日期和时间",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "remark": {
+        "original": "Remarks",
+        "singular": "备注",
+        "plural": "备注",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "requestNote": {
+        "original": "Request Note",
+        "singular": "请求单",
+        "plural": "请求单",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "totalCount": {
+        "original": "Total Count",
+        "singular": "总计数",
+        "plural": "总计数",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "tooltips": {
-      "setupVisible": true,
+      "setupVisible": false,
+      "setupEdit": false,
       "assetSerialNoLookup": {
         "original": "Asset Serial No. Lookup",
         "singular": "资产序列号查询",
@@ -10756,6 +11268,11 @@
         "setupEdit": true,
         "setupVisible": true
       }
+    },
+    "validationFE": {
+      "atLeastOneAssetRequired":"至少需要一个资产才能继续",
+      "atLeastOneSparePartRequired":"至少需要一个备件才能继续",
+      "atLeastOneItemRequired":"至少需要一个项目才能继续"
     },
     "validationBE": {
       "requisitionIdNotFound": "未找到ID",
@@ -10786,7 +11303,42 @@
       "uploadCopyApproved": "请上传批准的申请副本",
       "requisitionAcceptedSuccessfully": "请求接受成功",
       "requisitionRejectedSuccessfully": "请求拒绝成功",
-      "requisitionSubmittedSuccessfully": "请求提交成功"
+      "requisitionSubmittedSuccessfully": "请求提交成功",
+      "whatWouldYouLikeRequest":"您想要请求什么?",
+      "defineCustomListOfItems":"定义要请求的自定义项目列表",
+      "specificAssets":"特定资产",
+      "assetsByType":"按类型分类的资产",
+      "requestFromBin":"从存储箱请求",
+      "requestAnyAvailable":"请求任何可用的",
+      "chooseThisSerialNumber":"如果您知道存储箱和资产的序列号，请选择此选项。",
+      "requestAssetByTypeQty":"按类型和数量请求资产，而不是序列号。",
+      "selectSparePartFromBin":"从已知存储箱中选择特定备件。",
+      "requestSparePartFromBin":"请求来自任何可用存储箱的备件。",
+      "selectBinRequestAssetFrom":"选择您要请求资产的存储箱",
+      "unsureOfAssetLocation":"不确定资产位置?",
+      "notSureBinAvailableAsset":"不确定哪些存储箱有可用资产?",
+      "selectItemsRequested":"选择要请求的项目",
+      "selectBinToTransferAssetTo":"选择您要转移资产的存储箱",
+      "youCanSelectBinInCharge":"您只能选择您负责的存储箱",
+      "reviewSelectionsMade":"在提交请求之前，请检查您所做的选择。",
+      "selectBinRequestSparePartFrom":"选择您要请求备件的存储箱",
+      "unsureOfSparePartAvailability":"不确定备件的可用性？",
+      "notSureBinAvailableSpareParts":"不确定哪些存储箱有可用的备件？",
+      "enterQtySparePartsRequired":"输入所需备件数量",
+      "selectBinToTransferSparePartTo":"选择您要转移备件的存储箱",
+      "unsureItemsRequestStored":"如果您不确定所请求的物品存放在哪里，请选择由可以定位并满足您请求的团队管理的存储箱",
+      "selectBinRequestFrom":"选择您要请求物品的存储箱",
+      "selectBinToTransferTo":"选择您要转移物品的存储箱",
+      "hasRejectedRequisitionNote":"已拒绝您的申请单",
+      "hasApprovedRequisitionNote":"已批准您的申请单",
+      "hasBeenApprovedRequisitionNote":"已被批准。您现在可以继续转移所选物品。",
+      "has":"已",
+      "hasBeen":"已被",
+      "yourRequisitionNote":"您的申请单",
+      "youCanProceedToTransfer":"您现在可以继续转移所选物品。",
+      "hasCreatedRequisitionNote":"已创建申请单",
+      "andIsWaitingApproval":"并正在等待您的审批",
+      "from":"来自"
     }
   },
   "contacts": {
@@ -12826,7 +13378,28 @@
         "plural": "粘贴 SKU",
         "setupEdit": false,
         "setupVisible": false
-      }		
+      },
+      "generateTemporarySerialNo":{
+        "original": "Generate Temporary Serial No",
+        "singular": "生成临时序列号",
+        "plural": "生成临时序列号",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "initiateBinTransfer":{
+        "original": "Initiate Bin Transfer",
+        "singular": "发起存储箱转移",
+        "plural": "发起存储箱转移",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "manualBinTransfer":{
+        "original": "Manual Bin Transfer",
+        "singular": "手动存储箱转移",
+        "plural": "手动存储箱转移",
+        "setupEdit": false,
+        "setupVisible": false
+      }	
     },
     "status": {
       "setupVisible": true,
@@ -13271,6 +13844,20 @@
         "setupEdit": false,
         "setupVisible": false
       },
+      "transferPending": {
+        "original": "Transfer Pending",
+        "singular": "转移待处理",
+        "plural": "转移待处理",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "transferFulfilled": {
+        "original": "Transfer Fulfilled",
+        "singular": "转移已完成",
+        "plural": "转移已完成",
+        "setupEdit": false,
+        "setupVisible": false
+      },
       "messages": {
         "forIncompleteChecklists": "未来将更新未完成的清单。不会使用此状态触发任何工作或任务",
         "thisStatusWillTriggerAnyJobOrders": "此状态将触发与该清单答案相关的任何工作订单和任务",
@@ -13449,7 +14036,15 @@
       "errorOccuredWhileSigning": "签名时发生错误",
       "noDocumentIsGenerated": "未生成文档",
       "pullToRefreshToSeeTheCompletion": "下拉刷新以查看完成情况",
-      "phoneNumberNotAvailable": "电话号码不可用"
+      "phoneNumberNotAvailable": "电话号码不可用",
+      "approvalConfirmation":"批准确认",
+      "approval":"批准",
+      "areYouSureApprove":"您确定要批准吗",
+      "approvedSuccessfully":"批准成功",
+      "rejectionConfirmation":"拒绝确认",
+      "rejection":"拒绝",
+      "areYouSureReject":"您确定要拒绝吗",
+      "editedSuccessfully":"编辑成功"
     },
     "currency": {
       "australianDollar": "AUD",

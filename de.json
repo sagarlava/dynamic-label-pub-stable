@@ -564,8 +564,8 @@
         "original": "Location Details",
         "singular": "Standortdetails",
         "plural": "",
-        "setupEdit": false,
-        "setupVisible": false
+        "setupEdit": true,
+        "setupVisible": true
       }
       },
       "fields": {
@@ -1025,6 +1025,20 @@
         "plural": "Klassifikationen",
         "setupEdit": false,
         "setupVisible": false
+      }, 
+      "offlineSince": {
+        "original": "Offline Since",
+        "singular": "Offline seit",
+        "plural": "Offline seit",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "model": {
+        "original": "Model",
+        "singular": "Modell",
+        "plural": "Modelle",
+        "setupEdit": false,
+        "setupVisible": false
       }
       },
       "validationFE": {
@@ -1269,10 +1283,45 @@
           "setupEdit": false,
           "setupVisible": false
         },
+      "parentUpdate": {
+        "original": "Parent Update",
+        "singular": "Übergeordnete Aktualisierung",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "parentChange": {
+        "original": "Parent Change",
+        "singular": "Übergeordnete Änderung",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "parentRemove": {
+        "original": "Parent Remove",
+        "singular": "Übergeordnetes Entfernen",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
       "pendingTransfer": {
         "original": "Show only Assets with a pending transfer",
         "singular": "Nur Assets mit ausstehender Übertragung anzeigen",
         "plural": "SNur Assets mit ausstehenden Übertragungen anzeigen",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "transferRequestApproval": {
+        "original": "A transfer request is pending approval for this asset. The location will be updated to",
+        "singular": "Ein Übertragungsantrag für dieses Asset wartet auf Genehmigung. Der Standort wird aktualisiert auf",
+        "plural": "Ein Übertragungsantrag für dieses Asset wartet auf Genehmigung. Der Standort wird aktualisiert auf",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "uponArrival": {
+        "original": "upon arrival.",
+        "singular": "bei Ankunft.",
+        "plural": "bei Ankunft.",
         "setupEdit": false,
         "setupVisible": false
       }
@@ -1291,7 +1340,8 @@
         "from": "Von",
         "warrantyStartDate": "Das Garantie-Startdatum darf nicht größer sein als das Garantie-Enddatum.",
         "errorFetchingAllAssets": "Fehler beim Abrufen aller Assets.",
-        "errorOccuredWhileFetchingAccessories": "Fehler beim Abrufen von Zubehör aufgetreten"
+        "errorOccuredWhileFetchingAccessories": "Fehler beim Abrufen von Zubehör aufgetreten",
+      "showUpdatesRelated":"Zeige Updates zu:"
       }
   },
   "analytic": {
@@ -3429,6 +3479,13 @@
         "original": "Family",
         "singular": "Familie",
         "plural": "Familien",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "model": {
+        "original": "Model",
+        "singular": "Modell",
+        "plural": "Modelle",
         "setupEdit": false,
         "setupVisible": false
       }
@@ -9742,6 +9799,20 @@
       "plural": "Ersatzteile anpassen",
       "setupEdit": false,
       "setupVisible": false
+    },
+    "sec20": {
+      "original": "Initiate Bin Transfer Confirmation",
+      "singular": "Bestätigung der Einleitung der Behälterübertragung",
+      "plural": "Bestätigungen der Einleitung der Behälterübertragung",
+      "setupEdit": false,
+      "setupVisible": false
+    },
+    "sec21": {
+      "original": "Missing Items Detected",
+      "singular": "Fehlende Artikel erkannt",
+      "plural": "Fehlende Artikel erkannt",
+      "setupEdit": false,
+      "setupVisible": false
     }
   },
   "fields": {
@@ -10065,8 +10136,12 @@
     "selectBinToTransferSpareParts":"Wählen Sie den Behälter aus, in den Sie die Ersatzteile übertragen möchten",
     "specifySparePartQuantity":"Sie können die Menge der Ersatzteile im nächsten Schritt angeben",
     "addQuantitiesTransferred":"Fügen Sie die zu übertragenden Mengen hinzu",
-    "enterSerialNumberHere":"Geben Sie hier die Seriennummern ein.",
-    "enterSKUHere":"Geben Sie hier die SKUs ein."
+    "enterSerialNumberHere":"Geben Sie hier die Seriennummern ein. Eg. 128371253ABC",
+    "enterSKUHere":"Geben Sie hier die SKUs ein. Eg. 128371253ABC",
+    "areYouSureInitiateTransfer":"Sind Sie sicher, dass Sie diese Behälterübertragung einleiten möchten?",
+    "selectedBinNoLongerContains":"Der ausgewählte Behälter enthält die folgenden Artikel nicht mehr",
+    "needTransferItemManually":"Sie müssen diese Artikel manuell auswählen und übertragen. Die anderen ausgewählten Artikel werden übertragen.",
+    "transferCannotContinue":"Die Übertragung kann nicht fortgesetzt werden, da der ausgewählte Behälter die folgenden Artikel nicht mehr enthält"
   }
 },
   "checkAvailibility": {
@@ -10162,6 +10237,7 @@
   },
   "consignment": {
     "setupVisible": false,
+    "setupEdit": false,
     "label": {
       "original": "Consignment",
       "singular": "Sendung",
@@ -10170,7 +10246,8 @@
       "setupVisible": true
     },
     "sections": {
-      "setupVisible": true,
+      "setupVisible": false,
+      "setupEdit": false,
       "sec0": {
         "original": "Pending Approvals",
         "singular": "Ausstehende Genehmigung",
@@ -10219,10 +10296,95 @@
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
+      },
+      "sec7": {
+        "original": "New Consignment Note",
+        "singular": "Neuer Frachtbrief",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "sec8": {
+        "original": "Consignment Details",
+        "singular": "Frachtbriefdetails",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "sec9": {
+        "original": "Destination",
+        "singular": "Zielort",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "sec10": {
+        "original": "Review",
+        "singular": "Überprüfung",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "sec11": {
+        "original": "Consignment Summary",
+        "singular": "Frachtbriefzusammenfassung",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "sec12": {
+        "original": "Requestor’s Manager Approval",
+       "singular": "Genehmigung durch den Vorgesetzten des Anforderers",
+        "plural": "Genehmigung durch den Vorgesetzten des Anforderers",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "sec13": {
+        "original": "Receiver Approval 1",
+        "singular": "Empfänger-Genehmigung 1",
+        "plural": "Empfänger-Genehmigung 1",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "sec14": {
+        "original": "Receiver Approval 2",
+       "singular": "Empfänger-Genehmigung 2",
+        "plural": "Empfänger-Genehmigung 2",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "sec15": {
+        "original": "Request Details",
+        "singular": "Anforderungsdetails",
+        "plural": "Anforderungsdetails",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "sec16": {
+        "original": "Transfer Details",
+        "singular": "Übertragungsdetails",
+        "plural": "Übertragungsdetails",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "sec17": {
+        "original": "Approver Details",
+        "singular": "Genehmigungsdetails",
+        "plural": "Genehmigungsdetails",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "sec18": {
+        "original": "Request Summary",
+        "singular": "Anforderungsübersicht",
+        "plural": "Anforderungsübersichten",
+        "setupEdit": true,
+        "setupVisible": true
       }
     },
     "fields": {
-      "setupVisible": true,
+      "setupVisible": false,
+      "setupEdit": false,
       "purpose": {
         "original": "Purpose",
         "singular": "Zweck",
@@ -10390,10 +10552,123 @@
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
+      },
+      "totalUnit": {
+        "original": "Total Units",
+        "singular": "Gesamteinheit",
+        "plural": "Gesamteinheiten",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "transferId": {
+        "original": "Transfer ID",
+        "singular": "Transfer-ID",
+        "plural": "Transfer-IDs",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "note": {
+        "original": "Note",
+        "singular": "Notiz",
+        "plural": "Notizen",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "approvalStatus": {
+        "original": "Approval Status",
+        "singular": "Genehmigungsstatus",
+        "plural": "Genehmigungsstatus",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "consignedDate": {
+        "original": "Consigned Date",
+        "singular": "Versanddatum",
+        "plural": "Versanddaten",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "approvedDateTime": {
+        "original": "Approved Date & Time",
+        "singular": "Genehmigungsdatum und -uhrzeit",
+        "plural": "Genehmigungsdaten und -uhrzeiten",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "consignedBy": {
+        "original": "Consigned By",
+        "singular": "Versendet von",
+        "plural": "Versendet von",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "approver": {
+        "original": "Approver",
+        "singular": "Genehmiger",
+        "plural": "Genehmiger",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "responseDateTime": {
+        "original": "Response Date & Time",
+        "singular": "Antwortdatum und -uhrzeit",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "requestNote": {
+        "original": "Request Note",
+        "singular": "Anforderungsnotiz",
+        "plural": "Anforderungsnotizen",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "totalCount": {
+        "original": "Total Count",
+        "singular": "Gesamtanzahl",
+        "plural": "Gesamtanzahlen",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "qtyToTransfer": {
+        "original": "Qty to Transfer",
+        "singular": "Menge zum Übertragen",
+        "plural": "Mengen zum Übertragen",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "from": {
+        "original": "From",
+        "singular": "Von",
+        "plural": "Von",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "fromBin": {
+        "original": "From Bin",
+        "singular": "Aus Behältern",
+        "plural": "Aus Behältern",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "toBin": {
+        "original": "To Bin",
+        "singular": "In Behälter",
+        "plural": "In Behälter",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "consignmentNote": {
+        "original": "Consignment Note",
+        "singular": "Frachtbrief",
+        "plural": "Frachtbriefe",
+        "setupEdit": true,
+        "setupVisible": true
       }
     },
     "tooltips": {
-      "setupVisible": true,
+      "setupVisible": false,
+      "setupEdit": false,
       "assetSerialNoLookup": {
         "original": "Asset Serial No. Lookup",
         "singular": "Nachschlagen der Asset-Seriennummer",
@@ -10408,6 +10683,12 @@
         "setupEdit": true,
         "setupVisible": true
       }
+    },
+    "validationFE": {
+      "qtyTransferExceedsQtyAvailable":"Die zu übertragende Menge übersteigt die verfügbare Menge",
+      "atLeastOneAssetRequired":"Mindestens ein Vermögenswert ist erforderlich, um fortzufahren",
+      "atLeastOneSparePartRequired":"Mindestens ein Ersatzteil ist erforderlich, um fortzufahren",
+      "atLeastOneItemRequired":"Mindestens ein Artikel ist erforderlich, um fortzufahren"
     },
     "validationBE": {
       "consignmentIdNotFound": "ID nicht gefunden",
@@ -10428,11 +10709,43 @@
       "selectCompany": "Firma auswählen",
       "uploadCopyApproved": "Bitte laden Sie eine Kopie der genehmigten Sendung hoch",
       "approvedCannotDelete": "Die Sendungsnotiz wurde genehmigt, daher kann sie nicht gelöscht werden",
-      "acknowledgeCannotDelete": "Die Sendungsnotiz wurde anerkannt, daher kann sie nicht gelöscht werden"
+      "acknowledgeCannotDelete": "Die Sendungsnotiz wurde anerkannt, daher kann sie nicht gelöscht werden",
+      "whatWouldYouLikeSend":"Was möchten Sie senden?",
+      "specificAssets":"Spezifische Vermögenswerte",
+      "sendByType":"Nach Typ senden",
+      "sendFromBin":"Aus Behälter senden",
+      "sendAnyAvailable":"Beliebige verfügbare senden",
+      "chooseThisSerialNumber":"Wählen Sie dies, wenn Sie die Seriennummern des Behälters und des Vermögenswerts kennen.",
+      "selectSparePartFromBin":"Wählen Sie bestimmte Ersatzteile aus einem bekannten Behälter",
+      "defineCustomListOfItems":"Definieren Sie eine benutzerdefinierte Liste von zu sendenden Artikeln",
+      "sendAssetByTypeQty":"Vermögenswerte nach Typ und Menge senden, nicht nach Seriennummer",
+      "sendSparePartAvailableFromBin":"Ersatzteile aus beliebigem verfügbaren Behälter senden",
+      "selectBinSendingAssetFrom":"Wählen Sie den Behälter aus, aus dem Sie Vermögenswerte senden",
+      "youCanSelectBinInCharge":"Sie können nur Behälter auswählen, für die Sie verantwortlich sind",
+      "selectItemsToBeSent":"Wählen Sie die zu sendenden Artikel aus",
+      "selectBinSendAssetTo":"Wählen Sie den Behälter aus, in den Sie die Vermögenswerte senden möchten",
+      "reviewSelectionsMade":"Überprüfen Sie die von Ihnen getroffenen Auswahlmöglichkeiten, bevor Sie Ihre Anfrage absenden.",
+      "reviewSelectionsMadeBeforeSubmit":"Überprüfen Sie die getroffenen Auswahlmöglichkeiten, bevor Sie absenden",
+      "selectBinSendingSparePartFrom":"Wählen Sie den Behälter aus, aus dem Sie Ersatzteile senden",
+      "enterQtySparePartsRequired":"Geben Sie die benötigte Menge an Ersatzteilen ein",
+      "selectBinSendSparePartsTo":"Wählen Sie den Behälter aus, in den Sie die Ersatzteile senden möchten",
+      "selectBinConsignItemFrom":"Wählen Sie den Behälter aus, aus dem Sie Artikel versenden",
+      "selectBinSendItemsTo":"Wählen Sie den Behälter aus, in den Sie die Artikel senden möchten",
+      "hasCreatedConsignmentNote":"hat einen Frachtbrief erstellt",
+      "andIsWaitingApproval":"und wartet auf Ihre Genehmigung",
+      "from": "Von",
+      "hasApprovedConsignmentNote":"hat Ihren Frachtbrief genehmigt",
+      "hasRejectedConsignmentNote":"hat Ihren Frachtbrief abgelehnt",
+      "hasBeenApprovedRequisitionNote":"wurde genehmigt. Sie können nun mit der Übertragung der ausgewählten Artikel fortfahren.",
+      "has":"hat",
+      "hasBeen":"wurde",
+      "yourRequisitionNote":"Ihr Frachtbrief",
+      "youCanProceedToTransfer":"Sie können nun mit der Übertragung der ausgewählten Artikel fortfahren.."
     }
   },
   "requisition": {
     "setupVisible": false,
+    "setupEdit": false,
     "label": {
       "original": "Requisition",
       "singular": "Anforderung",
@@ -10441,7 +10754,8 @@
       "setupVisible": true
     },
     "sections": {
-      "setupVisible": true,
+      "setupVisible": false,
+      "setupEdit": false,
       "sec0": {
         "original": "Pending Approvals",
         "singular": "Ausstehende Genehmigung",
@@ -10511,10 +10825,102 @@
         "plural": "Überprüfungen",
         "setupEdit": true,
         "setupVisible": true
+      },
+      "sec10": {
+        "original": "New Requisition Note",
+        "singular": "Neue Anforderungsnotizen",
+        "plural": "Neue Anforderungsnotizen",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "sec11": {
+        "original": "Custom",
+        "singular": "Benutzerdefiniert",
+        "plural": "Benutzerdefiniert",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "sec12": {
+        "original": "Request Details",
+        "singular": "Anforderungsdetails",
+        "plural": "Anforderungsdetails",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "sec13": {
+        "original": "Destination",
+        "singular": "Zielort",
+        "plural": "Zielorte",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "sec14": {
+        "original": "Review",
+        "singular": "Überprüfung",
+        "plural": "Überprüfungen",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "sec15": {
+        "original": "Request Summary",
+        "singular": "Anforderungsübersicht",
+        "plural": "Anforderungsübersichten",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "sec16": {
+        "original": "Transfer Details",
+        "singular": "Übertragungsdetails",
+        "plural": "Übertragungsdetails",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "sec17": {
+        "original": "Approval Details",
+        "singular": "Genehmigungsdetails",
+        "plural": "Genehmigungsdetails",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "sec18": {
+        "original": "Requestor’s Manager Approval",
+        "singular": "Genehmigung durch den Vorgesetzten des Anforderers",
+        "plural": "Genehmigung durch den Vorgesetzten des Anforderers",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "sec19": {
+        "original": "Receiver Approval 1",
+        "singular": "Empfänger-Genehmigung 1",
+        "plural": "Empfänger-Genehmigung 1",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "sec20": {
+        "original": "Receiver Approval 2",
+        "singular": "Empfänger-Genehmigung 2",
+        "plural": "Empfänger-Genehmigung 2",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "sec21": {
+        "original": "All Requisitions",
+        "singular": "Alle Anfragen",
+        "plural": "Alle Anfragen",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "sec22": {
+        "original": "Pending My Approval",
+        "singular": "Wartet auf meine Genehmigung",
+        "plural": "Wartet auf meine Genehmigung",
+        "setupEdit": true,
+        "setupVisible": true
       }
     },
     "fields": {
-      "setupVisible": true,
+      "setupVisible": false,
+      "setupEdit": false,
       "priority": {
         "original": "Priority",
         "singular": "Priorität",
@@ -10738,10 +11144,116 @@
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
+      },
+      "totalUnit": {
+        "original": "Total Units",
+        "singular": "Gesamteinheit",
+        "plural": "Gesamteinheiten",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "qtyToTransfer": {
+        "original": "Qty to Transfer",
+        "singular": "Menge zum Übertragen",
+        "plural": "Mengen zum Übertragen",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "approvalStatus": {
+        "original": "Approval Status",
+        "singular": "Genehmigungsstatus",
+        "plural": "Genehmigungsstatus",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "requestDate": {
+        "original": "Request Date",
+        "singular": "Anfragedatum",
+        "plural": "Anfragedaten",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "approvedDateTime": {
+        "original": "Approved Date & Time",
+        "singular": "Genehmigungsdatum und -uhrzeit",
+        "plural": "Genehmigungsdaten und -uhrzeiten",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "requestedBy": {
+        "original": "Requested By",
+        "singular": "Angefordert von",
+        "plural": "Angefordert von",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "note": {
+        "original": "Note",
+        "singular": "Notiz",
+        "plural": "Notizen",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "transferId": {
+        "original": "Transfer ID",
+        "singular": "Transfer-ID",
+        "plural": "Transfer-IDs",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "fromBin": {
+        "original": "From Bin",
+        "singular": "Von Lager",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "toBin": {
+        "original": "To Bin",
+        "singular": "Nach Lager",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "approver": {
+        "original": "Approver",
+        "singular": "Genehmiger",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "responseDateTime": {
+        "original": "Response Date & Time",
+        "singular": "Antwortdatum und -uhrzeit",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "remark": {
+        "original": "Remarks",
+        "singular": "Bemerkung",
+        "plural": "Bemerkungen",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "requestNote": {
+        "original": "Request Note",
+        "singular": "Anforderungsnotiz",
+        "plural": "Anforderungsnotizen",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "totalCount": {
+        "original": "Total Count",
+        "singular": "Gesamtanzahl",
+        "plural": "Gesamtanzahlen",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "tooltips": {
-      "setupVisible": true,
+      "setupVisible": false,
+      "setupEdit": false,
       "assetSerialNoLookup": {
         "original": "Asset Serial No. Lookup",
         "singular": "Asset-Seriennummer Suche",
@@ -10756,6 +11268,11 @@
         "setupEdit": true,
         "setupVisible": true
       }
+    },
+    "validationFE": {
+      "atLeastOneAssetRequired":"Mindestens ein Vermögenswert ist erforderlich, um fortzufahren",
+      "atLeastOneSparePartRequired":"Mindestens ein Ersatzteil ist erforderlich, um fortzufahren",
+      "atLeastOneItemRequired":"Mindestens ein Artikel ist erforderlich, um fortzufahren"
     },
     "validationBE": {
       "requisitionIdNotFound": "ID nicht gefunden",
@@ -10786,7 +11303,42 @@
       "uploadCopyApproved": "Bitte eine Kopie der genehmigten Anforderung hochladen",
       "requisitionAcceptedSuccessfully": "Anforderung erfolgreich akzeptiert",
       "requisitionRejectedSuccessfully": "Anforderung erfolgreich abgelehnt",
-      "requisitionSubmittedSuccessfully": "Anforderung erfolgreich eingereicht"
+      "requisitionSubmittedSuccessfully": "Anforderung erfolgreich eingereicht",
+      "whatWouldYouLikeRequest":"Was möchten Sie anfordern?",
+      "defineCustomListOfItems":"Definieren Sie eine benutzerdefinierte Liste von anzufordernden Artikeln",
+      "specificAssets":"Spezifische Vermögenswerte",
+      "assetsByType":"Vermögenswerte nach Typ",
+      "requestFromBin":"Anforderung aus Behälter",
+      "requestAnyAvailable":"Beliebige verfügbare anfordern",
+      "chooseThisSerialNumber":"Wählen Sie dies, wenn Sie die Behälter- und Vermögensseriennummern kennen.",
+      "requestAssetByTypeQty":"Fordern Sie Vermögenswerte nach Typ und Menge anstatt nach Seriennummern an.",
+      "selectSparePartFromBin":"Wählen Sie bestimmte Ersatzteile aus einem bekannten Behälter.",
+      "requestSparePartFromBin":"Fordern Sie Ersatzteile aus einem beliebigen verfügbaren Behälter an.",
+      "selectBinRequestAssetFrom":"Wählen Sie den Behälter aus, aus dem Sie Vermögenswerte anfordern",
+      "unsureOfAssetLocation":"Unsicher über den Standort der Vermögenswerte?",
+      "notSureBinAvailableAsset":"Nicht sicher, in welchem Behälter die Vermögenswerte verfügbar sind?",
+      "selectItemsRequested":"Wählen Sie die anzufordernden Artikel aus",
+      "selectBinToTransferAssetTo":"Wählen Sie den Behälter aus, in den Sie die Vermögenswerte übertragen möchten",
+      "youCanSelectBinInCharge":"Sie können nur Behälter auswählen, für die Sie verantwortlich sind",
+      "reviewSelectionsMade":"Überprüfen Sie die von Ihnen getroffenen Auswahlmöglichkeiten, bevor Sie Ihre Anfrage absenden.",
+      "selectBinRequestSparePartFrom":"Wählen Sie den Behälter aus, aus dem Sie Ersatzteile anfordern",
+      "unsureOfSparePartAvailability":"Unsicher über die Verfügbarkeit von Ersatzteilen?",
+      "notSureBinAvailableSpareParts":"Nicht sicher, in welchem Behälter die Ersatzteile verfügbar sind?",
+      "enterQtySparePartsRequired":"Geben Sie die benötigte Menge an Ersatzteilen ein",
+      "selectBinToTransferSparePartTo":"Wählen Sie den Behälter aus, in den Sie die Ersatzteile übertragen möchten",
+      "unsureItemsRequestStored":"Wenn Sie sich nicht sicher sind, wo die von Ihnen angeforderten Artikel gespeichert sind, wählen Sie einen Behälter aus, der von einem Team verwaltet wird, das Ihre Anfrage finden und erfüllen kann",
+      "selectBinRequestFrom":"Wählen Sie den Behälter aus, aus dem Sie Artikel anfordern",
+      "selectBinToTransferTo":"Wählen Sie den Behälter aus, in den Sie die Artikel übertragen möchten",
+      "hasRejectedRequisitionNote":"hat Ihren Anforderungsbeleg abgelehnt",
+      "hasApprovedRequisitionNote":"hat Ihren Anforderungsbeleg genehmigt",
+      "hasBeenApprovedRequisitionNote":"wurde genehmigt. Sie können nun mit der Übertragung der ausgewählten Artikel fortfahren.",
+      "has":"hat",
+      "hasBeen":"wurde",
+      "yourRequisitionNote":"Ihr Anforderungsbeleg",
+      "youCanProceedToTransfer":"Sie können nun mit der Übertragung der ausgewählten Artikel fortfahren.",
+      "hasCreatedRequisitionNote":"hat eine Anforderungsnotiz erstellt",
+      "andIsWaitingApproval":"und wartet auf Ihre Genehmigung",
+      "from":"von"
     }
   },
   "contacts": {
@@ -12826,7 +13378,28 @@
         "plural": "SKUs einfügen",
         "setupEdit": false,
         "setupVisible": false
-      }				
+      },
+      "generateTemporarySerialNo":{
+        "original": "Generate Temporary Serial No",
+        "singular": "Temporäre Seriennummer generieren",
+        "plural": "Temporäre Seriennummer generieren",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "initiateBinTransfer":{
+        "original": "Initiate Bin Transfer",
+        "singular": "Behälterübertragung starten",
+        "plural": "Behälterübertragungen starten",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "manualBinTransfer":{
+        "original": "Manual Bin Transfer",
+        "singular": "Manuelle Behälterübertragung",
+        "plural": "Manuelle Behälterübertragungen",
+        "setupEdit": false,
+        "setupVisible": false
+      }	
     },
     "status": {
       "setupVisible": false,
@@ -13271,6 +13844,20 @@
         "setupEdit": false,
         "setupVisible": false
       },
+      "transferPending": {
+        "original": "Transfer Pending",
+        "singular": "Übertragung ausstehend",
+        "plural": "Übertragungen ausstehend",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "transferFulfilled": {
+        "original": "Transfer Fulfilled",
+        "singular": "Übertragung abgeschlossen",
+        "plural": "Übertragungen abgeschlossen",
+        "setupEdit": false,
+        "setupVisible": false
+      },
       "messages": {
         "forIncompleteChecklists": "Für unvollständige Checklisten, die in Zukunft aktualisiert werden sollen. Es werden keine Aufträge oder Aufgaben mit diesem Status ausgelöst.",
         "thisStatusWillTriggerAnyJobOrders": "Dieser Status wird alle Arbeitsaufträge und Aufgaben auslösen, die mit den Antworten dieser Checkliste verbunden sind.",
@@ -13449,7 +14036,15 @@
       "errorOccuredWhileSigning": "Ein Fehler ist beim Unterschreiben aufgetreten",
       "noDocumentIsGenerated": "Kein Dokument wurde erstellt, da nur teilweise Daten ausgefüllt sind.",
       "pullToRefreshToSeeTheCompletion": "Zum Aktualisieren nach unten ziehen, um den Abschluss zu sehen",
-      "phoneNumberNotAvailable": "Telefonnummer nicht verfügbar"
+      "phoneNumberNotAvailable": "Telefonnummer nicht verfügbar",
+      "approvalConfirmation":"Genehmigungsbestätigung",
+      "approval":"Genehmigung",
+      "areYouSureApprove":"Sind Sie sicher, dass Sie genehmigen möchten",
+      "approvedSuccessfully":"Erfolgreich genehmigt",
+      "rejectionConfirmation":"Ablehnungsbestätigung",
+      "rejection":"Ablehnung",
+      "areYouSureReject":"Sind Sie sicher, dass Sie ablehnen möchten",
+      "editedSuccessfully":"Erfolgreich bearbeitet"
     },
     "currency": {
       "australianDollar": "AUD",
