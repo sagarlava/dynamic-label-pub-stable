@@ -10540,7 +10540,9 @@
       }
     },
     "validationFE": {
-      "qtyTransferExceedsQtyAvailable":"Kuantiti untuk dipindahkan melebihi kuantiti yang tersedia"
+      "qtyTransferExceedsQtyAvailable":"Kuantiti untuk dipindahkan melebihi kuantiti yang tersedia",
+      "atLeastOneAssetRequired":"Sekurang-kurangnya satu aset diperlukan untuk meneruskan",
+      "atLeastOneSparePartRequired":"Sekurang-kurangnya satu alat ganti diperlukan untuk meneruskan"
     },
     "validationBE": {
       "consignmentIdNotFound": "ID tidak dijumpai",

@@ -10540,7 +10540,9 @@
       }
     },
     "validationFE": {
-      "qtyTransferExceedsQtyAvailable":"要转移的数量超过可用数量"
+      "qtyTransferExceedsQtyAvailable":"要转移的数量超过可用数量",
+      "atLeastOneAssetRequired":"至少需要一个资产才能继续",
+      "atLeastOneSparePartRequired":"至少需要一个备件才能继续"
     },
     "validationBE": {
       "consignmentIdNotFound": "未找到ID",

@@ -10540,7 +10540,9 @@
       }
     },
     "validationFE": {
-      "qtyTransferExceedsQtyAvailable":"Quantity to transfer exceeds quantity available"
+      "qtyTransferExceedsQtyAvailable":"Quantity to transfer exceeds quantity available",
+      "atLeastOneAssetRequired":"At least one asset is required to proceed",
+      "atLeastOneSparePartRequired":"At least one spare part is required to proceed"
     },
     "validationBE": {
       "consignmentIdNotFound": "Id not found",
