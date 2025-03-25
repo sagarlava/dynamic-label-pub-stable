@@ -10610,6 +10610,55 @@
         "plural": "",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "requestNote": {
+        "original": "Request Note",
+        "singular": "Nota de solicitud",
+        "plural": "Notas de solicitud",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "totalCount": {
+        "original": "Total Count",
+        "singular": "Recuento total",
+        "plural": "Recuentos totales",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "qtyToTransfer": {
+        "original": "Qty to Transfer",
+        "singular": "Cantidad a transferir",
+        "plural": "Cantidades a transferir",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "from": {
+        "original": "From",
+        "singular": "De",
+        "plural": "De",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "fromBin": {
+        "original": "From Bin",
+        "singular": "Desde contenedor",
+        "plural": "Desde contenedor",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "toBin": {
+        "original": "To Bin",
+        "singular": "A contenedor",
+        "plural": "A contenedor",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "consignmentNote": {
+        "original": "Consignment Note",
+        "singular": "Nota de Consignación",
+        "plural": "Nota de Consignación",
+        "setupEdit": true,
+        "setupVisible": true
       }
     },
     "tooltips": {

@@ -10610,6 +10610,55 @@
         "plural": "",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "requestNote": {
+        "original": "Request Note",
+        "singular": "Nota Permintaan",
+        "plural": "Nota Permintaan",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "totalCount": {
+        "original": "Total Count",
+        "singular": "Jumlah Kiraan",
+        "plural": "Jumlah Kiraan",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "qtyToTransfer": {
+        "original": "Qty to Transfer",
+        "singular": "Kuantiti untuk Dipindahkan",
+        "plural": "Kuantiti untuk Dipindahkan",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "from": {
+        "original": "From",
+        "singular": "Daripada",
+        "plural": "Daripada",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "fromBin": {
+        "original": "From Bin",
+        "singular": "Dari Tong",
+        "plural": "Dari Tong",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "toBin": {
+        "original": "To Bin",
+        "singular": "Ke Tong",
+        "plural": "Ke Tong",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "consignmentNote": {
+        "original": "Consignment Note",
+        "singular": "Nota Konsainan",
+        "plural": "Nota Konsainan",
+        "setupEdit": true,
+        "setupVisible": true
       }
     },
     "tooltips": {

@@ -10610,6 +10610,55 @@
         "plural": "",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "requestNote": {
+        "original": "Request Note",
+        "singular": "Request Note",
+        "plural": "Request Notes",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "totalCount": {
+        "original": "Total Count",
+        "singular": "Total Count",
+        "plural": "Total Count",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "qtyToTransfer": {
+        "original": "Qty to Transfer",
+        "singular": "Qty to Transfer",
+        "plural": "Qty to Transfer",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "from": {
+        "original": "From",
+        "singular": "From",
+        "plural": "From",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "fromBin": {
+        "original": "From Bin",
+        "singular": "From Bin",
+        "plural": "From Bin",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "toBin": {
+        "original": "To Bin",
+        "singular": "To Bin",
+        "plural": "To Bin",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "consignmentNote": {
+        "original": "Consignment Note",
+        "singular": "Consignment Note",
+        "plural": "Consignment Note",
+        "setupEdit": true,
+        "setupVisible": true
       }
     },
     "tooltips": {

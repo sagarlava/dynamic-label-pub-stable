@@ -10610,6 +10610,55 @@
         "plural": "",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "requestNote": {
+        "original": "Request Note",
+        "singular": "请求单",
+        "plural": "请求单",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "totalCount": {
+        "original": "Total Count",
+        "singular": "总计数",
+        "plural": "总计数",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "qtyToTransfer": {
+        "original": "Qty to Transfer",
+        "singular": "要转移的数量",
+        "plural": "要转移的数量",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "from": {
+        "original": "From",
+        "singular": "来自",
+        "plural": "来自",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "fromBin": {
+        "original": "From Bin",
+        "singular": "从存储箱",
+        "plural": "从存储箱",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "toBin": {
+        "original": "To Bin",
+        "singular": "到存储箱",
+        "plural": "到存储箱",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "consignmentNote": {
+        "original": "Consignment Note",
+        "singular": "托运单",
+        "plural": "托运单",
+        "setupEdit": true,
+        "setupVisible": true
       }
     },
     "tooltips": {

@@ -10610,6 +10610,55 @@
         "plural": "",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "requestNote": {
+        "original": "Request Note",
+        "singular": "Anforderungsnotiz",
+        "plural": "Anforderungsnotizen",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "totalCount": {
+        "original": "Total Count",
+        "singular": "Gesamtanzahl",
+        "plural": "Gesamtanzahlen",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "qtyToTransfer": {
+        "original": "Qty to Transfer",
+        "singular": "Menge zum Übertragen",
+        "plural": "Mengen zum Übertragen",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "from": {
+        "original": "From",
+        "singular": "Von",
+        "plural": "Von",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "fromBin": {
+        "original": "From Bin",
+        "singular": "Aus Behältern",
+        "plural": "Aus Behältern",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "toBin": {
+        "original": "To Bin",
+        "singular": "In Behälter",
+        "plural": "In Behälter",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "consignmentNote": {
+        "original": "Consignment Note",
+        "singular": "Frachtbrief",
+        "plural": "Frachtbriefe",
+        "setupEdit": true,
+        "setupVisible": true
       }
     },
     "tooltips": {
