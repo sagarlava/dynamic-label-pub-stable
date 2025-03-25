@@ -10671,7 +10671,8 @@
       "selectBinConsignItemFrom":"Seleccione el contenedor desde el cual está consignando artículos",
       "selectBinSendItemsTo":"Seleccione el contenedor al que desea enviar los artículos",
       "hasCreatedConsignmentNote":"ha creado una Nota de Consignación",
-      "andIsWaitingApproval":"y está esperando su aprobación"
+      "andIsWaitingApproval":"y está esperando su aprobación",
+      "from": "Desde"
     }
   },
   "requisition": {
