@@ -10568,6 +10568,13 @@
         "plural": "Consignado por",
         "setupEdit": true,
         "setupVisible": true
+      },
+      "approver": {
+        "original": "Approver",
+        "singular": "Aprobador",
+        "plural": "Aprobadores",
+        "setupEdit": true,
+        "setupVisible": true
       }
     },
     "tooltips": {

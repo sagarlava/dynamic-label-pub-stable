@@ -10568,6 +10568,13 @@
         "plural": "Versendet von",
         "setupEdit": true,
         "setupVisible": true
+      },
+      "approver": {
+        "original": "Approver",
+        "singular": "Genehmiger",
+        "plural": "Genehmiger",
+        "setupEdit": true,
+        "setupVisible": true
       }
     },
     "tooltips": {

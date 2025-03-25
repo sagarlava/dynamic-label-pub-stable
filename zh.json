@@ -10568,6 +10568,13 @@
         "plural": "托运人",
         "setupEdit": true,
         "setupVisible": true
+      },
+      "approver": {
+        "original": "Approver",
+        "singular": "审批人",
+        "plural": "审批人",
+        "setupEdit": true,
+        "setupVisible": true
       }
     },
     "tooltips": {
