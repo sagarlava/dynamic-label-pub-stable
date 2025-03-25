@@ -10669,7 +10669,9 @@
       "enterQtySparePartsRequired":"Enter the quantity of spare parts required",
       "selectBinSendSparePartsTo":"Select the bin you would like to send the spare parts to",
       "selectBinConsignItemFrom":"Select the bin you are consigning items from",
-      "selectBinSendItemsTo":"Select the bin you would like to send the items to"
+      "selectBinSendItemsTo":"Select the bin you would like to send the items to",
+      "hasCreatedConsignmentNote":"has created a Consignment Note",
+      "andIsWaitingApproval":"and is awaiting your approval"
     }
   },
   "requisition": {

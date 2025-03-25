@@ -10669,7 +10669,9 @@
       "enterQtySparePartsRequired":"Ingrese la cantidad de repuestos requeridos",
       "selectBinSendSparePartsTo":"Seleccione el contenedor al que desea enviar los repuestos",
       "selectBinConsignItemFrom":"Seleccione el contenedor desde el cual está consignando artículos",
-      "selectBinSendItemsTo":"Seleccione el contenedor al que desea enviar los artículos"
+      "selectBinSendItemsTo":"Seleccione el contenedor al que desea enviar los artículos",
+      "hasCreatedConsignmentNote":"ha creado una Nota de Consignación",
+      "andIsWaitingApproval":"y está esperando su aprobación"
     }
   },
   "requisition": {

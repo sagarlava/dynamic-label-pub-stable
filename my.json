@@ -10669,7 +10669,9 @@
       "enterQtySparePartsRequired":"Masukkan kuantiti alat ganti yang diperlukan",
       "selectBinSendSparePartsTo":"Pilih tong yang anda ingin hantar alat ganti ke",
       "selectBinConsignItemFrom":"Pilih tong yang anda ingin konsain item daripadanya",
-      "selectBinSendItemsTo":"Pilih tong yang anda ingin hantar item ke"
+      "selectBinSendItemsTo":"Pilih tong yang anda ingin hantar item ke",
+      "hasCreatedConsignmentNote":"telah mencipta Nota Konsainan",
+      "andIsWaitingApproval":"dan sedang menunggu kelulusan anda"
     }
   },
   "requisition": {

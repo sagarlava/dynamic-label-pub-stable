@@ -10669,7 +10669,9 @@
       "enterQtySparePartsRequired":"Geben Sie die benötigte Menge an Ersatzteilen ein",
       "selectBinSendSparePartsTo":"Wählen Sie den Behälter aus, in den Sie die Ersatzteile senden möchten",
       "selectBinConsignItemFrom":"Wählen Sie den Behälter aus, aus dem Sie Artikel versenden",
-      "selectBinSendItemsTo":"Wählen Sie den Behälter aus, in den Sie die Artikel senden möchten"
+      "selectBinSendItemsTo":"Wählen Sie den Behälter aus, in den Sie die Artikel senden möchten",
+      "hasCreatedConsignmentNote":"hat einen Frachtbrief erstellt",
+      "andIsWaitingApproval":"und wartet auf Ihre Genehmigung"
     }
   },
   "requisition": {
