@@ -10533,6 +10533,13 @@
         "plural": "Consigned Date",
         "setupEdit": true,
         "setupVisible": true
+      },
+      "approvedDateTime": {
+        "original": "Approved Date & Time",
+        "singular": "Approved Date & Time",
+        "plural": "Approved Date & Time",
+        "setupEdit": true,
+        "setupVisible": true
       }
     },
     "tooltips": {

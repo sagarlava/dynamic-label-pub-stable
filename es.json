@@ -10533,6 +10533,13 @@
         "plural": "Fechas de consignación",
         "setupEdit": true,
         "setupVisible": true
+      },
+      "approvedDateTime": {
+        "original": "Approved Date & Time",
+        "singular": "Fecha y hora de aprobación",
+        "plural": "Fecha y hora de aprobación",
+        "setupEdit": true,
+        "setupVisible": true
       }
     },
     "tooltips": {

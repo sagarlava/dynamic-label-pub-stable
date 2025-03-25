@@ -10533,6 +10533,13 @@
         "plural": "Versanddaten",
         "setupEdit": true,
         "setupVisible": true
+      },
+      "approvedDateTime": {
+        "original": "Approved Date & Time",
+        "singular": "Genehmigungsdatum und -uhrzeit",
+        "plural": "Genehmigungsdaten und -uhrzeiten",
+        "setupEdit": true,
+        "setupVisible": true
       }
     },
     "tooltips": {
