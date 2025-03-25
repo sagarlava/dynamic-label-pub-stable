@@ -10519,6 +10519,13 @@
         "plural": "Notizen",
         "setupEdit": true,
         "setupVisible": true
+      },
+      "approvalStatus": {
+        "original": "Approval Status",
+        "singular": "Genehmigungsstatus",
+        "plural": "Genehmigungsstatus",
+        "setupEdit": true,
+        "setupVisible": true
       }
     },
     "tooltips": {

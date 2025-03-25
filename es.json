@@ -10519,6 +10519,13 @@
         "plural": "Notas",
         "setupEdit": true,
         "setupVisible": true
+      },
+      "approvalStatus": {
+        "original": "Approval Status",
+        "singular": "Estado de aprobación",
+        "plural": "Estado de aprobación",
+        "setupEdit": true,
+        "setupVisible": true
       }
     },
     "tooltips": {

@@ -10519,6 +10519,13 @@
         "plural": "备注",
         "setupEdit": true,
         "setupVisible": true
+      },
+      "approvalStatus": {
+        "original": "Approval Status",
+        "singular": "审批状态",
+        "plural": "审批状态",
+        "setupEdit": true,
+        "setupVisible": true
       }
     },
     "tooltips": {
