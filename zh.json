@@ -3524,7 +3524,8 @@
       "newProductFamily": "新备件系列",
       "newProductType": "新备件类型",
       "subTotal": "小计",
-      "totalAmount": "总金额"
+      "totalAmount": "总金额",
+      "deleteTaskTemplateRemoveSpareParts":"删除此任务模板将同时移除所有相关的备件"
     }
   },
   "task": {
@@ -13287,6 +13288,27 @@
         "original": "Group View",
         "singular": "分组视图",
         "plural": "分组视图",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "searchByAddress":{
+        "original": "Search Address",
+        "singular": "搜索地址",
+        "plural": "搜索地址",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "searchLatLang":{
+        "original": "Search by Lat & Long",
+        "singular": "按纬度和经度搜索",
+        "plural": "按纬度和经度搜索",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "useCoordinates":{
+        "original": "Use Coordinates",
+        "singular": "使用坐标",
+        "plural": "使用坐标",
         "setupEdit": false,
         "setupVisible": false
       },
