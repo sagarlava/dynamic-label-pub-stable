@@ -10567,7 +10567,8 @@
       "selectBinSendingSparePartFrom":"Seleccione el contenedor desde el cual está enviando repuestos",
       "enterQtySparePartsRequired":"Ingrese la cantidad de repuestos requeridos",
       "selectBinSendSparePartsTo":"Seleccione el contenedor al que desea enviar los repuestos",
-      "selectBinConsignItemFrom":"Seleccione el contenedor desde el cual está consignando artículos"
+      "selectBinConsignItemFrom":"Seleccione el contenedor desde el cual está consignando artículos",
+      "selectBinSendItemsTo":"Seleccione el contenedor al que desea enviar los artículos"
     }
   },
   "requisition": {
