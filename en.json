@@ -10512,6 +10512,13 @@
         "plural": "Transfer ID",
         "setupEdit": true,
         "setupVisible": true
+      },
+      "note": {
+        "original": "Note",
+        "singular": "Note",
+        "plural": "Notes",
+        "setupEdit": true,
+        "setupVisible": true
       }
     },
     "tooltips": {

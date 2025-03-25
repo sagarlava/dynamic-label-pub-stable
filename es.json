@@ -10512,6 +10512,13 @@
         "plural": "ID de transferencias",
         "setupEdit": true,
         "setupVisible": true
+      },
+      "note": {
+        "original": "Note",
+        "singular": "Nota",
+        "plural": "Notas",
+        "setupEdit": true,
+        "setupVisible": true
       }
     },
     "tooltips": {
