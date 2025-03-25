@@ -10540,6 +10540,13 @@
         "plural": "Approved Date & Time",
         "setupEdit": true,
         "setupVisible": true
+      },
+      "consignedBy": {
+        "original": "Consigned By",
+        "singular": "Consigned By",
+        "plural": "Consigned By",
+        "setupEdit": true,
+        "setupVisible": true
       }
     },
     "tooltips": {

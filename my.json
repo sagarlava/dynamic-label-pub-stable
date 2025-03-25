@@ -10540,6 +10540,13 @@
         "plural": "Tarikh & Masa Diluluskan",
         "setupEdit": true,
         "setupVisible": true
+      },
+      "consignedBy": {
+        "original": "Consigned By",
+        "singular": "Dikonsain Oleh",
+        "plural": "Dikonsain Oleh",
+        "setupEdit": true,
+        "setupVisible": true
       }
     },
     "tooltips": {

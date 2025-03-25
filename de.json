@@ -10540,6 +10540,13 @@
         "plural": "Genehmigungsdaten und -uhrzeiten",
         "setupEdit": true,
         "setupVisible": true
+      },
+      "consignedBy": {
+        "original": "Consigned By",
+        "singular": "Versendet von",
+        "plural": "Versendet von",
+        "setupEdit": true,
+        "setupVisible": true
       }
     },
     "tooltips": {
