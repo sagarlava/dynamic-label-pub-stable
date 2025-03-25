@@ -10347,6 +10347,27 @@
         "plural": "Aprobaciones del receptor 2",
         "setupEdit": true,
         "setupVisible": true
+      },
+      "sec15": {
+        "original": "Request Details",
+        "singular": "Detalles de las solicitudes",
+        "plural": "Detalles de las solicitudes",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "sec16": {
+        "original": "Transfer Details",
+        "singular": "Detalles de las transferencias",
+        "plural": "Detalles de las transferencias",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "sec17": {
+        "original": "Approver Details",
+        "singular": "Detalles del aprobador",
+        "plural": "Detalles del aprobador",
+        "setupEdit": true,
+        "setupVisible": true
       }
     },
     "fields": {

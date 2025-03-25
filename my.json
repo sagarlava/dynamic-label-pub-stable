@@ -10347,6 +10347,27 @@
         "plural": "Kelulusan Penerima 2",
         "setupEdit": true,
         "setupVisible": true
+      },
+      "sec15": {
+        "original": "Request Details",
+        "singular": "Butiran Permintaan",
+        "plural": "Butiran Permintaan",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "sec16": {
+        "original": "Transfer Details",
+        "singular": "Butiran Pemindahan",
+        "plural": "Butiran Pemindahan",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "sec17": {
+        "original": "Approver Details",
+        "singular": "Butiran Pemeriksa",
+        "plural": "Butiran Pemeriksa",
+        "setupEdit": true,
+        "setupVisible": true
       }
     },
     "fields": {

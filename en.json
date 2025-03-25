@@ -10347,6 +10347,27 @@
         "plural": "Receiver Approval 2",
         "setupEdit": true,
         "setupVisible": true
+      },
+      "sec15": {
+        "original": "Request Details",
+        "singular": "Request Details",
+        "plural": "Request Details",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "sec16": {
+        "original": "Transfer Details",
+        "singular": "Transfer Details",
+        "plural": "Transfer Details",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "sec17": {
+        "original": "Approver Details",
+        "singular": "Approver Details",
+        "plural": "Approver Details",
+        "setupEdit": true,
+        "setupVisible": true
       }
     },
     "fields": {

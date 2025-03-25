@@ -10347,6 +10347,27 @@
         "plural": "接收者审批 2",
         "setupEdit": true,
         "setupVisible": true
+      },
+      "sec15": {
+        "original": "Request Details",
+        "singular": "请求详情",
+        "plural": "请求详情",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "sec16": {
+        "original": "Transfer Details",
+        "singular": "转移详情",
+        "plural": "转移详情",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "sec17": {
+        "original": "Approver Details",
+        "singular": "审批人详情",
+        "plural": "审批人详情",
+        "setupEdit": true,
+        "setupVisible": true
       }
     },
     "fields": {

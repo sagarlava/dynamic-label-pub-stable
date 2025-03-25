@@ -10347,6 +10347,27 @@
         "plural": "Empfänger-Genehmigung 2",
         "setupEdit": true,
         "setupVisible": true
+      },
+      "sec15": {
+        "original": "Request Details",
+        "singular": "Anforderungsdetails",
+        "plural": "Anforderungsdetails",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "sec16": {
+        "original": "Transfer Details",
+        "singular": "Übertragungsdetails",
+        "plural": "Übertragungsdetails",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "sec17": {
+        "original": "Approver Details",
+        "singular": "Genehmigungsdetails",
+        "plural": "Genehmigungsdetails",
+        "setupEdit": true,
+        "setupVisible": true
       }
     },
     "fields": {
