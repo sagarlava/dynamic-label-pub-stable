@@ -10673,7 +10673,13 @@
       "hasCreatedConsignmentNote":"hat einen Frachtbrief erstellt",
       "andIsWaitingApproval":"und wartet auf Ihre Genehmigung",
       "from": "Von",
-      "hasApprovedConsignmentNote":"hat Ihren Frachtbrief genehmigt"
+      "hasApprovedConsignmentNote":"hat Ihren Frachtbrief genehmigt",
+      "hasRejectedConsignmentNote":"hat Ihren Frachtbrief abgelehnt",
+      "hasBeenApprovedRequisitionNote":"wurde genehmigt. Sie können nun mit der Übertragung der ausgewählten Artikel fortfahren.",
+      "has":"hat",
+      "hasBeen":"wurde",
+      "yourRequisitionNote":"Ihr Frachtbrief",
+      "youCanProceedToTransfer":"Sie können nun mit der Übertragung der ausgewählten Artikel fortfahren.."
     }
   },
   "requisition": {

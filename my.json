@@ -10673,7 +10673,13 @@
       "hasCreatedConsignmentNote":"telah mencipta Nota Konsainan",
       "andIsWaitingApproval":"dan sedang menunggu kelulusan anda",
       "from": "Dari",
-      "hasApprovedConsignmentNote":"telah Meluluskan Nota Konsainan anda"
+      "hasApprovedConsignmentNote":"telah Meluluskan Nota Konsainan anda",
+      "hasRejectedConsignmentNote":"telah Menolak Nota Konsainan anda",
+      "hasBeenApprovedRequisitionNote":"telah Diluluskan. Anda kini boleh meneruskan pemindahan item yang dipilih.",
+      "has":"telah",
+      "hasBeen":"telah",
+      "yourRequisitionNote":"Nota Konsainan anda",
+      "youCanProceedToTransfer":"Anda kini boleh meneruskan pemindahan item yang dipilih."
     }
   },
   "requisition": {

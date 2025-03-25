@@ -10673,7 +10673,13 @@
       "hasCreatedConsignmentNote":"已创建托运单",
       "andIsWaitingApproval":"并正在等待您的审批",
       "from": "从",
-      "hasApprovedConsignmentNote":"已批准您的托运单"
+      "hasApprovedConsignmentNote":"已批准您的托运单",
+      "hasRejectedConsignmentNote":"已拒绝您的托运单",
+      "hasBeenApprovedRequisitionNote":"已被批准。您现在可以继续转移所选物品。",
+      "has":"已",
+      "hasBeen":"已被",
+      "yourRequisitionNote":"您的托运单",
+      "youCanProceedToTransfer":"您现在可以继续转移所选物品。"
     }
   },
   "requisition": {

@@ -10673,7 +10673,13 @@
       "hasCreatedConsignmentNote":"has created a Consignment Note",
       "andIsWaitingApproval":"and is awaiting your approval",
       "from":"from",
-      "hasApprovedConsignmentNote":"has Approved your Consignment Note"
+      "hasApprovedConsignmentNote":"has Approved your Consignment Note",
+      "hasRejectedConsignmentNote":"has Rejected your Consignment Note",
+      "hasBeenApprovedRequisitionNote":"has been Approved. You can now proceed to transfer the selected items.",
+      "has":"has",
+      "hasBeen":"has been",
+      "yourRequisitionNote":"your Consignment Note",
+      "youCanProceedToTransfer":"You can now proceed to transfer the selected items."
     }
   },
   "requisition": {
