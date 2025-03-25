@@ -10526,6 +10526,13 @@
         "plural": "Estado de aprobación",
         "setupEdit": true,
         "setupVisible": true
+      },
+      "consignedDate": {
+        "original": "Consigned Date",
+        "singular": "Fecha de consignación",
+        "plural": "Fechas de consignación",
+        "setupEdit": true,
+        "setupVisible": true
       }
     },
     "tooltips": {

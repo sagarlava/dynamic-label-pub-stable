@@ -10526,6 +10526,13 @@
         "plural": "Genehmigungsstatus",
         "setupEdit": true,
         "setupVisible": true
+      },
+      "consignedDate": {
+        "original": "Consigned Date",
+        "singular": "Versanddatum",
+        "plural": "Versanddaten",
+        "setupEdit": true,
+        "setupVisible": true
       }
     },
     "tooltips": {

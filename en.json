@@ -10526,6 +10526,13 @@
         "plural": "Approval Status",
         "setupEdit": true,
         "setupVisible": true
+      },
+      "consignedDate": {
+        "original": "Consigned Date",
+        "singular": "Consigned Date",
+        "plural": "Consigned Date",
+        "setupEdit": true,
+        "setupVisible": true
       }
     },
     "tooltips": {

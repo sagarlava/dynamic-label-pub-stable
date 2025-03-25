@@ -10526,6 +10526,13 @@
         "plural": "审批状态",
         "setupEdit": true,
         "setupVisible": true
+      },
+      "consignedDate": {
+        "original": "Consigned Date",
+        "singular": "托运日期",
+        "plural": "托运日期",
+        "setupEdit": true,
+        "setupVisible": true
       }
     },
     "tooltips": {
