@@ -10368,6 +10368,13 @@
         "plural": "Approver Details",
         "setupEdit": true,
         "setupVisible": true
+      },
+      "sec18": {
+        "original": "Request Summary",
+        "singular": "Request Summary",
+        "plural": "Request Summary",
+        "setupEdit": true,
+        "setupVisible": true
       }
     },
     "fields": {

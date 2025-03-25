@@ -10368,6 +10368,13 @@
         "plural": "审批人详情",
         "setupEdit": true,
         "setupVisible": true
+      },
+      "sec18": {
+        "original": "Request Summary",
+        "singular": "请求摘要",
+        "plural": "请求摘要",
+        "setupEdit": true,
+        "setupVisible": true
       }
     },
     "fields": {

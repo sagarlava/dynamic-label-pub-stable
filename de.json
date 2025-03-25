@@ -10368,6 +10368,13 @@
         "plural": "Genehmigungsdetails",
         "setupEdit": true,
         "setupVisible": true
+      },
+      "sec18": {
+        "original": "Request Summary",
+        "singular": "Anforderungsübersicht",
+        "plural": "Anforderungsübersichten",
+        "setupEdit": true,
+        "setupVisible": true
       }
     },
     "fields": {

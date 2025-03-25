@@ -10368,6 +10368,13 @@
         "plural": "Detalles del aprobador",
         "setupEdit": true,
         "setupVisible": true
+      },
+      "sec18": {
+        "original": "Request Summary",
+        "singular": "Resumen de solicitud",
+        "plural": "Resumen de solicitudes",
+        "setupEdit": true,
+        "setupVisible": true
       }
     },
     "fields": {
