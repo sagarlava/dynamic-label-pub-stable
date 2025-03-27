@@ -10678,6 +10678,13 @@
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
+      },
+      "includeChildAsset": {
+        "original": "Includes child assets of selected assets in the transfer. Only child assets in the same bin as their parent will be included.",
+        "singular": "Termasuk aset anak kepada aset yang dipilih dalam pemindahan. Hanya aset anak yang berada dalam tong yang sama dengan induknya akan disertakan.",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "validationFE": {
@@ -11263,6 +11270,13 @@
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
+      },
+      "includeChildAsset": {
+        "original": "Includes child assets of selected assets in the transfer. Only child assets in the same bin as their parent will be included.",
+        "singular": "Termasuk aset anak kepada aset yang dipilih dalam pemindahan. Hanya aset anak yang berada dalam tong yang sama dengan induknya akan disertakan.",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "validationFE": {
