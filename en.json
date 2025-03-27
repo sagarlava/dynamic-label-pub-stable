@@ -9555,7 +9555,8 @@
       "binTransferAssetsNotFound": "Bin Transfer Assets not found",
       "binTransferInvalidStatus": "Only allowed statuses: ACCEPTED/DECLINED/CANCEL",
       "binTransferNotFound": "Bin Transfer not found",
-      "binTransferItemIdExists": "A new Bin Transfer Item cannot already have an ID"
+      "binTransferItemIdExists": "A new Bin Transfer Item cannot already have an ID",
+      "binTransferToBinRequired": "Transfer To Bin Parameter and Transfer To Type fields required"
     },
     "messages": {
       "selectApprovalStatus": "Select Approval Status",

@@ -9555,7 +9555,8 @@
       "binTransferAssetsNotFound": "Lagerübertragungs-Vermögenswerte nicht gefunden",
       "binTransferInvalidStatus": "Erlaubte Status: AKZEPTIERT/ABGELEHNT/ABBRECHEN",
       "binTransferNotFound": "Lagerübertragung nicht gefunden",
-      "binTransferItemIdExists": "Ein neues Lagerübertragungs-Element kann nicht bereits eine ID haben"
+      "binTransferItemIdExists": "Ein neues Lagerübertragungs-Element kann nicht bereits eine ID haben",
+      "binTransferToBinRequired": "Transfer to Bin Parameter' und 'Transfer to Type' sind erforderlich"
     },
     "messages": {
       "selectApprovalStatus": "Genehmigungsstatus auswählen",
