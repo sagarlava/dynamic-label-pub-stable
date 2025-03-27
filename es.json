@@ -11334,7 +11334,10 @@
       "youCanProceedToTransfer":"Ahora puede proceder con la transferencia de los artículos seleccionados.",
       "hasCreatedRequisitionNote":"ha creado una Nota de Requisición",
       "andIsWaitingApproval":"y está esperando su aprobación",
-      "from":"de"
+      "from":"de",
+      "selectAssetToRequest":"Seleccione los activos a solicitar",
+      "selectSparePartToRequest":"Seleccione los repuestos a solicitar",
+      "includeChildAsset":"Incluir activo secundario"
     }
   },
   "contacts": {

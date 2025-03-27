@@ -11334,7 +11334,10 @@
       "youCanProceedToTransfer":"Anda kini boleh meneruskan pemindahan item yang dipilih.",
       "hasCreatedRequisitionNote":"telah mencipta Nota Permohonan",
       "andIsWaitingApproval":"dan sedang menunggu kelulusan anda",
-      "from":"daripada"
+      "from":"daripada",
+      "selectAssetToRequest":"Pilih aset yang ingin diminta",
+      "selectSparePartToRequest":"Pilih alat ganti yang ingin diminta",
+      "includeChildAsset":"Termasuk Aset Anak"
     }
   },
   "contacts": {

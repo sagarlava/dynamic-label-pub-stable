@@ -11334,7 +11334,10 @@
       "youCanProceedToTransfer":"You can now proceed to transfer the selected items.",
       "hasCreatedRequisitionNote":"has created a Requisition Note",
       "andIsWaitingApproval":"and is awaiting your approval",
-      "from":"from"
+      "from":"from",
+      "selectAssetToRequest":"Select the assets to be requested",
+      "selectSparePartToRequest":"Select the spare parts to be requested",
+      "includeChildAsset":"Include Child Asset"
     }
   },
   "contacts": {

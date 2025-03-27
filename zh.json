@@ -11334,7 +11334,10 @@
       "youCanProceedToTransfer":"您现在可以继续转移所选物品。",
       "hasCreatedRequisitionNote":"已创建申请单",
       "andIsWaitingApproval":"并正在等待您的审批",
-      "from":"来自"
+      "from":"来自",
+      "selectAssetToRequest":"选择要请求的资产",
+      "selectSparePartToRequest":"选择要请求的备件",
+      "includeChildAsset":"包括子资产"
     }
   },
   "contacts": {
