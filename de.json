@@ -10919,6 +10919,13 @@
         "plural": "Wartet auf meine Genehmigung",
         "setupEdit": true,
         "setupVisible": true
+      },
+      "sec23": {
+        "original": "Edit Requisition Note",
+        "singular": "Anforderungsnotiz bearbeiten",
+        "plural": "Anforderungsnotizen bearbeiten",
+        "setupEdit": true,
+        "setupVisible": true
       }
     },
     "fields": {

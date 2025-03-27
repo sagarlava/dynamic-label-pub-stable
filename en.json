@@ -10919,6 +10919,13 @@
         "plural": "Pending My Approval",
         "setupEdit": true,
         "setupVisible": true
+      },
+      "sec23": {
+        "original": "Edit Requisition Note",
+        "singular": "Edit Requisition Note",
+        "plural": "Edit Requisition Note",
+        "setupEdit": true,
+        "setupVisible": true
       }
     },
     "fields": {

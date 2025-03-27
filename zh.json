@@ -10919,6 +10919,13 @@
         "plural": "待我审批",
         "setupEdit": true,
         "setupVisible": true
+      },
+      "sec23": {
+        "original": "Edit Requisition Note",
+        "singular": "编辑申请单",
+        "plural": "编辑申请单",
+        "setupEdit": true,
+        "setupVisible": true
       }
     },
     "fields": {

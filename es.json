@@ -10919,6 +10919,13 @@
         "plural": "Pendiente de mi aprobación",
         "setupEdit": true,
         "setupVisible": true
+      },
+      "sec23": {
+        "original": "Edit Requisition Note",
+        "singular": "Editar nota de requisición",
+        "plural": "Editar notas de requisición",
+        "setupEdit": true,
+        "setupVisible": true
       }
     },
     "fields": {
