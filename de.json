@@ -11352,7 +11352,10 @@
       "selectAssetToRequest":"Wählen Sie die anzufordernden Vermögenswerte aus",
       "selectSparePartToRequest":"Wählen Sie die anzufordernden Ersatzteile aus",
       "selectItemsToRequest":"Wählen Sie die anzufordernden Artikel aus",
-      "includeChildAsset":"Untergeordneten Vermögenswert einbeziehen"
+      "includeChildAsset":"Untergeordneten Vermögenswert einbeziehen",
+      "selectAssetWishToTransfer":"Wählen Sie die Vermögenswerte aus, die Sie übertragen möchten",
+      "selectSparePartWishToTransfer":"Wählen Sie die Ersatzteile aus, die Sie übertragen möchten",
+      "selectItemsWishToTransfer":"Wählen Sie die Artikel aus, die Sie übertragen möchten"
     }
   },
   "contacts": {

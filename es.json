@@ -11352,7 +11352,10 @@
       "selectAssetToRequest":"Seleccione los activos a solicitar",
       "selectSparePartToRequest":"Seleccione los repuestos a solicitar",
       "selectItemsToRequest":"Seleccione los artículos a solicitar",
-      "includeChildAsset":"Incluir activo secundario"
+      "includeChildAsset":"Incluir activo secundario",
+      "selectAssetWishToTransfer":"Seleccione los activos que desea transferir",
+      "selectSparePartWishToTransfer":"Seleccione los repuestos que desea transferir",
+      "selectItemsWishToTransfer":"Seleccione los artículos que desea transferir"
     }
   },
   "contacts": {

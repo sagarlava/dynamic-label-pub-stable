@@ -11352,7 +11352,10 @@
       "selectAssetToRequest":"选择要请求的资产",
       "selectSparePartToRequest":"选择要请求的备件",
       "selectItemsToRequest":"选择要请求的项目",
-      "includeChildAsset":"包括子资产"
+      "includeChildAsset":"包括子资产",
+      "selectAssetWishToTransfer":"选择您想要转移的资产",
+      "selectSparePartWishToTransfer":"选择您想要转移的备件",
+      "selectItemsWishToTransfer":"选择您想要转移的项目"
     }
   },
   "contacts": {

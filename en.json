@@ -11352,7 +11352,10 @@
       "selectAssetToRequest":"Select the assets to be requested",
       "selectSparePartToRequest":"Select the spare parts to be requested",
       "selectItemsToRequest":"Select the items to be requested",
-      "includeChildAsset":"Include Child Asset"
+      "includeChildAsset":"Include Child Asset",
+      "selectAssetWishToTransfer":"Select the assets you wish to transfer",
+      "selectSparePartWishToTransfer":"Select the spare parts you wish to transfer",
+      "selectItemsWishToTransfer":"Select the spare parts you wish to transfer"
     }
   },
   "contacts": {

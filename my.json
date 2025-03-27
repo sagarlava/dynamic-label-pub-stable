@@ -11352,7 +11352,10 @@
       "selectAssetToRequest":"Pilih aset yang ingin diminta",
       "selectSparePartToRequest":"Pilih alat ganti yang ingin diminta",
       "selectItemsToRequest":"Pilih item yang ingin diminta",
-      "includeChildAsset":"Termasuk Aset Anak"
+      "includeChildAsset":"Termasuk Aset Anak",
+      "selectAssetWishToTransfer":"Pilih aset yang anda ingin pindahkan",
+      "selectSparePartWishToTransfer":"Pilih alat ganti yang anda ingin pindahkan",
+      "selectItemsWishToTransfer":"Pilih item yang anda ingin pindahkan"
     }
   },
   "contacts": {
