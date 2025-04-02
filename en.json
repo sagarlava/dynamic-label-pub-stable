@@ -1386,6 +1386,9 @@
         "setupEdit": true,
         "setupVisible": true
       }
+    },
+    "validationFE":{
+      "customerRequiredCreateVanLog":"Customer is required to create a van log record"
     }
   },
   "accessories": {
@@ -1544,8 +1547,8 @@
         "setupVisible": false
       },
       "sec2": {
-        "original": "Preventative Maintenance",
-        "singular": "Preventative Maintenances",
+        "original": "Preventive Maintenances",
+        "singular": "Preventive Maintenances",
         "plural": "",
         "setupEdit": false,
         "setupVisible": false
@@ -1919,8 +1922,8 @@
         "setupVisible": false
       },
       "preventativeMaintenanceNo": {
-        "original": "Preventative Maintenance No",
-        "singular": "Preventative Maintenance No",
+        "original": "Preventive Maintenance No",
+        "singular": "Preventive Maintenance No",
         "plural": "",
         "setupEdit": false,
         "setupVisible": false
@@ -1937,23 +1940,23 @@
     "validationBE": {
       "preventativeFrequencyInvalidType": "Invalid value for frequency type",
       "preventativeFrequencyDayWithInvalidFrequency": "If the frequency type is DAY, the frequency must be minimum 7 days",
-      "preventativeFrequencyHasPreventativeFrequencyPart": "Preventative Frequency Parts Data exists in the system for the Preventative Frequency",
+      "preventativeFrequencyHasPreventativeFrequencyPart": "Preventive Frequency Parts Data exists in the system for the Preventive Frequency",
       "preventativeFrequencyHasMaintenanceRecords":"Cannot delete this frequency as it is linked to one or more records",
-      "preventativeMaintenanceFrequencyTemplateIdOrMaintenanceIdNotFound": "Preventative Maintenance Template Id or Maintenance Id not found",
-      "preventativeMaintenanceFrequencyTemplateNotFound": "Preventative Maintenance Template not found",
+      "preventativeMaintenanceFrequencyTemplateIdOrMaintenanceIdNotFound": "Preventive Maintenance Template Id or Maintenance Id not found",
+      "preventativeMaintenanceFrequencyTemplateNotFound": "Preventive Maintenance Template not found",
       "preventativeMaintenanceFrequencyInvalidType": "Invalid frequency type",
       "preventativeMaintenanceTemplateMaintenanceNotFound": "Maintenance not found",
       "preventativeMaintenanceTemplateInvalidReminderTo": "Invalid send reminder to",
-      "preventativeTemplateHasPreventativeFrequency": "Preventative Frequency Data exists in the system for the Preventative Template",
-      "preventativeTemplateIdExists": "A new Preventative Template cannot already have an ID",
+      "preventativeTemplateHasPreventativeFrequency": "Preventive Frequency Data exists in the system for the Preventive Template",
+      "preventativeTemplateIdExists": "A new Preventive Template cannot already have an ID",
       "preventativeTemplateSendReminderToInvalid": "Invalid value for send_reminder_to",
       "pmFrequencyPartsIdExists": "A new PmFrequencyParts cannot already have an ID",
-      "preventativeFrequencyPartsIdExists": "A new Preventative Frequency Parts cannot already have an ID",
-      "preventativeFrequencyIdExists": "A new Preventative Frequency cannot already have an ID",
-      "preventativeMaintenanceFrequencyIdExists": "A new Preventative Maintenance Frequency cannot already have an ID",
-      "preventativeMaintenanceTemplateIdExists": "A new Preventative Maintenance Template cannot already have an ID",
-      "preventativeMaintenanceTemplateHasPreventiveMaintenanceFrequency": "Preventative Maintenance Frequency Data exists in the system for the Preventative Maintenance Template",
-      "preventativeMaintenanceTemplateHasPreventativeMaintenanceFrequency": "Preventative Maintenance Frequency Data exists in the system for the Preventative Maintenance Template"
+      "preventativeFrequencyPartsIdExists": "A new Preventive Frequency Parts cannot already have an ID",
+      "preventativeFrequencyIdExists": "A new Preventive Frequency cannot already have an ID",
+      "preventativeMaintenanceFrequencyIdExists": "A new Preventive Maintenance Frequency cannot already have an ID",
+      "preventativeMaintenanceTemplateIdExists": "A new Preventive Maintenance Template cannot already have an ID",
+      "preventativeMaintenanceTemplateHasPreventiveMaintenanceFrequency": "Preventive Maintenance Frequency Data exists in the system for the Preventive Maintenance Template",
+      "preventativeMaintenanceTemplateHasPreventativeMaintenanceFrequency": "Preventive Maintenance Frequency Data exists in the system for the Preventive Maintenance Template"
     },
     "tooltips": {
       "setupEdit": false,
@@ -2284,8 +2287,8 @@
         "setupVisible": true
       },
       "sec1": {
-        "original": "Preventative Maintenance",
-        "singular": "Preventative Maintenances",
+        "original": "Preventive Maintenance",
+        "singular": "Preventive Maintenances",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
@@ -3161,7 +3164,8 @@
       "newProductFamily":"New Spare Part Family",
       "newProductType":"New Spare Part Type",
       "subTotal": "Sub Total",
-      "totalAmount": "Total Amount"
+      "totalAmount": "Total Amount",
+      "deleteTaskTemplateRemoveSpareParts":"Deleting this task template will also remove all associated spare parts"
     }
   },
   "task": {
@@ -7212,8 +7216,8 @@
         "setupVisible": false
       },
       "pmChecklist": {
-        "original": "Preventative Maintenance Checklist",
-        "singular": "Preventative Maintenance Checklist",
+        "original": "Preventive Maintenance Checklist",
+        "singular": "Preventive Maintenance Checklist",
         "plural": "",
         "setupEdit": false,
         "setupVisible": false
@@ -12206,6 +12210,27 @@
         "original": "Group View",
         "singular": "Group View",
         "plural": "Group View",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "searchByAddress":{
+        "original": "Search Address",
+        "singular": "Search Address",
+        "plural": "Search Address",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "searchLatLang":{
+        "original": "Search by Lat & Long",
+        "singular": "Search by Lat & Long",
+        "plural": "Search by Lat & Long",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "useCoordinates":{
+        "original": "Use Coordinates",
+        "singular": "Use Coordinates",
+        "plural": "Use Coordinates",
         "setupEdit": false,
         "setupVisible": false
       }	
@@ -21760,7 +21785,7 @@
       "setupCalendlyConfigIdNotFound": "Id not found",
       "setupCountryIdExists": "A new Country cannot already have an ID",
       "setupCustomerSurveyConfigIdExists": "A new Customer Survey Config cannot already have an ID",
-      "setupCustomerSurveyConfigHasJobOrderSurvey": "Job Order Survey Data exists in the system for the Customer Survey Config",
+      "setupCustomerSurveyConfigHasJobOrderSurvey": "This survey cannot be deleted because it is currently linked to one or more job orders.",
       "setupCustomerSurveyConfigWorkflowIdExists": "A new Customer Survey Config Workflow cannot already have an ID",
       "setupFaultJobOrderMappingIdExists": "A new Fault Job Order Mapping cannot already have an ID",
       "setupFaultJobOrderMappingIdNotFound": "Id not found",
@@ -21914,7 +21939,7 @@
               "vehicles": "Vehicles",
               "assets": "Asset",
               "assets_contracts": "Contract",
-              "scheduled_maintenance": "Preventative Maintenance",
+              "scheduled_maintenance": "Preventive Maintenance",
               "inventory": "Inventory",
               "tickets": "Ticket",
               "project": "Project",
@@ -22806,8 +22831,8 @@
           "setupVisible": false
         },
         "sec3": {
-          "original": "Preventative Maintenance",
-          "singular": "Preventative Maintenance",
+          "original": "Preventive Maintenance",
+          "singular": "Preventive Maintenance",
           "plural": "",
           "setupEdit": true,
           "setupVisible": false

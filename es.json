@@ -1386,6 +1386,9 @@
         "setupEdit": true,
         "setupVisible": true
       }
+    },
+    "validationFE":{
+      "customerRequiredCreateVanLog":"El cliente debe crear un registro de la furgoneta"
     }
   },
   "accessories": {
@@ -1544,7 +1547,7 @@
         "setupVisible": false
       },
       "sec2": {
-        "original": "Preventative Maintenance",
+        "original": "Preventive Maintenances",
         "singular": "Mantenimiento Preventivo",
         "plural": "",
         "setupEdit": false,
@@ -1919,7 +1922,7 @@
         "setupVisible": false
       },
       "preventativeMaintenanceNo": {
-        "original": "Preventative Maintenance No",
+        "original": "Preventive Maintenance No",
         "singular": "Número de Mantenimiento Preventivo",
         "plural": "",
         "setupEdit": false,
@@ -2284,7 +2287,7 @@
         "setupVisible": true
       },
       "sec1": {
-        "original": "Preventative Maintenance",
+        "original": "Preventive Maintenance",
         "singular": "Mantenimientos Preventivos",
         "plural": "",
         "setupEdit": true,
@@ -3161,7 +3164,8 @@
       "newProductFamily": "Nueva Familia de Repuesto",
       "newProductType": "Nuevo Tipo de Repuesto",
       "subTotal": "Subtotal",
-      "totalAmount": "Monto Total"
+      "totalAmount": "Monto Total",
+      "deleteTaskTemplateRemoveSpareParts":"Eliminar esta plantilla de tarea también eliminará todas las piezas de repuesto asociadas"
     }
   },
   "task": {
@@ -7212,7 +7216,7 @@
         "setupVisible": false
       },
       "pmChecklist": {
-        "original": "Preventative Maintenance Checklist",
+        "original": "Preventive Maintenance Checklist",
         "singular": "Lista de Verificación de Mantenimiento Preventivo",
         "plural": "",
         "setupEdit": false,
@@ -12206,6 +12210,27 @@
         "original": "Group View",
         "singular": "Vista de grupo",
         "plural": "Vistas de grupo",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "searchByAddress":{
+        "original": "Search Address",
+        "singular": "Buscar dirección",
+        "plural": "Buscar direcciones",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "searchLatLang":{
+        "original": "Search by Lat & Long",
+        "singular": "Buscar por latitud y longitud",
+        "plural": "Buscar por latitudes y longitudes",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "useCoordinates":{
+        "original": "Use Coordinates",
+        "singular": "Usar coordenadas",
+        "plural": "Usar coordenadas",
         "setupEdit": false,
         "setupVisible": false
       }	
@@ -21760,7 +21785,7 @@
       "setupCalendlyConfigIdNotFound": "ID no encontrado",
       "setupCountryIdExists": "Un nuevo país no puede ya tener un ID",
       "setupCustomerSurveyConfigIdExists": "Una nueva configuración de encuesta de cliente no puede ya tener un ID",
-      "setupCustomerSurveyConfigHasJobOrderSurvey": "Los datos de encuesta de orden de trabajo existen en el sistema para la configuración de encuesta de cliente",
+      "setupCustomerSurveyConfigHasJobOrderSurvey": "Esta encuesta no se puede eliminar porque actualmente está vinculada a una o más órdenes de trabajo.",
       "setupCustomerSurveyConfigWorkflowIdExists": "Una nueva configuración de flujo de trabajo de encuesta de cliente no puede ya tener un ID",
       "setupFaultJobOrderMappingIdExists": "Un nuevo mapeo de orden de trabajo de falla no puede ya tener un ID",
       "setupFaultJobOrderMappingIdNotFound": "ID no encontrado",
@@ -22806,7 +22831,7 @@
           "setupVisible": false
         },
         "sec3": {
-          "original": "Preventative Maintenance",
+          "original": "Preventive Maintenance",
           "singular": "Mantenimiento preventivo",
           "plural": "",
           "setupEdit": true,
