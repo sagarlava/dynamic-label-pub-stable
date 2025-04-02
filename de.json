@@ -1014,7 +1014,8 @@
       "assetSubCategoryIdExists": "Eine neue Asset-Unterkategorie darf keine ID haben",
       "assetCategoryCannotDeleteByAssets":"Löschen nicht möglich: Asset-Kategorie wird in einem oder mehreren Assets verwendet",
       "assetSubCategoryCannotDeleteByAssets": "Löschen nicht möglich: Asset-Unterkategorie wird in einem oder mehreren Assets verwendet",
-      "assetParentInvalid":"Der gewählte übergeordnete Eintrag befindet sich bereits in der Anlagenhierarchie"
+      "assetParentInvalid":"Der gewählte übergeordnete Eintrag befindet sich bereits in der Anlagenhierarchie",
+      "assetHasChildAssets": "Dieses Asset kann nicht gelöscht werden, da es abhängige untergeordnete Assets hat. Bitte trennen Sie diese zuerst"
     },
     "tooltips": {
       "setupVisible": false,

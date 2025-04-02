@@ -1014,7 +1014,8 @@
       "assetSubCategoryIdExists":"A new Asset Sub Category cannot already have an ID",
       "assetCategoryCannotDeleteByAssets":"Unable to delete: Asset Category is used in one or more Assets",
       "assetSubCategoryCannotDeleteByAssets":"Unable to delete: Asset Sub Category is used in one or more Assets",
-      "assetParentInvalid":"The chosen parent is already in the asset hierarchy"
+      "assetParentInvalid":"The chosen parent is already in the asset hierarchy",
+      "assetHasChildAssets": "This asset cannot be deleted because it has dependent child assets. Please unlink them first"
     },
     "tooltips": {
       "setupVisible": false,
