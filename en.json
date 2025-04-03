@@ -23427,7 +23427,8 @@
       "setupWorkflowEmailUserMax": "Maximum allowed users reached for workflow notification",
       "setupWorkflowEmailUserGroupMax": "Maximum allowed users reached for workflow notification",     
       "setupTmplJobOrderLimitReached":"You have exceeded the limit of 50 active templates. Set the status of an unused template to 'Inactive' to add another active template.",
-      "tmplTaskLimitExceeded":"You have exceeded the limit of 50 active templates. Set the status of an unused template to 'Inactive' to add another active template."
+      "tmplTaskLimitExceeded":"You have exceeded the limit of 50 active templates. Set the status of an unused template to 'Inactive' to add another active template.",
+      "setupTmplTaskHasJobOrder": "Task Template Data exists in the system for the Job Order"
     },
     "labelBE": {
       "profileTableColumnSetup": {

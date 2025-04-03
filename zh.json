@@ -23427,7 +23427,8 @@
       "setupWorkflowEmailUserMax": "已达到工作流通知允许的最大用户数量",
       "setupWorkflowEmailUserGroupMax": "已达到工作流通知允许的最大用户数量",      
       "setupTmplJobOrderLimitReached":"您已超出50个活动模板的限制。将未使用的模板状态设置为“未激活”以添加另一个活动模板",
-      "tmplTaskLimitExceeded": "您已超出50个活动模板的限制。将未使用的模板状态设置为“未激活”以添加另一个活动模板"
+      "tmplTaskLimitExceeded": "您已超出50个活动模板的限制。将未使用的模板状态设置为“未激活”以添加另一个活动模板",
+      "setupTmplTaskHasJobOrder": "任务模板数据在系统中存在于工单中"
     },
     "labelBE": {
       "profileTableColumnSetup": {
