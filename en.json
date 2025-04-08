@@ -16601,6 +16601,48 @@
             "plural": "Level 2 Approval Group",
             "setupEdit": false,
             "setupVisible": false
+          },
+          "requestorManagingGroup": {
+            "original": "Requestor's Managing Group (Level 2)",
+            "singular": "Requestor's Managing Group (Level 2)",
+            "plural": "Requestor's Managing Group (Level 2)",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "receiverLevelOneGroup": {
+            "original": "Receiver's Level 1 Group",
+            "singular": "Receiver's Level 1 Group",
+            "plural": "Receiver's Level 1 Group",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "receiverLevelTwoGroup": {
+            "original": "Receiver's Level 2 Group",
+            "singular": "Receiver's Level 2 Group",
+            "plural": "Receiver's Level 2 Group",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "levelOneMustApprove": {
+            "original": "Level 1 must approve before Level 2",
+            "singular": "Level 1 must approve before Level 2",
+            "plural": "Level 1 must approve before Level 2",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "levelTwoMustApprove": {
+            "original": "Level 2 must approve before Level 1",
+            "singular": "Level 2 must approve before Level 1",
+            "plural": "Level 2 must approve before Level 1",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "approvalDoneAnyOrder": {
+            "original": "Approvals can be done in any order",
+            "singular": "Approvals can be done in any order",
+            "plural": "Approvals can be done in any order",
+            "setupEdit": false,
+            "setupVisible": false
           }
         },
         "tooltips":{

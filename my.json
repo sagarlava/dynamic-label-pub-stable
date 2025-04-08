@@ -16601,6 +16601,48 @@
             "plural": "Kumpulan Kelulusan Tahap 2",
             "setupEdit": false,
             "setupVisible": false
+          },
+          "requestorManagingGroup": {
+            "original": "Requestor's Managing Group (Level 2)",
+            "singular": "Kumpulan Pengurusan Peminta (Tahap 2)",
+            "plural": "Kumpulan Pengurusan Peminta (Tahap 2)",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "receiverLevelOneGroup": {
+            "original": "Receiver's Level 1 Group",
+            "singular": "Kumpulan Tahap 1 Penerima",
+            "plural": "Kumpulan Tahap 1 Penerima",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "receiverLevelTwoGroup": {
+            "original": "Receiver's Level 2 Group",
+            "singular": "Kumpulan Tahap 2 Penerima",
+            "plural": "Kumpulan Tahap 2 Penerima",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "levelOneMustApprove": {
+            "original": "Level 1 must approve before Level 2",
+            "singular": "Tahap 1 mesti meluluskan sebelum Tahap 2",
+            "plural": "Tahap 1 mesti meluluskan sebelum Tahap 2",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "levelTwoMustApprove": {
+            "original": "Level 2 must approve before Level 1",
+            "singular": "Tahap 2 mesti meluluskan sebelum Tahap 1",
+            "plural": "Tahap 2 mesti meluluskan sebelum Tahap 1",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "approvalDoneAnyOrder": {
+            "original": "Approvals can be done in any order",
+            "singular": "Kelulusan boleh dilakukan dalam sebarang urutan",
+            "plural": "Kelulusan boleh dilakukan dalam sebarang urutan",
+            "setupEdit": false,
+            "setupVisible": false
           }
         },
         "tooltips":{

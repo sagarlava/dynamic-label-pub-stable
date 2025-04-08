@@ -16601,6 +16601,48 @@
             "plural": "Genehmigungsgruppe Stufe 2",
             "setupEdit": false,
             "setupVisible": false
+          },
+          "requestorManagingGroup": {
+            "original": "Requestor's Managing Group (Level 2)",
+            "singular": "Verwaltungsgruppe des Anforderers (Stufe 2)",
+            "plural": "Verwaltungsgruppe des Anforderers (Stufe 2)",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "receiverLevelOneGroup": {
+            "original": "Receiver's Level 1 Group",
+            "singular": "Empfänger Stufe 1 Gruppe",
+            "plural": "Empfänger Stufe 1 Gruppe",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "receiverLevelTwoGroup": {
+            "original": "Receiver's Level 2 Group",
+            "singular": "Empfänger Stufe 2 Gruppe",
+            "plural": "Empfänger Stufe 2 Gruppe",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "levelOneMustApprove": {
+            "original": "Level 1 must approve before Level 2",
+            "singular": "Stufe 1 muss vor Stufe 2 genehmigen",
+            "plural": "Stufe 1 muss vor Stufe 2 genehmigen",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "levelTwoMustApprove": {
+            "original": "Level 2 must approve before Level 1",
+            "singular": "Stufe 2 muss vor Stufe 1 genehmigen",
+            "plural": "Stufe 2 muss vor Stufe 1 genehmigen",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "approvalDoneAnyOrder": {
+            "original": "Approvals can be done in any order",
+            "singular": "Genehmigungen können in beliebiger Reihenfolge erfolgen",
+            "plural": "Genehmigungen können in beliebiger Reihenfolge erfolgen",
+            "setupEdit": false,
+            "setupVisible": false
           }
         },
         "tooltips":{

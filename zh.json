@@ -16601,6 +16601,48 @@
             "plural": "二级审批组",
             "setupEdit": false,
             "setupVisible": false
+          },
+          "requestorManagingGroup": {
+            "original": "Requestor's Managing Group (Level 2)",
+            "singular": "请求者的管理组（第 2 级）",
+            "plural": "请求者的管理组（第 2 级）",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "receiverLevelOneGroup": {
+            "original": "Receiver's Level 1 Group",
+            "singular": "接收者的第 1 级组",
+            "plural": "接收者的第 1 级组",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "receiverLevelTwoGroup": {
+            "original": "Receiver's Level 2 Group",
+            "singular": "接收者的第 2 级组",
+            "plural": "接收者的第 2 级组",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "levelOneMustApprove": {
+            "original": "Level 1 must approve before Level 2",
+            "singular": "第 1 级必须在第 2 级之前批准",
+            "plural": "第 1 级必须在第 2 级之前批准",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "levelTwoMustApprove": {
+            "original": "Level 2 must approve before Level 1",
+            "singular": "第 2 级必须在第 1 级之前批准",
+            "plural": "第 2 级必须在第 1 级之前批准",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "approvalDoneAnyOrder": {
+            "original": "Approvals can be done in any order",
+            "singular": "审批可按任意顺序进行",
+            "plural": "审批可按任意顺序进行",
+            "setupEdit": false,
+            "setupVisible": false
           }
         },
         "tooltips":{
