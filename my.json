@@ -16711,7 +16711,10 @@
           "approvalOrder":"Urutan Kelulusan",
           "requiredApprovers":"Pemeriksa Dikehendaki",
           "fromBinSource":"Dari Bin (Sumber)",
-          "toBinDestination":"Ke Bin (Destinasi)"
+          "toBinDestination":"Ke Bin (Destinasi)",
+          "selectWhoNeedsToApprove":"Pilih siapa yang perlu meluluskan nota permohonan",
+          "defineSequenceApprovalOccur":"Tetapkan urutan di mana kelulusan mesti berlaku",
+          "theseSettingsDetermineOverallFlow":"Tetapan ini menentukan aliran keseluruhan untuk semua nota permohonan dalam sistem"
         }
       }
     },

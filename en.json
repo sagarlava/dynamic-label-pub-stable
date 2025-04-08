@@ -16711,7 +16711,10 @@
           "approvalOrder":"Approval Order",
           "requiredApprovers":"Required Approvers",
           "fromBinSource":"From Bin (Source)",
-          "toBinDestination":"To Bin (Destination)"
+          "toBinDestination":"To Bin (Destination)",
+          "selectWhoNeedsToApprove":"Select who needs to approve the requisition note",
+          "defineSequenceApprovalOccur":"Define the sequence in which approvals must occur",
+          "theseSettingsDetermineOverallFlow":"These settings determine the overall flow for all requisition notes in the system"
         }
       }
     },

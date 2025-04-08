@@ -16711,7 +16711,10 @@
           "approvalOrder":"Orden de aprobación",
           "requiredApprovers":"Aprobadores requeridos",
           "fromBinSource":"Desde contenedor (origen)",
-          "toBinDestination":"A contenedor (destino)"
+          "toBinDestination":"A contenedor (destino)",
+          "selectWhoNeedsToApprove":"Seleccione quién necesita aprobar la nota de requisición",
+          "defineSequenceApprovalOccur":"Defina la secuencia en la que deben ocurrir las aprobaciones",
+          "theseSettingsDetermineOverallFlow":"Estas configuraciones determinan el flujo general de todas las notas de requisición en el sistema"
         }
       }
     },

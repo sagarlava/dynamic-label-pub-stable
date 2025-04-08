@@ -16711,7 +16711,10 @@
           "approvalOrder":"审批顺序",
           "requiredApprovers":"所需审批人",
           "fromBinSource":"从存储箱（来源）",
-          "toBinDestination":"到存储箱（目的地）"
+          "toBinDestination":"到存储箱（目的地）",
+          "selectWhoNeedsToApprove":"选择谁需要审批该申请单",
+          "defineSequenceApprovalOccur":"定义审批必须发生的顺序",
+          "theseSettingsDetermineOverallFlow":"这些设置决定系统中所有申请单的整体流程"
         }
       }
     },

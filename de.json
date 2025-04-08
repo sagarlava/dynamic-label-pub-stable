@@ -16711,7 +16711,10 @@
           "approvalOrder":"Genehmigungsreihenfolge",
           "requiredApprovers":"Erforderliche Genehmiger",
           "fromBinSource":"Aus Behälter (Quelle)",
-          "toBinDestination":"In Behälter (Ziel)"
+          "toBinDestination":"In Behälter (Ziel)",
+          "selectWhoNeedsToApprove":"Wählen Sie aus, wer die Anforderungsnotiz genehmigen muss",
+          "defineSequenceApprovalOccur":"Definieren Sie die Reihenfolge, in der Genehmigungen erfolgen müssen",
+          "theseSettingsDetermineOverallFlow":"Diese Einstellungen bestimmen den gesamten Ablauf aller Anforderungsnotizen im System"
         }
       } 
     },
