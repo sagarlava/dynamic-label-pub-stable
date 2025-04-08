@@ -16602,6 +16602,24 @@
             "setupEdit": false,
             "setupVisible": false
           }
+        },
+        "tooltips":{
+          "setupEdit": false,
+          "setupVisible": false,
+          "configureApproval": {
+            "original": "Configure approval settings",
+            "singular": "配置审批设置",
+            "plural": "配置审批设置",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "howApprovalWork": {
+            "original": "How requisition approvals work",
+            "singular": "申请审批如何运作",
+            "plural": "申请审批如何运作",
+            "setupEdit": false,
+            "setupVisible": false
+          }
         }
       }
     },

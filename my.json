@@ -16602,6 +16602,24 @@
             "setupEdit": false,
             "setupVisible": false
           }
+        },
+        "tooltips":{
+          "setupEdit": false,
+          "setupVisible": false,
+          "configureApproval": {
+            "original": "Configure approval settings",
+            "singular": "Konfigurasikan tetapan kelulusan",
+            "plural": "Konfigurasikan tetapan kelulusan",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "howApprovalWork": {
+            "original": "How requisition approvals work",
+            "singular": "Bagaimana kelulusan permohonan berfungsi",
+            "plural": "Bagaimana kelulusan permohonan berfungsi",
+            "setupEdit": false,
+            "setupVisible": false
+          }
         }
       }
     },

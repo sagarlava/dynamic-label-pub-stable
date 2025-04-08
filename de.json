@@ -16602,6 +16602,24 @@
             "setupEdit": false,
             "setupVisible": false
           }
+        },
+        "tooltips":{
+          "setupEdit": false,
+          "setupVisible": false,
+          "configureApproval": {
+            "original": "Configure approval settings",
+            "singular": "Genehmigungseinstellungen konfigurieren",
+            "plural": "Genehmigungseinstellungen konfigurieren",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "howApprovalWork": {
+            "original": "How requisition approvals work",
+            "singular": "Wie Anforderungsfreigaben funktionieren",
+            "plural": "Wie Anforderungsfreigaben funktionieren",
+            "setupEdit": false,
+            "setupVisible": false
+          }
         }
       } 
     },

@@ -16602,6 +16602,24 @@
             "setupEdit": false,
             "setupVisible": false
           }
+        },
+        "tooltips":{
+          "setupEdit": false,
+          "setupVisible": false,
+          "configureApproval": {
+            "original": "Configure approval settings",
+            "singular": "Configurar ajustes de aprobación",
+            "plural": "Configurar ajustes de aprobación",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "howApprovalWork": {
+            "original": "How requisition approvals work",
+            "singular": "Cómo funcionan las aprobaciones de requisición",
+            "plural": "Cómo funcionan las aprobaciones de requisición",
+            "setupEdit": false,
+            "setupVisible": false
+          }
         }
       }
     },
