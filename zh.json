@@ -16605,6 +16605,13 @@
             "plural": "审批顺序",
             "setupEdit": false,
             "setupVisible": false
+          },
+          "sec4": {
+            "original": "How it Works",
+            "singular": "运作方式",
+            "plural": "运作方式",
+            "setupEdit": false,
+            "setupVisible": false
           }
         },
         "fields":{
@@ -16688,6 +16695,13 @@
             "original": "How requisition approvals work",
             "singular": "申请审批如何运作",
             "plural": "申请审批如何运作",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "howConsignmentApprovalWork": {
+            "original": "How consignment approvals work",
+            "singular": "托运审批如何运作",
+            "plural": "托运审批如何运作",
             "setupEdit": false,
             "setupVisible": false
           }

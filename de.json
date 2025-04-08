@@ -16605,6 +16605,13 @@
             "plural": "Genehmigungsreihenfolgen",
             "setupEdit": false,
             "setupVisible": false
+          },
+          "sec4": {
+            "original": "How it Works",
+            "singular": "Wie es funktioniert",
+            "plural": "Wie es funktioniert",
+            "setupEdit": false,
+            "setupVisible": false
           }
         },
         "fields":{
@@ -16688,6 +16695,13 @@
             "original": "How requisition approvals work",
             "singular": "Wie Anforderungsfreigaben funktionieren",
             "plural": "Wie Anforderungsfreigaben funktionieren",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "howConsignmentApprovalWork": {
+            "original": "How consignment approvals work",
+            "singular": "Wie Konsignationsgenehmigungen funktionieren",
+            "plural": "Wie Konsignationsgenehmigungen funktionieren",
             "setupEdit": false,
             "setupVisible": false
           }

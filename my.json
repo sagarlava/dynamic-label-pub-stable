@@ -16605,6 +16605,13 @@
             "plural": "Urutan Kelulusan",
             "setupEdit": false,
             "setupVisible": false
+          },
+          "sec4": {
+            "original": "How it Works",
+            "singular": "Cara Ia Berfungsi",
+            "plural": "Cara Ia Berfungsi",
+            "setupEdit": false,
+            "setupVisible": false
           }
         },
         "fields":{
@@ -16688,6 +16695,13 @@
             "original": "How requisition approvals work",
             "singular": "Bagaimana kelulusan permohonan berfungsi",
             "plural": "Bagaimana kelulusan permohonan berfungsi",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "howConsignmentApprovalWork": {
+            "original": "How consignment approvals work",
+            "singular": "Bagaimana kelulusan konsainan berfungsi",
+            "plural": "Bagaimana kelulusan konsainan berfungsi",
             "setupEdit": false,
             "setupVisible": false
           }

@@ -16605,6 +16605,13 @@
             "plural": "Órdenes de aprobación",
             "setupEdit": false,
             "setupVisible": false
+          },
+          "sec4": {
+            "original": "How it Works",
+            "singular": "Cómo funciona",
+            "plural": "Cómo funciona",
+            "setupEdit": false,
+            "setupVisible": false
           }
         },
         "fields":{
@@ -16688,6 +16695,13 @@
             "original": "How requisition approvals work",
             "singular": "Cómo funcionan las aprobaciones de requisición",
             "plural": "Cómo funcionan las aprobaciones de requisición",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "howConsignmentApprovalWork": {
+            "original": "How consignment approvals work",
+            "singular": "Cómo funcionan las aprobaciones de consignación",
+            "plural": "Cómo funcionan las aprobaciones de consignación",
             "setupEdit": false,
             "setupVisible": false
           }

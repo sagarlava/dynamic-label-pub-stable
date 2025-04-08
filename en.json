@@ -16605,6 +16605,13 @@
             "plural": "Approval Order",
             "setupEdit": false,
             "setupVisible": false
+          },
+          "sec4": {
+            "original": "How it Works",
+            "singular": "How it Works",
+            "plural": "How it Works",
+            "setupEdit": false,
+            "setupVisible": false
           }
         },
         "fields":{
@@ -16688,6 +16695,13 @@
             "original": "How requisition approvals work",
             "singular": "How requisition approvals work",
             "plural": "How requisition approvals work",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "howConsignmentApprovalWork": {
+            "original": "How consignment approvals work",
+            "singular": "How consignment approvals work",
+            "plural": "How consignment approvals work",
             "setupEdit": false,
             "setupVisible": false
           }
