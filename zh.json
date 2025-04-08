@@ -10682,6 +10682,13 @@
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
+      },
+      "includeChildAsset": {
+        "original": "Includes child assets of selected assets in the transfer. Only child assets in the same bin as their parent will be included.",
+        "singular": "在转移中包含所选资产的子资产。仅包括与其父资产位于同一存储箱中的子资产",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "validationFE": {
@@ -10914,6 +10921,13 @@
         "original": "Pending My Approval",
         "singular": "待我审批",
         "plural": "待我审批",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "sec23": {
+        "original": "Edit Requisition Note",
+        "singular": "编辑申请单",
+        "plural": "编辑申请单",
         "setupEdit": true,
         "setupVisible": true
       }
@@ -11267,6 +11281,13 @@
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
+      },
+      "includeChildAsset": {
+        "original": "Includes child assets of selected assets in the transfer. Only child assets in the same bin as their parent will be included.",
+        "singular": "在转移中包含所选资产的子资产。仅包括与其父资产位于同一存储箱中的子资产",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "validationFE": {
@@ -11307,7 +11328,7 @@
       "whatWouldYouLikeRequest":"您想要请求什么?",
       "defineCustomListOfItems":"定义要请求的自定义项目列表",
       "specificAssets":"特定资产",
-      "assetsByType":"按类型分类的资产",
+      "requestByType":"按类型请求",
       "requestFromBin":"从存储箱请求",
       "requestAnyAvailable":"请求任何可用的",
       "chooseThisSerialNumber":"如果您知道存储箱和资产的序列号，请选择此选项。",
@@ -11338,7 +11359,14 @@
       "youCanProceedToTransfer":"您现在可以继续转移所选物品。",
       "hasCreatedRequisitionNote":"已创建申请单",
       "andIsWaitingApproval":"并正在等待您的审批",
-      "from":"来自"
+      "from":"来自",
+      "selectAssetToRequest":"选择要请求的资产",
+      "selectSparePartToRequest":"选择要请求的备件",
+      "selectItemsToRequest":"选择要请求的项目",
+      "includeChildAsset":"包括子资产",
+      "selectAssetWishToTransfer":"选择您想要转移的资产",
+      "selectSparePartWishToTransfer":"选择您想要转移的备件",
+      "selectItemsWishToTransfer":"选择您想要转移的项目"
     }
   },
   "contacts": {
@@ -14313,7 +14341,8 @@
       "pleaseSignBeforeProceed": "请签名后继续",
       "charactersExceed": "文本超过字符限制（255）。",
       "endDateThanStartDate": "结束日期必须在开始日期之后",
-      "thisFieldIsRequired":"此字段为必填项"
+      "thisFieldIsRequired":"此字段为必填项",
+      "pleaseMakeOneSelection":"请选择一项以继续"
     },
     "validationBE": {
       "sendGridEmailTenantReferenceIdExists": "新的Send Grid电子邮件租户引用不能已有ID",
@@ -16566,6 +16595,190 @@
         "messages": {
           "searchUsers": "搜索用户",
           "selectType": "选择类型"
+        }
+      },
+      "approval": {
+        "setupEdit": false,
+        "setupVisible": false,
+        "label": {
+          "original": "Approvals",
+          "singular": "审批",
+          "plural": "审批",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "sections":{
+          "setupEdit": false,
+          "setupVisible": false,
+          "sec0": {
+            "original": "Create New Approval Relationship",
+            "singular": "创建新的审批关系",
+            "plural": "创建新的审批关系",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec1": {
+            "original": "Note Configuration",
+            "singular": "单据配置",
+            "plural": "单据配置",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec2": {
+            "original": "Required Approvers",
+            "singular": "所需审批人",
+            "plural": "所需审批人",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec3": {
+            "original": "Approval Order",
+            "singular": "审批顺序",
+            "plural": "审批顺序",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec4": {
+            "original": "How it Works",
+            "singular": "运作方式",
+            "plural": "运作方式",
+            "setupEdit": false,
+            "setupVisible": false
+          }
+        },
+        "fields":{
+          "setupEdit": false,
+          "setupVisible": false,
+          "levelOneApprovalGroup": {
+            "original": "Level 1 Approval Group",
+            "singular": "一级审批组",
+            "plural": "一级审批组",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "levelTwoApprovalGroup": {
+            "original": "Level 2 Approval Group",
+            "singular": "二级审批组",
+            "plural": "二级审批组",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "requestorManagingGroup": {
+            "original": "Requestor's Managing Group (Level 2)",
+            "singular": "请求者的管理组（第 2 级）",
+            "plural": "请求者的管理组（第 2 级）",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "senderManagingGroup": {
+            "original": "Sender's Managing Group (Level 2)",
+            "singular": "发送方的管理组（第 2 级）",
+            "plural": "发送方的管理组（第 2 级）",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "receiverLevelOneGroup": {
+            "original": "Receiver's Level 1 Group",
+            "singular": "接收者的第 1 级组",
+            "plural": "接收者的第 1 级组",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "receiverLevelTwoGroup": {
+            "original": "Receiver's Level 2 Group",
+            "singular": "接收者的第 2 级组",
+            "plural": "接收者的第 2 级组",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "levelOneMustApprove": {
+            "original": "Level 1 must approve before Level 2",
+            "singular": "第 1 级必须在第 2 级之前批准",
+            "plural": "第 1 级必须在第 2 级之前批准",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "levelTwoMustApprove": {
+            "original": "Level 2 must approve before Level 1",
+            "singular": "第 2 级必须在第 1 级之前批准",
+            "plural": "第 2 级必须在第 1 级之前批准",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "approvalDoneAnyOrder": {
+            "original": "Approvals can be done in any order",
+            "singular": "审批可按任意顺序进行",
+            "plural": "审批可按任意顺序进行",
+            "setupEdit": false,
+            "setupVisible": false
+          }
+        },
+        "tooltips":{
+          "setupEdit": false,
+          "setupVisible": false,
+          "configureApproval": {
+            "original": "Configure approval settings",
+            "singular": "配置审批设置",
+            "plural": "配置审批设置",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "howApprovalWork": {
+            "original": "How requisition approvals work",
+            "singular": "申请审批如何运作",
+            "plural": "申请审批如何运作",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "howConsignmentApprovalWork": {
+            "original": "How consignment approvals work",
+            "singular": "托运审批如何运作",
+            "plural": "托运审批如何运作",
+            "setupEdit": false,
+            "setupVisible": false
+          }
+        },
+        "messages":{
+          "eachRelationshipConnectsLevel":"每个关系连接一个一级审批组和一个二级审批组。这些级别代表 FieldEx 中申请单的不同审批阶段。",
+          "eachRelationshipConnectsLevelConsignment":"每个关系连接一个一级审批组和一个二级审批组。这些级别代表 FieldEx 中托运单的不同审批阶段。",
+          "systemConfigLetsYouDefine":"系统配置允许您定义",
+          "approvalsSpecificSequence":"审批是否必须按特定顺序进行，或可以按任意顺序进行",
+          "groupsProvideApproval":"哪些组需要为申请单提供审批",
+          "groupsProvideApprovalConsignment":"哪些组需要为托运单提供审批",
+          "approvalsDeterminedByGroups":"审批由负责存储箱所在区域的组决定",
+          "ifFromBin":"如果来自存储箱",
+          "levelTwoInCharge":"负责包含该区域的组的二级审批组",
+          "willNeedToApprove":"需要审批",
+          "basedOnConfigurationSettings":"根据您的配置设置，负责发送方存储箱所在区域的组和/或其二级组需要审批",
+          "basedOnConfigurationSettingsDestination":"根据您的配置设置，负责目的地存储箱所在区域的组和/或该组的二级组需要审批",
+          "userCreatesRequisitionNote":"当用户创建申请单时",
+          "userCreatesConsignmentNote":"当用户创建托运单时",
+          "determinesZoneBinsBelong":"FieldEx 会确定所选存储箱属于哪个区域",
+          "basedOnZoneOwnership":"根据区域归属，系统识别需要审批的组",
+          "approvalsRoutedAccordingToOrder":"审批将根据您指定的顺序进行（如有）",
+          "requisitionOnlyProcessAfterApprovals":"申请单仅在收到所有所需审批后处理",
+          "consignmentOnlyProcessAfterApprovals":"托运单仅在收到所有所需审批后处理",
+          "eachGroupOnlyLvlOne":"每个组只能处于一个一级审批关系中",
+          "lvlOnelvlTwoNotTheSameGroup":"一级和二级不能是同一个组",
+          "atLeastOneApprovalIsRequired":"任何申请单都至少需要一个审批",
+          "atLeastOneApprovalIsRequiredConsignment":"任何托运单都至少需要一个审批",
+          "binLocationDetermineGroupInvolved":"存储箱的位置决定了参与审批的组",
+          "settingUpApprovalRelationships":"设置审批关系",
+          "systemConfiguration":"系统配置",
+          "howBinsAffectApprovalFlow":"存储箱如何影响审批流程",
+          "howRequisitionNotesProcessed":"申请单如何被处理",
+          "howConsignmentNotesProcessed":"托运单如何被处理",
+          "importantRules":"重要规则",
+          "approvalOrder":"审批顺序",
+          "requiredApprovers":"所需审批人",
+          "fromBinSource":"从存储箱（来源）",
+          "toBinDestination":"到存储箱（目的地）",
+          "selectWhoNeedsToApprove":"选择谁需要审批该申请单",
+          "selectWhoNeedsToApproveConsignment":"选择谁需要审批该托运单",
+          "defineSequenceApprovalOccur":"定义审批必须发生的顺序",
+          "theseSettingsDetermineOverallFlow":"这些设置决定系统中所有申请单的整体流程",
+          "theseSettingsDetermineOverallFlowConsignment":"这些设置决定系统中所有托运单的整体流程",
+          "selectGroup":"选择组"
         }
       }
     },

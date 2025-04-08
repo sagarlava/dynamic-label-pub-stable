@@ -10682,6 +10682,13 @@
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
+      },
+      "includeChildAsset": {
+        "original": "Includes child assets of selected assets in the transfer. Only child assets in the same bin as their parent will be included.",
+        "singular": "Incluye los activos secundarios de los activos seleccionados en la transferencia. Solo se incluirán los activos secundarios que estén en el mismo contenedor que su principal.",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "validationFE": {
@@ -10914,6 +10921,13 @@
         "original": "Pending My Approval",
         "singular": "Pendiente de mi aprobación",
         "plural": "Pendiente de mi aprobación",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "sec23": {
+        "original": "Edit Requisition Note",
+        "singular": "Editar nota de requisición",
+        "plural": "Editar notas de requisición",
         "setupEdit": true,
         "setupVisible": true
       }
@@ -11267,6 +11281,13 @@
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
+      },
+      "includeChildAsset": {
+        "original": "Includes child assets of selected assets in the transfer. Only child assets in the same bin as their parent will be included.",
+        "singular": "Incluye los activos secundarios de los activos seleccionados en la transferencia. Solo se incluirán los activos secundarios que estén en el mismo contenedor que su principal.",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "validationFE": {
@@ -11307,7 +11328,7 @@
       "whatWouldYouLikeRequest":"¿Qué le gustaría solicitar?",
       "defineCustomListOfItems":"Defina una lista personalizada de artículos para solicitar",
       "specificAssets":"Activos específicos",
-      "assetsByType":"Activos por tipo",
+      "requestByType":"Solicitud por tipo",
       "requestFromBin":"Solicitar desde contenedor",
       "requestAnyAvailable":"Solicitar cualquier disponible",
       "chooseThisSerialNumber":"Elija esto si conoce el número de serie del contenedor y del activo.",
@@ -11338,7 +11359,14 @@
       "youCanProceedToTransfer":"Ahora puede proceder con la transferencia de los artículos seleccionados.",
       "hasCreatedRequisitionNote":"ha creado una Nota de Requisición",
       "andIsWaitingApproval":"y está esperando su aprobación",
-      "from":"de"
+      "from":"de",
+      "selectAssetToRequest":"Seleccione los activos a solicitar",
+      "selectSparePartToRequest":"Seleccione los repuestos a solicitar",
+      "selectItemsToRequest":"Seleccione los artículos a solicitar",
+      "includeChildAsset":"Incluir activo secundario",
+      "selectAssetWishToTransfer":"Seleccione los activos que desea transferir",
+      "selectSparePartWishToTransfer":"Seleccione los repuestos que desea transferir",
+      "selectItemsWishToTransfer":"Seleccione los artículos que desea transferir"
     }
   },
   "contacts": {
@@ -14313,7 +14341,8 @@
       "pleaseSignBeforeProceed": "Por favor, firme antes de continuar",
       "charactersExceed": "El texto excede el límite de caracteres (255).",
       "endDateThanStartDate": "La fecha de finalización debe ser posterior a la fecha de inicio",
-      "thisFieldIsRequired":"Este campo es obligatorio"
+      "thisFieldIsRequired":"Este campo es obligatorio",
+      "pleaseMakeOneSelection":"Por favor, haga una selección para continuar"
     },
     "validationBE": {
       "sendGridEmailTenantReferenceIdExists": "Una nueva referencia de inquilino de correo electrónico de Send Grid no puede tener ya un ID",
@@ -16566,6 +16595,190 @@
         "messages": {
           "searchUsers": "Buscar Usuarios",
           "selectType": "Seleccionar Tipo"
+        }
+      },
+      "approval": {
+        "setupEdit": false,
+        "setupVisible": false,
+        "label": {
+          "original": "Approvals",
+          "singular": "Aprobación",
+          "plural": "Aprobaciónes",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "sections":{
+          "setupEdit": false,
+          "setupVisible": false,
+          "sec0": {
+            "original": "Create New Approval Relationship",
+            "singular": "Crear nueva relación de aprobación",
+            "plural": "Crear nueva relación de aprobación",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec1": {
+            "original": "Note Configuration",
+            "singular": "Configuración de nota",
+            "plural": "Configuración de nota",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec2": {
+            "original": "Required Approvers",
+            "singular": "Aprobadores requeridos",
+            "plural": "Aprobadores requeridos",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec3": {
+            "original": "Approval Order",
+            "singular": "Orden de aprobación",
+            "plural": "Órdenes de aprobación",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec4": {
+            "original": "How it Works",
+            "singular": "Cómo funciona",
+            "plural": "Cómo funciona",
+            "setupEdit": false,
+            "setupVisible": false
+          }
+        },
+        "fields":{
+          "setupEdit": false,
+          "setupVisible": false,
+          "levelOneApprovalGroup": {
+            "original": "Level 1 Approval Group",
+            "singular": "Grupo de aprobación nivel 1",
+            "plural": "Grupo de aprobación nivel 1",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "levelTwoApprovalGroup": {
+            "original": "Level 2 Approval Group",
+            "singular": "Grupo de aprobación nivel 2",
+            "plural": "Grupo de aprobación nivel 2",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "requestorManagingGroup": {
+            "original": "Requestor's Managing Group (Level 2)",
+            "singular": "Grupo de gestión del solicitante (Nivel 2)",
+            "plural": "Grupo de gestión del solicitante (Nivel 2)",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "senderManagingGroup": {
+            "original": "Sender's Managing Group (Level 2)",
+            "singular": "Grupos de gestión del remitente (Nivel 2)",
+            "plural": "Grupos de gestión del remitente (Nivel 2)",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "receiverLevelOneGroup": {
+            "original": "Receiver's Level 1 Group",
+            "singular": "Grupo de Nivel 1 del receptor",
+            "plural": "Grupo de Nivel 1 del receptor",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "receiverLevelTwoGroup": {
+            "original": "Receiver's Level 2 Group",
+            "singular": "Grupo de Nivel 2 del receptor",
+            "plural": "Grupo de Nivel 2 del receptor",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "levelOneMustApprove": {
+            "original": "Level 1 must approve before Level 2",
+            "singular": "Nivel 1 debe aprobar antes que el Nivel 2",
+            "plural": "Nivel 1 debe aprobar antes que el Nivel 2",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "levelTwoMustApprove": {
+            "original": "Level 2 must approve before Level 1",
+            "singular": "Nivel 2 debe aprobar antes que el Nivel 1",
+            "plural": "Nivel 2 debe aprobar antes que el Nivel 1",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "approvalDoneAnyOrder": {
+            "original": "Approvals can be done in any order",
+            "singular": "Las aprobaciones se pueden hacer en cualquier orden",
+            "plural": "Las aprobaciones se pueden hacer en cualquier orden",
+            "setupEdit": false,
+            "setupVisible": false
+          }
+        },
+        "tooltips":{
+          "setupEdit": false,
+          "setupVisible": false,
+          "configureApproval": {
+            "original": "Configure approval settings",
+            "singular": "Configurar ajustes de aprobación",
+            "plural": "Configurar ajustes de aprobación",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "howApprovalWork": {
+            "original": "How requisition approvals work",
+            "singular": "Cómo funcionan las aprobaciones de requisición",
+            "plural": "Cómo funcionan las aprobaciones de requisición",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "howConsignmentApprovalWork": {
+            "original": "How consignment approvals work",
+            "singular": "Cómo funcionan las aprobaciones de consignación",
+            "plural": "Cómo funcionan las aprobaciones de consignación",
+            "setupEdit": false,
+            "setupVisible": false
+          }
+        },
+        "messages":{
+          "eachRelationshipConnectsLevel":"Cada relación conecta un grupo de aprobación de Nivel 1 con uno de Nivel 2. Estos niveles representan diferentes etapas de aprobación para notas de requisición en FieldEx.",
+          "eachRelationshipConnectsLevelConsignment":"Cada relación conecta un grupo de aprobación de Nivel 1 con uno de Nivel 2. Estos niveles representan diferentes etapas de aprobación para notas de consignación en FieldEx.",
+          "systemConfigLetsYouDefine":"La configuración del sistema le permite definir",
+          "approvalsSpecificSequence":"Si las aprobaciones deben realizarse en una secuencia específica o pueden hacerse en cualquier orden",
+          "groupsProvideApproval":"Qué grupos deben proporcionar aprobación para una nota de requisición",
+          "groupsProvideApprovalConsignment":"Qué grupos deben proporcionar aprobación para una nota de consignación",
+          "approvalsDeterminedByGroups":"Las aprobaciones están determinadas por los grupos a cargo de las zonas donde se encuentran los contenedores",
+          "ifFromBin":"Si es del contenedor",
+          "levelTwoInCharge":"El grupo de Nivel 2 del grupo a cargo de la zona que contiene",
+          "willNeedToApprove":"tendrá que aprobar",
+          "basedOnConfigurationSettings":"Según la configuración, el grupo responsable de la zona del contenedor del remitente y/o su grupo de Nivel 2 deberá aprobar",
+          "basedOnConfigurationSettingsDestination":"Según la configuración, el grupo responsable de la zona que contiene el contenedor de destino y/o su grupo de Nivel 2 deberá aprobar",
+          "userCreatesRequisitionNote":"Cuando un usuario crea una nota de requisición",
+          "userCreatesConsignmentNote":"Cuando un usuario crea una nota de consignación",
+          "determinesZoneBinsBelong":"FieldEx determina a qué zona pertenecen los contenedores seleccionados",
+          "basedOnZoneOwnership":"Según la propiedad de la zona, identifica qué grupos deben aprobar",
+          "approvalsRoutedAccordingToOrder":"Las aprobaciones se dirigen según el orden especificado (si lo hay)",
+          "requisitionOnlyProcessAfterApprovals":"La requisición solo se procesa después de recibir todas las aprobaciones requeridas",
+          "consignmentOnlyProcessAfterApprovals":"La nota de consignación solo se procesa después de recibir todas las aprobaciones requeridas",
+          "eachGroupOnlyLvlOne":"Cada grupo solo puede estar en una relación de Nivel 1",
+          "lvlOnelvlTwoNotTheSameGroup":"Nivel 1 y Nivel 2 no pueden ser el mismo grupo",
+          "atLeastOneApprovalIsRequired":"Se requiere al menos una aprobación para cualquier nota de requisición",
+          "atLeastOneApprovalIsRequiredConsignment":"Se requiere al menos una aprobación para cualquier nota de consignación",
+          "binLocationDetermineGroupInvolved":"La ubicación del contenedor determina qué grupos están involucrados en la aprobación",
+          "settingUpApprovalRelationships":"Configuración de relaciones de aprobación",
+          "systemConfiguration":"Configuración del sistema",
+          "howBinsAffectApprovalFlow":"Cómo los contenedores afectan el flujo de aprobación",
+          "howRequisitionNotesProcessed":"Cómo se procesan las notas de requisición",
+          "howConsignmentNotesProcessed":"Cómo se procesan las notas de consignación",
+          "importantRules":"Reglas importantes",
+          "approvalOrder":"Orden de aprobación",
+          "requiredApprovers":"Aprobadores requeridos",
+          "fromBinSource":"Desde contenedor (origen)",
+          "toBinDestination":"A contenedor (destino)",
+          "selectWhoNeedsToApprove":"Seleccione quién necesita aprobar la nota de requisición",
+          "selectWhoNeedsToApproveConsignment":"Seleccione quién necesita aprobar la nota de consignación",          
+          "defineSequenceApprovalOccur":"Defina la secuencia en la que deben ocurrir las aprobaciones",
+          "theseSettingsDetermineOverallFlow":"Estas configuraciones determinan el flujo general de todas las notas de requisición en el sistema",
+          "theseSettingsDetermineOverallFlowConsignment":"Estas configuraciones determinan el flujo general de todas las notas de consignación en el sistema",
+          "selectGroup":"Seleccionar grupo"
         }
       }
     },

@@ -10682,6 +10682,13 @@
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
+      },
+      "includeChildAsset": {
+        "original": "Includes child assets of selected assets in the transfer. Only child assets in the same bin as their parent will be included.",
+        "singular": "Termasuk aset anak kepada aset yang dipilih dalam pemindahan. Hanya aset anak yang berada dalam tong yang sama dengan induknya akan disertakan.",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "validationFE": {
@@ -10914,6 +10921,13 @@
         "original": "Pending My Approval",
         "singular": "Menunggu Kelulusan Saya",
         "plural": "Menunggu Kelulusan Saya",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "sec23": {
+        "original": "Edit Requisition Note",
+        "singular": "Edit Nota Permohonan",
+        "plural": "Edit Nota Permohonan",
         "setupEdit": true,
         "setupVisible": true
       }
@@ -11267,6 +11281,13 @@
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
+      },
+      "includeChildAsset": {
+        "original": "Includes child assets of selected assets in the transfer. Only child assets in the same bin as their parent will be included.",
+        "singular": "Termasuk aset anak kepada aset yang dipilih dalam pemindahan. Hanya aset anak yang berada dalam tong yang sama dengan induknya akan disertakan.",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "validationFE": {
@@ -11307,7 +11328,7 @@
       "whatWouldYouLikeRequest":"Apakah yang anda ingin minta?",
       "defineCustomListOfItems":"Tentukan senarai item tersuai untuk diminta",
       "specificAssets":"Aset Tertentu",
-      "assetsByType":"Aset mengikut Jenis",
+      "requestByType":"Permintaan mengikut Jenis",
       "requestFromBin":"Permintaan dari Bin",
       "requestAnyAvailable":"Minta Mana-mana yang Tersedia",
       "chooseThisSerialNumber":"Pilih ini jika anda tahu nombor siri bin dan aset.",
@@ -11338,7 +11359,14 @@
       "youCanProceedToTransfer":"Anda kini boleh meneruskan pemindahan item yang dipilih.",
       "hasCreatedRequisitionNote":"telah mencipta Nota Permohonan",
       "andIsWaitingApproval":"dan sedang menunggu kelulusan anda",
-      "from":"daripada"
+      "from":"daripada",
+      "selectAssetToRequest":"Pilih aset yang ingin diminta",
+      "selectSparePartToRequest":"Pilih alat ganti yang ingin diminta",
+      "selectItemsToRequest":"Pilih item yang ingin diminta",
+      "includeChildAsset":"Termasuk Aset Anak",
+      "selectAssetWishToTransfer":"Pilih aset yang anda ingin pindahkan",
+      "selectSparePartWishToTransfer":"Pilih alat ganti yang anda ingin pindahkan",
+      "selectItemsWishToTransfer":"Pilih item yang anda ingin pindahkan"
     }
   },
   "contacts": {
@@ -14313,7 +14341,8 @@
       "pleaseSignBeforeProceed": "Sila tandatangan sebelum meneruskan",
       "charactersExceed": "Teks melebihi had aksara (255).",
       "endDateThanStartDate": "Tarikh tamat mesti selepas tarikh mula",
-      "thisFieldIsRequired":"Medan ini diperlukan"
+      "thisFieldIsRequired":"Medan ini diperlukan",
+      "pleaseMakeOneSelection":"Sila buat satu pilihan untuk meneruskan"
     },
     "validationBE": {
       "sendGridEmailTenantReferenceIdExists": "Rujukan Penyewa E-mel Send Grid baru tidak boleh sudah mempunyai ID",
@@ -16566,6 +16595,190 @@
         "messages": {
           "searchUsers": "Cari Pengguna",
           "selectType": "Pilih Jenis"
+        }
+      },
+      "approval": {
+        "setupEdit": false,
+        "setupVisible": false,
+        "label": {
+          "original": "Approvals",
+          "singular": "Kelulusan",
+          "plural": "Kelulusan",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "sections":{
+          "setupEdit": false,
+          "setupVisible": false,
+          "sec0": {
+            "original": "Create New Approval Relationship",
+            "singular": "Cipta Perhubungan Kelulusan Baharu",
+            "plural": "Cipta Perhubungan Kelulusan Baharu",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec1": {
+            "original": "Note Configuration",
+            "singular": "Konfigurasi Nota",
+            "plural": "Konfigurasi Nota",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec2": {
+            "original": "Required Approvers",
+            "singular": "Pemeriksa Dikehendaki",
+            "plural": "Pemeriksa Dikehendaki",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec3": {
+            "original": "Approval Order",
+            "singular": "Urutan Kelulusan",
+            "plural": "Urutan Kelulusan",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec4": {
+            "original": "How it Works",
+            "singular": "Cara Ia Berfungsi",
+            "plural": "Cara Ia Berfungsi",
+            "setupEdit": false,
+            "setupVisible": false
+          }
+        },
+        "fields":{
+          "setupEdit": false,
+          "setupVisible": false,
+          "levelOneApprovalGroup": {
+            "original": "Level 1 Approval Group",
+            "singular": "Kumpulan Kelulusan Tahap 1",
+            "plural": "Kumpulan Kelulusan Tahap 1",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "levelTwoApprovalGroup": {
+            "original": "Level 2 Approval Group",
+            "singular": "Kumpulan Kelulusan Tahap 2",
+            "plural": "Kumpulan Kelulusan Tahap 2",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "requestorManagingGroup": {
+            "original": "Requestor's Managing Group (Level 2)",
+            "singular": "Kumpulan Pengurusan Peminta (Tahap 2)",
+            "plural": "Kumpulan Pengurusan Peminta (Tahap 2)",
+            "setupEdit": false,
+            "setupVisible": false
+          }, 
+          "senderManagingGroup": {
+            "original": "Sender's Managing Group (Level 2)",
+            "singular": "Kumpulan Pengurusan Penghantar (Tahap 2)",
+            "plural": "Kumpulan Pengurusan Penghantar (Tahap 2)",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "receiverLevelOneGroup": {
+            "original": "Receiver's Level 1 Group",
+            "singular": "Kumpulan Tahap 1 Penerima",
+            "plural": "Kumpulan Tahap 1 Penerima",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "receiverLevelTwoGroup": {
+            "original": "Receiver's Level 2 Group",
+            "singular": "Kumpulan Tahap 2 Penerima",
+            "plural": "Kumpulan Tahap 2 Penerima",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "levelOneMustApprove": {
+            "original": "Level 1 must approve before Level 2",
+            "singular": "Tahap 1 mesti meluluskan sebelum Tahap 2",
+            "plural": "Tahap 1 mesti meluluskan sebelum Tahap 2",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "levelTwoMustApprove": {
+            "original": "Level 2 must approve before Level 1",
+            "singular": "Tahap 2 mesti meluluskan sebelum Tahap 1",
+            "plural": "Tahap 2 mesti meluluskan sebelum Tahap 1",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "approvalDoneAnyOrder": {
+            "original": "Approvals can be done in any order",
+            "singular": "Kelulusan boleh dilakukan dalam sebarang urutan",
+            "plural": "Kelulusan boleh dilakukan dalam sebarang urutan",
+            "setupEdit": false,
+            "setupVisible": false
+          }
+        },
+        "tooltips":{
+          "setupEdit": false,
+          "setupVisible": false,
+          "configureApproval": {
+            "original": "Configure approval settings",
+            "singular": "Konfigurasikan tetapan kelulusan",
+            "plural": "Konfigurasikan tetapan kelulusan",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "howApprovalWork": {
+            "original": "How requisition approvals work",
+            "singular": "Bagaimana kelulusan permohonan berfungsi",
+            "plural": "Bagaimana kelulusan permohonan berfungsi",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "howConsignmentApprovalWork": {
+            "original": "How consignment approvals work",
+            "singular": "Bagaimana kelulusan konsainan berfungsi",
+            "plural": "Bagaimana kelulusan konsainan berfungsi",
+            "setupEdit": false,
+            "setupVisible": false
+          }
+        },
+        "messages":{
+          "eachRelationshipConnectsLevel":"Setiap perhubungan menghubungkan kumpulan kelulusan Tahap 1 dengan kumpulan kelulusan Tahap 2. Tahap ini mewakili peringkat kelulusan yang berbeza untuk nota permohonan dalam FieldEx.",
+          "eachRelationshipConnectsLevelConsignment":"Setiap perhubungan menghubungkan kumpulan kelulusan Tahap 1 dengan kumpulan kelulusan Tahap 2. Tahap ini mewakili peringkat kelulusan yang berbeza untuk nota konsainan dalam FieldEx",
+          "systemConfigLetsYouDefine":"Konfigurasi Sistem membolehkan anda menetapkan",
+          "approvalsSpecificSequence":"Sama ada kelulusan mesti dilakukan mengikut urutan tertentu atau boleh dilakukan dalam sebarang urutan",
+          "groupsProvideApproval":"Kumpulan mana yang perlu memberi kelulusan untuk nota permohonan",
+          "groupsProvideApprovalConsignment":"Kumpulan mana yang perlu memberi kelulusan untuk nota konsainan",
+          "approvalsDeterminedByGroups":"Kelulusan ditentukan oleh kumpulan yang bertanggungjawab ke atas zon tempat tong berada",
+          "ifFromBin":"Jika Dari Bin",
+          "levelTwoInCharge":"Kumpulan Tahap 2 bagi kumpulan yang mengurus zon yang mengandungi",
+          "willNeedToApprove":"perlu meluluskan",
+          "basedOnConfigurationSettings":"Berdasarkan tetapan konfigurasi anda, kumpulan yang bertanggungjawab ke atas zon yang mengandungi tong penghantar dan/atau kumpulan Tahap 2 kumpulan tersebut perlu meluluskan",
+          "basedOnConfigurationSettingsDestination":"Berdasarkan tetapan konfigurasi anda, kumpulan yang bertanggungjawab ke atas zon yang mengandungi tong destinasi dan/atau kumpulan Tahap 2 kumpulan tersebut perlu meluluskan",
+          "userCreatesRequisitionNote":"Apabila pengguna mencipta nota permohonan",
+          "userCreatesConsignmentNote":"Apabila pengguna mencipta nota konsainan",
+          "determinesZoneBinsBelong":"FieldEx menentukan zon mana tong-tong yang dipilih berada",
+          "basedOnZoneOwnership":"Berdasarkan pemilikan zon, ia mengenal pasti kumpulan yang perlu meluluskan",
+          "approvalsRoutedAccordingToOrder":"Kelulusan disalurkan mengikut susunan yang anda tetapkan (jika ada)",
+          "requisitionOnlyProcessAfterApprovals":"Nota permohonan hanya akan diproses selepas semua kelulusan yang diperlukan diterima",
+          "consignmentOnlyProcessAfterApprovals":"Nota konsainan hanya akan diproses selepas semua kelulusan yang diperlukan diterima",
+          "eachGroupOnlyLvlOne":"Setiap kumpulan hanya boleh berada dalam satu perhubungan Tahap 1",
+          "lvlOnelvlTwoNotTheSameGroup":"Tahap 1 dan Tahap 2 tidak boleh kumpulan yang sama",
+          "atLeastOneApprovalIsRequired":"Sekurang-kurangnya satu kelulusan diperlukan untuk mana-mana nota permohonan",
+          "atLeastOneApprovalIsRequiredConsignment":"Sekurang-kurangnya satu kelulusan diperlukan untuk mana-mana nota konsainan",
+          "binLocationDetermineGroupInvolved":"Lokasi bin menentukan kumpulan yang terlibat dalam proses kelulusan",
+          "settingUpApprovalRelationships":"Menetapkan Perhubungan Kelulusan",
+          "systemConfiguration":"Konfigurasi Sistem",
+          "howBinsAffectApprovalFlow":"Bagaimana Bin Mempengaruhi Aliran Kelulusan",
+          "howRequisitionNotesProcessed":"Bagaimana Nota Permohonan Diproses",
+          "howConsignmentNotesProcessed":"Bagaimana Nota Konsainan Diproses",
+          "importantRules":"Peraturan Penting",
+          "approvalOrder":"Urutan Kelulusan",
+          "requiredApprovers":"Pemeriksa Dikehendaki",
+          "fromBinSource":"Dari Bin (Sumber)",
+          "toBinDestination":"Ke Bin (Destinasi)",
+          "selectWhoNeedsToApprove":"Pilih siapa yang perlu meluluskan nota permohonan",
+          "selectWhoNeedsToApproveConsignment":"Pilih siapa yang perlu meluluskan nota konsainan",
+          "defineSequenceApprovalOccur":"Tetapkan urutan di mana kelulusan mesti berlaku",
+          "theseSettingsDetermineOverallFlow":"Tetapan ini menentukan aliran keseluruhan untuk semua nota permohonan dalam sistem",
+          "theseSettingsDetermineOverallFlowConsignment":"Tetapan ini menentukan aliran keseluruhan untuk semua nota konsainan dalam sistem",
+          "selectGroup":"Pilih Kumpulan"
         }
       }
     },
