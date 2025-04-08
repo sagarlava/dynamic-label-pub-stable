@@ -23112,7 +23112,8 @@
       "setupWorkflowEmailUserMax": "Se alcanzó el número máximo de usuarios permitidos para notificaciones de flujo de trabajo",
       "setupWorkflowEmailUserGroupMax": "Se alcanzó el número máximo de usuarios permitidos para notificaciones de flujo de trabajo",
       "setupTmplJobOrderLimitReached":"Has superado el límite de 50 plantillas activas. Cambia el estado de una plantilla no utilizada a 'Inactiva' para agregar otra plantilla activa.",
-      "tmplTaskLimitExceeded":"Has superado el límite de 50 plantillas activas. Cambia el estado de una plantilla no utilizada a 'Inactiva' para agregar otra plantilla activa."
+      "tmplTaskLimitExceeded":"Has superado el límite de 50 plantillas activas. Cambia el estado de una plantilla no utilizada a 'Inactiva' para agregar otra plantilla activa.",
+      "setupTmplTaskHasJobOrder": "No se puede eliminar: La plantilla se utiliza en una o más órdenes de trabajo"
     },
     "labelBE": {
       "profileTableColumnSetup": {
