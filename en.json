@@ -16662,6 +16662,35 @@
             "setupEdit": false,
             "setupVisible": false
           }
+        },
+        "messages":{
+          "eachRelationshipConnectsLevel":"Each relationship connects a Level 1 approval group with a Level 2 approval group. These levels represent different approval stages for requisition notes in FieldEx.",
+          "systemConfigLetsYouDefine":"The System Configuration lets you define",
+          "approvalsSpecificSequence":"Whether approvals must happen in a specific sequence or can be done in any order",
+          "groupsProvideApproval":"Which groups need to provide approval for a requisition note",
+          "approvalsDeterminedByGroups":"Approvals are determined by the groups in charge of the zones where bins are located",
+          "ifFromBin":"If From Bin",
+          "levelTwoInCharge":"The Level 2 group of the group in charge of the zone containing",
+          "willNeedToApprove":"will need to approve",
+          "basedOnConfigurationSettings":"Based on your configuration settings, the group in charge of the zone containing the sender’s bin and/or that group's Level 2 will need to approve",
+          "userCreatesRequisitionNote":"When a user creates a requisition note",
+          "determinesZoneBinsBelong":"FieldEx determines which zone the selected bins belong to",
+          "basedOnZoneOwnership":"Based on zone ownership, it identifies which groups need to approve",
+          "approvalsRoutedAccordingToOrder":"Approvals are routed according to your specified order (if any)",
+          "requisitionOnlyProcessAfterApprovals":"The requisition is only processed after all required approvals are received",
+          "eachGroupOnlyLvlOne":"Each group can only be in one Level 1 relationship",
+          "lvlOnelvlTwoNotTheSameGroup":"Level 1 and Level 2 cannot be the same group",
+          "atLeastOneApprovalIsRequired":"At least one approval is required for any requisition note",
+          "binLocationDetermineGroupInvolved":"Bin locations determine which groups are involved in the approval process",
+          "settingUpApprovalRelationships":"Setting Up Approval Relationships",
+          "systemConfiguration":"System Configuration",
+          "howBinsAffectApprovalFlow":"How Bins Affect Approval Flow",
+          "howRequisitionNotesProcessed":"How Requisition Notes are Processed",
+          "importantRules":"Important Rules",
+          "approvalOrder":"Approval Order",
+          "requiredApprovers":"Required Approvers",
+          "fromBinSource":"From Bin (Source)",
+          "toBinDestination":"To Bin (Destination)"
         }
       }
     },

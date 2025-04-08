@@ -16662,6 +16662,35 @@
             "setupEdit": false,
             "setupVisible": false
           }
+        },
+        "messages":{
+          "eachRelationshipConnectsLevel":"Cada relación conecta un grupo de aprobación de Nivel 1 con uno de Nivel 2. Estos niveles representan diferentes etapas de aprobación para notas de requisición en FieldEx.",
+          "systemConfigLetsYouDefine":"La configuración del sistema le permite definir",
+          "approvalsSpecificSequence":"Si las aprobaciones deben realizarse en una secuencia específica o pueden hacerse en cualquier orden",
+          "groupsProvideApproval":"Qué grupos deben proporcionar aprobación para una nota de requisición",
+          "approvalsDeterminedByGroups":"Las aprobaciones están determinadas por los grupos a cargo de las zonas donde se encuentran los contenedores",
+          "ifFromBin":"Si es del contenedor",
+          "levelTwoInCharge":"El grupo de Nivel 2 del grupo a cargo de la zona que contiene",
+          "willNeedToApprove":"tendrá que aprobar",
+          "basedOnConfigurationSettings":"Según la configuración, el grupo responsable de la zona del contenedor del remitente y/o su grupo de Nivel 2 deberá aprobar",
+          "userCreatesRequisitionNote":"Cuando un usuario crea una nota de requisición",
+          "determinesZoneBinsBelong":"FieldEx determina a qué zona pertenecen los contenedores seleccionados",
+          "basedOnZoneOwnership":"Según la propiedad de la zona, identifica qué grupos deben aprobar",
+          "approvalsRoutedAccordingToOrder":"Las aprobaciones se dirigen según el orden especificado (si lo hay)",
+          "requisitionOnlyProcessAfterApprovals":"La requisición solo se procesa después de recibir todas las aprobaciones requeridas",
+          "eachGroupOnlyLvlOne":"Cada grupo solo puede estar en una relación de Nivel 1",
+          "lvlOnelvlTwoNotTheSameGroup":"Nivel 1 y Nivel 2 no pueden ser el mismo grupo",
+          "atLeastOneApprovalIsRequired":"Se requiere al menos una aprobación para cualquier nota de requisición",
+          "binLocationDetermineGroupInvolved":"La ubicación del contenedor determina qué grupos están involucrados en la aprobación",
+          "settingUpApprovalRelationships":"Configuración de relaciones de aprobación",
+          "systemConfiguration":"Configuración del sistema",
+          "howBinsAffectApprovalFlow":"Cómo los contenedores afectan el flujo de aprobación",
+          "howRequisitionNotesProcessed":"Cómo se procesan las notas de requisición",
+          "importantRules":"Reglas importantes",
+          "approvalOrder":"Orden de aprobación",
+          "requiredApprovers":"Aprobadores requeridos",
+          "fromBinSource":"Desde contenedor (origen)",
+          "toBinDestination":"A contenedor (destino)"
         }
       }
     },

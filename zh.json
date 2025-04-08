@@ -16662,6 +16662,35 @@
             "setupEdit": false,
             "setupVisible": false
           }
+        },
+        "messages":{
+          "eachRelationshipConnectsLevel":"每个关系连接一个一级审批组和一个二级审批组。这些级别代表 FieldEx 中申请单的不同审批阶段。",
+          "systemConfigLetsYouDefine":"系统配置允许您定义",
+          "approvalsSpecificSequence":"审批是否必须按特定顺序进行，或可以按任意顺序进行",
+          "groupsProvideApproval":"哪些组需要为申请单提供审批",
+          "approvalsDeterminedByGroups":"审批由负责存储箱所在区域的组决定",
+          "ifFromBin":"如果来自存储箱",
+          "levelTwoInCharge":"负责包含该区域的组的二级审批组",
+          "willNeedToApprove":"需要审批",
+          "basedOnConfigurationSettings":"根据您的配置设置，负责发送方存储箱所在区域的组和/或其二级组需要审批",
+          "userCreatesRequisitionNote":"当用户创建申请单时",
+          "determinesZoneBinsBelong":"FieldEx 会确定所选存储箱属于哪个区域",
+          "basedOnZoneOwnership":"根据区域归属，系统识别需要审批的组",
+          "approvalsRoutedAccordingToOrder":"审批将根据您指定的顺序进行（如有）",
+          "requisitionOnlyProcessAfterApprovals":"申请单仅在收到所有所需审批后处理",
+          "eachGroupOnlyLvlOne":"每个组只能处于一个一级审批关系中",
+          "lvlOnelvlTwoNotTheSameGroup":"一级和二级不能是同一个组",
+          "atLeastOneApprovalIsRequired":"任何申请单都至少需要一个审批",
+          "binLocationDetermineGroupInvolved":"存储箱的位置决定了参与审批的组",
+          "settingUpApprovalRelationships":"设置审批关系",
+          "systemConfiguration":"系统配置",
+          "howBinsAffectApprovalFlow":"存储箱如何影响审批流程",
+          "howRequisitionNotesProcessed":"申请单如何被处理",
+          "importantRules":"重要规则",
+          "approvalOrder":"审批顺序",
+          "requiredApprovers":"所需审批人",
+          "fromBinSource":"从存储箱（来源）",
+          "toBinDestination":"到存储箱（目的地）"
         }
       }
     },

@@ -16662,6 +16662,35 @@
             "setupEdit": false,
             "setupVisible": false
           }
+        },
+        "messages":{
+          "eachRelationshipConnectsLevel":"Setiap perhubungan menghubungkan kumpulan kelulusan Tahap 1 dengan kumpulan kelulusan Tahap 2. Tahap ini mewakili peringkat kelulusan yang berbeza untuk nota permohonan dalam FieldEx.",
+          "systemConfigLetsYouDefine":"Konfigurasi Sistem membolehkan anda menetapkan",
+          "approvalsSpecificSequence":"Sama ada kelulusan mesti dilakukan mengikut urutan tertentu atau boleh dilakukan dalam sebarang urutan",
+          "groupsProvideApproval":"Kumpulan mana yang perlu memberi kelulusan untuk nota permohonan",
+          "approvalsDeterminedByGroups":"Kelulusan ditentukan oleh kumpulan yang bertanggungjawab ke atas zon tempat tong berada",
+          "ifFromBin":"Jika Dari Bin",
+          "levelTwoInCharge":"Kumpulan Tahap 2 bagi kumpulan yang mengurus zon yang mengandungi",
+          "willNeedToApprove":"perlu meluluskan",
+          "basedOnConfigurationSettings":"Berdasarkan tetapan konfigurasi anda, kumpulan yang bertanggungjawab ke atas zon yang mengandungi tong penghantar dan/atau kumpulan Tahap 2 kumpulan tersebut perlu meluluskan",
+          "userCreatesRequisitionNote":"Apabila pengguna mencipta nota permohonan",
+          "determinesZoneBinsBelong":"FieldEx menentukan zon mana tong-tong yang dipilih berada",
+          "basedOnZoneOwnership":"Berdasarkan pemilikan zon, ia mengenal pasti kumpulan yang perlu meluluskan",
+          "approvalsRoutedAccordingToOrder":"Kelulusan disalurkan mengikut susunan yang anda tetapkan (jika ada)",
+          "requisitionOnlyProcessAfterApprovals":"Nota permohonan hanya akan diproses selepas semua kelulusan yang diperlukan diterima",
+          "eachGroupOnlyLvlOne":"Setiap kumpulan hanya boleh berada dalam satu perhubungan Tahap 1",
+          "lvlOnelvlTwoNotTheSameGroup":"Tahap 1 dan Tahap 2 tidak boleh kumpulan yang sama",
+          "atLeastOneApprovalIsRequired":"Sekurang-kurangnya satu kelulusan diperlukan untuk mana-mana nota permohonan",
+          "binLocationDetermineGroupInvolved":"Lokasi bin menentukan kumpulan yang terlibat dalam proses kelulusan",
+          "settingUpApprovalRelationships":"Menetapkan Perhubungan Kelulusan",
+          "systemConfiguration":"Konfigurasi Sistem",
+          "howBinsAffectApprovalFlow":"Bagaimana Bin Mempengaruhi Aliran Kelulusan",
+          "howRequisitionNotesProcessed":"Bagaimana Nota Permohonan Diproses",
+          "importantRules":"Peraturan Penting",
+          "approvalOrder":"Urutan Kelulusan",
+          "requiredApprovers":"Pemeriksa Dikehendaki",
+          "fromBinSource":"Dari Bin (Sumber)",
+          "toBinDestination":"Ke Bin (Destinasi)"
         }
       }
     },

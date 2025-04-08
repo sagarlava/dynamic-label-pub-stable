@@ -16662,6 +16662,35 @@
             "setupEdit": false,
             "setupVisible": false
           }
+        },
+        "messages":{
+          "eachRelationshipConnectsLevel":"Jede Beziehung verbindet eine Genehmigungsgruppe der Stufe 1 mit einer der Stufe 2. Diese Stufen repräsentieren verschiedene Genehmigungsphasen für Anforderungsnotizen in FieldEx.",
+          "systemConfigLetsYouDefine":"Die Systemkonfiguration ermöglicht es Ihnen, festzulegen",
+          "approvalsSpecificSequence":"Ob Genehmigungen in einer bestimmten Reihenfolge erfolgen müssen oder in beliebiger Reihenfolge durchgeführt werden können",
+          "groupsProvideApproval":"Welche Gruppen Genehmigungen für eine Anforderungsnotiz erteilen müssen",
+          "approvalsDeterminedByGroups":"Genehmigungen werden durch die Gruppen bestimmt, die für die Zonen verantwortlich sind, in denen sich die Behälter befinden",
+          "ifFromBin":"Wenn aus Behälter",
+          "levelTwoInCharge":"Die Stufe-2-Gruppe der Gruppe, die für die Zone zuständig ist, die enthält",
+          "willNeedToApprove":"muss genehmigen",
+          "basedOnConfigurationSettings":"Basierend auf Ihren Konfigurationseinstellungen muss die für die Zone des sendenden Behälters zuständige Gruppe und/oder deren Stufe 2-Gruppe genehmigen",
+          "userCreatesRequisitionNote":"Wenn ein Benutzer eine Anforderungsnotiz erstellt",
+          "determinesZoneBinsBelong":"FieldEx bestimmt, zu welcher Zone die ausgewählten Behälter gehören",
+          "basedOnZoneOwnership":"Basierend auf der Zonenverantwortung ermittelt das System, welche Gruppen genehmigen müssen",
+          "approvalsRoutedAccordingToOrder":"Genehmigungen werden gemäß der von Ihnen festgelegten Reihenfolge weitergeleitet (falls vorhanden)",
+          "requisitionOnlyProcessAfterApprovals":"Die Anforderung wird erst bearbeitet, nachdem alle erforderlichen Genehmigungen eingegangen sind",
+          "eachGroupOnlyLvlOne":"Jede Gruppe kann nur in einer Stufe-1-Beziehung sein",
+          "lvlOnelvlTwoNotTheSameGroup":"Stufe 1 und Stufe 2 dürfen nicht dieselbe Gruppe sein",
+          "atLeastOneApprovalIsRequired":"Mindestens eine Genehmigung ist für jede Anforderungsnotiz erforderlich",
+          "binLocationDetermineGroupInvolved":"Der Standort des Behälters bestimmt, welche Gruppen am Genehmigungsprozess beteiligt sind",
+          "settingUpApprovalRelationships":"Einrichten von Genehmigungsbeziehungen",
+          "systemConfiguration":"Systemkonfiguration",
+          "howBinsAffectApprovalFlow":"Wie Behälter den Genehmigungsfluss beeinflussen",
+          "howRequisitionNotesProcessed":"Wie Anforderungsnotizen verarbeitet werden",
+          "importantRules":"Wichtige Regeln",
+          "approvalOrder":"Genehmigungsreihenfolge",
+          "requiredApprovers":"Erforderliche Genehmiger",
+          "fromBinSource":"Aus Behälter (Quelle)",
+          "toBinDestination":"In Behälter (Ziel)"
         }
       } 
     },
