@@ -16563,6 +16563,46 @@
           "searchUsers": "Buscar Usuarios",
           "selectType": "Seleccionar Tipo"
         }
+      },
+      "approval": {
+        "setupEdit": false,
+        "setupVisible": false,
+        "label": {
+          "original": "Approvals",
+          "singular": "Aprobación",
+          "plural": "Aprobaciónes",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "sections":{
+          "setupEdit": false,
+          "setupVisible": false,
+          "sec0": {
+            "original": "Create New Approval Relationship",
+            "singular": "Crear nueva relación de aprobación",
+            "plural": "Crear nueva relación de aprobación",
+            "setupEdit": false,
+            "setupVisible": false
+          }
+        },
+        "fields":{
+          "setupEdit": false,
+          "setupVisible": false,
+          "levelOneApprovalGroup": {
+            "original": "Level 1 Approval Group",
+            "singular": "Grupo de aprobación nivel 1",
+            "plural": "Grupo de aprobación nivel 1",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "levelTwoApprovalGroup": {
+            "original": "Level 2 Approval Group",
+            "singular": "Grupo de aprobación nivel 2",
+            "plural": "Grupo de aprobación nivel 2",
+            "setupEdit": false,
+            "setupVisible": false
+          }
+        }
       }
     },
     "configuration": {

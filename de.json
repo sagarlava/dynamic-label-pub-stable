@@ -16563,7 +16563,47 @@
           "searchUsers": "Benutzer suchen",
           "selectType": "Typ auswählen"
         }
-      }
+      },
+      "approval": {
+        "setupEdit": false,
+        "setupVisible": false,
+        "label": {
+          "original": "Approvals",
+          "singular": "Genehmigung",
+          "plural": "Genehmigungen",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "sections":{
+          "setupEdit": false,
+          "setupVisible": false,
+          "sec0": {
+            "original": "Create New Approval Relationship",
+            "singular": "Neue Genehmigungsbeziehung erstellen",
+            "plural": "Neue Genehmigungsbeziehung erstellen",
+            "setupEdit": false,
+            "setupVisible": false
+          }
+        },
+        "fields":{
+          "setupEdit": false,
+          "setupVisible": false,
+          "levelOneApprovalGroup": {
+            "original": "Level 1 Approval Group",
+            "singular": "Genehmigungsgruppe Stufe 1",
+            "plural": "Genehmigungsgruppe Stufe 1",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "levelTwoApprovalGroup": {
+            "original": "Level 2 Approval Group",
+            "singular": "Genehmigungsgruppe Stufe 2",
+            "plural": "Genehmigungsgruppe Stufe 2",
+            "setupEdit": false,
+            "setupVisible": false
+          }
+        }
+      } 
     },
     "configuration": {
       "setupVisible": false,

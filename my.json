@@ -16563,6 +16563,46 @@
           "searchUsers": "Cari Pengguna",
           "selectType": "Pilih Jenis"
         }
+      },
+      "approval": {
+        "setupEdit": false,
+        "setupVisible": false,
+        "label": {
+          "original": "Approvals",
+          "singular": "Kelulusan",
+          "plural": "Kelulusan",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "sections":{
+          "setupEdit": false,
+          "setupVisible": false,
+          "sec0": {
+            "original": "Create New Approval Relationship",
+            "singular": "Cipta Perhubungan Kelulusan Baharu",
+            "plural": "Cipta Perhubungan Kelulusan Baharu",
+            "setupEdit": false,
+            "setupVisible": false
+          }
+        },
+        "fields":{
+          "setupEdit": false,
+          "setupVisible": false,
+          "levelOneApprovalGroup": {
+            "original": "Level 1 Approval Group",
+            "singular": "Kumpulan Kelulusan Tahap 1",
+            "plural": "Kumpulan Kelulusan Tahap 1",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "levelTwoApprovalGroup": {
+            "original": "Level 2 Approval Group",
+            "singular": "Kumpulan Kelulusan Tahap 2",
+            "plural": "Kumpulan Kelulusan Tahap 2",
+            "setupEdit": false,
+            "setupVisible": false
+          }
+        }
       }
     },
     "configuration": {

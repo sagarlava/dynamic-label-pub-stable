@@ -16563,6 +16563,46 @@
           "searchUsers": "搜索用户",
           "selectType": "选择类型"
         }
+      },
+      "approval": {
+        "setupEdit": false,
+        "setupVisible": false,
+        "label": {
+          "original": "Approvals",
+          "singular": "审批",
+          "plural": "审批",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "sections":{
+          "setupEdit": false,
+          "setupVisible": false,
+          "sec0": {
+            "original": "Create New Approval Relationship",
+            "singular": "创建新的审批关系",
+            "plural": "创建新的审批关系",
+            "setupEdit": false,
+            "setupVisible": false
+          }
+        },
+        "fields":{
+          "setupEdit": false,
+          "setupVisible": false,
+          "levelOneApprovalGroup": {
+            "original": "Level 1 Approval Group",
+            "singular": "一级审批组",
+            "plural": "一级审批组",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "levelTwoApprovalGroup": {
+            "original": "Level 2 Approval Group",
+            "singular": "二级审批组",
+            "plural": "二级审批组",
+            "setupEdit": false,
+            "setupVisible": false
+          }
+        }
       }
     },
     "configuration": {
