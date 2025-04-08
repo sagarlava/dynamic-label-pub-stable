@@ -16583,6 +16583,27 @@
             "plural": "Create New Approval Relationship",
             "setupEdit": false,
             "setupVisible": false
+          },
+          "sec1": {
+            "original": "Note Configuration",
+            "singular": "Note Configuration",
+            "plural": "Note Configuration",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec2": {
+            "original": "Required Approvers",
+            "singular": "Required Approvers",
+            "plural": "Required Approvers",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec3": {
+            "original": "Approval Order",
+            "singular": "Approval Order",
+            "plural": "Approval Order",
+            "setupEdit": false,
+            "setupVisible": false
           }
         },
         "fields":{

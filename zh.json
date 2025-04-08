@@ -16583,6 +16583,27 @@
             "plural": "创建新的审批关系",
             "setupEdit": false,
             "setupVisible": false
+          },
+          "sec1": {
+            "original": "Note Configuration",
+            "singular": "单据配置",
+            "plural": "单据配置",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec2": {
+            "original": "Required Approvers",
+            "singular": "所需审批人",
+            "plural": "所需审批人",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec3": {
+            "original": "Approval Order",
+            "singular": "审批顺序",
+            "plural": "审批顺序",
+            "setupEdit": false,
+            "setupVisible": false
           }
         },
         "fields":{

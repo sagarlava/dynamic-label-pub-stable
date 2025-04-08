@@ -16583,6 +16583,27 @@
             "plural": "Neue Genehmigungsbeziehung erstellen",
             "setupEdit": false,
             "setupVisible": false
+          },
+          "sec1": {
+            "original": "Note Configuration",
+            "singular": "Notizkonfiguration",
+            "plural": "Notizkonfiguration",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec2": {
+            "original": "Required Approvers",
+            "singular": "Erforderliche Genehmiger",
+            "plural": "Erforderliche Genehmiger",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec3": {
+            "original": "Approval Order",
+            "singular": "Genehmigungsreihenfolge",
+            "plural": "Genehmigungsreihenfolgen",
+            "setupEdit": false,
+            "setupVisible": false
           }
         },
         "fields":{

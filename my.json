@@ -16583,6 +16583,27 @@
             "plural": "Cipta Perhubungan Kelulusan Baharu",
             "setupEdit": false,
             "setupVisible": false
+          },
+          "sec1": {
+            "original": "Note Configuration",
+            "singular": "Konfigurasi Nota",
+            "plural": "Konfigurasi Nota",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec2": {
+            "original": "Required Approvers",
+            "singular": "Pemeriksa Dikehendaki",
+            "plural": "Pemeriksa Dikehendaki",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec3": {
+            "original": "Approval Order",
+            "singular": "Urutan Kelulusan",
+            "plural": "Urutan Kelulusan",
+            "setupEdit": false,
+            "setupVisible": false
           }
         },
         "fields":{
