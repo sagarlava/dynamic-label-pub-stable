@@ -14316,7 +14316,8 @@
       "pleaseSignBeforeProceed": "Sila tandatangan sebelum meneruskan",
       "charactersExceed": "Teks melebihi had aksara (255).",
       "endDateThanStartDate": "Tarikh tamat mesti selepas tarikh mula",
-      "thisFieldIsRequired":"Medan ini diperlukan"
+      "thisFieldIsRequired":"Medan ini diperlukan",
+      "pleaseMakeOneSelection":"Sila buat satu pilihan untuk meneruskan"
     },
     "validationBE": {
       "sendGridEmailTenantReferenceIdExists": "Rujukan Penyewa E-mel Send Grid baru tidak boleh sudah mempunyai ID",

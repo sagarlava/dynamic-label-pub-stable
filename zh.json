@@ -14316,7 +14316,8 @@
       "pleaseSignBeforeProceed": "请签名后继续",
       "charactersExceed": "文本超过字符限制（255）。",
       "endDateThanStartDate": "结束日期必须在开始日期之后",
-      "thisFieldIsRequired":"此字段为必填项"
+      "thisFieldIsRequired":"此字段为必填项",
+      "pleaseMakeOneSelection":"请选择一项以继续"
     },
     "validationBE": {
       "sendGridEmailTenantReferenceIdExists": "新的Send Grid电子邮件租户引用不能已有ID",

@@ -14316,7 +14316,8 @@
       "pleaseSignBeforeProceed": "Bitte unterschreiben Sie, bevor Sie fortfahren",
       "charactersExceed": "Text überschreitet das Zeichenlimit (255).",
       "endDateThanStartDate": "Das Enddatum muss nach dem Startdatum liegen",
-      "thisFieldIsRequired":"Dieses Feld ist erforderlich"
+      "thisFieldIsRequired":"Dieses Feld ist erforderlich",
+      "pleaseMakeOneSelection":"Bitte treffen Sie eine Auswahl, um fortzufahren"
     },
     "validationBE": {
       "sendGridEmailTenantReferenceIdExists": "Eine neue Send Grid E-Mail-Mieterreferenz kann nicht bereits eine ID haben",
