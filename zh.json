@@ -23641,7 +23641,9 @@
       "setupWorkflowEmailUserGroupMax": "已达到工作流通知允许的最大用户数量",      
       "setupTmplJobOrderLimitReached":"您已超出50个活动模板的限制。将未使用的模板状态设置为“未激活”以添加另一个活动模板",
       "tmplTaskLimitExceeded": "您已超出50个活动模板的限制。将未使用的模板状态设置为“未激活”以添加另一个活动模板",
-      "setupTmplTaskHasJobOrder": "无法删除：模板被用于一个或多个工单"
+      "setupTmplTaskHasJobOrder": "无法删除：模板被用于一个或多个工单",
+      "setupAssetMeterMaxAssetsTypeReached": "所选资产类型的资产计量器数量已达上限",
+      "setupAssetMeterHasAssetsRecord": "资产计量器已关联一个或多个资产记录，因此无法删除"
     },
     "labelBE": {
       "profileTableColumnSetup": {
