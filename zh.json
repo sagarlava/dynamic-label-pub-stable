@@ -11362,7 +11362,9 @@
       "includeChildAsset":"包括子资产",
       "selectAssetWishToTransfer":"选择您想要转移的资产",
       "selectSparePartWishToTransfer":"选择您想要转移的备件",
-      "selectItemsWishToTransfer":"选择您想要转移的项目"
+      "selectItemsWishToTransfer":"选择您想要转移的项目",
+      "filteredBySparePart":"按所选存储箱中的备件筛选",
+      "filteredByAsset":"按所选存储箱中的资产筛选"
     }
   },
   "contacts": {

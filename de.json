@@ -11362,7 +11362,9 @@
       "includeChildAsset":"Untergeordneten Vermögenswert einbeziehen",
       "selectAssetWishToTransfer":"Wählen Sie die Vermögenswerte aus, die Sie übertragen möchten",
       "selectSparePartWishToTransfer":"Wählen Sie die Ersatzteile aus, die Sie übertragen möchten",
-      "selectItemsWishToTransfer":"Wählen Sie die Artikel aus, die Sie übertragen möchten"
+      "selectItemsWishToTransfer":"Wählen Sie die Artikel aus, die Sie übertragen möchten",
+      "filteredBySparePart":"Gefiltert nach Ersatzteilen im ausgewählten Behälter",
+      "filteredByAsset":"Gefiltert nach Vermögenswerten im ausgewählten Behälter"
     }
   },
   "contacts": {

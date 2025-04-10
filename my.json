@@ -11362,7 +11362,9 @@
       "includeChildAsset":"Termasuk Aset Anak",
       "selectAssetWishToTransfer":"Pilih aset yang anda ingin pindahkan",
       "selectSparePartWishToTransfer":"Pilih alat ganti yang anda ingin pindahkan",
-      "selectItemsWishToTransfer":"Pilih item yang anda ingin pindahkan"
+      "selectItemsWishToTransfer":"Pilih item yang anda ingin pindahkan",
+      "filteredBySparePart":"Ditapis mengikut alat ganti dalam tong yang dipilih",
+      "filteredByAsset":"Ditapis mengikut aset dalam tong yang dipilih"
     }
   },
   "contacts": {
