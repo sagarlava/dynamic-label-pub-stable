@@ -21901,7 +21901,9 @@
       "setupWorkflowEmailUserMax": "Maximum allowed users reached for workflow notification",
       "setupWorkflowEmailUserGroupMax": "Maximum allowed users reached for workflow notification",
       "setupTmplJobOrderLimitReached":"You have exceeded the limit of 50 active templates. Set the status of an unused template to 'Inactive' to add another active template.",
-      "tmplTaskLimitExceeded":"You have exceeded the limit of 50 active templates. Set the status of an unused template to 'Inactive' to add another active template."
+      "tmplTaskLimitExceeded":"You have exceeded the limit of 50 active templates. Set the status of an unused template to 'Inactive' to add another active template.",
+      "setupAssetMeterMaxAssetsTypeReached": "Already reached the maximum number of Asset Meters for selected Asset Type",
+      "setupAssetMeterHasAssetsRecord": "Assets Meter is linked with one or more Assets records, hence unable to delete"
     },
     "labelBE": {
       "profileTableColumnSetup": {

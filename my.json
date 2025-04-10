@@ -21901,7 +21901,9 @@
       "setupWorkflowEmailUserMax": "Jumlah maksimum pengguna yang dibenarkan untuk pemberitahuan aliran kerja telah dicapa",
       "setupWorkflowEmailUserGroupMax": "Jumlah maksimum pengguna yang dibenarkan untuk pemberitahuan aliran kerja telah dicapa",
       "setupTmplJobOrderLimitReached":"Anda telah melebihi had 50 templat aktif. Tetapkan status templat yang tidak digunakan kepada 'Tidak Aktif' untuk menambah satu lagi templat aktif.",
-      "tmplTaskLimitExceeded": "Anda telah melebihi had 50 templat aktif. Tukar status templat yang tidak digunakan kepada 'Tidak Aktif' untuk menambah satu lagi templat aktif"
+      "tmplTaskLimitExceeded": "Anda telah melebihi had 50 templat aktif. Tukar status templat yang tidak digunakan kepada 'Tidak Aktif' untuk menambah satu lagi templat aktif",
+      "setupAssetMeterMaxAssetsTypeReached": "Telah mencapai bilangan maksimum Meter Aset untuk Jenis Aset yang dipilih",
+      "setupAssetMeterHasAssetsRecord": "Meter Aset dipautkan dengan satu atau lebih rekod Aset, oleh itu tidak boleh dipadam"
     },
     "labelBE": {
       "profileTableColumnSetup": {
