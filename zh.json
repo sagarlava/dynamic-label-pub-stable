@@ -9560,7 +9560,8 @@
       "binTransferAssetsNotFound": "未找到仓位转移资产",
       "binTransferInvalidStatus": "仅允许的状态：已接受/已拒绝/已取消",
       "binTransferNotFound": "未找到仓位转移",
-      "binTransferItemIdExists": "新的仓位转移项目不能已经有一个ID"
+      "binTransferItemIdExists": "新的仓位转移项目不能已经有一个ID",
+       "binTransferToBinRequired": "需要填写“转移到货位参数”和“转移类型”字段"
     },
     "messages": {
       "selectApprovalStatus": "选择审批状态",

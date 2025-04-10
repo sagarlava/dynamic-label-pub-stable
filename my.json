@@ -9560,7 +9560,8 @@
       "binTransferAssetsNotFound": "Aset Pemindahan Bin tidak ditemui",
       "binTransferInvalidStatus": "Status yang dibenarkan hanya: DITERIMA/DITOLAK/DIBATALKAN",
       "binTransferNotFound": "Pemindahan Bin tidak ditemui",
-      "binTransferItemIdExists": "Item Pemindahan Bin baru tidak boleh mempunyai ID yang sudah ada"
+      "binTransferItemIdExists": "Item Pemindahan Bin baru tidak boleh mempunyai ID yang sudah ada",
+      "binTransferToBinRequired": "Transfer To Bin Parameter and Transfer To Type fields required"
     },
     "messages": {
       "selectApprovalStatus": "Pilih Status Kelulusan",
