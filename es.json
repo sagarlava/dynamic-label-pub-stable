@@ -21903,6 +21903,7 @@
       "setupWorkflowEmailUserGroupMax": "Se alcanzó el número máximo de usuarios permitidos para notificaciones de flujo de trabajo",
       "setupTmplJobOrderLimitReached":"Has superado el límite de 50 plantillas activas. Cambia el estado de una plantilla no utilizada a 'Inactiva' para agregar otra plantilla activa.",
       "tmplTaskLimitExceeded":"Has superado el límite de 50 plantillas activas. Cambia el estado de una plantilla no utilizada a 'Inactiva' para agregar otra plantilla activa.",
+      "setupTmplTaskHasJobOrder": "No se puede eliminar: La plantilla se utiliza en una o más órdenes de trabajo",
       "setupAssetMeterMaxAssetsTypeReached": "Ya se ha alcanzado el número máximo de medidores para el tipo de activo seleccionado",
       "setupAssetMeterHasAssetsRecord": "El medidor de activos está vinculado a uno o más registros de activos, por lo tanto, no se puede eliminar"
     },
