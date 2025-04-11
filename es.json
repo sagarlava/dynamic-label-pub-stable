@@ -23946,6 +23946,22 @@
           "setupEdit": false,
           "setupVisible": false
         }
+      },
+      "messages":{
+        "letsImportAsset":"Vamos a importar tus activos",
+        "assetAreHeartCmms":"Los activos son el corazón de tu CMMS. Comienza subiéndolos para gestionar el mantenimiento, historial y asignaciones",
+        "aiPoweredImport":"Importación impulsada por IA",
+        "automaticallyMapYourCSV":"FieldEx puede mapear automáticamente tus columnas CSV, extraer tipos, estados, categorías y configurar tu sistema - ¡sin necesidad de configuración manual!",
+        "letOurIntelligentSystem":"Deja que nuestro sistema inteligente haga el trabajo por ti. FieldEx puede automáticamente:",
+        "mapCsvToSystemField":"Mapear tus columnas CSV a campos del sistema",
+        "extractConfigureAssetType":"Extraer y configurar listas de tipos de activos",
+        "detectSetUpStatus":"Detectar y configurar valores de estado con colores apropiados",
+        "configureSystemInSeconds":"Configura tu sistema en segundos - sin necesidad de configuración manual",
+        "uploadExistingAsset":"Sube tus activos existentes y te ayudaremos a mapear los campos y configurar el módulo de activos",
+        "dragDropCsvHere":"Arrastra y suelta tu archivo CSV aquí",
+        "needATemplate":"¿Necesitas una plantilla?",
+        "downloadCsvTemplate":"Descargar plantilla CSV",
+        "letAiCreateData":"Deja que la IA cree tus datos y configure tu sistema"
       }
     }
   },

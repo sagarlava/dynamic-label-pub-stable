@@ -23946,6 +23946,22 @@
           "setupEdit": false,
           "setupVisible": false
         }
+      },
+      "messages":{
+        "letsImportAsset":"Lets Import your Assets",
+        "assetAreHeartCmms":"Assets are the heart of your CMMS. Start by uploading them to manage maintenance, history, and assignments",
+        "aiPoweredImport":"AI-Powered Import",
+        "automaticallyMapYourCSV":"Fieldex can automatically map your CSV columns, extract types, statuses, categories and configure your system - no manual setup required!",
+        "letOurIntelligentSystem":"Let our intelligent system do the work for you. FieldEx can automatically:",
+        "mapCsvToSystemField":"Map your CSV columns to system fields",
+        "extractConfigureAssetType":"Extract and configure asset type picklists",
+        "detectSetUpStatus":"Detect and set up status values with appropriate colors",
+        "configureSystemInSeconds":"Configure your system in seconds - no manual setup required",
+        "uploadExistingAsset":"Upload your existing assets and we'll help you map the fields and configure the asset module for you.",
+        "dragDropCsvHere":"Drag & Drop your CSV file here",
+        "needATemplate":"Need a template?",
+        "downloadCsvTemplate":"Download CSV Template",
+        "letAiCreateData":"Let AI Create your data & Configure Your System"
       }
     }
   },

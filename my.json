@@ -23946,6 +23946,22 @@
           "setupEdit": false,
           "setupVisible": false
         }
+      },
+      "messages":{
+        "letsImportAsset":"Mari Import Aset Anda",
+        "assetAreHeartCmms":"Aset adalah jantung CMMS anda. Mulakan dengan memuat naiknya untuk mengurus penyelenggaraan, sejarah dan tugasan",
+        "aiPoweredImport":"Import Dikuasakan AI",
+        "automaticallyMapYourCSV":"FieldEx boleh memetakan lajur CSV anda secara automatik, mengekstrak jenis, status, kategori dan mengkonfigurasi sistem anda - tanpa tetapan manual!",
+        "letOurIntelligentSystem":"Biarkan sistem pintar kami lakukan kerja untuk anda. FieldEx boleh secara automatik:",
+        "mapCsvToSystemField":"Petakan lajur CSV anda ke medan sistem",
+        "extractConfigureAssetType":"Ekstrak dan konfigurasikan senarai jenis aset",
+        "detectSetUpStatus":"Kesan dan tetapkan nilai status dengan warna yang sesuai",
+        "configureSystemInSeconds":"Konfigurasikan sistem anda dalam beberapa saat - tanpa tetapan manual",
+        "uploadExistingAsset":"Muat naik aset sedia ada anda dan kami akan bantu anda memetakan medan dan mengkonfigurasi modul aset untuk anda.",
+        "dragDropCsvHere":"Seret & Lepaskan fail CSV anda di sini",
+        "needATemplate":"Perlukan templat?",
+        "downloadCsvTemplate":"Muat Turun Templat CSV",
+        "letAiCreateData":"Biarkan AI cipta data anda & konfigurasikan sistem anda"
       }
     }
   },

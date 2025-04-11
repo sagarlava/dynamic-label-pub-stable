@@ -23946,6 +23946,22 @@
           "setupEdit": false,
           "setupVisible": false
         }
+      },
+      "messages":{
+        "letsImportAsset":"开始导入您的资产",
+        "assetAreHeartCmms":"资产是您 CMMS 的核心。从上传资产开始，管理维护、历史记录和任务",
+        "aiPoweredImport":"AI 驱动导入",
+        "automaticallyMapYourCSV":"FieldEx 可以自动映射您的 CSV 列，提取类型、状态、类别并配置您的系统 - 无需手动设置！",
+        "letOurIntelligentSystem":"让我们的智能系统为您完成工作。FieldEx 可以自动执行以下操作：",
+        "mapCsvToSystemField":"将您的 CSV 列映射到系统字段",
+        "extractConfigureAssetType":"提取并配置资产类型选项列表",
+        "detectSetUpStatus":"检测并设置具有相应颜色的状态值",
+        "configureSystemInSeconds":"几秒钟内配置您的系统 - 无需手动设置",
+        "uploadExistingAsset":"上传您现有的资产，我们将帮助您映射字段并配置资产模块",
+        "dragDropCsvHere":"将您的 CSV 文件拖放到此处",
+        "needATemplate":"需要模板？",
+        "downloadCsvTemplate":"下载 CSV 模板",
+        "letAiCreateData":"让 AI 创建您的数据并配置您的系统"
       }
     }
   },

@@ -23946,6 +23946,22 @@
           "setupEdit": false,
           "setupVisible": false
         }
+      },
+      "messages":{
+        "letsImportAsset":"Lass uns deine Assets importieren",
+        "assetAreHeartCmms":"Assets sind das Herzstück deines CMMS. Beginne mit dem Hochladen, um Wartung, Historie und Zuweisungen zu verwalten",
+        "aiPoweredImport":"KI-gesteuerter Import",
+        "automaticallyMapYourCSV":"FieldEx kann deine CSV-Spalten automatisch zuordnen, Typen, Status und Kategorien extrahieren und dein System konfigurieren – ganz ohne manuelle Einrichtung!",
+        "letOurIntelligentSystem":"Lass unser intelligentes System die Arbeit für dich erledigen. FieldEx kann automatisch:",
+        "mapCsvToSystemField":"CSV-Spalten den Systemfeldern zuordnen",
+        "extractConfigureAssetType":"Asset-Typ-Auswahllisten extrahieren und konfigurieren",
+        "detectSetUpStatus":"Statuswerte mit passenden Farben erkennen und einrichten",
+        "configureSystemInSeconds":"Konfiguriere dein System in Sekunden – ganz ohne manuelle Einrichtung",
+        "uploadExistingAsset":"Lade deine bestehenden Assets hoch und wir helfen dir dabei, die Felder zuzuordnen und das Asset-Modul zu konfigurieren",
+        "dragDropCsvHere":"Ziehe deine CSV-Datei hierher",
+        "needATemplate":"Brauchst du eine Vorlage?",
+        "downloadCsvTemplate":"CSV-Vorlage herunterladen",
+        "letAiCreateData":"Lass die KI deine Daten erstellen und dein System konfigurieren"
       }
     }
   },
