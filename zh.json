@@ -11366,7 +11366,9 @@
       "includeChildAsset":"包括子资产",
       "selectAssetWishToTransfer":"选择您想要转移的资产",
       "selectSparePartWishToTransfer":"选择您想要转移的备件",
-      "selectItemsWishToTransfer":"选择您想要转移的项目"
+      "selectItemsWishToTransfer":"选择您想要转移的项目",
+      "filteredBySparePart":"按所选存储箱中的备件筛选",
+      "filteredByAsset":"按所选存储箱中的资产筛选"
     }
   },
   "contacts": {
@@ -14072,7 +14074,11 @@
       "rejectionConfirmation":"拒绝确认",
       "rejection":"拒绝",
       "areYouSureReject":"您确定要拒绝吗",
-      "editedSuccessfully":"编辑成功"
+      "editedSuccessfully":"编辑成功",
+      "total":"总计",
+      "from":"从",
+      "to":"到",
+      "or":"或"
     },
     "currency": {
       "australianDollar": "AUD",

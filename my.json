@@ -11366,7 +11366,9 @@
       "includeChildAsset":"Termasuk Aset Anak",
       "selectAssetWishToTransfer":"Pilih aset yang anda ingin pindahkan",
       "selectSparePartWishToTransfer":"Pilih alat ganti yang anda ingin pindahkan",
-      "selectItemsWishToTransfer":"Pilih item yang anda ingin pindahkan"
+      "selectItemsWishToTransfer":"Pilih item yang anda ingin pindahkan",
+      "filteredBySparePart":"Ditapis mengikut alat ganti dalam tong yang dipilih",
+      "filteredByAsset":"Ditapis mengikut aset dalam tong yang dipilih"
     }
   },
   "contacts": {
@@ -14072,7 +14074,11 @@
       "rejectionConfirmation":"Pengesahan Penolakan",
       "rejection":"Penolakan",
       "areYouSureReject":"Adakah anda pasti ingin menolak",
-      "editedSuccessfully":"Berjaya disunting"
+      "editedSuccessfully":"Berjaya disunting",
+      "total":"Jumlah",
+      "from":"Dari",
+      "to":"Kepada",
+      "or":"Atau"
     },
     "currency": {
       "australianDollar": "AUD",

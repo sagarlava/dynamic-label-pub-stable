@@ -11366,7 +11366,9 @@
       "includeChildAsset":"Include Child Asset",
       "selectAssetWishToTransfer":"Select the assets you wish to transfer",
       "selectSparePartWishToTransfer":"Select the spare parts you wish to transfer",
-      "selectItemsWishToTransfer":"Select the items you wish to transfer"
+      "selectItemsWishToTransfer":"Select the items you wish to transfer",
+      "filteredBySparePart":"Filtered by spare parts in selected from bin",
+      "filteredByAsset":"Filtered by asset in selected from bin"
     }
   },
   "contacts": {
@@ -14072,7 +14074,10 @@
       "rejectionConfirmation":"Rejection Confirmation",
       "rejection":"Rejection",
       "areYouSureReject":"Are you sure you want to reject",
-      "editedSuccessfully":"Edited successfully"
+      "editedSuccessfully":"Edited successfully",
+      "total":"Total",
+      "from":"From",
+      "to":"To"
     },
     "currency":{
       "australianDollar": "AUD",

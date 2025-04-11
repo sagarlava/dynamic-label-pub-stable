@@ -11366,7 +11366,9 @@
       "includeChildAsset":"Untergeordneten Vermögenswert einbeziehen",
       "selectAssetWishToTransfer":"Wählen Sie die Vermögenswerte aus, die Sie übertragen möchten",
       "selectSparePartWishToTransfer":"Wählen Sie die Ersatzteile aus, die Sie übertragen möchten",
-      "selectItemsWishToTransfer":"Wählen Sie die Artikel aus, die Sie übertragen möchten"
+      "selectItemsWishToTransfer":"Wählen Sie die Artikel aus, die Sie übertragen möchten",
+      "filteredBySparePart":"Gefiltert nach Ersatzteilen im ausgewählten Behälter",
+      "filteredByAsset":"Gefiltert nach Vermögenswerten im ausgewählten Behälter"
     }
   },
   "contacts": {
@@ -14072,7 +14074,11 @@
       "rejectionConfirmation":"Ablehnungsbestätigung",
       "rejection":"Ablehnung",
       "areYouSureReject":"Sind Sie sicher, dass Sie ablehnen möchten",
-      "editedSuccessfully":"Erfolgreich bearbeitet"
+      "editedSuccessfully":"Erfolgreich bearbeitet",
+      "total":"Gesamt",
+      "from":"Von",
+      "to":"Bis",
+      "or":"oder"
     },
     "currency": {
       "australianDollar": "AUD",

@@ -11366,7 +11366,9 @@
       "includeChildAsset":"Incluir activo secundario",
       "selectAssetWishToTransfer":"Seleccione los activos que desea transferir",
       "selectSparePartWishToTransfer":"Seleccione los repuestos que desea transferir",
-      "selectItemsWishToTransfer":"Seleccione los artículos que desea transferir"
+      "selectItemsWishToTransfer":"Seleccione los artículos que desea transferir",
+      "filteredBySparePart":"Filtrado por repuestos en el contenedor seleccionado",
+      "filteredByAsset":"Filtrado por activos en el contenedor seleccionado"
     }
   },
   "contacts": {
@@ -14072,7 +14074,11 @@
       "rejectionConfirmation":"Confirmación de rechazo",
       "rejection":"Rechazo",
       "areYouSureReject":"¿Está seguro de que desea rechazar",
-      "editedSuccessfully":"Editado con éxito"
+      "editedSuccessfully":"Editado con éxito",
+      "total":"Total",
+      "from":"De",
+      "to":"A",
+      "or":"O"
     },
     "currency": {
       "australianDollar": "AUD",
