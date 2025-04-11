@@ -23897,6 +23897,56 @@
           "setupVisible": false
         }
       }
+    },
+    "onBoard": {
+      "setupEdit": false,
+      "setupVisible": false,
+      "label": {
+        "original": "On-Board",
+        "singular": "Einführung",
+        "plural": "Einführung",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sections": {
+        "setupEdit": false,
+        "setupVisible": false,
+        "sec0": {
+          "original": "Welcome to FieldEx",
+          "singular": "Willkommen bei FieldEx",
+          "plural": "",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "sec1": {
+          "original": "Get Started",
+          "singular": "Erste Schritte",
+          "plural": "Erste Schritte",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "sec2": {
+          "original": "Import Asset",
+          "singular": "Asset importieren",
+          "plural": "Asset importieren",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "sec3": {
+          "original": "Setup Work Orders",
+          "singular": "Arbeitsaufträge einrichten",
+          "plural": "Arbeitsaufträge einrichten",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "sec4": {
+          "original": "Learn More",
+          "singular": "Mehr erfahren",
+          "plural": "Mehr erfahren",
+          "setupEdit": false,
+          "setupVisible": false
+        }
+      }
     }
   },
   "machineSpecialist": {

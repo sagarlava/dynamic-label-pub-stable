@@ -23897,6 +23897,56 @@
           "setupVisible": false
         }
       }
+    },
+    "onBoard": {
+      "setupEdit": false,
+      "setupVisible": false,
+      "label": {
+        "original": "On-Board",
+        "singular": "Pendaftaran",
+        "plural": "Pendaftaran",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sections": {
+        "setupEdit": false,
+        "setupVisible": false,
+        "sec0": {
+          "original": "Welcome to FieldEx",
+          "singular": "Selamat Datang ke FieldEx",
+          "plural": "",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "sec1": {
+          "original": "Get Started",
+          "singular": "Mulakan",
+          "plural": "Mulakan",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "sec2": {
+          "original": "Import Asset",
+          "singular": "Import Aset",
+          "plural": "Import Aset",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "sec3": {
+          "original": "Setup Work Orders",
+          "singular": "Tetapan Arahan Kerja",
+          "plural": "Tetapan Arahan Kerja",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "sec4": {
+          "original": "Learn More",
+          "singular": "Ketahui Lebih Lanjut",
+          "plural": "Ketahui Lebih Lanjut",
+          "setupEdit": false,
+          "setupVisible": false
+        }
+      }
     }
   },
   "machineSpecialist": {

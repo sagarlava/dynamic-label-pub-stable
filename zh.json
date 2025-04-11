@@ -23897,6 +23897,56 @@
           "setupVisible": false
         }
       }
+    },
+    "onBoard": {
+      "setupEdit": false,
+      "setupVisible": false,
+      "label": {
+        "original": "On-Board",
+        "singular": "入门引导",
+        "plural": "入门引导",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sections": {
+        "setupEdit": false,
+        "setupVisible": false,
+        "sec0": {
+          "original": "Welcome to FieldEx",
+          "singular": "欢迎使用 FieldEx",
+          "plural": "",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "sec1": {
+          "original": "Get Started",
+          "singular": "开始使用",
+          "plural": "开始使用",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "sec2": {
+          "original": "Import Asset",
+          "singular": "导入资产",
+          "plural": "导入资产",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "sec3": {
+          "original": "Setup Work Orders",
+          "singular": "设置工单",
+          "plural": "设置工单",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "sec4": {
+          "original": "Learn More",
+          "singular": "了解更多",
+          "plural": "了解更多",
+          "setupEdit": false,
+          "setupVisible": false
+        }
+      }
     }
   },
   "machineSpecialist": {
