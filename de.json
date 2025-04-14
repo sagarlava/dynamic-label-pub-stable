@@ -23649,7 +23649,8 @@
       "tmplTaskLimitExceeded":"Sie haben das Limit von 50 aktiven Vorlagen überschritten. Setzen Sie den Status einer ungenutzten Vorlage auf 'Inaktiv', um eine weitere aktive Vorlage hinzuzufügen",
       "setupTmplTaskHasJobOrder": "Löschen nicht möglich: Vorlage wird in einem oder mehreren Arbeitsaufträgen verwendet",
       "setupAssetMeterMaxAssetsTypeReached": "Die maximale Anzahl von Asset-Zählern für den ausgewählten Asset-Typ ist bereits erreicht",
-      "setupAssetMeterHasAssetsRecord": "Asset-Zähler ist mit einem oder mehreren Asset-Datensätzen verknüpft und kann daher nicht gelöscht werden"
+      "setupAssetMeterHasAssetsRecord": "Asset-Zähler ist mit einem oder mehreren Asset-Datensätzen verknüpft und kann daher nicht gelöscht werden",
+      "setupTmplTaskHasJobOrderProduct": "Löschen nicht möglich: Vorlage wird zur Erstellung eines oder mehrerer Jobauftrag-Produkte verwendet"
     },
     "labelBE": {
       "profileTableColumnSetup": {
