@@ -8684,7 +8684,9 @@
     "changeStatusTo": "Status ändern in",
     "identification": "Identifikation",
     "signOff": "Abmelden",
-    "photoUpload": "Foto hochladen"
+    "photoUpload": "Foto hochladen",
+    "viewPdf": "PDF anzeigen",
+    "emailPdf": "PDF per E-Mail senden"
   }
 },
 "inventory": {
@@ -22774,9 +22776,7 @@
         }
       },
       "messages": {
-        "searchJobOrders": "Auftragsanforderungen suchen",
-        "viewPdf": "PDF anzeigen",
-        "emailPdf": "PDF per E-Mail senden"
+        "searchJobOrders": "Auftragsanforderungen suchen"
       }
     },
     "national": {

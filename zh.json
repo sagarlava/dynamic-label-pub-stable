@@ -8687,7 +8687,9 @@
       "changeStatusTo": "更改状态为",
       "identification": "身份識別",
       "signOff": "登出",
-      "photoUpload": "上傳照片"
+      "photoUpload": "上傳照片",
+      "viewPdf": "查看PDF",
+      "emailPdf": "发送PDF邮件"
     }
   },
   "inventory": {
@@ -22791,9 +22793,7 @@
         }
       },
       "messages": {
-        "searchJobOrders": "搜索工作订单",
-        "viewPdf": "查看PDF",
-        "emailPdf": "发送PDF邮件"
+        "searchJobOrders": "搜索工作订单"
       }
     },
     "national": {

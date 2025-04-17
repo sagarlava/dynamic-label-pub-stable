@@ -8646,7 +8646,9 @@
       "changeStatusTo": "Change status to",
       "identification" : "Identification",
       "signOff" : "Sign off",
-      "photoUplaod": "Photo Upload"
+      "photoUplaod": "Photo Upload",
+      "viewPdf" : "View Pdf",
+      "emailPdf" : "Email Pdf"
     }
   },
   "inventory": {
@@ -22548,9 +22550,7 @@
         }
       },
       "messages": {
-        "searchJobOrders" : "Search Job Orders",
-        "viewPdf" : "View Pdf",
-        "emailPdf" : "Email Pdf"
+        "searchJobOrders" : "Search Job Orders"
       }
     },
     "national": {

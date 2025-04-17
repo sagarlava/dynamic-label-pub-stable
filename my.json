@@ -8672,7 +8672,9 @@
       "changeStatusTo": "Tukar status kepada",
       "identification": "Pengenalan",
       "signOff": "Log keluar",
-      "photoUpload": "Muat naik foto"
+      "photoUpload": "Muat naik foto",
+      "viewPdf": "Lihat Pdf",
+      "emailPdf": "E-mel Pdf"
     }
   },
   "inventory": {
@@ -22776,9 +22778,7 @@
         }
       },
       "messages": {
-        "searchJobOrders": "Cari Pesanan Kerja",
-        "viewPdf": "Lihat Pdf",
-        "emailPdf": "E-mel Pdf"
+        "searchJobOrders": "Cari Pesanan Kerja"
       }
     },
     "national": {
