@@ -13429,7 +13429,63 @@
         "plural": "Manuelle Behälterübertragungen",
         "setupEdit": false,
         "setupVisible": false
-      }	
+      },
+      "previewCsv":{
+        "original": "Preview CSV",
+        "singular": "CSV-Vorschau",
+        "plural": "CSV-Vorschau",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "addNewStatus":{
+        "original": "Add New Status",
+        "singular": "Neuen Status hinzufügen",
+        "plural": "Neuen Status hinzufügen",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "addNewType":{
+        "original": "Add New Type",
+        "singular": "Neue Typ hinzufügen",
+        "plural": "Neue Typen hinzufügen",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "saveConfigurationImportAsset":{
+        "original": "Save Configurations & Import Assets",
+        "singular": "Konfigurationen speichern & Anlagen importieren",
+        "plural": "Konfigurationen speichern & Anlagen importieren",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "skip":{
+        "original": "Skip",
+        "singular": "Überspringen",
+        "plural": "Überspringen",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "saveConfigurationImportWorkOrders":{
+        "original": "Save Configurations & Import Work Orders",
+        "singular": "Konfigurationen speichern & Arbeitsaufträge importieren",
+        "plural": "Konfigurationen speichern & Arbeitsaufträge importieren",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "chooseFile":{
+        "original": "Choose a File",
+        "singular": "Eine Datei auswählen",
+        "plural": "Eine Datei auswählen",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "choose":{
+        "original": "Choose",
+        "singular": "Auswählen",
+        "plural": "Auswählen",
+        "setupEdit": false,
+        "setupVisible": false
+      }
     },
     "status": {
       "setupVisible": false,
@@ -25646,6 +25702,112 @@
           "setupEdit": true,
           "setupVisible": false
         }
+      }
+    },
+    "onBoard": {
+      "setupEdit": false,
+      "setupVisible": false,
+      "label": {
+        "original": "On-Board",
+        "singular": "Einführung",
+        "plural": "Einführung",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sections": {
+        "setupEdit": false,
+        "setupVisible": false,
+        "sec0": {
+          "original": "Welcome to FieldEx",
+          "singular": "Willkommen bei FieldEx",
+          "plural": "",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "sec1": {
+          "original": "Get Started",
+          "singular": "Erste Schritte",
+          "plural": "Erste Schritte",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "sec2": {
+          "original": "Import Asset",
+          "singular": "Asset importieren",
+          "plural": "Asset importieren",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "sec3": {
+          "original": "Setup Work Orders",
+          "singular": "Arbeitsaufträge einrichten",
+          "plural": "Arbeitsaufträge einrichten",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "sec4": {
+          "original": "Learn More",
+          "singular": "Mehr erfahren",
+          "plural": "Mehr erfahren",
+          "setupEdit": false,
+          "setupVisible": false
+        }
+      },
+      "messages":{
+        "letsImportAsset":"Lass uns deine Assets importieren",
+        "assetAreHeartCmms":"Assets sind das Herzstück deines CMMS. Beginne mit dem Hochladen, um Wartung, Historie und Zuweisungen zu verwalten",
+        "aiPoweredImport":"KI-gesteuerter Import",
+        "automaticallyMapYourCSV":"FieldEx kann deine CSV-Spalten automatisch zuordnen, Typen, Status und Kategorien extrahieren und dein System konfigurieren – ganz ohne manuelle Einrichtung!",
+        "letOurIntelligentSystem":"Lass unser intelligentes System die Arbeit für dich erledigen. FieldEx kann automatisch:",
+        "mapCsvToSystemField":"CSV-Spalten den Systemfeldern zuordnen",
+        "extractConfigureAssetType":"Asset-Typ-Auswahllisten extrahieren und konfigurieren",
+        "detectSetUpStatus":"Statuswerte mit passenden Farben erkennen und einrichten",
+        "configureSystemInSeconds":"Konfiguriere dein System in Sekunden – ganz ohne manuelle Einrichtung",
+        "uploadExistingAsset":"Lade deine bestehenden Assets hoch und wir helfen dir dabei, die Felder zuzuordnen und das Asset-Modul zu konfigurieren",
+        "dragDropCsvHere":"Ziehe deine CSV-Datei hierher",
+        "needATemplate":"Brauchst du eine Vorlage?",
+        "downloadCsvTemplate":"CSV-Vorlage herunterladen",
+        "letAiCreateData":"Lass die KI deine Daten erstellen und dein System konfigurieren",
+        "startBuildingMaintenanceSystem":"Beginne in wenigen Minuten mit dem Aufbau deines Wartungssystems",
+        "helpsReduceDowntime":"FieldEx hilft dir, Ausfallzeiten um 37 % zu reduzieren, die Lebensdauer deiner Assets zu verlängern und Wartungskosten zu senken. Richte dein System in wenigen Minuten ein und beginne noch heute mit der Transformation deiner Wartungsprozesse",
+        "getQuickLook":"Verschaffe dir einen schnellen Überblick darüber, wie FieldEx Teams dabei unterstützt, Assets zu verwalten, Services zu planen und Ausfallzeiten mühelos zu reduzieren",
+        "bookTrainingSession":"Buche eine 45-minütige Schulungssitzung",
+        "withRealHumanForFree":"mit einem echten Menschen – kostenlos, um dir den Einstieg zu erleichtern",
+        "whatYouCanDo":"Was du mit FieldEx tun kannst",
+        "management":"Verwaltung",
+        "digitizeEveryAsset":"Digitalisiere jedes Asset und verfolge es in Echtzeit",
+        "viewUptimeLogs":"Zeige Betriebszeit, Protokolle und Leistungsdaten sofort an",
+        "tagEquipmentQrCode":"Geräte mit QR-Codes kennzeichnen für schnelles Scannen vor Ort",
+        "setUpSmartSchedules":"Richte smarte Zeitpläne ein, um Ausfälle zu vermeiden",
+        "getAlertsBefore":"Erhalte Warnungen, bevor etwas schiefläuft",
+        "automateServicePlan":"Automatisiere Servicepläne",
+        "createAssignInOnePlace":"Erstelle, weise zu und schließe Jobs – alles an einem Ort",
+        "trackJobProgressStatusLive":"Verfolge den Fortschritt und Status von Arbeiten live vom Einsatzort",
+        "useQrCodesStartCompleteJobs":"Nutze QR-Codes, um Arbeiten unterwegs zu starten oder abzuschließen",
+        "trackEveryPartAcrossAllSite":"Verfolge jedes Teil über alle Standorte und Teams hinweg",
+        "knowWhatsInStock":"Weiß, was auf Lager ist, was gebraucht wird, und bestelle nach",
+        "scanUpdateInventory":"Scanne und aktualisiere Inventar in Echtzeit",
+        "inviteYourTeam":"Lade dein Team ein",
+        "admin":"Administrator",
+        "planner":"Planer",
+        "fieldEngineer":"Feldeinsatztechniker",
+        "accessEverythingManageSettings":"Zugriff auf alles, verwalte Einstellungen, Benutzer und Berichte",
+        "createAssignJobsTrackProgress":"Erstelle und weise Aufgaben zu, verfolge Fortschritte, optimiere Zeitpläne",
+        "receiveTaskUpdateJobStatus":"Empfange Aufgaben, aktualisiere den Auftragsstatus, lade Fotos hoch, scanne QR-Codes.",
+        "addYourTeammates":"Füge deine Teammitglieder zu FieldEx hinzu und weise ihnen Rollen zu, die ihren Superkräften entsprechen. Egal ob hinter dem Bildschirm oder draußen im Einsatz – nur eine Einladung trennt euch von echter Synergie.",
+        "reviewCsvColumns":"Überprüfen Sie, wie Ihre CSV-Spalten unseren Systemfeldern zugeordnet sind",
+        "reviewCustomizeAssetType":"Überprüfen und passen Sie die in Ihrer CSV und in bestehenden Systemtypen erkannten Assettypen an",
+        "reviewCustomizeAssetStatus":"Überprüfen und passen Sie den in Ihrer CSV und im bestehenden Systemstatus erkannten Assetstatus an",
+        "reviewCustomizeWorkOrderType":"Überprüfen und passen Sie die in Ihrer CSV und in bestehenden Systemtypen erkannten Arbeitsaufträge an",
+        "reviewCustomizeWorkOrderStatus":"Überprüfen und passen Sie den in Ihrer CSV und im bestehenden Systemstatus erkannten Arbeitsauftragsstatus an",
+        "reviewCustomize":"Überprüfen und anpassen",
+        "statusDetected":"in Ihrer CSV und im bestehenden Systemstatus erkannter Status",
+        "typesDetected":"in Ihrer CSV und im bestehenden Systemstatus erkannte Typen",
+        "youCanReviewAdjustAnytime":"Sie können jederzeit überprüfen und anpassen",
+        "viewMoreField":"Weitere Felder anzeigen...",
+        "enterNewAssetType":"Neuen Anlagentyp eingeben...",
+        "enterNewAssetStatus":"Neuen Anlagenstatus eingeben...",
+        "tip":"Tipp"
       }
     }
   },

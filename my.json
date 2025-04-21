@@ -13429,7 +13429,63 @@
         "plural": "Pemindahan Tong Secara Manual",
         "setupEdit": false,
         "setupVisible": false
-      }	
+      },
+      "previewCsv":{
+        "original": "Preview CSV",
+        "singular": "Pratonton CSV",
+        "plural": "Pratonton CSV",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "addNewStatus":{
+        "original": "Add New Status",
+        "singular": "Tambah Status Baharu",
+        "plural": "Tambah Status Baharu",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "addNewType":{
+        "original": "Add New Type",
+        "singular": "Tambah Jenis Baharu",
+        "plural": "Tambah Jenis Baharu",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "saveConfigurationImportAsset":{
+        "original": "Save Configurations & Import Assets",
+        "singular": "Simpan Konfigurasi & Import Aset",
+        "plural": "Simpan Konfigurasi & Import Aset",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "skip":{
+        "original": "Skip",
+        "singular": "Langkau",
+        "plural": "Langkau",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "saveConfigurationImportWorkOrders":{
+        "original": "Save Configurations & Import Work Orders",
+        "singular": "Simpan Konfigurasi & Import Pesanan Kerja",
+        "plural": "Simpan Konfigurasi & Import Pesanan Kerja",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "chooseFile":{
+        "original": "Choose a File",
+        "singular": "Pilih Fail",
+        "plural": "Pilih Fail",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "choose":{
+        "original": "Choose",
+        "singular": "Pilih",
+        "plural": "Pilih",
+        "setupEdit": false,
+        "setupVisible": false
+      }
     },
     "status": {
       "setupVisible": true,
@@ -25646,6 +25702,112 @@
           "setupEdit": true,
           "setupVisible": false
         }
+      }
+    },
+    "onBoard": {
+      "setupEdit": false,
+      "setupVisible": false,
+      "label": {
+        "original": "On-Board",
+        "singular": "Pendaftaran",
+        "plural": "Pendaftaran",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sections": {
+        "setupEdit": false,
+        "setupVisible": false,
+        "sec0": {
+          "original": "Welcome to FieldEx",
+          "singular": "Selamat Datang ke FieldEx",
+          "plural": "",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "sec1": {
+          "original": "Get Started",
+          "singular": "Mulakan",
+          "plural": "Mulakan",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "sec2": {
+          "original": "Import Asset",
+          "singular": "Import Aset",
+          "plural": "Import Aset",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "sec3": {
+          "original": "Setup Work Orders",
+          "singular": "Tetapan Arahan Kerja",
+          "plural": "Tetapan Arahan Kerja",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "sec4": {
+          "original": "Learn More",
+          "singular": "Ketahui Lebih Lanjut",
+          "plural": "Ketahui Lebih Lanjut",
+          "setupEdit": false,
+          "setupVisible": false
+        }
+      },
+      "messages":{
+        "letsImportAsset":"Mari Import Aset Anda",
+        "assetAreHeartCmms":"Aset adalah jantung CMMS anda. Mulakan dengan memuat naiknya untuk mengurus penyelenggaraan, sejarah dan tugasan",
+        "aiPoweredImport":"Import Dikuasakan AI",
+        "automaticallyMapYourCSV":"FieldEx boleh memetakan lajur CSV anda secara automatik, mengekstrak jenis, status, kategori dan mengkonfigurasi sistem anda - tanpa tetapan manual!",
+        "letOurIntelligentSystem":"Biarkan sistem pintar kami lakukan kerja untuk anda. FieldEx boleh secara automatik:",
+        "mapCsvToSystemField":"Petakan lajur CSV anda ke medan sistem",
+        "extractConfigureAssetType":"Ekstrak dan konfigurasikan senarai jenis aset",
+        "detectSetUpStatus":"Kesan dan tetapkan nilai status dengan warna yang sesuai",
+        "configureSystemInSeconds":"Konfigurasikan sistem anda dalam beberapa saat - tanpa tetapan manual",
+        "uploadExistingAsset":"Muat naik aset sedia ada anda dan kami akan bantu anda memetakan medan dan mengkonfigurasi modul aset untuk anda.",
+        "dragDropCsvHere":"Seret & Lepaskan fail CSV anda di sini",
+        "needATemplate":"Perlukan templat?",
+        "downloadCsvTemplate":"Muat Turun Templat CSV",
+        "letAiCreateData":"Biarkan AI cipta data anda & konfigurasikan sistem anda",
+        "startBuildingMaintenanceSystem":"Mulakan pembinaan sistem penyelenggaraan anda dalam beberapa minit",
+        "helpsReduceDowntime":"FieldEx membantu anda mengurangkan masa henti sebanyak 37%, memanjangkan jangka hayat aset, dan mengurangkan kos penyelenggaraan. Tetapkan sistem anda dalam beberapa minit dan mula transformasi operasi penyelenggaraan anda hari ini",
+        "getQuickLook":"Lihat sepintas lalu bagaimana FieldEx memperkasa pasukan untuk mengurus aset, menjadualkan servis, dan mengurangkan masa henti dengan mudah.",
+        "bookTrainingSession":"Tempah sesi latihan selama 45 minit",
+        "withRealHumanForFree":"bersama manusia sebenar secara percuma untuk membantu anda bermula",
+        "whatYouCanDo":"Apa Yang Anda Boleh Lakukan Dengan FieldEx",
+        "management":"Pengurusan",
+        "digitizeEveryAsset":"Digitalkan setiap aset dan jejaknya dalam masa nyata",
+        "viewUptimeLogs":"Lihat masa operasi, log, dan data prestasi serta-merta",
+        "tagEquipmentQrCode":"Tandakan peralatan dengan kod QR untuk imbasan pantas di tapak",
+        "setUpSmartSchedules":"Tetapkan jadual pintar untuk mencegah kerosakan",
+        "getAlertsBefore":"Dapatkan makluman sebelum sesuatu berlaku",
+        "automateServicePlan":"Automatikkan pelan servis",
+        "createAssignInOnePlace":"Cipta, tugaskan dan tutup tugasan — semuanya di satu tempat",
+        "trackJobProgressStatusLive":"Jejak kemajuan dan status kerja secara langsung dari lapangan",
+        "useQrCodesStartCompleteJobs":"Guna kod QR untuk mula atau lengkapkan kerja semasa bergerak",
+        "trackEveryPartAcrossAllSite":"Jejak setiap alat ganti merentasi semua tapak dan pasukan",
+        "knowWhatsInStock":"Ketahui stok semasa, keperluan dan buat pesanan semula",
+        "scanUpdateInventory":"Imbas dan kemas kini inventori dalam masa nyata",
+        "inviteYourTeam":"Jemput pasukan anda",
+        "admin":"Pentadbir",
+        "planner":"Perancang",
+        "fieldEngineer":"Jurutera Lapangan",
+        "accessEverythingManageSettings":"Akses semua perkara, urus tetapan, pengguna dan laporan",
+        "createAssignJobsTrackProgress":"Cipta dan tugaskan kerja, jejak kemajuan, optimumkan jadual",
+        "receiveTaskUpdateJobStatus":"Terima tugasan, kemas kini status kerja, muat naik foto, imbas kod QR.",
+        "addYourTeammates":"Tambah rakan sepasukan anda ke FieldEx dan tetapkan peranan yang sesuai dengan kekuatan mereka. Sama ada mereka mengurus di sebalik skrin atau di lapangan — anda hanya satu jemputan sahaja dari sinergi.",
+        "reviewCsvColumns":"Semak bagaimana lajur CSV anda dipetakan ke medan sistem kami",
+        "reviewCustomizeAssetType":"Semak dan sesuaikan jenis aset yang dikesan dalam CSV anda dan jenis sistem sedia ada",
+        "reviewCustomizeAssetStatus":"Semak dan sesuaikan status aset yang dikesan dalam CSV anda dan status sistem sedia ada",
+        "reviewCustomizeWorkOrderType":"Semak dan sesuaikan jenis pesanan kerja yang dikesan dalam CSV anda dan jenis sistem sedia ada",
+        "reviewCustomizeWorkOrderStatus":"Semak dan sesuaikan status pesanan kerja yang dikesan dalam CSV anda dan status sistem sedia ada",
+        "reviewCustomize":"Semak dan sesuaikan",
+        "statusDetected":"status dikesan dalam CSV anda dan status sistem sedia ada",
+        "typesDetected":"jenis dikesan dalam CSV anda dan status sistem sedia ada",
+        "youCanReviewAdjustAnytime":"Anda boleh menyemak dan menyesuaikan pada bila-bila masa",
+        "viewMoreField":"Lihat Lebih Banyak Medan...",
+        "enterNewAssetType":"Masukkan jenis aset baharu...",
+        "enterNewAssetStatus":"Masukkan status aset baharu...",
+        "tip":"Tip"
       }
     }
   },

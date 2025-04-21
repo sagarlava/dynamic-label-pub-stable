@@ -13429,7 +13429,63 @@
         "plural": "手动存储箱转移",
         "setupEdit": false,
         "setupVisible": false
-      }	
+      },
+      "previewCsv":{
+        "original": "Preview CSV",
+        "singular": "预览 CSV",
+        "plural": "预览 CSV",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "addNewStatus":{
+        "original": "Add New Status",
+        "singular": "添加新状态",
+        "plural": "添加新状态",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "addNewType":{
+        "original": "Add New Type",
+        "singular": "添加新类型",
+        "plural": "添加新类型",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "saveConfigurationImportAsset":{
+        "original": "Save Configurations & Import Assets",
+        "singular": "保存配置并导入资产",
+        "plural": "保存配置并导入资产",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "skip":{
+        "original": "Skip",
+        "singular": "跳过",
+        "plural": "跳过",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "saveConfigurationImportWorkOrders":{
+        "original": "Save Configurations & Import Work Orders",
+        "singular": "保存配置并导入工单",
+        "plural": "保存配置并导入工单",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "chooseFile":{
+        "original": "Choose a File",
+        "singular": "选择文件",
+        "plural": "选择文件",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "choose":{
+        "original": "Choose",
+        "singular": "选择",
+        "plural": "选择",
+        "setupEdit": false,
+        "setupVisible": false
+      }
     },
     "status": {
       "setupVisible": true,
@@ -25646,6 +25702,112 @@
           "setupEdit": true,
           "setupVisible": false
         }
+      }
+    },
+    "onBoard": {
+      "setupEdit": false,
+      "setupVisible": false,
+      "label": {
+        "original": "On-Board",
+        "singular": "入门引导",
+        "plural": "入门引导",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sections": {
+        "setupEdit": false,
+        "setupVisible": false,
+        "sec0": {
+          "original": "Welcome to FieldEx",
+          "singular": "欢迎使用 FieldEx",
+          "plural": "",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "sec1": {
+          "original": "Get Started",
+          "singular": "开始使用",
+          "plural": "开始使用",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "sec2": {
+          "original": "Import Asset",
+          "singular": "导入资产",
+          "plural": "导入资产",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "sec3": {
+          "original": "Setup Work Orders",
+          "singular": "设置工单",
+          "plural": "设置工单",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "sec4": {
+          "original": "Learn More",
+          "singular": "了解更多",
+          "plural": "了解更多",
+          "setupEdit": false,
+          "setupVisible": false
+        }
+      },
+      "messages":{
+        "letsImportAsset":"开始导入您的资产",
+        "assetAreHeartCmms":"资产是您 CMMS 的核心。从上传资产开始，管理维护、历史记录和任务",
+        "aiPoweredImport":"AI 驱动导入",
+        "automaticallyMapYourCSV":"FieldEx 可以自动映射您的 CSV 列，提取类型、状态、类别并配置您的系统 - 无需手动设置！",
+        "letOurIntelligentSystem":"让我们的智能系统为您完成工作。FieldEx 可以自动执行以下操作：",
+        "mapCsvToSystemField":"将您的 CSV 列映射到系统字段",
+        "extractConfigureAssetType":"提取并配置资产类型选项列表",
+        "detectSetUpStatus":"检测并设置具有相应颜色的状态值",
+        "configureSystemInSeconds":"几秒钟内配置您的系统 - 无需手动设置",
+        "uploadExistingAsset":"上传您现有的资产，我们将帮助您映射字段并配置资产模块",
+        "dragDropCsvHere":"将您的 CSV 文件拖放到此处",
+        "needATemplate":"需要模板？",
+        "downloadCsvTemplate":"下载 CSV 模板",
+        "letAiCreateData":"让 AI 创建您的数据并配置您的系统",
+        "startBuildingMaintenanceSystem":"几分钟内开始构建您的维护系统",
+        "helpsReduceDowntime":"FieldEx 可帮助您将停机时间减少 37%，延长资产寿命并降低维护成本。几分钟内设置系统，立即开始转变您的维护运营",
+        "getQuickLook":"快速了解 FieldEx 如何帮助团队轻松管理资产、安排服务并减少停机时间",
+        "bookTrainingSession":"预订 45 分钟培训课程",
+        "withRealHumanForFree":"由真人免费为您上手指导",
+        "whatYouCanDo":"您可以用 FieldEx 做什么",
+        "management":"管理",
+        "digitizeEveryAsset":"数字化每个资产并实时跟踪",
+        "viewUptimeLogs":"立即查看运行时间、日志和性能数据",
+        "tagEquipmentQrCode":"为设备贴上 QR 码，现场快速扫码",
+        "setUpSmartSchedules":"设置智能计划以防止故障",
+        "getAlertsBefore":"提前获取警报，防患未然",
+        "automateServicePlan":"自动化服务计划",
+        "createAssignInOnePlace":"创建、分配并完成工作任务 — 全部集中在一个地方",
+        "trackJobProgressStatusLive":"实时追踪工作进度和状态",
+        "useQrCodesStartCompleteJobs":"使用二维码随时开始或完成任务",
+        "trackEveryPartAcrossAllSite":"在所有站点和团队中追踪每个零件",
+        "knowWhatsInStock":"了解库存情况、所需物料，并进行补货",
+        "scanUpdateInventory":"实时扫描并更新库存",
+        "inviteYourTeam":"邀请您的团队",
+        "admin":"管理员",
+        "planner":"计划员",
+        "fieldEngineer":"现场工程师",
+        "accessEverythingManageSettings":"访问所有内容，管理设置、用户和报告",
+        "createAssignJobsTrackProgress":"创建和分配任务，跟踪进度，优化日程",
+        "receiveTaskUpdateJobStatus":"接收任务，更新任务状态，上传照片，扫描二维码。",
+        "addYourTeammates":"将您的队友添加到 FieldEx，并分配最适合他们能力的角色。无论是在幕后协调，还是在现场操作 —— 只需一个邀请，就能实现协作！",
+        "reviewCsvColumns":"检查您的 CSV 列如何映射到我们的系统字段",
+        "reviewCustomizeAssetType":"检查并自定义在您的 CSV 和现有系统类型中检测到的资产类型",
+        "reviewCustomizeAssetStatus":"检查并自定义在您的 CSV 和现有系统状态中检测到的资产状态",
+        "reviewCustomizeWorkOrderType":"检查并自定义在您的 CSV 和现有系统类型中检测到的工单类型",
+        "reviewCustomizeWorkOrderStatus":"检查并自定义在您的 CSV 和现有系统状态中检测到的工单状态",
+        "reviewCustomize":"检查并自定义",
+        "statusDetected":"在您的 CSV 和现有系统状态中检测到的状态",
+        "typesDetected":"在您的 CSV 和现有系统状态中检测到的类型",
+        "youCanReviewAdjustAnytime":"您可以随时检查和调整",
+        "viewMoreField":"查看更多字段...",
+        "enterNewAssetType":"输入新的资产类型...",
+        "enterNewAssetStatus":"输入新的资产状态...",
+        "tip":"提示"
       }
     }
   },
