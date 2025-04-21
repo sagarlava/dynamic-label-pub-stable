@@ -23988,7 +23988,16 @@
         "accessEverythingManageSettings":"访问所有内容，管理设置、用户和报告",
         "createAssignJobsTrackProgress":"创建和分配任务，跟踪进度，优化日程",
         "receiveTaskUpdateJobStatus":"接收任务，更新任务状态，上传照片，扫描二维码。",
-        "addYourTeammates":"将您的队友添加到 FieldEx，并分配最适合他们能力的角色。无论是在幕后协调，还是在现场操作 —— 只需一个邀请，就能实现协作！"
+        "addYourTeammates":"将您的队友添加到 FieldEx，并分配最适合他们能力的角色。无论是在幕后协调，还是在现场操作 —— 只需一个邀请，就能实现协作！",
+        "reviewCsvColumns":"检查您的 CSV 列如何映射到我们的系统字段",
+        "reviewCustomizeAssetType":"检查并自定义在您的 CSV 和现有系统类型中检测到的资产类型",
+        "reviewCustomizeAssetStatus":"检查并自定义在您的 CSV 和现有系统状态中检测到的资产状态",
+        "reviewCustomizeWorkOrderType":"检查并自定义在您的 CSV 和现有系统类型中检测到的工单类型",
+        "reviewCustomizeWorkOrderStatus":"检查并自定义在您的 CSV 和现有系统状态中检测到的工单状态",
+        "reviewCustomize":"检查并自定义",
+        "statusDetected":"在您的 CSV 和现有系统状态中检测到的状态",
+        "typesDetected":"在您的 CSV 和现有系统状态中检测到的类型",
+        "youCanReviewAdjustAnytime":"您可以随时检查和调整"
       }
     }
   },

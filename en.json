@@ -23988,7 +23988,16 @@
         "accessEverythingManageSettings":"Access everything, manage settings, users, and report",
         "createAssignJobsTrackProgress":"Create and assign jobs, track progress, optimize schedules",
         "receiveTaskUpdateJobStatus":"Receive tasks, update job status, upload photos, scan QR codes.",
-        "addYourTeammates":"Add your teammates to FieldEx and assign roles that suit their superpowers. Whether they keep things moving behind a screen or out on the field — you’re just one invite away from synergy."
+        "addYourTeammates":"Add your teammates to FieldEx and assign roles that suit their superpowers. Whether they keep things moving behind a screen or out on the field — you’re just one invite away from synergy.",
+        "reviewCsvColumns":"Review how your CSV columns map to our system fields",
+        "reviewCustomizeAssetType":"Review and customize asset types detected in your CSV and existing system types",
+        "reviewCustomizeAssetStatus":"Review and customize asset status detected in your CSV and existing system status",
+        "reviewCustomizeWorkOrderType":"Review and customize work order types detected in your CSV and existing system types",
+        "reviewCustomizeWorkOrderStatus":"Review and customize work order status detected in your CSV and existing system status",
+        "reviewCustomize":"Review and customize",
+        "statusDetected":"status detected in your CSV and existing system status",
+        "typesDetected":"types detected in your CSV and existing system status",
+        "youCanReviewAdjustAnytime":"You can review and adjust anytime"
       }
     }
   },

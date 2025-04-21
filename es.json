@@ -23988,7 +23988,16 @@
         "accessEverythingManageSettings":"Accede a todo, gestiona configuraciones, usuarios e informes",
         "createAssignJobsTrackProgress":"Crea y asigna tareas, haz seguimiento del progreso y optimiza horarios",
         "receiveTaskUpdateJobStatus":"Recibe tareas, actualiza el estado del trabajo, sube fotos, escanea códigos QR.",
-        "addYourTeammates":"Agrega a tus compañeros a FieldEx y asígnales roles que se ajusten a sus superpoderes. Ya sea detrás de la pantalla o en el campo, estás a una invitación de la sinergia."
+        "addYourTeammates":"Agrega a tus compañeros a FieldEx y asígnales roles que se ajusten a sus superpoderes. Ya sea detrás de la pantalla o en el campo, estás a una invitación de la sinergia.",
+        "reviewCsvColumns":"Revise cómo se asignan sus columnas CSV a los campos de nuestro sistema",
+        "reviewCustomizeAssetType":"Revise y personalice los tipos de activos detectados en su CSV y los tipos de sistema existentes",
+        "reviewCustomizeAssetStatus":"Revise y personalice el estado de los activos detectados en su CSV y el estado del sistema existente",
+        "reviewCustomizeWorkOrderType":"Revise y personalice los tipos de órdenes de trabajo detectados en su CSV y los tipos de sistema existentes",
+        "reviewCustomizeWorkOrderStatus":"Revise y personalice el estado de las órdenes de trabajo detectados en su CSV y el estado del sistema existente",
+        "reviewCustomize":"Revise y personalice",
+        "statusDetected":"estado detectado en su CSV y estado del sistema existente",
+        "typesDetected":"tipos detectados en su CSV y estado del sistema existente",
+        "youCanReviewAdjustAnytime":"Puede revisar y ajustar en cualquier momento"
       }
     }
   },
