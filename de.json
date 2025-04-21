@@ -12232,7 +12232,63 @@
         "plural": "Koordinaten verwenden",
         "setupEdit": false,
         "setupVisible": false
-      }	
+      },
+      "previewCsv":{
+        "original": "Preview CSV",
+        "singular": "CSV-Vorschau",
+        "plural": "CSV-Vorschau",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "addNewStatus":{
+        "original": "Add New Status",
+        "singular": "Neuen Status hinzufügen",
+        "plural": "Neuen Status hinzufügen",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "addNewType":{
+        "original": "Add New Type",
+        "singular": "Neue Typ hinzufügen",
+        "plural": "Neue Typen hinzufügen",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "saveConfigurationImportAsset":{
+        "original": "Save Configurations & Import Assets",
+        "singular": "Konfigurationen speichern & Anlagen importieren",
+        "plural": "Konfigurationen speichern & Anlagen importieren",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "skip":{
+        "original": "Skip",
+        "singular": "Überspringen",
+        "plural": "Überspringen",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "saveConfigurationImportWorkOrders":{
+        "original": "Save Configurations & Import Work Orders",
+        "singular": "Konfigurationen speichern & Arbeitsaufträge importieren",
+        "plural": "Konfigurationen speichern & Arbeitsaufträge importieren",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "chooseFile":{
+        "original": "Choose a File",
+        "singular": "Eine Datei auswählen",
+        "plural": "Eine Datei auswählen",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "choose":{
+        "original": "Choose",
+        "singular": "Auswählen",
+        "plural": "Auswählen",
+        "setupEdit": false,
+        "setupVisible": false
+      }
     },
     "status": {
       "setupVisible": false,

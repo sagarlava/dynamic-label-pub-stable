@@ -12232,7 +12232,63 @@
         "plural": "Usar coordenadas",
         "setupEdit": false,
         "setupVisible": false
-      }	
+      },
+      "previewCsv":{
+        "original": "Preview CSV",
+        "singular": "Vista previa CSV",
+        "plural": "Vista previa CSV",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "addNewStatus":{
+        "original": "Add New Status",
+        "singular": "Añadir Nuevo Estado",
+        "plural": "Añadir Nuevo Estado",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "addNewType":{
+        "original": "Add New Type",
+        "singular": "Añadir Nuevo Tipo",
+        "plural": "Añadir Nuevo Tipo",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "saveConfigurationImportAsset":{
+        "original": "Save Configurations & Import Assets",
+        "singular": "Guardar Configuraciones e Importar Activos",
+        "plural": "Guardar Configuraciones e Importar Activos",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "skip":{
+        "original": "Skip",
+        "singular": "Omitir",
+        "plural": "Omitir",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "saveConfigurationImportWorkOrders":{
+        "original": "Save Configurations & Import Work Orders",
+        "singular": "Guardar Configuraciones e Importar Órdenes de Trabajo",
+        "plural": "Guardar Configuraciones e Importar Órdenes de Trabajo",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "chooseFile":{
+        "original": "Choose a File",
+        "singular": "Elegir un Archivo",
+        "plural": "Elegir un Archivo",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "choose":{
+        "original": "Choose",
+        "singular": "Elegir",
+        "plural": "Elegir",
+        "setupEdit": false,
+        "setupVisible": false
+      }
     },
     "status": {
       "setupVisible": false,
