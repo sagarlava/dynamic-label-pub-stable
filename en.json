@@ -23674,7 +23674,7 @@
       "setupTmplJobOrderNotFound": "TmplJobOrder not found",
       "setupTmplJobOrderHasChecklistAnswerTemplates": "Checklist Answer Templates Data exists in the system for the TmplJobOrder",
       "setupTmplTaskIdExists": "A new TmplTask cannot already have an ID",
-      "setupTmplTaskHasChecklistAnswerTaskTemplates": "Checklist Answer Task Templates Data exists in the system for the TmplTask",
+      "setupTmplTaskHasChecklistAnswerTaskTemplates": "Unable to delete. Template already in use",
       "setupSalesForceIntegrationUserNotFound": "User not found for sales force integration",
       "setupUserGroupNameNotFound": "User group name not found",
       "setupUserGroupHasZone": "Zone Data exists in the system for the User Group",

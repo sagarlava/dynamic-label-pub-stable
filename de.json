@@ -23674,7 +23674,7 @@
       "setupTmplJobOrderNotFound": "TmplJobOrder nicht gefunden.",
       "setupTmplJobOrderHasChecklistAnswerTemplates": "Daten zu Checklisten-Antwortvorlagen existieren im System für den TmplJobOrder.",
       "setupTmplTaskIdExists": "Eine neue TmplTask kann bereits keine ID haben.",
-      "setupTmplTaskHasChecklistAnswerTaskTemplates": "Daten zu Checklisten-Antwortaufgaben-Vorlagen existieren im System für die TmplTask.",
+      "setupTmplTaskHasChecklistAnswerTaskTemplates": "Löschen nicht möglich. Vorlage wird bereits verwendet",
       "setupSalesForceIntegrationUserNotFound": "Benutzer für die Salesforce-Integration nicht gefunden.",
       "setupUserGroupNameNotFound": "Benutzergruppenname nicht gefunden.",
       "setupUserGroupHasZone": "Zonendaten existieren im System für die Benutzergruppe.",
