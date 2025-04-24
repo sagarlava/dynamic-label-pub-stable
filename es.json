@@ -21873,7 +21873,7 @@
       "setupTmplJobOrderNotFound": "TmplJobOrder no encontrado",
       "setupTmplJobOrderHasChecklistAnswerTemplates": "Los datos de plantillas de respuestas de listas de verificación existen en el sistema para el TmplJobOrder",
       "setupTmplTaskIdExists": "Una nueva TmplTask no puede ya tener un ID",
-      "setupTmplTaskHasChecklistAnswerTaskTemplates": "Los datos de plantillas de tareas de respuestas de listas de verificación existen en el sistema para el TmplTask",
+      "setupTmplTaskHasChecklistAnswerTaskTemplates": "No se puede eliminar. La plantilla ya está en uso",
       "setupSalesForceIntegrationUserNotFound": "Usuario no encontrado para la integración de Salesforce",
       "setupUserGroupNameNotFound": "Nombre del grupo de usuarios no encontrado",
       "setupUserGroupHasZone": "Los datos de zona existen en el sistema para el grupo de usuarios",
@@ -21902,7 +21902,8 @@
       "setupWorkflowEmailUserGroupMax": "Se alcanzó el número máximo de usuarios permitidos para notificaciones de flujo de trabajo",
       "setupTmplJobOrderLimitReached":"Has superado el límite de 50 plantillas activas. Cambia el estado de una plantilla no utilizada a 'Inactiva' para agregar otra plantilla activa.",
       "tmplTaskLimitExceeded":"Has superado el límite de 50 plantillas activas. Cambia el estado de una plantilla no utilizada a 'Inactiva' para agregar otra plantilla activa.",
-      "setupTmplTaskHasJobOrder": "No se puede eliminar: La plantilla se utiliza en una o más órdenes de trabajo"
+      "setupTmplTaskHasJobOrder": "No se puede eliminar: La plantilla se utiliza en una o más órdenes de trabajo",
+      "setupTmplTaskHasJobOrderProduct": "No se puede eliminar: La plantilla se utiliza para crear uno o más productos de orden de trabajo"
     },
     "labelBE": {
       "profileTableColumnSetup": {

@@ -21873,7 +21873,7 @@
       "setupTmplJobOrderNotFound": "未找到TmplJobOrder",
       "setupTmplJobOrderHasChecklistAnswerTemplates": "系统中存在TmplJobOrder的检查表答案模板数据",
       "setupTmplTaskIdExists": "新TmplTask不能已有ID",
-      "setupTmplTaskHasChecklistAnswerTaskTemplates": "系统中存在TmplTask的检查表答案任务模板数据",
+      "setupTmplTaskHasChecklistAnswerTaskTemplates": "无法删除。模板已被使用",
       "setupSalesForceIntegrationUserNotFound": "未找到用于销售力量集成的用户",
       "setupUserGroupNameNotFound": "未找到用户组名称",
       "setupUserGroupHasZone": "系统中存在用户组的区域数据",
@@ -21902,7 +21902,8 @@
       "setupWorkflowEmailUserGroupMax": "已达到工作流通知允许的最大用户数量",
       "setupTmplJobOrderLimitReached":"您已超出50个活动模板的限制。将未使用的模板状态设置为“未激活”以添加另一个活动模板",
       "tmplTaskLimitExceeded": "您已超出50个活动模板的限制。将未使用的模板状态设置为“未激活”以添加另一个活动模板",
-      "setupTmplTaskHasJobOrder": "无法删除：模板被用于一个或多个工单"
+      "setupTmplTaskHasJobOrder": "无法删除：模板被用于一个或多个工单",
+      "setupTmplTaskHasJobOrderProduct": "无法删除：该模板用于创建一个或多个工单产品"
     },
     "labelBE": {
       "profileTableColumnSetup": {
