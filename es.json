@@ -5359,7 +5359,9 @@
       "projectCannotDeleteBySites": "No se puede eliminar, el proyecto se utiliza en uno o más sitios",
       "projectCannotDeleteByJobOrders": "No se puede eliminar, el proyecto se utiliza en uno o más pedidos de trabajo",
       "projectCannotDeleteByJobOrderTemplates": "No se puede eliminar, el proyecto se utiliza en una o más plantillas de órdenes de trabajo",
-      "projectCannotDeleteByTaskTemplates": "No se puede eliminar, el proyecto se utiliza en una o más plantillas de tareas"
+      "projectCannotDeleteByTaskTemplates": "No se puede eliminar, el proyecto se utiliza en una o más plantillas de tareas",
+      "projectHasContact": "No se puede eliminar, el proyecto se utiliza en uno o más contactos",
+      "projectHasTicket": "No se puede eliminar, el proyecto se utiliza en uno o más tickets"
     },
     "tooltips": {
       "setupEdit": false,
