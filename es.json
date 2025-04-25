@@ -24006,6 +24006,24 @@
           "setupVisible": false
         }
       },
+      "fields":{
+        "setupVisible": false,
+        "setupEdit":false,
+        "email":{
+         "original": "Email",
+          "singular": "Correo electrónico",
+          "plural": "Correos electrónicos",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "role":{
+          "original": "Role",
+           "singular": "Rol",
+           "plural": "Roles",
+           "setupEdit": false,
+           "setupVisible": false
+          }
+      },
       "messages":{
         "letsImportAsset":"Vamos a importar tus activos",
         "assetAreHeartCmms":"Los activos son el corazón de tu CMMS. Comienza subiéndolos para gestionar el mantenimiento, historial y asignaciones",
@@ -24060,7 +24078,14 @@
         "viewMoreField":"Ver más campos...",
         "enterNewAssetType":"Introducir nuevo tipo de activo...",
         "enterNewAssetStatus":"Introducir nuevo estado de activo...",
-        "tip":"Consejo"
+        "tip":"Consejo",
+        "watchDemo":"Ver demostración: Lo que puedes lograr con Fieldex",
+        "quickLookEmpowersTeam":"Echa un vistazo rápido a cómo FieldEx ayuda a los equipos a gestionar activos, programar servicios y reducir el tiempo de inactividad sin esfuerzo",
+        "select":"Seleccionar",
+        "selectRole":"Seleccionar rol",
+        "aiAnalysisComplete":"Análisis de IA completado",
+        "fieldMapping":"Mapeo de campos",
+        "assetTypes":"Tipos de activos"
       }
     }
   },

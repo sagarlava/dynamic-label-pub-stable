@@ -24006,6 +24006,24 @@
           "setupVisible": false
         }
       },
+      "fields":{
+        "setupVisible": false,
+        "setupEdit":false,
+        "email":{
+         "original": "Email",
+          "singular": "邮件",
+          "plural": "邮件",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "role":{
+          "original": "Role",
+           "singular": "角色",
+           "plural": "角色",
+           "setupEdit": false,
+           "setupVisible": false
+          }
+      },
       "messages":{
         "letsImportAsset":"开始导入您的资产",
         "assetAreHeartCmms":"资产是您 CMMS 的核心。从上传资产开始，管理维护、历史记录和任务",
@@ -24060,7 +24078,14 @@
         "viewMoreField":"查看更多字段...",
         "enterNewAssetType":"输入新的资产类型...",
         "enterNewAssetStatus":"输入新的资产状态...",
-        "tip":"提示"
+        "tip":"提示",
+        "watchDemo":"观看演示：使用 Fieldex 您可以实现的目标",
+        "quickLookEmpowersTeam":"快速了解 FieldEx 如何帮助团队轻松管理资产、安排服务并减少停机时间",
+        "select":"选择",
+        "selectRole":"选择角色",
+        "aiAnalysisComplete":"AI 分析完成",
+        "fieldMapping":"字段映射",
+        "assetTypes":"资产类型"
       }
     }
   },

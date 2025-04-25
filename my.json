@@ -24006,6 +24006,24 @@
           "setupVisible": false
         }
       },
+      "fields":{
+        "setupVisible": false,
+        "setupEdit":false,
+        "email":{
+         "original": "Email",
+          "singular": "Emel",
+          "plural": "Emel",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "role":{
+          "original": "Role",
+           "singular": "Peranan",
+           "plural": "Peranan",
+           "setupEdit": false,
+           "setupVisible": false
+          }
+      },
       "messages":{
         "letsImportAsset":"Mari Import Aset Anda",
         "assetAreHeartCmms":"Aset adalah jantung CMMS anda. Mulakan dengan memuat naiknya untuk mengurus penyelenggaraan, sejarah dan tugasan",
@@ -24060,7 +24078,14 @@
         "viewMoreField":"Lihat Lebih Banyak Medan...",
         "enterNewAssetType":"Masukkan jenis aset baharu...",
         "enterNewAssetStatus":"Masukkan status aset baharu...",
-        "tip":"Tip"
+        "tip":"Tip",
+        "watchDemo":"Tonton Demo: Apa yang Anda Boleh Capai dengan Fieldex",
+        "quickLookEmpowersTeam":"Lihat sepintas lalu bagaimana FieldEx memperkasakan pasukan untuk mengurus aset, menjadualkan perkhidmatan, dan mengurangkan masa henti dengan mudah",
+        "select":"Pilih",
+        "selectRole":"Pilih Peranan",
+        "aiAnalysisComplete":"Analisis AI Selesai",
+        "fieldMapping":"Pemetaan Medan",
+        "assetTypes":"Jenis Aset"
       }
     }
   },

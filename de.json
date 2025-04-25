@@ -24006,6 +24006,24 @@
           "setupVisible": false
         }
       },
+      "fields":{
+        "setupVisible": false,
+        "setupEdit":false,
+        "email":{
+         "original": "Email",
+          "singular": "E-Mail",
+          "plural": "E-Mail",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "role":{
+          "original": "Role",
+           "singular": "Rolle",
+           "plural": "Rollen",
+           "setupEdit": false,
+           "setupVisible": false
+          }
+      },
       "messages":{
         "letsImportAsset":"Lass uns deine Assets importieren",
         "assetAreHeartCmms":"Assets sind das Herzstück deines CMMS. Beginne mit dem Hochladen, um Wartung, Historie und Zuweisungen zu verwalten",
@@ -24060,7 +24078,14 @@
         "viewMoreField":"Weitere Felder anzeigen...",
         "enterNewAssetType":"Neuen Anlagentyp eingeben...",
         "enterNewAssetStatus":"Neuen Anlagenstatus eingeben...",
-        "tip":"Tipp"
+        "tip":"Tipp",
+        "watchDemo":"Demo ansehen: Was Sie mit Fieldex erreichen können",
+        "quickLookEmpowersTeam":"Werfen Sie einen kurzen Blick darauf, wie FieldEx Teams befähigt, Anlagen zu verwalten, Services zu planen und Ausfallzeiten mühelos zu reduzieren",
+        "select":"Auswählen",
+        "selectRole":"Rolle auswählen",
+        "aiAnalysisComplete":"KI-Analyse abgeschlossen",
+        "fieldMapping":"Feldzuordnung",
+        "assetTypes":"Asset-Typen"
       }
     }
   },
