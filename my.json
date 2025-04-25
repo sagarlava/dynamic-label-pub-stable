@@ -5359,7 +5359,9 @@
       "projectCannotDeleteBySites": "Tidak dapat dihapuskan, Projek digunakan dalam satu atau lebih Tapak",
       "projectCannotDeleteByJobOrders": "Tidak dapat dihapuskan, Projek digunakan dalam satu atau lebih Pesanan Kerja",
       "projectCannotDeleteByJobOrderTemplates": "Tidak dapat memadam, Projek digunakan dalam satu atau lebih templat pesanan kerja",
-      "projectCannotDeleteByTaskTemplates": "Tidak dapat dipadam, Projek digunakan dalam satu atau lebih templat tugas"
+      "projectCannotDeleteByTaskTemplates": "Tidak dapat dipadam, Projek digunakan dalam satu atau lebih templat tugas",
+      "projectHasContact": "Tidak dapat dihapuskan, Projek digunakan dalam satu atau lebih Kenalan",
+      "projectHasTicket": "Tidak dapat dihapuskan, Projek digunakan dalam satu atau lebih Tiket"
     },
     "tooltips": {
       "setupEdit": false,
@@ -21927,7 +21929,7 @@
       "setupTmplJobOrderNotFound": "TmplJobOrder tidak ditemui",
       "setupTmplJobOrderHasChecklistAnswerTemplates": "Data Templat Jawapan Senarai Semak wujud dalam sistem untuk TmplJobOrder",
       "setupTmplTaskIdExists": "TmplTask baru tidak boleh sudah mempunyai ID",
-      "setupTmplTaskHasChecklistAnswerTaskTemplates": "Data Templat Tugas Jawapan Senarai Semak wujud dalam sistem untuk TmplTask",
+      "setupTmplTaskHasChecklistAnswerTaskTemplates": "Tidak dapat dipadam. Templat sedang digunakan",
       "setupSalesForceIntegrationUserNotFound": "Pengguna tidak dijumpai untuk integrasi Salesforce",
       "setupUserGroupNameNotFound": "Nama kumpulan pengguna tidak dijumpai",
       "setupUserGroupHasZone": "Data Zon wujud dalam sistem untuk Kumpulan Pengguna",
@@ -21956,7 +21958,8 @@
       "setupWorkflowEmailUserGroupMax": "Jumlah maksimum pengguna yang dibenarkan untuk pemberitahuan aliran kerja telah dicapa",
       "setupTmplJobOrderLimitReached":"Anda telah melebihi had 50 templat aktif. Tetapkan status templat yang tidak digunakan kepada 'Tidak Aktif' untuk menambah satu lagi templat aktif.",
       "tmplTaskLimitExceeded": "Anda telah melebihi had 50 templat aktif. Tukar status templat yang tidak digunakan kepada 'Tidak Aktif' untuk menambah satu lagi templat aktif",
-      "setupTmplTaskHasJobOrder": "Tidak dapat dihapuskan: Templat digunakan dalam satu atau lebih Pesanan Kerja"
+      "setupTmplTaskHasJobOrder": "Tidak dapat dihapuskan: Templat digunakan dalam satu atau lebih Pesanan Kerja",
+      "setupTmplTaskHasJobOrderProduct": "Tidak dapat dipadam: Templat digunakan untuk mencipta satu atau lebih Produk Pesanan Kerja"
     },
     "labelBE": {
       "profileTableColumnSetup": {

@@ -5359,7 +5359,9 @@
       "projectCannotDeleteBySites": "Löschen nicht möglich, Projekt wird in einem oder mehreren Standorten verwendet",
       "projectCannotDeleteByJobOrders": "Löschen nicht möglich, Projekt wird in einem oder mehreren Arbeitsaufträgen verwendet",
       "projectCannotDeleteByJobOrderTemplates": "Löschen nicht möglich, Projekt wird in einer oder mehreren Arbeitsauftragsvorlagen verwendet",
-      "projectCannotDeleteByTaskTemplates": "Löschen nicht möglich, Projekt wird in einer oder mehreren Aufgaben-Vorlagen verwendet"
+      "projectCannotDeleteByTaskTemplates": "Löschen nicht möglich, Projekt wird in einer oder mehreren Aufgaben-Vorlagen verwendet",
+      "projectHasContact": "Löschen nicht möglich, Projekt wird in einem oder mehreren Kontakten verwendet",
+      "projectHasTicket": "Löschen nicht möglich, Projekt wird in einem oder mehreren Tickets verwendet"
     },
     "tooltips": {
       "setupEdit": false,
@@ -21927,7 +21929,7 @@
       "setupTmplJobOrderNotFound": "TmplJobOrder nicht gefunden.",
       "setupTmplJobOrderHasChecklistAnswerTemplates": "Daten zu Checklisten-Antwortvorlagen existieren im System für den TmplJobOrder.",
       "setupTmplTaskIdExists": "Eine neue TmplTask kann bereits keine ID haben.",
-      "setupTmplTaskHasChecklistAnswerTaskTemplates": "Daten zu Checklisten-Antwortaufgaben-Vorlagen existieren im System für die TmplTask.",
+      "setupTmplTaskHasChecklistAnswerTaskTemplates": "Löschen nicht möglich. Vorlage wird bereits verwendet",
       "setupSalesForceIntegrationUserNotFound": "Benutzer für die Salesforce-Integration nicht gefunden.",
       "setupUserGroupNameNotFound": "Benutzergruppenname nicht gefunden.",
       "setupUserGroupHasZone": "Zonendaten existieren im System für die Benutzergruppe.",
@@ -21956,7 +21958,8 @@
       "setupWorkflowEmailUserGroupMax": "Maximale Anzahl an erlaubten Benutzern für Workflow-Benachrichtigungen erreicht",
       "setupTmplJobOrderLimitReached":"Sie haben das Limit von 50 aktiven Vorlagen überschritten. Setzen Sie den Status einer ungenutzten Vorlage auf 'Inaktiv', um eine weitere aktive Vorlage hinzuzufügen.",
       "tmplTaskLimitExceeded":"Sie haben das Limit von 50 aktiven Vorlagen überschritten. Setzen Sie den Status einer ungenutzten Vorlage auf 'Inaktiv', um eine weitere aktive Vorlage hinzuzufügen",
-      "setupTmplTaskHasJobOrder": "Löschen nicht möglich: Vorlage wird in einem oder mehreren Arbeitsaufträgen verwendet"
+      "setupTmplTaskHasJobOrder": "Löschen nicht möglich: Vorlage wird in einem oder mehreren Arbeitsaufträgen verwendet",
+      "setupTmplTaskHasJobOrderProduct": "Löschen nicht möglich: Vorlage wird zur Erstellung eines oder mehrerer Jobauftrag-Produkte verwendet"
     },
     "labelBE": {
       "profileTableColumnSetup": {
