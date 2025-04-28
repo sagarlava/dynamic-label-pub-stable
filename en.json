@@ -13485,6 +13485,83 @@
         "plural": "Choose",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "startLearning":{
+        "original": "Start Learning",
+        "singular": "Start Learning",
+        "plural": "Start Learning",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "watchVideo":{
+        "original": "Watch Videos",
+        "singular": "Watch Video",
+        "plural": "Watch Videos",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "exploreDocs":{
+        "original": "Explore Docs",
+        "singular": "Explore Docs",
+        "plural": "Explore Docs",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "browseFaqs":{
+        "original": "Browse FAQs",
+        "singular": "Browse FAQs",
+        "plural": "Browse FAQs",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "contactSupport":{
+        "original": "Contact Support",
+        "singular": "Contact Support",
+        "plural": "Contact Support",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "exploreLatestInnovations":{
+        "original": "Explore Latest Innovations",
+        "singular": "Explore Latest Innovations",
+        "plural": "Explore Latest Innovations",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "claimFreeSession":{
+        "original": "Claim Your 2 Free Sessions",
+        "singular": "Claim Your 2 Free Sessions",
+        "plural": "Claim Your 2 Free Sessions",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "launchSetup":{
+        "original": "Launch Setup",
+        "singular": "Launch Setup",
+        "plural": "Launch Setup",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "finalize":{
+        "original": "Finalize",
+        "singular": "Finalize",
+        "plural": "Finalize",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "addUser":{
+        "original": "Add User",
+        "singular": "Add User",
+        "plural": "Add User",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "letAiCreateConfigure":{
+        "original": "Let AI Create Your Data & Configure Your System",
+        "singular": "Let AI Create Your Data & Configure Your System",
+        "plural": "Let AI Create Your Data & Configure Your System",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "status": {
@@ -25753,6 +25830,24 @@
           "setupVisible": false
         }
       },
+      "fields":{
+        "setupVisible": false,
+        "setupEdit":false,
+        "email":{
+         "original": "Email",
+          "singular": "Email",
+          "plural": "Emails",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "role":{
+          "original": "Role",
+           "singular": "Role",
+           "plural": "Roles",
+           "setupEdit": false,
+           "setupVisible": false
+          }
+      },
       "messages":{
         "letsImportAsset":"Lets Import your Assets",
         "assetAreHeartCmms":"Assets are the heart of your CMMS. Start by uploading them to manage maintenance, history, and assignments",
@@ -25807,7 +25902,44 @@
         "viewMoreField":"View More Fields...",
         "enterNewAssetType":"Enter new asset type...",
         "enterNewAssetStatus":"Enter new asset status...",
-        "tip":"Tip"
+        "tip":"Tip",
+        "watchDemo":"Watch Demo: What You Can Achieve with Fieldex",
+        "quickLookEmpowersTeam":"Get a quick look at how FieldEx empowers teams to manage assets, schedule services, and reduce downtime effortlessly",
+        "select":"Select",
+        "selectRole":"Select Role",
+        "aiAnalysisComplete":"AI Analysis Complete",
+        "fieldMapping":"Field Mapping",
+        "assetTypes":"Asset Types",
+        "bookTrainingExperience":"Book a Training: Supercharge your FieldEx experience",
+        "freeOnboardingCaps":"FREE ONBOARDING",
+        "bookTwoSessions":"Book your two complimentary training sessions with our product specialists and learn how to maximize your field operations efficiency. No charges during onboarding!",
+        "comprehensiveLearning":"Comprehensive learning ecosystem with interactive modules for all skill levels",
+        "focusSolutionOriented":"Focused, solution-oriented video guides covering every aspect of the FieldEx platform",
+        "apiDocumentation":"API documentation and integration guides",
+        "answersCommonlyAsked":"Answers to commonly asked questions",
+        "getHelpFromCustomerSuccess":"Get help from our customer success team support@fieldex.com",
+        "discoverNewlyImplementedFeature":"Discover newly implemented features and upcoming enhancements to the platform",
+        "fieldExAcademy":"FieldEx Academy",
+        "videoTutorials":"Video Tutorials",
+        "developerResources":"Developer Resources",
+        "faq":"FAQ",
+        "emailSupport":"Email Support",
+        "releaseNotes":"Release Notes",
+        "exploreSettingUp":"Explore setting up these automations",
+        "setUpAutomations":"Set up powerful automations to streamline your operations and increase efficiency",
+        "setupJobOrdTemplate":"Setup Job Order Templates",
+        "setupPreventiveMaintenance":"Setup Preventive Maintenance",
+        "createChecklist":"Create Checklist",
+        "setupQrcodeBarcode":"Setup QR code / Barcode",
+        "setupNotifications":"Setup Notifications",
+        "importData":"Import Data",
+        "streamlineOperations":"Streamline operations with customizable templates accessible anywhere through our enterprise-grade mobile platform",
+        "proactivelyManage":"Proactively manage equipment lifecycle with automated scheduling",
+        "designComprehensiveDigital":"Design comprehensive digital checklists with conditional logic and triggers",
+        "configureQrcodeBarcode":"Configure QR/Barcode technology for real-time inventory and equipment management",
+        "configureTargetedAlerts":"Configure targeted alerts and updates with customizable rules and delivery preferences",
+        "watchVideo":"Watch Video",
+        "hunnedPercent":"100% FREE"
       }
     }
   },

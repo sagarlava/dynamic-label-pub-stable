@@ -13485,6 +13485,83 @@
         "plural": "选择",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "startLearning":{
+        "original": "Start Learning",
+        "singular": "开始学习",
+        "plural": "开始学习",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "watchVideo":{
+        "original": "Watch Videos",
+        "singular": "观看视频",
+        "plural": "观看视频",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "exploreDocs":{
+        "original": "Explore Docs",
+        "singular": "浏览文档",
+        "plural": "浏览文档",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "browseFaqs":{
+        "original": "Browse FAQs",
+        "singular": "浏览常见问题",
+        "plural": "浏览常见问题 ",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "contactSupport":{
+        "original": "Contact Support",
+        "singular": "联系支持",
+        "plural": "联系支持",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "exploreLatestInnovations":{
+        "original": "Explore Latest Innovations",
+        "singular": "探索最新创新",
+        "plural": "探索最新创新",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "claimFreeSession":{
+        "original": "Claim Your 2 Free Sessions",
+        "singular": "领取您的两次免费课程",
+        "plural": "领取您的两次免费课程",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "launchSetup":{
+        "original": "Launch Setup",
+        "singular": "启动设置",
+        "plural": "启动设置",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "finalize":{
+        "original": "Finalize",
+        "singular": "完成",
+        "plural": "完成",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "addUser":{
+        "original": "Add User",
+        "singular": "添加用户",
+        "plural": "添加用户",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "letAiCreateConfigure":{
+        "original": "Let AI Create Your Data & Configure Your System",
+        "singular": "让 AI 创建您的数据并配置您的系统",
+        "plural": "让 AI 创建您的数据并配置您的系统",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "status": {
@@ -25753,6 +25830,24 @@
           "setupVisible": false
         }
       },
+      "fields":{
+        "setupVisible": false,
+        "setupEdit":false,
+        "email":{
+         "original": "Email",
+          "singular": "邮件",
+          "plural": "邮件",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "role":{
+          "original": "Role",
+           "singular": "角色",
+           "plural": "角色",
+           "setupEdit": false,
+           "setupVisible": false
+          }
+      },
       "messages":{
         "letsImportAsset":"开始导入您的资产",
         "assetAreHeartCmms":"资产是您 CMMS 的核心。从上传资产开始，管理维护、历史记录和任务",
@@ -25807,7 +25902,44 @@
         "viewMoreField":"查看更多字段...",
         "enterNewAssetType":"输入新的资产类型...",
         "enterNewAssetStatus":"输入新的资产状态...",
-        "tip":"提示"
+        "tip":"提示",
+        "watchDemo":"观看演示：使用 Fieldex 您可以实现的目标",
+        "quickLookEmpowersTeam":"快速了解 FieldEx 如何帮助团队轻松管理资产、安排服务并减少停机时间",
+        "select":"选择",
+        "selectRole":"选择角色",
+        "aiAnalysisComplete":"AI 分析完成",
+        "fieldMapping":"字段映射",
+        "assetTypes":"资产类型",
+        "bookTrainingExperience":"预订培训：提升您的 FieldEx 体验",
+        "freeOnboardingCaps":"免费入职培训",
+        "bookTwoSessions":"预订您与我们产品专家的两次免费培训课程，学习如何最大化现场运营效率。入职期间不收费！",
+        "comprehensiveLearning":"全面的学习生态系统，包含适合各技能水平的互动模块",
+        "focusSolutionOriented":"专注且以解决方案为导向的视频指南，涵盖 FieldEx 平台的各个方面",
+        "apiDocumentation":"API 文档和集成指南",
+        "answersCommonlyAsked":"常见问题解答",
+        "getHelpFromCustomerSuccess":"通过 support@fieldex.com 联系我们的客户成功团队获取帮助",
+        "discoverNewlyImplementedFeature":"探索新实现的功能和即将推出的平台增强功能",
+        "fieldExAcademy":"FieldEx 学院",
+        "videoTutorials":"视频教程",
+        "developerResources":"开发者资源",
+        "faq":"常见问题",
+        "emailSupport":"电子邮件支持",
+        "releaseNotes":"发布说明",
+        "exploreSettingUp":"探索如何设置这些自动化流程",
+        "setUpAutomations":"设置强大的自动化流程以简化操作并提高效率",
+        "setupJobOrdTemplate":"设置工单模板",
+        "setupPreventiveMaintenance":"设置预防性维护",
+        "createChecklist":"创建清单",
+        "setupQrcodeBarcode":"设置二维码/条形码",
+        "setupNotifications":"设置通知",
+        "importData":"导入数据",
+        "streamlineOperations":"通过我们的企业级移动平台，使用可自定义模板来简化操作，随时随地访问",
+        "proactivelyManage":"通过自动化调度主动管理设备生命周期",
+        "designComprehensiveDigital":"设计包含条件逻辑和触发器的综合数字清单",
+        "configureQrcodeBarcode":"配置二维码/条码技术以进行实时库存和设备管理",
+        "configureTargetedAlerts":"配置定向警报和更新，带有可自定义的规则和传递偏好",
+        "watchVideo":"观看视频",
+        "hunnedPercent":"100% 免费"
       }
     }
   },

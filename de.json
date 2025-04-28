@@ -13485,6 +13485,83 @@
         "plural": "Auswählen",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "startLearning":{
+        "original": "Start Learning",
+        "singular": "Lernen starten",
+        "plural": "Lernen starten",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "watchVideo":{
+        "original": "Watch Videos",
+        "singular": "Videos ansehen",
+        "plural": "Videos ansehen",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "exploreDocs":{
+        "original": "Explore Docs",
+        "singular": "Dokumente erkunden",
+        "plural": "Dokumente erkunden",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "browseFaqs":{
+        "original": "Browse FAQs",
+        "singular": "FAQs durchsuchen",
+        "plural": "FAQs durchsuchen",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "contactSupport":{
+        "original": "Contact Support",
+        "singular": "Support kontaktieren",
+        "plural": "Support kontaktieren",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "exploreLatestInnovations":{
+        "original": "Explore Latest Innovations",
+        "singular": "Neueste Innovationen erkunden",
+        "plural": "Neueste Innovationen erkunden",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "claimFreeSession":{
+        "original": "Claim Your 2 Free Sessions",
+        "singular": "Fordern Sie Ihre 2 kostenlosen Sitzungen an",
+        "plural": "Fordern Sie Ihre 2 kostenlosen Sitzungen an",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "launchSetup":{
+        "original": "Launch Setup",
+        "singular": "Setup starten",
+        "plural": "Setup starten",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "finalize":{
+        "original": "Finalize",
+        "singular": "Abschließen",
+        "plural": "Abschließen",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "addUser":{
+        "original": "Add User",
+        "singular": "Benutzer hinzufügen",
+        "plural": "Benutzer hinzufügen",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "letAiCreateConfigure":{
+        "original": "Let AI Create Your Data & Configure Your System",
+        "singular": "Lassen Sie KI Ihre Daten erstellen und Ihr System konfigurieren",
+        "plural": "Lassen Sie KI Ihre Daten erstellen und Ihr System konfigurieren",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "status": {
@@ -25753,6 +25830,24 @@
           "setupVisible": false
         }
       },
+      "fields":{
+        "setupVisible": false,
+        "setupEdit":false,
+        "email":{
+         "original": "Email",
+          "singular": "E-Mail",
+          "plural": "E-Mail",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "role":{
+          "original": "Role",
+           "singular": "Rolle",
+           "plural": "Rollen",
+           "setupEdit": false,
+           "setupVisible": false
+          }
+      },
       "messages":{
         "letsImportAsset":"Lass uns deine Assets importieren",
         "assetAreHeartCmms":"Assets sind das Herzstück deines CMMS. Beginne mit dem Hochladen, um Wartung, Historie und Zuweisungen zu verwalten",
@@ -25807,7 +25902,44 @@
         "viewMoreField":"Weitere Felder anzeigen...",
         "enterNewAssetType":"Neuen Anlagentyp eingeben...",
         "enterNewAssetStatus":"Neuen Anlagenstatus eingeben...",
-        "tip":"Tipp"
+        "tip":"Tipp",
+        "watchDemo":"Demo ansehen: Was Sie mit Fieldex erreichen können",
+        "quickLookEmpowersTeam":"Werfen Sie einen kurzen Blick darauf, wie FieldEx Teams befähigt, Anlagen zu verwalten, Services zu planen und Ausfallzeiten mühelos zu reduzieren",
+        "select":"Auswählen",
+        "selectRole":"Rolle auswählen",
+        "aiAnalysisComplete":"KI-Analyse abgeschlossen",
+        "fieldMapping":"Feldzuordnung",
+        "assetTypes":"Asset-Typen",
+        "bookTrainingExperience":"Training buchen: Optimieren Sie Ihr FieldEx-Erlebnis",
+        "freeOnboardingCaps":"KOSTENLOSES ONBOARDING",
+        "bookTwoSessions":"Buchen Sie Ihre zwei kostenlosen Schulungssitzungen mit unseren Produktspezialisten und lernen Sie, wie Sie Ihre Feldeffizienz maximieren. Keine Gebühren während des Onboardings!",
+        "comprehensiveLearning":"Umfassendes Lernökosystem mit interaktiven Modulen für alle Fähigkeitsstufen",
+        "focusSolutionOriented":"Fokussierte, lösungsorientierte Videoanleitungen, die alle Aspekte der FieldEx-Plattform abdecken",
+        "apiDocumentation":"API-Dokumentation und Integrationsleitfäden",
+        "answersCommonlyAsked":"Antworten auf häufig gestellte Fragen",
+        "getHelpFromCustomerSuccess":"Holen Sie sich Hilfe von unserem Customer Success Team unter support@fieldex.com",
+        "discoverNewlyImplementedFeature":"Entdecken Sie neu implementierte Funktionen und kommende Verbesserungen der Plattform",
+        "fieldExAcademy":"FieldEx Akademie",
+        "videoTutorials":"Video-Tutorials",
+        "developerResources":"Entwicklerressourcen",
+        "faq":"FAQ",
+        "emailSupport":"E-Mail-Support",
+        "releaseNotes":"Versionshinweise",
+        "exploreSettingUp":"Erkunden Sie das Einrichten dieser Automatisierungen",
+        "setUpAutomations":"Richten Sie leistungsstarke Automatisierungen ein, um Ihre Abläufe zu optimieren und die Effizienz zu steigern",
+        "setupJobOrdTemplate":"Jobauftragsvorlagen einrichten",
+        "setupPreventiveMaintenance":"Präventive Wartung einrichten",
+        "createChecklist":"Checkliste erstellen",
+        "setupQrcodeBarcode":"QR-Code/Barcode einrichten",
+        "setupNotifications":"Benachrichtigungen einrichten",
+        "importData":"Daten importieren",
+        "streamlineOperations":"Optimieren Sie Abläufe mit anpassbaren Vorlagen, die überall über unsere Enterprise-Grade Mobile-Plattform zugänglich sind",
+        "proactivelyManage":"Verwalten Sie den Lebenszyklus von Geräten proaktiv mit automatisierter Planung",
+        "designComprehensiveDigital":"Entwerfen Sie umfassende digitale Checklisten mit bedingter Logik und Auslösern",
+        "configureQrcodeBarcode":"Konfigurieren Sie QR-/Barcode-Technologie für Echtzeit-Inventar- und Geräteverwaltung",
+        "configureTargetedAlerts":"Konfigurieren Sie gezielte Warnmeldungen und Updates mit anpassbaren Regeln und Zustellpräferenzen",
+        "watchVideo":"Video ansehen",
+        "hunnedPercent":"100% KOSTENLOS"
       }
     }
   },
