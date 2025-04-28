@@ -12290,6 +12290,83 @@
         "plural": "Pilih",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "startLearning":{
+        "original": "Start Learning",
+        "singular": "Mulakan Pembelajaran",
+        "plural": "Mulakan Pembelajaran",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "watchVideo":{
+        "original": "Watch Videos",
+        "singular": "Tonton Video",
+        "plural": "Tonton Video",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "exploreDocs":{
+        "original": "Explore Docs",
+        "singular": "Terokai Dokumen",
+        "plural": "Terokai Dokumen",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "browseFaqs":{
+        "original": "Browse FAQs",
+        "singular": "Layari Soalan Lazim",
+        "plural": "Layari Soalan Lazim",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "contactSupport":{
+        "original": "Contact Support",
+        "singular": "Hubungi Sokongan",
+        "plural": "Hubungi Sokongan",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "exploreLatestInnovations":{
+        "original": "Explore Latest Innovations",
+        "singular": "Terokai Inovasi Terkini",
+        "plural": "Terokai Inovasi Terkini",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "claimFreeSession":{
+        "original": "Claim Your 2 Free Sessions",
+        "singular": "Tuntut 2 Sesi Percuma Anda",
+        "plural": "Tuntut 2 Sesi Percuma Anda",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "launchSetup":{
+        "original": "Launch Setup",
+        "singular": "Lancar Tetapan",
+        "plural": "Lancar Tetapan",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "finalize":{
+        "original": "Finalize",
+        "singular": "Muktamadkan",
+        "plural": "Muktamadkan",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "addUser":{
+        "original": "Add User",
+        "singular": "Tambah Pengguna",
+        "plural": "Tambah Pengguna",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "letAiCreateConfigure":{
+        "original": "Let AI Create Your Data & Configure Your System",
+        "singular": "Biarkan AI Cipta Data Anda & Konfigurasikan Sistem Anda",
+        "plural": "Biarkan AI Cipta Data Anda & Konfigurasikan Sistem Anda",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "status": {

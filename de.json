@@ -12290,6 +12290,83 @@
         "plural": "Auswählen",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "startLearning":{
+        "original": "Start Learning",
+        "singular": "Lernen starten",
+        "plural": "Lernen starten",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "watchVideo":{
+        "original": "Watch Videos",
+        "singular": "Videos ansehen",
+        "plural": "Videos ansehen",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "exploreDocs":{
+        "original": "Explore Docs",
+        "singular": "Dokumente erkunden",
+        "plural": "Dokumente erkunden",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "browseFaqs":{
+        "original": "Browse FAQs",
+        "singular": "FAQs durchsuchen",
+        "plural": "FAQs durchsuchen",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "contactSupport":{
+        "original": "Contact Support",
+        "singular": "Support kontaktieren",
+        "plural": "Support kontaktieren",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "exploreLatestInnovations":{
+        "original": "Explore Latest Innovations",
+        "singular": "Neueste Innovationen erkunden",
+        "plural": "Neueste Innovationen erkunden",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "claimFreeSession":{
+        "original": "Claim Your 2 Free Sessions",
+        "singular": "Fordern Sie Ihre 2 kostenlosen Sitzungen an",
+        "plural": "Fordern Sie Ihre 2 kostenlosen Sitzungen an",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "launchSetup":{
+        "original": "Launch Setup",
+        "singular": "Setup starten",
+        "plural": "Setup starten",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "finalize":{
+        "original": "Finalize",
+        "singular": "Abschließen",
+        "plural": "Abschließen",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "addUser":{
+        "original": "Add User",
+        "singular": "Benutzer hinzufügen",
+        "plural": "Benutzer hinzufügen",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "letAiCreateConfigure":{
+        "original": "Let AI Create Your Data & Configure Your System",
+        "singular": "Lassen Sie KI Ihre Daten erstellen und Ihr System konfigurieren",
+        "plural": "Lassen Sie KI Ihre Daten erstellen und Ihr System konfigurieren",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "status": {
