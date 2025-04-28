@@ -10705,7 +10705,12 @@
       "consignmentIdExists": "Eine neue Sendung kann bereits keine ID haben",
       "consignmentItemIdExists": "Ein neuer Sendungsartikel kann bereits keine ID haben",
       "consignmentItemTypeNotFound": "Sendungsartikeltyp nicht gefunden",
-      "consignmentItemIdNotFound": "ID nicht gefunden"
+      "consignmentItemIdNotFound": "ID nicht gefunden",
+      "userGroupNotFoundOfFromBin": "Benutzergruppe für Zone von From Bin nicht gefunden",
+      "userGroupNotFoundOfToBin": "Benutzergruppe für Zone von To Bin nicht gefunden",
+      "fromBinNotFound": "From Bin nicht gefunden",
+      "toBinNotFound": "To Bin nicht gefunden",
+      "noAssetsOrProductsFound": "Keine Assets oder Produkte gefunden"
     },
     "messages": {
       "selectType": "Typ auswählen",
@@ -11310,7 +11315,12 @@
       "requisitionIdExists": "Eine neue Anforderungsnotiz kann bereits keine ID haben",
       "requisitionItemIdExists": "Ein neuer Anforderungsartikel kann bereits keine ID haben",
       "requisitionItemTypeFound": "Anforderungsartikeltyp nicht gefunden",
-      "requisitionItemIdNotFound": "ID nicht gefunden"
+      "requisitionItemIdNotFound": "ID nicht gefunden",
+      "userGroupNotFoundOfFromBin": "Benutzergruppe für Zone von From Bin nicht gefunden",
+      "userGroupNotFoundOfToBin": "Benutzergruppe für Zone von To Bin nicht gefunden",
+      "fromBinNotFound": "From Bin nicht gefunden",
+      "toBinNotFound": "To Bin nicht gefunden",
+      "noAssetsOrProductsFound": "Keine Assets oder Produkte gefunden"
     },
     "messages": {
       "selectPriority": "Priorität auswählen",

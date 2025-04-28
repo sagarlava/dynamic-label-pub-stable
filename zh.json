@@ -10705,7 +10705,12 @@
       "consignmentIdExists": "新托运单不能已有ID",
       "consignmentItemIdExists": "新托运项目不能已有ID",
       "consignmentItemTypeNotFound": "未找到托运项目类型",
-      "consignmentItemIdNotFound": "未找到ID"
+      "consignmentItemIdNotFound": "未找到ID",
+      "userGroupNotFoundOfFromBin": "未找到From Bin区域的用户组",
+      "userGroupNotFoundOfToBin": "未找到To Bin区域的用户组",
+      "fromBinNotFound": "未找到From Bin",
+      "toBinNotFound": "未找到To Bin",
+      "noAssetsOrProductsFound": "未找到资产或产品"
     },
     "messages": {
       "selectType": "选择类型",
@@ -11310,7 +11315,12 @@
       "requisitionIdExists": "新申请单不能已有ID",
       "requisitionItemIdExists": "新申请项目不能已有ID",
       "requisitionItemTypeFound": "未找到申请项目类型",
-      "requisitionItemIdNotFound": "未找到ID"
+      "requisitionItemIdNotFound": "未找到ID",
+      "userGroupNotFoundOfFromBin": "未找到From Bin区域的用户组",
+      "userGroupNotFoundOfToBin": "未找到To Bin区域的用户组",
+      "fromBinNotFound": "未找到From Bin",
+      "toBinNotFound": "未找到To Bin",
+      "noAssetsOrProductsFound": "未找到资产或产品"
     },
     "messages": {
       "selectPriority": "选择优先级",

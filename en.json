@@ -10705,7 +10705,12 @@
       "consignmentIdExists": "A new consignmentNote cannot already have an ID",
       "consignmentItemIdExists": "A new consignmentItem cannot already have an ID",
       "consignmentItemTypeNotFound": "ConsignmentItem Type not found",
-      "consignmentItemIdNotFound": "Id not found"
+      "consignmentItemIdNotFound": "Id not found",
+      "userGroupNotFoundOfFromBin": "UserGroup not found for zone of From Bin",
+      "userGroupNotFoundOfToBin": "UserGroup not found for zone of To Bin",
+      "fromBinNotFound": "From Bin not found",
+      "toBinNotFound": "To Bin not found",
+      "noAssetsOrProductsFound": "No assets or products found"
     },
     "messages": {
       "selectType": "Select Type",
@@ -11310,7 +11315,12 @@
       "requisitionIdExists": "A new requisitionNote cannot already have an ID",
       "requisitionItemIdExists": "A new requisitionItem cannot already have an ID",
       "requisitionItemTypeFound": "RequisitionItem type not found",
-      "requisitionItemIdNotFound": "Id not found"
+      "requisitionItemIdNotFound": "Id not found",
+      "userGroupNotFoundOfFromBin": "UserGroup not found for zone of From Bin",
+      "userGroupNotFoundOfToBin": "UserGroup not found for zone of To Bin",
+      "fromBinNotFound": "From Bin not found",
+      "toBinNotFound": "To Bin not found",
+      "noAssetsOrProductsFound": "No assets or products found"
     },
     "messages": {
       "selectPriority": "Select Priority",
