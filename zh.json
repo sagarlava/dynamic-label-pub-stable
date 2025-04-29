@@ -10660,6 +10660,13 @@
         "plural": "托运单",
         "setupEdit": true,
         "setupVisible": true
+      },
+      "item": {
+        "original": "Items",
+        "singular": "项目",
+        "plural": "项目",
+        "setupEdit": true,
+        "setupVisible": true
       }
     },
     "tooltips": {
@@ -11264,6 +11271,13 @@
         "plural": "总计数",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "item": {
+        "original": "Items",
+        "singular": "项目",
+        "plural": "项目",
+        "setupEdit": true,
+        "setupVisible": true
       }
     },
     "tooltips": {

@@ -10660,6 +10660,13 @@
         "plural": "Frachtbriefe",
         "setupEdit": true,
         "setupVisible": true
+      },
+      "item": {
+        "original": "Items",
+        "singular": "Artikel",
+        "plural": "Artikel",
+        "setupEdit": true,
+        "setupVisible": true
       }
     },
     "tooltips": {
@@ -11264,6 +11271,13 @@
         "plural": "Gesamtanzahlen",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "item": {
+        "original": "Items",
+        "singular": "Artikel",
+        "plural": "Artikel",
+        "setupEdit": true,
+        "setupVisible": true
       }
     },
     "tooltips": {

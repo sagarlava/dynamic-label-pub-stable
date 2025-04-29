@@ -10660,6 +10660,13 @@
         "plural": "Nota Konsainan",
         "setupEdit": true,
         "setupVisible": true
+      },
+      "item": {
+        "original": "Items",
+        "singular": "Item",
+        "plural": "Item-item",
+        "setupEdit": true,
+        "setupVisible": true
       }
     },
     "tooltips": {
@@ -11264,6 +11271,13 @@
         "plural": "Jumlah Kiraan",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "item": {
+        "original": "Items",
+        "singular": "Item",
+        "plural": "Item-item",
+        "setupEdit": true,
+        "setupVisible": true
       }
     },
     "tooltips": {
