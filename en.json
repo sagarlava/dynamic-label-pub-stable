@@ -5720,7 +5720,9 @@
       "projectCannotDeleteBySites": "Unable to delete, Project is used in one or more Sites",
       "projectCannotDeleteByJobOrders": "Unable to delete, Project is used in one or more Job Order",
       "projectCannotDeleteByJobOrderTemplates": "Unable to delete, Project is used in one or more job order templates",
-      "projectCannotDeleteByTaskTemplates": "Unable to delete, Project is used in one or more task templates"
+      "projectCannotDeleteByTaskTemplates": "Unable to delete, Project is used in one or more task templates",
+      "projectHasContact": "Unable to delete, Project is used in one or more Contact",
+      "projectHasTicket": "Unable to delete, Project is used in one or more Ticket"
     },
     "tooltips": {
       "setupEdit": false,
@@ -23299,7 +23301,7 @@
       "setupTmplJobOrderNotFound": "TmplJobOrder not found",
       "setupTmplJobOrderHasChecklistAnswerTemplates": "Checklist Answer Templates Data exists in the system for the TmplJobOrder",
       "setupTmplTaskIdExists": "A new TmplTask cannot already have an ID",
-      "setupTmplTaskHasChecklistAnswerTaskTemplates": "Checklist Answer Task Templates Data exists in the system for the TmplTask",
+      "setupTmplTaskHasChecklistAnswerTaskTemplates": "Unable to delete. Template already in use",
       "setupSalesForceIntegrationUserNotFound": "User not found for sales force integration",
       "setupUserGroupNameNotFound": "User group name not found",
       "setupUserGroupHasZone": "Zone Data exists in the system for the User Group",
@@ -23328,7 +23330,8 @@
       "setupWorkflowEmailUserGroupMax": "Maximum allowed users reached for workflow notification",
       "setupTmplJobOrderLimitReached":"You have exceeded the limit of 50 active templates. Set the status of an unused template to 'Inactive' to add another active template.",
       "tmplTaskLimitExceeded":"You have exceeded the limit of 50 active templates. Set the status of an unused template to 'Inactive' to add another active template.",
-      "setupTmplTaskHasJobOrder": "Unable to delete: Template used in one or more job orders"
+      "setupTmplTaskHasJobOrder": "Unable to delete: Template used in one or more job orders",
+      "setupTmplTaskHasJobOrderProduct": "Unable to delete: Template used to create one or more Job Order Products"
     },
     "labelBE": {
       "profileTableColumnSetup": {
