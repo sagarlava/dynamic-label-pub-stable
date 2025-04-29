@@ -10664,6 +10664,13 @@
         "plural": "Nota Konsainan",
         "setupEdit": true,
         "setupVisible": true
+      },
+      "item": {
+        "original": "Items",
+        "singular": "Item",
+        "plural": "Item-item",
+        "setupEdit": true,
+        "setupVisible": true
       }
     },
     "tooltips": {
@@ -10709,7 +10716,12 @@
       "consignmentIdExists": "Nota konsainan baru tidak boleh mempunyai ID sedia ada",
       "consignmentItemIdExists": "Item konsainan baru tidak boleh mempunyai ID sedia ada",
       "consignmentItemTypeNotFound": "Jenis Item Konsainan tidak dijumpai",
-      "consignmentItemIdNotFound": "ID tidak dijumpai"
+      "consignmentItemIdNotFound": "ID tidak dijumpai",
+      "userGroupNotFoundOfFromBin": "Kumpulan pengguna untuk zon From Bin tidak dijumpai",
+      "userGroupNotFoundOfToBin": "Kumpulan pengguna untuk zon To Bin tidak dijumpai",
+      "fromBinNotFound": "From Bin tidak dijumpai",
+      "toBinNotFound": "To Bin tidak dijumpai",
+      "noAssetsOrProductsFound": "Tiada aset atau produk ditemui"
     },
     "messages": {
       "selectType": "Pilih Jenis",
@@ -11263,6 +11275,13 @@
         "plural": "Jumlah Kiraan",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "item": {
+        "original": "Items",
+        "singular": "Item",
+        "plural": "Item-item",
+        "setupEdit": true,
+        "setupVisible": true
       }
     },
     "tooltips": {
@@ -11314,7 +11333,12 @@
       "requisitionIdExists": "Nota permintaan baru tidak boleh mempunyai ID sedia ada",
       "requisitionItemIdExists": "Item permintaan baru tidak boleh mempunyai ID sedia ada",
       "requisitionItemTypeFound": "Jenis Item Permintaan tidak dijumpai",
-      "requisitionItemIdNotFound": "ID tidak dijumpai"
+      "requisitionItemIdNotFound": "ID tidak dijumpai",
+      "userGroupNotFoundOfFromBin": "Kumpulan pengguna untuk zon From Bin tidak dijumpai",
+      "userGroupNotFoundOfToBin": "Kumpulan pengguna untuk zon To Bin tidak dijumpai",
+      "fromBinNotFound": "From Bin tidak dijumpai",
+      "toBinNotFound": "To Bin tidak dijumpai",
+      "noAssetsOrProductsFound": "Tiada aset atau produk ditemui"
     },
     "messages": {
       "selectPriority": "Pilih Keutamaan",

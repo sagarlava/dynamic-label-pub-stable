@@ -10664,6 +10664,13 @@
         "plural": "Nota de Consignación",
         "setupEdit": true,
         "setupVisible": true
+      },
+      "item": {
+        "original": "Items",
+        "singular": "Artículo",
+        "plural": "Artículos",
+        "setupEdit": true,
+        "setupVisible": true
       }
     },
     "tooltips": {
@@ -10709,7 +10716,12 @@
       "consignmentIdExists": "Una nueva nota de consignación no puede tener ya un ID",
       "consignmentItemIdExists": "Un nuevo artículo de consignación no puede tener ya un ID",
       "consignmentItemTypeNotFound": "Tipo de Artículo de Consignación no encontrado",
-      "consignmentItemIdNotFound": "ID no encontrado"
+      "consignmentItemIdNotFound": "ID no encontrado",
+      "userGroupNotFoundOfFromBin": "Grupo de usuarios no encontrado para la zona de From Bin",
+      "userGroupNotFoundOfToBin": "Grupo de usuarios no encontrado para la zona de To Bin",
+      "fromBinNotFound": "From Bin no encontrado",
+      "toBinNotFound": "To Bin no encontrado",
+      "noAssetsOrProductsFound": "No se encontraron activos o productos"
     },
     "messages": {
       "selectType": "Seleccione Tipo",
@@ -11263,6 +11275,13 @@
         "plural": "Recuentos totales",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "item": {
+        "original": "Items",
+        "singular": "Artículo",
+        "plural": "Artículos",
+        "setupEdit": true,
+        "setupVisible": true
       }
     },
     "tooltips": {
@@ -11314,7 +11333,12 @@
       "requisitionIdExists": "Una nueva nota de requisición no puede tener ya un ID",
       "requisitionItemIdExists": "Un nuevo artículo de requisición no puede tener ya un ID",
       "requisitionItemTypeFound": "Tipo de artículo de requisición no encontrado",
-      "requisitionItemIdNotFound": "ID no encontrado"
+      "requisitionItemIdNotFound": "ID no encontrado",
+      "userGroupNotFoundOfFromBin": "Grupo de usuarios no encontrado para la zona de From Bin",
+      "userGroupNotFoundOfToBin": "Grupo de usuarios no encontrado para la zona de To Bin",
+      "fromBinNotFound": "From Bin no encontrado",
+      "toBinNotFound": "To Bin no encontrado",
+      "noAssetsOrProductsFound": "No se encontraron activos o productos"
     },
     "messages": {
       "selectPriority": "Seleccionar Prioridad",
