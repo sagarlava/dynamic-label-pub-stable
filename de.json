@@ -12805,6 +12805,27 @@
         "setupEdit": false,
         "setupVisible": false
       },
+      "maintenance": {
+        "original": "Maintenance",
+        "singular": "Wartung",
+        "plural": "Wartungen",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "booked": {
+        "original": "Booked",
+        "singular": "Gebucht",
+        "plural": "Gebuchte",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "disposed": {
+        "original": "Disposed",
+        "singular": "Entsorgt",
+        "plural": "Entsorgte",
+        "setupEdit": false,
+        "setupVisible": false
+      }, 
       "messages": {
         "forIncompleteChecklists": "Für unvollständige Checklisten, die in Zukunft aktualisiert werden sollen. Es werden keine Aufträge oder Aufgaben mit diesem Status ausgelöst.",
         "thisStatusWillTriggerAnyJobOrders": "Dieser Status wird alle Arbeitsaufträge und Aufgaben auslösen, die mit den Antworten dieser Checkliste verbunden sind.",

@@ -12818,6 +12818,27 @@
         "setupEdit": false,
         "setupVisible": false
       },
+      "maintenance": {
+        "original": "Maintenance",
+        "singular": "Mantenimiento",
+        "plural": "Mantenimientos",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "booked": {
+        "original": "Booked",
+        "singular": "Reservado",
+        "plural": "Reservados",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "disposed": {
+        "original": "Disposed",
+        "singular": "Desechado",
+        "plural": "Desechados",
+        "setupEdit": false,
+        "setupVisible": false
+      },
       "messages": {
         "forIncompleteChecklists": "Para que las listas de verificación incompletas se actualicen en el futuro. No se activarán trabajos ni tareas utilizando este estado.",
         "thisStatusWillTriggerAnyJobOrders": "Este estado activará cualquier orden de trabajo y tareas relacionadas con las respuestas de esta lista de verificación.",

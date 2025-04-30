@@ -6809,6 +6809,27 @@
         "setupEdit": false,
         "setupVisible": false
       },
+      "maintenance": {
+        "original": "Maintenance",
+        "singular": "Penyelenggaraan",
+        "plural": "Penyelenggaraan",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "booked": {
+        "original": "Booked",
+        "singular": "Ditempah",
+        "plural": "Tempahan",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "disposed": {
+        "original": "Disposed",
+        "singular": "Dilupuskan",
+        "plural": "Pelupusan",
+        "setupEdit": false,
+        "setupVisible": false
+      },
       "form": {
         "original": "Form",
         "singular": "Borang",

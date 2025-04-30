@@ -12823,6 +12823,27 @@
         "setupEdit": false,
         "setupVisible": false
       },
+      "maintenance": {
+        "original": "Maintenance",
+        "singular": "Maintenance",
+        "plural": "Maintenance",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "booked": {
+        "original": "Booked",
+        "singular": "Booked",
+        "plural": "Booked",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "disposed": {
+        "original": "Disposed",
+        "singular": "Disposed",
+        "plural": "Disposed",
+        "setupEdit": false,
+        "setupVisible": false
+      },
       "messages":{
         "forIncompleteChecklists": "For incomplete checklists to be updated in the future. No Jobs or Tasks will be triggered using this status",
         "thisStatusWillTriggerAnyJobOrders": "This status will trigger any Job Orders and Tasks related to this checklist's answers",
