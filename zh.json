@@ -13004,7 +13004,10 @@
       "selectSearchCategory": "选择搜索类别",
       "selectWhatToCreate": "选择要创建的内容",
       "selectWhatToScan": "选择要扫描的内容",
-      "partAvailability": "零件可用性"
+      "partAvailability": "零件可用性",
+      "was": "是",
+      "wasChangedFrom": "更改自",
+      "wasChangedTo": "更改为"
     },
     "currency": {
       "australianDollar": "AUD",
@@ -22072,7 +22075,11 @@
       "addYourHomeAddress": "添加您的家庭地址",
       "addYourOfficeAddress": "添加您的办公室地址",
       "passwordUpdatedSuccessfully": "密码更新成功",
-      "personalInformation": "个人信息"
+      "personalInformation": "个人信息",
+      "dailyJobOrderSummary": "每日工单摘要",
+      "sparePartRecommendations": "备件推荐",
+      "resolutionSuggestions": "解决建议"
+
     },
     "validationsFE": {
       "currentPasswordIsRequired": "当前密码是必需的",

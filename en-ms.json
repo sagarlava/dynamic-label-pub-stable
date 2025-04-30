@@ -12827,7 +12827,10 @@
       "selectSearchCategory": "Select search category",
       "selectWhatToCreate": "Select what to create",
       "selectWhatToScan": "Select what to scan",
-      "partAvailability": "Part availability"
+      "partAvailability": "Part availability",
+      "was": "was",
+      "wasChangedFrom": "was changed from",
+      "wasChangedTo": "was changed to"
     },
     "currency":{
       "australianDollar": "AUD",
@@ -21829,7 +21832,11 @@
       "addYourHomeAddress":"Add your home address",
       "addYourOfficeAddress":"Add your office address",
       "passwordUpdatedSuccessfully":"Password updated successfully",
-      "personalInformation": "Personal Information"
+      "personalInformation": "Personal Information",
+      "dailyJobOrderSummary": "Daily Job Order Summary",
+      "sparePartRecommendations": "Spare Part Recommendations",
+      "resolutionSuggestions": "Resolution Suggestions"
+
     },
     "validationsFE":{
       "currentPasswordIsRequired":"Current Password is required",

@@ -12999,7 +12999,12 @@
       "selectSearchCategory": "Seleccionar categoría de búsqueda",
       "selectWhatToCreate": "Seleccionar qué crear",
       "selectWhatToScan": "Seleccionar qué escanear",
-      "partAvailability": "Disponibilidad de la pieza"
+      "partAvailability": "Disponibilidad de la pieza",
+      "was": "se",
+      "wasChangedFrom": "se cambió de",
+      "wasChangedTo": "se cambió a"
+
+
     },
     "currency": {
       "australianDollar": "AUD",
@@ -22067,7 +22072,11 @@
       "addYourHomeAddress": "Agregue su dirección de casa",
       "addYourOfficeAddress": "Agregue su dirección de oficina",
       "passwordUpdatedSuccessfully": "Contraseña actualizada con éxito",
-      "personalInformation": "Información personal"
+      "personalInformation": "Información personal",
+      "dailyJobOrderSummary": "Resumen diario de órdenes de trabajo",
+      "sparePartRecommendations": "Recomendaciones de repuestos",
+      "resolutionSuggestions": "Sugerencias de resolución"
+
     },
     "validationsFE": {
       "currentPasswordIsRequired": "Se requiere la contraseña actual",

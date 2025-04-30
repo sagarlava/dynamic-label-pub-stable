@@ -12987,7 +12987,11 @@
       "selectSearchCategory": "Suchkategorie auswählen",
       "selectWhatToCreate": "Erstellen auswählen",
       "selectWhatToScan": "Scannen auswählen",
-      "partAvailability": "Teileverfügbarkeit"
+      "partAvailability": "Teileverfügbarkeit",
+      "was": "wurd",
+      "wasChangedFrom": "wurde geändert von",
+      "wasChangedTo": "wurde geändert zu"
+
     },
     "currency": {
       "australianDollar": "AUD",
@@ -22055,7 +22059,10 @@
       "addYourHomeAddress": "Fügen Sie Ihre Wohnadresse hinzu",
       "addYourOfficeAddress": "Fügen Sie Ihre Büroadresse hinzu",
       "passwordUpdatedSuccessfully": "Passwort erfolgreich aktualisiert",
-      "personalInformation": "Persönliche Informationen"
+      "personalInformation": "Persönliche Informationen",
+      "dailyJobOrderSummary": "Tägliche Arbeitsauftragsübersicht",
+      "sparePartRecommendations": "Ersatzteilempfehlungen",
+      "resolutionSuggestions": "Lösungsvorschläge"
     },
     "validationsFE": {
       "currentPasswordIsRequired": "Aktuelles Passwort ist erforderlich",
