@@ -2783,6 +2783,7 @@
       "totalTimeSpent": "Tiempo total gastado",
       "thisTaskCanNotBeDeletedBecauseJourneyIsRunning": "No se puede eliminar esta tarea porque el viaje está en curso",
       "journeyAlreadyRunningForAnotherTask": "El viaje ya está en curso para otra tarea",
+      "resolvingLocation": "Resolviendo ubicación",
       "endJourney": "Terminar viaje",
       "readyToCheckIn": "¿Listo para registrarte?",
       "readyToCheckOut": "¿Listo para salir?",
@@ -13287,6 +13288,7 @@
       "onlyAlphabetsAllowed": "Solo se permiten letras",
       "required": "Requerido",
       "requiredField": "Campo Requerido",
+      "pleaseSignBeforeProceed": "Por favor, firme antes de continuar",
       "pleaseSignBeforeProceeding": "Por favor, firme antes de continuar",
       "charactersExceed": "El texto excede el límite de caracteres (255).",
       "endDateThanStartDate": "La fecha de finalización debe ser posterior a la fecha de inicio"

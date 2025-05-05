@@ -8832,6 +8832,14 @@
          "setupEdit": false,
          "setupVisible": false
      },
+
+     "available": {
+        "original": "Available",
+        "singular": "Verfügbar",
+        "plural": "",
+          "setupEdit": false,
+          "setupVisible": false
+      },
     
      "qtyIn": {
        "original": "Quantity In",
@@ -8903,13 +8911,7 @@
          "setupEdit": false,
          "setupVisible": false
      },
-     "available": {
-      "original": "Available",
-      "singular": "Verfügbar",
-      "plural": "",
-      "setupEdit": true,
-      "setupVisible": true
-    },
+    
      "qtyTransfer": {
        "original": "Quantity to Transfer",
        "singular": "Übertragene Menge",
@@ -13274,6 +13276,7 @@
       "onlyAlphabetsAllowed": "Nur Buchstaben erlaubt",
       "required": "Erforderlich",
       "requiredField": "Erforderliches Feld",
+      "pleaseSignBeforeProceed": "Bitte unterschreiben Sie, bevor Sie fortfahren",
       "pleaseSignBeforeProceeding": "Bitte unterschreiben Sie, bevor Sie fortfahren",
       "charactersExceed": "Text überschreitet das Zeichenlimit (255).",
       "endDateThanStartDate": "Das Enddatum muss nach dem Startdatum liegen"
