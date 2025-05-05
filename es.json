@@ -12391,13 +12391,6 @@
         "setupEdit": true,
         "setupVisible": false
       },
-      "breakDown": {
-        "original": "Break Down",
-        "singular": "Avería",
-        "plural": "",
-        "setupEdit": true,
-        "setupVisible": false
-      },
       "breakdown": {
         "original": "Breakdown",
         "singular": "Avería",
@@ -12838,6 +12831,13 @@
         "plural": "Desechados",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "other": {
+        "original": "Other",
+        "singular": "Otro",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
       },
       "messages": {
         "forIncompleteChecklists": "Para que las listas de verificación incompletas se actualicen en el futuro. No se activarán trabajos ni tareas utilizando este estado.",

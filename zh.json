@@ -12394,13 +12394,6 @@
         "setupEdit": true,
         "setupVisible": false
       },
-      "breakDown": {
-        "original": "Break Down",
-        "singular": "故障",
-        "plural": "",
-        "setupEdit": true,
-        "setupVisible": false
-      },
       "breakdown": {
         "original": "Breakdown",
         "singular": "故障",
@@ -12839,6 +12832,13 @@
         "original": "Disposed",
         "singular": "已处理",
         "plural": "处理项",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "other": {
+        "original": "Other",
+        "singular": "其他",
+        "plural": "其他",
         "setupEdit": false,
         "setupVisible": false
       },

@@ -12248,13 +12248,6 @@
         "setupEdit": true,
         "setupVisible": false
       },
-      "breakDown": {
-        "original": "Break Down",
-        "singular": "Break Down",
-        "plural": "",
-        "setupEdit": true,
-        "setupVisible": false
-      },
       "breakdown": {
         "original": "Breakdown",
         "singular": "Breakdown",
@@ -12674,6 +12667,13 @@
         "plural": "Follow Up",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "other": {
+        "original": "Other",
+        "singular": "Other",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
       },
       "messages":{
         "forIncompleteChecklists": "For incomplete checklists to be updated in the future. No Jobs or Tasks will be triggered using this status",

@@ -12396,13 +12396,6 @@
         "setupEdit": true,
         "setupVisible": false
       },
-      "breakDown": {
-        "original": "Break Down",
-        "singular": "Break Down",
-        "plural": "",
-        "setupEdit": true,
-        "setupVisible": false
-      },
       "breakdown": {
         "original": "Breakdown",
         "singular": "Breakdown",
@@ -12841,6 +12834,13 @@
         "original": "Disposed",
         "singular": "Disposed",
         "plural": "Disposed",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "other": {
+        "original": "Other",
+        "singular": "Other",
+        "plural": "Others",
         "setupEdit": false,
         "setupVisible": false
       },
