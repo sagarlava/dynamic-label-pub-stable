@@ -24235,7 +24235,9 @@
         "configureQrcodeBarcode":"Konfigurasikan teknologi QR/Kod Bar untuk pengurusan inventori dan peralatan masa nyata",
         "configureTargetedAlerts":"Konfigurasikan amaran dan kemas kini disasarkan dengan peraturan dan keutamaan penghantaran yang boleh disesuaikan",
         "watchVideo":"Tonton Video",
-        "hunnedPercent":"100% PERCUMA"
+        "hunnedPercent":"100% PERCUMA",
+        "noMatchFound":"Tiada Padanan Ditemui",
+        "match":"Padanan"
       },
       "validationFE":{
         "onlyCsvFilesAllowed": "Hanya fail CSV dan XLSX sahaja yang boleh dimuat naik"

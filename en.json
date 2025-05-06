@@ -24235,7 +24235,9 @@
         "configureQrcodeBarcode":"Configure QR/Barcode technology for real-time inventory and equipment management",
         "configureTargetedAlerts":"Configure targeted alerts and updates with customizable rules and delivery preferences",
         "watchVideo":"Watch Video",
-        "hunnedPercent":"100% FREE"
+        "hunnedPercent":"100% FREE",
+        "noMatchFound":"No Match Found",
+        "match":"Match"
       },
       "validationFE":{
         "onlyCsvFilesAllowed": "Only CSV and XLSX files can be uploaded"

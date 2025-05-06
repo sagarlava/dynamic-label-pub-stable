@@ -24235,7 +24235,9 @@
         "configureQrcodeBarcode":"Configura tecnología de código QR/código de barras para la gestión en tiempo real de inventario y equipos",
         "configureTargetedAlerts":"Configura alertas y actualizaciones dirigidas con reglas personalizables y preferencias de entrega",
         "watchVideo":"Ver video",
-        "hunnedPercent":"100% GRATIS"
+        "hunnedPercent":"100% GRATIS",
+        "noMatchFound":"No se encontró coincidencia",
+        "match":"Coincidencia"
       },
       "validationFE":{
         "onlyCsvFilesAllowed": "Solo se pueden subir archivos CSV y XLSX"
