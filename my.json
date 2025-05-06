@@ -24236,6 +24236,9 @@
         "configureTargetedAlerts":"Konfigurasikan amaran dan kemas kini disasarkan dengan peraturan dan keutamaan penghantaran yang boleh disesuaikan",
         "watchVideo":"Tonton Video",
         "hunnedPercent":"100% PERCUMA"
+      },
+      "validationFE":{
+        "onlyCsvFilesAllowed": "Hanya fail CSV dan XLSX sahaja yang boleh dimuat naik"
       }
     }
   },

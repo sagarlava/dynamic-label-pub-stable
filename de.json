@@ -24236,6 +24236,9 @@
         "configureTargetedAlerts":"Konfigurieren Sie gezielte Warnmeldungen und Updates mit anpassbaren Regeln und Zustellpräferenzen",
         "watchVideo":"Video ansehen",
         "hunnedPercent":"100% KOSTENLOS"
+      },
+      "validationFE":{
+        "onlyCsvFilesAllowed": "Nur CSV- und XLSX-Dateien können hochgeladen werden"
       }
     }
   },

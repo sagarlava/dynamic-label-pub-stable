@@ -24236,6 +24236,9 @@
         "configureTargetedAlerts":"配置定向警报和更新，带有可自定义的规则和传递偏好",
         "watchVideo":"观看视频",
         "hunnedPercent":"100% 免费"
+      },
+      "validationFE":{
+        "onlyCsvFilesAllowed": "只能上传 CSV 和 XLSX 文件"
       }
     }
   },

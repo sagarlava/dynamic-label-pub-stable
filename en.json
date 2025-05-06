@@ -24236,6 +24236,9 @@
         "configureTargetedAlerts":"Configure targeted alerts and updates with customizable rules and delivery preferences",
         "watchVideo":"Watch Video",
         "hunnedPercent":"100% FREE"
+      },
+      "validationFE":{
+        "onlyCsvFilesAllowed": "Only CSV and XLSX files can be uploaded"
       }
     }
   },
