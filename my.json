@@ -24106,6 +24106,27 @@
            "plural": "Peranan",
            "setupEdit": false,
            "setupVisible": false
+          },
+          "systemField":{
+            "original": "Fieldex System Fields",
+            "singular": "Medan Sistem Fieldex",
+            "plural": "Medan Sistem Fieldex",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "csvColumn":{
+            "original": "CSV Columns",
+            "singular": "Lajur CSV",
+            "plural": "Lajur-Lajur CSV",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "confidence":{
+            "original": "Confidence",
+            "singular": "Keyakinan",
+            "plural": "Keyakinan",
+            "setupEdit": false,
+            "setupVisible": false
           }
       },
       "messages":{
@@ -24160,6 +24181,7 @@
         "typesDetected":"jenis dikesan dalam CSV anda dan status sistem sedia ada",
         "youCanReviewAdjustAnytime":"Anda boleh menyemak dan menyesuaikan pada bila-bila masa",
         "viewMoreField":"Lihat Lebih Banyak Medan...",
+        "showLessField":"Tunjukkan Kurang Medan...",
         "enterNewAssetType":"Masukkan jenis aset baharu...",
         "enterNewAssetStatus":"Masukkan status aset baharu...",
         "tip":"Tip",

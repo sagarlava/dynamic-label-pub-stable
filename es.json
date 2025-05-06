@@ -24106,6 +24106,27 @@
            "plural": "Roles",
            "setupEdit": false,
            "setupVisible": false
+          },
+          "systemField":{
+            "original": "Fieldex System Fields",
+            "singular": "Campos del sistema Fieldex",
+            "plural": "Campos del sistema Fieldex",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "csvColumn":{
+            "original": "CSV Columns",
+            "singular": "Columnas CSV",
+            "plural": "Columnas CSV",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "confidence":{
+            "original": "Confidence",
+            "singular": "Confianza",
+            "plural": "Confianza",
+            "setupEdit": false,
+            "setupVisible": false
           }
       },
       "messages":{
@@ -24160,6 +24181,7 @@
         "typesDetected":"tipos detectados en su CSV y estado del sistema existente",
         "youCanReviewAdjustAnytime":"Puede revisar y ajustar en cualquier momento",
         "viewMoreField":"Ver más campos...",
+        "showLessField":"Mostrar menos campos...",
         "enterNewAssetType":"Introducir nuevo tipo de activo...",
         "enterNewAssetStatus":"Introducir nuevo estado de activo...",
         "tip":"Consejo",

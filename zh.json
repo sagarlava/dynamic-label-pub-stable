@@ -24106,6 +24106,27 @@
            "plural": "角色",
            "setupEdit": false,
            "setupVisible": false
+          },
+          "systemField":{
+            "original": "Fieldex System Fields",
+            "singular": "Fieldex 系统字段",
+            "plural": "Fieldex 系统字段",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "csvColumn":{
+            "original": "CSV Columns",
+            "singular": "CSV 列",
+            "plural": "CSV 列",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "confidence":{
+            "original": "Confidence",
+            "singular": "置信度",
+            "plural": "置信度",
+            "setupEdit": false,
+            "setupVisible": false
           }
       },
       "messages":{
@@ -24160,6 +24181,7 @@
         "typesDetected":"在您的 CSV 和现有系统状态中检测到的类型",
         "youCanReviewAdjustAnytime":"您可以随时检查和调整",
         "viewMoreField":"查看更多字段...",
+        "showLessField":"显示较少字段...",
         "enterNewAssetType":"输入新的资产类型...",
         "enterNewAssetStatus":"输入新的资产状态...",
         "tip":"提示",

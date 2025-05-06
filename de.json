@@ -24106,6 +24106,27 @@
            "plural": "Rollen",
            "setupEdit": false,
            "setupVisible": false
+          },
+          "systemField":{
+            "original": "Fieldex System Fields",
+            "singular": "Fieldex-Systemfelder",
+            "plural": "Fieldex-Systemfelder",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "csvColumn":{
+            "original": "CSV Columns",
+            "singular": "CSV-Spalten",
+            "plural": "CSV-Spalten",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "confidence":{
+            "original": "Confidence",
+            "singular": "Vertrauen",
+            "plural": "Vertrauen",
+            "setupEdit": false,
+            "setupVisible": false
           }
       },
       "messages":{
@@ -24160,6 +24181,7 @@
         "typesDetected":"in Ihrer CSV und im bestehenden Systemstatus erkannte Typen",
         "youCanReviewAdjustAnytime":"Sie können jederzeit überprüfen und anpassen",
         "viewMoreField":"Weitere Felder anzeigen...",
+        "showLessField":"Weniger Felder anzeigen...",
         "enterNewAssetType":"Neuen Anlagentyp eingeben...",
         "enterNewAssetStatus":"Neuen Anlagenstatus eingeben...",
         "tip":"Tipp",

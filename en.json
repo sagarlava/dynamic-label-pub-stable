@@ -24106,7 +24106,28 @@
            "plural": "Roles",
            "setupEdit": false,
            "setupVisible": false
-          }
+        },
+        "systemField":{
+          "original": "Fieldex System Fields",
+          "singular": "Fieldex System Fields",
+          "plural": "Fieldex System Fields",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "csvColumn":{
+          "original": "CSV Columns",
+          "singular": "CSV Columns",
+          "plural": "CSV Columns",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "confidence":{
+          "original": "Confidence",
+          "singular": "Confidence",
+          "plural": "Confidence",
+          "setupEdit": false,
+          "setupVisible": false
+        }
       },
       "messages":{
         "letsImportAsset":"Lets Import your Assets",
@@ -24160,6 +24181,7 @@
         "typesDetected":"types detected in your CSV and existing system status",
         "youCanReviewAdjustAnytime":"You can review and adjust anytime",
         "viewMoreField":"View More Fields...",
+        "showLessField":"Show Less Fields...",
         "enterNewAssetType":"Enter new asset type...",
         "enterNewAssetStatus":"Enter new asset status...",
         "tip":"Tip",
