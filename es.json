@@ -969,6 +969,20 @@
         "plural": "",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "installationDate": {
+        "original": "Installation Date",
+        "singular": "Fecha de instalación",
+        "plural": "Fecha de instalación",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "brand": {
+        "original": "Brand",
+        "singular": "Marca",
+        "plural": "Marcas",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "validationFE": {},

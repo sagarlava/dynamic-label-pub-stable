@@ -969,6 +969,20 @@
         "plural": "",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "installationDate": {
+        "original": "Installation Date",
+        "singular": "Tarikh Pemasangan",
+        "plural": "Tarikh Pemasangan",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "brand": {
+        "original": "Brand",
+        "singular": "Jenama",
+        "plural": "Jenama",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "validationFE": {},
