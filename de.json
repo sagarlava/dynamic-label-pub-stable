@@ -12826,6 +12826,20 @@
         "setupEdit": false,
         "setupVisible": false
       },
+      "systemValue": {
+        "original": "System Value",
+        "singular": "Systemwerte",
+        "plural": "Systemwerte",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "aiDetected": {
+        "original": "AI Detected",
+        "singular": "KI erkannt",
+        "plural": "KI erkannt",
+        "setupEdit": false,
+        "setupVisible": false
+      },
       "messages": {
         "forIncompleteChecklists": "Für unvollständige Checklisten, die in Zukunft aktualisiert werden sollen. Es werden keine Aufträge oder Aufgaben mit diesem Status ausgelöst.",
         "thisStatusWillTriggerAnyJobOrders": "Dieser Status wird alle Arbeitsaufträge und Aufgaben auslösen, die mit den Antworten dieser Checkliste verbunden sind.",

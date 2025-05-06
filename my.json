@@ -12826,6 +12826,20 @@
         "setupEdit": false,
         "setupVisible": false
       },
+      "systemValue": {
+        "original": "System Value",
+        "singular": "Nilai-Nilai Sistem",
+        "plural": "Nilai-Nilai Sistem",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "aiDetected": {
+        "original": "AI Detected",
+        "singular": "Dikesan oleh AI",
+        "plural": "Dikesan oleh AI",
+        "setupEdit": false,
+        "setupVisible": false
+      },
       "messages": {
         "forIncompleteChecklists": "Untuk senarai semak yang tidak lengkap akan dikemas kini pada masa hadapan. Tiada Pekerjaan atau Tugas akan dicetuskan menggunakan status ini",
         "thisStatusWillTriggerAnyJobOrders": "Status ini akan mencetuskan sebarang Pesanan Kerja dan Tugas yang berkaitan dengan jawapan senarai semak ini",

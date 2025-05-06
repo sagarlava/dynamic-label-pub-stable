@@ -12826,6 +12826,20 @@
         "setupEdit": false,
         "setupVisible": false
       },
+      "systemValue": {
+        "original": "System Value",
+        "singular": "系统值",
+        "plural": "系统值",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "aiDetected": {
+        "original": "AI Detected",
+        "singular": "AI 检测到",
+        "plural": "AI 检测到",
+        "setupEdit": false,
+        "setupVisible": false
+      },
       "messages": {
         "forIncompleteChecklists": "未来将更新未完成的清单。不会使用此状态触发任何工作或任务",
         "thisStatusWillTriggerAnyJobOrders": "此状态将触发与该清单答案相关的任何工作订单和任务",

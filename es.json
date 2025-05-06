@@ -12826,6 +12826,20 @@
         "setupEdit": false,
         "setupVisible": false
       },
+      "systemValue": {
+        "original": "System Value",
+        "singular": "Valores del sistema",
+        "plural": "Valores del sistema",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "aiDetected": {
+        "original": "AI Detected",
+        "singular": "Detectado por IA",
+        "plural": "Detectado por IA",
+        "setupEdit": false,
+        "setupVisible": false
+      },
       "messages": {
         "forIncompleteChecklists": "Para que las listas de verificación incompletas se actualicen en el futuro. No se activarán trabajos ni tareas utilizando este estado.",
         "thisStatusWillTriggerAnyJobOrders": "Este estado activará cualquier orden de trabajo y tareas relacionadas con las respuestas de esta lista de verificación.",
