@@ -1039,6 +1039,20 @@
         "plural": "Modelle",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "installationDate": {
+        "original": "Installation Date",
+        "singular": "Installationsdatum",
+        "plural": "Installationsdatum",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "brand": {
+        "original": "Brand",
+        "singular": "Marke",
+        "plural": "Marke",
+        "setupEdit": false,
+        "setupVisible": false
       }
       },
       "validationFE": {
@@ -14045,6 +14059,20 @@
         "setupEdit": false,
         "setupVisible": false
       },
+      "systemValue": {
+        "original": "System Value",
+        "singular": "Systemwerte",
+        "plural": "Systemwerte",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "aiDetected": {
+        "original": "AI Detected",
+        "singular": "KI erkannt",
+        "plural": "KI erkannt",
+        "setupEdit": false,
+        "setupVisible": false
+      },
       "messages": {
         "forIncompleteChecklists": "Für unvollständige Checklisten, die in Zukunft aktualisiert werden sollen. Es werden keine Aufträge oder Aufgaben mit diesem Status ausgelöst.",
         "thisStatusWillTriggerAnyJobOrders": "Dieser Status wird alle Arbeitsaufträge und Aufgaben auslösen, die mit den Antworten dieser Checkliste verbunden sind.",
@@ -25852,6 +25880,13 @@
           "plural": "Mehr erfahren",
           "setupEdit": false,
           "setupVisible": false
+        },
+        "sec5": {
+          "original": "Invite Your Team",
+          "singular": "Laden Sie Ihr Team ein",
+          "plural": "Laden Sie Ihr Team ein",
+          "setupEdit": false,
+          "setupVisible": false
         }
       },
       "fields":{
@@ -25870,6 +25905,27 @@
            "plural": "Rollen",
            "setupEdit": false,
            "setupVisible": false
+          },
+          "systemField":{
+            "original": "Fieldex System Fields",
+            "singular": "Fieldex-Systemfelder",
+            "plural": "Fieldex-Systemfelder",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "csvColumn":{
+            "original": "CSV Columns",
+            "singular": "CSV-Spalten",
+            "plural": "CSV-Spalten",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "confidence":{
+            "original": "Confidence",
+            "singular": "Vertrauen",
+            "plural": "Vertrauen",
+            "setupEdit": false,
+            "setupVisible": false
           }
       },
       "messages":{
@@ -25924,6 +25980,7 @@
         "typesDetected":"in Ihrer CSV und im bestehenden Systemstatus erkannte Typen",
         "youCanReviewAdjustAnytime":"Sie können jederzeit überprüfen und anpassen",
         "viewMoreField":"Weitere Felder anzeigen...",
+        "showLessField":"Weniger Felder anzeigen...",
         "enterNewAssetType":"Neuen Anlagentyp eingeben...",
         "enterNewAssetStatus":"Neuen Anlagenstatus eingeben...",
         "tip":"Tipp",
@@ -25932,6 +25989,7 @@
         "select":"Auswählen",
         "selectRole":"Rolle auswählen",
         "aiAnalysisComplete":"KI-Analyse abgeschlossen",
+        "dataInsight":"Datenanalysen",
         "fieldMapping":"Feldzuordnung",
         "assetTypes":"Asset-Typen",
         "bookTrainingExperience":"Training buchen: Optimieren Sie Ihr FieldEx-Erlebnis",
@@ -25963,7 +26021,12 @@
         "configureQrcodeBarcode":"Konfigurieren Sie QR-/Barcode-Technologie für Echtzeit-Inventar- und Geräteverwaltung",
         "configureTargetedAlerts":"Konfigurieren Sie gezielte Warnmeldungen und Updates mit anpassbaren Regeln und Zustellpräferenzen",
         "watchVideo":"Video ansehen",
-        "hunnedPercent":"100% KOSTENLOS"
+        "hunnedPercent":"100% KOSTENLOS",
+        "noMatchFound":"Keine Übereinstimmung",
+        "match":"Übereinstimmung"
+      },
+      "validationFE":{
+        "onlyCsvFilesAllowed": "Nur CSV- und XLSX-Dateien können hochgeladen werden"
       }
     }
   },

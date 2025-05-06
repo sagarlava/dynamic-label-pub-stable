@@ -1039,6 +1039,20 @@
         "plural": "Modelos",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "installationDate": {
+        "original": "Installation Date",
+        "singular": "Fecha de instalación",
+        "plural": "Fecha de instalación",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "brand": {
+        "original": "Brand",
+        "singular": "Marca",
+        "plural": "Marcas",     
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "validationFE": {
@@ -14045,6 +14059,20 @@
         "setupEdit": false,
         "setupVisible": false
       },
+      "systemValue": {
+        "original": "System Value",
+        "singular": "Valores del sistema",
+        "plural": "Valores del sistema",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "aiDetected": {
+        "original": "AI Detected",
+        "singular": "Detectado por IA",
+        "plural": "Detectado por IA",
+        "setupEdit": false,
+        "setupVisible": false
+      },
       "messages": {
         "forIncompleteChecklists": "Para que las listas de verificación incompletas se actualicen en el futuro. No se activarán trabajos ni tareas utilizando este estado.",
         "thisStatusWillTriggerAnyJobOrders": "Este estado activará cualquier orden de trabajo y tareas relacionadas con las respuestas de esta lista de verificación.",
@@ -25852,6 +25880,13 @@
           "plural": "Aprende más",
           "setupEdit": false,
           "setupVisible": false
+        },
+        "sec5": {
+          "original": "Invite Your Team",
+          "singular": "Invita a tu equipo",
+          "plural": "Invita a tu equipo",
+          "setupEdit": false,
+          "setupVisible": false
         }
       },
       "fields":{
@@ -25870,6 +25905,27 @@
            "plural": "Roles",
            "setupEdit": false,
            "setupVisible": false
+          },
+          "systemField":{
+            "original": "Fieldex System Fields",
+            "singular": "Campos del sistema Fieldex",
+            "plural": "Campos del sistema Fieldex",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "csvColumn":{
+            "original": "CSV Columns",
+            "singular": "Columnas CSV",
+            "plural": "Columnas CSV",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "confidence":{
+            "original": "Confidence",
+            "singular": "Confianza",
+            "plural": "Confianza",
+            "setupEdit": false,
+            "setupVisible": false
           }
       },
       "messages":{
@@ -25924,6 +25980,7 @@
         "typesDetected":"tipos detectados en su CSV y estado del sistema existente",
         "youCanReviewAdjustAnytime":"Puede revisar y ajustar en cualquier momento",
         "viewMoreField":"Ver más campos...",
+        "showLessField":"Mostrar menos campos...",
         "enterNewAssetType":"Introducir nuevo tipo de activo...",
         "enterNewAssetStatus":"Introducir nuevo estado de activo...",
         "tip":"Consejo",
@@ -25932,6 +25989,7 @@
         "select":"Seleccionar",
         "selectRole":"Seleccionar rol",
         "aiAnalysisComplete":"Análisis de IA completado",
+        "dataInsight":"Información de datos",
         "fieldMapping":"Mapeo de campos",
         "assetTypes":"Tipos de activos",
         "bookTrainingExperience":"Reserva una capacitación: Potencia tu experiencia con FieldEx",
@@ -25963,7 +26021,12 @@
         "configureQrcodeBarcode":"Configura tecnología de código QR/código de barras para la gestión en tiempo real de inventario y equipos",
         "configureTargetedAlerts":"Configura alertas y actualizaciones dirigidas con reglas personalizables y preferencias de entrega",
         "watchVideo":"Ver video",
-        "hunnedPercent":"100% GRATIS"
+        "hunnedPercent":"100% GRATIS",
+        "noMatchFound":"No se encontró coincidencia",
+        "match":"Coincidencia"
+      },
+      "validationFE":{
+        "onlyCsvFilesAllowed": "Solo se pueden subir archivos CSV y XLSX"
       }
     }
   },

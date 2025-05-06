@@ -963,6 +963,20 @@
         "setupEdit": false,
         "setupVisible": false
       },
+      "installationDate": {
+        "original": "Installation Date",
+        "singular": "安装日期",
+        "plural": "安装日期",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "brand": {
+        "original": "Brand",
+        "singular": "品牌",
+        "plural": "品牌",
+        "setupEdit": false,
+        "setupVisible": false
+      },
       "category": {
           "original": "Category",
           "singular": "类别",
@@ -14045,6 +14059,20 @@
         "setupEdit": false,
         "setupVisible": false
       },
+      "systemValue": {
+        "original": "System Value",
+        "singular": "系统值",
+        "plural": "系统值",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "aiDetected": {
+        "original": "AI Detected",
+        "singular": "AI 检测到",
+        "plural": "AI 检测到",
+        "setupEdit": false,
+        "setupVisible": false
+      },
       "messages": {
         "forIncompleteChecklists": "未来将更新未完成的清单。不会使用此状态触发任何工作或任务",
         "thisStatusWillTriggerAnyJobOrders": "此状态将触发与该清单答案相关的任何工作订单和任务",
@@ -25852,6 +25880,13 @@
           "plural": "了解更多",
           "setupEdit": false,
           "setupVisible": false
+        },
+        "sec5": {
+          "original": "Invite Your Team",
+          "singular": "邀请您的团队",
+          "plural": "邀请您的团队",
+          "setupEdit": false,
+          "setupVisible": false
         }
       },
       "fields":{
@@ -25870,6 +25905,27 @@
            "plural": "角色",
            "setupEdit": false,
            "setupVisible": false
+          },
+          "systemField":{
+            "original": "Fieldex System Fields",
+            "singular": "Fieldex 系统字段",
+            "plural": "Fieldex 系统字段",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "csvColumn":{
+            "original": "CSV Columns",
+            "singular": "CSV 列",
+            "plural": "CSV 列",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "confidence":{
+            "original": "Confidence",
+            "singular": "置信度",
+            "plural": "置信度",
+            "setupEdit": false,
+            "setupVisible": false
           }
       },
       "messages":{
@@ -25924,6 +25980,7 @@
         "typesDetected":"在您的 CSV 和现有系统状态中检测到的类型",
         "youCanReviewAdjustAnytime":"您可以随时检查和调整",
         "viewMoreField":"查看更多字段...",
+        "showLessField":"显示较少字段...",
         "enterNewAssetType":"输入新的资产类型...",
         "enterNewAssetStatus":"输入新的资产状态...",
         "tip":"提示",
@@ -25932,6 +25989,7 @@
         "select":"选择",
         "selectRole":"选择角色",
         "aiAnalysisComplete":"AI 分析完成",
+        "dataInsight":"数据洞察",
         "fieldMapping":"字段映射",
         "assetTypes":"资产类型",
         "bookTrainingExperience":"预订培训：提升您的 FieldEx 体验",
@@ -25963,7 +26021,12 @@
         "configureQrcodeBarcode":"配置二维码/条码技术以进行实时库存和设备管理",
         "configureTargetedAlerts":"配置定向警报和更新，带有可自定义的规则和传递偏好",
         "watchVideo":"观看视频",
-        "hunnedPercent":"100% 免费"
+        "hunnedPercent":"100% 免费",
+        "noMatchFound":"未找到匹配项",
+        "match":"匹配"
+      },
+      "validationFE":{
+        "onlyCsvFilesAllowed": "只能上传 CSV 和 XLSX 文件"
       }
     }
   },

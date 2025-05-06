@@ -977,6 +977,20 @@
         "setupEdit": false,
         "setupVisible": false
       },
+      "installationDate": {
+        "original": "Installation Date",
+        "singular": "Installation Date",
+        "plural": "Installation Date",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "brand": {
+        "original": "Brand",
+        "singular": "Brand",
+        "plural": "Brand",
+        "setupEdit": false,
+        "setupVisible": false
+      },
       "allAssets": {
         "original": "All Assets",
         "singular": "All Asset",
@@ -14045,6 +14059,20 @@
         "setupEdit": false,
         "setupVisible": false
       },
+      "systemValue": {
+        "original": "System Value",
+        "singular": "System Value",
+        "plural": "System Value",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "aiDetected": {
+        "original": "AI Detected",
+        "singular": "AI Detected",
+        "plural": "AI Detected",
+        "setupEdit": false,
+        "setupVisible": false
+      },
       "messages":{
         "forIncompleteChecklists": "For incomplete checklists to be updated in the future. No Jobs or Tasks will be triggered using this status",
         "thisStatusWillTriggerAnyJobOrders": "This status will trigger any Job Orders and Tasks related to this checklist's answers",
@@ -25852,6 +25880,13 @@
           "plural": "Learn More",
           "setupEdit": false,
           "setupVisible": false
+        },
+        "sec5": {
+          "original": "Invite Your Team",
+          "singular": "Invite Your Team",
+          "plural": "Invite Your Team",
+          "setupEdit": false,
+          "setupVisible": false
         }
       },
       "fields":{
@@ -25870,7 +25905,28 @@
            "plural": "Roles",
            "setupEdit": false,
            "setupVisible": false
-          }
+        },
+        "systemField":{
+          "original": "Fieldex System Fields",
+          "singular": "Fieldex System Fields",
+          "plural": "Fieldex System Fields",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "csvColumn":{
+          "original": "CSV Columns",
+          "singular": "CSV Columns",
+          "plural": "CSV Columns",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "confidence":{
+          "original": "Confidence",
+          "singular": "Confidence",
+          "plural": "Confidence",
+          "setupEdit": false,
+          "setupVisible": false
+        }
       },
       "messages":{
         "letsImportAsset":"Lets Import your Assets",
@@ -25924,6 +25980,7 @@
         "typesDetected":"types detected in your CSV and existing system status",
         "youCanReviewAdjustAnytime":"You can review and adjust anytime",
         "viewMoreField":"View More Fields...",
+        "showLessField":"Show Less Fields...",
         "enterNewAssetType":"Enter new asset type...",
         "enterNewAssetStatus":"Enter new asset status...",
         "tip":"Tip",
@@ -25932,6 +25989,7 @@
         "select":"Select",
         "selectRole":"Select Role",
         "aiAnalysisComplete":"AI Analysis Complete",
+        "dataInsight":"Data Insights",
         "fieldMapping":"Field Mapping",
         "assetTypes":"Asset Types",
         "bookTrainingExperience":"Book a Training: Supercharge your FieldEx experience",
@@ -25963,7 +26021,12 @@
         "configureQrcodeBarcode":"Configure QR/Barcode technology for real-time inventory and equipment management",
         "configureTargetedAlerts":"Configure targeted alerts and updates with customizable rules and delivery preferences",
         "watchVideo":"Watch Video",
-        "hunnedPercent":"100% FREE"
+        "hunnedPercent":"100% FREE",
+        "noMatchFound":"No Match Found",
+        "match":"Match"
+      },
+      "validationFE":{
+        "onlyCsvFilesAllowed": "Only CSV and XLSX files can be uploaded"
       }
     }
   },

@@ -963,6 +963,20 @@
         "setupEdit": false,
         "setupVisible": false
       },
+      "installationDate": {
+        "original": "Installation Date",
+        "singular": "Tarikh Pemasangan",
+        "plural": "Tarikh Pemasangan",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "brand": {
+        "original": "Brand",
+        "singular": "Jenama",
+        "plural": "Jenama",
+        "setupEdit": false,
+        "setupVisible": false
+      },
       "category": {
           "original": "Category",
           "singular": "Kategori",
@@ -14045,6 +14059,20 @@
         "setupEdit": false,
         "setupVisible": false
       },
+      "systemValue": {
+        "original": "System Value",
+        "singular": "Nilai-Nilai Sistem",
+        "plural": "Nilai-Nilai Sistem",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "aiDetected": {
+        "original": "AI Detected",
+        "singular": "Dikesan oleh AI",
+        "plural": "Dikesan oleh AI",
+        "setupEdit": false,
+        "setupVisible": false
+      },
       "messages": {
         "forIncompleteChecklists": "Untuk senarai semak yang tidak lengkap akan dikemas kini pada masa hadapan. Tiada Pekerjaan atau Tugas akan dicetuskan menggunakan status ini",
         "thisStatusWillTriggerAnyJobOrders": "Status ini akan mencetuskan sebarang Pesanan Kerja dan Tugas yang berkaitan dengan jawapan senarai semak ini",
@@ -25852,6 +25880,13 @@
           "plural": "Ketahui Lebih Lanjut",
           "setupEdit": false,
           "setupVisible": false
+        },
+        "sec5": {
+          "original": "Invite Your Team",
+          "singular": "Jemput Pasukan Anda",
+          "plural": "Jemput Pasukan Anda",
+          "setupEdit": false,
+          "setupVisible": false
         }
       },
       "fields":{
@@ -25870,6 +25905,27 @@
            "plural": "Peranan",
            "setupEdit": false,
            "setupVisible": false
+          },
+          "systemField":{
+            "original": "Fieldex System Fields",
+            "singular": "Medan Sistem Fieldex",
+            "plural": "Medan Sistem Fieldex",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "csvColumn":{
+            "original": "CSV Columns",
+            "singular": "Lajur CSV",
+            "plural": "Lajur-Lajur CSV",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "confidence":{
+            "original": "Confidence",
+            "singular": "Keyakinan",
+            "plural": "Keyakinan",
+            "setupEdit": false,
+            "setupVisible": false
           }
       },
       "messages":{
@@ -25924,6 +25980,7 @@
         "typesDetected":"jenis dikesan dalam CSV anda dan status sistem sedia ada",
         "youCanReviewAdjustAnytime":"Anda boleh menyemak dan menyesuaikan pada bila-bila masa",
         "viewMoreField":"Lihat Lebih Banyak Medan...",
+        "showLessField":"Tunjukkan Kurang Medan...",
         "enterNewAssetType":"Masukkan jenis aset baharu...",
         "enterNewAssetStatus":"Masukkan status aset baharu...",
         "tip":"Tip",
@@ -25932,6 +25989,7 @@
         "select":"Pilih",
         "selectRole":"Pilih Peranan",
         "aiAnalysisComplete":"Analisis AI Selesai",
+        "dataInsight":"Pandangan Data",
         "fieldMapping":"Pemetaan Medan",
         "assetTypes":"Jenis Aset",
         "bookTrainingExperience":"Tempah Latihan: Tingkatkan pengalaman anda dengan FieldEx",
@@ -25963,7 +26021,12 @@
         "configureQrcodeBarcode":"Konfigurasikan teknologi QR/Kod Bar untuk pengurusan inventori dan peralatan masa nyata",
         "configureTargetedAlerts":"Konfigurasikan amaran dan kemas kini disasarkan dengan peraturan dan keutamaan penghantaran yang boleh disesuaikan",
         "watchVideo":"Tonton Video",
-        "hunnedPercent":"100% PERCUMA"
+        "hunnedPercent":"100% PERCUMA",
+        "noMatchFound":"Tiada Padanan Ditemui",
+        "match":"Padanan"
+      },
+      "validationFE":{
+        "onlyCsvFilesAllowed": "Hanya fail CSV dan XLSX sahaja yang boleh dimuat naik"
       }
     }
   },
