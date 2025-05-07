@@ -24273,7 +24273,30 @@
         "moduleForYou":"module for you",
         "reviewAndCustomize":"Review and customize",
         "typesDetectedInCsv":"types detected in your CSV and existing system types",
-        "statusDetectedInCsv":"status detected in your CSV and existing system status"
+        "statusDetectedInCsv":"status detected in your CSV and existing system status",
+        "fullAccessConfigurationControl":"Full access & configuration control (Web only)",
+        "dailyOperationManager":"Daily operations manager (Best on Web)",
+        "taskExecuter":"On-the-move task executor (Mobile only)",
+        "adminsFullControl":"Admins have full control of your FieldEx workspace. They can:",
+        "plannersOverseeCoordinate":"Planners oversee and coordinate field operations through the FieldEx web platform. They:",
+        "fieldEngineersFrontline":"Field Engineers are the frontline team—technicians, installers, or service agents—using the mobile app to:",
+        "inviteManageUser":"Invite and manage users",
+        "configureSettings":"Configure checklists, job templates, and preventive maintenance settings",
+        "updateSystemWideSetting":"Update system-wide settings that affect the entire account",
+        "createAssignJobOrder":"Create and assign job orders to the right technicians",
+        "trackProgressCompletion":"Track job progress and completion in real-time",
+        "monitorUpdates":"Monitor updates from the field, including:",
+        "assetMeterLogs":"Meter logs",
+        "uploadImageAttachment":"Uploaded images and attachments",
+        "jobStatusChecklistCompletion":"Job status and checklist completion",
+        "receiveAssignTask":"Receive assigned tasks",
+        "updateJobStatus":"Update job statuses in real-time",
+        "uploadPhoto":"Upload photos, notes, and scan QR codes",
+        "adminFunctionAvailable":"Note: Admin functions are only available on the FieldEx web browser.",
+        "bestExperiencedFieldEx":"Note: Best experienced on the FieldEx web browser for full operational control.",
+        "roleCanOnlyAccessViaMobile":"Note : This role can only access FieldEx via the mobile app (App Store / Play Store).",
+        "doNotShowAgain":"Do not show again"
+
       },
       "validationFE":{
         "onlyCsvFilesAllowed": "Only CSV and XLSX files can be uploaded"
