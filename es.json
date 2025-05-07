@@ -12381,6 +12381,13 @@
         "plural": "Deja que la IA cree tus datos y configure tu sistema",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "saveConfigurationImportModule":{
+        "original": "Save Configurations & Import",
+        "singular": "Guardar configuraciones e importar",
+        "plural": "Guardar configuraciones e importar",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "status": {

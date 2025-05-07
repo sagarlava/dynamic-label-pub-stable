@@ -12381,6 +12381,13 @@
         "plural": "让 AI 创建您的数据并配置您的系统",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "saveConfigurationImportModule":{
+        "original": "Save Configurations & Import",
+        "singular": "保存配置并导入",
+        "plural": "保存配置并导入",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "status": {

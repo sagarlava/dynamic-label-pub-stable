@@ -12381,6 +12381,13 @@
         "plural": "Lassen Sie KI Ihre Daten erstellen und Ihr System konfigurieren",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "saveConfigurationImportModule":{
+        "original": "Save Configurations & Import",
+        "singular": "Konfigurationen speichern & importieren",
+        "plural": "Konfigurationen speichern & importieren",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "status": {

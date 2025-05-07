@@ -12381,6 +12381,13 @@
         "plural": "Let AI Create Your Data & Configure Your System",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "saveConfigurationImportModule":{
+        "original": "Save Configurations & Import",
+        "singular": "Save Configurations & Import",
+        "plural": "Save Configurations & Import",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "status": {

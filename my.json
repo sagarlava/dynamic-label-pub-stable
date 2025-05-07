@@ -12381,6 +12381,13 @@
         "plural": "Biarkan AI Cipta Data Anda & Konfigurasikan Sistem Anda",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "saveConfigurationImportModule":{
+        "original": "Save Configurations & Import",
+        "singular": "Simpan Konfigurasi & Import",
+        "plural": "Simpan Konfigurasi & Import",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "status": {
