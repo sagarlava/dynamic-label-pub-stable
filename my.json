@@ -24252,7 +24252,21 @@
         "watchVideo":"Tonton Video",
         "hunnedPercent":"100% PERCUMA",
         "noMatchFound":"Tiada Padanan Ditemui",
-        "match":"Padanan"
+        "match":"Padanan",
+
+        "letsImport":"Mari Import",
+        "areTheHeartCmms":"ialah teras kepada CMMS anda. Mulakan dengan memuat naiknya untuk mengurus penyelenggaraan, sejarah, dan tugasan.",
+        "areTheHeartOperations":"ialah teras kepada operasi anda. Mulakan dengan memuat naiknya untuk mengurus jadual, pasukan, dan tugasan dengan cekap.",
+        "detectSetUp":"Kesan dan sediakan",
+        "extractConfigure":"Ekstrak dan konfigurasikan",
+        "types":"jenis",
+        "typePicklist":"senarai pilihan jenis",
+        "uploadExisting":"Muat naik",
+        "andWeHelpMap":"dan kami akan bantu anda memetakan medan serta konfigurasikan",
+        "moduleForYou":"modul untuk anda",
+        "reviewAndCustomize":"Semak dan sesuaikan",
+        "typesDetectedInCsv":"jenis yang dikesan dalam CSV anda dan jenis sistem sedia ada",
+        "statusDetectedInCsv":"status yang dikesan dalam CSV anda dan status sistem sedia ada"
       },
       "validationFE":{
         "onlyCsvFilesAllowed": "Hanya fail CSV dan XLSX sahaja yang boleh dimuat naik"

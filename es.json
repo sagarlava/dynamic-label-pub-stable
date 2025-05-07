@@ -24252,7 +24252,21 @@
         "watchVideo":"Ver video",
         "hunnedPercent":"100% GRATIS",
         "noMatchFound":"No se encontró coincidencia",
-        "match":"Coincidencia"
+        "match":"Coincidencia",
+
+        "letsImport":"Vamos a importar tus",
+        "areTheHeartCmms":"son el corazón de tu CMMS. Comienza subiéndolos para gestionar el mantenimiento, el historial y las asignaciones.",
+        "areTheHeartOperations":"son el corazón de tus operaciones. Comienza subiéndolos para gestionar eficazmente horarios, equipos y tareas.",
+        "detectSetUp":"Detectar y configurar",
+        "extractConfigure":"Extrahieren und konfigurieren",
+        "types":"tipos",
+        "typePicklist":"listas desplegables de tipo",
+        "uploadExisting":"Sube tus",
+        "andWeHelpMap":"y te ayudaremos a mapear los campos y configurar el",
+        "moduleForYou":"módulo para ti",
+        "reviewAndCustomize":"Revisar y personalizar",
+        "typesDetectedInCsv":"tipos detectados en tu CSV y en los tipos del sistema existente",
+        "statusDetectedInCsv":"estado detectado en tu CSV y en el estado del sistema existente"
       },
       "validationFE":{
         "onlyCsvFilesAllowed": "Solo se pueden subir archivos CSV y XLSX"
