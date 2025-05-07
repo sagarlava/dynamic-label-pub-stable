@@ -13600,6 +13600,13 @@
         "plural": "让 AI 创建您的数据并配置您的系统",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "saveConfigurationImportModule":{
+        "original": "Save Configurations & Import",
+        "singular": "保存配置并导入",
+        "plural": "保存配置并导入",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "status": {
@@ -26023,7 +26030,21 @@
         "watchVideo":"观看视频",
         "hunnedPercent":"100% 免费",
         "noMatchFound":"未找到匹配项",
-        "match":"匹配"
+        "match":"匹配",
+
+        "letsImport":"让我们导入您的",
+        "areTheHeartCmms":"是您 CMMS 的核心。开始上传它们以管理维护、历史记录和分配任务。",
+        "areTheHeartOperations":"是您运营的核心。开始上传它们以高效管理日程、团队和任务。",
+        "detectSetUp":"检测并设置",
+        "extractConfigure":"提取并配置",
+        "types":"类型",
+        "typePicklist":"类型选项列表",
+        "uploadExisting":"上传您现有的",
+        "andWeHelpMap":"我们将帮助您映射字段并配置",
+        "moduleForYou":"为您配置的模块",
+        "reviewAndCustomize":"审核并自定义",
+        "typesDetectedInCsv":"在您的 CSV 和现有系统中检测到的类型",
+        "statusDetectedInCsv":"在您的 CSV 和现有系统中检测到的状态"
       },
       "validationFE":{
         "onlyCsvFilesAllowed": "只能上传 CSV 和 XLSX 文件"

@@ -13600,6 +13600,13 @@
         "plural": "Let AI Create Your Data & Configure Your System",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "saveConfigurationImportModule":{
+        "original": "Save Configurations & Import",
+        "singular": "Save Configurations & Import",
+        "plural": "Save Configurations & Import",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "status": {
@@ -26023,7 +26030,21 @@
         "watchVideo":"Watch Video",
         "hunnedPercent":"100% FREE",
         "noMatchFound":"No Match Found",
-        "match":"Match"
+        "match":"Match",
+
+        "letsImport":"Lets Import your",
+        "areTheHeartCmms":"are the heart of your CMMS. Start by uploading them to manage maintenance, history, and assignments.",
+        "areTheHeartOperations":"are the heart of your operations. Start by uploading them to manage schedules, teams, and tasks efficiently.",
+        "detectSetUp":"Detect and set up",
+        "extractConfigure":"Extract and configure",
+        "types":"types",
+        "typePicklist":"type picklists",
+        "uploadExisting":"Upload your existing",
+        "andWeHelpMap":"and we'll help you map the fields and configure the",
+        "moduleForYou":"module for you",
+        "reviewAndCustomize":"Review and customize",
+        "typesDetectedInCsv":"types detected in your CSV and existing system types",
+        "statusDetectedInCsv":"status detected in your CSV and existing system status"
       },
       "validationFE":{
         "onlyCsvFilesAllowed": "Only CSV and XLSX files can be uploaded"

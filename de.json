@@ -13600,6 +13600,13 @@
         "plural": "Lassen Sie KI Ihre Daten erstellen und Ihr System konfigurieren",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "saveConfigurationImportModule":{
+        "original": "Save Configurations & Import",
+        "singular": "Konfigurationen speichern & importieren",
+        "plural": "Konfigurationen speichern & importieren",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "status": {
@@ -26023,7 +26030,21 @@
         "watchVideo":"Video ansehen",
         "hunnedPercent":"100% KOSTENLOS",
         "noMatchFound":"Keine Übereinstimmung",
-        "match":"Übereinstimmung"
+        "match":"Übereinstimmung",
+
+        "letsImport":"Lassen Sie uns Ihre",
+        "areTheHeartCmms":"sind das Herzstück Ihres CMMS. Beginnen Sie mit dem Hochladen, um Wartung, Historie und Aufgaben zu verwalten.",
+        "areTheHeartOperations":"sind das Herzstück Ihrer Abläufe. Beginnen Sie mit dem Hochladen, um Zeitpläne, Teams und Aufgaben effizient zu verwalten.",
+        "detectSetUp":"Erkennen und einrichten",
+        "extractConfigure":"Extrahieren und konfigurieren",
+        "types":"Typen",
+        "typePicklist":"Typ-Auswahllisten",
+        "uploadExisting":"Laden Sie Ihre vorhandenen",
+        "andWeHelpMap":"und wir helfen Ihnen, die Felder zuzuordnen und",
+        "moduleForYou":"Modul für Sie",
+        "reviewAndCustomize":"Überprüfen und anpassen",
+        "typesDetectedInCsv":"in Ihrer CSV und im bestehenden System erkannte Typen",
+        "statusDetectedInCsv":"in Ihrer CSV und im bestehenden System erkannter Status"
       },
       "validationFE":{
         "onlyCsvFilesAllowed": "Nur CSV- und XLSX-Dateien können hochgeladen werden"
