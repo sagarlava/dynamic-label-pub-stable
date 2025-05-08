@@ -20,8 +20,8 @@
         "setupEdit": true
       },
       "sec1": {
-        "original": "Main Contact Details",
-        "singular": "Detalles del Contacto Principal",
+        "original": "Contact Details",
+        "singular": "Detalles de contacto",
         "plural": "",
         "setupEdit": false,
         "setupVisible": false
@@ -418,7 +418,8 @@
       "selectGeofences": "Seleccionar Geocercas",
       "noJobOrder": "No hay Órdenes de Trabajo aún",
       "nearestCustomers": "Clientes Más Cercanos",
-      "nearbyCustomers": "Clientes Cercanos"
+      "nearbyCustomers": "Clientes Cercanos",
+      "seeInMap": "Ver en el mapa"
     }
   },
   "asset": {
@@ -1059,7 +1060,9 @@
       "warrantyEndDateAfterStartDate":"La fecha de finalización de la garantía debe ser posterior a la fecha de inicio.",
       "serialNumberMustBeUnique":"El número de serie debe ser único. El valor ingresado ya está en uso.",
       "serialNumberContain":"El número de serie solo debe contener letras y números.",
-      "temporarySerialNumberGenerationFailed":"La generación del número de serie temporal ha fallado. Por favor, inténtelo de nuevo."
+      "temporarySerialNumberGenerationFailed":"La generación del número de serie temporal ha fallado. Por favor, inténtelo de nuevo.",
+      "warrantyEndDateMustBeGreater": "La fecha de fin de la garantía debe ser posterior a la fecha de inicio.",
+      "warrantyStartDateMustBeEarlier": "La fecha de inicio de la garantía debe ser anterior a la fecha de fin."
     },
       "validationBE": {
         "assetIdNotFound": "ID no encontrado",
@@ -1355,6 +1358,7 @@
         "warrantyStartDate": "La fecha de inicio de la garantía no debe ser mayor que la fecha de finalización de la garantía",
         "errorFetchingAllAssets": "Error al recuperar todos los activos",
         "errorOccuredWhileFetchingAccessories": "Error al obtener los accesorios",
+        "logs": "Registros",
       "showUpdatesRelated":"Mostrar actualizaciones relacionadas con:"
       }
   },
@@ -2054,6 +2058,13 @@
       "scheduleNumber": {
         "original": "Scheduled No",
         "singular": "Número Programado",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "maintenanceNumber": {
+        "original": "Maintenance No.",
+        "singular": "Número de Mantenimiento",
         "plural": "",
         "setupEdit": false,
         "setupVisible": false
@@ -3094,6 +3105,34 @@
         "plural": "Lecturas del medidor del equipo después de las listas de verificación",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "assetStatusBeforeChecklist": {
+        "original": "Asset status before checklist",
+        "singular": "Estado del activo antes de la lista de verificación",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "assetStatusAfterChecklist": {
+        "original": "Asset status after checklist",
+        "singular": "Estado del activo después de la lista de verificación",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "equipmentMeterReadingBeforeChecklist": {
+        "original": "Equipment meter reading before checklist",
+        "singular": "Lectura del medidor del equipo antes de la lista de verificación",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "equipmentMeterReadingAfterChecklist": {
+        "original": "Equipment meter reading after checklist",
+        "singular": "Lectura del medidor del equipo después de la lista de verificación",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "validationFE": {},
@@ -3138,7 +3177,9 @@
       "forIncompleteChecklists": "Para listas de verificación incompletas que se actualizarán en el futuro. No se activarán trabajos o tareas usando este estado",
       "thisStatusWillTrigger": "Este estado activará cualquier Orden de Trabajo y Tareas relacionadas con las respuestas de esta lista de verificación",
       "updateStatusTo": "Actualizar Estado A",
-      "noStatusToDisplay": "No hay estado para mostrar"
+      "noStatusToDisplay": "No hay estado para mostrar",
+      "updateChecklistStatus":"Update Checklist Status",
+      "updateAsset":"Update Asset"
     }
   },
   "journey": {
@@ -3174,8 +3215,20 @@
       "totalTimeSpent": "Tiempo total gastado",
       "thisTaskCanNotBeDeletedBecauseJourneyIsRunning": "No se puede eliminar esta tarea porque el viaje está en curso",
       "journeyAlreadyRunningForAnotherTask": "El viaje ya está en curso para otra tarea",
+      "resolvingLocation": "Resolviendo ubicación",
       "endJourney": "Terminar viaje",
-      "resolvingLocation": "Resolviendo ubicación"
+      "readyToCheckIn": "¿Listo para registrarte?",
+      "readyToCheckOut": "¿Listo para salir?",
+      "startNow": "Comenzar ahora",
+      "onGoingJourney": "Viaje en curso",
+      "resumeJourney": "Reanudar viaje",
+      "timeElapsed": "Tiempo transcurrido",
+      "paused": "Pausado",
+      "later": "Más tarde",
+      "actions": "Acciones",
+      "confirmYourArrivalToBeginThisTask": "Confirma tu llegada para comenzar esta tarea.",
+      "journeyComplete": "Viaje completado",
+      "wouldYouLikeToCheckInToYourTask": "¿Te gustaría registrarte en tu tarea?"
     },
     "validationBE": {
       "routeIdTaskIdNotFound": "RouteId o TaskId no encontrado",
@@ -3540,6 +3593,7 @@
       "newProductType": "Nuevo Tipo de Repuesto",
       "subTotal": "Subtotal",
       "totalAmount": "Monto Total",
+       "groupByTask": "Group By Task",
       "deleteTaskTemplateRemoveSpareParts":"Eliminar esta plantilla de tarea también eliminará todas las piezas de repuesto asociadas"
     }
   },
@@ -4589,6 +4643,20 @@
         "setupEdit": false,
         "setupVisible": false
       },
+      "totalDistance": {
+        "original": "Total Distance",
+        "singular": "Distancia Total",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "totalTime": {
+        "original": "Total Time",
+        "singular": "Tiempo Total",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
       "totalTimeSpent": {
         "original": "Total Time Spent",
         "singular": "Tiempo Total Gastado",
@@ -5005,6 +5073,7 @@
       "doYouWantToCompleteTake5Form": "¿Quieres completar el formulario Take 5?",
       "pleaseCompleteJMPBeforeProceeding": "Por favor, completa JMP antes de proceder a la tarea",
       "thisTaskIsAlreadyStartingJourney": "Esta tarea ya está comenzando el viaje desde otro dispositivo",
+      "anotherJourneyIsInProgress": "Otro viaje está en curso actualmente. Por favor, complétalo antes de comenzar uno nuevo.",
       "unableToResolveTaskLocation": "No se pueden resolver las coordenadas de la ubicación de la tarea. Por favor, actualiza la ubicación",
       "ownerChangedForTheTaskSuccessfully": "Propietario cambiado para la tarea con éxito.",
       "userAddedToTheTaskSuccessfully": "Usuario agregado a la tarea con éxito.",
@@ -5049,7 +5118,14 @@
       "officeAddrNotSet": "La Dirección de Oficina no está establecida",
       "selectOwner": "Por favor, selecciona al menos 1 propietario",
       "maxUsersTask": "Se permite un máximo de 5 usuarios en una tarea",
-      "noTasksAssigned": "No hay Tareas Asignadas"
+      "noTasksAssigned": "No hay Tareas Asignadas",
+      "additionalMembers": "Miembros adicionales",
+      "removeMember": "Eliminar miembro",
+      "areYouSureWantToRemoveMember": "¿Estás seguro de que deseas eliminar al miembro?",
+      "changeOwner": "Cambiar propietario",
+      "areYouSureWantToMakeOwner": "¿Estás seguro de que deseas cambiar al propietario?",
+      "generateJobOrderForThisTask": "Se generará una orden de trabajo para esta tarea",
+      "selectDateRange": "Seleccionar rango de fechas"
     }
   },
   "site": {
@@ -6621,8 +6697,8 @@
       "setupVisible": true,
       "setupEdit": true,
       "orderDateTime": {
-        "original": "Order Date & Time",
-        "singular": "Fecha y Hora del Pedido",
+        "original": "Date & Time",
+        "singular": "Fecha & Tema",
         "plural": "",
         "setupEdit": false,
         "setupVisible": false
@@ -6746,10 +6822,38 @@
         "setupEdit": false,
         "setupVisible": false
       },
+      "branchSignOff": {
+        "original": "Branch Sign Off",
+        "singular": "Firma de Sucursal",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
       "assetUnderWarranty": {
         "original": "Asset Under Warranty",
         "singular": "Activo Bajo Garantía",
         "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "underWarranty": {
+        "original": "Under warranty",
+        "singular": "Bajo garantía",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "notUnderWarranty": {
+        "original": "Not under warranty",
+        "singular": "Sin garantía",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "assetWarranty": {
+        "original": "Asset Warranty",
+        "singular": "Garantía de activos",
+        "plural": "Garantía de activos",
         "setupEdit": false,
         "setupVisible": false
       },
@@ -6763,6 +6867,20 @@
       "cableCondition": {
         "original": "Cable Condition",
         "singular": "Estado del Cable",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "nameOfSurvey": {
+        "original": "Name of survey",
+        "singular": "Nombre de la encuesta",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "surveyResponseReceivedAt": {
+        "original": "Survey response received at",
+        "singular": "Respuesta a la encuesta recibida en",
         "plural": "",
         "setupEdit": false,
         "setupVisible": false
@@ -7460,6 +7578,13 @@
         "setupEdit": false,
         "setupVisible": false
       },
+      "nameAndIDNumber": {
+        "original": "Name and ID Number",
+        "singular": "Nombre y número de identificación",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
       "offCode": {
         "original": "Off Code",
         "singular": "Código de Apagado",
@@ -7964,6 +8089,13 @@
         "setupEdit": false,
         "setupVisible": false
       },
+      "latestSent": {
+        "original": "Latest Sent At",
+        "singular": "Latest Sent At",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
       "surveySentFrom": {
         "original": "Survey Sent From",
         "singular": "Encuesta Enviada Desde",
@@ -8265,6 +8397,13 @@
         "setupEdit": false,
         "setupVisible": false
       },
+      "openingDays": {
+        "original": "Opening Days",
+        "singular": "Días de apertura",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
       "physicalDamage": {
         "original": "Physical Damage to hills installed application?",
         "singular": "¿Daño físico a la aplicación instalada en las colinas?",
@@ -8525,8 +8664,8 @@
         "setupVisible": false
       },
       "uploadAttachment": {
-        "original": "Upload",
-        "singular": "Subir",
+        "original": "Subir adjunto",
+        "singular": "Subir adjunto",
         "plural": "",
         "setupEdit": false,
         "setupVisible": false
@@ -8569,6 +8708,13 @@
       "icPassportNo": {
         "original": "IC/Passport No",
         "singular": "No. de IC/Pasaporte",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "idNumber": {
+        "original": "ID Number",
+        "singular": "Número de Identificación",
         "plural": "",
         "setupEdit": false,
         "setupVisible": false
@@ -9000,7 +9146,11 @@
       "startSLA": "Iniciar SLA",
       "removeSparePartsLinkedTask":"¿Desea eliminar todas las piezas de repuesto vinculadas a esta tarea de la orden de trabajo?",
       "listOfTask":"Lista de tareas",
-      "listOfSparePart":"Lista de repuestos"
+      "listOfSparePart":"Lista de repuestos",
+      "changeStatusTo": "Cambiar estado a",
+      "identification": "Identificación",
+      "signOff": "Cerrar sesión",
+      "photoUpload": "Subir foto"
     }
   },
   "inventory": {
@@ -9237,12 +9387,26 @@
         "setupEdit": false,
         "setupVisible": false
       },
+      "available": {
+        "original": "Available",
+        "singular": "Disponible",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
       "qtyTransfer": {
         "original": "Quantity to Transfer",
         "singular": "Cantidad a Transferir",
         "plural": "",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "quantity": {
+        "original": "Quantity",
+        "singular": "Cantidad",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
       },
       "reorderPoint": {
         "original": "Reorder Point",
@@ -9445,7 +9609,10 @@
       "sameAssetBinNotAllowed": "No está permitido seleccionar el mismo Activo en un contenedor",
       "selectCategory":"Seleccionar Categoría",
       "selectSubCategory":"Seleccionar Subcategoría",
-      "selectStatus":"Seleccionar Estado"
+      "selectStatus":"Seleccionar Estado",
+      "utilizeFromBin": "Utilizar desde el contenedor",
+      "utilizeSpareParts": "Utilizar repuestos",
+      "transferFroms": "Transferir desde"
     }
   },
   "bin": {
@@ -9827,7 +9994,14 @@
         "plural": "Artículos faltantes detectados",
         "setupEdit": false,
         "setupVisible": false
-      }
+        },
+        "sec15": {
+            "original": "Additional Details",
+            "singular": "Detalles Adicionales",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": true
+        }
     },
     "fields": {
       "setupVisible": false,
@@ -9970,6 +10144,48 @@
         "plural": "Observaciones",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "mine": {
+        "original": "Mine",
+        "singular": "Mío",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "user": {
+        "original": "User",
+        "singular": "Usuario",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "location": {
+        "original": "Location",
+        "singular": "Ubicación",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "mine": {
+        "original": "Mine",
+        "singular": "Mío",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "user": {
+        "original": "User",
+        "singular": "Usuario",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "location": {
+        "original": "Location",
+        "singular": "Ubicación",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
       },
       "userBin": {
         "original": "User Bin",
@@ -10161,9 +10377,9 @@
   "checkAvailibility": {
     "setupVisible": false,
     "label": {
-      "original": "Check availability",
-      "singular": "Verificar disponibilidad",
-      "plural": "Verificar disponibilidad",
+      "original": "Locate",
+      "singular": "Localizar",
+      "plural": "Localizar",
       "setupEdit": true,
       "setupVisible": true
     },
@@ -10195,6 +10411,20 @@
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
+    },
+      "sec4": {
+          "original": "Select what to check",
+          "singular": "Seleccionar qué verificar",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+      }, 
+      "sec5": {
+          "original": "Select where to check",
+          "singular": "Seleccionar Ubicación",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
       },
       "sec4": {
         "original": "Summary of Results",
@@ -10202,7 +10432,7 @@
         "plural": "Resúmenes de resultados",
         "setupEdit": false,
         "setupVisible": false
-      }
+        }
     },
     "fields": {
       "choose": {
@@ -10243,6 +10473,48 @@
       "bin": {
         "original": "Bin",
         "singular": "Contenedor",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "type": {
+        "original": "Type",
+        "singular": "Tipo",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "family": {
+        "original": "Family",
+        "singular": "Familia",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "user": {
+        "original": "User",
+        "singular": "Usuario",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "category": {
+        "original": "Category",
+        "singular": "Categoría",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "subCategory": {
+        "original": "Sub-category",
+        "singular": "Sub-categoría",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "status": {
+        "original": "Status",
+        "singular": "Estado",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
@@ -11427,6 +11699,20 @@
         "setupEdit": true,
         "setupVisible": true
       },
+      "salutation": {
+        "original": "Salutation",
+        "singular": "Saludo",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "name": {
+        "original": "Name",
+        "singular": "Nombre",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
       "email": {
         "original": "Email",
         "singular": "Correo Electrónico",
@@ -11978,9 +12264,9 @@
         "setupVisible": false
       },
       "sec3": {
-        "original": "Profile Settings",
-        "singular": "Configuración del Perfil",
-        "plural": "Configuraciones del Perfil",
+        "original": "Account Settings",
+        "singular": "Configuración de la Cuenta",
+        "plural": "Configuraciones de la Cuenta",
         "setupEdit": true,
         "setupVisible": false
       },
@@ -11988,6 +12274,20 @@
         "original": "Languages",
         "singular": "Idioma",
         "plural": "Idiomas",
+        "setupEdit": true,
+        "setupVisible": false
+      },
+      "sec5": {
+        "original": "Regional Settings",
+        "singular": "Configuración Regional",
+        "plural": "Configuraciones Regionales",
+        "setupEdit": true,
+        "setupVisible": false
+      },
+      "sec6": {
+        "original": "AI Suggestions",
+        "singular": "Sugerencia de AI",
+        "plural": "Sugerencias de AI",
         "setupEdit": true,
         "setupVisible": false
       }
@@ -12019,6 +12319,13 @@
         "original": "Profile Settings",
         "singular": "Configuración del Perfil",
         "plural": "Configuraciones del Perfil",
+        "setupEdit": true,
+        "setupVisible": false
+      },
+      "passwordSettings": {
+        "original": "Password Settings",
+        "singular": "Configuración de Contraseña",
+        "plural": "Configuraciones de Contraseña",
         "setupEdit": true,
         "setupVisible": false
       },
@@ -12169,7 +12476,7 @@
       "filter": {
         "original": "Filter",
         "singular": "Filtrar",
-        "plural": "",
+        "plural": "Filtros",
         "setupEdit": true,
         "setupVisible": false
       },
@@ -12281,7 +12588,7 @@
       "transfer": {
         "original": "Transfer",
         "singular": "Transferir",
-        "plural": "",
+        "plural": "Transferencias",
         "setupEdit": true,
         "setupVisible": true
       },
@@ -12972,8 +13279,8 @@
         "setupVisible": false
       },
       "email": {
-        "original": "EMAIL",
-        "singular": "EMAIL",
+        "original": "Email",
+        "singular": "Email",
         "plural": "",
         "setupEdit": true,
         "setupVisible": false
@@ -13192,6 +13499,20 @@
         "original": "Continue",
         "singular": "Continuar",
         "plural": "Continuar",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "iAccept": {
+        "original": "I accept",
+        "singular": "Saya terima",
+        "plural": "Saya terima",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "seeMore": {
+        "original": "See more",
+        "singular": "Lihat lagi",
+        "plural": "Lihat lagi",
         "setupEdit": true,
         "setupVisible": true
       },
@@ -13621,13 +13942,6 @@
       "available": {
         "original": "Available",
         "singular": "Disponible",
-        "plural": "",
-        "setupEdit": true,
-        "setupVisible": false
-      },
-      "breakDown": {
-        "original": "Break Down",
-        "singular": "Avería",
         "plural": "",
         "setupEdit": true,
         "setupVisible": false
@@ -14080,6 +14394,41 @@
         "setupEdit": false,
         "setupVisible": false
       },
+      "followUp": {
+        "original": "Follow Up",
+        "singular": "Seguimiento",
+        "plural": "Seguimiento",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "maintenance": {
+        "original": "Maintenance",
+        "singular": "Mantenimiento",
+        "plural": "Mantenimientos",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "booked": {
+        "original": "Booked",
+        "singular": "Reservado",
+        "plural": "Reservados",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "disposed": {
+        "original": "Disposed",
+        "singular": "Desechado",
+        "plural": "Desechados",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "other": {
+        "original": "Other",
+        "singular": "Otro",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
       "messages": {
         "forIncompleteChecklists": "Para que las listas de verificación incompletas se actualicen en el futuro. No se activarán trabajos ni tareas utilizando este estado.",
         "thisStatusWillTriggerAnyJobOrders": "Este estado activará cualquier orden de trabajo y tareas relacionadas con las respuestas de esta lista de verificación.",
@@ -14270,7 +14619,26 @@
       "total":"Total",
       "from":"De",
       "to":"A",
-      "or":"O"
+      "or":"O",
+      "noMatchesFound": "No se encontraron coincidencias. Intenta ajustar tus criterios de búsqueda.",
+      "noHistoryAvailable": "No hay historial disponible. Tu actividad aparecerá aquí.",
+      "noAttachmentsFoundUploadFiles": "No se encontraron archivos adjuntos. Sube archivos para verlos aquí.",
+      "nothingToApprove": "Nada que aprobar. Todos los elementos están actualizados.",
+      "noRecordsAvailable": "No hay registros disponibles.",
+      "noMessagesYet": "Aún no hay mensajes. Inicia una conversación para ver tus mensajes aquí.",
+      "noNotificationsYet": "Aún no hay notificaciones. ¡Estás al día!",
+      "noFormsAvailable": "No hay formularios disponibles.",
+      "currentLanguage": "Idioma Actual",
+      "allLanguages": "Todos los Idiomas",
+      "itemNotFound": "Elemento no encontrado",
+      "selectSearchCategory": "Seleccionar categoría de búsqueda",
+      "selectWhatToCreate": "Seleccionar qué crear",
+      "selectWhatToScan": "Seleccionar qué escanear",
+      "partAvailability": "Disponibilidad de la pieza",
+      "was": "se",
+      "wasChangedFrom": "se cambió de",
+      "wasChangedTo": "se cambió a"
+
     },
     "currency": {
       "australianDollar": "AUD",
@@ -14517,6 +14885,13 @@
           "plural": "",
           "setupEdit": true,
           "setupVisible": false
+        },
+        "date": {
+          "original": "Date",
+          "singular": "Fecha",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
         }
       }
     },
@@ -14524,6 +14899,8 @@
       "invalid": "Inválido",
       "invalidEmail": "Correo Electrónico Inválido",
       "invalidEmailFormat": "Formato de Correo Electrónico Inválido",
+      "invalidPhoneFormat": "Formato de teléfono no válido",
+      "phoneMinEightDigits": "El número de teléfono debe tener al menos 8 dígitos",
       "invalidFax": "Número de Fax Inválido",
       "invalidFaxFormat": "Formato de Fax Inválido",
       "invalidPhoneNumber": "Número de Teléfono Inválido",
@@ -14537,6 +14914,7 @@
       "required": "Requerido",
       "requiredField": "Campo Requerido",
       "pleaseSignBeforeProceed": "Por favor, firme antes de continuar",
+      "pleaseSignBeforeProceeding": "Por favor, firme antes de continuar",
       "charactersExceed": "El texto excede el límite de caracteres (255).",
       "endDateThanStartDate": "La fecha de finalización debe ser posterior a la fecha de inicio",
       "thisFieldIsRequired":"Este campo es obligatorio",
@@ -21422,7 +21800,7 @@
         "configNotificationOrganiation": "Configure las notificaciones que desea que su organización vea.",
         "notificationAllow": "Las notificaciones le permiten notificar a los usuarios sobre actividades específicas en FieldEx, como actualizaciones y solicitudes, tanto dentro de la aplicación como a través de correos electrónicos. Seleccione un módulo a continuación para configurar las notificaciones según su proceso.",
         "notificationsAreAlerts": "Las notificaciones son alertas que lo mantienen actualizado sobre actividades específicas dentro de FieldEx. Puede configurar que se le envíen a través de su medio preferido haciendo clic en 'Editar' y seleccionando o deseleccionando las casillas a continuación.",
-        "markAsRead": "Marcar como Leído",
+        "markAsRead": "Marcar todo como leído",
         "noMessageToDisplay": "No hay mensajes para mostrar",
         "changesUpdatedAllModified": "Los cambios se actualizarán para todas las notificaciones modificadas"
       }
@@ -24017,7 +24395,8 @@
       "locationPermission": "Permiso de Ubicación:",
       "fileStoragePermission": "Permiso de Archivo/Almacenamiento:",
       "cameraPermission": "Permiso de Cámara:",
-      "phonePermission": "Permiso de Teléfono:"
+      "phonePermission": "Permiso de Teléfono:",
+      "appPermissions": "Permisos de la aplicación" 
     }
   },
   "message": {
@@ -24092,6 +24471,13 @@
       "sec2": {
         "original": "Security",
         "singular": "Seguridad",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": false
+      },
+      "sec3": {
+        "original": "Password & Security",
+        "singular": "Contraseña y Seguridad",
         "plural": "",
         "setupEdit": true,
         "setupVisible": false
@@ -24211,7 +24597,12 @@
       "confirmChangePassword": "¿Está seguro de que desea cambiar su contraseña?",
       "addYourHomeAddress": "Agregue su dirección de casa",
       "addYourOfficeAddress": "Agregue su dirección de oficina",
-      "passwordUpdatedSuccessfully": "Contraseña actualizada con éxito"
+      "passwordUpdatedSuccessfully": "Contraseña actualizada con éxito",
+      "personalInformation": "Información personal",
+      "dailyJobOrderSummary": "Resumen diario de órdenes de trabajo",
+      "sparePartRecommendations": "Recomendaciones de repuestos",
+      "resolutionSuggestions": "Sugerencias de resolución"
+
     },
     "validationsFE": {
       "currentPasswordIsRequired": "Se requiere la contraseña actual",
@@ -24730,8 +25121,10 @@
     },
     "messages": {
       "pendingJobOrders": "Órdenes de Trabajo Pendientes",
+      "pendingWorkOrders": "Órdenes de trabajo pendientes",
       "todaysTasks": "Tareas de Hoy",
       "tasksToAcceptDecline": "Tareas para Aceptar/Rechazar",
+      "toAccept" : "Aceptar",
       "assignedTasks": "Tareas Asignadas",
       "journeyPlanManagement": "Gestión del Plan de Viaje",
       "CreateTask": "¡Crear Tarea!",
@@ -24931,7 +25324,9 @@
         }
       },
       "messages": {
-        "searchJobOrders": "Buscar órdenes de trabajo"
+        "searchJobOrders": "Buscar órdenes de trabajo",
+        "viewPdf": "Ver PDF",
+        "emailPdf": "Enviar PDF por correo"
       }
     },
     "national": {
