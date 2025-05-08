@@ -12380,13 +12380,6 @@
         "setupEdit": true,
         "setupVisible": false
       },
-      "breakDown": {
-        "original": "Break Down",
-        "singular": "Zusammenbruch",
-        "plural": "",
-        "setupEdit": true,
-        "setupVisible": false
-      },
       "breakdown": {
         "original": "Breakdown",
         "singular": "Störung",
@@ -12804,6 +12797,34 @@
         "original": "Follow Up",
         "singular": "Nachverfolgung",
         "plural": "Nachverfolgung",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "maintenance": {
+        "original": "Maintenance",
+        "singular": "Wartung",
+        "plural": "Wartungen",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "booked": {
+        "original": "Booked",
+        "singular": "Gebucht",
+        "plural": "Gebuchte",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "disposed": {
+        "original": "Disposed",
+        "singular": "Entsorgt",
+        "plural": "Entsorgte",
+        "setupEdit": false,
+        "setupVisible": false
+      }, 
+      "other": {
+        "original": "Other",
+        "singular": "Andere",
+        "plural": "Andere",
         "setupEdit": false,
         "setupVisible": false
       },

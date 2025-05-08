@@ -6783,6 +6783,34 @@
       "setupEdit": false,
       "setupVisible": false
     },
+    "followUp": {
+      "original": "Follow Up",
+      "singular": "Follow Up",
+      "plural": "Follow Up",
+      "setupEdit": false,
+      "setupVisible": false
+    },
+    "maintenance": {
+      "original": "Maintenance",
+      "singular": "Maintenance",
+      "plural": "Maintenance",
+      "setupEdit": false,
+      "setupVisible": false
+    },
+    "booked": {
+      "original": "Booked",
+      "singular": "Booked",
+      "plural": "Booked",
+      "setupEdit": false,
+      "setupVisible": false
+    },
+    "disposed": {
+      "original": "Disposed",
+      "singular": "Disposed",
+      "plural": "Disposed",
+      "setupEdit": false,
+      "setupVisible": false
+    },
     "form": {
       "original": "Form",
       "singular": "Form",
@@ -12220,13 +12248,6 @@
         "setupEdit": true,
         "setupVisible": false
       },
-      "breakDown": {
-        "original": "Break Down",
-        "singular": "Break Down",
-        "plural": "",
-        "setupEdit": true,
-        "setupVisible": false
-      },
       "breakdown": {
         "original": "Breakdown",
         "singular": "Breakdown",
@@ -12646,6 +12667,13 @@
         "plural": "Follow Up",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "other": {
+        "original": "Other",
+        "singular": "Other",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
       },
       "messages":{
         "forIncompleteChecklists": "For incomplete checklists to be updated in the future. No Jobs or Tasks will be triggered using this status",

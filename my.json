@@ -12379,13 +12379,6 @@
         "setupEdit": true,
         "setupVisible": false
       },
-      "breakDown": {
-        "original": "Break Down",
-        "singular": "Rosak",
-        "plural": "",
-        "setupEdit": true,
-        "setupVisible": false
-      },
       "breakdown": {
         "original": "Breakdown",
         "singular": "Rosak",
@@ -12803,6 +12796,34 @@
         "original": "Follow Up",
         "singular": "Tindak Lanjut",
         "plural": "Tindak Lanjut",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "maintenance": {
+        "original": "Maintenance",
+        "singular": "Penyelenggaraan",
+        "plural": "Penyelenggaraan",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "booked": {
+        "original": "Booked",
+        "singular": "Ditempah",
+        "plural": "Tempahan",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "disposed": {
+        "original": "Disposed",
+        "singular": "Dilupuskan",
+        "plural": "Pelupusan",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "other": {
+        "original": "Other",
+        "singular": "Lain-lain",
+        "plural": "Lain-lain",
         "setupEdit": false,
         "setupVisible": false
       },
