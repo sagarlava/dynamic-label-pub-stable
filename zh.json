@@ -2718,34 +2718,7 @@
         "setupEdit": true,
         "setupVisible": false
       },
-      "assetStatusBeforeChecklist": {
-        "original": "Asset status before checklist",
-        "singular": "检查表之前的资产状态",
-        "plural": "检查表之前的资产状态",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "assetStatusAfterChecklist": {
-        "original": "Asset status after checklist",
-        "singular":"检查表之后的资产状态",
-        "plural": "检查表之后的资产状态",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "equipmentMeterReadingBeforeChecklist": {
-        "original": "Equipment meter reading before checklist",
-        "singular": "检查表之前的设备仪表读数",
-        "plural": "检查表之前的设备仪表读数",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "equipmentMeterReadingAfterChecklist": {
-        "original": "Equipment meter reading after checklist",
-        "singular": "检查表之后的设备仪表读数",
-        "plural": "检查表之后的设备仪表读数",
-        "setupEdit": false,
-        "setupVisible": false
-      },
+      
       "assetStatusBeforeChecklist": {
         "original": "Asset status before checklist",
         "singular": "检查表之前的资产状态",
@@ -12555,13 +12528,6 @@
         "setupEdit": true,
         "setupVisible": false
       },
-      "breakDown": {
-        "original": "Break Down",
-        "singular": "故障",
-        "plural": "",
-        "setupEdit": true,
-        "setupVisible": false
-      },
       "breakdown": {
         "original": "Breakdown",
         "singular": "故障",
@@ -12989,6 +12955,34 @@
         "setupEdit": false,
         "setupVisible": false
       },
+      "maintenance": {
+        "original": "Maintenance",
+        "singular": "维护",
+        "plural": "维护项",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "booked": {
+        "original": "Booked",
+        "singular": "已预订",
+        "plural": "预订项",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "disposed": {
+        "original": "Disposed",
+        "singular": "已处理",
+        "plural": "处理项",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "other": {
+        "original": "Other",
+        "singular": "其他",
+        "plural": "其他",
+        "setupEdit": false,
+        "setupVisible": false
+      },
       "messages": {
         "forIncompleteChecklists": "未来将更新未完成的清单。不会使用此状态触发任何工作或任务",
         "thisStatusWillTriggerAnyJobOrders": "此状态将触发与该清单答案相关的任何工作订单和任务",
@@ -13032,7 +13026,6 @@
       "confirmRemove": "您确定要删除",
       "confirmDeleteThis": "您确定要删除此内容吗",
       "confirmRemoveThis": "您确定要移除此内容吗",
-      "confirmDeleteThis": "你确定要删除这个吗",
       "doYouWishToProceed": "您是否希望继续？",
       "irreversibleAction": "此操作不可撤销。",
       "cannotBeUndone": "此操作无法撤销。",

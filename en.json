@@ -2717,34 +2717,7 @@
         "setupEdit": false,
         "setupVisible": false
       },
-      "assetStatusBeforeChecklist": {
-        "original": "Asset status before checklist",
-        "singular": "Asset status before checklist",
-        "plural": "Asset status before checklist",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "assetStatusAfterChecklist": {
-        "original": "Asset status after checklist",
-        "singular":"Asset status after checklist",
-        "plural": "Asset status after checklist",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "equipmentMeterReadingBeforeChecklist": {
-        "original": "Equipment meter reading before checklist",
-        "singular": "Equipment meter reading before checklist",
-        "plural": "Equipment meter reading before checklist",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "equipmentMeterReadingAfterChecklist": {
-        "original": "Equipment meter reading after checklist",
-        "singular": "Equipment meter reading after checklist",
-        "plural": "Equipment meter reading after checklist",
-        "setupEdit": false,
-        "setupVisible": false
-      },
+      
       "assetStatusBeforeChecklist": {
         "original": "Asset status before checklist",
         "singular": "Asset status before checklist",
@@ -12557,13 +12530,6 @@
         "setupEdit": true,
         "setupVisible": false
       },
-      "breakDown": {
-        "original": "Break Down",
-        "singular": "Break Down",
-        "plural": "",
-        "setupEdit": true,
-        "setupVisible": false
-      },
       "breakdown": {
         "original": "Breakdown",
         "singular": "Breakdown",
@@ -12991,6 +12957,34 @@
         "setupEdit": false,
         "setupVisible": false
       },
+      "maintenance": {
+        "original": "Maintenance",
+        "singular": "Maintenance",
+        "plural": "Maintenance",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "booked": {
+        "original": "Booked",
+        "singular": "Booked",
+        "plural": "Booked",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "disposed": {
+        "original": "Disposed",
+        "singular": "Disposed",
+        "plural": "Disposed",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "other": {
+        "original": "Other",
+        "singular": "Other",
+        "plural": "Others",
+        "setupEdit": false,
+        "setupVisible": false
+      },
       "messages":{
         "forIncompleteChecklists": "For incomplete checklists to be updated in the future. No Jobs or Tasks will be triggered using this status",
         "thisStatusWillTriggerAnyJobOrders": "This status will trigger any Job Orders and Tasks related to this checklist's answers",
@@ -13032,7 +13026,6 @@
       "confirmAction": "Are you sure?",
       "confirmDelete": "Are you sure you want to delete",
       "confirmRemove": "Are you sure you want to remove",
-      "confirmDeleteThis": "Are you sure you want to delete this",
       "confirmRemoveThis": "Are you sure you want to remove this",
       "confirmDeleteThis": "Are you sure you want to delete this",
       "doYouWishToProceed": "Do you wish to proceed?",

@@ -2717,34 +2717,7 @@
         "setupEdit": true,
         "setupVisible": false
       },
-      "assetStatusBeforeChecklist": {
-        "original": "Asset status before checklist",
-        "singular": "Status aset sebelum senarai semak",
-        "plural": "Status aset sebelum senarai semak",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "assetStatusAfterChecklist": {
-        "original": "Asset status after checklist",
-        "singular":"Status aset selepas senarai semak",
-        "plural": "Status aset selepas senarai semak",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "equipmentMeterReadingBeforeChecklist": {
-        "original": "Equipment meter reading before checklist",
-        "singular": "Bacaan meter peralatan sebelum senarai semak",
-        "plural": "Bacaan meter peralatan sebelum senarai semak",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "equipmentMeterReadingAfterChecklist": {
-        "original": "Equipment meter reading after checklist",
-        "singular": "Bacaan meter peralatan selepas senarai semak",
-        "plural": "Bacaan meter peralatan selepas senarai semak",
-        "setupEdit": false,
-        "setupVisible": false
-      },
+     
       "assetStatusBeforeChecklist": {
         "original": "Asset status before checklist",
         "singular": "Status aset sebelum senarai semak",
@@ -8756,7 +8729,6 @@
       "removeSparePartsLinkedTask":"Adakah anda mahu mengeluarkan semua alat ganti yang dipautkan kepada tugas ini daripada Pesanan Kerja?",
       "listOfTask":"Senarai Tugasan",
       "listOfSparePart":"Senarai Alat Ganti",
-      "startSLA": "SLA Bermula",
       "changeStatusTo": "Tukar status kepada",
       "identification": "Pengenalan",
       "signOff": "Log keluar",
@@ -12541,13 +12513,6 @@
         "setupEdit": true,
         "setupVisible": false
       },
-      "breakDown": {
-        "original": "Break Down",
-        "singular": "Rosak",
-        "plural": "",
-        "setupEdit": true,
-        "setupVisible": false
-      },
       "breakdown": {
         "original": "Breakdown",
         "singular": "Rosak",
@@ -12975,6 +12940,34 @@
         "setupEdit": false,
         "setupVisible": false
       },
+      "maintenance": {
+        "original": "Maintenance",
+        "singular": "Penyelenggaraan",
+        "plural": "Penyelenggaraan",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "booked": {
+        "original": "Booked",
+        "singular": "Ditempah",
+        "plural": "Tempahan",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "disposed": {
+        "original": "Disposed",
+        "singular": "Dilupuskan",
+        "plural": "Pelupusan",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "other": {
+        "original": "Other",
+        "singular": "Lain-lain",
+        "plural": "Lain-lain",
+        "setupEdit": false,
+        "setupVisible": false
+      },
       "messages": {
         "forIncompleteChecklists": "Untuk senarai semak yang tidak lengkap akan dikemas kini pada masa hadapan. Tiada Pekerjaan atau Tugas akan dicetuskan menggunakan status ini",
         "thisStatusWillTriggerAnyJobOrders": "Status ini akan mencetuskan sebarang Pesanan Kerja dan Tugas yang berkaitan dengan jawapan senarai semak ini",
@@ -13018,7 +13011,6 @@
       "confirmRemove": "Adakah anda pasti mahu membuang",
       "confirmDeleteThis": "Adakah anda pasti mahu memadam ini",
       "confirmRemoveThis": "Adakah anda pasti mahu membuang ini",
-      "confirmDeleteThis": "Apakah Anda yakin ingin menghapus ini",
       "doYouWishToProceed": "Adakah anda ingin meneruskan?",
       "irreversibleAction": "Tindakan ini tidak boleh dibatalkan.",
       "cannotBeUndone": "Tindakan ini tidak boleh dibatalkan.",
