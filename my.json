@@ -20,8 +20,8 @@
         "setupEdit": true
       },
       "sec1": {
-        "original": "Main Contact Details",
-        "singular": "Butiran Hubungan Utama",
+        "original": "Contact Details",
+        "singular": "Butiran Perhubungan",
         "plural": "",
         "setupEdit": false,
         "setupVisible": false
@@ -418,7 +418,8 @@
       "selectGeofences": "Pilih Geofence",
       "noJobOrder": "Belum ada Pesanan Kerja",
       "nearestCustomers": "Pelanggan Terdekat",
-      "nearbyCustomers": "Pelanggan Berdekatan"
+      "nearbyCustomers": "Pelanggan Berdekatan",
+      "seeInMap": "Lihat dalam peta"
     }
   },
   "asset": {
@@ -971,7 +972,10 @@
         "setupVisible": false
       }
     },
-    "validationFE": {},
+    "validationFE": {
+      "warrantyEndDateMustBeGreater": "Tarikh tamat waranti mesti melebihi tarikh mula.",
+      "warrantyStartDateMustBeEarlier": "Tarikh mula waranti harus lebih awal daripada tarikh tamat."
+    },
     "validationBE": {
       "assetIdNotFound": "ID tidak dijumpai",
       "assetIdExidNotFound": "ID/AssetExternalId tidak dijumpai",
@@ -1222,7 +1226,8 @@
       "from": "Dari",
       "warrantyStartDate": "Tarikh mula jaminan tidak boleh melebihi tarikh tamat jaminan",
       "errorFetchingAllAssets": "Ralat mendapatkan semua aset",
-      "errorOccuredWhileFetchingAccessories": "Ralat semasa mengambil aksesori"
+      "errorOccuredWhileFetchingAccessories": "Ralat semasa mengambil aksesori",
+      "logs": "Log"
     }
   },
   "assetLog": {
@@ -1692,6 +1697,13 @@
       "scheduleNumber": {
         "original": "Scheduled No",
         "singular": "No Jadual",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "maintenanceNumber": {
+        "original": "Maintenance No.",
+        "singular": "Nombor Penyelenggaraan",
         "plural": "",
         "setupEdit": false,
         "setupVisible": false
@@ -2705,31 +2717,32 @@
         "setupEdit": true,
         "setupVisible": false
       },
+     
       "assetStatusBeforeChecklist": {
         "original": "Asset status before checklist",
         "singular": "Status aset sebelum senarai semak",
-        "plural": "Status aset sebelum senarai semak",
+        "plural": "",
         "setupEdit": false,
         "setupVisible": false
       },
       "assetStatusAfterChecklist": {
         "original": "Asset status after checklist",
-        "singular":"Status aset selepas senarai semak",
-        "plural": "Status aset selepas senarai semak",
+        "singular": "Status aset selepas senarai semak",
+        "plural": "",
         "setupEdit": false,
         "setupVisible": false
       },
       "equipmentMeterReadingBeforeChecklist": {
         "original": "Equipment meter reading before checklist",
         "singular": "Bacaan meter peralatan sebelum senarai semak",
-        "plural": "Bacaan meter peralatan sebelum senarai semak",
+        "plural": "",
         "setupEdit": false,
         "setupVisible": false
       },
       "equipmentMeterReadingAfterChecklist": {
         "original": "Equipment meter reading after checklist",
         "singular": "Bacaan meter peralatan selepas senarai semak",
-        "plural": "Bacaan meter peralatan selepas senarai semak",
+        "plural": "",
         "setupEdit": false,
         "setupVisible": false
       }
@@ -2776,7 +2789,9 @@
       "forIncompleteChecklists": "Untuk senarai semak yang tidak lengkap untuk dikemas kini pada masa hadapan. Tiada Pekerjaan atau Tugas akan dicetuskan menggunakan status ini",
       "thisStatusWillTrigger": "Status ini akan mencetuskan sebarang Pesanan Kerja dan Tugas yang berkaitan dengan jawapan senarai semak ini",
       "updateStatusTo": "Kemas kini Status Kepada",
-      "noStatusToDisplay": "Tiada Status untuk Dipaparkan"
+      "noStatusToDisplay": "Tiada Status untuk Dipaparkan",
+      "updateChecklistStatus":"Kemas kini Status Senarai Semak",
+      "updateAsset":"Kemas kini Aset"
     }
   },
   "journey": {
@@ -2813,7 +2828,19 @@
       "thisTaskCanNotBeDeletedBecauseJourneyIsRunning": "Tugas ini tidak boleh dihapus kerana perjalanan sedang berjalan",
       "journeyAlreadyRunningForAnotherTask": "Perjalanan sudah berjalan untuk tugas lain",
       "endJourney": "Tamat Perjalanan",
-      "resolvingLocation": "Menyelesaikan Lokasi"
+      "resolvingLocation": "Menyelesaikan Lokasi",
+      "readyToCheckIn": "Sedia untuk daftar masuk?",
+      "readyToCheckOut": "Sedia untuk daftar keluar?",
+      "startNow": "Mulakan sekarang",
+      "onGoingJourney": "Perjalanan sedang berlangsung",
+      "resumeJourney": "Sambung perjalanan",
+      "timeElapsed": "Masa berlalu",
+      "paused": "Ditangguhkan",
+      "later": "Nanti",
+      "actions": "Tindakan",
+      "confirmYourArrivalToBeginThisTask": "Sahkan ketibaan anda untuk memulakan tugas ini.",
+      "journeyComplete": "Perjalanan Selesai",
+      "wouldYouLikeToCheckInToYourTask": "Adakah anda ingin mendaftar masuk ke tugas anda?"
     },
     "validationBE": {
       "routeIdTaskIdNotFound": "RouteId atau TaskId tidak dijumpai",
@@ -3164,6 +3191,7 @@
       "newProductType": "Jenis Alat Ganti Baru",
       "subTotal": "Jumlah Kecil",
       "totalAmount": "Jumlah Keseluruhan",
+       "groupByTask": "Kumpulkan mengikut Tugas",
       "deleteTaskTemplateRemoveSpareParts":"Menghapus templat tugas ini juga akan membuang semua alat ganti yang berkaitan"
     }
   },
@@ -4213,6 +4241,20 @@
         "setupEdit": false,
         "setupVisible": false
       },
+      "totalDistance": {
+        "original": "Total Distance",
+        "singular": "Jarak Keseluruhan",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "totalTime": {
+        "original": "Total Time",
+        "singular": "Masa Keseluruhan",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
       "totalTimeSpent": {
         "original": "Total Time Spent",
         "singular": "Jumlah Masa Dihabiskan",
@@ -4628,6 +4670,7 @@
       "doYouWantToCompleteTake5Form": "Adakah anda mahu melengkapkan borang Take 5?",
       "pleaseCompleteJMPBeforeProceeding": "Sila lengkapkan JMP sebelum meneruskan tugas",
       "thisTaskIsAlreadyStartingJourney": "Tugas ini sudah memulakan perjalanan dari peranti lain",
+      "anotherJourneyIsInProgress": "Satu lagi perjalanan sedang berlangsung. Sila lengkapkan sebelum memulakan yang baru.",
       "unableToResolveTaskLocation": "Tidak dapat menentukan koordinat lokasi tugas. Sila kemas kini lokasi",
       "ownerChangedForTheTaskSuccessfully": "Pemilik tugas berjaya diubah.",
       "userAddedToTheTaskSuccessfully": "Pengguna berjaya ditambah ke tugas.",
@@ -4672,7 +4715,13 @@
       "homeAddrNotSet": "Alamat Rumah belum ditetapkan",
       "officeAddrNotSet": "Alamat Pejabat belum ditetapkan",
       "selectOwner": "Sila pilih sekurang-kurangnya 1 pemilik",
-      "maxUsersTask": "Maksimum 5 pengguna dibenarkan dalam satu Tugas"
+      "maxUsersTask": "Maksimum 5 pengguna dibenarkan dalam satu Tugas",
+      "additionalMembers": "Ahli tambahan",
+      "removeMember": "Keluarkan ahli",
+      "areYouSureWantToRemoveMember": "Adakah anda pasti mahu mengeluarkan ahli?",
+      "changeOwner": "Tukar pemilik",
+      "areYouSureWantToMakeOwner": "Adakah anda pasti mahu menukar pemilik?",
+      "generateJobOrderForThisTask": "Pesanan kerja akan dijana untuk tugas ini"
     }
   },
   "site": {
@@ -6244,8 +6293,8 @@
       "setupVisible": true,
       "setupEdit": true,
       "orderDateTime": {
-        "original": "Order Date & Time",
-        "singular": "Tarikh & Waktu Pesanan",
+        "original": "Date & Time",
+        "singular": "Tarikh & Topik",
         "plural": "",
         "setupEdit": false,
         "setupVisible": false
@@ -6369,10 +6418,38 @@
         "setupEdit": false,
         "setupVisible": false
       },
+      "branchSignOff": {
+        "original": "Branch Sign Off",
+        "singular": "Pengesahan Cawangan",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
       "assetUnderWarranty": {
         "original": "Asset Under Warranty",
         "singular": "Aset di Bawah Jaminan",
         "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "underWarranty": {
+        "original": "Under warranty",
+        "singular": "Di bawah jaminan",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "notUnderWarranty": {
+        "original": "Not under warranty",
+        "singular": "Tidak di bawah jaminan",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "assetWarranty": {
+        "original": "Asset Warranty",
+        "singular": "Waranti Aset",
+        "plural": "Waranti Aset",
         "setupEdit": false,
         "setupVisible": false
       },
@@ -7083,6 +7160,13 @@
         "setupEdit": false,
         "setupVisible": false
       },
+      "nameAndIDNumber": {
+        "original": "Name and ID Number",
+        "singular": "Nama dan Nombor ID",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
       "offCode": {
         "original": "Off Code",
         "singular": "Kod Tutup",
@@ -7587,6 +7671,13 @@
         "setupEdit": false,
         "setupVisible": false
       },
+      "latestSent": {
+        "original": "Latest Sent At",
+        "singular": "Latest Sent At",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
       "surveySentFrom": {
         "original": "Survey Sent From",
         "singular": "Tinjauan Dihantar Dari",
@@ -7888,6 +7979,13 @@
         "setupEdit": false,
         "setupVisible": false
       },
+      "openingDays": {
+        "original": "Opening Days",
+        "singular": "Hari Pembukaan",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
       "physicalDamage": {
         "original": "Physical Damage to hills installed application?",
         "singular": "Kerosakan Fizikal pada aplikasi yang dipasang di bukit?",
@@ -8148,8 +8246,8 @@
         "setupVisible": false
       },
       "uploadAttachment": {
-        "original": "Upload",
-        "singular": "Muat Naik",
+        "original": "Muat naik lampiran",
+        "singular": "Muat naik lampiran",
         "plural": "",
         "setupEdit": false,
         "setupVisible": false
@@ -8192,6 +8290,13 @@
       "icPassportNo": {
         "original": "IC/Passport No",
         "singular": "No IC/Pasport",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "idNumber": {
+        "original": "ID Number",
+        "singular": "Nombor ID",
         "plural": "",
         "setupEdit": false,
         "setupVisible": false
@@ -8623,7 +8728,13 @@
       "startSLA": "SLA Bermula",
       "removeSparePartsLinkedTask":"Adakah anda mahu mengeluarkan semua alat ganti yang dipautkan kepada tugas ini daripada Pesanan Kerja?",
       "listOfTask":"Senarai Tugasan",
-      "listOfSparePart":"Senarai Alat Ganti"
+      "listOfSparePart":"Senarai Alat Ganti",
+      "changeStatusTo": "Tukar status kepada",
+      "identification": "Pengenalan",
+      "signOff": "Log keluar",
+      "photoUpload": "Muat naik foto",
+      "viewPdf": "Lihat Pdf",
+      "emailPdf": "E-mel Pdf"
     }
   },
   "inventory": {
@@ -9044,7 +9155,10 @@
       "availableOtherLocations": "tersedia di lokasi lain",
       "sameProductBinTransferNotAllowed": "Anda tidak dibenarkan untuk memilih Alat Ganti yang sama dalam pemindahan bin",
       "sameProductBinNotAllowed": "Anda tidak dibenarkan untuk memilih Alat Ganti yang sama dalam bin",
-      "sameAssetBinNotAllowed": "Anda tidak dibenarkan untuk memilih aset yang sama dalam bin"
+      "sameAssetBinNotAllowed": "Anda tidak dibenarkan untuk memilih aset yang sama dalam bin",
+      "utilizeFromBin": "Guna dari Bin",
+      "utilizeSpareParts": "Guna Alat Ganti",
+      "transferFrom": "Pindah dari"
     }
   },
   "bin": {
@@ -9376,6 +9490,13 @@
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
+      },
+      "sec15": {
+        "original": "Additional Details",
+        "singular": "Butiran Tambahan",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
       }
     },
     "fields": {
@@ -9443,9 +9564,23 @@
         "setupEdit": true,
         "setupVisible": true
       },
+      "available": {
+        "original": "Available",
+        "singular": "Tersedia",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
       "qtyTransfer": {
         "original": "Quantity to Transfer",
         "singular": "Kuantiti untuk Dipindahkan",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "quantity": {
+        "original": "Quantity",
+        "singular": "Kuantiti",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
@@ -9517,6 +9652,27 @@
         "original": "Remark",
         "singular": "Catatan",
         "plural": "Catatan",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "mine": {
+        "original": "Mine",
+        "singular": "Saya",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "user": {
+        "original": "User",
+        "singular": "Pengguna",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "location": {
+        "original": "Location",
+        "singular": "Lokasi",
+        "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
@@ -9598,9 +9754,9 @@
   "checkAvailibility": {
     "setupVisible": false,
     "label": {
-      "original": "Check availability",
-      "singular": "Periksa ketersediaan",
-      "plural": "Periksa ketersediaan",
+      "original": "Locate",
+      "singular": "Cari",
+      "plural": "Cari",
       "setupEdit": true,
       "setupVisible": true
     },
@@ -9632,6 +9788,20 @@
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
+      },
+      "sec4": {
+        "original": "Select what to check",
+        "singular": "Pilih apa yang hendak diperiksa",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      }, 
+      "sec5": {
+          "original": "Select where to check",
+          "singular": "Pilih di mana hendak diperiksa",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
       }
     },
     "fields": {
@@ -9673,6 +9843,48 @@
       "bin": {
         "original": "Bin",
         "singular": "Bin",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "type": {
+        "original": "Type",
+        "singular": "Jenis",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "family": {
+        "original": "Family",
+        "singular": "Keluarga",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "user": {
+        "original": "User",
+        "singular": "Pengguna",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "category": {
+        "original": "Category",
+        "singular": "Kategori",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "subCategory": {
+        "original": "Sub-category",
+        "singular": "Sub-kategori",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "status": {
+        "original": "Status",
+        "singular": "Status",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
@@ -10326,6 +10538,20 @@
         "setupEdit": true,
         "setupVisible": true
       },
+      "salutation": {
+        "original": "Salutation",
+        "singular": "Sapaan",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "name": {
+        "original": "Name",
+        "singular": "Nama",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
       "email": {
         "original": "Email",
         "singular": "E-mel",
@@ -10829,9 +11055,9 @@
         "setupVisible": false
       },
       "sec3": {
-        "original": "Profile Settings",
-        "singular": "Tetapan Profil",
-        "plural": "Tetapan Profil",
+        "original": "Account Settings",
+        "singular": "Tetapan Akaun",
+        "plural": "Tetapan Akaun",
         "setupEdit": true,
         "setupVisible": false
       },
@@ -10839,6 +11065,20 @@
         "original": "Languages",
         "singular": "Bahasa",
         "plural": "Bahasa",
+        "setupEdit": true,
+        "setupVisible": false
+      },
+      "sec5": {
+        "original": "Regional Settings",
+        "singular": "Tetapan Wilayah",
+        "plural": "Tetapan Wilayah",
+        "setupEdit": true,
+        "setupVisible": false
+      },
+      "sec6": {
+        "original": "AI Suggestions",
+        "singular": "Cadangan AI",
+        "plural": "Cadangan AI",
         "setupEdit": true,
         "setupVisible": false
       }
@@ -10870,6 +11110,13 @@
         "original": "Profile Settings",
         "singular": "Tetapan Profil",
         "plural": "Tetapan Profil",
+        "setupEdit": true,
+        "setupVisible": false
+      },
+      "passwordSettings": {
+        "original": "Password Settings",
+        "singular": "Tetapan Kata Laluan",
+        "plural": "Tetapan Kata Laluan",
         "setupEdit": true,
         "setupVisible": false
       },
@@ -11020,7 +11267,7 @@
       "filter": {
         "original": "Filter",
         "singular": "Tapis",
-        "plural": "",
+        "plural": "Tapis-tapis",
         "setupEdit": true,
         "setupVisible": false
       },
@@ -11132,7 +11379,7 @@
       "transfer": {
         "original": "Transfer",
         "singular": "Pindahkan",
-        "plural": "",
+        "plural": "Pemindahan",
         "setupEdit": true,
         "setupVisible": true
       },
@@ -11823,7 +12070,7 @@
         "setupVisible": false
       },
       "email": {
-        "original": "EMAIL",
+        "original": "Email",
         "singular": "EMEL",
         "plural": "",
         "setupEdit": true,
@@ -12046,6 +12293,20 @@
         "setupEdit": true,
         "setupVisible": true
       },
+      "iAccept": {
+        "original": "I accept",
+        "singular": "Saya terima",
+        "plural": "Saya terima",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "seeMore": {
+        "original": "See more",
+        "singular": "Lihat lagi",
+        "plural": "Lihat lagi",
+        "setupEdit": true,
+        "setupVisible": true
+      },
       "confirm": {
         "original": "Confirm",
         "singular": "Sahkan",
@@ -12253,10 +12514,10 @@
         "setupVisible": false
       },
       "breakDown": {
-        "original": "Break Down",
-        "singular": "Rosak",
+        "original": "Breakdown",
+        "singular": "Breakdown",
         "plural": "",
-        "setupEdit": true,
+        "setupEdit": false,
         "setupVisible": false
       },
       "breakdown": {
@@ -12679,6 +12940,41 @@
         "setupEdit": false,
         "setupVisible": false
       },
+      "followUp": {
+        "original": "Follow Up",
+        "singular": "Tindak Lanjut",
+        "plural": "Tindak Lanjut",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "maintenance": {
+        "original": "Maintenance",
+        "singular": "Penyelenggaraan",
+        "plural": "Penyelenggaraan",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "booked": {
+        "original": "Booked",
+        "singular": "Ditempah",
+        "plural": "Tempahan",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "disposed": {
+        "original": "Disposed",
+        "singular": "Dilupuskan",
+        "plural": "Pelupusan",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "other": {
+        "original": "Other",
+        "singular": "Lain-lain",
+        "plural": "Lain-lain",
+        "setupEdit": false,
+        "setupVisible": false
+      },
       "messages": {
         "forIncompleteChecklists": "Untuk senarai semak yang tidak lengkap akan dikemas kini pada masa hadapan. Tiada Pekerjaan atau Tugas akan dicetuskan menggunakan status ini",
         "thisStatusWillTriggerAnyJobOrders": "Status ini akan mencetuskan sebarang Pesanan Kerja dan Tugas yang berkaitan dengan jawapan senarai semak ini",
@@ -12857,7 +13153,27 @@
       "errorOccuredWhileSigning": "Ralat berlaku semasa menandatangani",
       "noDocumentIsGenerated": "Tiada dokumen dijana",
       "pullToRefreshToSeeTheCompletion": "Tarik ke bawah untuk melihat penyelesaian",
-      "phoneNumberNotAvailable": "Nombor telefon tidak tersedia"
+      "phoneNumberNotAvailable": "Nombor telefon tidak tersedia",
+      "noMatchesFound": "Tiada padanan ditemui. Cuba laraskan kriteria carian anda.",
+      "noHistoryAvailable": "Tiada sejarah tersedia. Aktiviti anda akan muncul di sini.",
+      "noAttachmentsFoundUploadFiles": "Tiada lampiran ditemui. Muat naik fail untuk melihatnya di sini.",
+      "nothingToApprove": "Tiada apa-apa untuk diluluskan. Semua item adalah terkini.",
+      "noRecordsAvailable": "Tiada rekod tersedia.",
+      "noMessagesYet": "Tiada mesej lagi. Mulakan perbualan untuk melihat mesej anda di sini.",
+      "noNotificationsYet": "Tiada pemberitahuan lagi. Anda sudah mengikuti perkembangan!",
+      "noFormsAvailable": "Tiada borang tersedia.",
+      "currentLanguage": "Bahasa Semasa",
+      "allLanguages": "Semua Bahasa",
+      "itemNotFound": "Item tidak ditemui",
+      "selectSearchCategory": "Pilih kategori carian",
+      "selectWhatToCreate": "Pilih apa yang hendak dicipta",
+      "selectWhatToScan": "Pilih apa yang hendak diimbas",
+      "partAvailability": "Ketersediaan bahagian",
+      "was": "telah",
+      "wasChangedFrom": "telah diubah daripada",
+      "wasChangedTo": "telah diubah kepada",
+      "selectDateRange": "Pilih Julat Tarikh"
+
     },
     "currency": {
       "australianDollar": "AUD",
@@ -13104,6 +13420,13 @@
           "plural": "",
           "setupEdit": true,
           "setupVisible": false
+        },
+        "date": {
+          "original": "Date",
+          "singular": "Tarikh",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
         }
       }
     },
@@ -13111,6 +13434,8 @@
       "invalid": "Tidak Sah",
       "invalidEmail": "E-mel Tidak Sah",
       "invalidEmailFormat": "Format E-mel Tidak Sah",
+      "phoneMinEightDigits": "Nombor telefon mesti mempunyai sekurang-kurangnya 8 digit",
+      "invalidPhoneFormat": "Format Nombor Telefon Tidak Sah",
       "invalidFax": "Nombor Faks Tidak Sah",
       "invalidFaxFormat": "Format Faks Tidak Sah",
       "invalidPhoneNumber": "Nombor Telefon Tidak Sah",
@@ -13124,6 +13449,7 @@
       "required": "Diperlukan",
       "requiredField": "Medan Diperlukan",
       "pleaseSignBeforeProceed": "Sila tandatangan sebelum meneruskan",
+      "pleaseSignBeforeProceeding": "Sila tandatangan sebelum meneruskan",
       "charactersExceed": "Teks melebihi had aksara (255).",
       "endDateThanStartDate": "Tarikh tamat mesti selepas tarikh mula"
     },
@@ -19487,7 +19813,7 @@
         "configNotificationOrganiation": "Konfigurasikan notifikasi yang anda ingin organisasi anda lihat.",
         "notificationAllow": "Notifikasi membolehkan anda memberitahu pengguna mengenai aktiviti tertentu dalam FieldEx, seperti kemas kini dan permintaan, baik dalam aplikasi maupun sebagai notifikasi emel. Pilih modul di bawah untuk mengkonfigurasi notifikasi sesuai dengan proses anda.",
         "notificationsAreAlerts": "Notifikasi adalah amaran yang akan mengemas kini anda tentang aktiviti tertentu dalam FieldEx. Anda boleh mengkonfigurasi ini untuk dihantar kepada anda melalui medium pilihan anda dengan mengklik 'Edit' dan memilih atau tidak memilih kotak pilihan di bawah.",
-        "markAsRead": "Tandakan sebagai Baca",
+        "markAsRead": "Tandakan semua sebagai sudah dibaca",
         "noMessageToDisplay": "Tiada mesej untuk dipaparkan",
         "changesUpdatedAllModified": "Perubahan akan dikemas kini untuk semua notifikasi yang telah diubah"
       }
@@ -22078,7 +22404,8 @@
       "locationPermission": "Kebenaran Lokasi:",
       "fileStoragePermission": "Kebenaran Fail/Storan:",
       "cameraPermission": "Kebenaran Kamera:",
-      "phonePermission": "Kebenaran Telefon:"
+      "phonePermission": "Kebenaran Telefon:",
+      "appPermissions": "Kebenaran Aplikasi"  
     }
   },
   "message": {
@@ -22153,6 +22480,13 @@
       "sec2": {
         "original": "Security",
         "singular": "Keselamatan",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": false
+      },
+      "sec3": {
+        "original": "Password & Security",
+        "singular": "Kata Laluan & Keselamatan",
         "plural": "",
         "setupEdit": true,
         "setupVisible": false
@@ -22272,7 +22606,12 @@
       "confirmChangePassword": "Adakah anda pasti mahu menukar kata laluan anda?",
       "addYourHomeAddress": "Tambah alamat rumah anda",
       "addYourOfficeAddress": "Tambah alamat pejabat anda",
-      "passwordUpdatedSuccessfully": "Kata laluan berjaya dikemas kini"
+      "passwordUpdatedSuccessfully": "Kata laluan berjaya dikemas kini",
+      "personalInformation": "Maklumat Peribadi",
+      "dailyJobOrderSummary": "Ringkasan Pesanan Kerja Harian",
+      "sparePartRecommendations": "Cadangan Alat Ganti",
+      "resolutionSuggestions": "Cadangan Penyelesaian"
+
     },
     "validationsFE": {
       "currentPasswordIsRequired": "Kata laluan semasa diperlukan",
@@ -22791,8 +23130,10 @@
     },
     "messages": {
       "pendingJobOrders": "Pesanan Kerja Tertunda",
+      "pendingWorkOrders": "Pesanan Kerja Tertunggak",
       "todaysTasks": "Tugas Hari Ini",
       "tasksToAcceptDecline": "Tugas untuk Terima/Tolak",
+      "toAccept" : "Terima",
       "assignedTasks": "Tugas yang Ditugaskan",
       "journeyPlanManagement": "Pengurusan Rancangan Perjalanan",
       "CreateTask": "Cipta Tugas!",

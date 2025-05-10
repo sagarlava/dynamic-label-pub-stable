@@ -20,8 +20,8 @@
         "setupVisible": true
       },
       "sec1": {
-        "original": "Main Contact Details",
-        "singular": "主要联系人信息",
+        "original": "Contact Details",
+        "singular": "联系方式",
         "plural": "",
         "setupEdit": false,
         "setupVisible": false
@@ -418,7 +418,8 @@
       "selectGeofences": "选择地理围栏",
       "noJobOrder": "暂无工作单",
       "nearestCustomers": "最近的客户",
-      "nearbyCustomers": "附近的客户"
+      "nearbyCustomers": "附近的客户",
+      "seeInMap": "在地图上查看"
     }
   },
   "asset": {
@@ -971,7 +972,11 @@
         "setupVisible": false
       }
     },
-    "validationFE": {},
+    "validationFE": {
+      "warrantyEndDateMustBeGreater": "保修结束日期必须晚于开始日期。",
+      "warrantyStartDateMustBeEarlier": "保修开始日期应早于结束日期。"
+
+    },
     "validationBE": {
       "assetIdNotFound": "未找到 ID",
       "assetIdExidNotFound": "未找到 ID/资产外部ID",
@@ -1222,7 +1227,8 @@
       "from": "从",
       "warrantyStartDate": "保修开始日期不应晚于保修结束日期",
       "errorFetchingAllAssets": "获取所有资产时出错",
-      "errorOccuredWhileFetchingAccessories": "获取配件时发生错误"
+      "errorOccuredWhileFetchingAccessories": "获取配件时发生错误",
+      "logs": "日志"
     }
   },
   "assetLog": {
@@ -1692,6 +1698,13 @@
       "scheduleNumber": {
         "original": "Scheduled No",
         "singular": "计划编号",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "maintenanceNumber": {
+        "original": "Maintenance No.",
+        "singular": "维修编号",
         "plural": "",
         "setupEdit": false,
         "setupVisible": false
@@ -2705,31 +2718,32 @@
         "setupEdit": true,
         "setupVisible": false
       },
+      
       "assetStatusBeforeChecklist": {
         "original": "Asset status before checklist",
         "singular": "检查表之前的资产状态",
-        "plural": "检查表之前的资产状态",
+        "plural": "",
         "setupEdit": false,
         "setupVisible": false
       },
       "assetStatusAfterChecklist": {
         "original": "Asset status after checklist",
-        "singular":"检查表之后的资产状态",
-        "plural": "检查表之后的资产状态",
+        "singular": "检查表之后的资产状态",
+        "plural": "",
         "setupEdit": false,
         "setupVisible": false
       },
       "equipmentMeterReadingBeforeChecklist": {
         "original": "Equipment meter reading before checklist",
-        "singular": "检查表之前的设备仪表读数",
-        "plural": "检查表之前的设备仪表读数",
+        "singular": "检查表之前的设备计量读数",
+        "plural": "",
         "setupEdit": false,
         "setupVisible": false
       },
       "equipmentMeterReadingAfterChecklist": {
         "original": "Equipment meter reading after checklist",
-        "singular": "检查表之后的设备仪表读数",
-        "plural": "检查表之后的设备仪表读数",
+        "singular": "检查表之后的设备计量读数",
+        "plural": "",
         "setupEdit": false,
         "setupVisible": false
       }
@@ -2776,7 +2790,9 @@
       "forIncompleteChecklists": "对于将来更新的不完整清单。使用此状态不会触发任何工作或任务",
       "thisStatusWillTrigger": "此状态将触发与此清单答案相关的任何工作订单和任务",
       "updateStatusTo": "更新状态为",
-      "noStatusToDisplay": "无状态显示"
+      "noStatusToDisplay": "无状态显示",
+      "updateChecklistStatus":"更新核对表状态",
+      "updateAsset":"更新资产"
     }
   },
   "journey": {
@@ -2813,7 +2829,19 @@
       "thisTaskCanNotBeDeletedBecauseJourneyIsRunning": "任务无法删除，因为旅程正在运行",
       "journeyAlreadyRunningForAnotherTask": "另一个任务的旅程已经在运行",
       "endJourney": "结束旅程",
-      "resolvingLocation": "解析位置"
+      "resolvingLocation": "解析位置",
+      "readyToCheckIn": "准备办理入住？",
+      "readyToCheckOut": "准备办理退房？",
+      "startNow": "立即开始",
+      "onGoingJourney": "正在进行的旅程",
+      "resumeJourney": "继续旅程",
+      "timeElapsed": "已用时间",
+      "paused": "已暂停",
+      "later": "稍后",
+      "actions": "操作",
+      "confirmYourArrivalToBeginThisTask": "确认您的到达以开始此任务。",
+      "journeyComplete": "旅程完成",
+      "wouldYouLikeToCheckInToYourTask": "您想要签到您的任务吗？"
     },
     "validationBE": {
       "routeIdTaskIdNotFound": "未找到RouteId或TaskId",
@@ -3164,7 +3192,8 @@
       "newProductType": "新备件类型",
       "subTotal": "小计",
       "totalAmount": "总金额",
-      "deleteTaskTemplateRemoveSpareParts":"删除此任务模板将同时移除所有相关的备件"
+      "deleteTaskTemplateRemoveSpareParts":"删除此任务模板将同时移除所有相关的备件",
+       "groupByTask": "按任务分组"
     }
   },
   "task": {
@@ -4213,6 +4242,20 @@
         "setupEdit": false,
         "setupVisible": false
       },
+      "totalDistance": {
+        "original": "Total Distance",
+        "singular": "总距离",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "totalTime": {
+        "original": "Total Time",
+        "singular": "总时间",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
       "totalTimeSpent": {
         "original": "Total Time Spent",
         "singular": "总耗时",
@@ -4628,6 +4671,7 @@
       "doYouWantToCompleteTake5Form": "您要完成Take 5表格吗？",
       "pleaseCompleteJMPBeforeProceeding": "请在进行任务之前完成JMP",
       "thisTaskIsAlreadyStartingJourney": "此任务已从另一设备开始",
+      "anotherJourneyIsInProgress": "另一次旅程正在进行中。请完成之前的旅程再开始新的旅程。",
       "unableToResolveTaskLocation": "无法解析任务位置坐标。请更新位置",
       "ownerChangedForTheTaskSuccessfully": "任务所有者成功更改。",
       "userAddedToTheTaskSuccessfully": "用户成功添加到任务。",
@@ -4672,7 +4716,13 @@
       "homeAddrNotSet": "未设置家庭地址",
       "officeAddrNotSet": "未设置办公地址",
       "selectOwner": "请至少选择1个所有者",
-      "maxUsersTask": "一个任务最多允许5个用户"
+      "maxUsersTask": "一个任务最多允许5个用户",
+      "additionalMembers": "附加成员",
+      "removeMember": "移除成员",
+      "areYouSureWantToRemoveMember": "您确定要移除该成员吗？",
+      "changeOwner": "更改所有者",
+      "areYouSureWantToMakeOwner": "您确定要更改所有者吗？",
+      "generateJobOrderForThisTask": "将为此任务生成工作单"
     }
   },
   "site": {
@@ -6341,10 +6391,38 @@
         "setupEdit": false,
         "setupVisible": false
       },
+      "branchSignOff": {
+        "original": "Branch Sign Off",
+        "singular": "分行签核",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
       "assetUnderWarranty": {
         "original": "Asset Under Warranty",
         "singular": "保修资产",
         "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "underWarranty": {
+        "original": "Under warranty",
+        "singular": "保修期内",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "notUnderWarranty": {
+        "original": "Not under warranty",
+        "singular": "不在保修期内",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "assetWarranty": {
+        "original": "Asset Warranty",
+        "singular": "资产担保",
+        "plural": "资产担保",
         "setupEdit": false,
         "setupVisible": false
       },
@@ -6358,6 +6436,20 @@
       "cableCondition": {
         "original": "Cable Condition",
         "singular": "电缆状况",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "nameOfSurvey": {
+        "original": "Name of survey",
+        "singular": "调查名称",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "surveyResponseReceivedAt": {
+        "original": "Survey response received at",
+        "singular": "调查回复于",
         "plural": "",
         "setupEdit": false,
         "setupVisible": false
@@ -7062,6 +7154,13 @@
         "setupEdit": false,
         "setupVisible": false
       },
+      "nameAndIDNumber": {
+        "original": "Name and ID Number",
+        "singular": "姓名和身份证号码",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
       "note": {
         "original": "Note",
         "singular": "注释",
@@ -7573,6 +7672,13 @@
         "setupEdit": false,
         "setupVisible": false
       },
+      "latestSent": {
+        "original": "Latest Sent At",
+        "singular": "Latest Sent At",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
       "surveySentFrom": {
         "original": "Survey Sent From",
         "singular": "调查发送自",
@@ -7874,6 +7980,13 @@
         "setupEdit": false,
         "setupVisible": false
       },
+      "openingDays": {
+        "original": "Opening Days",
+        "singular": "开放日",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
       "physicalDamage": {
         "original": "Physical Damage to hills installed application?",
         "singular": "安装应用程序时有物理损坏吗？",
@@ -8134,8 +8247,8 @@
         "setupVisible": false
       },
       "uploadAttachment": {
-        "original": "Upload",
-        "singular": "上传",
+        "original": "上传附件",
+        "singular": "上传附件",
         "plural": "",
         "setupEdit": false,
         "setupVisible": false
@@ -8178,6 +8291,13 @@
       "icPassportNo": {
         "original": "IC/Passport No",
         "singular": "身份证/护照号",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "idNumber": {
+        "original": "ID Number",
+        "singular": "身份证号码",
         "plural": "",
         "setupEdit": false,
         "setupVisible": false
@@ -8316,8 +8436,8 @@
         "setupVisible": false
       },
       "orderDateTime": {
-        "original": "Order Date & Time",
-        "singular": "订单日期和时间",
+        "original": "Date & Time",
+        "singular": "日期 & 主题",
         "plural": "",
         "setupEdit": false,
         "setupVisible": false
@@ -8623,7 +8743,13 @@
       "startSLA": "启动SLA",
       "removeSparePartsLinkedTask":"您是否要从工单中移除与此任务关联的所有备件？",
       "listOfTask":"任务列表",
-      "listOfSparePart":"备件列表"
+      "listOfSparePart":"备件列表",
+      "changeStatusTo": "更改状态为",
+      "identification": "身份識別",
+      "signOff": "登出",
+      "photoUpload": "上傳照片",
+      "viewPdf": "查看PDF",
+      "emailPdf": "发送PDF邮件"
     }
   },
   "inventory": {
@@ -9044,7 +9170,10 @@
       "availableOtherLocations": "在其他位置可用",
       "sameProductBinTransferNotAllowed": "您不允许在仓库转移中选择相同的备件",
       "sameProductBinNotAllowed": "您不允许在仓库中选择相同的备件",
-      "sameAssetBinNotAllowed": "您不允许在仓库中选择相同的资产"
+      "sameAssetBinNotAllowed": "您不允许在仓库中选择相同的资产",
+        "utilizeFromBin": "从箱子中使用",
+        "utilizeSpareParts": "使用备件",
+        "transferFrom": "从"
     }
   },
   "bin": {
@@ -9376,6 +9505,13 @@
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
+      },
+      "sec15": {
+        "original": "Additional Details",
+        "singular": "附加详情",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
       }
     },
     "fields": {
@@ -9443,9 +9579,23 @@
         "setupEdit": true,
         "setupVisible": true
       },
+      "available": {
+        "original": "Available",
+        "singular": "可用",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
       "qtyTransfer": {
         "original": "Quantity to Transfer",
         "singular": "转移数量",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "quantity": {
+        "original": "Quantity",
+        "singular": "数量",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
@@ -9517,6 +9667,27 @@
         "original": "Remark",
         "singular": "备注",
         "plural": "备注",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "mine": {
+        "original": "Mine",
+        "singular": "我的",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "user": {
+        "original": "User",
+        "singular": "用户",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "location": {
+        "original": "Location",
+        "singular": "位置",
+        "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
@@ -9598,9 +9769,9 @@
   "checkAvailibility": {
     "setupVisible": false,
     "label": {
-      "original": "Check availability",
-      "singular": "检查可用性",
-      "plural": "检查可用性",
+      "original": "Locate",
+      "singular": "定位",
+      "plural": "定位",
       "setupEdit": true,
       "setupVisible": true
     },
@@ -9632,6 +9803,20 @@
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
+      },
+      "sec4": {
+        "original": "Select what to check",
+        "singular": "选择要检查的内容",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      }, 
+      "sec5": {
+          "original": "Select where to check",
+          "singular": "选择要检查的位置",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
       }
     },
     "fields": {
@@ -9673,6 +9858,48 @@
       "bin": {
         "original": "Bin",
         "singular": "仓",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "type": {
+        "original": "Type",
+        "singular": "类型",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "family": {
+        "original": "Family",
+        "singular": "系列",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "user": {
+        "original": "User",
+        "singular": "用户",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "category": {
+        "original": "Category",
+        "singular": "类别",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "subCategory": {
+        "original": "Sub-category",
+        "singular": "子类别",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "status": {
+        "original": "Status",
+        "singular": "状态",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
@@ -10326,6 +10553,20 @@
         "setupEdit": true,
         "setupVisible": true
       },
+      "salutation": {
+        "original": "Salutation",
+        "singular": "姓名和称呼",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "name": {
+        "original": "Name",
+        "singular": "姓名",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
       "email": {
         "original": "Email",
         "singular": "电子邮件",
@@ -10829,9 +11070,9 @@
         "setupVisible": false
       },
       "sec3": {
-        "original": "Profile Settings",
-        "singular": "个人设置",
-        "plural": "个人设置",
+        "original": "Account Settings",
+        "singular": "账户设置",
+        "plural": "账户设置",
         "setupEdit": true,
         "setupVisible": false
       },
@@ -10839,6 +11080,20 @@
         "original": "Languages",
         "singular": "语言",
         "plural": "语言",
+        "setupEdit": true,
+        "setupVisible": false
+      },
+      "sec5": {
+        "original": "Regional Settings",
+        "singular": "区域设置",
+        "plural": "区域设置",
+        "setupEdit": true,
+        "setupVisible": false
+      },
+      "sec6": {
+        "original": "AI Suggestions",
+        "singular": "AI建议",
+        "plural": "AI建议",
         "setupEdit": true,
         "setupVisible": false
       }
@@ -10872,6 +11127,13 @@
         "plural": "个人设置",
         "setupEdit": true,
         "setupVisible": false
+      },
+      "passwordSettings": {
+          "original": "Password Settings",
+          "singular": "密码设置",
+          "plural": "密码设置",
+          "setupEdit": true,
+          "setupVisible": false
       },
       "languages": {
         "original": "Languages",
@@ -11020,7 +11282,7 @@
       "filter": {
         "original": "Filter",
         "singular": "筛选",
-        "plural": "",
+        "plural": "过滤器",
         "setupEdit": true,
         "setupVisible": false
       },
@@ -11132,7 +11394,7 @@
       "transfer": {
         "original": "Transfer",
         "singular": "转移",
-        "plural": "",
+        "plural": "转账",
         "setupEdit": true,
         "setupVisible": true
       },
@@ -11823,7 +12085,7 @@
         "setupVisible": false
       },
       "email": {
-        "original": "EMAIL",
+        "original": "Email",
         "singular": "电子邮件",
         "plural": "",
         "setupEdit": true,
@@ -12046,6 +12308,20 @@
         "setupEdit": true,
         "setupVisible": true
       },
+      "iAccept": {
+        "original": "I accept",
+        "singular": "我接受",
+        "plural": "我接受",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "seeMore": {
+        "original": "See more",
+        "singular": "查看更多",
+        "plural": "查看更多",
+        "setupEdit": true,
+        "setupVisible": true
+      },
       "confirm": {
         "original": "Confirm",
         "singular": "确认",
@@ -12253,10 +12529,10 @@
         "setupVisible": false
       },
       "breakDown": {
-        "original": "Break Down",
+        "original": "Breakdown",
         "singular": "故障",
         "plural": "",
-        "setupEdit": true,
+        "setupEdit": false,
         "setupVisible": false
       },
       "breakdown": {
@@ -12679,6 +12955,41 @@
         "setupEdit": false,
         "setupVisible": false
       },
+      "followUp": {
+        "original": "Follow Up",
+        "singular": "跟进",
+        "plural": "跟进",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "maintenance": {
+        "original": "Maintenance",
+        "singular": "维护",
+        "plural": "维护项",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "booked": {
+        "original": "Booked",
+        "singular": "已预订",
+        "plural": "预订项",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "disposed": {
+        "original": "Disposed",
+        "singular": "已处理",
+        "plural": "处理项",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "other": {
+        "original": "Other",
+        "singular": "其他",
+        "plural": "其他",
+        "setupEdit": false,
+        "setupVisible": false
+      },
       "messages": {
         "forIncompleteChecklists": "未来将更新未完成的清单。不会使用此状态触发任何工作或任务",
         "thisStatusWillTriggerAnyJobOrders": "此状态将触发与该清单答案相关的任何工作订单和任务",
@@ -12857,7 +13168,26 @@
       "errorOccuredWhileSigning": "签名时发生错误",
       "noDocumentIsGenerated": "未生成文档",
       "pullToRefreshToSeeTheCompletion": "下拉刷新以查看完成情况",
-      "phoneNumberNotAvailable": "电话号码不可用"
+      "phoneNumberNotAvailable": "电话号码不可用",
+      "noMatchesFound": "未找到匹配项。尝试调整您的搜索条件。",
+      "noHistoryAvailable": "没有可用的历史记录。您的活动将在这里显示。",
+      "noAttachmentsFoundUploadFiles": "未找到附件。上传文件以在此查看。",
+      "nothingToApprove": "没有需要审批的内容。所有项目都已更新。",
+      "noRecordsAvailable": "没有可用记录。",
+      "noMessagesYet": "还没有消息。开始对话以在此查看您的消息。",
+      "noNotificationsYet": "还没有通知。您已经掌握最新动态！",
+      "noFormsAvailable": "没有可用表单。",
+      "currentLanguage": "当前语言",
+      "allLanguages": "所有语言",
+      "itemNotFound": "未找到项目",
+      "selectSearchCategory": "选择搜索类别",
+      "selectWhatToCreate": "选择要创建的内容",
+      "selectWhatToScan": "选择要扫描的内容",
+      "partAvailability": "零件可用性",
+      "was": "是",
+      "wasChangedFrom": "更改自",
+      "wasChangedTo": "更改为",
+      "selectDateRange": "选择日期范围"
     },
     "currency": {
       "australianDollar": "AUD",
@@ -13104,6 +13434,13 @@
           "plural": "",
           "setupEdit": true,
           "setupVisible": false
+        },
+        "date": {
+          "original": "Date",
+          "singular": "日期",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
         }
       }
     },
@@ -13111,6 +13448,8 @@
       "invalid": "无效",
       "invalidEmail": "无效的电子邮件",
       "invalidEmailFormat": "电子邮件格式无效",
+      "invalidPhoneFormat": "无效的电话号码格式",     
+      "phoneMinEightDigits": "电话号码必须至少有8位数字",       
       "invalidFax": "无效的传真号码",
       "invalidFaxFormat": "传真格式无效",
       "invalidPhoneNumber": "无效的电话号码",
@@ -13123,7 +13462,8 @@
       "onlyAlphabetsAllowed": "仅允许字母",
       "required": "必填",
       "requiredField": "必填字段",
-      "pleaseSignBeforeProceed": "请签名后继续",
+      "pleaseSignBeforeProceed": "请在继续之前签名",
+      "pleaseSignBeforeProceeding": "请在继续之前签名",
       "charactersExceed": "文本超过字符限制（255）。",
       "endDateThanStartDate": "结束日期必须在开始日期之后"
     },
@@ -19487,7 +19827,7 @@
         "configNotificationOrganiation": "配置您希望您的组织看到的通知。",
         "notificationAllow": "通知允许您在FieldEx中通过应用内和电子邮件通知用户特定的活动，如更新和请求。选择下方模块以配置适合您流程的通知。",
         "notificationsAreAlerts": "通知是使您随时了解FieldEx中特定活动的提醒。您可以通过单击“编辑”并选择或取消选择以下复选框，将这些配置为通过您的首选媒介发送给您。",
-        "markAsRead": "标记为已读",
+        "markAsRead": "标记所有为已读",
         "noMessageToDisplay": "没有要显示的信息",
         "changesUpdatedAllModified": "更改将更新所有已修改的通知"
       }
@@ -22078,7 +22418,8 @@
       "locationPermission": "位置权限：",
       "fileStoragePermission": "文件/存储权限：",
       "cameraPermission": "相机权限：",
-      "phonePermission": "电话权限："
+      "phonePermission": "电话权限：",
+      "appPermissions": "应用权限"       
     }
   },
   "message": {
@@ -22153,6 +22494,13 @@
       "sec2": {
         "original": "Security",
         "singular": "安全",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": false
+      },
+      "sec3": {
+        "original": "Password & Security",
+        "singular": "密码和安全",
         "plural": "",
         "setupEdit": true,
         "setupVisible": false
@@ -22272,7 +22620,12 @@
       "confirmChangePassword": "您确定要更改密码吗？",
       "addYourHomeAddress": "添加您的家庭地址",
       "addYourOfficeAddress": "添加您的办公室地址",
-      "passwordUpdatedSuccessfully": "密码更新成功"
+      "passwordUpdatedSuccessfully": "密码更新成功",
+      "personalInformation": "个人信息",
+      "dailyJobOrderSummary": "每日工单摘要",
+      "sparePartRecommendations": "备件推荐",
+      "resolutionSuggestions": "解决建议"
+
     },
     "validationsFE": {
       "currentPasswordIsRequired": "当前密码是必需的",
@@ -22791,8 +23144,10 @@
     },
     "messages": {
       "pendingJobOrders": "处理中工单",
+      "pendingWorkOrders": "待处理工单",
       "todaysTasks": "今日的任务",
       "tasksToAcceptDecline": "接受/拒绝的任务",
+      "toAccept" : "接受",
       "assignedTasks": "分配的任务",
       "journeyPlanManagement": "行程计划管理",
       "CreateTask": "创建任务!",
