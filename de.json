@@ -12514,6 +12514,13 @@
         "setupEdit": true,
         "setupVisible": false
       },
+      "breakDown": {
+        "original": "Breakdown",
+        "singular": "Defekt",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
       "breakdown": {
         "original": "Breakdown",
         "singular": "Störung",
