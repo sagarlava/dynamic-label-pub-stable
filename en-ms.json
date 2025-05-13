@@ -2708,7 +2708,9 @@
       "forIncompleteChecklists":"For incomplete checklists to be updated in the future. No Jobs or Tasks will be triggered using this status",
       "thisStatusWillTrigger":"This status will trigger any Job Orders and Tasks related to this checklist’s answers",
       "updateStatusTo":"Update Status To",
-      "noStatusToDisplay":"No Status to Display"
+      "noStatusToDisplay":"No Status to Display",
+      "updateChecklistStatus":"Update Checklist Status",
+      "updateAsset":"Update Machine"
     }
   },
   "journey": {
@@ -4634,7 +4636,8 @@
       "areYouSureWantToRemoveMember":"Are you sure you want to remove the member?",
       "changeOwner":"Change Owner",
       "areYouSureWantToMakeOwner":"Are you sure you want to change the owner?",
-      "generateJobOrderForThisTask":" A Job order will be generated for this task"
+      "generateJobOrderForThisTask":" A Job order will be generated for this task",
+      "selectDateRange": "Select a date range"
     }
   },
   "site": {
@@ -8668,7 +8671,7 @@
       "changeStatusTo": "Change status to",
       "identification" : "Identification",
       "signOff" : "Sign off",
-      "photoUplaod": "Photo Upload",
+      "photoUpload": "Photo Upload",
       "viewPdf" : "View Pdf",
       "emailPdf" : "Email Pdf"
     }
@@ -8899,6 +8902,13 @@
         "plural": "",
           "setupEdit": false,
           "setupVisible": false
+      },
+      "quantity": {
+        "original": "Quantity",
+        "singular": "Menge",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
       },
       "reorderPoint": {
         "original": "Reorder Point",
@@ -9493,6 +9503,14 @@
         "setupEdit": true,
         "setupVisible": true
       },
+     
+      "available": {
+        "original": "Available",
+        "singular": "Available",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
       "qtyTransfer": {
         "original": "Quantity to Transfer",
         "singular": "Quantity to Transfer",
@@ -9500,6 +9518,14 @@
         "setupEdit": true,
         "setupVisible": true
       },
+      "quantity": {
+        "original": "Quantity",
+        "singular": "Quantity",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+
       "transferNo": {
         "original": "Transfer No.",
         "singular": "Transfer No.",
@@ -22588,7 +22614,9 @@
         }
       },
       "messages": {
-        "searchJobOrders" : "Search Job Orders"
+        "searchJobOrders" : "Search Job Orders",
+        "viewPdf": "View PDF",
+        "emailPdf": "Email PDF"
       }
     },
     "national": {

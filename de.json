@@ -2717,7 +2717,6 @@
         "setupEdit": true,
         "setupVisible": false
       },
-      
       "assetStatusBeforeChecklist": {
         "original": "Asset status before checklist",
         "singular": "Anlagenstatus vor der Checkliste",
@@ -2789,7 +2788,9 @@
       "forIncompleteChecklists": "Für unvollständige Prüflisten, die in Zukunft aktualisiert werden. Keine Aufträge oder Aufgaben werden mit diesem Status ausgelöst",
       "thisStatusWillTrigger": "Dieser Status löst alle Arbeitsaufträge und Aufgaben aus, die mit den Antworten dieser Prüfliste zusammenhängen",
       "updateStatusTo": "Status aktualisieren zu",
-      "noStatusToDisplay": "Kein Status zum Anzeigen"
+      "noStatusToDisplay": "Kein Status zum Anzeigen",
+      "updateChecklistStatus":"Status der Prüfliste aktualisieren",
+      "updateAsset":"Asset aktualisieren"
     }
   },
   "journey": {
@@ -4719,7 +4720,8 @@
       "areYouSureWantToRemoveMember": "Sind Sie sicher, dass Sie das Mitglied entfernen möchten?",
       "changeOwner": "Eigentümer ändern",
       "areYouSureWantToMakeOwner": "Sind Sie sicher, dass Sie den Eigentümer ändern möchten?",
-      "generateJobOrderForThisTask": "Ein Arbeitsauftrag wird für diese Aufgabe erstellt"
+      "generateJobOrderForThisTask": "Ein Arbeitsauftrag wird für diese Aufgabe erstellt",
+      "selectDateRange": "Bitte wählen Sie einen Datumsbereich aus"
     }
   },
   "site": {
@@ -8891,16 +8893,14 @@
         "plural": "",
         "setupEdit": false,
         "setupVisible": false
-      },
- 
+      }, 
      "available": {
          "original": "Available",
          "singular": "Verfügbar",
          "plural": "",
          "setupEdit": false,
          "setupVisible": false
-       },
-     
+       },     
      "qtyIn": {
         "original": "Quantity In",
         "singular": "Zugegangene Menge",
@@ -8970,8 +8970,7 @@
         "plural": "",
         "setupEdit": false,
         "setupVisible": false
-      },
-     
+      },     
      "qtyTransfer": {
         "original": "Quantity to Transfer",
         "singular": "Übertragene Menge",
@@ -9589,6 +9588,21 @@
       "qtyTransfer": {
         "original": "Quantity to Transfer",
         "singular": "Menge zu übertragen",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "available": {
+        "original": "Available",
+        "singular": "Available",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      
+      "quantity": {
+        "original": "Quantity",
+        "singular": "Quantity",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
@@ -11118,6 +11132,13 @@
         "original": "Profile Settings",
         "singular": "Profileinstellung",
         "plural": "Profileinstellungen",
+        "setupEdit": true,
+        "setupVisible": false
+      },
+      "passwordSettings": {
+        "original": "Password Settings",
+        "singular": "Passworteinstellung",
+        "plural": "Passworteinstellungen",
         "setupEdit": true,
         "setupVisible": false
       },
@@ -13174,7 +13195,6 @@
       "wasChangedFrom": "wurde geändert von",
       "wasChangedTo": "wurde geändert zu",
       "selectDateRange": "Datumsbereich auswählen"
-
     },
     "currency": {
       "australianDollar": "AUD",
@@ -23333,7 +23353,9 @@
         }
       },
       "messages": {
-        "searchJobOrders": "Auftragsanforderungen suchen"
+        "searchJobOrders": "Auftragsanforderungen suchen",
+        "viewPdf": "PDF anzeigen",
+        "emailPdf": "PDF per E-Mail"
       }
     },
     "national": {

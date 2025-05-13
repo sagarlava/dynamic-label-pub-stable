@@ -975,7 +975,6 @@
     "validationFE": {
       "warrantyEndDateMustBeGreater": "保修结束日期必须晚于开始日期。",
       "warrantyStartDateMustBeEarlier": "保修开始日期应早于结束日期。"
-
     },
     "validationBE": {
       "assetIdNotFound": "未找到 ID",
@@ -2718,7 +2717,6 @@
         "setupEdit": true,
         "setupVisible": false
       },
-      
       "assetStatusBeforeChecklist": {
         "original": "Asset status before checklist",
         "singular": "检查表之前的资产状态",
@@ -4722,7 +4720,8 @@
       "areYouSureWantToRemoveMember": "您确定要移除该成员吗？",
       "changeOwner": "更改所有者",
       "areYouSureWantToMakeOwner": "您确定要更改所有者吗？",
-      "generateJobOrderForThisTask": "将为此任务生成工作单"
+      "generateJobOrderForThisTask": "将为此任务生成工作单",
+      "selectDateRange": "请选择日期范围"
     }
   },
   "site": {
@@ -8979,6 +8978,13 @@
         "setupEdit": false,
         "setupVisible": false
       },
+      "quantity": {
+        "original": "Quantity",
+        "singular": "数量",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
       "reorderPoint": {
         "original": "Reorder Point",
         "singular": "重新订购点",
@@ -9171,9 +9177,9 @@
       "sameProductBinTransferNotAllowed": "您不允许在仓库转移中选择相同的备件",
       "sameProductBinNotAllowed": "您不允许在仓库中选择相同的备件",
       "sameAssetBinNotAllowed": "您不允许在仓库中选择相同的资产",
-        "utilizeFromBin": "从箱子中使用",
-        "utilizeSpareParts": "使用备件",
-        "transferFrom": "从"
+      "utilizeFromBin": "从箱子中使用",
+      "utilizeSpareParts": "使用备件",
+      "transferFrom": "从"
     }
   },
   "bin": {
@@ -23347,7 +23353,9 @@
         }
       },
       "messages": {
-        "searchJobOrders": "搜索工作订单"
+        "searchJobOrders": "搜索工作订单",
+        "viewPdf": "查看PDF",
+        "emailPdf": "电子邮件PDF"
       }
     },
     "national": {
