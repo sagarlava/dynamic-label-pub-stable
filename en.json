@@ -2716,8 +2716,7 @@
         "plural": "",
         "setupEdit": false,
         "setupVisible": false
-      },
-      
+      },      
       "assetStatusBeforeChecklist": {
         "original": "Asset status before checklist",
         "singular": "Asset status before checklist",
@@ -2746,7 +2745,6 @@
         "setupEdit": false,
         "setupVisible": false
       }
-      
     },
     "validationFE": {},
     "validationBE": {
@@ -4724,7 +4722,6 @@
       "areYouSureWantToMakeOwner":"Are you sure you want to change the owner?",
       "generateJobOrderForThisTask":" A Job order will be generated for this task",
       "selectDateRange": "Please select a date range"
-
     }
   },
   "site": {
@@ -8983,7 +8980,7 @@
       },
       "quantity": {
         "original": "Quantity",
-        "singular": "Menge",
+        "singular": "Quantity",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true

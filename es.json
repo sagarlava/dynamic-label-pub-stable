@@ -2717,7 +2717,6 @@
         "setupEdit": true,
         "setupVisible": false
       },
-
       "assetStatusBeforeChecklist": {
         "original": "Asset status before checklist",
         "singular": "Estado del activo antes de la lista de verificación",
@@ -8747,7 +8746,9 @@
       "changeStatusTo": "Cambiar estado a",
       "identification": "Identificación",
       "signOff": "Cerrar sesión",
-      "photoUpload": "Subir foto"
+      "photoUpload": "Subir foto",
+      "viewPdf": "Ver PDF",
+      "emailPdf": "Enviar PDF por correo"
     }
   },
   "inventory": {
@@ -8970,7 +8971,6 @@
         "setupEdit": false,
         "setupVisible": false
       },
-      
       "qtyTransfer": {
         "original": "Quantity to Transfer",
         "singular": "Cantidad a Transferir",
@@ -9585,7 +9585,6 @@
         "setupEdit": true,
         "setupVisible": true
       },
-     
       "available": {
         "original": "Available",
         "singular": "Available",
@@ -9593,7 +9592,6 @@
         "setupEdit": true,
         "setupVisible": true
       },
-
       "qtyTransfer": {
         "original": "Quantity to Transfer",
         "singular": "Cantidad a Transferir",
@@ -9601,7 +9599,6 @@
         "setupEdit": true,
         "setupVisible": true
       },
-      
       "quantity": {
         "original": "Quantity",
         "singular": "Quantity",
@@ -9609,7 +9606,6 @@
         "setupEdit": true,
         "setupVisible": true
       },
-
       "transferNo": {
         "original": "Transfer No.",
         "singular": "N° de Transferencia",
@@ -13198,8 +13194,6 @@
       "wasChangedFrom": "se cambió de",
       "wasChangedTo": "se cambió a",
       "selectDateRange": "Seleccionar rango de fechas"
-
-
     },
     "currency": {
       "australianDollar": "AUD",

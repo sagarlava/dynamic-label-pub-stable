@@ -2717,7 +2717,6 @@
         "setupEdit": true,
         "setupVisible": false
       },
-     
       "assetStatusBeforeChecklist": {
         "original": "Asset status before checklist",
         "singular": "Status aset sebelum senarai semak",
@@ -4721,7 +4720,8 @@
       "areYouSureWantToRemoveMember": "Adakah anda pasti mahu mengeluarkan ahli?",
       "changeOwner": "Tukar pemilik",
       "areYouSureWantToMakeOwner": "Adakah anda pasti mahu menukar pemilik?",
-      "generateJobOrderForThisTask": "Pesanan kerja akan dijana untuk tugas ini"
+      "generateJobOrderForThisTask": "Pesanan kerja akan dijana untuk tugas ini",
+      "selectDateRange": "Pilih Julat Tarikh"
     }
   },
   "site": {
@@ -6467,7 +6467,6 @@
         "setupEdit": false,
         "setupVisible": false
       },
-  
     "nameOfSurvey": {
         "original": "Name of survey",
         "singular": "Nama tinjauan",
@@ -6482,7 +6481,6 @@
         "setupEdit": false,
         "setupVisible": false
       },
-      
       "calendlyLinkSentTo": {
         "original": "Calendly link sent to",
         "singular": "Pautan Calendly dihantar ke",
@@ -9601,7 +9599,6 @@
         "setupEdit": true,
         "setupVisible": true
       },
-      
       "quantity": {
         "original": "Quantity",
         "singular": "Kuantiti",
@@ -9609,7 +9606,6 @@
         "setupEdit": true,
         "setupVisible": true
       },
-
       "transferNo": {
         "original": "Transfer No.",
         "singular": "No. Pemindahan",
@@ -9617,7 +9613,6 @@
         "setupEdit": true,
         "setupVisible": true
       },
-      
       "date": {
         "original": "Date",
         "singular": "Tarikh",
@@ -13199,7 +13194,6 @@
       "wasChangedFrom": "telah diubah daripada",
       "wasChangedTo": "telah diubah kepada",
       "selectDateRange": "Pilih Julat Tarikh"
-
     },
     "currency": {
       "australianDollar": "AUD",

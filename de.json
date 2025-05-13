@@ -2717,7 +2717,6 @@
         "setupEdit": true,
         "setupVisible": false
       },
-      
       "assetStatusBeforeChecklist": {
         "original": "Asset status before checklist",
         "singular": "Anlagenstatus vor der Checkliste",
@@ -8894,16 +8893,14 @@
         "plural": "",
         "setupEdit": false,
         "setupVisible": false
-      },
- 
+      }, 
      "available": {
          "original": "Available",
          "singular": "Verfügbar",
          "plural": "",
          "setupEdit": false,
          "setupVisible": false
-       },
-     
+       },     
      "qtyIn": {
         "original": "Quantity In",
         "singular": "Zugegangene Menge",
@@ -8973,8 +8970,7 @@
         "plural": "",
         "setupEdit": false,
         "setupVisible": false
-      },
-     
+      },     
      "qtyTransfer": {
         "original": "Quantity to Transfer",
         "singular": "Übertragene Menge",
@@ -13199,7 +13195,6 @@
       "wasChangedFrom": "wurde geändert von",
       "wasChangedTo": "wurde geändert zu",
       "selectDateRange": "Datumsbereich auswählen"
-
     },
     "currency": {
       "australianDollar": "AUD",
