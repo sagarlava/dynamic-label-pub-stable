@@ -1,0 +1,130 @@
+db.dynamic_label_setup.updateMany(
+{"module": "customer", "language": "en" },
+{$set: {"setup.sections.sec1.original": "Contact Details"} }
+)
+
+db.dynamic_label_setup.updateMany(
+{"module": "checklist", "language": "en" },
+{$set: {"setup.fields.assetStatusBeforeChecklist.singular": "Asset status before checklist"} }
+)
+
+db.dynamic_label_setup.updateMany(
+{"module": "checklist", "language": "en" },
+{$set: {"setup.fields.assetStatusBeforeChecklist.plural": ""} }
+)
+
+db.dynamic_label_setup.updateMany(
+{"module": "checklist", "language": "en" },
+{$set: {"setup.fields.assetStatusAfterChecklist.plural": ""} }
+)
+
+db.dynamic_label_setup.updateMany(
+{"module": "checklist", "language": "en" },
+{$set: {"setup.fields.equipmentMeterReadingBeforeChecklist.plural": ""} }
+)
+
+db.dynamic_label_setup.updateMany(
+{"module": "checklist", "language": "en" },
+{$set: {"setup.fields.equipmentMeterReadingAfterChecklist.plural": ""} }
+)
+
+
+db.dynamic_label_setup.updateMany(
+{"module": "jobOrder", "language": "en" },
+{$set: {"setup.fields.orderDateTime.original": "Date & Time"} }
+)
+
+db.dynamic_label_setup.updateMany(
+{"module": "jobOrder", "language": "en" },
+{$set: {"setup.fields.orderDateTime.singular": "Date & Time"} }
+)
+
+
+db.dynamic_label_setup.updateMany(
+{"module": "jobOrder", "language": "en" },
+{$set: {"setup.fields.uploadAttachment.original": "Upload Attachment"} }
+)
+
+db.dynamic_label_setup.updateMany(
+{"module": "jobOrder", "language": "en" },
+{$set: {"setup.fields.uploadAttachment.singular": "Upload Attachment"} }
+)
+
+db.dynamic_label_setup.updateMany(
+{"module": "checkAvailibility", "language": "en" },
+{$set: {"setup.label.original": "Locate"} }
+)
+db.dynamic_label_setup.updateMany(
+{"module": "checkAvailibility", "language": "en" },
+{$set: {"setup.label.singular": "Locate"} }
+)
+db.dynamic_label_setup.updateMany(
+{"module": "checkAvailibility", "language": "en" },
+{$set: {"setup.label.plural": "Locate"} }
+)
+
+db.dynamic_label_setup.updateMany(
+{"module": "header", "language": "en" },
+{$set: {"setup.sections.sec3.original": "Account Settings"} }
+)
+db.dynamic_label_setup.updateMany(
+{"module": "header", "language": "en" },
+{$set: {"setup.sections.sec3.singular": "Account Settings"} }
+)
+db.dynamic_label_setup.updateMany(
+{"module": "header", "language": "en" },
+{$set: {"setup.sections.sec3.plural": "Account Settings"} }
+)
+
+
+db.dynamic_label_setup.updateMany(
+{"module": "general", "language": "en" },
+{$set: {"setup.buttons.filter.plural": "Filter"} }
+)
+
+db.dynamic_label_setup.updateMany(
+{"module": "general", "language": "en" },
+{$set: {"setup.buttons.transfer.plural": "Transfers"} }
+)
+
+db.dynamic_label_setup.updateMany(
+{"module": "general", "language": "en" },
+{$set: {"setup.buttons.email.original": "Email"} }
+)
+
+db.dynamic_label_setup.updateMany(
+{"module": "general", "language": "en" },
+{$set: {"setup.buttons.email.singular": "Email"} }
+)
+
+db.dynamic_label_setup.updateMany(
+{"module": "general", "language": "en" },
+{$set: {"setup.status.breakDown.original": "Breakdown"} }
+)
+
+db.dynamic_label_setup.updateMany(
+{"module": "general", "language": "en" },
+{$set: {"setup.status.breakDown.singular": "Breakdown"} }
+)
+
+db.dynamic_label_setup.updateMany(
+{"module": "general", "language": "en" },
+{$set: {"setup.status.breakDown.setupEdit": false} }
+)
+
+
+
+db.dynamic_label_setup.updateMany(
+{"module": "setup", "language": "en" },
+{$set: {"setup.notifications.messages.markAsRead": "Mark all as read"} }
+)
+
+db.dynamic_label_setup.updateMany(
+{"module": "leave", "language": "en" },
+{$set: {"setup.messages.confirmLeaveAction": "Are you sure want to accept this leave?"} }
+)
+
+db.dynamic_label_setup.updateMany(
+{"module": "leave", "language": "en" },
+{$set: {"setup.messages.confirmLeaveRejectAction": "Are you sure want to reject this leave?"} }
+)
