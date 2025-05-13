@@ -12277,6 +12277,20 @@
         "setupEdit": false,
         "setupVisible": false
       },
+      "addNewResolution":{
+        "original": "Add New Resolution",
+        "singular": "Tambah Penyelesaian Baharu",
+        "plural": "Tambah Penyelesaian Baharu",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "addNewFault":{
+        "original": "Add New Fault",
+        "singular": "Tambah Ralat Baharu",
+        "plural": "Tambah Ralat Baharu",
+        "setupEdit": false,
+        "setupVisible": false
+      },
       "saveConfigurationImportAsset":{
         "original": "Save Configurations & Import Assets",
         "singular": "Simpan Konfigurasi & Import Aset",

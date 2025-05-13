@@ -12277,6 +12277,20 @@
         "setupEdit": false,
         "setupVisible": false
       },
+      "addNewResolution":{
+        "original": "Add New Resolution",
+        "singular": "添加新解决方案",
+        "plural": "添加新解决方案",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "addNewFault":{
+        "original": "Add New Fault",
+        "singular": "添加新故障",
+        "plural": "添加新故障",
+        "setupEdit": false,
+        "setupVisible": false
+      },
       "saveConfigurationImportAsset":{
         "original": "Save Configurations & Import Assets",
         "singular": "保存配置并导入资产",

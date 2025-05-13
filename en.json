@@ -12277,6 +12277,20 @@
         "setupEdit": false,
         "setupVisible": false
       },
+      "addNewResolution":{
+        "original": "Add New Resolution",
+        "singular": "Add New Resolution",
+        "plural": "Add New Resolution",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "addNewFault":{
+        "original": "Add New Fault",
+        "singular": "Add New Fault",
+        "plural": "Add New Fault",
+        "setupEdit": false,
+        "setupVisible": false
+      },
       "saveConfigurationImportAsset":{
         "original": "Save Configurations & Import Assets",
         "singular": "Save Configurations & Import Assets",
