@@ -20,8 +20,8 @@
         "setupEdit": true
       },
       "sec1": {
-        "original": "Main Contact Details",
-        "singular": "Main Contact Details",
+        "original": "Contact Details",
+        "singular": "Contact Details",
         "plural": "",
         "setupEdit": false,
         "setupVisible": false
@@ -418,7 +418,8 @@
       "selectGeofences": "Select Geofences",
       "noJobOrder": "No Job Orders yet",
       "nearestCustomers": "Nearest Customers",
-      "nearbyCustomers": "Nearby Customers"
+      "nearbyCustomers": "Nearby Customers",
+      "seeInMap": "See in map"
     }
   },
   "asset": {
@@ -985,7 +986,10 @@
         "setupVisible": false
       }
     },
-    "validationFE": {},
+    "validationFE": {
+       "warrantyEndDateMustBeGreater": "Warranty end date must be greater than the start date",
+       "warrantyStartDateMustBeEarlier": "Warranty start date should be earlier than the end date"
+    },
     "validationBE": {
       "assetIdNotFound": "Id not found",
       "assetIdExidNotFound": "Id/AssetExternalId not found",
@@ -1236,7 +1240,8 @@
       "from":"From",
       "warrantyStartDate":"Warranty start date should not be greater than warranty end date",
       "errorFetchingAllAssets": "Error fetching all assets",
-      "errorOccuredWhileFetchingAccessories": "Error occured while fetching accessories"
+      "errorOccuredWhileFetchingAccessories": "Error occured while fetching accessories",
+      "logs": "Logs"
     }
   },
   "assetLog": {
@@ -1706,6 +1711,13 @@
       "scheduleNumber": {
         "original": "Scheduled No",
         "singular": "Scheduled No",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "maintenanceNumber": {
+        "original": "Maintenance No.",
+        "singular": "Maintenance No.",
         "plural": "",
         "setupEdit": false,
         "setupVisible": false
@@ -2718,32 +2730,32 @@
         "plural": "",
         "setupEdit": false,
         "setupVisible": false
-      },
+      },      
       "assetStatusBeforeChecklist": {
         "original": "Asset status before checklist",
         "singular": "Asset status before checklist",
-        "plural": "Asset status before checklist",
+        "plural": "",
         "setupEdit": false,
         "setupVisible": false
       },
       "assetStatusAfterChecklist": {
         "original": "Asset status after checklist",
-        "singular":"Asset status after checklist",
-        "plural": "Asset status after checklist",
+        "singular": "Asset status after checklist",
+        "plural": "",
         "setupEdit": false,
         "setupVisible": false
       },
       "equipmentMeterReadingBeforeChecklist": {
         "original": "Equipment meter reading before checklist",
         "singular": "Equipment meter reading before checklist",
-        "plural": "Equipment meter reading before checklist",
+        "plural": "",
         "setupEdit": false,
         "setupVisible": false
       },
       "equipmentMeterReadingAfterChecklist": {
         "original": "Equipment meter reading after checklist",
         "singular": "Equipment meter reading after checklist",
-        "plural": "Equipment meter reading after checklist",
+        "plural": "",
         "setupEdit": false,
         "setupVisible": false
       }
@@ -2789,8 +2801,10 @@
       "updateStatus": "Update Status",
       "forIncompleteChecklists":"For incomplete checklists to be updated in the future. No Jobs or Tasks will be triggered using this status",
       "thisStatusWillTrigger":"This status will trigger any Job Orders and Tasks related to this checklist’s answers",
-      "updateStatusTo":"Update Status To",
-      "noStatusToDisplay":"No Status to Display"
+      "updateStatusTo":"Update status to",
+      "noStatusToDisplay":"No Status to Display",
+      "updateChecklistStatus":"Update Checklist Status",
+      "updateAsset":"Update Asset"
     }
   },
   "journey": {
@@ -2827,7 +2841,19 @@
       "thisTaskCanNotBeDeletedBecauseJourneyIsRunning":"'This task cant be deleted because journeey is running'",
       "journeyAlreadyRunningForAnotherTask":"Journey already running for another task",
       "endJourney":"End Journey",
-      "resolvingLocation":"Resolving Location"
+      "resolvingLocation":"Resolving Location",
+      "readyToCheckIn": "Ready to check-in?",
+      "readyToCheckOut": "Ready to check out?",
+      "startNow": "Start now",
+      "onGoingJourney": "Ongoing Journey",
+      "resumeJourney": "Resume Journey",
+      "timeElapsed": "Time elapsed",
+      "paused": "Paused",
+      "later": "Later",
+      "actions": "Actions",
+      "confirmYourArrivalToBeginThisTask": "Confirm your arrival to begin this task.",
+      "journeyComplete": "Journey Complete",
+      "wouldYouLikeToCheckInToYourTask": "Would you like to check in to your task?"
     },
     "validationBE": {
       "routeIdTaskIdNotFound": "RouteId or TaskId not found",
@@ -3178,6 +3204,7 @@
       "newProductType":"New Spare Part Type",
       "subTotal": "Sub Total",
       "totalAmount": "Total Amount",
+      "groupByTask": "Group by Task",
       "deleteTaskTemplateRemoveSpareParts":"Deleting this task template will also remove all associated spare parts"
     }
   },
@@ -4227,6 +4254,20 @@
         "setupEdit": false,
         "setupVisible": false
       },
+      "totalDistance": {
+        "original": "Total Distance",
+        "singular": "Total Distance",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "totalTime": {
+        "original": "Total Time",
+        "singular": "Total Time",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
       "totalTimeSpent": {
         "original": "Total Time Spent",
         "singular": "Total Time Spent",
@@ -4642,6 +4683,7 @@
       "doYouWantToCompleteTake5Form": "Do you want to complete Take 5 form?",
       "pleaseCompleteJMPBeforeProceeding": "Please complete JMP before proceeding to the task",
       "thisTaskIsAlreadyStartingJourney": "This task is already starting the journey from another device",
+      "anotherJourneyIsInProgress": "Another journey is currently in progress. Please complete it before starting a new one.",
       "unableToResolveTaskLocation": "Unable to resolve task location coordinates. Please update the location",
       "ownerChangedForTheTaskSuccessfully": "Owner changed for the task successfully.",
       "userAddedToTheTaskSuccessfully": "User added to task successfully.",
@@ -4686,7 +4728,14 @@
       "officeAddrNotSet": "Office Address is not set",
       "selectOwner": "Please select at least 1 owner",
       "maxUsersTask": "Maximum of 5 users in a Task is allowed",
-      "noTasksAssigned":"No Task Assigned"
+      "noTasksAssigned":"No Task Assigned",
+      "additionalMembers": "Additional Members",
+      "removeMember":"Remove Member",
+      "areYouSureWantToRemoveMember":"Are you sure you want to remove the member?",
+      "changeOwner":"Change Owner",
+      "areYouSureWantToMakeOwner":"Are you sure you want to change the owner?",
+      "generateJobOrderForThisTask":" A Job order will be generated for this task",
+      "selectDateRange": "Please select a date range"
     }
   },
   "site": {
@@ -6258,8 +6307,8 @@
       "setupVisible": true,
       "setupEdit": true,
       "orderDateTime": {
-        "original": "Order Date & Time",
-        "singular": "Order Date & Time",
+        "original": "Date & Time",
+        "singular": "Date & Time",
         "plural": "",
         "setupEdit": false,
         "setupVisible": false
@@ -6383,14 +6432,42 @@
         "setupEdit": false,
         "setupVisible": false
       },
-      "assetUnderWarranty": {
+      "branchSignOff": {
+      "original": "Branch Sign Off",
+      "singular": "Branch Sign Off",
+      "plural": "",
+      "setupEdit": false,
+      "setupVisible": false
+    },
+    "assetUnderWarranty": {
         "original": "Asset Under Warranty",
         "singular": "Asset Under Warranty",
         "plural": "",
         "setupEdit": false,
         "setupVisible": false
       },
-      "notifyCustomer": {
+      "underWarranty": {
+      "original": "Under warranty",
+      "singular": "Under warranty",
+      "plural": "",
+      "setupEdit": false,
+      "setupVisible": false
+    },
+    "notUnderWarranty": {
+      "original": "Not under warranty",
+      "singular": "Not under warranty",
+      "plural": "",
+      "setupEdit": false,
+      "setupVisible": false
+    },
+    "assetWarranty": {
+      "original": "Asset Warranty",
+      "singular": "Asset Warranty",
+      "plural": "Asset Warranty",
+      "setupEdit": false,
+      "setupVisible": false
+    },
+    "notifyCustomer": {
         "original": "Notify Customer",
         "singular": "Notify Customer",
         "plural": "",
@@ -6404,7 +6481,21 @@
         "setupEdit": false,
         "setupVisible": false
       },
-      "calendlyLinkSentTo": {
+      "nameOfSurvey": {
+      "original": "Name of survey",
+      "singular": "Name of survey",
+      "plural": "",
+      "setupEdit": false,
+      "setupVisible": false
+    },
+    "surveyResponseReceivedAt": {
+      "original": "Survey response received at",
+      "singular": "Survey response received at",
+      "plural": "",
+      "setupEdit": false,
+      "setupVisible": false
+    },
+    "calendlyLinkSentTo": {
         "original": "Calendly link sent to",
         "singular": "Calendly link sent to",
         "plural": "",
@@ -7104,7 +7195,14 @@
         "setupEdit": false,
         "setupVisible": false
       },
-      "offCode": {
+      "nameAndIDNumber": {
+      "original": "Name and ID Number",
+      "singular": "Name and ID Number",
+      "plural": "",
+      "setupEdit": false,
+      "setupVisible": false
+    },
+    "offCode": {
         "original": "Off Code",
         "singular": "Off Code",
         "plural": "",
@@ -7608,7 +7706,14 @@
         "setupEdit": false,
         "setupVisible": false
       },
-      "surveySentFrom": {
+      "latestSent": {
+      "original": "Latest Sent At",
+      "singular": "Latest Sent At",
+      "plural": "",
+      "setupEdit": false,
+      "setupVisible": false
+    },
+    "surveySentFrom": {
         "original": "Survey Sent From",
         "singular": "Survey Sent From",
         "plural": "",
@@ -7909,7 +8014,14 @@
         "setupEdit": false,
         "setupVisible": false
       },
-      "physicalDamage": {
+      "openingDays": {
+      "original": "Opening Days",
+      "singular": "Opening Days",
+      "plural": "",
+      "setupEdit": false,
+      "setupVisible": false
+    },
+    "physicalDamage": {
         "original": "Physical Damage to hills installed application?",
         "singular": "Physical Damage to hills installed application?",
         "plural": "",
@@ -8169,8 +8281,8 @@
         "setupVisible": false
       },
       "uploadAttachment": {
-        "original": "Upload",
-        "singular": "Upload",
+        "original": "Upload Attachment",
+        "singular": "Upload Attachment",
         "plural": "",
         "setupEdit": false,
         "setupVisible": false
@@ -8217,7 +8329,14 @@
         "setupEdit": false,
         "setupVisible": false
       },
-      "available": {
+      "idNumber": {
+      "original": "ID Number",
+      "singular": "ID Number",
+      "plural": "",
+      "setupEdit": false,
+      "setupVisible": false
+    },
+    "available": {
         "original": "Available",
         "singular": "Available",
         "plural": "",
@@ -8644,7 +8763,13 @@
       "startSLA":"Start SLA",
       "removeSparePartsLinkedTask":"Do you want to remove all spare parts linked to this task from the Job Order?",
       "listOfTask":"List of Task(s)",
-      "listOfSparePart":"List of Spare Part(s)"
+      "listOfSparePart":"List of Spare Part(s)",
+      "changeStatusTo": "Change status to",
+      "identification" : "Identification",
+      "signOff" : "Sign off",
+      "photoUpload": "Photo Upload",
+      "viewPdf" : "View Pdf",
+      "emailPdf" : "Email Pdf"
     }
   },
   "inventory": {
@@ -8874,6 +8999,13 @@
         "setupEdit": false,
         "setupVisible": false
       },
+      "quantity": {
+        "original": "Quantity",
+        "singular": "Quantity",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
       "reorderPoint": {
         "original": "Reorder Point",
         "singular": "Reorder Point",
@@ -9065,7 +9197,10 @@
       "availableOtherLocations":"available in other locations",
       "sameProductBinTransferNotAllowed": "You are not allowed to select the same Spare Part in a bin transfer",
       "sameProductBinNotAllowed": "You are not allowed to select the same Spare Part in a bin",
-      "sameAssetBinNotAllowed": "You are not allowed to select the same asset in a bin"
+      "sameAssetBinNotAllowed": "You are not allowed to select the same asset in a bin",
+      "utilizeFromBin" : "Utilize from Bin",
+      "utilizeSpareParts" : "Utilize Spare Parts",
+      "transferFrom": "Transfer from"
     }
   },
   "bin": {
@@ -9397,6 +9532,13 @@
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
+      }, 
+      "sec15": {
+        "original": "Additional Details",
+        "singular": "Additional Details",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
       }
     },
     "fields": {
@@ -9464,9 +9606,23 @@
         "setupEdit": true,
         "setupVisible": true
       },
+      "available": {
+        "original": "Available",
+        "singular": "Available",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
       "qtyTransfer": {
         "original": "Quantity to Transfer",
         "singular": "Quantity to Transfer",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "quantity": {
+        "original": "Quantity",
+        "singular": "Quantity",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
@@ -9538,6 +9694,27 @@
         "original": "Remark",
         "singular": "Remark",
         "plural": "Remarks",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "mine": {
+        "original": "Mine",
+        "singular": "Mine",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "user": {
+        "original": "User",
+        "singular": "User",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "location": {
+        "original": "Location",
+        "singular": "Location",
+        "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
@@ -9619,9 +9796,9 @@
   "checkAvailibility": {
     "setupVisible": false,
     "label": {
-      "original": "Check availability",
-      "singular": "Check availability",
-      "plural": "Check availability",
+      "original": "Locate",
+      "singular": "Locate",
+      "plural": "Locate",
       "setupEdit": true,
       "setupVisible": true
     },
@@ -9653,6 +9830,20 @@
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
+      },
+      "sec4": {
+        "original": "Select what to check",
+        "singular": "Select what to check",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      }, 
+      "sec5": {
+          "original": "Select where to check",
+          "singular": "Select where to check",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
       }
     },
     "fields": {
@@ -9694,6 +9885,48 @@
       "bin": {
         "original": "Bin",
         "singular": "Bin",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "type": {
+        "original": "Type",
+        "singular": "Type",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "family": {
+        "original": "Family",
+        "singular": "Family",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "user": {
+        "original": "User",
+        "singular": "User",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "category": {
+        "original": "Category",
+        "singular": "Category",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "subCategory": {
+        "original": "Sub-category",
+        "singular": "Sub-category",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "status": {
+        "original": "Status",
+        "singular": "Status",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
@@ -10347,6 +10580,20 @@
         "setupEdit": true,
         "setupVisible": true
       },
+      "salutation": {
+        "original": "Salutation",
+        "singular": "Salutation",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "name": {
+        "original": "Name",
+        "singular": "Name",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
       "email": {
         "original": "Email",
         "singular": "Email",
@@ -10850,9 +11097,9 @@
         "setupVisible": false
       },
       "sec3": {
-        "original": "Profile Settings",
-        "singular": "Profile Setting",
-        "plural": "Profile Settings",
+        "original": "Account Settings",
+        "singular": "Account Setting",
+        "plural": "Account Settings",
         "setupEdit": true,
         "setupVisible": false
       },
@@ -10860,6 +11107,20 @@
         "original": "Languages",
         "singular": "Language",
         "plural": "Languages",
+        "setupEdit": true,
+        "setupVisible": false
+      },
+      "sec5": {
+        "original": "Regional Settings",
+        "singular": "Regional Setting",
+        "plural": "Regional Settings",
+        "setupEdit": true,
+        "setupVisible": false
+      },
+      "sec6": {
+        "original": "AI Suggestions",
+        "singular": "AI Suggestion",
+        "plural": "AI Suggestions",
         "setupEdit": true,
         "setupVisible": false
       }
@@ -10891,6 +11152,13 @@
         "original": "Profile Settings",
         "singular": "Profile Setting",
         "plural": "Profile Settings",
+        "setupEdit": true,
+        "setupVisible": false
+      },
+      "passwordSettings": {
+        "original": "Password Settings",
+        "singular": "Password Setting",
+        "plural": "Password Settings",
         "setupEdit": true,
         "setupVisible": false
       },
@@ -11041,7 +11309,7 @@
       "filter": {
         "original": "Filter",
         "singular": "Filter",
-        "plural": "",
+        "plural": "Filters",
         "setupEdit": true,
         "setupVisible": false
       },
@@ -11153,7 +11421,7 @@
       "transfer": {
         "original": "Transfer",
         "singular": "Transfer",
-        "plural": "",
+        "plural": "Transfers",
         "setupEdit": true,
         "setupVisible": true
       },
@@ -11844,8 +12112,8 @@
         "setupVisible": false
       },
       "email": {
-        "original": "EMAIL",
-        "singular": "EMAIL",
+        "original": "Email",
+        "singular": "Email",
         "plural": "",
         "setupEdit": true,
         "setupVisible": false
@@ -12064,6 +12332,20 @@
         "original": "Continue",
         "singular": "Continue",
         "plural": "Continue",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "iAccept": {
+        "original": "I Accept",
+        "singular": "I Accept",
+        "plural": "I Accept",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "seeMore": {
+        "original": "See more",
+        "singular": "See more",
+        "plural": "See more",
         "setupEdit": true,
         "setupVisible": true
       },
@@ -12428,10 +12710,10 @@
         "setupVisible": false
       },
       "breakDown": {
-        "original": "Break Down",
-        "singular": "Break Down",
+        "original": "Breakdown",
+        "singular": "Breakdown",
         "plural": "",
-        "setupEdit": true,
+        "setupEdit": false,
         "setupVisible": false
       },
       "breakdown": {
@@ -12868,6 +13150,41 @@
         "setupEdit": false,
         "setupVisible": false
       },
+      "followUp": {
+        "original": "Follow Up",
+        "singular": "Follow Up",
+        "plural": "Follow Up",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "maintenance": {
+        "original": "Maintenance",
+        "singular": "Maintenance",
+        "plural": "Maintenance",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "booked": {
+        "original": "Booked",
+        "singular": "Booked",
+        "plural": "Booked",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "disposed": {
+        "original": "Disposed",
+        "singular": "Disposed",
+        "plural": "Disposed",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "other": {
+        "original": "Other",
+        "singular": "Other",
+        "plural": "Others",
+        "setupEdit": false,
+        "setupVisible": false
+      },
       "messages":{
         "forIncompleteChecklists": "For incomplete checklists to be updated in the future. No Jobs or Tasks will be triggered using this status",
         "thisStatusWillTriggerAnyJobOrders": "This status will trigger any Job Orders and Tasks related to this checklist's answers",
@@ -12909,8 +13226,8 @@
       "confirmAction": "Are you sure?",
       "confirmDelete": "Are you sure you want to delete",
       "confirmRemove": "Are you sure you want to remove",
-      "confirmDeleteThis": "Are you sure you want to delete this",
       "confirmRemoveThis": "Are you sure you want to remove this",
+      "confirmDeleteThis": "Are you sure you want to delete this",
       "doYouWishToProceed": "Do you wish to proceed?",
       "irreversibleAction": "This action is irreversible.",
       "cannotBeUndone": "This action cannot be undone.",
@@ -13046,7 +13363,26 @@
       "errorOccuredWhileSigning":"An error occured while signing",
       "noDocumentIsGenerated":"No document is generated since partial data is filled.",
       "pullToRefreshToSeeTheCompletion":"Pull to refresh to see the completion",
-      "phoneNumberNotAvailable":"Phone number not available"
+      "phoneNumberNotAvailable":"Phone number not available",
+      "noMatchesFound" : "No matches found. Try adjusting your search criteria.",
+      "noHistoryAvailable" : "No history available. Your activity will appear here.",
+      "noAttachmentsFoundUploadFiles": "No attachments found. Upload files to see them here.",
+      "nothingToApprove" : "Nothing to approve. All items are up to date.",
+      "noRecordsAvailable" : "No records available.",
+      "noMessagesYet" : "No messages yet. Start a conversation to see your messages here.",
+      "noNotificationsYet" : "No notifications yet. You’re all caught up!",
+      "noFormsAvailable" : "No forms available.",
+      "currentLanguage": "Current Language",
+      "allLanguages": "All Languages",
+      "itemNotFound": "Item not found",
+      "selectSearchCategory": "Select search category",
+      "selectWhatToCreate": "Select what to create",
+      "selectWhatToScan": "Select what to scan",
+      "partAvailability": "Part availability",
+      "was": "was",
+      "wasChangedFrom": "was changed from",
+      "wasChangedTo": "was changed to",
+      "selectDateRange": "Select Date Range"
     },
     "currency":{
       "australianDollar": "AUD",
@@ -13293,6 +13629,13 @@
           "plural": "",
           "setupEdit": true,
           "setupVisible": false
+        },
+        "date": {
+          "original": "Date",
+          "singular": "Date",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
         }
       }
     },
@@ -13300,6 +13643,8 @@
       "invalid": "Invalid",
       "invalidEmail": "Invalid Email",
       "invalidEmailFormat": "Invalid Email Format",
+      "invalidPhoneFormat": "Invalid Phone Format",
+      "phoneMinEightDigits": "Phone number must have at least 8 digits",
       "invalidFax": "Invalid Fax Number",
       "invalidFaxFormat": "Invalid Fax Format",
       "invalidPhoneNumber": "Invalid Phone Number",
@@ -13312,7 +13657,8 @@
       "onlyAlphabetsAllowed": "Only alphabets allowed",
       "required": "Required",
       "requiredField": "Required Field",
-      "pleaseSignBeforeProceed": "Please sign before proceed",
+      "pleaseSignBeforeProceed": "Please sign before proceeding",
+      "pleaseSignBeforeProceeding": "Please sign before proceeding",
       "charactersExceed": "Text exceeds character limit (255).",
       "endDateThanStartDate": "End date must be after start date"
     },
@@ -19676,7 +20022,7 @@
         "configNotificationOrganiation":"Configure the notifications you would like your organization to see.",
         "notificationAllow":"Notifications allow you to notify users about specific activities in FieldEx, such as updates and requests, both within the app and as email notifications. Select a module below to configure the notifications to suit your process.",
         "notificationsAreAlerts":"Notifications are alerts that keep you updated on specific activities within FieldEx. You can configure these to be sent to you via your preferred medium by clicking 'Edit' and selecting or unselecting the checkboxes below.",
-        "markAsRead":"Mark as Read",
+        "markAsRead":"Mark all as Read",
         "noMessageToDisplay":"No message to display",
         "changesUpdatedAllModified":"Changes will be updated for all modified notifications"
       }
@@ -22267,7 +22613,8 @@
       "locationPermission":"Location Permission:",
       "fileStoragePermission":"File/Storage Permission:",
       "cameraPermission":"Camera Permission:",
-      "phonePermission":"Phone Permission:"
+      "phonePermission":"Phone Permission:",
+      "appPermissions":"App Permissions"
     }
   },
   "message": {
@@ -22342,6 +22689,13 @@
       "sec2": {
         "original": "Security",
         "singular": "Security",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": false
+      },
+      "sec3": {
+        "original": "Password & Security",
+        "singular": "Password & Security",
         "plural": "",
         "setupEdit": true,
         "setupVisible": false
@@ -22461,7 +22815,11 @@
       "confirmChangePassword":"Are you sure you want to change your password?",
       "addYourHomeAddress":"Add your home address",
       "addYourOfficeAddress":"Add your office address",
-      "passwordUpdatedSuccessfully":"Password updated successfully"
+      "passwordUpdatedSuccessfully":"Password updated successfully",
+      "personalInformation":"Personal Information",
+      "dailyJobOrderSummary": "Daily Job Order Summary",
+      "sparePartRecommendations": "Spare Part Recommendations",
+      "resolutionSuggestions": "Resolution Suggestions"
     },
     "validationsFE":{
       "currentPasswordIsRequired":"Current Password is required",
@@ -22730,8 +23088,8 @@
       "selectUsers": "Select User(s)",
       "confirmLeaveAcceptance":"Confirm Leave Acceptance",
       "confirmLeaveDecline":"Confirm Leave Decline",
-      "confirmLeaveAction":"Are your sure want to accept this leave?",
-      "confirmLeaveRejectAction":"Are your sure want to reject this leave?",
+      "confirmLeaveAction":"Are you sure want to accept this leave?",
+      "confirmLeaveRejectAction":"Are you sure want to reject this leave?",
       "viewLeave":"View Leave",
       "leaveApprovedSuccessfully":"Leave approved successfully",
       "leaveRejectedSuccessfully":"Leave rejected successfully",
@@ -22980,8 +23338,10 @@
     },
     "messages":{
       "pendingJobOrders" : "Pending Job Orders",
+      "pendingWorkOrders" : "Pending Work Orders",
       "todaysTasks" : "Today's Tasks",
       "tasksToAcceptDecline" : "Tasks to Accept/Decline",
+      "toAccept" : "To Accept",
       "assignedTasks" : "Assigned Tasks",
       "journeyPlanManagement":"Journey Plan Management",
       "CreateTask":"Create Task!",
@@ -23181,7 +23541,9 @@
         }
       },
       "messages": {
-        "searchJobOrders" : "Search Job Orders"
+        "searchJobOrders" : "Search Job Orders",
+        "viewPdf": "View PDF",
+        "emailPdf": "Email PDF"
       }
     },
     "national": {
