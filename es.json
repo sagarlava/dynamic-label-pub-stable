@@ -3105,34 +3105,6 @@
         "plural": "Lecturas del medidor del equipo después de las listas de verificación",
         "setupEdit": false,
         "setupVisible": false
-      },
-      "assetStatusBeforeChecklist": {
-        "original": "Asset status before checklist",
-        "singular": "Estado del activo antes de la lista de verificación",
-        "plural": "",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "assetStatusAfterChecklist": {
-        "original": "Asset status after checklist",
-        "singular": "Estado del activo después de la lista de verificación",
-        "plural": "",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "equipmentMeterReadingBeforeChecklist": {
-        "original": "Equipment meter reading before checklist",
-        "singular": "Lectura del medidor del equipo antes de la lista de verificación",
-        "plural": "",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "equipmentMeterReadingAfterChecklist": {
-        "original": "Equipment meter reading after checklist",
-        "singular": "Lectura del medidor del equipo después de la lista de verificación",
-        "plural": "",
-        "setupEdit": false,
-        "setupVisible": false
       }
     },
     "validationFE": {},
@@ -4933,8 +4905,7 @@
       "userTaskIdExists": "Una nueva Tarea de Usuario no puede tener ya un ID",
       "userTaskIdNotFound": "ID no encontrado",
       "userTaskNotFound": "Tarea de Usuario no encontrada",
-      "userNotAllowedToAssignTask": "Usuario no tiene permitido agregar miembros a la tarea",
-      "taskNoteRequired": "Se requiere la nota de la tarea, pero no se ha proporcionado"
+      "userNotAllowedToAssignTask": "Usuario no tiene permitido agregar miembros a la tarea"
     },
     "tooltips": {
       "setupVisible": false,
@@ -9310,13 +9281,6 @@
         "setupEdit": false,
         "setupVisible": false
       },
-      "available": {
-        "original": "Available",
-        "singular": "Disponible",
-        "plural": "",
-        "setupEdit": false,
-        "setupVisible": false
-      },
       "qtyIn": {
         "original": "Quantity In",
         "singular": "Cantidad Entrante",
@@ -9994,13 +9958,6 @@
         "plural": "Artículos faltantes detectados",
         "setupEdit": false,
         "setupVisible": false
-        },
-        "sec15": {
-            "original": "Additional Details",
-            "singular": "Detalles Adicionales",
-            "plural": "",
-            "setupEdit": true,
-            "setupVisible": true
         }
     },
     "fields": {
@@ -10144,27 +10101,6 @@
         "plural": "Observaciones",
         "setupEdit": false,
         "setupVisible": false
-      },
-      "mine": {
-        "original": "Mine",
-        "singular": "Mío",
-        "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
-      },
-      "user": {
-        "original": "User",
-        "singular": "Usuario",
-        "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
-      },
-      "location": {
-        "original": "Location",
-        "singular": "Ubicación",
-        "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
       },
       "mine": {
         "original": "Mine",
@@ -10425,14 +10361,7 @@
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
-      },
-      "sec4": {
-        "original": "Summary of Results",
-        "singular": "Resumen de resultados",
-        "plural": "Resúmenes de resultados",
-        "setupEdit": false,
-        "setupVisible": false
-        }
+      }
     },
     "fields": {
       "choose": {

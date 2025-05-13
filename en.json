@@ -3105,36 +3105,7 @@
         "plural": "Equipment meter reading after checklist",
         "setupEdit": false,
         "setupVisible": false
-      },
-      "assetStatusBeforeChecklist": {
-        "original": "Asset status before checklist",
-        "singular": "Asset status before checklist",
-        "plural": "",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "assetStatusAfterChecklist": {
-        "original": "Asset status after checklist",
-        "singular": "Asset status after checklist",
-        "plural": "",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "equipmentMeterReadingBeforeChecklist": {
-        "original": "Equipment meter reading before checklist",
-        "singular": "Equipment meter reading before checklist",
-        "plural": "",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "equipmentMeterReadingAfterChecklist": {
-        "original": "Equipment meter reading after checklist",
-        "singular": "Equipment meter reading after checklist",
-        "plural": "",
-        "setupEdit": false,
-        "setupVisible": false
       }
-      
     },
     "validationFE": {},
     "validationBE": {
@@ -4934,8 +4905,7 @@
       "userTaskIdExists": "A new User Task cannot already have an ID",
       "userTaskIdNotFound": "Id not found",
       "userTaskNotFound": "User Task not found",
-      "userNotAllowedToAssignTask": "User not allowed to add member to the Task",
-      "taskNoteRequired": "Task note is required but not provided"
+      "userNotAllowedToAssignTask": "User not allowed to add member to the Task"
     },
     "tooltips": {
       "setupVisible": false,
@@ -9983,13 +9953,6 @@
         "plural": "Missing Items Detected",
         "setupEdit": false,
         "setupVisible": false
-      }, 
-      "sec15": {
-        "original": "Additional Details",
-        "singular": "Additional Details",
-        "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
       }
     },
     "fields": {
@@ -10064,23 +10027,9 @@
         "setupEdit": false,
         "setupVisible": false
       },
-      "available": {
-        "original": "Available",
-        "singular": "Available",
-        "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
-      },
       "qtyTransfer": {
         "original": "Quantity to Transfer",
         "singular": "Quantity to Transfer",
-        "plural": "",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "quantity": {
-        "original": "Quantity",
-        "singular": "Quantity",
         "plural": "",
         "setupEdit": false,
         "setupVisible": false
@@ -10161,27 +10110,6 @@
         "plural": "Remarks",
         "setupEdit": false,
         "setupVisible": false
-      },
-      "mine": {
-        "original": "Mine",
-        "singular": "Mine",
-        "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
-      },
-      "user": {
-        "original": "User",
-        "singular": "User",
-        "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
-      },
-      "location": {
-        "original": "Location",
-        "singular": "Location",
-        "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
       },
       "mine": {
         "original": "Mine",
@@ -10442,13 +10370,6 @@
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
-      },
-      "sec4": {
-        "original": "Summary of Results",
-        "singular": "Summary of Results",
-        "plural": "Summary of Results",
-        "setupEdit": false,
-        "setupVisible": false
       }
     },
     "fields": {
@@ -14490,7 +14411,6 @@
       "confirmRemove": "Are you sure you want to remove",
       "confirmDeleteThis": "Are you sure you want to delete this",
       "confirmRemoveThis": "Are you sure you want to remove this",
-      "confirmDeleteThis": "Are you sure you want to delete this",
       "doYouWishToProceed": "Do you wish to proceed?",
       "irreversibleAction": "This action is irreversible.",
       "cannotBeUndone": "This action cannot be undone.",

@@ -3105,34 +3105,6 @@
         "plural": "Gerätezählerstände nach den Checklisten",
         "setupEdit": false,
         "setupVisible": false
-      },
-      "assetStatusBeforeChecklist": {
-        "original": "Asset status before checklist",
-        "singular": "Anlagenstatus vor der Checkliste",
-        "plural": "",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "assetStatusAfterChecklist": {
-        "original": "Asset status after checklist",
-        "singular": "Anlagenstatus nach der Checkliste",
-        "plural": "",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "equipmentMeterReadingBeforeChecklist": {
-        "original": "Equipment meter reading before checklist",
-        "singular": "Zählerstand des Geräts vor der Checkliste",
-        "plural": "",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "equipmentMeterReadingAfterChecklist": {
-        "original": "Equipment meter reading after checklist",
-        "singular": "Zählerstand des Geräts nach der Checkliste",
-        "plural": "",
-        "setupEdit": false,
-        "setupVisible": false
       }
     },
     "validationFE": {},
@@ -4931,8 +4903,7 @@
       "userTaskIdExists": "Eine neue Benutzeraufgabe kann nicht bereits eine ID haben",
       "userTaskIdNotFound": "ID nicht gefunden",
       "userTaskNotFound": "Benutzeraufgabe nicht gefunden",
-      "userNotAllowedToAssignTask": "Benutzer darf kein Mitglied zur Aufgabe hinzufügen",
-      "taskNoteRequired": "Die Aufgabenbemerkung ist erforderlich, wurde jedoch nicht angegeben"
+      "userNotAllowedToAssignTask": "Benutzer darf kein Mitglied zur Aufgabe hinzufügen"
     },
     "tooltips": {
       "setupVisible": false,
@@ -9987,14 +9958,7 @@
       "plural": "Fehlende Artikel erkannt",
       "setupEdit": false,
       "setupVisible": false
-    },
-    "sec15": {
-        "original": "Additional Details",
-        "singular": "Zusätzliche Details",
-        "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
-      }
+    }
   },
   "fields": {
     "setupVisible": false,
@@ -10397,14 +10361,7 @@
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
-      },
-      "sec4": {
-        "original": "Summary of Results",
-        "singular": "Zusammenfassung der Ergebnisse",
-        "plural": "Zusammenfassungen der Ergebnisse",
-        "setupEdit": false,
-        "setupVisible": false
-        }
+      }
     },
     "fields": {
       "choose": {
