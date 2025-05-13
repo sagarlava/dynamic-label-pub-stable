@@ -4722,7 +4722,8 @@
       "areYouSureWantToRemoveMember":"Are you sure you want to remove the member?",
       "changeOwner":"Change Owner",
       "areYouSureWantToMakeOwner":"Are you sure you want to change the owner?",
-      "generateJobOrderForThisTask":" A Job order will be generated for this task"
+      "generateJobOrderForThisTask":" A Job order will be generated for this task",
+      "selectDateRange": "Please select a date range"
 
     }
   },
@@ -8748,7 +8749,7 @@
       "changeStatusTo": "Change status to",
       "identification" : "Identification",
       "signOff" : "Sign off",
-      "photoUplaod": "Photo Upload",
+      "photoUpload": "Photo Upload",
       "viewPdf" : "View Pdf",
       "emailPdf" : "Email Pdf"
     }
@@ -8979,6 +8980,13 @@
         "plural": "",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "quantity": {
+        "original": "Quantity",
+        "singular": "Menge",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
       },
       "reorderPoint": {
         "original": "Reorder Point",
@@ -23348,7 +23356,9 @@
         }
       },
       "messages": {
-        "searchJobOrders" : "Search Job Orders"
+        "searchJobOrders" : "Search Job Orders",
+        "viewPdf": "View PDF",
+        "emailPdf": "Email PDF"
       }
     },
     "national": {

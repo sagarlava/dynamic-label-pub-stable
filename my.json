@@ -6467,6 +6467,22 @@
         "setupEdit": false,
         "setupVisible": false
       },
+  
+    "nameOfSurvey": {
+        "original": "Name of survey",
+        "singular": "Nama tinjauan",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "surveyResponseReceivedAt": {
+        "original": "Survey response received at",
+        "singular": "Tinjauan diterima pada",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      
       "calendlyLinkSentTo": {
         "original": "Calendly link sent to",
         "singular": "Pautan Calendly dihantar ke",
@@ -8964,6 +8980,13 @@
         "setupEdit": false,
         "setupVisible": false
       },
+      "quantity": {
+        "original": "Quantity",
+        "singular": "Kuantiti",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
       "reorderPoint": {
         "original": "Reorder Point",
         "singular": "Titik Pesanan Semula",
@@ -9578,6 +9601,7 @@
         "setupEdit": true,
         "setupVisible": true
       },
+      
       "quantity": {
         "original": "Quantity",
         "singular": "Kuantiti",
@@ -9585,6 +9609,7 @@
         "setupEdit": true,
         "setupVisible": true
       },
+
       "transferNo": {
         "original": "Transfer No.",
         "singular": "No. Pemindahan",
@@ -9592,6 +9617,7 @@
         "setupEdit": true,
         "setupVisible": true
       },
+      
       "date": {
         "original": "Date",
         "singular": "Tarikh",
@@ -23333,7 +23359,9 @@
         }
       },
       "messages": {
-        "searchJobOrders": "Cari Pesanan Kerja"
+        "searchJobOrders": "Cari Pesanan Kerja",
+        "viewPdf": "Lihat PDF",
+        "emailPdf": "E-mel PDF"
       }
     },
     "national": {

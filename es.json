@@ -9179,7 +9179,7 @@
       "sameAssetBinNotAllowed": "No está permitido seleccionar el mismo Activo en un contenedor",
       "utilizeFromBin": "Utilizar desde el contenedor",
       "utilizeSpareParts": "Utilizar repuestos",
-      "transferFroms": "Transferir desde"
+      "transferFrom": "Transferir desde"
     }
   },
   "bin": {
@@ -9585,6 +9585,15 @@
         "setupEdit": true,
         "setupVisible": true
       },
+     
+      "available": {
+        "original": "Available",
+        "singular": "Available",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+
       "qtyTransfer": {
         "original": "Quantity to Transfer",
         "singular": "Cantidad a Transferir",
@@ -9592,6 +9601,15 @@
         "setupEdit": true,
         "setupVisible": true
       },
+      
+      "quantity": {
+        "original": "Quantity",
+        "singular": "Quantity",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+
       "transferNo": {
         "original": "Transfer No.",
         "singular": "N° de Transferencia",
@@ -13178,7 +13196,8 @@
       "partAvailability": "Disponibilidad de la pieza",
       "was": "se",
       "wasChangedFrom": "se cambió de",
-      "wasChangedTo": "se cambió a"
+      "wasChangedTo": "se cambió a",
+      "selectDateRange": "Seleccionar rango de fechas"
 
 
     },

@@ -2789,7 +2789,9 @@
       "forIncompleteChecklists": "Für unvollständige Prüflisten, die in Zukunft aktualisiert werden. Keine Aufträge oder Aufgaben werden mit diesem Status ausgelöst",
       "thisStatusWillTrigger": "Dieser Status löst alle Arbeitsaufträge und Aufgaben aus, die mit den Antworten dieser Prüfliste zusammenhängen",
       "updateStatusTo": "Status aktualisieren zu",
-      "noStatusToDisplay": "Kein Status zum Anzeigen"
+      "noStatusToDisplay": "Kein Status zum Anzeigen",
+      "updateChecklistStatus":"Status der Prüfliste aktualisieren",
+      "updateAsset":"Asset aktualisieren"
     }
   },
   "journey": {
@@ -4719,7 +4721,8 @@
       "areYouSureWantToRemoveMember": "Sind Sie sicher, dass Sie das Mitglied entfernen möchten?",
       "changeOwner": "Eigentümer ändern",
       "areYouSureWantToMakeOwner": "Sind Sie sicher, dass Sie den Eigentümer ändern möchten?",
-      "generateJobOrderForThisTask": "Ein Arbeitsauftrag wird für diese Aufgabe erstellt"
+      "generateJobOrderForThisTask": "Ein Arbeitsauftrag wird für diese Aufgabe erstellt",
+      "selectDateRange": "Bitte wählen Sie einen Datumsbereich aus"
     }
   },
   "site": {
@@ -9593,6 +9596,21 @@
         "setupEdit": true,
         "setupVisible": true
       },
+      "available": {
+        "original": "Available",
+        "singular": "Available",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      
+      "quantity": {
+        "original": "Quantity",
+        "singular": "Quantity",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
       "transferNo": {
         "original": "Transfer No.",
         "singular": "Übertragungs-Nr.",
@@ -11118,6 +11136,13 @@
         "original": "Profile Settings",
         "singular": "Profileinstellung",
         "plural": "Profileinstellungen",
+        "setupEdit": true,
+        "setupVisible": false
+      },
+      "passwordSettings": {
+        "original": "Password Settings",
+        "singular": "Passworteinstellung",
+        "plural": "Passworteinstellungen",
         "setupEdit": true,
         "setupVisible": false
       },
@@ -23333,7 +23358,9 @@
         }
       },
       "messages": {
-        "searchJobOrders": "Auftragsanforderungen suchen"
+        "searchJobOrders": "Auftragsanforderungen suchen",
+        "viewPdf": "PDF anzeigen",
+        "emailPdf": "PDF per E-Mail"
       }
     },
     "national": {
