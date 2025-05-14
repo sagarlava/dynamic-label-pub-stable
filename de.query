@@ -1,0 +1,128 @@
+db.dynamic_label_setup.updateMany(
+{"module": "customer", "language": "de" },
+{$set: {"setup.sections.sec1.original": "Contact Details"} }
+)
+
+db.dynamic_label_setup.updateMany(
+{"module": "customer", "language": "de" },
+{$set: {"setup.sections.sec1.singular": "Kontaktdetails"} }
+)
+
+db.dynamic_label_setup.updateMany(
+{"module": "checklist", "language": "de" },
+{$set: {"setup.fields.assetStatusBeforeChecklist.singular": "Anlagenstatus vor der Checkliste"} }
+)
+
+db.dynamic_label_setup.updateMany(
+{"module": "checklist", "language": "de" },
+{$set: {"setup.fields.assetStatusBeforeChecklist.plural": ""} }
+)
+
+db.dynamic_label_setup.updateMany(
+{"module": "checklist", "language": "de" },
+{$set: {"setup.fields.assetStatusAfterChecklist.plural": ""} }
+)
+
+db.dynamic_label_setup.updateMany(
+{"module": "checklist", "language": "de" },
+{$set: {"setup.fields.equipmentMeterReadingBeforeChecklist.singular": "Zählerstand des Geräts vor der Checkliste"} }
+)
+
+db.dynamic_label_setup.updateMany(
+{"module": "checklist", "language": "de" },
+{$set: {"setup.fields.equipmentMeterReadingBeforeChecklist.plural": ""} }
+)
+
+db.dynamic_label_setup.updateMany(
+{"module": "checklist", "language": "de" },
+{$set: {"setup.fields.equipmentMeterReadingAfterChecklist.singular": "Zählerstand des Geräts nach der Checkliste"} }
+)
+
+db.dynamic_label_setup.updateMany(
+{"module": "checklist", "language": "de" },
+{$set: {"setup.fields.equipmentMeterReadingAfterChecklist.plural": ""} }
+)
+
+
+db.dynamic_label_setup.updateMany(
+{"module": "jobOrder", "language": "de" },
+{$set: {"setup.fields.orderDateTime.original": "Date & Time"} }
+)
+
+db.dynamic_label_setup.updateMany(
+{"module": "jobOrder", "language": "de" },
+{$set: {"setup.fields.orderDateTime.singular": "Datum & Thema"} }
+)
+
+
+db.dynamic_label_setup.updateMany(
+{"module": "jobOrder", "language": "de" },
+{$set: {"setup.fields.uploadAttachment.original": "Anhang hochladen"} }
+)
+
+db.dynamic_label_setup.updateMany(
+{"module": "jobOrder", "language": "de" },
+{$set: {"setup.fields.uploadAttachment.singular": "Anhang hochladen"} }
+)
+
+
+db.dynamic_label_setup.updateMany(
+{"module": "checkAvailibility", "language": "de" },
+{$set: {"setup.label.original": "Locate"} }
+)
+db.dynamic_label_setup.updateMany(
+{"module": "checkAvailibility", "language": "de" },
+{$set: {"setup.label.singular": "Ortung"} }
+)
+db.dynamic_label_setup.updateMany(
+{"module": "checkAvailibility", "language": "de" },
+{$set: {"setup.label.plural": "Ortungen"} }
+)
+
+db.dynamic_label_setup.updateMany(
+{"module": "header", "language": "de" },
+{$set: {"setup.sections.sec3.original": "Account Settings"} }
+)
+db.dynamic_label_setup.updateMany(
+{"module": "header", "language": "de" },
+{$set: {"setup.sections.sec3.singular": "Kontoeinstellung"} }
+)
+db.dynamic_label_setup.updateMany(
+{"module": "header", "language": "de" },
+{$set: {"setup.sections.sec3.plural": "Kontoeinstellungen"} }
+)
+
+db.dynamic_label_setup.updateMany(
+{"module": "general", "language": "de" },
+{$set: {"setup.buttons.filter.plural": "Filter"} }
+)
+
+db.dynamic_label_setup.updateMany(
+{"module": "general", "language": "de" },
+{$set: {"setup.buttons.transfer.plural": "Überweisungen"} }
+)
+
+db.dynamic_label_setup.updateMany(
+{"module": "general", "language": "de" },
+{$set: {"setup.buttons.email.original": "Email"} }
+)
+
+db.dynamic_label_setup.updateMany(
+{"module": "general", "language": "de" },
+{$set: {"setup.status.breakDown.original": "Breakdown"} }
+)
+
+db.dynamic_label_setup.updateMany(
+{"module": "general", "language": "de" },
+{$set: {"setup.status.breakDown.singular": "Defekt"} }
+)
+
+db.dynamic_label_setup.updateMany(
+{"module": "general", "language": "de" },
+{$set: {"setup.status.breakDown.setupEdit": false} }
+)
+
+db.dynamic_label_setup.updateMany(
+{"module": "setup", "language": "de" },
+{$set: {"setup.notifications.messages.markAsRead": "Alle als gelesen markieren"} }
+)
