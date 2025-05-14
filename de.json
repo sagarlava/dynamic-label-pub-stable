@@ -17090,6 +17090,9 @@
             "setupVisible": false
           }
         },
+        "validationFE":{
+          "atLeastOneSelected":"Mindestens eine Option muss ausgewählt werden. Alle drei können ausgewählt werden"
+        },
         "messages":{
           "eachRelationshipConnectsLevel":"Jede Beziehung verbindet eine Genehmigungsgruppe der Stufe 1 mit einer der Stufe 2. Diese Stufen repräsentieren verschiedene Genehmigungsphasen für Anforderungsnotizen in FieldEx.",
           "eachRelationshipConnectsLevelConsignment":"Jede Beziehung verbindet eine Genehmigungsgruppe der Stufe 1 mit einer der Stufe 2. Diese Stufen repräsentieren verschiedene Genehmigungsphasen für Frachtbriefe in FieldEx",

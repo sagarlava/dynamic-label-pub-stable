@@ -17090,6 +17090,9 @@
             "setupVisible": false
           }
         },
+        "validationFE":{
+          "atLeastOneSelected":"必须至少选择一个选项。三个选项都可以选择"
+        },
         "messages":{
           "eachRelationshipConnectsLevel":"每个关系连接一个一级审批组和一个二级审批组。这些级别代表 FieldEx 中申请单的不同审批阶段。",
           "eachRelationshipConnectsLevelConsignment":"每个关系连接一个一级审批组和一个二级审批组。这些级别代表 FieldEx 中托运单的不同审批阶段。",

@@ -17090,6 +17090,9 @@
             "setupVisible": false
           }
         },
+        "validationFE":{
+          "atLeastOneSelected":"At least 1 option must be selected. All 3 can be selected"
+        },
         "messages":{
           "eachRelationshipConnectsLevel":"Each relationship connects a Level 1 approval group with a Level 2 approval group. These levels represent different approval stages for requisition notes in FieldEx.",
           "eachRelationshipConnectsLevelConsignment":"Each relationship connects a Level 1 approval group with a Level 2 approval group. These levels represent different approval stages for consignment notes in FieldEx",

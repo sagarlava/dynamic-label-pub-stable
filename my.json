@@ -17090,6 +17090,9 @@
             "setupVisible": false
           }
         },
+        "validationFE":{
+          "atLeastOneSelected":"Sekurang-kurangnya 1 pilihan mesti dipilih. Ketiga-tiga boleh dipilih"
+        },
         "messages":{
           "eachRelationshipConnectsLevel":"Setiap perhubungan menghubungkan kumpulan kelulusan Tahap 1 dengan kumpulan kelulusan Tahap 2. Tahap ini mewakili peringkat kelulusan yang berbeza untuk nota permohonan dalam FieldEx.",
           "eachRelationshipConnectsLevelConsignment":"Setiap perhubungan menghubungkan kumpulan kelulusan Tahap 1 dengan kumpulan kelulusan Tahap 2. Tahap ini mewakili peringkat kelulusan yang berbeza untuk nota konsainan dalam FieldEx",

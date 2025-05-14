@@ -17090,6 +17090,9 @@
             "setupVisible": false
           }
         },
+        "validationFE":{
+          "atLeastOneSelected":"Se debe seleccionar al menos una opción. Se pueden seleccionar las tres"
+        },
         "messages":{
           "eachRelationshipConnectsLevel":"Cada relación conecta un grupo de aprobación de Nivel 1 con uno de Nivel 2. Estos niveles representan diferentes etapas de aprobación para notas de requisición en FieldEx.",
           "eachRelationshipConnectsLevelConsignment":"Cada relación conecta un grupo de aprobación de Nivel 1 con uno de Nivel 2. Estos niveles representan diferentes etapas de aprobación para notas de consignación en FieldEx.",
