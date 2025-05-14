@@ -13704,8 +13704,21 @@
         "plural": "Manual Bin Transfer",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "howItWorks":{
+        "original": "How it Works",
+        "singular": "How it Works",
+        "plural": "How it Works",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "config":{
+        "original": "Config",
+        "singular": "Config",
+        "plural": "Config",
+        "setupEdit": false,
+        "setupVisible": false
       }	
-      
     },
     "status": {
       "setupVisible": false,

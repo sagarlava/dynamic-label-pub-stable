@@ -13704,6 +13704,20 @@
         "plural": "手动存储箱转移",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "howItWorks":{
+        "original": "How it Works",
+        "singular": "工作原理",
+        "plural": "工作原理",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "config":{
+        "original": "Config",
+        "singular": "配置",
+        "plural": "配置",
+        "setupEdit": false,
+        "setupVisible": false
       }	
     },
     "status": {

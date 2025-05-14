@@ -13704,6 +13704,20 @@
         "plural": "Pemindahan Tong Secara Manual",
         "setupEdit": false,
         "setupVisible": false
+      }	,
+      "howItWorks":{
+        "original": "How it Works",
+        "singular": "Cara Ia Berfungsi",
+        "plural": "Cara Ia Berfungsi",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "config":{
+        "original": "Config",
+        "singular": "Konfigurasi",
+        "plural": "Konfigurasi",
+        "setupEdit": false,
+        "setupVisible": false
       }	
     },
     "status": {

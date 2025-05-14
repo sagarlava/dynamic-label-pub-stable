@@ -13704,6 +13704,20 @@
         "plural": "Transferencias manuales de contenedor",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "howItWorks":{
+        "original": "How it Works",
+        "singular": "Cómo funciona",
+        "plural": "Cómo funciona",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "config":{
+        "original": "Config",
+        "singular": "Configuración",
+        "plural": "Configuración",
+        "setupEdit": false,
+        "setupVisible": false
       }	
     },
     "status": {

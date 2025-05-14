@@ -13704,7 +13704,21 @@
         "plural": "Manuelle Behälterübertragungen",
         "setupEdit": false,
         "setupVisible": false
-      }	
+      },
+      "howItWorks":{
+        "original": "How it Works",
+        "singular": "Wie es funktioniert",
+        "plural": "Wie es funktioniert",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "config":{
+        "original": "Config",
+        "singular": "Konfigurationen",
+        "plural": "Konfigurationen",
+        "setupEdit": false,
+        "setupVisible": false
+      }		
     },
     "status": {
       "setupVisible": false,
