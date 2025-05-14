@@ -443,15 +443,15 @@
         "setupVisible": true
       },
       "sec1": {
-        "original": "Hierarchy and Classification",
-        "singular": "Hierarki dan Klasifikasi",
+        "original": "Ownership & Location",
+        "singular": "Pemilikan & Lokasi",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "sec2": {
-        "original": "Coverage Period",
-        "singular": "Tempoh Perlindungan",
+        "original": "Coverage Period & Acquisition",
+        "singular": "Tempoh Perlindungan & Perolehan",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
@@ -560,18 +560,25 @@
         "plural": "",
         "setupEdit": false,
         "setupVisible": false
-      },
-      "sec18": {
-        "original": "Location Details",
-        "singular": "Butiran Lokasi",
-        "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
       }
     },
     "fields": {
       "setupVisible": true,
       "setupEdit": true,
+      "category": {
+        "original": "Category",
+        "singular": "Kategori",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "subCategory":{
+        "original": "Sub Category",
+        "singular": "Sub Kategori",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
       "type": {
         "original": "Type",
         "singular": "Jenis",
@@ -692,8 +699,8 @@
         "setupVisible": false
       },
       "acquisitionDate": {
-        "original": "Purchase Date",
-        "singular": "Tarikh Pembelian",
+        "original": "Acquisition Date",
+        "singular": "Tarikh Perolehan",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
@@ -963,104 +970,9 @@
         "plural": "",
         "setupEdit": false,
         "setupVisible": false
-      },
-      "installationDate": {
-        "original": "Installation Date",
-        "singular": "Tarikh Pemasangan",
-        "plural": "Tarikh Pemasangan",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "brand": {
-        "original": "Brand",
-        "singular": "Jenama",
-        "plural": "Jenama",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "category": {
-          "original": "Category",
-          "singular": "Kategori",
-          "plural": "",
-          "setupEdit": true,
-          "setupVisible": true
-      },
-      "subCategory": {
-          "original": "Sub Category",
-          "singular": "Sub Kategori",
-          "plural": "",
-          "setupEdit": true,
-          "setupVisible": true
-      },
-      "allAssets": {
-        "original": "All Assets",
-        "singular": "Semua Aset",
-        "plural": "Semua Aset",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "groupByParent": {
-        "original": "Group by Parent",
-        "singular": "Kumpulkan Mengikut Induk",
-        "plural": "Kumpulkan Mengikut Induk",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "assetsByParent": {
-        "original": "Assets by Parent",
-        "singular": "Aset Mengikut Induk",
-        "plural": "Aset Mengikut Induk",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "parent": {
-        "original": "Parent",
-        "singular": "Induk",
-        "plural": "Induk",
-        "setupEdit": false,
-        "setupVisible": false
-      }, 
-      "pendingTransfer": {
-        "original": "Pending Transfers",
-        "singular": "Pemindahan Tertunda",
-        "plural": "Pemindahan Tertunda",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "group": {
-        "original": "Group",
-        "singular": "Kumpulan",
-        "plural": "Kumpulan",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "classification": {
-        "original": "Classification",
-        "singular": "Klasifikasi",
-        "plural": "Klasifikasi",
-        "setupEdit": false,
-        "setupVisible": false
-      }, 
-      "offlineSince": {
-        "original": "Offline Since",
-        "singular": "Luar Talian Sejak",
-        "plural": "Luar Talian Sejak",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "model": {
-        "original": "Model",
-        "singular": "Model",
-        "plural": "Model",
-        "setupEdit": false,
-        "setupVisible": false
       }
     },
     "validationFE": {
-      "warrantyEndDateAfterStartDate":"Tarikh Tamat Waranti mesti selepas Tarikh Mula.",
-      "serialNumberMustBeUnique":"Nombor Siri mesti unik. Nilai yang dimasukkan sudah digunakan.",
-      "serialNumberContain":"Nombor Siri hanya boleh mengandungi huruf dan nombor.",
-      "temporarySerialNumberGenerationFailed":"Penjanaan Nombor Siri Sementara gagal. Sila cuba lagi.",
       "warrantyEndDateMustBeGreater": "Tarikh tamat waranti mesti melebihi tarikh mula.",
       "warrantyStartDateMustBeEarlier": "Tarikh mula waranti harus lebih awal daripada tarikh tamat."
     },
@@ -1100,13 +1012,12 @@
       "assetCategoryExists": "Kategori aset sudah wujud",
       "assetCategorySystemGenerated": "Kategori Aset yang dihasilkan oleh sistem tidak dibenarkan untuk dipadamkan",
       "assetCategoryCannotDeleteByAssetSubCategory": "Tidak dapat memadam: Kategori aset digunakan dalam satu atau lebih Subkategori aset",
-      "assetCategoryCannotDeleteByAssets": "Tidak dapat dipadam: Kategori Aset digunakan dalam satu atau lebih Aset",
-      "assetSubCategoryCannotDeleteByAssets": "Tidak dapat dipadam: Subkategori Aset digunakan dalam satu atau lebih Aset",
       "assetSubCategoryExists": "Subkategori Aset sudah wujud",
       "assetSubCategorySystemGenerated": "Subkategori Aset yang dihasilkan oleh sistem tidak dibenarkan untuk dipadamkan",
       "assetCategoryIdExists": "Kategori Aset baharu tidak boleh sudah mempunyai ID",
       "assetSubCategoryIdExists": "Subkategori Aset baharu tidak boleh sudah mempunyai ID",
-      "assetParentInvalid":"Induk yang dipilih sudah berada dalam hierarki aset"
+      "assetCategoryCannotDeleteByAssets":"Tidak dapat memadam: Kategori aset digunakan dalam satu atau lebih Aset",
+      "assetSubCategoryCannotDeleteByAssets":"Tidak dapat memadam: Subkategori aset digunakan dalam satu atau lebih Aset"
     },
     "tooltips": {
       "setupVisible": false,
@@ -1299,48 +1210,6 @@
         "plural": "",
         "setupEdit": false,
         "setupVisible": false
-      },
-      "parentUpdate": {
-        "original": "Parent Update",
-        "singular": "Kemas Kini Induk",
-        "plural": "",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "parentChange": {
-        "original": "Parent Change",
-        "singular": "Perubahan Induk",
-        "plural": "",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "parentRemove": {
-        "original": "Parent Remove",
-        "singular": "Buang Induk",
-        "plural": "",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "pendingTransfer": {
-        "original": "Show only Assets with a pending transfer",
-        "singular": "Tunjukkan hanya aset dengan pemindahan tertunda",
-        "plural": "Tunjukkan hanya aset dengan pemindahan tertunda",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "transferRequestApproval": {
-        "original": "A transfer request is pending approval for this asset. The location will be updated to",
-        "singular": "Permohonan pemindahan sedang menunggu kelulusan untuk aset ini. Lokasi akan dikemas kini ke",
-        "plural": "Permohonan pemindahan sedang menunggu kelulusan untuk aset ini. Lokasi akan dikemas kini ke",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "uponArrival": {
-        "original": "upon arrival.",
-        "singular": "sebaik tiba.",
-        "plural": "sebaik tiba.",
-        "setupEdit": false,
-        "setupVisible": false
       }
     },
     "messages": {
@@ -1358,237 +1227,7 @@
       "warrantyStartDate": "Tarikh mula jaminan tidak boleh melebihi tarikh tamat jaminan",
       "errorFetchingAllAssets": "Ralat mendapatkan semua aset",
       "errorOccuredWhileFetchingAccessories": "Ralat semasa mengambil aksesori",
-      "logs": "Log",
-      "showUpdatesRelated":"Tunjukkan Kemas Kini Berkaitan Dengan:"
-    }
-  },
-  "analytic": {
-    "setupVisible": false,
-    "setupEdit": false,
-    "label": {
-      "original": "Analytics",
-      "singular": "Analitik",
-      "plural": "Analitik",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "sections": {
-      "setupVisible": false,
-      "setupEdit": false,
-      "sec0": {
-        "original": "Lifespan and Financial Details",
-        "singular": "Jangka Hayat dan Butiran Kewangan",
-        "plural": "Jangka Hayat dan Butiran Kewangan",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "sec1": {
-        "original": "Operational Metrics",
-        "singular": "Metrik Operasi",
-        "plural": "Metrik Operasi",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "sec2": {
-        "original": "Downtime and Maintenance Analytics",
-        "singular": "Analitik Waktu Henti dan Penyelenggaraan",
-        "plural": "Analitik Waktu Henti dan Penyelenggaraan",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "sec3": {
-        "original": "Condition and Inspection Details",
-        "singular": "Butiran Keadaan dan Pemeriksaan",
-        "plural": "Butiran Keadaan dan Pemeriksaan",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "sec4": {
-        "original": "Performance and Cost Analysis",
-        "singular": "Analisis Prestasi dan Kos",
-        "plural": "Analisis Prestasi dan Kos",
-        "setupEdit": false,
-        "setupVisible": false
-      }
-    },
-    "fields": {
-      "setupVisible": false,
-      "setupEdit": false,
-      "estimatedLifespan": {
-        "original": "Estimated Lifespan (Months)",
-        "singular": "Jangka Hayat Anggaran (Bulan)",
-        "plural": "Jangka Hayat Anggaran (Bulan)",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "initialCost": {
-        "original": "Initial Cost",
-        "singular": "Kos Permulaan",
-        "plural": "Kos Permulaan",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "salvageValue": {
-        "original": "Salvage Value",
-        "singular": "Nilai Sisa",
-        "plural": "Nilai Sisa",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "depriciationRate": {
-        "original": "Depreciation Rate",
-        "singular": "Kadar Susut Nilai",
-        "plural": "Kadar Susut Nilai",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "expectedAvailableTime": {
-        "original": "Expected Available Time (Months)",
-        "singular": "Jangkaan Masa Ketersediaan (Bulan)",
-        "plural": "Jangkaan Masa Ketersediaan (Bulan)",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "timeUsed": {
-        "original": "Time Used",
-        "singular": "Masa Digunakan",
-        "plural": "Masa Digunakan",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "totalAvailableTime": {
-        "original": "Total Available Time",
-        "singular": "Jumlah Masa Ketersediaan",
-        "plural": "Jumlah Masa Ketersediaan",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "utilizationRate": {
-        "original": "Utilization Rate",
-        "singular": "Kadar Penggunaan",
-        "plural": "Kadar Penggunaan",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "remainingUsefulLife": {
-        "original": "Remaining Useful Life (RUL)",
-        "singular": "Jangka Hayat Berguna Baki (RUL)",
-        "plural": "Jangka Hayat Berguna Baki (RUL)",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "assetAge": {
-        "original": "Asset Age",
-        "singular": "Umur Aset",
-        "plural": "Umur Aset",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "totalDowntimePeriod": {
-        "original": "Total Downtime Period",
-        "singular": "Jumlah Tempoh Waktu Henti",
-        "plural": "Jumlah Tempoh Waktu Henti",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "avgRepairCost": {
-        "original": "Average Repair Cost",
-        "singular": "Purata Kos Pembaikan",
-        "plural": "Purata Kos Pembaikan",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "avgMaintenanceCost": {
-        "original": "Average Maintenance Cost",
-        "singular": "Purata Kos Penyelenggaraan",
-        "plural": "Purata Kos Penyelenggaraan",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "numberOfRepair": {
-        "original": "Number of Repairs",
-        "singular": "Bilangan Pembaikan",
-        "plural": "Bilangan Pembaikan",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "totalRepairTime": {
-        "original": "Total Repair Time",
-        "singular": "Jumlah Masa Pembaikan",
-        "plural": "Jumlah Masa Pembaikan",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "mttr": {
-        "original": "MTTR (Mean Time To Repair)",
-        "singular": "MTTR (Purata Masa Untuk Membaiki)",
-        "plural": "MTTR (Purata Masa Untuk Membaiki)",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "mtbf": {
-        "original": "MTBF (Mean Time Between Failures)",
-        "singular": "MTBF (Purata Masa Antara Kegagalan)",
-        "plural": "MTBF (Purata Masa Antara Kegagalan)",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "conditionIndex": {
-        "original": "Condition Index",
-        "singular": "Indeks Keadaan",
-        "plural": "Indeks Keadaan",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "lastCalibrationDate": {
-        "original": "Last Calibration Date",
-        "singular": "Tarikh Penentukuran Terakhir",
-        "plural": "Tarikh Penentukuran Terakhir",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "latestSafetyInspection": {
-        "original": "Latest Safety Inspection",
-        "singular": "Pemeriksaan Keselamatan Terkini",
-        "plural": "Pemeriksaan Keselamatan Terkini",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "failureRate": {
-        "original": "Failure Rate",
-        "singular": "Kadar Kegagalan",
-        "plural": "Kadar Kegagalan",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "operatingCostHour": {
-        "original": "Operating Costs per Hour",
-        "singular": "Kos Operasi setiap Jam",
-        "plural": "Kos Operasi setiap Jam",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "repairCostHour": {
-        "original": "Repair Costs per Hour",
-        "singular": "Kos Pembaikan setiap Jam",
-        "plural": "Kos Pembaikan setiap Jam",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "lifetimeCostHour": {
-        "original": "Lifetime Repair Cost",
-        "singular": "Kos Pembaikan Sepanjang Hayat",
-        "plural": "Kos Pembaikan Sepanjang Hayat",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "lifetimeMaintenanceCost": {
-        "original": "Lifetime Maintenance Cost",
-        "singular": "Kos Penyelenggaraan Sepanjang Hayat",
-        "plural": "Kos Penyelenggaraan Sepanjang Hayat",
-        "setupEdit": false,
-        "setupVisible": false
-      }
+      "logs": "Log"
     }
   },
   "assetLog": {
@@ -2565,7 +2204,7 @@
       },
       "transferredFromBin": {
         "original": "Transfered from Bin",
-        "singular": "Dipindahkan dari Bin",
+        "singular": "Dipindahkan dari Tong",
         "plural": "",
         "setupEdit": false,
         "setupVisible": false
@@ -3081,28 +2720,28 @@
       "assetStatusBeforeChecklist": {
         "original": "Asset status before checklist",
         "singular": "Status aset sebelum senarai semak",
-        "plural": "Status aset sebelum senarai semak",
+        "plural": "",
         "setupEdit": false,
         "setupVisible": false
       },
       "assetStatusAfterChecklist": {
         "original": "Asset status after checklist",
-        "singular":"Status aset selepas senarai semak",
-        "plural": "Status aset selepas senarai semak",
+        "singular": "Status aset selepas senarai semak",
+        "plural": "",
         "setupEdit": false,
         "setupVisible": false
       },
       "equipmentMeterReadingBeforeChecklist": {
         "original": "Equipment meter reading before checklist",
         "singular": "Bacaan meter peralatan sebelum senarai semak",
-        "plural": "Bacaan meter peralatan sebelum senarai semak",
+        "plural": "",
         "setupEdit": false,
         "setupVisible": false
       },
       "equipmentMeterReadingAfterChecklist": {
         "original": "Equipment meter reading after checklist",
         "singular": "Bacaan meter peralatan selepas senarai semak",
-        "plural": "Bacaan meter peralatan selepas senarai semak",
+        "plural": "",
         "setupEdit": false,
         "setupVisible": false
       }
@@ -3511,20 +3150,6 @@
         "original": "Sub-total",
         "singular": "Jumlah Kecil",
         "plural": "Jumlah Kecil",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "family": {
-        "original": "Family",
-        "singular": "Keluarga",
-        "plural": "Keluarga",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "model": {
-        "original": "Model",
-        "singular": "Model",
-        "plural": "Model",
         "setupEdit": false,
         "setupVisible": false
       }
@@ -4884,7 +4509,6 @@
       "taskExternalCalendarIdExists": "Kalendar Luar Tugas baru tidak boleh sudah mempunyai ID",
       "taskNoteIdExists": "Nota Tugas baru tidak boleh sudah mempunyai ID",
       "taskNoteWithIdNotFound": "ID tidak sah",
-      "taskNoteRequired":"Nota tugas diperlukan tetapi tidak diberikan",
       "teamIdExists": "Pasukan baru tidak boleh sudah mempunyai ID",
       "teamIdNotFound": "ID tidak dijumpai",
       "teamNotFound": "Pasukan tidak dijumpai",
@@ -4905,7 +4529,8 @@
       "userTaskIdExists": "Tugas Pengguna baru tidak boleh sudah mempunyai ID",
       "userTaskIdNotFound": "ID tidak dijumpai",
       "userTaskNotFound": "Tugas Pengguna tidak dijumpai",
-      "userNotAllowedToAssignTask": "Pengguna tidak dibenarkan menambah ahli kepada Tugas"
+      "userNotAllowedToAssignTask": "Pengguna tidak dibenarkan menambah ahli kepada Tugas",
+      "taskNoteRequired": "Nota tugas diperlukan tetapi tidak diberikan"
     },
     "tooltips": {
       "setupVisible": false,
@@ -5095,7 +4720,8 @@
       "areYouSureWantToRemoveMember": "Adakah anda pasti mahu mengeluarkan ahli?",
       "changeOwner": "Tukar pemilik",
       "areYouSureWantToMakeOwner": "Adakah anda pasti mahu menukar pemilik?",
-      "generateJobOrderForThisTask": "Pesanan kerja akan dijana untuk tugas ini"
+      "generateJobOrderForThisTask": "Pesanan kerja akan dijana untuk tugas ini",
+      "selectDateRange": "Pilih Julat Tarikh"
     }
   },
   "site": {
@@ -6837,6 +6463,20 @@
       "cableCondition": {
         "original": "Cable Condition",
         "singular": "Keadaan Kabel",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+    "nameOfSurvey": {
+        "original": "Name of survey",
+        "singular": "Nama tinjauan",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "surveyResponseReceivedAt": {
+        "original": "Survey response received at",
+        "singular": "Tinjauan diterima pada",
         "plural": "",
         "setupEdit": false,
         "setupVisible": false
@@ -9242,20 +8882,6 @@
         "plural": "",
         "setupEdit": false,
         "setupVisible": false
-      },
-      "sec17": {
-        "original": "Select where to search",
-        "singular": "Pilih tempat untuk mencari",
-        "plural": "Pilih tempat untuk mencari",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "sec18": {
-        "original": "Select what to search",
-        "singular": "Pilih apa yang hendak dicari",
-        "plural": "Pilih apa yang hendak dicari",
-        "setupEdit": false,
-        "setupVisible": false
       }
     },
     "fields": {
@@ -9351,6 +8977,13 @@
         "plural": "",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "quantity": {
+        "original": "Quantity",
+        "singular": "Kuantiti",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
       },
       "reorderPoint": {
         "original": "Reorder Point",
@@ -9512,13 +9145,6 @@
         "plural": "",
         "setupEdit": false,
         "setupVisible": false
-      }, 
-      "pendingTransfer": {
-        "original": "Pending Transfers",
-        "singular": "Pemindahan Tertunda",
-        "plural": "Pemindahan Tertunda",
-        "setupEdit": false,
-        "setupVisible": false
       }
     },
     "validationFE": {
@@ -9551,9 +9177,6 @@
       "sameProductBinTransferNotAllowed": "Anda tidak dibenarkan untuk memilih Alat Ganti yang sama dalam pemindahan bin",
       "sameProductBinNotAllowed": "Anda tidak dibenarkan untuk memilih Alat Ganti yang sama dalam bin",
       "sameAssetBinNotAllowed": "Anda tidak dibenarkan untuk memilih aset yang sama dalam bin",
-      "selectCategory":"Pilih Kategori",
-      "selectSubCategory":"Pilih Subkategori",
-      "selectStatus":"Pilih Status",
       "utilizeFromBin": "Guna dari Bin",
       "utilizeSpareParts": "Guna Alat Ganti",
       "transferFrom": "Pindah dari"
@@ -9774,250 +9397,207 @@
     }
   },
   "binTransfer": {
-    "setupEdit": false,
     "setupVisible": false,
     "label": {
       "original": "Bin Transfer",
       "singular": "Pemindahan",
       "plural": "Pemindahan",
-      "setupEdit": false,
-      "setupVisible": false
+      "setupEdit": true,
+      "setupVisible": true
     },
     "sections": {
-      "setupVisible": false,
+      "setupVisible": true,
       "sec0": {
         "original": "Transfer Details",
         "singular": "Butiran Pemindahan",
         "plural": "",
-        "setupEdit": false,
-        "setupVisible": false
+        "setupEdit": true,
+        "setupVisible": true
       },
       "sec1": {
         "original": "Location Bin Details",
         "singular": "Butiran Lokasi Bin",
         "plural": "",
-        "setupEdit": false,
-        "setupVisible": false
+        "setupEdit": true,
+        "setupVisible": true
       },
       "sec2": {
         "original": "User Details",
         "singular": "Butiran Pengguna",
         "plural": "",
-        "setupEdit": false,
-        "setupVisible": false
+        "setupEdit": true,
+        "setupVisible": true
       },
       "sec3": {
         "original": "Transfer by Bin",
         "singular": "Pemindahan oleh Bin",
         "plural": "",
-        "setupEdit": false,
-        "setupVisible": false
+        "setupEdit": true,
+        "setupVisible": true
       },
       "sec4": {
         "original": "Assignee Details",
         "singular": "Butiran Penerima",
         "plural": "",
-        "setupEdit": false,
-        "setupVisible": false
+        "setupEdit": true,
+        "setupVisible": true
       },
       "sec5": {
         "original": "Transferred Items",
         "singular": "Item yang Dipindahkan",
         "plural": "",
-        "setupEdit": false,
-        "setupVisible": false
+        "setupEdit": true,
+        "setupVisible": true
       },
       "sec6": {
         "original": "Decline Transfer",
         "singular": "Tolak Pemindahan",
         "plural": "",
-        "setupEdit": false,
-        "setupVisible": false
+        "setupEdit": true,
+        "setupVisible": true
       },
       "sec7": {
         "original": "Transfer by Spare Part",
         "singular": "Pemindahan oleh Alat Ganti",
         "plural": "",
-        "setupEdit": false,
-        "setupVisible": false
+        "setupEdit": true,
+        "setupVisible": true
       },
       "sec8": {
         "original": "Transaction Details",
         "singular": "Butiran Transaksi",
         "plural": "",
-        "setupEdit": false,
-        "setupVisible": false
+        "setupEdit": true,
+        "setupVisible": true
       },
       "sec9": {
         "original": "Spare Part/Assets Transfer",
         "singular": "Pemindahan Alat Ganti/Aset",
         "plural": "",
-        "setupEdit": false,
-        "setupVisible": false
+        "setupEdit": true,
+        "setupVisible": true
       },
       "sec10": {
         "original": "Transfer",
         "singular": "Pemindahan",
         "plural": "",
-        "setupEdit": false,
-        "setupVisible": false
+        "setupEdit": true,
+        "setupVisible": true
       },
       "sec11": {
         "original": "Locate",
         "singular": "Lokasi",
         "plural": "",
-        "setupEdit": false,
-        "setupVisible": false
+        "setupEdit": true,
+        "setupVisible": true
       },
       "sec12": {
         "original": "Movement History",
         "singular": "Sejarah Pergerakan",
         "plural": "",
-        "setupEdit": false,
-        "setupVisible": false
+        "setupEdit": true,
+        "setupVisible": true
       },
       "sec13": {
         "original": "Asset(s) to Transfer",
         "singular": "Aset untuk Dipindahkan",
         "plural": "",
-        "setupEdit": false,
-        "setupVisible": false
+        "setupEdit": true,
+        "setupVisible": true
       },
       "sec14": {
         "original": "Part(s) to Transfer",
         "singular": "Bahagian untuk Dipindahkan",
         "plural": "",
-        "setupEdit": false,
-        "setupVisible": false
+        "setupEdit": true,
+        "setupVisible": true
       },
       "sec15": {
-        "original": "Transfer by Assets",
-        "singular": "Pindahan Mengikut Aset",
-        "plural": "Pindahan Mengikut Aset",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "sec16": {
-        "original": "Add Assets Via Serial Number",
-        "singular": "Tambah Aset Melalui Nombor Siri",
-        "plural": "Tambah Aset Melalui Nombor Siri",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "sec17": {
-        "original": "Transfer by Spare Parts",
-        "singular": "Pindahan Mengikut Alat Ganti",
-        "plural": "Pindahan Mengikut Alat Ganti",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "sec18": {
-        "original": "Add Spare Parts Via SKU",
-        "singular": "Tambah Alat Ganti Melalui SKU",
-        "plural": "Tambah Alat Ganti Melalui SKU",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "sec19": {
-        "original": "Adjust Spare Parts",
-        "singular": "Laraskan Alat Ganti",
-        "plural": "Laraskan Alat Ganti",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "sec20": {
-        "original": "Initiate Bin Transfer Confirmation",
-        "singular": "Pengesahan Permulaan Pemindahan Tong",
-        "plural": "Pengesahan Permulaan Pemindahan Tong",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "sec21": {
-        "original": "Missing Items Detected",
-        "singular": "Item yang Hilang Dikesan",
-        "plural": "Item yang Hilang Dikesan",
-        "setupEdit": false,
-        "setupVisible": false
+        "original": "Additional Details",
+        "singular": "Butiran Tambahan",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
       }
     },
     "fields": {
-      "setupVisible": false,
+      "setupVisible": true,
       "approvalStatus": {
         "original": "Approval Status",
         "singular": "Status Kelulusan",
         "plural": "",
-        "setupEdit": false,
-        "setupVisible": false
+        "setupEdit": true,
+        "setupVisible": true
       },
       "fromBin": {
         "original": "From Bin",
         "singular": "Dari Bin",
         "plural": "",
-        "setupEdit": false,
-        "setupVisible": false
+        "setupEdit": true,
+        "setupVisible": true
       },
       "toBin": {
         "original": "To Bin",
         "singular": "Ke Bin",
         "plural": "",
-        "setupEdit": false,
-        "setupVisible": false
+        "setupEdit": true,
+        "setupVisible": true
       },
       "referenceNumber": {
         "original": "Reference Number",
         "singular": "Nombor Rujukan",
         "plural": "",
-        "setupEdit": false,
-        "setupVisible": false
+        "setupEdit": true,
+        "setupVisible": true
       },
       "notes": {
         "original": "Notes",
         "singular": "Nota",
         "plural": "Nota",
-        "setupEdit": false,
-        "setupVisible": false
+        "setupEdit": true,
+        "setupVisible": true
       },
       "productName": {
         "original": "Spare Part Name",
         "singular": "Nama Alat Ganti",
         "plural": "",
-        "setupEdit": false,
-        "setupVisible": false
+        "setupEdit": true,
+        "setupVisible": true
       },
       "assetName": {
         "original": "Asset Name",
         "singular": "Nama Aset",
         "plural": "",
-        "setupEdit": false,
-        "setupVisible": false
+        "setupEdit": true,
+        "setupVisible": true
       },
       "sku": {
         "original": "SKU",
         "singular": "SKU",
         "plural": "",
-        "setupEdit": false,
-        "setupVisible": false
+        "setupEdit": true,
+        "setupVisible": true
       },
       "qtyAvailable": {
         "original": "Quantity Available",
         "singular": "Kuantiti Tersedia",
         "plural": "",
-        "setupEdit": false,
-        "setupVisible": false
+        "setupEdit": true,
+        "setupVisible": true
       },
       "available": {
         "original": "Available",
         "singular": "Tersedia",
         "plural": "",
-        "setupEdit": false,
-        "setupVisible": false
+        "setupEdit": true,
+        "setupVisible": true
       },
       "qtyTransfer": {
         "original": "Quantity to Transfer",
         "singular": "Kuantiti untuk Dipindahkan",
         "plural": "",
-        "setupEdit": false,
-        "setupVisible": false
+        "setupEdit": true,
+        "setupVisible": true
       },
       "quantity": {
         "original": "Quantity",
@@ -10030,71 +9610,71 @@
         "original": "Transfer No.",
         "singular": "No. Pemindahan",
         "plural": "",
-        "setupEdit": false,
-        "setupVisible": false
+        "setupEdit": true,
+        "setupVisible": true
       },
       "date": {
         "original": "Date",
         "singular": "Tarikh",
         "plural": "",
-        "setupEdit": false,
-        "setupVisible": false
+        "setupEdit": true,
+        "setupVisible": true
       },
       "referenceNo": {
         "original": "Reference Number",
         "singular": "Nombor Rujukan",
         "plural": "",
-        "setupEdit": false,
-        "setupVisible": false
+        "setupEdit": true,
+        "setupVisible": true
       },
       "type": {
         "original": "Type",
         "singular": "Jenis",
         "plural": "",
-        "setupEdit": false,
-        "setupVisible": false
+        "setupEdit": true,
+        "setupVisible": true
       },
       "transferredBy": {
         "original": "Transferred By",
         "singular": "Dipindahkan Oleh",
         "plural": "",
-        "setupEdit": false,
-        "setupVisible": false
+        "setupEdit": true,
+        "setupVisible": true
       },
       "assignedStatus": {
         "original": "Assigned Status",
         "singular": "Status Ditugaskan",
         "plural": "",
-        "setupEdit": false,
-        "setupVisible": false
+        "setupEdit": true,
+        "setupVisible": true
       },
       "assignedTo": {
         "original": "Assigned To",
         "singular": "Ditugaskan Kepada",
         "plural": "",
-        "setupEdit": false,
-        "setupVisible": false
+        "setupEdit": true,
+        "setupVisible": true
       },
       "transferredDateTime": {
         "original": "Transferred Date & Time",
         "singular": "Tarikh & Masa Pemindahan",
         "plural": "",
-        "setupEdit": false,
-        "setupVisible": false
+        "setupEdit": true,
+        "setupVisible": true
       },
       "acceptedRejectedBy": {
         "original": "Accepted/Rejected By",
         "singular": "Diterima/Ditolak Oleh",
         "plural": "",
-        "setupEdit": false,
-        "setupVisible": false
+        "setupEdit": true,
+        "setupVisible": true
       },
       "remarks": {
         "original": "Remark",
         "singular": "Catatan",
         "plural": "Catatan",
-        "setupEdit": false,
-        "setupVisible": false
+        "setupEdit": true,
+        "setupVisible": true
       },
       "mine": {
         "original": "Mine",
@@ -10121,85 +9701,22 @@
         "original": "User Bin",
         "singular": "Bin Pengguna",
         "plural": "",
-        "setupEdit": false,
-        "setupVisible": false
+        "setupEdit": true,
+        "setupVisible": true
       },
       "locationBin": {
         "original": "Location Bin",
         "singular": "Lokasi Bin",
         "plural": "",
-        "setupEdit": false,
-        "setupVisible": false
+        "setupEdit": true,
+        "setupVisible": true
       },
       "acceptedDate": {
         "original": "Accepted Date",
         "singular": "Tarikh Diterima",
         "plural": "",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "transferToBin": {
-        "original": "Transfer to Bin",
-        "singular": "Pindahkan ke Bin",
-        "plural": "",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "transferToUser": {
-        "original": "Transfer to User",
-        "singular": "Pindahkan ke Pengguna",
-        "plural": "",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "removeSelectedAsset": {
-        "original": "Remove selected assets from their respective bins",
-        "singular": "Buang aset terpilih dari bin masing-masing",
-        "plural": "",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "status": {
-        "original": "Status",
-        "singular": "Status",
-        "plural": "",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "from": {
-        "original": "From",
-        "singular": "Dari",
-        "plural": "",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "transferFromBin": {
-        "original": "Transfer from Bin",
-        "singular": "Pindahkan dari Bin",
-        "plural": "",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "transferFromUser": {
-        "original": "Transfer from User",
-        "singular": "Pindahkan dari Pengguna",
-        "plural": "",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "selectAsset": {
-        "original": "Select Asset",
-        "singular": "Pilih Aset",
-        "plural": "",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "selectSparePart": {
-        "original": "Select Spare Part",
-        "singular": "Pilih Alat Ganti",
-        "plural": "",
-        "setupEdit": false,
-        "setupVisible": false
+        "setupEdit": true,
+        "setupVisible": true
       }
     },
     "tooltips": {
@@ -10207,19 +9724,9 @@
         "original": "Bin Lookup",
         "singular": "Carian Bin",
         "plural": "",
-        "setupEdit": false,
-        "setupVisible": false
+        "setupEdit": true,
+        "setupVisible": true
       }
-    },
-    "validationFE": {
-      "assetNotFound": "Aset tidak ditemui",
-      "sparePartNotFound": "Alat ganti tidak ditemui",
-      "addAtLeastOneAsset":"Tambah sekurang-kurangnya satu aset untuk meneruskan",
-      "addAtLeastOneSparePart":"Tambah sekurang-kurangnya satu alat ganti untuk meneruskan",
-      "oneSelectionToProceed":"Buat sekurang-kurangnya satu pilihan untuk meneruskan",
-      "exceededTotalSerialNoAdded":"Anda telah melebihi jumlah nombor siri yang boleh ditambah dalam satu masa. Sila masukkan hanya sehingga 50 nombor siri.",
-      "assetHasBeenSelected":"Aset ini telah dipilih, sila pilih aset lain.",
-      "selectBinToProceed":"Pilih bin untuk meneruskan"
     },
     "validationBE": {
       "binTransferIdExists": "Pemindahan Bin baru tidak boleh mempunyai ID yang sudah ada",
@@ -10262,46 +9769,7 @@
       "binTransferSavedSuccessfully": "Pemindahan Bin disimpan dengan berjaya",
       "assetsTransferred": "Aset dipindahkan",
       "productsTransferred": "Alat Ganti dipindahkan",
-      "assetsAreNotAllowedToTransfer": "Aset tidak dibenarkan untuk dipindahkan kepada Pesanan Kerja",
-      "selectAssetsToTransfer":"Pilih aset yang ingin anda pindahkan",
-      "selectBinToTransferAssets":"Pilih bin yang ingin anda pindahkan aset ke",
-      "confirmAssetToTransfer":"Sahkan aset yang ingin anda pindahkan",
-      "selectBinToTransferAboveAsset":"Pilih bin yang ingin anda pindahkan aset di atas ke",
-      "typePasteSerialNumbers":"Taip atau tampal nombor siri aset yang ingin anda pindahkan dengan maksimum 50 nombor siri pada satu masa. Nota: Pisahkan nombor siri dengan ',' atau baris baharu.",
-      "inputSerialNumbers":"Taip atau tampal nombor siri aset yang ingin anda pindahkan dengan maksimum 50 nombor siri pada satu masa.",
-      "inputSKU":"Taip atau tampal SKU alat ganti yang ingin anda pindahkan dengan maksimum 50 SKU pada satu masa.",
-      "serialNumberNote":"Nota",
-      "serialNumberSeparation":"Pisahkan nombor siri dengan ',' atau baris baharu.",
-      "skuSeparation":"Asingkan SKU dengan ',' atau baris baharu.",
-      "transferCompletedImmediately":"Pemindahan ini akan diselesaikan serta-merta.",
-      "transferNeedApproval":"Pemindahan ini perlu mendapat kelulusan sebelum diselesaikan.",
-      "selectSparePartsToTransfer":"Pilih alat ganti yang ingin anda pindahkan",
-      "selectBinToTransferAboveSpareParts":"Pilih bin yang ingin anda pindahkan alat ganti di atas ke",
-      "confirmSparePartsAdjust":"Sahkan alat ganti yang ingin anda laraskan",
-      "selectBinsToAdjustSpareParts":"Pilih bin yang ingin anda laraskan alat ganti di dalamnya",
-      "selectOptionTransferSpecificItems":"Pilih pilihan ini untuk memindahkan item tertentu mengikut",
-      "selectOptionTo":"Pilih pilihan ini untuk",
-      "browseAssetList":"Melayari senarai aset anda",
-      "browseSparePartsList":"Melayari senarai alat ganti anda",
-      "selectAssetsViaSerialNo":"Memilih aset melalui nombor siri",
-      "addingViaSku":"Menambah melalui SKU",
-      "bulkTransferBetweenBins":"Pindahkan item secara pukal antara bin",
-      "reorganizeStorageSystem":"Susun semula sistem penyimpanan anda",
-      "moveAssetsFromOneBinToAnother":"Pindahkan aset dari satu bin ke bin lain",
-      "moveSparePartsFromOneBinToAnother":"Pindahkan alat ganti dari satu bin ke bin lain",
-      "selectBinTransferAssetFrom":"Pilih bin yang ingin anda pindahkan aset daripadanya",
-      "selectAssetsToBeTransferred":"Pilih aset yang akan dipindahkan",
-      "selectSparePartsToBeTransferred":"Pilih alat ganti yang akan dipindahkan",
-      "selectBinTransferSparePartFrom":"Pilih bin yang ingin anda pindahkan alat ganti daripadanya",
-      "selectBinToTransferSpareParts":"Pilih bin yang ingin anda pindahkan alat ganti ke",
-      "specifySparePartQuantity":"Anda boleh menentukan kuantiti alat ganti pada langkah seterusnya",
-      "addQuantitiesTransferred":"Tambah kuantiti yang akan dipindahkan",
-      "enterSerialNumberHere":"Masukkan nombor siri di sini. Eg. 128371253ABC",
-      "enterSKUHere":"Masukkan SKU di sini. Eg. 128371253ABC",
-      "areYouSureInitiateTransfer":"Adakah anda pasti ingin mulakan pemindahan tong ini?",
-      "selectedBinNoLongerContains":"Tong yang dipilih tidak lagi mengandungi item berikut",
-      "needTransferItemManually":"Anda perlu memilih dan memindahkan item-item ini secara manual. Item lain yang dipilih akan dipindahkan.",
-      "transferCannotContinue":"Pemindahan tidak dapat diteruskan kerana tong yang dipilih tidak lagi mengandungi item berikut"
+      "assetsAreNotAllowedToTransfer": "Aset tidak dibenarkan untuk dipindahkan kepada Pesanan Kerja"
     }
   },
   "checkAvailibility": {
@@ -10329,14 +9797,14 @@
         "setupVisible": true
       },
       "sec2": {
-        "original": "Select Spare Part(s)",
+        "original": "Pilih Alat Ganti",
         "singular": "Pilih Alat Ganti",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "sec3": {
-        "original": "Select Asset(s)",
+        "original": "Pilih Aset",
         "singular": "Pilih Aset",
         "plural": "",
         "setupEdit": true,
@@ -10446,7 +9914,6 @@
   },
   "consignment": {
     "setupVisible": false,
-    "setupEdit": false,
     "label": {
       "original": "Consignment",
       "singular": "Konsainan",
@@ -10455,8 +9922,7 @@
       "setupVisible": true
     },
     "sections": {
-      "setupVisible": false,
-      "setupEdit": false,
+      "setupVisible": true,
       "sec0": {
         "original": "Pending Approvals",
         "singular": "Kelulusan Tertunda",
@@ -10505,95 +9971,10 @@
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
-      },
-      "sec7": {
-        "original": "New Consignment Note",
-        "singular": "Nota Konsainan Baru",
-        "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
-      },
-      "sec8": {
-        "original": "Consignment Details",
-        "singular": "Butiran Konsainan",
-        "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
-      },
-      "sec9": {
-        "original": "Destination",
-        "singular": "Destinasi",
-        "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
-      },
-      "sec10": {
-        "original": "Review",
-        "singular": "Semakan",
-        "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
-      },
-      "sec11": {
-        "original": "Consignment Summary",
-        "singular": "Ringkasan Konsainan",
-        "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
-      },
-      "sec12": {
-        "original": "Requestor’s Manager Approval",
-        "singular": "Kelulusan Pengurus Peminta",
-        "plural": "Kelulusan Pengurus Peminta",
-        "setupEdit": true,
-        "setupVisible": true
-      },
-      "sec13": {
-        "original": "Receiver Approval 1",
-        "singular": "Kelulusan Penerima 1",
-        "plural": "Kelulusan Penerima 1",
-        "setupEdit": true,
-        "setupVisible": true
-      },
-      "sec14": {
-        "original": "Receiver Approval 2",
-        "singular": "Kelulusan Penerima 2",
-        "plural": "Kelulusan Penerima 2",
-        "setupEdit": true,
-        "setupVisible": true
-      },
-      "sec15": {
-        "original": "Request Details",
-        "singular": "Butiran Permintaan",
-        "plural": "Butiran Permintaan",
-        "setupEdit": true,
-        "setupVisible": true
-      },
-      "sec16": {
-        "original": "Transfer Details",
-        "singular": "Butiran Pemindahan",
-        "plural": "Butiran Pemindahan",
-        "setupEdit": true,
-        "setupVisible": true
-      },
-      "sec17": {
-        "original": "Approver Details",
-        "singular": "Butiran Pemeriksa",
-        "plural": "Butiran Pemeriksa",
-        "setupEdit": true,
-        "setupVisible": true
-      },
-      "sec18": {
-        "original": "Request Summary",
-        "singular": "Ringkasan Permintaan",
-        "plural": "Ringkasan Permintaan",
-        "setupEdit": true,
-        "setupVisible": true
       }
     },
     "fields": {
-      "setupVisible": false,
-      "setupEdit": false,
+      "setupVisible": true,
       "purpose": {
         "original": "Purpose",
         "singular": "Tujuan",
@@ -10761,130 +10142,10 @@
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
-      },
-      "totalUnit": {
-        "original": "Total Units",
-        "singular": "Jumlah Unit",
-        "plural": "Jumlah Unit",
-        "setupEdit": true,
-        "setupVisible": true
-      },
-      "transferId": {
-        "original": "Transfer ID",
-        "singular": "ID Pemindahan",
-        "plural": "ID Pemindahan",
-        "setupEdit": true,
-        "setupVisible": true
-      },
-      "note": {
-        "original": "Note",
-        "singular": "Nota",
-        "plural": "Nota-nota",
-        "setupEdit": true,
-        "setupVisible": true
-      },
-      "approvalStatus": {
-        "original": "Approval Status",
-        "singular": "Status Kelulusan",
-        "plural": "Status Kelulusan",
-        "setupEdit": true,
-        "setupVisible": true
-      },
-      "consignedDate": {
-        "original": "Consigned Date",
-        "singular": "Tarikh Konsainan",
-        "plural": "Tarikh Konsainan",
-        "setupEdit": true,
-        "setupVisible": true
-      },
-      "approvedDateTime": {
-        "original": "Approved Date & Time",
-        "singular": "Tarikh & Masa Diluluskan",
-        "plural": "Tarikh & Masa Diluluskan",
-        "setupEdit": true,
-        "setupVisible": true
-      },
-      "consignedBy": {
-        "original": "Consigned By",
-        "singular": "Dikonsain Oleh",
-        "plural": "Dikonsain Oleh",
-        "setupEdit": true,
-        "setupVisible": true
-      },
-      "approver": {
-        "original": "Approver",
-        "singular": "Pemeriksa",
-        "plural": "Pemeriksa",
-        "setupEdit": true,
-        "setupVisible": true
-      },
-      "responseDateTime": {
-        "original": "Response Date & Time",
-        "singular": "Tarikh & Masa Respons",
-        "plural": "",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "requestNote": {
-        "original": "Request Note",
-        "singular": "Nota Permintaan",
-        "plural": "Nota Permintaan",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "totalCount": {
-        "original": "Total Count",
-        "singular": "Jumlah Kiraan",
-        "plural": "Jumlah Kiraan",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "qtyToTransfer": {
-        "original": "Qty to Transfer",
-        "singular": "Kuantiti untuk Dipindahkan",
-        "plural": "Kuantiti untuk Dipindahkan",
-        "setupEdit": true,
-        "setupVisible": true
-      },
-      "from": {
-        "original": "From",
-        "singular": "Daripada",
-        "plural": "Daripada",
-        "setupEdit": true,
-        "setupVisible": true
-      },
-      "fromBin": {
-        "original": "From Bin",
-        "singular": "Dari Tong",
-        "plural": "Dari Tong",
-        "setupEdit": true,
-        "setupVisible": true
-      },
-      "toBin": {
-        "original": "To Bin",
-        "singular": "Ke Tong",
-        "plural": "Ke Tong",
-        "setupEdit": true,
-        "setupVisible": true
-      },
-      "consignmentNote": {
-        "original": "Consignment Note",
-        "singular": "Nota Konsainan",
-        "plural": "Nota Konsainan",
-        "setupEdit": true,
-        "setupVisible": true
-      },
-      "item": {
-        "original": "Items",
-        "singular": "Item",
-        "plural": "Item-item",
-        "setupEdit": true,
-        "setupVisible": true
       }
     },
     "tooltips": {
-      "setupVisible": false,
-      "setupEdit": false,
+      "setupVisible": true,
       "assetSerialNoLookup": {
         "original": "Asset Serial No. Lookup",
         "singular": "Carian No Siri Aset",
@@ -10898,20 +10159,7 @@
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
-      },
-      "includeChildAsset": {
-        "original": "Includes child assets of selected assets in the transfer. Only child assets in the same bin as their parent will be included.",
-        "singular": "Termasuk aset anak kepada aset yang dipilih dalam pemindahan. Hanya aset anak yang berada dalam tong yang sama dengan induknya akan disertakan.",
-        "plural": "",
-        "setupEdit": false,
-        "setupVisible": false
       }
-    },
-    "validationFE": {
-      "qtyTransferExceedsQtyAvailable":"Kuantiti untuk dipindahkan melebihi kuantiti yang tersedia",
-      "atLeastOneAssetRequired":"Sekurang-kurangnya satu aset diperlukan untuk meneruskan",
-      "atLeastOneSparePartRequired":"Sekurang-kurangnya satu alat ganti diperlukan untuk meneruskan",
-      "atLeastOneItemRequired":"Sekurang-kurangnya satu item diperlukan untuk meneruskan"
     },
     "validationBE": {
       "consignmentIdNotFound": "ID tidak dijumpai",
@@ -10925,55 +10173,18 @@
       "consignmentIdExists": "Nota konsainan baru tidak boleh mempunyai ID sedia ada",
       "consignmentItemIdExists": "Item konsainan baru tidak boleh mempunyai ID sedia ada",
       "consignmentItemTypeNotFound": "Jenis Item Konsainan tidak dijumpai",
-      "consignmentItemIdNotFound": "ID tidak dijumpai",
-      "userGroupNotFoundOfFromBin": "Kumpulan pengguna untuk zon From Bin tidak dijumpai",
-      "userGroupNotFoundOfToBin": "Kumpulan pengguna untuk zon To Bin tidak dijumpai",
-      "fromBinNotFound": "From Bin tidak dijumpai",
-      "toBinNotFound": "To Bin tidak dijumpai",
-      "noAssetsOrProductsFound": "Tiada aset atau produk ditemui"
+      "consignmentItemIdNotFound": "ID tidak dijumpai"
     },
     "messages": {
       "selectType": "Pilih Jenis",
       "selectCompany": "Pilih Syarikat",
       "uploadCopyApproved": "Sila muat naik salinan Konsainan yang Diluluskan",
       "approvedCannotDelete": "Nota Konsainan telah diluluskan, oleh itu tidak dapat dipadamkan",
-      "acknowledgeCannotDelete": "Nota Konsainan telah disahkan, oleh itu tidak boleh dipadamkan",
-      "whatWouldYouLikeSend":"Apa yang anda ingin hantar?",
-      "specificAssets":"Aset Tertentu",
-      "sendByType":"Hantar mengikut Jenis",
-      "sendFromBin":"Hantar dari Bin",
-      "sendAnyAvailable":"Hantar Mana-mana yang Tersedia",
-      "chooseThisSerialNumber":"Pilih ini jika anda tahu nombor siri bin dan aset.",
-      "selectSparePartFromBin":"Pilih alat ganti tertentu dari bin yang diketahui",
-      "defineCustomListOfItems":"Tentukan senarai item tersuai untuk dihantar",
-      "sendAssetByTypeQty":"Hantar aset mengikut jenis dan kuantiti dan bukan nombor siri",
-      "sendSparePartAvailableFromBin":"Hantar alat ganti dari mana-mana tong yang tersedia",
-      "selectBinSendingAssetFrom":"Pilih tong yang anda hantar aset daripadanya",
-      "youCanSelectBinInCharge":"Anda hanya boleh memilih tong yang anda bertanggungjawab ke atasnya",
-      "selectItemsToBeSent":"Pilih item yang akan dihantar",
-      "selectBinSendAssetTo":"Pilih tong yang anda ingin hantar aset ke",
-      "reviewSelectionsMade":"Semak pilihan yang telah anda buat sebelum menghantar permintaan anda.",
-      "reviewSelectionsMadeBeforeSubmit":"Semak pilihan yang telah anda buat sebelum menghantar",
-      "selectBinSendingSparePartFrom":"Pilih tong yang anda hantar alat ganti daripadanya",
-      "enterQtySparePartsRequired":"Masukkan kuantiti alat ganti yang diperlukan",
-      "selectBinSendSparePartsTo":"Pilih tong yang anda ingin hantar alat ganti ke",
-      "selectBinConsignItemFrom":"Pilih tong yang anda ingin konsain item daripadanya",
-      "selectBinSendItemsTo":"Pilih tong yang anda ingin hantar item ke",
-      "hasCreatedConsignmentNote":"telah mencipta Nota Konsainan",
-      "andIsWaitingApproval":"dan sedang menunggu kelulusan anda",
-      "from": "Dari",
-      "hasApprovedConsignmentNote":"telah Meluluskan Nota Konsainan anda",
-      "hasRejectedConsignmentNote":"telah Menolak Nota Konsainan anda",
-      "hasBeenApprovedRequisitionNote":"telah Diluluskan. Anda kini boleh meneruskan pemindahan item yang dipilih.",
-      "has":"telah",
-      "hasBeen":"telah",
-      "yourRequisitionNote":"Nota Konsainan anda",
-      "youCanProceedToTransfer":"Anda kini boleh meneruskan pemindahan item yang dipilih."
+      "acknowledgeCannotDelete": "Nota Konsainan telah disahkan, oleh itu tidak boleh dipadamkan"
     }
   },
   "requisition": {
     "setupVisible": false,
-    "setupEdit": false,
     "label": {
       "original": "Requisition",
       "singular": "Permintaan",
@@ -10982,8 +10193,7 @@
       "setupVisible": true
     },
     "sections": {
-      "setupVisible": false,
-      "setupEdit": false,
+      "setupVisible": true,
       "sec0": {
         "original": "Pending Approvals",
         "singular": "Kelulusan Tertunda",
@@ -11053,109 +10263,10 @@
         "plural": "Pengesahan",
         "setupEdit": true,
         "setupVisible": true
-      },
-      "sec10": {
-        "original": "New Requisition Note",
-        "singular": "Nota Permohonan Baru",
-        "plural": "Nota Permohonan Baru",
-        "setupEdit": true,
-        "setupVisible": true
-      },
-      "sec11": {
-        "original": "Custom",
-        "singular": "Tersuai",
-        "plural": "Tersuai",
-        "setupEdit": true,
-        "setupVisible": true
-      },
-      "sec12": {
-        "original": "Request Details",
-        "singular": "Butiran Permintaan",
-        "plural": "Butiran Permintaan",
-        "setupEdit": true,
-        "setupVisible": true
-      },
-      "sec13": {
-        "original": "Destination",
-        "singular": "Destinasi",
-        "plural": "Destinasi",
-        "setupEdit": true,
-        "setupVisible": true
-      },
-      "sec14": {
-        "original": "Review",
-        "singular": "Semakan",
-        "plural": "Semakan",
-        "setupEdit": true,
-        "setupVisible": true
-      },
-      "sec15": {
-        "original": "Request Summary",
-        "singular": "Ringkasan Permintaan",
-        "plural": "Ringkasan Permintaan",
-        "setupEdit": true,
-        "setupVisible": true
-      },
-      "sec16": {
-        "original": "Transfer Details",
-        "singular": "Butiran Pemindahan",
-        "plural": "Butiran Pemindahan",
-        "setupEdit": true,
-        "setupVisible": true
-      },
-      "sec17": {
-        "original": "Approval Details",
-        "singular": "Butiran Kelulusan",
-        "plural": "Butiran Kelulusan",
-        "setupEdit": true,
-        "setupVisible": true
-      },
-      "sec18": {
-        "original": "Requestor’s Manager Approval",
-        "singular": "Kelulusan Pengurus Peminta",
-        "plural": "Kelulusan Pengurus Peminta",
-        "setupEdit": true,
-        "setupVisible": true
-      },
-      "sec19": {
-        "original": "Receiver Approval 1",
-        "singular": "Kelulusan Penerima 1",
-        "plural": "Kelulusan Penerima 1",
-        "setupEdit": true,
-        "setupVisible": true
-      },
-      "sec20": {
-        "original": "Receiver Approval 2",
-        "singular": "Kelulusan Penerima 2",
-        "plural": "Kelulusan Penerima 2",
-        "setupEdit": true,
-        "setupVisible": true
-      },
-      "sec21": {
-        "original": "All Requisitions",
-        "singular": "Semua Permohonan",
-        "plural": "Semua Permohonan",
-        "setupEdit": true,
-        "setupVisible": true
-      },
-      "sec22": {
-        "original": "Pending My Approval",
-        "singular": "Menunggu Kelulusan Saya",
-        "plural": "Menunggu Kelulusan Saya",
-        "setupEdit": true,
-        "setupVisible": true
-      },
-      "sec23": {
-        "original": "Edit Requisition Note",
-        "singular": "Edit Nota Permohonan",
-        "plural": "Edit Nota Permohonan",
-        "setupEdit": true,
-        "setupVisible": true
       }
     },
     "fields": {
-      "setupVisible": false,
-      "setupEdit": false,
+      "setupVisible": true,
       "priority": {
         "original": "Priority",
         "singular": "Keutamaan",
@@ -11379,123 +10490,10 @@
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
-      },
-      "totalUnit": {
-        "original": "Total Units",
-        "singular": "Jumlah Unit",
-        "plural": "Jumlah Unit",
-        "setupEdit": true,
-        "setupVisible": true
-      },
-      "qtyToTransfer": {
-        "original": "Qty to Transfer",
-        "singular": "Kuantiti untuk Dipindahkan",
-        "plural": "Kuantiti untuk Dipindahkan",
-        "setupEdit": true,
-        "setupVisible": true
-      },
-      "approvalStatus": {
-        "original": "Approval Status",
-        "singular": "Status Kelulusan",
-        "plural": "Status Kelulusan",
-        "setupEdit": true,
-        "setupVisible": true
-      },
-      "requestDate": {
-        "original": "Request Date",
-        "singular": "Tarikh Permintaan",
-        "plural": "Tarikh Permintaan",
-        "setupEdit": true,
-        "setupVisible": true
-      },
-      "approvedDateTime": {
-        "original": "Approved Date & Time",
-        "singular": "Tarikh & Masa Diluluskan",
-        "plural": "Tarikh & Masa Diluluskan",
-        "setupEdit": true,
-        "setupVisible": true
-      },
-      "requestedBy": {
-        "original": "Requested By",
-        "singular": "Diminta Oleh",
-        "plural": "Diminta Oleh",
-        "setupEdit": true,
-        "setupVisible": true
-      },
-      "note": {
-        "original": "Note",
-        "singular": "Nota",
-        "plural": "Nota-nota",
-        "setupEdit": true,
-        "setupVisible": true
-      },
-      "transferId": {
-        "original": "Transfer ID",
-        "singular": "ID Pemindahan",
-        "plural": "ID Pemindahan",
-        "setupEdit": true,
-        "setupVisible": true
-      },
-      "fromBin": {
-        "original": "From Bin",
-        "singular": "Dari Bin",
-        "plural": "",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "toBin": {
-        "original": "To Bin",
-        "singular": "Ke Bin",
-        "plural": "",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "approver": {
-        "original": "Approver",
-        "singular": "Pemeriksa",
-        "plural": "",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "responseDateTime": {
-        "original": "Response Date & Time",
-        "singular": "Tarikh & Masa Respons",
-        "plural": "",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "remark": {
-        "original": "Remarks",
-        "singular": "Ulasan",
-        "plural": "Ulasan",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "requestNote": {
-        "original": "Request Note",
-        "singular": "Nota Permintaan",
-        "plural": "Nota Permintaan",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "totalCount": {
-        "original": "Total Count",
-        "singular": "Jumlah Kiraan",
-        "plural": "Jumlah Kiraan",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "item": {
-        "original": "Items",
-        "singular": "Item",
-        "plural": "Item-item",
-        "setupEdit": true,
-        "setupVisible": true
       }
     },
     "tooltips": {
-      "setupVisible": false,
-      "setupEdit": false,
+      "setupVisible": true,
       "assetSerialNoLookup": {
         "original": "Asset Serial No. Lookup",
         "singular": "Carian No Siri Aset",
@@ -11509,19 +10507,7 @@
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
-      },
-      "includeChildAsset": {
-        "original": "Includes child assets of selected assets in the transfer. Only child assets in the same bin as their parent will be included.",
-        "singular": "Termasuk aset anak kepada aset yang dipilih dalam pemindahan. Hanya aset anak yang berada dalam tong yang sama dengan induknya akan disertakan.",
-        "plural": "",
-        "setupEdit": false,
-        "setupVisible": false
       }
-    },
-    "validationFE": {
-      "atLeastOneAssetRequired":"Sekurang-kurangnya satu aset diperlukan untuk meneruskan",
-      "atLeastOneSparePartRequired":"Sekurang-kurangnya satu alat ganti diperlukan untuk meneruskan",
-      "atLeastOneItemRequired":"Sekurang-kurangnya satu item diperlukan untuk meneruskan"
     },
     "validationBE": {
       "requisitionIdNotFound": "ID tidak dijumpai",
@@ -11542,12 +10528,7 @@
       "requisitionIdExists": "Nota permintaan baru tidak boleh mempunyai ID sedia ada",
       "requisitionItemIdExists": "Item permintaan baru tidak boleh mempunyai ID sedia ada",
       "requisitionItemTypeFound": "Jenis Item Permintaan tidak dijumpai",
-      "requisitionItemIdNotFound": "ID tidak dijumpai",
-      "userGroupNotFoundOfFromBin": "Kumpulan pengguna untuk zon From Bin tidak dijumpai",
-      "userGroupNotFoundOfToBin": "Kumpulan pengguna untuk zon To Bin tidak dijumpai",
-      "fromBinNotFound": "From Bin tidak dijumpai",
-      "toBinNotFound": "To Bin tidak dijumpai",
-      "noAssetsOrProductsFound": "Tiada aset atau produk ditemui"
+      "requisitionItemIdNotFound": "ID tidak dijumpai"
     },
     "messages": {
       "selectPriority": "Pilih Keutamaan",
@@ -11557,51 +10538,7 @@
       "uploadCopyApproved": "Sila muat naik salinan Requisisi yang Diluluskan",
       "requisitionAcceptedSuccessfully": "Permohonan berjaya diterima",
       "requisitionRejectedSuccessfully": "Permohonan berjaya ditolak",
-      "requisitionSubmittedSuccessfully": "Permohonan berjaya dihantar",
-      "whatWouldYouLikeRequest":"Apakah yang anda ingin minta?",
-      "defineCustomListOfItems":"Tentukan senarai item tersuai untuk diminta",
-      "specificAssets":"Aset Tertentu",
-      "requestByType":"Permintaan mengikut Jenis",
-      "requestFromBin":"Permintaan dari Bin",
-      "requestAnyAvailable":"Minta Mana-mana yang Tersedia",
-      "chooseThisSerialNumber":"Pilih ini jika anda tahu nombor siri bin dan aset.",
-      "requestAssetByTypeQty":"Minta aset mengikut jenis dan kuantiti dan bukan nombor siri.",
-      "selectSparePartFromBin":"Pilih alat ganti tertentu dari bin yang diketahui.",
-      "requestSparePartFromBin":"Minta alat ganti dari mana-mana bin yang tersedia.",
-      "selectBinRequestAssetFrom":"Pilih bin yang anda minta aset daripadanya",
-      "unsureOfAssetLocation":"Tidak pasti lokasi aset?",
-      "notSureBinAvailableAsset":"Tidak pasti bin mana yang mempunyai aset tersedia?",
-      "selectItemsRequested":"Pilih item yang ingin diminta",
-      "selectBinToTransferAssetTo":"Pilih bin yang anda ingin pindahkan aset ke",
-      "youCanSelectBinInCharge":"Anda hanya boleh memilih tong yang anda bertanggungjawab ke atasnya",
-      "reviewSelectionsMade":"Semak pilihan yang telah anda buat sebelum menghantar permintaan anda.",
-      "selectBinRequestSparePartFrom":"Pilih tong yang anda minta alat ganti daripadanya",
-      "unsureOfSparePartAvailability":"Tidak pasti ketersediaan alat ganti?",
-      "notSureBinAvailableSpareParts":"Tidak pasti tong mana yang mempunyai alat ganti tersedia?",
-      "enterQtySparePartsRequired":"Masukkan kuantiti alat ganti yang diperlukan",
-      "selectBinToTransferSparePartTo":"Pilih tong yang anda ingin pindahkan alat ganti ke",
-      "unsureItemsRequestStored":"Jika anda tidak pasti di mana item yang anda minta disimpan, pilih tong yang diuruskan oleh pasukan yang boleh mencari dan memenuhi permintaan anda",
-      "selectBinRequestFrom":"Pilih tong yang anda minta item daripadanya",
-      "selectBinToTransferTo":"Pilih tong yang anda ingin pindahkan item ke",
-      "hasRejectedRequisitionNote":"telah Menolak Nota Permohonan anda",
-      "hasApprovedRequisitionNote":"telah Meluluskan Nota Permohonan anda",
-      "hasBeenApprovedRequisitionNote":"telah Diluluskan. Anda kini boleh meneruskan pemindahan item yang dipilih.",
-      "has":"telah",
-      "hasBeen":"telah",
-      "yourRequisitionNote":"Nota Permohonan anda",
-      "youCanProceedToTransfer":"Anda kini boleh meneruskan pemindahan item yang dipilih.",
-      "hasCreatedRequisitionNote":"telah mencipta Nota Permohonan",
-      "andIsWaitingApproval":"dan sedang menunggu kelulusan anda",
-      "from":"daripada",
-      "selectAssetToRequest":"Pilih aset yang ingin diminta",
-      "selectSparePartToRequest":"Pilih alat ganti yang ingin diminta",
-      "selectItemsToRequest":"Pilih item yang ingin diminta",
-      "includeChildAsset":"Termasuk Aset Anak",
-      "selectAssetWishToTransfer":"Pilih aset yang anda ingin pindahkan",
-      "selectSparePartWishToTransfer":"Pilih alat ganti yang anda ingin pindahkan",
-      "selectItemsWishToTransfer":"Pilih item yang anda ingin pindahkan",
-      "filteredBySparePart":"Ditapis mengikut alat ganti dalam tong yang dipilih",
-      "filteredByAsset":"Ditapis mengikut aset dalam tong yang dipilih"
+      "requisitionSubmittedSuccessfully": "Permohonan berjaya dihantar"
     }
   },
   "contacts": {
@@ -12106,54 +11043,6 @@
       }
     }
   },
-  "movement": {
-    "setupEdit": false,
-    "setupVisible": false,
-    "label": {
-      "original": "Movements",
-      "singular": "Pergerakan",
-      "plural": "Pergerakan",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "fields": {
-      "from": {
-        "original": "From",
-        "singular": "Dari",
-        "plural": "",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "to": {
-        "original": "To",
-        "singular": "Ke",
-        "plural": "",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "transferredBy": {
-        "original": "Transferred By",
-        "singular": "Dipindahkan Oleh",
-        "plural": "",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "transferredDate": {
-        "original": "Transferred Date",
-        "singular": "Tarikh Pemindahan",
-        "plural": "",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "transferNo": {
-        "original": "Transfer No.",
-        "singular": "No. Pemindahan",
-        "plural": "",
-        "setupEdit": false,
-        "setupVisible": false
-      }
-    }
-  },
   "header": {
     "setupVisible": false,
     "label": {
@@ -12488,10 +11377,10 @@
         "setupVisible": false
       },
       "transferByProducts": {
-        "original": "Transfer Spare Parts",
-        "singular": "Pindahkan Alat Ganti",
+        "original": "Transfer by Products",
+        "singular": "Pindahkan Mengikut Alat Ganti",
         "plural": "",
-        "setupEdit": false,
+        "setupEdit": true,
         "setupVisible": false
       },
       "transferByBin": {
@@ -13558,13 +12447,6 @@
         "setupEdit": true,
         "setupVisible": false
       },
-      "addProduct":{
-        "original": "Add Spare Parts",
-        "singular": "Tambah Alat Ganti",
-        "plural": "Tambah Alat Ganti",
-        "setupEdit": false,
-        "setupVisible": false
-      },
       "discard":{
         "original": "Discard",
         "singular": "Buang",
@@ -13576,13 +12458,6 @@
         "original": "Create with AI",
         "singular": "Cipta dengan AI",
         "plural": "",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "mapPicklist":{
-        "original": "Map Picklist",
-        "singular": "Pemetaan Pilihan",
-        "plural": "Pemetaan Pilihan",
         "setupEdit": false,
         "setupVisible": false
       },
@@ -13607,10 +12482,10 @@
         "setupEdit": false,
         "setupVisible": false
       },
-      "addSection":{
-        "original": "Add Section",
-        "singular": "Tambah Bahagian",
-        "plural": "Tambah Bahagian",
+      "addProduct":{
+        "original": "Add Spare Parts",
+        "singular": "Tambah Alat Ganti",
+        "plural": "Tambah Alat Ganti",
         "setupEdit": false,
         "setupVisible": false
       },
@@ -13618,20 +12493,6 @@
         "original": "Group View",
         "singular": "Paparan Kumpulan",
         "plural": "Paparan Kumpulan",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "addAPage":{
-        "original": "Add Page",
-        "singular": "Tambah Halaman",
-        "plural": "Tambah Halaman",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "locateAsset":{
-        "original": "Locate Asset",
-        "singular": "Cari Aset",
-        "plural": "Cari Aset",
         "setupEdit": false,
         "setupVisible": false
       },
@@ -13655,203 +12516,7 @@
         "plural": "Gunakan Koordinat",
         "setupEdit": false,
         "setupVisible": false
-      },
-      "transferAsset":{
-        "original": "Transfer Asset",
-        "singular": "Pindahkan Aset",
-        "plural": "Pindahkan Aset",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "addAsset":{
-        "original": "Add Asset",
-        "singular": "Tambah Aset",
-        "plural": "Tambah Aset",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "openExternally":{
-        "original": "Open Externally",
-        "singular": "Buka Secara Luaran",
-        "plural": "Buka Secara Luaran",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "pasteSerialNumbers":{
-        "original": "Paste Serial Numbers",
-        "singular": "Tampal Nombor Siri",
-        "plural": "Tampal Nombor Siri",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "pasteSku":{
-        "original": "Paste SKU",
-        "singular": "Tampal SKU",
-        "plural": "Tampal SKU",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "generateTemporarySerialNo":{
-        "original": "Generate Temporary Serial No",
-        "singular": "Jana Nombor Siri Sementara",
-        "plural": "Jana Nombor Siri Sementara",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "initiateBinTransfer":{
-        "original": "Initiate Bin Transfer",
-        "singular": "Mulakan Pemindahan Tong",
-        "plural": "Mulakan Pemindahan Tong",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "manualBinTransfer":{
-        "original": "Manual Bin Transfer",
-        "singular": "Pemindahan Tong Secara Manual",
-        "plural": "Pemindahan Tong Secara Manual",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "previewCsv":{
-        "original": "Preview CSV",
-        "singular": "Pratonton CSV",
-        "plural": "Pratonton CSV",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "addNewStatus":{
-        "original": "Add New Status",
-        "singular": "Tambah Status Baharu",
-        "plural": "Tambah Status Baharu",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "addNewType":{
-        "original": "Add New Type",
-        "singular": "Tambah Jenis Baharu",
-        "plural": "Tambah Jenis Baharu",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "saveConfigurationImportAsset":{
-        "original": "Save Configurations & Import Assets",
-        "singular": "Simpan Konfigurasi & Import Aset",
-        "plural": "Simpan Konfigurasi & Import Aset",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "skip":{
-        "original": "Skip",
-        "singular": "Langkau",
-        "plural": "Langkau",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "saveConfigurationImportWorkOrders":{
-        "original": "Save Configurations & Import Work Orders",
-        "singular": "Simpan Konfigurasi & Import Pesanan Kerja",
-        "plural": "Simpan Konfigurasi & Import Pesanan Kerja",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "chooseFile":{
-        "original": "Choose a File",
-        "singular": "Pilih Fail",
-        "plural": "Pilih Fail",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "choose":{
-        "original": "Choose",
-        "singular": "Pilih",
-        "plural": "Pilih",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "startLearning":{
-        "original": "Start Learning",
-        "singular": "Mulakan Pembelajaran",
-        "plural": "Mulakan Pembelajaran",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "watchVideo":{
-        "original": "Watch Videos",
-        "singular": "Tonton Video",
-        "plural": "Tonton Video",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "exploreDocs":{
-        "original": "Explore Docs",
-        "singular": "Terokai Dokumen",
-        "plural": "Terokai Dokumen",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "browseFaqs":{
-        "original": "Browse FAQs",
-        "singular": "Layari Soalan Lazim",
-        "plural": "Layari Soalan Lazim",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "contactSupport":{
-        "original": "Contact Support",
-        "singular": "Hubungi Sokongan",
-        "plural": "Hubungi Sokongan",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "exploreLatestInnovations":{
-        "original": "Explore Latest Innovations",
-        "singular": "Terokai Inovasi Terkini",
-        "plural": "Terokai Inovasi Terkini",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "claimFreeSession":{
-        "original": "Claim Your 2 Free Sessions",
-        "singular": "Tuntut 2 Sesi Percuma Anda",
-        "plural": "Tuntut 2 Sesi Percuma Anda",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "launchSetup":{
-        "original": "Launch Setup",
-        "singular": "Lancar Tetapan",
-        "plural": "Lancar Tetapan",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "finalize":{
-        "original": "Finalize",
-        "singular": "Muktamadkan",
-        "plural": "Muktamadkan",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "addUser":{
-        "original": "Add User",
-        "singular": "Tambah Pengguna",
-        "plural": "Tambah Pengguna",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "letAiCreateConfigure":{
-        "original": "Let AI Create Your Data & Configure Your System",
-        "singular": "Biarkan AI Cipta Data Anda & Konfigurasikan Sistem Anda",
-        "plural": "Biarkan AI Cipta Data Anda & Konfigurasikan Sistem Anda",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "saveConfigurationImportModule":{
-        "original": "Save Configurations & Import",
-        "singular": "Simpan Konfigurasi & Import",
-        "plural": "Simpan Konfigurasi & Import",
-        "setupEdit": false,
-        "setupVisible": false
-      }
+      }	
     },
     "status": {
       "setupVisible": true,
@@ -13867,6 +12532,13 @@
         "singular": "Tersedia",
         "plural": "",
         "setupEdit": true,
+        "setupVisible": false
+      },
+      "breakDown": {
+        "original": "Breakdown",
+        "singular": "Breakdown",
+        "plural": "",
+        "setupEdit": false,
         "setupVisible": false
       },
       "breakdown": {
@@ -14289,34 +12961,6 @@
         "setupEdit": false,
         "setupVisible": false
       },
-      "transferPending": {
-        "original": "Transfer Pending",
-        "singular": "Pemindahan Tertangguh",
-        "plural": "Pemindahan Tertangguh",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "transferFulfilled": {
-        "original": "Transfer Fulfilled",
-        "singular": "Pemindahan Selesai",
-        "plural": "Pemindahan Selesai",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "systemValue": {
-        "original": "System Value",
-        "singular": "Nilai-Nilai Sistem",
-        "plural": "Nilai-Nilai Sistem",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "aiDetected": {
-        "original": "AI Detected",
-        "singular": "Dikesan oleh AI",
-        "plural": "Dikesan oleh AI",
-        "setupEdit": false,
-        "setupVisible": false
-      },
       "followUp": {
         "original": "Follow Up",
         "singular": "Tindak Lanjut",
@@ -14531,18 +13175,6 @@
       "noDocumentIsGenerated": "Tiada dokumen dijana",
       "pullToRefreshToSeeTheCompletion": "Tarik ke bawah untuk melihat penyelesaian",
       "phoneNumberNotAvailable": "Nombor telefon tidak tersedia",
-      "approvalConfirmation":"Pengesahan Kelulusan",
-      "approval":"Kelulusan",
-      "areYouSureApprove":"Adakah anda pasti ingin meluluskan",
-      "approvedSuccessfully":"Diluluskan dengan berjaya",
-      "rejectionConfirmation":"Pengesahan Penolakan",
-      "rejection":"Penolakan",
-      "areYouSureReject":"Adakah anda pasti ingin menolak",
-      "editedSuccessfully":"Berjaya disunting",
-      "total":"Jumlah",
-      "from":"Dari",
-      "to":"Kepada",
-      "or":"Atau",
       "noMatchesFound": "Tiada padanan ditemui. Cuba laraskan kriteria carian anda.",
       "noHistoryAvailable": "Tiada sejarah tersedia. Aktiviti anda akan muncul di sini.",
       "noAttachmentsFoundUploadFiles": "Tiada lampiran ditemui. Muat naik fail untuk melihatnya di sini.",
@@ -14839,9 +13471,7 @@
       "pleaseSignBeforeProceed": "Sila tandatangan sebelum meneruskan",
       "pleaseSignBeforeProceeding": "Sila tandatangan sebelum meneruskan",
       "charactersExceed": "Teks melebihi had aksara (255).",
-      "endDateThanStartDate": "Tarikh tamat mesti selepas tarikh mula",
-      "thisFieldIsRequired":"Medan ini diperlukan",
-      "pleaseMakeOneSelection":"Sila buat satu pilihan untuk meneruskan"
+      "endDateThanStartDate": "Tarikh tamat mesti selepas tarikh mula"
     },
     "validationBE": {
       "sendGridEmailTenantReferenceIdExists": "Rujukan Penyewa E-mel Send Grid baru tidak boleh sudah mempunyai ID",
@@ -14929,13 +13559,6 @@
         "sec6": {
           "original": "Contact Details",
           "singular": "Butiran Hubungan",
-          "plural": "",
-          "setupEdit": true,
-          "setupVisible": false
-        },
-        "sec7": {
-          "original": "Transfer Summary",
-          "singular": "Ringkasan Pemindahan",
           "plural": "",
           "setupEdit": true,
           "setupVisible": false
@@ -15104,17 +13727,6 @@
           "setupEdit": true,
           "setupVisible": false
         }
-      },
-      "messages":{
-        "theFollowingAssetTransferToBin":"Aset berikut akan dipindahkan ke bin berikut",
-        "theFollowingAssetTransferTo":"Aset berikut akan dipindahkan ke",
-        "willBeTransferTo":"akan dipindahkan ke",
-        "theFollowingAssetRemoveFromBin":"Aset berikut akan dikeluarkan dari bin berikut",
-        "theFollowingAssetRemoveFrom":"Aset berikut akan dikeluarkan dari",
-        "willBeRemovedFrom":"akan dikeluarkan dari",
-        "theFollowingSparePartTransferToBin":"Alat ganti berikut akan dipindahkan ke bin beriku",
-        "theFollowingSparePartTransferTo":"Alat ganti berikut akan dipindahkan ke",
-        "willBeAdjustedInBin":"akan diselaraskan dalam bin berikut"
       }
     },
     "commonComponent": {
@@ -15257,13 +13869,6 @@
         "sec19": {
           "original": "Select a Price Book from the list",
           "singular": "Pilih Buku Harga daripada senarai",
-          "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "sec20": {
-          "original": "Select a Bin from the list",
-          "singular": "Pilih Bin daripada senarai",
           "plural": "",
           "setupEdit": false,
           "setupVisible": false
@@ -17095,190 +15700,6 @@
           "searchUsers": "Cari Pengguna",
           "selectType": "Pilih Jenis"
         }
-      },
-      "approval": {
-        "setupEdit": false,
-        "setupVisible": false,
-        "label": {
-          "original": "Approvals",
-          "singular": "Kelulusan",
-          "plural": "Kelulusan",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "sections":{
-          "setupEdit": false,
-          "setupVisible": false,
-          "sec0": {
-            "original": "Create New Approval Relationship",
-            "singular": "Cipta Perhubungan Kelulusan Baharu",
-            "plural": "Cipta Perhubungan Kelulusan Baharu",
-            "setupEdit": false,
-            "setupVisible": false
-          },
-          "sec1": {
-            "original": "Note Configuration",
-            "singular": "Konfigurasi Nota",
-            "plural": "Konfigurasi Nota",
-            "setupEdit": false,
-            "setupVisible": false
-          },
-          "sec2": {
-            "original": "Required Approvers",
-            "singular": "Pemeriksa Dikehendaki",
-            "plural": "Pemeriksa Dikehendaki",
-            "setupEdit": false,
-            "setupVisible": false
-          },
-          "sec3": {
-            "original": "Approval Order",
-            "singular": "Urutan Kelulusan",
-            "plural": "Urutan Kelulusan",
-            "setupEdit": false,
-            "setupVisible": false
-          },
-          "sec4": {
-            "original": "How it Works",
-            "singular": "Cara Ia Berfungsi",
-            "plural": "Cara Ia Berfungsi",
-            "setupEdit": false,
-            "setupVisible": false
-          }
-        },
-        "fields":{
-          "setupEdit": false,
-          "setupVisible": false,
-          "levelOneApprovalGroup": {
-            "original": "Level 1 Approval Group",
-            "singular": "Kumpulan Kelulusan Tahap 1",
-            "plural": "Kumpulan Kelulusan Tahap 1",
-            "setupEdit": false,
-            "setupVisible": false
-          },
-          "levelTwoApprovalGroup": {
-            "original": "Level 2 Approval Group",
-            "singular": "Kumpulan Kelulusan Tahap 2",
-            "plural": "Kumpulan Kelulusan Tahap 2",
-            "setupEdit": false,
-            "setupVisible": false
-          },
-          "requestorManagingGroup": {
-            "original": "Requestor's Managing Group (Level 2)",
-            "singular": "Kumpulan Pengurusan Peminta (Tahap 2)",
-            "plural": "Kumpulan Pengurusan Peminta (Tahap 2)",
-            "setupEdit": false,
-            "setupVisible": false
-          }, 
-          "senderManagingGroup": {
-            "original": "Sender's Managing Group (Level 2)",
-            "singular": "Kumpulan Pengurusan Penghantar (Tahap 2)",
-            "plural": "Kumpulan Pengurusan Penghantar (Tahap 2)",
-            "setupEdit": false,
-            "setupVisible": false
-          },
-          "receiverLevelOneGroup": {
-            "original": "Receiver's Level 1 Group",
-            "singular": "Kumpulan Tahap 1 Penerima",
-            "plural": "Kumpulan Tahap 1 Penerima",
-            "setupEdit": false,
-            "setupVisible": false
-          },
-          "receiverLevelTwoGroup": {
-            "original": "Receiver's Level 2 Group",
-            "singular": "Kumpulan Tahap 2 Penerima",
-            "plural": "Kumpulan Tahap 2 Penerima",
-            "setupEdit": false,
-            "setupVisible": false
-          },
-          "levelOneMustApprove": {
-            "original": "Level 1 must approve before Level 2",
-            "singular": "Tahap 1 mesti meluluskan sebelum Tahap 2",
-            "plural": "Tahap 1 mesti meluluskan sebelum Tahap 2",
-            "setupEdit": false,
-            "setupVisible": false
-          },
-          "levelTwoMustApprove": {
-            "original": "Level 2 must approve before Level 1",
-            "singular": "Tahap 2 mesti meluluskan sebelum Tahap 1",
-            "plural": "Tahap 2 mesti meluluskan sebelum Tahap 1",
-            "setupEdit": false,
-            "setupVisible": false
-          },
-          "approvalDoneAnyOrder": {
-            "original": "Approvals can be done in any order",
-            "singular": "Kelulusan boleh dilakukan dalam sebarang urutan",
-            "plural": "Kelulusan boleh dilakukan dalam sebarang urutan",
-            "setupEdit": false,
-            "setupVisible": false
-          }
-        },
-        "tooltips":{
-          "setupEdit": false,
-          "setupVisible": false,
-          "configureApproval": {
-            "original": "Configure approval settings",
-            "singular": "Konfigurasikan tetapan kelulusan",
-            "plural": "Konfigurasikan tetapan kelulusan",
-            "setupEdit": false,
-            "setupVisible": false
-          },
-          "howApprovalWork": {
-            "original": "How requisition approvals work",
-            "singular": "Bagaimana kelulusan permohonan berfungsi",
-            "plural": "Bagaimana kelulusan permohonan berfungsi",
-            "setupEdit": false,
-            "setupVisible": false
-          },
-          "howConsignmentApprovalWork": {
-            "original": "How consignment approvals work",
-            "singular": "Bagaimana kelulusan konsainan berfungsi",
-            "plural": "Bagaimana kelulusan konsainan berfungsi",
-            "setupEdit": false,
-            "setupVisible": false
-          }
-        },
-        "messages":{
-          "eachRelationshipConnectsLevel":"Setiap perhubungan menghubungkan kumpulan kelulusan Tahap 1 dengan kumpulan kelulusan Tahap 2. Tahap ini mewakili peringkat kelulusan yang berbeza untuk nota permohonan dalam FieldEx.",
-          "eachRelationshipConnectsLevelConsignment":"Setiap perhubungan menghubungkan kumpulan kelulusan Tahap 1 dengan kumpulan kelulusan Tahap 2. Tahap ini mewakili peringkat kelulusan yang berbeza untuk nota konsainan dalam FieldEx",
-          "systemConfigLetsYouDefine":"Konfigurasi Sistem membolehkan anda menetapkan",
-          "approvalsSpecificSequence":"Sama ada kelulusan mesti dilakukan mengikut urutan tertentu atau boleh dilakukan dalam sebarang urutan",
-          "groupsProvideApproval":"Kumpulan mana yang perlu memberi kelulusan untuk nota permohonan",
-          "groupsProvideApprovalConsignment":"Kumpulan mana yang perlu memberi kelulusan untuk nota konsainan",
-          "approvalsDeterminedByGroups":"Kelulusan ditentukan oleh kumpulan yang bertanggungjawab ke atas zon tempat tong berada",
-          "ifFromBin":"Jika Dari Bin",
-          "levelTwoInCharge":"Kumpulan Tahap 2 bagi kumpulan yang mengurus zon yang mengandungi",
-          "willNeedToApprove":"perlu meluluskan",
-          "basedOnConfigurationSettings":"Berdasarkan tetapan konfigurasi anda, kumpulan yang bertanggungjawab ke atas zon yang mengandungi tong penghantar dan/atau kumpulan Tahap 2 kumpulan tersebut perlu meluluskan",
-          "basedOnConfigurationSettingsDestination":"Berdasarkan tetapan konfigurasi anda, kumpulan yang bertanggungjawab ke atas zon yang mengandungi tong destinasi dan/atau kumpulan Tahap 2 kumpulan tersebut perlu meluluskan",
-          "userCreatesRequisitionNote":"Apabila pengguna mencipta nota permohonan",
-          "userCreatesConsignmentNote":"Apabila pengguna mencipta nota konsainan",
-          "determinesZoneBinsBelong":"FieldEx menentukan zon mana tong-tong yang dipilih berada",
-          "basedOnZoneOwnership":"Berdasarkan pemilikan zon, ia mengenal pasti kumpulan yang perlu meluluskan",
-          "approvalsRoutedAccordingToOrder":"Kelulusan disalurkan mengikut susunan yang anda tetapkan (jika ada)",
-          "requisitionOnlyProcessAfterApprovals":"Nota permohonan hanya akan diproses selepas semua kelulusan yang diperlukan diterima",
-          "consignmentOnlyProcessAfterApprovals":"Nota konsainan hanya akan diproses selepas semua kelulusan yang diperlukan diterima",
-          "eachGroupOnlyLvlOne":"Setiap kumpulan hanya boleh berada dalam satu perhubungan Tahap 1",
-          "lvlOnelvlTwoNotTheSameGroup":"Tahap 1 dan Tahap 2 tidak boleh kumpulan yang sama",
-          "atLeastOneApprovalIsRequired":"Sekurang-kurangnya satu kelulusan diperlukan untuk mana-mana nota permohonan",
-          "atLeastOneApprovalIsRequiredConsignment":"Sekurang-kurangnya satu kelulusan diperlukan untuk mana-mana nota konsainan",
-          "binLocationDetermineGroupInvolved":"Lokasi bin menentukan kumpulan yang terlibat dalam proses kelulusan",
-          "settingUpApprovalRelationships":"Menetapkan Perhubungan Kelulusan",
-          "systemConfiguration":"Konfigurasi Sistem",
-          "howBinsAffectApprovalFlow":"Bagaimana Bin Mempengaruhi Aliran Kelulusan",
-          "howRequisitionNotesProcessed":"Bagaimana Nota Permohonan Diproses",
-          "howConsignmentNotesProcessed":"Bagaimana Nota Konsainan Diproses",
-          "importantRules":"Peraturan Penting",
-          "approvalOrder":"Urutan Kelulusan",
-          "requiredApprovers":"Pemeriksa Dikehendaki",
-          "fromBinSource":"Dari Bin (Sumber)",
-          "toBinDestination":"Ke Bin (Destinasi)",
-          "selectWhoNeedsToApprove":"Pilih siapa yang perlu meluluskan nota permohonan",
-          "selectWhoNeedsToApproveConsignment":"Pilih siapa yang perlu meluluskan nota konsainan",
-          "defineSequenceApprovalOccur":"Tetapkan urutan di mana kelulusan mesti berlaku",
-          "theseSettingsDetermineOverallFlow":"Tetapan ini menentukan aliran keseluruhan untuk semua nota permohonan dalam sistem",
-          "theseSettingsDetermineOverallFlowConsignment":"Tetapan ini menentukan aliran keseluruhan untuk semua nota konsainan dalam sistem",
-          "selectGroup":"Pilih Kumpulan"
-        }
       }
     },
     "configuration": {
@@ -17605,10 +16026,10 @@
         "setupVisible": false,
         "setupEdit": false,
         "label": {
-          "original": "Forms",
-          "singular": "Borang",
-          "plural": "Borang-Borang",
-          "setupEdit": false,
+          "original": "Custom Forms",
+          "singular": "Borang Tersuai",
+          "plural": "Borang Tersuai",
+          "setupEdit": true,
           "setupVisible": false
         },
         "sections": {
@@ -17641,10 +16062,10 @@
             "setupVisible": false
           },
           "sec4": {
-            "original": "Record Type Selection",
-            "singular": "Pemilihan Jenis Rekod",
-            "plural": "Pemilihan Jenis Rekod",
-            "setupEdit": false,
+            "original": "Subform Record Type Selection",
+            "singular": "Pemilihan Jenis Rekod Borang Sub",
+            "plural": "Pemilihan Jenis Rekod Borang Sub",
+            "setupEdit": true,
             "setupVisible": false
           },
           "sec5": {
@@ -17668,11 +16089,11 @@
             "setupEdit": true,
             "setupVisible": false
           },
-          "sec8":{
-            "original": "Field Type Selection",
-            "singular": "Pemilihan Jenis Medan",
-            "plural": "Pemilihan Jenis Medan",
-            "setupEdit": false,
+          "sec8": {
+            "original": "Component Type Selection",
+            "singular": "Pemilihan Jenis Komponen",
+            "plural": "Pemilihan Jenis Komponen",
+            "setupEdit": true,
             "setupVisible": false
           },
           "sec9": {
@@ -17744,167 +16165,6 @@
             "plural": "",
             "setupEdit": true,
             "setupVisible": false
-          },
-          "sec19":{
-            "original": "Give your form a name and a running number prefix. Hover over the running number prefix helptext icon for more information.",
-            "singular": "Berikan borang anda nama dan awalan nombor larian. Arahkan kursor ke ikon teks bantuan awalan nombor larian untuk maklumat lanjut.",
-            "plural": "",
-            "setupEdit": false,
-            "setupVisible": false
-          },
-          "sec20":{
-            "original": "Select the Job Order Types that will be available for this form. Additionally, you have the option to make this form mandatory for certain Job Order Statuses. To do that, toggle this form as mandatory by clicking on the checkbox and make your selection of Job Order Statuses from the ones available.",
-            "singular": "Pilih Jenis Pesanan Kerja yang akan tersedia untuk borang ini. Selain itu, anda mempunyai pilihan untuk menjadikan borang ini wajib untuk status Pesanan Kerja tertentu. Untuk melakukannya, tetapkan borang ini sebagai wajib dengan mengklik pada kotak pilihan dan buat pilihan status Pesanan Kerja daripada yang tersedia.",
-            "plural": "",
-            "setupEdit": false,
-            "setupVisible": false
-          },
-          "sec21":{
-            "original": "Select a record type for this subform. Single record subforms can only be submitted once and are used for one time data entry. List record subforms can be submitted multiple times and are used when you require your field agents or technicians to enter data multiple times during a job.",
-            "singular": "Pilih jenis rekod untuk subborang ini. Subborang rekod tunggal hanya boleh dihantar sekali dan digunakan untuk kemasukan data sekali sahaja. Subborang rekod senarai boleh dihantar beberapa kali dan digunakan apabila anda memerlukan ejen lapangan atau juruteknik anda untuk memasukkan data beberapa kali semasa kerja.",
-            "plural": "",
-            "setupEdit": false,
-            "setupVisible": false
-          },
-          "sec22":{
-            "original": "Give your subform a name and a running number prefix. Hover over the running number prefix helptext icon for more information.",
-            "singular": "Berikan subborang anda nama dan awalan nombor larian. Arahkan kursor ke ikon teks bantuan awalan nombor larian untuk maklumat lanjut.",
-            "plural": "",
-            "setupEdit": false,
-            "setupVisible": false
-          },
-          "sec23":{
-            "original": "Select the Job Order Types that will be available for this subform. Additionally, you have the option to make this form mandatory for certain Job Order Statuses. To do that, toggle this subform as mandatory by clicking on the checkbox and make your selection of Job Order Statuses from the ones available.",
-            "singular": "Pilih Jenis Pesanan Kerja yang akan tersedia untuk subborang ini. Selain itu, anda mempunyai pilihan untuk menjadikan subborang ini wajib untuk status Pesanan Kerja tertentu. Untuk melakukannya, tetapkan subborang ini sebagai wajib dengan mengklik pada kotak pilihan dan buat pilihan status Pesanan Kerja daripada yang tersedia.",
-            "plural": "",
-            "setupEdit": false,
-            "setupVisible": false
-          },
-          "sec24":{
-            "original": "Form Creation",
-            "singular": "Penciptaan Borang",
-            "plural": "",
-            "setupEdit": false,
-            "setupVisible": false
-          },
-          "sec25":{
-            "original": "Field Creation",
-            "singular": "Penciptaan Medan",
-            "plural": "",
-            "setupEdit": false,
-            "setupVisible": false
-          },
-          "sec26":{
-            "original": "Page Layout",
-            "singular": "Susun Atur Halaman",
-            "plural": "",
-            "setupEdit": false,
-            "setupVisible": false
-          },
-          "sec27":{
-            "original": "List View Setup",
-            "singular": "Persediaan Paparan Senarai",
-            "plural": "",
-            "setupEdit": false,
-            "setupVisible": false
-          },
-          "sec28":{
-            "original": "Subform Creation",
-            "singular": "Penciptaan Subborang",
-            "plural": "",
-            "setupEdit": false,
-            "setupVisible": false
-          },
-          "sec29":{
-            "original": "Create Fields",
-            "singular": "Cipta Medan",
-            "plural": "Cipta Medan",
-            "setupEdit": false,
-            "setupVisible": false
-          },
-          "sec30":{
-            "original": "Save Form",
-            "singular": "Simpan Borang",
-            "plural": "Simpan Borang-Borang",
-            "setupEdit": false,
-            "setupVisible": false
-          },
-          "sec31":{
-            "original": "Delete Section",
-            "singular": "Padam Bahagian",
-            "plural": "Padam Bahagian-Bahagian",
-            "setupEdit": false,
-            "setupVisible": false
-          },
-          "sec32":{
-            "original": "Section Layout",
-            "singular": "Susun Atur Bahagian",
-            "plural": "Susun Atur Bahagian-Bahagian",
-            "setupEdit": false,
-            "setupVisible": false
-          },
-          "sec33":{
-            "original": "Job Order Details",
-            "singular": "Butiran Pesanan Kerja",
-            "plural": "Butiran Pesanan Kerja",
-            "setupEdit": false,
-            "setupVisible": false
-          },
-          "sec34":{
-            "original": "Subform Details",
-            "singular": "Butiran Subborang",
-            "plural": "Butiran Subborang",
-            "setupEdit": false,
-            "setupVisible": false
-          },
-          "sec35":{
-            "original": "Mapping",
-            "singular": "Pemetaan",
-            "plural": "Pemetaan",
-            "setupEdit": false,
-            "setupVisible": false
-          },
-          "sec36":{
-            "original": "Fields",
-            "singular": "Medan",
-            "plural": "Medan-medan",
-            "setupEdit": false,
-            "setupVisible": false
-          },
-          "sec37":{
-            "original": "Create Form",
-            "singular": "Cipta Borang",
-            "plural": "Cipta Borang-Borang",
-            "setupEdit": false,
-            "setupVisible": false
-          },
-          "sec38":{
-            "original": "Setup Subform",
-            "singular": "Persediaan Subborang",
-            "plural": "Persediaan Subborang-Subborang",
-            "setupEdit": false,
-            "setupVisible": false
-          },
-          "sec39":{
-            "original": "Setup List View",
-            "singular": "Persediaan Paparan Senarai",
-            "plural": "Persediaan Paparan-Paparan Senarai",
-            "setupEdit": false,
-            "setupVisible": false
-          },
-          "sec40":{
-            "original": "Create Subform",
-            "singular": "Cipta Subborang",
-            "plural": "Cipta Subborang-Subborang",
-            "setupEdit": false,
-            "setupVisible": false
-          },
-          "sec41":{
-            "original": "Mobile Preview",
-            "singular": "Pratonton Mudah Alih",
-            "plural": "Pratonton Mudah Alih",
-            "setupEdit": false,
-            "setupVisible": false
           }
         },
         "fields": {
@@ -17948,13 +16208,6 @@
             "singular": "Jenis Pesanan Kerja",
             "plural": "",
             "setupEdit": true,
-            "setupVisible": false
-          },
-          "jobOrderStatus":{
-            "original": "Job Order Status",
-            "singular": "Status Pesanan Kerja",
-            "plural": "",
-            "setupEdit": false,
             "setupVisible": false
           },
           "isFormMandatory": {
@@ -18229,102 +16482,11 @@
             "plural": "Medan Dipetakan",
             "setupEdit": true,
             "setupVisible": true
-          },
-          "enterFormName": {
-            "original": "Enter a name for your form",
-            "singular": "Masukkan nama untuk borang anda",
-            "plural": "Masukkan nama untuk borang anda",
-            "setupEdit": false,
-            "setupVisible": false
-          },
-          "enterSubformName": {
-            "original": "Enter a name for your new subform",
-            "singular": "Masukkan nama untuk subborang baru anda",
-            "plural": "Masukkan nama untuk subborang baru anda",
-            "setupEdit": false,
-            "setupVisible": false
-          },
-          "createdDate": {
-            "original": "Created Date",
-            "singular": "Tarikh Dicipta",
-            "plural": "Tarikh Dicipta",
-            "setupEdit": false,
-            "setupVisible": false
-          },
-          "mandatory": {
-            "original": "Mandatory",
-            "singular": "Wajib",
-            "plural": "Wajib",
-            "setupEdit": false,
-            "setupVisible": false
-          },
-          "selectModule": {
-            "original": "Select Module",
-            "singular": "Pilih Modul",
-            "plural": "Pilih Modul-Modul",
-            "setupEdit": false,
-            "setupVisible": false
-          },
-          "module": {
-            "original": "Module",
-            "singular": "Modul",
-            "plural": "Modul-Modul",
-            "setupEdit": false,
-            "setupVisible": false
-          },
-          "selectPicklist": {
-            "original": "Select Picklist",
-            "singular": "Pilih Senarai Pilihan",
-            "plural": "Pilih Senarai Pilihan",
-            "setupEdit": false,
-            "setupVisible": false
-          },
-          "example": {
-            "original": "Example",
-            "singular": "Contoh",
-            "plural": "Contoh",
-            "setupEdit": false,
-            "setupVisible": false
-          },
-          "subformName": {
-            "original": "Subform Name",
-            "singular": "Nama Subborang",
-            "plural": "Nama Subborang",
-            "setupEdit": false,
-            "setupVisible": false
-          },
-          "formName": {
-            "original": "Form Name",
-            "singular": "Nama Borang",
-            "plural": "Nama Borang",
-            "setupEdit": false,
-            "setupVisible": false
-          },
-          "oneColumn": {
-            "original": "One Column",
-            "singular": "Satu Lajur",
-            "plural": "Satu Lajur",
-            "setupEdit": false,
-            "setupVisible": false
-          },
-          "twoColumn": {
-            "original": "Two Columns",
-            "singular": "Dua Lajur",
-            "plural": "Dua Lajur",
-            "setupEdit": false,
-            "setupVisible": false
-          },
-          "sectionName": {
-            "original": "Section Name",
-            "singular": "Nama Bahagian",
-            "plural": "Nama Bahagian",
-            "setupEdit": false,
-            "setupVisible": false
           }
         },
         "messages": {
-          "createManageCustomForms": "Borang ialah versi digital borang yang diisi oleh ejen lapangan atau juruteknik semasa bekerja. Direka dan boleh disesuaikan untuk kes penggunaan tertentu, ia memudahkan pengumpulan data dan berfungsi dengan lancar pada kedua-dua aplikasi web dan mudah alih.",
-          "createManageCustomSubForms": "Subborang adalah borang tambahan yang boleh anda gunakan untuk mendapatkan maklumat lebih lanjut mengenai sesuatu tugas. Anda boleh menetapkan subborang anda sebagai rekod tunggal atau rekod senarai. Subborang jenis rekod tunggal hanya boleh dihantar sekali dan digunakan untuk kemasukan data sekali sahaja. Subborang jenis rekod senarai boleh dihantar beberapa kali dan digunakan apabila anda memerlukan ejen lapangan atau juruteknik anda memasukkan data beberapa kali semasa kerja.",
+          "createManageCustomForms": "Cipta dan urus borang tersuai yang paling sesuai dengan kes penggunaan anda. Borang Tersuai membolehkan anda mendapatkan butiran mengenai sesuatu senario apabila diperlukan.",
+          "createManageCustomSubForms": "Cipta dan urus borang sub yang paling sesuai dengan kes penggunaan anda. Borang Sub berfungsi sebagai borang dalam borang anda yang membolehkan anda mendapatkan butiran tambahan berkaitan sesuatu senario apabila diperlukan. Ia boleh disediakan untuk merekodkan satu atau beberapa entri.",
           "setupForm": "Cipta medan yang paling sesuai dengan keperluan perniagaan anda, susun borang mengikut kehendak anda, dan masukkan borang sub jika diperlukan. Anda dikehendaki mencipta medan untuk borang ini sebelum anda boleh menyusunnya. Setelah anda mencipta medan dan menyusunnya, anda boleh menetapkan status borang kepada aktif.",
           "setupSubform": "Cipta medan yang paling sesuai dengan keperluan perniagaan anda, susun borang sub mengikut kehendak anda, dan masukkan paparan senarai ke dalam borang sub anda jika diperlukan. Anda dikehendaki mencipta medan untuk borang sub ini sebelum anda boleh menyusunnya. Setelah anda mencipta medan untuk borang ini dan menyusunnya, anda boleh menetapkan status borang kepada aktif.",
           "manageFormFields": "Urus Medan yang akan tersedia untuk borang ini",
@@ -18340,7 +16502,7 @@
           "lastModifiedOn": "Terakhir Diubah pada",
           "createFieldsForForm": "Cipta medan yang paling sesuai dengan keperluan perniagaan anda untuk borang anda. Medan yang anda cipta di sini akan tersedia untuk diatur bagi borang ini.",
           "removeFieldFromArrangement": "Alihkan medan ini dari halaman susunan untuk memadamkan medan ini.",
-          "selectComponentTypeForField": "Pilih jenis medan",
+          "selectComponentTypeForField": "Pilih jenis komponen yang paling sesuai untuk medan yang ingin anda cipta.",
           "allowTextEntryLimited": "Membenarkan pengguna memasukkan teks (dihadkan kepada 255 aksara)",
           "allowNumberEntry": "Membenarkan pengguna memasukkan sebarang nombor",
           "allowEmailEntry": "Membenarkan pengguna memasukkan alamat e-mel",
@@ -18362,7 +16524,7 @@
           "selectLookupModule": "Pilih modul carian untuk menghubungkan medan ini dengan data dari modul lain. Ini membolehkan anda menarik maklumat berkaitan dan mewujudkan hubungan antara modul yang berbeza.",
           "chooseParentPicklistForDependency": "Pilih senarai pilihan induk untuk menentukan pergantungan. Pilihan ini akan menghubungkan senarai pilihan ini kepada senarai pilihan induk, membolehkan anda memetakan medan senarai pilihan induk ke medan dalam senarai pilihan ini di halaman pemetaan. Selepas pemetaan, pilihan yang dibuat dalam senarai pilihan induk akan mempengaruhi pilihan yang tersedia dalam senarai pilihan ini.",
           "selectParentAndChildOptions": "Pilih Pilihan Induk dan pilih Pilihan Anak. Jika anda perlu menukar Pilihan Induk, batalkan pilihan semasa terlebih dahulu dan kemudian pilih Pilihan Induk baru. Untuk menghapus sebarang medan yang dipetakan, navigasi ke tab Pratonton dan kosongkan pilihan di sana.",
-          "arrangeFormFields": "Susun borang anda dengan menyeret medan ke dalam bahagian, namakan semula tajuk mengikut keperluan, dan letakkan semula medan atau bahagian. Tambah atau keluarkan bahagian dan pembahagi mudah alih menggunakan butang yang disediakan. Pembahagi mencipta halaman berasingan dalam aplikasi mudah alih.",
+          "arrangeFormFields": "Susun borang mengikut keinginan anda dengan mengklik medan yang dikehendaki dari kotak medan yang tersedia, kemudian seret dan lepaskan ke kanvas. Anda boleh menamakan semula bahagian dengan mengklik ikon suntingan di sebelahnya. Untuk membuang medan atau bahagian, klik pada butang 'x' di sebelahnya.",
           "removeSectionAndFieldsWarning": "Bahagian ini dan medan yang berkaitan akan dikeluarkan dari pembina Borang. Ini tidak boleh dibatalkan.",
           "cannotPerformActionChildPicklistPresent": "Tindakan ini tidak dapat dilakukan kerana terdapat senarai pilihan anak",
           "childPicklistIsPresent": "Senarai pilihan anak hadir dalam borang. Sila keluarkan",
@@ -18373,56 +16535,7 @@
           "whatIsRunningNoFormat": "Apakah Format Nombor Berjalan?",
           "runningNoDesc": "Format Nombor Berjalan membolehkan anda menyesuaikan Medan Nombor Auto untuk borang anda. Ini termasuk pembolehubah penggantian dan sebarang aksara yang anda ingin awalkan atau lampirkan.",
           "mapPicklistFields": "Peta medan senarai pilihan dengan memilih Medan Induk, kemudian memilih Medan Senarai Pilihan yang diperlukan. Anda boleh melihat Medan yang Dipetakan di bawah.",
-          "addDescriptionHere": "Tambah penerangan di sini...",
-          "selectJobOrderStatus":"Pilih Status Pesanan Kerja",
-          "looksLikeNoFormsCreated":"Nampaknya anda belum mencipta sebarang borang. Jangan risau, ikut langkah ini dan borang anda akan siap dalam masa yang singkat!",
-          "formCreationDesc":"Cipta borang dengan mengklik pada butang + Baru. Berikan nama kepada borang anda dan awalan nombor larian. Kemudian, pilih Jenis Pesanan Kerja yang berkaitan dengan borang ini.",
-          "fieldCreationFormDesc":"Klik pada butang Penciptaan Medan di halaman pandangan borang. Klik pada butang +Baru dan pilih jenis medan yang ingin anda cipta.",
-          "pageLayoutFormDesc":"Klik pada butang Susun Atur Halaman di halaman pandangan borang. Di sini anda boleh seret dan lepaskan medan yang telah anda cipta dari bahagian medan ke bahagian borang.",
-          "subformSetupFormDesc":"Jika perlu, anda boleh menambah subborang ke borang anda dengan mengklik pada butang persediaan subborang. Proses persediaan adalah serupa dengan cara anda menyediakan borang.",
-          "looksLikeNoSubformsCreated":"Nampaknya anda belum mencipta sebarang subborang. Jangan risau, ikut langkah ini dan subborang anda akan siap dalam masa yang singkat!",
-          "subformCreationDesc":"Cipta subborang dengan mengklik pada butang + Baru. Berikan nama kepada subborang anda dan awalan nombor larian. Kemudian, pilih Jenis Pesanan Kerja yang berkaitan dengan subborang ini.",
-          "fieldCreationSubformDesc":"Klik pada butang Penciptaan Medan di halaman pandangan subborang. Klik pada butang +Baru dan pilih jenis medan yang ingin anda cipta.",
-          "pageLayoutSubformDesc":"Klik pada butang Susun Atur Halaman di halaman pandangan subborang. Di sini anda boleh seret dan lepaskan medan yang telah anda cipta dari bahagian medan ke bahagian subborang.",
-          "listSetupSubformDesc":"Jika anda telah memilih jenis subborang Rekod Senarai, anda boleh menyediakan paparan senarai untuk subborang. Ini akan dilihat dalam tab borang di halaman butiran Pesanan Kerja.",
-          "optional":"Pilihan",
-          "onlyForListRec":"Hanya untuk Rekod Senarai",
-          "createFieldsDesc":"Cipta medan yang akan digunakan dalam borang anda.",
-          "pageLayoutDesc":"Tetapkan susun atur halaman borang anda dengan medan yang telah anda cipta.",
-          "subformSetupDesc":"Sebagai pilihan, anda boleh menyediakan subborang untuk borang ini. Gunakan subborang jika anda memerlukan maklumat tambahan daripada juruteknik atau ejen lapangan anda semasa bertugas.",
-          "createFieldsSubformDesc":"Cipta medan yang akan digunakan dalam subborang anda.",
-          "pageLayoutDetsSubformDesc":"Tetapkan susun atur halaman subborang anda dengan medan yang telah anda cipta.",
-          "listViewSubformSetupDesc":"Anda boleh menyediakan paparan senarai untuk subborang anda jika anda telah memilih jenis rekod senarai untuknya. Ini membolehkan anda menyesuaikan susunan medan dalam jadual paparan senarai subborang.",
-          "completeAllStepForm":"Lengkapkan semua langkah untuk menetapkan borang anda sepenuhnya",
-          "completeAllStepSubform":"Lengkapkan semua langkah untuk menetapkan subborang anda sepenuhnya",
-          "editFormArrangement":"Adakah anda pasti mahu mengedit susunan borang ini? Perubahan yang dibuat juga akan dicerminkan pada borang sebelumnya. Ini tidak boleh dibatalkan.",
-          "selectLayoutPreferred":"Pilih susun atur yang anda inginkan untuk bahagian anda. Medan yang anda tambahkan ke dalam bahagian akan dipaparkan mengikut susun atur bahagian anda. Perhatikan bahawa susun atur bahagian hanya terpakai untuk Aplikasi Web FieldEx. Susun atur untuk Aplikasi Mudah Alih FieldEx adalah tetap kepada Satu Lajur.",
-          "example":"Contoh",
-          "selectModuleDesc":"Pilih modul untuk memautkannya ke medan ini dan mendapatkan data berkaitan daripadanya.",
-          "moduleSelectedDesc":"Pilih medan yang ingin anda rujuk daripada modul yang dipilih. Ini akan membolehkan anda mendapatkan dan memautkan data berkaitan daripada medan tersebut.",
-          "selectFieldDesc":"Pilih medan senarai pilihan dinamik yang anda ingin pilih daripada modul yang dipilih. Ini akan membolehkan anda mendapatkan data berkaitan daripada senarai pilihan itu.",
-          "parentPicklistDesc":"Senarai pilihan induk adalah Dropdown atau Butang yang telah dicipta. Pilih senarai pilihan induk untuk memautkan dan memetakan opsinya ke dropdown ini di halaman pemetaan. Opsyen yang tersedia untuk dropdown ini akan berdasarkan pemilihan senarai pilihan induk.",
-          "fieldsDesc":"Tambah medan yang sepatutnya muncul dalam Dropdown ini. Medan ini akan tersedia untuk pengguna pilih semasa berinteraksi dengan Dropdown.",
-          "selectPicklistDesc":"Pilih senarai pilihan dinamik yang anda ingin pilih daripada modul yang dipilih. Ini akan membolehkan anda mendapatkan data berkaitan daripada senarai pilihan tersebut.",
-          "looksLikeNoFieldsCreated":"Nampaknya anda belum mencipta sebarang medan. Jangan risau, ikut langkah ini dan anda akan mencipta medan pertama anda dalam masa yang singkat!",
-          "beginCreateFieldClickNew":"Mulakan penciptaan medan dengan mengklik butang + Baru.",
-          "selectComponentTypeFromSelection":"Pilih jenis komponen daripada pilihan yang tersedia yang paling sesuai dengan kes penggunaan anda.",
-          "fillInAllNecessaryDets":"Isikan semua butiran yang diperlukan untuk medan anda.",
-          "onlyForDropdownButton":"Hanya Untuk Dropdown atau Butang",
-          "selectDropdownButtonLinkParent":"Jika anda memilih komponen Dropdown atau Butang, anda boleh memautkannya ke senarai pilihan induk, iaitu Dropdown atau Butang lain yang telah anda cipta. Ini akan membawa anda ke halaman Pemetaan Senarai Pilihan di mana anda boleh menyediakan pemetaan. Sebagai alternatif, anda boleh mengakses halaman Pemetaan Senarai Pilihan dengan mengklik butang 'Peta Senarai Pilihan' dalam pandangan senarai medan.",
-          "dragDropToYourLiking":"Seret dan lepaskan medan ke dalam bahagian mengikut keinginan anda",
-          "copyOf":"Salinan daripada",
-          "formPreviewDesc":"Pratonton bagaimana borang anda akan dipaparkan pada aplikasi mudah alih FieldEx. Inilah cara juruteknik atau ejen lapangan anda akan melihat borang di pihak mereka.",
-          "exampleFieldPreview":"Pratonton medan contoh",
-          "arrangeFormDesc":"Susun borang mengikut keinginan anda dengan mengklik medan yang dikehendaki dari kotak medan yang tersedia, kemudian seret dan lepaskannya ke kanvas. Anda boleh menamakan semula bahagian dengan mengklik ikon edit di sebelahnya. Untuk menghapus medan atau bahagian, klik butang 'x' di sebelahnya.",
-          "whatAreForms":"Apakah Borang?",
-          "whatAreSubforms":"Apakah Subborang?",
-          "fieldCreationForms":"Penciptaan Medan untuk Borang",
-          "howDoICreateForm":"Bagaimana saya mencipta borang?",
-          "howDoICreateSubform":"Bagaimana saya mencipta subborang?",
-          "howDoICreateFIeld":"Bagaimana saya mencipta medan?",
-          "checkFormatNumber":"Tandakan 'Format Nombor' untuk membenarkan nilai perpuluhan bagi medan ini, kemudian masukkan 'Tempat Perpuluhan' yang diperlukan (maksimum 6 tempat).",
-          "addFieldHere":"Tambah medan di sini"
+          "addDescriptionHere": "Tambah penerangan di sini..."
         }
       },
       "artificialIntelligence":{
@@ -21201,7 +19314,7 @@
           "setupVisible": false
         },
         "sec15": {
-          "original": "Specify the details of the Job Orders this Checklist is for. Job Orders matching the below values will trigger this Checklist.",
+          "original": "Specify the details of the Job Orders this Checklist is for. Job Orders matching the below values will trigger this Checklist.", 
           "singular": "Nyatakan butiran Pesanan Kerja yang berkaitan dengan Senarai Semak ini. Pesanan Kerja yang sepadan dengan nilai di bawah akan mencetuskan Senarai Semak ini.",
           "plural": "",
           "setupEdit": true,
@@ -21354,10 +19467,7 @@
           "setupVisible": false
         }
       },
-      "validationFE": {
-        "fileTypeUnsupported":"Jenis fail ini tidak disokong. Sila pilih fail yang lain.",
-        "exceedFileSizeSmall":"Saiz fail melebihi had 2MB. Sila muat naik fail yang lebih kecil."
-      },
+      "validationFE": {},
       "messages": {
         "selectAssetTypes": "Pilih Jenis Aset",
         "selectServiceZone": "Pilih Zon Perkhidmatan",
@@ -23541,9 +21651,7 @@
         "lastMonth":"Bulan Lepas",
         "nextMonth":"Bulan Depan",
         "thisYear":"Tahun Ini",
-        "addDays":"Tambah Hari",
-        "exampleCaps":"Contoh",
-        "exampleShort":"Cth"
+        "addDays":"Tambah Hari"
       }
     },
     "templates": {
@@ -24137,12 +22245,10 @@
       "setupWorkflowMaxActionsPerWorkflow": "Tindakan maksimum bagi setiap aliran kerja telah dicapai",
       "setupWorkflowEmailsMax": "Jumlah maksimum alamat e-mel yang dibenarkan untuk pemberitahuan aliran kerja telah dicapai",
       "setupWorkflowEmailUserMax": "Jumlah maksimum pengguna yang dibenarkan untuk pemberitahuan aliran kerja telah dicapa",
-      "setupWorkflowEmailUserGroupMax": "Jumlah maksimum pengguna yang dibenarkan untuk pemberitahuan aliran kerja telah dicapa",      
+      "setupWorkflowEmailUserGroupMax": "Jumlah maksimum pengguna yang dibenarkan untuk pemberitahuan aliran kerja telah dicapa",
       "setupTmplJobOrderLimitReached":"Anda telah melebihi had 50 templat aktif. Tetapkan status templat yang tidak digunakan kepada 'Tidak Aktif' untuk menambah satu lagi templat aktif.",
       "tmplTaskLimitExceeded": "Anda telah melebihi had 50 templat aktif. Tukar status templat yang tidak digunakan kepada 'Tidak Aktif' untuk menambah satu lagi templat aktif",
       "setupTmplTaskHasJobOrder": "Tidak dapat dihapuskan: Templat digunakan dalam satu atau lebih Pesanan Kerja",
-      "setupAssetMeterMaxAssetsTypeReached": "Telah mencapai bilangan maksimum Meter Aset untuk Jenis Aset yang dipilih",
-      "setupAssetMeterHasAssetsRecord": "Meter Aset dipautkan dengan satu atau lebih rekod Aset, oleh itu tidak boleh dipadam",
       "setupTmplTaskHasJobOrderProduct": "Tidak dapat dipadam: Templat digunakan untuk mencipta satu atau lebih Produk Pesanan Kerja"
     },
     "labelBE": {
@@ -25247,7 +23353,9 @@
         }
       },
       "messages": {
-        "searchJobOrders": "Cari Pesanan Kerja"
+        "searchJobOrders": "Cari Pesanan Kerja",
+        "viewPdf": "Lihat PDF",
+        "emailPdf": "E-mel PDF"
       }
     },
     "national": {
@@ -26154,238 +24262,6 @@
           "setupEdit": true,
           "setupVisible": false
         }
-      }
-    },
-    "onBoard": {
-      "setupEdit": false,
-      "setupVisible": false,
-      "label": {
-        "original": "On-Board",
-        "singular": "Pendaftaran",
-        "plural": "Pendaftaran",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "sections": {
-        "setupEdit": false,
-        "setupVisible": false,
-        "sec0": {
-          "original": "Welcome to FieldEx",
-          "singular": "Selamat Datang ke FieldEx",
-          "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "sec1": {
-          "original": "Get Started",
-          "singular": "Mulakan",
-          "plural": "Mulakan",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "sec2": {
-          "original": "Import Asset",
-          "singular": "Import Aset",
-          "plural": "Import Aset",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "sec3": {
-          "original": "Setup Work Orders",
-          "singular": "Tetapan Arahan Kerja",
-          "plural": "Tetapan Arahan Kerja",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "sec4": {
-          "original": "Learn More",
-          "singular": "Ketahui Lebih Lanjut",
-          "plural": "Ketahui Lebih Lanjut",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "sec5": {
-          "original": "Invite Your Team",
-          "singular": "Jemput Pasukan Anda",
-          "plural": "Jemput Pasukan Anda",
-          "setupEdit": false,
-          "setupVisible": false
-        }
-      },
-      "fields":{
-        "setupVisible": false,
-        "setupEdit":false,
-        "email":{
-         "original": "Email",
-          "singular": "Emel",
-          "plural": "Emel",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "role":{
-          "original": "Role",
-           "singular": "Peranan",
-           "plural": "Peranan",
-           "setupEdit": false,
-           "setupVisible": false
-          },
-          "systemField":{
-            "original": "Fieldex System Fields",
-            "singular": "Medan Sistem Fieldex",
-            "plural": "Medan Sistem Fieldex",
-            "setupEdit": false,
-            "setupVisible": false
-          },
-          "csvColumn":{
-            "original": "CSV Columns",
-            "singular": "Lajur CSV",
-            "plural": "Lajur-Lajur CSV",
-            "setupEdit": false,
-            "setupVisible": false
-          },
-          "confidence":{
-            "original": "Confidence",
-            "singular": "Keyakinan",
-            "plural": "Keyakinan",
-            "setupEdit": false,
-            "setupVisible": false
-          }
-      },
-      "messages":{
-        "letsImportAsset":"Mari Import Aset Anda",
-        "assetAreHeartCmms":"Aset adalah jantung CMMS anda. Mulakan dengan memuat naiknya untuk mengurus penyelenggaraan, sejarah dan tugasan",
-        "aiPoweredImport":"Import Dikuasakan AI",
-        "automaticallyMapYourCSV":"FieldEx boleh memetakan lajur CSV anda secara automatik, mengekstrak jenis, status, kategori dan mengkonfigurasi sistem anda - tanpa tetapan manual!",
-        "letOurIntelligentSystem":"Biarkan sistem pintar kami lakukan kerja untuk anda. FieldEx boleh secara automatik:",
-        "mapCsvToSystemField":"Petakan lajur CSV anda ke medan sistem",
-        "extractConfigureAssetType":"Ekstrak dan konfigurasikan senarai jenis aset",
-        "detectSetUpStatus":"Kesan dan tetapkan nilai status dengan warna yang sesuai",
-        "configureSystemInSeconds":"Konfigurasikan sistem anda dalam beberapa saat - tanpa tetapan manual",
-        "uploadExistingAsset":"Muat naik aset sedia ada anda dan kami akan bantu anda memetakan medan dan mengkonfigurasi modul aset untuk anda.",
-        "dragDropCsvHere":"Seret & Lepaskan fail CSV anda di sini",
-        "needATemplate":"Perlukan templat?",
-        "downloadCsvTemplate":"Muat Turun Templat CSV",
-        "letAiCreateData":"Biarkan AI cipta data anda & konfigurasikan sistem anda",
-        "startBuildingMaintenanceSystem":"Mulakan pembinaan sistem penyelenggaraan anda dalam beberapa minit",
-        "helpsReduceDowntime":"FieldEx membantu anda mengurangkan masa henti sebanyak 37%, memanjangkan jangka hayat aset, dan mengurangkan kos penyelenggaraan. Tetapkan sistem anda dalam beberapa minit dan mula transformasi operasi penyelenggaraan anda hari ini",
-        "getQuickLook":"Lihat sepintas lalu bagaimana FieldEx memperkasa pasukan untuk mengurus aset, menjadualkan servis, dan mengurangkan masa henti dengan mudah.",
-        "bookTrainingSession":"Tempah sesi latihan selama 45 minit",
-        "withRealHumanForFree":"bersama manusia sebenar secara percuma untuk membantu anda bermula",
-        "whatYouCanDo":"Apa Yang Anda Boleh Lakukan Dengan FieldEx",
-        "management":"Pengurusan",
-        "digitizeEveryAsset":"Digitalkan setiap aset dan jejaknya dalam masa nyata",
-        "viewUptimeLogs":"Lihat masa operasi, log, dan data prestasi serta-merta",
-        "tagEquipmentQrCode":"Tandakan peralatan dengan kod QR untuk imbasan pantas di tapak",
-        "setUpSmartSchedules":"Tetapkan jadual pintar untuk mencegah kerosakan",
-        "getAlertsBefore":"Dapatkan makluman sebelum sesuatu berlaku",
-        "automateServicePlan":"Automatikkan pelan servis",
-        "createAssignInOnePlace":"Cipta, tugaskan dan tutup tugasan — semuanya di satu tempat",
-        "trackJobProgressStatusLive":"Jejak kemajuan dan status kerja secara langsung dari lapangan",
-        "useQrCodesStartCompleteJobs":"Guna kod QR untuk mula atau lengkapkan kerja semasa bergerak",
-        "trackEveryPartAcrossAllSite":"Jejak setiap alat ganti merentasi semua tapak dan pasukan",
-        "knowWhatsInStock":"Ketahui stok semasa, keperluan dan buat pesanan semula",
-        "scanUpdateInventory":"Imbas dan kemas kini inventori dalam masa nyata",
-        "inviteYourTeam":"Jemput pasukan anda",
-        "admin":"Pentadbir",
-        "planner":"Perancang",
-        "fieldEngineer":"Jurutera Lapangan",
-        "accessEverythingManageSettings":"Akses semua perkara, urus tetapan, pengguna dan laporan",
-        "createAssignJobsTrackProgress":"Cipta dan tugaskan kerja, jejak kemajuan, optimumkan jadual",
-        "receiveTaskUpdateJobStatus":"Terima tugasan, kemas kini status kerja, muat naik foto, imbas kod QR.",
-        "addYourTeammates":"Tambah rakan sepasukan anda ke FieldEx dan tetapkan peranan yang sesuai dengan kekuatan mereka. Sama ada mereka mengurus di sebalik skrin atau di lapangan — anda hanya satu jemputan sahaja dari sinergi.",
-        "reviewCsvColumns":"Semak bagaimana lajur CSV anda dipetakan ke medan sistem kami",
-        "reviewCustomizeAssetType":"Semak dan sesuaikan jenis aset yang dikesan dalam CSV anda dan jenis sistem sedia ada",
-        "reviewCustomizeAssetStatus":"Semak dan sesuaikan status aset yang dikesan dalam CSV anda dan status sistem sedia ada",
-        "reviewCustomizeWorkOrderType":"Semak dan sesuaikan jenis pesanan kerja yang dikesan dalam CSV anda dan jenis sistem sedia ada",
-        "reviewCustomizeWorkOrderStatus":"Semak dan sesuaikan status pesanan kerja yang dikesan dalam CSV anda dan status sistem sedia ada",
-        "reviewCustomize":"Semak dan sesuaikan",
-        "statusDetected":"status dikesan dalam CSV anda dan status sistem sedia ada",
-        "typesDetected":"jenis dikesan dalam CSV anda dan status sistem sedia ada",
-        "youCanReviewAdjustAnytime":"Anda boleh menyemak dan menyesuaikan pada bila-bila masa",
-        "viewMoreField":"Lihat Lebih Banyak Medan...",
-        "showLessField":"Tunjukkan Kurang Medan...",
-        "enterNewAssetType":"Masukkan jenis aset baharu...",
-        "enterNewAssetStatus":"Masukkan status aset baharu...",
-        "tip":"Tip",
-        "watchDemo":"Tonton Demo: Apa yang Anda Boleh Capai dengan Fieldex",
-        "quickLookEmpowersTeam":"Lihat sepintas lalu bagaimana FieldEx memperkasakan pasukan untuk mengurus aset, menjadualkan perkhidmatan, dan mengurangkan masa henti dengan mudah",
-        "select":"Pilih",
-        "selectRole":"Pilih Peranan",
-        "aiAnalysisComplete":"Analisis AI Selesai",
-        "dataInsight":"Pandangan Data",
-        "fieldMapping":"Pemetaan Medan",
-        "assetTypes":"Jenis Aset",
-        "bookTrainingExperience":"Tempah Latihan: Tingkatkan pengalaman anda dengan FieldEx",
-        "freeOnboardingCaps":"PENDAFTARAN PERCUMA",
-        "bookTwoSessions":"Tempah dua sesi latihan percuma anda dengan pakar produk kami dan pelajari cara memaksimumkan kecekapan operasi lapangan anda. Tiada caj semasa pendaftaran!",
-        "comprehensiveLearning":"Ekosistem pembelajaran komprehensif dengan modul interaktif untuk semua peringkat kemahiran",
-        "focusSolutionOriented":"Panduan video fokus dan berorientasikan penyelesaian yang merangkumi setiap aspek platform FieldEx",
-        "apiDocumentation":"Dokumentasi API dan panduan integrasi",
-        "answersCommonlyAsked":"Jawapan kepada soalan yang sering ditanya",
-        "getHelpFromCustomerSuccess":"Dapatkan bantuan daripada pasukan kejayaan pelanggan kami di support@fieldex.com",
-        "discoverNewlyImplementedFeature":"Temui ciri baharu yang telah dilaksanakan dan penambahbaikan akan datang pada platform",
-        "fieldExAcademy":"Akademi FieldEx",
-        "videoTutorials":"Tutorial Video",
-        "developerResources":"Sumber Pembangun",
-        "faq":"Soalan Lazim",
-        "emailSupport":"Sokongan Emel",
-        "releaseNotes":"Nota Keluaran",
-        "exploreSettingUp":"Terokai cara untuk menyediakan automasi ini",
-        "setUpAutomations":"Tetapkan automasi berkuasa untuk mempermudah operasi anda dan meningkatkan kecekapan",
-        "setupJobOrdTemplate":"Sediakan Templat Pesanan Kerja",
-        "setupPreventiveMaintenance":"Sediakan Penyelenggaraan Pencegahan",
-        "createChecklist":"Cipta Senarai Semak",
-        "setupQrcodeBarcode":"Sediakan Kod QR / Kod Bar",
-        "setupNotifications":"Sediakan Pemberitahuan",
-        "importData":"Import Data",
-        "streamlineOperations":"Permudahkan operasi dengan templat yang boleh disesuaikan dan diakses di mana sahaja melalui platform mudah alih bertaraf perusahaan kami",
-        "proactivelyManage":"Urus kitar hayat peralatan secara proaktif dengan penjadualan automatik",
-        "designComprehensiveDigital":"Reka bentuk senarai semak digital yang komprehensif dengan logik bersyarat dan pencetus",
-        "configureQrcodeBarcode":"Konfigurasikan teknologi QR/Kod Bar untuk pengurusan inventori dan peralatan masa nyata",
-        "configureTargetedAlerts":"Konfigurasikan amaran dan kemas kini disasarkan dengan peraturan dan keutamaan penghantaran yang boleh disesuaikan",
-        "watchVideo":"Tonton Video",
-        "hunnedPercent":"100% PERCUMA",
-        "noMatchFound":"Tiada Padanan Ditemui",
-        "match":"Padanan",
-
-        "letsImport":"Mari Import",
-        "areTheHeartCmms":"ialah teras kepada CMMS anda. Mulakan dengan memuat naiknya untuk mengurus penyelenggaraan, sejarah, dan tugasan.",
-        "areTheHeartOperations":"ialah teras kepada operasi anda. Mulakan dengan memuat naiknya untuk mengurus jadual, pasukan, dan tugasan dengan cekap.",
-        "detectSetUp":"Kesan dan sediakan",
-        "extractConfigure":"Ekstrak dan konfigurasikan",
-        "types":"jenis",
-        "typePicklist":"senarai pilihan jenis",
-        "uploadExisting":"Muat naik",
-        "andWeHelpMap":"dan kami akan bantu anda memetakan medan serta konfigurasikan",
-        "moduleForYou":"modul untuk anda",
-        "reviewAndCustomize":"Semak dan sesuaikan",
-        "typesDetectedInCsv":"jenis yang dikesan dalam CSV anda dan jenis sistem sedia ada",
-        "statusDetectedInCsv":"status yang dikesan dalam CSV anda dan status sistem sedia ada",
-        "fullAccessConfigurationControl":"Akses penuh & kawalan konfigurasi (Web sahaja)",
-        "dailyOperationManager":"Pengurus operasi harian (Terbaik di Web)",
-        "taskExecuter":"Pelaksana tugas bergerak (Hanya Mudah Alih)",
-        "adminsFullControl":"Admin mempunyai kawalan penuh ke atas ruang kerja FieldEx anda. Mereka boleh:",
-        "plannersOverseeCoordinate":"Perancang menyelia dan menyelaraskan operasi lapangan melalui platform web FieldEx. Mereka:",
-        "fieldEngineersFrontline":"Jurutera Lapangan ialah pasukan barisan hadapan—juruteknik, pemasang atau ejen perkhidmatan—yang menggunakan aplikasi mudah alih untuk:",
-        "inviteManageUser":"Jemput dan urus pengguna",
-        "configureSettings":"Konfigurasikan senarai semak, templat kerja, dan tetapan penyelenggaraan pencegahan",
-        "updateSystemWideSetting":"Kemas kini tetapan menyeluruh sistem yang menjejaskan keseluruhan akaun",
-        "createAssignJobOrder":"Cipta dan tugaskan pesanan kerja kepada juruteknik yang betul",
-        "trackProgressCompletion":"Jejaki kemajuan dan penyiapan kerja secara masa nyata",
-        "monitorUpdates":"Pantau kemas kini dari lapangan, termasuk:",
-        "assetMeterLogs":"Log meter",
-        "uploadImageAttachment":"Imej dan lampiran yang dimuat naik",
-        "jobStatusChecklistCompletion":"Status kerja dan penyiapan senarai semak",
-        "receiveAssignTask":"Terima tugasan",
-        "updateJobStatus":"Kemas kini status kerja secara masa nyata",
-        "uploadPhoto":"Muat naik foto, nota dan imbas kod QR",
-        "adminFunctionAvailable":"Nota: Fungsi admin hanya tersedia pada penyemak imbas web FieldEx.",
-        "bestExperiencedFieldEx":"Nota: Pengalaman terbaik di pelayar web FieldEx untuk kawalan operasi penuh.",
-        "roleCanOnlyAccessViaMobile":"Nota: Peranan ini hanya boleh mengakses FieldEx melalui aplikasi mudah alih (App Store / Play Store).",
-        "doNotShowAgain":"Jangan tunjukkan lagi"
-      },
-      "validationFE":{
-        "onlyCsvFilesAllowed": "Hanya fail CSV dan XLSX sahaja yang boleh dimuat naik"
       }
     }
   },

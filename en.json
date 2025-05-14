@@ -443,15 +443,15 @@
         "setupVisible": true
       },
       "sec1": {
-        "original": "Hierarchy and Classification",
-        "singular": "Hierarchy and Classification",
+        "original": "Ownership & Location",
+        "singular": "Ownership & Location",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "sec2": {
-        "original": "Coverage Period",
-        "singular": "Coverage Period",
+        "original": "Coverage Period & Acquisition",
+        "singular": "Coverage Period & Acquisition",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
@@ -557,13 +557,6 @@
       "sec17": {
         "original": "Change Status",
         "singular": "Change Status",
-        "plural": "",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "sec18": {
-        "original": "Location Details",
-        "singular": "Location Details",
         "plural": "",
         "setupEdit": false,
         "setupVisible": false
@@ -706,8 +699,8 @@
         "setupVisible": false
       },
       "acquisitionDate": {
-        "original": "Purchase Date",
-        "singular": "Purchase Date",
+        "original": "Acquisition Date",
+        "singular": "Acquisition Date",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
@@ -977,92 +970,11 @@
         "plural": "",
         "setupEdit": false,
         "setupVisible": false
-      },
-      "installationDate": {
-        "original": "Installation Date",
-        "singular": "Installation Date",
-        "plural": "Installation Date",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "brand": {
-        "original": "Brand",
-        "singular": "Brand",
-        "plural": "Brand",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "allAssets": {
-        "original": "All Assets",
-        "singular": "All Asset",
-        "plural": "All Assets",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "groupByParent": {
-        "original": "Group by Parent",
-        "singular": "Group by Parent",
-        "plural": "Group by Parent",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "assetsByParent": {
-        "original": "Assets by Parent",
-        "singular": "Assets by Parent",
-        "plural": "Assets by Parent",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "parent": {
-        "original": "Parent",
-        "singular": "Parent",
-        "plural": "Parents",
-        "setupEdit": false,
-        "setupVisible": false
-      }, 
-      "pendingTransfer": {
-        "original": "Pending Transfers",
-        "singular": "Pending Transfer",
-        "plural": "Pending Transfers",
-        "setupEdit": false,
-        "setupVisible": false
-      }, 
-      "group": {
-        "original": "Group",
-        "singular": "Group",
-        "plural": "Group",
-        "setupEdit": false,
-        "setupVisible": false
-      }, 
-      "classification": {
-        "original": "Classification",
-        "singular": "Classification",
-        "plural": "Classification",
-        "setupEdit": false,
-        "setupVisible": false
-      }, 
-      "offlineSince": {
-        "original": "Offline Since",
-        "singular": "Offline Since",
-        "plural": "Offline Since",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "model": {
-        "original": "Model",
-        "singular": "Model",
-        "plural": "Model",
-        "setupEdit": false,
-        "setupVisible": false
       }
-      },
+    },
     "validationFE": {
-      "warrantyEndDateAfterStartDate":"Warranty End Date must be after the Start Date.",
-      "serialNumberMustBeUnique":"Serial Number must be unique. The entered value is already in use.",
-      "serialNumberContain":"Serial Number must be contain only letters and numbers.",
-      "temporarySerialNumberGenerationFailed":"Temporary Serial Number generation failed. Please try again.",
-      "warrantyEndDateMustBeGreater": "Warranty end date must be greater than the start date",
-      "warrantyStartDateMustBeEarlier": "Warranty start date should be earlier than the end date"
+       "warrantyEndDateMustBeGreater": "Warranty end date must be greater than the start date",
+       "warrantyStartDateMustBeEarlier": "Warranty start date should be earlier than the end date"
     },
     "validationBE": {
       "assetIdNotFound": "Id not found",
@@ -1100,13 +1012,12 @@
       "assetCategoryExists": "Asset Category already exists",
       "assetCategorySystemGenerated": "System generated Asset Category are not allowed to be deleted",
       "assetCategoryCannotDeleteByAssetSubCategory": "Unable to delete: Asset Category is used in one or more Asset Sub Category",
-      "assetCategoryCannotDeleteByAssets": "Unable to delete: Asset Category is used in one or more Assets",
-      "assetSubCategoryCannotDeleteByAssets": "Unable to delete: Asset Sub Category is used in one or more Assets",
       "assetSubCategoryExists": "Asset Sub Category already exists",
       "assetSubCategorySystemGenerated": "System generated Asset Sub Category are not allowed to be deleted",
       "assetCategoryIdExists":"A new Asset Category cannot already have an ID",
       "assetSubCategoryIdExists":"A new Asset Sub Category cannot already have an ID",
-      "assetParentInvalid":"The chosen parent is already in the asset hierarchy"
+      "assetCategoryCannotDeleteByAssets":"Unable to delete: Asset Category is used in one or more Assets",
+      "assetSubCategoryCannotDeleteByAssets":"Unable to delete: Asset Sub Category is used in one or more Assets"
     },
     "tooltips": {
       "setupVisible": false,
@@ -1299,48 +1210,6 @@
         "plural": "",
         "setupEdit": false,
         "setupVisible": false
-      },
-      "parentUpdate": {
-        "original": "Parent Update",
-        "singular": "Parent Update",
-        "plural": "",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "parentChange": {
-        "original": "Parent Change",
-        "singular": "Parent Change",
-        "plural": "",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "parentRemove": {
-        "original": "Parent Remove",
-        "singular": "Parent Remove",
-        "plural": "",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "pendingTransfer": {
-        "original": "Show only Assets with a pending transfer",
-        "singular": "Show only Assets with a pending transfer",
-        "plural": "Show only Assets with a pending transfer",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "transferRequestApproval": {
-        "original": "A transfer request is pending approval for this asset. The location will be updated to",
-        "singular": "A transfer request is pending approval for this asset. The location will be updated to",
-        "plural": "A transfer request is pending approval for this asset. The location will be updated to",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "uponArrival": {
-        "original": "upon arrival.",
-        "singular": "upon arrival.",
-        "plural": "upon arrival.",
-        "setupEdit": false,
-        "setupVisible": false
       }
     },
     "messages": {
@@ -1358,237 +1227,7 @@
       "warrantyStartDate":"Warranty start date should not be greater than warranty end date",
       "errorFetchingAllAssets": "Error fetching all assets",
       "errorOccuredWhileFetchingAccessories": "Error occured while fetching accessories",
-      "logs": "Logs",
-      "showUpdatesRelated":"Show Updates Related To:"
-    }
-  },
-  "analytic": {
-    "setupVisible": false,
-    "setupEdit": false,
-    "label": {
-      "original": "Analytics",
-      "singular": "Analytic",
-      "plural": "Analytics",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "sections": {
-      "setupVisible": false,
-      "setupEdit": false,
-      "sec0": {
-        "original": "Lifespan and Financial Details",
-        "singular": "Lifespan and Financial Details",
-        "plural": "Lifespan and Financial Details",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "sec1": {
-        "original": "Operational Metrics",
-        "singular": "Operational Metrics",
-        "plural": "Operational Metrics",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "sec2": {
-        "original": "Downtime and Maintenance Analytics",
-        "singular": "Downtime and Maintenance Analytics",
-        "plural": "Downtime and Maintenance Analytics",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "sec3": {
-        "original": "Condition and Inspection Details",
-        "singular": "Condition and Inspection Details",
-        "plural": "Condition and Inspection Details",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "sec4": {
-        "original": "Performance and Cost Analysis",
-        "singular": "Performance and Cost Analysis",
-        "plural": "Performance and Cost Analysis",
-        "setupEdit": false,
-        "setupVisible": false
-      }
-    },
-    "fields": {
-      "setupVisible": false,
-      "setupEdit": false,
-      "estimatedLifespan": {
-        "original": "Estimated Lifespan (Months)",
-        "singular": "Estimated Lifespan (Months)",
-        "plural": "Estimated Lifespan (Months)",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "initialCost": {
-        "original": "Initial Cost",
-        "singular": "Initial Cost",
-        "plural": "Initial Cost",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "salvageValue": {
-        "original": "Salvage Value",
-        "singular": "Salvage Value",
-        "plural": "Salvage Value",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "depriciationRate": {
-        "original": "Depreciation Rate",
-        "singular": "Depreciation Rate",
-        "plural": "Depreciation Rate",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "expectedAvailableTime": {
-        "original": "Expected Available Time (Months)",
-        "singular": "Expected Available Time (Months)",
-        "plural": "Expected Available Time (Months)",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "timeUsed": {
-        "original": "Time Used",
-        "singular": "Time Used",
-        "plural": "Time Used",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "totalAvailableTime": {
-        "original": "Total Available Time",
-        "singular": "Total Available Time",
-        "plural": "Total Available Time",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "utilizationRate": {
-        "original": "Utilization Rate",
-        "singular": "Utilization Rate",
-        "plural": "Utilization Rate",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "remainingUsefulLife": {
-        "original": "Remaining Useful Life (RUL)",
-        "singular": "Remaining Useful Life (RUL)",
-        "plural": "Remaining Useful Life (RUL)",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "assetAge": {
-        "original": "Asset Age",
-        "singular": "Asset Age",
-        "plural": "Asset Age",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "totalDowntimePeriod": {
-        "original": "Total Downtime Period",
-        "singular": "Total Downtime Period",
-        "plural": "Total Downtime Period",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "avgRepairCost": {
-        "original": "Average Repair Cost",
-        "singular": "Average Repair Cost",
-        "plural": "Average Repair Cost",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "avgMaintenanceCost": {
-        "original": "Average Maintenance Cost",
-        "singular": "Average Maintenance Cost",
-        "plural": "Average Maintenance Cost",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "numberOfRepair": {
-        "original": "Number of Repairs",
-        "singular": "Number of Repair",
-        "plural": "Number of Repairs",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "totalRepairTime": {
-        "original": "Total Repair Time",
-        "singular": "Total Repair Time",
-        "plural": "Total Repair Time",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "mttr": {
-        "original": "MTTR (Mean Time To Repair)",
-        "singular": "MTTR (Mean Time To Repair)",
-        "plural": "MTTR (Mean Time To Repair)",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "mtbf": {
-        "original": "MTBF (Mean Time Between Failures)",
-        "singular": "MTBF (Mean Time Between Failures)",
-        "plural": "MTBF (Mean Time Between Failures)",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "conditionIndex": {
-        "original": "Condition Index",
-        "singular": "Condition Index",
-        "plural": "Condition Index",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "lastCalibrationDate": {
-        "original": "Last Calibration Date",
-        "singular": "Last Calibration Date",
-        "plural": "Last Calibration Date",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "latestSafetyInspection": {
-        "original": "Latest Safety Inspection",
-        "singular": "Latest Safety Inspection",
-        "plural": "Latest Safety Inspection",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "failureRate": {
-        "original": "Failure Rate",
-        "singular": "Failure Rate",
-        "plural": "Failure Rate",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "operatingCostHour": {
-        "original": "Operating Costs per Hour",
-        "singular": "Operating Costs per Hour",
-        "plural": "Operating Costs per Hour",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "repairCostHour": {
-        "original": "Repair Costs per Hour",
-        "singular": "Repair Costs per Hour",
-        "plural": "Repair Costs per Hour",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "lifetimeCostHour": {
-        "original": "Lifetime Repair Cost",
-        "singular": "Lifetime Repair Cost",
-        "plural": "Lifetime Repair Cost",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "lifetimeMaintenanceCost": {
-        "original": "Lifetime Maintenance Cost",
-        "singular": "Lifetime Maintenance Cost",
-        "plural": "Lifetime Maintenance Cost",
-        "setupEdit": false,
-        "setupVisible": false
-      }
+      "logs": "Logs"
     }
   },
   "assetLog": {
@@ -2855,120 +2494,120 @@
       "setupVisible": true
     },
     "sections": {
-    "setupVisible": false,
-     "setupEdit": false,
-    "sec0": {
-      "original": "General Details",
-      "singular": "General Details",
-      "plural": "",
+      "setupVisible": false,
       "setupEdit": false,
-      "setupVisible": false
-    },
-    "sec1": {
-      "original": "Checklist Details",
-      "singular": "Checklist Details",
-      "plural": "",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "sec2": {
-      "original": "Select the checklist you'd like to generate for this Asset",
-      "singular": "Select the checklist you'd like to generate for this Asset",
-      "plural": "",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "sec3": {
-      "original": "Updating the Asset within Checklist",
-      "singular": "Updating the Asset within Checklist",
-      "plural": "",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "sec4": {
-      "original": "Update the status of",
-      "singular": "Update the status of",
-      "plural": "",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "sec5": {
-      "original": "Asset Summary",
-      "singular": "Asset Summary",
-      "plural": "",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "sec6": {
-      "original": "Details",
-      "singular": "Details",
-      "plural": "",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "sec7": {
-      "original": "Filter By",
-      "singular": "Filter By",
-      "plural": "",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "sec8": {
-      "original": "Asset Details",
-      "singular": "Asset Details",
-      "plural": "",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "sec9": {
-      "original": "Questions",
-      "singular": "Question",
-      "plural": "Questions",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "sec10": {
-      "original": "Asset Updates",
-      "singular": "Asset Updates",
-      "plural": "",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "sec11": {
-      "original": "Follow-Up Checklist",
-      "singular": "Follow-Up Checklist",
-      "plural": "",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "sec12": {
-      "original": "Change Status",
-      "singular": "Change Status",
-      "plural": "",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "sec13": {
-      "original": "Add Spare Parts",
-      "singular": "Add Spare Parts",
-      "plural": "Add Spare Parts",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "sec14": {
-      "original": "Use the fields below to filter the Checklist(s) you'd like to add",
-      "singular": "Use the fields below to filter the Checklist(s) you'd like to add",
-      "plural": "Use the fields below to filter the Checklist(s) you'd like to add",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "sec15": {
-      "original": "Select the Checklist(s) you'd like to add to this Job Order",
-      "singular": "Select the Checklist(s) you'd like to add to this Job Order",
-      "plural": "Select the Checklist(s) you'd like to add to this Job Order",
-      "setupEdit": false,
-      "setupVisible": false
-    }
+      "sec0": {
+        "original": "General Details",
+        "singular": "General Details",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec1": {
+        "original": "Checklist Details",
+        "singular": "Checklist Details",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec2": {
+        "original": "Select the checklist you'd like to generate for this Asset",
+        "singular": "Select the checklist you'd like to generate for this Asset",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec3": {
+        "original": "Updating the Asset within Checklist",
+        "singular": "Updating the Asset within Checklist",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec4": {
+        "original": "Update the status of",
+        "singular": "Update the status of",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec5": {
+        "original": "Asset Summary",
+        "singular": "Asset Summary",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec6": {
+        "original": "Details",
+        "singular": "Details",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec7": {
+        "original": "Filter By",
+        "singular": "Filter By",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec8": {
+        "original": "Asset Details",
+        "singular": "Asset Details",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec9": {
+        "original": "Questions",
+        "singular": "Question",
+        "plural": "Questions",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec10": {
+        "original": "Asset Updates",
+        "singular": "Asset Updates",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec11": {
+        "original": "Follow-Up Checklist",
+        "singular": "Follow-Up Checklist",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec12": {
+        "original": "Change Status",
+        "singular": "Change Status",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec13": {
+        "original": "Add Spare Parts",
+        "singular": "Add Spare Parts",
+        "plural": "Add Spare Parts",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec14": {
+        "original": "Use the fields below to filter the Checklist(s) you'd like to add",
+        "singular": "Use the fields below to filter the Checklist(s) you'd like to add",
+        "plural": "Use the fields below to filter the Checklist(s) you'd like to add",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec15": {
+        "original": "Select the Checklist(s) you'd like to add to this Job Order",
+        "singular": "Select the Checklist(s) you'd like to add to this Job Order",
+        "plural": "Select the Checklist(s) you'd like to add to this Job Order",
+        "setupEdit": false,
+        "setupVisible": false
+      }
     },
     "fields": {
       "setupVisible": false,
@@ -3077,32 +2716,32 @@
         "plural": "",
         "setupEdit": false,
         "setupVisible": false
-      },
+      },      
       "assetStatusBeforeChecklist": {
         "original": "Asset status before checklist",
         "singular": "Asset status before checklist",
-        "plural": "Asset status before checklist",
+        "plural": "",
         "setupEdit": false,
         "setupVisible": false
       },
       "assetStatusAfterChecklist": {
         "original": "Asset status after checklist",
-        "singular":"Asset status after checklist",
-        "plural": "Asset status after checklist",
+        "singular": "Asset status after checklist",
+        "plural": "",
         "setupEdit": false,
         "setupVisible": false
       },
       "equipmentMeterReadingBeforeChecklist": {
         "original": "Equipment meter reading before checklist",
         "singular": "Equipment meter reading before checklist",
-        "plural": "Equipment meter reading before checklist",
+        "plural": "",
         "setupEdit": false,
         "setupVisible": false
       },
       "equipmentMeterReadingAfterChecklist": {
         "original": "Equipment meter reading after checklist",
         "singular": "Equipment meter reading after checklist",
-        "plural": "Equipment meter reading after checklist",
+        "plural": "",
         "setupEdit": false,
         "setupVisible": false
       }
@@ -3511,20 +3150,6 @@
         "original": "Sub-total",
         "singular": "Sub-total",
         "plural": "",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "family": {
-        "original": "Family",
-        "singular": "Family",
-        "plural": "Families",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "model": {
-        "original": "Model",
-        "singular": "Model",
-        "plural": "Model",
         "setupEdit": false,
         "setupVisible": false
       }
@@ -4884,7 +4509,6 @@
       "taskExternalCalendarIdExists": "A new Task External Calendar cannot already have an ID",
       "taskNoteIdExists": "A new Task Note cannot already have an ID",
       "taskNoteWithIdNotFound": "Invalid ID",
-      "taskNoteRequired":"Task note is required but not provided",
       "teamIdExists": "A new Team cannot already have an ID",
       "teamIdNotFound": "Id not found",
       "teamNotFound": "Team not found",
@@ -4905,7 +4529,8 @@
       "userTaskIdExists": "A new User Task cannot already have an ID",
       "userTaskIdNotFound": "Id not found",
       "userTaskNotFound": "User Task not found",
-      "userNotAllowedToAssignTask": "User not allowed to add member to the Task"
+      "userNotAllowedToAssignTask": "User not allowed to add member to the Task",
+      "taskNoteRequired": "Task note is required but not provided"
     },
     "tooltips": {
       "setupVisible": false,
@@ -5095,8 +4720,8 @@
       "areYouSureWantToRemoveMember":"Are you sure you want to remove the member?",
       "changeOwner":"Change Owner",
       "areYouSureWantToMakeOwner":"Are you sure you want to change the owner?",
-      "generateJobOrderForThisTask":" A Job order will be generated for this task"
-
+      "generateJobOrderForThisTask":" A Job order will be generated for this task",
+      "selectDateRange": "Please select a date range"
     }
   },
   "site": {
@@ -9121,7 +8746,7 @@
       "changeStatusTo": "Change status to",
       "identification" : "Identification",
       "signOff" : "Sign off",
-      "photoUplaod": "Photo Upload",
+      "photoUpload": "Photo Upload",
       "viewPdf" : "View Pdf",
       "emailPdf" : "Email Pdf"
     }
@@ -9257,20 +8882,6 @@
         "plural": "",
         "setupEdit": false,
         "setupVisible": false
-      },
-      "sec17": {
-        "original": "Select where to search",
-        "singular": "Select where to search",
-        "plural": "Select where to search",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "sec18": {
-        "original": "Select what to search",
-        "singular": "Select what to search",
-        "plural": "Select what to search",
-        "setupEdit": false,
-        "setupVisible": false
       }
     },
     "fields": {
@@ -9366,6 +8977,13 @@
         "plural": "",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "quantity": {
+        "original": "Quantity",
+        "singular": "Quantity",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
       },
       "reorderPoint": {
         "original": "Reorder Point",
@@ -9527,13 +9145,6 @@
         "plural": "",
         "setupEdit": false,
         "setupVisible": false
-      }, 
-      "pendingTransfer": {
-        "original": "Pending Transfers",
-        "singular": "Pending Transfer",
-        "plural": "Pending Transfers",
-        "setupEdit": false,
-        "setupVisible": false
       }
     },
     "validationFE": {
@@ -9566,9 +9177,6 @@
       "sameProductBinTransferNotAllowed": "You are not allowed to select the same Spare Part in a bin transfer",
       "sameProductBinNotAllowed": "You are not allowed to select the same Spare Part in a bin",
       "sameAssetBinNotAllowed": "You are not allowed to select the same asset in a bin",
-      "selectCategory":"Select Category",
-      "selectSubCategory":"Select Sub Category",
-      "selectStatus":"Select Status",
       "utilizeFromBin" : "Utilize from Bin",
       "utilizeSpareParts" : "Utilize Spare Parts",
       "transferFrom": "Transfer from"
@@ -9789,250 +9397,207 @@
     }
   },
   "binTransfer": {
-    "setupEdit": false,
     "setupVisible": false,
     "label": {
       "original": "Transfer",
       "singular": "Transfer",
       "plural": "Transfers",
-      "setupEdit": false,
-      "setupVisible": false
+      "setupEdit": true,
+      "setupVisible": true
     },
     "sections": {
-      "setupVisible": false,
+      "setupVisible": true,
       "sec0": {
         "original": "Transfer Details",
         "singular": "Transfer Details",
         "plural": "",
-        "setupEdit": false,
-        "setupVisible": false
+        "setupEdit": true,
+        "setupVisible": true
       },
       "sec1": {
         "original": "Location Bin Details",
         "singular": "Location Bin Details",
         "plural": "",
-        "setupEdit": false,
-        "setupVisible": false
+        "setupEdit": true,
+        "setupVisible": true
       },
       "sec2": {
         "original": "User Details",
         "singular": "User Details",
         "plural": "",
-        "setupEdit": false,
-        "setupVisible": false
+        "setupEdit": true,
+        "setupVisible": true
       },
       "sec3": {
         "original": "Transfer by Bin",
         "singular": "Transfer by Bin",
         "plural": "",
-        "setupEdit": false,
-        "setupVisible": false
+        "setupEdit": true,
+        "setupVisible": true
       },
       "sec4": {
         "original": "Assignee Details",
         "singular": "Assignee Details",
         "plural": "",
-        "setupEdit": false,
-        "setupVisible": false
+        "setupEdit": true,
+        "setupVisible": true
       },
       "sec5": {
         "original": "Transferred Items",
         "singular": "Transferred Items",
         "plural": "",
-        "setupEdit": false,
-        "setupVisible": false
+        "setupEdit": true,
+        "setupVisible": true
       },
       "sec6": {
         "original": "Decline Transfer",
         "singular": "Decline Transfer",
         "plural": "",
-        "setupEdit": false,
-        "setupVisible": false
+        "setupEdit": true,
+        "setupVisible": true
       },
       "sec7": {
         "original": "Transfer by Spare Part",
         "singular": "Transfer by Spare Part",
         "plural": "",
-        "setupEdit": false,
-        "setupVisible": false
+        "setupEdit": true,
+        "setupVisible": true
       },
       "sec8": {
         "original": "Transaction Details",
         "singular": "Transaction Details",
         "plural": "",
-        "setupEdit": false,
-        "setupVisible": false
+        "setupEdit": true,
+        "setupVisible": true
       },
       "sec9": {
         "original": "Spare Part/Assets Transfer",
         "singular": "Spare Part/Assets Transfer",
         "plural": "",
-        "setupEdit": false,
-        "setupVisible": false
+        "setupEdit": true,
+        "setupVisible": true
       },
       "sec10": {
         "original": "Transfer",
         "singular": "Transfer",
         "plural": "",
-        "setupEdit": false,
-        "setupVisible": false
+        "setupEdit": true,
+        "setupVisible": true
       },
       "sec11": {
         "original": "Locate",
         "singular": "Locate",
         "plural": "",
-        "setupEdit": false,
-        "setupVisible": false
+        "setupEdit": true,
+        "setupVisible": true
       },
       "sec12": {
         "original": "Movement History",
         "singular": "Movement History",
         "plural": "",
-        "setupEdit": false,
-        "setupVisible": false
+        "setupEdit": true,
+        "setupVisible": true
       },
       "sec13": {
         "original": "Asset(s) to Transfer",
         "singular": "Asset(s) to Transfer",
         "plural": "",
-        "setupEdit": false,
-        "setupVisible": false
+        "setupEdit": true,
+        "setupVisible": true
       },
       "sec14": {
         "original": "Part(s) to Transfer",
         "singular": "Part(s) to Transfer",
         "plural": "",
-        "setupEdit": false,
-        "setupVisible": false
-      },
+        "setupEdit": true,
+        "setupVisible": true
+      }, 
       "sec15": {
-        "original": "Transfer by Assets",
-        "singular": "Transfer by Assets",
-        "plural": "Transfer by Assets",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "sec16": {
-        "original": "Add Assets Via Serial Number",
-        "singular": "Add Assets Via Serial Number",
-        "plural": "Add Assets Via Serial Number",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "sec17": {
-        "original": "Transfer by Spare Parts",
-        "singular": "Transfer by Spare Parts",
-        "plural": "Transfer by Spare Parts",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "sec18": {
-        "original": "Add Spare Parts Via SKU",
-        "singular": "Add Spare Parts Via SKU",
-        "plural": "Add Spare Parts Via SKU",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "sec19": {
-        "original": "Adjust Spare Parts",
-        "singular": "Adjust Spare Parts",
-        "plural": "Adjust Spare Parts",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "sec20": {
-        "original": "Initiate Bin Transfer Confirmation",
-        "singular": "Initiate Bin Transfer Confirmation",
-        "plural": "Initiate Bin Transfer Confirmation",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "sec21": {
-        "original": "Missing Items Detected",
-        "singular": "Missing Items Detected",
-        "plural": "Missing Items Detected",
-        "setupEdit": false,
-        "setupVisible": false
+        "original": "Additional Details",
+        "singular": "Additional Details",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
       }
     },
     "fields": {
-      "setupVisible": false,
+      "setupVisible": true,
       "approvalStatus": {
         "original": "Approval Status",
         "singular": "Approval Status",
         "plural": "",
-        "setupEdit": false,
-        "setupVisible": false
+        "setupEdit": true,
+        "setupVisible": true
       },
       "fromBin": {
         "original": "From Bin",
         "singular": "From Bin",
         "plural": "",
-        "setupEdit": false,
-        "setupVisible": false
+        "setupEdit": true,
+        "setupVisible": true
       },
       "toBin": {
         "original": "To Bin",
         "singular": "To Bin",
         "plural": "",
-        "setupEdit": false,
-        "setupVisible": false
+        "setupEdit": true,
+        "setupVisible": true
       },
       "referenceNumber": {
         "original": "Reference Number",
         "singular": "Reference Number",
         "plural": "",
-        "setupEdit": false,
-        "setupVisible": false
+        "setupEdit": true,
+        "setupVisible": true
       },
       "notes": {
         "original": "Notes",
         "singular": "Note",
         "plural": "Notes",
-        "setupEdit": false,
-        "setupVisible": false
+        "setupEdit": true,
+        "setupVisible": true
       },
       "productName": {
         "original": "Spare Part Name",
         "singular": "Spare Part Name",
         "plural": "",
-        "setupEdit": false,
-        "setupVisible": false
+        "setupEdit": true,
+        "setupVisible": true
       },
       "assetName": {
         "original": "Asset Name",
         "singular": "Asset Name",
         "plural": "",
-        "setupEdit": false,
-        "setupVisible": false
+        "setupEdit": true,
+        "setupVisible": true
       },
       "sku": {
         "original": "SKU",
         "singular": "SKU",
         "plural": "",
-        "setupEdit": false,
-        "setupVisible": false
+        "setupEdit": true,
+        "setupVisible": true
       },
       "qtyAvailable": {
         "original": "Quantity Available",
         "singular": "Quantity Available",
         "plural": "",
-        "setupEdit": false,
-        "setupVisible": false
+        "setupEdit": true,
+        "setupVisible": true
       },
       "available": {
         "original": "Available",
         "singular": "Available",
         "plural": "",
-        "setupEdit": false,
-        "setupVisible": false
+        "setupEdit": true,
+        "setupVisible": true
       },
       "qtyTransfer": {
         "original": "Quantity to Transfer",
         "singular": "Quantity to Transfer",
         "plural": "",
-        "setupEdit": false,
-        "setupVisible": false
+        "setupEdit": true,
+        "setupVisible": true
       },
       "quantity": {
         "original": "Quantity",
@@ -10045,71 +9610,71 @@
         "original": "Transfer No.",
         "singular": "Transfer No.",
         "plural": "",
-        "setupEdit": false,
-        "setupVisible": false
+        "setupEdit": true,
+        "setupVisible": true
       },
       "date": {
         "original": "Date",
         "singular": "Date",
         "plural": "",
-        "setupEdit": false,
-        "setupVisible": false
+        "setupEdit": true,
+        "setupVisible": true
       },
       "referenceNo": {
         "original": "Reference Number",
         "singular": "Reference Number",
         "plural": "",
-        "setupEdit": false,
-        "setupVisible": false
+        "setupEdit": true,
+        "setupVisible": true
       },
       "type": {
         "original": "Type",
         "singular": "Type",
         "plural": "",
-        "setupEdit": false,
-        "setupVisible": false
+        "setupEdit": true,
+        "setupVisible": true
       },
       "transferredBy": {
         "original": "Transferred By",
         "singular": "Transferred By",
         "plural": "",
-        "setupEdit": false,
-        "setupVisible": false
+        "setupEdit": true,
+        "setupVisible": true
       },
       "assignedStatus": {
         "original": "Assigned Status",
         "singular": "Assigned Status",
         "plural": "",
-        "setupEdit": false,
-        "setupVisible": false
+        "setupEdit": true,
+        "setupVisible": true
       },
       "assignedTo": {
         "original": "Assigned To",
         "singular": "Assigned To",
         "plural": "",
-        "setupEdit": false,
-        "setupVisible": false
+        "setupEdit": true,
+        "setupVisible": true
       },
       "transferredDateTime": {
         "original": "Transferred Date & Time",
         "singular": "Transferred Date & Time",
         "plural": "",
-        "setupEdit": false,
-        "setupVisible": false
+        "setupEdit": true,
+        "setupVisible": true
       },
       "acceptedRejectedBy": {
         "original": "Accepted/Rejected By",
         "singular": "Accepted/Rejected By",
         "plural": "",
-        "setupEdit": false,
-        "setupVisible": false
+        "setupEdit": true,
+        "setupVisible": true
       },
       "remarks": {
         "original": "Remark",
         "singular": "Remark",
         "plural": "Remarks",
-        "setupEdit": false,
-        "setupVisible": false
+        "setupEdit": true,
+        "setupVisible": true
       },
       "mine": {
         "original": "Mine",
@@ -10136,85 +9701,22 @@
         "original": "User Bin",
         "singular": "User Bin",
         "plural": "",
-        "setupEdit": false,
-        "setupVisible": false
+        "setupEdit": true,
+        "setupVisible": true
       },
       "locationBin": {
         "original": "Location Bin",
         "singular": "Location Bin",
         "plural": "",
-        "setupEdit": false,
-        "setupVisible": false
+        "setupEdit": true,
+        "setupVisible": true
       },
       "acceptedDate": {
         "original": "Accepted Date",
         "singular": "Accepted Date",
         "plural": "",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "transferToBin": {
-        "original": "Transfer to Bin",
-        "singular": "Transfer to Bin",
-        "plural": "",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "transferToUser": {
-        "original": "Transfer to User",
-        "singular": "Transfer to User",
-        "plural": "",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "removeSelectedAsset": {
-        "original": "Remove selected assets from their respective bins",
-        "singular": "Remove selected assets from their respective bins",
-        "plural": "",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "status": {
-        "original": "Status",
-        "singular": "Status",
-        "plural": "",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "from": {
-        "original": "From",
-        "singular": "From",
-        "plural": "",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "transferFromBin": {
-        "original": "Transfer from Bin",
-        "singular": "Transfer from Bin",
-        "plural": "",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "transferFromUser": {
-        "original": "Transfer from User",
-        "singular": "Transfer from User",
-        "plural": "",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "selectAsset": {
-        "original": "Select Asset",
-        "singular": "Select Asset",
-        "plural": "",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "selectSparePart": {
-        "original": "Select Spare Part",
-        "singular": "Select Spare Part",
-        "plural": "",
-        "setupEdit": false,
-        "setupVisible": false
+        "setupEdit": true,
+        "setupVisible": true
       }
     },
     "tooltips": {
@@ -10222,19 +9724,9 @@
         "original": "Bin Lookup",
         "singular": "Bin Lookup",
         "plural": "",
-        "setupEdit": false,
-        "setupVisible": false
+        "setupEdit": true,
+        "setupVisible": true
       }
-    },
-    "validationFE": {
-      "assetNotFound": "Asset not found",
-      "sparePartNotFound": "Spare Part Not Found",
-      "addAtLeastOneAsset":"Add at least one asset to proceed",
-      "addAtLeastOneSparePart":"Add at least one spare part to proceed",
-      "oneSelectionToProceed":"Make at least one selection to proceed",
-      "exceededTotalSerialNoAdded":"You have exceeded the total number of serial numbers that can be added at a time. Please enter only up to 50 serial numbers.",
-      "assetHasBeenSelected":"This asset has already been selected, please select a different asset.",
-      "selectBinToProceed":"Select a bin to proceed"
     },
     "validationBE": {
       "binTransferIdExists": "A new Bin Transfer cannot already have an ID",
@@ -10277,46 +9769,7 @@
       "binTransferSavedSuccessfully":"Bin Transfer saved successfully",
       "assetsTransferred":"Asset(s) transferred",
       "productsTransferred":"Spare Part(s) transferred",
-      "assetsAreNotAllowedToTransfer": "Assets are not allowed to transfer to Job order",
-      "selectAssetsToTransfer":"Select the assets you want to transfer",
-      "selectBinToTransferAssets":"Select the bin you want to transfer the assets to",
-      "confirmAssetToTransfer":"Confirm the asset you want to transfer",
-      "selectBinToTransferAboveAsset":"Select the bin you want to transfer the above asset to",
-      "typePasteSerialNumbers":"Type or paste serial numbers of the assets you want to transfer with a maximum of 50 serial numbers at a time. Note: Separate serial numbers with ',' or a new line.",
-      "inputSerialNumbers":"Type or paste serial numbers of the assets you want to transfer with a maximum of 50 serial numbers at a time.",
-      "inputSKU":"Type or paste SKUs of the spare parts you want to transfer with a maximum of 50 SKUs at a time. ",
-      "serialNumberNote":"Note",
-      "serialNumberSeparation":"Separate serial numbers with ',' or a new line.",
-      "skuSeparation":"Separate SKUs with ',' or a new line.",
-      "transferCompletedImmediately":"This transfer will be completed immediately.",
-      "transferNeedApproval":"This transfer will need to be approved before completion.",
-      "selectSparePartsToTransfer":"Select the spare parts you want to transfer",
-      "selectBinToTransferAboveSpareParts":"Select the bin you want to transfer the above spare parts to",
-      "confirmSparePartsAdjust":"Confirm the spare parts you want to adjust",
-      "selectBinsToAdjustSpareParts":"Select the bins you want to adjust spare parts in",
-      "selectOptionTransferSpecificItems":"Select this option to transfer specific items by",
-      "selectOptionTo":"Select this option to",
-      "browseAssetList":"Browsing your Asset list",
-      "browseSparePartsList":"Browsing your Spare Parts list",
-      "selectAssetsViaSerialNo":"Selecting Assets via serial number",
-      "addingViaSku":"Adding via SKU",
-      "bulkTransferBetweenBins":"Bulk transfer items between bins",
-      "reorganizeStorageSystem":"Reorganize your storage system",
-      "moveAssetsFromOneBinToAnother":"Move assets from one bin to another",
-      "moveSparePartsFromOneBinToAnother":"Move spare parts from one bin to another",
-      "selectBinTransferAssetFrom":"Select the bin you want to transfer assets from",
-      "selectAssetsToBeTransferred":"Select the assets to be transferred",
-      "selectSparePartsToBeTransferred":"Select the spare parts to be transferred",
-      "selectBinTransferSparePartFrom":"Select the bin you want to transfer spare parts from",
-      "selectBinToTransferSpareParts":"Select the bin you want to transfer the spare parts to",
-      "specifySparePartQuantity":"You may specify spare part quantity in the next step",
-      "addQuantitiesTransferred":"Add the quantities to be transferred to",
-      "enterSerialNumberHere":"Enter serial numbers here. Eg. 128371253ABC",
-      "enterSKUHere":"Enter SKUs here. Eg. 128371253ABC",
-      "areYouSureInitiateTransfer":"Are you sure you want to initiate this bin transfer?",
-      "selectedBinNoLongerContains":"The selected bin no longer contains the following items",
-      "needTransferItemManually":"You will need to select and transfer these items manually. The other selected items will be transferred.",
-      "transferCannotContinue":"The transfer cannot continue since the selected bin no longer contains the following items"
+      "assetsAreNotAllowedToTransfer": "Assets are not allowed to transfer to Job order"
     }
   },
   "checkAvailibility": {
@@ -10461,7 +9914,6 @@
   },
   "consignment": {
     "setupVisible": false,
-    "setupEdit": false,
     "label": {
       "original": "Consignment",
       "singular": "Consignment",
@@ -10470,8 +9922,7 @@
       "setupVisible": true
     },
     "sections": {
-      "setupVisible": false,
-      "setupEdit": false,
+      "setupVisible": true,
       "sec0": {
         "original": "Pending Approvals",
         "singular": "Pending Approval",
@@ -10520,95 +9971,10 @@
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
-      },
-      "sec7": {
-        "original": "New Consignment Note",
-        "singular": "New Consignment Note",
-        "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
-      },
-      "sec8": {
-        "original": "Consignment Details",
-        "singular": "Consignment Details",
-        "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
-      },
-      "sec9": {
-        "original": "Destination",
-        "singular": "Destination",
-        "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
-      },
-      "sec10": {
-        "original": "Review",
-        "singular": "Review",
-        "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
-      },
-      "sec11": {
-        "original": "Consignment Summary",
-        "singular": "Consignment Summary",
-        "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
-      },
-      "sec12": {
-        "original": "Requestor’s Manager Approval",
-        "singular": "Requestor’s Manager Approval",
-        "plural": "Requestor’s Manager Approval",
-        "setupEdit": true,
-        "setupVisible": true
-      },
-      "sec13": {
-        "original": "Receiver Approval 1",
-        "singular": "Receiver Approval 1",
-        "plural": "Receiver Approval 1",
-        "setupEdit": true,
-        "setupVisible": true
-      },
-      "sec14": {
-        "original": "Receiver Approval 2",
-        "singular": "Receiver Approval 2",
-        "plural": "Receiver Approval 2",
-        "setupEdit": true,
-        "setupVisible": true
-      },
-      "sec15": {
-        "original": "Request Details",
-        "singular": "Request Details",
-        "plural": "Request Details",
-        "setupEdit": true,
-        "setupVisible": true
-      },
-      "sec16": {
-        "original": "Transfer Details",
-        "singular": "Transfer Details",
-        "plural": "Transfer Details",
-        "setupEdit": true,
-        "setupVisible": true
-      },
-      "sec17": {
-        "original": "Approver Details",
-        "singular": "Approver Details",
-        "plural": "Approver Details",
-        "setupEdit": true,
-        "setupVisible": true
-      },
-      "sec18": {
-        "original": "Request Summary",
-        "singular": "Request Summary",
-        "plural": "Request Summary",
-        "setupEdit": true,
-        "setupVisible": true
       }
     },
     "fields": {
-      "setupVisible": false,
-      "setupEdit": false,
+      "setupVisible": true,
       "purpose": {
         "original": "Purpose",
         "singular": "Purpose",
@@ -10776,130 +10142,10 @@
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
-      },
-      "totalUnit": {
-        "original": "Total Units",
-        "singular": "Total Unit",
-        "plural": "Total Units",
-        "setupEdit": true,
-        "setupVisible": true
-      },
-      "transferId": {
-        "original": "Transfer ID",
-        "singular": "Transfer ID",
-        "plural": "Transfer ID",
-        "setupEdit": true,
-        "setupVisible": true
-      },
-      "note": {
-        "original": "Note",
-        "singular": "Note",
-        "plural": "Notes",
-        "setupEdit": true,
-        "setupVisible": true
-      },
-      "approvalStatus": {
-        "original": "Approval Status",
-        "singular": "Approval Status",
-        "plural": "Approval Status",
-        "setupEdit": true,
-        "setupVisible": true
-      },
-      "consignedDate": {
-        "original": "Consigned Date",
-        "singular": "Consigned Date",
-        "plural": "Consigned Date",
-        "setupEdit": true,
-        "setupVisible": true
-      },
-      "approvedDateTime": {
-        "original": "Approved Date & Time",
-        "singular": "Approved Date & Time",
-        "plural": "Approved Date & Time",
-        "setupEdit": true,
-        "setupVisible": true
-      },
-      "consignedBy": {
-        "original": "Consigned By",
-        "singular": "Consigned By",
-        "plural": "Consigned By",
-        "setupEdit": true,
-        "setupVisible": true
-      },
-      "approver": {
-        "original": "Approver",
-        "singular": "Approver",
-        "plural": "Approver",
-        "setupEdit": true,
-        "setupVisible": true
-      },
-      "responseDateTime": {
-        "original": "Response Date & Time",
-        "singular": "Response Date & Time",
-        "plural": "",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "requestNote": {
-        "original": "Request Note",
-        "singular": "Request Note",
-        "plural": "Request Notes",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "totalCount": {
-        "original": "Total Count",
-        "singular": "Total Count",
-        "plural": "Total Count",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "qtyToTransfer": {
-        "original": "Qty to Transfer",
-        "singular": "Qty to Transfer",
-        "plural": "Qty to Transfer",
-        "setupEdit": true,
-        "setupVisible": true
-      },
-      "from": {
-        "original": "From",
-        "singular": "From",
-        "plural": "From",
-        "setupEdit": true,
-        "setupVisible": true
-      },
-      "fromBin": {
-        "original": "From Bin",
-        "singular": "From Bin",
-        "plural": "From Bin",
-        "setupEdit": true,
-        "setupVisible": true
-      },
-      "toBin": {
-        "original": "To Bin",
-        "singular": "To Bin",
-        "plural": "To Bin",
-        "setupEdit": true,
-        "setupVisible": true
-      },
-      "consignmentNote": {
-        "original": "Consignment Note",
-        "singular": "Consignment Note",
-        "plural": "Consignment Note",
-        "setupEdit": true,
-        "setupVisible": true
-      },
-      "item": {
-        "original": "Items",
-        "singular": "Item",
-        "plural": "Items",
-        "setupEdit": true,
-        "setupVisible": true
       }
     },
     "tooltips": {
-      "setupVisible": false,
-      "setupEdit": false,
+      "setupVisible": true,
       "assetSerialNoLookup": {
         "original": "Asset Serial No. Lookup",
         "singular": "Asset Serial No. Lookup",
@@ -10913,20 +10159,7 @@
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
-      },
-      "includeChildAsset": {
-        "original": "Includes child assets of selected assets in the transfer. Only child assets in the same bin as their parent will be included.",
-        "singular": "Includes child assets of selected assets in the transfer. Only child assets in the same bin as their parent will be included",
-        "plural": "",
-        "setupEdit": false,
-        "setupVisible": false
       }
-    },
-    "validationFE": {
-      "qtyTransferExceedsQtyAvailable":"Quantity to transfer exceeds quantity available",
-      "atLeastOneAssetRequired":"At least one asset is required to proceed",
-      "atLeastOneSparePartRequired":"At least one spare part is required to proceed",
-      "atLeastOneItemRequired":"At least one item is required to proceed"
     },
     "validationBE": {
       "consignmentIdNotFound": "Id not found",
@@ -10940,55 +10173,18 @@
       "consignmentIdExists": "A new consignmentNote cannot already have an ID",
       "consignmentItemIdExists": "A new consignmentItem cannot already have an ID",
       "consignmentItemTypeNotFound": "ConsignmentItem Type not found",
-      "consignmentItemIdNotFound": "Id not found",
-      "userGroupNotFoundOfFromBin": "UserGroup not found for zone of From Bin",
-      "userGroupNotFoundOfToBin": "UserGroup not found for zone of To Bin",
-      "fromBinNotFound": "From Bin not found",
-      "toBinNotFound": "To Bin not found",
-      "noAssetsOrProductsFound": "No assets or products found"
+      "consignmentItemIdNotFound": "Id not found"
     },
     "messages": {
       "selectType": "Select Type",
       "selectCompany": "Select Company",
       "uploadCopyApproved":"Please upload a copy of Approved Consignment",
       "approvedCannotDelete":"Consignment Note has been approved hence unable to delete",
-      "acknowledgeCannotDelete":"Consignment Note has been acknowledged hence unable to delete",
-      "whatWouldYouLikeSend":"What would you like to send?",
-      "specificAssets":"Specific Assets",
-      "sendByType":"Send by Type",
-      "sendFromBin":"Send from Bin",
-      "sendAnyAvailable":"Send Any Available",
-      "chooseThisSerialNumber":"Choose this if you know the bin and asset serial numbers.",
-      "selectSparePartFromBin":"Select specific spare parts from a known bin",
-      "defineCustomListOfItems":"Define a custom list of items to send",
-      "sendAssetByTypeQty":"Send assets by type and quantity instead of serial numbers",
-      "sendSparePartAvailableFromBin":"Send spare parts from any available bin",
-      "selectBinSendingAssetFrom":"Select the bin you are sending assets from",
-      "youCanSelectBinInCharge":"You can only select bins that you are in charge of",
-      "selectItemsToBeSent":"Select the items to be sent",
-      "selectBinSendAssetTo":"Select the bin you would like to send the assets to",
-      "reviewSelectionsMadeBeforeSubmit":"Review the selections that you have made before submitting",
-      "reviewSelectionsMade":"Review the selections that you have made before submitting your request.",
-      "selectBinSendingSparePartFrom":"Select the bin you are sending spare parts from",
-      "enterQtySparePartsRequired":"Enter the quantity of spare parts required",
-      "selectBinSendSparePartsTo":"Select the bin you would like to send the spare parts to",
-      "selectBinConsignItemFrom":"Select the bin you are consigning items from",
-      "selectBinSendItemsTo":"Select the bin you would like to send the items to",
-      "hasCreatedConsignmentNote":"has created a Consignment Note",
-      "andIsWaitingApproval":"and is awaiting your approval",
-      "from":"from",
-      "hasApprovedConsignmentNote":"has Approved your Consignment Note",
-      "hasRejectedConsignmentNote":"has Rejected your Consignment Note",
-      "hasBeenApprovedRequisitionNote":"has been Approved. You can now proceed to transfer the selected items.",
-      "has":"has",
-      "hasBeen":"has been",
-      "yourRequisitionNote":"your Consignment Note",
-      "youCanProceedToTransfer":"You can now proceed to transfer the selected items."
+      "acknowledgeCannotDelete":"Consignment Note has been acknowledged hence unable to delete"
     }
   },
   "requisition": {
     "setupVisible": false,
-    "setupEdit": false,
     "label": {
       "original": "Requisition",
       "singular": "Requisition",
@@ -10997,8 +10193,7 @@
       "setupVisible": true
     },
     "sections": {
-      "setupVisible": false,
-      "setupEdit": false,
+      "setupVisible": true,
       "sec0": {
         "original": "Pending Approvals",
         "singular": "Pending Approval",
@@ -11068,109 +10263,10 @@
         "plural": "Verification",
         "setupEdit": true,
         "setupVisible": true
-      },
-      "sec10": {
-        "original": "New Requisition Note",
-        "singular": "New Requisition Note",
-        "plural": "New Requisition Note",
-        "setupEdit": true,
-        "setupVisible": true
-      },
-      "sec11": {
-        "original": "Custom",
-        "singular": "Custom",
-        "plural": "Custom",
-        "setupEdit": true,
-        "setupVisible": true
-      },
-      "sec12": {
-        "original": "Request Details",
-        "singular": "Request Details",
-        "plural": "Request Details",
-        "setupEdit": true,
-        "setupVisible": true
-      },
-      "sec13": {
-        "original": "Destination",
-        "singular": "Destination",
-        "plural": "Destination",
-        "setupEdit": true,
-        "setupVisible": true
-      },
-      "sec14": {
-        "original": "Review",
-        "singular": "Review",
-        "plural": "Review",
-        "setupEdit": true,
-        "setupVisible": true
-      },
-      "sec15": {
-        "original": "Request Summary",
-        "singular": "Request Summary",
-        "plural": "Request Summary",
-        "setupEdit": true,
-        "setupVisible": true
-      },
-      "sec16": {
-        "original": "Transfer Details",
-        "singular": "Transfer Details",
-        "plural": "Transfer Details",
-        "setupEdit": true,
-        "setupVisible": true
-      },
-      "sec17": {
-        "original": "Approval Details",
-        "singular": "Approval Details",
-        "plural": "Approval Details",
-        "setupEdit": true,
-        "setupVisible": true
-      },
-      "sec18": {
-        "original": "Requestor’s Manager Approval",
-        "singular": "Requestor’s Manager Approval",
-        "plural": "Requestor’s Manager Approval",
-        "setupEdit": true,
-        "setupVisible": true
-      },
-      "sec19": {
-        "original": "Receiver Approval 1",
-        "singular": "Receiver Approval 1",
-        "plural": "Receiver Approval 1",
-        "setupEdit": true,
-        "setupVisible": true
-      },
-      "sec20": {
-        "original": "Receiver Approval 2",
-        "singular": "Receiver Approval 2",
-        "plural": "Receiver Approval 2",
-        "setupEdit": true,
-        "setupVisible": true
-      },
-      "sec21": {
-        "original": "All Requisitions",
-        "singular": "All Requisitions",
-        "plural": "All Requisitions",
-        "setupEdit": true,
-        "setupVisible": true
-      },
-      "sec22": {
-        "original": "Pending My Approval",
-        "singular": "Pending My Approval",
-        "plural": "Pending My Approval",
-        "setupEdit": true,
-        "setupVisible": true
-      },
-      "sec23": {
-        "original": "Edit Requisition Note",
-        "singular": "Edit Requisition Note",
-        "plural": "Edit Requisition Note",
-        "setupEdit": true,
-        "setupVisible": true
       }
     },
     "fields": {
-      "setupVisible": false,
-      "setupEdit": false,
+      "setupVisible": true,
       "priority": {
         "original": "Priority",
         "singular": "Priority",
@@ -11394,123 +10490,10 @@
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
-      },
-      "totalUnit": {
-        "original": "Total Units",
-        "singular": "Total Unit",
-        "plural": "Total Units",
-        "setupEdit": true,
-        "setupVisible": true
-      },
-      "qtyToTransfer": {
-        "original": "Qty to Transfer",
-        "singular": "Qty to Transfer",
-        "plural": "Qty to Transfer",
-        "setupEdit": true,
-        "setupVisible": true
-      },
-      "approvalStatus": {
-        "original": "Approval Status",
-        "singular": "Approval Status",
-        "plural": "Approval Status",
-        "setupEdit": true,
-        "setupVisible": true
-      },
-      "requestDate": {
-        "original": "Request Date",
-        "singular": "Request Date",
-        "plural": "Request Date",
-        "setupEdit": true,
-        "setupVisible": true
-      },
-      "approvedDateTime": {
-        "original": "Approved Date & Time",
-        "singular": "Approved Date & Time",
-        "plural": "Approved Date & Time",
-        "setupEdit": true,
-        "setupVisible": true
-      },
-      "requestedBy": {
-        "original": "Requested By",
-        "singular": "Requested By",
-        "plural": "Requested By",
-        "setupEdit": true,
-        "setupVisible": true
-      },
-      "note": {
-        "original": "Note",
-        "singular": "Note",
-        "plural": "Notes",
-        "setupEdit": true,
-        "setupVisible": true
-      },
-      "transferId": {
-        "original": "Transfer ID",
-        "singular": "Transfer ID",
-        "plural": "Transfer ID",
-        "setupEdit": true,
-        "setupVisible": true
-      },
-      "fromBin": {
-        "original": "From Bin",
-        "singular": "From Bin",
-        "plural": "",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "toBin": {
-        "original": "To Bin",
-        "singular": "To Bin",
-        "plural": "",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "approver": {
-        "original": "Approver",
-        "singular": "Approver",
-        "plural": "",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "responseDateTime": {
-        "original": "Response Date & Time",
-        "singular": "Response Date & Time",
-        "plural": "",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "remark": {
-        "original": "Remarks",
-        "singular": "Remark",
-        "plural": "Remarks",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "requestNote": {
-        "original": "Request Note",
-        "singular": "Request Note",
-        "plural": "Request Notes",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "totalCount": {
-        "original": "Total Count",
-        "singular": "Total Count",
-        "plural": "Total Count",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "item": {
-        "original": "Items",
-        "singular": "Item",
-        "plural": "Items",
-        "setupEdit": true,
-        "setupVisible": true
       }
     },
     "tooltips": {
-      "setupVisible": false,
-      "setupEdit": false,
+      "setupVisible": true,
       "assetSerialNoLookup": {
         "original": "Asset Serial No. Lookup",
         "singular": "Asset Serial No. Lookup",
@@ -11524,19 +10507,7 @@
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
-      },
-      "includeChildAsset": {
-        "original": "Includes child assets of selected assets in the transfer. Only child assets in the same bin as their parent will be included.",
-        "singular": "Includes child assets of selected assets in the transfer. Only child assets in the same bin as their parent will be included",
-        "plural": "",
-        "setupEdit": false,
-        "setupVisible": false
       }
-    },
-    "validationFE": {
-      "atLeastOneAssetRequired":"At least one asset is required to proceed",
-      "atLeastOneSparePartRequired":"At least one spare part is required to proceed",
-      "atLeastOneItemRequired":"At least one item is required to proceed"
     },
     "validationBE": {
       "requisitionIdNotFound": "Id not found",
@@ -11557,12 +10528,7 @@
       "requisitionIdExists": "A new requisitionNote cannot already have an ID",
       "requisitionItemIdExists": "A new requisitionItem cannot already have an ID",
       "requisitionItemTypeFound": "RequisitionItem type not found",
-      "requisitionItemIdNotFound": "Id not found",
-      "userGroupNotFoundOfFromBin": "UserGroup not found for zone of From Bin",
-      "userGroupNotFoundOfToBin": "UserGroup not found for zone of To Bin",
-      "fromBinNotFound": "From Bin not found",
-      "toBinNotFound": "To Bin not found",
-      "noAssetsOrProductsFound": "No assets or products found"
+      "requisitionItemIdNotFound": "Id not found"
     },
     "messages": {
       "selectPriority": "Select Priority",
@@ -11572,51 +10538,7 @@
       "uploadCopyApproved":"Please upload a copy of Approved Requisition",
       "requisitionAcceptedSuccessfully": "Requisition accepted successfully",
       "requisitionRejectedSuccessfully": "Requisition rejected successfully",
-      "requisitionSubmittedSuccessfully": "Requisition submitted successfully",
-      "whatWouldYouLikeRequest":"What would you like to request?",
-      "defineCustomListOfItems":"Define a custom list of items to request",
-      "specificAssets":"Specific Assets",
-      "requestByType":"Request by Type",
-      "requestFromBin":"Request from Bin",
-      "requestAnyAvailable":"Request Any Available",
-      "chooseThisSerialNumber":"Choose this if you know the bin and asset serial numbers.",
-      "requestAssetByTypeQty":"Request assets by type and quantity instead of serial numbers",
-      "selectSparePartFromBin":"Select specific spare parts from a known bin",
-      "requestSparePartFromBin":"Request spare parts from any available bin",
-      "selectBinRequestAssetFrom":"Select the bin you are requesting assets from",
-      "unsureOfAssetLocation":"Not sure of asset locations?",
-      "notSureBinAvailableAsset":"Not sure which bin the assets are available in?",
-      "selectItemsRequested":"Select the items to be requested",
-      "selectBinToTransferAssetTo":"Select the bin you would like to transfer the assets to",
-      "youCanSelectBinInCharge":"You can only select bins that you are in charge of",
-      "reviewSelectionsMade":"Review the selections that you have made before submitting your request.",
-      "selectBinRequestSparePartFrom":"Select the bin you are requesting spare parts from",
-      "unsureOfSparePartAvailability":"Not sure of spare part availability?",
-      "notSureBinAvailableSpareParts":"Not sure which bin the spare parts are available in?",
-      "enterQtySparePartsRequired":"Enter the quantity of spare parts required",
-      "selectBinToTransferSparePartTo":"Select the bin you would like to transfer the spare parts to",
-      "unsureItemsRequestStored":"If you're unsure where the items you are requesting are stored, select a bin managed by a team that can locate and fulfill your request",
-      "selectBinRequestFrom":"Select the bin you are requesting items from",
-      "selectBinToTransferTo":"Select the bin you would like to transfer the items to",
-      "hasRejectedRequisitionNote":"has Rejected your Requisition Note",
-      "hasApprovedRequisitionNote":"has Approved your Requisition Note",
-      "hasBeenApprovedRequisitionNote":"has been Approved. You can now proceed to transfer the selected items.",
-      "has":"has",
-      "hasBeen":"has been",
-      "yourRequisitionNote":"your Requisition Note",
-      "youCanProceedToTransfer":"You can now proceed to transfer the selected items.",
-      "hasCreatedRequisitionNote":"has created a Requisition Note",
-      "andIsWaitingApproval":"and is awaiting your approval",
-      "from":"from",
-      "selectAssetToRequest":"Select the assets to be requested",
-      "selectSparePartToRequest":"Select the spare parts to be requested",
-      "selectItemsToRequest":"Select the items to be requested",
-      "includeChildAsset":"Include Child Asset",
-      "selectAssetWishToTransfer":"Select the assets you wish to transfer",
-      "selectSparePartWishToTransfer":"Select the spare parts you wish to transfer",
-      "selectItemsWishToTransfer":"Select the items you wish to transfer",
-      "filteredBySparePart":"Filtered by spare parts in selected from bin",
-      "filteredByAsset":"Filtered by asset in selected from bin"
+      "requisitionSubmittedSuccessfully": "Requisition submitted successfully"
     }
   },
   "contacts": {
@@ -12121,54 +11043,6 @@
       }
     }
   },
-  "movement": {
-    "setupEdit": false,
-    "setupVisible": false,
-    "label": {
-      "original": "Movements",
-      "singular": "Movement",
-      "plural": "Movements",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "fields": {
-      "from": {
-        "original": "From",
-        "singular": "From",
-        "plural": "",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "to": {
-        "original": "To",
-        "singular": "To",
-        "plural": "",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "transferredBy": {
-        "original": "Transferred By",
-        "singular": "Transferred By",
-        "plural": "",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "transferredDate": {
-        "original": "Transferred Date",
-        "singular": "Transferred Date",
-        "plural": "",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "transferNo": {
-        "original": "Transfer No.",
-        "singular": "Transfer No.",
-        "plural": "",
-        "setupEdit": false,
-        "setupVisible": false
-      }
-    }
-  },
   "header": {
     "setupVisible": false,
     "label": {
@@ -12503,10 +11377,10 @@
         "setupVisible": false
       },
       "transferByProducts": {
-        "original": "Transfer Spare Parts",
-        "singular": "Transfer Spare Parts",
+        "original": "Transfer by Spare Parts",
+        "singular": "Transfer by Spare Parts",
         "plural": "",
-        "setupEdit": false,
+        "setupEdit": true,
         "setupVisible": false
       },
       "transferByBin": {
@@ -13573,13 +12447,6 @@
         "setupEdit": true,
         "setupVisible": false
       },
-      "addProduct":{
-        "original": "Add Spare Parts",
-        "singular": "Add Spare Part",
-        "plural": "Add Spare Parts",
-        "setupEdit": false,
-        "setupVisible": false
-      },
       "discard":{
         "original": "Discard",
         "singular": "Discard",
@@ -13594,13 +12461,6 @@
         "setupEdit": false,
         "setupVisible": false
       },
-      "mapPicklist":{
-        "original": "Map Picklist",
-        "singular": "Map Picklist",
-        "plural": "Map Picklist",
-        "setupEdit": false,
-        "setupVisible": false
-      },
       "smartSuggest":{
         "original": "Smart Suggest",
         "singular": "Smart Suggest",
@@ -13610,7 +12470,7 @@
       },
       "copyToTaskNotes":{
         "original": "Copy to task notes",
-        "singular": "Copy to task notes",
+        "singular": "Copy to task notes",  
         "plural": "",
         "setupEdit": false,
         "setupVisible": false
@@ -13622,10 +12482,10 @@
         "setupEdit": false,
         "setupVisible": false
       },
-      "addSection":{
-        "original": "Add Section",
-        "singular": "Add Section",
-        "plural": "Add Sections",
+      "addProduct":{
+        "original": "Add Spare Parts",
+        "singular": "Add Spare Part",
+        "plural": "Add Spare Parts",
         "setupEdit": false,
         "setupVisible": false
       },
@@ -13633,20 +12493,6 @@
         "original": "Group View",
         "singular": "Group View",
         "plural": "Group View",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "addAPage":{
-        "original": "Add Page",
-        "singular": "Add Page",
-        "plural": "Add Pages",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "locateAsset":{
-        "original": "Locate Asset",
-        "singular": "Locate Asset",
-        "plural": "Locate Assets",
         "setupEdit": false,
         "setupVisible": false
       },
@@ -13670,203 +12516,7 @@
         "plural": "Use Coordinates",
         "setupEdit": false,
         "setupVisible": false
-      },
-      "transferAsset":{
-        "original": "Transfer Asset",
-        "singular": "Transfer Asset",
-        "plural": "Transfer Asset",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "addAsset":{
-        "original": "Add Asset",
-        "singular": "Add Asset",
-        "plural": "Add Asset",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "openExternally":{
-        "original": "Open Externally",
-        "singular": "Open Externally",
-        "plural": "Open Externally",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "pasteSerialNumbers":{
-        "original": "Paste Serial Numbers",
-        "singular": "Paste Serial Numbers",
-        "plural": "Paste Serial Numbers",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "pasteSku":{
-        "original": "Paste SKU",
-        "singular": "Paste SKU",
-        "plural": "Paste SKU",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "generateTemporarySerialNo":{
-        "original": "Generate Temporary Serial No",
-        "singular": "Generate Temporary Serial No",
-        "plural": "Generate Temporary Serial No",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "initiateBinTransfer":{
-        "original": "Initiate Bin Transfer",
-        "singular": "Initiate Bin Transfer",
-        "plural": "Initiate Bin Transfer",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "manualBinTransfer":{
-        "original": "Manual Bin Transfer",
-        "singular": "Manual Bin Transfer",
-        "plural": "Manual Bin Transfer",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "previewCsv":{
-        "original": "Preview CSV",
-        "singular": "Preview CSV",
-        "plural": "Preview CSV",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "addNewStatus":{
-        "original": "Add New Status",
-        "singular": "Add New Status",
-        "plural": "Add New Status",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "addNewType":{
-        "original": "Add New Type",
-        "singular": "Add New Type",
-        "plural": "Add New Type",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "saveConfigurationImportAsset":{
-        "original": "Save Configurations & Import Assets",
-        "singular": "Save Configurations & Import Assets",
-        "plural": "Save Configurations & Import Assets",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "skip":{
-        "original": "Skip",
-        "singular": "Skip",
-        "plural": "Skip",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "saveConfigurationImportWorkOrders":{
-        "original": "Save Configurations & Import Work Orders",
-        "singular": "Save Configurations & Import Work Orders",
-        "plural": "Save Configurations & Import Work Orders",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "chooseFile":{
-        "original": "Choose a File",
-        "singular": "Choose a File",
-        "plural": "Choose a File",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "choose":{
-        "original": "Choose",
-        "singular": "Choose",
-        "plural": "Choose",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "startLearning":{
-        "original": "Start Learning",
-        "singular": "Start Learning",
-        "plural": "Start Learning",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "watchVideo":{
-        "original": "Watch Videos",
-        "singular": "Watch Video",
-        "plural": "Watch Videos",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "exploreDocs":{
-        "original": "Explore Docs",
-        "singular": "Explore Docs",
-        "plural": "Explore Docs",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "browseFaqs":{
-        "original": "Browse FAQs",
-        "singular": "Browse FAQs",
-        "plural": "Browse FAQs",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "contactSupport":{
-        "original": "Contact Support",
-        "singular": "Contact Support",
-        "plural": "Contact Support",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "exploreLatestInnovations":{
-        "original": "Explore Latest Innovations",
-        "singular": "Explore Latest Innovations",
-        "plural": "Explore Latest Innovations",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "claimFreeSession":{
-        "original": "Claim Your 2 Free Sessions",
-        "singular": "Claim Your 2 Free Sessions",
-        "plural": "Claim Your 2 Free Sessions",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "launchSetup":{
-        "original": "Launch Setup",
-        "singular": "Launch Setup",
-        "plural": "Launch Setup",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "finalize":{
-        "original": "Finalize",
-        "singular": "Finalize",
-        "plural": "Finalize",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "addUser":{
-        "original": "Add User",
-        "singular": "Add User",
-        "plural": "Add User",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "letAiCreateConfigure":{
-        "original": "Let AI Create Your Data & Configure Your System",
-        "singular": "Let AI Create Your Data & Configure Your System",
-        "plural": "Let AI Create Your Data & Configure Your System",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "saveConfigurationImportModule":{
-        "original": "Save Configurations & Import",
-        "singular": "Save Configurations & Import",
-        "plural": "Save Configurations & Import",
-        "setupEdit": false,
-        "setupVisible": false        
-      }
+      }	
       
     },
     "status": {
@@ -13883,6 +12533,13 @@
         "singular": "Available",
         "plural": "",
         "setupEdit": true,
+        "setupVisible": false
+      },
+      "breakDown": {
+        "original": "Breakdown",
+        "singular": "Breakdown",
+        "plural": "",
+        "setupEdit": false,
         "setupVisible": false
       },
       "breakdown": {
@@ -14305,34 +12962,6 @@
         "setupEdit": false,
         "setupVisible": false
       },
-      "transferPending": {
-        "original": "Transfer Pending",
-        "singular": "Transfer Pending",
-        "plural": "Transfer Pending",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "transferFulfilled": {
-        "original": "Transfer Fulfilled",
-        "singular": "Transfer Fulfilled",
-        "plural": "Transfer Fulfilled",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "systemValue": {
-        "original": "System Value",
-        "singular": "System Value",
-        "plural": "System Value",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "aiDetected": {
-        "original": "AI Detected",
-        "singular": "AI Detected",
-        "plural": "AI Detected",
-        "setupEdit": false,
-        "setupVisible": false
-      },
       "followUp": {
         "original": "Follow Up",
         "singular": "Follow Up",
@@ -14409,8 +13038,8 @@
       "confirmAction": "Are you sure?",
       "confirmDelete": "Are you sure you want to delete",
       "confirmRemove": "Are you sure you want to remove",
-      "confirmDeleteThis": "Are you sure you want to delete this",
       "confirmRemoveThis": "Are you sure you want to remove this",
+      "confirmDeleteThis": "Are you sure you want to delete this",
       "doYouWishToProceed": "Do you wish to proceed?",
       "irreversibleAction": "This action is irreversible.",
       "cannotBeUndone": "This action cannot be undone.",
@@ -14547,18 +13176,6 @@
       "noDocumentIsGenerated":"No document is generated since partial data is filled.",
       "pullToRefreshToSeeTheCompletion":"Pull to refresh to see the completion",
       "phoneNumberNotAvailable":"Phone number not available",
-      "approvalConfirmation":"Approval Confirmation",
-      "approval":"Approval",
-      "areYouSureApprove":"Are you sure you want to approve",
-      "approvedSuccessfully":"Approved successfully",     
-      "rejectionConfirmation":"Rejection Confirmation",
-      "rejection":"Rejection",
-      "areYouSureReject":"Are you sure you want to reject",
-      "editedSuccessfully":"Edited successfully",
-      "total":"Total",
-      "from":"From",
-      "to":"To",
-      "or":"Or",
       "noMatchesFound" : "No matches found. Try adjusting your search criteria.",
       "noHistoryAvailable" : "No history available. Your activity will appear here.",
       "noAttachmentsFoundUploadFiles": "No attachments found. Upload files to see them here.",
@@ -14855,9 +13472,7 @@
       "pleaseSignBeforeProceed": "Please sign before proceeding",
       "pleaseSignBeforeProceeding": "Please sign before proceeding",
       "charactersExceed": "Text exceeds character limit (255).",
-      "endDateThanStartDate": "End date must be after start date",
-      "thisFieldIsRequired":"This field is required",
-      "pleaseMakeOneSelection":"Please make one selection to proceed"
+      "endDateThanStartDate": "End date must be after start date"
     },
     "validationBE": {
       "sendGridEmailTenantReferenceIdExists": "A new Send Grid Email Tenant Reference cannot already have an ID",
@@ -14945,13 +13560,6 @@
         "sec6": {
           "original": "Contact Details",
           "singular": "Contact Details",
-          "plural": "",
-          "setupEdit": true,
-          "setupVisible": false
-        },
-        "sec7": {
-          "original": "Transfer Summary",
-          "singular": "Transfer Summary",
           "plural": "",
           "setupEdit": true,
           "setupVisible": false
@@ -15120,17 +13728,6 @@
           "setupEdit": true,
           "setupVisible": false
         }
-      },
-      "messages":{
-        "theFollowingAssetTransferToBin":"The following assets will be transferred to the following bins",
-        "theFollowingSparePartTransferToBin":"The following spare parts will be transferred to the following bins",
-        "theFollowingAssetTransferTo":"The following assets will be transferred to",
-        "theFollowingSparePartTransferTo":"The following spare parts will be transferred to",
-        "willBeTransferTo":"will be transferred to",
-        "willBeAdjustedInBin":"will be adjusted in the following bins",
-        "theFollowingAssetRemoveFromBin":"The following assets will be removed from the following bins",
-        "theFollowingAssetRemoveFrom":"The following assets will be removed from",
-        "willBeRemovedFrom":"will be removed from"
       }
     },
     "commonComponent":{
@@ -15273,13 +13870,6 @@
         "sec19": {
           "original": "Select a Price Book from the list",
           "singular": "Select a Price Book from the list",
-          "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "sec20": {
-          "original": "Select a Bin from the list",
-          "singular": "Select a Bin from the list",
           "plural": "",
           "setupEdit": false,
           "setupVisible": false
@@ -17111,190 +15701,6 @@
           "searchUsers": "Search Users",
           "selectType": "Select Type"
         }
-      },
-      "approval": {
-        "setupEdit": false,
-        "setupVisible": false,
-        "label": {
-          "original": "Approvals",
-          "singular": "Approval",
-          "plural": "Approvals",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "sections":{
-          "setupEdit": false,
-          "setupVisible": false,
-          "sec0": {
-            "original": "Create New Approval Relationship",
-            "singular": "Create New Approval Relationship",
-            "plural": "Create New Approval Relationship",
-            "setupEdit": false,
-            "setupVisible": false
-          },
-          "sec1": {
-            "original": "Note Configuration",
-            "singular": "Note Configuration",
-            "plural": "Note Configuration",
-            "setupEdit": false,
-            "setupVisible": false
-          },
-          "sec2": {
-            "original": "Required Approvers",
-            "singular": "Required Approvers",
-            "plural": "Required Approvers",
-            "setupEdit": false,
-            "setupVisible": false
-          },
-          "sec3": {
-            "original": "Approval Order",
-            "singular": "Approval Order",
-            "plural": "Approval Order",
-            "setupEdit": false,
-            "setupVisible": false
-          },
-          "sec4": {
-            "original": "How it Works",
-            "singular": "How it Works",
-            "plural": "How it Works",
-            "setupEdit": false,
-            "setupVisible": false
-          }
-        },
-        "fields":{
-          "setupEdit": false,
-          "setupVisible": false,
-          "levelOneApprovalGroup": {
-            "original": "Level 1 Approval Group",
-            "singular": "Level 1 Approval Group",
-            "plural": "Level 1 Approval Group",
-            "setupEdit": false,
-            "setupVisible": false
-          },
-          "levelTwoApprovalGroup": {
-            "original": "Level 2 Approval Group",
-            "singular": "Level 2 Approval Group",
-            "plural": "Level 2 Approval Group",
-            "setupEdit": false,
-            "setupVisible": false
-          },
-          "requestorManagingGroup": {
-            "original": "Requestor's Managing Group (Level 2)",
-            "singular": "Requestor's Managing Group (Level 2)",
-            "plural": "Requestor's Managing Group (Level 2)",
-            "setupEdit": false,
-            "setupVisible": false
-          },
-          "senderManagingGroup": {
-            "original": "Sender's Managing Group (Level 2)",
-            "singular": "Sender's Managing Group (Level 2)",
-            "plural": "Sender's Managing Group (Level 2)",
-            "setupEdit": false,
-            "setupVisible": false
-          },
-          "receiverLevelOneGroup": {
-            "original": "Receiver's Level 1 Group",
-            "singular": "Receiver's Level 1 Group",
-            "plural": "Receiver's Level 1 Group",
-            "setupEdit": false,
-            "setupVisible": false
-          },
-          "receiverLevelTwoGroup": {
-            "original": "Receiver's Level 2 Group",
-            "singular": "Receiver's Level 2 Group",
-            "plural": "Receiver's Level 2 Group",
-            "setupEdit": false,
-            "setupVisible": false
-          },
-          "levelOneMustApprove": {
-            "original": "Level 1 must approve before Level 2",
-            "singular": "Level 1 must approve before Level 2",
-            "plural": "Level 1 must approve before Level 2",
-            "setupEdit": false,
-            "setupVisible": false
-          },
-          "levelTwoMustApprove": {
-            "original": "Level 2 must approve before Level 1",
-            "singular": "Level 2 must approve before Level 1",
-            "plural": "Level 2 must approve before Level 1",
-            "setupEdit": false,
-            "setupVisible": false
-          },
-          "approvalDoneAnyOrder": {
-            "original": "Approvals can be done in any order",
-            "singular": "Approvals can be done in any order",
-            "plural": "Approvals can be done in any order",
-            "setupEdit": false,
-            "setupVisible": false
-          }
-        },
-        "tooltips":{
-          "setupEdit": false,
-          "setupVisible": false,
-          "configureApproval": {
-            "original": "Configure approval settings",
-            "singular": "Configure approval settings",
-            "plural": "Configure approval settings",
-            "setupEdit": false,
-            "setupVisible": false
-          },
-          "howApprovalWork": {
-            "original": "How requisition approvals work",
-            "singular": "How requisition approvals work",
-            "plural": "How requisition approvals work",
-            "setupEdit": false,
-            "setupVisible": false
-          },
-          "howConsignmentApprovalWork": {
-            "original": "How consignment approvals work",
-            "singular": "How consignment approvals work",
-            "plural": "How consignment approvals work",
-            "setupEdit": false,
-            "setupVisible": false
-          }
-        },
-        "messages":{
-          "eachRelationshipConnectsLevel":"Each relationship connects a Level 1 approval group with a Level 2 approval group. These levels represent different approval stages for requisition notes in FieldEx.",
-          "eachRelationshipConnectsLevelConsignment":"Each relationship connects a Level 1 approval group with a Level 2 approval group. These levels represent different approval stages for consignment notes in FieldEx",
-          "systemConfigLetsYouDefine":"The System Configuration lets you define",
-          "approvalsSpecificSequence":"Whether approvals must happen in a specific sequence or can be done in any order",
-          "groupsProvideApproval":"Which groups need to provide approval for a requisition note",
-          "groupsProvideApprovalConsignment":"Which groups need to provide approval for a consignment note",
-          "approvalsDeterminedByGroups":"Approvals are determined by the groups in charge of the zones where bins are located",
-          "ifFromBin":"If From Bin",
-          "levelTwoInCharge":"The Level 2 group of the group in charge of the zone containing",
-          "willNeedToApprove":"will need to approve",
-          "basedOnConfigurationSettings":"Based on your configuration settings, the group in charge of the zone containing the sender’s bin and/or that group's Level 2 will need to approve",
-          "basedOnConfigurationSettingsDestination":"Based on your configuration settings, the group in charge of the zone containing the destination bin and/or that group's Level 2 will need to approve",
-          "userCreatesRequisitionNote":"When a user creates a requisition note",
-          "userCreatesConsignmentNote":"When a user creates a consignment note",
-          "determinesZoneBinsBelong":"FieldEx determines which zone the selected bins belong to",
-          "basedOnZoneOwnership":"Based on zone ownership, it identifies which groups need to approve",
-          "approvalsRoutedAccordingToOrder":"Approvals are routed according to your specified order (if any)",
-          "requisitionOnlyProcessAfterApprovals":"The requisition is only processed after all required approvals are received",
-          "consignmentOnlyProcessAfterApprovals":"The consignment is only processed after all required approvals are received",
-          "eachGroupOnlyLvlOne":"Each group can only be in one Level 1 relationship",
-          "lvlOnelvlTwoNotTheSameGroup":"Level 1 and Level 2 cannot be the same group",
-          "atLeastOneApprovalIsRequired":"At least one approval is required for any requisition note",
-          "atLeastOneApprovalIsRequiredConsignment":"At least one approval is required for any consignment note",
-          "binLocationDetermineGroupInvolved":"Bin locations determine which groups are involved in the approval process",
-          "settingUpApprovalRelationships":"Setting Up Approval Relationships",
-          "systemConfiguration":"System Configuration",
-          "howBinsAffectApprovalFlow":"How Bins Affect Approval Flow",
-          "howRequisitionNotesProcessed":"How Requisition Notes are Processed",
-          "howConsignmentNotesProcessed":"How Consignment Notes are Processed",
-          "importantRules":"Important Rules",
-          "approvalOrder":"Approval Order",
-          "requiredApprovers":"Required Approvers",
-          "fromBinSource":"From Bin (Source)",
-          "toBinDestination":"To Bin (Destination)",
-          "selectWhoNeedsToApprove":"Select who needs to approve the requisition note",
-          "selectWhoNeedsToApproveConsignment":"Select who needs to approve the consignment note",
-          "defineSequenceApprovalOccur":"Define the sequence in which approvals must occur",
-          "theseSettingsDetermineOverallFlow":"These settings determine the overall flow for all requisition notes in the system",
-          "theseSettingsDetermineOverallFlowConsignment":"These settings determine the overall flow for all consignment notes in the system",
-          "selectGroup":"Select Group"
-        }
       }
     },
     "configuration":{
@@ -17621,10 +16027,10 @@
         "setupEdit": false,
         "setupVisible": false,
         "label":{
-          "original": "Forms",
-          "singular": "Form",
-          "plural": "Forms",
-          "setupEdit": false,
+          "original": "Custom Forms",
+          "singular": "Custom Form",
+          "plural": "Custom Forms",
+          "setupEdit": true,
           "setupVisible": false
         },
         "sections":{
@@ -17657,10 +16063,10 @@
             "setupVisible": false
           },
           "sec4":{
-            "original": "Record Type Selection",
-            "singular": "Record Type Selection",
-            "plural": "Record Type Selection",
-            "setupEdit": false,
+            "original": "Subform Record Type Selection",
+            "singular": "Subform Record Type Selection",
+            "plural": "Subform Record Type Selection",
+            "setupEdit": true,
             "setupVisible": false
           },
           "sec5":{
@@ -17685,10 +16091,10 @@
             "setupVisible": false
           },
           "sec8":{
-            "original": "Field Type Selection",
-            "singular": "Field Type Selection",
-            "plural": "Field Type Selection",
-            "setupEdit": false,
+            "original": "Component Type Selection",
+            "singular": "Component Type Selection",
+            "plural": "Component Type Selection",
+            "setupEdit": true,
             "setupVisible": false
           },
           "sec9":{
@@ -17760,167 +16166,6 @@
             "plural": "",
             "setupEdit": true,
             "setupVisible": false
-          },
-          "sec19":{
-            "original": "Give your form a name and a running number prefix. Hover over the running number prefix helptext icon for more information.",
-            "singular": "Give your form a name and a running number prefix. Hover over the running number prefix helptext icon for more information.",
-            "plural": "",
-            "setupEdit": false,
-            "setupVisible": false
-          },
-          "sec20":{
-            "original": "Select the Job Order Types that will be available for this form. Additionally, you have the option to make this form mandatory for certain Job Order Statuses. To do that, toggle this form as mandatory by clicking on the checkbox and make your selection of Job Order Statuses from the ones available.",
-            "singular": "Select the Job Order Types that will be available for this form. Additionally, you have the option to make this form mandatory for certain Job Order Statuses. To do that, toggle this form as mandatory by clicking on the checkbox and make your selection of Job Order Statuses from the ones available.",
-            "plural": "",
-            "setupEdit": false,
-            "setupVisible": false
-          },
-          "sec21":{
-            "original": "Select a record type for this subform. Single record subforms can only be submitted once and are used for one time data entry. List record subforms can be submitted multiple times and are used when you require your field agents or technicians to enter data multiple times during a job.",
-            "singular": "Select a record type for this subform. Single record subforms can only be submitted once and are used for one time data entry. List record subforms can be submitted multiple times and are used when you require your field agents or technicians to enter data multiple times during a job.",
-            "plural": "",
-            "setupEdit": false,
-            "setupVisible": false
-          },
-          "sec22":{
-            "original": "Give your subform a name and a running number prefix. Hover over the running number prefix helptext icon for more information.",
-            "singular": "Give your subform a name and a running number prefix. Hover over the running number prefix helptext icon for more information.",
-            "plural": "",
-            "setupEdit": false,
-            "setupVisible": false
-          },
-          "sec23":{
-            "original": "Select the Job Order Types that will be available for this subform. Additionally, you have the option to make this form mandatory for certain Job Order Statuses. To do that, toggle this subform as mandatory by clicking on the checkbox and make your selection of Job Order Statuses from the ones available.",
-            "singular": "Select the Job Order Types that will be available for this subform. Additionally, you have the option to make this form mandatory for certain Job Order Statuses. To do that, toggle this subform as mandatory by clicking on the checkbox and make your selection of Job Order Statuses from the ones available.",
-            "plural": "",
-            "setupEdit": false,
-            "setupVisible": false
-          },
-          "sec24":{
-            "original": "Form Creation",
-            "singular": "Form Creation",
-            "plural": "",
-            "setupEdit": false,
-            "setupVisible": false
-          },
-          "sec25":{
-            "original": "Field Creation",
-            "singular": "Field Creation",
-            "plural": "",
-            "setupEdit": false,
-            "setupVisible": false
-          },
-          "sec26":{
-            "original": "Page Layout",
-            "singular": "Page Layout",
-            "plural": "",
-            "setupEdit": false,
-            "setupVisible": false
-          },
-          "sec27":{
-            "original": "List View Setup",
-            "singular": "List View Setup",
-            "plural": "",
-            "setupEdit": false,
-            "setupVisible": false
-          },
-          "sec28":{
-            "original": "Subform Creation",
-            "singular": "Subform Creation",
-            "plural": "",
-            "setupEdit": false,
-            "setupVisible": false
-          },
-          "sec29":{
-            "original": "Create Fields",
-            "singular": "Create Field",
-            "plural": "Create Fields",
-            "setupEdit": false,
-            "setupVisible": false
-          },
-          "sec30":{
-            "original": "Save Form",
-            "singular": "Save Form",
-            "plural": "Save Forms",
-            "setupEdit": false,
-            "setupVisible": false
-          },
-          "sec31":{
-            "original": "Delete Section",
-            "singular": "Delete Section",
-            "plural": "Delete Sections",
-            "setupEdit": false,
-            "setupVisible": false
-          },
-          "sec32":{
-            "original": "Section Layout",
-            "singular": "Section Layout",
-            "plural": "Section Layout",
-            "setupEdit": false,
-            "setupVisible": false
-          },
-          "sec33":{
-            "original": "Job Order Details",
-            "singular": "Job Order Details",
-            "plural": "Job Order Details",
-            "setupEdit": false,
-            "setupVisible": false
-          },
-          "sec34":{
-            "original": "Subform Details",
-            "singular": "Subform Details",
-            "plural": "Subform Details",
-            "setupEdit": false,
-            "setupVisible": false
-          },
-          "sec35":{
-            "original": "Mapping",
-            "singular": "Mapping",
-            "plural": "Mapping",
-            "setupEdit": false,
-            "setupVisible": false
-          },
-          "sec36":{
-            "original": "Fields",
-            "singular": "Field",
-            "plural": "Fields",
-            "setupEdit": false,
-            "setupVisible": false
-          },
-          "sec37":{
-            "original": "Create Form",
-            "singular": "Create Form",
-            "plural": "Create Forms",
-            "setupEdit": false,
-            "setupVisible": false
-          },
-          "sec38":{
-            "original": "Setup Subform",
-            "singular": "Setup Subform",
-            "plural": "Setup Subforms",
-            "setupEdit": false,
-            "setupVisible": false
-          },
-          "sec39":{
-            "original": "Setup List View",
-            "singular": "Setup List View",
-            "plural": "Setup List Views",
-            "setupEdit": false,
-            "setupVisible": false
-          },
-          "sec40":{
-            "original": "Create Subform",
-            "singular": "Create Subform",
-            "plural": "Create Subforms",
-            "setupEdit": false,
-            "setupVisible": false
-          },
-          "sec41":{
-            "original": "Mobile Preview",
-            "singular": "Mobile Preview",
-            "plural": "Mobile Preview",
-            "setupEdit": false,
-            "setupVisible": false
           }
         },
         "fields":{
@@ -17964,13 +16209,6 @@
             "singular": "Job Order Type",
             "plural": "",
             "setupEdit": true,
-            "setupVisible": false
-          },
-          "jobOrderStatus":{
-            "original": "Job Order Status",
-            "singular": "Job Order Status",
-            "plural": "",
-            "setupEdit": false,
             "setupVisible": false
           },
           "isFormMandatory":{
@@ -18245,102 +16483,11 @@
             "plural": "Mapped Fields",
             "setupEdit": true,
             "setupVisible": true
-          },
-          "enterFormName": {
-            "original": "Enter a name for your form",
-            "singular": "Enter a name for your form",
-            "plural": "Enter a name for your form",
-            "setupEdit": false,
-            "setupVisible": false
-          },
-          "enterSubformName": {
-            "original": "Enter a name for your new subform",
-            "singular": "Enter a name for your new subform",
-            "plural": "Enter a name for your new subform",
-            "setupEdit": false,
-            "setupVisible": false
-          },
-          "createdDate": {
-            "original": "Created Date",
-            "singular": "Created Date",
-            "plural": "Created Date",
-            "setupEdit": false,
-            "setupVisible": false
-          },
-          "mandatory": {
-            "original": "Mandatory",
-            "singular": "Mandatory",
-            "plural": "Mandatory",
-            "setupEdit": false,
-            "setupVisible": false
-          },
-          "selectModule": {
-            "original": "Select Module",
-            "singular": "Select Module",
-            "plural": "Select Modules",
-            "setupEdit": false,
-            "setupVisible": false
-          },
-          "module": {
-            "original": "Module",
-            "singular": "Module",
-            "plural": "Modules",
-            "setupEdit": false,
-            "setupVisible": false
-          },
-          "selectPicklist": {
-            "original": "Select Picklist",
-            "singular": "Select Picklist",
-            "plural": "Select Picklist",
-            "setupEdit": false,
-            "setupVisible": false
-          },
-          "example": {
-            "original": "Example",
-            "singular": "Example",
-            "plural": "Example",
-            "setupEdit": false,
-            "setupVisible": false
-          },
-          "subformName": {
-            "original": "Subform Name",
-            "singular": "Subform Name",
-            "plural": "Subform Name",
-            "setupEdit": false,
-            "setupVisible": false
-          },
-          "formName": {
-            "original": "Form Name",
-            "singular": "Form Name",
-            "plural": "Form Name",
-            "setupEdit": false,
-            "setupVisible": false
-          },
-          "oneColumn": {
-            "original": "One Column",
-            "singular": "One Column",
-            "plural": "One Column",
-            "setupEdit": false,
-            "setupVisible": false
-          },
-          "twoColumn": {
-            "original": "Two Columns",
-            "singular": "Two Columns",
-            "plural": "Two Columns",
-            "setupEdit": false,
-            "setupVisible": false
-          },
-          "sectionName": {
-            "original": "Section Name",
-            "singular": "Section Name",
-            "plural": "Section Name",
-            "setupEdit": false,
-            "setupVisible": false
           }
         },
         "messages":{
-          "createManageCustomForms":"Forms are digital versions of forms field agents or technicians fill out on the job. Designed and customizable for specific use cases, they simplify data collection and work seamlessly on both web and mobile apps.",
-          "createManageCustomSubForms":"Subforms are additional forms that you may use to get more information regarding a task. You may set your subforms to be a single record or a list record. Single record type subforms can only be submitted once and are used for one time data entry. List record type subforms can be submitted multiple times and are used when you require your field agents or technicians to enter data multiple times during a job.",
+          "createManageCustomForms":"Create and manage custom forms which best fit your use case. Custom Forms allow you to get details regarding a certain scenario when needed",
+          "createManageCustomSubForms":"Create and manage subforms which best fit your use case. Subforms act as forms within your forms allowing you to get additional details related to a certain scenario when needed. They can be set up to record single or multiple entries.",
           "setupForm":"Create fields that best fit your business requirements, arrange the form to your liking, and include subforms if required. You are required to create fields for this form before you can arrange them. Once you have created the fields for this form and arranged it, you can then set the form status to active.",
           "setupSubform":"Create fields that best fit your business requirements, arrange the subform to your liking, and include list views to your subform if required. You are required to create fields for this subform before you can arrange them. Once you have created the fields for this form and arranged it, you can then set the form status to active.",
           "manageFormFields": "Manage Fields which will be available for this form",
@@ -18356,7 +16503,7 @@
           "lastModifiedOn": "Last Modified on",
           "createFieldsForForm": "Create fields which best fit your business requirements for your form. The fields that you create here will be available to be arranged for this form.",
           "removeFieldFromArrangement": "Remove this field from the arrangement page to delete this field.",
-          "selectComponentTypeForField": "Select field type",
+          "selectComponentTypeForField": "Select a component type that makes most sense for the field which you want to create.",
           "allowTextEntryLimited": "Allows users to enter text (limited to 255 characters)",
           "allowNumberEntry": "Allows users to enter any number",
           "allowEmailEntry": "Allows users to enter an email address",
@@ -18378,7 +16525,7 @@
           "selectLookupModule": "Select the lookup module to link this field with data from another module. This allows you to pull in related information and establish connections between different modules.",
           "chooseParentPicklistForDependency": "Choose a parent picklist to define a dependency. This selection will link this picklist to a parent picklist, allowing you to map the parent picklist fields to the fields in this picklist within the mapping page. After mapping, selections made on a parent picklist within the form will then affect the options available for this picklist.",
           "selectParentAndChildOptions": "Select a Parent Option and choose its Child Options. If you need to change the Parent Option, first deselect the current one and then select a new Parent Option. To remove any mapped fields, navigate to the Preview tab and clear the selections there.",
-          "arrangeFormFields": "Arrange your form by dragging fields into sections, rename headers as required, and reposition fields or sections. Add or remove sections and mobile dividers using the provided buttons. Dividers create separate pages in the mobile app.",
+          "arrangeFormFields": "Arrange the form to your liking by clicking on your desired field from the available fields box, then dragging and dropping it onto the canvas. You can rename the sections by clicking on the edit icons beside them. To remove a field or section, click on the 'x' button beside it.",
           "removeSectionAndFieldsWarning": "This section and the fields tied to it will be removed from the Form builder. This cannot be undone.",
           "cannotPerformActionChildPicklistPresent": "This action cannot be performed since the child picklist",
           "childPicklistIsPresent": "is present in form. Remove",
@@ -18389,56 +16536,7 @@
           "whatIsRunningNoFormat":"What is Running Number Format?",
           "runningNoDesc":"Running Number Format Allows you to customize the Auto Number Field for your forms. This includes substitution variables and any characters you wish to prefix or append",
           "mapPicklistFields":"Map picklist fields by selecting a Parent Field and then selecting the necessary Picklist Fields for it. You can view the Mapped Fields below.",
-          "addDescriptionHere":"Add description here...",
-          "selectJobOrderStatus":"Select Job Order Status",
-          "looksLikeNoFormsCreated":"It looks like you don't have any forms created just yet. Don't worry, just follow these steps and we'll have your forms up and running in no time!",
-          "formCreationDesc":"Create a form by clicking on the + New button. Give your form a name and a running number prefix. Then, select the Job Order Types that apply to this form.",
-          "fieldCreationFormDesc":"Click on the Field Creation button in the form view page. Click on the +New button and select the type of field you want to create.",
-          "pageLayoutFormDesc":"Click on the Page Layout button in the form view page. Here you can drag and drop the fields that you have created from the fields section on into the form sections.",
-          "subformSetupFormDesc":"If needed you can add subforms to your form by clicking on the setup subforms button. The setup process is similar to how you would set up forms.",
-          "looksLikeNoSubformsCreated":"It looks like you don't have any subforms created just yet. Don't worry, just follow these steps and we'll have your subforms up and running in no time!",
-          "subformCreationDesc":"Create a subform by clicking on the + New button. Give your subform a name and a running number prefix. Then, select the Job Order Types that apply to this form.",
-          "fieldCreationSubformDesc":"Click on the Field Creation button in the subform view page. Click on the +New button and select the type of field you want to create.",
-          "pageLayoutSubformDesc":"Click on the Page Layout button in the subform view page. Here you can drag and drop the fields that you have created from the fields section on into the subform sections.",
-          "listSetupSubformDesc":"If you have selected the List Record subform type, you can set up the list view for the subform. This will be seen in the forms tab of the Job Order details page.",
-          "optional":"Optional",
-          "onlyForListRec":"Only for List Records",
-          "createFieldsDesc":"Create fields that will be used in your form.",
-          "pageLayoutDesc":"Set the page layout of your form with the fields that you have created.",
-          "subformSetupDesc":"Optionally, you can set up subforms for this form. Use subforms if you need additional information from your technicians or field agents while on the job.",
-          "createFieldsSubformDesc":"Create fields that will be used in your subform.",
-          "pageLayoutDetsSubformDesc":"Set the page layout of your subform with the fields that you have created.",
-          "listViewSubformSetupDesc":"You can set up list views for your subform if  you have selected a list record type for it. This will enable you to customise the arrangement of the fields in the subform list view table.",
-          "completeAllStepForm":"Complete all steps to fully set up your form",
-          "completeAllStepSubform":"Complete all steps to fully set up your subform",
-          "editFormArrangement":"Are you sure you want to edit this form's arrangement? Changes made will also be reflected on previous forms. This cannot be undone.",
-          "selectLayoutPreferred":"Select the layout that you would prefer for your section. Fields that you add to the seciton will be displayed according to your section layout.",
-          "example":"Example",
-          "selectModuleDesc":"Select a module to link it to this field and retrieve related data from it.",
-          "moduleSelectedDesc":"Choose the field you want to look up from the selected module. This will allow you to retrieve and link relevant data from that field.",
-          "selectFieldDesc":"Choose a dynamic picklist field you want to select from the chosen module. This will allow you to retrieve relevant data from that picklist.",
-          "parentPicklistDesc":"Parent picklists are Dropdowns or Buttons that have already been created. Select a parent picklist to link and map its options to this dropdown in the mapping page. The options available for this dropdown will then be based on the parent picklist selection.",
-          "fieldsDesc":"Add the fields that should appear in this Dropdown. These fields will be available for users to choose from when interacting with the Dropdown.",
-          "selectPicklistDesc":"Choose a dynamic picklist you want to select from the chosen module. This will allow you to retrieve relevant data from that picklist.",
-          "looksLikeNoFieldsCreated":"It looks like you don't have any fields created just yet. Don't worry, just follow these steps and we'll have you creating your first field in no time!",
-          "beginCreateFieldClickNew":"Begin creating a field by clicking on the + New button.",
-          "selectComponentTypeFromSelection":"Select a component type from the available selection that best fits your use case.",
-          "fillInAllNecessaryDets":"Fill in all the necessary details for your field.",
-          "onlyForDropdownButton":"Only For Dropdown or Button",
-          "selectDropdownButtonLinkParent":"If you select a Dropdown or Button component you can link it to a parent picklist, which is another Dropdown or Button component that you have already created. This will take you to the Picklist Mapping page where you can set up the mapping. Alternatively, you can access the Picklist Mapping page by clicking the 'Map Picklist' button in the field list view.",
-          "dragDropToYourLiking":"Drag and drop fields into sections according to your liking",
-          "copyOf":"Copy of",
-          "formPreviewDesc":"Preview how your form will be displayed on the FieldEx mobile app. This is how your technicians or fields agents will be seeing the form on their end.",
-          "exampleFieldPreview":"Example field preview",
-          "arrangeFormDesc":"Arrange the form to your liking by clicking on your desired field from the available fields box, then dragging and dropping it onto the canvas. You can rename the sections by clicking on the edit icons beside them. To remove a field or section, click on the 'x' button beside it.",
-          "whatAreForms":"What are Forms?",
-          "whatAreSubforms":"What are Subforms?",
-          "fieldCreationForms":"Field Creation for Forms",
-          "howDoICreateForm":"How do I create forms?",
-          "howDoICreateSubform":"How do I create subforms?",
-          "howDoICreateFIeld":"How do I create fields?",
-          "checkFormatNumber":"Check 'Format Number' to allow decimal values for this field, then enter the required 'Decimal Places' (max 6 places).",
-          "addFieldHere":"Add a field here"
+          "addDescriptionHere":"Add description here..."
         }
       },
       "artificialIntelligence":{
@@ -21370,10 +19468,7 @@
           "setupVisible": false
         }
       },
-      "validationFE": {
-        "fileTypeUnsupported":"This file type is Unsupported. Please choose a different file.",
-        "exceedFileSizeSmall":"File size exceeds 2MB limit. Please upload a smaller file."
-      },
+      "validationFE": {},
       "messages": {
         "selectAssetTypes": "Select Asset Types",
         "selectServiceZone": "Select Service Zone",
@@ -23557,9 +21652,7 @@
         "lastMonth":"Last Month",
         "nextMonth":"Next Month",
         "thisYear":"This Year",
-        "addDays":"Add Days",
-        "exampleCaps":"Example",
-        "exampleShort":"Eg"
+        "addDays":"Add Days"
       }
     },
     "templates":{
@@ -24153,12 +22246,10 @@
       "setupWorkflowMaxActionsPerWorkflow": "Maximum actions per workflow reached",
       "setupWorkflowEmailsMax": "Maximum allowed email addresses reached for workflow notification",
       "setupWorkflowEmailUserMax": "Maximum allowed users reached for workflow notification",
-      "setupWorkflowEmailUserGroupMax": "Maximum allowed users reached for workflow notification",     
+      "setupWorkflowEmailUserGroupMax": "Maximum allowed users reached for workflow notification",
       "setupTmplJobOrderLimitReached":"You have exceeded the limit of 50 active templates. Set the status of an unused template to 'Inactive' to add another active template.",
       "tmplTaskLimitExceeded":"You have exceeded the limit of 50 active templates. Set the status of an unused template to 'Inactive' to add another active template.",
       "setupTmplTaskHasJobOrder": "Unable to delete: Template used in one or more job orders",
-      "setupAssetMeterMaxAssetsTypeReached": "Already reached the maximum number of Asset Meters for selected Asset Type",
-      "setupAssetMeterHasAssetsRecord": "Assets Meter is linked with one or more Assets records, hence unable to delete",
       "setupTmplTaskHasJobOrderProduct": "Unable to delete: Template used to create one or more Job Order Products"
     },
     "labelBE": {
@@ -25262,7 +23353,9 @@
         }
       },
       "messages": {
-        "searchJobOrders" : "Search Job Orders"
+        "searchJobOrders" : "Search Job Orders",
+        "viewPdf": "View PDF",
+        "emailPdf": "Email PDF"
       }
     },
     "national": {
@@ -26169,239 +24262,6 @@
           "setupEdit": true,
           "setupVisible": false
         }
-      }
-    },
-    "onBoard": {
-      "setupEdit": false,
-      "setupVisible": false,
-      "label": {
-        "original": "On-Board",
-        "singular": "On-Board",
-        "plural": "On-Board",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "sections": {
-        "setupEdit": false,
-        "setupVisible": false,
-        "sec0": {
-          "original": "Welcome to FieldEx",
-          "singular": "Welcome to FieldEx",
-          "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "sec1": {
-          "original": "Get Started",
-          "singular": "Get Started",
-          "plural": "Get Started",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "sec2": {
-          "original": "Import Asset",
-          "singular": "Import Asset",
-          "plural": "Import Asset",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "sec3": {
-          "original": "Setup Work Orders",
-          "singular": "Setup Work Orders",
-          "plural": "Setup Work Orders",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "sec4": {
-          "original": "Learn More",
-          "singular": "Learn More",
-          "plural": "Learn More",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "sec5": {
-          "original": "Invite Your Team",
-          "singular": "Invite Your Team",
-          "plural": "Invite Your Team",
-          "setupEdit": false,
-          "setupVisible": false
-        }
-      },
-      "fields":{
-        "setupVisible": false,
-        "setupEdit":false,
-        "email":{
-         "original": "Email",
-          "singular": "Email",
-          "plural": "Emails",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "role":{
-          "original": "Role",
-           "singular": "Role",
-           "plural": "Roles",
-           "setupEdit": false,
-           "setupVisible": false
-        },
-        "systemField":{
-          "original": "Fieldex System Fields",
-          "singular": "Fieldex System Fields",
-          "plural": "Fieldex System Fields",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "csvColumn":{
-          "original": "CSV Columns",
-          "singular": "CSV Columns",
-          "plural": "CSV Columns",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "confidence":{
-          "original": "Confidence",
-          "singular": "Confidence",
-          "plural": "Confidence",
-          "setupEdit": false,
-          "setupVisible": false
-        }
-      },
-      "messages":{
-        "letsImportAsset":"Lets Import your Assets",
-        "assetAreHeartCmms":"Assets are the heart of your CMMS. Start by uploading them to manage maintenance, history, and assignments",
-        "aiPoweredImport":"AI-Powered Import",
-        "automaticallyMapYourCSV":"Fieldex can automatically map your CSV columns, extract types, statuses, categories and configure your system - no manual setup required!",
-        "letOurIntelligentSystem":"Let our intelligent system do the work for you. FieldEx can automatically:",
-        "mapCsvToSystemField":"Map your CSV columns to system fields",
-        "extractConfigureAssetType":"Extract and configure asset type picklists",
-        "detectSetUpStatus":"Detect and set up status values with appropriate colors",
-        "configureSystemInSeconds":"Configure your system in seconds - no manual setup required",
-        "uploadExistingAsset":"Upload your existing assets and we'll help you map the fields and configure the asset module for you.",
-        "dragDropCsvHere":"Drag & Drop your CSV file here",
-        "needATemplate":"Need a template?",
-        "downloadCsvTemplate":"Download CSV Template",
-        "letAiCreateData":"Let AI Create your data & Configure Your System",
-        "startBuildingMaintenanceSystem":"Start building your maintenance system in minutes",
-        "helpsReduceDowntime":"FieldEx helps you reduce downtime by 37%, extend asset lifespans, and cut maintenance costs. Set up your system in minutes and start transforming your maintenance operations today",
-        "getQuickLook":"Get a quick look at how FieldEx empowers teams to manage assets, schedule services, and reduce downtime effortlessly.",
-        "bookTrainingSession":"Book a 45 min training session",
-        "withRealHumanForFree":"with a real human to get you on board for free",
-        "whatYouCanDo":"What You Can Do With FieldEx",
-        "management":"Management",
-        "digitizeEveryAsset":"Digitize every asset and track it in real-time",
-        "viewUptimeLogs":"View uptime, logs, and performance data instantly",
-        "tagEquipmentQrCode":"Tag equipment with QR codes for quick scans on site",
-        "setUpSmartSchedules":"Set up smart schedules to prevent breakdowns",
-        "getAlertsBefore":"Get alerts before things go wrong",
-        "automateServicePlan":"Automate service plans",
-        "createAssignInOnePlace":"Create, assign, and close jobs — all in one place",
-        "trackJobProgressStatusLive":"Track job progress and status live from the field",
-        "useQrCodesStartCompleteJobs":"Use QR codes to start or complete jobs on the go",
-        "trackEveryPartAcrossAllSite":"Track every part across all sites and teams",
-        "knowWhatsInStock":"Know what’s in stock, what’s needed, and reorder",
-        "scanUpdateInventory":"Scan and update inventory in real-time",
-        "inviteYourTeam":"Invite your team",
-        "admin":"Admin",
-        "planner":"Planner",
-        "fieldEngineer":"Field Engineer",
-        "accessEverythingManageSettings":"Access everything, manage settings, users, and report",
-        "createAssignJobsTrackProgress":"Create and assign jobs, track progress, optimize schedules",
-        "receiveTaskUpdateJobStatus":"Receive tasks, update job status, upload photos, scan QR codes.",
-        "addYourTeammates":"Add your teammates to FieldEx and assign roles that suit their superpowers. Whether they keep things moving behind a screen or out on the field — you’re just one invite away from synergy.",
-        "reviewCsvColumns":"Review how your CSV columns map to our system fields",
-        "reviewCustomizeAssetType":"Review and customize asset types detected in your CSV and existing system types",
-        "reviewCustomizeAssetStatus":"Review and customize asset status detected in your CSV and existing system status",
-        "reviewCustomizeWorkOrderType":"Review and customize work order types detected in your CSV and existing system types",
-        "reviewCustomizeWorkOrderStatus":"Review and customize work order status detected in your CSV and existing system status",
-        "reviewCustomize":"Review and customize",
-        "statusDetected":"status detected in your CSV and existing system status",
-        "typesDetected":"types detected in your CSV and existing system status",
-        "youCanReviewAdjustAnytime":"You can review and adjust anytime",
-        "viewMoreField":"View More Fields...",
-        "showLessField":"Show Less Fields...",
-        "enterNewAssetType":"Enter new asset type...",
-        "enterNewAssetStatus":"Enter new asset status...",
-        "tip":"Tip",
-        "watchDemo":"Watch Demo: What You Can Achieve with Fieldex",
-        "quickLookEmpowersTeam":"Get a quick look at how FieldEx empowers teams to manage assets, schedule services, and reduce downtime effortlessly",
-        "select":"Select",
-        "selectRole":"Select Role",
-        "aiAnalysisComplete":"AI Analysis Complete",
-        "dataInsight":"Data Insights",
-        "fieldMapping":"Field Mapping",
-        "assetTypes":"Asset Types",
-        "bookTrainingExperience":"Book a Training: Supercharge your FieldEx experience",
-        "freeOnboardingCaps":"FREE ONBOARDING",
-        "bookTwoSessions":"Book your two complimentary training sessions with our product specialists and learn how to maximize your field operations efficiency. No charges during onboarding!",
-        "comprehensiveLearning":"Comprehensive learning ecosystem with interactive modules for all skill levels",
-        "focusSolutionOriented":"Focused, solution-oriented video guides covering every aspect of the FieldEx platform",
-        "apiDocumentation":"API documentation and integration guides",
-        "answersCommonlyAsked":"Answers to commonly asked questions",
-        "getHelpFromCustomerSuccess":"Get help from our customer success team support@fieldex.com",
-        "discoverNewlyImplementedFeature":"Discover newly implemented features and upcoming enhancements to the platform",
-        "fieldExAcademy":"FieldEx Academy",
-        "videoTutorials":"Video Tutorials",
-        "developerResources":"Developer Resources",
-        "faq":"FAQ",
-        "emailSupport":"Email Support",
-        "releaseNotes":"Release Notes",
-        "exploreSettingUp":"Explore setting up these automations",
-        "setUpAutomations":"Set up powerful automations to streamline your operations and increase efficiency",
-        "setupJobOrdTemplate":"Setup Job Order Templates",
-        "setupPreventiveMaintenance":"Setup Preventive Maintenance",
-        "createChecklist":"Create Checklist",
-        "setupQrcodeBarcode":"Setup QR code / Barcode",
-        "setupNotifications":"Setup Notifications",
-        "importData":"Import Data",
-        "streamlineOperations":"Streamline operations with customizable templates accessible anywhere through our enterprise-grade mobile platform",
-        "proactivelyManage":"Proactively manage equipment lifecycle with automated scheduling",
-        "designComprehensiveDigital":"Design comprehensive digital checklists with conditional logic and triggers",
-        "configureQrcodeBarcode":"Configure QR/Barcode technology for real-time inventory and equipment management",
-        "configureTargetedAlerts":"Configure targeted alerts and updates with customizable rules and delivery preferences",
-        "watchVideo":"Watch Video",
-        "hunnedPercent":"100% FREE",
-        "noMatchFound":"No Match Found",
-        "match":"Match",
-
-        "letsImport":"Lets Import your",
-        "areTheHeartCmms":"are the heart of your CMMS. Start by uploading them to manage maintenance, history, and assignments.",
-        "areTheHeartOperations":"are the heart of your operations. Start by uploading them to manage schedules, teams, and tasks efficiently.",
-        "detectSetUp":"Detect and set up",
-        "extractConfigure":"Extract and configure",
-        "types":"types",
-        "typePicklist":"type picklists",
-        "uploadExisting":"Upload your existing",
-        "andWeHelpMap":"and we'll help you map the fields and configure the",
-        "moduleForYou":"module for you",
-        "reviewAndCustomize":"Review and customize",
-        "typesDetectedInCsv":"types detected in your CSV and existing system types",
-        "statusDetectedInCsv":"status detected in your CSV and existing system status",
-        "fullAccessConfigurationControl":"Full access & configuration control (Web only)",
-        "dailyOperationManager":"Daily operations manager (Best on Web)",
-        "taskExecuter":"On-the-move task executor (Mobile only)",
-        "adminsFullControl":"Admins have full control of your FieldEx workspace. They can:",
-        "plannersOverseeCoordinate":"Planners oversee and coordinate field operations through the FieldEx web platform. They:",
-        "fieldEngineersFrontline":"Field Engineers are the frontline team—technicians, installers, or service agents—using the mobile app to:",
-        "inviteManageUser":"Invite and manage users",
-        "configureSettings":"Configure checklists, job templates, and preventive maintenance settings",
-        "updateSystemWideSetting":"Update system-wide settings that affect the entire account",
-        "createAssignJobOrder":"Create and assign job orders to the right technicians",
-        "trackProgressCompletion":"Track job progress and completion in real-time",
-        "monitorUpdates":"Monitor updates from the field, including:",
-        "assetMeterLogs":"Meter logs",
-        "uploadImageAttachment":"Uploaded images and attachments",
-        "jobStatusChecklistCompletion":"Job status and checklist completion",
-        "receiveAssignTask":"Receive assigned tasks",
-        "updateJobStatus":"Update job statuses in real-time",
-        "uploadPhoto":"Upload photos, notes, and scan QR codes",
-        "adminFunctionAvailable":"Note: Admin functions are only available on the FieldEx web browser.",
-        "bestExperiencedFieldEx":"Note: Best experienced on the FieldEx web browser for full operational control.",
-        "roleCanOnlyAccessViaMobile":"Note : This role can only access FieldEx via the mobile app (App Store / Play Store).",
-        "doNotShowAgain":"Do not show again"
-
-      },
-      "validationFE":{
-        "onlyCsvFilesAllowed": "Only CSV and XLSX files can be uploaded"
       }
     }
   },
