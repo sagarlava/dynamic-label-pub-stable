@@ -1,0 +1,165 @@
+db.dynamic_label_setup.updateMany(
+{"module": "customer", "language": "zh" },
+{$set: {"setup.sections.sec1.original": "Contact Details"} }
+)
+
+db.dynamic_label_setup.updateMany(
+{"module": "customer", "language": "zh" },
+{$set: {"setup.sections.sec1.singular": "联系方式"} }
+)
+
+
+db.dynamic_label_setup.updateMany(
+{"module": "checklist", "language": "zh" },
+{$set: {"setup.fields.assetStatusBeforeChecklist.plural": ""} }
+)
+
+db.dynamic_label_setup.updateMany(
+{"module": "checklist", "language": "zh" },
+{$set: {"setup.fields.assetStatusAfterChecklist.plural": ""} }
+)
+
+
+db.dynamic_label_setup.updateMany(
+{"module": "checklist", "language": "zh" },
+{$set: {"setup.fields.equipmentMeterReadingBeforeChecklist.singular": "检查表之前的设备计量读数"} }
+)
+
+db.dynamic_label_setup.updateMany(
+{"module": "checklist", "language": "zh" },
+{$set: {"setup.fields.equipmentMeterReadingBeforeChecklist.plural": ""} }
+)
+
+
+db.dynamic_label_setup.updateMany(
+{"module": "checklist", "language": "zh" },
+{$set: {"setup.fields.assetStatusAfterChecklist.singular": "检查表之后的资产状态"} }
+)
+
+db.dynamic_label_setup.updateMany(
+{"module": "checklist", "language": "zh" },
+{$set: {"setup.fields.assetStatusAfterChecklist.plural": ""} }
+)
+
+db.dynamic_label_setup.updateMany(
+{"module": "checklist", "language": "zh" },
+{$set: {"setup.fields.equipmentMeterReadingBeforeChecklist.singular": "检查表之前的设备计量读数"} }
+)
+db.dynamic_label_setup.updateMany(
+{"module": "checklist", "language": "zh" },
+{$set: {"setup.fields.equipmentMeterReadingBeforeChecklist.plural": ""} }
+)
+
+db.dynamic_label_setup.updateMany(
+{"module": "checklist", "language": "zh" },
+{$set: {"setup.fields.equipmentMeterReadingAfterChecklist.singular": "检查表之后的设备计量读数"} }
+)
+db.dynamic_label_setup.updateMany(
+{"module": "checklist", "language": "zh" },
+{$set: {"setup.fields.equipmentMeterReadingAfterChecklist.plural": ""} }
+)
+
+db.dynamic_label_setup.updateMany(
+{"module": "jobOrder", "language": "zh" },
+{$set: {"setup.fields.uploadAttachment.original": "上传附件"} }
+)
+
+db.dynamic_label_setup.updateMany(
+{"module": "jobOrder", "language": "zh" },
+{$set: {"setup.fields.uploadAttachment.singular": "上传附件"} }
+)
+
+db.dynamic_label_setup.updateMany(
+{"module": "jobOrder", "language": "zh" },
+{$set: {"setup.fields.orderDateTime.original": "Date & Time"} }
+)
+
+db.dynamic_label_setup.updateMany(
+{"module": "jobOrder", "language": "zh" },
+{$set: {"setup.fields.orderDateTime.singular": "日期 & 主题"} }
+)
+
+db.dynamic_label_setup.updateMany(
+{"module": "checkAvailibility", "language": "zh" },
+{$set: {"setup.label.original": "Locate"} }
+)
+db.dynamic_label_setup.updateMany(
+{"module": "checkAvailibility", "language": "zh" },
+{$set: {"setup.label.singular": "定位"} }
+)
+db.dynamic_label_setup.updateMany(
+{"module": "checkAvailibility", "language": "zh" },
+{$set: {"setup.label.plural": "定位"} }
+)
+
+db.dynamic_label_setup.updateMany(
+{"module": "checklist", "language": "zh" },
+{$set: {"setup.fields.assetStatusBeforeChecklist.plural": ""} }
+)
+
+db.dynamic_label_setup.updateMany(
+{"module": "checklist", "language": "zh" },
+{$set: {"setup.fields.assetStatusAfterChecklist.plural": ""} }
+)
+
+db.dynamic_label_setup.updateMany(
+{"module": "checklist", "language": "zh" },
+{$set: {"setup.fields.equipmentMeterReadingBeforeChecklist.singular": "检查表之前的设备计量读数"} }
+)
+db.dynamic_label_setup.updateMany(
+{"module": "checklist", "language": "zh" },
+{$set: {"setup.fields.equipmentMeterReadingBeforeChecklist.plural": ""} }
+)
+
+db.dynamic_label_setup.updateMany(
+{"module": "checklist", "language": "zh" },
+{$set: {"setup.fields.equipmentMeterReadingAfterChecklist.singular": "检查表之后的设备计量读数"} }
+)
+db.dynamic_label_setup.updateMany(
+{"module": "checklist", "language": "zh" },
+{$set: {"setup.fields.equipmentMeterReadingAfterChecklist.plural": ""} }
+)
+
+
+db.dynamic_label_setup.updateMany(
+{"module": "header", "language": "zh" },
+{$set: {"setup.sections.sec3.original": "Account Settings"} }
+)
+db.dynamic_label_setup.updateMany(
+{"module": "header", "language": "zh" },
+{$set: {"setup.sections.sec3.singular": "账户设置"} }
+)
+db.dynamic_label_setup.updateMany(
+{"module": "header", "language": "zh" },
+{$set: {"setup.sections.sec3.plural": "账户设置"} }
+)
+
+db.dynamic_label_setup.updateMany(
+{"module": "general", "language": "zh" },
+{$set: {"setup.buttons.filter.plural": "过滤器"} }
+)
+
+db.dynamic_label_setup.updateMany(
+{"module": "general", "language": "zh" },
+{$set: {"setup.buttons.transfer.plural": "转账"} }
+)
+
+db.dynamic_label_setup.updateMany(
+{"module": "general", "language": "zh" },
+{$set: {"setup.buttons.email.original": "Email"} }
+)
+
+db.dynamic_label_setup.updateMany(
+{"module": "general", "language": "zh" },
+{$set: {"setup.status.breakDown.original": "Breakdown"} }
+) 
+
+db.dynamic_label_setup.updateMany(
+{"module": "general", "language": "zh" },
+{$set: {"setup.status.breakDown.setupEdit": false} }
+)
+
+db.dynamic_label_setup.updateMany(
+{"module": "setup", "language": "zh" },
+{$set: {"setup.notifications.messages.markAsRead": "标记所有为已读"} }
+)

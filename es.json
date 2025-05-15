@@ -9881,8 +9881,8 @@
         "original": "Transfer",
         "singular": "Transferir",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "sec11": {
         "original": "Locate",
@@ -9960,7 +9960,7 @@
         "plural": "Artículos faltantes detectados",
         "setupEdit": false,
         "setupVisible": false
-        }
+      }
     },
     "fields": {
       "setupVisible": true,
@@ -10031,8 +10031,8 @@
         "original": "Available",
         "singular": "Available",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "qtyTransfer": {
         "original": "Quantity to Transfer",
@@ -10045,8 +10045,8 @@
         "original": "Quantity",
         "singular": "Quantity",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "transferNo": {
         "original": "Transfer No.",
@@ -10115,8 +10115,8 @@
         "original": "Remark",
         "singular": "Observación",
         "plural": "Observaciones",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false 
       },
       "mine": {
         "original": "Mine",
@@ -10377,7 +10377,14 @@
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
-        }
+        },
+      "sec6": {
+        "original": "Summary of Results",
+        "singular": "Resumen de resultados",
+        "plural": "Resúmenes de resultados",
+        "setupEdit": false,
+        "setupVisible": false
+      }
     },
     "fields": {
       "choose": {
@@ -13873,6 +13880,20 @@
         "plural": "Guardar configuraciones e importar",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "howItWorks":{
+        "original": "How it Works",
+        "singular": "Cómo funciona",
+        "plural": "Cómo funciona",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "config":{
+        "original": "Config",
+        "singular": "Configuración",
+        "plural": "Configuración",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "status": {
@@ -14312,11 +14333,11 @@
         "setupVisible": false
       },
       "submitted": {
-        "original": "Submitted",
-        "singular": "Enviado",
-        "plural": "Enviado",
-        "setupEdit": false,
-        "setupVisible": false
+          "original": "Submitted",
+          "singular": "Enviado",
+          "plural": "Enviado",
+          "setupEdit": false,
+          "setupVisible": false
       },
       "transferPending": {
         "original": "Transfer Pending",
@@ -14590,7 +14611,8 @@
       "was": "se",
       "wasChangedFrom": "se cambió de",
       "wasChangedTo": "se cambió a",
-      "selectDateRange": "Seleccionar rango de fechas"
+      "selectDateRange": "Seleccionar rango de fechas",
+      "anyAdditionalComments":"¿Algún comentario adicional? Agrégalo aquí"
     },
     "currency": {
       "australianDollar": "AUD",
@@ -17265,6 +17287,9 @@
             "setupEdit": false,
             "setupVisible": false
           }
+        },
+        "validationFE":{
+          "atLeastOneSelected":"Se debe seleccionar al menos una opción. Se pueden seleccionar las tres"
         },
         "messages":{
           "eachRelationshipConnectsLevel":"Cada relación conecta un grupo de aprobación de Nivel 1 con uno de Nivel 2. Estos niveles representan diferentes etapas de aprobación para notas de requisición en FieldEx.",

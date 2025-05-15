@@ -9909,8 +9909,8 @@
         "original": "Part(s) to Transfer",
         "singular": "待转移的部件",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "sec15": {
         "original": "Transfer by Assets",
@@ -10031,8 +10031,8 @@
         "original": "Available",
         "singular": "可用",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "qtyTransfer": {
         "original": "Quantity to Transfer",
@@ -10045,8 +10045,8 @@
         "original": "Quantity",
         "singular": "数量",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "transferNo": {
         "original": "Transfer No.",
@@ -10115,8 +10115,8 @@
         "original": "Remark",
         "singular": "备注",
         "plural": "备注",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false 
       },
       "mine": {
         "original": "Mine",
@@ -10374,6 +10374,13 @@
       "sec5": {
           "original": "Select where to check",
           "singular": "选择要检查的位置",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+      }, 
+      "sec6": {
+          "original": "Summary of Results",
+          "singular": "结果摘要",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
@@ -13734,146 +13741,20 @@
         "setupEdit": false,
         "setupVisible": false
       },
-      "previewCsv":{
-        "original": "Preview CSV",
-        "singular": "预览 CSV",
-        "plural": "预览 CSV",
+      "howItWorks":{
+        "original": "How it Works",
+        "singular": "工作原理",
+        "plural": "工作原理",
         "setupEdit": false,
         "setupVisible": false
       },
-      "addNewStatus":{
-        "original": "Add New Status",
-        "singular": "添加新状态",
-        "plural": "添加新状态",
+      "config":{
+        "original": "Config",
+        "singular": "配置",
+        "plural": "配置",
         "setupEdit": false,
         "setupVisible": false
-      },
-      "addNewType":{
-        "original": "Add New Type",
-        "singular": "添加新类型",
-        "plural": "添加新类型",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "saveConfigurationImportAsset":{
-        "original": "Save Configurations & Import Assets",
-        "singular": "保存配置并导入资产",
-        "plural": "保存配置并导入资产",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "skip":{
-        "original": "Skip",
-        "singular": "跳过",
-        "plural": "跳过",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "saveConfigurationImportWorkOrders":{
-        "original": "Save Configurations & Import Work Orders",
-        "singular": "保存配置并导入工单",
-        "plural": "保存配置并导入工单",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "chooseFile":{
-        "original": "Choose a File",
-        "singular": "选择文件",
-        "plural": "选择文件",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "choose":{
-        "original": "Choose",
-        "singular": "选择",
-        "plural": "选择",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "startLearning":{
-        "original": "Start Learning",
-        "singular": "开始学习",
-        "plural": "开始学习",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "watchVideo":{
-        "original": "Watch Videos",
-        "singular": "观看视频",
-        "plural": "观看视频",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "exploreDocs":{
-        "original": "Explore Docs",
-        "singular": "浏览文档",
-        "plural": "浏览文档",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "browseFaqs":{
-        "original": "Browse FAQs",
-        "singular": "浏览常见问题",
-        "plural": "浏览常见问题 ",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "contactSupport":{
-        "original": "Contact Support",
-        "singular": "联系支持",
-        "plural": "联系支持",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "exploreLatestInnovations":{
-        "original": "Explore Latest Innovations",
-        "singular": "探索最新创新",
-        "plural": "探索最新创新",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "claimFreeSession":{
-        "original": "Claim Your 2 Free Sessions",
-        "singular": "领取您的两次免费课程",
-        "plural": "领取您的两次免费课程",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "launchSetup":{
-        "original": "Launch Setup",
-        "singular": "启动设置",
-        "plural": "启动设置",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "finalize":{
-        "original": "Finalize",
-        "singular": "完成",
-        "plural": "完成",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "addUser":{
-        "original": "Add User",
-        "singular": "添加用户",
-        "plural": "添加用户",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "letAiCreateConfigure":{
-        "original": "Let AI Create Your Data & Configure Your System",
-        "singular": "让 AI 创建您的数据并配置您的系统",
-        "plural": "让 AI 创建您的数据并配置您的系统",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "saveConfigurationImportModule":{
-        "original": "Save Configurations & Import",
-        "singular": "保存配置并导入",
-        "plural": "保存配置并导入",
-        "setupEdit": false,
-        "setupVisible": false
-      }
+      }	
     },
     "status": {
       "setupVisible": true,
@@ -14318,6 +14199,20 @@
         "setupEdit": false,
         "setupVisible": false
       },
+      "transferPending": {
+        "original": "Transfer Pending",
+        "singular": "转移待处理",
+        "plural": "转移待处理",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "transferFulfilled": {
+        "original": "Transfer Fulfilled",
+        "singular": "转移已完成",
+        "plural": "转移已完成",
+        "setupEdit": false,
+        "setupVisible": false
+      },
       "followUp": {
         "original": "Follow Up",
         "singular": "跟进",
@@ -14350,20 +14245,6 @@
         "original": "Other",
         "singular": "其他",
         "plural": "其他",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "transferPending": {
-        "original": "Transfer Pending",
-        "singular": "转移待处理",
-        "plural": "转移待处理",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "transferFulfilled": {
-        "original": "Transfer Fulfilled",
-        "singular": "转移已完成",
-        "plural": "转移已完成",
         "setupEdit": false,
         "setupVisible": false
       },
@@ -14590,7 +14471,8 @@
       "was": "是",
       "wasChangedFrom": "更改自",
       "wasChangedTo": "更改为",
-      "selectDateRange": "选择日期范围"
+      "selectDateRange": "选择日期范围",
+      "anyAdditionalComments":"有其他评论吗？请在此添加"
     },
     "currency": {
       "australianDollar": "AUD",
@@ -17265,6 +17147,9 @@
             "setupEdit": false,
             "setupVisible": false
           }
+        },
+        "validationFE":{
+          "atLeastOneSelected":"必须至少选择一个选项。三个选项都可以选择"
         },
         "messages":{
           "eachRelationshipConnectsLevel":"每个关系连接一个一级审批组和一个二级审批组。这些级别代表 FieldEx 中申请单的不同审批阶段。",

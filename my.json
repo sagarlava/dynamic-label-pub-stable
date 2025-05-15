@@ -9910,8 +9910,8 @@
         "original": "Part(s) to Transfer",
         "singular": "Bahagian untuk Dipindahkan",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "sec15": {
         "original": "Transfer by Assets",
@@ -10032,8 +10032,8 @@
         "original": "Available",
         "singular": "Tersedia",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "qtyTransfer": {
         "original": "Quantity to Transfer",
@@ -10046,8 +10046,8 @@
         "original": "Quantity",
         "singular": "Kuantiti",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "transferNo": {
         "original": "Transfer No.",
@@ -10116,8 +10116,8 @@
         "original": "Remark",
         "singular": "Catatan",
         "plural": "Catatan",
-        "setupEdit": true,
-        "setupVisible": true
+         "setupEdit": false,
+        "setupVisible": false
       },
       "mine": {
         "original": "Mine",
@@ -10375,6 +10375,13 @@
       "sec5": {
           "original": "Select where to check",
           "singular": "Pilih di mana hendak diperiksa",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+      }, 
+      "sec6": {
+          "original": "Summary of Results",
+          "singular": "Ringkasan Keputusan",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
@@ -13734,147 +13741,21 @@
         "plural": "Pemindahan Tong Secara Manual",
         "setupEdit": false,
         "setupVisible": false
-      },
-      "previewCsv":{
-        "original": "Preview CSV",
-        "singular": "Pratonton CSV",
-        "plural": "Pratonton CSV",
+      }	,
+      "howItWorks":{
+        "original": "How it Works",
+        "singular": "Cara Ia Berfungsi",
+        "plural": "Cara Ia Berfungsi",
         "setupEdit": false,
         "setupVisible": false
       },
-      "addNewStatus":{
-        "original": "Add New Status",
-        "singular": "Tambah Status Baharu",
-        "plural": "Tambah Status Baharu",
+      "config":{
+        "original": "Config",
+        "singular": "Konfigurasi",
+        "plural": "Konfigurasi",
         "setupEdit": false,
         "setupVisible": false
-      },
-      "addNewType":{
-        "original": "Add New Type",
-        "singular": "Tambah Jenis Baharu",
-        "plural": "Tambah Jenis Baharu",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "saveConfigurationImportAsset":{
-        "original": "Save Configurations & Import Assets",
-        "singular": "Simpan Konfigurasi & Import Aset",
-        "plural": "Simpan Konfigurasi & Import Aset",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "skip":{
-        "original": "Skip",
-        "singular": "Langkau",
-        "plural": "Langkau",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "saveConfigurationImportWorkOrders":{
-        "original": "Save Configurations & Import Work Orders",
-        "singular": "Simpan Konfigurasi & Import Pesanan Kerja",
-        "plural": "Simpan Konfigurasi & Import Pesanan Kerja",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "chooseFile":{
-        "original": "Choose a File",
-        "singular": "Pilih Fail",
-        "plural": "Pilih Fail",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "choose":{
-        "original": "Choose",
-        "singular": "Pilih",
-        "plural": "Pilih",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "startLearning":{
-        "original": "Start Learning",
-        "singular": "Mulakan Pembelajaran",
-        "plural": "Mulakan Pembelajaran",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "watchVideo":{
-        "original": "Watch Videos",
-        "singular": "Tonton Video",
-        "plural": "Tonton Video",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "exploreDocs":{
-        "original": "Explore Docs",
-        "singular": "Terokai Dokumen",
-        "plural": "Terokai Dokumen",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "browseFaqs":{
-        "original": "Browse FAQs",
-        "singular": "Layari Soalan Lazim",
-        "plural": "Layari Soalan Lazim",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "contactSupport":{
-        "original": "Contact Support",
-        "singular": "Hubungi Sokongan",
-        "plural": "Hubungi Sokongan",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "exploreLatestInnovations":{
-        "original": "Explore Latest Innovations",
-        "singular": "Terokai Inovasi Terkini",
-        "plural": "Terokai Inovasi Terkini",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "claimFreeSession":{
-        "original": "Claim Your 2 Free Sessions",
-        "singular": "Tuntut 2 Sesi Percuma Anda",
-        "plural": "Tuntut 2 Sesi Percuma Anda",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "launchSetup":{
-        "original": "Launch Setup",
-        "singular": "Lancar Tetapan",
-        "plural": "Lancar Tetapan",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "finalize":{
-        "original": "Finalize",
-        "singular": "Muktamadkan",
-        "plural": "Muktamadkan",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "addUser":{
-        "original": "Add User",
-        "singular": "Tambah Pengguna",
-        "plural": "Tambah Pengguna",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "letAiCreateConfigure":{
-        "original": "Let AI Create Your Data & Configure Your System",
-        "singular": "Biarkan AI Cipta Data Anda & Konfigurasikan Sistem Anda",
-        "plural": "Biarkan AI Cipta Data Anda & Konfigurasikan Sistem Anda",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "saveConfigurationImportModule":{
-        "original": "Save Configurations & Import",
-        "singular": "Simpan Konfigurasi & Import",
-        "plural": "Simpan Konfigurasi & Import",
-        "setupEdit": false,
-        "setupVisible": false
-      }
+      }	
     },
     "status": {
       "setupVisible": true,
@@ -14319,6 +14200,20 @@
         "setupEdit": false,
         "setupVisible": false
       },
+      "transferPending": {
+        "original": "Transfer Pending",
+        "singular": "Pemindahan Tertangguh",
+        "plural": "Pemindahan Tertangguh",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "transferFulfilled": {
+        "original": "Transfer Fulfilled",
+        "singular": "Pemindahan Selesai",
+        "plural": "Pemindahan Selesai",
+        "setupEdit": false,
+        "setupVisible": false
+      },
       "followUp": {
         "original": "Follow Up",
         "singular": "Tindak Lanjut",
@@ -14351,20 +14246,6 @@
         "original": "Other",
         "singular": "Lain-lain",
         "plural": "Lain-lain",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "transferPending": {
-        "original": "Transfer Pending",
-        "singular": "Pemindahan Tertangguh",
-        "plural": "Pemindahan Tertangguh",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "transferFulfilled": {
-        "original": "Transfer Fulfilled",
-        "singular": "Pemindahan Selesai",
-        "plural": "Pemindahan Selesai",
         "setupEdit": false,
         "setupVisible": false
       },
@@ -14591,7 +14472,8 @@
       "was": "telah",
       "wasChangedFrom": "telah diubah daripada",
       "wasChangedTo": "telah diubah kepada",
-      "selectDateRange": "Pilih Julat Tarikh"
+      "selectDateRange": "Pilih Julat Tarikh",
+      "anyAdditionalComments":"Sebarang komen tambahan? Tambah di sini"
     },
     "currency": {
       "australianDollar": "AUD",
@@ -17266,6 +17148,9 @@
             "setupEdit": false,
             "setupVisible": false
           }
+        },
+        "validationFE":{
+          "atLeastOneSelected":"Sekurang-kurangnya 1 pilihan mesti dipilih. Ketiga-tiga boleh dipilih"
         },
         "messages":{
           "eachRelationshipConnectsLevel":"Setiap perhubungan menghubungkan kumpulan kelulusan Tahap 1 dengan kumpulan kelulusan Tahap 2. Tahap ini mewakili peringkat kelulusan yang berbeza untuk nota permohonan dalam FieldEx.",

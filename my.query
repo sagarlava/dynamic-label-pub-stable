@@ -1,0 +1,111 @@
+db.dynamic_label_setup.updateMany(
+{"module": "customer", "language": "my" },
+{$set: {"setup.sections.sec1.original": "Contact Details"} }
+)
+
+db.dynamic_label_setup.updateMany(
+{"module": "customer", "language": "my" },
+{$set: {"setup.sections.sec1.original": "Butiran Perhubungan"} }
+)
+
+db.dynamic_label_setup.updateMany(
+{"module": "checklist", "language": "my" },
+{$set: {"setup.fields.assetStatusBeforeChecklist.plural": ""} }
+)
+
+db.dynamic_label_setup.updateMany(
+{"module": "checklist", "language": "my" },
+{$set: {"setup.fields.assetStatusAfterChecklist.plural": ""} }
+)
+
+db.dynamic_label_setup.updateMany(
+{"module": "checklist", "language": "my" },
+{$set: {"setup.fields.equipmentMeterReadingBeforeChecklist.plural": ""} }
+)
+
+db.dynamic_label_setup.updateMany(
+{"module": "checklist", "language": "my" },
+{$set: {"setup.fields.equipmentMeterReadingAfterChecklist.plural": ""} }
+)
+
+
+db.dynamic_label_setup.updateMany(
+{"module": "jobOrder", "language": "my" },
+{$set: {"setup.fields.orderDateTime.original": "Date & Time"} }
+)
+
+db.dynamic_label_setup.updateMany(
+{"module": "jobOrder", "language": "my" },
+{$set: {"setup.fields.orderDateTime.singular": "Tarikh & Topik"} }
+)
+
+db.dynamic_label_setup.updateMany(
+{"module": "jobOrder", "language": "my" },
+{$set: {"setup.fields.uploadAttachment.original": "Muat naik lampiran"} }
+)
+
+db.dynamic_label_setup.updateMany(
+{"module": "jobOrder", "language": "my" },
+{$set: {"setup.fields.uploadAttachment.singular": "Muat naik lampiran"} }
+)
+
+db.dynamic_label_setup.updateMany(
+{"module": "checkAvailibility", "language": "my" },
+{$set: {"setup.label.original": "Locate"} }
+)
+db.dynamic_label_setup.updateMany(
+{"module": "checkAvailibility", "language": "my" },
+{$set: {"setup.label.singular": "Cari"} }
+)
+db.dynamic_label_setup.updateMany(
+{"module": "checkAvailibility", "language": "my" },
+{$set: {"setup.label.plural": "Cari"} }
+)
+
+db.dynamic_label_setup.updateMany(
+{"module": "header", "language": "my" },
+{$set: {"setup.sections.sec3.original": "Account Settings"} }
+)
+db.dynamic_label_setup.updateMany(
+{"module": "header", "language": "my" },
+{$set: {"setup.sections.sec3.singular": "Tetapan Akaun"} }
+)
+db.dynamic_label_setup.updateMany(
+{"module": "header", "language": "my" },
+{$set: {"setup.sections.sec3.plural": "Tetapan Akaun"} }
+)
+
+db.dynamic_label_setup.updateMany(
+{"module": "general", "language": "my" },
+{$set: {"setup.buttons.filter.plural": "Tapis-tapis"} }
+)
+
+db.dynamic_label_setup.updateMany(
+{"module": "general", "language": "my" },
+{$set: {"setup.buttons.transfer.plural": "Pemindahan"} }
+)
+
+db.dynamic_label_setup.updateMany(
+{"module": "general", "language": "my" },
+{$set: {"setup.buttons.email.original": "Email"} }
+)
+
+db.dynamic_label_setup.updateMany(
+{"module": "general", "language": "my" },
+{$set: {"setup.status.breakDown.original": "Breakdown"} }
+)
+
+db.dynamic_label_setup.updateMany(
+{"module": "general", "language": "my" },
+{$set: {"setup.status.breakDown.singular": "Breakdown"} }
+)
+
+db.dynamic_label_setup.updateMany(
+{"module": "general", "language": "my" },
+{$set: {"setup.status.breakDown.setupEdit": false} }
+)
+
+db.dynamic_label_setup.updateMany(
+{"module": "setup", "language": "my" },
+{$set: {"setup.notifications.messages.markAsRead": "Tandakan semua sebagai sudah dibaca"} }
+)
