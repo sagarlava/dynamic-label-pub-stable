@@ -985,6 +985,20 @@
         "setupEdit": false,
         "setupVisible": false
       },
+      "installationDate": {
+        "original": "Installation Date",
+        "singular": "Installation Date",
+        "plural": "Installation Date",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "brand": {
+        "original": "Brand",
+        "singular": "Brand",
+        "plural": "Brand",
+        "setupEdit": false,
+        "setupVisible": false
+      },
       "groupByParent": {
         "original": "Group by Parent",
         "singular": "Group by Parent",
@@ -1091,7 +1105,8 @@
       "assetCategoryIdExists":"A new Asset Category cannot already have an ID",
       "assetSubCategoryIdExists":"A new Asset Sub Category cannot already have an ID",
       "assetCategoryCannotDeleteByAssets":"Unable to delete: Asset Category is used in one or more Assets",
-      "assetSubCategoryCannotDeleteByAssets":"Unable to delete: Asset Sub Category is used in one or more Assets"
+      "assetSubCategoryCannotDeleteByAssets":"Unable to delete: Asset Sub Category is used in one or more Assets",
+      "assetParentInvalid":"The chosen parent is already in the asset hierarchy"
     },
     "tooltips": {
       "setupVisible": false,
@@ -13642,6 +13657,27 @@
         "setupEdit": false,
         "setupVisible": false
       },
+       "mapPicklist":{
+        "original": "Map Picklist",
+        "singular": "Map Picklist",
+        "plural": "Map Picklist",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "addSection":{
+        "original": "Add Section",
+        "singular": "Add Section",
+        "plural": "Add Sections",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "addAPage":{
+        "original": "Add Page",
+        "singular": "Add Page",
+        "plural": "Add Pages",
+        "setupEdit": false,
+        "setupVisible": false
+      },
       "locateAsset":{
         "original": "Locate Asset",
         "singular": "Locate Asset",
@@ -13704,6 +13740,146 @@
         "plural": "Manual Bin Transfer",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "previewCsv":{
+        "original": "Preview CSV",
+        "singular": "Preview CSV",
+        "plural": "Preview CSV",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "addNewStatus":{
+        "original": "Add New Status",
+        "singular": "Add New Status",
+        "plural": "Add New Status",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "addNewType":{
+        "original": "Add New Type",
+        "singular": "Add New Type",
+        "plural": "Add New Type",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "saveConfigurationImportAsset":{
+        "original": "Save Configurations & Import Assets",
+        "singular": "Save Configurations & Import Assets",
+        "plural": "Save Configurations & Import Assets",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "skip":{
+        "original": "Skip",
+        "singular": "Skip",
+        "plural": "Skip",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "saveConfigurationImportWorkOrders":{
+        "original": "Save Configurations & Import Work Orders",
+        "singular": "Save Configurations & Import Work Orders",
+        "plural": "Save Configurations & Import Work Orders",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "chooseFile":{
+        "original": "Choose a File",
+        "singular": "Choose a File",
+        "plural": "Choose a File",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "choose":{
+        "original": "Choose",
+        "singular": "Choose",
+        "plural": "Choose",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "startLearning":{
+        "original": "Start Learning",
+        "singular": "Start Learning",
+        "plural": "Start Learning",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "watchVideo":{
+        "original": "Watch Videos",
+        "singular": "Watch Video",
+        "plural": "Watch Videos",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "exploreDocs":{
+        "original": "Explore Docs",
+        "singular": "Explore Docs",
+        "plural": "Explore Docs",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "browseFaqs":{
+        "original": "Browse FAQs",
+        "singular": "Browse FAQs",
+        "plural": "Browse FAQs",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "contactSupport":{
+        "original": "Contact Support",
+        "singular": "Contact Support",
+        "plural": "Contact Support",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "exploreLatestInnovations":{
+        "original": "Explore Latest Innovations",
+        "singular": "Explore Latest Innovations",
+        "plural": "Explore Latest Innovations",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "claimFreeSession":{
+        "original": "Claim Your 2 Free Sessions",
+        "singular": "Claim Your 2 Free Sessions",
+        "plural": "Claim Your 2 Free Sessions",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "launchSetup":{
+        "original": "Launch Setup",
+        "singular": "Launch Setup",
+        "plural": "Launch Setup",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "finalize":{
+        "original": "Finalize",
+        "singular": "Finalize",
+        "plural": "Finalize",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "addUser":{
+        "original": "Add User",
+        "singular": "Add User",
+        "plural": "Add User",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "letAiCreateConfigure":{
+        "original": "Let AI Create Your Data & Configure Your System",
+        "singular": "Let AI Create Your Data & Configure Your System",
+        "plural": "Let AI Create Your Data & Configure Your System",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "saveConfigurationImportModule":{
+        "original": "Save Configurations & Import",
+        "singular": "Save Configurations & Import",
+        "plural": "Save Configurations & Import",
+        "setupEdit": false,
+        "setupVisible": false        
       },
       "howItWorks":{
         "original": "How it Works",
@@ -14209,6 +14385,20 @@
         "original": "Transfer Fulfilled",
         "singular": "Transfer Fulfilled",
         "plural": "Transfer Fulfilled",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "systemValue": {
+        "original": "System Value",
+        "singular": "System Value",
+        "plural": "System Value",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "aiDetected": {
+        "original": "AI Detected",
+        "singular": "AI Detected",
+        "plural": "AI Detected",
         "setupEdit": false,
         "setupVisible": false
       },
@@ -15118,6 +15308,13 @@
         "sec19": {
           "original": "Select a Price Book from the list",
           "singular": "Select a Price Book from the list",
+          "plural": "",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "sec20": {
+          "original": "Select a Bin from the list",
+          "singular": "Select a Bin from the list",
           "plural": "",
           "setupEdit": false,
           "setupVisible": false
@@ -17601,6 +17798,167 @@
             "plural": "",
             "setupEdit": true,
             "setupVisible": false
+          },
+          "sec19":{
+            "original": "Give your form a name and a running number prefix. Hover over the running number prefix helptext icon for more information.",
+            "singular": "Give your form a name and a running number prefix. Hover over the running number prefix helptext icon for more information.",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec20":{
+            "original": "Select the Job Order Types that will be available for this form. Additionally, you have the option to make this form mandatory for certain Job Order Statuses. To do that, toggle this form as mandatory by clicking on the checkbox and make your selection of Job Order Statuses from the ones available.",
+            "singular": "Select the Job Order Types that will be available for this form. Additionally, you have the option to make this form mandatory for certain Job Order Statuses. To do that, toggle this form as mandatory by clicking on the checkbox and make your selection of Job Order Statuses from the ones available.",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec21":{
+            "original": "Select a record type for this subform. Single record subforms can only be submitted once and are used for one time data entry. List record subforms can be submitted multiple times and are used when you require your field agents or technicians to enter data multiple times during a job.",
+            "singular": "Select a record type for this subform. Single record subforms can only be submitted once and are used for one time data entry. List record subforms can be submitted multiple times and are used when you require your field agents or technicians to enter data multiple times during a job.",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec22":{
+            "original": "Give your subform a name and a running number prefix. Hover over the running number prefix helptext icon for more information.",
+            "singular": "Give your subform a name and a running number prefix. Hover over the running number prefix helptext icon for more information.",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec23":{
+            "original": "Select the Job Order Types that will be available for this subform. Additionally, you have the option to make this form mandatory for certain Job Order Statuses. To do that, toggle this subform as mandatory by clicking on the checkbox and make your selection of Job Order Statuses from the ones available.",
+            "singular": "Select the Job Order Types that will be available for this subform. Additionally, you have the option to make this form mandatory for certain Job Order Statuses. To do that, toggle this subform as mandatory by clicking on the checkbox and make your selection of Job Order Statuses from the ones available.",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec24":{
+            "original": "Form Creation",
+            "singular": "Form Creation",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec25":{
+            "original": "Field Creation",
+            "singular": "Field Creation",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec26":{
+            "original": "Page Layout",
+            "singular": "Page Layout",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec27":{
+            "original": "List View Setup",
+            "singular": "List View Setup",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec28":{
+            "original": "Subform Creation",
+            "singular": "Subform Creation",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec29":{
+            "original": "Create Fields",
+            "singular": "Create Field",
+            "plural": "Create Fields",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec30":{
+            "original": "Save Form",
+            "singular": "Save Form",
+            "plural": "Save Forms",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec31":{
+            "original": "Delete Section",
+            "singular": "Delete Section",
+            "plural": "Delete Sections",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec32":{
+            "original": "Section Layout",
+            "singular": "Section Layout",
+            "plural": "Section Layout",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec33":{
+            "original": "Job Order Details",
+            "singular": "Job Order Details",
+            "plural": "Job Order Details",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec34":{
+            "original": "Subform Details",
+            "singular": "Subform Details",
+            "plural": "Subform Details",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec35":{
+            "original": "Mapping",
+            "singular": "Mapping",
+            "plural": "Mapping",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec36":{
+            "original": "Fields",
+            "singular": "Field",
+            "plural": "Fields",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec37":{
+            "original": "Create Form",
+            "singular": "Create Form",
+            "plural": "Create Forms",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec38":{
+            "original": "Setup Subform",
+            "singular": "Setup Subform",
+            "plural": "Setup Subforms",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec39":{
+            "original": "Setup List View",
+            "singular": "Setup List View",
+            "plural": "Setup List Views",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec40":{
+            "original": "Create Subform",
+            "singular": "Create Subform",
+            "plural": "Create Subforms",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec41":{
+            "original": "Mobile Preview",
+            "singular": "Mobile Preview",
+            "plural": "Mobile Preview",
+            "setupEdit": false,
+            "setupVisible": false
           }
         },
         "fields":{
@@ -17644,6 +18002,13 @@
             "singular": "Job Order Type",
             "plural": "",
             "setupEdit": true,
+            "setupVisible": false
+          },
+          "jobOrderStatus":{
+            "original": "Job Order Status",
+            "singular": "Status Pesanan Kerja",
+            "plural": "",
+            "setupEdit": false,
             "setupVisible": false
           },
           "isFormMandatory":{
@@ -17918,6 +18283,97 @@
             "plural": "Mapped Fields",
             "setupEdit": true,
             "setupVisible": true
+          },
+          "enterFormName": {
+            "original": "Enter a name for your form",
+            "singular": "Enter a name for your form",
+            "plural": "Enter a name for your form",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "enterSubformName": {
+            "original": "Enter a name for your new subform",
+            "singular": "Enter a name for your new subform",
+            "plural": "Enter a name for your new subform",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "createdDate": {
+            "original": "Created Date",
+            "singular": "Created Date",
+            "plural": "Created Date",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "mandatory": {
+            "original": "Mandatory",
+            "singular": "Mandatory",
+            "plural": "Mandatory",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "selectModule": {
+            "original": "Select Module",
+            "singular": "Select Module",
+            "plural": "Select Modules",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "module": {
+            "original": "Module",
+            "singular": "Module",
+            "plural": "Modules",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "selectPicklist": {
+            "original": "Select Picklist",
+            "singular": "Select Picklist",
+            "plural": "Select Picklist",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "example": {
+            "original": "Example",
+            "singular": "Example",
+            "plural": "Example",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "subformName": {
+            "original": "Subform Name",
+            "singular": "Subform Name",
+            "plural": "Subform Name",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "formName": {
+            "original": "Form Name",
+            "singular": "Form Name",
+            "plural": "Form Name",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "oneColumn": {
+            "original": "One Column",
+            "singular": "One Column",
+            "plural": "One Column",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "twoColumn": {
+            "original": "Two Columns",
+            "singular": "Two Columns",
+            "plural": "Two Columns",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sectionName": {
+            "original": "Section Name",
+            "singular": "Section Name",
+            "plural": "Section Name",
+            "setupEdit": false,
+            "setupVisible": false
           }
         },
         "messages":{
@@ -17971,7 +18427,56 @@
           "whatIsRunningNoFormat":"What is Running Number Format?",
           "runningNoDesc":"Running Number Format Allows you to customize the Auto Number Field for your forms. This includes substitution variables and any characters you wish to prefix or append",
           "mapPicklistFields":"Map picklist fields by selecting a Parent Field and then selecting the necessary Picklist Fields for it. You can view the Mapped Fields below.",
-          "addDescriptionHere":"Add description here..."
+          "addDescriptionHere":"Add description here...",
+          "selectJobOrderStatus":"Select Job Order Status",
+          "looksLikeNoFormsCreated":"It looks like you don't have any forms created just yet. Don't worry, just follow these steps and we'll have your forms up and running in no time!",
+          "formCreationDesc":"Create a form by clicking on the + New button. Give your form a name and a running number prefix. Then, select the Job Order Types that apply to this form.",
+          "fieldCreationFormDesc":"Click on the Field Creation button in the form view page. Click on the +New button and select the type of field you want to create.",
+          "pageLayoutFormDesc":"Click on the Page Layout button in the form view page. Here you can drag and drop the fields that you have created from the fields section on into the form sections.",
+          "subformSetupFormDesc":"If needed you can add subforms to your form by clicking on the setup subforms button. The setup process is similar to how you would set up forms.",
+          "looksLikeNoSubformsCreated":"It looks like you don't have any subforms created just yet. Don't worry, just follow these steps and we'll have your subforms up and running in no time!",
+          "subformCreationDesc":"Create a subform by clicking on the + New button. Give your subform a name and a running number prefix. Then, select the Job Order Types that apply to this form.",
+          "fieldCreationSubformDesc":"Click on the Field Creation button in the subform view page. Click on the +New button and select the type of field you want to create.",
+          "pageLayoutSubformDesc":"Click on the Page Layout button in the subform view page. Here you can drag and drop the fields that you have created from the fields section on into the subform sections.",
+          "listSetupSubformDesc":"If you have selected the List Record subform type, you can set up the list view for the subform. This will be seen in the forms tab of the Job Order details page.",
+          "optional":"Optional",
+          "onlyForListRec":"Only for List Records",
+          "createFieldsDesc":"Create fields that will be used in your form.",
+          "pageLayoutDesc":"Set the page layout of your form with the fields that you have created.",
+          "subformSetupDesc":"Optionally, you can set up subforms for this form. Use subforms if you need additional information from your technicians or field agents while on the job.",
+          "createFieldsSubformDesc":"Create fields that will be used in your subform.",
+          "pageLayoutDetsSubformDesc":"Set the page layout of your subform with the fields that you have created.",
+          "listViewSubformSetupDesc":"You can set up list views for your subform if  you have selected a list record type for it. This will enable you to customise the arrangement of the fields in the subform list view table.",
+          "completeAllStepForm":"Complete all steps to fully set up your form",
+          "completeAllStepSubform":"Complete all steps to fully set up your subform",
+          "editFormArrangement":"Are you sure you want to edit this form's arrangement? Changes made will also be reflected on previous forms. This cannot be undone.",
+          "selectLayoutPreferred":"Select the layout that you would prefer for your section. Fields that you add to the seciton will be displayed according to your section layout.",
+          "example":"Example",
+          "selectModuleDesc":"Select a module to link it to this field and retrieve related data from it.",
+          "moduleSelectedDesc":"Choose the field you want to look up from the selected module. This will allow you to retrieve and link relevant data from that field.",
+          "selectFieldDesc":"Choose a dynamic picklist field you want to select from the chosen module. This will allow you to retrieve relevant data from that picklist.",
+          "parentPicklistDesc":"Parent picklists are Dropdowns or Buttons that have already been created. Select a parent picklist to link and map its options to this dropdown in the mapping page. The options available for this dropdown will then be based on the parent picklist selection.",
+          "fieldsDesc":"Add the fields that should appear in this Dropdown. These fields will be available for users to choose from when interacting with the Dropdown.",
+          "selectPicklistDesc":"Choose a dynamic picklist you want to select from the chosen module. This will allow you to retrieve relevant data from that picklist.",
+          "looksLikeNoFieldsCreated":"It looks like you don't have any fields created just yet. Don't worry, just follow these steps and we'll have you creating your first field in no time!",
+          "beginCreateFieldClickNew":"Begin creating a field by clicking on the + New button.",
+          "selectComponentTypeFromSelection":"Select a component type from the available selection that best fits your use case.",
+          "fillInAllNecessaryDets":"Fill in all the necessary details for your field.",
+          "onlyForDropdownButton":"Only For Dropdown or Button",
+          "selectDropdownButtonLinkParent":"If you select a Dropdown or Button component you can link it to a parent picklist, which is another Dropdown or Button component that you have already created. This will take you to the Picklist Mapping page where you can set up the mapping. Alternatively, you can access the Picklist Mapping page by clicking the 'Map Picklist' button in the field list view.",
+          "dragDropToYourLiking":"Drag and drop fields into sections according to your liking",
+          "copyOf":"Copy of",
+          "formPreviewDesc":"Preview how your form will be displayed on the FieldEx mobile app. This is how your technicians or fields agents will be seeing the form on their end.",
+          "exampleFieldPreview":"Example field preview",
+          "arrangeFormDesc":"Arrange the form to your liking by clicking on your desired field from the available fields box, then dragging and dropping it onto the canvas. You can rename the sections by clicking on the edit icons beside them. To remove a field or section, click on the 'x' button beside it.",
+          "whatAreForms":"What are Forms?",
+          "whatAreSubforms":"What are Subforms?",
+          "fieldCreationForms":"Field Creation for Forms",
+          "howDoICreateForm":"How do I create forms?",
+          "howDoICreateSubform":"How do I create subforms?",
+          "howDoICreateFIeld":"How do I create fields?",
+          "checkFormatNumber":"Check 'Format Number' to allow decimal values for this field, then enter the required 'Decimal Places' (max 6 places).",
+          "addFieldHere":"Add a field here"
         }
       },
       "artificialIntelligence":{
@@ -20903,7 +21408,10 @@
           "setupVisible": false
         }
       },
-      "validationFE": {},
+      "validationFE": {        
+        "fileTypeUnsupported":"This file type is Unsupported. Please choose a different file.",
+        "exceedFileSizeSmall":"File size exceeds 2MB limit. Please upload a smaller file."
+      },
       "messages": {
         "selectAssetTypes": "Select Asset Types",
         "selectServiceZone": "Select Service Zone",
@@ -23683,10 +24191,12 @@
       "setupWorkflowMaxActionsPerWorkflow": "Maximum actions per workflow reached",
       "setupWorkflowEmailsMax": "Maximum allowed email addresses reached for workflow notification",
       "setupWorkflowEmailUserMax": "Maximum allowed users reached for workflow notification",
-      "setupWorkflowEmailUserGroupMax": "Maximum allowed users reached for workflow notification",
+      "setupWorkflowEmailUserGroupMax": "Maximum allowed users reached for workflow notification",     
       "setupTmplJobOrderLimitReached":"You have exceeded the limit of 50 active templates. Set the status of an unused template to 'Inactive' to add another active template.",
       "tmplTaskLimitExceeded":"You have exceeded the limit of 50 active templates. Set the status of an unused template to 'Inactive' to add another active template.",
       "setupTmplTaskHasJobOrder": "Unable to delete: Template used in one or more job orders",
+      "setupAssetMeterMaxAssetsTypeReached": "Already reached the maximum number of Asset Meters for selected Asset Type",
+      "setupAssetMeterHasAssetsRecord": "Assets Meter is linked with one or more Assets records, hence unable to delete",
       "setupTmplTaskHasJobOrderProduct": "Unable to delete: Template used to create one or more Job Order Products"
     },
     "labelBE": {
@@ -25699,6 +26209,239 @@
           "setupEdit": true,
           "setupVisible": false
         }
+      }
+    },    
+    "onBoard": {
+      "setupEdit": false,
+      "setupVisible": false,
+      "label": {
+        "original": "On-Board",
+        "singular": "On-Board",
+        "plural": "On-Board",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sections": {
+        "setupEdit": false,
+        "setupVisible": false,
+        "sec0": {
+          "original": "Welcome to FieldEx",
+          "singular": "Welcome to FieldEx",
+          "plural": "",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "sec1": {
+          "original": "Get Started",
+          "singular": "Get Started",
+          "plural": "Get Started",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "sec2": {
+          "original": "Import Asset",
+          "singular": "Import Asset",
+          "plural": "Import Asset",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "sec3": {
+          "original": "Setup Work Orders",
+          "singular": "Setup Work Orders",
+          "plural": "Setup Work Orders",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "sec4": {
+          "original": "Learn More",
+          "singular": "Learn More",
+          "plural": "Learn More",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "sec5": {
+          "original": "Invite Your Team",
+          "singular": "Invite Your Team",
+          "plural": "Invite Your Team",
+          "setupEdit": false,
+          "setupVisible": false
+        }
+      },
+      "fields":{
+        "setupVisible": false,
+        "setupEdit":false,
+        "email":{
+         "original": "Email",
+          "singular": "Email",
+          "plural": "Emails",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "role":{
+          "original": "Role",
+           "singular": "Role",
+           "plural": "Roles",
+           "setupEdit": false,
+           "setupVisible": false
+        },
+        "systemField":{
+          "original": "Fieldex System Fields",
+          "singular": "Fieldex System Fields",
+          "plural": "Fieldex System Fields",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "csvColumn":{
+          "original": "CSV Columns",
+          "singular": "CSV Columns",
+          "plural": "CSV Columns",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "confidence":{
+          "original": "Confidence",
+          "singular": "Confidence",
+          "plural": "Confidence",
+          "setupEdit": false,
+          "setupVisible": false
+        }
+      },
+      "messages":{
+        "letsImportAsset":"Lets Import your Assets",
+        "assetAreHeartCmms":"Assets are the heart of your CMMS. Start by uploading them to manage maintenance, history, and assignments",
+        "aiPoweredImport":"AI-Powered Import",
+        "automaticallyMapYourCSV":"Fieldex can automatically map your CSV columns, extract types, statuses, categories and configure your system - no manual setup required!",
+        "letOurIntelligentSystem":"Let our intelligent system do the work for you. FieldEx can automatically:",
+        "mapCsvToSystemField":"Map your CSV columns to system fields",
+        "extractConfigureAssetType":"Extract and configure asset type picklists",
+        "detectSetUpStatus":"Detect and set up status values with appropriate colors",
+        "configureSystemInSeconds":"Configure your system in seconds - no manual setup required",
+        "uploadExistingAsset":"Upload your existing assets and we'll help you map the fields and configure the asset module for you.",
+        "dragDropCsvHere":"Drag & Drop your CSV file here",
+        "needATemplate":"Need a template?",
+        "downloadCsvTemplate":"Download CSV Template",
+        "letAiCreateData":"Let AI Create your data & Configure Your System",
+        "startBuildingMaintenanceSystem":"Start building your maintenance system in minutes",
+        "helpsReduceDowntime":"FieldEx helps you reduce downtime by 37%, extend asset lifespans, and cut maintenance costs. Set up your system in minutes and start transforming your maintenance operations today",
+        "getQuickLook":"Get a quick look at how FieldEx empowers teams to manage assets, schedule services, and reduce downtime effortlessly.",
+        "bookTrainingSession":"Book a 45 min training session",
+        "withRealHumanForFree":"with a real human to get you on board for free",
+        "whatYouCanDo":"What You Can Do With FieldEx",
+        "management":"Management",
+        "digitizeEveryAsset":"Digitize every asset and track it in real-time",
+        "viewUptimeLogs":"View uptime, logs, and performance data instantly",
+        "tagEquipmentQrCode":"Tag equipment with QR codes for quick scans on site",
+        "setUpSmartSchedules":"Set up smart schedules to prevent breakdowns",
+        "getAlertsBefore":"Get alerts before things go wrong",
+        "automateServicePlan":"Automate service plans",
+        "createAssignInOnePlace":"Create, assign, and close jobs — all in one place",
+        "trackJobProgressStatusLive":"Track job progress and status live from the field",
+        "useQrCodesStartCompleteJobs":"Use QR codes to start or complete jobs on the go",
+        "trackEveryPartAcrossAllSite":"Track every part across all sites and teams",
+        "knowWhatsInStock":"Know what’s in stock, what’s needed, and reorder",
+        "scanUpdateInventory":"Scan and update inventory in real-time",
+        "inviteYourTeam":"Invite your team",
+        "admin":"Admin",
+        "planner":"Planner",
+        "fieldEngineer":"Field Engineer",
+        "accessEverythingManageSettings":"Access everything, manage settings, users, and report",
+        "createAssignJobsTrackProgress":"Create and assign jobs, track progress, optimize schedules",
+        "receiveTaskUpdateJobStatus":"Receive tasks, update job status, upload photos, scan QR codes.",
+        "addYourTeammates":"Add your teammates to FieldEx and assign roles that suit their superpowers. Whether they keep things moving behind a screen or out on the field — you’re just one invite away from synergy.",
+        "reviewCsvColumns":"Review how your CSV columns map to our system fields",
+        "reviewCustomizeAssetType":"Review and customize asset types detected in your CSV and existing system types",
+        "reviewCustomizeAssetStatus":"Review and customize asset status detected in your CSV and existing system status",
+        "reviewCustomizeWorkOrderType":"Review and customize work order types detected in your CSV and existing system types",
+        "reviewCustomizeWorkOrderStatus":"Review and customize work order status detected in your CSV and existing system status",
+        "reviewCustomize":"Review and customize",
+        "statusDetected":"status detected in your CSV and existing system status",
+        "typesDetected":"types detected in your CSV and existing system status",
+        "youCanReviewAdjustAnytime":"You can review and adjust anytime",
+        "viewMoreField":"View More Fields...",
+        "showLessField":"Show Less Fields...",
+        "enterNewAssetType":"Enter new asset type...",
+        "enterNewAssetStatus":"Enter new asset status...",
+        "tip":"Tip",
+        "watchDemo":"Watch Demo: What You Can Achieve with Fieldex",
+        "quickLookEmpowersTeam":"Get a quick look at how FieldEx empowers teams to manage assets, schedule services, and reduce downtime effortlessly",
+        "select":"Select",
+        "selectRole":"Select Role",
+        "aiAnalysisComplete":"AI Analysis Complete",
+        "dataInsight":"Data Insights",
+        "fieldMapping":"Field Mapping",
+        "assetTypes":"Asset Types",
+        "bookTrainingExperience":"Book a Training: Supercharge your FieldEx experience",
+        "freeOnboardingCaps":"FREE ONBOARDING",
+        "bookTwoSessions":"Book your two complimentary training sessions with our product specialists and learn how to maximize your field operations efficiency. No charges during onboarding!",
+        "comprehensiveLearning":"Comprehensive learning ecosystem with interactive modules for all skill levels",
+        "focusSolutionOriented":"Focused, solution-oriented video guides covering every aspect of the FieldEx platform",
+        "apiDocumentation":"API documentation and integration guides",
+        "answersCommonlyAsked":"Answers to commonly asked questions",
+        "getHelpFromCustomerSuccess":"Get help from our customer success team support@fieldex.com",
+        "discoverNewlyImplementedFeature":"Discover newly implemented features and upcoming enhancements to the platform",
+        "fieldExAcademy":"FieldEx Academy",
+        "videoTutorials":"Video Tutorials",
+        "developerResources":"Developer Resources",
+        "faq":"FAQ",
+        "emailSupport":"Email Support",
+        "releaseNotes":"Release Notes",
+        "exploreSettingUp":"Explore setting up these automations",
+        "setUpAutomations":"Set up powerful automations to streamline your operations and increase efficiency",
+        "setupJobOrdTemplate":"Setup Job Order Templates",
+        "setupPreventiveMaintenance":"Setup Preventive Maintenance",
+        "createChecklist":"Create Checklist",
+        "setupQrcodeBarcode":"Setup QR code / Barcode",
+        "setupNotifications":"Setup Notifications",
+        "importData":"Import Data",
+        "streamlineOperations":"Streamline operations with customizable templates accessible anywhere through our enterprise-grade mobile platform",
+        "proactivelyManage":"Proactively manage equipment lifecycle with automated scheduling",
+        "designComprehensiveDigital":"Design comprehensive digital checklists with conditional logic and triggers",
+        "configureQrcodeBarcode":"Configure QR/Barcode technology for real-time inventory and equipment management",
+        "configureTargetedAlerts":"Configure targeted alerts and updates with customizable rules and delivery preferences",
+        "watchVideo":"Watch Video",
+        "hunnedPercent":"100% FREE",
+        "noMatchFound":"No Match Found",
+        "match":"Match",
+
+        "letsImport":"Lets Import your",
+        "areTheHeartCmms":"are the heart of your CMMS. Start by uploading them to manage maintenance, history, and assignments.",
+        "areTheHeartOperations":"are the heart of your operations. Start by uploading them to manage schedules, teams, and tasks efficiently.",
+        "detectSetUp":"Detect and set up",
+        "extractConfigure":"Extract and configure",
+        "types":"types",
+        "typePicklist":"type picklists",
+        "uploadExisting":"Upload your existing",
+        "andWeHelpMap":"and we'll help you map the fields and configure the",
+        "moduleForYou":"module for you",
+        "reviewAndCustomize":"Review and customize",
+        "typesDetectedInCsv":"types detected in your CSV and existing system types",
+        "statusDetectedInCsv":"status detected in your CSV and existing system status",
+        "fullAccessConfigurationControl":"Full access & configuration control (Web only)",
+        "dailyOperationManager":"Daily operations manager (Best on Web)",
+        "taskExecuter":"On-the-move task executor (Mobile only)",
+        "adminsFullControl":"Admins have full control of your FieldEx workspace. They can:",
+        "plannersOverseeCoordinate":"Planners oversee and coordinate field operations through the FieldEx web platform. They:",
+        "fieldEngineersFrontline":"Field Engineers are the frontline team—technicians, installers, or service agents—using the mobile app to:",
+        "inviteManageUser":"Invite and manage users",
+        "configureSettings":"Configure checklists, job templates, and preventive maintenance settings",
+        "updateSystemWideSetting":"Update system-wide settings that affect the entire account",
+        "createAssignJobOrder":"Create and assign job orders to the right technicians",
+        "trackProgressCompletion":"Track job progress and completion in real-time",
+        "monitorUpdates":"Monitor updates from the field, including:",
+        "assetMeterLogs":"Meter logs",
+        "uploadImageAttachment":"Uploaded images and attachments",
+        "jobStatusChecklistCompletion":"Job status and checklist completion",
+        "receiveAssignTask":"Receive assigned tasks",
+        "updateJobStatus":"Update job statuses in real-time",
+        "uploadPhoto":"Upload photos, notes, and scan QR codes",
+        "adminFunctionAvailable":"Note: Admin functions are only available on the FieldEx web browser.",
+        "bestExperiencedFieldEx":"Note: Best experienced on the FieldEx web browser for full operational control.",
+        "roleCanOnlyAccessViaMobile":"Note : This role can only access FieldEx via the mobile app (App Store / Play Store).",
+        "doNotShowAgain":"Do not show again"
+
+      },
+      "validationFE":{
+        "onlyCsvFilesAllowed": "Only CSV and XLSX files can be uploaded"
       }
     }
   },

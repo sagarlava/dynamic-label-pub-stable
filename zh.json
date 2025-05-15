@@ -13741,6 +13741,146 @@
         "setupEdit": false,
         "setupVisible": false
       },
+      "previewCsv":{
+        "original": "Preview CSV",
+        "singular": "预览 CSV",
+        "plural": "预览 CSV",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "addNewStatus":{
+        "original": "Add New Status",
+        "singular": "添加新状态",
+        "plural": "添加新状态",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "addNewType":{
+        "original": "Add New Type",
+        "singular": "添加新类型",
+        "plural": "添加新类型",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "saveConfigurationImportAsset":{
+        "original": "Save Configurations & Import Assets",
+        "singular": "保存配置并导入资产",
+        "plural": "保存配置并导入资产",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "skip":{
+        "original": "Skip",
+        "singular": "跳过",
+        "plural": "跳过",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "saveConfigurationImportWorkOrders":{
+        "original": "Save Configurations & Import Work Orders",
+        "singular": "保存配置并导入工单",
+        "plural": "保存配置并导入工单",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "chooseFile":{
+        "original": "Choose a File",
+        "singular": "选择文件",
+        "plural": "选择文件",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "choose":{
+        "original": "Choose",
+        "singular": "选择",
+        "plural": "选择",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "startLearning":{
+        "original": "Start Learning",
+        "singular": "开始学习",
+        "plural": "开始学习",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "watchVideo":{
+        "original": "Watch Videos",
+        "singular": "观看视频",
+        "plural": "观看视频",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "exploreDocs":{
+        "original": "Explore Docs",
+        "singular": "浏览文档",
+        "plural": "浏览文档",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "browseFaqs":{
+        "original": "Browse FAQs",
+        "singular": "浏览常见问题",
+        "plural": "浏览常见问题 ",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "contactSupport":{
+        "original": "Contact Support",
+        "singular": "联系支持",
+        "plural": "联系支持",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "exploreLatestInnovations":{
+        "original": "Explore Latest Innovations",
+        "singular": "探索最新创新",
+        "plural": "探索最新创新",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "claimFreeSession":{
+        "original": "Claim Your 2 Free Sessions",
+        "singular": "领取您的两次免费课程",
+        "plural": "领取您的两次免费课程",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "launchSetup":{
+        "original": "Launch Setup",
+        "singular": "启动设置",
+        "plural": "启动设置",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "finalize":{
+        "original": "Finalize",
+        "singular": "完成",
+        "plural": "完成",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "addUser":{
+        "original": "Add User",
+        "singular": "添加用户",
+        "plural": "添加用户",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "letAiCreateConfigure":{
+        "original": "Let AI Create Your Data & Configure Your System",
+        "singular": "让 AI 创建您的数据并配置您的系统",
+        "plural": "让 AI 创建您的数据并配置您的系统",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "saveConfigurationImportModule":{
+        "original": "Save Configurations & Import",
+        "singular": "保存配置并导入",
+        "plural": "保存配置并导入",
+        "setupEdit": false,
+        "setupVisible": false
+      },
       "howItWorks":{
         "original": "How it Works",
         "singular": "工作原理",

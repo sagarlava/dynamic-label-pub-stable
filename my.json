@@ -13741,7 +13741,147 @@
         "plural": "Pemindahan Tong Secara Manual",
         "setupEdit": false,
         "setupVisible": false
-      }	,
+      },
+      "previewCsv":{
+        "original": "Preview CSV",
+        "singular": "Pratonton CSV",
+        "plural": "Pratonton CSV",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "addNewStatus":{
+        "original": "Add New Status",
+        "singular": "Tambah Status Baharu",
+        "plural": "Tambah Status Baharu",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "addNewType":{
+        "original": "Add New Type",
+        "singular": "Tambah Jenis Baharu",
+        "plural": "Tambah Jenis Baharu",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "saveConfigurationImportAsset":{
+        "original": "Save Configurations & Import Assets",
+        "singular": "Simpan Konfigurasi & Import Aset",
+        "plural": "Simpan Konfigurasi & Import Aset",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "skip":{
+        "original": "Skip",
+        "singular": "Langkau",
+        "plural": "Langkau",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "saveConfigurationImportWorkOrders":{
+        "original": "Save Configurations & Import Work Orders",
+        "singular": "Simpan Konfigurasi & Import Pesanan Kerja",
+        "plural": "Simpan Konfigurasi & Import Pesanan Kerja",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "chooseFile":{
+        "original": "Choose a File",
+        "singular": "Pilih Fail",
+        "plural": "Pilih Fail",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "choose":{
+        "original": "Choose",
+        "singular": "Pilih",
+        "plural": "Pilih",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "startLearning":{
+        "original": "Start Learning",
+        "singular": "Mulakan Pembelajaran",
+        "plural": "Mulakan Pembelajaran",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "watchVideo":{
+        "original": "Watch Videos",
+        "singular": "Tonton Video",
+        "plural": "Tonton Video",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "exploreDocs":{
+        "original": "Explore Docs",
+        "singular": "Terokai Dokumen",
+        "plural": "Terokai Dokumen",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "browseFaqs":{
+        "original": "Browse FAQs",
+        "singular": "Layari Soalan Lazim",
+        "plural": "Layari Soalan Lazim",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "contactSupport":{
+        "original": "Contact Support",
+        "singular": "Hubungi Sokongan",
+        "plural": "Hubungi Sokongan",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "exploreLatestInnovations":{
+        "original": "Explore Latest Innovations",
+        "singular": "Terokai Inovasi Terkini",
+        "plural": "Terokai Inovasi Terkini",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "claimFreeSession":{
+        "original": "Claim Your 2 Free Sessions",
+        "singular": "Tuntut 2 Sesi Percuma Anda",
+        "plural": "Tuntut 2 Sesi Percuma Anda",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "launchSetup":{
+        "original": "Launch Setup",
+        "singular": "Lancar Tetapan",
+        "plural": "Lancar Tetapan",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "finalize":{
+        "original": "Finalize",
+        "singular": "Muktamadkan",
+        "plural": "Muktamadkan",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "addUser":{
+        "original": "Add User",
+        "singular": "Tambah Pengguna",
+        "plural": "Tambah Pengguna",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "letAiCreateConfigure":{
+        "original": "Let AI Create Your Data & Configure Your System",
+        "singular": "Biarkan AI Cipta Data Anda & Konfigurasikan Sistem Anda",
+        "plural": "Biarkan AI Cipta Data Anda & Konfigurasikan Sistem Anda",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "saveConfigurationImportModule":{
+        "original": "Save Configurations & Import",
+        "singular": "Simpan Konfigurasi & Import",
+        "plural": "Simpan Konfigurasi & Import",
+        "setupEdit": false,
+        "setupVisible": false
+      },
       "howItWorks":{
         "original": "How it Works",
         "singular": "Cara Ia Berfungsi",
