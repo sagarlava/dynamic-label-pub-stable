@@ -19697,7 +19697,9 @@
             "pleaseSelectOne": "Por favor, seleccione un repuesto o un activo"
           },
           "messages": {
-            "setDefaultZoneGroup": "Establecer grupo de zona predeterminado para todas las zonas bajo esta ubicación"
+            "setDefaultZoneGroup": "Establecer grupo de zona predeterminado para todas las zonas bajo esta ubicación",
+            "enablingThisSetManagingGroup":"Al habilitar esto, se establecerá el 'Grupo de Zona Predeterminado' (seleccionado arriba) como grupo de gestión para todas las zonas bajo esta ubicación",
+            "actionOverrideExistingGroup":"Esta acción sobrescribirá cualquier asignación de grupo existente"
           }
         },
         "zones": {

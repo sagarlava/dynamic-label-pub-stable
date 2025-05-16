@@ -19697,7 +19697,9 @@
             "pleaseSelectOne":"Please select one Spare Part or one Asset"
           },
           "messages": {
-            "setDefaultZoneGroup": "Set default zone group for all zones under this location"
+            "setDefaultZoneGroup": "Set default zone group for all zones under this location",
+            "enablingThisSetManagingGroup":"Enabling this will set the ‘Default Zone Group’ (selected above) as the managing group for all Zones under this Location",
+            "actionOverrideExistingGroup":"This action will override any existing group assignments"
           }
         },
         "zones": {

@@ -19697,7 +19697,9 @@
             "pleaseSelectOne": "Bitte wählen Sie ein Ersatzteil oder einen Vermögenswert aus"
           },
           "messages": {
-            "setDefaultZoneGroup": "Standard-Zonengruppe für alle Zonen unter diesem Standort festlegen"
+            "setDefaultZoneGroup": "Standard-Zonengruppe für alle Zonen unter diesem Standort festlegen",
+            "enablingThisSetManagingGroup":"Durch Aktivieren wird die 'Standard-Zonengruppe' (oben ausgewählt) als Verwaltungsgruppe für alle Zonen unter diesem Standort festgelegt",
+            "actionOverrideExistingGroup":"Diese Aktion überschreibt alle bestehenden Gruppenzuweisungen"
           }
         },
         "zones": {
