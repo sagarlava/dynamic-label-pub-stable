@@ -14702,7 +14702,8 @@
       "charactersExceed": "Teks melebihi had aksara (255).",
       "endDateThanStartDate": "Tarikh tamat mesti selepas tarikh mula",
       "thisFieldIsRequired":"Medan ini diperlukan",
-      "pleaseMakeOneSelection":"Sila buat satu pilihan untuk meneruskan"
+      "pleaseMakeOneSelection":"Sila buat satu pilihan untuk meneruskan",
+      "itemExists":"Item ini sudah wujud dalam senarai"
     },
     "validationBE": {
       "sendGridEmailTenantReferenceIdExists": "Rujukan Penyewa E-mel Send Grid baru tidak boleh sudah mempunyai ID",
