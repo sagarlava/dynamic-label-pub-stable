@@ -19909,6 +19909,13 @@
               "plural": "",
               "setupEdit": false,
               "setupVisible": false
+            },
+            "binDisplayName": {
+              "original": "Bin Display Name",
+              "singular": "Nombre para mostrar del contenedor",
+              "plural": "Nombre para mostrar del contenedor",
+              "setupEdit": false,
+              "setupVisible": false
             }
           },
           "messages": {
