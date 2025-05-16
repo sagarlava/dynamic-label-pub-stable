@@ -7031,6 +7031,13 @@
         "setupEdit": false,
         "setupVisible": false
       },
+      "completionTime": {
+        "original": "Completion Time",
+        "singular": "Hora de finalización",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
       "completionForm": {
         "original": "Completion Form",
         "singular": "Formulario de Finalización",
@@ -13759,6 +13766,20 @@
         "original": "Add New Type",
         "singular": "Añadir Nuevo Tipo",
         "plural": "Añadir Nuevo Tipo",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "addNewResolution":{
+        "original": "Add New Resolution",
+        "singular": "Agregar nueva resolución",
+        "plural": "Agregar nueva resolución",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "addNewFault":{
+        "original": "Add New Fault",
+        "singular": "Agregar nueva falla",
+        "plural": "Agregar nueva falla",
         "setupEdit": false,
         "setupVisible": false
       },
@@ -26362,6 +26383,10 @@
         "showLessField":"Mostrar menos campos...",
         "enterNewAssetType":"Introducir nuevo tipo de activo...",
         "enterNewAssetStatus":"Introducir nuevo estado de activo...",
+       "enterNewType": "Ingresar nuevo tipo...",
+        "enterNewStatus": "Ingresar nuevo estado...",
+        "enterNewFault": "Ingresar nueva falla...",
+        "enterNewResolution": "Ingresar nueva resolución...",
         "tip":"Consejo",
         "watchDemo":"Ver demostración: Lo que puedes lograr con Fieldex",
         "quickLookEmpowersTeam":"Echa un vistazo rápido a cómo FieldEx ayuda a los equipos a gestionar activos, programar servicios y reducir el tiempo de inactividad sin esfuerzo",
@@ -26416,10 +26441,12 @@
         "moduleForYou":"módulo para ti",
         "reviewAndCustomize":"Revisar y personalizar",
         "typesDetectedInCsv":"tipos detectados en tu CSV y en los tipos del sistema existente",
+        "faultsDetected":"fallos detectados en tu CSV y en el estado del sistema existente",
+        "resolutionsDetected":"resoluciones detectadas en tu CSV y en el estado del sistema existente",
         "statusDetectedInCsv":"estado detectado en tu CSV y en el estado del sistema existente",
-        "fullAccessConfigurationControl": "Acceso total y control de configuración (solo web)",
-        "dailyOperationManager": "Gestor de operaciones diarias (mejor en la web)",
-        "taskExecuter": "Ejecutor de tareas en movimiento (solo móvil)",
+        "fullAccessConfigurationControl": "Acceso total y control de configuración",
+        "dailyOperationManager": "Gestor de operaciones diarias",
+        "taskExecuter": "Ejecutor de tareas en movimiento",
         "adminsFullControl": "Los administradores tienen control total de tu espacio de trabajo FieldEx. Ellos pueden:",
         "plannersOverseeCoordinate": "Los planificadores supervisan y coordinan las operaciones de campo a través de la plataforma web de FieldEx. Ellos:",
         "fieldEngineersFrontline": "Los ingenieros de campo son el equipo de primera línea —técnicos, instaladores o agentes de servicio— que usan la app móvil para:",

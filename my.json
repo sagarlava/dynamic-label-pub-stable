@@ -7032,6 +7032,13 @@
         "setupEdit": false,
         "setupVisible": false
       },
+      "completionTime": {
+        "original": "Completion Time",
+        "singular": "Masa Siap",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
       "completionForm": {
         "original": "Completion Form",
         "singular": "Borang Siap",
@@ -13760,6 +13767,20 @@
         "original": "Add New Type",
         "singular": "Tambah Jenis Baharu",
         "plural": "Tambah Jenis Baharu",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "addNewResolution":{
+        "original": "Add New Resolution",
+        "singular": "Tambah Penyelesaian Baharu",
+        "plural": "Tambah Penyelesaian Baharu",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "addNewFault":{
+        "original": "Add New Fault",
+        "singular": "Tambah Ralat Baharu",
+        "plural": "Tambah Ralat Baharu",
         "setupEdit": false,
         "setupVisible": false
       },
@@ -26363,6 +26384,10 @@
         "showLessField":"Tunjukkan Kurang Medan...",
         "enterNewAssetType":"Masukkan jenis aset baharu...",
         "enterNewAssetStatus":"Masukkan status aset baharu...",
+        "enterNewType": "Masukkan jenis baharu...",
+        "enterNewStatus": "Masukkan status baharu...",
+        "enterNewFault": "Masukkan ralat baharu...",
+        "enterNewResolution": "Masukkan penyelesaian baharu...",
         "tip":"Tip",
         "watchDemo":"Tonton Demo: Apa yang Anda Boleh Capai dengan Fieldex",
         "quickLookEmpowersTeam":"Lihat sepintas lalu bagaimana FieldEx memperkasakan pasukan untuk mengurus aset, menjadualkan perkhidmatan, dan mengurangkan masa henti dengan mudah",
@@ -26417,10 +26442,12 @@
         "moduleForYou":"modul untuk anda",
         "reviewAndCustomize":"Semak dan sesuaikan",
         "typesDetectedInCsv":"jenis yang dikesan dalam CSV anda dan jenis sistem sedia ada",
+        "faultsDetected":"ralat yang dikesan dalam CSV anda dan status sistem sedia ada",
+        "resolutionsDetected":"penyelesaian yang dikesan dalam CSV anda dan status sistem sedia ada",
         "statusDetectedInCsv":"status yang dikesan dalam CSV anda dan status sistem sedia ada",
-        "fullAccessConfigurationControl":"Akses penuh & kawalan konfigurasi (Web sahaja)",
-        "dailyOperationManager":"Pengurus operasi harian (Terbaik di Web)",
-        "taskExecuter":"Pelaksana tugas bergerak (Hanya Mudah Alih)",
+        "fullAccessConfigurationControl":"Akses penuh & kawalan konfigurasi",
+        "dailyOperationManager":"Pengurus operasi harian",
+        "taskExecuter":"Pelaksana tugas bergerak",
         "adminsFullControl":"Admin mempunyai kawalan penuh ke atas ruang kerja FieldEx anda. Mereka boleh:",
         "plannersOverseeCoordinate":"Perancang menyelia dan menyelaraskan operasi lapangan melalui platform web FieldEx. Mereka:",
         "fieldEngineersFrontline":"Jurutera Lapangan ialah pasukan barisan hadapan—juruteknik, pemasang atau ejen perkhidmatan—yang menggunakan aplikasi mudah alih untuk:",

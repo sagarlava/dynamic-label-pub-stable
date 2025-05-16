@@ -7031,6 +7031,13 @@
         "setupEdit": false,
         "setupVisible": false
       },
+      "completionTime": {
+        "original": "Completion Time",
+        "singular": "Abschlusszeit",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
       "completionForm": {
         "original": "Completion Form",
         "singular": "Abschlussformular",
@@ -13759,6 +13766,20 @@
         "original": "Add New Type",
         "singular": "Neue Typ hinzufügen",
         "plural": "Neue Typen hinzufügen",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "addNewResolution":{
+        "original": "Add New Resolution",
+        "singular": "Neue Lösung hinzufügen",
+        "plural": "Neue Lösung hinzufügen",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "addNewFault":{
+        "original": "Add New Fault",
+        "singular": "Neuen Fehler hinzufügen",
+        "plural": "Neuen Fehler hinzufügen",
         "setupEdit": false,
         "setupVisible": false
       },
@@ -26361,6 +26382,10 @@
         "showLessField":"Weniger Felder anzeigen...",
         "enterNewAssetType":"Neuen Anlagentyp eingeben...",
         "enterNewAssetStatus":"Neuen Anlagenstatus eingeben...",
+        "enterNewType": "Neuen Typ eingeben...",
+        "enterNewStatus": "Neuen Status eingeben...",
+        "enterNewFault": "Neuen Fehler eingeben...",
+        "enterNewResolution": "Neue Lösung eingeben...",
         "tip":"Tipp",
         "watchDemo":"Demo ansehen: Was Sie mit Fieldex erreichen können",
         "quickLookEmpowersTeam":"Werfen Sie einen kurzen Blick darauf, wie FieldEx Teams befähigt, Anlagen zu verwalten, Services zu planen und Ausfallzeiten mühelos zu reduzieren",
@@ -26415,10 +26440,12 @@
         "moduleForYou":"Modul für Sie",
         "reviewAndCustomize":"Überprüfen und anpassen",
         "typesDetectedInCsv":"in Ihrer CSV und im bestehenden System erkannte Typen",
+        "faultsDetected":"Fehler, die in Ihrer CSV und im bestehenden Systemstatus erkannt wurden",
+        "resolutionsDetected":"Lösungen, die in Ihrer CSV und im bestehenden Systemstatus erkannt wurden",
         "statusDetectedInCsv":"in Ihrer CSV und im bestehenden System erkannter Status",
-        "fullAccessConfigurationControl": "Voller Zugriff & Konfigurationskontrolle (nur Web)",
-        "dailyOperationManager": "Manager für tägliche Abläufe (am besten im Web)",
-        "taskExecuter": "Mobiler Auftragserfüller (nur mobil)",
+        "fullAccessConfigurationControl": "Voller Zugriff & Konfigurationskontrolle",
+        "dailyOperationManager": "Manager für tägliche Abläufe",
+        "taskExecuter": "Mobiler Auftragserfüller",
         "adminsFullControl": "Administratoren haben die volle Kontrolle über Ihren FieldEx-Arbeitsbereich. Sie können:",
         "plannersOverseeCoordinate": "Planer überwachen und koordinieren Außendiensteinsätze über die FieldEx-Webplattform. Sie:",
         "fieldEngineersFrontline": "Feldeinsatztechniker sind das Frontteam – Techniker, Monteure oder Servicemitarbeiter – die die mobile App verwenden, um:",

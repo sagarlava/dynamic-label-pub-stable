@@ -7031,6 +7031,13 @@
         "setupEdit": false,
         "setupVisible": false
       },
+      "completionTime": {
+        "original": "Completion Time",
+        "singular": "Completion Time",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
       "completionForm": {
         "original": "Completion Form",
         "singular": "Completion Form",
@@ -13762,6 +13769,20 @@
         "setupEdit": false,
         "setupVisible": false
       },
+      "addNewResolution":{
+        "original": "Add New Resolution",
+        "singular": "Add New Resolution",
+        "plural": "Add New Resolution",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "addNewFault":{
+        "original": "Add New Fault",
+        "singular": "Add New Fault",
+        "plural": "Add New Fault",
+        "setupEdit": false,
+        "setupVisible": false
+      },
       "saveConfigurationImportAsset":{
         "original": "Save Configurations & Import Assets",
         "singular": "Save Configurations & Import Assets",
@@ -14339,6 +14360,20 @@
         "setupEdit": false,
         "setupVisible": false
       },
+      "systemValue": {
+        "original": "System Value",
+        "singular": "System Value",
+        "plural": "System Value",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "aiDetected": {
+        "original": "AI Detected",
+        "singular": "AI Detected",
+        "plural": "AI Detected",
+        "setupEdit": false,
+        "setupVisible": false
+      },
       "followUp": {
         "original": "Follow Up",
         "singular": "Follow Up",
@@ -14385,20 +14420,6 @@
         "original": "Transfer Fulfilled",
         "singular": "Transfer Fulfilled",
         "plural": "Transfer Fulfilled",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "systemValue": {
-        "original": "System Value",
-        "singular": "System Value",
-        "plural": "System Value",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "aiDetected": {
-        "original": "AI Detected",
-        "singular": "AI Detected",
-        "plural": "AI Detected",
         "setupEdit": false,
         "setupVisible": false
       },
@@ -26356,11 +26377,17 @@
         "reviewCustomize":"Review and customize",
         "statusDetected":"status detected in your CSV and existing system status",
         "typesDetected":"types detected in your CSV and existing system status",
+        "faultsDetected":"faults detected in your CSV and existing system status",
+        "resolutionsDetected":"resolutions detected in your CSV and existing system status",
         "youCanReviewAdjustAnytime":"You can review and adjust anytime",
         "viewMoreField":"View More Fields...",
         "showLessField":"Show Less Fields...",
         "enterNewAssetType":"Enter new asset type...",
         "enterNewAssetStatus":"Enter new asset status...",
+        "enterNewType":"Enter new type...",
+        "enterNewStatus":"Enter new status...",
+        "enterNewFault":"Enter new fault...",
+        "enterNewResolution":"Enter new resolution...",
         "tip":"Tip",
         "watchDemo":"Watch Demo: What You Can Achieve with Fieldex",
         "quickLookEmpowersTeam":"Get a quick look at how FieldEx empowers teams to manage assets, schedule services, and reduce downtime effortlessly",
@@ -26416,9 +26443,9 @@
         "reviewAndCustomize":"Review and customize",
         "typesDetectedInCsv":"types detected in your CSV and existing system types",
         "statusDetectedInCsv":"status detected in your CSV and existing system status",
-        "fullAccessConfigurationControl":"Full access & configuration control (Web only)",
-        "dailyOperationManager":"Daily operations manager (Best on Web)",
-        "taskExecuter":"On-the-move task executor (Mobile only)",
+        "fullAccessConfigurationControl":"Full access & configuration control",
+        "dailyOperationManager":"Daily operations manager",
+        "taskExecuter":"On-the-move task executor",
         "adminsFullControl":"Admins have full control of your FieldEx workspace. They can:",
         "plannersOverseeCoordinate":"Planners oversee and coordinate field operations through the FieldEx web platform. They:",
         "fieldEngineersFrontline":"Field Engineers are the frontline team—technicians, installers, or service agents—using the mobile app to:",
