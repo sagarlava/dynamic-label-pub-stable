@@ -19695,6 +19695,9 @@
           },
           "validationFE": {
             "pleaseSelectOne": "Bitte wählen Sie ein Ersatzteil oder einen Vermögenswert aus"
+          },
+          "messages": {
+            "setDefaultZoneGroup": "Standard-Zonengruppe für alle Zonen unter diesem Standort festlegen"
           }
         },
         "zones": {

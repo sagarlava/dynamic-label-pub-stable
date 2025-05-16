@@ -19695,6 +19695,9 @@
           },
           "validationFE":{
             "pleaseSelectOne":"Please select one Spare Part or one Asset"
+          },
+          "messages": {
+            "setDefaultZoneGroup": "Set default zone group for all zones under this location"
           }
         },
         "zones": {

@@ -19695,6 +19695,9 @@
           },
           "validationFE": {
             "pleaseSelectOne": "Por favor, seleccione un repuesto o un activo"
+          },
+          "messages": {
+            "setDefaultZoneGroup": "Establecer grupo de zona predeterminado para todas las zonas bajo esta ubicación"
           }
         },
         "zones": {

@@ -19694,6 +19694,9 @@
           },
           "validationFE": {
             "pleaseSelectOne": "Sila pilih satu Alat Ganti atau satu Aset"
+          },
+          "messages": {
+            "setDefaultZoneGroup": "Tetapkan kumpulan zon lalai untuk semua zon di bawah lokasi ini"
           }
         },
         "zones": {

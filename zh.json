@@ -19695,6 +19695,9 @@
           },
           "validationFE": {
             "pleaseSelectOne": "请选择一个备件或一项资产"
+          },
+          "messages": {
+            "setDefaultZoneGroup": "为该位置下的所有区域设置默认区域组"
           }
         },
         "zones": {
