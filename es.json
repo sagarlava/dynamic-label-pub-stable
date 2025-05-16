@@ -572,14 +572,14 @@
     "fields": {
       "setupVisible": true,
       "setupEdit": true,
-      "category":{
+      "category": {
         "original": "Category",
         "singular": "Categoría",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
-      "subCategory":{
+      "subCategory": {
         "original": "Sub Category",
         "singular": "Subcategoría",
         "plural": "",
@@ -1005,7 +1005,7 @@
         "plural": "Padres",
         "setupEdit": false,
         "setupVisible": false
-      }, 
+      },
       "pendingTransfer": {
         "original": "Pending Transfers",
         "singular": "Transferencia pendiente",
@@ -1026,7 +1026,7 @@
         "plural": "Clasificación",
         "setupEdit": false,
         "setupVisible": false
-      }, 
+      },
       "offlineSince": {
         "original": "Offline Since",
         "singular": "Desconectado desde",
@@ -1043,10 +1043,10 @@
       }
     },
     "validationFE": {
-      "warrantyEndDateAfterStartDate":"La fecha de finalización de la garantía debe ser posterior a la fecha de inicio.",
-      "serialNumberMustBeUnique":"El número de serie debe ser único. El valor ingresado ya está en uso.",
-      "serialNumberContain":"El número de serie solo debe contener letras y números.",
-      "temporarySerialNumberGenerationFailed":"La generación del número de serie temporal ha fallado. Por favor, inténtelo de nuevo.",
+      "warrantyEndDateAfterStartDate": "La fecha de finalización de la garantía debe ser posterior a la fecha de inicio.",
+      "serialNumberMustBeUnique": "El número de serie debe ser único. El valor ingresado ya está en uso.",
+      "serialNumberContain": "El número de serie solo debe contener letras y números.",
+      "temporarySerialNumberGenerationFailed": "La generación del número de serie temporal ha fallado. Por favor, inténtelo de nuevo.",
       "warrantyEndDateMustBeGreater": "La fecha de fin de la garantía debe ser posterior a la fecha de inicio.",
       "warrantyStartDateMustBeEarlier": "La fecha de inicio de la garantía debe ser anterior a la fecha de fin."
     },
@@ -1090,8 +1090,8 @@
       "assetSubCategorySystemGenerated": "Las subcategorías de activos generadas por el sistema no se pueden eliminar",
       "assetCategoryIdExists": "Una nueva categoría de activos no puede tener ya un ID",
       "assetSubCategoryIdExists": "Una nueva subcategoría de activos no puede tener ya un ID",
-      "assetCategoryCannotDeleteByAssets":"No se puede eliminar: La categoría de activos se utiliza en uno o más activos",
-      "assetSubCategoryCannotDeleteByAssets":"No se puede eliminar: La subcategoría de activos se utiliza en uno o más activos"
+      "assetCategoryCannotDeleteByAssets": "No se puede eliminar: La categoría de activos se utiliza en uno o más activos",
+      "assetSubCategoryCannotDeleteByAssets": "No se puede eliminar: La subcategoría de activos se utiliza en uno o más activos"
     },
     "tooltips": {
       "setupVisible": false,
@@ -1343,8 +1343,8 @@
       "warrantyStartDate": "La fecha de inicio de la garantía no debe ser mayor que la fecha de finalización de la garantía",
       "errorFetchingAllAssets": "Error al recuperar todos los activos",
       "errorOccuredWhileFetchingAccessories": "Error al obtener los accesorios",
-        "logs": "Registros",
-      "showUpdatesRelated":"Mostrar actualizaciones relacionadas con:"
+      "logs": "Registros",
+      "showUpdatesRelated": "Mostrar actualizaciones relacionadas con:"
     }
   },
   "analytic": {
@@ -1737,8 +1737,8 @@
         "setupVisible": true
       }
     },
-    "validationFE":{
-      "customerRequiredCreateVanLog":"El cliente debe crear un registro de la furgoneta"
+    "validationFE": {
+      "customerRequiredCreateVanLog": "El cliente debe crear un registro de la furgoneta"
     }
   },
   "accessories": {
@@ -2298,7 +2298,7 @@
       "preventativeFrequencyInvalidType": "Valor inválido para el tipo de frecuencia",
       "preventativeFrequencyDayWithInvalidFrequency": "Si el tipo de frecuencia es DÍA, la frecuencia debe ser mínimo 7 días",
       "preventativeFrequencyHasPreventativeFrequencyPart": "Los datos de las partes de frecuencia preventiva existen en el sistema para la Frecuencia Preventiva",
-      "preventativeFrequencyHasMaintenanceRecords":"No se puede eliminar esta frecuencia porque está vinculada a uno o más registros",
+      "preventativeFrequencyHasMaintenanceRecords": "No se puede eliminar esta frecuencia porque está vinculada a uno o más registros",
       "preventativeMaintenanceFrequencyTemplateIdOrMaintenanceIdNotFound": "Id de Plantilla de Mantenimiento Preventivo o Id de Mantenimiento no encontrado",
       "preventativeMaintenanceFrequencyTemplateNotFound": "Plantilla de Frecuencia de Mantenimiento Preventivo no encontrada",
       "preventativeMaintenanceFrequencyInvalidType": "Tipo de frecuencia inválido",
@@ -2588,7 +2588,7 @@
     "validationBE": {
       "contractNotFound": "Contrato no encontrado",
       "contractHasMaintenance": "Los datos de mantenimiento existen en el sistema para el contrato",
-      "contractCannotDeleteDueToRateCard":"No se puede eliminar el contrato: Elimine primero la tarjeta de tarifas",
+      "contractCannotDeleteDueToRateCard": "No se puede eliminar el contrato: Elimine primero la tarjeta de tarifas",
       "contractCustomerNotFound": "Cliente del contrato no encontrado",
       "contractStatusNotFound": "Estado del contrato no válido",
       "contractAssetsNotFound": "Activos del contrato no encontrados",
@@ -3135,8 +3135,8 @@
       "thisStatusWillTrigger": "Este estado activará cualquier Orden de Trabajo y Tareas relacionadas con las respuestas de esta lista de verificación",
       "updateStatusTo": "Actualizar Estado A",
       "noStatusToDisplay": "No hay estado para mostrar",
-      "updateChecklistStatus":"Update Checklist Status",
-      "updateAsset":"Update Asset"
+      "updateChecklistStatus": "Update Checklist Status",
+      "updateAsset": "Update Asset"
     }
   },
   "journey": {
@@ -3550,8 +3550,8 @@
       "newProductType": "Nuevo Tipo de Repuesto",
       "subTotal": "Subtotal",
       "totalAmount": "Monto Total",
-       "groupByTask": "Group By Task",
-      "deleteTaskTemplateRemoveSpareParts":"Eliminar esta plantilla de tarea también eliminará todas las piezas de repuesto asociadas"
+      "groupByTask": "Group By Task",
+      "deleteTaskTemplateRemoveSpareParts": "Eliminar esta plantilla de tarea también eliminará todas las piezas de repuesto asociadas"
     }
   },
   "task": {
@@ -6224,7 +6224,7 @@
       "ticketTypeSystemGenerated": "Los Tipos de Ticket generados por el sistema no pueden ser eliminados",
       "ticketTypeIdExists": "Un nuevo Tipo de Ticket no puede ya tener un ID",
       "slaTicketIdExists": "Un nuevo SlaTicket no puede ya tener un ID",
-      "ticketDuplicateTicketCannotBeSameAsTicket":"El ticket duplicado no puede ser el mismo que el ticket original"
+      "ticketDuplicateTicketCannotBeSameAsTicket": "El ticket duplicado no puede ser el mismo que el ticket original"
     },
     "tooltips": {
       "setupVisible": true,
@@ -9100,9 +9100,9 @@
       "hours": "hora(s)",
       "mins": "min(s)",
       "startSLA": "Iniciar SLA",
-      "removeSparePartsLinkedTask":"¿Desea eliminar todas las piezas de repuesto vinculadas a esta tarea de la orden de trabajo?",
-      "listOfTask":"Lista de tareas",
-      "listOfSparePart":"Lista de repuestos",
+      "removeSparePartsLinkedTask": "¿Desea eliminar todas las piezas de repuesto vinculadas a esta tarea de la orden de trabajo?",
+      "listOfTask": "Lista de tareas",
+      "listOfSparePart": "Lista de repuestos",
       "changeStatusTo": "Cambiar estado a",
       "identification": "Identificación",
       "signOff": "Cerrar sesión",
@@ -9519,7 +9519,7 @@
         "plural": "",
         "setupEdit": false,
         "setupVisible": false
-      }, 
+      },
       "pendingTransfer": {
         "original": "Pending Transfers",
         "singular": "Transferencia pendiente",
@@ -9558,9 +9558,9 @@
       "sameProductBinTransferNotAllowed": "No está permitido seleccionar el mismo Repuesto en una transferencia de contenedor",
       "sameProductBinNotAllowed": "No está permitido seleccionar el mismo Repuesto en un contenedor",
       "sameAssetBinNotAllowed": "No está permitido seleccionar el mismo Activo en un contenedor",
-      "selectCategory":"Seleccionar Categoría",
-      "selectSubCategory":"Seleccionar Subcategoría",
-      "selectStatus":"Seleccionar Estado",
+      "selectCategory": "Seleccionar Categoría",
+      "selectSubCategory": "Seleccionar Subcategoría",
+      "selectStatus": "Seleccionar Estado",
       "utilizeFromBin": "Utilizar desde el contenedor",
       "utilizeSpareParts": "Utilizar repuestos",
       "transferFrom": "Transferir desde"
@@ -10101,7 +10101,7 @@
         "singular": "Observación",
         "plural": "Observaciones",
         "setupEdit": false,
-        "setupVisible": false 
+        "setupVisible": false
       },
       "mine": {
         "original": "Mine",
@@ -10221,12 +10221,12 @@
     "validationFE": {
       "assetNotFound": "Activo no encontrado",
       "sparePartNotFound": "Repuesto no encontrado",
-      "addAtLeastOneAsset":"Agregue al menos un activo para continuar",
-      "addAtLeastOneSparePart":"Agregue al menos un repuesto para continuar",
-      "oneSelectionToProceed":"Realice al menos una selección para continuar",
-      "exceededTotalSerialNoAdded":"Ha excedido el número total de números de serie que se pueden agregar a la vez. Por favor, ingrese solo hasta 50 números de serie.",
-      "assetHasBeenSelected":"Este activo ya ha sido seleccionado, por favor seleccione un activo diferente.",
-      "selectBinToProceed":"Seleccione un contenedor para continuar"
+      "addAtLeastOneAsset": "Agregue al menos un activo para continuar",
+      "addAtLeastOneSparePart": "Agregue al menos un repuesto para continuar",
+      "oneSelectionToProceed": "Realice al menos una selección para continuar",
+      "exceededTotalSerialNoAdded": "Ha excedido el número total de números de serie que se pueden agregar a la vez. Por favor, ingrese solo hasta 50 números de serie.",
+      "assetHasBeenSelected": "Este activo ya ha sido seleccionado, por favor seleccione un activo diferente.",
+      "selectBinToProceed": "Seleccione un contenedor para continuar"
     },
     "validationBE": {
       "binTransferIdExists": "Una nueva Transferencia de Contenedor no puede tener ya un ID",
@@ -10270,45 +10270,45 @@
       "assetsTransferred": "Activo(s) transferido(s)",
       "productsTransferred": "Pieza(s) de Repuesto transferida(s)",
       "assetsAreNotAllowedToTransfer": "No se permite transferir activos a la orden de trabajo",
-      "selectAssetsToTransfer":"Seleccione los activos que desea transferir",
-      "selectBinToTransferAssets":"Seleccione el contenedor al que desea transferir los activos",
-      "confirmAssetToTransfer":"Confirme el activo que desea transferir",
-      "selectBinToTransferAboveAsset":"Seleccione el contenedor al que desea transferir el activo mencionado arriba",
-      "typePasteSerialNumbers":"Escriba o pegue los números de serie de los activos que desea transferir, con un máximo de 50 números de serie a la vez. Nota: Separe los números de serie con ',' o una nueva línea.",
-      "inputSerialNumbers":"Escriba o pegue los números de serie de los activos que desea transferir, con un máximo de 50 números de serie a la vez.",
-      "inputSKU":"Escriba o pegue los SKUs de los repuestos que desea transferir, con un máximo de 50 SKUs a la vez.",
-      "serialNumberNote":"Nota",
-      "serialNumberSeparation":"Separe los números de serie con ',' o una nueva línea.",
-      "skuSeparation":"Separe los SKU con ',' o una nueva línea.",
-      "transferCompletedImmediately":"Esta transferencia se completará de inmediato.",
-      "transferNeedApproval":"Esta transferencia necesitará ser aprobada antes de completarse.",
-      "selectSparePartsToTransfer":"Seleccione los repuestos que desea transferir",
-      "selectBinToTransferAboveSpareParts":"Seleccione el contenedor al que desea transferir los repuestos mencionados arriba",
-      "confirmSparePartsAdjust":"Confirme los repuestos que desea ajustar",
-      "selectBinsToAdjustSpareParts":"Seleccione los contenedores en los que desea ajustar los repuestos",
-      "selectOptionTransferSpecificItems":"Seleccione esta opción para transferir artículos específicos por",
-      "selectOptionTo":"Seleccione esta opción para",
-      "browseAssetList":"Navegando por su lista de activos",
-      "browseSparePartsList":"Navegando por su lista de repuestos",
-      "selectAssetsViaSerialNo":"Seleccionando activos mediante número de serie",
-      "addingViaSku":"Agregando mediante SKU",
-      "bulkTransferBetweenBins":"Transferencia masiva de artículos entre contenedores",
-      "reorganizeStorageSystem":"Reorganizar su sistema de almacenamiento",
-      "moveAssetsFromOneBinToAnother":"Mover activos de un contenedor a otro",
-      "moveSparePartsFromOneBinToAnother":"Mover repuestos de un contenedor a otro",
-      "selectBinTransferAssetFrom":"Seleccione el contenedor desde el cual desea transferir activos",
-      "selectAssetsToBeTransferred":"Seleccione los activos a transferir",
-      "selectSparePartsToBeTransferred":"Seleccione los repuestos a transferir",
-      "selectBinTransferSparePartFrom":"Seleccione el contenedor desde el cual desea transferir repuestos",
-      "selectBinToTransferSpareParts":"Seleccione el contenedor al que desea transferir los repuestos",
-      "specifySparePartQuantity":"Puede especificar la cantidad de repuestos en el siguiente paso",
-      "addQuantitiesTransferred":"Agregue las cantidades a transferir",
-      "enterSerialNumberHere":"Ingrese los números de serie aquí. Eg. 128371253ABC",
-      "enterSKUHere":"Ingrese los SKU aquí. Eg. 128371253ABC",
-      "areYouSureInitiateTransfer":"¿Está seguro de que desea iniciar esta transferencia de contenedor?",
-      "selectedBinNoLongerContains":"El contenedor seleccionado ya no contiene los siguientes artículos",
-      "needTransferItemManually":"Tendrá que seleccionar y transferir estos artículos manualmente. Los demás artículos seleccionados serán transferidos.",
-      "transferCannotContinue":"La transferencia no puede continuar ya que el contenedor seleccionado ya no contiene los siguientes artículos"
+      "selectAssetsToTransfer": "Seleccione los activos que desea transferir",
+      "selectBinToTransferAssets": "Seleccione el contenedor al que desea transferir los activos",
+      "confirmAssetToTransfer": "Confirme el activo que desea transferir",
+      "selectBinToTransferAboveAsset": "Seleccione el contenedor al que desea transferir el activo mencionado arriba",
+      "typePasteSerialNumbers": "Escriba o pegue los números de serie de los activos que desea transferir, con un máximo de 50 números de serie a la vez. Nota: Separe los números de serie con ',' o una nueva línea.",
+      "inputSerialNumbers": "Escriba o pegue los números de serie de los activos que desea transferir, con un máximo de 50 números de serie a la vez.",
+      "inputSKU": "Escriba o pegue los SKUs de los repuestos que desea transferir, con un máximo de 50 SKUs a la vez.",
+      "serialNumberNote": "Nota",
+      "serialNumberSeparation": "Separe los números de serie con ',' o una nueva línea.",
+      "skuSeparation": "Separe los SKU con ',' o una nueva línea.",
+      "transferCompletedImmediately": "Esta transferencia se completará de inmediato.",
+      "transferNeedApproval": "Esta transferencia necesitará ser aprobada antes de completarse.",
+      "selectSparePartsToTransfer": "Seleccione los repuestos que desea transferir",
+      "selectBinToTransferAboveSpareParts": "Seleccione el contenedor al que desea transferir los repuestos mencionados arriba",
+      "confirmSparePartsAdjust": "Confirme los repuestos que desea ajustar",
+      "selectBinsToAdjustSpareParts": "Seleccione los contenedores en los que desea ajustar los repuestos",
+      "selectOptionTransferSpecificItems": "Seleccione esta opción para transferir artículos específicos por",
+      "selectOptionTo": "Seleccione esta opción para",
+      "browseAssetList": "Navegando por su lista de activos",
+      "browseSparePartsList": "Navegando por su lista de repuestos",
+      "selectAssetsViaSerialNo": "Seleccionando activos mediante número de serie",
+      "addingViaSku": "Agregando mediante SKU",
+      "bulkTransferBetweenBins": "Transferencia masiva de artículos entre contenedores",
+      "reorganizeStorageSystem": "Reorganizar su sistema de almacenamiento",
+      "moveAssetsFromOneBinToAnother": "Mover activos de un contenedor a otro",
+      "moveSparePartsFromOneBinToAnother": "Mover repuestos de un contenedor a otro",
+      "selectBinTransferAssetFrom": "Seleccione el contenedor desde el cual desea transferir activos",
+      "selectAssetsToBeTransferred": "Seleccione los activos a transferir",
+      "selectSparePartsToBeTransferred": "Seleccione los repuestos a transferir",
+      "selectBinTransferSparePartFrom": "Seleccione el contenedor desde el cual desea transferir repuestos",
+      "selectBinToTransferSpareParts": "Seleccione el contenedor al que desea transferir los repuestos",
+      "specifySparePartQuantity": "Puede especificar la cantidad de repuestos en el siguiente paso",
+      "addQuantitiesTransferred": "Agregue las cantidades a transferir",
+      "enterSerialNumberHere": "Ingrese los números de serie aquí. Eg. 128371253ABC",
+      "enterSKUHere": "Ingrese los SKU aquí. Eg. 128371253ABC",
+      "areYouSureInitiateTransfer": "¿Está seguro de que desea iniciar esta transferencia de contenedor?",
+      "selectedBinNoLongerContains": "El contenedor seleccionado ya no contiene los siguientes artículos",
+      "needTransferItemManually": "Tendrá que seleccionar y transferir estos artículos manualmente. Los demás artículos seleccionados serán transferidos.",
+      "transferCannotContinue": "La transferencia no puede continuar ya que el contenedor seleccionado ya no contiene los siguientes artículos"
     }
   },
   "checkAvailibility": {
@@ -10348,21 +10348,21 @@
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
-    },
+      },
       "sec4": {
-          "original": "Select what to check",
-          "singular": "Seleccionar qué verificar",
-          "plural": "",
-          "setupEdit": true,
-          "setupVisible": true
-      }, 
+        "original": "Select what to check",
+        "singular": "Seleccionar qué verificar",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
       "sec5": {
-          "original": "Select where to check",
-          "singular": "Seleccionar Ubicación",
-          "plural": "",
-          "setupEdit": true,
-          "setupVisible": true
-        },
+        "original": "Select where to check",
+        "singular": "Seleccionar Ubicación",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
       "sec6": {
         "original": "Summary of Results",
         "singular": "Resumen de resultados",
@@ -10564,7 +10564,7 @@
       },
       "sec13": {
         "original": "Receiver Approval 1",
-       "singular": "Aprobaciones del receptor 1",
+        "singular": "Aprobaciones del receptor 1",
         "plural": "Aprobaciones del receptor 1",
         "setupEdit": true,
         "setupVisible": true
@@ -10922,10 +10922,10 @@
       }
     },
     "validationFE": {
-      "qtyTransferExceedsQtyAvailable":"La cantidad a transferir excede la cantidad disponible",
-      "atLeastOneAssetRequired":"Se requiere al menos un activo para continuar",
-      "atLeastOneSparePartRequired":"Se requiere al menos un repuesto para continuar",
-      "atLeastOneItemRequired":"Se requiere al menos un artículo para continuar"
+      "qtyTransferExceedsQtyAvailable": "La cantidad a transferir excede la cantidad disponible",
+      "atLeastOneAssetRequired": "Se requiere al menos un activo para continuar",
+      "atLeastOneSparePartRequired": "Se requiere al menos un repuesto para continuar",
+      "atLeastOneItemRequired": "Se requiere al menos un artículo para continuar"
     },
     "validationBE": {
       "consignmentIdNotFound": "ID no encontrado",
@@ -10952,37 +10952,37 @@
       "uploadCopyApproved": "Por favor, suba una copia de la Consignación Aprobada",
       "approvedCannotDelete": "La Nota de Consignación ha sido aprobada, por lo tanto, no se puede eliminar",
       "acknowledgeCannotDelete": "La Nota de Consignación ha sido reconocida, por lo tanto, no se puede eliminar",
-      "whatWouldYouLikeSend":"¿Qué le gustaría enviar?",
-      "specificAssets":"Activos específicos",
-      "sendByType":"Enviar por tipo",
-      "sendFromBin":"Enviar desde contenedor",
-      "sendAnyAvailable":"Enviar cualquiera disponible",
-      "chooseThisSerialNumber":"Elija esto si conoce el número de serie del contenedor y del activo.",
-      "selectSparePartFromBin":"Seleccione piezas de repuesto específicas de un contenedor conocido",
-      "defineCustomListOfItems":"Defina una lista personalizada de artículos para enviar",
-      "sendAssetByTypeQty":"Enviar activos por tipo y cantidad en lugar de por números de serie",
-      "sendSparePartAvailableFromBin":"Enviar repuestos desde cualquier contenedor disponible",
-      "selectBinSendingAssetFrom":"Seleccione el contenedor desde el cual está enviando activos",
-      "youCanSelectBinInCharge":"Solo puede seleccionar los contenedores de los que está a cargo",
-      "selectItemsToBeSent":"Seleccione los artículos a enviar",
-      "selectBinSendAssetTo":"Seleccione el contenedor al que desea enviar los activos",
-      "reviewSelectionsMade":"Revise las selecciones que ha realizado antes de enviar su solicitud.",
-      "reviewSelectionsMadeBeforeSubmit":"Revise las selecciones que ha realizado antes de enviar",
-      "selectBinSendingSparePartFrom":"Seleccione el contenedor desde el cual está enviando repuestos",
-      "enterQtySparePartsRequired":"Ingrese la cantidad de repuestos requeridos",
-      "selectBinSendSparePartsTo":"Seleccione el contenedor al que desea enviar los repuestos",
-      "selectBinConsignItemFrom":"Seleccione el contenedor desde el cual está consignando artículos",
-      "selectBinSendItemsTo":"Seleccione el contenedor al que desea enviar los artículos",
-      "hasCreatedConsignmentNote":"ha creado una Nota de Consignación",
-      "andIsWaitingApproval":"y está esperando su aprobación",
+      "whatWouldYouLikeSend": "¿Qué le gustaría enviar?",
+      "specificAssets": "Activos específicos",
+      "sendByType": "Enviar por tipo",
+      "sendFromBin": "Enviar desde contenedor",
+      "sendAnyAvailable": "Enviar cualquiera disponible",
+      "chooseThisSerialNumber": "Elija esto si conoce el número de serie del contenedor y del activo.",
+      "selectSparePartFromBin": "Seleccione piezas de repuesto específicas de un contenedor conocido",
+      "defineCustomListOfItems": "Defina una lista personalizada de artículos para enviar",
+      "sendAssetByTypeQty": "Enviar activos por tipo y cantidad en lugar de por números de serie",
+      "sendSparePartAvailableFromBin": "Enviar repuestos desde cualquier contenedor disponible",
+      "selectBinSendingAssetFrom": "Seleccione el contenedor desde el cual está enviando activos",
+      "youCanSelectBinInCharge": "Solo puede seleccionar los contenedores de los que está a cargo",
+      "selectItemsToBeSent": "Seleccione los artículos a enviar",
+      "selectBinSendAssetTo": "Seleccione el contenedor al que desea enviar los activos",
+      "reviewSelectionsMade": "Revise las selecciones que ha realizado antes de enviar su solicitud.",
+      "reviewSelectionsMadeBeforeSubmit": "Revise las selecciones que ha realizado antes de enviar",
+      "selectBinSendingSparePartFrom": "Seleccione el contenedor desde el cual está enviando repuestos",
+      "enterQtySparePartsRequired": "Ingrese la cantidad de repuestos requeridos",
+      "selectBinSendSparePartsTo": "Seleccione el contenedor al que desea enviar los repuestos",
+      "selectBinConsignItemFrom": "Seleccione el contenedor desde el cual está consignando artículos",
+      "selectBinSendItemsTo": "Seleccione el contenedor al que desea enviar los artículos",
+      "hasCreatedConsignmentNote": "ha creado una Nota de Consignación",
+      "andIsWaitingApproval": "y está esperando su aprobación",
       "from": "Desde",
-      "hasApprovedConsignmentNote":"ha aprobado su Nota de Consignación",
-      "hasRejectedConsignmentNote":"ha rechazado su Nota de Consignación",
-      "hasBeenApprovedRequisitionNote":"ha sido aprobada. Ahora puede proceder con la transferencia de los artículos seleccionados.",
-      "has":"ha",
-      "hasBeen":"ha sido",
-      "yourRequisitionNote":"su Nota de Consignación",
-      "youCanProceedToTransfer":"Ahora puede proceder con la transferencia de los artículos seleccionados."
+      "hasApprovedConsignmentNote": "ha aprobado su Nota de Consignación",
+      "hasRejectedConsignmentNote": "ha rechazado su Nota de Consignación",
+      "hasBeenApprovedRequisitionNote": "ha sido aprobada. Ahora puede proceder con la transferencia de los artículos seleccionados.",
+      "has": "ha",
+      "hasBeen": "ha sido",
+      "yourRequisitionNote": "su Nota de Consignación",
+      "youCanProceedToTransfer": "Ahora puede proceder con la transferencia de los artículos seleccionados."
     }
   },
   "requisition": {
@@ -11533,9 +11533,9 @@
       }
     },
     "validationFE": {
-      "atLeastOneAssetRequired":"Se requiere al menos un activo para continuar",
-      "atLeastOneSparePartRequired":"Se requiere al menos un repuesto para continuar",
-      "atLeastOneItemRequired":"Se requiere al menos un artículo para continuar"
+      "atLeastOneAssetRequired": "Se requiere al menos un activo para continuar",
+      "atLeastOneSparePartRequired": "Se requiere al menos un repuesto para continuar",
+      "atLeastOneItemRequired": "Se requiere al menos un artículo para continuar"
     },
     "validationBE": {
       "requisitionIdNotFound": "ID no encontrado",
@@ -11572,50 +11572,50 @@
       "requisitionAcceptedSuccessfully": "Requisición aceptada con éxito",
       "requisitionRejectedSuccessfully": "Requisición rechazada con éxito",
       "requisitionSubmittedSuccessfully": "Requisición enviada con éxito",
-      "whatWouldYouLikeRequest":"¿Qué le gustaría solicitar?",
-      "defineCustomListOfItems":"Defina una lista personalizada de artículos para solicitar",
-      "specificAssets":"Activos específicos",
-      "requestByType":"Solicitud por tipo",
-      "requestFromBin":"Solicitar desde contenedor",
-      "requestAnyAvailable":"Solicitar cualquier disponible",
-      "chooseThisSerialNumber":"Elija esto si conoce el número de serie del contenedor y del activo.",
-      "requestAssetByTypeQty":"Solicite activos por tipo y cantidad en lugar de por números de serie.",
-      "selectSparePartFromBin":"Seleccione piezas de repuesto específicas de un contenedor conocido.",
-      "requestSparePartFromBin":"Solicite piezas de repuesto de cualquier contenedor disponible.",
-      "selectBinRequestAssetFrom":"Seleccione el contenedor desde el cual está solicitando activos",
-      "unsureOfAssetLocation":"¿No está seguro de la ubicación de los activos?",
-      "notSureBinAvailableAsset":"¿No está seguro en qué contenedor están disponibles los activos?",
-      "selectItemsRequested":"Seleccione los artículos a solicitar",
-      "selectBinToTransferAssetTo":"Seleccione el contenedor al que desea transferir los activos",
-      "youCanSelectBinInCharge":"Solo puede seleccionar los contenedores de los que está a cargo",
-      "reviewSelectionsMade":"Revise las selecciones que ha realizado antes de enviar su solicitud.",
-      "selectBinRequestSparePartFrom":"Seleccione el contenedor desde el cual está solicitando repuestos",
-      "unsureOfSparePartAvailability":"¿No está seguro de la disponibilidad de repuestos?",
-      "notSureBinAvailableSpareParts":"¿No está seguro en qué contenedor están disponibles los repuestos?",
-      "enterQtySparePartsRequired":"Ingrese la cantidad de repuestos requeridos",
-      "selectBinToTransferSparePartTo":"Seleccione el contenedor al que desea transferir los repuestos",
-      "unsureItemsRequestStored":"Si no está seguro de dónde se almacenan los artículos que solicita, seleccione un contenedor gestionado por un equipo que pueda localizar y cumplir su solicitud",
-      "selectBinRequestFrom":"Seleccione el contenedor desde el cual está solicitando artículos",
-      "selectBinToTransferTo":"Seleccione el contenedor al que desea transferir los artículos",
-      "hasRejectedRequisitionNote":"ha rechazado su nota de requisición",
-      "hasApprovedRequisitionNote":"ha aprobado su nota de requisición",
-      "hasBeenApprovedRequisitionNote":"ha sido aprobada. Ahora puede proceder con la transferencia de los artículos seleccionados.",
-      "has":"ha",
-      "hasBeen":"ha sido",
-      "yourRequisitionNote":"su nota de requisición",
-      "youCanProceedToTransfer":"Ahora puede proceder con la transferencia de los artículos seleccionados.",
-      "hasCreatedRequisitionNote":"ha creado una Nota de Requisición",
-      "andIsWaitingApproval":"y está esperando su aprobación",
-      "from":"de",
-      "selectAssetToRequest":"Seleccione los activos a solicitar",
-      "selectSparePartToRequest":"Seleccione los repuestos a solicitar",
-      "selectItemsToRequest":"Seleccione los artículos a solicitar",
-      "includeChildAsset":"Incluir activo secundario",
-      "selectAssetWishToTransfer":"Seleccione los activos que desea transferir",
-      "selectSparePartWishToTransfer":"Seleccione los repuestos que desea transferir",
-      "selectItemsWishToTransfer":"Seleccione los artículos que desea transferir",
-      "filteredBySparePart":"Filtrado por repuestos en el contenedor seleccionado",
-      "filteredByAsset":"Filtrado por activos en el contenedor seleccionado"
+      "whatWouldYouLikeRequest": "¿Qué le gustaría solicitar?",
+      "defineCustomListOfItems": "Defina una lista personalizada de artículos para solicitar",
+      "specificAssets": "Activos específicos",
+      "requestByType": "Solicitud por tipo",
+      "requestFromBin": "Solicitar desde contenedor",
+      "requestAnyAvailable": "Solicitar cualquier disponible",
+      "chooseThisSerialNumber": "Elija esto si conoce el número de serie del contenedor y del activo.",
+      "requestAssetByTypeQty": "Solicite activos por tipo y cantidad en lugar de por números de serie.",
+      "selectSparePartFromBin": "Seleccione piezas de repuesto específicas de un contenedor conocido.",
+      "requestSparePartFromBin": "Solicite piezas de repuesto de cualquier contenedor disponible.",
+      "selectBinRequestAssetFrom": "Seleccione el contenedor desde el cual está solicitando activos",
+      "unsureOfAssetLocation": "¿No está seguro de la ubicación de los activos?",
+      "notSureBinAvailableAsset": "¿No está seguro en qué contenedor están disponibles los activos?",
+      "selectItemsRequested": "Seleccione los artículos a solicitar",
+      "selectBinToTransferAssetTo": "Seleccione el contenedor al que desea transferir los activos",
+      "youCanSelectBinInCharge": "Solo puede seleccionar los contenedores de los que está a cargo",
+      "reviewSelectionsMade": "Revise las selecciones que ha realizado antes de enviar su solicitud.",
+      "selectBinRequestSparePartFrom": "Seleccione el contenedor desde el cual está solicitando repuestos",
+      "unsureOfSparePartAvailability": "¿No está seguro de la disponibilidad de repuestos?",
+      "notSureBinAvailableSpareParts": "¿No está seguro en qué contenedor están disponibles los repuestos?",
+      "enterQtySparePartsRequired": "Ingrese la cantidad de repuestos requeridos",
+      "selectBinToTransferSparePartTo": "Seleccione el contenedor al que desea transferir los repuestos",
+      "unsureItemsRequestStored": "Si no está seguro de dónde se almacenan los artículos que solicita, seleccione un contenedor gestionado por un equipo que pueda localizar y cumplir su solicitud",
+      "selectBinRequestFrom": "Seleccione el contenedor desde el cual está solicitando artículos",
+      "selectBinToTransferTo": "Seleccione el contenedor al que desea transferir los artículos",
+      "hasRejectedRequisitionNote": "ha rechazado su nota de requisición",
+      "hasApprovedRequisitionNote": "ha aprobado su nota de requisición",
+      "hasBeenApprovedRequisitionNote": "ha sido aprobada. Ahora puede proceder con la transferencia de los artículos seleccionados.",
+      "has": "ha",
+      "hasBeen": "ha sido",
+      "yourRequisitionNote": "su nota de requisición",
+      "youCanProceedToTransfer": "Ahora puede proceder con la transferencia de los artículos seleccionados.",
+      "hasCreatedRequisitionNote": "ha creado una Nota de Requisición",
+      "andIsWaitingApproval": "y está esperando su aprobación",
+      "from": "de",
+      "selectAssetToRequest": "Seleccione los activos a solicitar",
+      "selectSparePartToRequest": "Seleccione los repuestos a solicitar",
+      "selectItemsToRequest": "Seleccione los artículos a solicitar",
+      "includeChildAsset": "Incluir activo secundario",
+      "selectAssetWishToTransfer": "Seleccione los activos que desea transferir",
+      "selectSparePartWishToTransfer": "Seleccione los repuestos que desea transferir",
+      "selectItemsWishToTransfer": "Seleccione los artículos que desea transferir",
+      "filteredBySparePart": "Filtrado por repuestos en el contenedor seleccionado",
+      "filteredByAsset": "Filtrado por activos en el contenedor seleccionado"
     }
   },
   "contacts": {
@@ -12032,9 +12032,9 @@
       "onlyAllowVisualFiles": "Solo se permiten imágenes de hasta 100kb y los siguientes formatos de archivo: PNG y JPG/JPEG",
       "maxUploadFileSize": "El tamaño máximo de archivo para subir es 25MB",
       "fileExtension": "Solo se permiten archivos con extensiones *.pdf, *.docx, *.jpg",
-      "fileTypeUnsupported":"Este tipo de archivo no es compatible. Por favor, elija un archivo diferente.",
-      "allowedFileSize4MB":"El tamaño del archivo excede el límite de 4 MB. Por favor, suba un archivo más pequeño.",
-      "onlyAcceptImagesExt":"Solo se aceptan JPG, JPEG y PNG"
+      "fileTypeUnsupported": "Este tipo de archivo no es compatible. Por favor, elija un archivo diferente.",
+      "allowedFileSize4MB": "El tamaño del archivo excede el límite de 4 MB. Por favor, suba un archivo más pequeño.",
+      "onlyAcceptImagesExt": "Solo se aceptan JPG, JPEG y PNG"
     }
   },
   "history": {
@@ -13551,174 +13551,174 @@
         "setupEdit": true,
         "setupVisible": false
       },
-      "proceedAnyway":{
+      "proceedAnyway": {
         "original": "Proceed anyway",
         "singular": "Proceda de todos modos",
         "plural": "",
         "setupEdit": true,
         "setupVisible": false
       },
-      "addEmailNotification":{
+      "addEmailNotification": {
         "original": "Add Email Notification",
         "singular": "Agregar notificación por correo electrónico",
         "plural": "",
         "setupEdit": true,
         "setupVisible": false
       },
-      "addAppNotification":{
+      "addAppNotification": {
         "original": "Add App Notification",
         "singular": "Agregar notificación en la aplicación",
         "plural": "",
         "setupEdit": true,
         "setupVisible": false
       },
-      "discard":{
+      "discard": {
         "original": "Discard",
         "singular": "Descartar",
         "plural": "",
         "setupEdit": false,
         "setupVisible": false
       },
-      "createWithAi":{
+      "createWithAi": {
         "original": "Create with AI",
         "singular": "Crear con IA",
         "plural": "",
         "setupEdit": false,
         "setupVisible": false
       },
-      "smartSuggest":{
+      "smartSuggest": {
         "original": "Smart Suggest",
         "singular": "Sugerencia Inteligente",
         "plural": "",
         "setupEdit": false,
         "setupVisible": false
       },
-      "copyToTaskNotes":{
+      "copyToTaskNotes": {
         "original": "Copy to task notes",
         "singular": "Copiar a las notas de la tarea",
         "plural": "",
         "setupEdit": false,
         "setupVisible": false
       },
-      "createViaTemplate":{
+      "createViaTemplate": {
         "original": "Create via Template",
         "singular": "Crear a través de Plantilla",
         "plural": "",
         "setupEdit": false,
         "setupVisible": false
       },
-      "addProduct":{
+      "addProduct": {
         "original": "Add Spare Parts",
         "singular": "Agregar Repuesto",
         "plural": "Agregar Repuestos",
         "setupEdit": false,
         "setupVisible": false
       },
-      "groupView":{
+      "groupView": {
         "original": "Group View",
         "singular": "Vista de grupo",
         "plural": "Vistas de grupo",
         "setupEdit": false,
         "setupVisible": false
       },
-      "searchByAddress":{
+      "searchByAddress": {
         "original": "Search Address",
         "singular": "Buscar dirección",
         "plural": "Buscar direcciones",
         "setupEdit": false,
         "setupVisible": false
       },
-      "searchLatLang":{
+      "searchLatLang": {
         "original": "Search by Lat & Long",
         "singular": "Buscar por latitud y longitud",
         "plural": "Buscar por latitudes y longitudes",
         "setupEdit": false,
         "setupVisible": false
       },
-      "useCoordinates":{
+      "useCoordinates": {
         "original": "Use Coordinates",
         "singular": "Usar coordenadas",
         "plural": "Usar coordenadas",
         "setupEdit": false,
         "setupVisible": false
       },
-      "locateAsset":{
+      "locateAsset": {
         "original": "Locate Asset",
         "singular": "Ubicar activo",
         "plural": "Ubicar activos",
         "setupEdit": false,
         "setupVisible": false
       },
-      "transferAsset":{
+      "transferAsset": {
         "original": "Transfer Asset",
         "singular": "Transferir Activo",
         "plural": "Transferir Activos",
         "setupEdit": false,
         "setupVisible": false
       },
-      "addAsset":{
+      "addAsset": {
         "original": "Add Asset",
         "singular": "Añadir Activo",
         "plural": "Añadir Activos",
         "setupEdit": false,
         "setupVisible": false
       },
-      "openExternally":{
+      "openExternally": {
         "original": "Open Externally",
         "singular": "Abrir externamente",
         "plural": "Abrir externamente",
         "setupEdit": false,
         "setupVisible": false
       },
-      "pasteSerialNumbers":{
+      "pasteSerialNumbers": {
         "original": "Paste Serial Numbers",
         "singular": "Pegar números de serie",
         "plural": "Pegar números de serie",
         "setupEdit": false,
         "setupVisible": false
       },
-      "pasteSku":{
+      "pasteSku": {
         "original": "Paste SKU",
         "singular": "Pegar SKU",
         "plural": "Pegar SKUs",
         "setupEdit": false,
         "setupVisible": false
       },
-      "generateTemporarySerialNo":{
+      "generateTemporarySerialNo": {
         "original": "Generate Temporary Serial No",
         "singular": "Generar número de serie temporal",
         "plural": "Generar número de serie temporal",
         "setupEdit": false,
         "setupVisible": false
       },
-      "initiateBinTransfer":{
+      "initiateBinTransfer": {
         "original": "Initiate Bin Transfer",
         "singular": "Iniciar transferencia de contenedor",
         "plural": "Iniciar transferencias de contenedores",
         "setupEdit": false,
         "setupVisible": false
       },
-      "manualBinTransfer":{
+      "manualBinTransfer": {
         "original": "Manual Bin Transfer",
         "singular": "Transferencia manual de contenedor",
         "plural": "Transferencias manuales de contenedor",
         "setupEdit": false,
         "setupVisible": false
       },
-      "howItWorks":{
+      "howItWorks": {
         "original": "How it Works",
         "singular": "Cómo funciona",
         "plural": "Cómo funciona",
         "setupEdit": false,
         "setupVisible": false
       },
-      "config":{
+      "config": {
         "original": "Config",
         "singular": "Configuración",
         "plural": "Configuración",
         "setupEdit": false,
         "setupVisible": false
-      }	
+      }
     },
     "status": {
       "setupVisible": false,
@@ -14157,11 +14157,11 @@
         "setupVisible": false
       },
       "submitted": {
-          "original": "Submitted",
-          "singular": "Enviado",
-          "plural": "Enviado",
-          "setupEdit": false,
-          "setupVisible": false
+        "original": "Submitted",
+        "singular": "Enviado",
+        "plural": "Enviado",
+        "setupEdit": false,
+        "setupVisible": false
       },
       "transferPending": {
         "original": "Transfer Pending",
@@ -14391,18 +14391,18 @@
       "noDocumentIsGenerated": "No se ha generado ningún documento ya que los datos están incompletos.",
       "pullToRefreshToSeeTheCompletion": "Desliza hacia abajo para actualizar y ver la finalización",
       "phoneNumberNotAvailable": "Número de teléfono no disponible",
-      "approvalConfirmation":"Confirmación de aprobación",
-      "approval":"Aprobación",
-      "areYouSureApprove":"¿Está seguro de que desea aprobar",
-      "approvedSuccessfully":"Aprobado con éxito",
-      "rejectionConfirmation":"Confirmación de rechazo",
-      "rejection":"Rechazo",
-      "areYouSureReject":"¿Está seguro de que desea rechazar",
-      "editedSuccessfully":"Editado con éxito",
-      "total":"Total",
-      "from":"De",
-      "to":"A",
-      "or":"O",
+      "approvalConfirmation": "Confirmación de aprobación",
+      "approval": "Aprobación",
+      "areYouSureApprove": "¿Está seguro de que desea aprobar",
+      "approvedSuccessfully": "Aprobado con éxito",
+      "rejectionConfirmation": "Confirmación de rechazo",
+      "rejection": "Rechazo",
+      "areYouSureReject": "¿Está seguro de que desea rechazar",
+      "editedSuccessfully": "Editado con éxito",
+      "total": "Total",
+      "from": "De",
+      "to": "A",
+      "or": "O",
       "noMatchesFound": "No se encontraron coincidencias. Intenta ajustar tus criterios de búsqueda.",
       "noHistoryAvailable": "No hay historial disponible. Tu actividad aparecerá aquí.",
       "noAttachmentsFoundUploadFiles": "No se encontraron archivos adjuntos. Sube archivos para verlos aquí.",
@@ -14422,7 +14422,7 @@
       "wasChangedFrom": "se cambió de",
       "wasChangedTo": "se cambió a",
       "selectDateRange": "Seleccionar rango de fechas",
-      "anyAdditionalComments":"¿Algún comentario adicional? Agrégalo aquí"
+      "anyAdditionalComments": "¿Algún comentario adicional? Agrégalo aquí"
     },
     "currency": {
       "australianDollar": "AUD",
@@ -14701,9 +14701,9 @@
       "pleaseSignBeforeProceeding": "Por favor, firme antes de continuar",
       "charactersExceed": "El texto excede el límite de caracteres (255).",
       "endDateThanStartDate": "La fecha de finalización debe ser posterior a la fecha de inicio",
-      "thisFieldIsRequired":"Este campo es obligatorio",
-      "pleaseMakeOneSelection":"Por favor, haga una selección para continuar",
-      "itemExists":"Este elemento ya existe en la lista"
+      "thisFieldIsRequired": "Este campo es obligatorio",
+      "pleaseMakeOneSelection": "Por favor, haga una selección para continuar",
+      "itemExists": "Este elemento ya existe en la lista"
     },
     "validationBE": {
       "sendGridEmailTenantReferenceIdExists": "Una nueva referencia de inquilino de correo electrónico de Send Grid no puede tener ya un ID",
@@ -14967,16 +14967,16 @@
           "setupVisible": false
         }
       },
-      "messages":{
-        "theFollowingAssetTransferToBin":"Los siguientes activos serán transferidos a los siguientes contenedores",
-        "theFollowingAssetTransferTo":"Los siguientes activos serán transferidos a",
-        "willBeTransferTo":"será transferido a",
-        "theFollowingAssetRemoveFromBin":"Los siguientes activos serán eliminados de los siguientes contenedores",
-        "theFollowingAssetRemoveFrom":"Los siguientes activos serán eliminados de",
-        "willBeRemovedFrom":"será eliminado de",
-        "theFollowingSparePartTransferToBin":"Las siguientes piezas de repuesto serán transferidas a los siguientes contenedores",
-        "theFollowingSparePartTransferTo":"Las siguientes piezas de repuesto serán transferidas a",
-        "willBeAdjustedInBin":"serán ajustadas en los siguientes contenedores"
+      "messages": {
+        "theFollowingAssetTransferToBin": "Los siguientes activos serán transferidos a los siguientes contenedores",
+        "theFollowingAssetTransferTo": "Los siguientes activos serán transferidos a",
+        "willBeTransferTo": "será transferido a",
+        "theFollowingAssetRemoveFromBin": "Los siguientes activos serán eliminados de los siguientes contenedores",
+        "theFollowingAssetRemoveFrom": "Los siguientes activos serán eliminados de",
+        "willBeRemovedFrom": "será eliminado de",
+        "theFollowingSparePartTransferToBin": "Las siguientes piezas de repuesto serán transferidas a los siguientes contenedores",
+        "theFollowingSparePartTransferTo": "Las siguientes piezas de repuesto serán transferidas a",
+        "willBeAdjustedInBin": "serán ajustadas en los siguientes contenedores"
       }
     },
     "commonComponent": {
@@ -16961,7 +16961,7 @@
           "setupEdit": false,
           "setupVisible": false
         },
-        "sections":{
+        "sections": {
           "setupEdit": false,
           "setupVisible": false,
           "sec0": {
@@ -17000,7 +17000,7 @@
             "setupVisible": false
           }
         },
-        "fields":{
+        "fields": {
           "setupEdit": false,
           "setupVisible": false,
           "levelOneApprovalGroup": {
@@ -17067,7 +17067,7 @@
             "setupVisible": false
           }
         },
-        "tooltips":{
+        "tooltips": {
           "setupEdit": false,
           "setupVisible": false,
           "configureApproval": {
@@ -17092,50 +17092,50 @@
             "setupVisible": false
           }
         },
-        "validationFE":{
-          "atLeastOneSelected":"Se debe seleccionar al menos una opción. Se pueden seleccionar las tres"
+        "validationFE": {
+          "atLeastOneSelected": "Se debe seleccionar al menos una opción. Se pueden seleccionar las tres"
         },
-        "messages":{
-          "eachRelationshipConnectsLevel":"Cada relación conecta un grupo de aprobación de Nivel 1 con uno de Nivel 2. Estos niveles representan diferentes etapas de aprobación para notas de requisición en FieldEx.",
-          "eachRelationshipConnectsLevelConsignment":"Cada relación conecta un grupo de aprobación de Nivel 1 con uno de Nivel 2. Estos niveles representan diferentes etapas de aprobación para notas de consignación en FieldEx.",
-          "systemConfigLetsYouDefine":"La configuración del sistema le permite definir",
-          "approvalsSpecificSequence":"Si las aprobaciones deben realizarse en una secuencia específica o pueden hacerse en cualquier orden",
-          "groupsProvideApproval":"Qué grupos deben proporcionar aprobación para una nota de requisición",
-          "groupsProvideApprovalConsignment":"Qué grupos deben proporcionar aprobación para una nota de consignación",
-          "approvalsDeterminedByGroups":"Las aprobaciones están determinadas por los grupos a cargo de las zonas donde se encuentran los contenedores",
-          "ifFromBin":"Si es del contenedor",
-          "levelTwoInCharge":"El grupo de Nivel 2 del grupo a cargo de la zona que contiene",
-          "willNeedToApprove":"tendrá que aprobar",
-          "basedOnConfigurationSettings":"Según la configuración, el grupo responsable de la zona del contenedor del remitente y/o su grupo de Nivel 2 deberá aprobar",
-          "basedOnConfigurationSettingsDestination":"Según la configuración, el grupo responsable de la zona que contiene el contenedor de destino y/o su grupo de Nivel 2 deberá aprobar",
-          "userCreatesRequisitionNote":"Cuando un usuario crea una nota de requisición",
-          "userCreatesConsignmentNote":"Cuando un usuario crea una nota de consignación",
-          "determinesZoneBinsBelong":"FieldEx determina a qué zona pertenecen los contenedores seleccionados",
-          "basedOnZoneOwnership":"Según la propiedad de la zona, identifica qué grupos deben aprobar",
-          "approvalsRoutedAccordingToOrder":"Las aprobaciones se dirigen según el orden especificado (si lo hay)",
-          "requisitionOnlyProcessAfterApprovals":"La requisición solo se procesa después de recibir todas las aprobaciones requeridas",
-          "consignmentOnlyProcessAfterApprovals":"La nota de consignación solo se procesa después de recibir todas las aprobaciones requeridas",
-          "eachGroupOnlyLvlOne":"Cada grupo solo puede estar en una relación de Nivel 1",
-          "lvlOnelvlTwoNotTheSameGroup":"Nivel 1 y Nivel 2 no pueden ser el mismo grupo",
-          "atLeastOneApprovalIsRequired":"Se requiere al menos una aprobación para cualquier nota de requisición",
-          "atLeastOneApprovalIsRequiredConsignment":"Se requiere al menos una aprobación para cualquier nota de consignación",
-          "binLocationDetermineGroupInvolved":"La ubicación del contenedor determina qué grupos están involucrados en la aprobación",
-          "settingUpApprovalRelationships":"Configuración de relaciones de aprobación",
-          "systemConfiguration":"Configuración del sistema",
-          "howBinsAffectApprovalFlow":"Cómo los contenedores afectan el flujo de aprobación",
-          "howRequisitionNotesProcessed":"Cómo se procesan las notas de requisición",
-          "howConsignmentNotesProcessed":"Cómo se procesan las notas de consignación",
-          "importantRules":"Reglas importantes",
-          "approvalOrder":"Orden de aprobación",
-          "requiredApprovers":"Aprobadores requeridos",
-          "fromBinSource":"Desde contenedor (origen)",
-          "toBinDestination":"A contenedor (destino)",
-          "selectWhoNeedsToApprove":"Seleccione quién necesita aprobar la nota de requisición",
-          "selectWhoNeedsToApproveConsignment":"Seleccione quién necesita aprobar la nota de consignación",          
-          "defineSequenceApprovalOccur":"Defina la secuencia en la que deben ocurrir las aprobaciones",
-          "theseSettingsDetermineOverallFlow":"Estas configuraciones determinan el flujo general de todas las notas de requisición en el sistema",
-          "theseSettingsDetermineOverallFlowConsignment":"Estas configuraciones determinan el flujo general de todas las notas de consignación en el sistema",
-          "selectGroup":"Seleccionar grupo"
+        "messages": {
+          "eachRelationshipConnectsLevel": "Cada relación conecta un grupo de aprobación de Nivel 1 con uno de Nivel 2. Estos niveles representan diferentes etapas de aprobación para notas de requisición en FieldEx.",
+          "eachRelationshipConnectsLevelConsignment": "Cada relación conecta un grupo de aprobación de Nivel 1 con uno de Nivel 2. Estos niveles representan diferentes etapas de aprobación para notas de consignación en FieldEx.",
+          "systemConfigLetsYouDefine": "La configuración del sistema le permite definir",
+          "approvalsSpecificSequence": "Si las aprobaciones deben realizarse en una secuencia específica o pueden hacerse en cualquier orden",
+          "groupsProvideApproval": "Qué grupos deben proporcionar aprobación para una nota de requisición",
+          "groupsProvideApprovalConsignment": "Qué grupos deben proporcionar aprobación para una nota de consignación",
+          "approvalsDeterminedByGroups": "Las aprobaciones están determinadas por los grupos a cargo de las zonas donde se encuentran los contenedores",
+          "ifFromBin": "Si es del contenedor",
+          "levelTwoInCharge": "El grupo de Nivel 2 del grupo a cargo de la zona que contiene",
+          "willNeedToApprove": "tendrá que aprobar",
+          "basedOnConfigurationSettings": "Según la configuración, el grupo responsable de la zona del contenedor del remitente y/o su grupo de Nivel 2 deberá aprobar",
+          "basedOnConfigurationSettingsDestination": "Según la configuración, el grupo responsable de la zona que contiene el contenedor de destino y/o su grupo de Nivel 2 deberá aprobar",
+          "userCreatesRequisitionNote": "Cuando un usuario crea una nota de requisición",
+          "userCreatesConsignmentNote": "Cuando un usuario crea una nota de consignación",
+          "determinesZoneBinsBelong": "FieldEx determina a qué zona pertenecen los contenedores seleccionados",
+          "basedOnZoneOwnership": "Según la propiedad de la zona, identifica qué grupos deben aprobar",
+          "approvalsRoutedAccordingToOrder": "Las aprobaciones se dirigen según el orden especificado (si lo hay)",
+          "requisitionOnlyProcessAfterApprovals": "La requisición solo se procesa después de recibir todas las aprobaciones requeridas",
+          "consignmentOnlyProcessAfterApprovals": "La nota de consignación solo se procesa después de recibir todas las aprobaciones requeridas",
+          "eachGroupOnlyLvlOne": "Cada grupo solo puede estar en una relación de Nivel 1",
+          "lvlOnelvlTwoNotTheSameGroup": "Nivel 1 y Nivel 2 no pueden ser el mismo grupo",
+          "atLeastOneApprovalIsRequired": "Se requiere al menos una aprobación para cualquier nota de requisición",
+          "atLeastOneApprovalIsRequiredConsignment": "Se requiere al menos una aprobación para cualquier nota de consignación",
+          "binLocationDetermineGroupInvolved": "La ubicación del contenedor determina qué grupos están involucrados en la aprobación",
+          "settingUpApprovalRelationships": "Configuración de relaciones de aprobación",
+          "systemConfiguration": "Configuración del sistema",
+          "howBinsAffectApprovalFlow": "Cómo los contenedores afectan el flujo de aprobación",
+          "howRequisitionNotesProcessed": "Cómo se procesan las notas de requisición",
+          "howConsignmentNotesProcessed": "Cómo se procesan las notas de consignación",
+          "importantRules": "Reglas importantes",
+          "approvalOrder": "Orden de aprobación",
+          "requiredApprovers": "Aprobadores requeridos",
+          "fromBinSource": "Desde contenedor (origen)",
+          "toBinDestination": "A contenedor (destino)",
+          "selectWhoNeedsToApprove": "Seleccione quién necesita aprobar la nota de requisición",
+          "selectWhoNeedsToApproveConsignment": "Seleccione quién necesita aprobar la nota de consignación",
+          "defineSequenceApprovalOccur": "Defina la secuencia en la que deben ocurrir las aprobaciones",
+          "theseSettingsDetermineOverallFlow": "Estas configuraciones determinan el flujo general de todas las notas de requisición en el sistema",
+          "theseSettingsDetermineOverallFlowConsignment": "Estas configuraciones determinan el flujo general de todas las notas de consignación en el sistema",
+          "selectGroup": "Seleccionar grupo"
         }
       }
     },
@@ -17432,18 +17432,18 @@
         },
         "messages": {
           "notificationsAllowNotify": "Las notificaciones te permiten informar a los usuarios sobre actividades específicas en FieldEx, como actualizaciones y asignaciones, tanto dentro de la aplicación como en notificaciones por correo electrónico. Crea flujos de trabajo para activar tus notificaciones y configúralas para que se ajusten a tu proceso empresarial.",
-          "fillEmailNotificationDetails":"Complete los detalles de su notificación por correo electrónico con un nombre y una descripción.",
-          "fillAppNotificationDetails":"Complete los detalles de su notificación en la aplicación con un nombre y una descripción.",
+          "fillEmailNotificationDetails": "Complete los detalles de su notificación por correo electrónico con un nombre y una descripción.",
+          "fillAppNotificationDetails": "Complete los detalles de su notificación en la aplicación con un nombre y una descripción.",
           "typeOutMessage": "Escribe tu mensaje, selecciona los campos que deseas incluir y copia el texto mostrado en el cuerpo del mensaje a la izquierda.",
           "selectWhereLikeNotificationNavigate": "Selecciona a dónde te gustaría que la notificación navegara y si deseas que la información clave esté en negrita.",
-          "textWithinCurly":"Nota: El texto dentro de las llaves ({{}}) será reemplazado por los valores reales de los campos cuando se envíe la notificación",
+          "textWithinCurly": "Nota: El texto dentro de las llaves ({{}}) será reemplazado por los valores reales de los campos cuando se envíe la notificación",
           "selectEmailTemplate": "Selecciona la plantilla de correo electrónico que te gustaría enviar para esta notificación.",
-          "defineEmailRecipients":"Elija quién recibirá este correo electrónico seleccionando usuarios del sistema, direcciones de correo electrónico específicas o contactos de campos (por ejemplo, el correo electrónico de contacto de una orden de trabajo).",
-          "defineAppRecipients":"Elija quién recibirá este correo electrónico seleccionando usuarios del sistema o grupos.",
+          "defineEmailRecipients": "Elija quién recibirá este correo electrónico seleccionando usuarios del sistema, direcciones de correo electrónico específicas o contactos de campos (por ejemplo, el correo electrónico de contacto de una orden de trabajo).",
+          "defineAppRecipients": "Elija quién recibirá este correo electrónico seleccionando usuarios del sistema o grupos.",
           "makeKeyDataBold": "Haz que los datos clave estén en negrita.",
           "createEmailTemplate": "Crear una plantilla de correo electrónico.",
           "selectModule": "Seleccionar módulo.",
-          "selectTemplate":"Seleccionar plantilla",
+          "selectTemplate": "Seleccionar plantilla",
           "selectGroup": "Seleccionar grupo.",
           "selectUserInField": "Seleccionar usuario en campo.",
           "testEmailSentSuccessfully": "Correo electrónico de prueba enviado con éxito.",
@@ -17975,69 +17975,69 @@
           "addDescriptionHere": "Agrega la descripción aquí..."
         }
       },
-      "artificialIntelligence":{
+      "artificialIntelligence": {
         "setupEdit": false,
         "setupVisible": false,
-        "label":{
+        "label": {
           "original": "AI",
           "singular": "AI",
           "plural": "AI",
           "setupEdit": false,
           "setupVisible": false
         },
-        "sections":{
+        "sections": {
           "setupEdit": false,
           "setupVisible": false,
-          "sec0":{
+          "sec0": {
             "original": "Finley Suggestions",
             "singular": "Sugerencia de Finley",
             "plural": "Sugerencias de Finley",
             "setupEdit": false,
             "setupVisible": false
           },
-          "sec1":{
+          "sec1": {
             "original": "AI Suggestions",
             "singular": "Sugerencia de AI",
             "plural": "Sugerencias de AI",
             "setupEdit": false,
             "setupVisible": false
           },
-          "sec2":{
+          "sec2": {
             "original": "Auto-create a checklist with AI",
             "singular": "Crear automáticamente una lista de verificación con IA",
             "plural": "Crear automáticamente una lista de verificación con IA",
             "setupEdit": false,
             "setupVisible": false
           },
-          "sec3":{
+          "sec3": {
             "original": "Describe your checklist",
             "singular": "Describa su lista de verificación",
             "plural": "Describa sus listas de verificación",
             "setupEdit": false,
             "setupVisible": false
           },
-          "sec4":{
+          "sec4": {
             "original": "Attach a reference file",
             "singular": "Adjuntar un archivo de referencia",
             "plural": "Adjuntar archivos de referencia",
             "setupEdit": false,
             "setupVisible": false
           },
-          "sec5":{
+          "sec5": {
             "original": "Completion Summary",
             "singular": "Resumen de Finalización",
             "plural": "Resumen de Finalizaciones",
             "setupEdit": false,
             "setupVisible": false
           },
-          "sec6":{
+          "sec6": {
             "original": "Train Finley",
             "singular": "Entrenar a Finley",
             "plural": "Entrenar a Finley",
             "setupEdit": false,
             "setupVisible": false
           },
-          "sec7":{
+          "sec7": {
             "original": "Suggested Spare Parts",
             "singular": "Piezas de Repuesto Sugeridas",
             "plural": "Piezas de Repuesto Sugeridas",
@@ -18045,17 +18045,17 @@
             "setupVisible": false
           }
         },
-        "fields":{
+        "fields": {
           "setupEdit": false,
           "setupVisible": false,
-          "enableAi":{
+          "enableAi": {
             "original": "Enable AI suggestions",
             "singular": "Habilitar sugerencia de AI",
             "plural": "Habilitar sugerencia de AI",
             "setupEdit": false,
             "setupVisible": false
           },
-          "dailyJobRundown":{
+          "dailyJobRundown": {
             "original": "Daily Job Rundown",
             "singular": "Resumen Diario de Trabajo",
             "plural": "Resúmenes Diarios de Trabajo",
@@ -18098,36 +18098,36 @@
             "setupVisible": false
           }
         },
-        "messages":{
-          "moreDetailYouProvide":"Cuantos más detalles proporcione, mejor se ajustará la lista de verificación a sus requisitos.",
-          "convertYourPhysicalChecklist":"Convierta sus listas de verificación y formularios físicos en una lista de verificación de FieldEx (PDF o PNG - hasta 5 MB)",
-          "mentionDetailsConsidered":"Mencione el activo, los campos y cualquier otro detalle a considerar",
-          "suggestedBy":"Sugerido por Finley",
-          "completedBy":"Completado por",
-          "beta":"beta",
-          "enableOrDisableSuggestions":"Habilite o deshabilite sugerencias y funciones impulsadas por nuestra amigable IA, Finley. Las funciones habilitadas estarán disponibles para todos los usuarios de su organización, permitiéndoles personalizar sus preferencias activando o desactivando funciones específicas.",
-          "aCategorizedSummary":"Un resumen categorizado de sus trabajos para hoy.",
-          "conciseSummaryKeyDetails":"Un resumen conciso de los detalles clave para las órdenes de trabajo completadas, mostrado en la vista de órdenes de trabajo.",
-          "taskTimeSuggestions":"Sugerencias de tiempo para tareas basadas en datos de trabajos y tareas previos.",
-          "useAiToGenerateChecklist":"Utilice IA para generar preguntas de listas de verificación a partir de un breve aviso o formularios de muestra.",
-          "web":"Web",
-          "mobile":"Móvil",
-          "uploadStoreManual":"Suba y almacene aquí sus manuales, guías y archivos de referencia para que nuestra IA pueda ofrecerle información y sugerencias personalizadas en toda la aplicación, adaptadas específicamente a las necesidades únicas de su organización. Consulte",
-          "see":"Ver",
-          "tips":"Consejos",
-          "onHowTo":"sobre cómo aprovechar al máximo esta función.",
-          "storage":"Almacenamiento",
-          "allowAiSuggestJob":"Permitir que la IA sugiera pasos para completar el trabajo basándose en los materiales de capacitación que ha subido a FieldEx.",
-          "allowAiSuggestJobSpareParts":"Permitir que la IA sugiera repuestos para el trabajo basándose en los materiales de capacitación que ha subido a FieldEx.",
-          "of":"de",
-          "selectAFileDropHere":"Seleccione un archivo o arrástrelo y suéltelo aquí",
-          "txtPdfNoMore15Mb":"El tamaño del archivo TXT o PDF no debe superar los 15 MB",
-          "enableOrDisableSuggestionsOnly":"Habilite o deshabilite sugerencias y funciones impulsadas por nuestra amigable IA, Finley.",
-          "featureEnableAccessible":"Las funciones habilitadas estarán disponibles para todos los usuarios de su organización, permitiéndoles personalizar sus preferencias activando o desactivando funciones específicas."
+        "messages": {
+          "moreDetailYouProvide": "Cuantos más detalles proporcione, mejor se ajustará la lista de verificación a sus requisitos.",
+          "convertYourPhysicalChecklist": "Convierta sus listas de verificación y formularios físicos en una lista de verificación de FieldEx (PDF o PNG - hasta 5 MB)",
+          "mentionDetailsConsidered": "Mencione el activo, los campos y cualquier otro detalle a considerar",
+          "suggestedBy": "Sugerido por Finley",
+          "completedBy": "Completado por",
+          "beta": "beta",
+          "enableOrDisableSuggestions": "Habilite o deshabilite sugerencias y funciones impulsadas por nuestra amigable IA, Finley. Las funciones habilitadas estarán disponibles para todos los usuarios de su organización, permitiéndoles personalizar sus preferencias activando o desactivando funciones específicas.",
+          "aCategorizedSummary": "Un resumen categorizado de sus trabajos para hoy.",
+          "conciseSummaryKeyDetails": "Un resumen conciso de los detalles clave para las órdenes de trabajo completadas, mostrado en la vista de órdenes de trabajo.",
+          "taskTimeSuggestions": "Sugerencias de tiempo para tareas basadas en datos de trabajos y tareas previos.",
+          "useAiToGenerateChecklist": "Utilice IA para generar preguntas de listas de verificación a partir de un breve aviso o formularios de muestra.",
+          "web": "Web",
+          "mobile": "Móvil",
+          "uploadStoreManual": "Suba y almacene aquí sus manuales, guías y archivos de referencia para que nuestra IA pueda ofrecerle información y sugerencias personalizadas en toda la aplicación, adaptadas específicamente a las necesidades únicas de su organización. Consulte",
+          "see": "Ver",
+          "tips": "Consejos",
+          "onHowTo": "sobre cómo aprovechar al máximo esta función.",
+          "storage": "Almacenamiento",
+          "allowAiSuggestJob": "Permitir que la IA sugiera pasos para completar el trabajo basándose en los materiales de capacitación que ha subido a FieldEx.",
+          "allowAiSuggestJobSpareParts": "Permitir que la IA sugiera repuestos para el trabajo basándose en los materiales de capacitación que ha subido a FieldEx.",
+          "of": "de",
+          "selectAFileDropHere": "Seleccione un archivo o arrástrelo y suéltelo aquí",
+          "txtPdfNoMore15Mb": "El tamaño del archivo TXT o PDF no debe superar los 15 MB",
+          "enableOrDisableSuggestionsOnly": "Habilite o deshabilite sugerencias y funciones impulsadas por nuestra amigable IA, Finley.",
+          "featureEnableAccessible": "Las funciones habilitadas estarán disponibles para todos los usuarios de su organización, permitiéndoles personalizar sus preferencias activando o desactivando funciones específicas."
         },
         "validationFE": {
-          "onlyTxtPdfAllowed":"Solo se permiten archivos TXT o PDF",
-          "fileSizeNotExceed15":"El tamaño del archivo no debe exceder los 15MB"
+          "onlyTxtPdfAllowed": "Solo se permiten archivos TXT o PDF",
+          "fileSizeNotExceed15": "El tamaño del archivo no debe exceder los 15MB"
         }
       }
     },
@@ -19585,8 +19585,8 @@
         }
       },
       "inventory": {
-          "setupEdit": false,
-          "setupVisible": false,
+        "setupEdit": false,
+        "setupVisible": false,
         "label": {
           "original": "Inventory",
           "singular": "Inventario",
@@ -19605,8 +19605,8 @@
             "setupVisible": false
           },
           "sections": {
-          "setupEdit": false,
-          "setupVisible": false,
+            "setupEdit": false,
+            "setupVisible": false,
             "sec0": {
               "original": "Location Details",
               "singular": "Detalles de la Ubicación",
@@ -19616,8 +19616,8 @@
             }
           },
           "fields": {
-          "setupEdit": false,
-          "setupVisible": false,
+            "setupEdit": false,
+            "setupVisible": false,
             "locationId": {
               "original": "Location ID",
               "singular": "ID de Ubicación",
@@ -19685,7 +19685,7 @@
           "tooltips": {
             "setupEdit": false,
             "setupVisible": false,
-            "defaultZoneGroup":{
+            "defaultZoneGroup": {
               "original": "This is the default managing group for all zones under this location",
               "singular": "Este es el grupo de gestión predeterminado para todas las zonas bajo esta ubicación",
               "plural": "Este es el grupo de gestión predeterminado para todas las zonas bajo esta ubicación",
@@ -19698,9 +19698,9 @@
           },
           "messages": {
             "setDefaultZoneGroup": "Establecer grupo de zona predeterminado para todas las zonas bajo esta ubicación",
-            "enablingThisSetManagingGroup":"Al habilitar esto, se establecerá el 'Grupo de Zona Predeterminado' (seleccionado arriba) como grupo de gestión para todas las zonas bajo esta ubicación",
-            "actionOverrideExistingGroup":"Esta acción sobrescribirá cualquier asignación de grupo existente",
-            "selectLocation":"Seleccionar ubicación"
+            "enablingThisSetManagingGroup": "Al habilitar esto, se establecerá el 'Grupo de Zona Predeterminado' (seleccionado arriba) como grupo de gestión para todas las zonas bajo esta ubicación",
+            "actionOverrideExistingGroup": "Esta acción sobrescribirá cualquier asignación de grupo existente",
+            "selectLocation": "Seleccionar ubicación"
           }
         },
         "zones": {
@@ -19714,8 +19714,8 @@
             "setupVisible": false
           },
           "sections": {
-          "setupEdit": false,
-          "setupVisible": false,
+            "setupEdit": false,
+            "setupVisible": false,
             "sec0": {
               "original": "Zone Details",
               "singular": "Detalles de la Zona",
@@ -19725,8 +19725,8 @@
             }
           },
           "fields": {
-          "setupEdit": false,
-          "setupVisible": false,
+            "setupEdit": false,
+            "setupVisible": false,
             "zoneNumber": {
               "original": "Zone Number",
               "singular": "Número de Zona",
@@ -19806,7 +19806,7 @@
             }
           },
           "messages": {
-            "selectGroup":"Seleccionar grupo"
+            "selectGroup": "Seleccionar grupo"
           }
         },
         "bins": {
@@ -19820,9 +19820,9 @@
             "setupVisible": false
           },
           "sections": {
-            "setupEdit": false,
-            "setupVisible": false,
-            "sec0": {
+          "setupEdit": false,
+          "setupVisible": false,
+           "sec0": {
               "original": "Bin Details",
               "singular": "Detalles del Contenedor",
               "plural": "",
@@ -19845,8 +19845,8 @@
             }
           },
           "fields": {
-            "setupEdit": false,
-            "setupVisible": false,
+          "setupEdit": false,
+          "setupVisible": false,
             "binNumber": {
               "original": "Bin Number",
               "singular": "Número de Contenedor",
@@ -19910,6 +19910,10 @@
               "setupEdit": false,
               "setupVisible": false
             }
+          },
+          "messages": {
+            "whenSelectingBin":"Al seleccionar un contenedor en FieldEx, se mostrará en el formato",
+            "useShortCodes":"Utiliza códigos cortos para nombres de Ubicación, Zona y Contenedor para facilitar la referencia"
           }
         },
         "validationFE": {},
@@ -20403,8 +20407,8 @@
           }
         },
         "validationFE": {
-          "exceededLimit50Templates":"Ha excedido el límite de 50 plantillas activas. Establezca el estado de una plantilla no utilizada en “Inactivo” para agregar otra plantilla activa.",
-          "itemExists":"Este elemento ya existe en la lista"
+          "exceededLimit50Templates": "Ha excedido el límite de 50 plantillas activas. Establezca el estado de una plantilla no utilizada en “Inactivo” para agregar otra plantilla activa.",
+          "itemExists": "Este elemento ya existe en la lista"
         },
         "tooltips": {
           "setupVisible": false,
@@ -20795,7 +20799,7 @@
           "setupVisible": false
         },
         "sec15": {
-          "original": "Specify the details of the Job Orders this Checklist is for. Job Orders matching the below values will trigger this Checklist.", 
+          "original": "Specify the details of the Job Orders this Checklist is for. Job Orders matching the below values will trigger this Checklist.",
           "singular": "Especifique los detalles de las órdenes de trabajo para las que es esta lista de verificación. Las órdenes de trabajo que coincidan con los valores a continuación activarán esta lista de verificación.",
           "plural": "",
           "setupEdit": true,
@@ -20954,9 +20958,9 @@
         "selectServiceZone": "Seleccionar Zona de Servicio",
         "selectEquipmentType": "Seleccionar Tipo de Equipo",
         "checklistName": "Nombre de la Lista de Verificación",
-        "previousFileOverwritten":"¿Está seguro de que desea subir un nuevo archivo? El anterior será sobrescrito. Esta acción no se puede deshacer.",
-        "fileTypeUnsupported":"Este tipo de archivo no es compatible. Por favor, elija un archivo diferente.",
-        "exceedFileSizeSmall":"El tamaño del archivo excede el límite de 4 MB. Por favor, suba un archivo más pequeño." 
+        "previousFileOverwritten": "¿Está seguro de que desea subir un nuevo archivo? El anterior será sobrescrito. Esta acción no se puede deshacer.",
+        "fileTypeUnsupported": "Este tipo de archivo no es compatible. Por favor, elija un archivo diferente.",
+        "exceedFileSizeSmall": "El tamaño del archivo excede el límite de 4 MB. Por favor, suba un archivo más pequeño."
       }
     },
     "department": {
@@ -23055,86 +23059,86 @@
         }
       },
       "messages": {
-          "helpAutomateInternal": "Los flujos de trabajo le permiten configurar notificaciones automáticas basadas en condiciones específicas en cualquier módulo que elija. Puede personalizar las notificaciones para que se envíen como alertas en la aplicación o correos electrónicos:",
-          "inAppNotifications": "Notificaciones en la aplicación:",
-          "inAppNotificationsDesc": "Escriba mensajes personalizados para notificar a los usuarios de FieldEx directamente en la aplicación web o móvil cuando se cumplan las condiciones.",
-          "emailNotifications": "Notificaciones por correo electrónico:",
-          "emailNotificationsDesc": "Diseñe plantillas de correo electrónico personalizadas con valores de campo para notificar a los usuarios de FieldEx o contactos externos.",
-          "whetherRemindersCustomer": "Ya sean recordatorios, actualizaciones para clientes o alertas para el equipo, los flujos de trabajo facilitan mantenerse conectado de manera simple y efectiva.",
-          "useThisPageToCreateNewWorkflows": "Utiliza esta página para crear nuevos flujos de trabajo o gestionar los que ya has configurado.",
-          "triggerWhenNewRecordCreated": "El flujo de trabajo se activará cuando se añada un nuevo registro y se cumplan las condiciones establecidas.",
-          "triggerWhenUpdatedFirstTime": "El flujo de trabajo se activa la primera vez que se realizan cambios en el registro y se cumplen las condiciones especificadas.",
-          "triggerWhenRecordUpdatedEverytime": "El flujo de trabajo se activa cada vez que se realizan cambios en el registro y se cumplen las condiciones especificadas.",
-          "triggerWhenRecordDeleted": "Esta opción activará el flujo de trabajo cada vez que se elimine un registro.",
-          "selectStatus": "Seleccionar estado",
-          "selectAttribute": "Seleccionar atributo",
-          "selectOperator": "Seleccionar operador",
-          "noConditionsAvailable": "No hay condiciones disponibles. Haz clic en 'Añadir/Editar Condiciones' para crear una.",
-          "noWorkflowActionsAvailable": "No hay acciones de flujo de trabajo disponibles. Haz clic en 'Añadir Notificación' para crear una.",
-          "addExistingNotification": "Añadir notificación existente",
-          "pleaseSelectOneTriggerEvent": "Por favor, seleccione al menos un evento desencadenante",
-          "ascending": "Ascendente",
-          "descending": "Descendente",
-          "haveNotCreateNotification": "¿Aún no has creado una notificación? Haz clic en el botón de abajo.",
-          "forEmailNotification": "Para notificaciones por correo electrónico, crea una plantilla de correo",
-          "here": "aquí",
-          "first": "primero",
-          "sendNotification": "Enviar notificación",
-          "email": "Correo electrónico",
-          "appNotification": "Notificación de la aplicación",
-          "updateField": "Actualizar campo",
-          "createTask": "Crear tarea",
-          "validateForm": "Validar formulario",
-          "pickWhatYoureChecking": "Elige lo que estás verificando (por ejemplo, 'Fecha')",
-          "chooseHowItCompares": "Elige cómo se compara (por ejemplo, 'es igual a')",
-          "enterTheDetailYouWant": "Ingresa el detalle que deseas (por ejemplo, '1 de marzo')",
-          "whatYoureChecking": "Lo que estás verificando (por ejemplo, 'Fecha' o 'Estado')",
-          "howItCompares": "Cómo se compara (por ejemplo, 'es igual a' o 'es después de')",
-          "theDetailYoureLookingFor": "El detalle que estás buscando (por ejemplo, '1 de marzo' o 'Completado')",
-          "meansAllConditionsMustBeTrue": "significa que todas las condiciones deben ser verdaderas para que se active el flujo de trabajo",
-          "egBothConditionsTrue": "Ejemplo: Si tanto 'El estado es Completado' como 'La fecha es el 1 de marzo' son verdaderos, el flujo de trabajo comenzará.",
-          "egEitherConditionsTrue": "Ejemplo: Si 'El estado es Completado' o 'La prioridad es alta', el flujo de trabajo comenzará.",
-          "youCanGroupConditions": "También puedes agrupar condiciones para crear reglas más complejas, combinando Y y O.",
-          "seeExample": "Ver ejemplo",
-          "example": "Ejemplo",
-          "youCanAlsoGroupConditions": "También puedes agrupar condiciones para crear reglas más complejas, combinando Y y O.",
-          "andOrConditionExample": "'(A O B) Y (C Y D Y E)' significa:",
-          "eitherAOrBMustBeTrue": "O A o B deben ser verdaderos,",
-          "andMustBeTrue": "y",
-          "allCDEMustBeTrue": "Todos C, D y E también deben ser verdaderos al mismo tiempo.",
-          "simpleBreakdown": "Desglose simple:",
-          "orPartGivesFlexibility": "La parte O te da flexibilidad:",
-          "andPartIsStrict": "La parte Y es estricta:",
-          "onlyOneThingNeedsToHappen": "Solo necesita suceder una cosa de ese grupo.",
-          "everythingInGroupMustHappen": "Todo en ese grupo debe suceder.",
-          "workflowHasNotBegun":"No se especificó un disparador de inicio.",
-          "clickHereToAdd":"Haga clic aquí para agregar.",
-          "noOfRules":"Núm. de reglas",
-          "activeWorkflow":"Flujo(s) de Trabajo Activo(s):",
-          "equalTo":"igual a",
-          "equalToEmpty":"igual a ' '",
-          "notEqualTo":"no igual a",
-          "notEqualToEmpty":"no igual a ' '",
-          "contains":"contiene",
-          "startsWith":"empieza con",
-          "endsWith":"termina con",
-          "isGreaterThan":"es mayor que",
-          "isGreaterThanOrEqualTo":"es mayor o igual que",
-          "isLessThan":"es menor que",
-          "isLessThanOrEqualTo":"es menor o igual que",
-          "today":"Hoy",
-          "yesterday":"Mañana",
-          "tomorrow":"Mañana",
-          "thisWeek":"Esta Semana",
-          "lastWeek":"La Semana Pasada",
-          "nextWeek":"La Próxima Semana",
-          "thisMonth":"Este Mes",
-          "lastMonth":"El Mes Pasado",
-          "nextMonth":"El Próximo Mes",
-          "thisYear":"Este Año",
-          "addDays":"Agregar Días",
-          "exampleCaps":"Ejemplo",
-          "exampleShort":"Ej"
+        "helpAutomateInternal": "Los flujos de trabajo le permiten configurar notificaciones automáticas basadas en condiciones específicas en cualquier módulo que elija. Puede personalizar las notificaciones para que se envíen como alertas en la aplicación o correos electrónicos:",
+        "inAppNotifications": "Notificaciones en la aplicación:",
+        "inAppNotificationsDesc": "Escriba mensajes personalizados para notificar a los usuarios de FieldEx directamente en la aplicación web o móvil cuando se cumplan las condiciones.",
+        "emailNotifications": "Notificaciones por correo electrónico:",
+        "emailNotificationsDesc": "Diseñe plantillas de correo electrónico personalizadas con valores de campo para notificar a los usuarios de FieldEx o contactos externos.",
+        "whetherRemindersCustomer": "Ya sean recordatorios, actualizaciones para clientes o alertas para el equipo, los flujos de trabajo facilitan mantenerse conectado de manera simple y efectiva.",
+        "useThisPageToCreateNewWorkflows": "Utiliza esta página para crear nuevos flujos de trabajo o gestionar los que ya has configurado.",
+        "triggerWhenNewRecordCreated": "El flujo de trabajo se activará cuando se añada un nuevo registro y se cumplan las condiciones establecidas.",
+        "triggerWhenUpdatedFirstTime": "El flujo de trabajo se activa la primera vez que se realizan cambios en el registro y se cumplen las condiciones especificadas.",
+        "triggerWhenRecordUpdatedEverytime": "El flujo de trabajo se activa cada vez que se realizan cambios en el registro y se cumplen las condiciones especificadas.",
+        "triggerWhenRecordDeleted": "Esta opción activará el flujo de trabajo cada vez que se elimine un registro.",
+        "selectStatus": "Seleccionar estado",
+        "selectAttribute": "Seleccionar atributo",
+        "selectOperator": "Seleccionar operador",
+        "noConditionsAvailable": "No hay condiciones disponibles. Haz clic en 'Añadir/Editar Condiciones' para crear una.",
+        "noWorkflowActionsAvailable": "No hay acciones de flujo de trabajo disponibles. Haz clic en 'Añadir Notificación' para crear una.",
+        "addExistingNotification": "Añadir notificación existente",
+        "pleaseSelectOneTriggerEvent": "Por favor, seleccione al menos un evento desencadenante",
+        "ascending": "Ascendente",
+        "descending": "Descendente",
+        "haveNotCreateNotification": "¿Aún no has creado una notificación? Haz clic en el botón de abajo.",
+        "forEmailNotification": "Para notificaciones por correo electrónico, crea una plantilla de correo",
+        "here": "aquí",
+        "first": "primero",
+        "sendNotification": "Enviar notificación",
+        "email": "Correo electrónico",
+        "appNotification": "Notificación de la aplicación",
+        "updateField": "Actualizar campo",
+        "createTask": "Crear tarea",
+        "validateForm": "Validar formulario",
+        "pickWhatYoureChecking": "Elige lo que estás verificando (por ejemplo, 'Fecha')",
+        "chooseHowItCompares": "Elige cómo se compara (por ejemplo, 'es igual a')",
+        "enterTheDetailYouWant": "Ingresa el detalle que deseas (por ejemplo, '1 de marzo')",
+        "whatYoureChecking": "Lo que estás verificando (por ejemplo, 'Fecha' o 'Estado')",
+        "howItCompares": "Cómo se compara (por ejemplo, 'es igual a' o 'es después de')",
+        "theDetailYoureLookingFor": "El detalle que estás buscando (por ejemplo, '1 de marzo' o 'Completado')",
+        "meansAllConditionsMustBeTrue": "significa que todas las condiciones deben ser verdaderas para que se active el flujo de trabajo",
+        "egBothConditionsTrue": "Ejemplo: Si tanto 'El estado es Completado' como 'La fecha es el 1 de marzo' son verdaderos, el flujo de trabajo comenzará.",
+        "egEitherConditionsTrue": "Ejemplo: Si 'El estado es Completado' o 'La prioridad es alta', el flujo de trabajo comenzará.",
+        "youCanGroupConditions": "También puedes agrupar condiciones para crear reglas más complejas, combinando Y y O.",
+        "seeExample": "Ver ejemplo",
+        "example": "Ejemplo",
+        "youCanAlsoGroupConditions": "También puedes agrupar condiciones para crear reglas más complejas, combinando Y y O.",
+        "andOrConditionExample": "'(A O B) Y (C Y D Y E)' significa:",
+        "eitherAOrBMustBeTrue": "O A o B deben ser verdaderos,",
+        "andMustBeTrue": "y",
+        "allCDEMustBeTrue": "Todos C, D y E también deben ser verdaderos al mismo tiempo.",
+        "simpleBreakdown": "Desglose simple:",
+        "orPartGivesFlexibility": "La parte O te da flexibilidad:",
+        "andPartIsStrict": "La parte Y es estricta:",
+        "onlyOneThingNeedsToHappen": "Solo necesita suceder una cosa de ese grupo.",
+        "everythingInGroupMustHappen": "Todo en ese grupo debe suceder.",
+        "workflowHasNotBegun": "No se especificó un disparador de inicio.",
+        "clickHereToAdd": "Haga clic aquí para agregar.",
+        "noOfRules": "Núm. de reglas",
+        "activeWorkflow": "Flujo(s) de Trabajo Activo(s):",
+        "equalTo": "igual a",
+        "equalToEmpty": "igual a ' '",
+        "notEqualTo": "no igual a",
+        "notEqualToEmpty": "no igual a ' '",
+        "contains": "contiene",
+        "startsWith": "empieza con",
+        "endsWith": "termina con",
+        "isGreaterThan": "es mayor que",
+        "isGreaterThanOrEqualTo": "es mayor o igual que",
+        "isLessThan": "es menor que",
+        "isLessThanOrEqualTo": "es menor o igual que",
+        "today": "Hoy",
+        "yesterday": "Mañana",
+        "tomorrow": "Mañana",
+        "thisWeek": "Esta Semana",
+        "lastWeek": "La Semana Pasada",
+        "nextWeek": "La Próxima Semana",
+        "thisMonth": "Este Mes",
+        "lastMonth": "El Mes Pasado",
+        "nextMonth": "El Próximo Mes",
+        "thisYear": "Este Año",
+        "addDays": "Agregar Días",
+        "exampleCaps": "Ejemplo",
+        "exampleShort": "Ej"
       }
     },
     "templates": {
@@ -23259,10 +23263,10 @@
           "copyFieldsToAutoFillWithFieldExData": "Copia campos para autocompletar con datos de FieldEx",
           "addAButton": "Agregar un botón",
           "addATable": "Agregar una tabla",
-          "fileSizeRestriction":"Restricción de Tamaño de Archivo",
-          "acceptedFileFormats":"Formatos de Archivo Aceptados",
-          "maxAllowedIs100Kb":"El tamaño máximo permitido del archivo es de 100kb.",
-          "onlyImgFormat":"Solo se admiten formatos JPEG, JPG y PNG"
+          "fileSizeRestriction": "Restricción de Tamaño de Archivo",
+          "acceptedFileFormats": "Formatos de Archivo Aceptados",
+          "maxAllowedIs100Kb": "El tamaño máximo permitido del archivo es de 100kb.",
+          "onlyImgFormat": "Solo se admiten formatos JPEG, JPG y PNG"
         },
         "settings": {
           "label": {
@@ -23481,7 +23485,7 @@
             "includeTableInEmail": "Incluir una tabla en el correo electrónico",
             "selectFieldFilter": "Filtrar por...",
             "selectModule": "Seleccionar módulo",
-            "selectTemplate":"Seleccionar plantilla",
+            "selectTemplate": "Seleccionar plantilla",
             "selectSortBy": "La tabla debería ordenar por...",
             "maximumFiveColumnsAdded": "Se pueden agregar un máximo de 5 columnas"
           }
@@ -23564,7 +23568,7 @@
       "setupSystemCategoryIdExists": "Una nueva categoría del sistema no puede ya tener un ID",
       "setupSystemCategoryIdNotFound": "ID no encontrado",
       "setupSystemCategoryNameExists": "El nombre ya existe",
-      "setupSystemCategoryCannotDeleteByJobOrderTemplates" : "No se puede eliminar: la categoría del sistema es parte de una o más plantillas de órdenes de trabajo",
+      "setupSystemCategoryCannotDeleteByJobOrderTemplates": "No se puede eliminar: la categoría del sistema es parte de una o más plantillas de órdenes de trabajo",
       "setupJobOrderTypeIdExists": "Un nuevo tipo de orden de trabajo no puede ya tener un ID",
       "setupJobOrderTypeIdNotFound": "ID no encontrado",
       "setupJobOrderTypeNameExists": "El nombre ya existe",
@@ -23694,7 +23698,7 @@
       "setupTmplChecklistHasCircularFollowupCheckList": "Los datos de la lista de verificación de seguimiento circular existen en el sistema para la lista de verificación",
       "setupTmplChecklistHasFollowupCheckList": "Los datos de la lista de verificación de seguimiento existen en el sistema para la lista de verificación",
       "setupTmplChecklistHasQuestions": "Los datos de preguntas existen en el sistema para la lista de verificación",
-      "setupTmplChecklistUsedInFollowupCheckList":"Esta lista de verificación está configurada como una lista de verificación de seguimiento para otra lista de verificación",
+      "setupTmplChecklistUsedInFollowupCheckList": "Esta lista de verificación está configurada como una lista de verificación de seguimiento para otra lista de verificación",
       "setupTmplChecklistModelTypeNotFound": "Se requiere modelo o tipo",
       "setupTmplJobOrderProductIdExists": "Un nuevo TmplJobOrderSparePart no puede ya tener un ID",
       "setupTmplJobOrderIdExists": "Un nuevo TmplJobOrder no puede ya tener un ID",
@@ -23721,16 +23725,16 @@
       "setupUserShiftEndTimeNotFound": "Hora de finalización no encontrada para el turno",
       "setupUserShiftNotFound": "Turno de usuario no encontrado",
       "setupZoneHasInventoryNotAllowedChangeLocation": "No se puede cambiar la ubicación de la zona cuando hay un inventario",
-      "setupWorkflowDeleteAlertInUse":"La notificación se utiliza en uno o más flujos de trabajo",
-      "setupWorkflowIdValuesRequired":"Se requiere el valor del ID del flujo de trabajo",
-      "setupWorkflowLinkedToNotifications":"El flujo de trabajo tiene notificaciones asignadas. Por favor, elimínelas primero",
-      "setupWorkflowMaxAllowedCount":"Se ha alcanzado el máximo de flujos de trabajo activos",
+      "setupWorkflowDeleteAlertInUse": "La notificación se utiliza en uno o más flujos de trabajo",
+      "setupWorkflowIdValuesRequired": "Se requiere el valor del ID del flujo de trabajo",
+      "setupWorkflowLinkedToNotifications": "El flujo de trabajo tiene notificaciones asignadas. Por favor, elimínelas primero",
+      "setupWorkflowMaxAllowedCount": "Se ha alcanzado el máximo de flujos de trabajo activos",
       "setupWorkflowMaxActionsPerWorkflow": "Acciones máximas por flujo de trabajo alcanzadas",
       "setupWorkflowEmailsMax": "Se alcanzó el número máximo permitido de direcciones de correo electrónico para notificaciones de flujo de trabajo",
       "setupWorkflowEmailUserMax": "Se alcanzó el número máximo de usuarios permitidos para notificaciones de flujo de trabajo",
       "setupWorkflowEmailUserGroupMax": "Se alcanzó el número máximo de usuarios permitidos para notificaciones de flujo de trabajo",
-      "setupTmplJobOrderLimitReached":"Has superado el límite de 50 plantillas activas. Cambia el estado de una plantilla no utilizada a 'Inactiva' para agregar otra plantilla activa.",
-      "tmplTaskLimitExceeded":"Has superado el límite de 50 plantillas activas. Cambia el estado de una plantilla no utilizada a 'Inactiva' para agregar otra plantilla activa.",
+      "setupTmplJobOrderLimitReached": "Has superado el límite de 50 plantillas activas. Cambia el estado de una plantilla no utilizada a 'Inactiva' para agregar otra plantilla activa.",
+      "tmplTaskLimitExceeded": "Has superado el límite de 50 plantillas activas. Cambia el estado de una plantilla no utilizada a 'Inactiva' para agregar otra plantilla activa.",
       "setupTmplTaskHasJobOrder": "No se puede eliminar: La plantilla se utiliza en una o más órdenes de trabajo",
       "setupTmplTaskHasJobOrderProduct": "No se puede eliminar: La plantilla se utiliza para crear uno o más productos de orden de trabajo"
     },
@@ -23908,7 +23912,7 @@
       "fileStoragePermission": "Permiso de Archivo/Almacenamiento:",
       "cameraPermission": "Permiso de Cámara:",
       "phonePermission": "Permiso de Teléfono:",
-      "appPermissions": "Permisos de la aplicación" 
+      "appPermissions": "Permisos de la aplicación"
     }
   },
   "message": {
@@ -24114,7 +24118,6 @@
       "dailyJobOrderSummary": "Resumen diario de órdenes de trabajo",
       "sparePartRecommendations": "Recomendaciones de repuestos",
       "resolutionSuggestions": "Sugerencias de resolución"
-
     },
     "validationsFE": {
       "currentPasswordIsRequired": "Se requiere la contraseña actual",
@@ -24636,7 +24639,7 @@
       "pendingWorkOrders": "Órdenes de trabajo pendientes",
       "todaysTasks": "Tareas de Hoy",
       "tasksToAcceptDecline": "Tareas para Aceptar/Rechazar",
-      "toAccept" : "Aceptar",
+      "toAccept": "Aceptar",
       "assignedTasks": "Tareas Asignadas",
       "journeyPlanManagement": "Gestión del Plan de Viaje",
       "CreateTask": "¡Crear Tarea!",
@@ -26858,7 +26861,7 @@
       },
       "assetStatusAfterChecklist": {
         "original": "Asset status after checklist",
-        "singular":"Asset status after checklist",
+        "singular": "Asset status after checklist",
         "plural": "Asset status after checklist",
         "setupEdit": false,
         "setupVisible": false
@@ -26901,7 +26904,7 @@
     "setupEdit": false,
     "label": {
       "original": "Price Book",
-      "singular": "Libro de Precios", 
+      "singular": "Libro de Precios",
       "plural": "Libros de Precios",
       "setupEdit": false,
       "setupVisible": false
@@ -27013,9 +27016,9 @@
       }
     },
     "validationFE": {
-      "contractPriceGreater":"El precio del contrato debe ser mayor que 0",
-      "pleaseSelectProduct":"Por favor, seleccione un producto.",
-      "productAdded":"El producto ya está agregado"
+      "contractPriceGreater": "El precio del contrato debe ser mayor que 0",
+      "pleaseSelectProduct": "Por favor, seleccione un producto.",
+      "productAdded": "El producto ya está agregado"
     },
     "validationBE": {
       "priceBookStandardNotChangeable": "No se puede cambiar el libro de precios estándar; configure otro como estándar primero",
@@ -27024,8 +27027,8 @@
       "priceBookCannotDeleteDueToProducts": "Este libro de precios no se puede eliminar porque está vinculado a uno o más productos",
       "priceBookCannotDeleteDueToCustomers": "Este libro de precios no se puede eliminar porque está vinculado a uno o más clientes",
       "priceBookCannotDeleteDueToRateCards": "Este libro de precios no se puede eliminar porque está vinculado a una o más tarjetas de tarifas",
-      "priceBookCannotDeleteDueToStandard": "No se puede eliminar: Este es el libro de precios estándar", 
-      "priceBookCannotDeleteDueToContracts": "No se puede eliminar: Este libro de precios está vinculado actualmente a contratos activos. Desvincúlelo de todos los contratos asociados antes de proceder con la eliminación", 
+      "priceBookCannotDeleteDueToStandard": "No se puede eliminar: Este es el libro de precios estándar",
+      "priceBookCannotDeleteDueToContracts": "No se puede eliminar: Este libro de precios está vinculado actualmente a contratos activos. Desvincúlelo de todos los contratos asociados antes de proceder con la eliminación",
       "priceBookCannotDeleteDueToJobOrders": "No se puede eliminar: Este libro de precios está vinculado actualmente a una orden de trabajo. Desvincúlelo de todas las órdenes de trabajo asociadas antes de proceder con la eliminación",
       "priceBookIdExists": "Un nuevo libro de precios no puede tener ya un ID",
       "priceBookConfigIdExists": "Una nueva configuración de libro de precios no puede tener ya un ID",
@@ -27040,19 +27043,19 @@
       "priceBookProductEmptyList": "La lista de productos del libro de precios no puede estar vacía",
       "priceBookProductDifferentPriceBooks": "No se pueden agregar productos en masa para diferentes libros de precios a la vez",
       "priceBookContractMandatory": "El contrato es obligatorio al crear un libro de precios",
-      "PriceBookModificationsNotAllowedForStandard": "No se puede modificar el libro de precios estándar", 
-      "priceBookProductAlreadyAdded": "El producto ya está añadido", 
-      "priceBookStatusMandatory": "El estado del libro de precios es obligatorio", 
-      "PriceBookProductsModificationsNotAllowedForStandard": "No se pueden modificar los productos del libro de precios estándar", 
+      "PriceBookModificationsNotAllowedForStandard": "No se puede modificar el libro de precios estándar",
+      "priceBookProductAlreadyAdded": "El producto ya está añadido",
+      "priceBookStatusMandatory": "El estado del libro de precios es obligatorio",
+      "PriceBookProductsModificationsNotAllowedForStandard": "No se pueden modificar los productos del libro de precios estándar",
       "PriceBookProductsDeletionNotAllowedForStandard": "No se pueden eliminar los productos del libro de precios estándar"
     },
     "tooltips": {},
     "messages": {
-      "fromThisPriceBook":"¿de este libro de precios?",
-      "confirmPriceBookDeletion":"Confirmar Eliminación del Libro de Precios",
-      "confirmContractRemoval":"Confirmar Eliminación del Contrato",
-      "confirmRemovalPricing":"Confirmar Eliminación de Precios de Producto",
-      "areYouSureRemoveProduct":"¿Está seguro de que desea eliminar este producto de"
+      "fromThisPriceBook": "¿de este libro de precios?",
+      "confirmPriceBookDeletion": "Confirmar Eliminación del Libro de Precios",
+      "confirmContractRemoval": "Confirmar Eliminación del Contrato",
+      "confirmRemovalPricing": "Confirmar Eliminación de Precios de Producto",
+      "areYouSureRemoveProduct": "¿Está seguro de que desea eliminar este producto de"
     }
   },
   "rateCard": {
@@ -27060,7 +27063,7 @@
     "setupEdit": false,
     "label": {
       "original": "Rate Card",
-      "singular": "Tarjeta de Tarifas", 
+      "singular": "Tarjeta de Tarifas",
       "plural": "Tarjetas de Tarifas",
       "setupEdit": false,
       "setupVisible": false
@@ -27137,8 +27140,8 @@
       }
     },
     "validationFE": {
-       "oneActiveRateCardPerContract":"Solo se permite una tarjeta de tarifa activa por contrato",
-       "pleaseEnterValueBetween":"Por favor, introduzca un valor entre 1 y 59."
+      "oneActiveRateCardPerContract": "Solo se permite una tarjeta de tarifa activa por contrato",
+      "pleaseEnterValueBetween": "Por favor, introduzca un valor entre 1 y 59."
     },
     "validationBE": {
       "rateCardNotFound": "Tarjeta de tarifas no encontrada",

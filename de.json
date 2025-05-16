@@ -19910,6 +19910,10 @@
               "setupEdit": false,
               "setupVisible": false
             }
+          },
+          "messages": {
+            "whenSelectingBin":"Beim Auswählen eines Behälters in FieldEx wird er im folgenden Format angezeigt",
+            "useShortCodes":"Verwenden Sie Kurzcodes für Standort-, Zonen- und Behälternamen zur einfachen Referenz"
           }
         },
         "validationFE": {},

@@ -19910,6 +19910,10 @@
               "setupEdit": false,
               "setupVisible": false
             }
+          },
+          "messages": {
+            "whenSelectingBin":"When selecting a bin in FieldEx, it will be displayed in the format",
+            "useShortCodes":"Use short codes for Location, Zone and Bin names for easy reference"
           }
         },
         "validationFE": {},

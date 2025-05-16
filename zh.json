@@ -19910,6 +19910,10 @@
               "setupEdit": false,
               "setupVisible": false
             }
+          },
+          "messages": {
+            "whenSelectingBin":"在 FieldEx 中选择箱位时，将以以下格式显示",
+            "useShortCodes":"为位置、区域和箱位名称使用简码以便于参考"
           }
         },
         "validationFE": {},

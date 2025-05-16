@@ -19909,6 +19909,10 @@
               "setupEdit": false,
               "setupVisible": false
             }
+          },
+          "messages": {
+            "whenSelectingBin":"Apabila memilih tong dalam FieldEx, ia akan dipaparkan dalam format",
+            "useShortCodes":"Gunakan kod ringkas untuk nama Lokasi, Zon dan Tong bagi rujukan mudah"
           }
         },
         "validationFE": {},
