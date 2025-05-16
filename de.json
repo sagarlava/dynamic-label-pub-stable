@@ -19682,6 +19682,17 @@
               "setupVisible": false
             }
           },
+          "tooltips": {
+            "setupEdit": false,
+            "setupVisible": false,
+            "defaultZoneGroup":{
+              "original": "This is the default managing group for all zones under this location",
+              "singular": "Dies ist die Standardverwaltungsgruppe für alle Zonen unter diesem Standort",
+              "plural": "Dies ist die Standardverwaltungsgruppe für alle Zonen unter diesem Standort",
+              "setupEdit": false,
+              "setupVisible": false
+            }
+          },
           "validationFE": {
             "pleaseSelectOne": "Bitte wählen Sie ein Ersatzteil oder einen Vermögenswert aus"
           }

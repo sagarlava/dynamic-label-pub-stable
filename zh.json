@@ -19682,6 +19682,17 @@
               "setupVisible": false
             }
           },
+          "tooltips": {
+            "setupEdit": false,
+            "setupVisible": false,
+            "defaultZoneGroup":{
+              "original": "This is the default managing group for all zones under this location",
+              "singular": "这是该位置下所有区域的默认管理组",
+              "plural": "这是该位置下所有区域的默认管理组",
+              "setupEdit": false,
+              "setupVisible": false
+            }
+          },
           "validationFE": {
             "pleaseSelectOne": "请选择一个备件或一项资产"
           }

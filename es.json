@@ -19682,6 +19682,17 @@
               "setupVisible": false
             }
           },
+          "tooltips": {
+            "setupEdit": false,
+            "setupVisible": false,
+            "defaultZoneGroup":{
+              "original": "This is the default managing group for all zones under this location",
+              "singular": "Este es el grupo de gestión predeterminado para todas las zonas bajo esta ubicación",
+              "plural": "Este es el grupo de gestión predeterminado para todas las zonas bajo esta ubicación",
+              "setupEdit": false,
+              "setupVisible": false
+            }
+          },
           "validationFE": {
             "pleaseSelectOne": "Por favor, seleccione un repuesto o un activo"
           }

@@ -19682,6 +19682,17 @@
               "setupVisible": false
             }
           },
+          "tooltips": {
+            "setupEdit": false,
+            "setupVisible": false,
+            "defaultZoneGroup":{
+              "original": "This is the default managing group for all zones under this location",
+              "singular": "This is the default managing group for all zones under this location",
+              "plural": "This is the default managing group for all zones under this location",
+              "setupEdit": false,
+              "setupVisible": false
+            }
+          },
           "validationFE":{
             "pleaseSelectOne":"Please select one Spare Part or one Asset"
           }

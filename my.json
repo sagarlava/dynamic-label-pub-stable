@@ -19681,6 +19681,17 @@
               "setupVisible": false
             }
           },
+          "tooltips": {
+            "setupEdit": false,
+            "setupVisible": false,
+            "defaultZoneGroup":{
+              "original": "This is the default managing group for all zones under this location",
+              "singular": "Ini ialah kumpulan pengurusan lalai untuk semua zon di bawah lokasi ini",
+              "plural": "Ini ialah kumpulan pengurusan lalai untuk semua zon di bawah lokasi ini",
+              "setupEdit": false,
+              "setupVisible": false
+            }
+          },
           "validationFE": {
             "pleaseSelectOne": "Sila pilih satu Alat Ganti atau satu Aset"
           }
