@@ -19923,6 +19923,43 @@
             "useShortCodes":"Verwenden Sie Kurzcodes für Standort-, Zonen- und Behälternamen zur einfachen Referenz"
           }
         },
+        "userBin": {
+          "setupEdit": false,
+          "setupVisible": false,
+          "label": {
+            "original": "User Bins",
+            "singular": "Benutzerbehälter",
+            "plural": "Benutzerbehälter",
+            "setupEdit": false,
+            "setupVisible": false
+          },          
+          "sections": {
+            "setupEdit": false,
+            "setupVisible": false,
+            "sec0": {
+              "original": "Create User Bin",
+              "singular": "Benutzerbehälter erstellen",
+              "plural": "Benutzerbehälter erstellen",
+              "setupEdit": false,
+              "setupVisible": false
+            }
+          },
+          "fields": {
+            "setupEdit": false,
+            "setupVisible": false,
+            "user": {
+              "original": "User",
+              "singular": "Benutzer",
+              "plural": "Benutzer",
+              "setupEdit": false,
+              "setupVisible": false
+            }
+          },
+          "messages": {
+            "selectUser": "Benutzer auswählen",
+            "selectUserCreateBin":"Wählen Sie den Benutzer aus, für den Sie einen Behälter erstellen möchten"
+          }
+        },
         "validationFE": {},
         "messages": {
           "selectStoreManager": "Filialleiter auswählen",

@@ -19922,6 +19922,43 @@
             "useShortCodes":"Gunakan kod ringkas untuk nama Lokasi, Zon dan Tong bagi rujukan mudah"
           }
         },
+        "userBin": {
+          "setupEdit": false,
+          "setupVisible": false,
+          "label": {
+            "original": "User Bins",
+            "singular": "Bin Pengguna",
+            "plural": "Bin-bin Pengguna",
+            "setupEdit": false,
+            "setupVisible": false
+          },          
+          "sections": {
+            "setupEdit": false,
+            "setupVisible": false,
+            "sec0": {
+              "original": "Create User Bin",
+              "singular": "Cipta Bin Pengguna",
+              "plural": "Cipta Bin Pengguna",
+              "setupEdit": false,
+              "setupVisible": false
+            }
+          },
+          "fields": {
+            "setupEdit": false,
+            "setupVisible": false,
+            "user": {
+              "original": "User",
+              "singular": "Pengguna",
+              "plural": "Pengguna-pengguna",
+              "setupEdit": false,
+              "setupVisible": false
+            }
+          },
+          "messages": {
+            "selectUser": "Pilih Pengguna",
+            "selectUserCreateBin":"Pilih pengguna untuk siapa anda ingin mencipta bin"
+          }
+        },
         "validationFE": {},
         "messages": {
           "selectStoreManager": "Pilih Pengurus Kedai",

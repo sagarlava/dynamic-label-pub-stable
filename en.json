@@ -19923,6 +19923,43 @@
             "useShortCodes":"Use short codes for Location, Zone and Bin names for easy reference"
           }
         },
+        "userBin": {
+          "setupEdit": false,
+          "setupVisible": false,
+          "label": {
+            "original": "User Bins",
+            "singular": "User Bin",
+            "plural": "User Bins",
+            "setupEdit": false,
+            "setupVisible": false
+          },          
+          "sections": {
+            "setupEdit": false,
+            "setupVisible": false,
+            "sec0": {
+              "original": "Create User Bin",
+              "singular": "Create User Bin",
+              "plural": "Create User Bin",
+              "setupEdit": false,
+              "setupVisible": false
+            }
+          },
+          "fields": {
+            "setupEdit": false,
+            "setupVisible": false,
+            "user": {
+              "original": "User",
+              "singular": "User",
+              "plural": "Users",
+              "setupEdit": false,
+              "setupVisible": false
+            }
+          },
+          "messages": {
+            "selectUser": "Select User",
+            "selectUserCreateBin":"Select the user you wish to create a bin for"
+          }
+        },
         "validationFE": {},
         "messages": {
           "selectStoreManager": "Select Store Manager",

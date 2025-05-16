@@ -19923,6 +19923,43 @@
             "useShortCodes":"Utiliza códigos cortos para nombres de Ubicación, Zona y Contenedor para facilitar la referencia"
           }
         },
+        "userBin": {
+          "setupEdit": false,
+          "setupVisible": false,
+          "label": {
+            "original": "User Bins",
+            "singular": "Contenedor de usuario",
+            "plural": "Contenedor de usuario",
+            "setupEdit": false,
+            "setupVisible": false
+          },          
+          "sections": {
+            "setupEdit": false,
+            "setupVisible": false,
+            "sec0": {
+              "original": "Create User Bin",
+              "singular": "Crear contenedor de usuario",
+              "plural": "Crear contenedor de usuario",
+              "setupEdit": false,
+              "setupVisible": false
+            }
+          },
+          "fields": {
+            "setupEdit": false,
+            "setupVisible": false,
+            "user": {
+              "original": "User",
+              "singular": "Usuario",
+              "plural": "Usuarios",
+              "setupEdit": false,
+              "setupVisible": false
+            }
+          },
+          "messages": {
+            "selectUser": "Seleccionar usuario",
+            "selectUserCreateBin":"Selecciona el usuario para quien deseas crear un contenedor"
+          }
+        },
         "validationFE": {},
         "messages": {
           "selectStoreManager": "Selecciona el Gerente de Almacén",

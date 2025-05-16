@@ -19923,6 +19923,43 @@
             "useShortCodes":"为位置、区域和箱位名称使用简码以便于参考"
           }
         },
+        "userBin": {
+          "setupEdit": false,
+          "setupVisible": false,
+          "label": {
+            "original": "User Bins",
+            "singular": "用户箱位",
+            "plural": "用户箱位",
+            "setupEdit": false,
+            "setupVisible": false
+          },          
+          "sections": {
+            "setupEdit": false,
+            "setupVisible": false,
+            "sec0": {
+              "original": "Create User Bin",
+              "singular": "创建用户箱位",
+              "plural": "创建用户箱位",
+              "setupEdit": false,
+              "setupVisible": false
+            }
+          },
+          "fields": {
+            "setupEdit": false,
+            "setupVisible": false,
+            "user": {
+              "original": "User",
+              "singular": "用户",
+              "plural": "用户",
+              "setupEdit": false,
+              "setupVisible": false
+            }
+          },
+          "messages": {
+            "selectUser": "选择用户",
+            "selectUserCreateBin":"选择您要为其创建箱位的用户"
+          }
+        },
         "validationFE": {},
         "messages": {
           "selectStoreManager": "选择店经理",
