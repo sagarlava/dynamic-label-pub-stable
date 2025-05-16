@@ -20112,30 +20112,33 @@
         }
       },
       "inventory": {
+        "setupEdit": false,
         "setupVisible": false,
         "label": {
           "original": "Inventory",
           "singular": "Inventori",
           "plural": "Inventori",
-          "setupEdit": true,
+          "setupEdit": false,
           "setupVisible": false
         },
         "location": {
+          "setupEdit": false,
           "setupVisible": false,
           "label": {
             "original": "Location",
             "singular": "Lokasi",
             "plural": "Lokasi",
-            "setupEdit": true,
+            "setupEdit": false,
             "setupVisible": false
           },
           "sections": {
+            "setupEdit": false,
             "setupVisible": false,
             "sec0": {
               "original": "Location Details",
               "singular": "Butiran Lokasi",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": false
             }
           },
@@ -20145,254 +20148,342 @@
               "original": "Location ID",
               "singular": "ID Lokasi",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": false
             },
             "name": {
               "original": "Name",
               "singular": "Nama",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": false
             },
             "fullAddress": {
               "original": "Full Address",
               "singular": "Alamat Penuh",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": false
             },
             "shortCode": {
               "original": "Short Code",
               "singular": "Kod Pendek",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": false
             },
             "extId": {
               "original": "External ID",
               "singular": "ID Luaran",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": false
             },
             "storeManager": {
               "original": "Store Manager",
               "singular": "Pengurus Kedai",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": false
             },
             "userGroup": {
               "original": "User Group",
               "singular": "Kumpulan Pengguna",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": false
             },
             "description": {
               "original": "Description",
               "singular": "Penerangan",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
+              "setupVisible": false
+            },
+            "defaultZoneGroup": {
+              "original": "Default Zone Group",
+              "singular": "Kumpulan Zon Lalai",
+              "plural": "Kumpulan Zon Lalai",
+              "setupEdit": false,
+              "setupVisible": false
+            }
+          },
+          "tooltips": {
+            "setupEdit": false,
+            "setupVisible": false,
+            "defaultZoneGroup":{
+              "original": "This is the default managing group for all zones under this location",
+              "singular": "Ini ialah kumpulan pengurusan lalai untuk semua zon di bawah lokasi ini",
+              "plural": "Ini ialah kumpulan pengurusan lalai untuk semua zon di bawah lokasi ini",
+              "setupEdit": false,
               "setupVisible": false
             }
           },
           "validationFE": {
             "pleaseSelectOne": "Sila pilih satu Alat Ganti atau satu Aset"
+          },
+          "messages": {
+            "setDefaultZoneGroup": "Tetapkan kumpulan zon lalai untuk semua zon di bawah lokasi ini",
+            "enablingThisSetManagingGroup":"Membolehkan ini akan menetapkan 'Kumpulan Zon Lalai' (dipilih di atas) sebagai kumpulan pengurusan untuk semua Zon di bawah Lokasi ini",
+            "actionOverrideExistingGroup":"Tindakan ini akan menimpa sebarang tugasan kumpulan sedia ada",
+            "selectLocation":"Pilih Lokasi"
           }
         },
         "zones": {
+          "setupEdit": false,
           "setupVisible": false,
           "label": {
             "original": "Zones",
             "singular": "Zon",
             "plural": "Zon",
-            "setupEdit": true,
+            "setupEdit": false,
             "setupVisible": false
           },
           "sections": {
+            "setupEdit": false,
             "setupVisible": false,
             "sec0": {
               "original": "Zone Details",
               "singular": "Butiran Zon",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": false
             }
           },
           "fields": {
+            "setupEdit": false,
             "setupVisible": false,
             "zoneNumber": {
               "original": "Zone Number",
               "singular": "Nombor Zon",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": false
             },
             "zoneId": {
               "original": "Zone ID",
               "singular": "ID Zon",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": false
             },
             "name": {
               "original": "Name",
               "singular": "Nama",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": false
             },
             "displayName": {
               "original": "Display Name",
               "singular": "Nama Paparan",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": false
             },
             "location": {
               "original": "Location",
               "singular": "Lokasi",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": false
             },
             "shortCode": {
               "original": "Short Code",
               "singular": "Kod Pendek",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": false
             },
             "extId": {
               "original": "External ID",
               "singular": "ID Luaran",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": false
             },
             "storeManager": {
               "original": "Store Manager",
               "singular": "Pengurus Kedai",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": false
             },
             "userGroup": {
               "original": "User Group",
               "singular": "Kumpulan Pengguna",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": false
             },
             "description": {
               "original": "Description",
               "singular": "Penerangan",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
+              "setupVisible": false
+            },
+            "managingGroup": {
+              "original": "Managing Group",
+              "singular": "Kumpulan Pengurusan",
+              "plural": "Kumpulan Pengurusan",
+              "setupEdit": false,
               "setupVisible": false
             }
+          },
+          "messages": {
+            "selectGroup":"Pilih Kumpulan"
           }
         },
         "bins": {
+          "setupEdit": false,
           "setupVisible": false,
           "label": {
             "original": "Bins",
             "singular": "Bin",
             "plural": "Bin",
-            "setupEdit": true,
+            "setupEdit": false,
             "setupVisible": false
           },
           "sections": {
+            "setupEdit": false,
             "setupVisible": false,
             "sec0": {
               "original": "Bin Details",
               "singular": "Butiran Bin",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": false
             },
             "sec1": {
               "original": "Type Details",
               "singular": "Butiran Jenis",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": false
             },
             "sec2": {
               "original": "Additional Details",
               "singular": "Butiran Tambahan",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": false
             }
           },
           "fields": {
+            "setupEdit": false,
             "setupVisible": false,
             "binNumber": {
               "original": "Bin Number",
               "singular": "Nombor Bin",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": false
             },
             "binId": {
               "original": "Bin ID",
               "singular": "ID Bin",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": false
             },
             "name": {
               "original": "Name",
               "singular": "Nama",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": false
             },
             "displayName": {
               "original": "Display Name",
               "singular": "Nama Paparan",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": false
             },
             "locationZone": {
               "original": "Location & Zone",
               "singular": "Lokasi & Zon",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": false
             },
             "shortCode": {
               "original": "Short Code",
               "singular": "Kod Pendek",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": false
             },
             "extId": {
               "original": "External ID",
               "singular": "ID Luaran",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": false
             },
             "user": {
               "original": "User",
               "singular": "Pengguna",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": false
             },
             "description": {
               "original": "Description",
               "singular": "Penerangan",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
+              "setupVisible": false
+            },
+            "binDisplayName": {
+              "original": "Bin Display Name",
+              "singular": "Nama Paparan Bin",
+              "plural": "Nama Paparan Bin",
+              "setupEdit": false,
               "setupVisible": false
             }
+          },
+          "messages": {
+            "whenSelectingBin":"Apabila memilih tong dalam FieldEx, ia akan dipaparkan dalam format",
+            "useShortCodes":"Gunakan kod ringkas untuk nama Lokasi, Zon dan Tong bagi rujukan mudah"
+          }
+        },
+        "userBin": {
+          "setupEdit": false,
+          "setupVisible": false,
+          "label": {
+            "original": "User Bins",
+            "singular": "Bin Pengguna",
+            "plural": "Bin-bin Pengguna",
+            "setupEdit": false,
+            "setupVisible": false
+          },          
+          "sections": {
+            "setupEdit": false,
+            "setupVisible": false,
+            "sec0": {
+              "original": "Create User Bin",
+              "singular": "Cipta Bin Pengguna",
+              "plural": "Cipta Bin Pengguna",
+              "setupEdit": false,
+              "setupVisible": false
+            }
+          },
+          "fields": {
+            "setupEdit": false,
+            "setupVisible": false,
+            "user": {
+              "original": "User",
+              "singular": "Pengguna",
+              "plural": "Pengguna-pengguna",
+              "setupEdit": false,
+              "setupVisible": false
+            }
+          },
+          "messages": {
+            "selectUser": "Pilih Pengguna",
+            "selectUserCreateBin":"Pilih pengguna untuk siapa anda ingin mencipta bin"
           }
         },
         "validationFE": {},

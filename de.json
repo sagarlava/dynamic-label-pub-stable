@@ -20111,287 +20111,379 @@
         }
       },
       "inventory": {
-        "setupVisible": false,
+          "setupEdit": false,
+          "setupVisible": false,
         "label": {
           "original": "Inventory",
           "singular": "Lager",
           "plural": "Lager",
-          "setupEdit": true,
+          "setupEdit": false,
           "setupVisible": false
         },
         "location": {
+          "setupEdit": false,
           "setupVisible": false,
           "label": {
             "original": "Location",
             "singular": "Standort",
             "plural": "Standorte",
-            "setupEdit": true,
+            "setupEdit": false,
             "setupVisible": false
           },
           "sections": {
-            "setupVisible": false,
+          "setupEdit": false,
+          "setupVisible": false,
             "sec0": {
               "original": "Location Details",
               "singular": "Standortdetails",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": false
             }
           },
           "fields": {
-            "setupVisible": false,
+          "setupEdit": false,
+          "setupVisible": false,
             "locationId": {
               "original": "Location ID",
               "singular": "Standort-ID",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": false
             },
             "name": {
               "original": "Name",
               "singular": "Name",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": false
             },
             "fullAddress": {
               "original": "Full Address",
               "singular": "Vollständige Adresse",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": false
             },
             "shortCode": {
               "original": "Short Code",
               "singular": "Kurzcode",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": false
             },
             "extId": {
               "original": "External ID",
               "singular": "Externe ID",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": false
             },
             "storeManager": {
               "original": "Store Manager",
               "singular": "Filialleiter",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": false
             },
             "userGroup": {
               "original": "User Group",
               "singular": "Benutzergruppe",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": false
             },
             "description": {
               "original": "Description",
               "singular": "Beschreibung",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
+              "setupVisible": false
+            },
+            "defaultZoneGroup": {
+              "original": "Default Zone Group",
+              "singular": "Standard-Zonengruppe",
+              "plural": "Standard-Zonengruppe",
+              "setupEdit": false,
+              "setupVisible": false
+            }
+          },
+          "tooltips": {
+            "setupEdit": false,
+            "setupVisible": false,
+            "defaultZoneGroup":{
+              "original": "This is the default managing group for all zones under this location",
+              "singular": "Dies ist die Standardverwaltungsgruppe für alle Zonen unter diesem Standort",
+              "plural": "Dies ist die Standardverwaltungsgruppe für alle Zonen unter diesem Standort",
+              "setupEdit": false,
               "setupVisible": false
             }
           },
           "validationFE": {
             "pleaseSelectOne": "Bitte wählen Sie ein Ersatzteil oder einen Vermögenswert aus"
+          },
+          "messages": {
+            "setDefaultZoneGroup": "Standard-Zonengruppe für alle Zonen unter diesem Standort festlegen",
+            "enablingThisSetManagingGroup":"Durch Aktivieren wird die 'Standard-Zonengruppe' (oben ausgewählt) als Verwaltungsgruppe für alle Zonen unter diesem Standort festgelegt",
+            "actionOverrideExistingGroup":"Diese Aktion überschreibt alle bestehenden Gruppenzuweisungen",
+            "selectLocation":"Standort auswählen"
           }
         },
         "zones": {
+          "setupEdit": false,
           "setupVisible": false,
           "label": {
             "original": "Zones",
             "singular": "Zone",
             "plural": "Zonen",
-            "setupEdit": true,
+            "setupEdit": false,
             "setupVisible": false
           },
           "sections": {
-            "setupVisible": false,
+          "setupEdit": false,
+          "setupVisible": false,
             "sec0": {
               "original": "Zone Details",
               "singular": "Zonendetails",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": false
             }
           },
           "fields": {
-            "setupVisible": false,
+          "setupEdit": false,
+          "setupVisible": false,
             "zoneNumber": {
               "original": "Zone Number",
               "singular": "Zonennummer",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": false
             },
             "zoneId": {
               "original": "Zone ID",
               "singular": "Zonen-ID",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": false
             },
             "name": {
               "original": "Name",
               "singular": "Name",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": false
             },
             "displayName": {
               "original": "Display Name",
               "singular": "Anzeigename",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": false
             },
             "location": {
               "original": "Location",
               "singular": "Standort",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": false
             },
             "shortCode": {
               "original": "Short Code",
               "singular": "Kurzcode",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": false
             },
             "extId": {
               "original": "External ID",
               "singular": "Externe ID",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": false
             },
             "storeManager": {
               "original": "Store Manager",
               "singular": "Filialleiter",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": false
             },
             "userGroup": {
               "original": "User Group",
               "singular": "Benutzergruppe",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": false
             },
             "description": {
               "original": "Description",
               "singular": "Beschreibung",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
+              "setupVisible": false
+            },
+            "managingGroup": {
+              "original": "Managing Group",
+              "singular": "Verwaltungsgruppe",
+              "plural": "Verwaltungsgruppe",
+              "setupEdit": false,
               "setupVisible": false
             }
+          },
+          "messages": {
+            "selectGroup":"Gruppe auswählen"
           }
         },
         "bins": {
+          "setupEdit": false,
           "setupVisible": false,
           "label": {
             "original": "Bins",
             "singular": "Behälter",
             "plural": "Behälter",
-            "setupEdit": true,
+            "setupEdit": false,
             "setupVisible": false
           },
           "sections": {
-            "setupVisible": false,
+          "setupEdit": false,
+          "setupVisible": false,
             "sec0": {
               "original": "Bin Details",
               "singular": "Behälterdetails",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": false
             },
             "sec1": {
               "original": "Type Details",
               "singular": "Typdetails",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": false
             },
             "sec2": {
               "original": "Additional Details",
               "singular": "Zusätzliche Details",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": false
             }
           },
           "fields": {
-            "setupVisible": false,
+          "setupEdit": false,
+          "setupVisible": false,
             "binNumber": {
               "original": "Bin Number",
               "singular": "Behälternummer",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": false
             },
             "binId": {
               "original": "Bin ID",
               "singular": "Behälter-ID",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": false
             },
             "name": {
               "original": "Name",
               "singular": "Name",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": false
             },
             "displayName": {
               "original": "Display Name",
               "singular": "Anzeigename",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": false
             },
             "locationZone": {
               "original": "Location & Zone",
               "singular": "Standort & Zone",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": false
             },
             "shortCode": {
               "original": "Short Code",
               "singular": "Kurzcode",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": false
             },
             "extId": {
               "original": "External ID",
               "singular": "Externe ID",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": false
             },
             "user": {
               "original": "User",
               "singular": "Benutzer",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": false
             },
             "description": {
               "original": "Description",
               "singular": "Beschreibung",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
+              "setupVisible": false
+            },
+            "binDisplayName": {
+              "original": "Bin Display Name",
+              "singular": "Anzeigename des Behälters",
+              "plural": "Anzeigename des Behälters",
+              "setupEdit": false,
               "setupVisible": false
             }
+          },
+          "messages": {
+            "whenSelectingBin":"Beim Auswählen eines Behälters in FieldEx wird er im folgenden Format angezeigt",
+            "useShortCodes":"Verwenden Sie Kurzcodes für Standort-, Zonen- und Behälternamen zur einfachen Referenz"
+          }
+        },
+        "userBin": {
+          "setupEdit": false,
+          "setupVisible": false,
+          "label": {
+            "original": "User Bins",
+            "singular": "Benutzerbehälter",
+            "plural": "Benutzerbehälter",
+            "setupEdit": false,
+            "setupVisible": false
+          },          
+          "sections": {
+            "setupEdit": false,
+            "setupVisible": false,
+            "sec0": {
+              "original": "Create User Bin",
+              "singular": "Benutzerbehälter erstellen",
+              "plural": "Benutzerbehälter erstellen",
+              "setupEdit": false,
+              "setupVisible": false
+            }
+          },
+          "fields": {
+            "setupEdit": false,
+            "setupVisible": false,
+            "user": {
+              "original": "User",
+              "singular": "Benutzer",
+              "plural": "Benutzer",
+              "setupEdit": false,
+              "setupVisible": false
+            }
+          },
+          "messages": {
+            "selectUser": "Benutzer auswählen",
+            "selectUserCreateBin":"Wählen Sie den Benutzer aus, für den Sie einen Behälter erstellen möchten"
           }
         },
         "validationFE": {},

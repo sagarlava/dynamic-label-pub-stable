@@ -20111,287 +20111,379 @@
         }
       },
       "inventory": {
+        "setupEdit": false,
         "setupVisible": false,
         "label": {
           "original": "Inventory",
           "singular": "库存",
           "plural": "库存",
-          "setupEdit": true,
+          "setupEdit": false,
           "setupVisible": false
         },
         "location": {
+          "setupEdit": false,
           "setupVisible": false,
           "label": {
             "original": "Location",
             "singular": "位置",
             "plural": "位置",
-            "setupEdit": true,
+            "setupEdit": false,
             "setupVisible": false
           },
           "sections": {
+            "setupEdit": false,
             "setupVisible": false,
             "sec0": {
               "original": "Location Details",
               "singular": "位置详情",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": false
             }
           },
           "fields": {
+            "setupEdit": false,
             "setupVisible": false,
             "locationId": {
               "original": "Location ID",
               "singular": "位置ID",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": false
             },
             "name": {
               "original": "Name",
               "singular": "名称",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": false
             },
             "fullAddress": {
               "original": "Full Address",
               "singular": "完整地址",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": false
             },
             "shortCode": {
               "original": "Short Code",
               "singular": "短代码",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": false
             },
             "extId": {
               "original": "External ID",
               "singular": "外部ID",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": false
             },
             "storeManager": {
               "original": "Store Manager",
               "singular": "店长",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": false
             },
             "userGroup": {
               "original": "User Group",
               "singular": "用户组",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": false
             },
             "description": {
               "original": "Description",
               "singular": "描述",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
+              "setupVisible": false
+            },
+            "defaultZoneGroup": {
+              "original": "Default Zone Group",
+              "singular": "默认区域组",
+              "plural": "默认区域组",
+              "setupEdit": false,
+              "setupVisible": false
+            }
+          },
+          "tooltips": {
+            "setupEdit": false,
+            "setupVisible": false,
+            "defaultZoneGroup":{
+              "original": "This is the default managing group for all zones under this location",
+              "singular": "这是该位置下所有区域的默认管理组",
+              "plural": "这是该位置下所有区域的默认管理组",
+              "setupEdit": false,
               "setupVisible": false
             }
           },
           "validationFE": {
             "pleaseSelectOne": "请选择一个备件或一项资产"
+          },
+          "messages": {
+            "setDefaultZoneGroup": "为该位置下的所有区域设置默认区域组",
+            "enablingThisSetManagingGroup":"启用此选项后，将把（上方选择的）“默认区域组”设置为该位置下所有区域的管理组",
+            "actionOverrideExistingGroup":"此操作将覆盖任何现有的组分配",
+            "selectLocation":"选择位置"
           }
         },
         "zones": {
+          "setupEdit": false,
           "setupVisible": false,
           "label": {
             "original": "Zones",
             "singular": "区域",
             "plural": "区域",
-            "setupEdit": true,
+            "setupEdit": false,
             "setupVisible": false
           },
           "sections": {
-            "setupVisible": false,
+          "setupEdit": false,
+          "setupVisible": false,
             "sec0": {
               "original": "Zone Details",
               "singular": "区域详情",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": false
             }
           },
           "fields": {
-            "setupVisible": false,
+          "setupEdit": false,
+          "setupVisible": false,
             "zoneNumber": {
               "original": "Zone Number",
               "singular": "区域编号",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": false
             },
             "zoneId": {
               "original": "Zone ID",
               "singular": "区域ID",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": false
             },
             "name": {
               "original": "Name",
               "singular": "名称",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": false
             },
             "displayName": {
               "original": "Display Name",
               "singular": "显示名称",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": false
             },
             "location": {
               "original": "Location",
               "singular": "位置",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": false
             },
             "shortCode": {
               "original": "Short Code",
               "singular": "短代码",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": false
             },
             "extId": {
               "original": "External ID",
               "singular": "外部ID",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": false
             },
             "storeManager": {
               "original": "Store Manager",
               "singular": "店长",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": false
             },
             "userGroup": {
               "original": "User Group",
               "singular": "用户组",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": false
             },
             "description": {
               "original": "Description",
               "singular": "描述",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
+              "setupVisible": false
+            },
+            "managingGroup": {
+              "original": "Managing Group",
+              "singular": "管理组",
+              "plural": "管理组",
+              "setupEdit": false,
               "setupVisible": false
             }
+          },
+          "messages": {
+            "selectGroup":"选择组"
           }
         },
         "bins": {
+          "setupEdit": false,
           "setupVisible": false,
           "label": {
             "original": "Bins",
             "singular": "仓",
             "plural": "仓",
-            "setupEdit": true,
+            "setupEdit": false,
             "setupVisible": false
           },
           "sections": {
+            "setupEdit": false,
             "setupVisible": false,
             "sec0": {
               "original": "Bin Details",
               "singular": "仓详情",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": false
             },
             "sec1": {
               "original": "Type Details",
               "singular": "类型详情",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": false
             },
             "sec2": {
               "original": "Additional Details",
               "singular": "附加详情",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": false
             }
           },
           "fields": {
+            "setupEdit": false,
             "setupVisible": false,
             "binNumber": {
               "original": "Bin Number",
               "singular": "仓编号",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": false
             },
             "binId": {
               "original": "Bin ID",
               "singular": "仓ID",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": false
             },
             "name": {
               "original": "Name",
               "singular": "名称",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": false
             },
             "displayName": {
               "original": "Display Name",
               "singular": "显示名称",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": false
             },
             "locationZone": {
               "original": "Location & Zone",
               "singular": "位置 & 区域",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": false
             },
             "shortCode": {
               "original": "Short Code",
               "singular": "短代码",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": false
             },
             "extId": {
               "original": "External ID",
               "singular": "外部ID",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": false
             },
             "user": {
               "original": "User",
               "singular": "用户",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": false
             },
             "description": {
               "original": "Description",
               "singular": "描述",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
+              "setupVisible": false
+            },
+            "binDisplayName": {
+              "original": "Bin Display Name",
+              "singular": "箱位显示名称",
+              "plural": "箱位显示名称",
+              "setupEdit": false,
               "setupVisible": false
             }
+          },
+          "messages": {
+            "whenSelectingBin":"在 FieldEx 中选择箱位时，将以以下格式显示",
+            "useShortCodes":"为位置、区域和箱位名称使用简码以便于参考"
+          }
+        },
+        "userBin": {
+          "setupEdit": false,
+          "setupVisible": false,
+          "label": {
+            "original": "User Bins",
+            "singular": "用户箱位",
+            "plural": "用户箱位",
+            "setupEdit": false,
+            "setupVisible": false
+          },          
+          "sections": {
+            "setupEdit": false,
+            "setupVisible": false,
+            "sec0": {
+              "original": "Create User Bin",
+              "singular": "创建用户箱位",
+              "plural": "创建用户箱位",
+              "setupEdit": false,
+              "setupVisible": false
+            }
+          },
+          "fields": {
+            "setupEdit": false,
+            "setupVisible": false,
+            "user": {
+              "original": "User",
+              "singular": "用户",
+              "plural": "用户",
+              "setupEdit": false,
+              "setupVisible": false
+            }
+          },
+          "messages": {
+            "selectUser": "选择用户",
+            "selectUserCreateBin":"选择您要为其创建箱位的用户"
           }
         },
         "validationFE": {},

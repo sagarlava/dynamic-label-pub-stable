@@ -20109,289 +20109,381 @@
         "messages":{
           "commonResolutionsEncountered": "The most common resolutions for the faults encountered"
         }
-      },
+      },   
       "inventory": {
+        "setupEdit": false,
         "setupVisible": false,
         "label": {
           "original": "Inventory",
           "singular": "Inventory",
           "plural": "Inventories",
-          "setupEdit": true,
+          "setupEdit": false,
           "setupVisible": false
         },
         "location": {
+          "setupEdit": false,
           "setupVisible": false,
           "label": {
             "original": "Location",
             "singular": "Location",
             "plural": "Locations",
-            "setupEdit": true,
+            "setupEdit": false,
             "setupVisible": false
           },
           "sections": {
+            "setupEdit": false,
             "setupVisible": false,
             "sec0": {
               "original": "Location Details",
               "singular": "Location Details",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": false
             }
           },
           "fields": {
+            "setupEdit": false,
             "setupVisible": false,
             "locationId": {
               "original": "Location ID",
               "singular": "Location ID",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": false
             },
             "name": {
               "original": "Name",
               "singular": "Name",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": false
             },
             "fullAddress": {
               "original": "Full Address",
               "singular": "Full Address",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": false
             },
             "shortCode": {
               "original": "Short Code",
               "singular": "Short Code",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": false
             },
             "extId": {
               "original": "External ID",
               "singular": "External ID",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": false
             },
             "storeManager": {
               "original": "Store Manager",
               "singular": "Store Manager",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": false
             },
             "userGroup": {
               "original": "User Group",
               "singular": "User Group",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": false
             },
             "description": {
               "original": "Description",
               "singular": "Description",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
+              "setupVisible": false
+            },
+            "defaultZoneGroup": {
+              "original": "Default Zone Group",
+              "singular": "Default Zone Group",
+              "plural": "Default Zone Group",
+              "setupEdit": false,
+              "setupVisible": false
+            }
+          },
+          "tooltips": {
+            "setupEdit": false,
+            "setupVisible": false,
+            "defaultZoneGroup":{
+              "original": "This is the default managing group for all zones under this location",
+              "singular": "This is the default managing group for all zones under this location",
+              "plural": "This is the default managing group for all zones under this location",
+              "setupEdit": false,
               "setupVisible": false
             }
           },
           "validationFE":{
             "pleaseSelectOne":"Please select one Spare Part or one Asset"
+          },
+          "messages": {
+            "setDefaultZoneGroup": "Set default zone group for all zones under this location",
+            "enablingThisSetManagingGroup":"Enabling this will set the ‘Default Zone Group’ (selected above) as the managing group for all Zones under this Location",
+            "actionOverrideExistingGroup":"This action will override any existing group assignments",
+            "selectLocation":"Select Location"
           }
         },
         "zones": {
+          "setupEdit": false,
           "setupVisible": false,
           "label": {
             "original": "Zones",
             "singular": "Zone",
             "plural": "Zones",
-            "setupEdit": true,
+            "setupEdit": false,
             "setupVisible": false
           },
           "sections": {
+            "setupEdit": false,
             "setupVisible": false,
             "sec0": {
               "original": "Zone Details",
               "singular": "Zone Details",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": false
             }
           },
           "fields": {
+            "setupEdit": false,
             "setupVisible": false,
             "zoneNumber": {
               "original": "Zone Number",
               "singular": "Zone Number",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": false
             },
             "zoneId": {
               "original": "Zone ID",
               "singular": "Zone ID",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": false
             },
             "name": {
               "original": "Name",
               "singular": "Name",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": false
             },
             "displayName": {
               "original": "Display Name",
               "singular": "Display Name",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": false
             },
             "location": {
               "original": "Location",
               "singular": "Location",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": false
             },
             "shortCode": {
               "original": "Short Code",
               "singular": "Short Code",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": false
             },
             "extId": {
               "original": "External ID",
               "singular": "External ID",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": false
             },
             "storeManager": {
               "original": "Store Manager",
               "singular": "Store Manager",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": false
             },
             "userGroup": {
               "original": "User Group",
               "singular": "User Group",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": false
             },
             "description": {
               "original": "Description",
               "singular": "Description",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
+              "setupVisible": false
+            },
+            "managingGroup": {
+              "original": "Managing Group",
+              "singular": "Managing Group",
+              "plural": "Managing Group",
+              "setupEdit": false,
               "setupVisible": false
             }
+          },
+          "messages": {
+            "selectGroup":"Select Group"
           }
         },
         "bins": {
+          "setupEdit": false,
           "setupVisible": false,
           "label": {
             "original": "Bins",
             "singular": "Bin",
             "plural": "Bins",
-            "setupEdit": true,
+            "setupEdit": false,
             "setupVisible": false
           },
           "sections": {
+            "setupEdit": false,
             "setupVisible": false,
             "sec0": {
               "original": "Bin Details",
               "singular": "Bin Details",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": false
             },
             "sec1": {
               "original": "Type Details",
               "singular": "Type Details",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": false
             },
             "sec2": {
               "original": "Additional Details",
               "singular": "Additional Details",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": false
             }
           },
           "fields": {
+            "setupEdit": false,
             "setupVisible": false,
             "binNumber": {
               "original": "Bin Number",
               "singular": "Bin Number",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": false
             },
             "binId": {
               "original": "Bin ID",
               "singular": "Bin ID",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": false
             },
             "name": {
               "original": "Name",
               "singular": "Name",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": false
             },
             "displayName": {
               "original": "Display Name",
               "singular": "Display Name",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": false
             },
             "locationZone": {
               "original": "Location & Zone",
               "singular": "Location & Zone",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": false
             },
             "shortCode": {
               "original": "Short Code",
               "singular": "Short Code",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": false
             },
             "extId": {
               "original": "External ID",
               "singular": "External ID",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": false
             },
             "user": {
               "original": "User",
               "singular": "User",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": false
             },
             "description": {
               "original": "Description",
               "singular": "Description",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
+              "setupVisible": false
+            },
+            "binDisplayName": {
+              "original": "Bin Display Name",
+              "singular": "Bin Display Name",
+              "plural": "Bin Display Name",
+              "setupEdit": false,
               "setupVisible": false
             }
+          },
+          "messages": {
+            "whenSelectingBin":"When selecting a bin in FieldEx, it will be displayed in the format",
+            "useShortCodes":"Use short codes for Location, Zone and Bin names for easy reference"
+          }
+        },
+        "userBin": {
+          "setupEdit": false,
+          "setupVisible": false,
+          "label": {
+            "original": "User Bins",
+            "singular": "User Bin",
+            "plural": "User Bins",
+            "setupEdit": false,
+            "setupVisible": false
+          },          
+          "sections": {
+            "setupEdit": false,
+            "setupVisible": false,
+            "sec0": {
+              "original": "Create User Bin",
+              "singular": "Create User Bin",
+              "plural": "Create User Bin",
+              "setupEdit": false,
+              "setupVisible": false
+            }
+          },
+          "fields": {
+            "setupEdit": false,
+            "setupVisible": false,
+            "user": {
+              "original": "User",
+              "singular": "User",
+              "plural": "Users",
+              "setupEdit": false,
+              "setupVisible": false
+            }
+          },
+          "messages": {
+            "selectUser": "Select User",
+            "selectUserCreateBin":"Select the user you wish to create a bin for"
           }
         },
         "validationFE": {},
