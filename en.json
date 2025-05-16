@@ -19673,6 +19673,13 @@
               "plural": "",
               "setupEdit": false,
               "setupVisible": false
+            },
+            "defaultZoneGroup": {
+              "original": "Default Zone Group",
+              "singular": "Default Zone Group",
+              "plural": "Default Zone Group",
+              "setupEdit": false,
+              "setupVisible": false
             }
           },
           "validationFE":{

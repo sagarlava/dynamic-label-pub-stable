@@ -19672,6 +19672,13 @@
               "plural": "",
               "setupEdit": false,
               "setupVisible": false
+            },
+            "defaultZoneGroup": {
+              "original": "Default Zone Group",
+              "singular": "Kumpulan Zon Lalai",
+              "plural": "Kumpulan Zon Lalai",
+              "setupEdit": false,
+              "setupVisible": false
             }
           },
           "validationFE": {
