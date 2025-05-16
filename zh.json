@@ -19699,7 +19699,8 @@
           "messages": {
             "setDefaultZoneGroup": "为该位置下的所有区域设置默认区域组",
             "enablingThisSetManagingGroup":"启用此选项后，将把（上方选择的）“默认区域组”设置为该位置下所有区域的管理组",
-            "actionOverrideExistingGroup":"此操作将覆盖任何现有的组分配"
+            "actionOverrideExistingGroup":"此操作将覆盖任何现有的组分配",
+            "selectLocation":"选择位置"
           }
         },
         "zones": {
@@ -19803,6 +19804,9 @@
               "setupEdit": false,
               "setupVisible": false
             }
+          },
+          "messages": {
+            "selectGroup":"选择组"
           }
         },
         "bins": {

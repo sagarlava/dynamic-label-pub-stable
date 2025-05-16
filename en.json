@@ -19699,7 +19699,8 @@
           "messages": {
             "setDefaultZoneGroup": "Set default zone group for all zones under this location",
             "enablingThisSetManagingGroup":"Enabling this will set the ‘Default Zone Group’ (selected above) as the managing group for all Zones under this Location",
-            "actionOverrideExistingGroup":"This action will override any existing group assignments"
+            "actionOverrideExistingGroup":"This action will override any existing group assignments",
+            "selectLocation":"Select Location"
           }
         },
         "zones": {
@@ -19803,6 +19804,9 @@
               "setupEdit": false,
               "setupVisible": false
             }
+          },
+          "messages": {
+            "selectGroup":"Select Group"
           }
         },
         "bins": {

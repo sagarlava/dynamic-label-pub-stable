@@ -19699,7 +19699,8 @@
           "messages": {
             "setDefaultZoneGroup": "Standard-Zonengruppe für alle Zonen unter diesem Standort festlegen",
             "enablingThisSetManagingGroup":"Durch Aktivieren wird die 'Standard-Zonengruppe' (oben ausgewählt) als Verwaltungsgruppe für alle Zonen unter diesem Standort festgelegt",
-            "actionOverrideExistingGroup":"Diese Aktion überschreibt alle bestehenden Gruppenzuweisungen"
+            "actionOverrideExistingGroup":"Diese Aktion überschreibt alle bestehenden Gruppenzuweisungen",
+            "selectLocation":"Standort auswählen"
           }
         },
         "zones": {
@@ -19803,6 +19804,9 @@
               "setupEdit": false,
               "setupVisible": false
             }
+          },
+          "messages": {
+            "selectGroup":"Gruppe auswählen"
           }
         },
         "bins": {

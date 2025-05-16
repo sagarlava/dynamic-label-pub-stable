@@ -19699,7 +19699,8 @@
           "messages": {
             "setDefaultZoneGroup": "Establecer grupo de zona predeterminado para todas las zonas bajo esta ubicación",
             "enablingThisSetManagingGroup":"Al habilitar esto, se establecerá el 'Grupo de Zona Predeterminado' (seleccionado arriba) como grupo de gestión para todas las zonas bajo esta ubicación",
-            "actionOverrideExistingGroup":"Esta acción sobrescribirá cualquier asignación de grupo existente"
+            "actionOverrideExistingGroup":"Esta acción sobrescribirá cualquier asignación de grupo existente",
+            "selectLocation":"Seleccionar ubicación"
           }
         },
         "zones": {
@@ -19803,6 +19804,9 @@
               "setupEdit": false,
               "setupVisible": false
             }
+          },
+          "messages": {
+            "selectGroup":"Seleccionar grupo"
           }
         },
         "bins": {

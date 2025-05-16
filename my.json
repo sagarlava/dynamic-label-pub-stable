@@ -19698,7 +19698,8 @@
           "messages": {
             "setDefaultZoneGroup": "Tetapkan kumpulan zon lalai untuk semua zon di bawah lokasi ini",
             "enablingThisSetManagingGroup":"Membolehkan ini akan menetapkan 'Kumpulan Zon Lalai' (dipilih di atas) sebagai kumpulan pengurusan untuk semua Zon di bawah Lokasi ini",
-            "actionOverrideExistingGroup":"Tindakan ini akan menimpa sebarang tugasan kumpulan sedia ada"
+            "actionOverrideExistingGroup":"Tindakan ini akan menimpa sebarang tugasan kumpulan sedia ada",
+            "selectLocation":"Pilih Lokasi"
           }
         },
         "zones": {
@@ -19802,6 +19803,9 @@
               "setupEdit": false,
               "setupVisible": false
             }
+          },
+          "messages": {
+            "selectGroup":"Pilih Kumpulan"
           }
         },
         "bins": {
