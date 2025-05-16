@@ -1,32 +1,32 @@
 db.dynamic_label_setup.updateMany(
 {"module": "customer", "language": "de" },
 {$set: {"setup.sections.sec1.original": "Contact Details"} }
-)
+);
 
 db.dynamic_label_setup.updateMany(
 {"module": "customer", "language": "de" },
 {$set: {"setup.sections.sec1.singular": "Kontaktdetails"} }
-)
+);
 
 db.dynamic_label_setup.updateMany(
 {"module": "checklist", "language": "de" },
 {$set: {"setup.fields.assetStatusBeforeChecklist.singular": "Anlagenstatus vor der Checkliste"} }
-)
+);
 
 db.dynamic_label_setup.updateMany(
 {"module": "checklist", "language": "de" },
 {$set: {"setup.fields.assetStatusBeforeChecklist.plural": ""} }
-)
+);
 
 db.dynamic_label_setup.updateMany(
 {"module": "checklist", "language": "de" },
 {$set: {"setup.fields.assetStatusAfterChecklist.plural": ""} }
-)
+);
 
 db.dynamic_label_setup.updateMany(
 {"module": "checklist", "language": "de" },
 {$set: {"setup.fields.equipmentMeterReadingBeforeChecklist.singular": "Zählerstand des Geräts vor der Checkliste"} }
-)
+);
 
 db.dynamic_label_setup.updateMany(
 {"module": "checklist", "language": "de" },
