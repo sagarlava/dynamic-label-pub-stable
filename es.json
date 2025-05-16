@@ -14912,8 +14912,9 @@
       "pleaseSignBeforeProceeding": "Por favor, firme antes de continuar",
       "charactersExceed": "El texto excede el límite de caracteres (255).",
       "endDateThanStartDate": "La fecha de finalización debe ser posterior a la fecha de inicio",
-      "thisFieldIsRequired":"Dieses Feld ist erforderlich",
-      "pleaseMakeOneSelection":"Bitte treffen Sie eine Auswahl, um fortzufahren"
+      "thisFieldIsRequired":"Este campo es obligatorio",
+      "pleaseMakeOneSelection":"Por favor, haga una selección para continuar",
+      "itemExists":"Este elemento ya existe en la lista"
     },
     "validationBE": {
       "sendGridEmailTenantReferenceIdExists": "Una nueva referencia de inquilino de correo electrónico de Send Grid no puede tener ya un ID",
