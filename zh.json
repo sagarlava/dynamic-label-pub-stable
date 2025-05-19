@@ -19953,6 +19953,13 @@
               "plural": "用户",
               "setupEdit": false,
               "setupVisible": false
+            },
+            "userBinNumber": {
+              "original": "User Bin Number",
+              "singular": "用户箱位编号",
+              "plural": "用户箱位编号",
+              "setupEdit": false,
+              "setupVisible": false
             }
           },
           "messages": {

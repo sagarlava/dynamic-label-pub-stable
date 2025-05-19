@@ -19953,6 +19953,13 @@
               "plural": "Usuarios",
               "setupEdit": false,
               "setupVisible": false
+            },
+            "userBinNumber": {
+              "original": "User Bin Number",
+              "singular": "Número de contenedor de usuario",
+              "plural": "Número de contenedor de usuario",
+              "setupEdit": false,
+              "setupVisible": false
             }
           },
           "messages": {

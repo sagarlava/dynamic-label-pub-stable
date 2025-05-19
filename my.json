@@ -19952,6 +19952,13 @@
               "plural": "Pengguna-pengguna",
               "setupEdit": false,
               "setupVisible": false
+            },
+            "userBinNumber": {
+              "original": "User Bin Number",
+              "singular": "Nombor Bin Pengguna",
+              "plural": "Nombor Bin Pengguna",
+              "setupEdit": false,
+              "setupVisible": false
             }
           },
           "messages": {
