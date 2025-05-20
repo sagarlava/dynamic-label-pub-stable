@@ -22586,6 +22586,27 @@
           "plural": "",
           "setupEdit": true,
           "setupVisible": false
+        },
+        "chooseFileFormat": {
+          "original": "Choose File Format",
+          "singular": "Choose File Format",
+          "plural": "Choose File Format",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "setQrCodeSize": {
+          "original": "Set QR Code Size",
+          "singular": "Set QR Code Size",
+          "plural": "Set QR Code Size",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "selectPageLayout": {
+          "original": "Select Page Layout",
+          "singular": "Select Page Layout",
+          "plural": "Select Page Layout",
+          "setupEdit": false,
+          "setupVisible": false
         }
       },
       "validationFE": {},

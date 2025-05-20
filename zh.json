@@ -22586,6 +22586,27 @@
           "plural": "",
           "setupEdit": true,
           "setupVisible": false
+        },
+        "chooseFileFormat": {
+          "original": "Choose File Format",
+          "singular": "选择文件格式",
+          "plural": "选择文件格式",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "setQrCodeSize": {
+          "original": "Set QR Code Size",
+          "singular": "设置二维码大小",
+          "plural": "设置二维码大小",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "selectPageLayout": {
+          "original": "Select Page Layout",
+          "singular": "选择页面布局",
+          "plural": "选择页面布局",
+          "setupEdit": false,
+          "setupVisible": false
         }
       },
       "validationFE": {},

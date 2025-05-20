@@ -22585,6 +22585,27 @@
           "plural": "",
           "setupEdit": true,
           "setupVisible": false
+        },
+        "chooseFileFormat": {
+          "original": "Choose File Format",
+          "singular": "Pilih Format Fail",
+          "plural": "Pilih Format Fail",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "setQrCodeSize": {
+          "original": "Set QR Code Size",
+          "singular": "Tetapkan Saiz Kod QR",
+          "plural": "Tetapkan Saiz Kod QR",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "selectPageLayout": {
+          "original": "Select Page Layout",
+          "singular": "Pilih Susun Atur Halaman",
+          "plural": "Pilih Susun Atur Halaman",
+          "setupEdit": false,
+          "setupVisible": false
         }
       },
       "validationFE": {},
