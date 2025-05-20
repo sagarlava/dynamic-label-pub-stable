@@ -22612,7 +22612,9 @@
         "importDataCsvFormat": "Para importar sus datos en FieldEx, asegúrese de que el archivo que está cargando contenga encabezados de columna y esté en formato .csv.",
         "exportDataAsCsvFormat": "Para exportar sus datos desde FieldEx, haga clic en 'Exportar' y siga los pasos. Sus datos se descargarán como un archivo .csv y se podrán ver como una hoja de cálculo.",
         "pleaseSelectModule": "Por favor, seleccione un módulo",
-        "pleaseSelectModuleToImport": "Por favor, seleccione un módulo para importar"
+        "pleaseSelectModuleToImport": "Por favor, seleccione un módulo para importar",
+        "filterSelectAsset":"Filtra y selecciona los activos para los que deseas exportar los códigos QR",
+        "exportQrForAll":"Exportar también los códigos QR para todos los componentes"
       }
     },
     "customerSurvey": {
