@@ -567,6 +567,13 @@
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
+      },
+      "sec19": {
+        "original": "QR Codes",
+        "singular": "Códigos QR",
+        "plural": "Códigos QR",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "fields": {
