@@ -1047,6 +1047,13 @@
         "plural": "Modelle",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "createdDate": {
+        "original": "Created Date",
+        "singular": "Erstellungsdatum",
+        "plural": "Erstellungsdatum",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "validationFE": {

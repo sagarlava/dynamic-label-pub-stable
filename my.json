@@ -1047,6 +1047,13 @@
         "plural": "Model",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "createdDate": {
+        "original": "Created Date",
+        "singular": "Tarikh Dicipta",
+        "plural": "Tarikh Dicipta",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "validationFE": {
