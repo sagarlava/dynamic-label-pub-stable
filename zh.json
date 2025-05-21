@@ -26557,10 +26557,17 @@
         "adminFunctionAvailable": "注意：管理员功能仅适用于 FieldEx 网页浏览器。",
         "bestExperiencedFieldEx": "注意：使用 FieldEx 网页浏览器可获得最佳全面控制体验。",
         "roleCanOnlyAccessViaMobile": "注意：此角色仅可通过移动应用程序（App Store / Play Store）访问 FieldEx。",
-        "doNotShowAgain": "不再显示"
+        "doNotShowAgain": "不再显示",
+        "areYouSure":"您确定不再显示此页面吗？",
+        "inBulkStreaming":"批量操作以简化规划、减少错误并节省设置时间"
       },
       "validationFE":{
-        "onlyCsvFilesAllowed": "只能上传 CSV 和 XLSX 文件"
+        "onlyCsvFilesAllowed": "只能上传 CSV 和 XLSX 文件",
+        "pleaseAttachCsv": "请附上您要导入的 CSV 文件",
+        "pleaseEnterNewType":"请输入新类型名称",
+        "pleaseEnterNewStatus":"请输入新的状态名称",
+        "pleaseEnterNewFault":"请输入新的故障名称",
+        "pleaseEnterNewResolution":"请输入新的解决方案名称"
       }
     }
   },

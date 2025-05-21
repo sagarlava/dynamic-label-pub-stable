@@ -26482,7 +26482,7 @@
         "enterNewFault":"Enter new fault...",
         "enterNewResolution":"Enter new resolution...",
         "tip":"Tip",
-        "watchDemo":"Watch Demo: What You Can Achieve with Fieldex",
+        "watchDemo":"Watch a Demo: What You Can Achieve with Fieldex",
         "quickLookEmpowersTeam":"Get a quick look at how FieldEx empowers teams to manage assets, schedule services, and reduce downtime effortlessly",
         "select":"Select",
         "selectRole":"Select Role",
@@ -26557,11 +26557,17 @@
         "adminFunctionAvailable":"Note: Admin functions are only available on the FieldEx web browser.",
         "bestExperiencedFieldEx":"Note: Best experienced on the FieldEx web browser for full operational control.",
         "roleCanOnlyAccessViaMobile":"Note : This role can only access FieldEx via the mobile app (App Store / Play Store).",
-        "doNotShowAgain":"Do not show again"
-
+        "doNotShowAgain":"Do not show again",
+        "areYouSure":"Are you sure you want to stop showing this page again?",
+        "inBulkStreaming":"in bulk to streamline planning, reduce errors, and save setup time"
       },
       "validationFE":{
-        "onlyCsvFilesAllowed": "Only CSV and XLSX files can be uploaded"
+        "onlyCsvFilesAllowed": "Only CSV and XLSX files can be uploaded",
+        "pleaseAttachCsv": "Please attach your csv to be imported",
+        "pleaseEnterNewType":"Please enter a new type name",
+        "pleaseEnterNewStatus":"Please enter a new status name",
+        "pleaseEnterNewFault":"Please enter a new fault name",
+        "pleaseEnterNewResolution":"Please enter a new resolution name"
       }
     }
   },

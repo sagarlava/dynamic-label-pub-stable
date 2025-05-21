@@ -26557,10 +26557,17 @@
         "adminFunctionAvailable": "Hinweis: Admin-Funktionen sind nur im FieldEx-Webbrowser verfügbar.",
         "bestExperiencedFieldEx": "Hinweis: Beste Benutzererfahrung mit vollem Betriebskontrolle im FieldEx-Webbrowser.",
         "roleCanOnlyAccessViaMobile": "Hinweis: Diese Rolle kann nur über die mobile App (App Store / Play Store) auf FieldEx zugreifen.",
-        "doNotShowAgain": "Nicht erneut anzeigen"
+        "doNotShowAgain": "Nicht erneut anzeigen",
+        "areYouSure":"Möchten Sie diese Seite wirklich nicht mehr anzeigen?",
+        "inBulkStreaming":"in großen Mengen zur Optimierung der Planung, Reduzierung von Fehlern und Zeitersparnis bei der Einrichtung"
       },
       "validationFE":{
-        "onlyCsvFilesAllowed": "Nur CSV- und XLSX-Dateien können hochgeladen werden"
+        "onlyCsvFilesAllowed": "Nur CSV- und XLSX-Dateien können hochgeladen werden",
+        "pleaseAttachCsv": "Bitte fügen Sie Ihre zu importierende CSV-Datei an",
+        "pleaseEnterNewType":"Bitte geben Sie einen neuen Typnamen ein",
+        "pleaseEnterNewStatus":"Bitte geben Sie einen neuen Statusnamen ein",
+        "pleaseEnterNewFault":"Bitte geben Sie einen neuen Fehlernamen ein",
+        "pleaseEnterNewResolution":"Bitte geben Sie einen neuen Lösungsnamen ein"
       }
     }
   },

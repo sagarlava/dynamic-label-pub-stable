@@ -4,6 +4,11 @@ db.dynamic_label_setup.updateMany(
 )
 
 db.dynamic_label_setup.updateMany(
+{"module": "customer", "language": "en" },
+{$set: {"setup.sections.sec1.singular": "Contact Details"} }
+)
+
+db.dynamic_label_setup.updateMany(
 {"module": "checklist", "language": "en" },
 {$set: {"setup.fields.assetStatusBeforeChecklist.singular": "Asset status before checklist"} }
 )
