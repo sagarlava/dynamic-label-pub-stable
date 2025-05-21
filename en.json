@@ -14930,7 +14930,8 @@
       "endDateThanStartDate": "End date must be after start date",
       "thisFieldIsRequired":"This field is required",
       "pleaseMakeOneSelection":"Please make one selection to proceed",
-      "itemExists":"This item already exists in the list"
+      "itemExists":"This item already exists in the list",
+      "filenameMustNotContain":"File name must not contain spaces or special characters (e.g., ! @ # $ % ^ & )."
     },
     "validationBE": {
       "sendGridEmailTenantReferenceIdExists": "A new Send Grid Email Tenant Reference cannot already have an ID",

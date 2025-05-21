@@ -14931,7 +14931,8 @@
       "endDateThanStartDate": "Tarikh tamat mesti selepas tarikh mula",
       "thisFieldIsRequired":"Medan ini diperlukan",
       "pleaseMakeOneSelection":"Sila buat satu pilihan untuk meneruskan",
-      "itemExists":"Item ini sudah wujud dalam senarai"
+      "itemExists":"Item ini sudah wujud dalam senarai",
+      "filenameMustNotContain":"Nama fail tidak boleh mengandungi ruang atau aksara khas (cth: ! @ # $ % ^ & )."
     },
     "validationBE": {
       "sendGridEmailTenantReferenceIdExists": "Rujukan Penyewa E-mel Send Grid baru tidak boleh sudah mempunyai ID",
