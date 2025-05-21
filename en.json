@@ -13660,7 +13660,8 @@
       "pleaseSignBeforeProceed": "Please sign before proceeding",
       "pleaseSignBeforeProceeding": "Please sign before proceeding",
       "charactersExceed": "Text exceeds character limit (255).",
-      "endDateThanStartDate": "End date must be after start date"
+      "endDateThanStartDate": "End date must be after start date",
+      "filenameMustNotContain":"File name must not contain spaces or special characters (e.g., ! @ # $ % ^ & )."
     },
     "validationBE": {
       "sendGridEmailTenantReferenceIdExists": "A new Send Grid Email Tenant Reference cannot already have an ID",

@@ -13660,7 +13660,8 @@
       "pleaseSignBeforeProceed": "Por favor, firme antes de continuar",
       "pleaseSignBeforeProceeding": "Por favor, firme antes de continuar",
       "charactersExceed": "El texto excede el límite de caracteres (255).",
-      "endDateThanStartDate": "La fecha de finalización debe ser posterior a la fecha de inicio"
+      "endDateThanStartDate": "La fecha de finalización debe ser posterior a la fecha de inicio",
+      "filenameMustNotContain":"El nombre del archivo no debe contener espacios ni caracteres especiales (p. ej., ! @ # $ % ^ & )."
     },
     "validationBE": {
       "sendGridEmailTenantReferenceIdExists": "Una nueva referencia de inquilino de correo electrónico de Send Grid no puede tener ya un ID",

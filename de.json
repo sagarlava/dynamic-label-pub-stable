@@ -13661,7 +13661,8 @@
       "pleaseSignBeforeProceed": "Bitte unterschreiben Sie, bevor Sie fortfahren",
       "pleaseSignBeforeProceeding": "Bitte unterschreiben Sie, bevor Sie fortfahren",
       "charactersExceed": "Text überschreitet das Zeichenlimit (255).",
-      "endDateThanStartDate": "Das Enddatum muss nach dem Startdatum liegen"
+      "endDateThanStartDate": "Das Enddatum muss nach dem Startdatum liegen",
+      "filenameMustNotContain":"Dateiname darf keine Leerzeichen oder Sonderzeichen enthalten (z. B. ! @ # $ % ^ & )."
     },
     "validationBE": {
       "sendGridEmailTenantReferenceIdExists": "Eine neue Send Grid E-Mail-Mieterreferenz kann nicht bereits eine ID haben",
