@@ -17129,7 +17129,7 @@
           "approvalsRoutedAccordingToOrder":"审批将根据您指定的顺序进行（如有）",
           "requisitionOnlyProcessAfterApprovals":"申请单仅在收到所有所需审批后处理",
           "consignmentOnlyProcessAfterApprovals":"托运单仅在收到所有所需审批后处理",
-          "eachGroupOnlyLvlOne":"每个组只能处于一个一级审批关系中",
+          "eachGroupOnlyLvlOne":"每个组只能作为一级审批组使用一次",
           "lvlOnelvlTwoNotTheSameGroup":"一级和二级不能是同一个组",
           "atLeastOneApprovalIsRequired":"任何申请单都至少需要一个审批",
           "atLeastOneApprovalIsRequiredConsignment":"任何托运单都至少需要一个审批",

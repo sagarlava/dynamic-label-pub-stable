@@ -17129,7 +17129,7 @@
           "approvalsRoutedAccordingToOrder":"Approvals are routed according to your specified order (if any)",
           "requisitionOnlyProcessAfterApprovals":"The requisition is only processed after all required approvals are received",
           "consignmentOnlyProcessAfterApprovals":"The consignment is only processed after all required approvals are received",
-          "eachGroupOnlyLvlOne":"Each group can only be in one Level 1 relationship",
+          "eachGroupOnlyLvlOne":"Each group can only be used once as a Level 1 Approval group",
           "lvlOnelvlTwoNotTheSameGroup":"Level 1 and Level 2 cannot be the same group",
           "atLeastOneApprovalIsRequired":"At least one approval is required for any requisition note",
           "atLeastOneApprovalIsRequiredConsignment":"At least one approval is required for any consignment note",

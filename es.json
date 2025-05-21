@@ -17129,7 +17129,7 @@
           "approvalsRoutedAccordingToOrder": "Las aprobaciones se dirigen según el orden especificado (si lo hay)",
           "requisitionOnlyProcessAfterApprovals": "La requisición solo se procesa después de recibir todas las aprobaciones requeridas",
           "consignmentOnlyProcessAfterApprovals": "La nota de consignación solo se procesa después de recibir todas las aprobaciones requeridas",
-          "eachGroupOnlyLvlOne": "Cada grupo solo puede estar en una relación de Nivel 1",
+          "eachGroupOnlyLvlOne": "Cada grupo solo puede utilizarse una vez como grupo de aprobación de Nivel 1",
           "lvlOnelvlTwoNotTheSameGroup": "Nivel 1 y Nivel 2 no pueden ser el mismo grupo",
           "atLeastOneApprovalIsRequired": "Se requiere al menos una aprobación para cualquier nota de requisición",
           "atLeastOneApprovalIsRequiredConsignment": "Se requiere al menos una aprobación para cualquier nota de consignación",
