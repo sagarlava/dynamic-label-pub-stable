@@ -567,6 +567,13 @@
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
+      },
+      "sec19": {
+        "original": "QR Codes",
+        "singular": "QR Codes",
+        "plural": "QR Codes",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "fields": {
@@ -1052,6 +1059,13 @@
         "original": "Model",
         "singular": "Model",
         "plural": "Model",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "createdDate": {
+        "original": "Created Date",
+        "singular": "Created Date",
+        "plural": "Created Date",
         "setupEdit": false,
         "setupVisible": false
       }
@@ -14633,7 +14647,9 @@
       "from":"From",
       "to":"To",
       "or":"Or",
-      "anyAdditionalComments":"Any additional comments? Add them here"
+      "anyAdditionalComments":"Any additional comments? Add them here",
+      "tip":"Tip",
+      "tips":"Tips"
     },
     "currency":{
       "australianDollar": "AUD",
@@ -17333,7 +17349,7 @@
           "approvalsRoutedAccordingToOrder":"Approvals are routed according to your specified order (if any)",
           "requisitionOnlyProcessAfterApprovals":"The requisition is only processed after all required approvals are received",
           "consignmentOnlyProcessAfterApprovals":"The consignment is only processed after all required approvals are received",
-          "eachGroupOnlyLvlOne":"Each group can only be in one Level 1 relationship",
+          "eachGroupOnlyLvlOne":"Each group can only be used once as a Level 1 Approval group",
           "lvlOnelvlTwoNotTheSameGroup":"Level 1 and Level 2 cannot be the same group",
           "atLeastOneApprovalIsRequired":"At least one approval is required for any requisition note",
           "atLeastOneApprovalIsRequiredConsignment":"At least one approval is required for any consignment note",
@@ -17353,7 +17369,12 @@
           "defineSequenceApprovalOccur":"Define the sequence in which approvals must occur",
           "theseSettingsDetermineOverallFlow":"These settings determine the overall flow for all requisition notes in the system",
           "theseSettingsDetermineOverallFlowConsignment":"These settings determine the overall flow for all consignment notes in the system",
-          "selectGroup":"Select Group"
+          "selectGroup":"Select Group",
+          "managingGroupBinLocated":"The Managing Group of the Zone where the bin is located",
+          "groupSupervisesLevelOne":"The group that supervises or manages the Level 1 group",
+          "level":"Level",
+          "levelOne":"Level 1",
+          "levelTwo":"Level 2"
         }
       }
     },
@@ -20479,6 +20500,13 @@
               "plural": "Users",
               "setupEdit": false,
               "setupVisible": false
+            },
+            "userBinNumber": {
+              "original": "User Bin Number",
+              "singular": "User Bin Number",
+              "plural": "User Bin Numbers",
+              "setupEdit": false,
+              "setupVisible": false
             }
           },
           "messages": {
@@ -23094,6 +23122,27 @@
           "plural": "",
           "setupEdit": true,
           "setupVisible": false
+        },
+        "chooseFileFormat": {
+          "original": "Choose File Format",
+          "singular": "Choose File Format",
+          "plural": "Choose File Format",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "setQrCodeSize": {
+          "original": "Set QR Code Size",
+          "singular": "Set QR Code Size",
+          "plural": "Set QR Code Size",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "selectPageLayout": {
+          "original": "Select Page Layout",
+          "singular": "Select Page Layout",
+          "plural": "Select Page Layout",
+          "setupEdit": false,
+          "setupVisible": false
         }
       },
       "validationFE": {},
@@ -23120,7 +23169,9 @@
         "importDataCsvFormat":"To import your data into FieldEx,Please ensure the file you are uploading contains column headings and is of .csv format.",
         "exportDataAsCsvFormat":"To export your data from FieldEx, click 'Export' and follow the steps. Your data will be downloaded as a .csv file and can be viewed as a spreadsheet.",
         "pleaseSelectModule":"Please select a module",
-        "pleaseSelectModuleToImport":"Please select a module to import"
+        "pleaseSelectModuleToImport":"Please select a module to import",
+        "filterSelectAsset":"Filter and select the assets you want to export QR codes for",
+        "exportQrForAll":"Export QR codes for all components too"
       }
     },
     "customerSurvey": {

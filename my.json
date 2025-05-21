@@ -567,6 +567,13 @@
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
+      },
+      "sec19": {
+        "original": "QR Codes",
+        "singular": "Kod QR",
+        "plural": "Kod QR",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "fields": {
@@ -1052,6 +1059,13 @@
         "original": "Model",
         "singular": "Model",
         "plural": "Model",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "createdDate": {
+        "original": "Created Date",
+        "singular": "Tarikh Dicipta",
+        "plural": "Tarikh Dicipta",
         "setupEdit": false,
         "setupVisible": false
       }
@@ -14634,7 +14648,9 @@
       "wasChangedFrom": "telah diubah daripada",
       "wasChangedTo": "telah diubah kepada",
       "selectDateRange": "Pilih Julat Tarikh",
-      "anyAdditionalComments":"Sebarang komen tambahan? Tambah di sini"
+      "anyAdditionalComments":"Sebarang komen tambahan? Tambah di sini",
+      "tip":"Tip",
+      "tips":"Tips"
     },
     "currency": {
       "australianDollar": "AUD",
@@ -17334,7 +17350,7 @@
           "approvalsRoutedAccordingToOrder":"Kelulusan disalurkan mengikut susunan yang anda tetapkan (jika ada)",
           "requisitionOnlyProcessAfterApprovals":"Nota permohonan hanya akan diproses selepas semua kelulusan yang diperlukan diterima",
           "consignmentOnlyProcessAfterApprovals":"Nota konsainan hanya akan diproses selepas semua kelulusan yang diperlukan diterima",
-          "eachGroupOnlyLvlOne":"Setiap kumpulan hanya boleh berada dalam satu perhubungan Tahap 1",
+          "eachGroupOnlyLvlOne":"Setiap kumpulan hanya boleh digunakan sekali sebagai kumpulan Kelulusan Tahap 1",
           "lvlOnelvlTwoNotTheSameGroup":"Tahap 1 dan Tahap 2 tidak boleh kumpulan yang sama",
           "atLeastOneApprovalIsRequired":"Sekurang-kurangnya satu kelulusan diperlukan untuk mana-mana nota permohonan",
           "atLeastOneApprovalIsRequiredConsignment":"Sekurang-kurangnya satu kelulusan diperlukan untuk mana-mana nota konsainan",
@@ -17354,7 +17370,12 @@
           "defineSequenceApprovalOccur":"Tetapkan urutan di mana kelulusan mesti berlaku",
           "theseSettingsDetermineOverallFlow":"Tetapan ini menentukan aliran keseluruhan untuk semua nota permohonan dalam sistem",
           "theseSettingsDetermineOverallFlowConsignment":"Tetapan ini menentukan aliran keseluruhan untuk semua nota konsainan dalam sistem",
-          "selectGroup":"Pilih Kumpulan"
+          "selectGroup":"Pilih Kumpulan",
+          "managingGroupBinLocated":"Kumpulan Pengurusan Zon di mana bin itu terletak",
+          "groupSupervisesLevelOne":"Kumpulan yang menyelia atau mengurus kumpulan Tahap 1",
+          "level":"Tahap",
+          "levelOne":"Tahap 1",
+          "levelTwo":"Tahap 2"
         }
       }
     },
@@ -20479,6 +20500,13 @@
               "plural": "Pengguna-pengguna",
               "setupEdit": false,
               "setupVisible": false
+            },
+            "userBinNumber": {
+              "original": "User Bin Number",
+              "singular": "Nombor Bin Pengguna",
+              "plural": "Nombor Bin Pengguna",
+              "setupEdit": false,
+              "setupVisible": false
             }
           },
           "messages": {
@@ -23094,6 +23122,27 @@
           "plural": "",
           "setupEdit": true,
           "setupVisible": false
+        },
+        "chooseFileFormat": {
+          "original": "Choose File Format",
+          "singular": "Pilih Format Fail",
+          "plural": "Pilih Format Fail",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "setQrCodeSize": {
+          "original": "Set QR Code Size",
+          "singular": "Tetapkan Saiz Kod QR",
+          "plural": "Tetapkan Saiz Kod QR",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "selectPageLayout": {
+          "original": "Select Page Layout",
+          "singular": "Pilih Susun Atur Halaman",
+          "plural": "Pilih Susun Atur Halaman",
+          "setupEdit": false,
+          "setupVisible": false
         }
       },
       "validationFE": {},
@@ -23120,7 +23169,9 @@
         "importDataCsvFormat": "Untuk mengimport data anda ke FieldEx, sila pastikan fail yang anda muat naik mengandungi tajuk lajur dan dalam format .csv.",
         "exportDataAsCsvFormat": "Untuk mengeksport data anda dari FieldEx, klik 'Eksport' dan ikuti langkah-langkah. Data anda akan dimuat turun sebagai fail .csv dan boleh dilihat sebagai hamparan.",
         "pleaseSelectModule": "Sila pilih modul",
-        "pleaseSelectModuleToImport": "Sila pilih modul untuk diimport"
+        "pleaseSelectModuleToImport": "Sila pilih modul untuk diimport",
+        "filterSelectAsset":"Tapis dan pilih aset yang anda ingin eksport kod QR untuknya",
+        "exportQrForAll":"Eksport juga kod QR untuk semua komponen"
       }
     },
     "customerSurvey": {

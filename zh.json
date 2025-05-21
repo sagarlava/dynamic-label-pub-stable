@@ -567,6 +567,13 @@
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
+      },
+      "sec19": {
+        "original": "QR Codes",
+        "singular": "二维码",
+        "plural": "二维码",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "fields": {
@@ -1052,6 +1059,13 @@
         "original": "Model",
         "singular": "型号",
         "plural": "型号",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "createdDate": {
+        "original": "Created Date",
+        "singular": "创建日期",
+        "plural": "创建日期",
         "setupEdit": false,
         "setupVisible": false
       }
@@ -14633,7 +14647,9 @@
       "wasChangedFrom": "更改自",
       "wasChangedTo": "更改为",
       "selectDateRange": "选择日期范围",
-      "anyAdditionalComments":"有其他评论吗？请在此添加"
+      "anyAdditionalComments":"有其他评论吗？请在此添加",
+      "tip":"提示",
+      "tips":"提示"
     },
     "currency": {
       "australianDollar": "AUD",
@@ -17333,7 +17349,7 @@
           "approvalsRoutedAccordingToOrder":"审批将根据您指定的顺序进行（如有）",
           "requisitionOnlyProcessAfterApprovals":"申请单仅在收到所有所需审批后处理",
           "consignmentOnlyProcessAfterApprovals":"托运单仅在收到所有所需审批后处理",
-          "eachGroupOnlyLvlOne":"每个组只能处于一个一级审批关系中",
+          "eachGroupOnlyLvlOne":"每个组只能作为一级审批组使用一次",
           "lvlOnelvlTwoNotTheSameGroup":"一级和二级不能是同一个组",
           "atLeastOneApprovalIsRequired":"任何申请单都至少需要一个审批",
           "atLeastOneApprovalIsRequiredConsignment":"任何托运单都至少需要一个审批",
@@ -17353,7 +17369,12 @@
           "defineSequenceApprovalOccur":"定义审批必须发生的顺序",
           "theseSettingsDetermineOverallFlow":"这些设置决定系统中所有申请单的整体流程",
           "theseSettingsDetermineOverallFlowConsignment":"这些设置决定系统中所有托运单的整体流程",
-          "selectGroup":"选择组"
+          "selectGroup":"选择组",
+          "managingGroupBinLocated":"箱位所在区域的管理组",
+          "groupSupervisesLevelOne":"监督或管理一级组的组别",
+          "level":"级别",
+          "levelOne":"一级",
+          "levelTwo":"二级"
         }
       }
     },
@@ -20479,6 +20500,13 @@
               "plural": "用户",
               "setupEdit": false,
               "setupVisible": false
+            },
+            "userBinNumber": {
+              "original": "User Bin Number",
+              "singular": "用户箱位编号",
+              "plural": "用户箱位编号",
+              "setupEdit": false,
+              "setupVisible": false
             }
           },
           "messages": {
@@ -23094,6 +23122,27 @@
           "plural": "",
           "setupEdit": true,
           "setupVisible": false
+        },
+        "chooseFileFormat": {
+          "original": "Choose File Format",
+          "singular": "选择文件格式",
+          "plural": "选择文件格式",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "setQrCodeSize": {
+          "original": "Set QR Code Size",
+          "singular": "设置二维码大小",
+          "plural": "设置二维码大小",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "selectPageLayout": {
+          "original": "Select Page Layout",
+          "singular": "选择页面布局",
+          "plural": "选择页面布局",
+          "setupEdit": false,
+          "setupVisible": false
         }
       },
       "validationFE": {},
@@ -23120,7 +23169,9 @@
         "importDataCsvFormat": "将数据导入到 FieldEx，请确保上传的文件包含列标题，并且是 .csv 格式。",
         "exportDataAsCsvFormat": "要从 FieldEx 导出数据，请点击“导出”并按照步骤操作。您的数据将作为 .csv 文件下载，并可以作为电子表格查看。",
         "pleaseSelectModule": "请选择一个模块",
-        "pleaseSelectModuleToImport": "请选择要导入的模块"
+        "pleaseSelectModuleToImport": "请选择要导入的模块",
+        "filterSelectAsset":"筛选并选择您要导出二维码的资产",
+        "exportQrForAll":"也导出所有组件的二维码"
       }
     },
     "customerSurvey": {

@@ -567,6 +567,13 @@
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
+      },
+      "sec19": {
+        "original": "QR Codes",
+        "singular": "Códigos QR",
+        "plural": "Códigos QR",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "fields": {
@@ -1052,6 +1059,13 @@
         "original": "Brand",
         "singular": "Marca",
         "plural": "Marcas",     
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "createdDate": {
+        "original": "Created Date",
+        "singular": "Fecha de creación",
+        "plural": "Fecha de creación",
         "setupEdit": false,
         "setupVisible": false
       }
@@ -14635,7 +14649,9 @@
       "wasChangedFrom": "se cambió de",
       "wasChangedTo": "se cambió a",
       "selectDateRange": "Seleccionar rango de fechas",
-      "anyAdditionalComments": "¿Algún comentario adicional? Agrégalo aquí"
+      "anyAdditionalComments": "¿Algún comentario adicional? Agrégalo aquí",
+      "tip":"Consejo",
+      "tips":"Consejos"
     },
     "currency": {
       "australianDollar": "AUD",
@@ -17335,7 +17351,7 @@
           "approvalsRoutedAccordingToOrder": "Las aprobaciones se dirigen según el orden especificado (si lo hay)",
           "requisitionOnlyProcessAfterApprovals": "La requisición solo se procesa después de recibir todas las aprobaciones requeridas",
           "consignmentOnlyProcessAfterApprovals": "La nota de consignación solo se procesa después de recibir todas las aprobaciones requeridas",
-          "eachGroupOnlyLvlOne": "Cada grupo solo puede estar en una relación de Nivel 1",
+          "eachGroupOnlyLvlOne": "Cada grupo solo puede utilizarse una vez como grupo de aprobación de Nivel 1",
           "lvlOnelvlTwoNotTheSameGroup": "Nivel 1 y Nivel 2 no pueden ser el mismo grupo",
           "atLeastOneApprovalIsRequired": "Se requiere al menos una aprobación para cualquier nota de requisición",
           "atLeastOneApprovalIsRequiredConsignment": "Se requiere al menos una aprobación para cualquier nota de consignación",
@@ -17355,7 +17371,12 @@
           "defineSequenceApprovalOccur": "Defina la secuencia en la que deben ocurrir las aprobaciones",
           "theseSettingsDetermineOverallFlow": "Estas configuraciones determinan el flujo general de todas las notas de requisición en el sistema",
           "theseSettingsDetermineOverallFlowConsignment": "Estas configuraciones determinan el flujo general de todas las notas de consignación en el sistema",
-          "selectGroup": "Seleccionar grupo"
+          "selectGroup": "Seleccionar grupo",
+          "managingGroupBinLocated":"El grupo de gestión de la zona donde se encuentra el contenedor",
+          "groupSupervisesLevelOne":"El grupo que supervisa o gestiona al grupo de Nivel 1",
+          "level":"Nivel",
+          "levelOne":"Nivel 1",
+          "levelTwo":"Nivel 2"
         }
       }
     },
@@ -20481,6 +20502,13 @@
               "plural": "Usuarios",
               "setupEdit": false,
               "setupVisible": false
+            },
+            "userBinNumber": {
+              "original": "User Bin Number",
+              "singular": "Número de contenedor de usuario",
+              "plural": "Número de contenedor de usuario",
+              "setupEdit": false,
+              "setupVisible": false
             }
           },
           "messages": {
@@ -23096,6 +23124,27 @@
           "plural": "",
           "setupEdit": true,
           "setupVisible": false
+        },
+        "chooseFileFormat": {
+          "original": "Choose File Format",
+          "singular": "Elegir formato de archivo",
+          "plural": "Elegir formato de archivo",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "setQrCodeSize": {
+          "original": "Set QR Code Size",
+          "singular": "Establecer tamaño del código QR",
+          "plural": "Establecer tamaño del código QR",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "selectPageLayout": {
+          "original": "Select Page Layout",
+          "singular": "Seleccionar diseño de página",
+          "plural": "Seleccionar diseño de página",
+          "setupEdit": false,
+          "setupVisible": false
         }
       },
       "validationFE": {},
@@ -23122,7 +23171,9 @@
         "importDataCsvFormat": "Para importar sus datos en FieldEx, asegúrese de que el archivo que está cargando contenga encabezados de columna y esté en formato .csv.",
         "exportDataAsCsvFormat": "Para exportar sus datos desde FieldEx, haga clic en 'Exportar' y siga los pasos. Sus datos se descargarán como un archivo .csv y se podrán ver como una hoja de cálculo.",
         "pleaseSelectModule": "Por favor, seleccione un módulo",
-        "pleaseSelectModuleToImport": "Por favor, seleccione un módulo para importar"
+        "pleaseSelectModuleToImport": "Por favor, seleccione un módulo para importar",
+        "filterSelectAsset":"Filtra y selecciona los activos para los que deseas exportar los códigos QR",
+        "exportQrForAll":"Exportar también los códigos QR para todos los componentes"
       }
     },
     "customerSurvey": {

@@ -567,6 +567,13 @@
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
+      },
+      "sec19": {
+        "original": "QR Codes",
+        "singular": "QR-Codes",
+        "plural": "QR-Codes",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "fields": {
@@ -1052,6 +1059,13 @@
         "original": "Brand",
         "singular": "Marke",
         "plural": "Marke",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "createdDate": {
+        "original": "Created Date",
+        "singular": "Erstellungsdatum",
+        "plural": "Erstellungsdatum",
         "setupEdit": false,
         "setupVisible": false
       }
@@ -14633,7 +14647,9 @@
       "wasChangedFrom": "wurde geändert von",
       "wasChangedTo": "wurde geändert zu",
       "selectDateRange": "Datumsbereich auswählen",
-      "anyAdditionalComments":"Weitere Kommentare? Fügen Sie sie hier hinzu"
+      "anyAdditionalComments":"Weitere Kommentare? Fügen Sie sie hier hinzu",
+      "tip":"Tipp",
+      "tips":"Tipps"
     },
     "currency": {
       "australianDollar": "AUD",
@@ -17333,7 +17349,7 @@
           "approvalsRoutedAccordingToOrder":"Genehmigungen werden gemäß der von Ihnen festgelegten Reihenfolge weitergeleitet (falls vorhanden)",
           "requisitionOnlyProcessAfterApprovals":"Die Anforderung wird erst bearbeitet, nachdem alle erforderlichen Genehmigungen eingegangen sind",
           "consignmentOnlyProcessAfterApprovals":"Der Frachtbrief wird erst bearbeitet, nachdem alle erforderlichen Genehmigungen eingegangen sind",
-          "eachGroupOnlyLvlOne":"Jede Gruppe kann nur in einer Stufe-1-Beziehung sein",
+          "eachGroupOnlyLvlOne":"Jede Gruppe kann nur einmal als Genehmigungsgruppe der Stufe 1 verwendet werden",
           "lvlOnelvlTwoNotTheSameGroup":"Stufe 1 und Stufe 2 dürfen nicht dieselbe Gruppe sein",
           "atLeastOneApprovalIsRequired":"Mindestens eine Genehmigung ist für jede Anforderungsnotiz erforderlich",
           "atLeastOneApprovalIsRequiredConsignment":"Mindestens eine Genehmigung ist für jeden Frachtbrief erforderlich",
@@ -17353,7 +17369,12 @@
           "defineSequenceApprovalOccur":"Definieren Sie die Reihenfolge, in der Genehmigungen erfolgen müssen",
           "theseSettingsDetermineOverallFlow":"Diese Einstellungen bestimmen den gesamten Ablauf aller Anforderungsnotizen im System",
           "theseSettingsDetermineOverallFlowConsignment":"Diese Einstellungen bestimmen den gesamten Ablauf aller Frachtbriefe im System",
-          "selectGroup":"Gruppe auswählen"
+          "selectGroup":"Gruppe auswählen",
+          "managingGroupBinLocated":"Die Verwaltungsgruppe der Zone, in der sich der Behälter befindet",
+          "groupSupervisesLevelOne":"Die Gruppe, die die Gruppe der Stufe 1 überwacht oder verwaltet",
+          "level":"Ebene",
+          "levelOne":"Ebene 1",
+          "levelTwo":"Ebene 2"
         }
       } 
     },
@@ -20479,6 +20500,13 @@
               "plural": "Benutzer",
               "setupEdit": false,
               "setupVisible": false
+            },
+            "userBinNumber": {
+              "original": "User Bin Number",
+              "singular": "Benutzerbehälternummer",
+              "plural": "Benutzerbehälternummern",
+              "setupEdit": false,
+              "setupVisible": false
             }
           },
           "messages": {
@@ -23094,6 +23122,27 @@
           "plural": "",
           "setupEdit": true,
           "setupVisible": false
+        },
+        "chooseFileFormat": {
+          "original": "Choose File Format",
+          "singular": "Dateiformat wählen",
+          "plural": "Dateiformat wählen",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "setQrCodeSize": {
+          "original": "Set QR Code Size",
+          "singular": "QR-Code-Größe festlegen",
+          "plural": "QR-Code-Größe festlegen",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "selectPageLayout": {
+          "original": "Select Page Layout",
+          "singular": "Seitenlayout auswählen",
+          "plural": "Seitenlayout auswählen",
+          "setupEdit": false,
+          "setupVisible": false
         }
       },
       "validationFE": {},
@@ -23120,7 +23169,9 @@
         "importDataCsvFormat": "Um Ihre Daten in FieldEx zu importieren, stellen Sie bitte sicher, dass die hochgeladene Datei Kopfzeilen enthält und im .csv-Format vorliegt.",
         "exportDataAsCsvFormat": "Um Ihre Daten aus FieldEx zu exportieren, klicken Sie auf 'Exportieren' und folgen Sie den Schritten. Ihre Daten werden als .csv-Datei heruntergeladen und können als Tabelle angezeigt werden.",
         "pleaseSelectModule": "Bitte wählen Sie ein Modul aus",
-        "pleaseSelectModuleToImport": "Bitte wählen Sie ein Modul zum Importieren aus"
+        "pleaseSelectModuleToImport": "Bitte wählen Sie ein Modul zum Importieren aus",
+        "filterSelectAsset":"Filtern und wählen Sie die Assets aus, für die Sie QR-Codes exportieren möchten",
+        "exportQrForAll":"QR-Codes auch für alle Komponenten exportieren"
       }
     },
     "customerSurvey": {
