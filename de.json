@@ -17149,7 +17149,12 @@
           "defineSequenceApprovalOccur":"Definieren Sie die Reihenfolge, in der Genehmigungen erfolgen müssen",
           "theseSettingsDetermineOverallFlow":"Diese Einstellungen bestimmen den gesamten Ablauf aller Anforderungsnotizen im System",
           "theseSettingsDetermineOverallFlowConsignment":"Diese Einstellungen bestimmen den gesamten Ablauf aller Frachtbriefe im System",
-          "selectGroup":"Gruppe auswählen"
+          "selectGroup":"Gruppe auswählen",
+          "managingGroupBinLocated":"Die Verwaltungsgruppe der Zone, in der sich der Behälter befindet",
+          "groupSupervisesLevelOne":"Die Gruppe, die die Gruppe der Stufe 1 überwacht oder verwaltet",
+          "level":"Ebene",
+          "levelOne":"Ebene 1",
+          "levelTwo":"Ebene 2"
         }
       } 
     },

@@ -17149,7 +17149,12 @@
           "defineSequenceApprovalOccur":"Tetapkan urutan di mana kelulusan mesti berlaku",
           "theseSettingsDetermineOverallFlow":"Tetapan ini menentukan aliran keseluruhan untuk semua nota permohonan dalam sistem",
           "theseSettingsDetermineOverallFlowConsignment":"Tetapan ini menentukan aliran keseluruhan untuk semua nota konsainan dalam sistem",
-          "selectGroup":"Pilih Kumpulan"
+          "selectGroup":"Pilih Kumpulan",
+          "managingGroupBinLocated":"Kumpulan Pengurusan Zon di mana bin itu terletak",
+          "groupSupervisesLevelOne":"Kumpulan yang menyelia atau mengurus kumpulan Tahap 1",
+          "level":"Tahap",
+          "levelOne":"Tahap 1",
+          "levelTwo":"Tahap 2"
         }
       }
     },

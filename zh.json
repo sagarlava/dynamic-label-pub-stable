@@ -17149,7 +17149,12 @@
           "defineSequenceApprovalOccur":"定义审批必须发生的顺序",
           "theseSettingsDetermineOverallFlow":"这些设置决定系统中所有申请单的整体流程",
           "theseSettingsDetermineOverallFlowConsignment":"这些设置决定系统中所有托运单的整体流程",
-          "selectGroup":"选择组"
+          "selectGroup":"选择组",
+          "managingGroupBinLocated":"箱位所在区域的管理组",
+          "groupSupervisesLevelOne":"监督或管理一级组的组别",
+          "level":"级别",
+          "levelOne":"一级",
+          "levelTwo":"二级"
         }
       }
     },

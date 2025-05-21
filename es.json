@@ -17149,7 +17149,12 @@
           "defineSequenceApprovalOccur": "Defina la secuencia en la que deben ocurrir las aprobaciones",
           "theseSettingsDetermineOverallFlow": "Estas configuraciones determinan el flujo general de todas las notas de requisición en el sistema",
           "theseSettingsDetermineOverallFlowConsignment": "Estas configuraciones determinan el flujo general de todas las notas de consignación en el sistema",
-          "selectGroup": "Seleccionar grupo"
+          "selectGroup": "Seleccionar grupo",
+          "managingGroupBinLocated":"El grupo de gestión de la zona donde se encuentra el contenedor",
+          "groupSupervisesLevelOne":"El grupo que supervisa o gestiona al grupo de Nivel 1",
+          "level":"Nivel",
+          "levelOne":"Nivel 1",
+          "levelTwo":"Nivel 2"
         }
       }
     },

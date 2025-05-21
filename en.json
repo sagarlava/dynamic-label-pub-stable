@@ -17149,7 +17149,12 @@
           "defineSequenceApprovalOccur":"Define the sequence in which approvals must occur",
           "theseSettingsDetermineOverallFlow":"These settings determine the overall flow for all requisition notes in the system",
           "theseSettingsDetermineOverallFlowConsignment":"These settings determine the overall flow for all consignment notes in the system",
-          "selectGroup":"Select Group"
+          "selectGroup":"Select Group",
+          "managingGroupBinLocated":"The Managing Group of the Zone where the bin is located",
+          "groupSupervisesLevelOne":"The group that supervises or manages the Level 1 group",
+          "level":"Level",
+          "levelOne":"Level 1",
+          "levelTwo":"Level 2"
         }
       }
     },
