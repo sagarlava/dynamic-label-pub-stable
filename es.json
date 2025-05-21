@@ -24685,10 +24685,16 @@
         "adminFunctionAvailable": "Nota: Las funciones de administrador solo están disponibles en el navegador web de FieldEx.",
         "bestExperiencedFieldEx": "Nota: La mejor experiencia es en el navegador web de FieldEx para control total operativo.",
         "roleCanOnlyAccessViaMobile": "Nota: Este rol solo puede acceder a FieldEx a través de la aplicación móvil (App Store / Play Store).",
-        "doNotShowAgain": "No volver a mostrar"
+        "doNotShowAgain": "No volver a mostrar",
+        "areYouSure":"¿Estás seguro de que quieres dejar de mostrar esta página?"
       },
       "validationFE":{
-        "onlyCsvFilesAllowed": "Solo se pueden subir archivos CSV y XLSX"
+        "onlyCsvFilesAllowed": "Solo se pueden subir archivos CSV y XLSX",
+        "pleaseAttachCsv": "Por favor adjunta tu archivo CSV para importar",
+        "pleaseEnterNewType":"Por favor ingresa un nuevo nombre de tipo",
+        "pleaseEnterNewStatus":"Por favor ingresa un nuevo nombre de estado",
+        "pleaseEnterNewFault":"Por favor ingresa un nuevo nombre de falla",
+        "pleaseEnterNewResolution":"Por favor ingresa un nuevo nombre de resolución"
       }
     }
   },
