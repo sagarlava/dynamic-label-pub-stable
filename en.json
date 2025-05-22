@@ -26614,7 +26614,7 @@
         "inBulkStreaming":"in bulk to streamline planning, reduce errors, and save setup time"
       },
       "validationFE":{
-        "onlyCsvFilesAllowed": "Only CSV and XLSX files can be uploaded",
+        "onlyCsvFilesAllowed": "Only CSV files can be uploaded",
         "pleaseAttachCsv": "Please attach your csv to be imported",
         "pleaseEnterNewType":"Please enter a new type name",
         "pleaseEnterNewStatus":"Please enter a new status name",

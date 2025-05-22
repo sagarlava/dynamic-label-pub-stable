@@ -26614,7 +26614,7 @@
         "inBulkStreaming":"批量操作以简化规划、减少错误并节省设置时间"
       },
       "validationFE":{
-        "onlyCsvFilesAllowed": "只能上传 CSV 和 XLSX 文件",
+        "onlyCsvFilesAllowed": "只能上传 CSV 文件",
         "pleaseAttachCsv": "请附上您要导入的 CSV 文件",
         "pleaseEnterNewType":"请输入新类型名称",
         "pleaseEnterNewStatus":"请输入新的状态名称",
