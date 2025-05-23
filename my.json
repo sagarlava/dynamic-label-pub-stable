@@ -1054,7 +1054,28 @@
         "plural": "Tarikh Dicipta",
         "setupEdit": false,
         "setupVisible": false
-      }
+      },
+        "chooseFileFormat": {
+          "original": "Choose File Format",
+          "singular": "Pilih Format Fail",
+          "plural": "Pilih Format Fail",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "setQrCodeSize": {
+          "original": "Set QR Code Size",
+          "singular": "Tetapkan Saiz Kod QR",
+          "plural": "Tetapkan Saiz Kod QR",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "selectPageLayout": {
+          "original": "Select Page Layout",
+          "singular": "Pilih Susun Atur Halaman",
+          "plural": "Pilih Susun Atur Halaman",
+          "setupEdit": false,
+          "setupVisible": false
+        }
     },
     "validationFE": {
       "warrantyEndDateAfterStartDate":"Tarikh Tamat Waranti mesti selepas Tarikh Mula.",
@@ -1358,7 +1379,9 @@
       "errorFetchingAllAssets": "Ralat mendapatkan semua aset",
       "errorOccuredWhileFetchingAccessories": "Ralat semasa mengambil aksesori",
       "logs": "Log",
-      "showUpdatesRelated":"Tunjukkan Kemas Kini Berkaitan Dengan:"
+      "showUpdatesRelated":"Tunjukkan Kemas Kini Berkaitan Dengan:",
+        "filterSelectAsset":"Tapis dan pilih aset yang anda ingin eksport kod QR untuknya",
+        "exportQrForAll":"Eksport juga kod QR untuk semua komponen"
     }
   },
   "analytic": {
@@ -22599,27 +22622,6 @@
           "plural": "",
           "setupEdit": true,
           "setupVisible": false
-        },
-        "chooseFileFormat": {
-          "original": "Choose File Format",
-          "singular": "Pilih Format Fail",
-          "plural": "Pilih Format Fail",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "setQrCodeSize": {
-          "original": "Set QR Code Size",
-          "singular": "Tetapkan Saiz Kod QR",
-          "plural": "Tetapkan Saiz Kod QR",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "selectPageLayout": {
-          "original": "Select Page Layout",
-          "singular": "Pilih Susun Atur Halaman",
-          "plural": "Pilih Susun Atur Halaman",
-          "setupEdit": false,
-          "setupVisible": false
         }
       },
       "validationFE": {},
@@ -22646,9 +22648,7 @@
         "importDataCsvFormat": "Untuk mengimport data anda ke FieldEx, sila pastikan fail yang anda muat naik mengandungi tajuk lajur dan dalam format .csv.",
         "exportDataAsCsvFormat": "Untuk mengeksport data anda dari FieldEx, klik 'Eksport' dan ikuti langkah-langkah. Data anda akan dimuat turun sebagai fail .csv dan boleh dilihat sebagai hamparan.",
         "pleaseSelectModule": "Sila pilih modul",
-        "pleaseSelectModuleToImport": "Sila pilih modul untuk diimport",
-        "filterSelectAsset":"Tapis dan pilih aset yang anda ingin eksport kod QR untuknya",
-        "exportQrForAll":"Eksport juga kod QR untuk semua komponen"
+        "pleaseSelectModuleToImport": "Sila pilih modul untuk diimport"
       }
     },
     "customerSurvey": {

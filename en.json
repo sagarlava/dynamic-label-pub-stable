@@ -1054,7 +1054,28 @@
         "plural": "Created Date",
         "setupEdit": false,
         "setupVisible": false
-      }
+      },
+        "chooseFileFormat": {
+          "original": "Choose File Format",
+          "singular": "Choose File Format",
+          "plural": "Choose File Format",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "setQrCodeSize": {
+          "original": "Set QR Code Size",
+          "singular": "Set QR Code Size",
+          "plural": "Set QR Code Size",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "selectPageLayout": {
+          "original": "Select Page Layout",
+          "singular": "Select Page Layout",
+          "plural": "Select Page Layout",
+          "setupEdit": false,
+          "setupVisible": false
+        }
     },
     "validationFE": {
       "warrantyEndDateAfterStartDate":"Warranty End Date must be after the Start Date.",
@@ -1358,7 +1379,9 @@
       "errorFetchingAllAssets": "Error fetching all assets",
       "errorOccuredWhileFetchingAccessories": "Error occured while fetching accessories",
       "logs": "Logs",
-      "showUpdatesRelated":"Show Updates Related To:"
+      "showUpdatesRelated":"Show Updates Related To:",
+        "filterSelectAsset":"Filter and select the assets you want to export QR codes for",
+        "exportQrForAll":"Export QR codes for all components too"
     }
   },
   "analytic": {
@@ -22600,27 +22623,6 @@
           "plural": "",
           "setupEdit": true,
           "setupVisible": false
-        },
-        "chooseFileFormat": {
-          "original": "Choose File Format",
-          "singular": "Choose File Format",
-          "plural": "Choose File Format",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "setQrCodeSize": {
-          "original": "Set QR Code Size",
-          "singular": "Set QR Code Size",
-          "plural": "Set QR Code Size",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "selectPageLayout": {
-          "original": "Select Page Layout",
-          "singular": "Select Page Layout",
-          "plural": "Select Page Layout",
-          "setupEdit": false,
-          "setupVisible": false
         }
       },
       "validationFE": {},
@@ -22647,9 +22649,7 @@
         "importDataCsvFormat":"To import your data into FieldEx,Please ensure the file you are uploading contains column headings and is of .csv format.",
         "exportDataAsCsvFormat":"To export your data from FieldEx, click 'Export' and follow the steps. Your data will be downloaded as a .csv file and can be viewed as a spreadsheet.",
         "pleaseSelectModule":"Please select a module",
-        "pleaseSelectModuleToImport":"Please select a module to import",
-        "filterSelectAsset":"Filter and select the assets you want to export QR codes for",
-        "exportQrForAll":"Export QR codes for all components too"
+        "pleaseSelectModuleToImport":"Please select a module to import"
       }
     },
     "customerSurvey": {

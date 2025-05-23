@@ -1054,7 +1054,28 @@
         "plural": "Fecha de creación",
         "setupEdit": false,
         "setupVisible": false
-      }
+      },
+        "chooseFileFormat": {
+          "original": "Choose File Format",
+          "singular": "Elegir formato de archivo",
+          "plural": "Elegir formato de archivo",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "setQrCodeSize": {
+          "original": "Set QR Code Size",
+          "singular": "Establecer tamaño del código QR",
+          "plural": "Establecer tamaño del código QR",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "selectPageLayout": {
+          "original": "Select Page Layout",
+          "singular": "Seleccionar diseño de página",
+          "plural": "Seleccionar diseño de página",
+          "setupEdit": false,
+          "setupVisible": false
+        }
     },
     "validationFE": {
       "warrantyEndDateAfterStartDate": "La fecha de finalización de la garantía debe ser posterior a la fecha de inicio.",
@@ -1358,7 +1379,9 @@
       "errorFetchingAllAssets": "Error al recuperar todos los activos",
       "errorOccuredWhileFetchingAccessories": "Error al obtener los accesorios",
       "logs": "Registros",
-      "showUpdatesRelated": "Mostrar actualizaciones relacionadas con:"
+      "showUpdatesRelated": "Mostrar actualizaciones relacionadas con:",
+        "filterSelectAsset":"Filtra y selecciona los activos para los que deseas exportar los códigos QR",
+        "exportQrForAll":"Exportar también los códigos QR para todos los componentes"
     }
   },
   "analytic": {
@@ -22600,27 +22623,6 @@
           "plural": "",
           "setupEdit": true,
           "setupVisible": false
-        },
-        "chooseFileFormat": {
-          "original": "Choose File Format",
-          "singular": "Elegir formato de archivo",
-          "plural": "Elegir formato de archivo",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "setQrCodeSize": {
-          "original": "Set QR Code Size",
-          "singular": "Establecer tamaño del código QR",
-          "plural": "Establecer tamaño del código QR",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "selectPageLayout": {
-          "original": "Select Page Layout",
-          "singular": "Seleccionar diseño de página",
-          "plural": "Seleccionar diseño de página",
-          "setupEdit": false,
-          "setupVisible": false
         }
       },
       "validationFE": {},
@@ -22647,9 +22649,7 @@
         "importDataCsvFormat": "Para importar sus datos en FieldEx, asegúrese de que el archivo que está cargando contenga encabezados de columna y esté en formato .csv.",
         "exportDataAsCsvFormat": "Para exportar sus datos desde FieldEx, haga clic en 'Exportar' y siga los pasos. Sus datos se descargarán como un archivo .csv y se podrán ver como una hoja de cálculo.",
         "pleaseSelectModule": "Por favor, seleccione un módulo",
-        "pleaseSelectModuleToImport": "Por favor, seleccione un módulo para importar",
-        "filterSelectAsset":"Filtra y selecciona los activos para los que deseas exportar los códigos QR",
-        "exportQrForAll":"Exportar también los códigos QR para todos los componentes"
+        "pleaseSelectModuleToImport": "Por favor, seleccione un módulo para importar"
       }
     },
     "customerSurvey": {
