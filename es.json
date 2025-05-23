@@ -16897,9 +16897,9 @@
       "groups": {
         "setupVisible": false,
         "label": {
-          "original": "User Groups",
-          "singular": "Grupo de Usuario",
-          "plural": "Grupos de Usuario",
+          "original": "Groups",
+          "singular": "Grupo",
+          "plural": "Grupos",
           "setupEdit": true,
           "setupVisible": false
         },
