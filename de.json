@@ -451,7 +451,7 @@
       },
       "sec2": {
         "original": "Coverage Period & Acquisition",
-        "singular": "Deckungszeitraum & Erwerb",
+        "singular": "Deckungszeitraum & Anschaffung",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
@@ -1068,7 +1068,28 @@
         "plural": "Erstellungsdatum",
         "setupEdit": false,
         "setupVisible": false
-      }
+      },
+        "chooseFileFormat": {
+          "original": "Choose File Format",
+          "singular": "Dateiformat wählen",
+          "plural": "Dateiformat wählen",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "setQrCodeSize": {
+          "original": "Set QR Code Size",
+          "singular": "QR-Code-Größe festlegen",
+          "plural": "QR-Code-Größe festlegen",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "selectPageLayout": {
+          "original": "Select Page Layout",
+          "singular": "Seitenlayout auswählen",
+          "plural": "Seitenlayout auswählen",
+          "setupEdit": false,
+          "setupVisible": false
+        }
     },
     "validationFE": {
       "warrantyEndDateAfterStartDate":"Das Garantie-Enddatum muss nach dem Startdatum liegen.",
@@ -1373,7 +1394,9 @@
       "errorFetchingAllAssets": "Fehler beim Abrufen aller Assets.",
       "errorOccuredWhileFetchingAccessories": "Fehler beim Abrufen von Zubehör aufgetreten",
         "logs": "Protokolle",
-      "showUpdatesRelated":"Zeige Updates zu:"
+      "showUpdatesRelated":"Zeige Updates zu:",
+        "filterSelectAsset":"Filtern und wählen Sie die Assets aus, für die Sie QR-Codes exportieren möchten",
+        "exportQrForAll":"QR-Codes auch für alle Komponenten exportieren"
     }
   },
   "analytic": {
@@ -13929,7 +13952,14 @@
         "plural": "Konfigurationen",
         "setupEdit": false,
         "setupVisible": false
-      }	
+      },
+      "exportQr":{
+        "original": "Export QR",
+        "singular": "QR exportieren",
+        "plural": "QR exportieren",
+        "setupEdit": false,
+        "setupVisible": false
+      }			
     },
     "status": {
       "setupVisible": false,
@@ -17086,9 +17116,9 @@
       "groups": {
         "setupVisible": false,
         "label": {
-          "original": "User Groups",
-          "singular": "Benutzergruppe",
-          "plural": "Benutzergruppen",
+          "original": "Groups",
+          "singular": "Gruppe",
+          "plural": "Gruppen",
           "setupEdit": true,
           "setupVisible": false
         },
@@ -23123,27 +23153,6 @@
           "plural": "",
           "setupEdit": true,
           "setupVisible": false
-        },
-        "chooseFileFormat": {
-          "original": "Choose File Format",
-          "singular": "Dateiformat wählen",
-          "plural": "Dateiformat wählen",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "setQrCodeSize": {
-          "original": "Set QR Code Size",
-          "singular": "QR-Code-Größe festlegen",
-          "plural": "QR-Code-Größe festlegen",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "selectPageLayout": {
-          "original": "Select Page Layout",
-          "singular": "Seitenlayout auswählen",
-          "plural": "Seitenlayout auswählen",
-          "setupEdit": false,
-          "setupVisible": false
         }
       },
       "validationFE": {},
@@ -23170,9 +23179,7 @@
         "importDataCsvFormat": "Um Ihre Daten in FieldEx zu importieren, stellen Sie bitte sicher, dass die hochgeladene Datei Kopfzeilen enthält und im .csv-Format vorliegt.",
         "exportDataAsCsvFormat": "Um Ihre Daten aus FieldEx zu exportieren, klicken Sie auf 'Exportieren' und folgen Sie den Schritten. Ihre Daten werden als .csv-Datei heruntergeladen und können als Tabelle angezeigt werden.",
         "pleaseSelectModule": "Bitte wählen Sie ein Modul aus",
-        "pleaseSelectModuleToImport": "Bitte wählen Sie ein Modul zum Importieren aus",
-        "filterSelectAsset":"Filtern und wählen Sie die Assets aus, für die Sie QR-Codes exportieren möchten",
-        "exportQrForAll":"QR-Codes auch für alle Komponenten exportieren"
+        "pleaseSelectModuleToImport": "Bitte wählen Sie ein Modul zum Importieren aus"
       }
     },
     "customerSurvey": {
@@ -24443,8 +24450,8 @@
       "standardNotification": {
         "inventory": {
           "description": {
-            "bin_under_stock": "Wird an den Filialleiter gesendet, wenn einer seiner Behälter seinen Unterbestandswert erreicht oder überschreitet",
-            "bin_re_order_point": "Wird an den Filialleiter gesendet, wenn einer seiner Behälter seinen Nachbestellwert erreicht oder überschreitet",
+            "bin_under_stock": "An die Verwaltungsgruppe gesendet, wenn einer ihrer Behälter seinen Mindestbestand erreicht oder überschreitet",
+            "bin_re_order_point": "An die Verwaltungsgruppe gesendet, wenn einer ihrer Behälter seinen Bestellpunkt erreicht oder überschreitet",
             "bin_transfer_request": "Wird an den Genehmiger gesendet, wenn eine Behälterübertragung angefordert wurde"
           },
           "name": {

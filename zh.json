@@ -451,7 +451,7 @@
       },
       "sec2": {
         "original": "Coverage Period & Acquisition",
-        "singular": "覆盖期与获取",
+        "singular": "保障期限与采购",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
@@ -1068,7 +1068,28 @@
         "plural": "创建日期",
         "setupEdit": false,
         "setupVisible": false
-      }
+      },
+        "chooseFileFormat": {
+          "original": "Choose File Format",
+          "singular": "选择文件格式",
+          "plural": "选择文件格式",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "setQrCodeSize": {
+          "original": "Set QR Code Size",
+          "singular": "设置二维码大小",
+          "plural": "设置二维码大小",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "selectPageLayout": {
+          "original": "Select Page Layout",
+          "singular": "选择页面布局",
+          "plural": "选择页面布局",
+          "setupEdit": false,
+          "setupVisible": false
+        }
     },
     "validationFE": {
       "warrantyEndDateAfterStartDate":"保修结束日期必须在开始日期之后。",
@@ -1373,7 +1394,9 @@
       "errorFetchingAllAssets": "获取所有资产时出错",
       "errorOccuredWhileFetchingAccessories": "获取配件时发生错误",
       "logs": "日志",
-      "showUpdatesRelated":"显示相关更新:"
+      "showUpdatesRelated":"显示相关更新:",
+        "filterSelectAsset":"筛选并选择您要导出二维码的资产",
+        "exportQrForAll":"也导出所有组件的二维码"
     }
   },
   "analytic": {
@@ -13929,7 +13952,14 @@
         "plural": "配置",
         "setupEdit": false,
         "setupVisible": false
-      }	
+      },
+      "exportQr":{
+        "original": "Export QR",
+        "singular": "导出二维码",
+        "plural": "导出二维码",
+        "setupEdit": false,
+        "setupVisible": false
+      }		
     },
     "status": {
       "setupVisible": true,
@@ -17086,9 +17116,9 @@
       "groups": {
         "setupVisible": false,
         "label": {
-          "original": "User Groups",
-          "singular": "用户组",
-          "plural": "用户组",
+          "original": "Groups",
+          "singular": "组",
+          "plural": "组",
           "setupEdit": true,
           "setupVisible": false
         },
@@ -23123,27 +23153,6 @@
           "plural": "",
           "setupEdit": true,
           "setupVisible": false
-        },
-        "chooseFileFormat": {
-          "original": "Choose File Format",
-          "singular": "选择文件格式",
-          "plural": "选择文件格式",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "setQrCodeSize": {
-          "original": "Set QR Code Size",
-          "singular": "设置二维码大小",
-          "plural": "设置二维码大小",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "selectPageLayout": {
-          "original": "Select Page Layout",
-          "singular": "选择页面布局",
-          "plural": "选择页面布局",
-          "setupEdit": false,
-          "setupVisible": false
         }
       },
       "validationFE": {},
@@ -23170,9 +23179,7 @@
         "importDataCsvFormat": "将数据导入到 FieldEx，请确保上传的文件包含列标题，并且是 .csv 格式。",
         "exportDataAsCsvFormat": "要从 FieldEx 导出数据，请点击“导出”并按照步骤操作。您的数据将作为 .csv 文件下载，并可以作为电子表格查看。",
         "pleaseSelectModule": "请选择一个模块",
-        "pleaseSelectModuleToImport": "请选择要导入的模块",
-        "filterSelectAsset":"筛选并选择您要导出二维码的资产",
-        "exportQrForAll":"也导出所有组件的二维码"
+        "pleaseSelectModuleToImport": "请选择要导入的模块"
       }
     },
     "customerSurvey": {
@@ -24443,8 +24450,8 @@
       "standardNotification": {
         "inventory": {
           "description": {
-            "bin_under_stock": "当某个箱子的库存达到或超过其低库存点时，发送给店经理",
-            "bin_re_order_point": "当某个箱子的库存达到或超过其补货点时，发送给店经理",
+            "bin_under_stock": "当其中一个箱位达到或超过其库存下限时，将通知管理组",
+            "bin_re_order_point": "当其中一个箱位达到或超过其补货点时，将通知管理组",
             "bin_transfer_request": "当请求箱子转移时，发送给审批人"
           },
           "name": {

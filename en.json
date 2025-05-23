@@ -450,8 +450,8 @@
         "setupVisible": true
       },
       "sec2": {
-        "original": "Coverage Period",
-        "singular": "Coverage Period",
+        "original": "Coverage Period & Acquisition",
+        "singular": "Coverage Period & Acquisition",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
@@ -1068,7 +1068,28 @@
         "plural": "Created Date",
         "setupEdit": false,
         "setupVisible": false
-      }
+      },
+        "chooseFileFormat": {
+          "original": "Choose File Format",
+          "singular": "Choose File Format",
+          "plural": "Choose File Format",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "setQrCodeSize": {
+          "original": "Set QR Code Size",
+          "singular": "Set QR Code Size",
+          "plural": "Set QR Code Size",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "selectPageLayout": {
+          "original": "Select Page Layout",
+          "singular": "Select Page Layout",
+          "plural": "Select Page Layout",
+          "setupEdit": false,
+          "setupVisible": false
+        }
     },
     "validationFE": {
       "warrantyEndDateAfterStartDate":"Warranty End Date must be after the Start Date.",
@@ -1373,7 +1394,9 @@
       "errorFetchingAllAssets": "Error fetching all assets",
       "errorOccuredWhileFetchingAccessories": "Error occured while fetching accessories",
       "logs": "Logs",
-      "showUpdatesRelated":"Show Updates Related To:"
+      "showUpdatesRelated":"Show Updates Related To:",
+        "filterSelectAsset":"Filter and select the assets you want to export QR codes for",
+        "exportQrForAll":"Export QR codes for all components too"
     }
   },
   "analytic": {
@@ -13929,6 +13952,13 @@
         "plural": "Config",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "exportQr":{
+        "original": "Export QR",
+        "singular": "Export QR",
+        "plural": "Export QR",
+        "setupEdit": false,
+        "setupVisible": false
       }	
     },
     "status": {
@@ -17086,9 +17116,9 @@
       "groups": {
         "setupVisible": false,
         "label": {
-          "original": "User Groups",
-          "singular": "User Group",
-          "plural": "User Groups",
+          "original": "Groups",
+          "singular": "Group",
+          "plural": "Groups",
           "setupEdit": true,
           "setupVisible": false
         },
@@ -23123,27 +23153,6 @@
           "plural": "",
           "setupEdit": true,
           "setupVisible": false
-        },
-        "chooseFileFormat": {
-          "original": "Choose File Format",
-          "singular": "Choose File Format",
-          "plural": "Choose File Format",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "setQrCodeSize": {
-          "original": "Set QR Code Size",
-          "singular": "Set QR Code Size",
-          "plural": "Set QR Code Size",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "selectPageLayout": {
-          "original": "Select Page Layout",
-          "singular": "Select Page Layout",
-          "plural": "Select Page Layout",
-          "setupEdit": false,
-          "setupVisible": false
         }
       },
       "validationFE": {},
@@ -23170,9 +23179,7 @@
         "importDataCsvFormat":"To import your data into FieldEx,Please ensure the file you are uploading contains column headings and is of .csv format.",
         "exportDataAsCsvFormat":"To export your data from FieldEx, click 'Export' and follow the steps. Your data will be downloaded as a .csv file and can be viewed as a spreadsheet.",
         "pleaseSelectModule":"Please select a module",
-        "pleaseSelectModuleToImport":"Please select a module to import",
-        "filterSelectAsset":"Filter and select the assets you want to export QR codes for",
-        "exportQrForAll":"Export QR codes for all components too"
+        "pleaseSelectModuleToImport":"Please select a module to import"
       }
     },
     "customerSurvey": {
@@ -24443,8 +24450,8 @@
       "standardNotification": {
         "inventory": {
           "description": {
-            "bin_under_stock": "Sent to the store manager when one of their bins reaches or exceeds its under stock point",
-            "bin_re_order_point": "Sent to the store manager when one of their bins reaches or exceeds its reorder point",
+            "bin_under_stock": "Sent to the managing group when one of their bins reaches or exceeds its under stock point",
+            "bin_re_order_point": "Sent to the managing group when one of their bins reaches or exceeds its reorder point",
             "bin_transfer_request": "Sent to the approver when a bin transfer has been requested"
           },
           "name": {
