@@ -23918,8 +23918,8 @@
       "standardNotification": {
         "inventory": {
           "description": {
-            "bin_under_stock": "当某个箱子的库存达到或超过其低库存点时，发送给店经理",
-            "bin_re_order_point": "当某个箱子的库存达到或超过其补货点时，发送给店经理",
+            "bin_under_stock": "当其中一个箱位达到或超过其库存下限时，将通知管理组",
+            "bin_re_order_point": "当其中一个箱位达到或超过其补货点时，将通知管理组",
             "bin_transfer_request": "当请求箱子转移时，发送给审批人"
           },
           "name": {

@@ -23918,8 +23918,8 @@
       "standardNotification": {
         "inventory": {
           "description": {
-            "bin_under_stock": "Wird an den Filialleiter gesendet, wenn einer seiner Behälter seinen Unterbestandswert erreicht oder überschreitet",
-            "bin_re_order_point": "Wird an den Filialleiter gesendet, wenn einer seiner Behälter seinen Nachbestellwert erreicht oder überschreitet",
+            "bin_under_stock": "An die Verwaltungsgruppe gesendet, wenn einer ihrer Behälter seinen Mindestbestand erreicht oder überschreitet",
+            "bin_re_order_point": "An die Verwaltungsgruppe gesendet, wenn einer ihrer Behälter seinen Bestellpunkt erreicht oder überschreitet",
             "bin_transfer_request": "Wird an den Genehmiger gesendet, wenn eine Behälterübertragung angefordert wurde"
           },
           "name": {

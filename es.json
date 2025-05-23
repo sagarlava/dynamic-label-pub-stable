@@ -23918,8 +23918,8 @@
       "standardNotification": {
         "inventory": {
           "description": {
-            "bin_under_stock": "Enviado al gerente de la tienda cuando uno de sus bins alcanza o supera su punto de bajo stock",
-            "bin_re_order_point": "Enviado al gerente de la tienda cuando uno de sus bins alcanza o supera su punto de reorden",
+            "bin_under_stock": "Enviado al grupo de gestión cuando uno de sus contenedores alcanza o supera su punto mínimo de stock",
+            "bin_re_order_point": "Enviado al grupo de gestión cuando uno de sus contenedores alcanza o supera su punto de reorden",
             "bin_transfer_request": "Enviado al aprobador cuando se ha solicitado una transferencia de bin"
           },
           "name": {

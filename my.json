@@ -23917,8 +23917,8 @@
       "standardNotification": {
         "inventory": {
           "description": {
-            "bin_under_stock": "Dihantar kepada pengurus kedai apabila salah satu bin mereka mencapai atau melebihi titik stok rendahnya",
-            "bin_re_order_point": "Dihantar kepada pengurus kedai apabila salah satu bin mereka mencapai atau melebihi titik pesanan semula",
+            "bin_under_stock": "Dihantar kepada kumpulan pengurusan apabila salah satu tong mereka mencapai atau melebihi titik kekurangan stok",
+            "bin_re_order_point": "Dihantar kepada kumpulan pengurusan apabila salah satu tong mereka mencapai atau melebihi titik penempahan semula",
             "bin_transfer_request": "Dihantar kepada pihak yang meluluskan apabila permintaan pemindahan bin telah dibuat"
           },
           "name": {

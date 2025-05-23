@@ -23918,8 +23918,8 @@
       "standardNotification": {
         "inventory": {
           "description": {
-            "bin_under_stock": "Sent to the store manager when one of their bins reaches or exceeds its under stock point",
-            "bin_re_order_point": "Sent to the store manager when one of their bins reaches or exceeds its reorder point",
+            "bin_under_stock": "Sent to the managing group when one of their bins reaches or exceeds its under stock point",
+            "bin_re_order_point": "Sent to the managing group when one of their bins reaches or exceeds its reorder point",
             "bin_transfer_request": "Sent to the approver when a bin transfer has been requested"
           },
           "name": {
