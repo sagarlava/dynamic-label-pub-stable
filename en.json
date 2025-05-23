@@ -13732,6 +13732,13 @@
         "plural": "Config",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "exportQr":{
+        "original": "Export QR",
+        "singular": "Export QR",
+        "plural": "Export QR",
+        "setupEdit": false,
+        "setupVisible": false
       }	
     },
     "status": {

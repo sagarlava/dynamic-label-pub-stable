@@ -13732,7 +13732,14 @@
         "plural": "Konfigurationen",
         "setupEdit": false,
         "setupVisible": false
-      }		
+      },
+      "exportQr":{
+        "original": "Export QR",
+        "singular": "QR exportieren",
+        "plural": "QR exportieren",
+        "setupEdit": false,
+        "setupVisible": false
+      }			
     },
     "status": {
       "setupVisible": false,

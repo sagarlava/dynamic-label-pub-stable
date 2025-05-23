@@ -13732,7 +13732,14 @@
         "plural": "配置",
         "setupEdit": false,
         "setupVisible": false
-      }	
+      },
+      "exportQr":{
+        "original": "Export QR",
+        "singular": "导出二维码",
+        "plural": "导出二维码",
+        "setupEdit": false,
+        "setupVisible": false
+      }		
     },
     "status": {
       "setupVisible": true,
