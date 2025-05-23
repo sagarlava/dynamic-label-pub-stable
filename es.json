@@ -13930,7 +13930,14 @@
         "plural": "Configuración",
         "setupEdit": false,
         "setupVisible": false
-      }
+      },
+      "exportQr":{
+        "original": "Export QR",
+        "singular": "Exportar QR",
+        "plural": "Exportar QR",
+        "setupEdit": false,
+        "setupVisible": false
+      }	
       }
     },
     "status": {
