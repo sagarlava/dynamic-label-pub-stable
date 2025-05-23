@@ -9247,7 +9247,7 @@
     "validationBE": {
       "binIdExists": "A new Bin cannot already have an ID",
       "binIdExtIdNotFound": "Id/ExternalId not found",
-      "binHasAUser": "User already assigned to a bin",
+      "binHasAUser": "User already has a bin",
       "binExternalIdExists": "External Id already exists",
       "binNotAuthorized": "Not Authorized",
       "binNotFound": "Bin not found",
