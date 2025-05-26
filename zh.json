@@ -24591,7 +24591,7 @@
         "createAssignJobsTrackProgress":"创建和分配任务，跟踪进度，优化日程",
         "receiveTaskUpdateJobStatus":"接收任务，更新任务状态，上传照片，扫描二维码。",
         "addYourTeammates":"将您的队友添加到 FieldEx，并分配最适合他们能力的角色。无论是在幕后协调，还是在现场操作 —— 只需一个邀请，就能实现协作！",
-        "reviewCsvColumns":"检查您的 CSV 列如何映射到我们的系统字段",
+        "reviewCsvColumns":"AI 已自动匹配您的字段。置信度列显示每个字段的匹配百分比",
         "reviewCustomizeAssetType":"检查并自定义在您的 CSV 和现有系统类型中检测到的资产类型",
         "reviewCustomizeAssetStatus":"检查并自定义在您的 CSV 和现有系统状态中检测到的资产状态",
         "reviewCustomizeWorkOrderType":"检查并自定义在您的 CSV 和现有系统类型中检测到的工单类型",
