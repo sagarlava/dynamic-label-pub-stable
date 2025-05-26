@@ -26524,7 +26524,7 @@
         "createAssignJobsTrackProgress":"Crea y asigna tareas, haz seguimiento del progreso y optimiza horarios",
         "receiveTaskUpdateJobStatus":"Recibe tareas, actualiza el estado del trabajo, sube fotos, escanea códigos QR.",
         "addYourTeammates":"Agrega a tus compañeros a FieldEx y asígnales roles que se ajusten a sus superpoderes. Ya sea detrás de la pantalla o en el campo, estás a una invitación de la sinergia.",
-        "reviewCsvColumns":"Revise cómo se asignan sus columnas CSV a los campos de nuestro sistema",
+        "reviewCsvColumns":"La IA ha emparejado automáticamente tus campos. La columna de confianza indica el porcentaje de coincidencia para cada campo",
         "reviewCustomizeAssetType":"Revise y personalice los tipos de activos detectados en su CSV y los tipos de sistema existentes",
         "reviewCustomizeAssetStatus":"Revise y personalice el estado de los activos detectados en su CSV y el estado del sistema existente",
         "reviewCustomizeWorkOrderType":"Revise y personalice los tipos de órdenes de trabajo detectados en su CSV y los tipos de sistema existentes",
@@ -26548,7 +26548,7 @@
         "selectRole":"Seleccionar rol",
         "aiAnalysisComplete":"Análisis de IA completado",
         "dataInsight":"Información de datos",
-        "fieldMapping":"Mapeo de campos",
+        "fieldMapping":"Mapea tus campos CSV a los campos del sistema FieldEx",
         "assetTypes":"Tipos de activos",
         "bookTrainingExperience":"Reserva una capacitación: Potencia tu experiencia con FieldEx",
         "freeOnboardingCaps":"INCORPORACIÓN GRATUITA",
@@ -26621,7 +26621,8 @@
         "roleCanOnlyAccessViaMobile": "Nota: Este rol solo puede acceder a FieldEx a través de la aplicación móvil (App Store / Play Store).",
         "doNotShowAgain": "No volver a mostrar",
         "areYouSure":"¿Estás seguro de que quieres dejar de mostrar esta página?",
-        "inBulkStreaming":"en masa para agilizar la planificación, reducir errores y ahorrar tiempo de configuración"
+        "inBulkStreaming":"en masa para agilizar la planificación, reducir errores y ahorrar tiempo de configuración",
+        "yourProTrialEndsIn":"Tu prueba Pro termina en"
       },
       "validationFE":{
         "onlyCsvFilesAllowed": "Solo se pueden subir archivos CSV",

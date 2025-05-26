@@ -26522,7 +26522,7 @@
         "createAssignJobsTrackProgress":"Create and assign jobs, track progress, optimize schedules",
         "receiveTaskUpdateJobStatus":"Receive tasks, update job status, upload photos, scan QR codes.",
         "addYourTeammates":"Add your teammates to FieldEx and assign roles that suit their superpowers. Whether they keep things moving behind a screen or out on the field — you’re just one invite away from synergy.",
-        "reviewCsvColumns":"Review how your CSV columns map to our system fields",
+        "reviewCsvColumns":"AI has automatically matched your fields. The Confidence column indicates the percentage match for each field",
         "reviewCustomizeAssetType":"Review and customize asset types detected in your CSV and existing system types",
         "reviewCustomizeAssetStatus":"Review and customize asset status detected in your CSV and existing system status",
         "reviewCustomizeWorkOrderType":"Review and customize work order types detected in your CSV and existing system types",
@@ -26548,7 +26548,7 @@
         "selectRole":"Select Role",
         "aiAnalysisComplete":"AI Analysis Complete",
         "dataInsight":"Data Insights",
-        "fieldMapping":"Field Mapping",
+        "fieldMapping":"Map your CSV fields to FieldEx system fields",
         "assetTypes":"Asset Types",
         "bookTrainingExperience":"Book a Training: Supercharge your FieldEx experience",
         "freeOnboardingCaps":"FREE ONBOARDING",
@@ -26619,7 +26619,8 @@
         "roleCanOnlyAccessViaMobile":"Note : This role can only access FieldEx via the mobile app (App Store / Play Store).",
         "doNotShowAgain":"Do not show again",
         "areYouSure":"Are you sure you want to stop showing this page again?",
-        "inBulkStreaming":"in bulk to streamline planning, reduce errors, and save setup time"
+        "inBulkStreaming":"in bulk to streamline planning, reduce errors, and save setup time",
+        "yourProTrialEndsIn":"Your Pro trial ends in"
       },
       "validationFE":{
         "onlyCsvFilesAllowed": "Only CSV files can be uploaded",

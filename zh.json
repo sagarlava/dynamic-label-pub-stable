@@ -26522,7 +26522,7 @@
         "createAssignJobsTrackProgress":"创建和分配任务，跟踪进度，优化日程",
         "receiveTaskUpdateJobStatus":"接收任务，更新任务状态，上传照片，扫描二维码。",
         "addYourTeammates":"将您的队友添加到 FieldEx，并分配最适合他们能力的角色。无论是在幕后协调，还是在现场操作 —— 只需一个邀请，就能实现协作！",
-        "reviewCsvColumns":"检查您的 CSV 列如何映射到我们的系统字段",
+        "reviewCsvColumns":"AI 已自动匹配您的字段。置信度列显示每个字段的匹配百分比",
         "reviewCustomizeAssetType":"检查并自定义在您的 CSV 和现有系统类型中检测到的资产类型",
         "reviewCustomizeAssetStatus":"检查并自定义在您的 CSV 和现有系统状态中检测到的资产状态",
         "reviewCustomizeWorkOrderType":"检查并自定义在您的 CSV 和现有系统类型中检测到的工单类型",
@@ -26546,7 +26546,7 @@
         "selectRole":"选择角色",
         "aiAnalysisComplete":"AI 分析完成",
         "dataInsight":"数据洞察",
-        "fieldMapping":"字段映射",
+        "fieldMapping":"将您的 CSV 字段映射到 FieldEx 系统字段",
         "assetTypes":"资产类型",
         "bookTrainingExperience":"预订培训：提升您的 FieldEx 体验",
         "freeOnboardingCaps":"免费入职培训",
@@ -26619,7 +26619,8 @@
         "roleCanOnlyAccessViaMobile": "注意：此角色仅可通过移动应用程序（App Store / Play Store）访问 FieldEx。",
         "doNotShowAgain": "不再显示",
         "areYouSure":"您确定不再显示此页面吗？",
-        "inBulkStreaming":"批量操作以简化规划、减少错误并节省设置时间"
+        "inBulkStreaming":"批量操作以简化规划、减少错误并节省设置时间",
+        "yourProTrialEndsIn":"您的专业版试用将在以下时间结束"
       },
       "validationFE":{
         "onlyCsvFilesAllowed": "只能上传 CSV 文件",

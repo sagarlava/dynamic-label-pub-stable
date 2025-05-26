@@ -26523,7 +26523,7 @@
         "createAssignJobsTrackProgress":"Cipta dan tugaskan kerja, jejak kemajuan, optimumkan jadual",
         "receiveTaskUpdateJobStatus":"Terima tugasan, kemas kini status kerja, muat naik foto, imbas kod QR.",
         "addYourTeammates":"Tambah rakan sepasukan anda ke FieldEx dan tetapkan peranan yang sesuai dengan kekuatan mereka. Sama ada mereka mengurus di sebalik skrin atau di lapangan — anda hanya satu jemputan sahaja dari sinergi.",
-        "reviewCsvColumns":"Semak bagaimana lajur CSV anda dipetakan ke medan sistem kami",
+        "reviewCsvColumns":"AI telah memadankan medan anda secara automatik. Lajur Keyakinan menunjukkan peratusan padanan bagi setiap medan",
         "reviewCustomizeAssetType":"Semak dan sesuaikan jenis aset yang dikesan dalam CSV anda dan jenis sistem sedia ada",
         "reviewCustomizeAssetStatus":"Semak dan sesuaikan status aset yang dikesan dalam CSV anda dan status sistem sedia ada",
         "reviewCustomizeWorkOrderType":"Semak dan sesuaikan jenis pesanan kerja yang dikesan dalam CSV anda dan jenis sistem sedia ada",
@@ -26547,7 +26547,7 @@
         "selectRole":"Pilih Peranan",
         "aiAnalysisComplete":"Analisis AI Selesai",
         "dataInsight":"Pandangan Data",
-        "fieldMapping":"Pemetaan Medan",
+        "fieldMapping":"Peta medan CSV anda ke medan sistem FieldEx",
         "assetTypes":"Jenis Aset",
         "bookTrainingExperience":"Tempah Latihan: Tingkatkan pengalaman anda dengan FieldEx",
         "freeOnboardingCaps":"PENDAFTARAN PERCUMA",
@@ -26620,7 +26620,8 @@
         "roleCanOnlyAccessViaMobile":"Nota: Peranan ini hanya boleh mengakses FieldEx melalui aplikasi mudah alih (App Store / Play Store).",
         "doNotShowAgain":"Jangan tunjukkan lagi",
         "areYouSure":"Adakah anda pasti mahu berhenti memaparkan halaman ini lagi?",
-        "inBulkStreaming":"secara pukal untuk memudahkan perancangan, mengurangkan ralat, dan menjimatkan masa penyediaan"
+        "inBulkStreaming":"secara pukal untuk memudahkan perancangan, mengurangkan ralat, dan menjimatkan masa penyediaan",
+        "yourProTrialEndsIn":"Percubaan Pro anda akan tamat dalam"
       },
       "validationFE":{
         "onlyCsvFilesAllowed": "Hanya fail CSV sahaja yang boleh dimuat naik",
