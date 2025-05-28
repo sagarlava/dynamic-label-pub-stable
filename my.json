@@ -1376,6 +1376,13 @@
         "plural": "sebaik tiba.",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "parentForAsset": {
+        "original": "Allows the user to assign another asset as the parent for this asset.",
+        "singular": "Membolehkan pengguna menetapkan aset lain sebagai induk kepada aset ini.",
+        "plural": "Membolehkan pengguna menetapkan aset lain sebagai induk kepada aset ini.",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "messages": {

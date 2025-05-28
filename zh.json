@@ -1376,6 +1376,13 @@
         "plural": "到达时。",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "parentForAsset": {
+        "original": "Allows the user to assign another asset as the parent for this asset.",
+        "singular": "允许用户将其他资产分配为该资产的父资产。",
+        "plural": "允许用户将其他资产分配为该资产的父资产。",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "messages": {
