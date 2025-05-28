@@ -1361,6 +1361,13 @@
         "plural": "al llegar.",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "parentForAsset": {
+        "original": "Allows the user to assign another asset as the parent for this asset.",
+        "singular": "Permite al usuario asignar otro activo como principal para este activo.",
+        "plural": "Permite al usuario asignar otro activo como principal para este activo.",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "messages": {

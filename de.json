@@ -1361,6 +1361,13 @@
         "plural": "bei Ankunft.",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "parentForAsset": {
+        "original": "Allows the user to assign another asset as the parent for this asset.",
+        "singular": "Ermöglicht dem Benutzer, ein anderes Asset als übergeordnetes Element für dieses Asset zuzuweisen.",
+        "plural": "Ermöglicht dem Benutzer, ein anderes Asset als übergeordnetes Element für dieses Asset zuzuweisen.",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "messages": {

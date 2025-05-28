@@ -1361,6 +1361,13 @@
         "plural": "upon arrival.",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "parentForAsset": {
+        "original": "Allows the user to assign another asset as the parent for this asset.",
+        "singular": "Allows the user to assign another asset as the parent for this asset.",
+        "plural": "Allows the user to assign another asset as the parent for this asset.",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "messages": {
