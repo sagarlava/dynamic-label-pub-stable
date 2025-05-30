@@ -10988,7 +10988,10 @@
       "userGroupNotFoundOfToBin": "UserGroup not found for zone of To Bin",
       "fromBinNotFound": "From Bin not found",
       "toBinNotFound": "To Bin not found",
-      "noAssetsOrProductsFound": "No assets or products found"
+      "noAssetsOrProductsFound": "No assets or products found",
+      "l1Andl2AlreadyExist": "Group Level 1 and Group Level 2 already exist",
+      "cantUpdateApprovalConfigurationDueToPendingItems": "Can't update approval configuration due to pending consignments",
+      "cantRemoveApprovalConfigurationDueToPendingItems": "Can't remove approval relationship due to pending consignments"
     },
     "messages": {
       "selectType": "Select Type",
@@ -11605,7 +11608,10 @@
       "userGroupNotFoundOfToBin": "UserGroup not found for zone of To Bin",
       "fromBinNotFound": "From Bin not found",
       "toBinNotFound": "To Bin not found",
-      "noAssetsOrProductsFound": "No assets or products found"
+      "noAssetsOrProductsFound": "No assets or products found",
+      "l1Andl2AlreadyExist": "Group Level 1 and Group Level 2 already exist",
+      "cantUpdateApprovalConfigurationDueToPendingItems": "Can't update approval configuration due to pending requisitions",
+      "cantRemoveApprovalConfigurationDueToPendingItems": "Can't remove approval relationship due to pending requisitions"
     },
     "messages": {
       "selectPriority": "Select Priority",

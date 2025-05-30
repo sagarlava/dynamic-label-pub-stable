@@ -10988,7 +10988,10 @@
       "userGroupNotFoundOfToBin": "未找到To Bin区域的用户组",
       "fromBinNotFound": "未找到From Bin",
       "toBinNotFound": "未找到To Bin",
-      "noAssetsOrProductsFound": "未找到资产或产品"
+      "noAssetsOrProductsFound": "未找到资产或产品",
+      "l1Andl2AlreadyExist": "第一级和第二级分组已存在",
+      "cantUpdateApprovalConfigurationDueToPendingItems": "由于存在待处理的托运单，无法更新审批配置",
+      "cantRemoveApprovalConfigurationDueToPendingItems": "由于存在待处理的托运单，无法移除审批关系"
     },
     "messages": {
       "selectType": "选择类型",
@@ -11605,7 +11608,10 @@
       "userGroupNotFoundOfToBin": "未找到To Bin区域的用户组",
       "fromBinNotFound": "未找到From Bin",
       "toBinNotFound": "未找到To Bin",
-      "noAssetsOrProductsFound": "未找到资产或产品"
+      "noAssetsOrProductsFound": "未找到资产或产品",
+      "l1Andl2AlreadyExist": "第一级和第二级分组已存在",
+      "cantUpdateApprovalConfigurationDueToPendingItems": "由于有待处理的请购单，无法更新审批配置",
+      "cantRemoveApprovalConfigurationDueToPendingItems": "由于有待处理的请购单，无法移除审批关系"
     },
     "messages": {
       "selectPriority": "选择优先级",

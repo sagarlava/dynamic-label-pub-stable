@@ -10988,7 +10988,10 @@
       "userGroupNotFoundOfToBin": "Kumpulan pengguna untuk zon To Bin tidak dijumpai",
       "fromBinNotFound": "From Bin tidak dijumpai",
       "toBinNotFound": "To Bin tidak dijumpai",
-      "noAssetsOrProductsFound": "Tiada aset atau produk ditemui"
+      "noAssetsOrProductsFound": "Tiada aset atau produk ditemui",
+      "l1Andl2AlreadyExist": "Kumpulan Tahap 1 dan Tahap 2 sudah wujud",
+      "cantUpdateApprovalConfigurationDueToPendingItems": "Tidak boleh mengemas kini konfigurasi kelulusan kerana penghantaran tertunggak",
+      "cantRemoveApprovalConfigurationDueToPendingItems": "Tidak boleh mengalih keluar hubungan kelulusan kerana penghantaran tertunggak"
     },
     "messages": {
       "selectType": "Pilih Jenis",
@@ -11605,7 +11608,10 @@
       "userGroupNotFoundOfToBin": "Kumpulan pengguna untuk zon To Bin tidak dijumpai",
       "fromBinNotFound": "From Bin tidak dijumpai",
       "toBinNotFound": "To Bin tidak dijumpai",
-      "noAssetsOrProductsFound": "Tiada aset atau produk ditemui"
+      "noAssetsOrProductsFound": "Tiada aset atau produk ditemui",
+      "l1Andl2AlreadyExist": "Tahap Kumpulan 1 dan Tahap Kumpulan 2 sudah wujud",
+      "cantUpdateApprovalConfigurationDueToPendingItems": "Tidak boleh mengemas kini konfigurasi kelulusan kerana permintaan yang belum selesai",
+      "cantRemoveApprovalConfigurationDueToPendingItems": "Tidak boleh mengalih keluar hubungan kelulusan kerana permintaan yang belum selesai"
     },
     "messages": {
       "selectPriority": "Pilih Keutamaan",

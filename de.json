@@ -10988,7 +10988,10 @@
       "userGroupNotFoundOfToBin": "Benutzergruppe für Zone von To Bin nicht gefunden",
       "fromBinNotFound": "From Bin nicht gefunden",
       "toBinNotFound": "To Bin nicht gefunden",
-      "noAssetsOrProductsFound": "Keine Assets oder Produkte gefunden"
+      "noAssetsOrProductsFound": "Keine Assets oder Produkte gefunden",
+      "l1Andl2AlreadyExist": "Gruppe Ebene 1 und Ebene 2 existieren bereits",
+      "cantUpdateApprovalConfigurationDueToPendingItems": "Die Genehmigungskonfiguration kann aufgrund ausstehender Sendungen nicht aktualisiert werden",
+      "cantRemoveApprovalConfigurationDueToPendingItems": "Die Genehmigungsbeziehung kann aufgrund ausstehender Sendungen nicht entfernt werden"
     },
     "messages": {
       "selectType": "Typ auswählen",
@@ -11605,7 +11608,10 @@
       "userGroupNotFoundOfToBin": "Benutzergruppe für Zone von To Bin nicht gefunden",
       "fromBinNotFound": "From Bin nicht gefunden",
       "toBinNotFound": "To Bin nicht gefunden",
-      "noAssetsOrProductsFound": "Keine Assets oder Produkte gefunden"
+      "noAssetsOrProductsFound": "Keine Assets oder Produkte gefunden",
+      "l1Andl2AlreadyExist": "Gruppenebene 1 und Gruppenebene 2 existieren bereits",
+      "cantUpdateApprovalConfigurationDueToPendingItems": "Genehmigungskonfiguration kann aufgrund ausstehender Anträge nicht aktualisiert werden",
+      "cantRemoveApprovalConfigurationDueToPendingItems": "Genehmigungsbeziehung kann aufgrund ausstehender Anträge nicht entfernt werden"
     },
     "messages": {
       "selectPriority": "Priorität auswählen",
