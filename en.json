@@ -11659,7 +11659,7 @@
       "selectSparePartWishToTransfer":"Select the spare parts you wish to transfer",
       "selectItemsWishToTransfer":"Select the items you wish to transfer",
       "filteredBySparePart":"Filtered by spare parts in selected from bin",
-      "filteredByAsset":"Filtered by asset in selected from bin"
+      "filteredByAsset":"Filtered by asset in selected from bin"      
     }
   },
   "contacts": {
@@ -14483,7 +14483,8 @@
       "anyAdditionalComments":"Any additional comments? Add them here",
       "tip":"Tip",
       "tips":"Tips",
-      "makeFilterSelections":"Make filter selections to locate assets"
+      "makeFilterSelections":"Make filter selections to locate assets",
+      "confirmation":"Confirmation"
     },
     "currency":{
       "australianDollar": "AUD",
