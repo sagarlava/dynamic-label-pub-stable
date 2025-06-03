@@ -10989,7 +10989,10 @@
       "userGroupNotFoundOfToBin": "Grupo de usuarios no encontrado para la zona de To Bin",
       "fromBinNotFound": "From Bin no encontrado",
       "toBinNotFound": "To Bin no encontrado",
-      "noAssetsOrProductsFound": "No se encontraron activos o productos"
+      "noAssetsOrProductsFound": "No se encontraron activos o productos",
+      "l1Andl2AlreadyExist": "El Grupo Nivel 1 y Nivel 2 ya existen",
+      "cantUpdateApprovalConfigurationDueToPendingItems": "No se puede actualizar la configuración de aprobación debido a consignaciones pendientes",
+      "cantRemoveApprovalConfigurationDueToPendingItems": "No se puede eliminar la relación de aprobación debido a consignaciones pendientes"
     },
     "messages": {
       "selectType": "Seleccione Tipo",
@@ -11606,7 +11609,10 @@
       "userGroupNotFoundOfToBin": "Grupo de usuarios no encontrado para la zona de To Bin",
       "fromBinNotFound": "From Bin no encontrado",
       "toBinNotFound": "To Bin no encontrado",
-      "noAssetsOrProductsFound": "No se encontraron activos o productos"
+      "noAssetsOrProductsFound": "No se encontraron activos o productos",
+      "l1Andl2AlreadyExist": "El Grupo Nivel 1 y Grupo Nivel 2 ya existen",
+      "cantUpdateApprovalConfigurationDueToPendingItems": "No se puede actualizar la configuración de aprobación debido a requisiciones pendientes",
+      "cantRemoveApprovalConfigurationDueToPendingItems": "No se puede eliminar la relación de aprobación debido a requisiciones pendientes"
     },
     "messages": {
       "selectPriority": "Seleccionar Prioridad",
