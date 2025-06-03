@@ -14263,6 +14263,13 @@
         "setupEdit": false,
         "setupVisible": false
       },
+      "transferRejected": {
+        "original": "Transfer Rejected",
+        "singular": "Transfer Rejected",
+        "plural": "Transfer Rejected",
+        "setupEdit": false,
+        "setupVisible": false
+      },
       "messages":{
         "forIncompleteChecklists": "For incomplete checklists to be updated in the future. No Jobs or Tasks will be triggered using this status",
         "thisStatusWillTriggerAnyJobOrders": "This status will trigger any Job Orders and Tasks related to this checklist's answers",

@@ -14263,6 +14263,13 @@
         "setupEdit": false,
         "setupVisible": false
       },
+      "transferRejected": {
+        "original": "Transfer Rejected",
+        "singular": "Pemindahan Ditolak",
+        "plural": "Pemindahan Ditolak",
+        "setupEdit": false,
+        "setupVisible": false
+      },
       "messages": {
         "forIncompleteChecklists": "Untuk senarai semak yang tidak lengkap akan dikemas kini pada masa hadapan. Tiada Pekerjaan atau Tugas akan dicetuskan menggunakan status ini",
         "thisStatusWillTriggerAnyJobOrders": "Status ini akan mencetuskan sebarang Pesanan Kerja dan Tugas yang berkaitan dengan jawapan senarai semak ini",
