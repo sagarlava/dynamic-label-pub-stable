@@ -1126,7 +1126,9 @@
       "assetCategoryIdExists":"A new Asset Category cannot already have an ID",
       "assetSubCategoryIdExists":"A new Asset Sub Category cannot already have an ID",
       "assetCategoryCannotDeleteByAssets":"Unable to delete: Asset Category is used in one or more Assets",
-      "assetSubCategoryCannotDeleteByAssets":"Unable to delete: Asset Sub Category is used in one or more Assets"
+      "assetSubCategoryCannotDeleteByAssets":"Unable to delete: Asset Sub Category is used in one or more Assets",
+      "assetParentInvalid":"The chosen parent is already in the asset hierarchy",
+      "assetHasChildAssets": "This asset cannot be deleted because it has dependent child assets. Please unlink them first"
     },
     "tooltips": {
       "setupVisible": false,
@@ -9810,7 +9812,7 @@
     "validationBE": {
       "binIdExists": "A new Bin cannot already have an ID",
       "binIdExtIdNotFound": "Id/ExternalId not found",
-      "binHasAUser": "User already assigned to a bin",
+      "binHasAUser": "User already has a bin",
       "binExternalIdExists": "External Id already exists",
       "binNotAuthorized": "Not Authorized",
       "binNotFound": "Bin not found",
@@ -10281,7 +10283,8 @@
       "binTransferAssetsNotFound": "Bin Transfer Assets not found",
       "binTransferInvalidStatus": "Only allowed statuses: ACCEPTED/DECLINED/CANCEL",
       "binTransferNotFound": "Bin Transfer not found",
-      "binTransferItemIdExists": "A new Bin Transfer Item cannot already have an ID"
+      "binTransferItemIdExists": "A new Bin Transfer Item cannot already have an ID",
+      "binTransferToBinRequired": "Transfer To Bin Parameter and Transfer To Type fields required"
     },
     "messages": {
       "selectApprovalStatus": "Select Approval Status",
@@ -23869,7 +23872,9 @@
       "setupTmplJobOrderLimitReached":"You have exceeded the limit of 50 active templates. Set the status of an unused template to 'Inactive' to add another active template.",
       "tmplTaskLimitExceeded":"You have exceeded the limit of 50 active templates. Set the status of an unused template to 'Inactive' to add another active template.",
       "setupTmplTaskHasJobOrder": "Unable to delete: Template used in one or more job orders",
-      "setupTmplTaskHasJobOrderProduct": "Unable to delete: Template used to create one or more Job Order Products"
+      "setupTmplTaskHasJobOrderProduct": "Unable to delete: Template used to create one or more Job Order Products",      
+      "setupAssetMeterMaxAssetsTypeReached": "Already reached the maximum number of Asset Meters for selected Asset Type",
+      "setupAssetMeterHasAssetsRecord": "Assets Meter is linked with one or more Assets records, hence unable to delete"
     },
     "labelBE": {
       "profileTableColumnSetup": {
