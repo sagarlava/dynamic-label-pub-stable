@@ -443,8 +443,8 @@
         "setupVisible": true
       },
       "sec1": {
-        "original": "Hierarchy and Classification",
-        "singular": "Jerarquía y Clasificación",
+        "original": "Ownership & Location",
+        "singular": "Propiedad y Ubicación",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
@@ -713,8 +713,8 @@
         "setupVisible": false
       },
       "acquisitionDate": {
-        "original": "Purchase Date",
-        "singular": "Fecha de Compra",
+        "original": "Acquisition Date",
+        "singular": "Fecha de Adquisición",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
