@@ -1126,7 +1126,9 @@
       "assetCategoryIdExists": "Eine neue Asset-Kategorie darf keine ID haben",
       "assetSubCategoryIdExists": "Eine neue Asset-Unterkategorie darf keine ID haben",
       "assetCategoryCannotDeleteByAssets":"Löschen nicht möglich: Asset-Kategorie wird in einem oder mehreren Assets verwendet",
-      "assetSubCategoryCannotDeleteByAssets": "Löschen nicht möglich: Asset-Unterkategorie wird in einem oder mehreren Assets verwendet"
+      "assetSubCategoryCannotDeleteByAssets": "Löschen nicht möglich: Asset-Unterkategorie wird in einem oder mehreren Assets verwendet",
+      "assetParentInvalid":"Der gewählte übergeordnete Eintrag befindet sich bereits in der Anlagenhierarchie",
+      "assetHasChildAssets": "Dieses Asset kann nicht gelöscht werden, da es abhängige untergeordnete Assets hat. Bitte trennen Sie diese zuerst"
     },
     "tooltips": {
       "setupVisible": false,
@@ -10181,7 +10183,7 @@
       "plural": "",
       "setupEdit": false,
       "setupVisible": false
-    },
+    },    
     "acceptedDate": {
       "original": "Accepted Date",
       "singular": "Akzeptiertes Datum",
@@ -10281,7 +10283,8 @@
     "binTransferAssetsNotFound": "Lagerübertragungs-Vermögenswerte nicht gefunden",
     "binTransferInvalidStatus": "Erlaubte Status: AKZEPTIERT/ABGELEHNT/ABBRECHEN",
     "binTransferNotFound": "Lagerübertragung nicht gefunden",
-    "binTransferItemIdExists": "Ein neues Lagerübertragungs-Element kann nicht bereits eine ID haben"
+    "binTransferItemIdExists": "Ein neues Lagerübertragungs-Element kann nicht bereits eine ID haben", 
+    "binTransferToBinRequired": "Transfer to Bin Parameter' und 'Transfer to Type' sind erforderlich"
   },
   "messages": {
     "selectApprovalStatus": "Genehmigungsstatus auswählen",
@@ -23869,7 +23872,9 @@
       "setupTmplJobOrderLimitReached":"Sie haben das Limit von 50 aktiven Vorlagen überschritten. Setzen Sie den Status einer ungenutzten Vorlage auf 'Inaktiv', um eine weitere aktive Vorlage hinzuzufügen.",
       "tmplTaskLimitExceeded":"Sie haben das Limit von 50 aktiven Vorlagen überschritten. Setzen Sie den Status einer ungenutzten Vorlage auf 'Inaktiv', um eine weitere aktive Vorlage hinzuzufügen",
       "setupTmplTaskHasJobOrder": "Löschen nicht möglich: Vorlage wird in einem oder mehreren Arbeitsaufträgen verwendet",
-      "setupTmplTaskHasJobOrderProduct": "Löschen nicht möglich: Vorlage wird zur Erstellung eines oder mehrerer Jobauftrag-Produkte verwendet"
+      "setupTmplTaskHasJobOrderProduct": "Löschen nicht möglich: Vorlage wird zur Erstellung eines oder mehrerer Jobauftrag-Produkte verwendet",      
+      "setupAssetMeterMaxAssetsTypeReached": "Die maximale Anzahl von Asset-Zählern für den ausgewählten Asset-Typ ist bereits erreicht",
+      "setupAssetMeterHasAssetsRecord": "Asset-Zähler ist mit einem oder mehreren Asset-Datensätzen verknüpft und kann daher nicht gelöscht werden"
     },
     "labelBE": {
       "profileTableColumnSetup": {
