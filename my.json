@@ -1126,7 +1126,9 @@
       "assetCategoryIdExists": "Kategori Aset baharu tidak boleh sudah mempunyai ID",
       "assetSubCategoryIdExists": "Subkategori Aset baharu tidak boleh sudah mempunyai ID",
       "assetCategoryCannotDeleteByAssets":"Tidak dapat memadam: Kategori aset digunakan dalam satu atau lebih Aset",
-      "assetSubCategoryCannotDeleteByAssets":"Tidak dapat memadam: Subkategori aset digunakan dalam satu atau lebih Aset"
+      "assetSubCategoryCannotDeleteByAssets":"Tidak dapat memadam: Subkategori aset digunakan dalam satu atau lebih Aset",
+      "assetParentInvalid":"Induk yang dipilih sudah berada dalam hierarki aset",
+      "assetHasChildAssets": "Aset ini tidak boleh dipadam kerana ia mempunyai aset anak bergantung. Sila putuskan hubungan mereka terlebih dahulu"
     },
     "tooltips": {
       "setupVisible": false,
@@ -10281,7 +10283,8 @@
       "binTransferAssetsNotFound": "Aset Pemindahan Bin tidak ditemui",
       "binTransferInvalidStatus": "Status yang dibenarkan hanya: DITERIMA/DITOLAK/DIBATALKAN",
       "binTransferNotFound": "Pemindahan Bin tidak ditemui",
-      "binTransferItemIdExists": "Item Pemindahan Bin baru tidak boleh mempunyai ID yang sudah ada"
+      "binTransferItemIdExists": "Item Pemindahan Bin baru tidak boleh mempunyai ID yang sudah ada",
+      "binTransferToBinRequired": "Transfer To Bin Parameter and Transfer To Type fields required"
     },
     "messages": {
       "selectApprovalStatus": "Pilih Status Kelulusan",
@@ -23869,6 +23872,9 @@
       "tmplTaskLimitExceeded": "Anda telah melebihi had 50 templat aktif. Tukar status templat yang tidak digunakan kepada 'Tidak Aktif' untuk menambah satu lagi templat aktif",
       "setupTmplTaskHasJobOrder": "Tidak dapat dihapuskan: Templat digunakan dalam satu atau lebih Pesanan Kerja",
       "setupTmplTaskHasJobOrderProduct": "Tidak dapat dipadam: Templat digunakan untuk mencipta satu atau lebih Produk Pesanan Kerja"
+      "setupTmplTaskHasJobOrder": "Tidak dapat dihapuskan: Templat digunakan dalam satu atau lebih Pesanan Kerja",
+      "setupAssetMeterMaxAssetsTypeReached": "Telah mencapai bilangan maksimum Meter Aset untuk Jenis Aset yang dipilih",
+      "setupAssetMeterHasAssetsRecord": "Meter Aset dipautkan dengan satu atau lebih rekod Aset, oleh itu tidak boleh dipadam"
     },
     "labelBE": {
       "profileTableColumnSetup": {
