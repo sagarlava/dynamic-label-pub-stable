@@ -1120,7 +1120,8 @@
       "assetSubCategoryIdExists": "Una nueva subcategoría de activos no puede tener ya un ID",
       "assetCategoryCannotDeleteByAssets": "No se puede eliminar: La categoría de activos se utiliza en uno o más activos",
       "assetSubCategoryCannotDeleteByAssets": "No se puede eliminar: La subcategoría de activos se utiliza en uno o más activos",
-      "assetParentInvalid":"El padre elegido ya está en la jerarquía de activos"
+      "assetParentInvalid":"El padre elegido ya está en la jerarquía de activos",
+      "assetHasChildAssets": "Este activo no se puede eliminar porque tiene activos hijos dependientes. Por favor, desvincúlelos primero"
     },
     "tooltips": {
       "setupVisible": false,
@@ -10280,7 +10281,8 @@
       "binTransferAssetsNotFound": "Activos de Transferencia no encontrados",
       "binTransferInvalidStatus": "Solo se permiten los siguientes estados: ACEPTADO/RECHAZADO/CANCELAR",
       "binTransferNotFound": "Transferencia de Contenedor no encontrada",
-      "binTransferItemIdExists": "Un nuevo Ítem de Transferencia de Contenedor no puede tener ya un ID"
+      "binTransferItemIdExists": "Un nuevo Ítem de Transferencia de Contenedor no puede tener ya un ID",
+      "binTransferToBinRequired": "Se requieren los campos Transfer To Bin Parameter y Transfer To Type"
     },
     "messages": {
       "selectApprovalStatus": "Selecciona el Estado de Aprobación",
@@ -10351,7 +10353,8 @@
       "areYouSureInitiateTransfer": "¿Está seguro de que desea iniciar esta transferencia de contenedor?",
       "selectedBinNoLongerContains": "El contenedor seleccionado ya no contiene los siguientes artículos",
       "needTransferItemManually": "Tendrá que seleccionar y transferir estos artículos manualmente. Los demás artículos seleccionados serán transferidos.",
-      "transferCannotContinue": "La transferencia no puede continuar ya que el contenedor seleccionado ya no contiene los siguientes artículos"
+      "transferCannotContinue": "La transferencia no puede continuar ya que el contenedor seleccionado ya no contiene los siguientes artículos",
+      "aBinTransferInitiate":"Se creará un registro de transferencia de contenedor para los artículos aprobados. ¿Estás seguro de que deseas iniciar esta transferencia?"
     }
   },
   "checkAvailibility": {
@@ -10987,7 +10990,10 @@
       "userGroupNotFoundOfToBin": "Grupo de usuarios no encontrado para la zona de To Bin",
       "fromBinNotFound": "From Bin no encontrado",
       "toBinNotFound": "To Bin no encontrado",
-      "noAssetsOrProductsFound": "No se encontraron activos o productos"
+      "noAssetsOrProductsFound": "No se encontraron activos o productos",
+      "l1Andl2AlreadyExist": "El Grupo Nivel 1 y Nivel 2 ya existen",
+      "cantUpdateApprovalConfigurationDueToPendingItems": "No se puede actualizar la configuración de aprobación debido a consignaciones pendientes",
+      "cantRemoveApprovalConfigurationDueToPendingItems": "No se puede eliminar la relación de aprobación debido a consignaciones pendientes"
     },
     "messages": {
       "selectType": "Seleccione Tipo",
@@ -11604,7 +11610,10 @@
       "userGroupNotFoundOfToBin": "Grupo de usuarios no encontrado para la zona de To Bin",
       "fromBinNotFound": "From Bin no encontrado",
       "toBinNotFound": "To Bin no encontrado",
-      "noAssetsOrProductsFound": "No se encontraron activos o productos"
+      "noAssetsOrProductsFound": "No se encontraron activos o productos",
+      "l1Andl2AlreadyExist": "El Grupo Nivel 1 y Grupo Nivel 2 ya existen",
+      "cantUpdateApprovalConfigurationDueToPendingItems": "No se puede actualizar la configuración de aprobación debido a requisiciones pendientes",
+      "cantRemoveApprovalConfigurationDueToPendingItems": "No se puede eliminar la relación de aprobación debido a requisiciones pendientes"
     },
     "messages": {
       "selectPriority": "Seleccionar Prioridad",
@@ -11658,7 +11667,8 @@
       "selectSparePartWishToTransfer": "Seleccione los repuestos que desea transferir",
       "selectItemsWishToTransfer": "Seleccione los artículos que desea transferir",
       "filteredBySparePart": "Filtrado por repuestos en el contenedor seleccionado",
-      "filteredByAsset": "Filtrado por activos en el contenedor seleccionado"
+      "filteredByAsset": "Filtrado por activos en el contenedor seleccionado",
+      "areYouSureCancelRequisitionNote":"¿Estás seguro de que deseas cancelar esta nota de requisición?"
     }
   },
   "contacts": {
@@ -14453,6 +14463,13 @@
         "setupEdit": true,
         "setupVisible": true
       },
+      "transferRejected": {
+        "original": "Transfer Rejected",
+        "singular": "Transferencia rechazada",
+        "plural": "Transferencias rechazadas",
+        "setupEdit": false,
+        "setupVisible": false
+      },
       "messages": {
         "forIncompleteChecklists": "Para que las listas de verificación incompletas se actualicen en el futuro. No se activarán trabajos ni tareas utilizando este estado.",
         "thisStatusWillTriggerAnyJobOrders": "Este estado activará cualquier orden de trabajo y tareas relacionadas con las respuestas de esta lista de verificación.",
@@ -14666,7 +14683,8 @@
       "anyAdditionalComments": "¿Algún comentario adicional? Agrégalo aquí",
       "tip":"Consejo",
       "tips":"Consejos",
-      "makeFilterSelections":"Haz selecciones de filtro para localizar activos"
+      "makeFilterSelections":"Haz selecciones de filtro para localizar activos",
+      "confirmation":"Confirmación"
     },
     "currency": {
       "australianDollar": "AUD",
@@ -15370,7 +15388,7 @@
         },
         "sec20": {
           "original": "Select a Bin from the list",
-          "singular": "Seleccione un contenedor de la lista",
+          "singular": "Selecciona un contenedor de la lista",
           "plural": "",
           "setupEdit": false,
           "setupVisible": false
@@ -24378,9 +24396,9 @@
       "setupTmplJobOrderLimitReached": "Has superado el límite de 50 plantillas activas. Cambia el estado de una plantilla no utilizada a 'Inactiva' para agregar otra plantilla activa.",
       "tmplTaskLimitExceeded": "Has superado el límite de 50 plantillas activas. Cambia el estado de una plantilla no utilizada a 'Inactiva' para agregar otra plantilla activa.",
       "setupTmplTaskHasJobOrder": "No se puede eliminar: La plantilla se utiliza en una o más órdenes de trabajo",
+      "setupTmplTaskHasJobOrderProduct": "No se puede eliminar: La plantilla se utiliza para crear uno o más productos de orden de trabajo",
       "setupAssetMeterMaxAssetsTypeReached": "Ya se ha alcanzado el número máximo de medidores para el tipo de activo seleccionado",
-      "setupAssetMeterHasAssetsRecord": "El medidor de activos está vinculado a uno o más registros de activos, por lo tanto, no se puede eliminar",
-      "setupTmplTaskHasJobOrderProduct": "No se puede eliminar: La plantilla se utiliza para crear uno o más productos de orden de trabajo"
+      "setupAssetMeterHasAssetsRecord": "El medidor de activos está vinculado a uno o más registros de activos, por lo tanto, no se puede eliminar"
     },
     "labelBE": {
       "profileTableColumnSetup": {

@@ -1141,7 +1141,8 @@
       "assetSubCategorySystemGenerated": "Subkategori Aset yang dihasilkan oleh sistem tidak dibenarkan untuk dipadamkan",
       "assetCategoryIdExists": "Kategori Aset baharu tidak boleh sudah mempunyai ID",
       "assetSubCategoryIdExists": "Subkategori Aset baharu tidak boleh sudah mempunyai ID",
-      "assetParentInvalid":"Induk yang dipilih sudah berada dalam hierarki aset"
+      "assetParentInvalid":"Induk yang dipilih sudah berada dalam hierarki aset",
+      "assetHasChildAssets": "Aset ini tidak boleh dipadam kerana ia mempunyai aset anak bergantung. Sila putuskan hubungan mereka terlebih dahulu"
     },
     "tooltips": {
       "setupVisible": false,
@@ -10304,7 +10305,8 @@
       "binTransferAssetsNotFound": "Aset Pemindahan Bin tidak ditemui",
       "binTransferInvalidStatus": "Status yang dibenarkan hanya: DITERIMA/DITOLAK/DIBATALKAN",
       "binTransferNotFound": "Pemindahan Bin tidak ditemui",
-      "binTransferItemIdExists": "Item Pemindahan Bin baru tidak boleh mempunyai ID yang sudah ada"
+      "binTransferItemIdExists": "Item Pemindahan Bin baru tidak boleh mempunyai ID yang sudah ada",
+      "binTransferToBinRequired": "Transfer To Bin Parameter and Transfer To Type fields required"
     },
     "messages": {
       "selectApprovalStatus": "Pilih Status Kelulusan",
@@ -10375,7 +10377,8 @@
       "areYouSureInitiateTransfer":"Adakah anda pasti ingin mulakan pemindahan tong ini?",
       "selectedBinNoLongerContains":"Tong yang dipilih tidak lagi mengandungi item berikut",
       "needTransferItemManually":"Anda perlu memilih dan memindahkan item-item ini secara manual. Item lain yang dipilih akan dipindahkan.",
-      "transferCannotContinue":"Pemindahan tidak dapat diteruskan kerana tong yang dipilih tidak lagi mengandungi item berikut"
+      "transferCannotContinue":"Pemindahan tidak dapat diteruskan kerana tong yang dipilih tidak lagi mengandungi item berikut",
+      "aBinTransferInitiate":"Rekod Pemindahan Tong akan dicipta untuk item yang diluluskan. Adakah anda pasti mahu memulakan pemindahan ini?"
     }
   },
   "checkAvailibility": {
@@ -11011,7 +11014,10 @@
       "userGroupNotFoundOfToBin": "Kumpulan pengguna untuk zon To Bin tidak dijumpai",
       "fromBinNotFound": "From Bin tidak dijumpai",
       "toBinNotFound": "To Bin tidak dijumpai",
-      "noAssetsOrProductsFound": "Tiada aset atau produk ditemui"
+      "noAssetsOrProductsFound": "Tiada aset atau produk ditemui",
+      "l1Andl2AlreadyExist": "Kumpulan Tahap 1 dan Tahap 2 sudah wujud",
+      "cantUpdateApprovalConfigurationDueToPendingItems": "Tidak boleh mengemas kini konfigurasi kelulusan kerana penghantaran tertunggak",
+      "cantRemoveApprovalConfigurationDueToPendingItems": "Tidak boleh mengalih keluar hubungan kelulusan kerana penghantaran tertunggak"
     },
     "messages": {
       "selectType": "Pilih Jenis",
@@ -11628,7 +11634,10 @@
       "userGroupNotFoundOfToBin": "Kumpulan pengguna untuk zon To Bin tidak dijumpai",
       "fromBinNotFound": "From Bin tidak dijumpai",
       "toBinNotFound": "To Bin tidak dijumpai",
-      "noAssetsOrProductsFound": "Tiada aset atau produk ditemui"
+      "noAssetsOrProductsFound": "Tiada aset atau produk ditemui",
+      "l1Andl2AlreadyExist": "Tahap Kumpulan 1 dan Tahap Kumpulan 2 sudah wujud",
+      "cantUpdateApprovalConfigurationDueToPendingItems": "Tidak boleh mengemas kini konfigurasi kelulusan kerana permintaan yang belum selesai",
+      "cantRemoveApprovalConfigurationDueToPendingItems": "Tidak boleh mengalih keluar hubungan kelulusan kerana permintaan yang belum selesai"
     },
     "messages": {
       "selectPriority": "Pilih Keutamaan",
@@ -11682,7 +11691,8 @@
       "selectSparePartWishToTransfer":"Pilih alat ganti yang anda ingin pindahkan",
       "selectItemsWishToTransfer":"Pilih item yang anda ingin pindahkan",
       "filteredBySparePart":"Ditapis mengikut alat ganti dalam tong yang dipilih",
-      "filteredByAsset":"Ditapis mengikut aset dalam tong yang dipilih"
+      "filteredByAsset":"Ditapis mengikut aset dalam tong yang dipilih",
+      "areYouSureCancelRequisitionNote":"Adakah anda pasti mahu membatalkan nota permintaan ini?"
     }
   },
   "contacts": {
@@ -14461,6 +14471,13 @@
         "setupEdit": false,
         "setupVisible": false
       },
+      "transferRejected": {
+        "original": "Transfer Rejected",
+        "singular": "Pemindahan Ditolak",
+        "plural": "Pemindahan Ditolak",
+        "setupEdit": false,
+        "setupVisible": false
+      },
       "systemValue": {
         "original": "System Value",
         "singular": "Nilai-Nilai Sistem",
@@ -14688,7 +14705,8 @@
       "anyAdditionalComments":"Sebarang komen tambahan? Tambah di sini",
       "tip":"Tip",
       "tips":"Tips",
-      "makeFilterSelections":"Buat pilihan penapis untuk mencari aset"
+      "makeFilterSelections":"Buat pilihan penapis untuk mencari aset",
+      "confirmation":"Pengesahan"
     },
     "currency": {
       "australianDollar": "AUD",
@@ -24376,9 +24394,9 @@
       "setupTmplJobOrderLimitReached":"Anda telah melebihi had 50 templat aktif. Tetapkan status templat yang tidak digunakan kepada 'Tidak Aktif' untuk menambah satu lagi templat aktif.",
       "tmplTaskLimitExceeded": "Anda telah melebihi had 50 templat aktif. Tukar status templat yang tidak digunakan kepada 'Tidak Aktif' untuk menambah satu lagi templat aktif",
       "setupTmplTaskHasJobOrder": "Tidak dapat dihapuskan: Templat digunakan dalam satu atau lebih Pesanan Kerja",
+      "setupTmplTaskHasJobOrderProduct": "Tidak dapat dipadam: Templat digunakan untuk mencipta satu atau lebih Produk Pesanan Kerja",      
       "setupAssetMeterMaxAssetsTypeReached": "Telah mencapai bilangan maksimum Meter Aset untuk Jenis Aset yang dipilih",
-      "setupAssetMeterHasAssetsRecord": "Meter Aset dipautkan dengan satu atau lebih rekod Aset, oleh itu tidak boleh dipadam",
-      "setupTmplTaskHasJobOrderProduct": "Tidak dapat dipadam: Templat digunakan untuk mencipta satu atau lebih Produk Pesanan Kerja"
+      "setupAssetMeterHasAssetsRecord": "Meter Aset dipautkan dengan satu atau lebih rekod Aset, oleh itu tidak boleh dipadam"
     },
     "labelBE": {
       "profileTableColumnSetup": {

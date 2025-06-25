@@ -443,8 +443,8 @@
         "setupVisible": true
       },
       "sec1": {
-        "original": "Hierarchy and Classification",
-        "singular": "Hierarchy and Classification",
+        "original": "Ownership & Location",
+        "singular": "Ownership & Location",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
@@ -713,8 +713,8 @@
         "setupVisible": false
       },
       "acquisitionDate": {
-        "original": "Purchase Date",
-        "singular": "Purchase Date",
+        "original": "Acquisition Date",
+        "singular": "Acquisition Date",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
@@ -1141,7 +1141,8 @@
       "assetSubCategoryIdExists":"A new Asset Sub Category cannot already have an ID",
       "assetCategoryCannotDeleteByAssets":"Unable to delete: Asset Category is used in one or more Assets",
       "assetSubCategoryCannotDeleteByAssets":"Unable to delete: Asset Sub Category is used in one or more Assets",
-      "assetParentInvalid":"The chosen parent is already in the asset hierarchy"
+      "assetParentInvalid":"The chosen parent is already in the asset hierarchy",
+      "assetHasChildAssets": "This asset cannot be deleted because it has dependent child assets. Please unlink them first"
     },
     "tooltips": {
       "setupVisible": false,
@@ -9832,7 +9833,7 @@
     "validationBE": {
       "binIdExists": "A new Bin cannot already have an ID",
       "binIdExtIdNotFound": "Id/ExternalId not found",
-      "binHasAUser": "User already assigned to a bin",
+      "binHasAUser": "User already has a bin",
       "binExternalIdExists": "External Id already exists",
       "binNotAuthorized": "Not Authorized",
       "binNotFound": "Bin not found",
@@ -10303,7 +10304,8 @@
       "binTransferAssetsNotFound": "Bin Transfer Assets not found",
       "binTransferInvalidStatus": "Only allowed statuses: ACCEPTED/DECLINED/CANCEL",
       "binTransferNotFound": "Bin Transfer not found",
-      "binTransferItemIdExists": "A new Bin Transfer Item cannot already have an ID"
+      "binTransferItemIdExists": "A new Bin Transfer Item cannot already have an ID",
+      "binTransferToBinRequired": "Transfer To Bin Parameter and Transfer To Type fields required"
     },
     "messages": {
       "selectApprovalStatus": "Select Approval Status",
@@ -10374,7 +10376,8 @@
       "areYouSureInitiateTransfer":"Are you sure you want to initiate this bin transfer?",
       "selectedBinNoLongerContains":"The selected bin no longer contains the following items",
       "needTransferItemManually":"You will need to select and transfer these items manually. The other selected items will be transferred.",
-      "transferCannotContinue":"The transfer cannot continue since the selected bin no longer contains the following items"
+      "transferCannotContinue":"The transfer cannot continue since the selected bin no longer contains the following items",
+      "aBinTransferInitiate":"A Bin Transfer record will be created for the approved items. Are you sure you want to initiate this bin transfer?"
     }
   },
   "checkAvailibility": {
@@ -11010,7 +11013,10 @@
       "userGroupNotFoundOfToBin": "UserGroup not found for zone of To Bin",
       "fromBinNotFound": "From Bin not found",
       "toBinNotFound": "To Bin not found",
-      "noAssetsOrProductsFound": "No assets or products found"
+      "noAssetsOrProductsFound": "No assets or products found",
+      "l1Andl2AlreadyExist": "Group Level 1 and Group Level 2 already exist",
+      "cantUpdateApprovalConfigurationDueToPendingItems": "Can't update approval configuration due to pending consignments",
+      "cantRemoveApprovalConfigurationDueToPendingItems": "Can't remove approval relationship due to pending consignments"
     },
     "messages": {
       "selectType": "Select Type",
@@ -11627,7 +11633,10 @@
       "userGroupNotFoundOfToBin": "UserGroup not found for zone of To Bin",
       "fromBinNotFound": "From Bin not found",
       "toBinNotFound": "To Bin not found",
-      "noAssetsOrProductsFound": "No assets or products found"
+      "noAssetsOrProductsFound": "No assets or products found",
+      "l1Andl2AlreadyExist": "Group Level 1 and Group Level 2 already exist",
+      "cantUpdateApprovalConfigurationDueToPendingItems": "Can't update approval configuration due to pending requisitions",
+      "cantRemoveApprovalConfigurationDueToPendingItems": "Can't remove approval relationship due to pending requisitions"
     },
     "messages": {
       "selectPriority": "Select Priority",
@@ -11681,7 +11690,8 @@
       "selectSparePartWishToTransfer":"Select the spare parts you wish to transfer",
       "selectItemsWishToTransfer":"Select the items you wish to transfer",
       "filteredBySparePart":"Filtered by spare parts in selected from bin",
-      "filteredByAsset":"Filtered by asset in selected from bin"
+      "filteredByAsset":"Filtered by asset in selected from bin",
+      "areYouSureCancelRequisitionNote":"Are you sure you want to cancel this requisition note?"
     }
   },
   "contacts": {
@@ -14474,6 +14484,13 @@
         "setupEdit": false,
         "setupVisible": false
       },
+      "transferRejected": {
+        "original": "Transfer Rejected",
+        "singular": "Transfer Rejected",
+        "plural": "Transfer Rejected",
+        "setupEdit": false,
+        "setupVisible": false
+      },
       "messages":{
         "forIncompleteChecklists": "For incomplete checklists to be updated in the future. No Jobs or Tasks will be triggered using this status",
         "thisStatusWillTriggerAnyJobOrders": "This status will trigger any Job Orders and Tasks related to this checklist's answers",
@@ -14687,7 +14704,8 @@
       "anyAdditionalComments":"Any additional comments? Add them here",
       "tip":"Tip",
       "tips":"Tips",
-      "makeFilterSelections":"Make filter selections to locate assets"
+      "makeFilterSelections":"Make filter selections to locate assets",
+      "confirmation":"Confirmation"
     },
     "currency":{
       "australianDollar": "AUD",
@@ -24376,9 +24394,9 @@
       "setupTmplJobOrderLimitReached":"You have exceeded the limit of 50 active templates. Set the status of an unused template to 'Inactive' to add another active template.",
       "tmplTaskLimitExceeded":"You have exceeded the limit of 50 active templates. Set the status of an unused template to 'Inactive' to add another active template.",
       "setupTmplTaskHasJobOrder": "Unable to delete: Template used in one or more job orders",
+      "setupTmplTaskHasJobOrderProduct": "Unable to delete: Template used to create one or more Job Order Products",      
       "setupAssetMeterMaxAssetsTypeReached": "Already reached the maximum number of Asset Meters for selected Asset Type",
-      "setupAssetMeterHasAssetsRecord": "Assets Meter is linked with one or more Assets records, hence unable to delete",
-      "setupTmplTaskHasJobOrderProduct": "Unable to delete: Template used to create one or more Job Order Products"
+      "setupAssetMeterHasAssetsRecord": "Assets Meter is linked with one or more Assets records, hence unable to delete"
     },
     "labelBE": {
       "profileTableColumnSetup": {

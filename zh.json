@@ -699,8 +699,8 @@
         "setupVisible": false
       },
       "acquisitionDate": {
-        "original": "Purchase Date",
-        "singular": "购买日期",
+        "original": "Acquisition Date",
+        "singular": "获取日期",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
@@ -1141,7 +1141,8 @@
       "assetSubCategorySystemGenerated": "系统生成的资产子类别不允许删除",
       "assetCategoryIdExists": "新资产类别不能已经有ID",
       "assetSubCategoryIdExists": "新资产子类别不能已经有ID",
-      "assetParentInvalid":"所选父级已在资产层次结构中"
+      "assetParentInvalid":"所选父级已在资产层次结构中",
+      "assetHasChildAssets": "此资产无法删除，因为它有依赖的子资产。请先解除它们的关联"
     },
     "tooltips": {
       "setupVisible": false,
@@ -10303,7 +10304,8 @@
       "binTransferAssetsNotFound": "未找到仓位转移资产",
       "binTransferInvalidStatus": "仅允许的状态：已接受/已拒绝/已取消",
       "binTransferNotFound": "未找到仓位转移",
-      "binTransferItemIdExists": "新的仓位转移项目不能已经有一个ID"
+      "binTransferItemIdExists": "新的仓位转移项目不能已经有一个ID",
+      "binTransferToBinRequired": "需要填写“转移到货位参数”和“转移类型”字段"
     },
     "messages": {
       "selectApprovalStatus": "选择审批状态",
@@ -10374,7 +10376,8 @@
       "areYouSureInitiateTransfer":"您确定要发起此存储箱转移吗？",
       "selectedBinNoLongerContains":"所选存储箱不再包含以下项目",
       "needTransferItemManually":"您需要手动选择并转移这些项目。其他选中的项目将被转移。",
-      "transferCannotContinue":"无法继续转移，因为所选存储箱不再包含以下项目"
+      "transferCannotContinue":"无法继续转移，因为所选存储箱不再包含以下项目",
+      "aBinTransferInitiate":"将为已批准的项目创建一个箱位转移记录。您确定要启动此次转移吗？"
     }
   },
   "checkAvailibility": {
@@ -11010,7 +11013,10 @@
       "userGroupNotFoundOfToBin": "未找到To Bin区域的用户组",
       "fromBinNotFound": "未找到From Bin",
       "toBinNotFound": "未找到To Bin",
-      "noAssetsOrProductsFound": "未找到资产或产品"
+      "noAssetsOrProductsFound": "未找到资产或产品",
+      "l1Andl2AlreadyExist": "第一级和第二级分组已存在",
+      "cantUpdateApprovalConfigurationDueToPendingItems": "由于存在待处理的托运单，无法更新审批配置",
+      "cantRemoveApprovalConfigurationDueToPendingItems": "由于存在待处理的托运单，无法移除审批关系"
     },
     "messages": {
       "selectType": "选择类型",
@@ -11627,7 +11633,10 @@
       "userGroupNotFoundOfToBin": "未找到To Bin区域的用户组",
       "fromBinNotFound": "未找到From Bin",
       "toBinNotFound": "未找到To Bin",
-      "noAssetsOrProductsFound": "未找到资产或产品"
+      "noAssetsOrProductsFound": "未找到资产或产品",
+      "l1Andl2AlreadyExist": "第一级和第二级分组已存在",
+      "cantUpdateApprovalConfigurationDueToPendingItems": "由于有待处理的请购单，无法更新审批配置",
+      "cantRemoveApprovalConfigurationDueToPendingItems": "由于有待处理的请购单，无法移除审批关系"
     },
     "messages": {
       "selectPriority": "选择优先级",
@@ -11681,7 +11690,8 @@
       "selectSparePartWishToTransfer":"选择您想要转移的备件",
       "selectItemsWishToTransfer":"选择您想要转移的项目",
       "filteredBySparePart":"按所选存储箱中的备件筛选",
-      "filteredByAsset":"按所选存储箱中的资产筛选"
+      "filteredByAsset":"按所选存储箱中的资产筛选",
+      "areYouSureCancelRequisitionNote":"您确定要取消此请购单吗？"
     }
   },
   "contacts": {
@@ -14460,6 +14470,13 @@
         "setupEdit": false,
         "setupVisible": false
       },
+      "transferRejected": {
+        "original": "Transfer Rejected",
+        "singular": "转移被拒绝",
+        "plural": "转移被拒绝",
+        "setupEdit": false,
+        "setupVisible": false
+      },
       "systemValue": {
         "original": "System Value",
         "singular": "系统值",
@@ -14687,7 +14704,8 @@
       "anyAdditionalComments":"有其他评论吗？请在此添加",
       "tip":"提示",
       "tips":"提示",
-      "makeFilterSelections":"进行筛选以定位资产"
+      "makeFilterSelections":"进行筛选以定位资产",
+      "confirmation":"确认"
     },
     "currency": {
       "australianDollar": "AUD",
@@ -15391,7 +15409,7 @@
         },
         "sec20": {
           "original": "Select a Bin from the list",
-          "singular": "从列表中选择一个仓位",
+          "singular": "从列表中选择一个箱位",
           "plural": "",
           "setupEdit": false,
           "setupVisible": false
@@ -24376,9 +24394,9 @@
       "setupTmplJobOrderLimitReached":"您已超出50个活动模板的限制。将未使用的模板状态设置为“未激活”以添加另一个活动模板",
       "tmplTaskLimitExceeded": "您已超出50个活动模板的限制。将未使用的模板状态设置为“未激活”以添加另一个活动模板",
       "setupTmplTaskHasJobOrder": "无法删除：模板被用于一个或多个工单",
+      "setupTmplTaskHasJobOrderProduct": "无法删除：该模板用于创建一个或多个工单产品",      
       "setupAssetMeterMaxAssetsTypeReached": "所选资产类型的资产计量器数量已达上限",
-      "setupAssetMeterHasAssetsRecord": "资产计量器已关联一个或多个资产记录，因此无法删除",
-      "setupTmplTaskHasJobOrderProduct": "无法删除：该模板用于创建一个或多个工单产品"
+      "setupAssetMeterHasAssetsRecord": "资产计量器已关联一个或多个资产记录，因此无法删除"
     },
     "labelBE": {
       "profileTableColumnSetup": {

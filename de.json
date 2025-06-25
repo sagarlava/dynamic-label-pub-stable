@@ -1141,7 +1141,8 @@
       "assetSubCategorySystemGenerated": "Systemgenerierte Asset-Unterkategorien dürfen nicht gelöscht werden",
       "assetCategoryIdExists": "Eine neue Asset-Kategorie darf keine ID haben",
       "assetSubCategoryIdExists": "Eine neue Asset-Unterkategorie darf keine ID haben",
-      "assetParentInvalid":"Der gewählte übergeordnete Eintrag befindet sich bereits in der Anlagenhierarchie"        
+      "assetParentInvalid":"Der gewählte übergeordnete Eintrag befindet sich bereits in der Anlagenhierarchie",
+      "assetHasChildAssets": "Dieses Asset kann nicht gelöscht werden, da es abhängige untergeordnete Assets hat. Bitte trennen Sie diese zuerst"
     },
     "tooltips": {
       "setupVisible": false,
@@ -10203,7 +10204,7 @@
       "plural": "",
       "setupEdit": false,
       "setupVisible": false
-    },
+    },    
     "acceptedDate": {
       "original": "Accepted Date",
       "singular": "Akzeptiertes Datum",
@@ -10303,7 +10304,8 @@
     "binTransferAssetsNotFound": "Lagerübertragungs-Vermögenswerte nicht gefunden",
     "binTransferInvalidStatus": "Erlaubte Status: AKZEPTIERT/ABGELEHNT/ABBRECHEN",
     "binTransferNotFound": "Lagerübertragung nicht gefunden",
-    "binTransferItemIdExists": "Ein neues Lagerübertragungs-Element kann nicht bereits eine ID haben"
+    "binTransferItemIdExists": "Ein neues Lagerübertragungs-Element kann nicht bereits eine ID haben", 
+    "binTransferToBinRequired": "Transfer to Bin Parameter' und 'Transfer to Type' sind erforderlich"
   },
   "messages": {
     "selectApprovalStatus": "Genehmigungsstatus auswählen",
@@ -10374,7 +10376,8 @@
     "areYouSureInitiateTransfer":"Sind Sie sicher, dass Sie diese Behälterübertragung einleiten möchten?",
     "selectedBinNoLongerContains":"Der ausgewählte Behälter enthält die folgenden Artikel nicht mehr",
     "needTransferItemManually":"Sie müssen diese Artikel manuell auswählen und übertragen. Die anderen ausgewählten Artikel werden übertragen.",
-    "transferCannotContinue":"Die Übertragung kann nicht fortgesetzt werden, da der ausgewählte Behälter die folgenden Artikel nicht mehr enthält"
+    "transferCannotContinue":"Die Übertragung kann nicht fortgesetzt werden, da der ausgewählte Behälter die folgenden Artikel nicht mehr enthält",
+      "aBinTransferInitiate":"Ein Behälterübertragungsdatensatz wird für die genehmigten Artikel erstellt. Möchten Sie diesen Behältertransfer wirklich starten?"
   }
 },
   "checkAvailibility": {
@@ -11010,7 +11013,10 @@
       "userGroupNotFoundOfToBin": "Benutzergruppe für Zone von To Bin nicht gefunden",
       "fromBinNotFound": "From Bin nicht gefunden",
       "toBinNotFound": "To Bin nicht gefunden",
-      "noAssetsOrProductsFound": "Keine Assets oder Produkte gefunden"
+      "noAssetsOrProductsFound": "Keine Assets oder Produkte gefunden",
+      "l1Andl2AlreadyExist": "Gruppe Ebene 1 und Ebene 2 existieren bereits",
+      "cantUpdateApprovalConfigurationDueToPendingItems": "Die Genehmigungskonfiguration kann aufgrund ausstehender Sendungen nicht aktualisiert werden",
+      "cantRemoveApprovalConfigurationDueToPendingItems": "Die Genehmigungsbeziehung kann aufgrund ausstehender Sendungen nicht entfernt werden"
     },
     "messages": {
       "selectType": "Typ auswählen",
@@ -11627,7 +11633,10 @@
       "userGroupNotFoundOfToBin": "Benutzergruppe für Zone von To Bin nicht gefunden",
       "fromBinNotFound": "From Bin nicht gefunden",
       "toBinNotFound": "To Bin nicht gefunden",
-      "noAssetsOrProductsFound": "Keine Assets oder Produkte gefunden"
+      "noAssetsOrProductsFound": "Keine Assets oder Produkte gefunden",
+      "l1Andl2AlreadyExist": "Gruppenebene 1 und Gruppenebene 2 existieren bereits",
+      "cantUpdateApprovalConfigurationDueToPendingItems": "Genehmigungskonfiguration kann aufgrund ausstehender Anträge nicht aktualisiert werden",
+      "cantRemoveApprovalConfigurationDueToPendingItems": "Genehmigungsbeziehung kann aufgrund ausstehender Anträge nicht entfernt werden"
     },
     "messages": {
       "selectPriority": "Priorität auswählen",
@@ -11681,7 +11690,8 @@
       "selectSparePartWishToTransfer":"Wählen Sie die Ersatzteile aus, die Sie übertragen möchten",
       "selectItemsWishToTransfer":"Wählen Sie die Artikel aus, die Sie übertragen möchten",
       "filteredBySparePart":"Gefiltert nach Ersatzteilen im ausgewählten Behälter",
-      "filteredByAsset":"Gefiltert nach Vermögenswerten im ausgewählten Behälter"
+      "filteredByAsset":"Gefiltert nach Vermögenswerten im ausgewählten Behälter",
+      "areYouSureCancelRequisitionNote":"Sind Sie sicher, dass Sie diesen Anforderungsbeleg stornieren möchten?"
     }
   },
   "contacts": {
@@ -14455,8 +14465,8 @@
       },
       "transferFulfilled": {
         "original": "Transfer Fulfilled",
-        "singular": "Transfer Fulfilled",
-        "plural": "Transfer Fulfilled",
+       "singular": "Übertragung abgeschlossen",
+       "plural": "Übertragungen abgeschlossen",
         "setupEdit": false,
         "setupVisible": false
       },
@@ -14471,6 +14481,13 @@
         "original": "AI Detected",
         "singular": "AI Detected",
         "plural": "AI Detected",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "transferRejected": {
+        "original": "Transfer Rejected",
+        "singular": "Übertragungen abgelehnt",
+        "plural": "Übertragungen abgelehnt",
         "setupEdit": false,
         "setupVisible": false
       },
@@ -14687,7 +14704,8 @@
       "anyAdditionalComments":"Weitere Kommentare? Fügen Sie sie hier hinzu",
       "tip":"Tipp",
       "tips":"Tipps",
-      "makeFilterSelections":"Treffen Sie Filterauswahlen, um Assets zu finden"
+      "makeFilterSelections":"Treffen Sie Filterauswahlen, um Assets zu finden",
+      "confirmation":"Bestätigung"
     },
     "currency": {
       "australianDollar": "AUD",
@@ -15391,7 +15409,7 @@
         },
         "sec20": {
           "original": "Select a Bin from the list",
-          "singular": "Wählen Sie einen Behälter aus der Liste aus",
+          "singular": "Wählen Sie einen Behälter aus der Liste",
           "plural": "",
           "setupEdit": false,
           "setupVisible": false
@@ -24376,9 +24394,9 @@
       "setupTmplJobOrderLimitReached":"Sie haben das Limit von 50 aktiven Vorlagen überschritten. Setzen Sie den Status einer ungenutzten Vorlage auf 'Inaktiv', um eine weitere aktive Vorlage hinzuzufügen.",
       "tmplTaskLimitExceeded":"Sie haben das Limit von 50 aktiven Vorlagen überschritten. Setzen Sie den Status einer ungenutzten Vorlage auf 'Inaktiv', um eine weitere aktive Vorlage hinzuzufügen",
       "setupTmplTaskHasJobOrder": "Löschen nicht möglich: Vorlage wird in einem oder mehreren Arbeitsaufträgen verwendet",
+      "setupTmplTaskHasJobOrderProduct": "Löschen nicht möglich: Vorlage wird zur Erstellung eines oder mehrerer Jobauftrag-Produkte verwendet",      
       "setupAssetMeterMaxAssetsTypeReached": "Die maximale Anzahl von Asset-Zählern für den ausgewählten Asset-Typ ist bereits erreicht",
-      "setupAssetMeterHasAssetsRecord": "Asset-Zähler ist mit einem oder mehreren Asset-Datensätzen verknüpft und kann daher nicht gelöscht werden",
-      "setupTmplTaskHasJobOrderProduct": "Löschen nicht möglich: Vorlage wird zur Erstellung eines oder mehrerer Jobauftrag-Produkte verwendet"
+      "setupAssetMeterHasAssetsRecord": "Asset-Zähler ist mit einem oder mehreren Asset-Datensätzen verknüpft und kann daher nicht gelöscht werden"
     },
     "labelBE": {
       "profileTableColumnSetup": {
