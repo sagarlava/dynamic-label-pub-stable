@@ -467,12 +467,12 @@ db.dynamic_label_setup.updateMany(
 
 db.dynamic_label_setup.updateMany(
 {"module": "binTransfer", "language": "en" },
-{$set: {"setup.fields.mine.setupEdit": false } }
+{$set: {"setup.fields.userBin.setupEdit": false } }
 );
 
 db.dynamic_label_setup.updateMany(
 {"module": "binTransfer", "language": "en" },
-{$set: {"setup.fields.mine.setupVisible": false } }
+{$set: {"setup.fields.userBin.setupVisible": false } }
 );
 
 
