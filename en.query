@@ -1,135 +1,792 @@
 db.dynamic_label_setup.updateMany(
-{"module": "customer", "language": "en" },
-{$set: {"setup.sections.sec1.original": "Contact Details"} }
-)
-
-db.dynamic_label_setup.updateMany(
-{"module": "customer", "language": "en" },
-{$set: {"setup.sections.sec1.singular": "Contact Details"} }
-)
-
-db.dynamic_label_setup.updateMany(
-{"module": "checklist", "language": "en" },
-{$set: {"setup.fields.assetStatusBeforeChecklist.singular": "Asset status before checklist"} }
-)
-
-db.dynamic_label_setup.updateMany(
-{"module": "checklist", "language": "en" },
-{$set: {"setup.fields.assetStatusBeforeChecklist.plural": ""} }
-)
-
-db.dynamic_label_setup.updateMany(
-{"module": "checklist", "language": "en" },
-{$set: {"setup.fields.assetStatusAfterChecklist.plural": ""} }
-)
-
-db.dynamic_label_setup.updateMany(
-{"module": "checklist", "language": "en" },
-{$set: {"setup.fields.equipmentMeterReadingBeforeChecklist.plural": ""} }
-)
-
-db.dynamic_label_setup.updateMany(
-{"module": "checklist", "language": "en" },
-{$set: {"setup.fields.equipmentMeterReadingAfterChecklist.plural": ""} }
-)
+{"module": "bin", "language": "en" },
+{$set: {"setup.validationBE.binHasAUser":  "User already has a bin" } }
+);
 
 
 db.dynamic_label_setup.updateMany(
-{"module": "jobOrder", "language": "en" },
-{$set: {"setup.fields.orderDateTime.original": "Date & Time"} }
-)
-
-db.dynamic_label_setup.updateMany(
-{"module": "jobOrder", "language": "en" },
-{$set: {"setup.fields.orderDateTime.singular": "Date & Time"} }
-)
+{"module": "binTransfer", "language": "en" },
+{$set: {"setup.label.setupEdit":  false } }
+);
 
 
 db.dynamic_label_setup.updateMany(
-{"module": "jobOrder", "language": "en" },
-{$set: {"setup.fields.uploadAttachment.original": "Upload Attachment"} }
-)
+{"module": "binTransfer", "language": "en" },
+{$set: {"setup.label.setupVisible":  false } }
+);
+
 
 db.dynamic_label_setup.updateMany(
-{"module": "jobOrder", "language": "en" },
-{$set: {"setup.fields.uploadAttachment.singular": "Upload Attachment"} }
-)
+{"module": "binTransfer", "language": "en" },
+{$set: {"setup.sections.setupVisible": false} }
+);
 
 db.dynamic_label_setup.updateMany(
-{"module": "checkAvailibility", "language": "en" },
-{$set: {"setup.label.original": "Locate"} }
-)
-db.dynamic_label_setup.updateMany(
-{"module": "checkAvailibility", "language": "en" },
-{$set: {"setup.label.singular": "Locate"} }
-)
-db.dynamic_label_setup.updateMany(
-{"module": "checkAvailibility", "language": "en" },
-{$set: {"setup.label.plural": "Locate"} }
-)
+{"module": "binTransfer", "language": "en" },
+{$set: {"setup.sections.sec0.setupEdit": false} }
+);
 
 db.dynamic_label_setup.updateMany(
-{"module": "header", "language": "en" },
-{$set: {"setup.sections.sec3.original": "Account Settings"} }
-)
+{"module": "binTransfer", "language": "en" },
+{$set: {"setup.sections.sec0.setupVisible": false} }
+);
+
 db.dynamic_label_setup.updateMany(
-{"module": "header", "language": "en" },
-{$set: {"setup.sections.sec3.singular": "Account Settings"} }
-)
+{"module": "binTransfer", "language": "en" },
+{$set: {"setup.sections.sec1.setupEdit": false} }
+);
+
+
 db.dynamic_label_setup.updateMany(
-{"module": "header", "language": "en" },
-{$set: {"setup.sections.sec3.plural": "Account Settings"} }
-)
+{"module": "binTransfer", "language": "en" },
+{$set: {"setup.sections.sec1.setupVisible": false} }
+);
+
+
+
+db.dynamic_label_setup.updateMany(
+{"module": "binTransfer", "language": "en" },
+{$set: {"setup.sections.sec2.setupEdit": false} }
+);
+
+
+db.dynamic_label_setup.updateMany(
+{"module": "binTransfer", "language": "en" },
+{$set: {"setup.sections.sec2.setupVisible": false} }
+);
+
+db.dynamic_label_setup.updateMany(
+{"module": "binTransfer", "language": "en" },
+{$set: {"setup.sections.sec3.setupEdit": false} }
+);
+
+
+db.dynamic_label_setup.updateMany(
+{"module": "binTransfer", "language": "en" },
+{$set: {"setup.sections.sec3.setupVisible": false} }
+);
+
+
+
+db.dynamic_label_setup.updateMany(
+{"module": "binTransfer", "language": "en" },
+{$set: {"setup.sections.sec4.setupEdit": false} }
+);
+
+
+db.dynamic_label_setup.updateMany(
+{"module": "binTransfer", "language": "en" },
+{$set: {"setup.sections.sec4.setupVisible": false} }
+);
+
+
+db.dynamic_label_setup.updateMany(
+{"module": "binTransfer", "language": "en" },
+{$set: {"setup.sections.sec5.setupEdit": false} }
+);
+
+
+db.dynamic_label_setup.updateMany(
+{"module": "binTransfer", "language": "en" },
+{$set: {"setup.sections.sec5.setupVisible": false} }
+);
+
+db.dynamic_label_setup.updateMany(
+{"module": "binTransfer", "language": "en" },
+{$set: {"setup.sections.sec6.setupEdit": false} }
+);
+
+
+db.dynamic_label_setup.updateMany(
+{"module": "binTransfer", "language": "en" },
+{$set: {"setup.sections.sec6.setupVisible": false} }
+);
+
+
+db.dynamic_label_setup.updateMany(
+{"module": "binTransfer", "language": "en" },
+{$set: {"setup.sections.sec7.setupEdit": false} }
+);
+
+
+db.dynamic_label_setup.updateMany(
+{"module": "binTransfer", "language": "en" },
+{$set: {"setup.sections.sec7.setupVisible": false} }
+);
+
+
+db.dynamic_label_setup.updateMany(
+{"module": "binTransfer", "language": "en" },
+{$set: {"setup.sections.sec8.setupEdit": false} }
+);
+
+
+db.dynamic_label_setup.updateMany(
+{"module": "binTransfer", "language": "en" },
+{$set: {"setup.sections.sec8.setupVisible": false} }
+);
+
+
+db.dynamic_label_setup.updateMany(
+{"module": "binTransfer", "language": "en" },
+{$set: {"setup.sections.sec9.setupEdit": false} }
+);
+
+
+db.dynamic_label_setup.updateMany(
+{"module": "binTransfer", "language": "en" },
+{$set: {"setup.sections.sec9.setupVisible": false} }
+);
+
+
+
+db.dynamic_label_setup.updateMany(
+{"module": "binTransfer", "language": "en" },
+{$set: {"setup.sections.sec10.setupEdit": false} }
+);
+
+
+db.dynamic_label_setup.updateMany(
+{"module": "binTransfer", "language": "en" },
+{$set: {"setup.sections.sec10.setupVisible": false} }
+);
+
+
+db.dynamic_label_setup.updateMany(
+{"module": "binTransfer", "language": "en" },
+{$set: {"setup.sections.sec11.setupEdit": false} }
+);
+
+
+db.dynamic_label_setup.updateMany(
+{"module": "binTransfer", "language": "en" },
+{$set: {"setup.sections.sec11.setupVisible": false} }
+);
+
+
+db.dynamic_label_setup.updateMany(
+{"module": "binTransfer", "language": "en" },
+{$set: {"setup.sections.sec12.setupEdit": false} }
+);
+
+
+db.dynamic_label_setup.updateMany(
+{"module": "binTransfer", "language": "en" },
+{$set: {"setup.sections.sec12.setupVisible": false} }
+);
+
+
+db.dynamic_label_setup.updateMany(
+{"module": "binTransfer", "language": "en" },
+{$set: {"setup.sections.sec13.setupEdit": false} }
+);
+
+
+db.dynamic_label_setup.updateMany(
+{"module": "binTransfer", "language": "en" },
+{$set: {"setup.sections.sec13.setupVisible": false} }
+);
+
+db.dynamic_label_setup.updateMany(
+{"module": "binTransfer", "language": "en" },
+{$set: {"setup.sections.sec14.setupEdit": false} }
+);
+
+
+db.dynamic_label_setup.updateMany(
+{"module": "binTransfer", "language": "en" },
+{$set: {"setup.sections.sec14.setupVisible": false} }
+);
+
+
+
+db.dynamic_label_setup.updateMany(
+{"module": "binTransfer", "language": "en" },
+{$set: {"setup.sections.sec15":{
+      "original": "Transfer by Assets",
+      "singular": "Übertragung nach Assets",
+      "plural": "Übertragung nach Assets",
+      "setupEdit": false,
+      "setupVisible": false
+    }} }
+);
+
+db.dynamic_label_setup.updateMany(
+{"module": "binTransfer", "language": "en" },
+{$set: {"setup.fields.setupVisible": false} }
+);
+
+
+
+
+
+db.dynamic_label_setup.updateMany(
+{"module": "binTransfer", "language": "en" },
+{$set: {"setup.fields.setupVisible": false} }
+);
+ 
+
+db.dynamic_label_setup.updateMany(
+{"module": "binTransfer", "language": "en" },
+{$set: {"setup.fields.approvalStatus.setupEdit": false} }
+);
+
+db.dynamic_label_setup.updateMany(
+{"module": "binTransfer", "language": "en" },
+{$set: {"setup.fields.approvalStatus.setupVisible": false} }
+);
+
+db.dynamic_label_setup.updateMany(
+{"module": "binTransfer", "language": "en" },
+{$set: {"setup.fields.fromBin.setupEdit": false} }
+);
+
+db.dynamic_label_setup.updateMany(
+{"module": "binTransfer", "language": "en" },
+{$set: {"setup.fields.fromBin.setupVisible": false} }
+);
+
+db.dynamic_label_setup.updateMany(
+{"module": "binTransfer", "language": "en" },
+{$set: {"setup.fields.toBin.setupEdit": false} }
+);
+
+db.dynamic_label_setup.updateMany(
+{"module": "binTransfer", "language": "en" },
+{$set: {"setup.fields.toBin.setupVisible": false} }
+);
+
+
+db.dynamic_label_setup.updateMany(
+{"module": "binTransfer", "language": "en" },
+{$set: {"setup.fields.referenceNumber.setupEdit": false} }
+);
+
+db.dynamic_label_setup.updateMany(
+{"module": "binTransfer", "language": "en" },
+{$set: {"setup.fields.referenceNumber.setupVisible": false} }
+);
+
+db.dynamic_label_setup.updateMany(
+{"module": "binTransfer", "language": "en" },
+{$set: {"setup.fields.notes.setupEdit": false} }
+);
+
+
+db.dynamic_label_setup.updateMany(
+{"module": "binTransfer", "language": "en" },
+{$set: {"setup.fields.notes.setupVisible": false} }
+);
+
+db.dynamic_label_setup.updateMany(
+{"module": "binTransfer", "language": "en" },
+{$set: {"setup.fields.productName.setupEdit": false} }
+);
+
+db.dynamic_label_setup.updateMany(
+{"module": "binTransfer", "language": "en" },
+{$set: {"setup.fields.productName.setupVisible": false} }
+);
+
+
+db.dynamic_label_setup.updateMany(
+{"module": "binTransfer", "language": "en" },
+{$set: {"setup.fields.assetName.setupEdit": false} }
+);
+
+db.dynamic_label_setup.updateMany(
+{"module": "binTransfer", "language": "en" },
+{$set: {"setup.fields.assetName.setupVisible": false} }
+);
+
+
+db.dynamic_label_setup.updateMany(
+{"module": "binTransfer", "language": "en" },
+{$set: {"setup.fields.sku.setupEdit": false} }
+);
+
+db.dynamic_label_setup.updateMany(
+{"module": "binTransfer", "language": "en" },
+{$set: {"setup.fields.sku.setupVisible": false} }
+);
+
+
+db.dynamic_label_setup.updateMany(
+{"module": "binTransfer", "language": "en" },
+{$set: {"setup.fields.qtyAvailable.setupEdit": false} }
+);
+
+
+
+db.dynamic_label_setup.updateMany(
+{"module": "binTransfer", "language": "en" },
+{$set: {"setup.fields.qtyAvailable.setupVisible": false} }
+);
+
+db.dynamic_label_setup.updateMany(
+{"module": "binTransfer", "language": "en" },
+{$set: {"setup.fields.qtyTransfer.setupEdit": false} }
+);
+
+db.dynamic_label_setup.updateMany(
+{"module": "binTransfer", "language": "en" },
+{$set: {"setup.fields.qtyTransfer.setupVisible": false} }
+);
+
+db.dynamic_label_setup.updateMany(
+{"module": "binTransfer", "language": "en" },
+{$set: {"setup.fields.transferNo.setupEdit": false} }
+);
+
+db.dynamic_label_setup.updateMany(
+{"module": "binTransfer", "language": "en" },
+{$set: {"setup.fields.transferNo.setupVisible": false} }
+);
+
+
+db.dynamic_label_setup.updateMany(
+{"module": "binTransfer", "language": "en" },
+{$set: {"setup.fields.date.setupEdit": false} }
+);
+
+db.dynamic_label_setup.updateMany(
+{"module": "binTransfer", "language": "en" },
+{$set: {"setup.fields.date.setupVisible": false} }
+);
+
+db.dynamic_label_setup.updateMany(
+{"module": "binTransfer", "language": "en" },
+{$set: {"setup.fields.referenceNo.setupEdit": false} }
+);
+
+db.dynamic_label_setup.updateMany(
+{"module": "binTransfer", "language": "en" },
+{$set: {"setup.fields.referenceNo.setupVisible": false} }
+);
+
+
+db.dynamic_label_setup.updateMany(
+{"module": "binTransfer", "language": "en" },
+{$set: {"setup.fields.type.setupEdit": false} }
+);
+
+db.dynamic_label_setup.updateMany(
+{"module": "binTransfer", "language": "en" },
+{$set: {"setup.fields.type.setupVisible": false} }
+);
+
+
+db.dynamic_label_setup.updateMany(
+{"module": "binTransfer", "language": "en" },
+{$set: {"setup.fields.transferredBy.setupEdit": false} }
+);
+
+db.dynamic_label_setup.updateMany(
+{"module": "binTransfer", "language": "en" },
+{$set: {"setup.fields.transferredBy.setupVisible": false} }
+);
+
+
+db.dynamic_label_setup.updateMany(
+{"module": "binTransfer", "language": "en" },
+{$set: {"setup.fields.assignedStatus.setupEdit": false} }
+);
+
+db.dynamic_label_setup.updateMany(
+{"module": "binTransfer", "language": "en" },
+{$set: {"setup.fields.assignedStatus.setupVisible": false} }
+);
+
+
+
+db.dynamic_label_setup.updateMany(
+{"module": "binTransfer", "language": "en" },
+{$set: {"setup.fields.assignedTo.setupEdit": false} }
+);
+
+db.dynamic_label_setup.updateMany(
+{"module": "binTransfer", "language": "en" },
+{$set: {"setup.fields.assignedTo.setupVisible": false} }
+);
+
+
+db.dynamic_label_setup.updateMany(
+{"module": "binTransfer", "language": "en" },
+{$set: {"setup.fields.transferredDateTime.setupEdit": false} }
+);
+
+db.dynamic_label_setup.updateMany(
+{"module": "binTransfer", "language": "en" },
+{$set: {"setup.fields.transferredDateTime.setupVisible": false} }
+);
+
+
+db.dynamic_label_setup.updateMany(
+{"module": "binTransfer", "language": "en" },
+{$set: {"setup.fields.acceptedRejectedBy.setupEdit": false} }
+);
+
+db.dynamic_label_setup.updateMany(
+{"module": "binTransfer", "language": "en" },
+{$set: {"setup.fields.acceptedRejectedBy.setupVisible": false} }
+);
+
+
+db.dynamic_label_setup.updateMany(
+{"module": "binTransfer", "language": "en" },
+{$set: {"setup.fields.remarks.setupEdit": false} }
+);
+
+db.dynamic_label_setup.updateMany(
+{"module": "binTransfer", "language": "en" },
+{$set: {"setup.fields.remarks.setupVisible": false} }
+);
+
+
+db.dynamic_label_setup.updateMany(
+{"module": "binTransfer", "language": "en" },
+{$set: {"setup.fields.available.setupEdit": false} }
+);
+
+db.dynamic_label_setup.updateMany(
+{"module": "binTransfer", "language": "en" },
+{$set: {"setup.fields.available.setupVisible": false} }
+);
+
+
+db.dynamic_label_setup.updateMany(
+{"module": "binTransfer", "language": "en" },
+{$set: {"setup.fields.quantity.setupEdit": false} }
+);
+
+db.dynamic_label_setup.updateMany(
+{"module": "binTransfer", "language": "en" },
+{$set: {"setup.fields.quantity.setupVisible": false} }
+);
+
+
+db.dynamic_label_setup.updateMany(
+{"module": "binTransfer", "language": "en" },
+{$set: {"setup.fields.mine.setupEdit": false } }
+);
+
+db.dynamic_label_setup.updateMany(
+{"module": "binTransfer", "language": "en" },
+{$set: {"setup.fields.mine.setupVisible": false } }
+);
+
+
+
+db.dynamic_label_setup.updateMany(
+{"module": "binTransfer", "language": "en" },
+{$set: {"setup.fields.locationBin.setupEdit": false} }
+);
+
+db.dynamic_label_setup.updateMany(
+{"module": "binTransfer", "language": "en" },
+{$set: {"setup.fields.locationBin.setupVisible": false} }
+);
+
+db.dynamic_label_setup.updateMany(
+{"module": "binTransfer", "language": "en" },
+{$set: {"setup.fields.acceptedDate.setupEdit": false} }
+);
+
+db.dynamic_label_setup.updateMany(
+{"module": "binTransfer", "language": "en" },
+{$set: {"setup.fields.acceptedDate.setupVisible": false} }
+);
+
+
+db.dynamic_label_setup.updateMany(
+{"module": "binTransfer", "language": "en" },
+{$set: {"setup.tooltips.binLookup.setupEdit": false} }
+);
+
+db.dynamic_label_setup.updateMany(
+{"module": "binTransfer", "language": "en" },
+{$set: {"setup.tooltips.binLookup.setupVisible": false} }
+);
+
+
+
+db.dynamic_label_setup.updateMany(
+{"module": "consignment", "language": "en" },
+{$set: {"setup.sections.setupVisible": false} }
+);
+
+db.dynamic_label_setup.updateMany(
+{"module": "consignment", "language": "en" },
+{$set: {"setup.fields.setupVisible": false} }
+);
+
+
+db.dynamic_label_setup.updateMany(
+{"module": "consignment", "language": "en" },
+{$set: {"setup.tooltips.setupVisible": false} }
+);
+
+
+
+db.dynamic_label_setup.updateMany(
+{"module": "requisition", "language": "en" },
+{$set: {"setup.sections.setupVisible": false} }
+);
+
+db.dynamic_label_setup.updateMany(
+{"module": "requisition", "language": "en" },
+{$set: {"setup.fields.setupVisible": false} }
+);
+
+db.dynamic_label_setup.updateMany(
+{"module": "requisition", "language": "en" },
+{$set: {"setup.tooltips.setupVisible": false} }
+);
+
+
 
 
 db.dynamic_label_setup.updateMany(
 {"module": "general", "language": "en" },
-{$set: {"setup.buttons.filter.plural": "Filter"} }
-)
+{$set: {"setup.buttons.transferByProducts.original": "Transfer Spare Parts"} }
+);
 
 db.dynamic_label_setup.updateMany(
 {"module": "general", "language": "en" },
-{$set: {"setup.buttons.transfer.plural": "Transfers"} }
-)
+{$set: {"setup.buttons.transferByProducts.singular": "Transfer Spare Parts"} }
+);
 
 db.dynamic_label_setup.updateMany(
 {"module": "general", "language": "en" },
-{$set: {"setup.buttons.email.original": "Email"} }
-)
-
-db.dynamic_label_setup.updateMany(
-{"module": "general", "language": "en" },
-{$set: {"setup.buttons.email.singular": "Email"} }
-)
-
-db.dynamic_label_setup.updateMany(
-{"module": "general", "language": "en" },
-{$set: {"setup.status.breakDown.original": "Breakdown"} }
-)
-
-db.dynamic_label_setup.updateMany(
-{"module": "general", "language": "en" },
-{$set: {"setup.status.breakDown.singular": "Breakdown"} }
-)
-
-db.dynamic_label_setup.updateMany(
-{"module": "general", "language": "en" },
-{$set: {"setup.status.breakDown.setupEdit": false} }
-)
+{$set: {"setup.buttons.transferByProducts.setupEdit": false } }
+);
 
 
 
 db.dynamic_label_setup.updateMany(
 {"module": "setup", "language": "en" },
-{$set: {"setup.notifications.messages.markAsRead": "Mark all as read"} }
-)
+{$set: {"setup.users.groups.label.original":  "Groups" } }
+);
 
 db.dynamic_label_setup.updateMany(
-{"module": "leave", "language": "en" },
-{$set: {"setup.messages.confirmLeaveAction": "Are you sure want to accept this leave?"} }
-)
+{"module": "setup", "language": "en" },
+{$set: {"setup.users.groups.label.singular":  "Group" } }
+);
 
 db.dynamic_label_setup.updateMany(
-{"module": "leave", "language": "en" },
-{$set: {"setup.messages.confirmLeaveRejectAction": "Are you sure want to reject this leave?"} }
-)
+{"module": "setup", "language": "en" },
+{$set: {"setup.users.groups.label.plural":  "Groups" } }
+);
+
+
+
+
+
+
+db.dynamic_label_setup.updateMany(
+{"module": "setup", "language": "en" },
+{$set: {"setup.modules.inventory.label.setupEdit":  false } }
+);
+
+
+db.dynamic_label_setup.updateMany(
+{"module": "setup", "language": "en" },
+{$set: {"setup.modules.inventory.location.label.setupEdit":  false } }
+);
+
+db.dynamic_label_setup.updateMany(
+{"module": "setup", "language": "en" },
+{$set: {"setup.modules.inventory.location.sections.sec0.setupEdit":  false } }
+);
+
+
+db.dynamic_label_setup.updateMany(
+{"module": "setup", "language": "en" },
+{$set: {"setup.modules.inventory.location.fields.locationId.setupEdit":  false } }
+);
+
+
+db.dynamic_label_setup.updateMany(
+{"module": "setup", "language": "en" },
+{$set: {"setup.modules.inventory.location.fields.name.setupEdit":  false } }
+);
+
+db.dynamic_label_setup.updateMany(
+{"module": "setup", "language": "en" },
+{$set: {"setup.modules.inventory.location.fields.fullAddress.setupEdit":  false } }
+);
+
+db.dynamic_label_setup.updateMany(
+{"module": "setup", "language": "en" },
+{$set: {"setup.modules.inventory.location.fields.shortCode.setupEdit":  false } }
+);
+
+db.dynamic_label_setup.updateMany(
+{"module": "setup", "language": "en" },
+{$set: {"setup.modules.inventory.location.fields.extId.setupEdit":  false } }
+);
+
+
+db.dynamic_label_setup.updateMany(
+{"module": "setup", "language": "en" },
+{$set: {"setup.modules.inventory.location.fields.storeManager.setupEdit":  false } }
+);
+
+db.dynamic_label_setup.updateMany(
+{"module": "setup", "language": "en" },
+{$set: {"setup.modules.inventory.location.fields.userGroup.setupEdit":  false } }
+);
+
+db.dynamic_label_setup.updateMany(
+{"module": "setup", "language": "en" },
+{$set: {"setup.modules.inventory.location.fields.description.setupEdit":  false } }
+);
+
+db.dynamic_label_setup.updateMany(
+{"module": "setup", "language": "en" },
+{$set: {"setup.modules.inventory.zones.label.setupEdit":  false } }
+);
+
+
+db.dynamic_label_setup.updateMany(
+{"module": "setup", "language": "en" },
+{$set: {"setup.modules.inventory.zones.sections.sec0.setupEdit":  false } }
+);
+
+db.dynamic_label_setup.updateMany(
+{"module": "setup", "language": "en" },
+{$set: {"setup.modules.inventory.zones.fields.zoneNumber.setupEdit":  false } }
+);
+
+db.dynamic_label_setup.updateMany(
+{"module": "setup", "language": "en" },
+{$set: {"setup.modules.inventory.zones.fields.zoneId.setupEdit":  false } }
+);
+
+db.dynamic_label_setup.updateMany(
+{"module": "setup", "language": "en" },
+{$set: {"setup.modules.inventory.zones.fields.name.setupEdit":  false } }
+);
+
+db.dynamic_label_setup.updateMany(
+{"module": "setup", "language": "en" },
+{$set: {"setup.modules.inventory.zones.fields.displayName.setupEdit":  false } }
+);
+
+
+db.dynamic_label_setup.updateMany(
+{"module": "setup", "language": "en" },
+{$set: {"setup.modules.inventory.zones.fields.location.setupEdit":  false } }
+);
+
+
+
+db.dynamic_label_setup.updateMany(
+{"module": "setup", "language": "en" },
+{$set: {"setup.modules.inventory.zones.fields.shortCode.setupEdit":  false } }
+);
+
+db.dynamic_label_setup.updateMany(
+{"module": "setup", "language": "en" },
+{$set: {"setup.modules.inventory.zones.fields.extId.setupEdit":  false } }
+);
+
+db.dynamic_label_setup.updateMany(
+{"module": "setup", "language": "en" },
+{$set: {"setup.modules.inventory.zones.fields.storeManager.setupEdit":  false } }
+);
+
+db.dynamic_label_setup.updateMany(
+{"module": "setup", "language": "en" },
+{$set: {"setup.modules.inventory.zones.fields.userGroup.setupEdit":  false } }
+);
+
+db.dynamic_label_setup.updateMany(
+{"module": "setup", "language": "en" },
+{$set: {"setup.modules.inventory.zones.fields.description.setupEdit":  false } }
+);
+
+
+db.dynamic_label_setup.updateMany(
+{"module": "setup", "language": "en" },
+{$set: {"setup.modules.inventory.bins.label.setupEdit":  false } }
+);
+
+
+db.dynamic_label_setup.updateMany(
+{"module": "setup", "language": "en" },
+{$set: {"setup.modules.inventory.bins.sections.sec0.setupEdit":  false } }
+);
+
+db.dynamic_label_setup.updateMany(
+{"module": "setup", "language": "en" },
+{$set: {"setup.modules.inventory.bins.sections.sec1.setupEdit":  false } }
+);
+
+db.dynamic_label_setup.updateMany(
+{"module": "setup", "language": "en" },
+{$set: {"setup.modules.inventory.bins.sections.sec2.setupEdit":  false } }
+);
+
+
+db.dynamic_label_setup.updateMany(
+{"module": "setup", "language": "en" },
+{$set: {"setup.modules.inventory.bins.fields.binNumber.setupEdit":  false } }
+);
+
+db.dynamic_label_setup.updateMany(
+{"module": "setup", "language": "en" },
+{$set: {"setup.modules.inventory.bins.fields.binId.setupEdit":  false } }
+);
+
+
+
+db.dynamic_label_setup.updateMany(
+{"module": "setup", "language": "en" },
+{$set: {"setup.modules.inventory.bins.fields.name.setupEdit":  false } }
+);
+
+db.dynamic_label_setup.updateMany(
+{"module": "setup", "language": "en" },
+{$set: {"setup.modules.inventory.bins.fields.displayName.setupEdit":  false } }
+);
+
+
+db.dynamic_label_setup.updateMany(
+{"module": "setup", "language": "en" },
+{$set: {"setup.modules.inventory.bins.fields.locationZone.setupEdit":  false } }
+);
+
+
+db.dynamic_label_setup.updateMany(
+{"module": "setup", "language": "en" },
+{$set: {"setup.modules.inventory.bins.fields.shortCode.setupEdit":  false } }
+);
+
+db.dynamic_label_setup.updateMany(
+{"module": "setup", "language": "en" },
+{$set: {"setup.modules.inventory.bins.fields.extId.setupEdit":  false } }
+);
+
+
+db.dynamic_label_setup.updateMany(
+{"module": "setup", "language": "en" },
+{$set: {"setup.modules.inventory.bins.fields.user.setupEdit":  false } }
+);
+
+db.dynamic_label_setup.updateMany(
+{"module": "setup", "language": "en" },
+{$set: {"setup.modules.inventory.bins.fields.description.setupEdit":  false } }
+);
+
+
+
+db.dynamic_label_setup.updateMany(
+{"module": "setup", "language": "en" },
+{$set: {"setup.labelBE.standardNotification.inventory.description.bin_under_stock":  "Sent to the managing group when one of their bins reaches or exceeds its under stock point" } }
+);
+
+db.dynamic_label_setup.updateMany(
+{"module": "setup", "language": "en" },
+{$set: {"setup.labelBE.standardNotification.inventory.description.bin_re_order_point":  "Sent to the managing group when one of their bins reaches or exceeds its reorder point" } }
+);
