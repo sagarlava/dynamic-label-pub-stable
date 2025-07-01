@@ -443,8 +443,8 @@
         "setupVisible": true
       },
       "sec1": {
-        "original": "Hierarchy and Classification",
-        "singular": "Jerarquía y Clasificación",
+        "original": "Ownership & Location",
+        "singular": "Propiedad y Ubicación",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
@@ -713,8 +713,8 @@
         "setupVisible": false
       },
       "acquisitionDate": {
-        "original": "Purchase Date",
-        "singular": "Fecha de Compra",
+        "original": "Acquisition Date",
+        "singular": "Fecha de Adquisición",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
@@ -1140,7 +1140,9 @@
       "assetCategoryIdExists": "Una nueva categoría de activos no puede tener ya un ID",
       "assetSubCategoryIdExists": "Una nueva subcategoría de activos no puede tener ya un ID",
       "assetCategoryCannotDeleteByAssets": "No se puede eliminar: La categoría de activos se utiliza en uno o más activos",
-      "assetSubCategoryCannotDeleteByAssets": "No se puede eliminar: La subcategoría de activos se utiliza en uno o más activos"
+      "assetSubCategoryCannotDeleteByAssets": "No se puede eliminar: La subcategoría de activos se utiliza en uno o más activos", 
+      "assetParentInvalid":"El padre elegido ya está en la jerarquía de activos",
+      "assetHasChildAssets": "Este activo no se puede eliminar porque tiene activos hijos dependientes. Por favor, desvincúlelos primero"
     },
     "tooltips": {
       "setupVisible": false,
@@ -10302,7 +10304,8 @@
       "binTransferAssetsNotFound": "Activos de Transferencia no encontrados",
       "binTransferInvalidStatus": "Solo se permiten los siguientes estados: ACEPTADO/RECHAZADO/CANCELAR",
       "binTransferNotFound": "Transferencia de Contenedor no encontrada",
-      "binTransferItemIdExists": "Un nuevo Ítem de Transferencia de Contenedor no puede tener ya un ID"
+      "binTransferItemIdExists": "Un nuevo Ítem de Transferencia de Contenedor no puede tener ya un ID",
+      "binTransferToBinRequired": "Se requieren los campos Transfer To Bin Parameter y Transfer To Type"
     },
     "messages": {
       "selectApprovalStatus": "Selecciona el Estado de Aprobación",
@@ -24059,7 +24062,9 @@
       "setupTmplJobOrderLimitReached": "Has superado el límite de 50 plantillas activas. Cambia el estado de una plantilla no utilizada a 'Inactiva' para agregar otra plantilla activa.",
       "tmplTaskLimitExceeded": "Has superado el límite de 50 plantillas activas. Cambia el estado de una plantilla no utilizada a 'Inactiva' para agregar otra plantilla activa.",
       "setupTmplTaskHasJobOrder": "No se puede eliminar: La plantilla se utiliza en una o más órdenes de trabajo",
-      "setupTmplTaskHasJobOrderProduct": "No se puede eliminar: La plantilla se utiliza para crear uno o más productos de orden de trabajo"
+      "setupTmplTaskHasJobOrderProduct": "No se puede eliminar: La plantilla se utiliza para crear uno o más productos de orden de trabajo",
+      "setupAssetMeterMaxAssetsTypeReached": "Ya se ha alcanzado el número máximo de medidores para el tipo de activo seleccionado",
+      "setupAssetMeterHasAssetsRecord": "El medidor de activos está vinculado a uno o más registros de activos, por lo tanto, no se puede eliminar"
     },
     "labelBE": {
       "profileTableColumnSetup": {

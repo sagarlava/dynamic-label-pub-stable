@@ -443,8 +443,8 @@
         "setupVisible": true
       },
       "sec1": {
-        "original": "Hierarchy and Classification",
-        "singular": "层级与分类",
+        "original": "Ownership & Location",
+        "singular": "所有权与位置",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
@@ -713,8 +713,8 @@
         "setupVisible": false
       },
       "acquisitionDate": {
-        "original": "Purchase Date",
-        "singular": "购买日期",
+        "original": "Acquisition Date",
+        "singular": "获取日期",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
@@ -1140,7 +1140,9 @@
       "assetCategoryIdExists": "新资产类别不能已经有ID",
       "assetSubCategoryIdExists": "新资产子类别不能已经有ID",
       "assetCategoryCannotDeleteByAssets":"无法删除：资产类别在一个或多个资产中使用",
-      "assetSubCategoryCannotDeleteByAssets":"无法删除：资产子类别在一个或多个资产中使用"
+      "assetSubCategoryCannotDeleteByAssets":"无法删除：资产子类别在一个或多个资产中使用",
+      "assetParentInvalid":"所选父级已在资产层次结构中",
+      "assetHasChildAssets": "此资产无法删除，因为它有依赖的子资产。请先解除它们的关联"
     },
     "tooltips": {
       "setupVisible": false,
@@ -10302,7 +10304,8 @@
       "binTransferAssetsNotFound": "未找到仓位转移资产",
       "binTransferInvalidStatus": "仅允许的状态：已接受/已拒绝/已取消",
       "binTransferNotFound": "未找到仓位转移",
-      "binTransferItemIdExists": "新的仓位转移项目不能已经有一个ID"
+      "binTransferItemIdExists": "新的仓位转移项目不能已经有一个ID",
+      "binTransferToBinRequired": "需要填写“转移到货位参数”和“转移类型”字段"
     },
     "messages": {
       "selectApprovalStatus": "选择审批状态",
@@ -24059,7 +24062,9 @@
       "setupTmplJobOrderLimitReached":"您已超出50个活动模板的限制。将未使用的模板状态设置为“未激活”以添加另一个活动模板",
       "tmplTaskLimitExceeded": "您已超出50个活动模板的限制。将未使用的模板状态设置为“未激活”以添加另一个活动模板",
       "setupTmplTaskHasJobOrder": "无法删除：模板被用于一个或多个工单",
-      "setupTmplTaskHasJobOrderProduct": "无法删除：该模板用于创建一个或多个工单产品"
+      "setupTmplTaskHasJobOrderProduct": "无法删除：该模板用于创建一个或多个工单产品",      
+      "setupAssetMeterMaxAssetsTypeReached": "所选资产类型的资产计量器数量已达上限",
+      "setupAssetMeterHasAssetsRecord": "资产计量器已关联一个或多个资产记录，因此无法删除"
     },
     "labelBE": {
       "profileTableColumnSetup": {
