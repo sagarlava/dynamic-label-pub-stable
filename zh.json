@@ -13955,6 +13955,20 @@
         "plural": "导出二维码",
         "setupEdit": false,
         "setupVisible": false
+      }	,
+      "pro":{
+        "original": "Pro",
+        "singular": "专业版",
+        "plural": "专业版",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "enterprise":{
+        "original": "Enterprise",
+        "singular": "企业版",
+        "plural": "企业版",
+        "setupEdit": false,
+        "setupVisible": false
       }	
     },
     "status": {

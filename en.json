@@ -13955,6 +13955,20 @@
         "plural": "Export QR",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "pro":{
+        "original": "Pro",
+        "singular": "Pro",
+        "plural": "Pro",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "enterprise":{
+        "original": "Enterprise",
+        "singular": "Enterprise",
+        "plural": "Enterprise",
+        "setupEdit": false,
+        "setupVisible": false
       }	
     },
     "status": {
