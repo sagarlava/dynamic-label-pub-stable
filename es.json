@@ -9989,7 +9989,15 @@
         "plural": "Artículos faltantes detectados",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "sec22": {
+        "original": "Additional Details",
+        "singular": "Detalles Adicionales",
+        "plural": "Detalles Adicionales",
+        "setupEdit": false,
+        "setupVisible": false
       }
+      
     },
     "fields": {
       "setupVisible": true,

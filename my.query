@@ -1,111 +1,802 @@
 db.dynamic_label_setup.updateMany(
-{"module": "customer", "language": "my" },
-{$set: {"setup.sections.sec1.original": "Contact Details"} }
-)
+{"module": "asset", "language": "my" },
+{$set: {"setup.sections.sec2.singular": "Tempoh Liputan & Pemerolehan"} }
+);
 
 db.dynamic_label_setup.updateMany(
-{"module": "customer", "language": "my" },
-{$set: {"setup.sections.sec1.original": "Butiran Perhubungan"} }
-)
+{"module": "contracts", "language": "my" },
+{$set: {"setup.fields.transferredFromBin.singular": "Dipindahkan dari Bin"} }
+);
 
-db.dynamic_label_setup.updateMany(
-{"module": "checklist", "language": "my" },
-{$set: {"setup.fields.assetStatusBeforeChecklist.plural": ""} }
-)
 
-db.dynamic_label_setup.updateMany(
-{"module": "checklist", "language": "my" },
-{$set: {"setup.fields.assetStatusAfterChecklist.plural": ""} }
-)
 
-db.dynamic_label_setup.updateMany(
-{"module": "checklist", "language": "my" },
-{$set: {"setup.fields.equipmentMeterReadingBeforeChecklist.plural": ""} }
-)
-
-db.dynamic_label_setup.updateMany(
-{"module": "checklist", "language": "my" },
-{$set: {"setup.fields.equipmentMeterReadingAfterChecklist.plural": ""} }
-)
 
 
 db.dynamic_label_setup.updateMany(
-{"module": "jobOrder", "language": "my" },
-{$set: {"setup.fields.orderDateTime.original": "Date & Time"} }
-)
+{"module": "binTransfer", "language": "my" },
+{$set: {"setup.label.setupEdit": false} }
+);
 
 db.dynamic_label_setup.updateMany(
-{"module": "jobOrder", "language": "my" },
-{$set: {"setup.fields.orderDateTime.singular": "Tarikh & Topik"} }
-)
+{"module": "binTransfer", "language": "my" },
+{$set: {"setup.label.setupVisible": false} }
+);
 
 db.dynamic_label_setup.updateMany(
-{"module": "jobOrder", "language": "my" },
-{$set: {"setup.fields.uploadAttachment.original": "Muat naik lampiran"} }
-)
+{"module": "binTransfer", "language": "my" },
+{$set: {"setup.sections.setupVisible": false} }
+);
 
 db.dynamic_label_setup.updateMany(
-{"module": "jobOrder", "language": "my" },
-{$set: {"setup.fields.uploadAttachment.singular": "Muat naik lampiran"} }
-)
+{"module": "binTransfer", "language": "my" },
+{$set: {"setup.sections.sec0.setupEdit": false} }
+);
+
+db.dynamic_label_setup.updateMany(
+{"module": "binTransfer", "language": "my" },
+{$set: {"setup.sections.sec0.setupVisible": false} }
+);
+
+db.dynamic_label_setup.updateMany(
+{"module": "binTransfer", "language": "my" },
+{$set: {"setup.sections.sec1.setupEdit": false} }
+);
+
+
+db.dynamic_label_setup.updateMany(
+{"module": "binTransfer", "language": "my" },
+{$set: {"setup.sections.sec1.setupVisible": false} }
+);
+
+
+
+db.dynamic_label_setup.updateMany(
+{"module": "binTransfer", "language": "my" },
+{$set: {"setup.sections.sec2.setupEdit": false} }
+);
+
+
+db.dynamic_label_setup.updateMany(
+{"module": "binTransfer", "language": "my" },
+{$set: {"setup.sections.sec2.setupVisible": false} }
+);
+
+db.dynamic_label_setup.updateMany(
+{"module": "binTransfer", "language": "my" },
+{$set: {"setup.sections.sec3.setupEdit": false} }
+);
+
+
+db.dynamic_label_setup.updateMany(
+{"module": "binTransfer", "language": "my" },
+{$set: {"setup.sections.sec3.setupVisible": false} }
+);
+
+
+
+db.dynamic_label_setup.updateMany(
+{"module": "binTransfer", "language": "my" },
+{$set: {"setup.sections.sec4.setupEdit": false} }
+);
+
+
+db.dynamic_label_setup.updateMany(
+{"module": "binTransfer", "language": "my" },
+{$set: {"setup.sections.sec4.setupVisible": false} }
+);
+
+
+db.dynamic_label_setup.updateMany(
+{"module": "binTransfer", "language": "my" },
+{$set: {"setup.sections.sec5.setupEdit": false} }
+);
+
+
+db.dynamic_label_setup.updateMany(
+{"module": "binTransfer", "language": "my" },
+{$set: {"setup.sections.sec5.setupVisible": false} }
+);
+
+db.dynamic_label_setup.updateMany(
+{"module": "binTransfer", "language": "my" },
+{$set: {"setup.sections.sec6.setupEdit": false} }
+);
+
+
+db.dynamic_label_setup.updateMany(
+{"module": "binTransfer", "language": "my" },
+{$set: {"setup.sections.sec6.setupVisible": false} }
+);
+
+
+db.dynamic_label_setup.updateMany(
+{"module": "binTransfer", "language": "my" },
+{$set: {"setup.sections.sec7.setupEdit": false} }
+);
+
+
+db.dynamic_label_setup.updateMany(
+{"module": "binTransfer", "language": "my" },
+{$set: {"setup.sections.sec7.setupVisible": false} }
+);
+
+
+db.dynamic_label_setup.updateMany(
+{"module": "binTransfer", "language": "my" },
+{$set: {"setup.sections.sec8.setupEdit": false} }
+);
+
+
+db.dynamic_label_setup.updateMany(
+{"module": "binTransfer", "language": "my" },
+{$set: {"setup.sections.sec8.setupVisible": false} }
+);
+
+
+db.dynamic_label_setup.updateMany(
+{"module": "binTransfer", "language": "my" },
+{$set: {"setup.sections.sec9.setupEdit": false} }
+);
+
+
+db.dynamic_label_setup.updateMany(
+{"module": "binTransfer", "language": "my" },
+{$set: {"setup.sections.sec9.setupVisible": false} }
+);
+
+
+
+db.dynamic_label_setup.updateMany(
+{"module": "binTransfer", "language": "my" },
+{$set: {"setup.sections.sec10.setupEdit": false} }
+);
+
+
+db.dynamic_label_setup.updateMany(
+{"module": "binTransfer", "language": "my" },
+{$set: {"setup.sections.sec10.setupVisible": false} }
+);
+
+
+db.dynamic_label_setup.updateMany(
+{"module": "binTransfer", "language": "my" },
+{$set: {"setup.sections.sec11.setupEdit": false} }
+);
+
+
+db.dynamic_label_setup.updateMany(
+{"module": "binTransfer", "language": "my" },
+{$set: {"setup.sections.sec11.setupVisible": false} }
+);
+
+
+db.dynamic_label_setup.updateMany(
+{"module": "binTransfer", "language": "my" },
+{$set: {"setup.sections.sec12.setupEdit": false} }
+);
+
+
+db.dynamic_label_setup.updateMany(
+{"module": "binTransfer", "language": "my" },
+{$set: {"setup.sections.sec12.setupVisible": false} }
+);
+
+
+db.dynamic_label_setup.updateMany(
+{"module": "binTransfer", "language": "my" },
+{$set: {"setup.sections.sec13.setupEdit": false} }
+);
+
+
+db.dynamic_label_setup.updateMany(
+{"module": "binTransfer", "language": "my" },
+{$set: {"setup.sections.sec13.setupVisible": false} }
+);
+
+db.dynamic_label_setup.updateMany(
+{"module": "binTransfer", "language": "my" },
+{$set: {"setup.sections.sec14.setupEdit": false} }
+);
+
+
+db.dynamic_label_setup.updateMany(
+{"module": "binTransfer", "language": "my" },
+{$set: {"setup.sections.sec14.setupVisible": false} }
+);
+
+
+
+db.dynamic_label_setup.updateMany(
+{"module": "binTransfer", "language": "my" },
+{$set: {"setup.sections.sec15":{
+      "original": "Transfer by Assets",
+      "singular": "Pindahan Mengikut Aset",
+      "plural": "Pindahan Mengikut Aset",
+      "setupEdit": false,
+      "setupVisible": false
+    }} }
+);
+
+
+
+db.dynamic_label_setup.updateMany(
+{"module": "binTransfer", "language": "my" },
+{$set: {"setup.fields.setupVisible": false} }
+);
+ 
+
+db.dynamic_label_setup.updateMany(
+{"module": "binTransfer", "language": "my" },
+{$set: {"setup.fields.approvalStatus.setupEdit": false} }
+);
+
+db.dynamic_label_setup.updateMany(
+{"module": "binTransfer", "language": "my" },
+{$set: {"setup.fields.approvalStatus.setupVisible": false} }
+);
+
+db.dynamic_label_setup.updateMany(
+{"module": "binTransfer", "language": "my" },
+{$set: {"setup.fields.fromBin.setupEdit": false} }
+);
+
+db.dynamic_label_setup.updateMany(
+{"module": "binTransfer", "language": "my" },
+{$set: {"setup.fields.fromBin.setupVisible": false} }
+);
+
+db.dynamic_label_setup.updateMany(
+{"module": "binTransfer", "language": "my" },
+{$set: {"setup.fields.toBin.setupEdit": false} }
+);
+
+db.dynamic_label_setup.updateMany(
+{"module": "binTransfer", "language": "my" },
+{$set: {"setup.fields.toBin.setupVisible": false} }
+);
+
+
+db.dynamic_label_setup.updateMany(
+{"module": "binTransfer", "language": "my" },
+{$set: {"setup.fields.referenceNumber.setupEdit": false} }
+);
+
+db.dynamic_label_setup.updateMany(
+{"module": "binTransfer", "language": "my" },
+{$set: {"setup.fields.referenceNumber.setupVisible": false} }
+);
+
+db.dynamic_label_setup.updateMany(
+{"module": "binTransfer", "language": "my" },
+{$set: {"setup.fields.notes.setupEdit": false} }
+);
+
+
+db.dynamic_label_setup.updateMany(
+{"module": "binTransfer", "language": "my" },
+{$set: {"setup.fields.notes.setupVisible": false} }
+);
+
+db.dynamic_label_setup.updateMany(
+{"module": "binTransfer", "language": "my" },
+{$set: {"setup.fields.productName.setupEdit": false} }
+);
+
+db.dynamic_label_setup.updateMany(
+{"module": "binTransfer", "language": "my" },
+{$set: {"setup.fields.productName.setupVisible": false} }
+);
+
+
+db.dynamic_label_setup.updateMany(
+{"module": "binTransfer", "language": "my" },
+{$set: {"setup.fields.assetName.setupEdit": false} }
+);
+
+db.dynamic_label_setup.updateMany(
+{"module": "binTransfer", "language": "my" },
+{$set: {"setup.fields.assetName.setupVisible": false} }
+);
+
+
+db.dynamic_label_setup.updateMany(
+{"module": "binTransfer", "language": "my" },
+{$set: {"setup.fields.sku.setupEdit": false} }
+);
+
+db.dynamic_label_setup.updateMany(
+{"module": "binTransfer", "language": "my" },
+{$set: {"setup.fields.sku.setupVisible": false} }
+);
+
+
+db.dynamic_label_setup.updateMany(
+{"module": "binTransfer", "language": "my" },
+{$set: {"setup.fields.qtyAvailable.setupEdit": false} }
+);
+
+
+
+db.dynamic_label_setup.updateMany(
+{"module": "binTransfer", "language": "my" },
+{$set: {"setup.fields.qtyAvailable.setupVisible": false} }
+);
+
+db.dynamic_label_setup.updateMany(
+{"module": "binTransfer", "language": "my" },
+{$set: {"setup.fields.qtyTransfer.setupEdit": false} }
+);
+
+db.dynamic_label_setup.updateMany(
+{"module": "binTransfer", "language": "my" },
+{$set: {"setup.fields.qtyTransfer.setupVisible": false} }
+);
+
+db.dynamic_label_setup.updateMany(
+{"module": "binTransfer", "language": "my" },
+{$set: {"setup.fields.transferNo.setupEdit": false} }
+);
+
+db.dynamic_label_setup.updateMany(
+{"module": "binTransfer", "language": "my" },
+{$set: {"setup.fields.transferNo.setupVisible": false} }
+);
+
+
+db.dynamic_label_setup.updateMany(
+{"module": "binTransfer", "language": "my" },
+{$set: {"setup.fields.date.setupEdit": false} }
+);
+
+db.dynamic_label_setup.updateMany(
+{"module": "binTransfer", "language": "my" },
+{$set: {"setup.fields.date.setupVisible": false} }
+);
+
+db.dynamic_label_setup.updateMany(
+{"module": "binTransfer", "language": "my" },
+{$set: {"setup.fields.referenceNo.setupEdit": false} }
+);
+
+db.dynamic_label_setup.updateMany(
+{"module": "binTransfer", "language": "my" },
+{$set: {"setup.fields.referenceNo.setupVisible": false} }
+);
+
+
+db.dynamic_label_setup.updateMany(
+{"module": "binTransfer", "language": "my" },
+{$set: {"setup.fields.type.setupEdit": false} }
+);
+
+db.dynamic_label_setup.updateMany(
+{"module": "binTransfer", "language": "my" },
+{$set: {"setup.fields.type.setupVisible": false} }
+);
+
+
+db.dynamic_label_setup.updateMany(
+{"module": "binTransfer", "language": "my" },
+{$set: {"setup.fields.transferredBy.setupEdit": false} }
+);
+
+db.dynamic_label_setup.updateMany(
+{"module": "binTransfer", "language": "my" },
+{$set: {"setup.fields.transferredBy.setupVisible": false} }
+);
+
+
+db.dynamic_label_setup.updateMany(
+{"module": "binTransfer", "language": "my" },
+{$set: {"setup.fields.assignedStatus.setupEdit": false} }
+);
+
+db.dynamic_label_setup.updateMany(
+{"module": "binTransfer", "language": "my" },
+{$set: {"setup.fields.assignedStatus.setupVisible": false} }
+);
+
+
+
+db.dynamic_label_setup.updateMany(
+{"module": "binTransfer", "language": "my" },
+{$set: {"setup.fields.assignedTo.setupEdit": false} }
+);
+
+db.dynamic_label_setup.updateMany(
+{"module": "binTransfer", "language": "my" },
+{$set: {"setup.fields.assignedTo.setupVisible": false} }
+);
+
+
+db.dynamic_label_setup.updateMany(
+{"module": "binTransfer", "language": "my" },
+{$set: {"setup.fields.transferredDateTime.setupEdit": false} }
+);
+
+db.dynamic_label_setup.updateMany(
+{"module": "binTransfer", "language": "my" },
+{$set: {"setup.fields.transferredDateTime.setupVisible": false} }
+);
+
+
+db.dynamic_label_setup.updateMany(
+{"module": "binTransfer", "language": "my" },
+{$set: {"setup.fields.acceptedRejectedBy.setupEdit": false} }
+);
+
+db.dynamic_label_setup.updateMany(
+{"module": "binTransfer", "language": "my" },
+{$set: {"setup.fields.acceptedRejectedBy.setupVisible": false} }
+);
+
+
+db.dynamic_label_setup.updateMany(
+{"module": "binTransfer", "language": "my" },
+{$set: {"setup.fields.remarks.setupEdit": false} }
+);
+
+db.dynamic_label_setup.updateMany(
+{"module": "binTransfer", "language": "my" },
+{$set: {"setup.fields.remarks.setupVisible": false} }
+);
+
+
+db.dynamic_label_setup.updateMany(
+{"module": "binTransfer", "language": "my" },
+{$set: {"setup.fields.available.setupEdit": false} }
+);
+
+db.dynamic_label_setup.updateMany(
+{"module": "binTransfer", "language": "my" },
+{$set: {"setup.fields.available.setupVisible": false} }
+);
+
+
+db.dynamic_label_setup.updateMany(
+{"module": "binTransfer", "language": "my" },
+{$set: {"setup.fields.quantity.setupEdit": false} }
+);
+
+db.dynamic_label_setup.updateMany(
+{"module": "binTransfer", "language": "my" },
+{$set: {"setup.fields.quantity.setupVisible": false} }
+);
+
+
+db.dynamic_label_setup.updateMany(
+{"module": "binTransfer", "language": "my" },
+{$set: {"setup.fields.userBin.setupVisible": false} }
+);
+
+db.dynamic_label_setup.updateMany(
+{"module": "binTransfer", "language": "my" },
+{$set: {"setup.fields.userBin.setupEdit": false} }
+);
+
+
+
+
+db.dynamic_label_setup.updateMany(
+{"module": "binTransfer", "language": "my" },
+{$set: {"setup.fields.locationBin.setupEdit": false} }
+);
+
+db.dynamic_label_setup.updateMany(
+{"module": "binTransfer", "language": "my" },
+{$set: {"setup.fields.locationBin.setupVisible": false} }
+);
+
+db.dynamic_label_setup.updateMany(
+{"module": "binTransfer", "language": "my" },
+{$set: {"setup.fields.acceptedDate.setupEdit": false} }
+);
+
+db.dynamic_label_setup.updateMany(
+{"module": "binTransfer", "language": "my" },
+{$set: {"setup.fields.acceptedDate.setupVisible": false} }
+);
+
+
+
+db.dynamic_label_setup.updateMany(
+{"module": "binTransfer", "language": "my" },
+{$set: {"setup.tooltips.binLookup.setupEdit": false} }
+);
+
+db.dynamic_label_setup.updateMany(
+{"module": "binTransfer", "language": "my" },
+{$set: {"setup.tooltips.binLookup.setupVisible": false} }
+);
+
 
 db.dynamic_label_setup.updateMany(
 {"module": "checkAvailibility", "language": "my" },
-{$set: {"setup.label.original": "Locate"} }
-)
+{$set: {"setup.sections.sec2.original": "Select Spare Part(s)"} }
+);
+
+
 db.dynamic_label_setup.updateMany(
 {"module": "checkAvailibility", "language": "my" },
-{$set: {"setup.label.singular": "Cari"} }
-)
-db.dynamic_label_setup.updateMany(
-{"module": "checkAvailibility", "language": "my" },
-{$set: {"setup.label.plural": "Cari"} }
-)
+{$set: {"setup.sections.sec3.original": "Select Asset(s)"} }
+);
+
+
 
 db.dynamic_label_setup.updateMany(
-{"module": "header", "language": "my" },
-{$set: {"setup.sections.sec3.original": "Account Settings"} }
-)
-db.dynamic_label_setup.updateMany(
-{"module": "header", "language": "my" },
-{$set: {"setup.sections.sec3.singular": "Tetapan Akaun"} }
-)
-db.dynamic_label_setup.updateMany(
-{"module": "header", "language": "my" },
-{$set: {"setup.sections.sec3.plural": "Tetapan Akaun"} }
-)
+{"module": "consignment", "language": "my" },
+{$set: {"setup.sections.setupVisible": false} }
+);
 
 db.dynamic_label_setup.updateMany(
-{"module": "general", "language": "my" },
-{$set: {"setup.buttons.filter.plural": "Tapis-tapis"} }
-)
+{"module": "consignment", "language": "my" },
+{$set: {"setup.fields.setupVisible": false} }
+);
 
 db.dynamic_label_setup.updateMany(
-{"module": "general", "language": "my" },
-{$set: {"setup.buttons.transfer.plural": "Pemindahan"} }
-)
+{"module": "consignment", "language": "my" },
+{$set: {"setup.tooltips.setupVisible": false} }
+);
+
+
 
 db.dynamic_label_setup.updateMany(
-{"module": "general", "language": "my" },
-{$set: {"setup.buttons.email.original": "Email"} }
-)
+{"module": "requisition", "language": "my" },
+{$set: {"setup.sections.setupVisible": false} }
+);
 
 db.dynamic_label_setup.updateMany(
-{"module": "general", "language": "my" },
-{$set: {"setup.status.breakDown.original": "Breakdown"} }
-)
+{"module": "requisition", "language": "my" },
+{$set: {"setup.fields.setupVisible": false} }
+);
 
 db.dynamic_label_setup.updateMany(
-{"module": "general", "language": "my" },
-{$set: {"setup.status.breakDown.singular": "Breakdown"} }
-)
+{"module": "requisition", "language": "my" },
+{$set: {"setup.tooltips.setupVisible": false} }
+);
+
+
+
 
 db.dynamic_label_setup.updateMany(
 {"module": "general", "language": "my" },
-{$set: {"setup.status.breakDown.setupEdit": false} }
-)
+{$set: {"setup.buttons.transferByProducts.original": "Transfer Spare Parts"} }
+);
+
+db.dynamic_label_setup.updateMany(
+{"module": "general", "language": "my" },
+{$set: {"setup.buttons.transferByProducts.singular": "Pindahkan Alat Ganti"} }
+);
+
+db.dynamic_label_setup.updateMany(
+{"module": "general", "language": "my" },
+{$set: {"setup.buttons.transferByProducts.setupEdit": false } }
+);
+
+
+
 
 db.dynamic_label_setup.updateMany(
 {"module": "setup", "language": "my" },
-{$set: {"setup.notifications.messages.markAsRead": "Tandakan semua sebagai sudah dibaca"} }
-)
+{$set: {"setup.users.groups.label.original":  "Groups" } }
+);
+
+db.dynamic_label_setup.updateMany(
+{"module": "setup", "language": "my" },
+{$set: {"setup.users.groups.label.singular":  "Kumpulan" } }
+);
+
+db.dynamic_label_setup.updateMany(
+{"module": "setup", "language": "my" },
+{$set: {"setup.users.groups.label.plural":  "Kumpulan" } }
+);
+
+
+
+db.dynamic_label_setup.updateMany(
+{"module": "setup", "language": "my" },
+{$set: {"setup.modules.inventory.label.setupEdit":  false } }
+);
+
+
+db.dynamic_label_setup.updateMany(
+{"module": "setup", "language": "my" },
+{$set: {"setup.modules.inventory.location.label.setupEdit":  false } }
+);
+
+db.dynamic_label_setup.updateMany(
+{"module": "setup", "language": "my" },
+{$set: {"setup.modules.inventory.location.sections.sec0.setupEdit":  false } }
+);
+
+
+db.dynamic_label_setup.updateMany(
+{"module": "setup", "language": "my" },
+{$set: {"setup.modules.inventory.location.fields.locationId.setupEdit":  false } }
+);
+
+
+db.dynamic_label_setup.updateMany(
+{"module": "setup", "language": "my" },
+{$set: {"setup.modules.inventory.location.fields.name.setupEdit":  false } }
+);
+
+db.dynamic_label_setup.updateMany(
+{"module": "setup", "language": "my" },
+{$set: {"setup.modules.inventory.location.fields.fullAddress.setupEdit":  false } }
+);
+
+db.dynamic_label_setup.updateMany(
+{"module": "setup", "language": "my" },
+{$set: {"setup.modules.inventory.location.fields.shortCode.setupEdit":  false } }
+);
+
+db.dynamic_label_setup.updateMany(
+{"module": "setup", "language": "my" },
+{$set: {"setup.modules.inventory.location.fields.extId.setupEdit":  false } }
+);
+
+
+db.dynamic_label_setup.updateMany(
+{"module": "setup", "language": "my" },
+{$set: {"setup.modules.inventory.location.fields.storeManager.setupEdit":  false } }
+);
+
+db.dynamic_label_setup.updateMany(
+{"module": "setup", "language": "my" },
+{$set: {"setup.modules.inventory.location.fields.userGroup.setupEdit":  false } }
+);
+
+db.dynamic_label_setup.updateMany(
+{"module": "setup", "language": "my" },
+{$set: {"setup.modules.inventory.location.fields.description.setupEdit":  false } }
+);
+
+db.dynamic_label_setup.updateMany(
+{"module": "setup", "language": "my" },
+{$set: {"setup.modules.inventory.zones.label.setupEdit":  false } }
+);
+
+
+db.dynamic_label_setup.updateMany(
+{"module": "setup", "language": "my" },
+{$set: {"setup.modules.inventory.zones.sections.sec0.setupEdit":  false } }
+);
+
+db.dynamic_label_setup.updateMany(
+{"module": "setup", "language": "my" },
+{$set: {"setup.modules.inventory.zones.fields.zoneNumber.setupEdit":  false } }
+);
+
+db.dynamic_label_setup.updateMany(
+{"module": "setup", "language": "my" },
+{$set: {"setup.modules.inventory.zones.fields.zoneId.setupEdit":  false } }
+);
+
+db.dynamic_label_setup.updateMany(
+{"module": "setup", "language": "my" },
+{$set: {"setup.modules.inventory.zones.fields.name.setupEdit":  false } }
+);
+
+db.dynamic_label_setup.updateMany(
+{"module": "setup", "language": "my" },
+{$set: {"setup.modules.inventory.zones.fields.displayName.setupEdit":  false } }
+);
+
+
+db.dynamic_label_setup.updateMany(
+{"module": "setup", "language": "my" },
+{$set: {"setup.modules.inventory.zones.fields.location.setupEdit":  false } }
+);
+
+
+
+db.dynamic_label_setup.updateMany(
+{"module": "setup", "language": "my" },
+{$set: {"setup.modules.inventory.zones.fields.shortCode.setupEdit":  false } }
+);
+
+db.dynamic_label_setup.updateMany(
+{"module": "setup", "language": "my" },
+{$set: {"setup.modules.inventory.zones.fields.extId.setupEdit":  false } }
+);
+
+db.dynamic_label_setup.updateMany(
+{"module": "setup", "language": "my" },
+{$set: {"setup.modules.inventory.zones.fields.storeManager.setupEdit":  false } }
+);
+
+db.dynamic_label_setup.updateMany(
+{"module": "setup", "language": "my" },
+{$set: {"setup.modules.inventory.zones.fields.userGroup.setupEdit":  false } }
+);
+
+db.dynamic_label_setup.updateMany(
+{"module": "setup", "language": "my" },
+{$set: {"setup.modules.inventory.zones.fields.description.setupEdit":  false } }
+);
+
+
+db.dynamic_label_setup.updateMany(
+{"module": "setup", "language": "my" },
+{$set: {"setup.modules.inventory.bins.label.setupEdit":  false } }
+);
+
+
+db.dynamic_label_setup.updateMany(
+{"module": "setup", "language": "my" },
+{$set: {"setup.modules.inventory.bins.sections.sec0.setupEdit":  false } }
+);
+
+db.dynamic_label_setup.updateMany(
+{"module": "setup", "language": "my" },
+{$set: {"setup.modules.inventory.bins.sections.sec1.setupEdit":  false } }
+);
+
+db.dynamic_label_setup.updateMany(
+{"module": "setup", "language": "my" },
+{$set: {"setup.modules.inventory.bins.sections.sec2.setupEdit":  false } }
+);
+
+
+db.dynamic_label_setup.updateMany(
+{"module": "setup", "language": "my" },
+{$set: {"setup.modules.inventory.bins.fields.binNumber.setupEdit":  false } }
+);
+
+db.dynamic_label_setup.updateMany(
+{"module": "setup", "language": "my" },
+{$set: {"setup.modules.inventory.bins.fields.binId.setupEdit":  false } }
+);
+
+
+
+db.dynamic_label_setup.updateMany(
+{"module": "setup", "language": "my" },
+{$set: {"setup.modules.inventory.bins.fields.name.setupEdit":  false } }
+);
+
+db.dynamic_label_setup.updateMany(
+{"module": "setup", "language": "my" },
+{$set: {"setup.modules.inventory.bins.fields.displayName.setupEdit":  false } }
+);
+
+
+db.dynamic_label_setup.updateMany(
+{"module": "setup", "language": "my" },
+{$set: {"setup.modules.inventory.bins.fields.locationZone.setupEdit":  false } }
+);
+
+
+db.dynamic_label_setup.updateMany(
+{"module": "setup", "language": "my" },
+{$set: {"setup.modules.inventory.bins.fields.shortCode.setupEdit":  false } }
+);
+
+db.dynamic_label_setup.updateMany(
+{"module": "setup", "language": "my" },
+{$set: {"setup.modules.inventory.bins.fields.extId.setupEdit":  false } }
+);
+
+
+db.dynamic_label_setup.updateMany(
+{"module": "setup", "language": "my" },
+{$set: {"setup.modules.inventory.bins.fields.user.setupEdit":  false } }
+);
+
+db.dynamic_label_setup.updateMany(
+{"module": "setup", "language": "my" },
+{$set: {"setup.modules.inventory.bins.fields.description.setupEdit":  false } }
+);
+
+
+
+db.dynamic_label_setup.updateMany(
+{"module": "setup", "language": "my" },
+{$set: {"setup.labelBE.standardNotification.inventory.description.bin_under_stock":  "Dihantar kepada kumpulan pengurusan apabila salah satu tong mereka mencapai atau melebihi titik kekurangan stok" } }
+);
+
+db.dynamic_label_setup.updateMany(
+{"module": "setup", "language": "my" },
+{$set: {"setup.labelBE.standardNotification.inventory.description.bin_re_order_point":  "Dihantar kepada kumpulan pengurusan apabila salah satu tong mereka mencapai atau melebihi titik penempahan semula" } }
+);

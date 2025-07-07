@@ -10012,7 +10012,14 @@
       "plural": "Fehlende Artikel erkannt",
       "setupEdit": false,
       "setupVisible": false
-    }
+    },
+    "sec22": {
+        "original": "Additional Details",
+        "singular": "Zusätzliche Details",
+        "plural": "Zusätzliche Details",
+        "setupEdit": false,
+        "setupVisible": false
+      }
   },
   "fields": {
     "setupVisible": false,
