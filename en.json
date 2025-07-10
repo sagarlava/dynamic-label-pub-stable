@@ -992,20 +992,6 @@
         "setupEdit": false,
         "setupVisible": false
       },
-      "installationDate": {
-        "original": "Installation Date",
-        "singular": "Installation Date",
-        "plural": "Installation Date",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "brand": {
-        "original": "Brand",
-        "singular": "Brand",
-        "plural": "Brand",
-        "setupEdit": false,
-        "setupVisible": false
-      },
       "groupByParent": {
         "original": "Group by Parent",
         "singular": "Group by Parent",
@@ -1089,7 +1075,21 @@
           "plural": "Select Page Layout",
           "setupEdit": false,
           "setupVisible": false
-        }
+        },
+      "installationDate": {
+        "original": "Installation Date",
+        "singular": "Installation Date",
+        "plural": "Installation Date",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "brand": {
+        "original": "Brand",
+        "singular": "Brand",
+        "plural": "Brand",
+        "setupEdit": false,
+        "setupVisible": false
+      }
     },
     "validationFE": {
       "warrantyEndDateAfterStartDate":"Warranty End Date must be after the Start Date.",
@@ -13725,90 +13725,6 @@
         "setupEdit": false,
         "setupVisible": false
       },
-       "mapPicklist":{
-        "original": "Map Picklist",
-        "singular": "Map Picklist",
-        "plural": "Map Picklist",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "addSection":{
-        "original": "Add Section",
-        "singular": "Add Section",
-        "plural": "Add Sections",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "addAPage":{
-        "original": "Add Page",
-        "singular": "Add Page",
-        "plural": "Add Pages",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "locateAsset":{
-        "original": "Locate Asset",
-        "singular": "Locate Asset",
-        "plural": "Locate Assets",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "transferAsset":{
-        "original": "Transfer Asset",
-        "singular": "Transfer Asset",
-        "plural": "Transfer Asset",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "addAsset":{
-        "original": "Add Asset",
-        "singular": "Add Asset",
-        "plural": "Add Asset",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "openExternally":{
-        "original": "Open Externally",
-        "singular": "Open Externally",
-        "plural": "Open Externally",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "pasteSerialNumbers":{
-        "original": "Paste Serial Numbers",
-        "singular": "Paste Serial Numbers",
-        "plural": "Paste Serial Numbers",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "pasteSku":{
-        "original": "Paste SKU",
-        "singular": "Paste SKU",
-        "plural": "Paste SKU",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "generateTemporarySerialNo":{
-        "original": "Generate Temporary Serial No",
-        "singular": "Generate Temporary Serial No",
-        "plural": "Generate Temporary Serial No",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "initiateBinTransfer":{
-        "original": "Initiate Bin Transfer",
-        "singular": "Initiate Bin Transfer",
-        "plural": "Initiate Bin Transfer",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "manualBinTransfer":{
-        "original": "Manual Bin Transfer",
-        "singular": "Manual Bin Transfer",
-        "plural": "Manual Bin Transfer",
-        "setupEdit": false,
-        "setupVisible": false
-      },
       "previewCsv":{
         "original": "Preview CSV",
         "singular": "Preview CSV",
@@ -13961,7 +13877,70 @@
         "singular": "Save Configurations & Import",
         "plural": "Save Configurations & Import",
         "setupEdit": false,
-        "setupVisible": false        
+        "setupVisible": false
+      },
+      "locateAsset":{
+        "original": "Locate Asset",
+        "singular": "Locate Asset",
+        "plural": "Locate Assets",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "transferAsset":{
+        "original": "Transfer Asset",
+        "singular": "Transfer Asset",
+        "plural": "Transfer Asset",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "addAsset":{
+        "original": "Add Asset",
+        "singular": "Add Asset",
+        "plural": "Add Asset",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "openExternally":{
+        "original": "Open Externally",
+        "singular": "Open Externally",
+        "plural": "Open Externally",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "pasteSerialNumbers":{
+        "original": "Paste Serial Numbers",
+        "singular": "Paste Serial Numbers",
+        "plural": "Paste Serial Numbers",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "pasteSku":{
+        "original": "Paste SKU",
+        "singular": "Paste SKU",
+        "plural": "Paste SKU",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "generateTemporarySerialNo":{
+        "original": "Generate Temporary Serial No",
+        "singular": "Generate Temporary Serial No",
+        "plural": "Generate Temporary Serial No",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "initiateBinTransfer":{
+        "original": "Initiate Bin Transfer",
+        "singular": "Initiate Bin Transfer",
+        "plural": "Initiate Bin Transfer",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "manualBinTransfer":{
+        "original": "Manual Bin Transfer",
+        "singular": "Manual Bin Transfer",
+        "plural": "Manual Bin Transfer",
+        "setupEdit": false,
+        "setupVisible": false
       },
       "howItWorks":{
         "original": "How it Works",
@@ -13981,6 +13960,20 @@
         "original": "Export QR",
         "singular": "Export QR",
         "plural": "Export QR",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "pro":{
+        "original": "Pro",
+        "singular": "Pro",
+        "plural": "Pro",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "enterprise":{
+        "original": "Enterprise",
+        "singular": "Enterprise",
+        "plural": "Enterprise",
         "setupEdit": false,
         "setupVisible": false
       }	
@@ -14991,10 +14984,10 @@
       "pleaseSignBeforeProceeding": "Please sign before proceeding",
       "charactersExceed": "Text exceeds character limit (255).",
       "endDateThanStartDate": "End date must be after start date",
+      "filenameMustNotContain":"File name must not contain spaces or special characters (e.g., ! @ # $ % ^ & ( ) ).",
       "thisFieldIsRequired":"This field is required",
       "pleaseMakeOneSelection":"Please make one selection to proceed",
-      "itemExists":"This item already exists in the list",
-      "filenameMustNotContain":"File name must not contain spaces or special characters (e.g., ! @ # $ % ^ & )."
+      "itemExists":"This item already exists in the list"
     },
     "validationBE": {
       "sendGridEmailTenantReferenceIdExists": "A new Send Grid Email Tenant Reference cannot already have an ID",

@@ -1048,20 +1048,6 @@
         "setupEdit": false,
         "setupVisible": false
       },
-      "installationDate": {
-        "original": "Installation Date",
-        "singular": "Installationsdatum",
-        "plural": "Installationsdatum",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "brand": {
-        "original": "Brand",
-        "singular": "Marke",
-        "plural": "Marke",
-        "setupEdit": false,
-        "setupVisible": false
-      },
       "createdDate": {
         "original": "Created Date",
         "singular": "Erstellungsdatum",
@@ -1089,7 +1075,21 @@
           "plural": "Seitenlayout auswählen",
           "setupEdit": false,
           "setupVisible": false
-        }
+        },
+      "installationDate": {
+        "original": "Installation Date",
+        "singular": "Installationsdatum",
+        "plural": "Installationsdatum",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "brand": {
+        "original": "Brand",
+        "singular": "Marke",
+        "plural": "Marke",
+        "setupEdit": false,
+        "setupVisible": false
+      }
     },
     "validationFE": {
       "warrantyEndDateAfterStartDate":"Das Garantie-Enddatum muss nach dem Startdatum liegen.",
@@ -13753,62 +13753,6 @@
         "setupEdit": false,
         "setupVisible": false
       },
-      "transferAsset":{
-        "original": "Transfer Asset",
-        "singular": "Asset übertragen",
-        "plural": "Assets übertragen",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "addAsset":{
-        "original": "Add Asset",
-        "singular": "Asset hinzufügen",
-        "plural": "Assets hinzufügen",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "openExternally":{
-        "original": "Open Externally",
-        "singular": "Extern öffnen",
-        "plural": "Extern öffnen",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "pasteSerialNumbers":{
-        "original": "Paste Serial Numbers",
-        "singular": "Seriennummern einfügen",
-        "plural": "Seriennummern einfügen",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "pasteSku":{
-        "original": "Paste SKU",
-        "singular": "SKU einfügen",
-        "plural": "SKUs einfügen",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "generateTemporarySerialNo":{
-        "original": "Generate Temporary Serial No",
-        "singular": "Temporäre Seriennummer generieren",
-        "plural": "Temporäre Seriennummer generieren",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "initiateBinTransfer":{
-        "original": "Initiate Bin Transfer",
-        "singular": "Behälterübertragung starten",
-        "plural": "Behälterübertragungen starten",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "manualBinTransfer":{
-        "original": "Manual Bin Transfer",
-        "singular": "Manuelle Behälterübertragung",
-        "plural": "Manuelle Behälterübertragungen",
-        "setupEdit": false,
-        "setupVisible": false
-      },
       "previewCsv":{
         "original": "Preview CSV",
         "singular": "CSV-Vorschau",
@@ -13981,6 +13925,20 @@
         "original": "Export QR",
         "singular": "QR exportieren",
         "plural": "QR exportieren",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "pro":{
+        "original": "Pro",
+        "singular": "Pro",
+        "plural": "Pro",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "enterprise":{
+        "original": "Enterprise",
+        "singular": "Enterprise",
+        "plural": "Enterprise",
         "setupEdit": false,
         "setupVisible": false
       }			
@@ -14463,6 +14421,20 @@
         "setupEdit": false,
         "setupVisible": false
       },
+      "systemValue": {
+        "original": "System Value",
+        "singular": "Systemwerte",
+        "plural": "Systemwerte",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "aiDetected": {
+        "original": "AI Detected",
+        "singular": "KI erkannt",
+        "plural": "KI erkannt",
+        "setupEdit": false,
+        "setupVisible": false
+      },
       "transferPending": {
         "original": "Transfer Pending",
         "singular": "Transfer Pending",
@@ -14474,20 +14446,6 @@
         "original": "Transfer Fulfilled",
        "singular": "Übertragung abgeschlossen",
        "plural": "Übertragungen abgeschlossen",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "systemValue": {
-        "original": "System Value",
-        "singular": "System Value",
-        "plural": "System Value",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "aiDetected": {
-        "original": "AI Detected",
-        "singular": "AI Detected",
-        "plural": "AI Detected",
         "setupEdit": false,
         "setupVisible": false
       },
@@ -14991,10 +14949,10 @@
       "pleaseSignBeforeProceeding": "Bitte unterschreiben Sie, bevor Sie fortfahren",
       "charactersExceed": "Text überschreitet das Zeichenlimit (255).",
       "endDateThanStartDate": "Das Enddatum muss nach dem Startdatum liegen",
+      "filenameMustNotContain":"Dateiname darf keine Leerzeichen oder Sonderzeichen enthalten (z. B. ! @ # $ % ^ & ( ) ).",
       "thisFieldIsRequired":"Dieses Feld ist erforderlich",
       "pleaseMakeOneSelection":"Bitte treffen Sie eine Auswahl, um fortzufahren",
-      "itemExists":"Dieses Element existiert bereits in der Liste",
-      "filenameMustNotContain":"Dateiname darf keine Leerzeichen oder Sonderzeichen enthalten (z. B. ! @ # $ % ^ & )."
+      "itemExists":"Dieses Element existiert bereits in der Liste"
     },
     "validationBE": {
       "sendGridEmailTenantReferenceIdExists": "Eine neue Send Grid E-Mail-Mieterreferenz kann nicht bereits eine ID haben",

@@ -971,20 +971,6 @@
         "setupEdit": false,
         "setupVisible": false
       },
-      "installationDate": {
-        "original": "Installation Date",
-        "singular": "安装日期",
-        "plural": "安装日期",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "brand": {
-        "original": "Brand",
-        "singular": "品牌",
-        "plural": "品牌",
-        "setupEdit": false,
-        "setupVisible": false
-      },
       "category": {
           "original": "Category",
           "singular": "类别",
@@ -1089,7 +1075,21 @@
           "plural": "选择页面布局",
           "setupEdit": false,
           "setupVisible": false
-        }
+        },
+      "installationDate": {
+        "original": "Installation Date",
+        "singular": "安装日期",
+        "plural": "安装日期",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "brand": {
+        "original": "Brand",
+        "singular": "品牌",
+        "plural": "品牌",
+        "setupEdit": false,
+        "setupVisible": false
+      }
     },
     "validationFE": {
       "warrantyEndDateAfterStartDate":"保修结束日期必须在开始日期之后。",
@@ -13983,7 +13983,21 @@
         "plural": "导出二维码",
         "setupEdit": false,
         "setupVisible": false
-      }		
+      }	,
+      "pro":{
+        "original": "Pro",
+        "singular": "专业版",
+        "plural": "专业版",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "enterprise":{
+        "original": "Enterprise",
+        "singular": "企业版",
+        "plural": "企业版",
+        "setupEdit": false,
+        "setupVisible": false
+      }	
     },
     "status": {
       "setupVisible": true,
@@ -14991,10 +15005,10 @@
       "pleaseSignBeforeProceeding": "请在继续之前签名",
       "charactersExceed": "文本超过字符限制（255）。",
       "endDateThanStartDate": "结束日期必须在开始日期之后",
+      "filenameMustNotContain":"文件名不得包含空格或特殊字符（例如：! @ # $ % ^ & ( ) ）。",
       "thisFieldIsRequired":"此字段为必填项",
       "pleaseMakeOneSelection":"请选择一项以继续",
-      "itemExists":"此项目已存在于列表中",
-      "filenameMustNotContain":"文件名不得包含空格或特殊字符（例如：! @ # $ % ^ & ）。"
+      "itemExists":"此项目已存在于列表中"
     },
     "validationBE": {
       "sendGridEmailTenantReferenceIdExists": "新的Send Grid电子邮件租户引用不能已有ID",

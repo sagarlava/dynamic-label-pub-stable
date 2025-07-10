@@ -985,20 +985,6 @@
         "setupEdit": false,
         "setupVisible": false
       },
-      "installationDate": {
-        "original": "Installation Date",
-        "singular": "Tarikh Pemasangan",
-        "plural": "Tarikh Pemasangan",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "brand": {
-        "original": "Brand",
-        "singular": "Jenama",
-        "plural": "Jenama",
-        "setupEdit": false,
-        "setupVisible": false
-      },
       "allAssets": {
         "original": "All Assets",
         "singular": "Semua Aset",
@@ -1089,7 +1075,21 @@
           "plural": "Pilih Susun Atur Halaman",
           "setupEdit": false,
           "setupVisible": false
-        }
+        },
+      "installationDate": {
+        "original": "Installation Date",
+        "singular": "Tarikh Pemasangan",
+        "plural": "Tarikh Pemasangan",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "brand": {
+        "original": "Brand",
+        "singular": "Jenama",
+        "plural": "Jenama",
+        "setupEdit": false,
+        "setupVisible": false
+      }
     },
     "validationFE": {
       "warrantyEndDateAfterStartDate":"Tarikh Tamat Waranti mesti selepas Tarikh Mula.",
@@ -13754,62 +13754,6 @@
         "setupEdit": false,
         "setupVisible": false
       },
-      "transferAsset":{
-        "original": "Transfer Asset",
-        "singular": "Pindahkan Aset",
-        "plural": "Pindahkan Aset",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "addAsset":{
-        "original": "Add Asset",
-        "singular": "Tambah Aset",
-        "plural": "Tambah Aset",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "openExternally":{
-        "original": "Open Externally",
-        "singular": "Buka Secara Luaran",
-        "plural": "Buka Secara Luaran",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "pasteSerialNumbers":{
-        "original": "Paste Serial Numbers",
-        "singular": "Tampal Nombor Siri",
-        "plural": "Tampal Nombor Siri",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "pasteSku":{
-        "original": "Paste SKU",
-        "singular": "Tampal SKU",
-        "plural": "Tampal SKU",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "generateTemporarySerialNo":{
-        "original": "Generate Temporary Serial No",
-        "singular": "Jana Nombor Siri Sementara",
-        "plural": "Jana Nombor Siri Sementara",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "initiateBinTransfer":{
-        "original": "Initiate Bin Transfer",
-        "singular": "Mulakan Pemindahan Tong",
-        "plural": "Mulakan Pemindahan Tong",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "manualBinTransfer":{
-        "original": "Manual Bin Transfer",
-        "singular": "Pemindahan Tong Secara Manual",
-        "plural": "Pemindahan Tong Secara Manual",
-        "setupEdit": false,
-        "setupVisible": false
-      },
       "previewCsv":{
         "original": "Preview CSV",
         "singular": "Pratonton CSV",
@@ -13982,6 +13926,20 @@
         "original": "Export QR",
         "singular": "Eksport QR",
         "plural": "Eksport QR",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "pro":{
+        "original": "Pro",
+        "singular": "Pro",
+        "plural": "Pro",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "enterprise":{
+        "original": "Enterprise",
+        "singular": "Enterprise",
+        "plural": "Enterprise",
         "setupEdit": false,
         "setupVisible": false
       }	
@@ -14992,10 +14950,10 @@
       "pleaseSignBeforeProceeding": "Sila tandatangan sebelum meneruskan",
       "charactersExceed": "Teks melebihi had aksara (255).",
       "endDateThanStartDate": "Tarikh tamat mesti selepas tarikh mula",
+      "filenameMustNotContain":"Nama fail tidak boleh mengandungi ruang atau aksara khas (cth: ! @ # $ % ^ & ( ) ).",
       "thisFieldIsRequired":"Medan ini diperlukan",
       "pleaseMakeOneSelection":"Sila buat satu pilihan untuk meneruskan",
-      "itemExists":"Item ini sudah wujud dalam senarai",
-      "filenameMustNotContain":"Nama fail tidak boleh mengandungi ruang atau aksara khas (cth: ! @ # $ % ^ & )."
+      "itemExists":"Item ini sudah wujud dalam senarai"
     },
     "validationBE": {
       "sendGridEmailTenantReferenceIdExists": "Rujukan Penyewa E-mel Send Grid baru tidak boleh sudah mempunyai ID",

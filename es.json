@@ -1048,6 +1048,34 @@
         "setupEdit": false,
         "setupVisible": false
       },
+      "createdDate": {
+        "original": "Created Date",
+        "singular": "Fecha de creación",
+        "plural": "Fecha de creación",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+        "chooseFileFormat": {
+          "original": "Choose File Format",
+          "singular": "Elegir formato de archivo",
+          "plural": "Elegir formato de archivo",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "setQrCodeSize": {
+          "original": "Set QR Code Size",
+          "singular": "Establecer tamaño del código QR",
+          "plural": "Establecer tamaño del código QR",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "selectPageLayout": {
+          "original": "Select Page Layout",
+          "singular": "Seleccionar diseño de página",
+          "plural": "Seleccionar diseño de página",
+          "setupEdit": false,
+          "setupVisible": false
+        },
       "installationDate": {
         "original": "Installation Date",
         "singular": "Fecha de instalación",
@@ -1058,14 +1086,7 @@
       "brand": {
         "original": "Brand",
         "singular": "Marca",
-        "plural": "Marcas",     
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "createdDate": {
-        "original": "Created Date",
-        "singular": "Fecha de creación",
-        "plural": "Fecha de creación",
+        "plural": "Marcas",
         "setupEdit": false,
         "setupVisible": false
       }
@@ -13731,62 +13752,6 @@
         "setupEdit": false,
         "setupVisible": false
       },
-      "transferAsset":{
-        "original": "Transfer Asset",
-        "singular": "Transferir Activo",
-        "plural": "Transferir Activos",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "addAsset": {
-        "original": "Add Asset",
-        "singular": "Añadir Activo",
-        "plural": "Añadir Activos",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "openExternally": {
-        "original": "Open Externally",
-        "singular": "Abrir externamente",
-        "plural": "Abrir externamente",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "pasteSerialNumbers": {
-        "original": "Paste Serial Numbers",
-        "singular": "Pegar números de serie",
-        "plural": "Pegar números de serie",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "pasteSku": {
-        "original": "Paste SKU",
-        "singular": "Pegar SKU",
-        "plural": "Pegar SKUs",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "generateTemporarySerialNo": {
-        "original": "Generate Temporary Serial No",
-        "singular": "Generar número de serie temporal",
-        "plural": "Generar número de serie temporal",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "initiateBinTransfer": {
-        "original": "Initiate Bin Transfer",
-        "singular": "Iniciar transferencia de contenedor",
-        "plural": "Iniciar transferencias de contenedores",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "manualBinTransfer": {
-        "original": "Manual Bin Transfer",
-        "singular": "Transferencia manual de contenedor",
-        "plural": "Transferencias manuales de contenedor",
-        "setupEdit": false,
-        "setupVisible": false
-      },
       "previewCsv":{
         "original": "Preview CSV",
         "singular": "Vista previa CSV",
@@ -13941,7 +13906,62 @@
         "setupEdit": false,
         "setupVisible": false
       },
-      "howItWorks":{
+      "transferAsset": {
+        "original": "Transfer Asset",
+        "singular": "Transferir Activo",
+        "plural": "Transferir Activos",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "addAsset": {
+        "original": "Add Asset",
+        "singular": "Añadir Activo",
+        "plural": "Añadir Activos",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "openExternally": {
+        "original": "Open Externally",
+        "singular": "Abrir externamente",
+        "plural": "Abrir externamente",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "pasteSerialNumbers": {
+        "original": "Paste Serial Numbers",
+        "singular": "Pegar números de serie",
+        "plural": "Pegar números de serie",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "pasteSku": {
+        "original": "Paste SKU",
+        "singular": "Pegar SKU",
+        "plural": "Pegar SKUs",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "generateTemporarySerialNo": {
+        "original": "Generate Temporary Serial No",
+        "singular": "Generar número de serie temporal",
+        "plural": "Generar número de serie temporal",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "initiateBinTransfer": {
+        "original": "Initiate Bin Transfer",
+        "singular": "Iniciar transferencia de contenedor",
+        "plural": "Iniciar transferencias de contenedores",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "manualBinTransfer": {
+        "original": "Manual Bin Transfer",
+        "singular": "Transferencia manual de contenedor",
+        "plural": "Transferencias manuales de contenedor",
+        "setupEdit": false,
+        "setupVisible": false
+      },
       "howItWorks": {
         "original": "How it Works",
         "singular": "Cómo funciona",
@@ -13962,8 +13982,21 @@
         "plural": "Exportar QR",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "pro":{
+        "original": "Pro",
+        "singular": "Pro",
+        "plural": "Pro",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "enterprise":{
+        "original": "Enterprise",
+        "singular": "Enterprise",
+        "plural": "Enterprise",
+        "setupEdit": false,
+        "setupVisible": false
       }	
-      }
     },
     "status": {
       "setupVisible": false,
@@ -14974,7 +15007,7 @@
       "thisFieldIsRequired": "Este campo es obligatorio",
       "pleaseMakeOneSelection": "Por favor, haga una selección para continuar",
       "itemExists": "Este elemento ya existe en la lista",
-      "filenameMustNotContain":"El nombre del archivo no debe contener espacios ni caracteres especiales (p. ej., ! @ # $ % ^ & )."
+      "filenameMustNotContain":"El nombre del archivo no debe contener espacios ni caracteres especiales (p. ej., ! @ # $ % ^ & ( ) )."
     },
     "validationBE": {
       "sendGridEmailTenantReferenceIdExists": "Una nueva referencia de inquilino de correo electrónico de Send Grid no puede tener ya un ID",
