@@ -1075,7 +1075,21 @@
           "plural": "Pilih Susun Atur Halaman",
           "setupEdit": false,
           "setupVisible": false
-        }
+        },
+      "installationDate": {
+        "original": "Installation Date",
+        "singular": "Tarikh Pemasangan",
+        "plural": "Tarikh Pemasangan",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "brand": {
+        "original": "Brand",
+        "singular": "Jenama",
+        "plural": "Jenama",
+        "setupEdit": false,
+        "setupVisible": false
+      }
     },
     "validationFE": {
       "warrantyEndDateAfterStartDate":"Tarikh Tamat Waranti mesti selepas Tarikh Mula.",
@@ -7058,6 +7072,13 @@
       "completionDateTime": {
         "original": "Completion Date & Time",
         "singular": "Tarikh & Waktu Siap",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "completionTime": {
+        "original": "Completion Time",
+        "singular": "Masa Siap",
         "plural": "",
         "setupEdit": false,
         "setupVisible": false
@@ -13704,6 +13725,160 @@
         "setupEdit": false,
         "setupVisible": false
       },
+      "previewCsv":{
+        "original": "Preview CSV",
+        "singular": "Pratonton CSV",
+        "plural": "Pratonton CSV",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "addNewStatus":{
+        "original": "Add New Status",
+        "singular": "Tambah Status Baharu",
+        "plural": "Tambah Status Baharu",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "addNewType":{
+        "original": "Add New Type",
+        "singular": "Tambah Jenis Baharu",
+        "plural": "Tambah Jenis Baharu",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "addNewResolution":{
+        "original": "Add New Resolution",
+        "singular": "Tambah Penyelesaian Baharu",
+        "plural": "Tambah Penyelesaian Baharu",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "addNewFault":{
+        "original": "Add New Fault",
+        "singular": "Tambah Ralat Baharu",
+        "plural": "Tambah Ralat Baharu",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "saveConfigurationImportAsset":{
+        "original": "Save Configurations & Import Assets",
+        "singular": "Simpan Konfigurasi & Import Aset",
+        "plural": "Simpan Konfigurasi & Import Aset",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "skip":{
+        "original": "Skip",
+        "singular": "Langkau",
+        "plural": "Langkau",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "saveConfigurationImportWorkOrders":{
+        "original": "Save Configurations & Import Work Orders",
+        "singular": "Simpan Konfigurasi & Import Pesanan Kerja",
+        "plural": "Simpan Konfigurasi & Import Pesanan Kerja",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "chooseFile":{
+        "original": "Choose a File",
+        "singular": "Pilih Fail",
+        "plural": "Pilih Fail",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "choose":{
+        "original": "Choose",
+        "singular": "Pilih",
+        "plural": "Pilih",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "startLearning":{
+        "original": "Start Learning",
+        "singular": "Mulakan Pembelajaran",
+        "plural": "Mulakan Pembelajaran",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "watchVideo":{
+        "original": "Watch Videos",
+        "singular": "Tonton Video",
+        "plural": "Tonton Video",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "exploreDocs":{
+        "original": "Explore Docs",
+        "singular": "Terokai Dokumen",
+        "plural": "Terokai Dokumen",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "browseFaqs":{
+        "original": "Browse FAQs",
+        "singular": "Layari Soalan Lazim",
+        "plural": "Layari Soalan Lazim",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "contactSupport":{
+        "original": "Contact Support",
+        "singular": "Hubungi Sokongan",
+        "plural": "Hubungi Sokongan",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "exploreLatestInnovations":{
+        "original": "Explore Latest Innovations",
+        "singular": "Terokai Inovasi Terkini",
+        "plural": "Terokai Inovasi Terkini",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "claimFreeSession":{
+        "original": "Claim Your 2 Free Sessions",
+        "singular": "Tuntut 2 Sesi Percuma Anda",
+        "plural": "Tuntut 2 Sesi Percuma Anda",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "launchSetup":{
+        "original": "Launch Setup",
+        "singular": "Lancar Tetapan",
+        "plural": "Lancar Tetapan",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "finalize":{
+        "original": "Finalize",
+        "singular": "Muktamadkan",
+        "plural": "Muktamadkan",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "addUser":{
+        "original": "Add User",
+        "singular": "Tambah Pengguna",
+        "plural": "Tambah Pengguna",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "letAiCreateConfigure":{
+        "original": "Let AI Create Your Data & Configure Your System",
+        "singular": "Biarkan AI Cipta Data Anda & Konfigurasikan Sistem Anda",
+        "plural": "Biarkan AI Cipta Data Anda & Konfigurasikan Sistem Anda",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "saveConfigurationImportModule":{
+        "original": "Save Configurations & Import",
+        "singular": "Simpan Konfigurasi & Import",
+        "plural": "Simpan Konfigurasi & Import",
+        "setupEdit": false,
+        "setupVisible": false
+      },
       "locateAsset":{
         "original": "Locate Asset",
         "singular": "Cari Aset",
@@ -13785,6 +13960,20 @@
         "original": "Export QR",
         "singular": "Eksport QR",
         "plural": "Eksport QR",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "pro":{
+        "original": "Pro",
+        "singular": "Pro",
+        "plural": "Pro",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "enterprise":{
+        "original": "Enterprise",
+        "singular": "Enterprise",
+        "plural": "Enterprise",
         "setupEdit": false,
         "setupVisible": false
       }	
@@ -14229,6 +14418,20 @@
         "original": "Submitted",
         "singular": "Telah Dihantar",
         "plural": "Telah Dihantar",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "systemValue": {
+        "original": "System Value",
+        "singular": "Nilai-Nilai Sistem",
+        "plural": "Nilai-Nilai Sistem",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "aiDetected": {
+        "original": "AI Detected",
+        "singular": "Dikesan oleh AI",
+        "plural": "Dikesan oleh AI",
         "setupEdit": false,
         "setupVisible": false
       },
@@ -14781,6 +14984,7 @@
       "pleaseSignBeforeProceeding": "Sila tandatangan sebelum meneruskan",
       "charactersExceed": "Teks melebihi had aksara (255).",
       "endDateThanStartDate": "Tarikh tamat mesti selepas tarikh mula",
+      "filenameMustNotContain":"Nama fail tidak boleh mengandungi ruang atau aksara khas (cth: ! @ # $ % ^ & ( ) ).",
       "thisFieldIsRequired":"Medan ini diperlukan",
       "pleaseMakeOneSelection":"Sila buat satu pilihan untuk meneruskan",
       "itemExists":"Item ini sudah wujud dalam senarai"
@@ -25893,6 +26097,252 @@
           "setupEdit": true,
           "setupVisible": false
         }
+      }
+    },
+    "onBoard": {
+      "setupEdit": false,
+      "setupVisible": false,
+      "label": {
+        "original": "On-Board",
+        "singular": "Pendaftaran",
+        "plural": "Pendaftaran",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sections": {
+        "setupEdit": false,
+        "setupVisible": false,
+        "sec0": {
+          "original": "Welcome to FieldEx",
+          "singular": "Selamat Datang ke FieldEx",
+          "plural": "",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "sec1": {
+          "original": "Get Started",
+          "singular": "Mulakan",
+          "plural": "Mulakan",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "sec2": {
+          "original": "Import Asset",
+          "singular": "Import Aset",
+          "plural": "Import Aset",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "sec3": {
+          "original": "Setup Work Orders",
+          "singular": "Tetapan Arahan Kerja",
+          "plural": "Tetapan Arahan Kerja",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "sec4": {
+          "original": "Learn More",
+          "singular": "Ketahui Lebih Lanjut",
+          "plural": "Ketahui Lebih Lanjut",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "sec5": {
+          "original": "Invite Your Team",
+          "singular": "Jemput Pasukan Anda",
+          "plural": "Jemput Pasukan Anda",
+          "setupEdit": false,
+          "setupVisible": false
+        }
+      },
+      "fields":{
+        "setupVisible": false,
+        "setupEdit":false,
+        "email":{
+         "original": "Email",
+          "singular": "Emel",
+          "plural": "Emel",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "role":{
+          "original": "Role",
+           "singular": "Peranan",
+           "plural": "Peranan",
+           "setupEdit": false,
+           "setupVisible": false
+          },
+          "systemField":{
+            "original": "Fieldex System Fields",
+            "singular": "Medan Sistem Fieldex",
+            "plural": "Medan Sistem Fieldex",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "csvColumn":{
+            "original": "CSV Columns",
+            "singular": "Lajur CSV",
+            "plural": "Lajur-Lajur CSV",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "confidence":{
+            "original": "Confidence",
+            "singular": "Keyakinan",
+            "plural": "Keyakinan",
+            "setupEdit": false,
+            "setupVisible": false
+          }
+      },
+      "messages":{
+        "letsImportAsset":"Mari Import Aset Anda",
+        "assetAreHeartCmms":"Aset adalah jantung CMMS anda. Mulakan dengan memuat naiknya untuk mengurus penyelenggaraan, sejarah dan tugasan",
+        "aiPoweredImport":"Import Dikuasakan AI",
+        "automaticallyMapYourCSV":"FieldEx boleh memetakan lajur CSV anda secara automatik, mengekstrak jenis, status, kategori dan mengkonfigurasi sistem anda - tanpa tetapan manual!",
+        "letOurIntelligentSystem":"Biarkan sistem pintar kami lakukan kerja untuk anda. FieldEx boleh secara automatik:",
+        "mapCsvToSystemField":"Petakan lajur CSV anda ke medan sistem",
+        "extractConfigureAssetType":"Ekstrak dan konfigurasikan senarai jenis aset",
+        "detectSetUpStatus":"Kesan dan tetapkan nilai status dengan warna yang sesuai",
+        "configureSystemInSeconds":"Konfigurasikan sistem anda dalam beberapa saat - tanpa tetapan manual",
+        "uploadExistingAsset":"Muat naik aset sedia ada anda dan kami akan bantu anda memetakan medan dan mengkonfigurasi modul aset untuk anda.",
+        "dragDropCsvHere":"Seret & Lepaskan fail CSV anda di sini",
+        "needATemplate":"Perlukan templat?",
+        "downloadCsvTemplate":"Muat Turun Templat CSV",
+        "letAiCreateData":"Biarkan AI cipta data anda & konfigurasikan sistem anda",
+        "startBuildingMaintenanceSystem":"Mulakan pembinaan sistem penyelenggaraan anda dalam beberapa minit",
+        "helpsReduceDowntime":"FieldEx membantu anda mengurangkan masa henti sebanyak 37%, memanjangkan jangka hayat aset, dan mengurangkan kos penyelenggaraan. Tetapkan sistem anda dalam beberapa minit dan mula transformasi operasi penyelenggaraan anda hari ini",
+        "getQuickLook":"Lihat sepintas lalu bagaimana FieldEx memperkasa pasukan untuk mengurus aset, menjadualkan servis, dan mengurangkan masa henti dengan mudah.",
+        "bookTrainingSession":"Tempah sesi latihan selama 45 minit",
+        "withRealHumanForFree":"bersama manusia sebenar secara percuma untuk membantu anda bermula",
+        "whatYouCanDo":"Apa Yang Anda Boleh Lakukan Dengan FieldEx",
+        "management":"Pengurusan",
+        "digitizeEveryAsset":"Digitalkan setiap aset dan jejaknya dalam masa nyata",
+        "viewUptimeLogs":"Lihat masa operasi, log, dan data prestasi serta-merta",
+        "tagEquipmentQrCode":"Tandakan peralatan dengan kod QR untuk imbasan pantas di tapak",
+        "setUpSmartSchedules":"Tetapkan jadual pintar untuk mencegah kerosakan",
+        "getAlertsBefore":"Dapatkan makluman sebelum sesuatu berlaku",
+        "automateServicePlan":"Automatikkan pelan servis",
+        "createAssignInOnePlace":"Cipta, tugaskan dan tutup tugasan — semuanya di satu tempat",
+        "trackJobProgressStatusLive":"Jejak kemajuan dan status kerja secara langsung dari lapangan",
+        "useQrCodesStartCompleteJobs":"Guna kod QR untuk mula atau lengkapkan kerja semasa bergerak",
+        "trackEveryPartAcrossAllSite":"Jejak setiap alat ganti merentasi semua tapak dan pasukan",
+        "knowWhatsInStock":"Ketahui stok semasa, keperluan dan buat pesanan semula",
+        "scanUpdateInventory":"Imbas dan kemas kini inventori dalam masa nyata",
+        "inviteYourTeam":"Jemput pasukan anda",
+        "admin":"Pentadbir",
+        "planner":"Perancang",
+        "fieldEngineer":"Jurutera Lapangan",
+        "accessEverythingManageSettings":"Akses semua perkara, urus tetapan, pengguna dan laporan",
+        "createAssignJobsTrackProgress":"Cipta dan tugaskan kerja, jejak kemajuan, optimumkan jadual",
+        "receiveTaskUpdateJobStatus":"Terima tugasan, kemas kini status kerja, muat naik foto, imbas kod QR.",
+        "addYourTeammates":"Tambah rakan sepasukan anda ke FieldEx dan tetapkan peranan yang sesuai dengan kekuatan mereka. Sama ada mereka mengurus di sebalik skrin atau di lapangan — anda hanya satu jemputan sahaja dari sinergi.",
+        "reviewCsvColumns":"AI telah memadankan medan anda secara automatik. Lajur Keyakinan menunjukkan peratusan padanan bagi setiap medan",
+        "reviewCustomizeAssetType":"Semak dan sesuaikan jenis aset yang dikesan dalam CSV anda dan jenis sistem sedia ada",
+        "reviewCustomizeAssetStatus":"Semak dan sesuaikan status aset yang dikesan dalam CSV anda dan status sistem sedia ada",
+        "reviewCustomizeWorkOrderType":"Semak dan sesuaikan jenis pesanan kerja yang dikesan dalam CSV anda dan jenis sistem sedia ada",
+        "reviewCustomizeWorkOrderStatus":"Semak dan sesuaikan status pesanan kerja yang dikesan dalam CSV anda dan status sistem sedia ada",
+        "reviewCustomize":"Semak dan sesuaikan",
+        "statusDetected":"status dikesan dalam CSV anda dan status sistem sedia ada",
+        "typesDetected":"jenis dikesan dalam CSV anda dan status sistem sedia ada",
+        "youCanReviewAdjustAnytime":"Anda boleh menyemak dan menyesuaikan pada bila-bila masa",
+        "viewMoreField":"Lihat Lebih Banyak Medan...",
+        "showLessField":"Tunjukkan Kurang Medan...",
+        "enterNewAssetType":"Masukkan jenis aset baharu...",
+        "enterNewAssetStatus":"Masukkan status aset baharu...",
+        "enterNewType": "Masukkan jenis baharu...",
+        "enterNewStatus": "Masukkan status baharu...",
+        "enterNewFault": "Masukkan ralat baharu...",
+        "enterNewResolution": "Masukkan penyelesaian baharu...",
+        "tip":"Tip",
+        "watchDemo":"Tonton Demo: Apa yang Anda Boleh Capai dengan Fieldex",
+        "quickLookEmpowersTeam":"Lihat sepintas lalu bagaimana FieldEx memperkasakan pasukan untuk mengurus aset, menjadualkan perkhidmatan, dan mengurangkan masa henti dengan mudah",
+        "select":"Pilih",
+        "selectRole":"Pilih Peranan",
+        "aiAnalysisComplete":"Analisis AI Selesai",
+        "dataInsight":"Pandangan Data",
+        "fieldMapping":"Peta medan CSV anda ke medan sistem FieldEx",
+        "assetTypes":"Jenis Aset",
+        "bookTrainingExperience":"Tempah Latihan: Tingkatkan pengalaman anda dengan FieldEx",
+        "freeOnboardingCaps":"PENDAFTARAN PERCUMA",
+        "bookTwoSessions":"Tempah dua sesi latihan percuma anda dengan pakar produk kami dan pelajari cara memaksimumkan kecekapan operasi lapangan anda. Tiada caj semasa pendaftaran!",
+        "comprehensiveLearning":"Ekosistem pembelajaran komprehensif dengan modul interaktif untuk semua peringkat kemahiran",
+        "focusSolutionOriented":"Panduan video fokus dan berorientasikan penyelesaian yang merangkumi setiap aspek platform FieldEx",
+        "apiDocumentation":"Dokumentasi API dan panduan integrasi",
+        "answersCommonlyAsked":"Jawapan kepada soalan yang sering ditanya",
+        "getHelpFromCustomerSuccess":"Dapatkan bantuan daripada pasukan kejayaan pelanggan kami di support@fieldex.com",
+        "discoverNewlyImplementedFeature":"Temui ciri baharu yang telah dilaksanakan dan penambahbaikan akan datang pada platform",
+        "fieldExAcademy":"Akademi FieldEx",
+        "videoTutorials":"Tutorial Video",
+        "developerResources":"Sumber Pembangun",
+        "faq":"Soalan Lazim",
+        "emailSupport":"Sokongan Emel",
+        "releaseNotes":"Nota Keluaran",
+        "exploreSettingUp":"Terokai cara untuk menyediakan automasi ini",
+        "setUpAutomations":"Tetapkan automasi berkuasa untuk mempermudah operasi anda dan meningkatkan kecekapan",
+        "setupJobOrdTemplate":"Sediakan Templat Pesanan Kerja",
+        "setupPreventiveMaintenance":"Sediakan Penyelenggaraan Pencegahan",
+        "createChecklist":"Cipta Senarai Semak",
+        "setupQrcodeBarcode":"Sediakan Kod QR / Kod Bar",
+        "setupNotifications":"Sediakan Pemberitahuan",
+        "importData":"Import Data",
+        "streamlineOperations":"Permudahkan operasi dengan templat yang boleh disesuaikan dan diakses di mana sahaja melalui platform mudah alih bertaraf perusahaan kami",
+        "proactivelyManage":"Urus kitar hayat peralatan secara proaktif dengan penjadualan automatik",
+        "designComprehensiveDigital":"Reka bentuk senarai semak digital yang komprehensif dengan logik bersyarat dan pencetus",
+        "configureQrcodeBarcode":"Konfigurasikan teknologi QR/Kod Bar untuk pengurusan inventori dan peralatan masa nyata",
+        "configureTargetedAlerts":"Konfigurasikan amaran dan kemas kini disasarkan dengan peraturan dan keutamaan penghantaran yang boleh disesuaikan",
+        "watchVideo":"Tonton Video Interaktif",
+        "hunnedPercent":"100% PERCUMA",
+        "noMatchFound":"Tiada Padanan Ditemui",
+        "match":"Padanan",
+
+        "letsImport":"Mari Import",
+        "areTheHeartCmms":"ialah teras kepada CMMS anda. Mulakan dengan memuat naiknya untuk mengurus penyelenggaraan, sejarah, dan tugasan.",
+        "areTheHeartOperations":"ialah teras kepada operasi anda. Mulakan dengan memuat naiknya untuk mengurus jadual, pasukan, dan tugasan dengan cekap.",
+        "detectSetUp":"Kesan dan sediakan",
+        "extractConfigure":"Ekstrak dan konfigurasikan",
+        "types":"jenis",
+        "typePicklist":"senarai pilihan jenis",
+        "uploadExisting":"Muat naik",
+        "andWeHelpMap":"dan kami akan bantu anda memetakan medan serta konfigurasikan",
+        "moduleForYou":"modul untuk anda",
+        "reviewAndCustomize":"Semak dan sesuaikan",
+        "typesDetectedInCsv":"jenis yang dikesan dalam CSV anda dan jenis sistem sedia ada",
+        "faultsDetected":"ralat yang dikesan dalam CSV anda dan status sistem sedia ada",
+        "resolutionsDetected":"penyelesaian yang dikesan dalam CSV anda dan status sistem sedia ada",
+        "statusDetectedInCsv":"status yang dikesan dalam CSV anda dan status sistem sedia ada",
+        "fullAccessConfigurationControl":"Akses penuh & kawalan konfigurasi",
+        "dailyOperationManager":"Pengurus operasi harian",
+        "taskExecuter":"Pelaksana tugas bergerak",
+        "adminsFullControl":"Admin mempunyai kawalan penuh ke atas ruang kerja FieldEx anda. Mereka boleh:",
+        "plannersOverseeCoordinate":"Perancang menyelia dan menyelaraskan operasi lapangan melalui platform web FieldEx. Mereka:",
+        "fieldEngineersFrontline":"Jurutera Lapangan ialah pasukan barisan hadapan—juruteknik, pemasang atau ejen perkhidmatan—yang menggunakan aplikasi mudah alih untuk:",
+        "inviteManageUser":"Jemput dan urus pengguna",
+        "configureSettings":"Konfigurasikan senarai semak, templat kerja, dan tetapan penyelenggaraan pencegahan",
+        "updateSystemWideSetting":"Kemas kini tetapan menyeluruh sistem yang menjejaskan keseluruhan akaun",
+        "createAssignJobOrder":"Cipta dan tugaskan pesanan kerja kepada juruteknik yang betul",
+        "trackProgressCompletion":"Jejaki kemajuan dan penyiapan kerja secara masa nyata",
+        "monitorUpdates":"Pantau kemas kini dari lapangan, termasuk:",
+        "assetMeterLogs":"Log meter",
+        "uploadImageAttachment":"Imej dan lampiran yang dimuat naik",
+        "jobStatusChecklistCompletion":"Status kerja dan penyiapan senarai semak",
+        "receiveAssignTask":"Terima tugasan",
+        "updateJobStatus":"Kemas kini status kerja secara masa nyata",
+        "uploadPhoto":"Muat naik foto, nota dan imbas kod QR",
+        "adminFunctionAvailable":"Nota: Fungsi admin hanya tersedia pada penyemak imbas web FieldEx.",
+        "bestExperiencedFieldEx":"Nota: Pengalaman terbaik di pelayar web FieldEx untuk kawalan operasi penuh.",
+        "roleCanOnlyAccessViaMobile":"Nota: Peranan ini hanya boleh mengakses FieldEx melalui aplikasi mudah alih (App Store / Play Store).",
+        "doNotShowAgain":"Jangan tunjukkan lagi",
+        "areYouSure":"Adakah anda pasti mahu berhenti memaparkan halaman ini lagi?",
+        "inBulkStreaming":"secara pukal untuk memudahkan perancangan, mengurangkan ralat, dan menjimatkan masa penyediaan",
+        "yourProTrialEndsIn":"Percubaan Pro anda akan tamat dalam"
+      },
+      "validationFE":{
+        "onlyCsvFilesAllowed": "Hanya fail CSV sahaja yang boleh dimuat naik",
+        "pleaseAttachCsv": "Sila lampirkan CSV anda untuk diimport",
+        "pleaseEnterNewType":"Sila masukkan nama jenis baharu",
+        "pleaseEnterNewStatus":"Sila masukkan nama status baharu",
+        "pleaseEnterNewFault":"Sila masukkan nama ralat baharu",
+        "pleaseEnterNewResolution":"Sila masukkan nama penyelesaian baharu"
       }
     }
   },

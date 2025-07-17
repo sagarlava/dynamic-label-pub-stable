@@ -1075,7 +1075,21 @@
           "plural": "Seleccionar diseño de página",
           "setupEdit": false,
           "setupVisible": false
-        }
+        },
+      "installationDate": {
+        "original": "Installation Date",
+        "singular": "Fecha de instalación",
+        "plural": "Fecha de instalación",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "brand": {
+        "original": "Brand",
+        "singular": "Marca",
+        "plural": "Marcas",
+        "setupEdit": false,
+        "setupVisible": false
+      }
     },
     "validationFE": {
       "warrantyEndDateAfterStartDate": "La fecha de finalización de la garantía debe ser posterior a la fecha de inicio.",
@@ -7058,6 +7072,13 @@
       "completionDateTime": {
         "original": "Completion Date & Time",
         "singular": "Fecha y Hora de Finalización",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "completionTime": {
+        "original": "Completion Time",
+        "singular": "Hora de finalización",
         "plural": "",
         "setupEdit": false,
         "setupVisible": false
@@ -13705,6 +13726,160 @@
         "setupEdit": false,
         "setupVisible": false
       },
+      "previewCsv":{
+        "original": "Preview CSV",
+        "singular": "Vista previa CSV",
+        "plural": "Vista previa CSV",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "addNewStatus":{
+        "original": "Add New Status",
+        "singular": "Añadir Nuevo Estado",
+        "plural": "Añadir Nuevo Estado",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "addNewType":{
+        "original": "Add New Type",
+        "singular": "Añadir Nuevo Tipo",
+        "plural": "Añadir Nuevo Tipo",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "addNewResolution":{
+        "original": "Add New Resolution",
+        "singular": "Agregar nueva resolución",
+        "plural": "Agregar nueva resolución",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "addNewFault":{
+        "original": "Add New Fault",
+        "singular": "Agregar nueva falla",
+        "plural": "Agregar nueva falla",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "saveConfigurationImportAsset":{
+        "original": "Save Configurations & Import Assets",
+        "singular": "Guardar Configuraciones e Importar Activos",
+        "plural": "Guardar Configuraciones e Importar Activos",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "skip":{
+        "original": "Skip",
+        "singular": "Omitir",
+        "plural": "Omitir",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "saveConfigurationImportWorkOrders":{
+        "original": "Save Configurations & Import Work Orders",
+        "singular": "Guardar Configuraciones e Importar Órdenes de Trabajo",
+        "plural": "Guardar Configuraciones e Importar Órdenes de Trabajo",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "chooseFile":{
+        "original": "Choose a File",
+        "singular": "Elegir un Archivo",
+        "plural": "Elegir un Archivo",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "choose":{
+        "original": "Choose",
+        "singular": "Elegir",
+        "plural": "Elegir",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "startLearning":{
+        "original": "Start Learning",
+        "singular": "Comenzar a aprender",
+        "plural": "Comenzar a aprender",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "watchVideo":{
+        "original": "Watch Videos",
+        "singular": "Ver video",
+        "plural": "Ver video",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "exploreDocs":{
+        "original": "Explore Docs",
+        "singular": "Explorar documentos",
+        "plural": "Explorar documentos",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "browseFaqs":{
+        "original": "Browse FAQs",
+        "singular": "Explorar preguntas frecuentes",
+        "plural": "Explorar preguntas frecuentes",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "contactSupport":{
+        "original": "Contact Support",
+        "singular": "Contactar soporte",
+        "plural": "Contactar soporte",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "exploreLatestInnovations":{
+        "original": "Explore Latest Innovations",
+        "singular": "Explorar las últimas innovaciones",
+        "plural": "Explorar las últimas innovaciones",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "claimFreeSession":{
+        "original": "Claim Your 2 Free Sessions",
+        "singular": "Reclama tus 2 sesiones gratuitas",
+        "plural": "Reclama tus 2 sesiones gratuitas",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "launchSetup":{
+        "original": "Launch Setup",
+        "singular": "Iniciar configuración",
+        "plural": "Iniciar configuración",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "finalize":{
+        "original": "Finalize",
+        "singular": "Finalizar",
+        "plural": "Finalizar",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "addUser":{
+        "original": "Add User",
+        "singular": "Agregar usuario",
+        "plural": "Agregar usuario",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "letAiCreateConfigure":{
+        "original": "Let AI Create Your Data & Configure Your System",
+        "singular": "Deja que la IA cree tus datos y configure tu sistema",
+        "plural": "Deja que la IA cree tus datos y configure tu sistema",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "saveConfigurationImportModule":{
+        "original": "Save Configurations & Import",
+        "singular": "Guardar configuraciones e importar",
+        "plural": "Guardar configuraciones e importar",
+        "setupEdit": false,
+        "setupVisible": false
+      },
       "locateAsset": {
         "original": "Locate Asset",
         "singular": "Ubicar activo",
@@ -13786,6 +13961,20 @@
         "original": "Export QR",
         "singular": "Exportar QR",
         "plural": "Exportar QR",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "pro":{
+        "original": "Pro",
+        "singular": "Pro",
+        "plural": "Pro",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "enterprise":{
+        "original": "Enterprise",
+        "singular": "Enterprise",
+        "plural": "Enterprise",
         "setupEdit": false,
         "setupVisible": false
       }	
@@ -14251,6 +14440,20 @@
         "original": "Follow Up",
         "singular": "Seguimiento",
         "plural": "Seguimiento",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "systemValue": {
+        "original": "System Value",
+        "singular": "Valores del sistema",
+        "plural": "Valores del sistema",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "aiDetected": {
+        "original": "AI Detected",
+        "singular": "Detectado por IA",
+        "plural": "Detectado por IA",
         "setupEdit": false,
         "setupVisible": false
       },
@@ -14784,7 +14987,8 @@
       "endDateThanStartDate": "La fecha de finalización debe ser posterior a la fecha de inicio",
       "thisFieldIsRequired": "Este campo es obligatorio",
       "pleaseMakeOneSelection": "Por favor, haga una selección para continuar",
-      "itemExists": "Este elemento ya existe en la lista"
+      "itemExists": "Este elemento ya existe en la lista",
+      "filenameMustNotContain":"El nombre del archivo no debe contener espacios ni caracteres especiales (p. ej., ! @ # $ % ^ & ( ) )."
     },
     "validationBE": {
       "sendGridEmailTenantReferenceIdExists": "Una nueva referencia de inquilino de correo electrónico de Send Grid no puede tener ya un ID",
@@ -25894,6 +26098,252 @@
           "setupEdit": true,
           "setupVisible": false
         }
+      }
+    },
+    "onBoard": {
+      "setupEdit": false,
+      "setupVisible": false,
+      "label": {
+        "original": "On-Board",
+        "singular": "Incorporación",
+        "plural": "Incorporación",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sections": {
+        "setupEdit": false,
+        "setupVisible": false,
+        "sec0": {
+          "original": "Welcome to FieldEx",
+          "singular": "Bienvenido a FieldEx",
+          "plural": "",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "sec1": {
+          "original": "Get Started",
+          "singular": "Comenzar",
+          "plural": "Comenzar",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "sec2": {
+          "original": "Import Asset",
+          "singular": "Importar activos",
+          "plural": "Importar activos",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "sec3": {
+          "original": "Setup Work Orders",
+          "singular": "Configurar órdenes de trabajo",
+          "plural": "Configurar órdenes de trabajo",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "sec4": {
+          "original": "Learn More",
+          "singular": "Aprende más",
+          "plural": "Aprende más",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "sec5": {
+          "original": "Invite Your Team",
+          "singular": "Invita a tu equipo",
+          "plural": "Invita a tu equipo",
+          "setupEdit": false,
+          "setupVisible": false
+        }
+      },
+      "fields":{
+        "setupVisible": false,
+        "setupEdit":false,
+        "email":{
+         "original": "Email",
+          "singular": "Correo electrónico",
+          "plural": "Correos electrónicos",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "role":{
+          "original": "Role",
+           "singular": "Rol",
+           "plural": "Roles",
+           "setupEdit": false,
+           "setupVisible": false
+          },
+          "systemField":{
+            "original": "Fieldex System Fields",
+            "singular": "Campos del sistema Fieldex",
+            "plural": "Campos del sistema Fieldex",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "csvColumn":{
+            "original": "CSV Columns",
+            "singular": "Columnas CSV",
+            "plural": "Columnas CSV",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "confidence":{
+            "original": "Confidence",
+            "singular": "Confianza",
+            "plural": "Confianza",
+            "setupEdit": false,
+            "setupVisible": false
+          }
+      },
+      "messages":{
+        "letsImportAsset":"Vamos a importar tus activos",
+        "assetAreHeartCmms":"Los activos son el corazón de tu CMMS. Comienza subiéndolos para gestionar el mantenimiento, historial y asignaciones",
+        "aiPoweredImport":"Importación impulsada por IA",
+        "automaticallyMapYourCSV":"FieldEx puede mapear automáticamente tus columnas CSV, extraer tipos, estados, categorías y configurar tu sistema - ¡sin necesidad de configuración manual!",
+        "letOurIntelligentSystem":"Deja que nuestro sistema inteligente haga el trabajo por ti. FieldEx puede automáticamente:",
+        "mapCsvToSystemField":"Mapear tus columnas CSV a campos del sistema",
+        "extractConfigureAssetType":"Extraer y configurar listas de tipos de activos",
+        "detectSetUpStatus":"Detectar y configurar valores de estado con colores apropiados",
+        "configureSystemInSeconds":"Configura tu sistema en segundos - sin necesidad de configuración manual",
+        "uploadExistingAsset":"Sube tus activos existentes y te ayudaremos a mapear los campos y configurar el módulo de activos",
+        "dragDropCsvHere":"Arrastra y suelta tu archivo CSV aquí",
+        "needATemplate":"¿Necesitas una plantilla?",
+        "downloadCsvTemplate":"Descargar plantilla CSV",
+        "letAiCreateData":"Deja que la IA cree tus datos y configure tu sistema",
+        "startBuildingMaintenanceSystem":"Comienza a construir tu sistema de mantenimiento en minutos",
+        "helpsReduceDowntime":"FieldEx te ayuda a reducir el tiempo de inactividad en un 37%, extender la vida útil de los activos y reducir los costos de mantenimiento. Configura tu sistema en minutos y comienza a transformar tus operaciones de mantenimiento hoy",
+        "getQuickLook":"Echa un vistazo rápido a cómo FieldEx permite a los equipos gestionar activos, programar servicios y reducir el tiempo de inactividad sin esfuerzo.",
+        "bookTrainingSession":"Reserva una sesión de capacitación de 45 minutos",
+        "withRealHumanForFree":"con una persona real para ayudarte a comenzar gratis",
+        "whatYouCanDo":"Qué puedes hacer con FieldEx",
+        "management":"Gestión",
+        "digitizeEveryAsset":"Digitaliza cada activo y haz seguimiento en tiempo real",
+        "viewUptimeLogs":"Consulta al instante el tiempo de actividad, los registros y el rendimiento",
+        "tagEquipmentQrCode":"Etiquetar equipos con códigos QR para escaneos rápidos en el sitio",
+        "setUpSmartSchedules":"Configura horarios inteligentes para prevenir averías",
+        "getAlertsBefore":"Recibe alertas antes de que algo salga mal",
+        "automateServicePlan":"Automatiza los planes de servicio",
+        "createAssignInOnePlace":"Crea, asigna y cierra trabajos — todo en un solo lugar",
+        "trackJobProgressStatusLive":"Haz seguimiento del progreso y estado de trabajos en tiempo real desde el campo",
+        "useQrCodesStartCompleteJobs":"Usa códigos QR para iniciar o completar trabajos sobre la marcha",
+        "trackEveryPartAcrossAllSite":"Haz seguimiento de cada pieza en todos los sitios y equipos",
+        "knowWhatsInStock":"Conoce lo que hay en stock, lo que se necesita y haz pedidos",
+        "scanUpdateInventory":"Escanea y actualiza inventario en tiempo real",
+        "inviteYourTeam":"Invita a tu equipo",
+        "admin":"Administrador",
+        "planner":"Planificador",
+        "fieldEngineer":"Ingeniero de campo",
+        "accessEverythingManageSettings":"Accede a todo, gestiona configuraciones, usuarios e informes",
+        "createAssignJobsTrackProgress":"Crea y asigna tareas, haz seguimiento del progreso y optimiza horarios",
+        "receiveTaskUpdateJobStatus":"Recibe tareas, actualiza el estado del trabajo, sube fotos, escanea códigos QR.",
+        "addYourTeammates":"Agrega a tus compañeros a FieldEx y asígnales roles que se ajusten a sus superpoderes. Ya sea detrás de la pantalla o en el campo, estás a una invitación de la sinergia.",
+        "reviewCsvColumns":"La IA ha emparejado automáticamente tus campos. La columna de confianza indica el porcentaje de coincidencia para cada campo",
+        "reviewCustomizeAssetType":"Revise y personalice los tipos de activos detectados en su CSV y los tipos de sistema existentes",
+        "reviewCustomizeAssetStatus":"Revise y personalice el estado de los activos detectados en su CSV y el estado del sistema existente",
+        "reviewCustomizeWorkOrderType":"Revise y personalice los tipos de órdenes de trabajo detectados en su CSV y los tipos de sistema existentes",
+        "reviewCustomizeWorkOrderStatus":"Revise y personalice el estado de las órdenes de trabajo detectados en su CSV y el estado del sistema existente",
+        "reviewCustomize":"Revise y personalice",
+        "statusDetected":"estado detectado en su CSV y estado del sistema existente",
+        "typesDetected":"tipos detectados en su CSV y estado del sistema existente",
+        "youCanReviewAdjustAnytime":"Puede revisar y ajustar en cualquier momento",
+        "viewMoreField":"Ver más campos...",
+        "showLessField":"Mostrar menos campos...",
+        "enterNewAssetType":"Introducir nuevo tipo de activo...",
+        "enterNewAssetStatus":"Introducir nuevo estado de activo...",
+       "enterNewType": "Ingresar nuevo tipo...",
+        "enterNewStatus": "Ingresar nuevo estado...",
+        "enterNewFault": "Ingresar nueva falla...",
+        "enterNewResolution": "Ingresar nueva resolución...",
+        "tip":"Consejo",
+        "watchDemo":"Ver demostración: Lo que puedes lograr con Fieldex",
+        "quickLookEmpowersTeam":"Echa un vistazo rápido a cómo FieldEx ayuda a los equipos a gestionar activos, programar servicios y reducir el tiempo de inactividad sin esfuerzo",
+        "select":"Seleccionar",
+        "selectRole":"Seleccionar rol",
+        "aiAnalysisComplete":"Análisis de IA completado",
+        "dataInsight":"Información de datos",
+        "fieldMapping":"Mapea tus campos CSV a los campos del sistema FieldEx",
+        "assetTypes":"Tipos de activos",
+        "bookTrainingExperience":"Reserva una capacitación: Potencia tu experiencia con FieldEx",
+        "freeOnboardingCaps":"INCORPORACIÓN GRATUITA",
+        "bookTwoSessions":"Reserva tus dos sesiones de capacitación gratuitas con nuestros especialistas de producto y aprende a maximizar la eficiencia de tus operaciones en campo. ¡Sin cargos durante la incorporación!",
+        "comprehensiveLearning":"Ecosistema de aprendizaje integral con módulos interactivos para todos los niveles de habilidad",
+        "focusSolutionOriented":"Guías en video enfocadas y orientadas a soluciones que cubren todos los aspectos de la plataforma FieldEx",
+        "apiDocumentation":"Documentación de API y guías de integración",
+        "answersCommonlyAsked":"Respuestas a preguntas frecuentes",
+        "getHelpFromCustomerSuccess":"Obtén ayuda de nuestro equipo de éxito del cliente en support@fieldex.com",
+        "discoverNewlyImplementedFeature":"Descubre nuevas funciones implementadas y mejoras próximas en la plataforma",
+        "fieldExAcademy":"Academia FieldEx",
+        "videoTutorials":"Tutoriales en video",
+        "developerResources":"Recursos para desarrolladores",
+        "faq":"Preguntas Frecuentes",
+        "emailSupport":"Soporte por correo electrónico",
+        "releaseNotes":"Notas de la versión",
+        "exploreSettingUp":"Explora la configuración de estas automatizaciones",
+        "setUpAutomations":"Configura automatizaciones potentes para agilizar tus operaciones y aumentar la eficiencia",
+        "setupJobOrdTemplate":"Configurar plantillas de órdenes de trabajo",
+        "setupPreventiveMaintenance":"Configurar mantenimiento preventivo",
+        "createChecklist":"Crear lista de verificación",
+        "setupQrcodeBarcode":"Configurar código QR / código de barras",
+        "setupNotifications":"Configurar notificaciones",
+        "importData":"Importar datos",
+        "streamlineOperations":"Agiliza las operaciones con plantillas personalizables accesibles en cualquier lugar a través de nuestra plataforma móvil de nivel empresarial",
+        "proactivelyManage":"Gestiona proactivamente el ciclo de vida del equipo con programación automatizada",
+        "designComprehensiveDigital":"Diseña listas de verificación digitales integrales con lógica condicional y activadores",
+        "configureQrcodeBarcode":"Configura tecnología de código QR/código de barras para la gestión en tiempo real de inventario y equipos",
+        "configureTargetedAlerts":"Configura alertas y actualizaciones dirigidas con reglas personalizables y preferencias de entrega",
+        "watchVideo":"Ver video interactivo",
+        "hunnedPercent":"100% GRATIS",
+        "noMatchFound":"No se encontró coincidencia",
+        "match":"Coincidencia",
+
+        "letsImport":"Vamos a importar tus",
+        "areTheHeartCmms":"son el corazón de tu CMMS. Comienza subiéndolos para gestionar el mantenimiento, el historial y las asignaciones.",
+        "areTheHeartOperations":"son el corazón de tus operaciones. Comienza subiéndolos para gestionar eficazmente horarios, equipos y tareas.",
+        "detectSetUp":"Detectar y configurar",
+        "extractConfigure":"Extrahieren und konfigurieren",
+        "types":"tipos",
+        "typePicklist":"listas desplegables de tipo",
+        "uploadExisting":"Sube tus",
+        "andWeHelpMap":"y te ayudaremos a mapear los campos y configurar el",
+        "moduleForYou":"módulo para ti",
+        "reviewAndCustomize":"Revisar y personalizar",
+        "typesDetectedInCsv":"tipos detectados en tu CSV y en los tipos del sistema existente",
+        "faultsDetected":"fallos detectados en tu CSV y en el estado del sistema existente",
+        "resolutionsDetected":"resoluciones detectadas en tu CSV y en el estado del sistema existente",
+        "statusDetectedInCsv":"estado detectado en tu CSV y en el estado del sistema existente",
+        "fullAccessConfigurationControl": "Acceso total y control de configuración",
+        "dailyOperationManager": "Gestor de operaciones diarias",
+        "taskExecuter": "Ejecutor de tareas en movimiento",
+        "adminsFullControl": "Los administradores tienen control total de tu espacio de trabajo FieldEx. Ellos pueden:",
+        "plannersOverseeCoordinate": "Los planificadores supervisan y coordinan las operaciones de campo a través de la plataforma web de FieldEx. Ellos:",
+        "fieldEngineersFrontline": "Los ingenieros de campo son el equipo de primera línea —técnicos, instaladores o agentes de servicio— que usan la app móvil para:",
+        "inviteManageUser": "Invitar y gestionar usuarios",
+        "configureSettings": "Configurar listas de verificación, plantillas de trabajo y ajustes de mantenimiento preventivo",
+        "updateSystemWideSetting": "Actualizar configuraciones a nivel del sistema que afectan toda la cuenta",
+        "createAssignJobOrder": "Crear y asignar órdenes de trabajo a los técnicos adecuados",
+        "trackProgressCompletion": "Seguimiento del progreso y finalización del trabajo en tiempo real",
+        "monitorUpdates": "Supervisar actualizaciones desde el campo, incluyendo:",
+        "assetMeterLogs": "Registros de medidores de activos",
+        "uploadImageAttachment": "Imágenes y archivos adjuntos subidos",
+        "jobStatusChecklistCompletion": "Estado del trabajo y finalización de la lista de verificación",
+        "receiveAssignTask": "Recibir tareas asignadas",
+        "updateJobStatus": "Actualizar estados de trabajo en tiempo real",
+        "uploadPhoto": "Subir fotos, notas y escanear códigos QR",
+        "adminFunctionAvailable": "Nota: Las funciones de administrador solo están disponibles en el navegador web de FieldEx.",
+        "bestExperiencedFieldEx": "Nota: La mejor experiencia es en el navegador web de FieldEx para control total operativo.",
+        "roleCanOnlyAccessViaMobile": "Nota: Este rol solo puede acceder a FieldEx a través de la aplicación móvil (App Store / Play Store).",
+        "doNotShowAgain": "No volver a mostrar",
+        "areYouSure":"¿Estás seguro de que quieres dejar de mostrar esta página?",
+        "inBulkStreaming":"en masa para agilizar la planificación, reducir errores y ahorrar tiempo de configuración",
+        "yourProTrialEndsIn":"Tu prueba Pro termina en"
+      },
+      "validationFE":{
+        "onlyCsvFilesAllowed": "Solo se pueden subir archivos CSV",
+        "pleaseAttachCsv": "Por favor adjunta tu archivo CSV para importar",
+        "pleaseEnterNewType":"Por favor ingresa un nuevo nombre de tipo",
+        "pleaseEnterNewStatus":"Por favor ingresa un nuevo nombre de estado",
+        "pleaseEnterNewFault":"Por favor ingresa un nuevo nombre de falla",
+        "pleaseEnterNewResolution":"Por favor ingresa un nuevo nombre de resolución"
       }
     }
   },
