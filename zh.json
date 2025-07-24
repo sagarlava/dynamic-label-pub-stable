@@ -26193,6 +26193,20 @@
             "plural": "置信度",
             "setupEdit": false,
             "setupVisible": false
+          },
+          "letStartButton": {
+            "original": "Let's Get Started",
+            "singular": "开始使用",
+            "plural": "开始使用",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "freeTrainingButton": {
+            "original": "Free Training",
+            "singular": "免费培训",
+            "plural": "免费培训课程",
+            "setupEdit": false,
+            "setupVisible": false
           }
       },
       "messages":{
@@ -26335,7 +26349,17 @@
         "doNotShowAgain": "不再显示",
         "areYouSure":"您确定不再显示此页面吗？",
         "inBulkStreaming":"批量操作以简化规划、减少错误并节省设置时间",
-        "yourProTrialEndsIn":"您的专业版试用将在以下时间结束"
+        "yourProTrialEndsIn":"您的专业版试用将在以下时间结束",
+        "welcomeMessage":"您可以随意浏览，但通过“快速开始”进行设置将帮助您更有效地使用 FieldEx。以下步骤将为您提供帮助：",
+        "inviteTeamContent":"邀请您的团队成员并设置他们的角色",
+        "importAssetTitle":"导入您的资产",
+        "importAssetContent":"将您的资产导入我们的系统，并管理类型和状态",
+        "setupWorkOrdersTitle":"设置工单",
+        "setupWorkOrdersContent":"将您过去的工单导入 FieldEx",
+        "notificationLabelTitle":"设置通知和标签",
+        "notificationLabelContent":"配置通知和标签，使 FieldEx 使用起来更舒适",
+        "needHelp": "需要帮助？",
+        "needHelpText": "我们希望您尽快开始使用。如果您希望进行免费培训课程或在开始使用时遇到任何问题，请联系我们。我们随时准备提供帮助。"
       },
       "validationFE":{
         "onlyCsvFilesAllowed": "只能上传 CSV 文件",

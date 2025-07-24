@@ -26192,6 +26192,20 @@
             "plural": "Keyakinan",
             "setupEdit": false,
             "setupVisible": false
+          },
+          "letStartButton": {
+            "original": "Let's Get Started",
+            "singular": "Mari Mulakan",
+            "plural": "Mari Mulakan",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "freeTrainingButton": {
+            "original": "Free Training",
+            "singular": "Latihan Percuma",
+            "plural": "Latihan-Latihan Percuma",
+            "setupEdit": false,
+            "setupVisible": false
           }
       },
       "messages":{
@@ -26334,7 +26348,17 @@
         "doNotShowAgain":"Jangan tunjukkan lagi",
         "areYouSure":"Adakah anda pasti mahu berhenti memaparkan halaman ini lagi?",
         "inBulkStreaming":"secara pukal untuk memudahkan perancangan, mengurangkan ralat, dan menjimatkan masa penyediaan",
-        "yourProTrialEndsIn":"Percubaan Pro anda akan tamat dalam"
+        "yourProTrialEndsIn":"Percubaan Pro anda akan tamat dalam",
+        "welcomeMessage":"Anda boleh melihat-lihat dahulu, tetapi menyediakan melalui Getting Started akan membantu anda menggunakan FieldEx dengan lebih berkesan. Langkah-langkah ini akan membantu anda:",
+        "inviteTeamContent":"Jemput ahli pasukan anda dan tetapkan peranan mereka",
+        "importAssetTitle":"Import Aset Anda",
+        "importAssetContent":"Import aset anda ke dalam sistem kami dan urus jenis serta statusnya",
+        "setupWorkOrdersTitle":"Sediakan Pesanan Kerja",
+        "setupWorkOrdersContent":"Import pesanan kerja anda yang lalu ke dalam FieldEx",
+        "notificationLabelTitle":"Sediakan Pemberitahuan & Label",
+        "notificationLabelContent":"Konfigurasikan pemberitahuan dan label supaya penggunaan FieldEx lebih selesa",
+        "needHelp": "Perlukan Bantuan?",
+        "needHelpText": "Kami mahu anda bermula secepat mungkin. Jika anda ingin sesi latihan percuma atau menghadapi sebarang masalah untuk bermula, hubungi kami. Kami sentiasa sedia membantu."
       },
       "validationFE":{
         "onlyCsvFilesAllowed": "Hanya fail CSV sahaja yang boleh dimuat naik",

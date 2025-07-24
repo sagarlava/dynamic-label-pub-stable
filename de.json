@@ -26192,6 +26192,20 @@
             "plural": "Vertrauen",
             "setupEdit": false,
             "setupVisible": false
+          },
+          "letStartButton": {
+            "original": "Let's Get Started",
+            "singular": "Laten we beginnen",
+            "plural": "Laten we beginnen",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "freeTrainingButton": {
+            "original": "Free Training",
+            "singular": "Gratis training",
+            "plural": "Gratis trainingen",
+            "setupEdit": false,
+            "setupVisible": false
           }
       },
       "messages":{
@@ -26334,7 +26348,17 @@
         "doNotShowAgain": "Nicht erneut anzeigen",
         "areYouSure":"Möchten Sie diese Seite wirklich nicht mehr anzeigen?",
         "inBulkStreaming":"in großen Mengen zur Optimierung der Planung, Reduzierung von Fehlern und Zeitersparnis bei der Einrichtung",
-        "yourProTrialEndsIn":"Ihre Pro-Testversion endet in"
+        "yourProTrialEndsIn":"Ihre Pro-Testversion endet in",
+        "welcomeMessage":"Je kunt rondkijken, maar instellen via 'Aan de slag' helpt je om FieldEx effectiever te gebruiken. Deze stappen zullen je helpen:",
+        "inviteTeamContent":"Nodig je teamleden uit en stel hun rollen in",
+        "importAssetTitle":"Importeer je bezittingen",
+        "importAssetContent":"Importeer je bezittingen in ons systeem en beheer typen en statussen",
+        "setupWorkOrdersTitle":"Stel werkorders in",
+        "setupWorkOrdersContent":"Importeer je eerdere werkorders in FieldEx",
+        "notificationLabelTitle":"Stel meldingen en labels in",
+        "notificationLabelContent":"Configureer meldingen en labels om FieldEx prettig in gebruik te maken",
+        "needHelp": "Hulp nodig?",
+        "needHelpText": "We willen dat je zo snel mogelijk aan de slag kunt. Als je een gratis trainingssessie wilt of problemen hebt met beginnen, neem dan contact met ons op. We staan altijd klaar om te helpen."
       },
       "validationFE":{
         "onlyCsvFilesAllowed": "Nur CSV-Dateien können hochgeladen werden",
