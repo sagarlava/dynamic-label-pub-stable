@@ -13976,7 +13976,21 @@
         "plural": "Enterprise",
         "setupEdit": false,
         "setupVisible": false
-      }	
+      }	,
+      "letStartButton":{
+        "original": "Let's Get Started",
+        "singular": "Let's Get Started",
+        "plural": "Let's Get Started",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "freeTrainingButton":{
+        "original": "Free Training",
+        "singular": "Free Training",
+        "plural": "Free Trainings",
+        "setupEdit": false,
+        "setupVisible": false
+      }
     },
     "status": {
       "setupVisible": false,
@@ -26334,7 +26348,17 @@
         "doNotShowAgain":"Do not show again",
         "areYouSure":"Are you sure you want to stop showing this page again?",
         "inBulkStreaming":"in bulk to streamline planning, reduce errors, and save setup time",
-        "yourProTrialEndsIn":"Your Pro trial ends in"
+        "yourProTrialEndsIn":"Your Pro trial ends in",
+        "welcomeMessage":"You can look around, but setting up through Getting Started will help you use FieldEx more effectively. These steps will help you:",
+        "inviteTeamContent":"Invite your team members and set their roles",
+        "importAssetTitle":"Import your Assets",
+        "importAssetContent":"Import your assets into our system and manage types and statuses",
+        "setupWorkOrdersTitle":"Set Up Work Orders",
+        "setupWorkOrdersContent":"Import your past work orders into FieldEx",
+        "notificationLabelTitle":"Set Up Notifications & Labels",
+        "notificationLabelContent":"Configure notifications and labels to make FieldEx feel comfortable",
+        "needHelp":"Need Help?",
+        "needHelpText": "We want you up and running as soon as possible. If you would like a free training session or have any issues getting started, get in touch. We’re always ready to help."
       },
       "validationFE":{
         "onlyCsvFilesAllowed": "Only CSV files can be uploaded",

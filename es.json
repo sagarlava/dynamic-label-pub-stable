@@ -13977,7 +13977,21 @@
         "plural": "Enterprise",
         "setupEdit": false,
         "setupVisible": false
-      }	
+      },
+      "letStartButton": {
+        "original": "Let's Get Started",
+        "singular": "Empecemos",
+        "plural": "Empecemos",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "freeTrainingButton": {
+        "original": "Free Training",
+        "singular": "Capacitación gratuita",
+        "plural": "Capacitaciones gratuitas",
+        "setupEdit": false,
+        "setupVisible": false
+      }
     },
     "status": {
       "setupVisible": false,
@@ -26335,7 +26349,17 @@
         "doNotShowAgain": "No volver a mostrar",
         "areYouSure":"¿Estás seguro de que quieres dejar de mostrar esta página?",
         "inBulkStreaming":"en masa para agilizar la planificación, reducir errores y ahorrar tiempo de configuración",
-        "yourProTrialEndsIn":"Tu prueba Pro termina en"
+        "yourProTrialEndsIn":"Tu prueba Pro termina en",
+        "welcomeMessage":"Puedes explorar por tu cuenta, pero configurar todo a través de Comenzar te ayudará a usar FieldEx de manera más efectiva. Estos pasos te ayudarán:",
+        "inviteTeamContent":"Invita a los miembros de tu equipo y asigna sus roles",
+        "importAssetTitle":"Importa tus activos",
+        "importAssetContent":"Importa tus activos en nuestro sistema y gestiona los tipos y estados",
+        "setupWorkOrdersTitle":"Configura las órdenes de trabajo",
+        "setupWorkOrdersContent":"Importa tus órdenes de trabajo anteriores en FieldEx",
+        "notificationLabelTitle":"Configura notificaciones y etiquetas",
+        "notificationLabelContent":"Configura notificaciones y etiquetas para que FieldEx sea más cómodo de usar",
+        "needHelp": "¿Necesitas ayuda?",
+        "needHelpText": "Queremos que empieces a usarlo lo antes posible. Si deseas una sesión de capacitación gratuita o tienes algún problema para comenzar, contáctanos. Siempre estamos listos para ayudarte."
       },
       "validationFE":{
         "onlyCsvFilesAllowed": "Solo se pueden subir archivos CSV",
