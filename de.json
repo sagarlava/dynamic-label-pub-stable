@@ -13976,7 +13976,21 @@
         "plural": "Enterprise",
         "setupEdit": false,
         "setupVisible": false
-      }			
+      },
+      "letStartButton": {
+        "original": "Let's Get Started",
+        "singular": "Laten we beginnen",
+        "plural": "Laten we beginnen",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "freeTrainingButton": {
+        "original": "Free Training",
+        "singular": "Gratis training",
+        "plural": "Gratis trainingen",
+        "setupEdit": false,
+        "setupVisible": false
+      }
     },
     "status": {
       "setupVisible": false,
@@ -26190,20 +26204,6 @@
             "original": "Confidence",
             "singular": "Vertrauen",
             "plural": "Vertrauen",
-            "setupEdit": false,
-            "setupVisible": false
-          },
-          "letStartButton": {
-            "original": "Let's Get Started",
-            "singular": "Laten we beginnen",
-            "plural": "Laten we beginnen",
-            "setupEdit": false,
-            "setupVisible": false
-          },
-          "freeTrainingButton": {
-            "original": "Free Training",
-            "singular": "Gratis training",
-            "plural": "Gratis trainingen",
             "setupEdit": false,
             "setupVisible": false
           }

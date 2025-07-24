@@ -13976,7 +13976,21 @@
         "plural": "企业版",
         "setupEdit": false,
         "setupVisible": false
-      }	
+      },
+      "letStartButton": {
+        "original": "Let's Get Started",
+        "singular": "开始使用",
+        "plural": "开始使用",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "freeTrainingButton": {
+        "original": "Free Training",
+        "singular": "免费培训",
+        "plural": "免费培训课程",
+        "setupEdit": false,
+        "setupVisible": false
+      }
     },
     "status": {
       "setupVisible": true,
@@ -26191,20 +26205,6 @@
             "original": "Confidence",
             "singular": "置信度",
             "plural": "置信度",
-            "setupEdit": false,
-            "setupVisible": false
-          },
-          "letStartButton": {
-            "original": "Let's Get Started",
-            "singular": "开始使用",
-            "plural": "开始使用",
-            "setupEdit": false,
-            "setupVisible": false
-          },
-          "freeTrainingButton": {
-            "original": "Free Training",
-            "singular": "免费培训",
-            "plural": "免费培训课程",
             "setupEdit": false,
             "setupVisible": false
           }

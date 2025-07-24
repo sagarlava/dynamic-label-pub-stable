@@ -13976,7 +13976,21 @@
         "plural": "Enterprise",
         "setupEdit": false,
         "setupVisible": false
-      }	
+      },
+      "letStartButton": {
+        "original": "Let's Get Started",
+        "singular": "Mari Mulakan",
+        "plural": "Mari Mulakan",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "freeTrainingButton": {
+        "original": "Free Training",
+        "singular": "Latihan Percuma",
+        "plural": "Latihan-Latihan Percuma",
+        "setupEdit": false,
+        "setupVisible": false
+      }
     },
     "status": {
       "setupVisible": true,
@@ -26190,20 +26204,6 @@
             "original": "Confidence",
             "singular": "Keyakinan",
             "plural": "Keyakinan",
-            "setupEdit": false,
-            "setupVisible": false
-          },
-          "letStartButton": {
-            "original": "Let's Get Started",
-            "singular": "Mari Mulakan",
-            "plural": "Mari Mulakan",
-            "setupEdit": false,
-            "setupVisible": false
-          },
-          "freeTrainingButton": {
-            "original": "Free Training",
-            "singular": "Latihan Percuma",
-            "plural": "Latihan-Latihan Percuma",
             "setupEdit": false,
             "setupVisible": false
           }
