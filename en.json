@@ -14095,6 +14095,41 @@
         "plural": "Contact Us",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "changePlanButton":{
+        "original": "Change Plan",
+        "singular": "Change Plan",
+        "plural": "Change Plans",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "managePaymentButton":{
+        "original": "Manage Payment",
+        "singular": "Manage Payment",
+        "plural": "Manage Payments",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "contactSalesButton":{
+        "original": "Contact Sales",
+        "singular": "Contact Sale",
+        "plural": "Contact Sales",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "cancelPlanButton":{
+        "original": "Cancel Plan",
+        "singular": "Cancel Plan",
+        "plural": "Cancel Plans",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "upgradeProButton":{
+        "original": "Upgrade to Pro",
+        "singular": "Upgrade to Pro",
+        "plural": "Upgrade to Pro",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "status": {
@@ -14614,6 +14649,13 @@
         "original": "Free Forever",
         "singular": "Free Forever",
         "plural": "Free Forever",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "yearly": {
+        "original": "Yearly",
+        "singular": "Yearly",
+        "plural": "Yearly",
         "setupEdit": false,
         "setupVisible": false
       },
@@ -15770,12 +15812,40 @@
             "plural": "",
             "setupEdit": true,
             "setupVisible": false
+          },
+          "sec7": {
+            "original": "Pro Plan",
+            "singular": "Pro Plan",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "sec8": {
+            "original": "Next Payment",
+            "singular": "Pro Plan",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "sec9": {
+            "original": "Growth Plan",
+            "singular": "Growth Plan",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "sec10": {
+            "original": "Enterprise Plan",
+            "singular": "Enterprise Plan",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
           }
         },
         "messages": {
           "requestSentSuccessfully": "Request sent successfully",
           "litePlanMessage":"Upgrade anytime to unlock advanced features.",
-          "seatsInUseLite":"5/5 seats in use",
+          "seatsInUse":"seats in use",
           "monthly":"Monthly",
           "yearly":"Yearly (30% off)",
           "usersAbove":"6 users and above",
@@ -15797,7 +15867,23 @@
           "slaManagement":"SLA management",
           "feedbackSurveys":"Feedback surveys",
           "customEmail":"Custom email",
-          "customNotificationTemplate":"Custom notification template"
+          "customNotificationTemplate":"Custom notification template",
+          "subscriptionRenewMessage":"Your subscription will auto renew on",
+          "upgradeEnterpriseTitle":"Looking to upgrade to Enterprise?",
+          "upgradeEnterpriseContent":"Get in contact with our sales team to help you get upgraded",
+          "cancelPlanTitle":"Looking to cancel your plan?",
+          "cancelPlanContent":"By canceling your plan, you will not be charged for a renewal and lose access to FieldEx on ",
+          "trialEndOn":"Your trial will end on",
+          "daysLeftTrial":"days left in trial",
+          "paymentDue":"Payment due",
+          "paymentFailed":"Payment failed",
+          "loseExcessMessage":"You will lose excess in",
+          "days":"days",
+          "planCanceled":"Plan Canceled",
+          "proPlanCanceledMessage":"Your Pro plan has been canceled. You will be downgraded to a free plan on",
+          "freePlansMaximumSeats":"Free plans have a maximum of 5 seats",
+          "paymentFailedMessage":"Payment failed. Please update card details and perform payment to enable account access.",
+          "accountAccessSuspended":"Account access suspended"
         },
         "fields": {
           "setupVisible": false,

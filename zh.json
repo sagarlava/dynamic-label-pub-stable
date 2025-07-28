@@ -14095,6 +14095,41 @@
         "plural": "联系我们",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "changePlanButton": {
+        "original": "Change Plan",
+        "singular": "更改方案",
+        "plural": "更改多个方案",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "managePaymentButton": {
+        "original": "Manage Payment",
+        "singular": "管理付款",
+        "plural": "管理多个付款",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "contactSalesButton": {
+        "original": "Contact Sales",
+        "singular": "联系销售",
+        "plural": "联系销售",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "cancelPlanButton": {
+        "original": "Cancel Plan",
+        "singular": "取消方案",
+        "plural": "取消多个方案",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "upgradeProButton": {
+        "original": "Upgrade to Pro",
+        "singular": "升级到专业版",
+        "plural": "升级到专业版",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "status": {
@@ -14614,6 +14649,13 @@
         "original": "Free Forever",
         "singular": "永久免费",
         "plural": "永久免费",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "yearly": {
+        "original": "Yearly",
+        "singular": "每年",
+        "plural": "每年",
         "setupEdit": false,
         "setupVisible": false
       },
@@ -15770,6 +15812,34 @@
             "plural": "",
             "setupEdit": true,
             "setupVisible": false
+          },
+          "sec7": {
+            "original": "Pro Plan",
+            "singular": "专业版计划",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "sec8": {
+            "original": "Next Payment",
+            "singular": "下一个付款",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "sec9": {
+            "original": "Growth Plan",
+            "singular": "增长计划",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "sec10": {
+            "original": "Enterprise Plan",
+            "singular": "企业版计划",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
           }
         },
         "messages": {
@@ -15797,7 +15867,23 @@
           "slaManagement": "SLA 管理",
           "feedbackSurveys": "反馈调查",
           "customEmail": "自定义电子邮件",
-          "customNotificationTemplate": "自定义通知模板"
+          "customNotificationTemplate": "自定义通知模板",
+          "subscriptionRenewMessage": "您的订阅将于以下日期自动续订",
+          "upgradeEnterpriseTitle": "想升级到企业版？",
+          "upgradeEnterpriseContent": "请联系我们的销售团队以协助您完成升级",
+          "cancelPlanTitle": "想取消您的方案？",
+          "cancelPlanContent": "取消方案后，您将不会被收取续订费用，并将在以下日期失去对 FieldEx 的访问权限",
+          "trialEndOn": "您的试用将于以下日期结束",
+          "daysLeftTrial": "试用期剩余天数",
+          "paymentDue": "付款到期",
+          "paymentFailed": "付款失败",
+          "loseExcessMessage": "您将在以下时间失去多余的权限",
+          "days": "天",
+          "planCanceled": "计划已取消",
+          "proPlanCanceledMessage": "您的 Pro 计划已取消。您将在以下日期降级为免费计划",
+          "freePlansMaximumSeats": "免费计划最多支持 5 个席位",
+          "paymentFailedMessage": "付款失败。请更新卡片信息并完成付款以恢复账户访问。",
+          "accountAccessSuspended": "账户访问已被暂停"
         },
         "fields": {
           "setupVisible": false,

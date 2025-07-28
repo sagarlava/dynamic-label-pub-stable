@@ -14095,6 +14095,41 @@
         "plural": "Neem contact op",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "changePlanButton": {
+        "original": "Change Plan",
+        "singular": "Wijzig Abonnement",
+        "plural": "Wijzig Abonnementen",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "managePaymentButton": {
+        "original": "Manage Payment",
+        "singular": "Beheer Betaling",
+        "plural": "Beheer Betalingen",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "contactSalesButton": {
+        "original": "Contact Sales",
+        "singular": "Neem Contact op met Verkoop",
+        "plural": "Neem Contact op met Verkoop",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "cancelPlanButton": {
+        "original": "Cancel Plan",
+        "singular": "Annuleer Abonnement",
+        "plural": "Annuleer Abonnementen",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "upgradeProButton": {
+        "original": "Upgrade to Pro",
+        "singular": "Upgraden naar Pro",
+        "plural": "Upgraden naar Pro",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "status": {
@@ -14614,6 +14649,13 @@
         "original": "Free Forever",
         "singular": "Altijd gratis",
         "plural": "Altijd gratis",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "yearly": {
+        "original": "Yearly",
+        "singular": "Jaarlijks",
+        "plural": "Jaarlijks",
         "setupEdit": false,
         "setupVisible": false
       },
@@ -15770,6 +15812,34 @@
             "plural": "",
             "setupEdit": true,
             "setupVisible": false
+          },
+          "sec7": {
+            "original": "Pro Plan",
+            "singular": "Pro Plan",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "sec8": {
+            "original": "Next Payment",
+            "singular": "Volgende Betaling",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "sec9": {
+            "original": "Growth Plan",
+            "singular": "Groei Plan",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "sec10": {
+            "original": "Enterprise Plan",
+            "singular": "Enterprise Plan",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
           }
         },
         "messages": {
@@ -15797,7 +15867,23 @@
           "slaManagement": "SLA-beheer",
           "feedbackSurveys": "Feedbackenquêtes",
           "customEmail": "Aangepaste e-mail",
-          "customNotificationTemplate": "Aangepaste notificatiesjabloon"
+          "customNotificationTemplate": "Aangepaste notificatiesjabloon",
+          "subscriptionRenewMessage": "Uw abonnement wordt automatisch verlengd op",
+          "upgradeEnterpriseTitle": "Wilt u upgraden naar Enterprise?",
+          "upgradeEnterpriseContent": "Neem contact op met ons verkoopteam om u te helpen bij de upgrade",
+          "cancelPlanTitle": "Wilt u uw abonnement annuleren?",
+          "cancelPlanContent": "Als u uw abonnement annuleert, wordt u niet verlengd en verliest u de toegang tot FieldEx op",
+          "trialEndOn": "Uw proefperiode eindigt op",
+          "daysLeftTrial": "dagen resterend in proefperiode",
+          "paymentDue": "Betaling verschuldigd",
+          "paymentFailed": "Betaling mislukt",
+          "loseExcessMessage": "U verliest overtollige toegang over",
+          "days": "dagen",
+          "planCanceled": "Abonnement geannuleerd",
+          "proPlanCanceledMessage": "Uw Pro-abonnement is geannuleerd. U wordt op de volgende datum teruggezet naar een gratis plan",
+          "freePlansMaximumSeats": "Gratis abonnementen hebben maximaal 5 gebruikers",
+          "paymentFailedMessage": "Betaling mislukt. Werk uw kaartgegevens bij en voltooi de betaling om toegang tot uw account te herstellen.",
+          "accountAccessSuspended": "Toegang tot account opgeschort"
         },
         "fields": {
           "setupVisible": false,

@@ -14096,6 +14096,41 @@
         "plural": "Contáctanos",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "changePlanButton": {
+        "original": "Change Plan",
+        "singular": "Cambiar Plan",
+        "plural": "Cambiar Planes",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "managePaymentButton": {
+        "original": "Manage Payment",
+        "singular": "Gestionar Pago",
+        "plural": "Gestionar Pagos",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "contactSalesButton": {
+        "original": "Contact Sales",
+        "singular": "Contactar con Ventas",
+        "plural": "Contactar con Ventas",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "cancelPlanButton": {
+        "original": "Cancel Plan",
+        "singular": "Cancelar Plan",
+        "plural": "Cancelar Planes",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "upgradeProButton": {
+        "original": "Upgrade to Pro",
+        "singular": "Actualizar a Pro",
+        "plural": "Actualizar a Pro",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "status": {
@@ -14615,6 +14650,13 @@
         "original": "Free Forever",
         "singular": "Gratis para siempre",
         "plural": "Gratis para siempre",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "yearly": {
+        "original": "Yearly",
+        "singular": "Anual",
+        "plural": "Anual",
         "setupEdit": false,
         "setupVisible": false
       },
@@ -15771,6 +15813,34 @@
             "plural": "",
             "setupEdit": true,
             "setupVisible": false
+          },
+          "sec7": {
+            "original": "Pro Plan",
+            "singular": "Plan Pro",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "sec8": {
+            "original": "Next Payment",
+            "singular": "Próximo Pago",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "sec9": {
+            "original": "Growth Plan",
+            "singular": "Plan de Crecimiento",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "sec10": {
+            "original": "Enterprise Plan",
+            "singular": "Plan Empresarial",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
           }
         },
         "messages": {
@@ -15798,7 +15868,23 @@
           "slaManagement": "Gestión de SLA",
           "feedbackSurveys": "Encuestas de retroalimentación",
           "customEmail": "Correo electrónico personalizado",
-          "customNotificationTemplate": "Plantilla de notificación personalizada"
+          "customNotificationTemplate": "Plantilla de notificación personalizada",
+          "subscriptionRenewMessage": "Tu suscripción se renovará automáticamente el",
+          "upgradeEnterpriseTitle": "¿Deseas actualizar a Enterprise?",
+          "upgradeEnterpriseContent": "Ponte en contacto con nuestro equipo de ventas para ayudarte con la actualización",
+          "cancelPlanTitle": "¿Deseas cancelar tu plan?",
+          "cancelPlanContent": "Al cancelar tu plan, no se te cobrará la renovación y perderás el acceso a FieldEx el",
+          "trialEndOn": "Tu prueba terminará el",
+          "daysLeftTrial": "días restantes en la prueba",
+          "paymentDue": "Pago pendiente",
+          "paymentFailed": "Pago fallido",
+          "loseExcessMessage": "Perderás el exceso en",
+          "days": "días",
+          "planCanceled": "Plan cancelado",
+          "proPlanCanceledMessage": "Tu plan Pro ha sido cancelado. Serás degradado a un plan gratuito el",
+          "freePlansMaximumSeats": "Los planes gratuitos tienen un máximo de 5 usuarios",
+          "paymentFailedMessage": "Pago fallido. Por favor actualiza los datos de tu tarjeta y realiza el pago para habilitar el acceso a tu cuenta.",
+          "accountAccessSuspended": "Acceso a la cuenta suspendido"
         },
         "fields": {
           "setupVisible": false,

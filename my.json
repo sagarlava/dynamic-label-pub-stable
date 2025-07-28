@@ -14095,6 +14095,41 @@
         "plural": "Hubungi Kami",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "changePlanButton": {
+        "original": "Change Plan",
+        "singular": "Tukar Pelan",
+        "plural": "Tukar Pelan-Pelan",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "managePaymentButton": {
+        "original": "Manage Payment",
+        "singular": "Urus Pembayaran",
+        "plural": "Urus Pembayaran",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "contactSalesButton": {
+        "original": "Contact Sales",
+        "singular": "Hubungi Jualan",
+        "plural": "Hubungi Jualan",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "cancelPlanButton": {
+        "original": "Cancel Plan",
+        "singular": "Batalkan Pelan",
+        "plural": "Batalkan Pelan-Pelan",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "upgradeProButton": {
+        "original": "Upgrade to Pro",
+        "singular": "Naik Taraf ke Pro",
+        "plural": "Naik Taraf ke Pro",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "status": {
@@ -14614,6 +14649,13 @@
         "original": "Free Forever",
         "singular": "Percuma Selamanya",
         "plural": "Percuma Selamanya",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "yearly": {
+        "original": "Yearly",
+        "singular": "Tahunan",
+        "plural": "Tahunan",
         "setupEdit": false,
         "setupVisible": false
       },
@@ -15770,6 +15812,34 @@
             "plural": "",
             "setupEdit": true,
             "setupVisible": false
+          },
+          "sec7": {
+            "original": "Pro Plan",
+            "singular": "Pelan Pro",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "sec8": {
+            "original": "Next Payment",
+            "singular": "Bayaran Seterusnya",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "sec9": {
+            "original": "Growth Plan",
+            "singular": "Pelan Pertumbuhan",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "sec10": {
+            "original": "Enterprise Plan",
+            "singular": "Pelan Perusahaan",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
           }
         },
         "messages": {
@@ -15797,7 +15867,23 @@
           "slaManagement": "Pengurusan SLA",
           "feedbackSurveys": "Tinjauan maklum balas",
           "customEmail": "E-mel tersuai",
-          "customNotificationTemplate": "Templat pemberitahuan tersuai"
+          "customNotificationTemplate": "Templat pemberitahuan tersuai",
+          "subscriptionRenewMessage": "Langganan anda akan diperbaharui secara automatik pada",
+          "upgradeEnterpriseTitle": "Ingin naik taraf ke Enterprise?",
+          "upgradeEnterpriseContent": "Hubungi pasukan jualan kami untuk membantu anda membuat naik taraf",
+          "cancelPlanTitle": "Ingin batalkan pelan anda?",
+          "cancelPlanContent": "Dengan membatalkan pelan anda, anda tidak akan dicaj untuk pembaharuan dan akan kehilangan akses ke FieldEx pada",
+          "trialEndOn": "Percubaan anda akan tamat pada",
+          "daysLeftTrial": "hari baki dalam percubaan",
+          "paymentDue": "Bayaran perlu dibuat",
+          "paymentFailed": "Bayaran gagal",
+          "loseExcessMessage": "Anda akan kehilangan akses tambahan dalam",
+          "days": "hari",
+          "planCanceled": "Pelan Dibatalkan",
+          "proPlanCanceledMessage": "Pelan Pro anda telah dibatalkan. Anda akan diturunkan ke pelan percuma pada",
+          "freePlansMaximumSeats": "Pelan percuma hanya membenarkan maksimum 5 tempat duduk",
+          "paymentFailedMessage": "Bayaran gagal. Sila kemas kini maklumat kad dan lakukan bayaran untuk mengaktifkan semula akses akaun.",
+          "accountAccessSuspended": "Akses akaun digantung"
         },
         "fields": {
           "setupVisible": false,
