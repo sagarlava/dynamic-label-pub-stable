@@ -13990,6 +13990,41 @@
         "plural": "免费培训课程",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "bookDemoButton": {
+        "original": "Book a Demo Now",
+        "singular": "立即预约演示",
+        "plural": "立即预约多个演示",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "createAssetButton": {
+        "original": "Create Asset",
+        "singular": "创建资产",
+        "plural": "创建多个资产",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "importAssetButton": {
+        "original": "Import Assets",
+        "singular": "导入资产",
+        "plural": "导入资产",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "createWorkOrderButton": {
+        "original": "Create Work Order",
+        "singular": "创建工单",
+        "plural": "创建多个工单",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "inviteTeamButton": {
+        "original": "Invite Team",
+        "singular": "邀请团队",
+        "plural": "邀请多个团队",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "status": {
@@ -26359,7 +26394,33 @@
         "notificationLabelTitle":"设置通知和标签",
         "notificationLabelContent":"配置通知和标签，使 FieldEx 使用起来更舒适",
         "needHelp": "需要帮助？",
-        "needHelpText": "我们希望您尽快开始使用。如果您希望进行免费培训课程或在开始使用时遇到任何问题，请联系我们。我们随时准备提供帮助。"
+        "needHelpText": "我们希望您尽快开始使用。如果您希望进行免费培训课程或在开始使用时遇到任何问题，请联系我们。我们随时准备提供帮助。",
+        "bookDemoTitle": "预约演示会话",
+        "bookDemoDescription": "与我们的产品专家预约会议，免费了解如何最大限度提高现场运营效率。",
+        "watchIntroVedio": "观看此快速概览，了解 FieldEx 如何帮助您简化运营流程。",
+        "manualCreateAssetTitle": "手动创建或导入您的资产",
+        "manualCreateAssetContent": "创建您的第一个资产以熟悉流程，或使用 CSV 文件一次导入多个资产。",
+        "manualCreateAssetDownloadLink": "下载资产模板",
+        "manualCreateAssetDownloadText": "以查看所需格式",
+        "mandatoryFieldsTitle": "必填字段",
+        "mandatoryFieldsContent": "填写标有（",
+        "mandatoryFieldsContentAsset": "）的必填字段以创建您的资产。",
+        "configureAssetDetailsTitle": "配置资产详情",
+        "configureAssetDetailsContent": "添加资产规格、所有权和位置信息以便追踪。",
+        "reviewSaveTitle": "审核并保存",
+        "reviewSaveAsset": "在创建资产之前请确认所有信息均正确。",
+        "createWorkOrderTitle": "创建您的第一个工单",
+        "createWorkOrderContent": "设置工单以将任务分配给您的团队成员。工单有助于跟踪工作进度、管理资源，并确保没有遗漏任何内容。",
+        "mandatoryFieldsContentWorkOrder": "）以创建您的工单。",
+        "configureWorkOrderDetailsTitle": "配置工单详情",
+        "configureWorkOrderDetailsContent": "添加工单规格、资产和位置信息以进行追踪。",
+        "reviewSaveWorkOrder": "在创建工单之前请确认所有信息均正确。",
+        "inviteYourTeamContent": "顺畅的运营始于强大的团队。邀请您的经理、计划员和技术人员来：",
+        "inviteTeamManagement": "管理用户、资产和设置",
+        "inviteTeamHandle": "在一个地方处理团队的日程和工作量",
+        "inviteTeamUpdate": "通过跟踪工作进度保持信息更新",
+        "learnMoreTitle": "了解 FieldEx",
+        "learnMoreContent": "初次使用 FieldEx？我们提供一切帮助您快速上手。"
       },
       "validationFE":{
         "onlyCsvFilesAllowed": "只能上传 CSV 文件",

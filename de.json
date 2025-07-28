@@ -13990,6 +13990,41 @@
         "plural": "Gratis trainingen",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "bookDemoButton": {
+        "original": "Book a Demo Now",
+        "singular": "Boek Nu een Demo",
+        "plural": "Boek Nu Demo’s",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "createAssetButton": {
+        "original": "Create Asset",
+        "singular": "Maak Asset aan",
+        "plural": "Maak Meerdere Assets aan",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "importAssetButton": {
+        "original": "Import Assets",
+        "singular": "Importeer Assets",
+        "plural": "Importeer Assets",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "createWorkOrderButton": {
+        "original": "Create Work Order",
+        "singular": "Maak Werkopdracht aan",
+        "plural": "Maak Werkopdrachten aan",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "inviteTeamButton": {
+        "original": "Invite Team",
+        "singular": "Nodig Team uit",
+        "plural": "Nodig Teams uit",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "status": {
@@ -26358,7 +26393,33 @@
         "notificationLabelTitle":"Stel meldingen en labels in",
         "notificationLabelContent":"Configureer meldingen en labels om FieldEx prettig in gebruik te maken",
         "needHelp": "Hulp nodig?",
-        "needHelpText": "We willen dat je zo snel mogelijk aan de slag kunt. Als je een gratis trainingssessie wilt of problemen hebt met beginnen, neem dan contact met ons op. We staan altijd klaar om te helpen."
+        "needHelpText": "We willen dat je zo snel mogelijk aan de slag kunt. Als je een gratis trainingssessie wilt of problemen hebt met beginnen, neem dan contact met ons op. We staan altijd klaar om te helpen.",
+        "bookDemoTitle": "Boek een demosessie",
+        "bookDemoDescription": "Boek een sessie met onze productspecialisten en leer gratis hoe je de efficiëntie van je veldoperaties kunt maximaliseren.",
+        "watchIntroVedio": "Bekijk dit korte overzicht om te begrijpen hoe FieldEx je kan helpen je operaties te stroomlijnen.",
+        "manualCreateAssetTitle": "Maak uw assets handmatig aan of importeer ze",
+        "manualCreateAssetContent": "Maak uw eerste asset aan om vertrouwd te raken met het proces, of importeer meerdere assets tegelijk met een CSV-bestand.",
+        "manualCreateAssetDownloadLink": "Download assetsjabloon",
+        "manualCreateAssetDownloadText": "om het vereiste formaat te bekijken",
+        "mandatoryFieldsTitle": "Verplichte velden",
+        "mandatoryFieldsContent": "Vul verplichte velden in gemarkeerd met (",
+        "mandatoryFieldsContentAsset": ") om uw asset aan te maken.",
+        "configureAssetDetailsTitle": "Configureer assetdetails",
+        "configureAssetDetailsContent": "Voeg specificaties, eigendom en locatie-informatie toe voor tracking.",
+        "reviewSaveTitle": "Controleer & Opslaan",
+        "reviewSaveAsset": "Controleer of alle informatie correct is voordat u uw asset aanmaakt.",
+        "createWorkOrderTitle": "Maak uw eerste werkorder aan",
+        "createWorkOrderContent": "Stel een werkorder in om taken toe te wijzen aan uw teamleden. Werkorders helpen u om de voortgang van taken bij te houden, middelen te beheren en ervoor te zorgen dat er niets over het hoofd wordt gezien.",
+        "mandatoryFieldsContentWorkOrder": ") om uw werkorders aan te maken.",
+        "configureWorkOrderDetailsTitle": "Configureer werkorderdetails",
+        "configureWorkOrderDetailsContent": "Voeg specificaties, assets en locatiegegevens toe voor tracking.",
+        "reviewSaveWorkOrder": "Controleer of alle informatie correct is voordat u uw werkorder aanmaakt.",
+        "inviteYourTeamContent": "Een soepele operatie begint met een sterk team. Nodig uw managers, planners en technici uit om:",
+        "inviteTeamManagement": "Gebruikers, assets en instellingen beheren",
+        "inviteTeamHandle": "Beheer teamschema’s en werklast op één plek",
+        "inviteTeamUpdate": "Blijf op de hoogte door de voortgang van taken te volgen",
+        "learnMoreTitle": "Leer FieldEx kennen",
+        "learnMoreContent": "Nieuw bij FieldEx? We hebben alles wat je nodig hebt om snel aan de slag te gaan."
       },
       "validationFE":{
         "onlyCsvFilesAllowed": "Nur CSV-Dateien können hochgeladen werden",

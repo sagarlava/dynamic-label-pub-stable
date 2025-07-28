@@ -13990,6 +13990,41 @@
         "plural": "Latihan-Latihan Percuma",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "bookDemoButton": {
+        "original": "Book a Demo Now",
+        "singular": "Tempah Demo Sekarang",
+        "plural": "Tempah Beberapa Demo Sekarang",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "createAssetButton": {
+        "original": "Create Asset",
+        "singular": "Cipta Aset",
+        "plural": "Cipta Aset-aset",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "importAssetButton": {
+        "original": "Import Assets",
+        "singular": "Import Aset",
+        "plural": "Import Aset-aset",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "createWorkOrderButton": {
+        "original": "Create Work Order",
+        "singular": "Cipta Perintah Kerja",
+        "plural": "Cipta Beberapa Perintah Kerja",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "inviteTeamButton": {
+        "original": "Invite Team",
+        "singular": "Jemput Pasukan",
+        "plural": "Jemput Beberapa Pasukan",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "status": {
@@ -26358,7 +26393,33 @@
         "notificationLabelTitle":"Sediakan Pemberitahuan & Label",
         "notificationLabelContent":"Konfigurasikan pemberitahuan dan label supaya penggunaan FieldEx lebih selesa",
         "needHelp": "Perlukan Bantuan?",
-        "needHelpText": "Kami mahu anda bermula secepat mungkin. Jika anda ingin sesi latihan percuma atau menghadapi sebarang masalah untuk bermula, hubungi kami. Kami sentiasa sedia membantu."
+        "needHelpText": "Kami mahu anda bermula secepat mungkin. Jika anda ingin sesi latihan percuma atau menghadapi sebarang masalah untuk bermula, hubungi kami. Kami sentiasa sedia membantu.",
+        "bookDemoTitle": "Tempah Sesi Demo",
+        "bookDemoDescription": "Tempah sesi bersama pakar produk kami dan pelajari cara untuk memaksimumkan kecekapan operasi lapangan anda secara percuma.",
+        "watchIntroVedio": "Tonton video ringkas ini untuk memahami bagaimana FieldEx dapat membantu menyelaraskan operasi anda.",
+        "manualCreateAssetTitle": "Cipta atau import Aset anda secara manual",
+        "manualCreateAssetContent": "Cipta aset pertama anda untuk membiasakan diri dengan proses ini, atau import beberapa aset sekaligus menggunakan fail CSV.",
+        "manualCreateAssetDownloadLink": "Muat Turun Templat Aset",
+        "manualCreateAssetDownloadText": "untuk melihat format yang diperlukan",
+        "mandatoryFieldsTitle": "Medan Wajib",
+        "mandatoryFieldsContent": "Lengkapkan medan wajib yang ditandakan dengan (",
+        "mandatoryFieldsContentAsset": ") untuk mencipta aset anda.",
+        "configureAssetDetailsTitle": "Konfigurasikan Butiran Aset",
+        "configureAssetDetailsContent": "Tambah spesifikasi aset, pemilikan, dan maklumat lokasi untuk penjejakan.",
+        "reviewSaveTitle": "Semak & Simpan",
+        "reviewSaveAsset": "Sahkan semua maklumat adalah betul sebelum mencipta aset anda.",
+        "createWorkOrderTitle": "Cipta Pesanan Kerja Pertama Anda",
+        "createWorkOrderContent": "Sediakan pesanan kerja untuk menetapkan tugasan kepada ahli pasukan anda. Pesanan kerja membantu anda menjejaki kemajuan kerja, mengurus sumber, dan memastikan tiada perkara yang terlepas.",
+        "mandatoryFieldsContentWorkOrder": ") untuk mencipta pesanan kerja anda.",
+        "configureWorkOrderDetailsTitle": "Konfigurasikan Butiran Pesanan Kerja",
+        "configureWorkOrderDetailsContent": "Tambah spesifikasi pesanan kerja, aset, dan maklumat lokasi untuk penjejakan.",
+        "reviewSaveWorkOrder": "Sahkan semua maklumat adalah betul sebelum mencipta pesanan kerja anda.",
+        "inviteYourTeamContent": "Operasi yang lancar bermula dengan pasukan yang kukuh. Jemput pengurus, perancang dan juruteknik anda untuk:",
+        "inviteTeamManagement": "Urus pengguna, aset dan tetapan",
+        "inviteTeamHandle": "Urus jadual dan beban kerja pasukan di satu tempat",
+        "inviteTeamUpdate": "Sentiasa dikemas kini dengan menjejak kemajuan tugasan",
+        "learnMoreTitle": "Ketahui FieldEx",
+        "learnMoreContent": "Baru dengan FieldEx? Kami sediakan semua yang anda perlukan untuk bermula dengan pantas."
       },
       "validationFE":{
         "onlyCsvFilesAllowed": "Hanya fail CSV sahaja yang boleh dimuat naik",

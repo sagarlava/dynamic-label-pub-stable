@@ -13991,6 +13991,41 @@
         "plural": "Capacitaciones gratuitas",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "bookDemoButton": {
+        "original": "Book a Demo Now",
+        "singular": "Reserva una Demostración Ahora",
+        "plural": "Reserva Demostraciones Ahora",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "createAssetButton": {
+        "original": "Create Asset",
+        "singular": "Crear Activo",
+        "plural": "Crear Activos",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "importAssetButton": {
+        "original": "Import Assets",
+        "singular": "Importar Activos",
+        "plural": "Importar Activos",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "createWorkOrderButton": {
+        "original": "Create Work Order",
+        "singular": "Crear Orden de Trabajo",
+        "plural": "Crear Órdenes de Trabajo",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "inviteTeamButton": {
+        "original": "Invite Team",
+        "singular": "Invitar al Equipo",
+        "plural": "Invitar a los Equipos",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "status": {
@@ -26359,7 +26394,33 @@
         "notificationLabelTitle":"Configura notificaciones y etiquetas",
         "notificationLabelContent":"Configura notificaciones y etiquetas para que FieldEx sea más cómodo de usar",
         "needHelp": "¿Necesitas ayuda?",
-        "needHelpText": "Queremos que empieces a usarlo lo antes posible. Si deseas una sesión de capacitación gratuita o tienes algún problema para comenzar, contáctanos. Siempre estamos listos para ayudarte."
+        "needHelpText": "Queremos que empieces a usarlo lo antes posible. Si deseas una sesión de capacitación gratuita o tienes algún problema para comenzar, contáctanos. Siempre estamos listos para ayudarte.",
+        "bookDemoTitle": "Reservar una sesión de demostración",
+        "bookDemoDescription": "Reserva una sesión con nuestros especialistas en productos y aprende a maximizar la eficiencia de tus operaciones en campo, sin costo alguno.",
+        "watchIntroVedio": "Mira este breve resumen para entender cómo FieldEx puede ayudarte a optimizar tus operaciones.",
+        "manualCreateAssetTitle": "Cree o importe manualmente sus activos",
+        "manualCreateAssetContent": "Cree su primer activo para familiarizarse con el proceso o importe varios activos a la vez usando un archivo CSV.",
+        "manualCreateAssetDownloadLink": "Descargar plantilla de activo",
+        "manualCreateAssetDownloadText": "para ver el formato requerido",
+        "mandatoryFieldsTitle": "Campos obligatorios",
+        "mandatoryFieldsContent": "Complete los campos obligatorios marcados con (",
+        "mandatoryFieldsContentAsset": ") para crear su activo.",
+        "configureAssetDetailsTitle": "Configurar detalles del activo",
+        "configureAssetDetailsContent": "Agregue especificaciones del activo, propiedad e información de ubicación para su seguimiento.",
+        "reviewSaveTitle": "Revisar y guardar",
+        "reviewSaveAsset": "Verifique que toda la información sea correcta antes de crear su activo.",
+        "createWorkOrderTitle": "Cree su primera orden de trabajo",
+        "createWorkOrderContent": "Configure una orden de trabajo para asignar tareas a los miembros de su equipo. Las órdenes de trabajo le ayudan a seguir el progreso, gestionar recursos y asegurarse de que nada se pase por alto.",
+        "mandatoryFieldsContentWorkOrder": ") para crear sus órdenes de trabajo.",
+        "configureWorkOrderDetailsTitle": "Configurar detalles de la orden de trabajo",
+        "configureWorkOrderDetailsContent": "Agregue especificaciones de la orden de trabajo, activos e información de ubicación para su seguimiento.",
+        "reviewSaveWorkOrder": "Verifique que toda la información sea correcta antes de crear su orden de trabajo.",
+        "inviteYourTeamContent": "Las operaciones fluidas comienzan con un equipo sólido. Invite a sus gerentes, planificadores y técnicos a:",
+        "inviteTeamManagement": "Gestionar usuarios, activos y configuraciones",
+        "inviteTeamHandle": "Gestionar horarios y cargas de trabajo del equipo en un solo lugar",
+        "inviteTeamUpdate": "Manténgase actualizado siguiendo el progreso de los trabajos",
+        "learnMoreTitle": "Aprende sobre FieldEx",
+        "learnMoreContent": "¿Nuevo en FieldEx? Tenemos todo lo que necesitas para comenzar rápidamente."
       },
       "validationFE":{
         "onlyCsvFilesAllowed": "Solo se pueden subir archivos CSV",
