@@ -24499,7 +24499,8 @@
       "circularDependencyOnSupervisor": "Circular dependency : Two users cannot be each other's approval managers",
       "noDownLineFound": "You do not have any staff assigned",
       "unableToActiveOwnAccount": "You are not allowed to suspend or deactivate your own account",
-      "unableToDeActiveDefaultMember": "Cannot deactivate: User is a default member of one or more groups."
+      "unableToDeActiveDefaultMember": "Cannot deactivate: User is a default member of one or more groups.",
+      "minimumOneBillingUser": "At least One user must be kept as billing user"
     }
   },
   "note": {

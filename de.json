@@ -24499,7 +24499,8 @@
       "circularDependencyOnSupervisor": "Zirkuläre Abhängigkeit: Zwei Benutzer können nicht gegenseitig die Genehmigungsmanager sein",
       "noDownLineFound": "Sie haben keine zugewiesenen Mitarbeiter",
       "unableToActiveOwnAccount": "Sie dürfen Ihr eigenes Konto nicht sperren oder deaktivieren",
-      "unableToDeActiveDefaultMember": "Kann nicht deaktiviert werden: Benutzer ist ein Standardmitglied einer oder mehrerer Gruppen."
+      "unableToDeActiveDefaultMember": "Kann nicht deaktiviert werden: Benutzer ist ein Standardmitglied einer oder mehrerer Gruppen.",
+      "minimumOneBillingUser": "Mindestens ein Benutzer muss als Abrechnungsbenutzer behalten werden"
     }
   },
   "note": {
