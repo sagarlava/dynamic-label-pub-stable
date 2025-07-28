@@ -14025,6 +14025,76 @@
         "plural": "Invite Teams",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "inviteButton":{
+        "original": "Invite",
+        "singular": "Invite",
+        "plural": "Invite",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "changeButton":{
+        "original": "Change",
+        "singular": "Change",
+        "plural": "Change",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "ignoreButton":{
+        "original": "Ignore",
+        "singular": "Ignore",
+        "plural": "Ignore",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "resetButton":{
+        "original": "Reset",
+        "singular": "Invite",
+        "plural": "Invite",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "addAnotherStatusButton":{
+        "original": "Add another status",
+        "singular": "Add another status",
+        "plural": "Add another statuses",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "addAnotherFaultButton":{
+        "original": "Add another fault",
+        "singular": "Add another fault",
+        "plural": "Add another faults",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "addAnotherResolutionButton":{
+        "original": "Add another resolution",
+        "singular": "Add another resolution",
+        "plural": "Add another resolutions",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "upgradeButton":{
+        "original": "Upgrade",
+        "singular": "Upgrade",
+        "plural": "Upgrades",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "14DayProTrialButton":{
+        "original": "14-Day Pro Trial",
+        "singular": "14-Day Pro Trial",
+        "plural": "14-Day Pro Trials",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "contactUsButton":{
+        "original": "Contact Us",
+        "singular": "Contact Us",
+        "plural": "Contact Us",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "status": {
@@ -14540,6 +14610,13 @@
         "setupEdit": false,
         "setupVisible": false
       },
+      "freeForever": {
+        "original": "Free Forever",
+        "singular": "Free Forever",
+        "plural": "Free Forever",
+        "setupEdit": false,
+        "setupVisible": false
+      },
       "messages":{
         "forIncompleteChecklists": "For incomplete checklists to be updated in the future. No Jobs or Tasks will be triggered using this status",
         "thisStatusWillTriggerAnyJobOrders": "This status will trigger any Job Orders and Tasks related to this checklist's answers",
@@ -14723,7 +14800,7 @@
       "noHistoryAvailable" : "No history available. Your activity will appear here.",
       "noAttachmentsFoundUploadFiles": "No attachments found. Upload files to see them here.",
       "nothingToApprove" : "Nothing to approve. All items are up to date.",
-      "noRecordsAvailable" : "No records available.",
+      "noRecordsAvailable" : "No Records Available.",
       "noMessagesYet" : "No messages yet. Start a conversation to see your messages here.",
       "noNotificationsYet" : "No notifications yet. You’re all caught up!",
       "noFormsAvailable" : "No forms available.",
@@ -14754,7 +14831,9 @@
       "tip":"Tip",
       "tips":"Tips",
       "makeFilterSelections":"Make filter selections to locate assets",
-      "confirmation":"Confirmation"
+      "confirmation":"Confirmation",
+      "emailPlaceholder":"Enter email here...",
+      "selectRole":"Select a Role"
     },
     "currency":{
       "australianDollar": "AUD",
@@ -15677,10 +15756,72 @@
             "plural": "",
             "setupEdit": true,
             "setupVisible": false
+          },
+          "sec5": {
+            "original": "Billing Details",
+            "singular": "Billing Details",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "sec6": {
+            "original": "Lite Plan",
+            "singular": "Lite Plan",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
           }
         },
         "messages": {
-          "requestSentSuccessfully": "Request sent successfully"
+          "requestSentSuccessfully": "Request sent successfully",
+          "litePlanMessage":"Upgrade anytime to unlock advanced features.",
+          "seatsInUseLite":"5/5 seats in use",
+          "monthly":"Monthly",
+          "yearly":"Yearly (30% off)",
+          "usersAbove":"6 users and above",
+          "largerTeams":"For larger teams",
+          "memberMonth":"per member / month",
+          "litePlusListTitle":"Everything in Lite, plus:",
+          "growthPlusListTitle":"Everything in Growth, plus:",
+          "proPlusListTitle":"Everything in Pro, plus:",
+          "siteManagement":"Site management",
+          "projectManagement":"Project management",
+          "dedicatedSupport":"Dedicated support",
+          "preventiveMaintenance":"Preventative maintenance",
+          "assetAnalyticMeterLog":"Asset analytics & meter logs",
+          "inventoryStockControl":"Inventory and stock control",
+          "customWorkflows":"Custom workflows",
+          "apiIntegration":"API integration",
+          "assetRequisitionWorkflows":"Asset requisition workflows",
+          "fieldexIntelligence":"FieldEx Intelligence",
+          "slaManagement":"SLA management",
+          "feedbackSurveys":"Feedback surveys",
+          "customEmail":"Custom email",
+          "customNotificationTemplate":"Custom notification template"
+        },
+        "fields": {
+          "setupVisible": false,
+          "growth": {
+            "original": "Growth",
+            "singular": "Growth",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "pro":{
+            "original": "Pro",
+            "singular": "Pro",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "enterprise":{
+            "original": "Enterprise",
+            "singular": "Enterprise",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          }
         }
       },
       "workingHours": {
@@ -17108,6 +17249,13 @@
             "original": "Default Language",
             "singular": "Default Language",
             "plural": "Default Languages",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "billingUser":{
+            "original": "Is Billing User",
+            "singular": "Is Billing User",
+            "plural": "Is Billing Users",
             "setupEdit": true,
             "setupVisible": false
           }
@@ -26202,6 +26350,13 @@
           "plural": "Invite Your Team",
           "setupEdit": false,
           "setupVisible": false
+        },
+        "sec6": {
+          "original": "Invite your team to FieldEx",
+          "singular": "Invite your team to FieldEx",
+          "plural": "Invite your teams to FieldEx",
+          "setupEdit": false,
+          "setupVisible": false
         }
       },
       "fields":{
@@ -26419,7 +26574,33 @@
         "inviteTeamHandle":"Handle team schedules and workloads in one place",
         "inviteTeamUpdate":"Keep yourself updated by tracking job progress",
         "learnMoreTitle":"Learn FieldEx",
-        "learnMoreContent":"New to FieldEx? We’ve got everything to help you get started, fast."
+        "learnMoreContent":"New to FieldEx? We’ve got everything to help you get started, fast.",
+        "noTeamMember":"No team members yet",
+        "uploadData":"Upload Data",
+        "importFile":"Import File",
+        "orBrowseFile":"or click to browse and select your file",
+        "csvSizeCondition":"Accepts .csv files up to 10MB • Maximum 200 assets per import",
+        "mapColumns":"Map Your Columns",
+        "yourColumn":"YOUR COLUMN",
+        "fieldexField":"FIELDEX FIELD",
+        "belowColumnNameStepDescription":"Below you’ll see the column names from your file. We’ve matched some of them to FieldEx fields for you",
+        "percentageValueOfField":"% of your rows have a value for this field",
+        "configureDropdowns":"Configure Drop-downs",
+        "assetStatuses":"Asset Statuses",
+        "customizeDropdownOption":"Customize drop-down options. You can rename existing options, remove unused ones, or keep the default values. Any new values found in your imported file will be automatically added to the relevant drop-downs.",
+        "detectedImportFile":"Detected from import file",
+        "reviewConfirmTitle":"Review & Confirm",
+        "columnsToBeImported":"Columns to be imported",
+        "columnsToBeIgnored":"Columns to be ignored",
+        "recordsToBeAdded":"Records to be added",
+        "confirmMatchFields":"Confirm matched fields",
+        "ignoreUnmappedFields":"Ignore unmapped fields",
+        "reset":"Reset",
+        "dowmloadWorkOrderTemplate":"Download Work Order Template",
+        "workOrderStatuses":"Work Order Statuses",
+        "workOrderTypes":"Work Order Types",
+        "workOrderFaults":"Work Order Faults",
+        "workOrderResolutions":"Work Order Resolutions"
       },
       "validationFE":{
         "onlyCsvFilesAllowed": "Only CSV files can be uploaded",
