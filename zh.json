@@ -14025,6 +14025,104 @@
         "plural": "邀请多个团队",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "inviteButton": {
+        "original": "Invite",
+        "singular": "邀请",
+        "plural": "邀请",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "changeButton": {
+        "original": "Change",
+        "singular": "更改",
+        "plural": "更改",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "ignoreButton": {
+        "original": "Ignore",
+        "singular": "忽略",
+        "plural": "忽略",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "addAnotherStatusButton": {
+        "original": "Add another status",
+        "singular": "添加另一个状态",
+        "plural": "添加另一些状态",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "addAnotherFaultButton": {
+        "original": "Add another fault",
+        "singular": "添加另一个故障",
+        "plural": "添加另一些故障",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "addAnotherResolutionButton": {
+        "original": "Add another resolution",
+        "singular": "添加另一个解决方案",
+        "plural": "添加另一些解决方案",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "upgradeButton": {
+        "original": "Upgrade",
+        "singular": "升级",
+        "plural": "升级",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "14DayProTrialButton": {
+        "original": "14-Day Pro Trial",
+        "singular": "14天专业版试用",
+        "plural": "14天专业版试用",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "contactUsButton": {
+        "original": "Contact Us",
+        "singular": "联系我们",
+        "plural": "联系我们",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "changePlanButton": {
+        "original": "Change Plan",
+        "singular": "更改方案",
+        "plural": "更改多个方案",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "managePaymentButton": {
+        "original": "Manage Payment",
+        "singular": "管理付款",
+        "plural": "管理多个付款",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "contactSalesButton": {
+        "original": "Contact Sales",
+        "singular": "联系销售",
+        "plural": "联系销售",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "cancelPlanButton": {
+        "original": "Cancel Plan",
+        "singular": "取消方案",
+        "plural": "取消多个方案",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "upgradeProButton": {
+        "original": "Upgrade to Pro",
+        "singular": "升级到专业版",
+        "plural": "升级到专业版",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "status": {
@@ -14540,6 +14638,34 @@
         "setupEdit": false,
         "setupVisible": false
       },
+      "freeForever": {
+        "original": "Free Forever",
+        "singular": "永久免费",
+        "plural": "永久免费",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "yearly": {
+        "original": "Yearly",
+        "singular": "每年",
+        "plural": "每年",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "paymentFailed": {
+        "original": "Payment failed",
+        "singular": "付款失败",
+        "plural": "付款失败",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "paymentIssueDetected": {
+        "original": "Payment issue detected",
+        "singular": "检测到付款问题",
+        "plural": "检测到多个付款问题",
+        "setupEdit": false,
+        "setupVisible": false
+      },
       "messages": {
         "forIncompleteChecklists": "未来将更新未完成的清单。不会使用此状态触发任何工作或任务",
         "thisStatusWillTriggerAnyJobOrders": "此状态将触发与该清单答案相关的任何工作订单和任务",
@@ -14754,7 +14880,9 @@
       "tip":"提示",
       "tips":"提示",
       "makeFilterSelections":"进行筛选以定位资产",
-      "confirmation":"确认"
+      "confirmation":"确认",
+      "emailPlaceholder": "请输入电子邮件...",
+      "selectRole": "选择一个角色"
     },
     "currency": {
       "australianDollar": "AUD",
@@ -15677,10 +15805,118 @@
             "plural": "",
             "setupEdit": true,
             "setupVisible": false
+          },
+          "sec5": {
+            "original": "Billing Details",
+            "singular": "账单详情",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec6": {
+            "original": "Lite Plan",
+            "singular": "轻量计划",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec7": {
+            "original": "Pro Plan",
+            "singular": "专业版计划",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec8": {
+            "original": "Next Payment",
+            "singular": "下一个付款",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec9": {
+            "original": "Growth Plan",
+            "singular": "增长计划",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec10": {
+            "original": "Enterprise Plan",
+            "singular": "企业版计划",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": false
           }
         },
         "messages": {
-          "requestSentSuccessfully": "请求已成功发送"
+          "requestSentSuccessfully": "请求已成功发送",
+          "litePlanMessage": "随时升级以解锁高级功能。",
+          "seatsInUseLite": "个席位已使用",
+          "monthly": "每月",
+          "yearly": "每年（优惠 30%）",
+          "usersAbove": "6 位用户及以上",
+          "largerTeams": "适用于更大的团队",
+          "memberMonth": "每位成员 / 每月",
+          "litePlusListTitle": "Lite 套餐的所有功能，另加：",
+          "growthPlusListTitle": "Growth 套餐的所有功能，另加：",
+          "proPlusListTitle": "Pro 套餐的所有功能，另加：",
+          "siteManagement": "站点管理",
+          "projectManagement": "项目管理",
+          "dedicatedSupport": "专属支持",
+          "preventiveMaintenance": "预防性维护",
+          "assetAnalyticMeterLog": "资产分析和计量日志",
+          "inventoryStockControl": "库存和存货控制",
+          "customWorkflows": "自定义工作流程",
+          "apiIntegration": "API 集成",
+          "assetRequisitionWorkflows": "资产申请工作流程",
+          "fieldexIntelligence": "FieldEx 智能分析",
+          "slaManagement": "SLA 管理",
+          "feedbackSurveys": "反馈调查",
+          "customEmail": "自定义电子邮件",
+          "customNotificationTemplate": "自定义通知模板",
+          "subscriptionRenewMessage": "您的订阅将于以下日期自动续订",
+          "upgradeEnterpriseTitle": "想升级到企业版？",
+          "upgradeEnterpriseContent": "请联系我们的销售团队以协助您完成升级",
+          "cancelPlanTitle": "想取消您的方案？",
+          "cancelPlanContent": "取消方案后，您将不会被收取续订费用，并将在以下日期失去对 FieldEx 的访问权限",
+          "trialEndOn": "您的试用将于以下日期结束",
+          "daysLeftTrial": "试用期剩余天数",
+          "paymentDue": "付款到期",
+          "paymentFailed": "付款失败",
+          "loseExcessMessage": "您将在以下时间失去多余的权限",
+          "days": "天",
+          "planCanceled": "计划已取消",
+          "proPlanCanceledMessage": "您的 Pro 计划已取消。您将在以下日期降级为免费计划",
+          "freePlansMaximumSeats": "免费计划最多支持 5 个席位",
+          "paymentFailedMessage": "付款失败。请更新卡片信息并完成付款以恢复账户访问。",
+          "accountAccessSuspended": "账户访问已被暂停",
+          "paymentIsuueDetectedMessage": "检测到付款问题！您的组织将在以下时间内被降级",
+          "unlessPaymentUpdatedMessage": "除非更新付款信息。"
+        },
+        "fields": {
+          "setupVisible": false,
+          "growth": {
+            "original": "Growth",
+            "singular": "成长版",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "pro": {
+            "original": "Pro",
+            "singular": "专业版",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "enterprise": {
+            "original": "Enterprise",
+            "singular": "企业版",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          }
         }
       },
       "workingHours": {
@@ -17108,6 +17344,13 @@
             "original": "Default Language",
             "singular": "默认语言",
             "plural": "默认语言",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "billingUser": {
+            "original": "Is Billing User",
+            "singular": "是计费用户",
+            "plural": "是计费用户们",
             "setupEdit": true,
             "setupVisible": false
           }
@@ -26203,6 +26446,13 @@
           "plural": "邀请您的团队",
           "setupEdit": false,
           "setupVisible": false
+        },
+        "sec6": {
+          "original": "Invite your team to FieldEx",
+          "singular": "邀请您的团队加入 FieldEx",
+          "plural": "邀请您的团队们加入 FieldEx",
+          "setupEdit": false,
+          "setupVisible": false
         }
       },
       "fields":{
@@ -26420,7 +26670,33 @@
         "inviteTeamHandle": "在一个地方处理团队的日程和工作量",
         "inviteTeamUpdate": "通过跟踪工作进度保持信息更新",
         "learnMoreTitle": "了解 FieldEx",
-        "learnMoreContent": "初次使用 FieldEx？我们提供一切帮助您快速上手。"
+        "learnMoreContent": "初次使用 FieldEx？我们提供一切帮助您快速上手。",
+        "noTeamMember": "尚未有团队成员",
+        "uploadData": "上传数据",
+        "importFile": "导入文件",
+        "orBrowseFile": "或点击浏览并选择您的文件",
+        "csvSizeCondition": "接受最大10MB的 .csv 文件 • 每次最多导入200个资产",
+        "mapColumns": "映射您的列",
+        "yourColumn": "您的列",
+        "fieldexField": "FieldEx 字段",
+        "belowColumnNameStepDescription": "下面是您文件中的列名。我们已为您匹配了一些 FieldEx 字段",
+        "percentageValueOfField": "您的数据中有百分之 % 的行包含该字段的值",
+        "configureDropdowns": "配置下拉选项",
+        "assetStatuses": "资产状态",
+        "customizeDropdownOption": "自定义下拉选项。您可以重命名现有选项、删除未使用的选项，或保留默认值。从导入文件中发现的新值将自动添加到相关下拉菜单中。",
+        "detectedImportFile": "从导入文件中检测到",
+        "reviewConfirmTitle": "审核并确认",
+        "columnsToBeImported": "将导入的列",
+        "columnsToBeIgnored": "将忽略的列",
+        "recordsToBeAdded": "将添加的记录",
+        "confirmMatchFields": "确认匹配的字段",
+        "ignoreUnmappedFields": "忽略未映射的字段",
+        "reset": "重置",
+        "dowmloadWorkOrderTemplate": "下载工单模板",
+        "workOrderStatuses": "工单状态",
+        "workOrderTypes": "工单类型",
+        "workOrderFaults": "工单故障",
+        "workOrderResolutions": "工单解决方案"
       },
       "validationFE":{
         "onlyCsvFilesAllowed": "只能上传 CSV 文件",

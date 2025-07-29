@@ -14025,6 +14025,104 @@
         "plural": "Jemput Beberapa Pasukan",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "inviteButton": {
+        "original": "Invite",
+        "singular": "Jemput",
+        "plural": "Jemput",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "changeButton": {
+        "original": "Change",
+        "singular": "Tukar",
+        "plural": "Tukar",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "ignoreButton": {
+        "original": "Ignore",
+        "singular": "Abaikan",
+        "plural": "Abaikan",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "addAnotherStatusButton": {
+        "original": "Add another status",
+        "singular": "Tambah status lain",
+        "plural": "Tambah status lain",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "addAnotherFaultButton": {
+        "original": "Add another fault",
+        "singular": "Tambah kerosakan lain",
+        "plural": "Tambah kerosakan lain",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "addAnotherResolutionButton": {
+        "original": "Add another resolution",
+        "singular": "Tambah penyelesaian lain",
+        "plural": "Tambah penyelesaian lain",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "upgradeButton": {
+        "original": "Upgrade",
+        "singular": "Naik Taraf",
+        "plural": "Naik Taraf",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "14DayProTrialButton": {
+        "original": "14-Day Pro Trial",
+        "singular": "Percubaan Pro 14 Hari",
+        "plural": "Percubaan Pro 14 Hari",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "contactUsButton": {
+        "original": "Contact Us",
+        "singular": "Hubungi Kami",
+        "plural": "Hubungi Kami",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "changePlanButton": {
+        "original": "Change Plan",
+        "singular": "Tukar Pelan",
+        "plural": "Tukar Pelan-Pelan",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "managePaymentButton": {
+        "original": "Manage Payment",
+        "singular": "Urus Pembayaran",
+        "plural": "Urus Pembayaran",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "contactSalesButton": {
+        "original": "Contact Sales",
+        "singular": "Hubungi Jualan",
+        "plural": "Hubungi Jualan",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "cancelPlanButton": {
+        "original": "Cancel Plan",
+        "singular": "Batalkan Pelan",
+        "plural": "Batalkan Pelan-Pelan",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "upgradeProButton": {
+        "original": "Upgrade to Pro",
+        "singular": "Naik Taraf ke Pro",
+        "plural": "Naik Taraf ke Pro",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "status": {
@@ -14540,6 +14638,34 @@
         "setupEdit": false,
         "setupVisible": false
       },
+      "freeForever": {
+        "original": "Free Forever",
+        "singular": "Percuma Selamanya",
+        "plural": "Percuma Selamanya",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "yearly": {
+        "original": "Yearly",
+        "singular": "Tahunan",
+        "plural": "Tahunan",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "paymentFailed": {
+        "original": "Payment failed",
+        "singular": "Pembayaran gagal",
+        "plural": "Pembayaran gagal",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "paymentIssueDetected": {
+        "original": "Payment issue detected",
+        "singular": "Isu pembayaran dikesan",
+        "plural": "Beberapa isu pembayaran dikesan",
+        "setupEdit": false,
+        "setupVisible": false
+      },
       "messages": {
         "forIncompleteChecklists": "Untuk senarai semak yang tidak lengkap akan dikemas kini pada masa hadapan. Tiada Pekerjaan atau Tugas akan dicetuskan menggunakan status ini",
         "thisStatusWillTriggerAnyJobOrders": "Status ini akan mencetuskan sebarang Pesanan Kerja dan Tugas yang berkaitan dengan jawapan senarai semak ini",
@@ -14754,7 +14880,9 @@
       "tip":"Tip",
       "tips":"Tips",
       "makeFilterSelections":"Buat pilihan penapis untuk mencari aset",
-      "confirmation":"Pengesahan"
+      "confirmation":"Pengesahan",
+      "emailPlaceholder": "Masukkan emel di sini...",
+      "selectRole": "Pilih Peranan"
     },
     "currency": {
       "australianDollar": "AUD",
@@ -15677,10 +15805,118 @@
             "plural": "",
             "setupEdit": true,
             "setupVisible": false
+          },
+          "sec5": {
+            "original": "Billing Details",
+            "singular": "Maklumat Bil",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec6": {
+            "original": "Lite Plan",
+            "singular": "Pelan Lite",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec7": {
+            "original": "Pro Plan",
+            "singular": "Pelan Pro",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec8": {
+            "original": "Next Payment",
+            "singular": "Bayaran Seterusnya",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec9": {
+            "original": "Growth Plan",
+            "singular": "Pelan Pertumbuhan",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec10": {
+            "original": "Enterprise Plan",
+            "singular": "Pelan Perusahaan",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": false
           }
         },
         "messages": {
-          "requestSentSuccessfully": "Permintaan berjaya dihantar"
+          "requestSentSuccessfully": "Permintaan berjaya dihantar",
+          "litePlanMessage": "Naik taraf bila-bila masa untuk membuka ciri lanjutan.",
+          "seatsInUseLite": "tempat digunakan",
+          "monthly": "Bulanan",
+          "yearly": "Tahunan (diskaun 30%)",
+          "usersAbove": "6 pengguna dan ke atas",
+          "largerTeams": "Untuk pasukan yang lebih besar",
+          "memberMonth": "setiap ahli / bulan",
+          "litePlusListTitle": "Segala dalam Lite, ditambah:",
+          "growthPlusListTitle": "Segala dalam Growth, ditambah:",
+          "proPlusListTitle": "Segala dalam Pro, ditambah:",
+          "siteManagement": "Pengurusan laman",
+          "projectManagement": "Pengurusan projek",
+          "dedicatedSupport": "Sokongan khusus",
+          "preventiveMaintenance": "Penyelenggaraan pencegahan",
+          "assetAnalyticMeterLog": "Analitik aset & log meter",
+          "inventoryStockControl": "Kawalan inventori dan stok",
+          "customWorkflows": "Aliran kerja tersuai",
+          "apiIntegration": "Integrasi API",
+          "assetRequisitionWorkflows": "Aliran kerja permintaan aset",
+          "fieldexIntelligence": "FieldEx Intelligence",
+          "slaManagement": "Pengurusan SLA",
+          "feedbackSurveys": "Tinjauan maklum balas",
+          "customEmail": "E-mel tersuai",
+          "customNotificationTemplate": "Templat pemberitahuan tersuai",
+          "subscriptionRenewMessage": "Langganan anda akan diperbaharui secara automatik pada",
+          "upgradeEnterpriseTitle": "Ingin naik taraf ke Enterprise?",
+          "upgradeEnterpriseContent": "Hubungi pasukan jualan kami untuk membantu anda membuat naik taraf",
+          "cancelPlanTitle": "Ingin batalkan pelan anda?",
+          "cancelPlanContent": "Dengan membatalkan pelan anda, anda tidak akan dicaj untuk pembaharuan dan akan kehilangan akses ke FieldEx pada",
+          "trialEndOn": "Percubaan anda akan tamat pada",
+          "daysLeftTrial": "hari baki dalam percubaan",
+          "paymentDue": "Bayaran perlu dibuat",
+          "paymentFailed": "Bayaran gagal",
+          "loseExcessMessage": "Anda akan kehilangan akses tambahan dalam",
+          "days": "hari",
+          "planCanceled": "Pelan Dibatalkan",
+          "proPlanCanceledMessage": "Pelan Pro anda telah dibatalkan. Anda akan diturunkan ke pelan percuma pada",
+          "freePlansMaximumSeats": "Pelan percuma hanya membenarkan maksimum 5 tempat duduk",
+          "paymentFailedMessage": "Bayaran gagal. Sila kemas kini maklumat kad dan lakukan bayaran untuk mengaktifkan semula akses akaun.",
+          "accountAccessSuspended": "Akses akaun digantung",
+          "paymentIsuueDetectedMessage": "Isu pembayaran dikesan! Organisasi anda akan diturunkan dalam",
+          "unlessPaymentUpdatedMessage": "melainkan pembayaran dikemas kini."
+        },
+        "fields": {
+          "setupVisible": false,
+          "growth": {
+            "original": "Growth",
+            "singular": "Pelan Pertumbuhan",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "pro": {
+            "original": "Pro",
+            "singular": "Pelan Pro",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "enterprise": {
+            "original": "Enterprise",
+            "singular": "Pelan Perusahaan",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          }
         }
       },
       "workingHours": {
@@ -17108,6 +17344,13 @@
             "original": "Default Language",
             "singular": "Bahasa Lalai",
             "plural": "Bahasa Lalai",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "billingUser": {
+            "original": "Is Billing User",
+            "singular": "Adalah Pengguna Bil",
+            "plural": "Adalah Pengguna-Pengguna Bil",
             "setupEdit": true,
             "setupVisible": false
           }
@@ -26202,6 +26445,13 @@
           "plural": "Jemput Pasukan Anda",
           "setupEdit": false,
           "setupVisible": false
+        },
+        "sec6": {
+          "original": "Invite your team to FieldEx",
+          "singular": "Jemput pasukan anda ke FieldEx",
+          "plural": "Jemput pasukan-pasukan anda ke FieldEx",
+          "setupEdit": false,
+          "setupVisible": false
         }
       },
       "fields":{
@@ -26419,7 +26669,33 @@
         "inviteTeamHandle": "Urus jadual dan beban kerja pasukan di satu tempat",
         "inviteTeamUpdate": "Sentiasa dikemas kini dengan menjejak kemajuan tugasan",
         "learnMoreTitle": "Ketahui FieldEx",
-        "learnMoreContent": "Baru dengan FieldEx? Kami sediakan semua yang anda perlukan untuk bermula dengan pantas."
+        "learnMoreContent": "Baru dengan FieldEx? Kami sediakan semua yang anda perlukan untuk bermula dengan pantas.",
+        "noTeamMember": "Tiada ahli pasukan lagi",
+        "uploadData": "Muat naik data",
+        "importFile": "Import fail",
+        "orBrowseFile": "atau klik untuk semak dan pilih fail anda",
+        "csvSizeCondition": "Menerima fail .csv sehingga 10MB • Maksimum 200 aset setiap import",
+        "mapColumns": "Peta Lajur Anda",
+        "yourColumn": "LAJUR ANDA",
+        "fieldexField": "MEDAN FIELDEX",
+        "belowColumnNameStepDescription": "Di bawah adalah nama lajur dari fail anda. Kami telah memadankan sebahagiannya dengan medan FieldEx untuk anda",
+        "percentageValueOfField": "% baris anda mempunyai nilai untuk medan ini",
+        "configureDropdowns": "Konfigurasikan Pilihan Drop-down",
+        "assetStatuses": "Status Aset",
+        "customizeDropdownOption": "Sesuaikan pilihan drop-down. Anda boleh menamakan semula pilihan sedia ada, membuang pilihan yang tidak digunakan, atau mengekalkan nilai lalai. Sebarang nilai baharu dalam fail import anda akan ditambah secara automatik ke drop-down berkaitan.",
+        "detectedImportFile": "Dikesan daripada fail import",
+        "reviewConfirmTitle": "Semak & Sahkan",
+        "columnsToBeImported": "Lajur untuk diimport",
+        "columnsToBeIgnored": "Lajur untuk diabaikan",
+        "recordsToBeAdded": "Rekod untuk ditambah",
+        "confirmMatchFields": "Sahkan medan yang dipadankan",
+        "ignoreUnmappedFields": "Abaikan medan yang tidak dipetakan",
+        "reset": "Tetapkan semula",
+        "dowmloadWorkOrderTemplate": "Muat Turun Templat Pesanan Kerja",
+        "workOrderStatuses": "Status Pesanan Kerja",
+        "workOrderTypes": "Jenis Pesanan Kerja",
+        "workOrderFaults": "Kerosakan Pesanan Kerja",
+        "workOrderResolutions": "Penyelesaian Pesanan Kerja"
       },
       "validationFE":{
         "onlyCsvFilesAllowed": "Hanya fail CSV sahaja yang boleh dimuat naik",
