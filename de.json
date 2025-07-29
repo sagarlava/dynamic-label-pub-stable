@@ -14659,6 +14659,20 @@
         "setupEdit": false,
         "setupVisible": false
       },
+      "paymentFailed": {
+        "original": "Payment failed",
+        "singular": "Betaling mislukt",
+        "plural": "Betaling mislukt",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "paymentIssueDetected": {
+        "original": "Payment issue detected",
+        "singular": "Betalingsprobleem gedetecteerd",
+        "plural": "Betalingsproblemen gedetecteerd",
+        "setupEdit": false,
+        "setupVisible": false
+      },
       "messages": {
         "forIncompleteChecklists": "Für unvollständige Checklisten, die in Zukunft aktualisiert werden sollen. Es werden keine Aufträge oder Aufgaben mit diesem Status ausgelöst.",
         "thisStatusWillTriggerAnyJobOrders": "Dieser Status wird alle Arbeitsaufträge und Aufgaben auslösen, die mit den Antworten dieser Checkliste verbunden sind.",
@@ -15883,7 +15897,9 @@
           "proPlanCanceledMessage": "Uw Pro-abonnement is geannuleerd. U wordt op de volgende datum teruggezet naar een gratis plan",
           "freePlansMaximumSeats": "Gratis abonnementen hebben maximaal 5 gebruikers",
           "paymentFailedMessage": "Betaling mislukt. Werk uw kaartgegevens bij en voltooi de betaling om toegang tot uw account te herstellen.",
-          "accountAccessSuspended": "Toegang tot account opgeschort"
+          "accountAccessSuspended": "Toegang tot account opgeschort",
+          "paymentIsuueDetectedMessage": "Betalingsprobleem gedetecteerd! Uw organisatie wordt gedegradeerd over",
+          "unlessPaymentUpdatedMessage": "tenzij de betaling wordt bijgewerkt."
         },
         "fields": {
           "setupVisible": false,

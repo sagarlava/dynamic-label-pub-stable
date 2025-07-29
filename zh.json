@@ -14659,6 +14659,20 @@
         "setupEdit": false,
         "setupVisible": false
       },
+      "paymentFailed": {
+        "original": "Payment failed",
+        "singular": "付款失败",
+        "plural": "付款失败",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "paymentIssueDetected": {
+        "original": "Payment issue detected",
+        "singular": "检测到付款问题",
+        "plural": "检测到多个付款问题",
+        "setupEdit": false,
+        "setupVisible": false
+      },
       "messages": {
         "forIncompleteChecklists": "未来将更新未完成的清单。不会使用此状态触发任何工作或任务",
         "thisStatusWillTriggerAnyJobOrders": "此状态将触发与该清单答案相关的任何工作订单和任务",
@@ -15883,7 +15897,9 @@
           "proPlanCanceledMessage": "您的 Pro 计划已取消。您将在以下日期降级为免费计划",
           "freePlansMaximumSeats": "免费计划最多支持 5 个席位",
           "paymentFailedMessage": "付款失败。请更新卡片信息并完成付款以恢复账户访问。",
-          "accountAccessSuspended": "账户访问已被暂停"
+          "accountAccessSuspended": "账户访问已被暂停",
+          "paymentIsuueDetectedMessage": "检测到付款问题！您的组织将在以下时间内被降级",
+          "unlessPaymentUpdatedMessage": "除非更新付款信息。"
         },
         "fields": {
           "setupVisible": false,

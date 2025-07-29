@@ -14659,6 +14659,20 @@
         "setupEdit": false,
         "setupVisible": false
       },
+      "paymentFailed": {
+        "original": "Payment failed",
+        "singular": "Pembayaran gagal",
+        "plural": "Pembayaran gagal",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "paymentIssueDetected": {
+        "original": "Payment issue detected",
+        "singular": "Isu pembayaran dikesan",
+        "plural": "Beberapa isu pembayaran dikesan",
+        "setupEdit": false,
+        "setupVisible": false
+      },
       "messages": {
         "forIncompleteChecklists": "Untuk senarai semak yang tidak lengkap akan dikemas kini pada masa hadapan. Tiada Pekerjaan atau Tugas akan dicetuskan menggunakan status ini",
         "thisStatusWillTriggerAnyJobOrders": "Status ini akan mencetuskan sebarang Pesanan Kerja dan Tugas yang berkaitan dengan jawapan senarai semak ini",
@@ -15883,7 +15897,9 @@
           "proPlanCanceledMessage": "Pelan Pro anda telah dibatalkan. Anda akan diturunkan ke pelan percuma pada",
           "freePlansMaximumSeats": "Pelan percuma hanya membenarkan maksimum 5 tempat duduk",
           "paymentFailedMessage": "Bayaran gagal. Sila kemas kini maklumat kad dan lakukan bayaran untuk mengaktifkan semula akses akaun.",
-          "accountAccessSuspended": "Akses akaun digantung"
+          "accountAccessSuspended": "Akses akaun digantung",
+          "paymentIsuueDetectedMessage": "Isu pembayaran dikesan! Organisasi anda akan diturunkan dalam",
+          "unlessPaymentUpdatedMessage": "melainkan pembayaran dikemas kini."
         },
         "fields": {
           "setupVisible": false,

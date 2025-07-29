@@ -14659,6 +14659,20 @@
         "setupEdit": false,
         "setupVisible": false
       },
+      "paymentFailed": {
+        "original": "Payment failed",
+        "singular": "Payment failed",
+        "plural": "Payment failed",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "paymentIssueDetected":{
+        "original": "Payment issue detected",
+        "singular": "Payment issue detected",
+        "plural": "Payment issues detected",
+        "setupEdit": false,
+        "setupVisible": false
+      },
       "messages":{
         "forIncompleteChecklists": "For incomplete checklists to be updated in the future. No Jobs or Tasks will be triggered using this status",
         "thisStatusWillTriggerAnyJobOrders": "This status will trigger any Job Orders and Tasks related to this checklist's answers",
@@ -15876,14 +15890,15 @@
           "trialEndOn":"Your trial will end on",
           "daysLeftTrial":"days left in trial",
           "paymentDue":"Payment due",
-          "paymentFailed":"Payment failed",
           "loseExcessMessage":"You will lose excess in",
           "days":"days",
           "planCanceled":"Plan Canceled",
           "proPlanCanceledMessage":"Your Pro plan has been canceled. You will be downgraded to a free plan on",
           "freePlansMaximumSeats":"Free plans have a maximum of 5 seats",
           "paymentFailedMessage":"Payment failed. Please update card details and perform payment to enable account access.",
-          "accountAccessSuspended":"Account access suspended"
+          "accountAccessSuspended":"Account access suspended",
+          "paymentIsuueDetectedMessage":"Payment issue detected! Your organization will be downgraded in",
+          "unlessPaymentUpdatedMessage":"unless payment is updated."
         },
         "fields": {
           "setupVisible": false,

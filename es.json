@@ -14660,6 +14660,20 @@
         "setupEdit": false,
         "setupVisible": false
       },
+      "paymentFailed": {
+        "original": "Payment failed",
+        "singular": "Pago fallido",
+        "plural": "Pago fallido",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "paymentIssueDetected": {
+        "original": "Payment issue detected",
+        "singular": "Problema de pago detectado",
+        "plural": "Problemas de pago detectados",
+        "setupEdit": false,
+        "setupVisible": false
+      },
       "messages": {
         "forIncompleteChecklists": "Para que las listas de verificación incompletas se actualicen en el futuro. No se activarán trabajos ni tareas utilizando este estado.",
         "thisStatusWillTriggerAnyJobOrders": "Este estado activará cualquier orden de trabajo y tareas relacionadas con las respuestas de esta lista de verificación.",
@@ -15884,7 +15898,9 @@
           "proPlanCanceledMessage": "Tu plan Pro ha sido cancelado. Serás degradado a un plan gratuito el",
           "freePlansMaximumSeats": "Los planes gratuitos tienen un máximo de 5 usuarios",
           "paymentFailedMessage": "Pago fallido. Por favor actualiza los datos de tu tarjeta y realiza el pago para habilitar el acceso a tu cuenta.",
-          "accountAccessSuspended": "Acceso a la cuenta suspendido"
+          "accountAccessSuspended": "Acceso a la cuenta suspendido",
+          "paymentIsuueDetectedMessage": "¡Problema de pago detectado! Tu organización será degradada en",
+          "unlessPaymentUpdatedMessage": "a menos que se actualice el pago."
         },
         "fields": {
           "setupVisible": false,
