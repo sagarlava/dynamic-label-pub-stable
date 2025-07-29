@@ -14047,13 +14047,6 @@
         "setupEdit": false,
         "setupVisible": false
       },
-      "resetButton":{
-        "original": "Reset",
-        "singular": "Invite",
-        "plural": "Invite",
-        "setupEdit": false,
-        "setupVisible": false
-      },
       "addAnotherStatusButton":{
         "original": "Add another status",
         "singular": "Add another status",
@@ -15817,42 +15810,42 @@
             "original": "Billing Details",
             "singular": "Billing Details",
             "plural": "",
-            "setupEdit": true,
+            "setupEdit": false,
             "setupVisible": false
           },
           "sec6": {
             "original": "Lite Plan",
             "singular": "Lite Plan",
             "plural": "",
-            "setupEdit": true,
+            "setupEdit": false,
             "setupVisible": false
           },
           "sec7": {
             "original": "Pro Plan",
             "singular": "Pro Plan",
             "plural": "",
-            "setupEdit": true,
+            "setupEdit": false,
             "setupVisible": false
           },
           "sec8": {
             "original": "Next Payment",
             "singular": "Pro Plan",
             "plural": "",
-            "setupEdit": true,
+            "setupEdit": false,
             "setupVisible": false
           },
           "sec9": {
             "original": "Growth Plan",
             "singular": "Growth Plan",
             "plural": "",
-            "setupEdit": true,
+            "setupEdit": false,
             "setupVisible": false
           },
           "sec10": {
             "original": "Enterprise Plan",
             "singular": "Enterprise Plan",
             "plural": "",
-            "setupEdit": true,
+            "setupEdit": false,
             "setupVisible": false
           }
         },

@@ -14047,13 +14047,6 @@
         "setupEdit": false,
         "setupVisible": false
       },
-      "resetButton": {
-        "original": "Reset",
-        "singular": "Opnieuw instellen",
-        "plural": "Opnieuw instellen",
-        "setupEdit": false,
-        "setupVisible": false
-      },
       "addAnotherStatusButton": {
         "original": "Add another status",
         "singular": "Nog een status toevoegen",
@@ -15817,49 +15810,49 @@
             "original": "Billing Details",
             "singular": "Facturatiegegevens",
             "plural": "",
-            "setupEdit": true,
+            "setupEdit": false,
             "setupVisible": false
           },
           "sec6": {
             "original": "Lite Plan",
             "singular": "Lite-abonnement",
             "plural": "",
-            "setupEdit": true,
+            "setupEdit": false,
             "setupVisible": false
           },
           "sec7": {
             "original": "Pro Plan",
             "singular": "Pro Plan",
             "plural": "",
-            "setupEdit": true,
+            "setupEdit": false,
             "setupVisible": false
           },
           "sec8": {
             "original": "Next Payment",
             "singular": "Volgende Betaling",
             "plural": "",
-            "setupEdit": true,
+            "setupEdit": false,
             "setupVisible": false
           },
           "sec9": {
             "original": "Growth Plan",
             "singular": "Groei Plan",
             "plural": "",
-            "setupEdit": true,
+            "setupEdit": false,
             "setupVisible": false
           },
           "sec10": {
             "original": "Enterprise Plan",
             "singular": "Enterprise Plan",
             "plural": "",
-            "setupEdit": true,
+            "setupEdit": false,
             "setupVisible": false
           }
         },
         "messages": {
           "requestSentSuccessfully": "Anfrage erfolgreich gesendet",
           "litePlanMessage": "Upgrade op elk moment om geavanceerde functies te ontgrendelen.",
-          "seatsInUseLite": "5/5 plaatsen in gebruik",
+          "seatsInUseLite": "plaatsen in gebruik",
           "monthly": "Maandelijks",
           "yearly": "Jaarlijks (30% korting)",
           "usersAbove": "6 gebruikers en meer",

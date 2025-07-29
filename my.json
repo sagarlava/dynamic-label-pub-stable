@@ -14047,13 +14047,6 @@
         "setupEdit": false,
         "setupVisible": false
       },
-      "resetButton": {
-        "original": "Reset",
-        "singular": "Tetap Semula",
-        "plural": "Tetap Semula",
-        "setupEdit": false,
-        "setupVisible": false
-      },
       "addAnotherStatusButton": {
         "original": "Add another status",
         "singular": "Tambah status lain",
@@ -15817,49 +15810,49 @@
             "original": "Billing Details",
             "singular": "Maklumat Bil",
             "plural": "",
-            "setupEdit": true,
+            "setupEdit": false,
             "setupVisible": false
           },
           "sec6": {
             "original": "Lite Plan",
             "singular": "Pelan Lite",
             "plural": "",
-            "setupEdit": true,
+            "setupEdit": false,
             "setupVisible": false
           },
           "sec7": {
             "original": "Pro Plan",
             "singular": "Pelan Pro",
             "plural": "",
-            "setupEdit": true,
+            "setupEdit": false,
             "setupVisible": false
           },
           "sec8": {
             "original": "Next Payment",
             "singular": "Bayaran Seterusnya",
             "plural": "",
-            "setupEdit": true,
+            "setupEdit": false,
             "setupVisible": false
           },
           "sec9": {
             "original": "Growth Plan",
             "singular": "Pelan Pertumbuhan",
             "plural": "",
-            "setupEdit": true,
+            "setupEdit": false,
             "setupVisible": false
           },
           "sec10": {
             "original": "Enterprise Plan",
             "singular": "Pelan Perusahaan",
             "plural": "",
-            "setupEdit": true,
+            "setupEdit": false,
             "setupVisible": false
           }
         },
         "messages": {
           "requestSentSuccessfully": "Permintaan berjaya dihantar",
           "litePlanMessage": "Naik taraf bila-bila masa untuk membuka ciri lanjutan.",
-          "seatsInUseLite": "5/5 tempat digunakan",
+          "seatsInUseLite": "tempat digunakan",
           "monthly": "Bulanan",
           "yearly": "Tahunan (diskaun 30%)",
           "usersAbove": "6 pengguna dan ke atas",

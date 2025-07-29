@@ -14048,13 +14048,6 @@
         "setupEdit": false,
         "setupVisible": false
       },
-      "resetButton": {
-        "original": "Reset",
-        "singular": "Restablecer",
-        "plural": "Restablecer",
-        "setupEdit": false,
-        "setupVisible": false
-      },
       "addAnotherStatusButton": {
         "original": "Add another status",
         "singular": "Agregar otro estado",
@@ -15818,49 +15811,49 @@
             "original": "Billing Details",
             "singular": "Detalles de facturación",
             "plural": "",
-            "setupEdit": true,
+            "setupEdit": false,
             "setupVisible": false
           },
           "sec6": {
             "original": "Lite Plan",
             "singular": "Plan Lite",
             "plural": "",
-            "setupEdit": true,
+            "setupEdit": false,
             "setupVisible": false
           },
           "sec7": {
             "original": "Pro Plan",
             "singular": "Plan Pro",
             "plural": "",
-            "setupEdit": true,
+            "setupEdit": false,
             "setupVisible": false
           },
           "sec8": {
             "original": "Next Payment",
             "singular": "Próximo Pago",
             "plural": "",
-            "setupEdit": true,
+            "setupEdit": false,
             "setupVisible": false
           },
           "sec9": {
             "original": "Growth Plan",
             "singular": "Plan de Crecimiento",
             "plural": "",
-            "setupEdit": true,
+            "setupEdit": false,
             "setupVisible": false
           },
           "sec10": {
             "original": "Enterprise Plan",
             "singular": "Plan Empresarial",
             "plural": "",
-            "setupEdit": true,
+            "setupEdit": false,
             "setupVisible": false
           }
         },
         "messages": {
           "requestSentSuccessfully": "Solicitud enviada con éxito",
           "litePlanMessage": "Actualiza en cualquier momento para desbloquear funciones avanzadas.",
-          "seatsInUseLite": "5/5 asientos en uso",
+          "seatsInUseLite": "asientos en uso",
           "monthly": "Mensual",
           "yearly": "Anual (30% de descuento)",
           "usersAbove": "6 usuarios o más",

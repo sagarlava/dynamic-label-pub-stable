@@ -14047,13 +14047,6 @@
         "setupEdit": false,
         "setupVisible": false
       },
-      "resetButton": {
-        "original": "Reset",
-        "singular": "重置",
-        "plural": "重置",
-        "setupEdit": false,
-        "setupVisible": false
-      },
       "addAnotherStatusButton": {
         "original": "Add another status",
         "singular": "添加另一个状态",
@@ -15817,49 +15810,49 @@
             "original": "Billing Details",
             "singular": "账单详情",
             "plural": "",
-            "setupEdit": true,
+            "setupEdit": false,
             "setupVisible": false
           },
           "sec6": {
             "original": "Lite Plan",
             "singular": "轻量计划",
             "plural": "",
-            "setupEdit": true,
+            "setupEdit": false,
             "setupVisible": false
           },
           "sec7": {
             "original": "Pro Plan",
             "singular": "专业版计划",
             "plural": "",
-            "setupEdit": true,
+            "setupEdit": false,
             "setupVisible": false
           },
           "sec8": {
             "original": "Next Payment",
             "singular": "下一个付款",
             "plural": "",
-            "setupEdit": true,
+            "setupEdit": false,
             "setupVisible": false
           },
           "sec9": {
             "original": "Growth Plan",
             "singular": "增长计划",
             "plural": "",
-            "setupEdit": true,
+            "setupEdit": false,
             "setupVisible": false
           },
           "sec10": {
             "original": "Enterprise Plan",
             "singular": "企业版计划",
             "plural": "",
-            "setupEdit": true,
+            "setupEdit": false,
             "setupVisible": false
           }
         },
         "messages": {
           "requestSentSuccessfully": "请求已成功发送",
           "litePlanMessage": "随时升级以解锁高级功能。",
-          "seatsInUseLite": "5/5 个席位已使用",
+          "seatsInUseLite": "个席位已使用",
           "monthly": "每月",
           "yearly": "每年（优惠 30%）",
           "usersAbove": "6 位用户及以上",
