@@ -10385,7 +10385,8 @@
       "selectedBinNoLongerContains": "El contenedor seleccionado ya no contiene los siguientes artículos",
       "needTransferItemManually": "Tendrá que seleccionar y transferir estos artículos manualmente. Los demás artículos seleccionados serán transferidos.",
       "transferCannotContinue": "La transferencia no puede continuar ya que el contenedor seleccionado ya no contiene los siguientes artículos",
-      "aBinTransferInitiate":"Se creará un registro de transferencia de contenedor para los artículos aprobados. ¿Estás seguro de que deseas iniciar esta transferencia?"
+      "aBinTransferInitiate":"Se creará un registro de transferencia de contenedor para los artículos aprobados. ¿Estás seguro de que deseas iniciar esta transferencia?",
+      "max50SerialNumbers":"Puedes introducir un máximo de 50 números de serie/SKU."
     }
   },
   "checkAvailibility": {

@@ -10384,7 +10384,8 @@
       "selectedBinNoLongerContains":"Tong yang dipilih tidak lagi mengandungi item berikut",
       "needTransferItemManually":"Anda perlu memilih dan memindahkan item-item ini secara manual. Item lain yang dipilih akan dipindahkan.",
       "transferCannotContinue":"Pemindahan tidak dapat diteruskan kerana tong yang dipilih tidak lagi mengandungi item berikut",
-      "aBinTransferInitiate":"Rekod Pemindahan Tong akan dicipta untuk item yang diluluskan. Adakah anda pasti mahu memulakan pemindahan ini?"
+      "aBinTransferInitiate":"Rekod Pemindahan Tong akan dicipta untuk item yang diluluskan. Adakah anda pasti mahu memulakan pemindahan ini?",
+      "max50SerialNumbers":"Anda boleh memasukkan maksimum 50 nombor siri/SKU."
     }
   },
   "checkAvailibility": {
