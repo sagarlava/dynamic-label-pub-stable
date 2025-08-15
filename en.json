@@ -1411,7 +1411,8 @@
       "logs": "Logs",
       "showUpdatesRelated":"Show Updates Related To:",
         "filterSelectAsset":"Filter and select the assets you want to export QR codes for",
-        "exportQrForAll":"Export QR codes for all components too"
+        "exportQrForAll":"Export QR codes for all components too",
+        "exportQrSettings":"Export QR Settings"
     }
   },
   "analytic": {

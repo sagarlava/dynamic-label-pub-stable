@@ -1411,7 +1411,8 @@
       "logs": "Registros",
       "showUpdatesRelated": "Mostrar actualizaciones relacionadas con:",
         "filterSelectAsset":"Filtra y selecciona los activos para los que deseas exportar los códigos QR",
-        "exportQrForAll":"Exportar también los códigos QR para todos los componentes"
+        "exportQrForAll":"Exportar también los códigos QR para todos los componentes",
+        "exportQrSettings":"Exportar configuración de QR"
     }
   },
   "analytic": {
