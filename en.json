@@ -1089,6 +1089,13 @@
         "plural": "Brand",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "createDate": {
+        "original": "Create Date",
+        "singular": "Create Date",
+        "plural": "Create Date",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "validationFE": {

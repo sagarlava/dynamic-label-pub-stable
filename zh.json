@@ -1089,6 +1089,13 @@
         "plural": "品牌",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "createDate": {
+        "original": "Create Date",
+        "singular": "创建日期",
+        "plural": "创建日期",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "validationFE": {

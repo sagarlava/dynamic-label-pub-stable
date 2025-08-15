@@ -1089,6 +1089,13 @@
         "plural": "Jenama",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "createDate": {
+        "original": "Create Date",
+        "singular": "Tarikh Cipta",
+        "plural": "Tarikh Cipta",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "validationFE": {
