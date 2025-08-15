@@ -13984,7 +13984,14 @@
         "plural": "Enterprise",
         "setupEdit": false,
         "setupVisible": false
-      }	
+      },
+      "selectAll": {
+        "original": "Select All",
+        "singular": "Pilih Semua",
+        "plural": "Pilih Semua",
+        "setupEdit": false,
+        "setupVisible": false
+      }
     },
     "status": {
       "setupVisible": true,

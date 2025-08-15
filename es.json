@@ -13985,6 +13985,13 @@
         "plural": "Enterprise",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "selectAll": {
+        "original": "Select All",
+        "singular": "Seleccionar todo",
+        "plural": "Seleccionar todos",
+        "setupEdit": false,
+        "setupVisible": false
       }	
     },
     "status": {
