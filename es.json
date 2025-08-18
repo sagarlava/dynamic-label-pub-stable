@@ -1417,6 +1417,28 @@
       "showUpdatesRelated": "Mostrar actualizaciones relacionadas con:",
         "filterSelectAsset":"Filtra y selecciona los activos para los que deseas exportar los códigos QR",
         "exportQrForAll":"Exportar también los códigos QR para todos los componentes"
+    },
+    "emptyPage":{
+      "getStartedWithAsset": "Comienza con los activos",
+      "createManageAsset": "Crea, gestiona, mantén y obtén información sobre tus activos.",
+      "assetRegistration": "Registro de activos",
+      "registerDetailedAsset": "Registra información detallada del activo, incluyendo número de serie, especificaciones y ubicación.",
+      "trackAsset": "Seguimiento de activos",
+      "monitorAsset": "Supervisa dónde están los activos, quién los posee y en qué condiciones se encuentran.",
+      "connectAnalyse": "Conectar y analizar",
+      "linkAssetToSchedule": "Vincula activos a programas preventivos y genera automáticamente trabajos de servicio recurrentes.",
+      "assetOverview": "Resumen de activos",
+      "storeManageDataForAsset": "Almacena y gestiona los datos de todos tus activos en un solo lugar. Haz un seguimiento de la propiedad, ubicación, condición y vincula activos a órdenes de trabajo, listas de verificación y programas de mantenimiento.",
+      "jobOrdersChecklist": "Órdenes de trabajo y listas de verificación",
+      "keepAssetInCheck": "Mantén los activos bajo control con órdenes de trabajo y listas de verificación específicas para técnicos.",
+      "scheduleMaintenance": "Programar mantenimiento",
+      "reduceUnplannedDowntimes": "Reduce los tiempos de inactividad no planificados de tus activos programando mantenimientos.",
+      "qrScanning": "Escaneo QR",
+      "useQrScanning": "Utiliza el escaneo QR para agilizar la identificación y el seguimiento de activos.",
+      "meterTracking": "Seguimiento de medidores",
+      "trackAssetUsage": "Haz un seguimiento del uso y rendimiento de los activos mediante lecturas de medidores.",
+      "analytics": "Analítica",
+      "obtainCalculatedMetrics": "Obtén métricas calculadas e información derivada de los datos que has proporcionado."
     }
   },
   "analytic": {

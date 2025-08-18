@@ -1417,6 +1417,28 @@
       "showUpdatesRelated":"显示相关更新:",
         "filterSelectAsset":"筛选并选择您要导出二维码的资产",
         "exportQrForAll":"也导出所有组件的二维码"
+    },
+    "emptyPage":{
+      "getStartedWithAsset":"从资产开始",
+      "createManageAsset":"创建、管理、维护并获取资产的洞察。",
+      "assetRegistration":"资产注册",
+      "registerDetailedAsset":"注册详细的资产信息，包括序列号、规格和位置。",
+      "trackAsset":"跟踪资产",
+      "monitorAsset":"监控资产的位置、所有者及其状态。",
+      "connectAnalyse":"连接与分析",
+      "linkAssetToSchedule":"将资产关联到预防性计划并自动生成重复的服务任务。",
+      "assetOverview":"资产概览",
+      "storeManageDataForAsset":"将所有资产的数据存储并集中管理在一个地方。跟踪所有权、位置、状态，并将资产关联到工单、检查清单和维护计划。",
+      "jobOrdersChecklist":"工单和检查清单",
+      "keepAssetInCheck":"通过工单和技师专用检查清单来保持资产受控。",
+      "scheduleMaintenance":"安排维护",
+      "reduceUnplannedDowntimes":"通过安排维护来减少资产的计划外停机时间。",
+      "qrScanning":"二维码扫描",
+      "useQrScanning":"使用二维码扫描来加快资产识别和跟踪。",
+      "meterTracking":"仪表跟踪",
+      "trackAssetUsage":"通过仪表读数跟踪资产的使用情况和性能。",
+      "analytics":"分析",
+      "obtainCalculatedMetrics":"获取根据您提供的数据计算的指标和洞察。"
     }
   },
   "analytic": {

@@ -1417,6 +1417,28 @@
       "showUpdatesRelated":"Show Updates Related To:",
         "filterSelectAsset":"Filter and select the assets you want to export QR codes for",
         "exportQrForAll":"Export QR codes for all components too"
+    },
+    "emptyPage":{
+      "getStartedWithAsset":"Get Started With Assets",
+      "createManageAsset":"Create, manage, maintain, and get insights on your assets.",
+      "assetRegistration":"Asset Registration",
+      "registerDetailedAsset":"Register detailed asset info including serial number, specifications, and location.",
+      "trackAsset":"Track Assets",
+      "monitorAsset":"Monitor where assets are, who owns them, and their conditions.",
+      "connectAnalyse":"Connect & Analyse",
+      "linkAssetToSchedule":"Link assets to preventive schedules and auto-generate recurring service jobs.",
+      "assetOverview":"Assets Overview",
+      "storeManageDataForAsset":"Store and manage data for all your assets in one place. Track ownership, location, condition, and link assets to job orders, checklists, and maintenance schedules.",
+      "jobOrdersChecklist":"Job Orders and Checklists",
+      "keepAssetInCheck":"Keep assets in check with job orders and job-specific checklists for technicians.",
+      "scheduleMaintenance":"Schedule Maintenance",
+      "reduceUnplannedDowntimes":"Reduce unplanned downtimes of your assets by scheduling maintenances.",
+      "qrScanning":"QR Scanning",
+      "useQrScanning":"Use QR scanning to speed up asset identification and tracking.",
+      "meterTracking":"Meter Tracking",
+      "trackAssetUsage":"Track asset usage and performance with meter readings.",
+      "analytics":"Analytics",
+      "obtainCalculatedMetrics":"Obtain calculated metrics and insights derived from data that you have provided."
     }
   },
   "analytic": {

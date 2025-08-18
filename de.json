@@ -1417,6 +1417,28 @@
       "showUpdatesRelated":"Zeige Updates zu:",
         "filterSelectAsset":"Filtern und wählen Sie die Assets aus, für die Sie QR-Codes exportieren möchten",
         "exportQrForAll":"QR-Codes auch für alle Komponenten exportieren"
+    },
+    "emptyPage":{
+      "getStartedWithAsset": "Erste Schritte mit Assets",
+      "createManageAsset": "Erstellen, verwalten, warten und Einblicke in Ihre Assets gewinnen.",
+      "assetRegistration": "Asset-Registrierung",
+      "registerDetailedAsset": "Registrieren Sie detaillierte Asset-Informationen einschließlich Seriennummer, Spezifikationen und Standort.",
+      "trackAsset": "Assets verfolgen",
+      "monitorAsset": "Überwachen Sie, wo sich Assets befinden, wem sie gehören und in welchem Zustand sie sind.",
+      "connectAnalyse": "Verbinden & Analysieren",
+      "linkAssetToSchedule": "Verknüpfen Sie Assets mit vorbeugenden Zeitplänen und generieren Sie automatisch wiederkehrende Serviceaufträge.",
+      "assetOverview": "Asset-Übersicht",
+      "storeManageDataForAsset": "Speichern und verwalten Sie die Daten all Ihrer Assets an einem Ort. Verfolgen Sie Eigentum, Standort, Zustand und verknüpfen Sie Assets mit Arbeitsaufträgen, Checklisten und Wartungsplänen.",
+      "jobOrdersChecklist": "Arbeitsaufträge und Checklisten",
+      "keepAssetInCheck": "Behalten Sie Assets mit Arbeitsaufträgen und aufgabenspezifischen Checklisten für Techniker im Griff.",
+      "scheduleMaintenance": "Wartung planen",
+      "reduceUnplannedDowntimes": "Reduzieren Sie ungeplante Ausfallzeiten Ihrer Assets, indem Sie Wartungen planen.",
+      "qrScanning": "QR-Scanning",
+      "useQrScanning": "Verwenden Sie QR-Scanning, um die Identifizierung und Verfolgung von Assets zu beschleunigen.",
+      "meterTracking": "Zählerverfolgung",
+      "trackAssetUsage": "Verfolgen Sie die Nutzung und Leistung von Assets mit Zählerständen.",
+      "analytics": "Analysen",
+      "obtainCalculatedMetrics": "Erhalten Sie berechnete Kennzahlen und Einblicke aus den von Ihnen bereitgestellten Daten."
     }
   },
   "analytic": {

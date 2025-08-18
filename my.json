@@ -1417,6 +1417,28 @@
       "showUpdatesRelated":"Tunjukkan Kemas Kini Berkaitan Dengan:",
         "filterSelectAsset":"Tapis dan pilih aset yang anda ingin eksport kod QR untuknya",
         "exportQrForAll":"Eksport juga kod QR untuk semua komponen"
+    },
+    "emptyPage":{
+      "getStartedWithAsset":"Mulakan Dengan Aset",
+      "createManageAsset":"Cipta, urus, selenggara, dan dapatkan pandangan tentang aset anda.",
+      "assetRegistration":"Pendaftaran Aset",
+      "registerDetailedAsset":"Daftarkan maklumat aset terperinci termasuk nombor siri, spesifikasi, dan lokasi.",
+      "trackAsset":"Jejaki Aset",
+      "monitorAsset":"Pantau lokasi aset, pemiliknya, dan keadaannya.",
+      "connectAnalyse":"Hubung & Analisis",
+      "linkAssetToSchedule":"Pautkan aset kepada jadual pencegahan dan jana kerja perkhidmatan berulang secara automatik.",
+      "assetOverview":"Gambaran Keseluruhan Aset",
+      "storeManageDataForAsset":"Simpan dan urus data untuk semua aset anda di satu tempat. Jejaki pemilikan, lokasi, keadaan, dan pautkan aset kepada pesanan kerja, senarai semak, dan jadual penyelenggaraan.",
+      "jobOrdersChecklist":"Pesanan Kerja dan Senarai Semak",
+      "keepAssetInCheck":"Pastikan aset terkawal dengan pesanan kerja dan senarai semak khusus untuk juruteknik.",
+      "scheduleMaintenance":"Jadualkan Penyelenggaraan",
+      "reduceUnplannedDowntimes":"Kurangkan masa henti yang tidak dirancang untuk aset anda dengan menjadualkan penyelenggaraan.",
+      "qrScanning":"Imbasan QR",
+      "useQrScanning":"Gunakan imbasan QR untuk mempercepat pengecaman dan penjejakan aset.",
+      "meterTracking":"Penjejakan Meter",
+      "trackAssetUsage":"Jejaki penggunaan dan prestasi aset dengan bacaan meter.",
+      "analytics":"Analitik",
+      "obtainCalculatedMetrics":"Dapatkan metrik yang dikira dan pandangan yang diperoleh daripada data yang anda berikan."
     }
   },
   "analytic": {
