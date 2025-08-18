@@ -1096,6 +1096,13 @@
         "plural": "Tarikh Cipta",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "numberAssetSelected":{
+        "original": "assets have been selected",
+        "singular": "aset telah dipilih",
+        "plural": "aset telah dipilih",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "validationFE": {
@@ -1414,7 +1421,8 @@
         "exportQrForAll":"Eksport juga kod QR untuk semua komponen",
         "exportQrSettings":"Eksport Tetapan QR",
         "selectQrCodeSize":"Pilih Saiz Kod QR",
-        "selectFileFormat":"Pilih Format Fail"
+        "selectFileFormat":"Pilih Format Fail",
+        "uncheckSelectAll":"Nyahtanda “pilih semua” untuk melihat semula keseluruhan senarai"
     }
   },
   "analytic": {

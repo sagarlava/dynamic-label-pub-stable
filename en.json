@@ -1096,6 +1096,13 @@
         "plural": "Create Date",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "numberAssetSelected":{
+        "original": "assets have been selected",
+        "singular": "asset have been selected",
+        "plural": "assets have been selected",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "validationFE": {
@@ -1414,7 +1421,8 @@
         "exportQrForAll":"Export QR codes for all components too",
         "exportQrSettings":"Export QR Settings",
         "selectQrCodeSize":"Select QR Code Size",
-        "selectFileFormat":"Select File Format"
+        "selectFileFormat":"Select File Format",
+        "uncheckSelectAll":"Uncheck “select all” to view the whole list again"
     }
   },
   "analytic": {

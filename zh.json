@@ -1096,6 +1096,13 @@
         "plural": "创建日期",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "numberAssetSelected":{
+        "original": "assets have been selected",
+        "singular": "已选择个资产",
+        "plural": "已选择个资产",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "validationFE": {
@@ -1414,7 +1421,8 @@
         "exportQrForAll":"也导出所有组件的二维码",
         "exportQrSettings":"导出二维码设置",
         "selectQrCodeSize":"选择二维码大小",
-        "selectFileFormat":"选择文件格式"
+        "selectFileFormat":"选择文件格式",
+        "uncheckSelectAll":"取消勾选“全选”以再次查看完整列表"
     }
   },
   "analytic": {

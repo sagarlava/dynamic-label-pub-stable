@@ -1096,6 +1096,13 @@
         "plural": "Erstellungsdatum",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "numberAssetSelected":{
+        "original": "assets have been selected",
+        "singular": "Asset wurde ausgewählt",
+        "plural": "Assets wurden ausgewählt",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "validationFE": {
@@ -1414,7 +1421,8 @@
         "exportQrForAll":"QR-Codes auch für alle Komponenten exportieren",
         "exportQrSettings":"QR-Einstellungen exportieren",
         "selectQrCodeSize":"QR-Code-Größe auswählen",
-        "selectFileFormat":"Dateiformat auswählen"
+        "selectFileFormat":"Dateiformat auswählen",
+        "uncheckSelectAll":"Deaktivieren Sie „Alle auswählen“, um die gesamte Liste erneut anzuzeigen"
     }
   },
   "analytic": {
