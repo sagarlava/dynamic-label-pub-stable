@@ -24548,7 +24548,8 @@
       "circularDependencyOnSupervisor": "Kebergantungan bulat: Dua pengguna tidak boleh menjadi pengurus kelulusan antara satu sama lain",
       "noDownLineFound": "Anda tidak mempunyai sebarang kakitangan yang ditugaskan",
       "unableToActiveOwnAccount": "Anda tidak dibenarkan untuk menggantung atau menyahaktifkan akaun anda sendiri",
-      "unableToDeActiveDefaultMember": "Tidak dapat dinyahaktifkan: Pengguna adalah ahli lalai satu atau lebih kumpulan."
+      "unableToDeActiveDefaultMember": "Tidak dapat dinyahaktifkan: Pengguna adalah ahli lalai satu atau lebih kumpulan.",
+      "minimumOneBillingUser": "Sekurang-kurangnya satu pengguna mesti dikekalkan sebagai pengguna pengebilan"
     }
   },
   "note": {

@@ -24549,7 +24549,8 @@
       "circularDependencyOnSupervisor": "Dependencia circular: Dos usuarios no pueden ser los aprobadores del otro",
       "noDownLineFound": "No tiene personal asignado",
       "unableToActiveOwnAccount": "No tiene permitido suspender o desactivar su propia cuenta",
-      "unableToDeActiveDefaultMember": "No se puede desactivar: El usuario es un miembro predeterminado de uno o más grupos."
+      "unableToDeActiveDefaultMember": "No se puede desactivar: El usuario es un miembro predeterminado de uno o más grupos.",
+      "minimumOneBillingUser": "Al menos un usuario debe mantenerse como usuario de facturación"
     }
   },
   "note": {

@@ -204,7 +204,7 @@ db.dynamic_label_setup.updateMany(
 {"module": "binTransfer", "language": "es" },
 {$set: {"setup.sections.sec15":{
       "original": "Transfer by Assets",
-      "singular": ""Transferencia por activos",
+      "singular": "Transferencia por activos",
       "plural": "Transferencias por activos",
       "setupEdit": false,
       "setupVisible": false

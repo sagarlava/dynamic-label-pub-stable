@@ -24549,7 +24549,8 @@
       "circularDependencyOnSupervisor": "循环依赖：两个用户不能互为审批经理",
       "noDownLineFound": "您没有分配任何员工",
       "unableToActiveOwnAccount": "您不允许暂停或停用自己的帐户",
-      "unableToDeActiveDefaultMember": "无法停用：用户是一个或多个组的默认成员。"
+      "unableToDeActiveDefaultMember": "无法停用：用户是一个或多个组的默认成员。",
+      "minimumOneBillingUser": "必须至少保留一位用户作为计费用户"
     }
   },
   "note": {
