@@ -1412,7 +1412,9 @@
       "showUpdatesRelated":"显示相关更新:",
         "filterSelectAsset":"筛选并选择您要导出二维码的资产",
         "exportQrForAll":"也导出所有组件的二维码",
-        "exportQrSettings":"导出二维码设置"
+        "exportQrSettings":"导出二维码设置",
+        "selectQrCodeSize":"选择二维码大小",
+        "selectFileFormat":"选择文件格式"
     }
   },
   "analytic": {

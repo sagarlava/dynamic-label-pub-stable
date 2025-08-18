@@ -1412,7 +1412,9 @@
       "showUpdatesRelated":"Show Updates Related To:",
         "filterSelectAsset":"Filter and select the assets you want to export QR codes for",
         "exportQrForAll":"Export QR codes for all components too",
-        "exportQrSettings":"Export QR Settings"
+        "exportQrSettings":"Export QR Settings",
+        "selectQrCodeSize":"Select QR Code Size",
+        "selectFileFormat":"Select File Format"
     }
   },
   "analytic": {

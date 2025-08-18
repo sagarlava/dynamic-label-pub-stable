@@ -1412,7 +1412,9 @@
       "showUpdatesRelated":"Tunjukkan Kemas Kini Berkaitan Dengan:",
         "filterSelectAsset":"Tapis dan pilih aset yang anda ingin eksport kod QR untuknya",
         "exportQrForAll":"Eksport juga kod QR untuk semua komponen",
-        "exportQrSettings":"Eksport Tetapan QR"
+        "exportQrSettings":"Eksport Tetapan QR",
+        "selectQrCodeSize":"Pilih Saiz Kod QR",
+        "selectFileFormat":"Pilih Format Fail"
     }
   },
   "analytic": {

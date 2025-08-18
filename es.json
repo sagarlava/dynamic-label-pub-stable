@@ -1412,7 +1412,9 @@
       "showUpdatesRelated": "Mostrar actualizaciones relacionadas con:",
         "filterSelectAsset":"Filtra y selecciona los activos para los que deseas exportar los códigos QR",
         "exportQrForAll":"Exportar también los códigos QR para todos los componentes",
-        "exportQrSettings":"Exportar configuración de QR"
+        "exportQrSettings":"Exportar configuración de QR",
+        "selectQrCodeSize":"Seleccionar tamaño del código QR",
+        "selectFileFormat":"Seleccionar formato de archivo"
     }
   },
   "analytic": {

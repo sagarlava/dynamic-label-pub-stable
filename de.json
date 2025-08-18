@@ -1412,7 +1412,9 @@
       "showUpdatesRelated":"Zeige Updates zu:",
         "filterSelectAsset":"Filtern und wählen Sie die Assets aus, für die Sie QR-Codes exportieren möchten",
         "exportQrForAll":"QR-Codes auch für alle Komponenten exportieren",
-        "exportQrSettings":"QR-Einstellungen exportieren"
+        "exportQrSettings":"QR-Einstellungen exportieren",
+        "selectQrCodeSize":"QR-Code-Größe auswählen",
+        "selectFileFormat":"Dateiformat auswählen"
     }
   },
   "analytic": {
