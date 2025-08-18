@@ -1782,6 +1782,16 @@
       "entryCannotBeNegativeValue": "Entri tidak boleh dibuat dengan nilai negatif",
       "areYouSureDeleteReading": "Adakah anda pasti mahu memadam bacaan ini pada",
       "errorOccuredWhileSigning": "Ralat berlaku semasa menandatangani"
+    },
+    "emptyPage":{
+      "getStartedWithAssetLog": "Mulakan Dengan Log Aset",
+      "assetLogsHelpTrack": "Log aset membantu anda menjejak meter aset.",
+      "logs": "Log",
+      "maintainListOfAssetLog": "Kekalkan senarai log meter aset.",
+      "currentReading": "Bacaan Semasa",
+      "stayInformedOnReading": "Kekal dimaklumkan tentang bacaan meter aset semasa anda.",
+      "audit": "Audit",
+      "keepTrackOfReading": "Jejaki bacaan meter aset."
     }
   },
   "vanLog": {

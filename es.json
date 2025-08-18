@@ -1782,6 +1782,16 @@
       "entryCannotBeNegativeValue": "No se puede hacer una entrada con valores negativos",
       "areYouSureDeleteReading": "¿Está seguro de que desea eliminar esta lectura en",
       "errorOccuredWhileSigning": "Ocurrió un error al firmar"
+    },
+    "emptyPage":{
+      "getStartedWithAssetLog": "Comienza con los registros de activos",
+      "assetLogsHelpTrack": "Los registros de activos te ayudan a hacer un seguimiento de los medidores de activos.",
+      "logs": "Registros",
+      "maintainListOfAssetLog": "Mantén una lista de registros de medidores de activos.",
+      "currentReading": "Lectura actual",
+      "stayInformedOnReading": "Mantente informado sobre tus lecturas actuales de medidores de activos.",
+      "audit": "Auditoría",
+      "keepTrackOfReading": "Haz un seguimiento de las lecturas de medidores de activos."
     }
   },
   "vanLog": {

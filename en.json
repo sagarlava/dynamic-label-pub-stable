@@ -1782,6 +1782,16 @@
       "entryCannotBeNegativeValue": "Entry cannot be made with minus values",
       "areYouSureDeleteReading":"Are you sure you want to delete this reading on",
       "errorOccuredWhileSigning":"An error occured while signing"
+    },
+    "emptyPage":{
+      "getStartedWithAssetLog":"Get Started With Asset Logs",
+      "assetLogsHelpTrack":"Asset logs help you keep track of asset meters.",
+      "logs":"Logs",
+      "maintainListOfAssetLog":"Maintain a list of asset meter logs.",
+      "currentReading":"Current Reading",
+      "stayInformedOnReading":"Stay informed on your current asset meter readings.",
+      "audit":"Audit",
+      "keepTrackOfReading":"Keep track of Asset Meter Readings."
     }
   },
   "vanLog":{

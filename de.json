@@ -1782,6 +1782,16 @@
       "entryCannotBeNegativeValue": "Eingaben mit negativen Werten sind nicht zulässig.",
       "areYouSureDeleteReading": "Sind Sie sicher, dass Sie diesen Zählerstand am löschen möchten?",
       "errorOccuredWhileSigning": "Ein Fehler ist beim Unterschreiben aufgetreten"
+    },
+    "emptyPage":{
+      "getStartedWithAssetLog": "Erste Schritte mit Asset-Logs",
+      "assetLogsHelpTrack": "Asset-Logs helfen Ihnen, Asset-Zähler nachzuverfolgen.",
+      "logs": "Protokolle",
+      "maintainListOfAssetLog": "Führen Sie eine Liste der Asset-Zählerprotokolle.",
+      "currentReading": "Aktueller Zählerstand",
+      "stayInformedOnReading": "Bleiben Sie über Ihre aktuellen Asset-Zählerstände informiert.",
+      "audit": "Audit",
+      "keepTrackOfReading": "Verfolgen Sie Asset-Zählerstände."
     }
   },
   "vanLog": {

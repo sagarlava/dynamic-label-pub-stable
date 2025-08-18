@@ -1782,6 +1782,16 @@
       "entryCannotBeNegativeValue": "不能输入负值",
       "areYouSureDeleteReading": "您确定要删除这个读数吗？",
       "errorOccuredWhileSigning": "签名时发生错误"
+    },
+    "emptyPage":{
+      "getStartedWithAssetLog": "从资产日志开始",
+      "assetLogsHelpTrack": "资产日志可帮助您跟踪资产计量表。",
+      "logs": "日志",
+      "maintainListOfAssetLog": "维护资产计量日志列表。",
+      "currentReading": "当前读数",
+      "stayInformedOnReading": "随时了解您当前的资产计量表读数。",
+      "audit": "审计",
+      "keepTrackOfReading": "跟踪资产计量表读数。"
     }
   },
   "vanLog": {
