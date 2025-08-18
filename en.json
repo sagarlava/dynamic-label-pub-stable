@@ -2450,7 +2450,29 @@
         "setupVisible": false
       }
     },
-    "messages": {}
+    "messages": {},
+    "emptyPage":{
+      "reduceDowntimesWithPm":"Reduce Downtimes With Preventive Maintenance",
+      "preventUnplannedDowntimes":"Prevent unplanned downtimes for your assets by setting up preventive maintenances.",
+      "setSchedules":"Set Schedules",
+      "configureRemindersMultipleMaintenance":"Configure reminders and multiple maintenance frequencies with automatic PM job creation.",
+      "linkAsset":"Link Assets",
+      "linkMaintenanceSchedules":"Link maintenance schedules to one or many assets to generate individual recurring PM jobs.",
+      "trackCompliance":"Track Compliance",
+      "monitorUpcomingCompletedPm":"Monitor upcoming, overdue, and completed PM tasks in real-time.",
+      "pmOverview":"Preventive Maintenance Overview",
+      "planScheduleRecurringMaintenance":"Plan and schedule recurring maintenance tasks to reduce equipment downtime. Automate scheduling based on fixed dates or meter readings, assign tasks, and track completion.",
+      "createSchedule":"Create Schedule",
+      "createSchedulePerformedForAsset":"Create a schedule that a preventive maintenance job will be performed for an asset.",
+      "intervalTemplates":"Interval Templates",
+      "createIntervalTemplatesForAsset":"Create interval templates that can be used for your assets.",
+      "meters":"Meters",
+      "setSpecificMeterRange":"Set specific meter ranges for when preventive maintenance jobs should be performed.",
+      "checklists":"Checklists",
+      "haveAssetSpecificChecklist":"Have asset specific checklists for a preventive maintenance job.",
+      "notifications":"Notifications",
+      "setUpNotificationToPerformPm":"Set up notifications that will be sent periodically to the owners of assets to perform preventive maintenance."
+    }
   },
   "contracts": {
     "setupVisible": true,

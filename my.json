@@ -2450,7 +2450,29 @@
         "setupVisible": false
       }
     },
-    "messages": {}
+    "messages": {},
+    "emptyPage":{
+      "reduceDowntimesWithPm": "Kurangkan Masa Henti Dengan Penyelenggaraan Pencegahan",
+      "preventUnplannedDowntimes": "Elakkan masa henti tidak dirancang untuk aset anda dengan menyediakan penyelenggaraan pencegahan.",
+      "setSchedules": "Tetapkan Jadual",
+      "configureRemindersMultipleMaintenance": "Konfigurasikan peringatan dan pelbagai kekerapan penyelenggaraan dengan penciptaan kerja PM secara automatik.",
+      "linkAsset": "Pautkan Aset",
+      "linkMaintenanceSchedules": "Pautkan jadual penyelenggaraan kepada satu atau banyak aset untuk menjana kerja PM berulang individu.",
+      "trackCompliance": "Jejaki Pematuhan",
+      "monitorUpcomingCompletedPm": "Pantau tugas PM yang akan datang, tertunggak, dan selesai secara masa nyata.",
+      "pmOverview": "Gambaran Keseluruhan Penyelenggaraan Pencegahan",
+      "planScheduleRecurringMaintenance": "Rancang dan jadualkan tugas penyelenggaraan berulang untuk mengurangkan masa henti peralatan. Automatikkan penjadualan berdasarkan tarikh tetap atau bacaan meter, tetapkan tugas, dan jejaki penyempurnaan.",
+      "createSchedule": "Cipta Jadual",
+      "createSchedulePerformedForAsset": "Cipta jadual bahawa kerja PM akan dilakukan untuk aset.",
+      "intervalTemplates": "Templat Sela",
+      "createIntervalTemplatesForAsset": "Cipta templat sela yang boleh digunakan untuk aset anda.",
+      "meters": "Meter",
+      "setSpecificMeterRange": "Tetapkan julat meter khusus untuk bila kerja PM harus dilakukan.",
+      "checklists": "Senarai Semak",
+      "haveAssetSpecificChecklist": "Sediakan senarai semak khusus aset untuk kerja PM.",
+      "notifications": "Pemberitahuan",
+      "setUpNotificationToPerformPm": "Sediakan pemberitahuan yang akan dihantar secara berkala kepada pemilik aset untuk melaksanakan kerja PM."
+    }
   },
   "contracts": {
     "setupVisible": true,

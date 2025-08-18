@@ -2450,7 +2450,29 @@
         "setupVisible": false
       }
     },
-    "messages": {}
+    "messages": {},
+    "emptyPage":{
+      "reduceDowntimesWithPm": "Ausfallzeiten mit vorbeugender Wartung reduzieren",
+      "preventUnplannedDowntimes": "Verhindern Sie ungeplante Ausfallzeiten Ihrer Assets, indem Sie vorbeugende Wartungen einrichten.",
+      "setSchedules": "Pläne festlegen",
+      "configureRemindersMultipleMaintenance": "Konfigurieren Sie Erinnerungen und mehrere Wartungsfrequenzen mit automatischer Erstellung von PM-Aufträgen.",
+      "linkAsset": "Assets verknüpfen",
+      "linkMaintenanceSchedules": "Verknüpfen Sie Wartungspläne mit einem oder mehreren Assets, um einzelne wiederkehrende PM-Aufträge zu generieren.",
+      "trackCompliance": "Compliance verfolgen",
+      "monitorUpcomingCompletedPm": "Überwachen Sie in Echtzeit bevorstehende, überfällige und abgeschlossene PM-Aufgaben.",
+      "pmOverview": "Übersicht vorbeugende Wartung",
+      "planScheduleRecurringMaintenance": "Planen und terminieren Sie wiederkehrende Wartungsaufgaben, um die Ausfallzeiten von Geräten zu reduzieren. Automatisieren Sie die Planung basierend auf festen Terminen oder Zählerständen, weisen Sie Aufgaben zu und verfolgen Sie die Fertigstellung.",
+      "createSchedule": "Zeitplan erstellen",
+      "createSchedulePerformedForAsset": "Erstellen Sie einen Zeitplan, nach dem eine PM-Arbeit für ein Asset durchgeführt wird.",
+      "intervalTemplates": "Intervallvorlagen",
+      "createIntervalTemplatesForAsset": "Erstellen Sie Intervallvorlagen, die für Ihre Assets verwendet werden können.",
+      "meters": "Zähler",
+      "setSpecificMeterRange": "Legen Sie spezifische Zählerbereiche fest, wann PM-Aufträge durchgeführt werden sollen.",
+      "checklists": "Checklisten",
+      "haveAssetSpecificChecklist": "Haben Sie asset-spezifische Checklisten für eine PM-Arbeit.",
+      "notifications": "Benachrichtigungen",
+      "setUpNotificationToPerformPm": "Richten Sie Benachrichtigungen ein, die regelmäßig an die Asset-Eigentümer gesendet werden, um PM-Arbeiten durchzuführen."
+    }
   },
   "contracts": {
     "setupVisible": true,

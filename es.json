@@ -2450,7 +2450,29 @@
         "setupVisible": false
       }
     },
-    "messages": {}
+    "messages": {},
+    "emptyPage":{
+      "reduceDowntimesWithPm": "Reduce los tiempos de inactividad con mantenimiento preventivo",
+      "preventUnplannedDowntimes": "Evita tiempos de inactividad no planificados de tus activos configurando mantenimientos preventivos.",
+      "setSchedules": "Configurar horarios",
+      "configureRemindersMultipleMaintenance": "Configura recordatorios y múltiples frecuencias de mantenimiento con la creación automática de trabajos PM.",
+      "linkAsset": "Vincular activos",
+      "linkMaintenanceSchedules": "Vincula programas de mantenimiento a uno o varios activos para generar trabajos PM recurrentes individuales.",
+      "trackCompliance": "Seguimiento del cumplimiento",
+      "monitorUpcomingCompletedPm": "Supervisa en tiempo real las tareas PM próximas, vencidas y completadas.",
+      "pmOverview": "Resumen de mantenimiento preventivo",
+      "planScheduleRecurringMaintenance": "Planifica y programa tareas de mantenimiento recurrentes para reducir el tiempo de inactividad de los equipos. Automatiza la programación en función de fechas fijas o lecturas de medidores, asigna tareas y controla la finalización.",
+      "createSchedule": "Crear programa",
+      "createSchedulePerformedForAsset": "Crea un programa en el que se realice un trabajo PM para un activo.",
+      "intervalTemplates": "Plantillas de intervalos",
+      "createIntervalTemplatesForAsset": "Crea plantillas de intervalos que se puedan usar para tus activos.",
+      "meters": "Medidores",
+      "setSpecificMeterRange": "Establece rangos específicos de medidores para determinar cuándo deben realizarse trabajos PM.",
+      "checklists": "Listas de verificación",
+      "haveAssetSpecificChecklist": "Ten listas de verificación específicas de activos para un trabajo PM.",
+      "notifications": "Notificaciones",
+      "setUpNotificationToPerformPm": "Configura notificaciones que se enviarán periódicamente a los propietarios de activos para realizar trabajos PM."
+    }
   },
   "contracts": {
     "setupVisible": true,
