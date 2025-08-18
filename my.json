@@ -2268,6 +2268,16 @@
       "maintenance": "Penyelenggaraan",
       "maintenanceDetails": "Butiran Penyelenggaraan",
       "haveActiveMaintenance": "Sudah ada Penyelenggaraan Aktif"
+    },
+    "emptyPage":{
+      "setUpMaintenanceSchedule": "Sediakan Jadual Penyelenggaraan",
+      "preventUnplannedDowntimes": "Elakkan masa henti tidak dirancang untuk aset anda dengan menyediakan jadual penyelenggaraan.",
+      "linkAssetToPm": "Pautkan Aset kepada Pelan PM",
+      "assignAssetBasedOnType": "Tetapkan aset kepada jadual penyelenggaraan pencegahan berdasarkan jenis.",
+      "autoGenerateJob": "Jana Kerja Secara Automatik",
+      "autoCreateMaintenanceJob": "Cipta pesanan kerja penyelenggaraan secara automatik berdasarkan sela masa atau kontrak yang ditetapkan.",
+      "trackServiceHistory": "Jejaki Sejarah Servis",
+      "viewAllCompletedMaintenance": "Lihat semua kerja penyelenggaraan yang telah selesai dan akan datang bagi setiap aset."
     }
   },
   "preventiveMaintenance": {

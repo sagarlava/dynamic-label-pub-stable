@@ -2268,6 +2268,16 @@
       "maintenance" : "Maintenance",
       "maintenanceDetails" : "Maintenance Details",
       "haveActiveMaintenance":"Already have an Active Maintenance"
+    },
+    "emptyPage":{
+      "setUpMaintenanceSchedule":"Set Up Maintenance Schedules",
+      "preventUnplannedDowntimes":"Prevent unplanned downtimes for your assets by setting up maintenance schedules.",
+      "linkAssetToPm":"Link Assets to PM Plans",
+      "assignAssetBasedOnType":"Assign assets to preventive maintenance schedules based on type.",
+      "autoGenerateJob":"Auto-Generate Jobs",
+      "autoCreateMaintenanceJob":"Automatically create maintenance job orders based on set intervals or contracts.",
+      "trackServiceHistory":"Track Service History",
+      "viewAllCompletedMaintenance":"View all completed and upcoming maintenance jobs for each asset."
     }
   },
   "preventiveMaintenance": {

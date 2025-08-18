@@ -2268,6 +2268,16 @@
       "maintenance": "Wartung",
       "maintenanceDetails": "Wartungsdetails",
       "haveActiveMaintenance": "Es gibt bereits eine aktive Wartung."
+    },
+    "emptyPage":{
+      "setUpMaintenanceSchedule": "Wartungspläne einrichten",
+      "preventUnplannedDowntimes": "Verhindern Sie ungeplante Ausfallzeiten Ihrer Assets, indem Sie Wartungspläne einrichten.",
+      "linkAssetToPm": "Assets mit PM-Plänen verknüpfen",
+      "assignAssetBasedOnType": "Weisen Sie Assets vorbeugenden Wartungsplänen basierend auf ihrem Typ zu.",
+      "autoGenerateJob": "Aufträge automatisch generieren",
+      "autoCreateMaintenanceJob": "Erstellen Sie automatisch Wartungsaufträge basierend auf festgelegten Intervallen oder Verträgen.",
+      "trackServiceHistory": "Servicehistorie verfolgen",
+      "viewAllCompletedMaintenance": "Alle abgeschlossenen und anstehenden Wartungsaufträge für jedes Asset anzeigen."
     }
   },
   "preventiveMaintenance": {

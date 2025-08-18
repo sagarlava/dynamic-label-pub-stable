@@ -2268,6 +2268,16 @@
       "maintenance": "Mantenimiento",
       "maintenanceDetails": "Detalles del Mantenimiento",
       "haveActiveMaintenance": "Ya tiene un mantenimiento activo"
+    },
+    "emptyPage":{
+      "setUpMaintenanceSchedule": "Configura programas de mantenimiento",
+      "preventUnplannedDowntimes": "Evita tiempos de inactividad no planificados de tus activos configurando programas de mantenimiento.",
+      "linkAssetToPm": "Vincula activos a planes de mantenimiento preventivo",
+      "assignAssetBasedOnType": "Asigna activos a programas de mantenimiento preventivo según su tipo.",
+      "autoGenerateJob": "Generar trabajos automáticamente",
+      "autoCreateMaintenanceJob": "Crea automáticamente órdenes de mantenimiento basadas en intervalos o contratos establecidos.",
+      "trackServiceHistory": "Seguimiento del historial de servicio",
+      "viewAllCompletedMaintenance": "Consulta todos los trabajos de mantenimiento completados y próximos para cada activo."
     }
   },
   "preventiveMaintenance": {
