@@ -420,6 +420,18 @@
       "nearestCustomers": "Clientes Más Cercanos",
       "nearbyCustomers": "Clientes Cercanos",
       "seeInMap": "Ver en el mapa"
+    },
+    "emptyPage":{
+      "manageCustomer":"Gestiona a tus clientes",
+      "keepRecordOfCompanies":"Mantén un registro de las empresas y contactos con los que trabajas.",
+      "customerRecords":"Registros de clientes",
+      "storeCustomerDetails":"Almacena los detalles del cliente como información de contacto y dirección, y vincula trabajos, activos y actividades de servicio a cada perfil.",
+      "siteLinking":"Vinculación de sitios",
+      "handleCustomersUnderOneProfile":"Gestiona clientes con varias ubicaciones de servicio bajo un mismo perfil.",
+      "activityHistory":"Historial de actividades",
+      "trackPastJobs":"Haz un seguimiento de trabajos pasados, tareas completadas, activos utilizados y actividades de campo.",
+      "customerOverview":"Resumen de clientes",
+      "storeRecordsOfContacts":"Guarda registros de contactos y empresas con las que trabajas. Vincula a tus clientes con sitios y lleva un seguimiento de trabajos, tareas, activos y proyectos relacionados con ellos."
     }
   },
   "asset": {

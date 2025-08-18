@@ -420,6 +420,18 @@
       "nearestCustomers": "Nächstgelegene Kunden",
       "nearbyCustomers": "Kunden in der Nähe",
       "seeInMap": "Auf der Karte sehe"
+    },
+    "emptyPage":{
+      "manageCustomer":"Verwalten Sie Ihre Kunden",
+      "keepRecordOfCompanies":"Führen Sie Aufzeichnungen über die Unternehmen und Kontakte, mit denen Sie zusammenarbeiten.",
+      "customerRecords":"Kundenakten",
+      "storeCustomerDetails":"Speichern Sie Kundendaten wie Kontaktinformationen und Adresse und verknüpfen Sie Aufträge, Assets und Serviceaktivitäten mit jedem Profil.",
+      "siteLinking":"Standortverknüpfung",
+      "handleCustomersUnderOneProfile":"Verwalten Sie Kunden mit mehreren Servicestandorten unter einem Profil.",
+      "activityHistory":"Aktivitätsverlauf",
+      "trackPastJobs":"Verfolgen Sie vergangene Aufträge, erledigte Aufgaben, verwendete Assets und Feldaktivitäten.",
+      "customerOverview":"Kundenübersicht",
+      "storeRecordsOfContacts":"Speichern Sie Aufzeichnungen von Kontakten und Unternehmen, mit denen Sie zusammenarbeiten. Verknüpfen Sie Ihre Kunden mit Standorten und verfolgen Sie Aufträge, Aufgaben, Assets und Projekte, die mit ihnen verbunden sind."
     }
   },
   "asset": {

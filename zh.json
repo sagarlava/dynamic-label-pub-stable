@@ -420,6 +420,18 @@
       "nearestCustomers": "最近的客户",
       "nearbyCustomers": "附近的客户",
       "seeInMap": "在地图上查看"
+    },
+    "emptyPage":{
+      "manageCustomer":"管理您的客户",
+      "keepRecordOfCompanies":"保存与您合作的公司和联系人的记录。",
+      "customerRecords":"客户记录",
+      "storeCustomerDetails":"存储客户详细信息，如联系方式和地址，并将工作、资产和服务活动链接到每个档案。",
+      "siteLinking":"站点关联",
+      "handleCustomersUnderOneProfile":"在一个档案下管理拥有多个服务地点的客户。",
+      "activityHistory":"活动历史",
+      "trackPastJobs":"跟踪过去的工作、已完成的任务、使用的资产和现场活动。",
+      "customerOverview":"客户概览",
+      "storeRecordsOfContacts":"保存与您合作的联系人和公司的记录。将客户关联到站点，并跟踪与他们相关的工作、任务、资产和项目。"
     }
   },
   "asset": {

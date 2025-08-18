@@ -420,6 +420,18 @@
       "nearestCustomers": "Nearest Customers",
       "nearbyCustomers": "Nearby Customers",
       "seeInMap": "See in map"
+    },
+    "emptyPage":{
+      "manageCustomer":"Manage Your Customers",
+      "keepRecordOfCompanies":"Keep a record of companies and contacts you work with.",
+      "customerRecords":"Customer Records",
+      "storeCustomerDetails":"Store customer details like contact info and address, and link jobs, assets, and service activity to each profile.",
+      "siteLinking":"Site Linking",
+      "handleCustomersUnderOneProfile":"Handle customers with several service locations under one profile.",
+      "activityHistory":"Activity History",
+      "trackPastJobs":"Track past jobs, tasks completed, assets used, and field activities.",
+      "customerOverview":"Customers Overview",
+      "storeRecordsOfContacts":"Store records of contacts and companies that you work with. Link your customers to sites and keep track of jobs, tasks, assets, and projects which are tied to them."
     }
   },
   "asset": {
