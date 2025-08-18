@@ -1089,6 +1089,20 @@
         "plural": "Brand",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "createDate": {
+        "original": "Create Date",
+        "singular": "Create Date",
+        "plural": "Create Date",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "numberAssetSelected":{
+        "original": "assets have been selected",
+        "singular": "asset have been selected",
+        "plural": "assets have been selected",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "validationFE": {
@@ -1404,7 +1418,11 @@
       "logs": "Logs",
       "showUpdatesRelated":"Show Updates Related To:",
         "filterSelectAsset":"Filter and select the assets you want to export QR codes for",
-        "exportQrForAll":"Export QR codes for all components too"
+        "exportQrForAll":"Export QR codes for all components too",
+        "exportQrSettings":"Export QR Settings",
+        "selectQrCodeSize":"Select QR Code Size",
+        "selectFileFormat":"Select File Format",
+        "uncheckSelectAll":"Uncheck “select all” to view the whole list again"
     }
   },
   "analytic": {
@@ -10376,7 +10394,7 @@
       "selectSparePartsToBeTransferred":"Select the spare parts to be transferred",
       "selectBinTransferSparePartFrom":"Select the bin you want to transfer spare parts from",
       "selectBinToTransferSpareParts":"Select the bin you want to transfer the spare parts to",
-      "specifySparePartQuantity":"You may specify spare part quantity in the next step",
+      "specifySparePartQuantity":"You may specify the quantity of spare parts in the next step",
       "addQuantitiesTransferred":"Add the quantities to be transferred to",
       "enterSerialNumberHere":"Enter serial numbers here. Eg. 128371253ABC",
       "enterSKUHere":"Enter SKUs here. Eg. 128371253ABC",
@@ -10384,7 +10402,8 @@
       "selectedBinNoLongerContains":"The selected bin no longer contains the following items",
       "needTransferItemManually":"You will need to select and transfer these items manually. The other selected items will be transferred.",
       "transferCannotContinue":"The transfer cannot continue since the selected bin no longer contains the following items",
-      "aBinTransferInitiate":"A Bin Transfer record will be created for the approved items. Are you sure you want to initiate this bin transfer?"
+      "aBinTransferInitiate":"A Bin Transfer record will be created for the approved items. Are you sure you want to initiate this bin transfer?",
+      "max50SerialNumbers":"You can enter a maximum of 50 serial numbers/SKUs."
     }
   },
   "checkAvailibility": {
@@ -13096,9 +13115,9 @@
         "setupVisible": false
       },
       "checkAvailability": {
-        "original": "Check availability",
-        "singular": "Check availability",
-        "plural": "",
+        "original": "Check Availability",
+        "singular": "Check Availability",
+        "plural": "Check Availability",
         "setupEdit": true,
         "setupVisible": false
       },
@@ -13976,7 +13995,14 @@
         "plural": "Enterprise",
         "setupEdit": false,
         "setupVisible": false
-      }	
+      },
+      "selectAll": {
+        "original": "Select All",
+        "singular": "Select All",
+        "plural": "Select All",
+        "setupEdit": false,
+        "setupVisible": false
+      }
     },
     "status": {
       "setupVisible": false,
@@ -14705,7 +14731,8 @@
       "tip":"Tip",
       "tips":"Tips",
       "makeFilterSelections":"Make filter selections to locate assets",
-      "confirmation":"Confirmation"
+      "confirmation":"Confirmation",
+      "makeFilterSelectionsCheckAvail":"Make filter selections to check availability"
     },
     "currency":{
       "australianDollar": "AUD",
@@ -24810,7 +24837,8 @@
       "circularDependencyOnSupervisor": "Circular dependency : Two users cannot be each other's approval managers",
       "noDownLineFound": "You do not have any staff assigned",
       "unableToActiveOwnAccount": "You are not allowed to suspend or deactivate your own account",
-      "unableToDeActiveDefaultMember": "Cannot deactivate: User is a default member of one or more groups."
+      "unableToDeActiveDefaultMember": "Cannot deactivate: User is a default member of one or more groups.",
+      "minimumOneBillingUser": "At least One user must be kept as billing user"
     }
   },
   "note": {

@@ -1089,6 +1089,20 @@
         "plural": "Marke",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "createDate": {
+        "original": "Create Date",
+        "singular": "Erstellungsdatum",
+        "plural": "Erstellungsdatum",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "numberAssetSelected":{
+        "original": "assets have been selected",
+        "singular": "Asset wurde ausgewählt",
+        "plural": "Assets wurden ausgewählt",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "validationFE": {
@@ -1404,7 +1418,11 @@
         "logs": "Protokolle",
       "showUpdatesRelated":"Zeige Updates zu:",
         "filterSelectAsset":"Filtern und wählen Sie die Assets aus, für die Sie QR-Codes exportieren möchten",
-        "exportQrForAll":"QR-Codes auch für alle Komponenten exportieren"
+        "exportQrForAll":"QR-Codes auch für alle Komponenten exportieren",
+        "exportQrSettings":"QR-Einstellungen exportieren",
+        "selectQrCodeSize":"QR-Code-Größe auswählen",
+        "selectFileFormat":"Dateiformat auswählen",
+        "uncheckSelectAll":"Deaktivieren Sie „Alle auswählen“, um die gesamte Liste erneut anzuzeigen"
     }
   },
   "analytic": {
@@ -10376,7 +10394,7 @@
     "selectSparePartsToBeTransferred":"Wählen Sie die zu übertragenden Ersatzteile aus",
     "selectBinTransferSparePartFrom":"Wählen Sie den Behälter aus, aus dem Sie Ersatzteile übertragen möchten",
     "selectBinToTransferSpareParts":"Wählen Sie den Behälter aus, in den Sie die Ersatzteile übertragen möchten",
-    "specifySparePartQuantity":"Sie können die Menge der Ersatzteile im nächsten Schritt angeben",
+    "specifySparePartQuantity":"Sie können die Menge der Ersatzteile im nächsten Schritt angeben.",
     "addQuantitiesTransferred":"Fügen Sie die zu übertragenden Mengen hinzu",
     "enterSerialNumberHere":"Geben Sie hier die Seriennummern ein. Eg. 128371253ABC",
     "enterSKUHere":"Geben Sie hier die SKUs ein. Eg. 128371253ABC",
@@ -10384,7 +10402,8 @@
     "selectedBinNoLongerContains":"Der ausgewählte Behälter enthält die folgenden Artikel nicht mehr",
     "needTransferItemManually":"Sie müssen diese Artikel manuell auswählen und übertragen. Die anderen ausgewählten Artikel werden übertragen.",
     "transferCannotContinue":"Die Übertragung kann nicht fortgesetzt werden, da der ausgewählte Behälter die folgenden Artikel nicht mehr enthält",
-      "aBinTransferInitiate":"Ein Behälterübertragungsdatensatz wird für die genehmigten Artikel erstellt. Möchten Sie diesen Behältertransfer wirklich starten?"
+      "aBinTransferInitiate":"Ein Behälterübertragungsdatensatz wird für die genehmigten Artikel erstellt. Möchten Sie diesen Behältertransfer wirklich starten?",
+      "max50SerialNumbers":"Sie können maximal 50 Seriennummern/SKUs eingeben."
   }
 },
   "checkAvailibility": {
@@ -13096,9 +13115,9 @@
         "setupVisible": false
       },
       "checkAvailability": {
-        "original": "Check availability",
+        "original": "Check Availability",
         "singular": "Verfügbarkeit Prüfen",
-        "plural": "",
+        "plural": "Verfügbarkeit Prüfen",
         "setupEdit": true,
         "setupVisible": false
       },
@@ -13941,6 +13960,13 @@
         "plural": "Enterprise",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "selectAll": {
+        "original": "Select All",
+        "singular": "Alle auswählen",
+        "plural": "Alle auswählen",
+        "setupEdit": false,
+        "setupVisible": false
       }			
     },
     "status": {
@@ -14670,7 +14696,8 @@
       "tip":"Tipp",
       "tips":"Tipps",
       "makeFilterSelections":"Treffen Sie Filterauswahlen, um Assets zu finden",
-      "confirmation":"Bestätigung"
+      "confirmation":"Bestätigung",
+      "makeFilterSelectionsCheckAvail":"Treffen Sie Filterauswahlen, um die Verfügbarkeit zu prüfen"
     },
     "currency": {
       "australianDollar": "AUD",
@@ -24775,7 +24802,8 @@
       "circularDependencyOnSupervisor": "Zirkuläre Abhängigkeit: Zwei Benutzer können nicht gegenseitig die Genehmigungsmanager sein",
       "noDownLineFound": "Sie haben keine zugewiesenen Mitarbeiter",
       "unableToActiveOwnAccount": "Sie dürfen Ihr eigenes Konto nicht sperren oder deaktivieren",
-      "unableToDeActiveDefaultMember": "Kann nicht deaktiviert werden: Benutzer ist ein Standardmitglied einer oder mehrerer Gruppen."
+      "unableToDeActiveDefaultMember": "Kann nicht deaktiviert werden: Benutzer ist ein Standardmitglied einer oder mehrerer Gruppen.",
+      "minimumOneBillingUser": "Mindestens ein Benutzer muss als Abrechnungsbenutzer behalten werden"
     }
   },
   "note": {

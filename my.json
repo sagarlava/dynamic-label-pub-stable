@@ -1089,6 +1089,20 @@
         "plural": "Jenama",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "createDate": {
+        "original": "Create Date",
+        "singular": "Tarikh Cipta",
+        "plural": "Tarikh Cipta",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "numberAssetSelected":{
+        "original": "assets have been selected",
+        "singular": "aset telah dipilih",
+        "plural": "aset telah dipilih",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "validationFE": {
@@ -1404,7 +1418,11 @@
       "logs": "Log",
       "showUpdatesRelated":"Tunjukkan Kemas Kini Berkaitan Dengan:",
         "filterSelectAsset":"Tapis dan pilih aset yang anda ingin eksport kod QR untuknya",
-        "exportQrForAll":"Eksport juga kod QR untuk semua komponen"
+        "exportQrForAll":"Eksport juga kod QR untuk semua komponen",
+        "exportQrSettings":"Eksport Tetapan QR",
+        "selectQrCodeSize":"Pilih Saiz Kod QR",
+        "selectFileFormat":"Pilih Format Fail",
+        "uncheckSelectAll":"Nyahtanda “pilih semua” untuk melihat semula keseluruhan senarai"
     }
   },
   
@@ -10377,7 +10395,7 @@
       "selectSparePartsToBeTransferred":"Pilih alat ganti yang akan dipindahkan",
       "selectBinTransferSparePartFrom":"Pilih bin yang ingin anda pindahkan alat ganti daripadanya",
       "selectBinToTransferSpareParts":"Pilih bin yang ingin anda pindahkan alat ganti ke",
-      "specifySparePartQuantity":"Anda boleh menentukan kuantiti alat ganti pada langkah seterusnya",
+      "specifySparePartQuantity":"Anda boleh menetapkan kuantiti alat ganti dalam langkah seterusnya.",
       "addQuantitiesTransferred":"Tambah kuantiti yang akan dipindahkan",
       "enterSerialNumberHere":"Masukkan nombor siri di sini. Eg. 128371253ABC",
       "enterSKUHere":"Masukkan SKU di sini. Eg. 128371253ABC",
@@ -10385,7 +10403,8 @@
       "selectedBinNoLongerContains":"Tong yang dipilih tidak lagi mengandungi item berikut",
       "needTransferItemManually":"Anda perlu memilih dan memindahkan item-item ini secara manual. Item lain yang dipilih akan dipindahkan.",
       "transferCannotContinue":"Pemindahan tidak dapat diteruskan kerana tong yang dipilih tidak lagi mengandungi item berikut",
-      "aBinTransferInitiate":"Rekod Pemindahan Tong akan dicipta untuk item yang diluluskan. Adakah anda pasti mahu memulakan pemindahan ini?"
+      "aBinTransferInitiate":"Rekod Pemindahan Tong akan dicipta untuk item yang diluluskan. Adakah anda pasti mahu memulakan pemindahan ini?",
+      "max50SerialNumbers":"Anda boleh memasukkan maksimum 50 nombor siri/SKU."
     }
   },
   "checkAvailibility": {
@@ -13097,9 +13116,9 @@
         "setupVisible": false
       },
       "checkAvailability": {
-        "original": "Check availability",
-        "singular": "Periksa ketersediaan",
-        "plural": "",
+        "original": "Check Availability",
+        "singular": "Periksa Ketersediaan",
+        "plural": "Periksa Ketersediaan",
         "setupEdit": true,
         "setupVisible": false
       },
@@ -13942,7 +13961,14 @@
         "plural": "Enterprise",
         "setupEdit": false,
         "setupVisible": false
-      }	
+      },
+      "selectAll": {
+        "original": "Select All",
+        "singular": "Pilih Semua",
+        "plural": "Pilih Semua",
+        "setupEdit": false,
+        "setupVisible": false
+      }
     },
     "status": {
       "setupVisible": true,
@@ -14671,7 +14697,8 @@
       "tip":"Tip",
       "tips":"Tips",
       "makeFilterSelections":"Buat pilihan penapis untuk mencari aset",
-      "confirmation":"Pengesahan"
+      "confirmation":"Pengesahan",
+      "makeFilterSelectionsCheckAvail":"Buat pilihan penapis untuk menyemak ketersediaan"
     },
     "currency": {
       "australianDollar": "AUD",
@@ -24776,7 +24803,8 @@
       "circularDependencyOnSupervisor": "Kebergantungan bulat: Dua pengguna tidak boleh menjadi pengurus kelulusan antara satu sama lain",
       "noDownLineFound": "Anda tidak mempunyai sebarang kakitangan yang ditugaskan",
       "unableToActiveOwnAccount": "Anda tidak dibenarkan untuk menggantung atau menyahaktifkan akaun anda sendiri",
-      "unableToDeActiveDefaultMember": "Tidak dapat dinyahaktifkan: Pengguna adalah ahli lalai satu atau lebih kumpulan."
+      "unableToDeActiveDefaultMember": "Tidak dapat dinyahaktifkan: Pengguna adalah ahli lalai satu atau lebih kumpulan.",
+      "minimumOneBillingUser": "Sekurang-kurangnya satu pengguna mesti dikekalkan sebagai pengguna pengebilan"
     }
   },
   "note": {

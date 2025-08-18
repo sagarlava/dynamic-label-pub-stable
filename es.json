@@ -1089,6 +1089,20 @@
         "plural": "Marcas",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "createDate": {
+        "original": "Create Date",
+        "singular": "Fecha de creación",
+        "plural": "Fechas de creación",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "numberAssetSelected":{
+        "original": "assets have been selected",
+        "singular": "Se ha seleccionado",
+        "plural": "Se han seleccionado",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "validationFE": {
@@ -1402,7 +1416,13 @@
       "errorFetchingAllAssets": "Error al recuperar todos los activos",
       "errorOccuredWhileFetchingAccessories": "Error al obtener los accesorios",
       "logs": "Registros",
-      "showUpdatesRelated":"Mostrar actualizaciones relacionadas con:"
+      "showUpdatesRelated": "Mostrar actualizaciones relacionadas con:",
+        "filterSelectAsset":"Filtra y selecciona los activos para los que deseas exportar los códigos QR",
+        "exportQrForAll":"Exportar también los códigos QR para todos los componentes",
+        "exportQrSettings":"Exportar configuración de QR",
+        "selectQrCodeSize":"Seleccionar tamaño del código QR",
+        "selectFileFormat":"Seleccionar formato de archivo",
+        "uncheckSelectAll":"Desmarca “seleccionar todo” para ver la lista completa de nuevo"
     }
   },
   "analytic": {
@@ -10375,7 +10395,7 @@
       "selectSparePartsToBeTransferred": "Seleccione los repuestos a transferir",
       "selectBinTransferSparePartFrom": "Seleccione el contenedor desde el cual desea transferir repuestos",
       "selectBinToTransferSpareParts": "Seleccione el contenedor al que desea transferir los repuestos",
-      "specifySparePartQuantity": "Puede especificar la cantidad de repuestos en el siguiente paso",
+      "specifySparePartQuantity": "Puedes especificar la cantidad de repuestos en el siguiente paso.",
       "addQuantitiesTransferred": "Agregue las cantidades a transferir",
       "enterSerialNumberHere": "Ingrese los números de serie aquí. Eg. 128371253ABC",
       "enterSKUHere": "Ingrese los SKU aquí. Eg. 128371253ABC",
@@ -10383,7 +10403,8 @@
       "selectedBinNoLongerContains": "El contenedor seleccionado ya no contiene los siguientes artículos",
       "needTransferItemManually": "Tendrá que seleccionar y transferir estos artículos manualmente. Los demás artículos seleccionados serán transferidos.",
       "transferCannotContinue": "La transferencia no puede continuar ya que el contenedor seleccionado ya no contiene los siguientes artículos",
-      "aBinTransferInitiate":"Se creará un registro de transferencia de contenedor para los artículos aprobados. ¿Estás seguro de que deseas iniciar esta transferencia?"
+      "aBinTransferInitiate":"Se creará un registro de transferencia de contenedor para los artículos aprobados. ¿Estás seguro de que deseas iniciar esta transferencia?",
+      "max50SerialNumbers":"Puedes introducir un máximo de 50 números de serie/SKU."
     }
   },
   "checkAvailibility": {
@@ -13095,9 +13116,9 @@
         "setupVisible": false
       },
       "checkAvailability": {
-        "original": "Check availability",
+        "original": "Check Availability",
         "singular": "Comprobar Disponibilidad",
-        "plural": "",
+        "plural": "Comprobar Disponibilidad",
         "setupEdit": true,
         "setupVisible": false
       },
@@ -13996,6 +14017,13 @@
         "plural": "Enterprise",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "selectAll": {
+        "original": "Select All",
+        "singular": "Seleccionar todo",
+        "plural": "Seleccionar todos",
+        "setupEdit": false,
+        "setupVisible": false
       }	
     },
     "status": {
@@ -14725,7 +14753,8 @@
       "tip":"Consejo",
       "tips":"Consejos",
       "makeFilterSelections":"Haz selecciones de filtro para localizar activos",
-      "confirmation":"Confirmación"
+      "confirmation":"Confirmación",
+      "makeFilterSelectionsCheckAvail":"Haz selecciones de filtro para comprobar la disponibilidad"
     },
     "currency": {
       "australianDollar": "AUD",
@@ -23199,27 +23228,6 @@
           "plural": "",
           "setupEdit": true,
           "setupVisible": false
-        },
-        "chooseFileFormat": {
-          "original": "Choose File Format",
-          "singular": "Elegir formato de archivo",
-          "plural": "Elegir formato de archivo",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "setQrCodeSize": {
-          "original": "Set QR Code Size",
-          "singular": "Establecer tamaño del código QR",
-          "plural": "Establecer tamaño del código QR",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "selectPageLayout": {
-          "original": "Select Page Layout",
-          "singular": "Seleccionar diseño de página",
-          "plural": "Seleccionar diseño de página",
-          "setupEdit": false,
-          "setupVisible": false
         }
       },
       "validationFE": {},
@@ -24853,7 +24861,8 @@
       "circularDependencyOnSupervisor": "Dependencia circular: Dos usuarios no pueden ser los aprobadores del otro",
       "noDownLineFound": "No tiene personal asignado",
       "unableToActiveOwnAccount": "No tiene permitido suspender o desactivar su propia cuenta",
-      "unableToDeActiveDefaultMember": "No se puede desactivar: El usuario es un miembro predeterminado de uno o más grupos."
+      "unableToDeActiveDefaultMember": "No se puede desactivar: El usuario es un miembro predeterminado de uno o más grupos.",
+      "minimumOneBillingUser": "Al menos un usuario debe mantenerse como usuario de facturación"
     }
   },
   "note": {

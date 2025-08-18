@@ -1089,6 +1089,20 @@
         "plural": "品牌",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "createDate": {
+        "original": "Create Date",
+        "singular": "创建日期",
+        "plural": "创建日期",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "numberAssetSelected":{
+        "original": "assets have been selected",
+        "singular": "已选择个资产",
+        "plural": "已选择个资产",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "validationFE": {
@@ -1404,7 +1418,11 @@
       "logs": "日志",
       "showUpdatesRelated":"显示相关更新:",
         "filterSelectAsset":"筛选并选择您要导出二维码的资产",
-        "exportQrForAll":"也导出所有组件的二维码"
+        "exportQrForAll":"也导出所有组件的二维码",
+        "exportQrSettings":"导出二维码设置",
+        "selectQrCodeSize":"选择二维码大小",
+        "selectFileFormat":"选择文件格式",
+        "uncheckSelectAll":"取消勾选“全选”以再次查看完整列表"
     }
   },
   "analytic": {
@@ -10376,7 +10394,7 @@
       "selectSparePartsToBeTransferred":"选择要转移的备件",
       "selectBinTransferSparePartFrom":"选择要从中转移备件的存储箱",
       "selectBinToTransferSpareParts":"选择要将备件转移到的存储箱",
-      "specifySparePartQuantity":"您可以在下一步指定备件数量",
+      "specifySparePartQuantity":"您可以在下一步指定备件的数量。",
       "addQuantitiesTransferred":"添加要转移的数量",
       "enterSerialNumberHere":"在此输入序列号。 Eg. 128371253ABC",
       "enterSKUHere":"在此输入 SKU。 Eg. 128371253ABC",
@@ -10384,7 +10402,8 @@
       "selectedBinNoLongerContains":"所选存储箱不再包含以下项目",
       "needTransferItemManually":"您需要手动选择并转移这些项目。其他选中的项目将被转移。",
       "transferCannotContinue":"无法继续转移，因为所选存储箱不再包含以下项目",
-      "aBinTransferInitiate":"将为已批准的项目创建一个箱位转移记录。您确定要启动此次转移吗？"
+      "aBinTransferInitiate":"将为已批准的项目创建一个箱位转移记录。您确定要启动此次转移吗？",
+      "max50SerialNumbers":"您最多可以输入 50 个序列号/SKU。"
     }
   },
   "checkAvailibility": {
@@ -13096,9 +13115,9 @@
         "setupVisible": false
       },
       "checkAvailability": {
-        "original": "Check availability",
+        "original": "Check Availability",
         "singular": "检查可用性",
-        "plural": "",
+        "plural": "检查可用性",
         "setupEdit": true,
         "setupVisible": false
       },
@@ -13997,7 +14016,14 @@
         "plural": "企业版",
         "setupEdit": false,
         "setupVisible": false
-      }	
+      },
+      "selectAll": {
+        "original": "Select All",
+        "singular": "全选",
+        "plural": "全选",
+        "setupEdit": false,
+        "setupVisible": false
+      }
     },
     "status": {
       "setupVisible": true,
@@ -14726,7 +14752,8 @@
       "tip":"提示",
       "tips":"提示",
       "makeFilterSelections":"进行筛选以定位资产",
-      "confirmation":"确认"
+      "confirmation":"确认",
+      "makeFilterSelectionsCheckAvail":"进行筛选以检查可用性"
     },
     "currency": {
       "australianDollar": "AUD",
@@ -24831,7 +24858,8 @@
       "circularDependencyOnSupervisor": "循环依赖：两个用户不能互为审批经理",
       "noDownLineFound": "您没有分配任何员工",
       "unableToActiveOwnAccount": "您不允许暂停或停用自己的帐户",
-      "unableToDeActiveDefaultMember": "无法停用：用户是一个或多个组的默认成员。"
+      "unableToDeActiveDefaultMember": "无法停用：用户是一个或多个组的默认成员。",
+      "minimumOneBillingUser": "必须至少保留一位用户作为计费用户"
     }
   },
   "note": {
