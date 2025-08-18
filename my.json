@@ -1971,6 +1971,16 @@
     },
     "messages": {
       "quantityCantBeZero": "Kuantiti Tidak Boleh Kosong"
+    },
+    "emptyPage":{
+      "getStartedWithAccessories": "Mulakan Dengan Aksesori",
+      "createManageAccessories": "Cipta, urus, selenggara, dan dapatkan pandangan tentang aksesori anda.",
+      "linkAccessoriesToAsset": "Pautkan Aksesori kepada Aset",
+      "defineChildAsset": "Tentukan aset anak (cth. lampiran, alat) di bawah aset utama.",
+      "trackTogetherSeparately": "Jejaki Bersama atau Secara Berasingan",
+      "monitorConditionLocation": "Pantau keadaan, lokasi, dan penggunaan aset induk dan anak secara bebas.",
+      "autoUpdateDetails": "Kemas Kini Butiran Secara Automatik",
+      "syncStatusLocation": "Segerakkan status atau lokasi daripada induk ke aksesori apabila dipindahkan atau dikemas kini."
     }
   },
   "maintenance": {

@@ -1971,6 +1971,16 @@
     },
     "messages": {
       "quantityCantBeZero": "数量不能为零"
+    },
+    "emptyPage":{
+      "getStartedWithAccessories": "从配件开始",
+      "createManageAccessories": "创建、管理、维护并获取配件的洞察。",
+      "linkAccessoriesToAsset": "将配件关联到资产",
+      "defineChildAsset": "在主资产下定义子资产（如附件、工具）。",
+      "trackTogetherSeparately": "一起跟踪或分别跟踪",
+      "monitorConditionLocation": "独立监控父资产和子资产的状态、位置和使用情况。",
+      "autoUpdateDetails": "自动更新详细信息",
+      "syncStatusLocation": "在转移或更新时，将状态或位置从父资产同步到配件。"
     }
   },
   "maintenance": {

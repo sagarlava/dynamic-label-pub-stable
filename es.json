@@ -1971,6 +1971,16 @@
     },
     "messages": {
       "quantityCantBeZero": "La cantidad no puede ser cero"
+    },
+    "emptyPage":{
+      "getStartedWithAccessories": "Comienza con los accesorios",
+      "createManageAccessories": "Crea, gestiona, mantén y obtén información sobre tus accesorios.",
+      "linkAccessoriesToAsset": "Vincula accesorios a los activos",
+      "defineChildAsset": "Define activos secundarios (p. ej., accesorios, herramientas) bajo un activo principal.",
+      "trackTogetherSeparately": "Seguimiento conjunto o por separado",
+      "monitorConditionLocation": "Supervisa de manera independiente la condición, ubicación y uso de los activos principales y secundarios.",
+      "autoUpdateDetails": "Actualizar detalles automáticamente",
+      "syncStatusLocation": "Sincroniza el estado o la ubicación desde el principal a los accesorios cuando se transfieran o actualicen."
     }
   },
   "maintenance": {
