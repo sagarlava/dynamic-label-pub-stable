@@ -9364,6 +9364,28 @@
       "photoUpload": "Muat naik foto",
       "viewPdf": "Lihat Pdf",
       "emailPdf": "E-mel Pdf"
+    },
+    "emptyPage":{
+      "getStartedWithJobOrder": "Mulakan Dengan Pesanan Kerja",
+      "createAssignServiceTask": "Cipta, tetapkan, dan jejaki tugasan servis dari mula hingga akhir.",
+      "template": "Templat",
+      "createReusableJobTemplate": "Cipta templat kerja boleh guna semula dengan medan praisi untuk penciptaan kerja berulang.",
+      "execution": "Pelaksanaan",
+      "assignJobTask": "Tetapkan tugasan kerja kepada pasukan lapangan dan jejaki status, nota, serta lampiran.",
+      "automation": "Automasi",
+      "autoGenerateJob": "Jana pesanan kerja secara automatik daripada respons senarai semak apabila jawapan tertentu dicetuskan.",
+      "jobOrderOverview": "Gambaran Keseluruhan Pesanan Kerja",
+      "jobOrderHelpPlan": "Pesanan kerja membantu anda merancang, menetapkan, dan menjejaki tugasan servis lapangan anda. Cipta pesanan kerja secara manual atau melalui templat, tetapkan juruteknik, tambah tugasan dan alat ganti, dan pantau kemajuan dari mula hingga siap.",
+      "createJobOrder": "Cipta Pesanan Kerja",
+      "createJobOrderManually": "Cipta pesanan kerja secara manual atau pilih templat sedia ada yang telah anda cipta.",
+      "trackAssignUsingTask": "Jejaki dan Tetapkan menggunakan Tugasan",
+      "createTaskAssignTeam": "Cipta tugasan, tetapkan kepada pasukan anda, dan log maklumat kerja berkaitan.",
+      "partTracking": "Penjejakan Alat Ganti",
+      "addTrackUsage": "Tambah dan jejaki penggunaan alat ganti yang digunakan oleh juruteknik anda dalam kerja.",
+      "digitalSignPdf": "Tandatangan Digital dan PDF Penyelesaian",
+      "collectDigitalSignature": "Kumpulkan tandatangan digital apabila tugasan siap dan jana PDF selepas pesanan kerja selesai.",
+      "reports": "Laporan",
+      "generateReports": "Jana laporan untuk menjejaki trend dan prestasi pesanan kerja."
     }
   },
   "inventory": {

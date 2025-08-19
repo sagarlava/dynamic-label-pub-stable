@@ -9364,6 +9364,28 @@
       "photoUpload": "Foto hochladen",
       "viewPdf": "PDF anzeigen",
       "emailPdf": "PDF per E-Mail senden"
+    },
+    "emptyPage":{
+      "getStartedWithJobOrder": "Erste Schritte mit Arbeitsaufträgen",
+      "createAssignServiceTask": "Erstellen, zuweisen und verfolgen Sie Servicetätigkeiten von Anfang bis Ende.",
+      "template": "Vorlagen",
+      "createReusableJobTemplate": "Erstellen Sie wiederverwendbare Arbeitsauftragsvorlagen mit vorausgefüllten Feldern für wiederkehrende Aufträge.",
+      "execution": "Ausführung",
+      "assignJobTask": "Weisen Sie Arbeitstätigkeiten Außendienstteams zu und verfolgen Sie Status, Notizen und Anhänge.",
+      "automation": "Automatisierung",
+      "autoGenerateJob": "Generieren Sie Arbeitsaufträge automatisch aus Checklisten-Antworten, wenn bestimmte Antworten ausgelöst werden.",
+      "jobOrderOverview": "Arbeitsaufträge Übersicht",
+      "jobOrderHelpPlan": "Arbeitsaufträge helfen Ihnen, Ihre Außendiensttätigkeiten zu planen, zuzuweisen und zu verfolgen. Erstellen Sie Arbeitsaufträge manuell oder mithilfe von Vorlagen, weisen Sie Techniker zu, fügen Sie Aufgaben und Teile hinzu und überwachen Sie den Fortschritt von Anfang bis Ende.",
+      "createJobOrder": "Arbeitsauftrag erstellen",
+      "createJobOrderManually": "Erstellen Sie einen Arbeitsauftrag manuell oder wählen Sie eine bereits erstellte Vorlage aus.",
+      "trackAssignUsingTask": "Verfolgen und Zuweisen mit Aufgaben",
+      "createTaskAssignTeam": "Erstellen Sie Aufgaben, weisen Sie diese Ihrem Team zu und protokollieren Sie relevante Arbeitsinformationen.",
+      "partTracking": "Teileverfolgung",
+      "addTrackUsage": "Fügen Sie die Verwendung von Ersatzteilen hinzu und verfolgen Sie diese, die von Ihren Technikern bei der Arbeit verwendet werden.",
+      "digitalSignPdf": "Digitale Signatur und Abschluss-PDF",
+      "collectDigitalSignature": "Sammeln Sie digitale Signaturen bei Abschluss der Aufgabe und generieren Sie nach Abschluss des Arbeitsauftrags ein PDF.",
+      "reports": "Berichte",
+      "generateReports": "Generieren Sie Berichte, um Trends und Leistung von Arbeitsaufträgen zu verfolgen."
     }
   },
   "inventory": {

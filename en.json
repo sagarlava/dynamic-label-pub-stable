@@ -9364,6 +9364,28 @@
       "photoUpload": "Photo Upload",
       "viewPdf" : "View Pdf",
       "emailPdf" : "Email Pdf"
+    },
+    "emptyPage":{
+      "getStartedWithJobOrder":"Get Started with Job Orders",
+      "createAssignServiceTask":"Create, assign, and track service tasks from start to finish.",
+      "template":"Templates",
+      "createReusableJobTemplate":"Create reusable job templates with prefilled fields for repetitive job creation.",
+      "execution":"Execution",
+      "assignJobTask":"Assign job tasks to field teams and track status, notes, and attachments.",
+      "automation":"Automation",
+      "autoGenerateJob":"Automatically generate job orders from checklists responses when specific answers are triggered.",
+      "jobOrderOverview":"Job Orders Overview",
+      "jobOrderHelpPlan":"Job Orders help you plan, assign, and track your field service tasks. Create job orders manually or through templates, assign technicians, add tasks and parts, and track progress from start to completion.",
+      "createJobOrder":"Create a Job Order",
+      "createJobOrderManually":"Create a job order manually or select an existing template that you have already created.",
+      "trackAssignUsingTask":"Track and Assign using Tasks",
+      "createTaskAssignTeam":"Create tasks, assign them to your team, and log relevant job info.",
+      "partTracking":"Part Tracking",
+      "addTrackUsage":"Add and track usage of spare parts used by your technicians on the job.",
+      "digitalSignPdf":"Digital Signature and Completion PDF",
+      "collectDigitalSignature":"Collect digital signatures on task completion and generate a PDF upon job completion.",
+      "reports":"Reports",
+      "generateReports":"Generate reports to track job order trends and performance."
     }
   },
   "inventory": {

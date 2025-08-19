@@ -9364,6 +9364,28 @@
       "photoUpload": "上傳照片",
       "viewPdf": "查看PDF",
       "emailPdf": "发送PDF邮件"
+    },
+    "emptyPage":{
+      "getStartedWithJobOrder": "从工单开始",
+      "createAssignServiceTask": "创建、分配并跟踪服务任务，从开始到完成。",
+      "template": "模板",
+      "createReusableJobTemplate": "创建可重复使用的工单模板，带有预填字段以便重复任务创建。",
+      "execution": "执行",
+      "assignJobTask": "将工单任务分配给现场团队，并跟踪状态、备注和附件。",
+      "automation": "自动化",
+      "autoGenerateJob": "当特定答案被触发时，根据检查表响应自动生成工单。",
+      "jobOrderOverview": "工单概览",
+      "jobOrderHelpPlan": "工单帮助您规划、分配和跟踪现场服务任务。您可以手动或通过模板创建工单，分配技术人员，添加任务和零件，并跟踪进度从开始到完成。",
+      "createJobOrder": "创建工单",
+      "createJobOrderManually": "手动创建工单或选择您已创建的现有模板。",
+      "trackAssignUsingTask": "使用任务进行跟踪和分配",
+      "createTaskAssignTeam": "创建任务，将其分配给团队，并记录相关工单信息。",
+      "partTracking": "零件跟踪",
+      "addTrackUsage": "添加并跟踪技术人员在工作中使用的备件。",
+      "digitalSignPdf": "数字签名和完成 PDF",
+      "collectDigitalSignature": "在任务完成时收集数字签名，并在工单完成后生成 PDF。",
+      "reports": "报告",
+      "generateReports": "生成报告以跟踪工单趋势和绩效。"
     }
   },
   "inventory": {

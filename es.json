@@ -9364,6 +9364,28 @@
       "photoUpload": "Subir foto",
       "viewPdf": "Ver PDF",
       "emailPdf": "Enviar PDF por correo"
+    },
+    "emptyPage":{
+      "getStartedWithJobOrder": "Comienza con órdenes de trabajo",
+      "createAssignServiceTask": "Crea, asigna y haz seguimiento de tareas de servicio de principio a fin.",
+      "template": "Plantillas",
+      "createReusableJobTemplate": "Crea plantillas reutilizables con campos prellenados para la creación repetitiva de trabajos.",
+      "execution": "Ejecución",
+      "assignJobTask": "Asigna tareas de trabajo a equipos de campo y haz seguimiento del estado, notas y adjuntos.",
+      "automation": "Automatización",
+      "autoGenerateJob": "Genera órdenes de trabajo automáticamente a partir de respuestas de listas de verificación cuando se activen respuestas específicas.",
+      "jobOrderOverview": "Resumen de órdenes de trabajo",
+      "jobOrderHelpPlan": "Las órdenes de trabajo te ayudan a planificar, asignar y dar seguimiento a tus tareas de servicio de campo. Crea órdenes de trabajo manualmente o mediante plantillas, asigna técnicos, añade tareas y repuestos, y supervisa el progreso de principio a fin.",
+      "createJobOrder": "Crear una orden de trabajo",
+      "createJobOrderManually": "Crea una orden de trabajo manualmente o selecciona una plantilla existente que ya hayas creado.",
+      "trackAssignUsingTask": "Haz seguimiento y asigna usando tareas",
+      "createTaskAssignTeam": "Crea tareas, asígnalas a tu equipo y registra la información relevante del trabajo.",
+      "partTracking": "Seguimiento de repuestos",
+      "addTrackUsage": "Agrega y haz seguimiento del uso de repuestos que tus técnicos utilizan en el trabajo.",
+      "digitalSignPdf": "Firma digital y PDF de finalización",
+      "collectDigitalSignature": "Recoge firmas digitales al completar tareas y genera un PDF al finalizar la orden de trabajo.",
+      "reports": "Informes",
+      "generateReports": "Genera informes para seguir las tendencias y el rendimiento de las órdenes de trabajo."
     }
   },
   "inventory": {
