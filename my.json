@@ -12429,6 +12429,16 @@
       "fileTypeUnsupported":"Jenis fail ini tidak disokong. Sila pilih fail yang lain.",
       "allowedFileSize4MB":"Saiz fail melebihi had 4MB. Sila muat naik fail yang lebih kecil.",
       "onlyAcceptImagesExt":"Hanya Terima JPG, JPEG dan PNG"
+    },
+    "emptyPage":{
+      "manageAttachments": "Urus Lampiran",
+      "manageJobAttachments": "Urus lampiran yang berkaitan dengan kerja anda.",
+      "attachFiles": "Lampirkan Fail",
+      "uploadFilesToJobs": "Muat naik foto, PDF, dokumen, atau manual terus ke pesanan kerja.",
+      "accessAnywhere": "Akses Di Mana-mana",
+      "viewAttachmentsOnDevices": "Juruteknik dan perancang boleh melihat lampiran di web atau mudah alih serta-merta.",
+      "improveTraceability": "Tingkatkan Kebolehjejakkan",
+      "storeSupportingDocuments": "Simpan borang ditandatangani, imej sebelum/selepas, dan dokumen sokongan untuk audit."
     }
   },
   "history": {

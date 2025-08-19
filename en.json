@@ -12429,6 +12429,16 @@
       "fileTypeUnsupported":"This file type is Unsupported. Please choose a different file.",
       "allowedFileSize4MB":"File size exceeds 4MB limit. Please upload a smaller file.",
       "onlyAcceptImagesExt":"Only Accept JPG, JPEG and PNG"
+    },
+    "emptyPage":{
+      "manageAttachments": "Manage Attachments",
+      "manageJobAttachments": "Manage attachments related to your jobs.",
+      "attachFiles": "Attach Files",
+      "uploadFilesToJobs": "Upload photos, PDFs, documents, or manuals directly to job orders.",
+      "accessAnywhere": "Access Anywhere",
+      "viewAttachmentsOnDevices": "Technicians and planners can view attachments on web or mobile instantly.",
+      "improveTraceability": "Improve Traceability",
+      "storeSupportingDocuments": "Store signed forms, before/after images, and supporting documents for audits."
     }
   },
   "history": {

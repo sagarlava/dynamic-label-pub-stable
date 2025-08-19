@@ -12429,6 +12429,16 @@
       "fileTypeUnsupported":"Dieser Dateityp wird nicht unterstützt. Bitte wählen Sie eine andere Datei.",
       "allowedFileSize4MB":"Die Dateigröße überschreitet das Limit von 4 MB. Bitte laden Sie eine kleinere Datei hoch.",
       "onlyAcceptImagesExt":"Nur JPG, JPEG und PNG werden akzeptiert"
+    },
+    "emptyPage":{
+      "manageAttachments": "Anhänge verwalten",
+      "manageJobAttachments": "Verwalten Sie Anhänge, die mit Ihren Aufträgen verbunden sind.",
+      "attachFiles": "Dateien anhängen",
+      "uploadFilesToJobs": "Laden Sie Fotos, PDFs, Dokumente oder Handbücher direkt zu Arbeitsaufträgen hoch.",
+      "accessAnywhere": "Überall zugreifen",
+      "viewAttachmentsOnDevices": "Techniker und Planer können Anhänge sofort im Web oder auf Mobilgeräten ansehen.",
+      "improveTraceability": "Nachvollziehbarkeit verbessern",
+      "storeSupportingDocuments": "Speichern Sie unterschriebene Formulare, Vorher/Nachher-Bilder und unterstützende Dokumente für Prüfungen."
     }
   },
   "history": {

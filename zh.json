@@ -12429,6 +12429,16 @@
       "fileTypeUnsupported":"此文件类型不受支持。请选择其他文件。",
       "allowedFileSize4MB":"文件大小超过4MB限制。请上传较小的文件。",
       "onlyAcceptImagesExt":"仅接受 JPG、JPEG 和 PNG"
+    },
+    "emptyPage":{
+      "manageAttachments": "管理附件",
+      "manageJobAttachments": "管理与工作相关的附件。",
+      "attachFiles": "附加文件",
+      "uploadFilesToJobs": "将照片、PDF、文档或手册直接上传到工单。",
+      "accessAnywhere": "随时随地访问",
+      "viewAttachmentsOnDevices": "技术人员和计划人员可以立即在网页或移动端查看附件。",
+      "improveTraceability": "提高可追溯性",
+      "storeSupportingDocuments": "存储签署的表格、前后对比图像和支持性文档以供审计。"
     }
   },
   "history": {
