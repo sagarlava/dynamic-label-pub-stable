@@ -5523,6 +5523,18 @@
     "messages": {
       "noSitesFound" : "No Sites Found",
       "filterSites" : "Filter Sites"
+    },
+    "emptyPage":{
+      "getStartedWithSite":"Get Started With Sites",
+      "keepTrackOfLocations":"Keep track of locations where jobs are performed.",
+      "createSites":"Create Sites",
+      "registerOperationalLocations":"Register operational locations with address, zone, and site type.",
+      "linkAsset":"Link Assets",
+      "assignEquipmentsToSite":"Assign equipment to each site for location-based servicing and movement tracking.",
+      "trackJobHistory":"Track Job History",
+      "viewAllJobsAtSite":"View all jobs, tasks, and field activities performed at each site, along with their progress.",
+      "siteOverview":"Sites Overview",
+      "manageLocationsConduct":"Manage locations that you conduct business in with sites. Keep track of customer locations, locations that job orders are conducted, and places where your equipment are placed."
     }
   },
   "salesOrder": {

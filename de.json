@@ -5523,6 +5523,18 @@
     "messages": {
       "noSitesFound": "Keine Standorte gefunden",
       "filterSites": "Standorte filtern"
+    },
+    "emptyPage":{
+      "getStartedWithSite": "Erste Schritte mit Standorten",
+      "keepTrackOfLocations": "Behalten Sie die Orte im Blick, an denen Arbeiten ausgeführt werden.",
+      "createSites": "Standorte erstellen",
+      "registerOperationalLocations": "Registrieren Sie Betriebsstandorte mit Adresse, Zone und Standorttyp.",
+      "linkAsset": "Assets verknüpfen",
+      "assignEquipmentsToSite": "Weisen Sie jedem Standort Geräte für standortbezogenen Service und Bewegungsverfolgung zu.",
+      "trackJobHistory": "Auftragsverlauf verfolgen",
+      "viewAllJobsAtSite": "Zeigen Sie alle Arbeiten, Aufgaben und Außendienste an, die an jedem Standort durchgeführt wurden, zusammen mit ihrem Fortschritt.",
+      "siteOverview": "Standorte-Übersicht",
+      "manageLocationsConduct": "Verwalten Sie mit Standorten die Orte, an denen Sie Geschäfte tätigen. Verfolgen Sie Kundenstandorte, Orte, an denen Arbeitsaufträge ausgeführt werden, und Plätze, an denen Ihre Geräte stehen."
     }
   },
   "salesOrder": {

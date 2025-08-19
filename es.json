@@ -5523,6 +5523,18 @@
     "messages": {
       "noSitesFound": "No se encontraron sitios",
       "filterSites": "Filtrar Sitios"
+    },
+    "emptyPage":{
+      "getStartedWithSite": "Comienza con sitios",
+      "keepTrackOfLocations": "Lleva un control de los lugares donde se realizan los trabajos.",
+      "createSites": "Crear sitios",
+      "registerOperationalLocations": "Registra ubicaciones operativas con dirección, zona y tipo de sitio.",
+      "linkAsset": "Vincular activos",
+      "assignEquipmentsToSite": "Asigna equipos a cada sitio para servicios basados en ubicación y seguimiento de movimientos.",
+      "trackJobHistory": "Seguimiento del historial de trabajos",
+      "viewAllJobsAtSite": "Consulta todos los trabajos, tareas y actividades de campo realizadas en cada sitio, junto con su progreso.",
+      "siteOverview": "Resumen de sitios",
+      "manageLocationsConduct": "Gestiona los lugares donde realizas negocios con sitios. Lleva un control de las ubicaciones de clientes, los lugares donde se realizan órdenes de trabajo y los lugares donde se encuentran tus equipos."
     }
   },
   "salesOrder": {

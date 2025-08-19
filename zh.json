@@ -5523,6 +5523,18 @@
     "messages": {
       "noSitesFound": "未找到站点",
       "filterSites": "筛选站点"
+    },
+    "emptyPage":{
+      "getStartedWithSite": "从站点开始",
+      "keepTrackOfLocations": "跟踪执行工作的地点。",
+      "createSites": "创建站点",
+      "registerOperationalLocations": "注册运营地点，包括地址、区域和站点类型。",
+      "linkAsset": "关联资产",
+      "assignEquipmentsToSite": "为每个站点分配设备，以进行基于位置的服务和移动跟踪。",
+      "trackJobHistory": "跟踪工作历史",
+      "viewAllJobsAtSite": "查看在每个站点执行的所有工作、任务和现场活动及其进度。",
+      "siteOverview": "站点概览",
+      "manageLocationsConduct": "通过站点管理您开展业务的地点。跟踪客户位置、执行工单的地点以及设备放置的地方。"
     }
   },
   "salesOrder": {

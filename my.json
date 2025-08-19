@@ -5523,6 +5523,18 @@
     "messages": {
       "noSitesFound": "Tiada Tapak Dijumpai",
       "filterSites": "Tapis Tapak"
+    },
+    "emptyPage":{
+      "getStartedWithSite": "Mulakan Dengan Tapak",
+      "keepTrackOfLocations": "Jejaki lokasi di mana kerja dijalankan.",
+      "createSites": "Cipta Tapak",
+      "registerOperationalLocations": "Daftarkan lokasi operasi dengan alamat, zon, dan jenis tapak.",
+      "linkAsset": "Pautkan Aset",
+      "assignEquipmentsToSite": "Tetapkan peralatan kepada setiap tapak untuk servis berasaskan lokasi dan penjejakan pergerakan.",
+      "trackJobHistory": "Jejaki Sejarah Kerja",
+      "viewAllJobsAtSite": "Lihat semua kerja, tugasan, dan aktiviti lapangan yang dijalankan di setiap tapak, bersama kemajuannya.",
+      "siteOverview": "Gambaran Keseluruhan Tapak",
+      "manageLocationsConduct": "Urus lokasi di mana anda menjalankan perniagaan dengan tapak. Jejaki lokasi pelanggan, lokasi di mana pesanan kerja dijalankan, dan tempat peralatan anda ditempatkan."
     }
   },
   "salesOrder": {
