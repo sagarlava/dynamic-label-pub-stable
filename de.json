@@ -10077,6 +10077,16 @@
       "binInventoryHistoryIdExists": "Eine neue Behälterbestandsgeschichte darf bereits keine ID haben",
       "binHasInventoryNotAllowedChangeType": "Der Behältertyp kann nicht geändert werden, wenn Bestände vorhanden sind",
       "binHasInventoryNotAllowedChangeZoneOrLocation": "Die Behälterzone/den Standort kann nicht geändert werden, wenn Bestände vorhanden sind"
+    },
+    "emptyPage":{
+      "manageYourBins": "Verwalten Sie Ihre Behälter",
+      "manageLocationUserBins": "Verwalten Sie Standort- und Benutzerbehälter.",
+      "locationBins": "Standortbehälter",
+      "trackAssetSpareParts": "Verfolgen Sie, wo Anlagen und Ersatzteile an Standorten und in Lagern aufbewahrt werden.",
+      "userBins": "Benutzerbehälter",
+      "assignBinsToUsers": "Weisen Sie Techniker oder Benutzern Behälter für die mobile Bestandsverantwortung zu.",
+      "binTransfers": "Behälterübertragungen",
+      "moveItemsBetweenBins": "Bewegen Sie Artikel zwischen Behältern, Benutzern oder Standorten mit Genehmigungen, protokollierten Zeitstempeln und vollständiger Rückverfolgbarkeit."
     }
   },
  "binTransfer": {

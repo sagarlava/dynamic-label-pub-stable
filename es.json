@@ -10077,6 +10077,16 @@
       "binInventoryHistoryIdExists": "Una nueva Historia de Inventario de Contenedor no puede ya tener un ID",
       "binHasInventoryNotAllowedChangeType": "No se puede cambiar el tipo de contenedor cuando tiene inventario",
       "binHasInventoryNotAllowedChangeZoneOrLocation": "No se puede cambiar la zona/ubicación del contenedor cuando tiene inventario"
+    },
+    "emptyPage":{
+      "manageYourBins": "Gestiona tus contenedores",
+      "manageLocationUserBins": "Gestiona contenedores de ubicación y de usuario.",
+      "locationBins": "Contenedores de ubicación",
+      "trackAssetSpareParts": "Haz seguimiento de dónde se almacenan los activos y repuestos en sitios y almacenes.",
+      "userBins": "Contenedores de usuario",
+      "assignBinsToUsers": "Asigna contenedores a técnicos o usuarios para la responsabilidad del inventario móvil.",
+      "binTransfers": "Transferencias de contenedores",
+      "moveItemsBetweenBins": "Mueve artículos entre contenedores, usuarios o ubicaciones con aprobaciones, registros con sello de tiempo y trazabilidad completa."
     }
   },
   "binTransfer": {

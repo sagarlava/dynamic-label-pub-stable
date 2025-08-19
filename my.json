@@ -10077,6 +10077,16 @@
       "binInventoryHistoryIdExists": "Sejarah Inventori Bin baru tidak boleh mempunyai ID yang sudah ada",
       "binHasInventoryNotAllowedChangeType": "Tidak boleh menukar jenis bin apabila mempunyai inventori",
       "binHasInventoryNotAllowedChangeZoneOrLocation": "Tidak boleh menukar zon/lokasi bin apabila mempunyai inventori"
+    },
+    "emptyPage":{
+      "manageYourBins": "Urus Bekas Anda",
+      "manageLocationUserBins": "Urus bekas lokasi dan pengguna.",
+      "locationBins": "Bekas Lokasi",
+      "trackAssetSpareParts": "Jejaki di mana aset dan alat ganti disimpan di seluruh tapak dan gudang.",
+      "userBins": "Bekas Pengguna",
+      "assignBinsToUsers": "Tetapkan bekas kepada juruteknik atau pengguna untuk akauntabiliti stok mudah alih.",
+      "binTransfers": "Pemindahan Bekas",
+      "moveItemsBetweenBins": "Pindahkan item antara bekas, pengguna, atau lokasi dengan kelulusan, log bertanda masa, dan keterkesanan penuh."
     }
   },
   "binTransfer": {

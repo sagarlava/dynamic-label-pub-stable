@@ -10077,6 +10077,16 @@
       "binInventoryHistoryIdExists": "A new Bin Inventory History cannot already have an ID",
       "binHasInventoryNotAllowedChangeType": "Cannot change the bin type when having an inventory",
       "binHasInventoryNotAllowedChangeZoneOrLocation": "Cannot change the bin zone/location when having an inventory"
+    },
+    "emptyPage":{
+      "manageYourBins": "Manage Your Bins",
+      "manageLocationUserBins": "Manage location and user bins.",
+      "locationBins": "Location Bins",
+      "trackAssetSpareParts": "Track where assets and spare parts are stored across sites and warehouses.",
+      "userBins": "User Bins",
+      "assignBinsToUsers": "Assign bins to technicians or users for mobile stock accountability.",
+      "binTransfers": "Bin Transfers",
+      "moveItemsBetweenBins": "Move items between bins, users, or locations with approvals, timestamped logs, and full traceability."
     }
   },
   "binTransfer": {

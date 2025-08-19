@@ -10077,6 +10077,16 @@
       "binInventoryHistoryIdExists": "新的Bin库存历史记录不能已有ID",
       "binHasInventoryNotAllowedChangeType": "有库存时无法更改箱类型",
       "binHasInventoryNotAllowedChangeZoneOrLocation": "有库存时无法更改箱的区域/位置"
+    },
+    "emptyPage":{
+        "manageYourBins": "管理您的库位",
+        "manageLocationUserBins": "管理位置库位和用户库位。",
+        "locationBins": "位置库位",
+        "trackAssetSpareParts": "跟踪资产和备件在各个站点和仓库中的存放位置。",
+        "userBins": "用户库位",
+        "assignBinsToUsers": "为技术人员或用户分配库位，以便进行移动库存责任追踪。",
+        "binTransfers": "库位转移",
+        "moveItemsBetweenBins": "在库位、用户或地点之间转移物品，并包含审批、时间戳日志和完整的可追溯性。"
     }
   },
   "binTransfer": {
