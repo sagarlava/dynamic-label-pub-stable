@@ -5769,6 +5769,16 @@
       "salesOrderFilter": "Verkaufsauftrag Filter",
       "filterByCustomer": "Nach Kunde filtern",
       "soRequiresMinimumOneProduct": "Der Verkaufsauftrag erfordert mindestens ein Ersatzteil"
+    },
+    "emptyPage":{
+      "getStartedWithSalesOrder": "Erste Schritte mit Verkaufsaufträgen",
+      "manageSalesOrder": "Verwalten Sie Verkaufsaufträge Ihrer Kunden.",
+      "createSalesOrder": "Verkaufsaufträge erstellen",
+      "generateSalesOrderDirectly": "Erstellen Sie Verkaufsaufträge direkt unter einem Kunden mit Produkten und Preisen.",
+      "linkToJobs": "Mit Aufträgen verknüpfen",
+      "tieSalesOrderToJobOrder": "Verknüpfen Sie Verkaufsaufträge mit Arbeitsaufträgen für Service- oder Lieferungsausführung.",
+      "trackFulfilment": "Erfüllung verfolgen",
+      "monitorOrderStatusFromOnePlace": "Überwachen Sie den Auftragsstatus, den Lieferfortschritt und die Kundenabrechnung an einem Ort."
     }
   },
   "project": {

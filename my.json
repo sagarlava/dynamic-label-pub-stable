@@ -5769,6 +5769,16 @@
       "salesOrderFilter": "Penapis Pesanan Jualan",
       "filterByCustomer": "Tapis Mengikut Pelanggan",
       "soRequiresMinimumOneProduct": "Pesanan jualan memerlukan sekurang-kurangnya satu Alat Ganti"
+    },
+    "emptyPage":{
+      "getStartedWithSalesOrder": "Mulakan Dengan Pesanan Jualan",
+      "manageSalesOrder": "Urus Pesanan Jualan milik pelanggan anda.",
+      "createSalesOrder": "Cipta Pesanan Jualan",
+      "generateSalesOrderDirectly": "Jana pesanan jualan terus di bawah pelanggan dengan produk dan harga.",
+      "linkToJobs": "Pautkan ke Kerja",
+      "tieSalesOrderToJobOrder": "Ikat pesanan jualan kepada pesanan kerja untuk pelaksanaan servis atau penghantaran.",
+      "trackFulfilment": "Jejaki Pemenuhan",
+      "monitorOrderStatusFromOnePlace": "Pantau status pesanan, kemajuan penghantaran, dan pengebilan pelanggan dari satu tempat."
     }
   },
   "project": {

@@ -5769,6 +5769,16 @@
       "salesOrderFilter": "销售订单筛选器",
       "filterByCustomer": "按客户筛选",
       "soRequiresMinimumOneProduct": "销售订单至少需要一个备件"
+    },
+    "emptyPage":{
+      "getStartedWithSalesOrder": "从销售订单开始",
+      "manageSalesOrder": "管理属于客户的销售订单。",
+      "createSalesOrder": "创建销售订单",
+      "generateSalesOrderDirectly": "直接在客户下生成包含产品和定价的销售订单。",
+      "linkToJobs": "关联到工作",
+      "tieSalesOrderToJobOrder": "将销售订单关联到工单以执行服务或交付。",
+      "trackFulfilment": "跟踪履行",
+      "monitorOrderStatusFromOnePlace": "在一个地方监控订单状态、交付进度和客户账单。"
     }
   },
   "project": {

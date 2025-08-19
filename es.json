@@ -5769,6 +5769,16 @@
       "salesOrderFilter": "Filtro de Orden de Venta",
       "filterByCustomer": "Filtrar por Cliente",
       "soRequiresMinimumOneProduct": "La orden de venta requiere al menos una pieza de repuesto"
+    },
+    "emptyPage":{
+      "getStartedWithSalesOrder": "Comienza con órdenes de venta",
+      "manageSalesOrder": "Gestiona las órdenes de venta de tus clientes.",
+      "createSalesOrder": "Crear órdenes de venta",
+      "generateSalesOrderDirectly": "Genera órdenes de venta directamente bajo un cliente con productos y precios.",
+      "linkToJobs": "Vincular a trabajos",
+      "tieSalesOrderToJobOrder": "Vincula las órdenes de venta a las órdenes de trabajo para la ejecución de servicios o entregas.",
+      "trackFulfilment": "Seguimiento de cumplimiento",
+      "monitorOrderStatusFromOnePlace": "Supervisa el estado del pedido, el progreso de la entrega y la facturación del cliente desde un solo lugar."
     }
   },
   "project": {

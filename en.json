@@ -5769,6 +5769,16 @@
       "salesOrderFilter" : "Sales Order Filter",
       "filterByCustomer": "Filter By Customer",
       "soRequiresMinimumOneProduct": "Sales order requires minimum one Spare Part"
+    },
+    "emptyPage":{
+      "getStartedWithSalesOrder":"Get Started With Sales Orders",
+      "manageSalesOrder":"Manage Sales Orders belonging to your customers.",
+      "createSalesOrder":"Create Sales Orders",
+      "generateSalesOrderDirectly":"Generate sales orders directly under a customer with products and pricing.",
+      "linkToJobs":"Link to Jobs",
+      "tieSalesOrderToJobOrder":"Tie sales orders to job orders for service or delivery execution.",
+      "trackFulfilment":"Track Fulfilment",
+      "monitorOrderStatusFromOnePlace":"Monitor order status, delivery progress, and customer billing from one place."
     }
   },
   "project": {
