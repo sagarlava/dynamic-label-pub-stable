@@ -6012,6 +6012,18 @@
     "messages": {
       "noProjectsFound": "未找到项目",
       "filterProjects": "筛选项目"
+    },
+    "emptyPage":{
+      "manageYourProject": "管理您的项目",
+      "projectHelpTrackTask": "项目帮助您在单一视图下跟踪多个工作的任务。",
+      "createProject": "创建项目",
+      "setUpProjectDetails": "设置项目名称、类型、客户、期限和站点详情。",
+      "linkJobTask": "关联工作与任务",
+      "groupJobTaskUnderProject": "将工单和相关任务归入一个项目下。",
+      "trackDelivery": "跟踪交付",
+      "monitorOverallProgress": "监控整体进度、分配的工作和项目级工单完成情况。",
+      "projectOverview": "项目概览",
+      "trackMultipleJob": "在单一范围内跟踪多个工作。将相关工作和任务关联到一个项目下，并监控整体进度、分配的工作和项目级工单完成情况。"
     }
   },
   "ticket": {

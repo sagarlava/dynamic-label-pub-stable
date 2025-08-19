@@ -6012,6 +6012,18 @@
     "messages": {
       "noProjectsFound": "No se encontraron proyectos",
       "filterProjects": "Filtrar proyectos"
+    },
+    "emptyPage":{
+      "manageYourProject": "Gestiona tus proyectos",
+      "projectHelpTrackTask": "Los proyectos te ayudan a hacer seguimiento de tareas en múltiples trabajos bajo una sola vista.",
+      "createProject": "Crear proyectos",
+      "setUpProjectDetails": "Configura nombre del proyecto, tipo, cliente, duración y detalles del sitio.",
+      "linkJobTask": "Vincular trabajos y tareas",
+      "groupJobTaskUnderProject": "Agrupa órdenes de trabajo y tareas relacionadas bajo un solo proyecto.",
+      "trackDelivery": "Seguimiento de entregas",
+      "monitorOverallProgress": "Supervisa el progreso general, el trabajo asignado y la finalización de trabajos a nivel de proyecto.",
+      "projectOverview": "Resumen de proyectos",
+      "trackMultipleJob": "Haz un seguimiento de múltiples trabajos bajo un único alcance. Vincula trabajos y tareas relacionadas bajo un proyecto y supervisa el progreso general, el trabajo asignado y la finalización de trabajos a nivel de proyecto."
     }
   },
   "ticket": {

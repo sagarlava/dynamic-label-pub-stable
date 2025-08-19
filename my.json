@@ -6012,6 +6012,18 @@
     "messages": {
       "noProjectsFound": "Tiada Projek Dijumpai",
       "filterProjects": "Tapisan Projek"
+    },
+    "emptyPage":{
+      "manageYourProject": "Urus Projek Anda",
+      "projectHelpTrackTask": "Projek membantu anda menjejak tugasan merentasi pelbagai kerja dalam satu paparan.",
+      "createProject": "Cipta Projek",
+      "setUpProjectDetails": "Tetapkan nama projek, jenis, pelanggan, tempoh, dan butiran tapak.",
+      "linkJobTask": "Pautkan Kerja & Tugasan",
+      "groupJobTaskUnderProject": "Kumpulkan pesanan kerja dan tugasan berkaitan di bawah satu projek.",
+      "trackDelivery": "Jejaki Penghantaran",
+      "monitorOverallProgress": "Pantau kemajuan keseluruhan, kerja yang ditugaskan, dan penyiapan kerja pada peringkat projek.",
+      "projectOverview": "Gambaran Keseluruhan Projek",
+      "trackMultipleJob": "Jejaki pelbagai kerja dalam satu skop. Pautkan kerja dan tugasan berkaitan di bawah satu projek dan pantau kemajuan keseluruhan, kerja yang ditugaskan, dan penyiapan kerja pada peringkat projek."
     }
   },
   "ticket": {
