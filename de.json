@@ -10627,7 +10627,17 @@
     "needTransferItemManually":"Sie müssen diese Artikel manuell auswählen und übertragen. Die anderen ausgewählten Artikel werden übertragen.",
     "transferCannotContinue":"Die Übertragung kann nicht fortgesetzt werden, da der ausgewählte Behälter die folgenden Artikel nicht mehr enthält",
       "aBinTransferInitiate":"Ein Behälterübertragungsdatensatz wird für die genehmigten Artikel erstellt. Möchten Sie diesen Behältertransfer wirklich starten?"
-  }
+  },
+    "emptyPage":{ 
+      "manageTransfers": "Übertragungen verwalten",
+      "createManageApproveTransfers": "Erstellen, verwalten und genehmigen Sie Übertragungen zwischen Behältern.",
+      "assetTransfers": "Asset-Übertragungen",
+      "moveEquipmentBetweenBins": "Bewegen Sie Geräte zwischen Standortbehältern oder weisen Sie sie Benutzerbehältern für Aufträge zu.",
+      "sparePartTransfers": "Ersatzteil-Übertragungen",
+      "relocateSpareParts": "Verlagern Sie Ersatzteile zwischen Lagern oder in die Benutzerbehälter von Technikern.",
+      "approvalAndTracking": "Genehmigung & Nachverfolgung",
+      "controlTransfersWithApprovals": "Steuern Sie Übertragungen mit rollenbasierten Genehmigungen und vollständiger Bewegungshistorie."
+    }
 },
   "checkAvailibility": {
     "setupVisible": false,

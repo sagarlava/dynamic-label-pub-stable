@@ -10627,6 +10627,16 @@
       "needTransferItemManually":"您需要手动选择并转移这些项目。其他选中的项目将被转移。",
       "transferCannotContinue":"无法继续转移，因为所选存储箱不再包含以下项目",
       "aBinTransferInitiate":"将为已批准的项目创建一个箱位转移记录。您确定要启动此次转移吗？"
+    },
+    "emptyPage":{ 
+      "manageTransfers": "管理调拨",
+      "createManageApproveTransfers": "创建、管理和批准库位之间的调拨。",
+      "assetTransfers": "资产调拨",
+      "moveEquipmentBetweenBins": "在位置库位之间移动设备或分配到用户库位以用于工作。",
+      "sparePartTransfers": "备件调拨",
+      "relocateSpareParts": "将备件在仓库之间或调拨到技术人员的用户库位。",
+      "approvalAndTracking": "审批与追踪",
+      "controlTransfersWithApprovals": "通过基于角色的审批和完整的移动历史来控制调拨。"
     }
   },
   "checkAvailibility": {

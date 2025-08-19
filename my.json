@@ -10627,6 +10627,16 @@
       "needTransferItemManually":"Anda perlu memilih dan memindahkan item-item ini secara manual. Item lain yang dipilih akan dipindahkan.",
       "transferCannotContinue":"Pemindahan tidak dapat diteruskan kerana tong yang dipilih tidak lagi mengandungi item berikut",
       "aBinTransferInitiate":"Rekod Pemindahan Tong akan dicipta untuk item yang diluluskan. Adakah anda pasti mahu memulakan pemindahan ini?"
+    },
+    "emptyPage":{ 
+      "manageTransfers": "Urus Pemindahan",
+      "createManageApproveTransfers": "Cipta, urus dan luluskan pemindahan antara bekas.",
+      "assetTransfers": "Pemindahan Aset",
+      "moveEquipmentBetweenBins": "Alihkan peralatan antara bekas lokasi atau tetapkan ke bekas pengguna untuk kerja.",
+      "sparePartTransfers": "Pemindahan Alat Ganti",
+      "relocateSpareParts": "Pindahkan alat ganti merentasi gudang atau ke bekas pengguna juruteknik.",
+      "approvalAndTracking": "Kelulusan & Penjejakan",
+      "controlTransfersWithApprovals": "Kawal pemindahan dengan kelulusan berasaskan peranan dan sejarah pergerakan penuh."
     }
   },
   "checkAvailibility": {
