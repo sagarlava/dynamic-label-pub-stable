@@ -3305,6 +3305,18 @@
       "noStatusToDisplay": "Kein Status zum Anzeigen",
       "updateChecklistStatus":"Status der Prüfliste aktualisieren",
       "updateAsset":"Asset aktualisieren"
+    },
+    "emptyPage":{
+      "getStartedWithChecklist": "Erste Schritte mit Checklisten",
+      "checklistHelpEnsureSteps": "Checklisten helfen sicherzustellen, dass Schritte bei Arbeiten konsequent abgeschlossen werden.",
+      "createTemplates": "Vorlagen erstellen",
+      "buildReusableChecklist": "Erstellen Sie wiederverwendbare Checklisten, indem Sie eigene Abschnitte, Fragen und Antwortoptionen hinzufügen.",
+      "automateChecklist": "Automatisieren Sie Ihre Checklisten",
+      "setConditionsToAutoAssign": "Legen Sie Bedingungen fest, um Checklisten nach Asset, Typ oder Zone automatisch zuzuweisen.",
+      "triggerActions": "Aktionen auslösen",
+      "autoTriggerCorrectiveJob": "Automatisch Korrekturaufträge mit Teilen und Aufgaben basierend auf Checklistenantworten auslösen.",
+      "checklistOverview": "Checklisten-Übersicht",
+      "useChecklistToEnsureStepCompleted": "Verwenden Sie Checklisten, um sicherzustellen, dass bestimmte Schritte bei Arbeiten konsequent abgeschlossen werden. Legen Sie Auslösebedingungen fest, um automatisch Arbeitsaufträge zu erstellen, Teile anzufordern oder sogar Assets basierend auf Checklistenantworten zu aktualisieren."
     }
   },
   "journey": {

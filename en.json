@@ -3305,6 +3305,18 @@
       "noStatusToDisplay":"No Status to Display",
       "updateChecklistStatus":"Update Checklist Status",
       "updateAsset":"Update Asset"
+    },
+    "emptyPage":{
+      "getStartedWithChecklist":"Get Started With Checklists",
+      "checklistHelpEnsureSteps":"Checklists help ensure steps are completed consistently during jobs.",
+      "createTemplates":"Create Templates",
+      "buildReusableChecklist":"Build reusable checklists by adding your own sections, questions and answer options.",
+      "automateChecklist":"Automate Your Checklists",
+      "setConditionsToAutoAssign":"Set conditions to auto-assign checklists by asset, type, or zone.",
+      "triggerActions":"Trigger Actions",
+      "autoTriggerCorrectiveJob":"Automatically trigger corrective jobs with parts and tasks based on checklist responses.",
+      "checklistOverview":"Checklists Overview",
+      "useChecklistToEnsureStepCompleted":"Use checklists to ensure that certain steps are completed consistently through jobs. Set trigger conditions to automatically create job orders, request parts, or even update assets based on checklist responses."
     }
   },
   "journey": {

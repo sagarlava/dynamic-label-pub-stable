@@ -3305,6 +3305,18 @@
       "noStatusToDisplay": "No hay estado para mostrar",
       "updateChecklistStatus": "Update Checklist Status",
       "updateAsset": "Update Asset"
+    },
+    "emptyPage":{
+      "getStartedWithChecklist": "Comienza con listas de verificación",
+      "checklistHelpEnsureSteps": "Las listas de verificación ayudan a garantizar que los pasos se completen de manera coherente durante los trabajos.",
+      "createTemplates": "Crear plantillas",
+      "buildReusableChecklist": "Crea listas de verificación reutilizables añadiendo tus propias secciones, preguntas y opciones de respuesta.",
+      "automateChecklist": "Automatiza tus listas de verificación",
+      "setConditionsToAutoAssign": "Establece condiciones para asignar automáticamente listas de verificación por activo, tipo o zona.",
+      "triggerActions": "Acciones desencadenadas",
+      "autoTriggerCorrectiveJob": "Genera automáticamente trabajos correctivos con piezas y tareas basados en las respuestas de la lista de verificación.",
+      "checklistOverview": "Resumen de listas de verificación",
+      "useChecklistToEnsureStepCompleted": "Utiliza listas de verificación para asegurar que ciertos pasos se completen de manera coherente en los trabajos. Establece condiciones de activación para crear automáticamente órdenes de trabajo, solicitar piezas o incluso actualizar activos según las respuestas de la lista de verificación."
     }
   },
   "journey": {

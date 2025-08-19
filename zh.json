@@ -3305,6 +3305,18 @@
       "noStatusToDisplay": "无状态显示",
       "updateChecklistStatus":"更新核对表状态",
       "updateAsset":"更新资产"
+    },
+    "emptyPage":{
+      "getStartedWithChecklist": "从检查清单开始",
+      "checklistHelpEnsureSteps": "检查清单有助于确保在工作中一致地完成步骤。",
+      "createTemplates": "创建模板",
+      "buildReusableChecklist": "通过添加您自己的部分、问题和答案选项来构建可重复使用的检查清单。",
+      "automateChecklist": "自动化检查清单",
+      "setConditionsToAutoAssign": "设置条件，根据资产、类型或区域自动分配检查清单。",
+      "triggerActions": "触发操作",
+      "autoTriggerCorrectiveJob": "根据检查清单的回答自动触发包含零件和任务的纠正工作。",
+      "checklistOverview": "检查清单概览",
+      "useChecklistToEnsureStepCompleted": "使用检查清单确保某些步骤在工作中始终如一地完成。设置触发条件以根据检查清单的回答自动创建工单、请求零件或更新资产。"
     }
   },
   "journey": {
