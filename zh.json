@@ -6486,6 +6486,16 @@
       "typeMessageOrAddAttachment": "请键入消息或添加附件",
       "hasBeenAssignedTo": "已分配给",
       "this": "此"
+    },
+    "emptyPage":{
+     "getStartedWithTicket": "从工单开始",
+      "captureTrackTicket": "捕获并跟踪工单以处理工作订单和一级解决。",
+      "ticketManagement": "工单管理",
+      "manageTicket": "管理工单并保持跟进直至完成。",
+      "workOrder": "工作订单",
+      "manageGroupInTicket": "管理属于同一工单范围内的一组工作订单。",
+      "conversation": "会话",
+      "manageConversationInTicket": "管理工单中的会话。"
     }
   },
   "jobOrder": {

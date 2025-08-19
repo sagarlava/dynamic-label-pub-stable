@@ -6486,6 +6486,16 @@
       "typeMessageOrAddAttachment": "Please type a message or add an attachment",
       "hasBeenAssignedTo":"has been assigned to",
       "this":"This"
+    },
+    "emptyPage":{
+      "getStartedWithTicket":"Get Started With Tickets",
+      "captureTrackTicket":"Capture and track tickets for work orders and first-level resolution.",
+      "ticketManagement":"Ticket Management",
+      "manageTicket":"Manage tickets and stay on track for when tickets are completed.",
+      "workOrder":"Work Orders",
+      "manageGroupInTicket":"Manage a group of work orders that fall in the scope of a ticket.",
+      "conversation":"Conversations",
+      "manageConversationInTicket":"Manage conversations within tickets."
     }
   },
   "jobOrder": {

@@ -6486,6 +6486,16 @@
       "typeMessageOrAddAttachment": "Por favor, escribe un mensaje o agrega un archivo adjunto",
       "hasBeenAssignedTo": "ha sido asignado a",
       "this": "Esto"
+    },
+    "emptyPage":{
+      "getStartedWithTicket": "Comienza con tickets",
+      "captureTrackTicket": "Captura y haz seguimiento de tickets para órdenes de trabajo y resolución de primer nivel.",
+      "ticketManagement": "Gestión de tickets",
+      "manageTicket": "Gestiona tickets y mantente al tanto de cuándo se completan.",
+      "workOrder": "Órdenes de trabajo",
+      "manageGroupInTicket": "Gestiona un grupo de órdenes de trabajo que estén dentro del alcance de un ticket.",
+      "conversation": "Conversaciones",
+      "manageConversationInTicket": "Gestiona conversaciones dentro de los tickets."
     }
   },
   "jobOrder": {

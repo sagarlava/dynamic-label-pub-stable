@@ -6486,6 +6486,16 @@
       "typeMessageOrAddAttachment": "Sila taip mesej atau tambah lampiran",
       "hasBeenAssignedTo": "telah ditugaskan kepada",
       "this": "Ini"
+    },
+    "emptyPage":{
+       "getStartedWithTicket": "Mulakan Dengan Tiket",
+        "captureTrackTicket": "Tangkap dan jejaki tiket untuk pesanan kerja dan penyelesaian peringkat pertama.",
+        "ticketManagement": "Pengurusan Tiket",
+        "manageTicket": "Urus tiket dan kekal teratur apabila tiket diselesaikan.",
+        "workOrder": "Pesanan Kerja",
+        "manageGroupInTicket": "Urus kumpulan pesanan kerja yang berada dalam skop sesuatu tiket.",
+        "conversation": "Perbualan",
+        "manageConversationInTicket": "Urus perbualan dalam tiket."
     }
   },
   "jobOrder": {

@@ -6486,6 +6486,16 @@
       "typeMessageOrAddAttachment": "Bitte eine Nachricht eingeben oder einen Anhang hinzufügen",
       "hasBeenAssignedTo": "wurde zugewiesen an",
       "this": "Dies"
+    },
+    "emptyPage":{
+       "getStartedWithTicket": "Erste Schritte mit Tickets",
+       "captureTrackTicket": "Erfassen und verfolgen Sie Tickets für Arbeitsaufträge und Erstlösungen.",
+       "ticketManagement": "Ticketverwaltung",
+       "manageTicket": "Verwalten Sie Tickets und behalten Sie den Überblick, wenn Tickets abgeschlossen werden.",
+       "workOrder": "Arbeitsaufträge",
+      "manageGroupInTicket": "Verwalten Sie eine Gruppe von Arbeitsaufträgen, die in den Umfang eines Tickets fallen.",
+      "conversation": "Konversationen",
+      "manageConversationInTicket": "Verwalten Sie Konversationen innerhalb von Tickets."
     }
   },
   "jobOrder": {
