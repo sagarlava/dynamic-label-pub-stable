@@ -9841,6 +9841,28 @@
       "selectCategory":"Select Category",
       "selectSubCategory":"Select Sub Category",
       "selectStatus":"Select Status"
+    },
+    "emptyPage":{
+      "beginTrackingYourInventory":"Begin tracking your Inventory",
+      "keepStocksOfYourAssetSparePart":"Keep stock of your assets, spare parts, and how they move between your bins.",
+      "organizeStock":"Organize Stock",
+      "setUpForStructuredStorage":"Set up locations, zones, and bins for structured storage.",
+      "transferItems":"Transfer Items",
+      "moveAssetSparePartEasily":"Move assets or parts between locations or users easily.",
+      "trackAvailability":"Track Availability",
+      "checkRealTimeStock":"Check real-time stock levels by item, bin, or location.",
+      "inventoryOverview":"Inventory Overview",
+      "digitalWarehouseOfAssetSparePart":"A digital warehouse of your assets and spare parts. Keep track of stock, receive alerts when stock is low, and manage the movements of your assets and spare parts between your bins with transfers.",
+      "digitalWarehouse":"Digital Warehouse",
+      "structureInventoryWithLocation":"Structure your inventory with digital locations, zones, and bins.",
+      "transfer":"Transfers",
+      "trackManageMovementItem":"Track and manage the movement of items between bins.",
+      "stockUpdate":"Stock Updates",
+      "receiveNotificationStocksLow":"Receive notifications when stock of spare parts are low.",
+      "reportsAnalytics":"Reports & Analytics",
+      "useReportsAnalyzeMovementTrends":"Use reports to analyze inventory movement and trends.",
+      "consignmentRequisition":"Consignment & Requisition",
+      "requestApproveItems":"Request or approve the movement of items between bins."
     }
   },
   "bin": {

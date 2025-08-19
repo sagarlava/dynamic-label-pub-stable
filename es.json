@@ -9841,6 +9841,28 @@
       "utilizeFromBin": "Utilizar desde el contenedor",
       "utilizeSpareParts": "Utilizar repuestos",
       "transferFrom": "Transferir desde"
+    },
+    "emptyPage":{
+      "beginTrackingYourInventory": "Comienza a rastrear tu inventario",
+      "keepStocksOfYourAssetSparePart": "Mantén existencias de tus activos, repuestos y cómo se mueven entre tus contenedores.",
+      "organizeStock": "Organizar inventario",
+      "setUpForStructuredStorage": "Configura ubicaciones, zonas y contenedores para un almacenamiento estructurado.",
+      "transferItems": "Transferir artículos",
+      "moveAssetSparePartEasily": "Mueve activos o repuestos fácilmente entre ubicaciones o usuarios.",
+      "trackAvailability": "Seguimiento de disponibilidad",
+      "checkRealTimeStock": "Verifica niveles de inventario en tiempo real por artículo, contenedor o ubicación.",
+      "inventoryOverview": "Resumen de inventario",
+      "digitalWarehouseOfAssetSparePart": "Un almacén digital de tus activos y repuestos. Haz seguimiento del stock, recibe alertas cuando el inventario esté bajo y gestiona los movimientos de tus activos y repuestos entre contenedores mediante transferencias.",
+      "digitalWarehouse": "Almacén digital",
+      "structureInventoryWithLocation": "Estructura tu inventario con ubicaciones, zonas y contenedores digitales.",
+      "transfer": "Transferencias",
+      "trackManageMovementItem": "Haz seguimiento y gestiona el movimiento de artículos entre contenedores.",
+      "stockUpdate": "Actualizaciones de inventario",
+      "receiveNotificationStocksLow": "Recibe notificaciones cuando los repuestos tengan existencias bajas.",
+      "reportsAnalytics": "Informes y análisis",
+      "useReportsAnalyzeMovementTrends": "Usa informes para analizar movimientos y tendencias de inventario.",
+      "consignmentRequisition": "Consignación y requisición",
+      "requestApproveItems": "Solicita o aprueba el movimiento de artículos entre contenedores."
     }
   },
   "bin": {

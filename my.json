@@ -9841,6 +9841,28 @@
       "utilizeFromBin": "Guna dari Bin",
       "utilizeSpareParts": "Guna Alat Ganti",
       "transferFrom": "Pindah dari"
+    },
+    "emptyPage":{
+      "beginTrackingYourInventory": "Mula menjejak Inventori anda",
+      "keepStocksOfYourAssetSparePart": "Simpan stok aset, alat ganti, dan bagaimana ia bergerak antara bekas anda.",
+      "organizeStock": "Susun Stok",
+      "setUpForStructuredStorage": "Tetapkan lokasi, zon, dan bekas untuk simpanan yang berstruktur.",
+      "transferItems": "Pindahkan Item",
+      "moveAssetSparePartEasily": "Pindahkan aset atau alat ganti antara lokasi atau pengguna dengan mudah.",
+      "trackAvailability": "Jejaki Ketersediaan",
+      "checkRealTimeStock": "Semak tahap stok masa nyata mengikut item, bekas, atau lokasi.",
+      "inventoryOverview": "Gambaran Keseluruhan Inventori",
+      "digitalWarehouseOfAssetSparePart": "Gudang digital untuk aset dan alat ganti anda. Jejaki stok, terima amaran apabila stok rendah, dan urus pergerakan aset serta alat ganti antara bekas anda dengan pemindahan.",
+      "digitalWarehouse": "Gudang Digital",
+      "structureInventoryWithLocation": "Strukturkan inventori anda dengan lokasi, zon, dan bekas digital.",
+      "transfer": "Pemindahan",
+      "trackManageMovementItem": "Jejaki dan urus pergerakan item antara bekas.",
+      "stockUpdate": "Kemaskini Stok",
+      "receiveNotificationStocksLow": "Terima notifikasi apabila stok alat ganti rendah.",
+      "reportsAnalytics": "Laporan & Analitik",
+      "useReportsAnalyzeMovementTrends": "Gunakan laporan untuk menganalisis pergerakan dan trend inventori.",
+      "consignmentRequisition": "Konsainan & Permintaan",
+      "requestApproveItems": "Minta atau luluskan pergerakan item antara bekas."
     }
   },
   "bin": {

@@ -9841,6 +9841,28 @@
      "utilizeFromBin": "Aus dem Behälter nutzen",
      "utilizeSpareParts": "Ersatzteile verwenden",
      "transferFrom": "Übertrag von"
+    },
+    "emptyPage":{
+      "beginTrackingYourInventory": "Beginnen Sie mit der Bestandsverfolgung",
+      "keepStocksOfYourAssetSparePart": "Behalten Sie den Bestand Ihrer Anlagen, Ersatzteile und deren Bewegungen zwischen Behältern im Auge.",
+      "organizeStock": "Bestand organisieren",
+      "setUpForStructuredStorage": "Richten Sie Standorte, Zonen und Behälter für eine strukturierte Lagerung ein.",
+      "transferItems": "Artikel übertragen",
+      "moveAssetSparePartEasily": "Verschieben Sie Anlagen oder Teile problemlos zwischen Standorten oder Benutzern.",
+      "trackAvailability": "Verfügbarkeit verfolgen",
+      "checkRealTimeStock": "Überprüfen Sie den Echtzeitbestand nach Artikel, Behälter oder Standort.",
+      "inventoryOverview": "Bestandsübersicht",
+      "digitalWarehouseOfAssetSparePart": "Ein digitales Lager für Ihre Anlagen und Ersatzteile. Verfolgen Sie Bestände, erhalten Sie Warnungen bei niedrigem Bestand und verwalten Sie Bewegungen Ihrer Anlagen und Ersatzteile zwischen Behältern mittels Übertragungen.",
+      "digitalWarehouse": "Digitales Lager",
+      "structureInventoryWithLocation": "Strukturieren Sie Ihren Bestand mit digitalen Standorten, Zonen und Behältern.",
+      "transfer": "Übertragungen",
+      "trackManageMovementItem": "Verfolgen und verwalten Sie die Bewegung von Artikeln zwischen Behältern.",
+      "stockUpdate": "Bestandsaktualisierungen",
+      "receiveNotificationStocksLow": "Erhalten Sie Benachrichtigungen, wenn Ersatzteilbestände niedrig sind.",
+      "reportsAnalytics": "Berichte & Analysen",
+      "useReportsAnalyzeMovementTrends": "Nutzen Sie Berichte, um Bestandsbewegungen und Trends zu analysieren.",
+      "consignmentRequisition": "Konsignation & Anforderung",
+      "requestApproveItems": "Fordern Sie Bewegungen von Artikeln zwischen Behältern an oder genehmigen Sie diese."
     }
   },
   "bin": {

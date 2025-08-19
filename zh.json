@@ -9841,6 +9841,28 @@
       "utilizeFromBin": "从箱子中使用",
       "utilizeSpareParts": "使用备件",
       "transferFrom": "从"
+    },
+    "emptyPage":{
+      "beginTrackingYourInventory": "开始跟踪您的库存",
+      "keepStocksOfYourAssetSparePart": "维护资产、备件的库存，以及它们在库位之间的流动。",
+      "organizeStock": "整理库存",
+      "setUpForStructuredStorage": "设置地点、区域和库位以实现结构化存储。",
+      "transferItems": "转移物品",
+      "moveAssetSparePartEasily": "轻松在地点或用户之间转移资产或备件。",
+      "trackAvailability": "跟踪可用性",
+      "checkRealTimeStock": "按物品、库位或地点检查实时库存水平。",
+      "inventoryOverview": "库存概览",
+      "digitalWarehouseOfAssetSparePart": "您的资产和备件的数字仓库。跟踪库存，在库存不足时接收提醒，并通过转移管理资产和备件在库位之间的流动。",
+      "digitalWarehouse": "数字仓库",
+      "structureInventoryWithLocation": "使用数字地点、区域和库位来结构化库存。",
+      "transfer": "转移",
+      "trackManageMovementItem": "跟踪并管理物品在库位之间的移动。",
+      "stockUpdate": "库存更新",
+      "receiveNotificationStocksLow": "当备件库存不足时接收通知。",
+      "reportsAnalytics": "报告与分析",
+      "useReportsAnalyzeMovementTrends": "使用报告分析库存流动和趋势。",
+      "consignmentRequisition": "寄售与申请",
+      "requestApproveItems": "请求或批准物品在库位之间的转移。"
     }
   },
   "bin": {
