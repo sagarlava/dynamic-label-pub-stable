@@ -9893,7 +9893,15 @@
       "reportsAnalytics": "Berichte & Analysen",
       "useReportsAnalyzeMovementTrends": "Nutzen Sie Berichte, um Bestandsbewegungen und Trends zu analysieren.",
       "consignmentRequisition": "Konsignation & Anforderung",
-      "requestApproveItems": "Fordern Sie Bewegungen von Artikeln zwischen Behältern an oder genehmigen Sie diese."
+      "requestApproveItems": "Fordern Sie Bewegungen von Artikeln zwischen Behältern an oder genehmigen Sie diese.",
+      "trackInventoryHistory": "Inventarhistorie verfolgen",
+      "trackItemMovements": "Verfolgen Sie die Bewegung von Artikeln zwischen Behältern.",
+      "assetMovementHistory": "Asset-Bewegungshistorie",
+      "viewAssetStorageLogs": "Sehen Sie sich detaillierte Protokolle darüber an, wo jedes Asset gespeichert oder verwendet wurde.",
+      "sparePartUsageHistory": "Historie der Ersatzteilnutzung",
+      "trackSparePartUsage": "Verfolgen Sie, wann, wo und von wem Teile in Aufträgen verwendet wurden.",
+      "auditTrails": "Audit-Trails",
+      "accessTransferRecords": "Greifen Sie auf vollständige Transferaufzeichnungen zu, um Verantwortlichkeit und Compliance zu unterstützen."
     }
   },
   "bin": {

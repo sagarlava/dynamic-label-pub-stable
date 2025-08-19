@@ -9893,7 +9893,15 @@
       "reportsAnalytics": "报告与分析",
       "useReportsAnalyzeMovementTrends": "使用报告分析库存流动和趋势。",
       "consignmentRequisition": "寄售与申请",
-      "requestApproveItems": "请求或批准物品在库位之间的转移。"
+      "requestApproveItems": "请求或批准物品在库位之间的转移。",
+      "trackInventoryHistory": "跟踪库存历史",
+      "trackItemMovements": "跟踪物品在库位之间的移动。",
+      "assetMovementHistory": "资产移动历史",
+      "viewAssetStorageLogs": "查看每个资产存储或使用的详细日志。",
+      "sparePartUsageHistory": "备件使用历史",
+      "trackSparePartUsage": "跟踪零件在作业中何时、何地、由谁使用。",
+      "auditTrails": "审计追踪",
+      "accessTransferRecords": "访问完整的转移记录以支持责任追究和合规性。"
     }
   },
   "bin": {

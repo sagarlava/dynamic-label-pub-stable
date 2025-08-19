@@ -9893,7 +9893,15 @@
       "reportsAnalytics": "Laporan & Analitik",
       "useReportsAnalyzeMovementTrends": "Gunakan laporan untuk menganalisis pergerakan dan trend inventori.",
       "consignmentRequisition": "Konsainan & Permintaan",
-      "requestApproveItems": "Minta atau luluskan pergerakan item antara bekas."
+      "requestApproveItems": "Minta atau luluskan pergerakan item antara bekas.",
+      "trackInventoryHistory": "Jejak Sejarah Inventori",
+      "trackItemMovements": "Jejak pergerakan item antara bekas.",
+      "assetMovementHistory": "Sejarah Pergerakan Aset",
+      "viewAssetStorageLogs": "Lihat log terperinci tentang tempat setiap aset disimpan atau digunakan.",
+      "sparePartUsageHistory": "Sejarah Penggunaan Alat Ganti",
+      "trackSparePartUsage": "Jejak bila, di mana, dan oleh siapa alat ganti digunakan dalam kerja.",
+      "auditTrails": "Jejak Audit",
+      "accessTransferRecords": "Akses rekod pemindahan penuh untuk menyokong akauntabiliti dan pematuhan."
     }
   },
   "bin": {

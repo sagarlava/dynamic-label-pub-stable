@@ -9893,7 +9893,15 @@
       "reportsAnalytics":"Reports & Analytics",
       "useReportsAnalyzeMovementTrends":"Use reports to analyze inventory movement and trends.",
       "consignmentRequisition":"Consignment & Requisition",
-      "requestApproveItems":"Request or approve the movement of items between bins."
+      "requestApproveItems":"Request or approve the movement of items between bins.",
+      "trackInventoryHistory": "Track Inventory History",
+      "trackItemMovements": "Track movement of items between bins.",
+      "assetMovementHistory": "Asset Movement History",
+      "viewAssetStorageLogs": "View detailed logs of where each asset has been stored or used.",
+      "sparePartUsageHistory": "Spare Part Usage History",
+      "trackSparePartUsage": "Track when, where, and by whom parts were used in jobs.",
+      "auditTrails": "Audit Trails",
+      "accessTransferRecords": "Access full transfer records to support accountability and compliance."
     }
   },
   "bin": {
