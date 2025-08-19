@@ -3743,7 +3743,13 @@
       "useInJob": "Usar en trabajos",
       "assignConsumeSparePart": "Asigna y consume repuestos directamente desde órdenes de trabajo o listas de verificación.",
       "sparePartOverview": "Resumen de repuestos",
-      "registerSparePart": "Registra repuestos y añádelos a tus contenedores. Consume repuestos desde órdenes de trabajo o listas de verificación, controla las cantidades por contenedor y recibe notificaciones cuando los niveles de stock comiencen a bajar."
+      "registerSparePart": "Registra repuestos y añádelos a tus contenedores. Consume repuestos desde órdenes de trabajo o listas de verificación, controla las cantidades por contenedor y recibe notificaciones cuando los niveles de stock comiencen a bajar.",
+      "addPartsToJobs": "Agregar repuestos a los trabajos",
+      "includePartsInJobOrders": "Incluye repuestos necesarios directamente en las órdenes de trabajo para los técnicos.",
+      "useFromBins": "Usar desde contenedores",
+      "consumePartsFromBins": "Los técnicos pueden consumir repuestos de los contenedores asignados o escanear para usarlos.",
+      "trackUsageAndCost": "Seguimiento de uso y costo",
+      "monitorPartConsumption": "Monitorea automáticamente el consumo de repuestos, la cantidad utilizada y el uso basado en trabajos."
     }
   },
   "task": {
@@ -9370,6 +9376,7 @@
       "createAssignServiceTask": "Crea, asigna y haz seguimiento de tareas de servicio de principio a fin.",
       "template": "Plantillas",
       "createReusableJobTemplate": "Crea plantillas reutilizables con campos prellenados para la creación repetitiva de trabajos.",
+      "createReusableJobTemplateSaveTime":"Crea plantillas reutilizables de órdenes de trabajo para ahorrar tiempo y estandarizar procesos.",
       "execution": "Ejecución",
       "assignJobTask": "Asigna tareas de trabajo a equipos de campo y haz seguimiento del estado, notas y adjuntos.",
       "automation": "Automatización",

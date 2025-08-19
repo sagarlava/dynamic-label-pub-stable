@@ -3743,7 +3743,13 @@
       "useInJob": "在工作中使用",
       "assignConsumeSparePart": "直接从工单或检查清单中分配和使用备件。",
       "sparePartOverview": "备件概览",
-      "registerSparePart": "注册备件并将其添加到您的仓位。通过工单或检查清单消耗零件，按仓位跟踪数量，并在库存水平开始下降时接收通知。"
+      "registerSparePart": "注册备件并将其添加到您的仓位。通过工单或检查清单消耗零件，按仓位跟踪数量，并在库存水平开始下降时接收通知。",
+      "addPartsToJobs": "将零件添加到工作中",
+      "includePartsInJobOrders": "在工单中直接包含技术人员所需的备件。",
+      "useFromBins": "从库位使用",
+      "consumePartsFromBins": "技术人员可以从分配的库位消耗零件或通过扫码使用。",
+      "trackUsageAndCost": "跟踪使用情况和成本",
+      "monitorPartConsumption": "自动监控零件消耗、使用数量以及基于工作的使用情况。"
     }
   },
   "task": {
@@ -9370,6 +9376,7 @@
       "createAssignServiceTask": "创建、分配并跟踪服务任务，从开始到完成。",
       "template": "模板",
       "createReusableJobTemplate": "创建可重复使用的工单模板，带有预填字段以便重复任务创建。",
+      "createReusableJobTemplateSaveTime": "创建可重复使用的工单模板，以节省时间并标准化流程。",
       "execution": "执行",
       "assignJobTask": "将工单任务分配给现场团队，并跟踪状态、备注和附件。",
       "automation": "自动化",

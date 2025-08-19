@@ -3743,7 +3743,13 @@
       "useInJob": "In Aufträgen verwenden",
       "assignConsumeSparePart": "Ersatzteile direkt aus Arbeitsaufträgen oder Checklisten zuweisen und verbrauchen.",
       "sparePartOverview": "Ersatzteile-Übersicht",
-      "registerSparePart": "Registrieren Sie Ersatzteile und fügen Sie sie Ihren Behältern hinzu. Verbrauchen Sie Teile aus Arbeitsaufträgen oder Checklisten, verfolgen Sie die Mengen nach Behältern und erhalten Sie Benachrichtigungen, wenn die Bestände sinken."
+      "registerSparePart": "Registrieren Sie Ersatzteile und fügen Sie sie Ihren Behältern hinzu. Verbrauchen Sie Teile aus Arbeitsaufträgen oder Checklisten, verfolgen Sie die Mengen nach Behältern und erhalten Sie Benachrichtigungen, wenn die Bestände sinken.",
+      "addPartsToJobs": "Teile zu Aufträgen hinzufügen",
+      "includePartsInJobOrders": "Fügen Sie die benötigten Ersatzteile direkt in Arbeitsaufträge für Techniker ein.",
+      "useFromBins": "Aus Behältern verwenden",
+      "consumePartsFromBins": "Techniker können Teile aus zugewiesenen Behältern entnehmen oder per Scan verwenden.",
+      "trackUsageAndCost": "Nutzung & Kosten verfolgen",
+      "monitorPartConsumption": "Überwachen Sie automatisch den Teileverbrauch, die verwendete Menge und die auftragsbezogene Nutzung."
     }
   },
   "task": {
@@ -9370,6 +9376,7 @@
       "createAssignServiceTask": "Erstellen, zuweisen und verfolgen Sie Servicetätigkeiten von Anfang bis Ende.",
       "template": "Vorlagen",
       "createReusableJobTemplate": "Erstellen Sie wiederverwendbare Arbeitsauftragsvorlagen mit vorausgefüllten Feldern für wiederkehrende Aufträge.",
+      "createReusableJobTemplateSaveTime":"Erstellen Sie wiederverwendbare Arbeitsauftragsvorlagen, um Zeit zu sparen und Prozesse zu standardisieren.",
       "execution": "Ausführung",
       "assignJobTask": "Weisen Sie Arbeitstätigkeiten Außendienstteams zu und verfolgen Sie Status, Notizen und Anhänge.",
       "automation": "Automatisierung",

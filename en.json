@@ -3743,7 +3743,13 @@
       "useInJob":"Use in Jobs",
       "assignConsumeSparePart":"Assign and consume spare parts directly from job orders or checklists.",
       "sparePartOverview":"Spare Parts Overview",
-      "registerSparePart":"Register spare parts and add them to your bins. Consume parts from job orders or checklists, keep track part quantities by bin, and receive notifications when stock levels begin running low."
+      "registerSparePart":"Register spare parts and add them to your bins. Consume parts from job orders or checklists, keep track part quantities by bin, and receive notifications when stock levels begin running low.",
+      "addPartsToJobs": "Add Parts to Jobs",
+      "includePartsInJobOrders": "Include required spare parts directly in job orders for technicians.",
+      "useFromBins": "Use from Bins",
+      "consumePartsFromBins": "Technicians can consume parts from assigned bins or scan to use.",
+      "trackUsageAndCost": "Track Usage & Cost",
+      "monitorPartConsumption": "Monitor part consumption, quantity used, and job-based usage automatically."
     }
   },
   "task": {
@@ -9370,6 +9376,7 @@
       "createAssignServiceTask":"Create, assign, and track service tasks from start to finish.",
       "template":"Templates",
       "createReusableJobTemplate":"Create reusable job templates with prefilled fields for repetitive job creation.",
+      "createReusableJobTemplateSaveTime":"Create reusable job order templates to save time and standardize processes.",
       "execution":"Execution",
       "assignJobTask":"Assign job tasks to field teams and track status, notes, and attachments.",
       "automation":"Automation",

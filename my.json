@@ -3743,7 +3743,13 @@
       "useInJob": "Digunakan Dalam Kerja",
       "assignConsumeSparePart": "Tetapkan dan gunakan alat ganti terus daripada pesanan kerja atau senarai semak.",
       "sparePartOverview": "Gambaran Keseluruhan Alat Ganti",
-      "registerSparePart": "Daftarkan alat ganti dan tambahkannya ke dalam bekas anda. Gunakan alat ganti daripada pesanan kerja atau senarai semak, jejaki kuantiti mengikut bekas, dan terima pemberitahuan apabila tahap stok mula berkurangan."
+      "registerSparePart": "Daftarkan alat ganti dan tambahkannya ke dalam bekas anda. Gunakan alat ganti daripada pesanan kerja atau senarai semak, jejaki kuantiti mengikut bekas, dan terima pemberitahuan apabila tahap stok mula berkurangan.",
+      "addPartsToJobs": "Tambah Alat Ganti ke Dalam Kerja",
+      "includePartsInJobOrders": "Sertakan alat ganti yang diperlukan terus dalam pesanan kerja untuk juruteknik.",
+      "useFromBins": "Guna dari Bekas",
+      "consumePartsFromBins": "Juruteknik boleh menggunakan alat ganti dari bekas yang ditetapkan atau imbas untuk guna.",
+      "trackUsageAndCost": "Jejak Penggunaan & Kos",
+      "monitorPartConsumption": "Pantau penggunaan alat ganti, kuantiti yang digunakan, dan penggunaan berdasarkan kerja secara automatik."
     }
   },
   "task": {
@@ -9370,6 +9376,7 @@
       "createAssignServiceTask": "Cipta, tetapkan, dan jejaki tugasan servis dari mula hingga akhir.",
       "template": "Templat",
       "createReusableJobTemplate": "Cipta templat kerja boleh guna semula dengan medan praisi untuk penciptaan kerja berulang.",
+      "createReusableJobTemplateSaveTime": "Cipta templat pesanan kerja boleh guna semula untuk menjimatkan masa dan menyeragamkan proses.",
       "execution": "Pelaksanaan",
       "assignJobTask": "Tetapkan tugasan kerja kepada pasukan lapangan dan jejaki status, nota, serta lampiran.",
       "automation": "Automasi",
