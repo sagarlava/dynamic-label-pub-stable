@@ -1438,7 +1438,15 @@
       "meterTracking": "Zählerverfolgung",
       "trackAssetUsage": "Verfolgen Sie die Nutzung und Leistung von Assets mit Zählerständen.",
       "analytics": "Analysen",
-      "obtainCalculatedMetrics": "Erhalten Sie berechnete Kennzahlen und Einblicke aus den von Ihnen bereitgestellten Daten."
+      "obtainCalculatedMetrics": "Erhalten Sie berechnete Kennzahlen und Einblicke aus den von Ihnen bereitgestellten Daten.",
+      "trackAssetMovements": "Assetbewegungen verfolgen",
+      "trackMovementOfAssets": "Verfolgen Sie die Bewegung von Assets zwischen Behältern.",
+      "initiateTransfers": "Transfers einleiten",
+      "moveAssetsBetweenBins": "Bewegen Sie Assets zwischen Standort-Behältern oder weisen Sie sie Benutzer-Behältern zu.",
+      "trackMovementHistory": "Bewegungshistorie verfolgen",
+      "viewAssetTransferLogs": "Sehen Sie detaillierte Protokolle jeder Asset-Übertragung über alle Behälter hinweg ein.",
+      "controlAccess": "Zugriffskontrolle",
+      "applyRoleBasedApprovals": "Wenden Sie rollenbasierte Genehmigungen und Regeln an, wer Assets übertragen darf."
     }
   },
   "analytic": {

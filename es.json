@@ -9400,7 +9400,15 @@
       "packageConditionChecks": "Verificación del estado del paquete",
       "inspectItemCondition": "Inspecciona el estado de los artículos durante la entrega o devolución usando listas de verificación digitales.",
       "customNotifications": "Notificaciones personalizadas",
-      "triggerSlaAlerts": "Activa alertas basadas en el estado del trabajo, incumplimientos de SLA o respuestas de listas de verificación."
+      "triggerSlaAlerts": "Activa alertas basadas en el estado del trabajo, incumplimientos de SLA o respuestas de listas de verificación.",
+      "trackAssetMovements": "Rastrear movimientos de activos",
+      "trackMovementOfAssets": "Rastrea el movimiento de activos entre contenedores.",
+      "initiateTransfers": "Iniciar transferencias",
+      "moveAssetsBetweenBins": "Mueve activos entre contenedores de ubicación o asígnalos a contenedores de usuarios.",
+      "trackMovementHistory": "Historial de movimientos",
+      "viewAssetTransferLogs": "Consulta registros detallados de cada transferencia de activos en todos los contenedores.",
+      "controlAccess": "Controlar acceso",
+      "applyRoleBasedApprovals": "Aplica aprobaciones y reglas basadas en roles para determinar quién puede transferir activos."
     }
   },
   "inventory": {

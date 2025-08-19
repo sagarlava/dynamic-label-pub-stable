@@ -1438,7 +1438,15 @@
       "meterTracking":"Meter Tracking",
       "trackAssetUsage":"Track asset usage and performance with meter readings.",
       "analytics":"Analytics",
-      "obtainCalculatedMetrics":"Obtain calculated metrics and insights derived from data that you have provided."
+      "obtainCalculatedMetrics":"Obtain calculated metrics and insights derived from data that you have provided.",
+      "trackAssetMovements": "Track Asset Movements",
+      "trackMovementOfAssets": "Track movement of assets between bins.",
+      "initiateTransfers": "Initiate Transfers",
+      "moveAssetsBetweenBins": "Move assets between location bins or assign them to user bins.",
+      "trackMovementHistory": "Track Movement History",
+      "viewAssetTransferLogs": "View detailed logs of every asset transfer across all bins.",
+      "controlAccess": "Control Access",
+      "applyRoleBasedApprovals": "Apply role-based approvals and rules for who can transfer assets."
     }
   },
   "analytic": {

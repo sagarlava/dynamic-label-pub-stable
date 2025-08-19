@@ -1438,7 +1438,15 @@
       "meterTracking":"Penjejakan Meter",
       "trackAssetUsage":"Jejaki penggunaan dan prestasi aset dengan bacaan meter.",
       "analytics":"Analitik",
-      "obtainCalculatedMetrics":"Dapatkan metrik yang dikira dan pandangan yang diperoleh daripada data yang anda berikan."
+      "obtainCalculatedMetrics":"Dapatkan metrik yang dikira dan pandangan yang diperoleh daripada data yang anda berikan.",
+      "trackAssetMovements": "Jejak Pergerakan Aset",
+      "trackMovementOfAssets": "Jejak pergerakan aset antara bekas.",
+      "initiateTransfers": "Mulakan Pemindahan",
+      "moveAssetsBetweenBins": "Pindahkan aset antara bekas lokasi atau tetapkan kepada bekas pengguna.",
+      "trackMovementHistory": "Jejak Sejarah Pergerakan",
+      "viewAssetTransferLogs": "Lihat log terperinci setiap pemindahan aset merentasi semua bekas.",
+      "controlAccess": "Kawal Akses",
+      "applyRoleBasedApprovals": "Laksanakan kelulusan dan peraturan berasaskan peranan untuk siapa yang boleh memindahkan aset."
     }
   },
   "analytic": {
