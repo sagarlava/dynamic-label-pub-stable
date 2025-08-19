@@ -11314,6 +11314,16 @@
       "hasBeen":"已被",
       "yourRequisitionNote":"您的托运单",
       "youCanProceedToTransfer":"您现在可以继续转移所选物品。"
+    },
+    "emptyPage":{
+       "getStartedWithConsignments": "开始使用寄售",
+        "manageConsigningInventory": "管理寄售到您不直接控制的库位的库存。",
+        "offerItemsOnConsignment": "提供寄售物品",
+        "provideItemsForFutureUse": "向其他用户或站点提供资产或备件以供未来使用。",
+        "controlWithApprovals": "审批控制",
+        "requireApprovalBeforeUsage": "在收件人发起转移或使用之前需要审批。",
+        "trackAndTransfer": "跟踪与转移",
+        "acceptAndTransferItems": "批准后，用户可以正式接收并将物品转移到他们的库位。"
     }
   },
   "requisition": {

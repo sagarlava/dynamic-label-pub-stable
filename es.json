@@ -11315,6 +11315,16 @@
       "hasBeen": "ha sido",
       "yourRequisitionNote": "su Nota de Consignación",
       "youCanProceedToTransfer": "Ahora puede proceder con la transferencia de los artículos seleccionados."
+    },
+    "emptyPage":{
+      "getStartedWithConsignments": "Comienza con consignaciones",
+      "manageConsigningInventory": "Gestiona el inventario en consignación hacia contenedores fuera de tu control directo.",
+      "offerItemsOnConsignment": "Ofrecer artículos en consignación",
+      "provideItemsForFutureUse": "Proporciona activos o repuestos a otro usuario o sitio para uso futuro.",
+      "controlWithApprovals": "Control con aprobaciones",
+      "requireApprovalBeforeUsage": "Requiere aprobación antes de que el destinatario pueda iniciar la transferencia o el uso.",
+      "trackAndTransfer": "Seguimiento y transferencia",
+      "acceptAndTransferItems": "Una vez aprobado, los usuarios pueden aceptar formalmente y transferir artículos a sus contenedores."
     }
   },
   "requisition": {

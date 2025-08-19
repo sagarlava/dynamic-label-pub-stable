@@ -11314,6 +11314,16 @@
       "hasBeen":"telah",
       "yourRequisitionNote":"Nota Konsainan anda",
       "youCanProceedToTransfer":"Anda kini boleh meneruskan pemindahan item yang dipilih."
+    },
+    "emptyPage":{
+      "getStartedWithConsignments": "Mulakan Dengan Konsainan",
+      "manageConsigningInventory": "Urus inventori konsainan ke dalam bekas di luar kawalan langsung anda.",
+      "offerItemsOnConsignment": "Tawar Item Secara Konsainan",
+      "provideItemsForFutureUse": "Sediakan aset atau alat ganti kepada pengguna atau tapak lain untuk kegunaan masa depan.",
+      "controlWithApprovals": "Kawal dengan Kelulusan",
+      "requireApprovalBeforeUsage": "Perlu kelulusan sebelum penerima boleh memulakan pemindahan atau penggunaan.",
+      "trackAndTransfer": "Jejak dan Pindahkan",
+      "acceptAndTransferItems": "Setelah diluluskan, pengguna boleh menerima secara rasmi dan memindahkan item ke dalam bekas mereka."
     }
   },
   "requisition": {

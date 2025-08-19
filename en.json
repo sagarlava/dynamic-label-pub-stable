@@ -11314,6 +11314,16 @@
       "hasBeen":"has been",
       "yourRequisitionNote":"your Consignment Note",
       "youCanProceedToTransfer":"You can now proceed to transfer the selected items."
+    },
+    "emptyPage":{
+      "getStartedWithConsignments": "Get Started With Consignments",
+      "manageConsigningInventory": "Manage consigning inventory to bins outside your direct control.",
+      "offerItemsOnConsignment": "Offer Items on Consignment",
+      "provideItemsForFutureUse": "Provide assets or spare parts to another user or site for future use.",
+      "controlWithApprovals": "Control with Approvals",
+      "requireApprovalBeforeUsage": "Require approval before the recipient can initiate transfer or usage.",
+      "trackAndTransfer": "Track and Transfer",
+      "acceptAndTransferItems": "Once approved, users can formally accept and transfer items into their bins."
     }
   },
   "requisition": {

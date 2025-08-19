@@ -11314,6 +11314,16 @@
       "hasBeen":"wurde",
       "yourRequisitionNote":"Ihr Frachtbrief",
       "youCanProceedToTransfer":"Sie können nun mit der Übertragung der ausgewählten Artikel fortfahren.."
+    },
+    "emptyPage":{
+      "getStartedWithConsignments": "Erste Schritte mit Konsignationen",
+      "manageConsigningInventory": "Verwalten Sie Konsignationsbestände in Behältern außerhalb Ihrer direkten Kontrolle.",
+      "offerItemsOnConsignment": "Artikel zur Konsignation anbieten",
+      "provideItemsForFutureUse": "Stellen Sie Anlagen oder Ersatzteile einem anderen Benutzer oder Standort zur späteren Verwendung bereit.",
+      "controlWithApprovals": "Kontrolle mit Genehmigungen",
+      "requireApprovalBeforeUsage": "Genehmigung erforderlich, bevor der Empfänger Übertragung oder Nutzung einleiten kann.",
+      "trackAndTransfer": "Nachverfolgen und Übertragen",
+      "acceptAndTransferItems": "Nach Genehmigung können Benutzer Artikel offiziell annehmen und in ihre Behälter übertragen."
     }
   },
   "requisition": {
