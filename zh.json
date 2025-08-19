@@ -2985,6 +2985,16 @@
     },
     "messages": {
       "maintenanceAppliesToAllContractAssets": "此维护将应用于此合同中的所有资产"
+    },
+    "emptyPage":{
+      "setUpContractMaintenances": "设置合同维护",
+      "preventUnplannedDowntimes": "通过设置维护计划防止资产的计划外停机。",
+      "linkAssetToPm": "将资产关联到预防性维护计划",
+      "assignAssetBasedOnType": "根据类型将资产分配到预防性维护计划。",
+      "autoGenerateJob": "自动生成工作",
+      "autoCreateMaintenanceJob": "根据设定的间隔或合同自动创建维护工单。",
+      "trackServiceHistory": "跟踪服务历史",
+      "viewAllCompletedMaintenance": "查看每个资产已完成和即将进行的维护工作。"
     }
   },
   "checklist": {

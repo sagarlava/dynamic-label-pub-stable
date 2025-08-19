@@ -2985,6 +2985,16 @@
     },
     "messages": {
       "maintenanceAppliesToAllContractAssets": "Diese Wartung wird auf alle Vermögenswerte innerhalb dieses Vertrags angewendet"
+    },
+    "emptyPage":{
+      "setUpContractMaintenances": "Vertragswartungen einrichten",
+      "preventUnplannedDowntimes": "Verhindern Sie ungeplante Ausfallzeiten Ihrer Assets, indem Sie Wartungspläne einrichten.",
+      "linkAssetToPm": "Assets mit Plänen für vorbeugende Wartung verknüpfen",
+      "assignAssetBasedOnType": "Weisen Sie Assets vorbeugenden Wartungsplänen basierend auf ihrem Typ zu.",
+      "autoGenerateJob": "Aufträge automatisch generieren",
+      "autoCreateMaintenanceJob": "Erstellen Sie automatisch Wartungsaufträge basierend auf festgelegten Intervallen oder Verträgen.",
+      "trackServiceHistory": "Servicehistorie verfolgen",
+      "viewAllCompletedMaintenance": "Alle abgeschlossenen und anstehenden Wartungsaufträge für jedes Asset anzeigen."
     }
   },
   "checklist": {
