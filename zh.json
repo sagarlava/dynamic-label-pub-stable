@@ -1446,7 +1446,15 @@
       "trackMovementHistory": "跟踪移动历史",
       "viewAssetTransferLogs": "查看所有库位中每次资产转移的详细日志。",
       "controlAccess": "控制访问",
-      "applyRoleBasedApprovals": "应用基于角色的审批和规则来决定谁可以转移资产。"
+      "applyRoleBasedApprovals": "应用基于角色的审批和规则来决定谁可以转移资产。",
+      "getStartedWithAssetInventory": "开始使用资产库存",
+      "trackAssetsWithInventory": "资产库存可帮助您跟踪资产。",
+      "assignAssetsToBins": "将资产分配到库位",
+      "placeAssetsInBins": "将资产放置在特定仓库或用户库位中以实现精确跟踪。",
+      "transferBetweenLocations": "在位置之间转移",
+      "moveAssetsAcrossBins": "在库位、站点或用户之间移动资产并保持完整可追溯性。",
+      "checkAvailability": "检查可用性",
+      "viewAssetAvailability": "查看每个资产的存储位置以及是否可供使用。"
     }
   },
   "analytic": {

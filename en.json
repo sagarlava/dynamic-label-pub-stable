@@ -1446,7 +1446,15 @@
       "trackMovementHistory": "Track Movement History",
       "viewAssetTransferLogs": "View detailed logs of every asset transfer across all bins.",
       "controlAccess": "Control Access",
-      "applyRoleBasedApprovals": "Apply role-based approvals and rules for who can transfer assets."
+      "applyRoleBasedApprovals": "Apply role-based approvals and rules for who can transfer assets.",
+      "getStartedWithAssetInventory": "Get Started With Asset Inventory",
+      "trackAssetsWithInventory": "Asset Inventory helps you keep track of your assets.",
+      "assignAssetsToBins": "Assign Assets to Bins",
+      "placeAssetsInBins": "Place assets in specific warehouse or user bins for accurate tracking.",
+      "transferBetweenLocations": "Transfer Between Locations",
+      "moveAssetsAcrossBins": "Move assets across bins, sites, or users with full traceability.",
+      "checkAvailability": "Check Availability",
+      "viewAssetAvailability": "View where each asset is stored and whether it’s available for use."
     }
   },
   "analytic": {

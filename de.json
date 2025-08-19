@@ -1446,7 +1446,15 @@
       "trackMovementHistory": "Bewegungshistorie verfolgen",
       "viewAssetTransferLogs": "Sehen Sie detaillierte Protokolle jeder Asset-Übertragung über alle Behälter hinweg ein.",
       "controlAccess": "Zugriffskontrolle",
-      "applyRoleBasedApprovals": "Wenden Sie rollenbasierte Genehmigungen und Regeln an, wer Assets übertragen darf."
+      "applyRoleBasedApprovals": "Wenden Sie rollenbasierte Genehmigungen und Regeln an, wer Assets übertragen darf.",
+      "getStartedWithAssetInventory": "Erste Schritte mit der Anlageninventur",
+      "trackAssetsWithInventory": "Die Anlageninventur hilft Ihnen, Ihre Assets im Blick zu behalten.",
+      "assignAssetsToBins": "Assets Behältern zuweisen",
+      "placeAssetsInBins": "Platzieren Sie Assets in bestimmten Lager- oder Benutzer-Behältern für eine genaue Nachverfolgung.",
+      "transferBetweenLocations": "Zwischen Standorten übertragen",
+      "moveAssetsAcrossBins": "Bewegen Sie Assets zwischen Behältern, Standorten oder Benutzern mit vollständiger Nachverfolgbarkeit.",
+      "checkAvailability": "Verfügbarkeit prüfen",
+      "viewAssetAvailability": "Sehen Sie, wo jedes Asset gespeichert ist und ob es verfügbar ist."
     }
   },
   "analytic": {
