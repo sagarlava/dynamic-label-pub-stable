@@ -11961,6 +11961,16 @@
       "filteredBySparePart":"Filtered by spare parts in selected from bin",
       "filteredByAsset":"Filtered by asset in selected from bin",
       "areYouSureCancelRequisitionNote":"Are you sure you want to cancel this requisition note?"
+    },
+    "emptyPage":{
+      "getStartedWithRequisitions": "Get Started With Requisitions",
+      "manageInventoryRequests": "Manage inventory requests from bins outside your direct control.",
+      "requestItems": "Request Items",
+      "submitRequisitions": "Users can submit requisitions to request spare parts or assets.",
+      "routeForApproval": "Route for Approval",
+      "processApprovalWorkflows": "Requisitions go through approval workflows before items are released.",
+      "fulfilFromBins": "Fulfil from Bins",
+      "pickAndTransferApprovedItems": "Approved items are picked and transferred from warehouse or user bins."
     }
   },
   "contacts": {

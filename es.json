@@ -10262,7 +10262,6 @@
         "setupEdit": false,
         "setupVisible": false
       }
-      
     },
     "fields": {
       "setupVisible": false,
@@ -11962,6 +11961,16 @@
       "filteredBySparePart": "Filtrado por repuestos en el contenedor seleccionado",
       "filteredByAsset": "Filtrado por activos en el contenedor seleccionado",
       "areYouSureCancelRequisitionNote":"¿Estás seguro de que deseas cancelar esta nota de requisición?"
+    },
+    "emptyPage":{
+      "getStartedWithRequisitions": "Comienza con requisiciones",
+      "manageInventoryRequests": "Gestiona solicitudes de inventario de contenedores fuera de tu control directo.",
+      "requestItems": "Solicitar artículos",
+      "submitRequisitions": "Los usuarios pueden enviar requisiciones para solicitar repuestos o activos.",
+      "routeForApproval": "Ruta para aprobación",
+      "processApprovalWorkflows": "Las requisiciones pasan por flujos de trabajo de aprobación antes de liberar los artículos.",
+      "fulfilFromBins": "Satisfacer desde contenedores",
+      "pickAndTransferApprovedItems": "Los artículos aprobados se recogen y transfieren desde almacenes o contenedores de usuario."
     }
   },
   "contacts": {

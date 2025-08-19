@@ -11961,6 +11961,16 @@
       "filteredBySparePart":"按所选存储箱中的备件筛选",
       "filteredByAsset":"按所选存储箱中的资产筛选",
       "areYouSureCancelRequisitionNote":"您确定要取消此请购单吗？"
+    },
+    "emptyPage":{
+      "getStartedWithRequisitions": "开始使用请购",
+      "manageInventoryRequests": "管理来自您不直接控制的库位的库存请求。",
+      "requestItems": "申请物品",
+      "submitRequisitions": "用户可以提交请购单以申请备件或资产。",
+      "routeForApproval": "提交审批",
+      "processApprovalWorkflows": "请购需经过审批流程后物品才能发放。",
+      "fulfilFromBins": "从库位发放",
+      "pickAndTransferApprovedItems": "批准的物品将从仓库或用户库位拣货并转移。"
     }
   },
   "contacts": {

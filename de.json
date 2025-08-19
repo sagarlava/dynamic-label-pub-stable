@@ -11961,6 +11961,16 @@
       "filteredBySparePart":"Gefiltert nach Ersatzteilen im ausgewählten Behälter",
       "filteredByAsset":"Gefiltert nach Vermögenswerten im ausgewählten Behälter",
       "areYouSureCancelRequisitionNote":"Sind Sie sicher, dass Sie diesen Anforderungsbeleg stornieren möchten?"
+    },
+    "emptyPage":{
+      "getStartedWithRequisitions": "Erste Schritte mit Anforderungsaufträgen",
+      "manageInventoryRequests": "Verwalten Sie Bestandsanforderungen aus Behältern außerhalb Ihrer direkten Kontrolle.",
+      "requestItems": "Artikel anfordern",
+      "submitRequisitions": "Benutzer können Anforderungsaufträge einreichen, um Ersatzteile oder Assets anzufordern.",
+      "routeForApproval": "Zur Genehmigung weiterleiten",
+      "processApprovalWorkflows": "Anforderungsaufträge durchlaufen Genehmigungs-Workflows, bevor Artikel freigegeben werden.",
+      "fulfilFromBins": "Aus Behältern erfüllen",
+      "pickAndTransferApprovedItems": "Genehmigte Artikel werden aus Lagern oder Benutzer-Behältern entnommen und übertragen."
     }
   },
   "contacts": {

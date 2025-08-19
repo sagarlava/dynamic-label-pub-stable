@@ -11961,6 +11961,16 @@
       "filteredBySparePart":"Ditapis mengikut alat ganti dalam tong yang dipilih",
       "filteredByAsset":"Ditapis mengikut aset dalam tong yang dipilih",
       "areYouSureCancelRequisitionNote":"Adakah anda pasti mahu membatalkan nota permintaan ini?"
+    },
+    "emptyPage":{
+      "getStartedWithRequisitions": "Mulakan Dengan Permintaan",
+      "manageInventoryRequests": "Urus permintaan inventori daripada bekas di luar kawalan langsung anda.",
+      "requestItems": "Mohon Item",
+      "submitRequisitions": "Pengguna boleh menghantar permintaan untuk memohon alat ganti atau aset.",
+      "routeForApproval": "Hantar Untuk Kelulusan",
+      "processApprovalWorkflows": "Permintaan akan melalui aliran kerja kelulusan sebelum item dikeluarkan.",
+      "fulfilFromBins": "Penuhi Dari Bekas",
+      "pickAndTransferApprovedItems": "Item yang diluluskan akan diambil dan dipindahkan dari gudang atau bekas pengguna."
     }
   },
   "contacts": {
