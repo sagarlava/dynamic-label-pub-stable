@@ -12208,6 +12208,16 @@
       "confirmActivateUser": "Are you sure you want to activate this user?",
       "confirmDeactivateUser": "Are you sure you want to deactivate this user’s account? This user cannot be activated again after deactivation.",
       "confirmSuspendUser": "Are you sure you want to suspend this user’s account?"
+    },
+    "emptyPage":{
+      "manageYourContacts": "Manage Your Contacts",
+      "manageCustomerContacts": "Manage multiple customer contacts easily.",
+      "contactsList": "Contacts List",
+      "maintainSiteContacts": "Maintain a list of site contacts.",
+      "emailAndPhone": "Email and Phone",
+      "manageContactsAcrossChannels": "Maintain your site contacts through multiple channels.",
+      "quickAccess": "Quick Access",
+      "findAndConnectWithSites": "Find and connect with sites instantly during job assignments."
     }
   },
   "helpdesk": {

@@ -12208,6 +12208,16 @@
       "confirmActivateUser": "您确定要激活该用户吗？",
       "confirmDeactivateUser": "您确定要停用该用户的帐户吗？停用后，该用户不能再次被激活。",
       "confirmSuspendUser": "您确定要暂停该用户的帐户吗？"
+    },
+    "emptyPage":{
+      "manageYourContacts": "管理您的联系人",
+      "manageCustomerContacts": "轻松管理多个客户联系人。",
+      "contactsList": "联系人列表",
+      "maintainSiteContacts": "维护站点联系人列表。",
+      "emailAndPhone": "电子邮件和电话",
+      "manageContactsAcrossChannels": "通过多个渠道维护您的站点联系人。",
+      "quickAccess": "快速访问",
+      "findAndConnectWithSites": "在分配工作时立即查找并连接站点。"
     }
   },
   "helpdesk": {
