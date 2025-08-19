@@ -2271,7 +2271,7 @@
     },
     "emptyPage":{
       "setUpMaintenanceSchedule": "设置维护计划",
-      "preventUnplannedDowntimes": "通过设置维护计划防止资产的计划外停机。",
+      "preventUnplannedDowntimes": "通过设置预防性维护计划防止资产的计划外停机。",
       "linkAssetToPm": "将资产关联到预防性维护计划",
       "assignAssetBasedOnType": "根据类型将资产分配到预防性维护计划。",
       "autoGenerateJob": "自动生成工作",
@@ -2769,6 +2769,18 @@
       "removeItems": "移除需要退回的项目",
       "pleaseSelectAssetName": "请选择资产名称",
       "qtyGreaterThanZero": "数量应大于0"
+    },
+    "emptyPage":{
+      "getStartedWithContract": "从合同开始",
+      "contractsHelpMaintainAgreement": "合同可帮助您维护服务协议记录。",
+      "createContract": "创建合同",
+      "defineRentalServieContract": "定义租赁或服务合同，包括开始/结束日期和客户。",
+      "linkAsset": "关联资产",
+      "assignAssetToContract": "将一个或多个资产分配到合同中，用于预防性维护跟踪和服务到期。",
+      "enablePmSchedules": "启用预防性维护计划",
+      "autoGeneratePreventiveJob": "根据合同期限和关联的维护计划自动生成预防性工作。",
+      "contractOverview": "合同概览",
+      "defineManageServiceContract": "定义和管理服务协议记录。将资产关联到合同，用于跟踪并根据合同条款和期限自动触发预防性维护。"
     }
   },
   "contractMaintenance": {

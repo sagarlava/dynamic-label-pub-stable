@@ -2271,8 +2271,8 @@
     },
     "emptyPage":{
       "setUpMaintenanceSchedule": "Sediakan Jadual Penyelenggaraan",
-      "preventUnplannedDowntimes": "Elakkan masa henti tidak dirancang untuk aset anda dengan menyediakan jadual penyelenggaraan.",
-      "linkAssetToPm": "Pautkan Aset kepada Pelan PM",
+      "preventUnplannedDowntimes": "Elakkan masa henti tidak dirancang untuk aset anda dengan menyediakan jadual penyelenggaraan pencegahan.",
+      "linkAssetToPm": "Pautkan Aset kepada Pelan Penyelenggaraan Pencegahan",
       "assignAssetBasedOnType": "Tetapkan aset kepada jadual penyelenggaraan pencegahan berdasarkan jenis.",
       "autoGenerateJob": "Jana Kerja Secara Automatik",
       "autoCreateMaintenanceJob": "Cipta pesanan kerja penyelenggaraan secara automatik berdasarkan sela masa atau kontrak yang ditetapkan.",
@@ -2769,6 +2769,18 @@
       "removeItems": "Keluarkan item yang perlu dikembalikan",
       "pleaseSelectAssetName": "Sila pilih Nama Aset",
       "qtyGreaterThanZero": "Kuantiti hendaklah lebih besar daripada 0"
+    },
+    "emptyPage":{
+      "getStartedWithContract": "Mulakan Dengan Kontrak",
+      "contractsHelpMaintainAgreement": "Kontrak membantu anda menyelenggara rekod perjanjian perkhidmatan.",
+      "createContract": "Cipta Kontrak",
+      "defineRentalServieContract": "Tentukan kontrak sewa atau perkhidmatan dengan tarikh mula/tamat dan pelanggan.",
+      "linkAsset": "Pautkan Aset",
+      "assignAssetToContract": "Tetapkan satu atau lebih aset kepada kontrak untuk penjejakan penyelenggaraan pencegahan dan servis yang perlu.",
+      "enablePmSchedules": "Aktifkan Jadual Penyelenggaraan Pencegahan",
+      "autoGeneratePreventiveJob": "Jana kerja penyelenggaraan pencegahan secara automatik berdasarkan tempoh kontrak dan jadual penyelenggaraan yang dipautkan.",
+      "contractOverview": "Gambaran Keseluruhan Kontrak",
+      "defineManageServiceContract": "Tentukan dan urus rekod perjanjian perkhidmatan. Pautkan aset kepada kontrak untuk penjejakan dan secara automatik mencetuskan penyelenggaraan pencegahan berdasarkan terma dan tempoh kontrak."
     }
   },
   "contractMaintenance": {

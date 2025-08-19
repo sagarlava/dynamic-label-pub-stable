@@ -2272,7 +2272,7 @@
     "emptyPage":{
       "setUpMaintenanceSchedule":"Set Up Maintenance Schedules",
       "preventUnplannedDowntimes":"Prevent unplanned downtimes for your assets by setting up maintenance schedules.",
-      "linkAssetToPm":"Link Assets to PM Plans",
+      "linkAssetToPm":"Link Assets to Preventive Maintenance Plans",
       "assignAssetBasedOnType":"Assign assets to preventive maintenance schedules based on type.",
       "autoGenerateJob":"Auto-Generate Jobs",
       "autoCreateMaintenanceJob":"Automatically create maintenance job orders based on set intervals or contracts.",
@@ -2769,6 +2769,18 @@
       "removeItems":"Remove items that need to be returned",
       "pleaseSelectAssetName":"Please select an Asset Name",
       "qtyGreaterThanZero":"Quantity should be greater than 0"
+    },
+    "emptyPage":{
+      "getStartedWithContract":"Get Started With Contracts",
+      "contractsHelpMaintainAgreement":"Contracts help you maintain service agreement records.",
+      "createContract":"Create Contracts",
+      "defineRentalServieContract":"Define rental or service contracts with start/end dates and customer.",
+      "linkAsset":"Link Assets",
+      "assignAssetToContract":"Assign one or more assets to the contract for preventive maintenance tracking and service due.",
+      "enablePmSchedules":"Enable Preventive Maintenance Schedules",
+      "autoGeneratePreventiveJob":"Automatically generate preventive jobs based on contract duration and linked maintenance schedules.",
+      "contractOverview":"Contracts Overview",
+      "defineManageServiceContract":"Define and manage service agreement records. Link assets to contracts for tracking and automatically trigger preventive maintenance based on contract terms and duration."
     }
   },
   "contractMaintenance": {

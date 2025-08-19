@@ -2271,8 +2271,8 @@
     },
     "emptyPage":{
       "setUpMaintenanceSchedule": "Wartungspläne einrichten",
-      "preventUnplannedDowntimes": "Verhindern Sie ungeplante Ausfallzeiten Ihrer Assets, indem Sie Wartungspläne einrichten.",
-      "linkAssetToPm": "Assets mit PM-Plänen verknüpfen",
+      "preventUnplannedDowntimes": "Verhindern Sie ungeplante Ausfallzeiten Ihrer Assets, indem Sie vorbeugende Wartungspläne einrichten.",
+      "linkAssetToPm": "Assets mit Plänen für vorbeugende Wartung verknüpfen",
       "assignAssetBasedOnType": "Weisen Sie Assets vorbeugenden Wartungsplänen basierend auf ihrem Typ zu.",
       "autoGenerateJob": "Aufträge automatisch generieren",
       "autoCreateMaintenanceJob": "Erstellen Sie automatisch Wartungsaufträge basierend auf festgelegten Intervallen oder Verträgen.",
@@ -2769,6 +2769,18 @@
       "removeItems": "Entfernen Sie die Artikel, die zurückgegeben werden müssen",
       "pleaseSelectAssetName": "Bitte wählen Sie einen Assetnamen aus",
       "qtyGreaterThanZero": "Die Menge sollte größer als 0 sein"
+    },
+    "emptyPage":{
+      "getStartedWithContract": "Erste Schritte mit Verträgen",
+      "contractsHelpMaintainAgreement": "Verträge helfen Ihnen, Servicevereinbarungen zu dokumentieren.",
+      "createContract": "Verträge erstellen",
+      "defineRentalServieContract": "Definieren Sie Miet- oder Serviceverträge mit Start-/Enddatum und Kunden.",
+      "linkAsset": "Assets verknüpfen",
+      "assignAssetToContract": "Weisen Sie einem Vertrag ein oder mehrere Assets für das Nachverfolgen der vorbeugenden Wartung und fällige Services zu.",
+      "enablePmSchedules": "Pläne für vorbeugende Wartung aktivieren",
+      "autoGeneratePreventiveJob": "Automatisch präventive Aufträge basierend auf Vertragsdauer und verknüpften Wartungsplänen generieren.",
+      "contractOverview": "Vertragsübersicht",
+      "defineManageServiceContract": "Definieren und verwalten Sie Servicevereinbarungen. Verknüpfen Sie Assets mit Verträgen zur Nachverfolgung und lösen Sie automatisch vorbeugende Wartungen basierend auf Vertragsbedingungen und -dauer aus."
     }
   },
   "contractMaintenance": {
