@@ -3732,6 +3732,18 @@
       "totalAmount": "Monto Total",
       "groupByTask": "Group By Task",
       "deleteTaskTemplateRemoveSpareParts": "Eliminar esta plantilla de tarea también eliminará todas las piezas de repuesto asociadas"
+    },
+    "emptyPage":{
+      "manageSparePart": "Gestiona tus repuestos",
+      "sparePartsKeepTrack": "Los repuestos te ayudan a llevar un control de tus piezas.",
+      "createSparePart": "Crear repuestos",
+      "registerParts": "Registra repuestos con nombres, SKU, categorías, precios e imágenes.",
+      "trackStockLevel": "Seguimiento de niveles de inventario",
+      "monitorPartQuantity": "Supervisa la cantidad de repuestos por contenedor, almacén o técnico en tiempo real.",
+      "useInJob": "Usar en trabajos",
+      "assignConsumeSparePart": "Asigna y consume repuestos directamente desde órdenes de trabajo o listas de verificación.",
+      "sparePartOverview": "Resumen de repuestos",
+      "registerSparePart": "Registra repuestos y añádelos a tus contenedores. Consume repuestos desde órdenes de trabajo o listas de verificación, controla las cantidades por contenedor y recibe notificaciones cuando los niveles de stock comiencen a bajar."
     }
   },
   "task": {

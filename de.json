@@ -3732,6 +3732,18 @@
       "totalAmount": "Gesamtbetrag",
        "groupByTask": "Gruppieren nach Aufgabe",
       "deleteTaskTemplateRemoveSpareParts":"Das Löschen dieser Aufgaben-Vorlage entfernt auch alle zugehörigen Ersatzteile"
+    },
+    "emptyPage":{
+      "manageSparePart": "Verwalten Sie Ihre Ersatzteile",
+      "sparePartsKeepTrack": "Ersatzteile helfen Ihnen, Ihre Teile im Blick zu behalten.",
+      "createSparePart": "Ersatzteile erstellen",
+      "registerParts": "Teile mit Namen, SKUs, Kategorien, Preisen und Bildern registrieren.",
+      "trackStockLevel": "Bestandsniveaus verfolgen",
+      "monitorPartQuantity": "Überwachen Sie die Stückzahlen nach Behälter, Lager oder Techniker in Echtzeit.",
+      "useInJob": "In Aufträgen verwenden",
+      "assignConsumeSparePart": "Ersatzteile direkt aus Arbeitsaufträgen oder Checklisten zuweisen und verbrauchen.",
+      "sparePartOverview": "Ersatzteile-Übersicht",
+      "registerSparePart": "Registrieren Sie Ersatzteile und fügen Sie sie Ihren Behältern hinzu. Verbrauchen Sie Teile aus Arbeitsaufträgen oder Checklisten, verfolgen Sie die Mengen nach Behältern und erhalten Sie Benachrichtigungen, wenn die Bestände sinken."
     }
   },
   "task": {

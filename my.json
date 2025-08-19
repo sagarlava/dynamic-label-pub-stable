@@ -3732,6 +3732,18 @@
       "totalAmount": "Jumlah Keseluruhan",
        "groupByTask": "Kumpulkan mengikut Tugas",
       "deleteTaskTemplateRemoveSpareParts":"Menghapus templat tugas ini juga akan membuang semua alat ganti yang berkaitan"
+    },
+    "emptyPage":{
+      "manageSparePart": "Urus Alat Ganti Anda",
+      "sparePartsKeepTrack": "Alat ganti membantu anda menjejak stok anda.",
+      "createSparePart": "Cipta Alat Ganti",
+      "registerParts": "Daftarkan alat ganti dengan nama, SKU, kategori, harga, dan imej.",
+      "trackStockLevel": "Jejaki Tahap Stok",
+      "monitorPartQuantity": "Pantau kuantiti alat ganti mengikut bekas, gudang, atau juruteknik secara masa nyata.",
+      "useInJob": "Digunakan Dalam Kerja",
+      "assignConsumeSparePart": "Tetapkan dan gunakan alat ganti terus daripada pesanan kerja atau senarai semak.",
+      "sparePartOverview": "Gambaran Keseluruhan Alat Ganti",
+      "registerSparePart": "Daftarkan alat ganti dan tambahkannya ke dalam bekas anda. Gunakan alat ganti daripada pesanan kerja atau senarai semak, jejaki kuantiti mengikut bekas, dan terima pemberitahuan apabila tahap stok mula berkurangan."
     }
   },
   "task": {

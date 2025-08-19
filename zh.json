@@ -3732,6 +3732,18 @@
       "totalAmount": "总金额",
       "deleteTaskTemplateRemoveSpareParts":"删除此任务模板将同时移除所有相关的备件",
        "groupByTask": "按任务分组"
+    },
+    "emptyPage":{
+      "manageSparePart": "管理您的备件",
+      "sparePartsKeepTrack": "备件帮助您跟踪零件。",
+      "createSparePart": "创建备件",
+      "registerParts": "注册零件，包括名称、SKU、类别、价格和图片。",
+      "trackStockLevel": "跟踪库存水平",
+      "monitorPartQuantity": "实时监控各箱、仓库或技术员的零件数量。",
+      "useInJob": "在工作中使用",
+      "assignConsumeSparePart": "直接从工单或检查清单中分配和使用备件。",
+      "sparePartOverview": "备件概览",
+      "registerSparePart": "注册备件并将其添加到您的仓位。通过工单或检查清单消耗零件，按仓位跟踪数量，并在库存水平开始下降时接收通知。"
     }
   },
   "task": {

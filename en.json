@@ -3732,6 +3732,18 @@
       "totalAmount": "Total Amount",
       "groupByTask": "Group by Task",
       "deleteTaskTemplateRemoveSpareParts":"Deleting this task template will also remove all associated spare parts"
+    },
+    "emptyPage":{
+      "manageSparePart":"Manage Your Spare Parts",
+      "sparePartsKeepTrack":"Spare parts helps you keep track of your parts.",
+      "createSparePart":"Create Spare Parts",
+      "registerParts":"Register parts with names, SKUs, categories, pricing, and images.",
+      "trackStockLevel":"Track Stock Levels",
+      "monitorPartQuantity":"Monitor part quantities by bin, warehouse, or technician in real-time.",
+      "useInJob":"Use in Jobs",
+      "assignConsumeSparePart":"Assign and consume spare parts directly from job orders or checklists.",
+      "sparePartOverview":"Spare Parts Overview",
+      "registerSparePart":"Register spare parts and add them to your bins. Consume parts from job orders or checklists, keep track part quantities by bin, and receive notifications when stock levels begin running low."
     }
   },
   "task": {
