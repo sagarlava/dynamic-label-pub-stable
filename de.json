@@ -25049,6 +25049,18 @@
       "unpaidLeave": "Unbezahlt",
       "emergencyLeave": "Notfall",
       "paternityMaternityLeave": "Vaterschafts-/Mutterschaftsurlaub"
+    },
+    "emptyPage":{
+      "manageYourLeaves": "Verwalten Sie Ihre Urlaube",
+      "manageTimeOffRequests": "Urlaub hilft Ihnen, Ihre Abwesenheitsanträge zu verwalten.",
+      "requestLeave": "Urlaub beantragen",
+      "submitLeaveRequest": "Reichen Sie Ihren Urlaubsantrag mit Art, Datum und Grund ein.",
+      "myStaffLeaves": "Urlaube meiner Mitarbeiter",
+      "approveStaffLeaveRequests": "Anzeigen, verwalten und genehmigen Sie Urlaubsanträge, die von Ihren Mitarbeitern eingereicht wurden.",
+      "availabilityImpactForAssignments": "Auswirkungen auf die Verfügbarkeit für Aufgaben",
+      "preventTaskAssignmentForUsersOnLeave": "Mitarbeiter im Urlaub stehen für die Zuweisung von Aufgaben nicht zur Verfügung.",
+      "leaveOverview": "Urlaubsübersicht",
+      "requestAndManageStaffTimeOff": "Beantragen Sie Urlaub und verwalten Sie die Urlaubsanträge Ihrer Mitarbeiter."
     }
   },
   "login": {

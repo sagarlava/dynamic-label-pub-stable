@@ -25050,6 +25050,18 @@
       "unpaidLeave": "Sin sueldo",
       "emergencyLeave": "Emergencia",
       "paternityMaternityLeave": "Paternidad/Maternidad"
+    },
+    "emptyPage":{
+      "manageYourLeaves": "Gestiona tus permisos",
+      "manageTimeOffRequests": "El módulo de permisos te ayuda a gestionar tus solicitudes de tiempo libre.",
+      "requestLeave": "Solicitar permiso",
+      "submitLeaveRequest": "Envía tu solicitud de permiso indicando el tipo, las fechas y el motivo.",
+      "myStaffLeaves": "Permisos de mi personal",
+      "approveStaffLeaveRequests": "Visualiza, gestiona y aprueba las solicitudes de permisos enviadas por tu equipo.",
+      "availabilityImpactForAssignments": "Impacto de disponibilidad en asignaciones",
+      "preventTaskAssignmentForUsersOnLeave": "Los usuarios en permiso no estarán disponibles para asignación de tareas.",
+      "leaveOverview": "Resumen de permisos",
+      "requestAndManageStaffTimeOff": "Solicita tiempo libre y gestiona las solicitudes de tu personal."
     }
   },
   "login": {

@@ -25050,6 +25050,18 @@
       "unpaidLeave": "无薪假",
       "emergencyLeave": "紧急假",
       "paternityMaternityLeave": "陪产假/产假"
+    },
+    "emptyPage":{
+      "manageYourLeaves": "管理您的请假",
+      "manageTimeOffRequests": "请假功能帮助您管理休假申请。",
+      "requestLeave": "申请请假",
+      "submitLeaveRequest": "提交请假申请，包括请假类型、日期和原因。",
+      "myStaffLeaves": "我的员工请假",
+      "approveStaffLeaveRequests": "查看、管理并批准下属提交的请假申请。",
+      "availabilityImpactForAssignments": "任务分配中的可用性影响",
+      "preventTaskAssignmentForUsersOnLeave": "休假的用户将无法被选为任务分配对象。",
+      "leaveOverview": "请假概览",
+      "requestAndManageStaffTimeOff": "提交休假申请并管理员工的休假请求。"
     }
   },
   "login": {

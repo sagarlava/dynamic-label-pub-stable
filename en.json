@@ -25049,6 +25049,18 @@
       "unpaidLeave": "Unpaid",
       "emergencyLeave": "Emergency",
       "paternityMaternityLeave": "Paternity/Maternity"
+    },
+    "emptyPage":{
+      "manageYourLeaves": "Manage Your Leaves",
+      "manageTimeOffRequests": "Leave helps you manage your time-off requests.",
+      "requestLeave": "Request Leave",
+      "submitLeaveRequest": "Submit your leave request with leave type, dates, and reason.",
+      "myStaffLeaves": "My Staff Leaves",
+      "approveStaffLeaveRequests": "View, manage, and approve leave requests submitted by your downlines.",
+      "availabilityImpactForAssignments": "Availability Impact for Assignments",
+      "preventTaskAssignmentForUsersOnLeave": "Users on leave will not be available to select from for task assignment.",
+      "leaveOverview": "Leave Overview",
+      "requestAndManageStaffTimeOff": "Request for time-off and manage time-off requests from your staff."
     }
   },
   "login": {

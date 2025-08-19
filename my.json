@@ -25049,6 +25049,18 @@
       "unpaidLeave": "Cuti Tanpa Gaji",
       "emergencyLeave": "Cuti Kecemasan",
       "paternityMaternityLeave": "Cuti Bapa/Ibu"
+    },
+    "emptyPage":{
+      "manageYourLeaves": "Urus Cuti Anda",
+      "manageTimeOffRequests": "Cuti membantu anda mengurus permintaan cuti anda.",
+      "requestLeave": "Mohon Cuti",
+      "submitLeaveRequest": "Hantar permintaan cuti anda dengan jenis cuti, tarikh, dan alasan.",
+      "myStaffLeaves": "Cuti Kakitangan Saya",
+      "approveStaffLeaveRequests": "Lihat, urus, dan luluskan permintaan cuti yang dihantar oleh staf bawahan anda.",
+      "availabilityImpactForAssignments": "Kesan Ketersediaan untuk Tugasan",
+      "preventTaskAssignmentForUsersOnLeave": "Pengguna yang sedang bercuti tidak akan tersedia untuk dipilih bagi tugasan.",
+      "leaveOverview": "Gambaran Keseluruhan Cuti",
+      "requestAndManageStaffTimeOff": "Mohon cuti dan urus permintaan cuti daripada kakitangan anda."
     }
   },
   "login": {
