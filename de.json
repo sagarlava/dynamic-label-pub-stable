@@ -14356,6 +14356,104 @@
         "plural": "Nodig Teams uit",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "inviteButton": {
+        "original": "Invite",
+        "singular": "Uitnodigen",
+        "plural": "Uitnodigen",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "changeButton": {
+        "original": "Change",
+        "singular": "Wijzigen",
+        "plural": "Wijzigen",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "ignoreButton": {
+        "original": "Ignore",
+        "singular": "Negeren",
+        "plural": "Negeren",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "addAnotherStatusButton": {
+        "original": "Add another status",
+        "singular": "Nog een status toevoegen",
+        "plural": "Nog meer statussen toevoegen",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "addAnotherFaultButton": {
+        "original": "Add another fault",
+        "singular": "Nog een fout toevoegen",
+        "plural": "Nog meer fouten toevoegen",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "addAnotherResolutionButton": {
+        "original": "Add another resolution",
+        "singular": "Nog een oplossing toevoegen",
+        "plural": "Nog meer oplossingen toevoegen",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "upgradeButton": {
+        "original": "Upgrade",
+        "singular": "Upgraden",
+        "plural": "Upgraden",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "14DayProTrialButton": {
+        "original": "14-Day Pro Trial",
+        "singular": "14-daagse Proefversie",
+        "plural": "14-daagse Proefversies",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "contactUsButton": {
+        "original": "Contact Us",
+        "singular": "Neem contact op",
+        "plural": "Neem contact op",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "changePlanButton": {
+        "original": "Change Plan",
+        "singular": "Wijzig Abonnement",
+        "plural": "Wijzig Abonnementen",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "managePaymentButton": {
+        "original": "Manage Payment",
+        "singular": "Beheer Betaling",
+        "plural": "Beheer Betalingen",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "contactSalesButton": {
+        "original": "Contact Sales",
+        "singular": "Neem Contact op met Verkoop",
+        "plural": "Neem Contact op met Verkoop",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "cancelPlanButton": {
+        "original": "Cancel Plan",
+        "singular": "Annuleer Abonnement",
+        "plural": "Annuleer Abonnementen",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "upgradeProButton": {
+        "original": "Upgrade to Pro",
+        "singular": "Upgraden naar Pro",
+        "plural": "Upgraden naar Pro",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "status": {
@@ -14871,6 +14969,34 @@
         "setupEdit": false,
         "setupVisible": false
       },
+      "freeForever": {
+        "original": "Free Forever",
+        "singular": "Altijd gratis",
+        "plural": "Altijd gratis",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "yearly": {
+        "original": "Yearly",
+        "singular": "Jaarlijks",
+        "plural": "Jaarlijks",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "paymentFailed": {
+        "original": "Payment failed",
+        "singular": "Betaling mislukt",
+        "plural": "Betaling mislukt",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "paymentIssueDetected": {
+        "original": "Payment issue detected",
+        "singular": "Betalingsprobleem gedetecteerd",
+        "plural": "Betalingsproblemen gedetecteerd",
+        "setupEdit": false,
+        "setupVisible": false
+      },
       "messages": {
         "forIncompleteChecklists": "Für unvollständige Checklisten, die in Zukunft aktualisiert werden sollen. Es werden keine Aufträge oder Aufgaben mit diesem Status ausgelöst.",
         "thisStatusWillTriggerAnyJobOrders": "Dieser Status wird alle Arbeitsaufträge und Aufgaben auslösen, die mit den Antworten dieser Checkliste verbunden sind.",
@@ -15085,7 +15211,9 @@
       "tip":"Tipp",
       "tips":"Tipps",
       "makeFilterSelections":"Treffen Sie Filterauswahlen, um Assets zu finden",
-      "confirmation":"Bestätigung"
+      "confirmation":"Bestätigung",
+      "emailPlaceholder": "Voer e-mailadres in...",
+      "selectRole": "Selecteer een rol"
     },
     "currency": {
       "australianDollar": "AUD",
@@ -16118,10 +16246,118 @@
             "plural": "",
             "setupEdit": true,
             "setupVisible": false
+          },
+          "sec5": {
+            "original": "Billing Details",
+            "singular": "Facturatiegegevens",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec6": {
+            "original": "Lite Plan",
+            "singular": "Lite-abonnement",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec7": {
+            "original": "Pro Plan",
+            "singular": "Pro Plan",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec8": {
+            "original": "Next Payment",
+            "singular": "Volgende Betaling",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec9": {
+            "original": "Growth Plan",
+            "singular": "Groei Plan",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec10": {
+            "original": "Enterprise Plan",
+            "singular": "Enterprise Plan",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": false
           }
         },
         "messages": {
-          "requestSentSuccessfully": "Anfrage erfolgreich gesendet"
+          "requestSentSuccessfully": "Anfrage erfolgreich gesendet",
+          "litePlanMessage": "Upgrade op elk moment om geavanceerde functies te ontgrendelen.",
+          "seatsInUseLite": "plaatsen in gebruik",
+          "monthly": "Maandelijks",
+          "yearly": "Jaarlijks (30% korting)",
+          "usersAbove": "6 gebruikers en meer",
+          "largerTeams": "Voor grotere teams",
+          "memberMonth": "per lid / per maand",
+          "litePlusListTitle": "Alles in Lite, plus:",
+          "growthPlusListTitle": "Alles in Growth, plus:",
+          "proPlusListTitle": "Alles in Pro, plus:",
+          "siteManagement": "Locatiebeheer",
+          "projectManagement": "Projectbeheer",
+          "dedicatedSupport": "Toegewijde ondersteuning",
+          "preventiveMaintenance": "Preventief onderhoud",
+          "assetAnalyticMeterLog": "Asset-analyse en meterlogs",
+          "inventoryStockControl": "Voorraad- en voorraadbeheer",
+          "customWorkflows": "Aangepaste workflows",
+          "apiIntegration": "API-integratie",
+          "assetRequisitionWorkflows": "Asset-aanvraagworkflows",
+          "fieldexIntelligence": "FieldEx Intelligence",
+          "slaManagement": "SLA-beheer",
+          "feedbackSurveys": "Feedbackenquêtes",
+          "customEmail": "Aangepaste e-mail",
+          "customNotificationTemplate": "Aangepaste notificatiesjabloon",
+          "subscriptionRenewMessage": "Uw abonnement wordt automatisch verlengd op",
+          "upgradeEnterpriseTitle": "Wilt u upgraden naar Enterprise?",
+          "upgradeEnterpriseContent": "Neem contact op met ons verkoopteam om u te helpen bij de upgrade",
+          "cancelPlanTitle": "Wilt u uw abonnement annuleren?",
+          "cancelPlanContent": "Als u uw abonnement annuleert, wordt u niet verlengd en verliest u de toegang tot FieldEx op",
+          "trialEndOn": "Uw proefperiode eindigt op",
+          "daysLeftTrial": "dagen resterend in proefperiode",
+          "paymentDue": "Betaling verschuldigd",
+          "paymentFailed": "Betaling mislukt",
+          "loseExcessMessage": "U verliest overtollige toegang over",
+          "days": "dagen",
+          "planCanceled": "Abonnement geannuleerd",
+          "proPlanCanceledMessage": "Uw Pro-abonnement is geannuleerd. U wordt op de volgende datum teruggezet naar een gratis plan",
+          "freePlansMaximumSeats": "Gratis abonnementen hebben maximaal 5 gebruikers",
+          "paymentFailedMessage": "Betaling mislukt. Werk uw kaartgegevens bij en voltooi de betaling om toegang tot uw account te herstellen.",
+          "accountAccessSuspended": "Toegang tot account opgeschort",
+          "paymentIsuueDetectedMessage": "Betalingsprobleem gedetecteerd! Uw organisatie wordt gedegradeerd over",
+          "unlessPaymentUpdatedMessage": "tenzij de betaling wordt bijgewerkt."
+        },
+        "fields": {
+          "setupVisible": false,
+          "growth": {
+            "original": "Growth",
+            "singular": "Groei",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "pro": {
+            "original": "Pro",
+            "singular": "Pro",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "enterprise": {
+            "original": "Enterprise",
+            "singular": "Enterprise",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          }
         }
       },
       "workingHours": {
@@ -17549,6 +17785,13 @@
             "original": "Default Language",
             "singular": "Standardsprache",
             "plural": "Standardsprache",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "billingUser": {
+            "original": "Is Billing User",
+            "singular": "Is factureringsgebruiker",
+            "plural": "Zijn factureringsgebruikers",
             "setupEdit": true,
             "setupVisible": false
           }
@@ -26656,6 +26899,13 @@
           "plural": "Laden Sie Ihr Team ein",
           "setupEdit": false,
           "setupVisible": false
+        },
+        "sec6": {
+          "original": "Invite your team to FieldEx",
+          "singular": "Nodig je team uit voor FieldEx",
+          "plural": "Nodig je teams uit voor FieldEx",
+          "setupEdit": false,
+          "setupVisible": false
         }
       },
       "fields":{
@@ -26876,7 +27126,33 @@
         "attachAnAsset": "Ein Asset anhängen",
         "chooseEquipmentItem": "Wählen Sie die Ausrüstung oder den Artikel für diesen Auftrag.",
         "assignOrderOwner": "Einen Auftragsverantwortlichen zuweisen",
-        "chooseWhosReponsible": "Wählen Sie, wer für diesen Arbeitsauftrag verantwortlich ist."
+        "chooseWhosReponsible": "Wählen Sie, wer für diesen Arbeitsauftrag verantwortlich ist.",
+        "noTeamMember": "Nog geen teamleden",
+        "uploadData": "Gegevens uploaden",
+        "importFile": "Bestand importeren",
+        "orBrowseFile": "of klik om te bladeren en uw bestand te selecteren",
+        "csvSizeCondition": "Accepteert .csv-bestanden tot 10MB • Maximaal 200 assets per import",
+        "mapColumns": "Koppel uw kolommen",
+        "yourColumn": "UW KOLOM",
+        "fieldexField": "FIELDEX-VELD",
+        "belowColumnNameStepDescription": "Hieronder ziet u de kolomnamen uit uw bestand. We hebben er al enkele gekoppeld aan FieldEx-velden",
+        "percentageValueOfField": "% van uw rijen bevat een waarde voor dit veld",
+        "configureDropdowns": "Configureer keuzelijsten",
+        "assetStatuses": "Assetstatussen",
+        "customizeDropdownOption": "Pas keuzelijstopties aan. U kunt bestaande opties hernoemen, ongebruikte verwijderen of standaardwaarden behouden. Nieuwe waarden in uw geïmporteerde bestand worden automatisch toegevoegd aan de relevante keuzelijsten.",
+        "detectedImportFile": "Gedetecteerd uit importbestand",
+        "reviewConfirmTitle": "Controleren en bevestigen",
+        "columnsToBeImported": "Te importeren kolommen",
+        "columnsToBeIgnored": "Te negeren kolommen",
+        "recordsToBeAdded": "Toe te voegen records",
+        "confirmMatchFields": "Bevestig gekoppelde velden",
+        "ignoreUnmappedFields": "Negeer niet-gekoppelde velden",
+        "reset": "Resetten",
+        "dowmloadWorkOrderTemplate": "Download werkordertemplate",
+        "workOrderStatuses": "Werkorderstatussen",
+        "workOrderTypes": "Werkordertypen",
+        "workOrderFaults": "Werkorderfouten",
+        "workOrderResolutions": "Werkorderoplossingen"
       },
       "validationFE":{
         "onlyCsvFilesAllowed": "Nur CSV-Dateien können hochgeladen werden",

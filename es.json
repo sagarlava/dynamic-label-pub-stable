@@ -14356,6 +14356,104 @@
         "plural": "Invitar a los Equipos",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "inviteButton": {
+        "original": "Invite",
+        "singular": "Invitar",
+        "plural": "Invitar",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "changeButton": {
+        "original": "Change",
+        "singular": "Cambiar",
+        "plural": "Cambiar",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "ignoreButton": {
+        "original": "Ignore",
+        "singular": "Ignorar",
+        "plural": "Ignorar",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "addAnotherStatusButton": {
+        "original": "Add another status",
+        "singular": "Agregar otro estado",
+        "plural": "Agregar otros estados",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "addAnotherFaultButton": {
+        "original": "Add another fault",
+        "singular": "Agregar otra falla",
+        "plural": "Agregar otras fallas",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "addAnotherResolutionButton": {
+        "original": "Add another resolution",
+        "singular": "Agregar otra solución",
+        "plural": "Agregar otras soluciones",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "upgradeButton": {
+        "original": "Upgrade",
+        "singular": "Actualizar",
+        "plural": "Actualizar",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "14DayProTrialButton": {
+        "original": "14-Day Pro Trial",
+        "singular": "Prueba Pro de 14 Días",
+        "plural": "Pruebas Pro de 14 Días",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "contactUsButton": {
+        "original": "Contact Us",
+        "singular": "Contáctanos",
+        "plural": "Contáctanos",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "changePlanButton": {
+        "original": "Change Plan",
+        "singular": "Cambiar Plan",
+        "plural": "Cambiar Planes",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "managePaymentButton": {
+        "original": "Manage Payment",
+        "singular": "Gestionar Pago",
+        "plural": "Gestionar Pagos",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "contactSalesButton": {
+        "original": "Contact Sales",
+        "singular": "Contactar con Ventas",
+        "plural": "Contactar con Ventas",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "cancelPlanButton": {
+        "original": "Cancel Plan",
+        "singular": "Cancelar Plan",
+        "plural": "Cancelar Planes",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "upgradeProButton": {
+        "original": "Upgrade to Pro",
+        "singular": "Actualizar a Pro",
+        "plural": "Actualizar a Pro",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "status": {
@@ -14871,6 +14969,34 @@
         "setupEdit": false,
         "setupVisible": false
       },
+      "freeForever": {
+        "original": "Free Forever",
+        "singular": "Gratis para siempre",
+        "plural": "Gratis para siempre",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "yearly": {
+        "original": "Yearly",
+        "singular": "Anual",
+        "plural": "Anual",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "paymentFailed": {
+        "original": "Payment failed",
+        "singular": "Pago fallido",
+        "plural": "Pago fallido",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "paymentIssueDetected": {
+        "original": "Payment issue detected",
+        "singular": "Problema de pago detectado",
+        "plural": "Problemas de pago detectados",
+        "setupEdit": false,
+        "setupVisible": false
+      },
       "messages": {
         "forIncompleteChecklists": "Para que las listas de verificación incompletas se actualicen en el futuro. No se activarán trabajos ni tareas utilizando este estado.",
         "thisStatusWillTriggerAnyJobOrders": "Este estado activará cualquier orden de trabajo y tareas relacionadas con las respuestas de esta lista de verificación.",
@@ -15085,7 +15211,9 @@
       "tip":"Consejo",
       "tips":"Consejos",
       "makeFilterSelections":"Haz selecciones de filtro para localizar activos",
-      "confirmation":"Confirmación"
+      "confirmation":"Confirmación",
+      "emailPlaceholder": "Introduce el correo electrónico aquí...",
+      "selectRole": "Selecciona un rol"
     },
     "currency": {
       "australianDollar": "AUD",
@@ -16118,10 +16246,118 @@
             "plural": "",
             "setupEdit": true,
             "setupVisible": false
+          },
+          "sec5": {
+            "original": "Billing Details",
+            "singular": "Detalles de facturación",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec6": {
+            "original": "Lite Plan",
+            "singular": "Plan Lite",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec7": {
+            "original": "Pro Plan",
+            "singular": "Plan Pro",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec8": {
+            "original": "Next Payment",
+            "singular": "Próximo Pago",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec9": {
+            "original": "Growth Plan",
+            "singular": "Plan de Crecimiento",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec10": {
+            "original": "Enterprise Plan",
+            "singular": "Plan Empresarial",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": false
           }
         },
         "messages": {
-          "requestSentSuccessfully": "Solicitud enviada con éxito"
+          "requestSentSuccessfully": "Solicitud enviada con éxito",
+          "litePlanMessage": "Actualiza en cualquier momento para desbloquear funciones avanzadas.",
+          "seatsInUseLite": "asientos en uso",
+          "monthly": "Mensual",
+          "yearly": "Anual (30% de descuento)",
+          "usersAbove": "6 usuarios o más",
+          "largerTeams": "Para equipos más grandes",
+          "memberMonth": "por miembro / mes",
+          "litePlusListTitle": "Todo en Lite, además de:",
+          "growthPlusListTitle": "Todo en Growth, además de:",
+          "proPlusListTitle": "Todo en Pro, además de:",
+          "siteManagement": "Gestión de sitios",
+          "projectManagement": "Gestión de proyectos",
+          "dedicatedSupport": "Soporte dedicado",
+          "preventiveMaintenance": "Mantenimiento preventivo",
+          "assetAnalyticMeterLog": "Análisis de activos y registros de medidores",
+          "inventoryStockControl": "Control de inventario y existencias",
+          "customWorkflows": "Flujos de trabajo personalizados",
+          "apiIntegration": "Integración API",
+          "assetRequisitionWorkflows": "Flujos de trabajo de requisición de activos",
+          "fieldexIntelligence": "Inteligencia de FieldEx",
+          "slaManagement": "Gestión de SLA",
+          "feedbackSurveys": "Encuestas de retroalimentación",
+          "customEmail": "Correo electrónico personalizado",
+          "customNotificationTemplate": "Plantilla de notificación personalizada",
+          "subscriptionRenewMessage": "Tu suscripción se renovará automáticamente el",
+          "upgradeEnterpriseTitle": "¿Deseas actualizar a Enterprise?",
+          "upgradeEnterpriseContent": "Ponte en contacto con nuestro equipo de ventas para ayudarte con la actualización",
+          "cancelPlanTitle": "¿Deseas cancelar tu plan?",
+          "cancelPlanContent": "Al cancelar tu plan, no se te cobrará la renovación y perderás el acceso a FieldEx el",
+          "trialEndOn": "Tu prueba terminará el",
+          "daysLeftTrial": "días restantes en la prueba",
+          "paymentDue": "Pago pendiente",
+          "paymentFailed": "Pago fallido",
+          "loseExcessMessage": "Perderás el exceso en",
+          "days": "días",
+          "planCanceled": "Plan cancelado",
+          "proPlanCanceledMessage": "Tu plan Pro ha sido cancelado. Serás degradado a un plan gratuito el",
+          "freePlansMaximumSeats": "Los planes gratuitos tienen un máximo de 5 usuarios",
+          "paymentFailedMessage": "Pago fallido. Por favor actualiza los datos de tu tarjeta y realiza el pago para habilitar el acceso a tu cuenta.",
+          "accountAccessSuspended": "Acceso a la cuenta suspendido",
+          "paymentIsuueDetectedMessage": "¡Problema de pago detectado! Tu organización será degradada en",
+          "unlessPaymentUpdatedMessage": "a menos que se actualice el pago."
+        },
+        "fields": {
+          "setupVisible": false,
+          "growth": {
+            "original": "Growth",
+            "singular": "Crecimiento",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "pro": {
+            "original": "Pro",
+            "singular": "Pro",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "enterprise": {
+            "original": "Enterprise",
+            "singular": "Empresarial",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          }
         }
       },
       "workingHours": {
@@ -17549,6 +17785,13 @@
             "original": "Default Language",
             "singular": "Idioma Predeterminado",
             "plural": "Idiomas Predeterminados",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "billingUser": {
+            "original": "Is Billing User",
+            "singular": "Es usuario de facturación",
+            "plural": "Son usuarios de facturación",
             "setupEdit": true,
             "setupVisible": false
           }
@@ -26656,6 +26899,13 @@
           "plural": "Invita a tu equipo",
           "setupEdit": false,
           "setupVisible": false
+        },
+        "sec6": {
+          "original": "Invite your team to FieldEx",
+          "singular": "Invita a tu equipo a FieldEx",
+          "plural": "Invita a tus equipos a FieldEx",
+          "setupEdit": false,
+          "setupVisible": false
         }
       },
       "fields":{
@@ -26876,7 +27126,33 @@
         "attachAnAsset": "Adjunta un activo",
         "chooseEquipmentItem": "Elige el equipo o artículo para este trabajo.",
         "assignOrderOwner": "Asigna un responsable de la orden",
-        "chooseWhosReponsible": "Elige quién es responsable de esta orden de trabajo."
+        "chooseWhosReponsible": "Elige quién es responsable de esta orden de trabajo.",
+        "noTeamMember": "Aún no hay miembros del equipo",
+        "uploadData": "Subir datos",
+        "importFile": "Importar archivo",
+        "orBrowseFile": "o haz clic para buscar y seleccionar tu archivo",
+        "csvSizeCondition": "Se aceptan archivos .csv de hasta 10 MB • Máximo 200 activos por importación",
+        "mapColumns": "Mapea tus columnas",
+        "yourColumn": "TU COLUMNA",
+        "fieldexField": "CAMPO FIELDEX",
+        "belowColumnNameStepDescription": "A continuación verás los nombres de las columnas de tu archivo. Hemos emparejado algunas de ellas con los campos de FieldEx por ti",
+        "percentageValueOfField": "% de tus filas tienen un valor para este campo",
+        "configureDropdowns": "Configurar menús desplegables",
+        "assetStatuses": "Estados del activo",
+        "customizeDropdownOption": "Personaliza las opciones del menú desplegable. Puedes renombrar las opciones existentes, eliminar las que no se usan o mantener los valores predeterminados. Cualquier valor nuevo encontrado en tu archivo importado se agregará automáticamente a los menús correspondientes.",
+        "detectedImportFile": "Detectado del archivo importado",
+        "reviewConfirmTitle": "Revisar y confirmar",
+        "columnsToBeImported": "Columnas a importar",
+        "columnsToBeIgnored": "Columnas a ignorar",
+        "recordsToBeAdded": "Registros a añadir",
+        "confirmMatchFields": "Confirmar campos coincidentes",
+        "ignoreUnmappedFields": "Ignorar campos no asignados",
+        "reset": "Restablecer",
+        "dowmloadWorkOrderTemplate": "Descargar plantilla de orden de trabajo",
+        "workOrderStatuses": "Estados de la orden de trabajo",
+        "workOrderTypes": "Tipos de orden de trabajo",
+        "workOrderFaults": "Fallas de la orden de trabajo",
+        "workOrderResolutions": "Resoluciones de la orden de trabajo"
       },
       "validationFE":{
         "onlyCsvFilesAllowed": "Solo se pueden subir archivos CSV",
