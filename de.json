@@ -9392,7 +9392,15 @@
       "digitalSignPdf": "Digitale Signatur und Abschluss-PDF",
       "collectDigitalSignature": "Sammeln Sie digitale Signaturen bei Abschluss der Aufgabe und generieren Sie nach Abschluss des Arbeitsauftrags ein PDF.",
       "reports": "Berichte",
-      "generateReports": "Generieren Sie Berichte, um Trends und Leistung von Arbeitsaufträgen zu verfolgen."
+      "generateReports": "Generieren Sie Berichte, um Trends und Leistung von Arbeitsaufträgen zu verfolgen.",
+      "getStartedWithSlas": "Erste Schritte mit SLAs",
+      "createAndManageSlas": "Erstellen und verwalten Sie SLAs, um Prozesse zu automatisieren.",
+      "slaTracking": "SLA-Verfolgung",
+      "setResponseAndResolutionLimits": "Legen Sie Reaktions- und Lösungsfristen fest und eskalieren Sie automatisch, wenn Fristen überschritten werden.",
+      "packageConditionChecks": "Prüfung des Paketzustands",
+      "inspectItemCondition": "Überprüfen Sie den Zustand von Artikeln bei Lieferung oder Rückgabe mithilfe digitaler Checklisten.",
+      "customNotifications": "Benutzerdefinierte Benachrichtigungen",
+      "triggerSlaAlerts": "Lösen Sie Warnungen basierend auf Auftragsstatus, SLA-Verstößen oder Checklisten-Antworten aus."
     }
   },
   "inventory": {

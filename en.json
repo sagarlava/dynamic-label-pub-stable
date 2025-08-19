@@ -9392,7 +9392,15 @@
       "digitalSignPdf":"Digital Signature and Completion PDF",
       "collectDigitalSignature":"Collect digital signatures on task completion and generate a PDF upon job completion.",
       "reports":"Reports",
-      "generateReports":"Generate reports to track job order trends and performance."
+      "generateReports":"Generate reports to track job order trends and performance.",
+      "getStartedWithSlas": "Get Started With SLAs",
+      "createAndManageSlas": "Create and manage SLAs to automate processes.",
+      "slaTracking": "SLA Tracking",
+      "setResponseAndResolutionLimits": "Set response and resolution time limits, and auto-escalate missed deadlines.",
+      "packageConditionChecks": "Package Condition Checks",
+      "inspectItemCondition": "Inspect item condition during delivery or return using digital checklists.",
+      "customNotifications": "Custom Notifications",
+      "triggerSlaAlerts": "Trigger alerts based on job status, SLA breaches, or checklist responses."
     }
   },
   "inventory": {

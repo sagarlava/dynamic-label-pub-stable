@@ -9392,7 +9392,15 @@
       "digitalSignPdf": "数字签名和完成 PDF",
       "collectDigitalSignature": "在任务完成时收集数字签名，并在工单完成后生成 PDF。",
       "reports": "报告",
-      "generateReports": "生成报告以跟踪工单趋势和绩效。"
+      "generateReports": "生成报告以跟踪工单趋势和绩效。",
+      "getStartedWithSlas": "开始使用SLA",
+      "createAndManageSlas": "创建并管理SLA以实现流程自动化。",
+      "slaTracking": "SLA跟踪",
+      "setResponseAndResolutionLimits": "设置响应和解决时间限制，并在错过截止日期时自动升级。",
+      "packageConditionChecks": "包裹状态检查",
+      "inspectItemCondition": "在交付或退货时使用数字检查表检查物品状况。",
+      "customNotifications": "自定义通知",
+      "triggerSlaAlerts": "根据作业状态、SLA违约或检查表响应触发警报。"
     }
   },
   "inventory": {
