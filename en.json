@@ -26837,6 +26837,7 @@
         "doNotShowAgain":"Do not show again",
         "areYouSure":"Are you sure you want to stop showing this page again?",
         "inBulkStreaming":"in bulk to streamline planning, reduce errors, and save setup time",
+        
         "yourProTrialEndsIn":"Your Pro trial ends in",
         "welcomeMessage":"We’re excited to have you on board. Before diving in, take a minute to watch this short intro video. It’ll give you a quick overview of what FieldEx can do for you.",
         "inviteTeamContent":"Invite your team members and set their roles",
@@ -26859,7 +26860,24 @@
         "learnMoreTitle":"Learn FieldEx",
         "learnMoreContent":"New to FieldEx? We’ve got everything to help you get started, fast.",
         "toLearnMoreAboutTheseFeatures":"To learn more about these features, please visit our academy or book a free training session with our team of experts",
-        "readyToSetUpWorkspace":"Ready to put FieldEx to work? Click the button below to start setting up your workspace."
+        "readyToSetUpWorkspace":"Ready to put FieldEx to work? Click the button below to start setting up your workspace.",
+        "addYourFirstAsset":"Add your first asset",
+        "setUpFirstAsset":"Let’s set up your first asset. You can enter it manually or import a list to get going faster.",
+        "enterKeyInfo":"Enter key info",
+        "likeNameTypeSerialNumber":"like asset name, type and serial number.",
+        "addDetails":"Add details",
+        "likeLocationSpecTrackInfo":"like location, specs, and tracking info.",
+        "startAssigningAssetToJobs":"start assigning assets to jobs.",
+        "wantToAddManyAtOnce":"Want to add many at once? Click the ‘Import Assets’ button below to upload a list via CSV.",
+        "addYourFirstWorkOrder":"Add your first work order",
+        "helpYouAssignJobs":"Work Orders help you assign jobs to team members, manage assets, and track job progress - all in one place.",
+        "whatYouDo":"What you'll do",
+        "enterTaskDetails":"Enter task details",
+        "whatNeedsToBeDone":"What needs to be done, by whom, and when.",
+        "attachAnAsset":"Attach an asset",
+        "chooseEquipmentItem":"Choose the equipment or item this job is for.",
+        "assignOrderOwner":"Assign an order owner",
+        "chooseWhosReponsible":"Choose who’s responsible this work order."
       },
       "validationFE":{
         "onlyCsvFilesAllowed": "Only CSV files can be uploaded",
