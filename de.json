@@ -5274,6 +5274,18 @@
       "areYouSureWantToMakeOwner": "Sind Sie sicher, dass Sie den Eigentümer ändern möchten?",
       "generateJobOrderForThisTask": "Ein Arbeitsauftrag wird für diese Aufgabe erstellt",
       "selectDateRange": "Bitte wählen Sie einen Datumsbereich aus"
+    },
+    "emptyPage":{
+      "getStartedWithTask": "Erste Schritte mit Aufgaben",
+      "planCreateTask": "Planen, erstellen und weisen Sie Aufgaben Ihren Technikern zu.",
+      "templates": "Vorlagen",
+      "createTemplatesPrefilledFields": "Erstellen Sie Vorlagen mit vorausgefüllten Feldern und wiederholen Sie die Aufgabenerstellung einfach.",
+      "assignments": "Zuweisungen",
+      "assignTaskToUsers": "Weisen Sie Aufgaben Benutzern oder Teams mit mobilen Echtzeit-Benachrichtigungen zu.",
+      "progressTracking": "Fortschrittsverfolgung",
+      "trackTaskInRealTime": "Verfolgen Sie den Aufgabenstatus, Feldaktivitäten und Techniker-Updates in Echtzeit.",
+      "tasksOverview": "Aufgaben-Übersicht",
+      "planCreateAssignTask": "Planen, erstellen und weisen Sie Aufgaben Ihren Technikern zu und verfolgen Sie den Aufgabenstatus, Updates und die Technikeraktivität in Echtzeit."
     }
   },
   "site": {

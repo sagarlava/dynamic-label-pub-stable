@@ -5274,6 +5274,18 @@
       "areYouSureWantToMakeOwner": "您确定要更改所有者吗？",
       "generateJobOrderForThisTask": "将为此任务生成工作单",
       "selectDateRange": "请选择日期范围"
+    },
+    "emptyPage":{
+      "getStartedWithTask": "从任务开始",
+      "planCreateTask": "规划、创建并分配任务给您的技术人员。",
+      "templates": "模板",
+      "createTemplatesPrefilledFields": "创建带有预填字段的模板，轻松重复创建任务。",
+      "assignments": "分配",
+      "assignTaskToUsers": "将任务分配给用户或团队，并发送实时移动提醒。",
+      "progressTracking": "进度跟踪",
+      "trackTaskInRealTime": "实时跟踪任务状态、现场活动和技术人员更新。",
+      "tasksOverview": "任务概览",
+      "planCreateAssignTask": "规划、创建并分配任务给您的技术人员，并实时跟踪任务状态、更新和技术人员活动。"
     }
   },
   "site": {

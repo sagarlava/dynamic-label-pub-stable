@@ -5274,6 +5274,18 @@
       "areYouSureWantToMakeOwner": "¿Estás seguro de que deseas cambiar al propietario?",
       "generateJobOrderForThisTask": "Se generará una orden de trabajo para esta tarea",
       "selectDateRange": "Seleccionar rango de fechas"
+    },
+    "emptyPage":{
+      "getStartedWithTask": "Comienza con tareas",
+      "planCreateTask": "Planifica, crea y asigna tareas a tus técnicos.",
+      "templates": "Plantillas",
+      "createTemplatesPrefilledFields": "Crea plantillas con campos prellenados y repite la creación de tareas fácilmente.",
+      "assignments": "Asignaciones",
+      "assignTaskToUsers": "Asigna tareas a usuarios o equipos con alertas móviles en tiempo real.",
+      "progressTracking": "Seguimiento del progreso",
+      "trackTaskInRealTime": "Haz un seguimiento en tiempo real del estado de las tareas, las actividades de campo y las actualizaciones de los técnicos.",
+      "tasksOverview": "Resumen de tareas",
+      "planCreateAssignTask": "Planifica, crea y asigna tareas a tus técnicos y haz un seguimiento en tiempo real del estado, las actualizaciones y la actividad de los técnicos."
     }
   },
   "site": {

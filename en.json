@@ -5274,6 +5274,18 @@
       "areYouSureWantToMakeOwner":"Are you sure you want to change the owner?",
       "generateJobOrderForThisTask":" A Job order will be generated for this task",
       "selectDateRange": "Please select a date range"
+    },
+    "emptyPage":{
+      "getStartedWithTask":"Get Started With Tasks",
+      "planCreateTask":"Plan, create and assign tasks to your technicians.",
+      "templates":"Templates",
+      "createTemplatesPrefilledFields":"Create templates with prefilled fields and repeat tasks creation easily.",
+      "assignments":"Assignments",
+      "assignTaskToUsers":"Assign tasks to users or teams with real-time mobile alerts.",
+      "progressTracking":"Progress Tracking",
+      "trackTaskInRealTime":"Track task status, field activities, and technician updates in real time.",
+      "tasksOverview":"Tasks Overview",
+      "planCreateAssignTask":"Plan, create, and assign tasks to your technicians and track task status, updates and technician activity in real time."
     }
   },
   "site": {
