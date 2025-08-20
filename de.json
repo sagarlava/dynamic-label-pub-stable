@@ -27166,7 +27166,9 @@
         "workOrderStatuses": "Werkorderstatussen",
         "workOrderTypes": "Werkordertypen",
         "workOrderFaults": "Werkorderfouten",
-        "workOrderResolutions": "Werkorderoplossingen"
+        "workOrderResolutions": "Werkorderoplossingen",
+        "matchFoundFor": "Übereinstimmung gefunden für",
+        "matchNotAutoDetected": "Keine automatische Übereinstimmung erkannt"
       },
       "validationFE":{
         "onlyCsvFilesAllowed": "Nur CSV-Dateien können hochgeladen werden",

@@ -27166,7 +27166,9 @@
         "workOrderStatuses":"Work Order Statuses",
         "workOrderTypes":"Work Order Types",
         "workOrderFaults":"Work Order Faults",
-        "workOrderResolutions":"Work Order Resolutions"
+        "workOrderResolutions":"Work Order Resolutions",
+        "matchFoundFor":"Match found for",
+        "matchNotAutoDetected":"Match not automatically detected"
       },
       "validationFE":{
         "onlyCsvFilesAllowed": "Only CSV files can be uploaded",

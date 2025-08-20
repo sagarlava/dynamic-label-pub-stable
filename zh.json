@@ -27167,7 +27167,9 @@
         "workOrderStatuses": "工单状态",
         "workOrderTypes": "工单类型",
         "workOrderFaults": "工单故障",
-        "workOrderResolutions": "工单解决方案"
+        "workOrderResolutions": "工单解决方案",
+        "matchFoundFor": "找到匹配项：",
+        "matchNotAutoDetected": "未自动检测到匹配项"
       },
       "validationFE":{
         "onlyCsvFilesAllowed": "只能上传 CSV 文件",

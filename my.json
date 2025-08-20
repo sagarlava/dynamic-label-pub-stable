@@ -27166,7 +27166,9 @@
         "workOrderStatuses": "Status Pesanan Kerja",
         "workOrderTypes": "Jenis Pesanan Kerja",
         "workOrderFaults": "Kerosakan Pesanan Kerja",
-        "workOrderResolutions": "Penyelesaian Pesanan Kerja"
+        "workOrderResolutions": "Penyelesaian Pesanan Kerja",
+        "matchFoundFor": "Padanan ditemui untuk",
+        "matchNotAutoDetected": "Padanan tidak dikesan secara automatik"
       },
       "validationFE":{
         "onlyCsvFilesAllowed": "Hanya fail CSV sahaja yang boleh dimuat naik",

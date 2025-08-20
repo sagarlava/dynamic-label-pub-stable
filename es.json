@@ -27166,7 +27166,9 @@
         "workOrderStatuses": "Estados de la orden de trabajo",
         "workOrderTypes": "Tipos de orden de trabajo",
         "workOrderFaults": "Fallas de la orden de trabajo",
-        "workOrderResolutions": "Resoluciones de la orden de trabajo"
+        "workOrderResolutions": "Resoluciones de la orden de trabajo",
+        "matchFoundFor": "Coincidencia encontrada para",
+        "matchNotAutoDetected": "No se detectó coincidencia automáticamente"
       },
       "validationFE":{
         "onlyCsvFilesAllowed": "Solo se pueden subir archivos CSV",
