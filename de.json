@@ -14997,6 +14997,20 @@
         "setupEdit": false,
         "setupVisible": false
       },
+      "confirmed":{
+        "original": "Confirmed",
+        "singular": "Bestätigt",
+        "plural": "Bestätigt",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "ignored":{
+        "original": "Ignored",
+        "singular": "Ignoriert",
+        "plural": "Ignoriert",
+        "setupEdit": false,
+        "setupVisible": false
+      },
       "messages": {
         "forIncompleteChecklists": "Für unvollständige Checklisten, die in Zukunft aktualisiert werden sollen. Es werden keine Aufträge oder Aufgaben mit diesem Status ausgelöst.",
         "thisStatusWillTriggerAnyJobOrders": "Dieser Status wird alle Arbeitsaufträge und Aufgaben auslösen, die mit den Antworten dieser Checkliste verbunden sind.",

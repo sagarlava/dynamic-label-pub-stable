@@ -14997,6 +14997,20 @@
         "setupEdit": false,
         "setupVisible": false
       },
+      "confirmed":{
+        "original": "Confirmed",
+        "singular": "已确认",
+        "plural": "已确认",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "ignored":{
+        "original": "Ignored",
+        "singular": "已忽略",
+        "plural": "已忽略",
+        "setupEdit": false,
+        "setupVisible": false
+      },
       "messages": {
         "forIncompleteChecklists": "未来将更新未完成的清单。不会使用此状态触发任何工作或任务",
         "thisStatusWillTriggerAnyJobOrders": "此状态将触发与该清单答案相关的任何工作订单和任务",
