@@ -14461,6 +14461,13 @@
         "plural": "Upgrade auf Pro",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "requestOrgDeletion": {
+        "original": "Request Organization Deletion",
+        "singular": "Löschung der Organisation anfordern",
+        "plural": "Löschung der Organisationen anfordern",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "status": {

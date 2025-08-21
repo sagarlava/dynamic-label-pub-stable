@@ -14461,6 +14461,13 @@
         "plural": "Naik Taraf ke Pro",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "requestOrgDeletion": {
+        "original": "Request Organization Deletion",
+        "singular": "Mohon Padam Organisasi",
+        "plural": "Mohon Padam Organisasi",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "status": {

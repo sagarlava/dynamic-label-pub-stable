@@ -14461,6 +14461,13 @@
         "plural": "升级到专业版",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "requestOrgDeletion": {
+        "original": "Request Organization Deletion",
+        "singular": "请求删除组织",
+        "plural": "请求删除组织",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "status": {
