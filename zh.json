@@ -14468,6 +14468,20 @@
         "plural": "请求删除组织",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "tryProForFree": {
+        "original": "Try Pro for Free",
+        "singular": "免费试用 Pro",
+        "plural": "免费试用 Pro",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "upgradeNow": {
+        "original": "Upgrade Now",
+        "singular": "立即升级",
+        "plural": "立即升级",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "status": {

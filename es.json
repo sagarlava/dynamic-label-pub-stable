@@ -14468,6 +14468,20 @@
         "plural": "Solicitar eliminación de las organización",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "tryProForFree": {
+        "original": "Try Pro for Free",
+        "singular": "Prueba Pro gratis",
+        "plural": "Prueba Pro gratis",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "upgradeNow": {
+        "original": "Upgrade Now",
+        "singular": "Actualizar ahora",
+        "plural": "Actualizar ahora",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "status": {

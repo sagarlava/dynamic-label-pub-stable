@@ -14468,6 +14468,20 @@
         "plural": "Request Organization Deletion",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "tryProForFree": {
+        "original": "Try Pro for Free",
+        "singular": "Try Pro for Free",
+        "plural": "Try Pro for Free",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "upgradeNow": {
+        "original": "Upgrade Now",
+        "singular": "Upgrade Now",
+        "plural": "Upgrade Now",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "status": {
