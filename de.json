@@ -16361,7 +16361,9 @@
           "paymentFailedMessage": "Zahlung fehlgeschlagen. Bitte aktualisieren Sie Ihre Kartendaten und führen Sie die Zahlung durch, um den Zugriff auf Ihr Konto wiederherzustellen.",
           "accountAccessSuspended": "Kontozugriff gesperrt",
           "paymentIsuueDetectedMessage": "Zahlungsproblem erkannt! Ihre Organisation wird herabgestuft in",
-          "unlessPaymentUpdatedMessage": "es sei denn, die Zahlung wird aktualisiert."
+          "unlessPaymentUpdatedMessage": "es sei denn, die Zahlung wird aktualisiert.",
+          "upgradePlan": "Möchten Sie Ihren Plan upgraden?",
+          "upgradeToProOrEnterprise": "Upgrade auf Pro oder kontaktieren Sie den Vertrieb, um auf Enterprise zu upgraden"
         },
         "fields": {
           "setupVisible": false,

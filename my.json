@@ -16361,7 +16361,9 @@
           "paymentFailedMessage": "Bayaran gagal. Sila kemas kini maklumat kad dan lakukan bayaran untuk mengaktifkan semula akses akaun.",
           "accountAccessSuspended": "Akses akaun digantung",
           "paymentIsuueDetectedMessage": "Isu pembayaran dikesan! Organisasi anda akan diturunkan dalam",
-          "unlessPaymentUpdatedMessage": "melainkan pembayaran dikemas kini."
+          "unlessPaymentUpdatedMessage": "melainkan pembayaran dikemas kini.",
+          "upgradePlan": "Ingin menaik taraf pelan anda",
+          "upgradeToProOrEnterprise": "Naik taraf ke Pro atau hubungi jualan untuk naik taraf ke Enterprise"
         },
         "fields": {
           "setupVisible": false,
