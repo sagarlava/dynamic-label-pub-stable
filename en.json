@@ -16363,7 +16363,17 @@
           "paymentIsuueDetectedMessage":"Payment issue detected! Your organization will be downgraded in",
           "unlessPaymentUpdatedMessage":"unless payment is updated.",
           "upgradePlan":"Looking to upgrade your plan",
-          "upgradeToProOrEnterprise":"Upgrade to Pro or contact sales to upgrade to Enterprise"
+          "upgradeToProOrEnterprise":"Upgrade to Pro or contact sales to upgrade to Enterprise",
+          "your":"Your",
+          "planRenewsOn":"plan renews on",
+          "proPlanRenewsOn":"Your Pro plan renews on",
+          "litePlanRenewsOn":"Your Lite plan renews on",
+          "growthPlanRenewsOn":"Your Growth plan renews on",
+          "contactSalesToRenewSubscription":"Contact sales to renew your subscription and avoid potential service interruption",
+          "subscriptionRenewalOn":"Subscription renewal on",
+          "deleteOrgData":"Delete organization and data",
+          "requestPermanentDelete":"Request to permanently delete your organization and all your data. This cannot be undone.",
+          "byCancellingTrial":"By canceling your trial, you will not be charged for a renewal and be downgraded to a Lite plan on"
         },
         "fields": {
           "setupVisible": false,

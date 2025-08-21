@@ -16363,7 +16363,17 @@
           "paymentIsuueDetectedMessage": "¡Problema de pago detectado! Tu organización será degradada en",
           "unlessPaymentUpdatedMessage": "a menos que se actualice el pago.",
           "upgradePlan": "¿Quieres mejorar tu plan?",
-          "upgradeToProOrEnterprise": "Actualiza a Pro o contacta con ventas para actualizar a Enterprise"
+          "upgradeToProOrEnterprise": "Actualiza a Pro o contacta con ventas para actualizar a Enterprise",
+          "your": "Tu",
+          "planRenewsOn": "plan se renovará el",
+          "proPlanRenewsOn": "Tu plan Pro se renovará el",
+          "litePlanRenewsOn": "Tu plan Lite se renovará el",
+          "growthPlanRenewsOn": "Tu plan Growth se renovará el",
+          "contactSalesToRenewSubscription": "Contacta con ventas para renovar tu suscripción y evitar posibles interrupciones del servicio",
+          "subscriptionRenewalOn":"Renovación de suscripción el",
+          "deleteOrgData": "Eliminar organización y datos",
+          "requestPermanentDelete": "Solicitar eliminar permanentemente su organización y todos sus datos. Esta acción no se puede deshacer.",
+          "byCancellingTrial": "Al cancelar su prueba, no se le cobrará la renovación y será degradado al plan Lite el"
         },
         "fields": {
           "setupVisible": false,

@@ -16363,7 +16363,17 @@
           "paymentIsuueDetectedMessage": "Zahlungsproblem erkannt! Ihre Organisation wird herabgestuft in",
           "unlessPaymentUpdatedMessage": "es sei denn, die Zahlung wird aktualisiert.",
           "upgradePlan": "Möchten Sie Ihren Plan upgraden?",
-          "upgradeToProOrEnterprise": "Upgrade auf Pro oder kontaktieren Sie den Vertrieb, um auf Enterprise zu upgraden"
+          "upgradeToProOrEnterprise": "Upgrade auf Pro oder kontaktieren Sie den Vertrieb, um auf Enterprise zu upgraden",
+          "your": "Ihr",
+          "planRenewsOn": "Plan verlängert sich am",
+          "proPlanRenewsOn": "Ihr Pro-Plan verlängert sich am",
+          "litePlanRenewsOn": "Ihr Lite-Plan verlängert sich am",
+          "growthPlanRenewsOn": "Ihr Growth-Plan verlängert sich am",
+          "contactSalesToRenewSubscription": "Kontaktieren Sie den Vertrieb, um Ihr Abonnement zu verlängern und mögliche Serviceunterbrechungen zu vermeiden",
+          "subscriptionRenewalOn":"Abonnementverlängerung am",
+          "deleteOrgData": "Organisation und Daten löschen",
+          "requestPermanentDelete": "Fordern Sie die dauerhafte Löschung Ihrer Organisation und aller Daten an. Dies kann nicht rückgängig gemacht werden.",
+          "byCancellingTrial": "Durch das Kündigen Ihrer Testversion wird Ihnen keine Verlängerung berechnet und Sie werden am folgenden Datum auf den Lite-Plan herabgestuft"
         },
         "fields": {
           "setupVisible": false,

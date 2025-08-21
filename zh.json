@@ -16363,7 +16363,17 @@
           "paymentIsuueDetectedMessage": "检测到付款问题！您的组织将在以下时间内被降级",
           "unlessPaymentUpdatedMessage": "除非更新付款信息。",
           "upgradePlan": "想要升级您的方案",
-          "upgradeToProOrEnterprise": "升级到 Pro 或联系销售以升级到 Enterprise"
+          "upgradeToProOrEnterprise": "升级到 Pro 或联系销售以升级到 Enterprise",
+          "your": "您的",
+          "planRenewsOn": "方案将在以下日期续订",
+          "proPlanRenewsOn": "您的 Pro 方案将在以下日期续订",
+          "litePlanRenewsOn": "您的 Lite 方案将在以下日期续订",
+          "growthPlanRenewsOn": "您的 Growth 方案将在以下日期续订",
+          "contactSalesToRenewSubscription": "请联系销售以续订您的订阅，避免服务中断",
+          "subscriptionRenewalOn":"订阅将在以下日期续订",
+          "deleteOrgData": "删除组织和数据",
+          "requestPermanentDelete": "请求永久删除您的组织及所有数据。此操作无法撤销。",
+          "byCancellingTrial": "取消试用后，您将不会被收取续订费用，并将在以下日期降级为 Lite 方案"
         },
         "fields": {
           "setupVisible": false,
