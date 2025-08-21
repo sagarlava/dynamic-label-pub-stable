@@ -27182,7 +27182,10 @@
         "workOrderStatuses": "Arbeitsauftrag-Status",
         "workOrderTypes": "Arbeitsauftrag-Typen",
         "workOrderFaults": "Arbeitsauftrag-Fehler",
-        "workOrderResolutions": "Arbeitsauftrag-Lösungen"
+        "workOrderResolutions": "Arbeitsauftrag-Lösungen",
+        "matchFoundFor": "Übereinstimmung gefunden für",
+        "matchNotAutoDetected": "Übereinstimmung nicht automatisch erkannt",
+        "weWantYouUpRunning": "Wir möchten, dass du so schnell wie möglich startklar bist. Kontaktiere uns, wir helfen dir gerne."
       },
       "validationFE":{
         "onlyCsvFilesAllowed": "Nur CSV-Dateien können hochgeladen werden",
