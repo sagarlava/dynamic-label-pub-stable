@@ -14990,6 +14990,13 @@
         "setupEdit": false,
         "setupVisible": false
       },
+      "monthly": {
+        "original": "Monthly",
+        "singular": "Monthly",
+        "plural": "Monthly",
+        "setupEdit": false,
+        "setupVisible": false
+      },
       "paymentFailed": {
         "original": "Payment failed",
         "singular": "Payment failed",
@@ -16345,6 +16352,7 @@
           "trialEndOn":"Your trial will end on",
           "daysLeftTrial":"days left in trial",
           "paymentDue":"Payment due",
+          "paymentFailed": "Payment failed",
           "loseExcessMessage":"You will lose excess in",
           "days":"days",
           "planCanceled":"Plan Canceled",

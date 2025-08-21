@@ -14990,6 +14990,13 @@
         "setupEdit": false,
         "setupVisible": false
       },
+      "monthly": {
+        "original": "Monthly",
+        "singular": "Monatlich",
+        "plural": "Monatlich",
+        "setupEdit": false,
+        "setupVisible": false
+      },
       "paymentFailed": {
         "original": "Payment failed",
         "singular": "Zahlung fehlgeschlagen",
