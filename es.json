@@ -23648,7 +23648,15 @@
         "importDataCsvFormat": "Para importar sus datos en FieldEx, asegúrese de que el archivo que está cargando contenga encabezados de columna y esté en formato .csv.",
         "exportDataAsCsvFormat": "Para exportar sus datos desde FieldEx, haga clic en 'Exportar' y siga los pasos. Sus datos se descargarán como un archivo .csv y se podrán ver como una hoja de cálculo.",
         "pleaseSelectModule": "Por favor, seleccione un módulo",
-        "pleaseSelectModuleToImport": "Por favor, seleccione un módulo para importar"
+        "pleaseSelectModuleToImport": "Por favor, seleccione un módulo para importar",
+        "uploadYourData": "Sube tus datos",
+        "dragAndDropFile": "Arrastra y suelta un archivo .csv o .xls, o busca en tu computadora. Un archivo CSV de muestra estará disponible en la siguiente página.",
+        "mapYourFields": "Asigna tus campos",
+        "matchTheColumnsInYourFile": "Empareja las columnas de tu archivo con los campos correspondientes en FieldEx.",
+        "verifyAndEdit": "Verifica y edita",
+        "reviewAndFixData": "Revisa tus datos y realiza los cambios necesarios. El sistema resaltará cualquier información faltante en los campos obligatorios para evitar errores de importación.",
+        "importYourData": "Importa tus datos",
+        "bringYourDataIntoFieldEx": "Cuando todo se vea bien, haz clic en importar para llevar tus datos a FieldEx."
       }
     },
     "customerSurvey": {

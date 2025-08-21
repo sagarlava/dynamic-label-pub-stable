@@ -23647,7 +23647,15 @@
         "importDataCsvFormat": "Untuk mengimport data anda ke FieldEx, sila pastikan fail yang anda muat naik mengandungi tajuk lajur dan dalam format .csv.",
         "exportDataAsCsvFormat": "Untuk mengeksport data anda dari FieldEx, klik 'Eksport' dan ikuti langkah-langkah. Data anda akan dimuat turun sebagai fail .csv dan boleh dilihat sebagai hamparan.",
         "pleaseSelectModule": "Sila pilih modul",
-        "pleaseSelectModuleToImport": "Sila pilih modul untuk diimport"
+        "pleaseSelectModuleToImport": "Sila pilih modul untuk diimport",
+        "uploadYourData": "Muat naik data anda",
+        "dragAndDropFile": "Seret dan lepas fail .csv atau .xls, atau semak komputer anda. Fail contoh CSV akan tersedia di halaman seterusnya.",
+        "mapYourFields": "Peta medan anda",
+        "matchTheColumnsInYourFile": "Padankan lajur dalam fail anda dengan medan yang sepadan dalam FieldEx.",
+        "verifyAndEdit": "Sahkan dan edit",
+        "reviewAndFixData": "Semak data anda dan buat sebarang perubahan yang diperlukan. Sistem akan menyorot maklumat yang hilang dalam medan wajib untuk mengelakkan ralat import.",
+        "importYourData": "Import data anda",
+        "bringYourDataIntoFieldEx": "Sebaik sahaja semuanya kelihatan baik, klik import untuk membawa data anda ke FieldEx."
       }
     },
     "customerSurvey": {

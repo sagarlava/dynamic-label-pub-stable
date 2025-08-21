@@ -23648,7 +23648,15 @@
         "importDataCsvFormat": "将数据导入到 FieldEx，请确保上传的文件包含列标题，并且是 .csv 格式。",
         "exportDataAsCsvFormat": "要从 FieldEx 导出数据，请点击“导出”并按照步骤操作。您的数据将作为 .csv 文件下载，并可以作为电子表格查看。",
         "pleaseSelectModule": "请选择一个模块",
-        "pleaseSelectModuleToImport": "请选择要导入的模块"
+        "pleaseSelectModuleToImport": "请选择要导入的模块",
+        "uploadYourData": "上传您的数据",
+        "dragAndDropFile": "拖放一个 .csv 或 .xls 文件，或浏览您的电脑。示例 CSV 文件将在下一页提供。",
+        "mapYourFields": "映射您的字段",
+        "matchTheColumnsInYourFile": "将文件中的列匹配到 FieldEx 中的相应字段。",
+        "verifyAndEdit": "验证并编辑",
+        "reviewAndFixData": "检查您的数据并进行必要的修改。系统会突出显示必填字段中缺失的信息，以防止导入错误。",
+        "importYourData": "导入您的数据",
+        "bringYourDataIntoFieldEx": "一切确认无误后，点击导入将您的数据带入 FieldEx。"
       }
     },
     "customerSurvey": {
