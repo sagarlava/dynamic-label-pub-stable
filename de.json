@@ -14257,6 +14257,62 @@
         "setupEdit": false,
         "setupVisible": false
       },
+      "addAsset": {
+        "original": "Add Asset",
+        "singular": "Asset hinzufügen",
+        "plural": "Assets hinzufügen",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "generateTemporarySerialNo": {
+        "original": "Generate Temporary Serial No",
+        "singular": "Temporäre Seriennummer generieren",
+        "plural": "Temporäre Seriennummern generieren",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "initiateBinTransfer": {
+        "original": "Initiate Bin Transfer",
+        "singular": "Behältertransfer starten",
+        "plural": "Behältertransfers starten",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "manualBinTransfer": {
+        "original": "Manual Bin Transfer",
+        "singular": "Manueller Behältertransfer",
+        "plural": "Manuelle Behältertransfers",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "openExternally": {
+        "original": "Open Externally",
+        "singular": "Extern öffnen",
+        "plural": "Extern öffnen",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "pasteSerialNumbers": {
+        "original": "Paste Serial Numbers",
+        "singular": "Seriennummer einfügen",
+        "plural": "Seriennummern einfügen",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "pasteSku": {
+        "original": "Paste SKU",
+        "singular": "SKU einfügen",
+        "plural": "SKU einfügen",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "transferAsset": {
+        "original": "Transfer Asset",
+        "singular": "Asset übertragen",
+        "plural": "Assets übertragen",
+        "setupEdit": false,
+        "setupVisible": false
+      },
       "howItWorks":{
         "original": "How it Works",
         "singular": "Wie es funktioniert",
@@ -23993,6 +24049,8 @@
         "exportDataAsCsvFormat": "Um Ihre Daten aus FieldEx zu exportieren, klicken Sie auf 'Exportieren' und folgen Sie den Schritten. Ihre Daten werden als .csv-Datei heruntergeladen und können als Tabelle angezeigt werden.",
         "pleaseSelectModule": "Bitte wählen Sie ein Modul aus",
         "pleaseSelectModuleToImport": "Bitte wählen Sie ein Modul zum Importieren aus",
+        "filterSelectAsset": "Filtern und Assets auswählen, für die QR-Codes exportiert werden sollen",
+        "exportQrForAll": "Auch QR-Codes für alle Komponenten exportieren",
         "uploadYourData": "Lade deine Daten hoch",
         "dragAndDropFile": "Ziehe eine .csv- oder .xls-Datei hierher oder durchsuchen deinen Computer. Eine Beispiel-CSV-Datei ist auf der nächsten Seite verfügbar.",
         "mapYourFields": "Ordne deine Felder zu",

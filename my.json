@@ -14258,6 +14258,62 @@
         "setupEdit": false,
         "setupVisible": false
       },
+     "addAsset": {
+        "original": "Add Asset",
+        "singular": "Tambah Aset",
+        "plural": "Tambah Aset",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "generateTemporarySerialNo": {
+        "original": "Generate Temporary Serial No",
+        "singular": "Jana Nombor Siri Sementara",
+        "plural": "Jana Nombor Siri Sementara",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "initiateBinTransfer": {
+        "original": "Initiate Bin Transfer",
+        "singular": "Mulakan Pemindahan Bin",
+        "plural": "Mulakan Pemindahan Bin",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "manualBinTransfer": {
+        "original": "Manual Bin Transfer",
+        "singular": "Pemindahan Bin Manual",
+        "plural": "Pemindahan Bin Manual",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "openExternally": {
+        "original": "Open Externally",
+        "singular": "Buka Secara Luaran",
+        "plural": "Buka Secara Luaran",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "pasteSerialNumbers": {
+        "original": "Paste Serial Numbers",
+        "singular": "Tampal Nombor Siri",
+        "plural": "Tampal Nombor Siri",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "pasteSku": {
+        "original": "Paste SKU",
+        "singular": "Tampal SKU",
+        "plural": "Tampal SKU",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "transferAsset": {
+        "original": "Transfer Asset",
+        "singular": "Pindahkan Aset",
+        "plural": "Pindahkan Aset",
+        "setupEdit": false,
+        "setupVisible": false
+      },
       "howItWorks":{
         "original": "How it Works",
         "singular": "Cara Ia Berfungsi",
@@ -23993,6 +24049,8 @@
         "exportDataAsCsvFormat": "Untuk mengeksport data anda dari FieldEx, klik 'Eksport' dan ikuti langkah-langkah. Data anda akan dimuat turun sebagai fail .csv dan boleh dilihat sebagai hamparan.",
         "pleaseSelectModule": "Sila pilih modul",
         "pleaseSelectModuleToImport": "Sila pilih modul untuk diimport",
+        "filterSelectAsset": "Tapis dan pilih aset untuk dieksport kod QR",
+        "exportQrForAll": "Eksport juga kod QR untuk semua komponen",
         "uploadYourData": "Muat naik data anda",
         "dragAndDropFile": "Seret dan lepas fail .csv atau .xls, atau semak komputer anda. Fail contoh CSV akan tersedia di halaman seterusnya.",
         "mapYourFields": "Peta medan anda",

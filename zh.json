@@ -24049,6 +24049,8 @@
         "exportDataAsCsvFormat": "要从 FieldEx 导出数据，请点击“导出”并按照步骤操作。您的数据将作为 .csv 文件下载，并可以作为电子表格查看。",
         "pleaseSelectModule": "请选择一个模块",
         "pleaseSelectModuleToImport": "请选择要导入的模块",
+        "filterSelectAsset": "筛选并选择要导出二维码的资产",
+        "exportQrForAll": "同时导出所有组件的二维码",
         "uploadYourData": "上传您的数据",
         "dragAndDropFile": "拖放一个 .csv 或 .xls 文件，或浏览您的电脑。示例 CSV 文件将在下一页提供。",
         "mapYourFields": "映射您的字段",

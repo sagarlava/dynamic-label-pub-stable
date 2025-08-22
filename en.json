@@ -14040,6 +14040,27 @@
         "setupEdit": false,
         "setupVisible": false
       },
+      "addSection": {
+        "original": "Add Section",
+        "singular": "Add Section",
+        "plural": "Add Sections",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "addAPage": {
+        "original": "Add Page",
+        "singular": "Add Page",
+        "plural": "Add Pages",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "mapPicklist": {
+        "original": "Map Picklist",
+        "singular": "Map Picklist",
+        "plural": "Map Picklists",
+        "setupEdit": false,
+        "setupVisible": false
+      },
       "addProduct":{
         "original": "Add Spare Parts",
         "singular": "Add Spare Part",
@@ -16369,7 +16390,7 @@
         "messages": {
           "requestSentSuccessfully": "Request sent successfully",
           "litePlanMessage":"Upgrade anytime to unlock advanced features.",
-          "seatsInUse":"seats in use",
+          "seatsInUseLite":"seats in use",
           "monthly":"Monthly",
           "yearly":"Yearly (30% off)",
           "usersAbove":"6 users and above",
@@ -24028,6 +24049,8 @@
         "exportDataAsCsvFormat":"To export your data from FieldEx, click 'Export' and follow the steps. Your data will be downloaded as a .csv file and can be viewed as a spreadsheet.",
         "pleaseSelectModule":"Please select a module",
         "pleaseSelectModuleToImport":"Please select a module to import",
+        "filterSelectAsset": "Filter and select the assets for which you want to export QR codes",
+        "exportQrForAll": "Also export QR codes for all components",
         "uploadYourData": "Upload your data",
         "dragAndDropFile": "Drag and drop a .csv or .xls file, or browse your computer. A sample CSV file will be available in the next page.",
         "mapYourFields": "Map your fields",
