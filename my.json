@@ -1422,7 +1422,10 @@
         "exportQrSettings":"Eksport Tetapan QR",
         "selectQrCodeSize":"Pilih Saiz Kod QR",
         "selectFileFormat":"Pilih Format Fail",
-        "uncheckSelectAll":"Nyahtanda “pilih semua” untuk melihat semula keseluruhan senarai"
+        "uncheckSelectAll":"Nyahtanda “pilih semua” untuk melihat semula keseluruhan senarai",
+        "addComponents": "Tambah Komponen",
+        "selectComponentsToAdd": "Pilih komponen yang ingin anda tambah pada aset ini",
+        "updateFieldsOfComponents": "Kemas kini medan komponen untuk sepadan dengan aset induk."
     }
   },
   "analytic": {
