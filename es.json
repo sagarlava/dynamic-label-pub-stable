@@ -3635,6 +3635,49 @@
       "deleteTaskTemplateRemoveSpareParts": "Eliminar esta plantilla de tarea también eliminará todas las piezas de repuesto asociadas"
     }
   },
+  "usage":{
+    "setupVisible": false,
+    "setupEdit": false,
+    "label": {
+      "original": "Usage",
+      "singular": "Uso",
+      "plural": "Usos",
+      "setupEdit": false,
+      "setupVisible": false
+    },
+    "fields":{
+      "setupVisible": false,
+      "setupEdit": false,
+      "name":{
+        "original": "Name",
+        "singular": "Nombre",
+        "plural": "Nombres",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "qtyUsed":{
+        "original": "Qty Used",
+        "singular": "Cantidad Utilizada",
+        "plural": "Cantidades Utilizadas",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "usedBy":{
+        "original": "Used By",
+        "singular": "Usado Por",
+        "plural": "Usados Por",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "usageDate":{
+        "original": "Usage Date",
+        "singular": "Fecha de Uso",
+        "plural": "Fechas de Uso",
+        "setupEdit": false,
+        "setupVisible": false
+      }
+    }
+  },
   "task": {
     "setupVisible": true,
     "setupEdit": true,

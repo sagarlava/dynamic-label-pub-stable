@@ -3635,6 +3635,49 @@
       "deleteTaskTemplateRemoveSpareParts":"Das Löschen dieser Aufgaben-Vorlage entfernt auch alle zugehörigen Ersatzteile"
     }
   },
+  "usage":{
+    "setupVisible": false,
+    "setupEdit": false,
+    "label": {
+      "original": "Usage",
+      "singular": "Nutzung",
+      "plural": "Nutzungen",
+      "setupEdit": false,
+      "setupVisible": false
+    },
+    "fields":{
+      "setupVisible": false,
+      "setupEdit": false,
+      "name":{
+        "original": "Name",
+        "singular": "Name",
+        "plural": "Namen",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "qtyUsed":{
+        "original": "Qty Used",
+        "singular": "Verwendete Menge",
+        "plural": "Verwendete Mengen",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "usedBy":{
+        "original": "Used By",
+        "singular": "Verwendet von",
+        "plural": "Verwendet von",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "usageDate":{
+        "original": "Usage Date",
+        "singular": "Nutzungsdatum",
+        "plural": "Nutzungsdaten",
+        "setupEdit": false,
+        "setupVisible": false
+      }
+    }
+  },
   "task": {
     "setupVisible": true,
     "setupEdit": true,

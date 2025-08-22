@@ -3635,6 +3635,49 @@
       "deleteTaskTemplateRemoveSpareParts":"Deleting this task template will also remove all associated spare parts"
     }
   },
+  "usage":{
+    "setupVisible": false,
+    "setupEdit": false,
+    "label": {
+      "original": "Usage",
+      "singular": "Usage",
+      "plural": "Usages",
+      "setupEdit": false,
+      "setupVisible": false
+    },
+    "fields":{
+      "setupVisible": false,
+      "setupEdit": false,
+      "name":{
+        "original": "Name",
+        "singular": "Name",
+        "plural": "Names",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "qtyUsed":{
+        "original": "Qty Used",
+        "singular": "Qty Used",
+        "plural": "Qty Used",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "usedBy":{
+        "original": "Used By",
+        "singular": "Used By",
+        "plural": "Used By",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "usageDate":{
+        "original": "Usage Date",
+        "singular": "Usage Date",
+        "plural": "Usage Dates",
+        "setupEdit": false,
+        "setupVisible": false
+      }
+    }
+  },
   "task": {
     "setupVisible": true,
     "setupEdit": true,

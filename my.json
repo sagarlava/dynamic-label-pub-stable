@@ -3635,6 +3635,49 @@
       "deleteTaskTemplateRemoveSpareParts":"Menghapus templat tugas ini juga akan membuang semua alat ganti yang berkaitan"
     }
   },
+  "usage":{
+    "setupVisible": false,
+    "setupEdit": false,
+    "label": {
+      "original": "Usage",
+      "singular": "Penggunaan",
+      "plural": "Penggunaan",
+      "setupEdit": false,
+      "setupVisible": false
+    },
+    "fields":{
+      "setupVisible": false,
+      "setupEdit": false,
+      "name":{
+        "original": "Name",
+        "singular": "Nama",
+        "plural": "Nama",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "qtyUsed":{
+        "original": "Qty Used",
+        "singular": "Kuantiti Digunakan",
+        "plural": "Kuantiti Digunakan",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "usedBy":{
+        "original": "Used By",
+        "singular": "Digunakan Oleh",
+        "plural": "Digunakan Oleh",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "usageDate":{
+        "original": "Usage Date",
+        "singular": "Tarikh Penggunaan",
+        "plural": "Tarikh Penggunaan",
+        "setupEdit": false,
+        "setupVisible": false
+      }
+    }
+  },
   "task": {
     "setupVisible": true,
     "setupEdit": true,

@@ -3635,6 +3635,49 @@
        "groupByTask": "按任务分组"
     }
   },
+  "usage":{
+    "setupVisible": false,
+    "setupEdit": false,
+    "label": {
+      "original": "Usage",
+      "singular": "使用",
+      "plural": "使用",
+      "setupEdit": false,
+      "setupVisible": false
+    },
+    "fields":{
+      "setupVisible": false,
+      "setupEdit": false,
+      "name":{
+        "original": "Name",
+        "singular": "名称",
+        "plural": "名称",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "qtyUsed":{
+        "original": "Qty Used",
+        "singular": "使用数量",
+        "plural": "使用数量",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "usedBy":{
+        "original": "Used By",
+        "singular": "使用者",
+        "plural": "使用者",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "usageDate":{
+        "original": "Usage Date",
+        "singular": "使用日期",
+        "plural": "使用日期",
+        "setupEdit": false,
+        "setupVisible": false
+      }
+    }
+  },
   "task": {
     "setupVisible": true,
     "setupEdit": true,
