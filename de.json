@@ -1434,7 +1434,10 @@
         "exportQrSettings":"QR-Einstellungen exportieren",
         "selectQrCodeSize":"QR-Code-Größe auswählen",
         "selectFileFormat":"Dateiformat auswählen",
-        "uncheckSelectAll":"Deaktivieren Sie „Alle auswählen“, um die gesamte Liste erneut anzuzeigen"
+        "uncheckSelectAll":"Deaktivieren Sie „Alle auswählen“, um die gesamte Liste erneut anzuzeigen",
+        "addComponents": "Komponenten hinzufügen",
+        "selectComponentsToAdd": "Wähle die Komponenten aus, die du zu diesem Asset hinzufügen möchtest",
+        "updateFieldsOfComponents": "Aktualisiere die Felder der Komponenten, um sie dem übergeordneten Asset anzupassen."
     },
     "emptyPage":{
       "getStartedWithAsset": "Erste Schritte mit Assets",
