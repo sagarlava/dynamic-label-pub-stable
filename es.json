@@ -1432,7 +1432,8 @@
         "uncheckSelectAll":"Desmarca “seleccionar todo” para ver la lista completa de nuevo",
         "addComponents": "Agregar componentes",
         "selectComponentsToAdd": "Selecciona los componentes que deseas agregar a este activo",
-        "updateFieldsOfComponents": "Actualiza los campos de los componentes para que coincidan con el activo principal."
+        "updateFieldsOfComponents": "Actualiza los campos de los componentes para que coincidan con el activo principal.",
+        "someComponentsSelected":"Algunos componentes que has seleccionado ya pertenecen a un activo principal. Si continúas, se modificará su activo principal a"
     }
   },
   "analytic": {

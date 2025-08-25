@@ -1432,7 +1432,8 @@
         "uncheckSelectAll":"Uncheck “select all” to view the whole list again",
         "addComponents":"Add Components",
         "selectComponentsToAdd":"Select components that you’d like to add to this asset",
-        "updateFieldsOfComponents":"Update fields of component(s) to match the parent asset."
+        "updateFieldsOfComponents":"Update fields of component(s) to match the parent asset.",
+        "someComponentsSelected":"Some components that you have selected already belong to a parent asset. Continuing will edit their parent asset to"
     }
   },
   "analytic": {

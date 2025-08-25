@@ -1432,7 +1432,8 @@
         "uncheckSelectAll":"Deaktivieren Sie „Alle auswählen“, um die gesamte Liste erneut anzuzeigen",
         "addComponents": "Komponenten hinzufügen",
         "selectComponentsToAdd": "Wähle die Komponenten aus, die du zu diesem Asset hinzufügen möchtest",
-        "updateFieldsOfComponents": "Aktualisiere die Felder der Komponenten, um sie dem übergeordneten Asset anzupassen."
+        "updateFieldsOfComponents": "Aktualisiere die Felder der Komponenten, um sie dem übergeordneten Asset anzupassen.",
+        "someComponentsSelected":"Einige der von Ihnen ausgewählten Komponenten gehören bereits zu einem übergeordneten Asset. Wenn Sie fortfahren, wird ihr übergeordnetes Asset geändert zu"
     }
   },
   "analytic": {
