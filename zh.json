@@ -1117,6 +1117,20 @@
         "plural": "已选择个资产",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "latest": {
+        "original": "Latest",
+        "singular": "最新",
+        "plural": "最新",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "reading": {
+        "original": "Reading",
+        "singular": "读数",
+        "plural": "读数",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "validationFE": {

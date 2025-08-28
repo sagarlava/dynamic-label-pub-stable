@@ -1117,6 +1117,20 @@
         "plural": "aset telah dipilih",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "latest": {
+        "original": "Latest",
+        "singular": "Terkini",
+        "plural": "Terkini",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "reading": {
+        "original": "Reading",
+        "singular": "Bacaan",
+        "plural": "Bacaan",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "validationFE": {

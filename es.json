@@ -1117,6 +1117,20 @@
         "plural": "Se han seleccionado",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "latest": {
+        "original": "Latest",
+        "singular": "Último",
+        "plural": "Últimos",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "reading": {
+        "original": "Reading",
+        "singular": "Lectura",
+        "plural": "Lecturas",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "validationFE": {

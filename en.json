@@ -1117,6 +1117,20 @@
         "plural": "assets have been selected",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "latest":{
+        "original": "Latest",
+        "singular": "Latest",
+        "plural": "Latest",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "reading":{
+        "original": "Reading",
+        "singular": "Reading",
+        "plural": "Reading",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "validationFE": {
