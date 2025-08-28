@@ -1405,6 +1405,13 @@
         "plural": "Permite al usuario asignar otro activo como principal para este activo.",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "pendingApprovalTransfer": {
+        "original": "Pending Approval Transfer",
+        "singular": "Transferencia Pendiente de Aprobación",
+        "plural": "Transferencias Pendientes de Aprobación",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "messages": {

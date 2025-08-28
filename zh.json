@@ -1405,6 +1405,13 @@
         "plural": "允许用户将其他资产分配为该资产的父资产。",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "pendingApprovalTransfer": {
+        "original": "Pending Approval Transfer",
+        "singular": "待审批转移",
+        "plural": "待审批转移",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "messages": {

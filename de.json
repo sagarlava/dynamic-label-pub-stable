@@ -1405,6 +1405,13 @@
         "plural": "Ermöglicht dem Benutzer, ein anderes Asset als übergeordnetes Element für dieses Asset zuzuweisen.",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "pendingApprovalTransfer": {
+        "original": "Pending Approval Transfer",
+        "singular": "Ausstehende Genehmigungsübertragung",
+        "plural": "Ausstehende Genehmigungsübertragungen",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "messages": {

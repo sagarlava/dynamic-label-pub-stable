@@ -1405,6 +1405,13 @@
         "plural": "Allows the user to assign another asset as the parent for this asset.",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "pendingApprovalTransfer": {
+        "original": "Pending Approval Transfer",
+        "singular": "Pending Approval Transfer",
+        "plural": "Pending Approval Transfer",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "messages": {

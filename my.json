@@ -1405,6 +1405,13 @@
         "plural": "Membolehkan pengguna menetapkan aset lain sebagai induk kepada aset ini.",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "pendingApprovalTransfer": {
+        "original": "Pending Approval Transfer",
+        "singular": "Pemindahan Menunggu Kelulusan",
+        "plural": "Pemindahan Menunggu Kelulusan",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "messages": {
