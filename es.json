@@ -21156,6 +21156,93 @@
         "messages": {
           "partUpdatedSuccessfully": "Parte actualizada con éxito"
         }
+      },
+      "meter":{
+        "setupEdit": false,
+        "setupVisible": false,
+        "label":{
+          "original": "Meters",
+          "singular": "Medidor", 
+          "plural": "Medidores",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "sections":{
+          "setupEdit": false,
+          "setupVisible": false,
+          "sec0":{
+            "original": "Meter Details",
+            "singular": "Detalles del Medidor", 
+            "plural": "Detalles del Medidor",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec1":{
+            "original": "Asset Types",
+            "singular": "Tipo de Activo", 
+            "plural": "Tipos de Activo",
+            "setupEdit": false,
+            "setupVisible": false
+          }
+        },
+        "fields":{
+          "setupEdit": false,
+          "setupVisible": false,
+          "name":{
+            "original": "Name",
+            "singular": "Nombre", 
+            "plural": "Nombres",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "type":{
+            "original": "Type",
+            "singular": "Tipo", 
+            "plural": "Tipos",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "unitOfMeasurement":{
+            "original": "Unit of Measurement",
+            "singular": "Unidad de Medida", 
+            "plural": "Unidades de Medida",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "readingSource":{
+            "original": "Reading Source",
+            "singular": "Fuente de Lectura", 
+            "plural": "Fuentes de Lectura",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "allTypes":{
+            "original": "All Types",
+            "singular": "Todos los Tipos", 
+            "plural": "Todos los Tipos",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "includeMeterForType":{
+            "original": "Include this meter for assets of types",
+            "singular": "Incluir este medidor para activos de tipo", 
+            "plural": "Incluir este medidor para activos de tipos",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "applyToExisting":{
+            "original": "Apply to all existing",
+            "singular": "Aplicar a todos los existentes", 
+            "plural": "Aplicar a todos los existentes",
+            "setupEdit": false,
+            "setupVisible": false
+          }
+        },
+        "messages":{
+          "selectType": "Seleccionar Tipo",
+          "selectSource": "Seleccionar Fuente",
+          "chooseAssetTypes": "Elige los tipos de activos a los que debe aplicarse este medidor. Cualquier activo de los tipos seleccionados incluirá automáticamente este medidor."
+        }
       }
     },
     "checklist": {

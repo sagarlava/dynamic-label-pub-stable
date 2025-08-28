@@ -21155,6 +21155,93 @@
         "messages": {
           "partUpdatedSuccessfully": "部件更新成功"
         }
+      },
+      "meter":{
+        "setupEdit": false,
+        "setupVisible": false,
+        "label":{
+          "original": "Meters",
+          "singular": "仪表", 
+          "plural": "仪表",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "sections":{
+          "setupEdit": false,
+          "setupVisible": false,
+          "sec0":{
+            "original": "Meter Details",
+           "singular": "仪表详情", 
+           "plural": "仪表详情",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec1":{
+            "original": "Asset Types",
+            "singular": "资产类型", 
+            "plural": "资产类型",
+            "setupEdit": false,
+            "setupVisible": false
+          }
+        },
+        "fields":{
+          "setupEdit": false,
+          "setupVisible": false,
+          "name":{
+            "original": "Name",
+            "singular": "名称", 
+            "plural": "名称",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "type":{
+            "original": "Type",
+            "singular": "类型", 
+            "plural": "类型",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "unitOfMeasurement":{
+            "original": "Unit of Measurement",
+            "singular": "计量单位", 
+            "plural": "计量单位",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "readingSource":{
+            "original": "Reading Source",
+            "singular": "读数来源", 
+            "plural": "读数来源",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "allTypes":{
+            "original": "All Types",
+            "singular": "所有类型", 
+            "plural": "所有类型",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "includeMeterForType":{
+            "original": "Include this meter for assets of types",
+            "singular": "为此类型的资产包含此仪表", 
+            "plural": "为这些类型的资产包含此仪表",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "applyToExisting":{
+            "original": "Apply to all existing",
+            "singular": "应用到所有现有的", 
+            "plural": "应用到所有现有的",
+            "setupEdit": false,
+            "setupVisible": false
+          }
+        },
+        "messages":{
+          "selectType": "选择类型",
+          "selectSource": "选择来源",
+          "chooseAssetTypes": "选择此仪表应适用的资产类型。任何属于所选类型的资产都会自动包含此仪表。"
+        }
       }
     },
     "checklist": {

@@ -21154,6 +21154,93 @@
         "messages": {
           "partUpdatedSuccessfully": "Bahagian berjaya dikemas kini"
         }
+      },
+      "meter":{
+        "setupEdit": false,
+        "setupVisible": false,
+        "label":{
+          "original": "Meters",
+          "singular": "Meter", 
+          "plural": "Meter",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "sections":{
+          "setupEdit": false,
+          "setupVisible": false,
+          "sec0":{
+            "original": "Meter Details",
+            "singular": "Butiran Meter", 
+            "plural": "Butiran Meter",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec1":{
+            "original": "Asset Types",
+            "singular": "Jenis Aset", 
+            "plural": "Jenis Aset",
+            "setupEdit": false,
+            "setupVisible": false
+          }
+        },
+        "fields":{
+          "setupEdit": false,
+          "setupVisible": false,
+          "name":{
+            "original": "Name",
+            "singular": "Nama", 
+            "plural": "Nama",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "type":{
+            "original": "Type",
+            "singular": "Jenis", 
+            "plural": "Jenis",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "unitOfMeasurement":{
+            "original": "Unit of Measurement",
+            "singular": "Unit Ukuran", 
+            "plural": "Unit Ukuran",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "readingSource":{
+            "original": "Reading Source",
+            "singular": "Sumber Bacaan", 
+            "plural": "Sumber Bacaan",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "allTypes":{
+            "original": "All Types",
+            "singular": "Semua Jenis", 
+            "plural": "Semua Jenis",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "includeMeterForType":{
+            "original": "Include this meter for assets of types",
+            "singular": "Sertakan meter ini untuk aset jenis", 
+            "plural": "Sertakan meter ini untuk aset jenis",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "applyToExisting":{
+            "original": "Apply to all existing",
+            "singular": "Terapkan kepada semua sedia ada", 
+            "plural": "Terapkan kepada semua sedia ada",
+            "setupEdit": false,
+            "setupVisible": false
+          }
+        },
+        "messages":{
+          "selectType": "Pilih Jenis",
+          "selectSource": "Pilih Sumber",
+          "chooseAssetTypes": "Pilih jenis aset yang meter ini patut digunakan. Mana-mana aset dengan jenis dipilih akan secara automatik termasuk meter ini."
+        }
       }
     },
     "checklist": {

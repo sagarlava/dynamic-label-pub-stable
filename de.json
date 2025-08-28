@@ -21155,6 +21155,93 @@
         "messages": {
           "partUpdatedSuccessfully": "Teil erfolgreich aktualisiert"
         }
+      },
+      "meter":{
+        "setupEdit": false,
+        "setupVisible": false,
+        "label":{
+          "original": "Meters",
+          "singular": "Zähler", 
+          "plural": "Zähler",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "sections":{
+          "setupEdit": false,
+          "setupVisible": false,
+          "sec0":{
+            "original": "Meter Details",
+            "singular": "Zählerdetails", 
+            "plural": "Zählerdetails",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec1":{
+            "original": "Asset Types",
+            "singular": "Asset-Typ", 
+            "plural": "Asset-Typen",
+            "setupEdit": false,
+            "setupVisible": false
+          }
+        },
+        "fields":{
+          "setupEdit": false,
+          "setupVisible": false,
+          "name":{
+            "original": "Name",
+            "singular": "Name", 
+            "plural": "Namen",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "type":{
+            "original": "Type",
+            "singular": "Typ", 
+            "plural": "Typen",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "unitOfMeasurement":{
+            "original": "Unit of Measurement",
+            "singular": "Maßeinheit", 
+            "plural": "Maßeinheiten",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "readingSource":{
+            "original": "Reading Source",
+            "singular": "Messquelle", 
+            "plural": "Messquellen",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "allTypes":{
+            "original": "All Types",
+            "singular": "Alle Typen", 
+            "plural": "Alle Typen",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "includeMeterForType":{
+            "original": "Include this meter for assets of types",
+            "singular": "Diesen Zähler für Assets des Typs einbeziehen", 
+            "plural": "Diesen Zähler für Assets der Typen einbeziehen",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "applyToExisting":{
+            "original": "Apply to all existing",
+            "singular": "Auf alle bestehenden anwenden", 
+            "plural": "Auf alle bestehenden anwenden",
+            "setupEdit": false,
+            "setupVisible": false
+          }
+        },
+        "messages":{
+          "selectType": "Typ auswählen",
+          "selectSource": "Quelle auswählen",
+          "chooseAssetTypes": "Wählen Sie die Asset-Typen, für die dieser Zähler gelten soll. Jedes Asset des ausgewählten Typs enthält automatisch diesen Zähler."
+        }
       }
     },
     "checklist": {
