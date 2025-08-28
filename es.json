@@ -1433,7 +1433,9 @@
         "addComponents": "Agregar componentes",
         "selectComponentsToAdd": "Selecciona los componentes que deseas agregar a este activo",
         "updateFieldsOfComponents": "Actualiza los campos de los componentes para que coincidan con el activo principal.",
-        "someComponentsSelected":"Algunos componentes que has seleccionado ya pertenecen a un activo principal. Si continúas, se modificará su activo principal a"
+        "someComponentsSelected":"Algunos componentes que has seleccionado ya pertenecen a un activo principal. Si continúas, se modificará su activo principal a",
+        "wouldYouAlsoLikeToUpdate": "¿También deseas actualizar los campos correspondientes en los componentes de este activo?",
+        "respectiveFieldsOverridden": "Los campos correspondientes en el componente se sobrescribirán si se selecciona arriba"
     }
   },
   "analytic": {

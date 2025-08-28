@@ -1433,7 +1433,9 @@
         "addComponents": "Tambah Komponen",
         "selectComponentsToAdd": "Pilih komponen yang ingin anda tambah pada aset ini",
         "updateFieldsOfComponents": "Kemas kini medan komponen untuk sepadan dengan aset induk.",
-        "someComponentsSelected":"Beberapa komponen yang anda pilih sudah dimiliki oleh aset induk. Meneruskan akan mengubah aset induk mereka kepada"
+        "someComponentsSelected":"Beberapa komponen yang anda pilih sudah dimiliki oleh aset induk. Meneruskan akan mengubah aset induk mereka kepada",
+        "wouldYouAlsoLikeToUpdate": "Adakah anda juga ingin mengemas kini medan berkaitan dalam komponen aset ini?",
+        "respectiveFieldsOverridden": "Medan berkaitan dalam komponen akan ditimpa jika dipilih di atas"
     }
   },
   "analytic": {

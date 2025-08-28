@@ -1433,7 +1433,9 @@
         "addComponents":"Add Components",
         "selectComponentsToAdd":"Select components that you’d like to add to this asset",
         "updateFieldsOfComponents":"Update fields of component(s) to match the parent asset.",
-        "someComponentsSelected":"Some components that you have selected already belong to a parent asset. Continuing will edit their parent asset to"
+        "someComponentsSelected":"Some components that you have selected already belong to a parent asset. Continuing will edit their parent asset to",
+        "wouldYouAlsoLikeToUpdate": "Would you also like to update the respective fields in this asset’s components?",
+        "respectiveFieldsOverridden":"The respective fields in the component will be overridden if selected above"
     }
   },
   "analytic": {
