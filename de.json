@@ -10488,7 +10488,8 @@
     "transferCannotContinue":"Die Übertragung kann nicht fortgesetzt werden, da der ausgewählte Behälter die folgenden Artikel nicht mehr enthält",
       "aBinTransferInitiate":"Ein Behälterübertragungsdatensatz wird für die genehmigten Artikel erstellt. Möchten Sie diesen Behältertransfer wirklich starten?",
       "max50SerialNumbers":"Sie können maximal 50 Seriennummern/SKUs eingeben.",
-      "selectedAssetManagedBySameGroup": "Ausgewählte Assets müssen aus Behälter stammen, die von derselben Benutzergruppe verwaltet werden"
+      "selectedAssetManagedBySameGroup": "Ausgewählte Assets müssen aus Behälter stammen, die von derselben Benutzergruppe verwaltet werden",
+      "selectedSparePartsManagedBySameGroup": "Ausgewählte Ersatzteile müssen aus Bins stammen, die von derselben Benutzergruppe verwaltet werden"
   }
 },
   "checkAvailibility": {

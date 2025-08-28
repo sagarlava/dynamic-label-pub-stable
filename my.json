@@ -10488,7 +10488,8 @@
       "transferCannotContinue":"Pemindahan tidak dapat diteruskan kerana bin yang dipilih tidak lagi mengandungi item berikut",
       "aBinTransferInitiate":"Rekod Pemindahan Bin akan dicipta untuk item yang diluluskan. Adakah anda pasti mahu memulakan pemindahan ini?",
       "max50SerialNumbers":"Anda boleh memasukkan maksimum 50 nombor siri/SKU.",
-      "selectedAssetManagedBySameGroup": "Aset yang dipilih mestilah daripada bin yang diurus oleh kumpulan pengguna yang sama"
+      "selectedAssetManagedBySameGroup": "Aset yang dipilih mestilah daripada bin yang diurus oleh kumpulan pengguna yang sama",
+      "selectedSparePartsManagedBySameGroup": "Alat ganti yang dipilih mestilah daripada bin yang diurus oleh kumpulan pengguna yang sama"
     }
   },
   "checkAvailibility": {
