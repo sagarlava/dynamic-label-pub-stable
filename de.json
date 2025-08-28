@@ -443,11 +443,11 @@
         "setupVisible": true
       },
       "sec1": {
-        "original": "Ownership & Location",
-        "singular": "Eigentum & Standort",
+        "original": "Hierarchy and Classification",
+        "singular": "Hierarchie und Klassifizierung",
         "plural": "",
         "setupEdit": true,
-        "setupVisible": true
+        "setupVisible": false
       },
       "sec2": {
         "original": "Coverage Period & Acquisition",
