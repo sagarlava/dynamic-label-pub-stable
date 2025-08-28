@@ -10487,7 +10487,8 @@
       "needTransferItemManually":"您需要手动选择并转移这些项目。其他选中的项目将被转移。",
       "transferCannotContinue":"无法继续转移，因为所选存储箱不再包含以下项目",
       "aBinTransferInitiate":"将为已批准的项目创建一个箱位转移记录。您确定要启动此次转移吗？",
-      "max50SerialNumbers":"您最多可以输入 50 个序列号/SKU。"
+      "max50SerialNumbers":"您最多可以输入 50 个序列号/SKU。",
+      "selectedAssetManagedBySameGroup": "所选资产必须来自由同一用户组管理的存储箱"
     }
   },
   "checkAvailibility": {
