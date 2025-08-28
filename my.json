@@ -10383,12 +10383,26 @@
         "plural": "",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "includeChildAsset": {
+        "original": "Include Child Assets",
+        "singular": "Sertakan Aset Anak",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "tooltips": {
       "binLookup": {
         "original": "Bin Lookup",
         "singular": "Carian Bin",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "includeChildAsset": {
+        "original": "Includes child assets of selected assets in the transfer. Only child assets in the same bin as their parent will be included.",
+        "singular": "Sertakan aset anak bagi aset yang dipilih dalam pemindahan. Hanya aset anak dalam bin yang sama dengan induknya akan disertakan",
         "plural": "",
         "setupEdit": false,
         "setupVisible": false
