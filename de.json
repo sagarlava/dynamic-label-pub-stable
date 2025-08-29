@@ -10416,7 +10416,8 @@
       "oneSelectionToProceed":"Wählen Sie mindestens eine Option aus, um fortzufahren",
       "exceededTotalSerialNoAdded":"Sie haben die maximale Anzahl an Seriennummern überschritten, die auf einmal hinzugefügt werden können. Bitte geben Sie nur bis zu 50 Seriennummern ein.",
       "assetHasBeenSelected":"Dieses Asset wurde bereits ausgewählt, bitte wählen Sie ein anderes Asset.",
-      "selectBinToProceed":"Wählen Sie einen Behälter, um fortzufahren"
+      "selectBinToProceed":"Wählen Sie einen Behälter, um fortzufahren",
+      "noSparePartFoundSKU": "Kein Ersatzteil mit dieser SKU gefunden"
   },
   "validationBE": {
     "binTransferIdExists": "Eine neue Lagerübertragung kann nicht bereits eine ID haben",

@@ -10417,7 +10417,8 @@
       "oneSelectionToProceed": "Realice al menos una selección para continuar",
       "exceededTotalSerialNoAdded": "Ha excedido el número total de números de serie que se pueden agregar a la vez. Por favor, ingrese solo hasta 50 números de serie.",
       "assetHasBeenSelected": "Este activo ya ha sido seleccionado, por favor seleccione un activo diferente.",
-      "selectBinToProceed": "Seleccione un contenedor para continuar"
+      "selectBinToProceed": "Seleccione un contenedor para continuar",
+      "noSparePartFoundSKU": "No se encontró ningún repuesto con este SKU"
     },
     "validationBE": {
       "binTransferIdExists": "Una nueva Transferencia de Contenedor no puede tener ya un ID",

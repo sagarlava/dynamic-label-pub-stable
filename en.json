@@ -10416,7 +10416,8 @@
       "oneSelectionToProceed":"Make at least one selection to proceed",
       "exceededTotalSerialNoAdded":"You have exceeded the total number of serial numbers that can be added at a time. Please enter only up to 50 serial numbers.",
       "assetHasBeenSelected":"This asset has already been selected, please select a different asset.",
-      "selectBinToProceed":"Select a bin to proceed"
+      "selectBinToProceed":"Select a bin to proceed",
+      "noSparePartFoundSKU":"No Spare Part was found with this SKU"
     },
     "validationBE": {
       "binTransferIdExists": "A new Bin Transfer cannot already have an ID",
