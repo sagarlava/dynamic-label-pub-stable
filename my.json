@@ -455,15 +455,15 @@
         "setupVisible": true
       },
       "sec1": {
-        "original": "Ownership & Location",
-        "singular": "Pemilikan & Lokasi",
+        "original": "Hierarchy and Classification",
+        "singular": "Hierarki dan Klasifikasi",
         "plural": "",
         "setupEdit": true,
-        "setupVisible": true
+        "setupVisible": false
       },
       "sec2": {
-        "original": "Coverage Period & Acquisition",
-        "singular": "Tempoh Liputan & Pemerolehan",
+        "original": "Coverage Period",
+        "singular": "Tempoh Liputan",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
@@ -584,6 +584,20 @@
         "original": "QR Codes",
         "singular": "Kod QR",
         "plural": "Kod QR",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec20": {
+        "original": "Components",
+        "singular": "Komponen",
+        "plural": "Komponen",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec21": {
+        "original": "Meters",
+        "singular": "Meter",
+        "plural": "Meter",
         "setupEdit": false,
         "setupVisible": false
       }
@@ -725,8 +739,8 @@
         "setupVisible": false
       },
       "acquisitionDate": {
-        "original": "Acquisition Date",
-        "singular": "Tarikh Perolehan",
+        "original": "Purchase Date",
+        "singular": "Tarikh Pembelian",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
@@ -1115,6 +1129,20 @@
         "plural": "aset telah dipilih",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "latest": {
+        "original": "Latest",
+        "singular": "Terkini",
+        "plural": "Terkini",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "reading": {
+        "original": "Reading",
+        "singular": "Bacaan",
+        "plural": "Bacaan",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "validationFE": {
@@ -1410,6 +1438,13 @@
         "plural": "Membolehkan pengguna menetapkan aset lain sebagai induk kepada aset ini.",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "pendingApprovalTransfer": {
+        "original": "Pending Approval Transfer",
+        "singular": "Pemindahan Menunggu Kelulusan",
+        "plural": "Pemindahan Menunggu Kelulusan",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "messages": {
@@ -1437,7 +1472,10 @@
         "uncheckSelectAll":"Nyahtanda “pilih semua” untuk melihat semula keseluruhan senarai",
         "addComponents": "Tambah Komponen",
         "selectComponentsToAdd": "Pilih komponen yang ingin anda tambah pada aset ini",
-        "updateFieldsOfComponents": "Kemas kini medan komponen untuk sepadan dengan aset induk."
+        "updateFieldsOfComponents": "Kemas kini medan komponen untuk sepadan dengan aset induk.",
+        "someComponentsSelected":"Beberapa komponen yang anda pilih sudah dimiliki oleh aset induk. Meneruskan akan mengubah aset induk mereka kepada",
+        "wouldYouAlsoLikeToUpdate": "Adakah anda juga ingin mengemas kini medan berkaitan dalam komponen aset ini?",
+        "respectiveFieldsOverridden": "Medan berkaitan dalam komponen akan ditimpa jika dipilih di atas"
     },
     "emptyPage":{
       "getStartedWithAsset":"Mulakan Dengan Aset",
@@ -1478,7 +1516,6 @@
       "viewAssetAvailability": "Lihat di mana setiap aset disimpan dan sama ada ia tersedia untuk digunakan."
     }
   },
-  
   "analytic": {
     "setupVisible": false,
     "setupEdit": false,
@@ -3788,6 +3825,49 @@
       "consumePartsFromBins": "Juruteknik boleh menggunakan alat ganti dari bekas yang ditetapkan atau imbas untuk guna.",
       "trackUsageAndCost": "Jejak Penggunaan & Kos",
       "monitorPartConsumption": "Pantau penggunaan alat ganti, kuantiti yang digunakan, dan penggunaan berdasarkan kerja secara automatik."
+    }
+  },
+  "usage":{
+    "setupVisible": false,
+    "setupEdit": false,
+    "label": {
+      "original": "Usage",
+      "singular": "Penggunaan",
+      "plural": "Penggunaan",
+      "setupEdit": false,
+      "setupVisible": false
+    },
+    "fields":{
+      "setupVisible": false,
+      "setupEdit": false,
+      "name":{
+        "original": "Name",
+        "singular": "Nama",
+        "plural": "Nama",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "qtyUsed":{
+        "original": "Qty Used",
+        "singular": "Kuantiti Digunakan",
+        "plural": "Kuantiti Digunakan",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "usedBy":{
+        "original": "Used By",
+        "singular": "Digunakan Oleh",
+        "plural": "Digunakan Oleh",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "usageDate":{
+        "original": "Usage Date",
+        "singular": "Tarikh Penggunaan",
+        "plural": "Tarikh Penggunaan",
+        "setupEdit": false,
+        "setupVisible": false
+      }
     }
   },
   "task": {
@@ -10584,6 +10664,13 @@
         "plural": "",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "includeChildAsset": {
+        "original": "Include Child Assets",
+        "singular": "Sertakan Aset Anak",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "tooltips": {
@@ -10591,8 +10678,15 @@
         "original": "Bin Lookup",
         "singular": "Carian Bin",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "includeChildAsset": {
+        "original": "Includes child assets of selected assets in the transfer. Only child assets in the same bin as their parent will be included.",
+        "singular": "Sertakan aset anak bagi aset yang dipilih dalam pemindahan. Hanya aset anak dalam bin yang sama dengan induknya akan disertakan",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "validationFE": {
@@ -10603,7 +10697,8 @@
       "oneSelectionToProceed":"Buat sekurang-kurangnya satu pilihan untuk meneruskan",
       "exceededTotalSerialNoAdded":"Anda telah melebihi jumlah nombor siri yang boleh ditambah dalam satu masa. Sila masukkan hanya sehingga 50 nombor siri.",
       "assetHasBeenSelected":"Aset ini telah dipilih, sila pilih aset lain.",
-      "selectBinToProceed":"Pilih bin untuk meneruskan"
+      "selectBinToProceed":"Pilih bin untuk meneruskan",
+      "noSparePartFoundSKU": "Tiada Alat Ganti ditemui dengan SKU ini"
     },
     "validationBE": {
       "binTransferIdExists": "Pemindahan Bin baru tidak boleh mempunyai ID yang sudah ada",
@@ -10683,12 +10778,14 @@
       "addQuantitiesTransferred":"Tambah kuantiti yang akan dipindahkan",
       "enterSerialNumberHere":"Masukkan nombor siri di sini. Eg. 128371253ABC",
       "enterSKUHere":"Masukkan SKU di sini. Eg. 128371253ABC",
-      "areYouSureInitiateTransfer":"Adakah anda pasti ingin mulakan pemindahan tong ini?",
-      "selectedBinNoLongerContains":"Tong yang dipilih tidak lagi mengandungi item berikut",
+      "areYouSureInitiateTransfer":"Adakah anda pasti ingin mulakan pemindahan bin ini?",
+      "selectedBinNoLongerContains":"Bin yang dipilih tidak lagi mengandungi item berikut",
       "needTransferItemManually":"Anda perlu memilih dan memindahkan item-item ini secara manual. Item lain yang dipilih akan dipindahkan.",
-      "transferCannotContinue":"Pemindahan tidak dapat diteruskan kerana tong yang dipilih tidak lagi mengandungi item berikut",
-      "aBinTransferInitiate":"Rekod Pemindahan Tong akan dicipta untuk item yang diluluskan. Adakah anda pasti mahu memulakan pemindahan ini?",
-      "max50SerialNumbers":"Anda boleh memasukkan maksimum 50 nombor siri/SKU."
+      "transferCannotContinue":"Pemindahan tidak dapat diteruskan kerana bin yang dipilih tidak lagi mengandungi item berikut",
+      "aBinTransferInitiate":"Rekod Pemindahan Bin akan dicipta untuk item yang diluluskan. Adakah anda pasti mahu memulakan pemindahan ini?",
+      "max50SerialNumbers":"Anda boleh memasukkan maksimum 50 nombor siri/SKU.",
+      "selectedAssetManagedBySameGroup": "Aset yang dipilih mestilah daripada bin yang diurus oleh kumpulan pengguna yang sama",
+      "selectedSparePartsManagedBySameGroup": "Alat ganti yang dipilih mestilah daripada bin yang diurus oleh kumpulan pengguna yang sama"
     },
     "emptyPage":{ 
       "manageTransfers": "Urus Pemindahan",
@@ -15314,7 +15411,8 @@
       "confirmation":"Pengesahan",
       "makeFilterSelectionsCheckAvail":"Buat pilihan penapis untuk menyemak ketersediaan",
       "emailPlaceholder": "Masukkan emel di sini...",
-      "selectRole": "Pilih Peranan"
+      "selectRole": "Pilih Peranan",
+      "updateConfirmation":"Pengesahan Kemas Kini"
     },
     "currency": {
       "australianDollar": "AUD",
@@ -22180,6 +22278,93 @@
         "validationFE": {},
         "messages": {
           "partUpdatedSuccessfully": "Bahagian berjaya dikemas kini"
+        }
+      },
+      "meter":{
+        "setupEdit": false,
+        "setupVisible": false,
+        "label":{
+          "original": "Meters",
+          "singular": "Meter", 
+          "plural": "Meter",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "sections":{
+          "setupEdit": false,
+          "setupVisible": false,
+          "sec0":{
+            "original": "Meter Details",
+            "singular": "Butiran Meter", 
+            "plural": "Butiran Meter",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec1":{
+            "original": "Asset Types",
+            "singular": "Jenis Aset", 
+            "plural": "Jenis Aset",
+            "setupEdit": false,
+            "setupVisible": false
+          }
+        },
+        "fields":{
+          "setupEdit": false,
+          "setupVisible": false,
+          "name":{
+            "original": "Name",
+            "singular": "Nama", 
+            "plural": "Nama",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "type":{
+            "original": "Type",
+            "singular": "Jenis", 
+            "plural": "Jenis",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "unitOfMeasurement":{
+            "original": "Unit of Measurement",
+            "singular": "Unit Ukuran", 
+            "plural": "Unit Ukuran",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "readingSource":{
+            "original": "Reading Source",
+            "singular": "Sumber Bacaan", 
+            "plural": "Sumber Bacaan",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "allTypes":{
+            "original": "All Types",
+            "singular": "Semua Jenis", 
+            "plural": "Semua Jenis",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "includeMeterForType":{
+            "original": "Include this meter for assets of types",
+            "singular": "Sertakan meter ini untuk aset jenis", 
+            "plural": "Sertakan meter ini untuk aset jenis",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "applyToExisting":{
+            "original": "Apply to all existing",
+            "singular": "Terapkan kepada semua sedia ada", 
+            "plural": "Terapkan kepada semua sedia ada",
+            "setupEdit": false,
+            "setupVisible": false
+          }
+        },
+        "messages":{
+          "selectType": "Pilih Jenis",
+          "selectSource": "Pilih Sumber",
+          "chooseAssetTypes": "Pilih jenis aset yang meter ini patut digunakan. Mana-mana aset dengan jenis dipilih akan secara automatik termasuk meter ini."
         }
       }
     },

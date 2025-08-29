@@ -455,15 +455,15 @@
         "setupVisible": true
       },
       "sec1": {
-        "original": "Ownership & Location",
-        "singular": "所有权与位置",
+        "original": "Hierarchy and Classification",
+        "singular": "层级和分类",
         "plural": "",
         "setupEdit": true,
-        "setupVisible": true
+        "setupVisible": false
       },
       "sec2": {
-        "original": "Coverage Period & Acquisition",
-        "singular": "保障期限与采购",
+        "original": "Coverage Period",
+        "singular": "保障期限",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
@@ -584,6 +584,20 @@
         "original": "QR Codes",
         "singular": "二维码",
         "plural": "二维码",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec20": {
+        "original": "Components",
+        "singular": "组件",
+        "plural": "组件",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec21": {
+        "original": "Meters",
+        "singular": "仪表",
+        "plural": "仪表",
         "setupEdit": false,
         "setupVisible": false
       }
@@ -711,8 +725,8 @@
         "setupVisible": false
       },
       "acquisitionDate": {
-        "original": "Acquisition Date",
-        "singular": "获取日期",
+       "original": "Purchase Date",
+        "singular": "购买日期",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
@@ -1115,6 +1129,20 @@
         "plural": "已选择个资产",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "latest": {
+        "original": "Latest",
+        "singular": "最新",
+        "plural": "最新",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "reading": {
+        "original": "Reading",
+        "singular": "读数",
+        "plural": "读数",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "validationFE": {
@@ -1410,6 +1438,13 @@
         "plural": "允许用户将其他资产分配为该资产的父资产。",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "pendingApprovalTransfer": {
+        "original": "Pending Approval Transfer",
+        "singular": "待审批转移",
+        "plural": "待审批转移",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "messages": {
@@ -1437,7 +1472,10 @@
         "uncheckSelectAll":"取消勾选“全选”以再次查看完整列表",
         "addComponents": "添加组件",
         "selectComponentsToAdd": "选择要添加到此资产的组件",
-        "updateFieldsOfComponents": "更新组件字段以匹配父资产。"
+        "updateFieldsOfComponents": "更新组件字段以匹配父资产。",
+        "someComponentsSelected":"您选择的一些组件已经属于一个父资产。继续操作将会把它们的父资产更改为",
+        "wouldYouAlsoLikeToUpdate": "您是否还要更新此资产组件中的相关字段？",
+        "respectiveFieldsOverridden": "如果在上方选择，相应的组件字段将被覆盖"
     },
     "emptyPage":{
       "getStartedWithAsset":"从资产开始",
@@ -3787,6 +3825,49 @@
       "consumePartsFromBins": "技术人员可以从分配的库位消耗零件或通过扫码使用。",
       "trackUsageAndCost": "跟踪使用情况和成本",
       "monitorPartConsumption": "自动监控零件消耗、使用数量以及基于工作的使用情况。"
+    }
+  },
+  "usage":{
+    "setupVisible": false,
+    "setupEdit": false,
+    "label": {
+      "original": "Usage",
+      "singular": "使用",
+      "plural": "使用",
+      "setupEdit": false,
+      "setupVisible": false
+    },
+    "fields":{
+      "setupVisible": false,
+      "setupEdit": false,
+      "name":{
+        "original": "Name",
+        "singular": "名称",
+        "plural": "名称",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "qtyUsed":{
+        "original": "Qty Used",
+        "singular": "使用数量",
+        "plural": "使用数量",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "usedBy":{
+        "original": "Used By",
+        "singular": "使用者",
+        "plural": "使用者",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "usageDate":{
+        "original": "Usage Date",
+        "singular": "使用日期",
+        "plural": "使用日期",
+        "setupEdit": false,
+        "setupVisible": false
+      }
     }
   },
   "task": {
@@ -10583,6 +10664,13 @@
         "plural": "",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "includeChildAsset": {
+        "original": "Include Child Assets",
+        "singular": "包含子资产",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "tooltips": {
@@ -10590,8 +10678,15 @@
         "original": "Bin Lookup",
         "singular": "仓位查询",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "includeChildAsset": {
+        "original": "Includes child assets of selected assets in the transfer. Only child assets in the same bin as their parent will be included.",
+        "singular": "在转移中包含所选资产的子资产。只有与其父资产位于同一存储箱的子资产才会被包含",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "validationFE": {
@@ -10602,7 +10697,8 @@
       "oneSelectionToProceed":"至少选择一个选项以继续",
       "exceededTotalSerialNoAdded":"您已超出一次可添加的序列号总数。请仅输入最多 50 个序列号。",
       "assetHasBeenSelected":"此资产已被选中，请选择其他资产。",
-      "selectBinToProceed":"选择一个存储箱以继续"
+      "selectBinToProceed":"选择一个存储箱以继续",
+      "noSparePartFoundSKU": "未找到具有此SKU的备件"
     },
     "validationBE": {
       "binTransferIdExists": "新的仓位转移不能已经有一个ID",
@@ -10687,7 +10783,9 @@
       "needTransferItemManually":"您需要手动选择并转移这些项目。其他选中的项目将被转移。",
       "transferCannotContinue":"无法继续转移，因为所选存储箱不再包含以下项目",
       "aBinTransferInitiate":"将为已批准的项目创建一个箱位转移记录。您确定要启动此次转移吗？",
-      "max50SerialNumbers":"您最多可以输入 50 个序列号/SKU。"
+      "max50SerialNumbers":"您最多可以输入 50 个序列号/SKU。",
+      "selectedAssetManagedBySameGroup": "所选资产必须来自由同一用户组管理的存储箱",
+      "selectedSparePartsManagedBySameGroup": "所选备件必须来自由同一用户组管理的存储箱"
     },
     "emptyPage":{ 
       "manageTransfers": "管理调拨",
@@ -15313,7 +15411,8 @@
       "confirmation":"确认",
       "makeFilterSelectionsCheckAvail":"进行筛选以检查可用性",
       "emailPlaceholder": "请输入电子邮件...",
-      "selectRole": "选择一个角色"
+      "selectRole": "选择一个角色",
+      "updateConfirmation":"更新确认"
     },
     "currency": {
       "australianDollar": "AUD",
@@ -22180,6 +22279,93 @@
         "validationFE": {},
         "messages": {
           "partUpdatedSuccessfully": "部件更新成功"
+        }
+      },
+      "meter":{
+        "setupEdit": false,
+        "setupVisible": false,
+        "label":{
+          "original": "Meters",
+          "singular": "仪表", 
+          "plural": "仪表",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "sections":{
+          "setupEdit": false,
+          "setupVisible": false,
+          "sec0":{
+            "original": "Meter Details",
+           "singular": "仪表详情", 
+           "plural": "仪表详情",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec1":{
+            "original": "Asset Types",
+            "singular": "资产类型", 
+            "plural": "资产类型",
+            "setupEdit": false,
+            "setupVisible": false
+          }
+        },
+        "fields":{
+          "setupEdit": false,
+          "setupVisible": false,
+          "name":{
+            "original": "Name",
+            "singular": "名称", 
+            "plural": "名称",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "type":{
+            "original": "Type",
+            "singular": "类型", 
+            "plural": "类型",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "unitOfMeasurement":{
+            "original": "Unit of Measurement",
+            "singular": "计量单位", 
+            "plural": "计量单位",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "readingSource":{
+            "original": "Reading Source",
+            "singular": "读数来源", 
+            "plural": "读数来源",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "allTypes":{
+            "original": "All Types",
+            "singular": "所有类型", 
+            "plural": "所有类型",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "includeMeterForType":{
+            "original": "Include this meter for assets of types",
+            "singular": "为此类型的资产包含此仪表", 
+            "plural": "为这些类型的资产包含此仪表",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "applyToExisting":{
+            "original": "Apply to all existing",
+            "singular": "应用到所有现有的", 
+            "plural": "应用到所有现有的",
+            "setupEdit": false,
+            "setupVisible": false
+          }
+        },
+        "messages":{
+          "selectType": "选择类型",
+          "selectSource": "选择来源",
+          "chooseAssetTypes": "选择此仪表应适用的资产类型。任何属于所选类型的资产都会自动包含此仪表。"
         }
       }
     },
