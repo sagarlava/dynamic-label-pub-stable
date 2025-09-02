@@ -16241,8 +16241,6 @@
       "tagUserSkills": "Fähigkeiten sind Tags, die du erstellst und Benutzern basierend auf ihrer Expertise zuweist. Bei der Zuweisung von Arbeiten kannst du Benutzer nach Fähigkeiten filtern, um die richtige Person der richtigen Aufgabe zuzuordnen.",
       "userGroupsTitle": "Benutzergruppen verwalten:",
       "manageUserGroups": "Erstelle Benutzergruppen und weise sie Inventarbehältern zu, um zu steuern, wer Übertragungen durchführen und genehmigen kann. Nur Benutzer in der zugewiesenen Gruppe dürfen Artikel aus diesen Behältern bewegen oder empfangen.",
-      "taskStaffDescription": "Diese Ansicht zeigt nur Benutzer, bei denen du als ihr Manager eingetragen bist. Ihre Namen erscheinen hier zusammen mit einem Kalender, der ihre zugewiesenen Aufgaben zeigt. Um Aufgaben deinem Personal zuzuweisen, beginne mit der Erstellung eines Arbeitsauftrags und weise dann über die Aufgaben-Registerkarte zu.",
-      "taskTeamsDescription": "Diese Ansicht zeigt Teams, bei denen du als Teamleiter eingetragen bist. Du kannst ein oder mehrere Teams verwalten und siehst hier die Aufgaben und Mitglieder jedes Teams. Um Aufgaben deinen Teammitgliedern zuzuweisen, beginne mit der Erstellung eines Arbeitsauftrags, weise dann eine Aufgabe zu und gib an, welches Team.",
       "jobOrderTemplatesDescription": "Eine Arbeitsauftrag-Vorlage ist ein vorausgefülltes Formular mit Standarddetails wie Aufgaben, Fehlern, Lösungen, Ersatzteilen und anderen verfügbaren Feldern. Beim Erstellen eines neuen Auftrags wähle einfach eine Vorlage aus und alles wird vorausgefüllt. Du kannst vor dem Speichern noch Anpassungen vornehmen.",
       "taskTemplatesDescription": "Eine Aufgaben-Vorlage ist ein wiederverwendbares Formular, das die Aufgabenfelder mit Standarddetails automatisch ausfüllt. Beim Erstellen einer Aufgabe wähle einfach die Vorlage aus und alle Felder werden automatisch ausgefüllt. Änderungen sind weiterhin möglich.",
       "jobOrderFaultMappingDescription": "Ein System ist eine Kategorie, die du erstellst, wie Elektrik, Hydraulik oder Motor. Du kannst eigene Kategorien hinzufügen, um verwandte Fehler zu gruppieren. Beim Erfassen eines Auftrags wählen Benutzer zuerst ein System und dann einen Fehler darunter.",
@@ -16261,8 +16259,10 @@
       "thisViewShowTask": "Diese Ansicht zeigt Aufgaben, die du für dich selbst erstellt oder die dir zugewiesen wurden. Die Aufgabenerstellung beginnt mit",
       "creatingJobOrder": "Erstellen eines Arbeitsauftrags",
       "clickCreateToAssignYourself": ", dann klicke auf „Erstellen“, um sie dir selbst zuzuweisen.",
-      "thisViewOnlyShows": "Diese Ansicht zeigt nur Benutzer an, bei denen Sie als deren Manager festgelegt sind. Ihre Namen erscheinen hier zusammen mit einem Kalender, der ihre zugewiesenen Aufgaben zeigt. Um Aufgaben Ihrem Personal zuzuweisen, beginnen Sie mit",
-      "thenAssignFromTask": "und weisen Sie dann über die Aufgaben-Registerkarte zu"
+      "thisViewOnlyShows": "Diese Ansicht zeigt nur Benutzer, bei denen Sie als deren Manager eingetragen sind. Ihre Namen erscheinen hier zusammen mit einem Kalender, der ihre zugewiesenen Aufgaben anzeigt. Um Aufgaben an Ihre Mitarbeiter zu vergeben, beginnen Sie mit",
+      "thisViewOnlyShowsTeams": "Diese Ansicht zeigt Teams, bei denen Sie als Teammanager eingetragen sind. Sie können ein oder mehrere Teams verwalten und sehen hier die Aufgaben und Mitglieder jedes Teams. Um Aufgaben an Ihre Teammitglieder zu vergeben, beginnen Sie mit",
+      "thenAssignFromTask": "und dann über den Aufgaben-Tab zuweisen",
+      "thenAssignTaskForTeam": "dann eine Aufgabe zuweisen und das Team angeben."
     }
   },
   "setup": {
