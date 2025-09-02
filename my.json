@@ -16091,8 +16091,6 @@
       "tagUserSkills": "Kemahiran ialah tag yang anda cipta dan tetapkan kepada pengguna berdasarkan kepakaran mereka. Semasa menugaskan kerja, anda boleh tapis pengguna mengikut kemahiran untuk padankan orang yang sesuai dengan tugasan yang betul.",
       "userGroupsTitle": "Urus kumpulan pengguna:",
       "manageUserGroups": "Cipta kumpulan pengguna dan tetapkan mereka kepada bin inventori untuk kawal siapa yang boleh lakukan dan luluskan pemindahan. Hanya pengguna dalam kumpulan yang ditetapkan dibenarkan untuk pindah atau terima item daripada bin tersebut.",
-      "taskStaffDescription": "Paparan ini hanya tunjukkan pengguna di mana anda ditetapkan sebagai pengurus mereka. Nama mereka akan muncul di sini, bersama kalendar yang menunjukkan tugasan mereka. Untuk menugaskan tugasan kepada staf anda, mulakan dengan mencipta kerja dan kemudian tugaskan dari tab tugasan.",
-      "taskTeamsDescription": "Paparan ini tunjukkan pasukan di mana anda ditetapkan sebagai pengurus. Anda boleh urus satu atau banyak pasukan, dan anda akan nampak setiap tugasan dan ahli pasukan di sini. Untuk tugaskan kerja kepada ahli pasukan anda, mulakan dengan cipta kerja, kemudian tetapkan tugasan dan nyatakan pasukan mana.",
       "jobOrderTemplatesDescription": "Templat kerja ialah borang pra-isi dengan butiran kerja standard seperti tugasan, kerosakan, resolusi, alat ganti dan medan lain. Bila mencipta kerja baru, hanya pilih templat dan semuanya akan terisi. Anda boleh ubah sebelum simpan.",
       "taskTemplatesDescription": "Templat tugasan ialah borang boleh guna semula yang isi automatik butiran tugasan standard semasa ciptaan tugasan. Bila mencipta tugasan, hanya pilih templat dan semua medan tugasan akan diisi automatik. Anda masih boleh buat perubahan jika perlu.",
       "jobOrderFaultMappingDescription": "Sistem ialah kategori yang anda cipta, seperti Elektrikal, Hidraulik, atau Enjin. Anda boleh tambah kategori sendiri untuk kumpulkan kerosakan berkaitan. Bila log kerja, pengguna pilih sistem dahulu, kemudian pilih kerosakan di bawahnya.",
@@ -16111,8 +16109,10 @@
       "thisViewShowTask": "Paparan ini tunjukkan tugasan yang anda cipta untuk diri sendiri atau yang ditugaskan kepada anda. Ciptaan tugasan bermula dengan",
       "creatingJobOrder": "mencipta kerja",
       "clickCreateToAssignYourself": ", kemudian klik “Cipta” untuk tetapkan kepada diri anda.",
-      "thisViewOnlyShows": "Paparan ini hanya menunjukkan pengguna di mana anda ditetapkan sebagai pengurus mereka. Nama mereka akan dipaparkan di sini bersama dengan kalendar yang menunjukkan tugasan mereka. Untuk menetapkan tugasan kepada staf anda, mulakan dengan",
-      "thenAssignFromTask": "dan kemudian tetapkan dari tab tugasan"
+      "thisViewOnlyShows": "Paparan ini hanya menunjukkan pengguna di mana anda ditetapkan sebagai pengurus mereka. Nama mereka akan muncul di sini bersama dengan kalendar yang menunjukkan tugasan mereka. Untuk memberikan tugasan kepada staf anda, mulakan dengan",
+      "thisViewOnlyShowsTeams": "Paparan ini menunjukkan pasukan di mana anda ditetapkan sebagai pengurus pasukan. Anda boleh mengurus satu atau banyak pasukan, dan anda akan melihat tugasan dan ahli setiap pasukan di sini. Untuk memberikan tugasan kepada ahli pasukan anda, mulakan dengan",
+      "thenAssignFromTask": "dan kemudian tetapkan dari tab tugasan",
+      "thenAssignTaskForTeam": "kemudian tetapkan tugasan dan nyatakan pasukan mana."
     }
   },
   "setup": {

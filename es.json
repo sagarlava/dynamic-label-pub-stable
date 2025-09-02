@@ -16091,8 +16091,6 @@
       "tagUserSkills": "Las habilidades son etiquetas que creas y asignas a los usuarios según su experiencia. Al asignar trabajos, puedes filtrar usuarios por habilidad para emparejar a la persona adecuada con la tarea adecuada.",
       "userGroupsTitle": "Gestionar grupos de usuarios:",
       "manageUserGroups": "Crea grupos de usuarios y asígnalos a depósitos de inventario para controlar quién puede realizar y aprobar transferencias. Solo los usuarios en el grupo asignado podrán mover o recibir artículos de esos depósitos.",
-      "taskStaffDescription": "Esta vista solo muestra a los usuarios en los que estás configurado como su gerente. Sus nombres aparecerán aquí, junto con un calendario que muestra sus tareas asignadas. Para asignar tareas a tu personal, comienza creando una orden de trabajo y luego asigna desde la pestaña de tareas.",
-      "taskTeamsDescription": "Esta vista muestra equipos en los que estás configurado como gerente. Puedes gestionar uno o varios equipos, y verás aquí las tareas y miembros de cada equipo. Para asignar tareas a tus miembros de equipo, comienza creando una orden de trabajo, luego asigna una tarea y especifica qué equipo.",
       "jobOrderTemplatesDescription": "Una plantilla de orden de trabajo es un formulario prellenado con detalles estándar del trabajo como tareas, fallos, resoluciones, repuestos y otros campos disponibles. Al crear un nuevo trabajo, solo selecciona una plantilla y todo estará prellenado. Puedes ajustar cualquier cosa antes de guardar.",
       "taskTemplatesDescription": "Una plantilla de tarea es un formulario reutilizable que llena automáticamente los campos de tarea con detalles estándar durante la creación de tareas. Al crear una tarea, solo selecciona la plantilla y todos los campos se llenarán automáticamente. Aún puedes hacer cambios si es necesario.",
       "jobOrderFaultMappingDescription": "Un sistema es una categoría que creas, como Eléctrico, Hidráulico o Motor. Puedes añadir tus propias categorías para agrupar fallos relacionados. Al registrar un trabajo, los usuarios seleccionan primero un sistema y luego un fallo dentro de él.",
@@ -16111,8 +16109,10 @@
       "thisViewShowTask": "Esta vista muestra las tareas que has creado para ti mismo o que se te han asignado. La creación de tareas comienza por",
       "creatingJobOrder": "crear una orden de trabajo",
       "clickCreateToAssignYourself": ", luego haz clic en “Crear” para asignártela a ti mismo.",
-      "thisViewOnlyShows": "Esta vista solo muestra a los usuarios donde tú estás configurado como su gerente. Sus nombres aparecerán aquí junto con un calendario que muestra sus tareas asignadas. Para asignar tareas a tu personal, empieza por",
-      "thenAssignFromTask": "y luego asígnalas desde la pestaña de tareas"
+      "thisViewOnlyShows": "Esta vista solo muestra a los usuarios donde estás configurado como su gerente. Sus nombres aparecerán aquí junto con un calendario que muestra sus tareas asignadas. Para asignar tareas a tu personal, comienza por",
+      "thisViewOnlyShowsTeams": "Esta vista muestra los equipos donde estás configurado como el gerente del equipo. Puedes administrar uno o varios equipos, y verás aquí las tareas y los miembros de cada equipo. Para asignar tareas a los miembros de tu equipo, comienza por",
+      "thenAssignFromTask": "y luego asigna desde la pestaña de tareas",
+      "thenAssignTaskForTeam": "luego asigna una tarea y especifica qué equipo."
     }
   },
   "setup": {
