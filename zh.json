@@ -24256,7 +24256,8 @@
         "verifyAndEdit": "验证并编辑",
         "reviewAndFixData": "检查您的数据并进行必要的修改。系统会突出显示必填字段中缺失的信息，以防止导入错误。",
         "importYourData": "导入您的数据",
-        "bringYourDataIntoFieldEx": "一切确认无误后，点击导入将您的数据带入 FieldEx。"
+        "onceGoodClickImport": "一切看起来没问题后，点击导入将您的数据带入 FieldEx。",
+        "bringYourDataIntoFieldEx": "通过以下步骤将您的数据带入 FieldEx"
       }
     },
     "customerSurvey": {
