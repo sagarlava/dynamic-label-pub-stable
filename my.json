@@ -14630,6 +14630,13 @@
         "plural": "Naik Taraf Sekarang",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "learn": {
+        "original": "Learn",
+        "singular": "Belajar",
+        "plural": "Belajar",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "status": {
@@ -16253,7 +16260,9 @@
       "serviceZoneDescription": "Pilih kawasan yang anda urus, seperti Tengah, Utara, atau negeri tertentu. Tandakan kumpulan ini kepada pelanggan, aset, dan kerja individu anda.",
       "thisViewShowTask": "Paparan ini tunjukkan tugasan yang anda cipta untuk diri sendiri atau yang ditugaskan kepada anda. Ciptaan tugasan bermula dengan",
       "creatingJobOrder": "mencipta kerja",
-      "clickCreateToAssignYourself": ", kemudian klik “Cipta” untuk tetapkan kepada diri anda."
+      "clickCreateToAssignYourself": ", kemudian klik “Cipta” untuk tetapkan kepada diri anda.",
+      "thisViewOnlyShows": "Paparan ini hanya menunjukkan pengguna di mana anda ditetapkan sebagai pengurus mereka. Nama mereka akan dipaparkan di sini bersama dengan kalendar yang menunjukkan tugasan mereka. Untuk menetapkan tugasan kepada staf anda, mulakan dengan",
+      "thenAssignFromTask": "dan kemudian tetapkan dari tab tugasan"
     }
   },
   "setup": {

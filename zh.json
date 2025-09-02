@@ -14630,6 +14630,13 @@
         "plural": "立即升级",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "learn": {
+        "original": "Learn",
+        "singular": "学习",
+        "plural": "学习",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "status": {
@@ -16253,7 +16260,9 @@
       "serviceZoneDescription": "选择您管理的区域，例如中部、北部或特定的省份。将此分组标记到您的客户、资产和工作。",
       "thisViewShowTask": "此视图显示您为自己创建的任务或分配给您的任务。任务创建从",
       "creatingJobOrder": "创建工作",
-      "clickCreateToAssignYourself": "开始，然后点击“创建”将其分配给自己。"
+      "clickCreateToAssignYourself": "开始，然后点击“创建”将其分配给自己。",
+      "thisViewOnlyShows": "此视图仅显示您被设为其经理的用户。他们的名字会显示在这里，并附有一个日历显示分配的任务。要为员工分配任务，请先",
+      "thenAssignFromTask": "然后从任务标签分配"
     }
   },
   "setup": {
