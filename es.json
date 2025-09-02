@@ -16110,7 +16110,9 @@
       "serviceZoneDescription": "Selecciona el área que gestionas, como Central, Norte o estados específicos. Etiqueta este grupo a tus clientes, activos y trabajos individuales.",
       "thisViewShowTask": "Esta vista muestra las tareas que has creado para ti mismo o que se te han asignado. La creación de tareas comienza por",
       "creatingJobOrder": "crear una orden de trabajo",
-      "clickCreateToAssignYourself": ", luego haz clic en “Crear” para asignártela a ti mismo."
+      "clickCreateToAssignYourself": ", luego haz clic en “Crear” para asignártela a ti mismo.",
+      "thisViewOnlyShows": "Esta vista solo muestra a los usuarios donde tú estás configurado como su gerente. Sus nombres aparecerán aquí junto con un calendario que muestra sus tareas asignadas. Para asignar tareas a tu personal, empieza por",
+      "thenAssignFromTask": "y luego asígnalas desde la pestaña de tareas"
     }
   },
   "setup": {

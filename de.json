@@ -16110,7 +16110,9 @@
       "serviceZoneDescription": "Wähle das Gebiet, das du verwaltest, z. B. Zentral, Nord oder bestimmte Bundesländer. Verknüpfe diese Gruppierung mit deinen einzelnen Kunden, Assets und Aufträgen.",
       "thisViewShowTask": "Diese Ansicht zeigt Aufgaben, die du für dich selbst erstellt oder die dir zugewiesen wurden. Die Aufgabenerstellung beginnt mit",
       "creatingJobOrder": "Erstellen eines Arbeitsauftrags",
-      "clickCreateToAssignYourself": ", dann klicke auf „Erstellen“, um sie dir selbst zuzuweisen."
+      "clickCreateToAssignYourself": ", dann klicke auf „Erstellen“, um sie dir selbst zuzuweisen.",
+      "thisViewOnlyShows": "Diese Ansicht zeigt nur Benutzer an, bei denen Sie als deren Manager festgelegt sind. Ihre Namen erscheinen hier zusammen mit einem Kalender, der ihre zugewiesenen Aufgaben zeigt. Um Aufgaben Ihrem Personal zuzuweisen, beginnen Sie mit",
+      "thenAssignFromTask": "und weisen Sie dann über die Aufgaben-Registerkarte zu"
     }
   },
   "setup": {
