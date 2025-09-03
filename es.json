@@ -9771,6 +9771,13 @@
         "original": "Transferred Items",
         "singular": "Artículos Transferidos",
         "plural": "Artículos Transferidos",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec4": {
+        "original": "Items in",
+        "singular": "Artículo en el",
+        "plural": "Artículos en el",
         "setupEdit": true,
         "setupVisible": true
       }
@@ -9928,6 +9935,13 @@
         "original": "Display Name",
         "singular": "Nombre para Mostrar",
         "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "shortCode": {
+        "original": "Short Code",
+        "singular": "Código Corto",
+        "plural": "Códigos Cortos",
         "setupEdit": true,
         "setupVisible": true
       }
@@ -10121,8 +10135,21 @@
         "plural": "Detalles Adicionales",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "sec23": {
+        "original": "Approval Details",
+        "singular": "Detalle de Aprobación",
+        "plural": "Detalles de Aprobación",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec24": {
+        "original": "Details",
+        "singular": "Detalle",
+        "plural": "Detalles",
+        "setupEdit": false,
+        "setupVisible": false
       }
-      
     },
     "fields": {
       "setupVisible": false,
@@ -10389,6 +10416,34 @@
         "original": "Include Child Assets",
         "singular": "Incluir Activos Secundarios",
         "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "requestSentTo": {
+        "original": "Request Sent To",
+        "singular": "Solicitud Enviada A",
+        "plural": "Solicitudes Enviadas A",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "requestedBy": {
+        "original": "Requested By",
+        "singular": "Solicitado Por",
+        "plural": "Solicitado Por",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "requestDate": {
+        "original": "Request Date",
+        "singular": "Fecha de Solicitud",
+        "plural": "Fechas de Solicitud",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "to": {
+        "original": "To",
+        "singular": "A",
+        "plural": "A",
         "setupEdit": false,
         "setupVisible": false
       }

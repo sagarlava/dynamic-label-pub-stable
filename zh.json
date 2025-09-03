@@ -9771,6 +9771,13 @@
         "original": "Transferred Items",
         "singular": "已转移项目",
         "plural": "已转移项目",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec4": {
+        "original": "Items in",
+        "singular": "商品位于",
+        "plural": "商品位于",
         "setupEdit": true,
         "setupVisible": true
       }
@@ -9928,6 +9935,13 @@
         "original": "Display Name",
         "singular": "显示名称",
         "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "shortCode": {
+        "original": "Short Code",
+        "singular": "短代码",
+        "plural": "短代码",
         "setupEdit": true,
         "setupVisible": true
       }
@@ -10119,6 +10133,20 @@
         "original": "Additional Details",
         "singular": "附加详情",
         "plural": "附加详情",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+     "sec23": {
+        "original": "Approval Details",
+        "singular": "审批详情",
+        "plural": "审批详情",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec24": {
+        "original": "Details",
+        "singular": "详情",
+        "plural": "详情",
         "setupEdit": false,
         "setupVisible": false
       }
@@ -10388,6 +10416,34 @@
         "original": "Include Child Assets",
         "singular": "包含子资产",
         "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "requestSentTo": {
+        "original": "Request Sent To",
+        "singular": "请求发送给",
+        "plural": "请求发送给",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "requestedBy": {
+        "original": "Requested By",
+        "singular": "请求者",
+        "plural": "请求者",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "requestDate": {
+        "original": "Request Date",
+        "singular": "请求日期",
+        "plural": "请求日期",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "to": {
+        "original": "To",
+        "singular": "至",
+        "plural": "至",
         "setupEdit": false,
         "setupVisible": false
       }
