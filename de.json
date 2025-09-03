@@ -10042,6 +10042,13 @@
         "original": "Transferred Items",
         "singular": "Übertragene Artikel",
         "plural": "Übertragene Artikel",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec4": {
+        "original": "Items in",
+        "singular": "Artikel im",
+        "plural": "Artikel im",
         "setupEdit": true,
         "setupVisible": true
       }
@@ -10199,6 +10206,13 @@
         "original": "Display Name",
         "singular": "Anzeigename",
         "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "shortCode": {
+        "original": "Short Code",
+        "singular": "Kurzcode",
+        "plural": "Kurzcodes",
         "setupEdit": true,
         "setupVisible": true
       }
@@ -10402,7 +10416,21 @@
         "plural": "Zusätzliche Details",
         "setupEdit": false,
         "setupVisible": false
-      }
+    },
+    "sec23": {
+      "original": "Approval Details",
+      "singular": "Genehmigungsdetail",
+      "plural": "Genehmigungsdetails",
+      "setupEdit": false,
+      "setupVisible": false
+    },
+    "sec24": {
+      "original": "Details",
+      "singular": "Detail",
+      "plural": "Details",
+      "setupEdit": false,
+      "setupVisible": false
+    }
   },
   "fields": {
     "setupVisible": false,
@@ -10671,7 +10699,35 @@
       "plural": "",
       "setupEdit": false,
       "setupVisible": false
-    }
+    },
+    "requestSentTo": {
+      "original": "Request Sent To",
+      "singular": "Anfrage gesendet an",
+      "plural": "Anfragen gesendet an",
+      "setupEdit": false,
+      "setupVisible": false
+    },
+    "requestedBy": {
+      "original": "Requested By",
+      "singular": "Angefordert von",
+      "plural": "Angefordert von",
+      "setupEdit": false,
+      "setupVisible": false
+    },
+    "requestDate": {
+      "original": "Request Date",
+      "singular": "Anfragedatum",
+      "plural": "Anfragedaten",
+      "setupEdit": false,
+      "setupVisible": false
+    },
+    "to": {
+        "original": "To",
+        "singular": "An",
+        "plural": "An",
+        "setupEdit": false,
+        "setupVisible": false
+      }
   },
   "tooltips": {
     "binLookup": {
