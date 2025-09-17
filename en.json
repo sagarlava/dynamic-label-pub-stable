@@ -24521,12 +24521,13 @@
     }
   },
   "report": {
+    "setupEdit": false,
     "setupVisible": false,
     "label": {
       "original": "Reports",
       "singular": "Report",
       "plural": "Reports",
-      "setupEdit": true,
+      "setupEdit": false,
       "setupVisible": false
     }
   },
