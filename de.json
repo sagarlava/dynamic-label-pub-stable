@@ -24668,6 +24668,20 @@
         "plural": "Werte",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "overview": {
+        "original": "Overview",
+        "singular": "Übersicht",
+        "plural": "Übersichten",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "filter": {
+        "original": "Filter",
+        "singular": "Filter",
+        "plural": "Filter",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "tooltips":{

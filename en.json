@@ -24669,6 +24669,20 @@
         "plural": "Values",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "overview":{
+        "original": "Overview",
+        "singular": "Overview",
+        "plural": "Overview",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "filter":{
+        "original": "Filter",
+        "singular": "Filter",
+        "plural": "Filters",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "tooltips":{

@@ -24668,6 +24668,20 @@
         "plural": "Nilai",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "overview": {
+        "original": "Overview",
+        "singular": "Gambaran Keseluruhan",
+        "plural": "Gambaran Keseluruhan",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "filter": {
+        "original": "Filter",
+        "singular": "Penapis",
+        "plural": "Penapis",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "tooltips":{
