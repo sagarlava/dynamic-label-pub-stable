@@ -24647,6 +24647,27 @@
         "plural": "PDF",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "field": {
+        "original": "Fields",
+        "singular": "Feld",
+        "plural": "Felder",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "operator": {
+        "original": "Operators",
+        "singular": "Operator",
+        "plural": "Operatoren",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "value": {
+        "original": "Values",
+        "singular": "Wert",
+        "plural": "Werte",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "tooltips":{
@@ -24728,7 +24749,17 @@
       "isCurrentlyIn": "befindet sich in",
       "enterYour": "Geben Sie Ihr",
       "nameHere": "Name hier ein...",
-      "unsavedChangesLostDiscard": "Nicht gespeicherte Änderungen in Ihrem Bericht gehen verloren, wenn Sie diesen Bericht jetzt verwerfen. Sind Sie sicher, dass Sie fortfahren möchten?"
+      "unsavedChangesLostDiscard": "Nicht gespeicherte Änderungen in Ihrem Bericht gehen verloren, wenn Sie diesen Bericht jetzt verwerfen. Sind Sie sicher, dass Sie fortfahren möchten?",
+      "fieldsAvailableBasedOnSelection": "Verfügbare Felder in diesem Bericht basieren auf dieser Auswahl",
+      "fieldsSelectedAsColumns": "Hier ausgewählte Felder werden als Spalten angezeigt. Sie können die Spalten im Berichtsgenerator neu anordnen",
+      "sortYourReportBySelectedField": "Wenn Sie eine Sortierung auswählen, wird Ihr Bericht nach dem ausgewählten Feld sortiert.",
+      "filterReportOptional": "Filtern Sie Ihren Bericht, indem Sie hier Filter auswählen. Dieser Schritt ist optional.",
+      "userCanEditForThisReport": "Benutzer können die Filter für diesen Bericht bearbeiten",
+      "userMustSelectValues": "Benutzer müssen die Werte dieses Filters auswählen, bevor sie den Bericht ausführen",
+      "addField": "Feld hinzufügen...",
+      "addGroup": "Gruppe hinzufügen...",
+      "addFilter": "Filter hinzufügen...",
+      "selectAField": "Wählen Sie ein Feld"
     }
   },
   "academy": {

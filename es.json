@@ -24648,6 +24648,27 @@
         "plural": "PDF",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "field": {
+        "original": "Fields",
+        "singular": "Campo",
+        "plural": "Campos",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "operator": {
+        "original": "Operators",
+        "singular": "Operador",
+        "plural": "Operadores",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "value": {
+        "original": "Values",
+        "singular": "Valor",
+        "plural": "Valores",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "tooltips":{
@@ -24729,7 +24750,17 @@
       "isCurrentlyIn": "se encuentra en",
       "enterYour": "Introduce tu",
       "nameHere": "nombre aquí...",
-      "unsavedChangesLostDiscard": "Los cambios no guardados en tu informe se perderán si descartas este informe ahora. ¿Estás seguro de que deseas continuar?"
+      "unsavedChangesLostDiscard": "Los cambios no guardados en tu informe se perderán si descartas este informe ahora. ¿Estás seguro de que deseas continuar?",
+      "fieldsAvailableBasedOnSelection": "Los campos disponibles en este informe se basarán en esta selección",
+      "fieldsSelectedAsColumns": "Los campos seleccionados aquí se mostrarán como columnas. Puedes reorganizar las columnas en el generador de informes",
+      "sortYourReportBySelectedField": "Hacer una selección de ordenación ordenará tu informe por el campo seleccionado.",
+      "filterReportOptional": "Filtra tu informe seleccionando filtros aquí. Este paso es opcional.",
+      "userCanEditForThisReport": "Los usuarios pueden editar los filtros para este informe",
+      "userMustSelectValues": "Los usuarios deben seleccionar los valores de este filtro antes de ejecutar el informe",
+      "addField": "Agregar campo...",
+      "addGroup": "Agregar grupo...",
+      "addFilter": "Agregar filtro...",
+      "selectAField": "Selecciona un campo"
     }
   },
   "academy": {

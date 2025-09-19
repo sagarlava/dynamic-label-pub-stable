@@ -24648,6 +24648,27 @@
         "plural": "PDF",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "field":{
+        "original": "Fields",
+        "singular": "Field",
+        "plural": "Fields",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "operator":{
+        "original": "Operators",
+        "singular": "Operator",
+        "plural": "Operators",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "value":{
+        "original": "Values",
+        "singular": "Value",
+        "plural": "Values",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "tooltips":{
@@ -24729,7 +24750,17 @@
       "isCurrentlyIn":"is currently in",
       "enterYour":"Enter your",
       "nameHere":"name here...",
-      "unsavedChangesLostDiscard":"Unsaved changes in your report will be lost if you discard this report now. Are you sure that you want to proceed?"
+      "unsavedChangesLostDiscard":"Unsaved changes in your report will be lost if you discard this report now. Are you sure that you want to proceed?",
+      "fieldsAvailableBasedOnSelection":"Fields available in this report will be based on this selection",
+      "fieldsSelectedAsColumns":"Fields selected here will be displayed as columns. You can rearrange the columns in the report builder",
+      "sortYourReportBySelectedField":"Making a sort selection will sort your report by the selected field.",
+      "filterReportOptional":"Filter your report by making filter selections here. This step is optional.",
+      "userCanEditForThisReport":"Users can edit the filters for this report",
+      "userMustSelectValues":"Users must select the values of this filter before running the report",
+      "addField":"Add Field...",
+      "addGroup":"Add Group...",
+      "addFilter":"Add Filter...",
+      "selectAField":"Select a field"
     }
   },
   "academy": {

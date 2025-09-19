@@ -24647,6 +24647,27 @@
         "plural": "PDF",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "field": {
+        "original": "Fields",
+        "singular": "Medan",
+        "plural": "Medan",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "operator": {
+        "original": "Operators",
+        "singular": "Operator",
+        "plural": "Operator",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "value": {
+        "original": "Values",
+        "singular": "Nilai",
+        "plural": "Nilai",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "tooltips":{
@@ -24728,7 +24749,17 @@
       "isCurrentlyIn": "sedang berada dalam",
       "enterYour": "Masukkan",
       "nameHere": "nama anda di sini...",
-      "unsavedChangesLostDiscard":"Perubahan yang belum disimpan dalam laporan anda akan hilang jika anda membatalkan laporan ini sekarang. Adakah anda pasti mahu meneruskan?"
+      "unsavedChangesLostDiscard":"Perubahan yang belum disimpan dalam laporan anda akan hilang jika anda membatalkan laporan ini sekarang. Adakah anda pasti mahu meneruskan?",
+      "fieldsAvailableBasedOnSelection": "Medan yang tersedia dalam laporan ini akan berdasarkan pilihan ini",
+      "fieldsSelectedAsColumns": "Medan yang dipilih di sini akan dipaparkan sebagai lajur. Anda boleh menyusun semula lajur dalam pembina laporan",
+      "sortYourReportBySelectedField": "Membuat pilihan isihan akan mengisih laporan anda mengikut medan yang dipilih.",
+      "filterReportOptional": "Tapis laporan anda dengan membuat pilihan penapis di sini. Langkah ini adalah pilihan.",
+      "userCanEditForThisReport": "Pengguna boleh mengedit penapis untuk laporan ini",
+      "userMustSelectValues": "Pengguna mesti memilih nilai penapis ini sebelum menjalankan laporan",
+      "addField": "Tambah Medan...",
+      "addGroup": "Tambah Kumpulan...",
+      "addFilter": "Tambah Penapis...",
+      "selectAField": "Pilih satu medan"
     }
   },
   "academy": {

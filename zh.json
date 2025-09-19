@@ -24648,6 +24648,27 @@
         "plural": "PDF",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "field": {
+        "original": "Fields",
+        "singular": "字段",
+        "plural": "字段",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "operator": {
+        "original": "Operators",
+        "singular": "运算符",
+        "plural": "运算符",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "value": {
+        "original": "Values",
+        "singular": "值",
+        "plural": "值",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "tooltips":{
@@ -24729,7 +24750,17 @@
       "isCurrentlyIn": "当前位于",
       "enterYour": "输入您的",
       "nameHere": "姓名在此...",
-      "unsavedChangesLostDiscard":"如果您现在放弃此报告，未保存的更改将会丢失。您确定要继续吗？"
+      "unsavedChangesLostDiscard":"如果您现在放弃此报告，未保存的更改将会丢失。您确定要继续吗？",
+      "fieldsAvailableBasedOnSelection": "本报告中可用的字段将基于此选择",
+      "fieldsSelectedAsColumns": "此处选择的字段将显示为列。您可以在报表生成器中重新排列列",
+      "sortYourReportBySelectedField": "进行排序选择时，报表将按所选字段排序。",
+      "filterReportOptional": "通过在此处选择筛选条件来筛选报表。此步骤为可选。",
+      "userCanEditForThisReport": "用户可以编辑此报告的筛选条件",
+      "userMustSelectValues": "用户必须在运行报告前选择此筛选条件的值",
+      "addField": "添加字段...",
+      "addGroup": "添加分组...",
+      "addFilter": "添加筛选...",
+      "selectAField": "选择一个字段"
     }
   },
   "academy": {
