@@ -24546,6 +24546,34 @@
         "plural": "Opciones de Compartir",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "sec2": {
+        "original": "Builder",
+        "singular": "Constructor",
+        "plural": "Constructores",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec3": {
+        "original": "Select Module",
+        "singular": "Seleccionar módulo",
+        "plural": "Seleccionar módulos",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec4": {
+        "original": "Select Fields",
+        "singular": "Seleccionar campo",
+        "plural": "Seleccionar campos",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec5": {
+        "original": "Sorting",
+        "singular": "Ordenación",
+        "plural": "Ordenaciones",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "fields":{

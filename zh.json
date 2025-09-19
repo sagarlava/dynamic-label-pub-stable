@@ -24546,6 +24546,34 @@
         "plural": "共享选项",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "sec2": {
+        "original": "Builder",
+        "singular": "构建器",
+        "plural": "构建器",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec3": {
+        "original": "Select Module",
+        "singular": "选择模块",
+        "plural": "选择模块",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec4": {
+        "original": "Select Fields",
+        "singular": "选择字段",
+        "plural": "选择字段",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec5": {
+        "original": "Sorting",
+        "singular": "排序",
+        "plural": "排序",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "fields":{

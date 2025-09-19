@@ -24545,6 +24545,34 @@
         "plural": "Freigabeoptionen",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "sec2": {
+        "original": "Builder",
+        "singular": "Generator",
+        "plural": "Generatoren",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec3": {
+        "original": "Select Module",
+        "singular": "Modul auswählen",
+        "plural": "Module auswählen",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec4": {
+        "original": "Select Fields",
+        "singular": "Feld auswählen",
+        "plural": "Felder auswählen",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec5": {
+        "original": "Sorting",
+        "singular": "Sortierung",
+        "plural": "Sortierungen",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "fields":{
