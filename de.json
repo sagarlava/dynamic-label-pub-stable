@@ -13976,6 +13976,48 @@
         "plural": "Enterprise",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "rename": {
+        "original": "Rename",
+        "singular": "Umbenennen",
+        "plural": "Umbenennen",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "share": {
+        "original": "Share",
+        "singular": "Teilen",
+        "plural": "Teilen",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "export": {
+        "original": "Export",
+        "singular": "Exportieren",
+        "plural": "Exportieren",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "import": {
+        "original": "Import",
+        "singular": "Importieren",
+        "plural": "Importieren",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "duplicate": {
+        "original": "Duplicate",
+        "singular": "Duplizieren",
+        "plural": "Duplizieren",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "favorite": {
+        "original": "Favorite",
+        "singular": "Favorit",
+        "plural": "Favoriten",
+        "setupEdit": false,
+        "setupVisible": false
       }			
     },
     "status": {

@@ -13976,6 +13976,48 @@
         "plural": "企业版",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "rename": {
+        "original": "Rename",
+        "singular": "重命名",
+        "plural": "重命名",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "share": {
+        "original": "Share",
+        "singular": "共享",
+        "plural": "共享",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "export": {
+        "original": "Export",
+        "singular": "导出",
+        "plural": "导出",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "import": {
+        "original": "Import",
+        "singular": "导入",
+        "plural": "导入",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "duplicate": {
+        "original": "Duplicate",
+        "singular": "复制",
+        "plural": "复制",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "favorite": {
+        "original": "Favorite",
+        "singular": "收藏",
+        "plural": "收藏",
+        "setupEdit": false,
+        "setupVisible": false
       }	
     },
     "status": {

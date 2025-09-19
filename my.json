@@ -13976,7 +13976,49 @@
         "plural": "Enterprise",
         "setupEdit": false,
         "setupVisible": false
-      }	
+      },
+      "rename": {
+        "original": "Rename",
+        "singular": "Tukar Nama",
+        "plural": "Tukar Nama",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "share": {
+        "original": "Share",
+        "singular": "Kongsi",
+        "plural": "Kongsi",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "export": {
+        "original": "Export",
+        "singular": "Eksport",
+        "plural": "Eksport",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "import": {
+        "original": "Import",
+        "singular": "Import",
+        "plural": "Import",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "duplicate": {
+        "original": "Duplicate",
+        "singular": "Pendua",
+        "plural": "Pendua",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "favorite": {
+        "original": "Favorite",
+        "singular": "Kegemaran",
+        "plural": "Kegemaran",
+        "setupEdit": false,
+        "setupVisible": false
+      }
     },
     "status": {
       "setupVisible": true,
