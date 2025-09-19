@@ -14019,7 +14019,21 @@
         "plural": "Favoritos",
         "setupEdit": false,
         "setupVisible": false
-      }	
+      },
+      "viewer": {
+        "original": "Viewer",
+        "singular": "Visualizador",
+        "plural": "Visualizadores",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "editor": {
+        "original": "Editor",
+        "singular": "Editor",
+        "plural": "Editores",
+        "setupEdit": false,
+        "setupVisible": false
+      }
     },
     "status": {
       "setupVisible": false,

@@ -14018,7 +14018,21 @@
         "plural": "收藏",
         "setupEdit": false,
         "setupVisible": false
-      }	
+      },
+      "viewer": {
+        "original": "Viewer",
+        "singular": "查看者",
+        "plural": "查看者",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "editor": {
+        "original": "Editor",
+        "singular": "编辑者",
+        "plural": "编辑者",
+        "setupEdit": false,
+        "setupVisible": false
+      }
     },
     "status": {
       "setupVisible": true,

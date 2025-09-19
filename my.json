@@ -14018,6 +14018,20 @@
         "plural": "Kegemaran",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "viewer": {
+        "original": "Viewer",
+        "singular": "Pelihat",
+        "plural": "Pelihat",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "editor": {
+        "original": "Editor",
+        "singular": "Penyunting",
+        "plural": "Penyunting",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "status": {

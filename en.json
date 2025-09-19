@@ -14018,6 +14018,20 @@
         "plural": "Favorite",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "viewer":{
+        "original": "Viewer",
+        "singular": "Viewer",
+        "plural": "Viewer",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "editor":{
+        "original": "Editor",
+        "singular": "Editor",
+        "plural": "Editor",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "status": {
