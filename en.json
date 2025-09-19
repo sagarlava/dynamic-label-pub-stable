@@ -459,7 +459,7 @@
         "singular": "Hierarchy and Classification",
         "plural": "",
         "setupEdit": true,
-        "setupVisible": false
+        "setupVisible": true
       },
       "sec2": {
         "original": "Coverage Period",
@@ -1475,7 +1475,8 @@
         "updateFieldsOfComponents":"Update fields of component(s) to match the parent asset.",
         "someComponentsSelected":"Some components that you have selected already belong to a parent asset. Continuing will edit their parent asset to",
         "wouldYouAlsoLikeToUpdate": "Would you also like to update the respective fields in this asset’s components?",
-        "respectiveFieldsOverridden":"The respective fields in the component will be overridden if selected above"
+        "respectiveFieldsOverridden":"The respective fields in the component will be overridden if selected above",
+        "youCanCheckOnceOneFilterSelected":"You can only check this when you have selected at least one filter. All filtered assets will be selected. Note: Only 500 assets can be exported at a time."
     },
     "emptyPage":{
       "getStartedWithAsset":"Get Started With Assets",
