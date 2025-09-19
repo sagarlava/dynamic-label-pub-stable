@@ -24528,6 +24528,179 @@
       "plural": "Berichte",
       "setupEdit": true,
       "setupVisible": false
+    },
+    "sections":{
+      "setupEdit": false,
+      "setupVisible": false,
+      "sec0":{
+        "original": "Folders",
+        "singular": "Ordner",
+        "plural": "Ordner",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec1":{
+        "original": "Sharing Options",
+        "singular": "Freigabeoption",
+        "plural": "Freigabeoptionen",
+        "setupEdit": false,
+        "setupVisible": false
+      }
+    },
+    "fields":{
+      "setupEdit": false,
+      "setupVisible": false,
+      "name": {
+        "original": "Name",
+        "singular": "Name",
+        "plural": "Namen",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "lastModifiedBy": {
+        "original": "Last Modified By",
+        "singular": "Zuletzt geändert von",
+        "plural": "Zuletzt geändert von",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "lastModifiedDate": {
+        "original": "Last Modified Date",
+        "singular": "Änderungsdatum",
+        "plural": "Änderungsdaten",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "createdBy": {
+        "original": "Created By",
+        "singular": "Erstellt von",
+        "plural": "Erstellt von",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "createdDate": {
+        "original": "Created Date",
+        "singular": "Erstellungsdatum",
+        "plural": "Erstellungsdaten",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "standard": {
+        "original": "Standard",
+        "singular": "Standard",
+        "plural": "Standards",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "favorite": {
+        "original": "Favorites",
+        "singular": "Favorit",
+        "plural": "Favoriten",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "csv":{
+        "original": "CSV",
+        "singular": "CSV",
+        "plural": "CSV",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "excel":{
+        "original": "Excel",
+        "singular": "Excel",
+        "plural": "Excel",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "pdf":{
+        "original": "PDF",
+        "singular": "PDF",
+        "plural": "PDF",
+        "setupEdit": false,
+        "setupVisible": false
+      }
+    },
+    "tooltips":{
+      "setupEdit": false,
+      "setupVisible": false,
+      "newFolder": {
+        "original": "New Folder",
+        "singular": "Neuer Ordner",
+        "plural": "Neue Ordner",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "renameFolder": {
+        "original": "Rename Folder",
+        "singular": "Ordner Umbenennen",
+        "plural": "Ordner Umbenennen",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "shareFolder": {
+        "original": "Share Folder",
+        "singular": "Ordner Freigeben",
+        "plural": "Ordner Freigeben",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "deleteFolder": {
+        "original": "Delete Folder",
+        "singular": "Ordner Löschen",
+        "plural": "Ordner Löschen",
+        "setupEdit": false,
+        "setupVisible": false
+      }
+    },
+    "messages":{
+      "generateExistingReports": "Generieren Sie bestehende oder erstellen Sie neue Berichte mit Ihren FieldEx-Daten, um tiefere Einblicke in Ihre Abläufe zu erhalten und Entscheidungen zu unterstützen",
+      "thereAreNoReports": "In diesem Ordner gibt es noch keine Berichte",
+      "createAReport": "Erstellen Sie einen Bericht, um ihn hier anzuzeigen",
+      "noRecordsDisplayedYet": "Noch keine Datensätze angezeigt. Führen Sie den Bericht aus, um Datensätze zu sehen",
+      "noRecordsFoundForSelectedFields": "Keine Datensätze für die ausgewählten Felder gefunden",
+      "noteRunningTheReportRecords": "Hinweis: Beim Ausführen des Berichts werden nur bis zu 2000 Datensätze angezeigt. Exportieren Sie den Bericht, um alle Datensätze zu sehen",
+      "noteRunningTheReportRows": "Beim Ausführen des Berichts werden nur bis zu 2000 Zeilen von Datensätzen angezeigt. Exportieren Sie den Bericht, um alle Datensätze zu sehen",
+      "youHaveNotSelectedAnyFields": "Sie haben noch keine Felder ausgewählt",
+      "selectedFieldsColumnsInSection": "Ausgewählte Felder werden in diesem Abschnitt als Spalten angezeigt",
+      "createSomeRecords": "Erstellen Sie einige Datensätze, um sie beim Ausführen dieses Berichts anzuzeigen",
+      "enterNameForFolder": "Geben Sie einen Namen für diesen Ordner ein",
+      "folderCreatedIn": "Dieser Ordner wird erstellt in",
+      "willBe": "wird",
+      "permanentlyDeleted": "dauerhaft gelöscht",
+      "areYouSureProceed": "Sind Sie sicher, dass Sie fortfahren möchten?",
+      "enterFolderNameHere": "Geben Sie hier den Ordnernamen ein...",
+      "addUsersHere": "Fügen Sie hier Benutzer hinzu...",
+      "addGroupsHere": "Fügen Sie hier Gruppen hinzu...",
+      "whichUsersToShareFile": "Mit welchen Benutzern möchten Sie diese Datei teilen?",
+      "whichGroupsToShareFile": "Mit welchen Gruppen möchten Sie diese Datei teilen?",
+      "peopleWithAccess": "Personen mit Zugriff",
+      "folderCurrentlyIn": "Dieser Ordner befindet sich derzeit in",
+      "whichUsersToShareFileHelpText": "Hier können Sie die Benutzer verwalten, mit denen diese Datei geteilt wird, und deren Zugriffsebene festlegen",
+      "whichGroupsToShareFileHelpText": "Hier können Sie die Gruppen verwalten, mit denen diese Datei geteilt wird, und deren Zugriffsebene festlegen",
+      "changeOwnerConfirmation": "Bestätigung Eigentümerwechsel",
+      "areYouSureChangeOwnership": "Sind Sie sicher, dass Sie die Eigentümerschaft dieses Ordners ändern möchten? Diese Aktion kann nicht rückgängig gemacht werden.",
+      "deleteFolderConfirmation": "Bestätigung Ordner löschen",
+      "selectModuleToUse": "Wähle ein Modul, das hierfür verwendet wird",
+      "fieldsAvailable": "Verfügbare Felder im",
+      "basedOnSelection": "werden basierend auf Ihrer Auswahl angezeigt",
+      "selectModuleUsedIn": "Wählen Sie das Modul, das verwendet wird in",
+      "selectModuleToUseReport": "Wähle ein Modul, das für diesen Bericht verwendet wird",
+      "fieldsAvailableReport": "Verfügbare Felder im Bericht basieren auf Ihrer Auswahl",
+      "selectModuleUsedInReport": "Wählen Sie das Modul, das im Bericht verwendet wird...",
+      "moveCaps": "Verschieben",
+      "toCaps": "Nach",
+      "fromLower": "von",
+      "selectAFileType": "Dateityp auswählen",
+      "selectTypeFileToExport": "Wählen Sie den Dateityp, in dem Sie Ihren Bericht exportieren möchten",
+      "csvDescription": "Eine Textdatei, in der jede Zeile eine Datenzeile darstellt und die Werte durch ein Komma getrennt sind.",
+      "excelDescription": "Eine Tabellenkalkulationsdatei mit Informationen, die in Zeilen und Spalten organisiert sind.",
+      "pdfDescription": "Ein Dateiformat, das das Format von Dokumenten beibehält.",
+      "this": "Dies",
+      "isCurrentlyIn": "befindet sich in",
+      "enterYour": "Geben Sie Ihr",
+      "nameHere": "Name hier ein...",
+      "unsavedChangesLostDiscard": "Nicht gespeicherte Änderungen in Ihrem Bericht gehen verloren, wenn Sie diesen Bericht jetzt verwerfen. Sind Sie sicher, dass Sie fortfahren möchten?"
     }
   },
   "academy": {

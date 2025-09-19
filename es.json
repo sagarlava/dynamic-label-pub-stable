@@ -24529,6 +24529,179 @@
       "plural": "Reportes",
       "setupEdit": true,
       "setupVisible": false
+    },
+    "sections":{
+      "setupEdit": false,
+      "setupVisible": false,
+      "sec0":{
+        "original": "Folders",
+        "singular": "Carpeta",
+        "plural": "Carpetas",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec1": {
+        "original": "Sharing Options",
+        "singular": "Opción de Compartir",
+        "plural": "Opciones de Compartir",
+        "setupEdit": false,
+        "setupVisible": false
+      }
+    },
+    "fields":{
+      "setupEdit": false,
+      "setupVisible": false,
+      "name": {
+        "original": "Name",
+        "singular": "Nombre",
+        "plural": "Nombres",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "lastModifiedBy": {
+        "original": "Last Modified By",
+        "singular": "Última Modificación Por",
+        "plural": "Última Modificación Por",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "lastModifiedDate": {
+        "original": "Last Modified Date",
+        "singular": "Fecha de Última Modificación",
+        "plural": "Fechas de Última Modificación",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "createdBy": {
+        "original": "Created By",
+        "singular": "Creado Por",
+        "plural": "Creado Por",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "createdDate": {
+        "original": "Created Date",
+        "singular": "Fecha de Creación",
+        "plural": "Fechas de Creación",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "standard": {
+        "original": "Standard",
+        "singular": "Estándar",
+        "plural": "Estándares",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "favorite": {
+        "original": "Favorites",
+        "singular": "Favorito",
+        "plural": "Favoritos",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "csv":{
+        "original": "CSV",
+        "singular": "CSV",
+        "plural": "CSV",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "excel":{
+        "original": "Excel",
+        "singular": "Excel",
+        "plural": "Excel",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "pdf":{
+        "original": "PDF",
+        "singular": "PDF",
+        "plural": "PDF",
+        "setupEdit": false,
+        "setupVisible": false
+      }
+    },
+    "tooltips":{
+      "setupEdit": false,
+      "setupVisible": false,
+      "newFolder": {
+        "original": "New Folder",
+        "singular": "Nueva Carpeta",
+        "plural": "Nuevas Carpetas",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "renameFolder": {
+        "original": "Rename Folder",
+        "singular": "Renombrar Carpeta",
+        "plural": "Renombrar Carpetas",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "shareFolder": {
+        "original": "Share Folder",
+        "singular": "Compartir Carpeta",
+        "plural": "Compartir Carpetas",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "deleteFolder": {
+        "original": "Delete Folder",
+        "singular": "Eliminar Carpeta",
+        "plural": "Eliminar Carpetas",
+        "setupEdit": false,
+        "setupVisible": false
+      }
+    },
+    "messages":{
+      "generateExistingReports": "Genere informes existentes o cree nuevos con sus datos de FieldEx para obtener más información sobre sus operaciones y ayudarle a tomar decisiones",
+      "thereAreNoReports": "Todavía no hay informes en esta carpeta",
+      "createAReport": "Cree un informe para verlo aquí",
+      "noRecordsDisplayedYet": "Aún no se muestran registros. Ejecute el informe para verlos",
+      "noRecordsFoundForSelectedFields": "No se encontraron registros para los campos seleccionados",
+      "noteRunningTheReportRecords": "Nota: Al ejecutar el informe solo se mostrarán hasta 2000 registros. Exporte el informe para ver todos los registros",
+      "noteRunningTheReportRows": "Al ejecutar el informe solo se mostrarán hasta 2000 filas de registros. Exporte el informe para ver todos los registros",
+      "youHaveNotSelectedAnyFields": "Aún no ha seleccionado ningún campo",
+      "selectedFieldsColumnsInSection": "Los campos seleccionados se mostrarán como columnas en esta sección",
+      "createSomeRecords": "Cree algunos registros para verlos al ejecutar este informe",
+      "enterNameForFolder": "Ingrese un nombre para esta carpeta",
+      "folderCreatedIn": "Esta carpeta se creará en",
+      "willBe": "será",
+      "permanentlyDeleted": "eliminada permanentemente",
+      "areYouSureProceed": "¿Está seguro de que desea continuar?",
+      "enterFolderNameHere": "Ingrese el nombre de su carpeta aquí...",
+      "addUsersHere": "Agregue usuarios aquí...",
+      "addGroupsHere": "Agregue grupos aquí...",
+      "whichUsersToShareFile": "¿Con qué usuarios desea compartir este archivo?",
+      "whichGroupsToShareFile": "¿Con qué grupos desea compartir este archivo?",
+      "peopleWithAccess": "Personas con acceso",
+      "folderCurrentlyIn": "Esta carpeta se encuentra actualmente en",
+      "whichUsersToShareFileHelpText": "Aquí puedes gestionar los usuarios con los que se comparte este archivo y establecer su nivel de acceso",
+      "whichGroupsToShareFileHelpText": "Aquí puedes gestionar los grupos con los que se comparte este archivo y establecer su nivel de acceso",
+      "changeOwnerConfirmation": "Confirmación de Cambio de Propietario",
+      "areYouSureChangeOwnership": "¿Estás seguro de que quieres cambiar la propiedad de esta carpeta? Esta acción no se puede deshacer.",
+      "deleteFolderConfirmation": "Confirmación de Eliminación de Carpeta",
+      "selectModuleToUse": "Selecciona un módulo que se usará para esto",
+      "fieldsAvailable": "Campos disponibles en el",
+      "basedOnSelection": "se basarán en tu selección",
+      "selectModuleUsedIn": "Selecciona el módulo que se usará en el",
+      "selectModuleToUseReport": "Selecciona un módulo que se usará para este informe",
+      "fieldsAvailableReport": "Los campos disponibles en el informe se basarán en tu selección",
+      "selectModuleUsedInReport": "Selecciona el módulo que se usará en el informe...",
+      "moveCaps": "Mover",
+      "toCaps": "A",
+      "fromLower": "de",
+      "selectAFileType": "Selecciona un tipo de archivo",
+      "selectTypeFileToExport": "Selecciona el tipo de archivo en el que deseas exportar tu informe",
+      "csvDescription": "Un archivo de texto plano en el que cada línea representa una fila de datos donde los valores están separados por comas.",
+      "excelDescription": "Un archivo de hoja de cálculo con información organizada en filas y columnas.",
+      "pdfDescription": "Un formato de archivo que conserva el formato de los documentos.",
+      "this": "Este",
+      "isCurrentlyIn": "se encuentra en",
+      "enterYour": "Introduce tu",
+      "nameHere": "nombre aquí...",
+      "unsavedChangesLostDiscard": "Los cambios no guardados en tu informe se perderán si descartas este informe ahora. ¿Estás seguro de que deseas continuar?"
     }
   },
   "academy": {

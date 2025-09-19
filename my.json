@@ -24528,6 +24528,179 @@
       "plural": "Laporan",
       "setupEdit": true,
       "setupVisible": false
+    },
+    "sections":{
+      "setupEdit": false,
+      "setupVisible": false,
+      "sec0":{
+        "original": "Folders",
+        "singular": "Folder",
+        "plural": "Folder",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec1": {
+        "original": "Sharing Options",
+        "singular": "Pilihan Perkongsian",
+        "plural": "Pilihan Perkongsian",
+        "setupEdit": false,
+        "setupVisible": false
+      }
+    },
+    "fields":{
+      "setupEdit": false,
+      "setupVisible": false,
+      "name": {
+        "original": "Name",
+        "singular": "Nama",
+        "plural": "Nama",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "lastModifiedBy": {
+        "original": "Last Modified By",
+        "singular": "Diubah Suai Oleh",
+        "plural": "Diubah Suai Oleh",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "lastModifiedDate": {
+        "original": "Last Modified Date",
+        "singular": "Tarikh Diubah Suai",
+        "plural": "Tarikh Diubah Suai",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "createdBy": {
+        "original": "Created By",
+        "singular": "Dicipta Oleh",
+        "plural": "Dicipta Oleh",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "createdDate": {
+        "original": "Created Date",
+        "singular": "Tarikh Dicipta",
+        "plural": "Tarikh Dicipta",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "standard": {
+        "original": "Standard",
+        "singular": "Standard",
+        "plural": "Standard",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "favorite": {
+        "original": "Favorites",
+        "singular": "Kegemaran",
+        "plural": "Kegemaran",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "csv":{
+        "original": "CSV",
+        "singular": "CSV",
+        "plural": "CSV",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "excel":{
+        "original": "Excel",
+        "singular": "Excel",
+        "plural": "Excel",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "pdf":{
+        "original": "PDF",
+        "singular": "PDF",
+        "plural": "PDF",
+        "setupEdit": false,
+        "setupVisible": false
+      }
+    },
+    "tooltips":{
+      "setupEdit": false,
+      "setupVisible": false,
+      "newFolder": {
+        "original": "New Folder",
+        "singular": "Folder Baharu",
+        "plural": "Folder Baharu",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "renameFolder": {
+        "original": "Rename Folder",
+        "singular": "Tukar Nama Folder",
+        "plural": "Tukar Nama Folder",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "shareFolder": {
+        "original": "Share Folder",
+        "singular": "Kongsi Folder",
+        "plural": "Kongsi Folder",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "deleteFolder": {
+        "original": "Delete Folder",
+        "singular": "Padam Folder",
+        "plural": "Padam Folder",
+        "setupEdit": false,
+        "setupVisible": false
+      }
+    },
+    "messages":{
+      "generateExistingReports": "Jana laporan sedia ada atau cipta laporan baharu dengan data FieldEx anda untuk mendapatkan lebih banyak pandangan tentang operasi anda dan membantu membuat keputusan",
+      "thereAreNoReports": "Tiada laporan dalam folder ini lagi",
+      "createAReport": "Cipta laporan untuk melihatnya di sini",
+      "noRecordsDisplayedYet": "Tiada rekod dipaparkan lagi. Jalankan laporan untuk melihat rekod",
+      "noRecordsFoundForSelectedFields": "Tiada rekod ditemui untuk medan yang anda pilih",
+      "noteRunningTheReportRecords": "Nota: Menjalankan laporan hanya akan memaparkan sehingga 2000 rekod. Eksport laporan untuk melihat semua rekod",
+      "noteRunningTheReportRows": "Menjalankan laporan hanya akan memaparkan sehingga 2000 baris rekod. Eksport laporan untuk melihat semua rekod",
+      "youHaveNotSelectedAnyFields": "Anda belum memilih sebarang medan lagi",
+      "selectedFieldsColumnsInSection": "Medan yang dipilih akan dipaparkan sebagai lajur dalam seksyen ini",
+      "createSomeRecords": "Cipta beberapa rekod untuk melihatnya apabila menjalankan laporan ini",
+      "enterNameForFolder": "Masukkan nama untuk folder ini",
+      "folderCreatedIn": "Folder ini akan dicipta dalam",
+      "willBe": "akan",
+      "permanentlyDeleted": "dipadam secara kekal",
+      "areYouSureProceed": "Adakah anda pasti mahu meneruskan?",
+      "enterFolderNameHere": "Masukkan nama folder anda di sini...",
+      "addUsersHere": "Tambah pengguna di sini...",
+      "addGroupsHere": "Tambah kumpulan di sini...",
+      "whichUsersToShareFile": "Pengguna mana yang anda mahu kongsi fail ini?",
+      "whichGroupsToShareFile": "Kumpulan mana yang anda mahu kongsi fail ini?",
+      "peopleWithAccess": "Orang dengan akses",
+      "folderCurrentlyIn": "Folder ini kini berada dalam",
+      "whichUsersToShareFileHelpText": "Di sini anda boleh mengurus pengguna yang fail ini dikongsi dengan mereka dan tetapkan tahap akses mereka",
+      "whichGroupsToShareFileHelpText": "Di sini anda boleh mengurus kumpulan yang fail ini dikongsi dengan mereka dan tetapkan tahap akses mereka",
+      "changeOwnerConfirmation": "Pengesahan Tukar Pemilik",
+      "areYouSureChangeOwnership": "Adakah anda pasti mahu menukar pemilikan folder ini? Tindakan ini tidak boleh dibatalkan.",
+      "deleteFolderConfirmation": "Pengesahan Padam Folder",
+      "selectModuleToUse": "Pilih modul yang akan digunakan untuk ini",
+      "fieldsAvailable": "Medan yang tersedia dalam",
+      "basedOnSelection": "akan berdasarkan pilihan anda",
+      "selectModuleUsedIn": "Pilih modul yang akan digunakan dalam",
+      "selectModuleToUseReport": "Pilih modul yang akan digunakan untuk laporan ini",
+      "fieldsAvailableReport": "Medan yang tersedia dalam laporan akan berdasarkan pilihan anda",
+      "selectModuleUsedInReport": "Pilih modul yang akan digunakan dalam laporan...",
+      "moveCaps": "Pindahkan",
+      "toCaps": "Ke",
+      "fromLower": "dari",
+      "selectAFileType": "Pilih jenis fail",
+      "selectTypeFileToExport": "Pilih jenis fail yang anda ingin eksport laporan anda",
+      "csvDescription": "Fail teks biasa di mana setiap baris mewakili satu baris data dan nilai dipisahkan dengan koma.",
+      "excelDescription": "Fail hamparan dengan maklumat yang disusun dalam baris dan lajur.",
+      "pdfDescription": "Format fail yang mengekalkan pemformatan dokumen.",
+      "this": "Ini",
+      "isCurrentlyIn": "sedang berada dalam",
+      "enterYour": "Masukkan",
+      "nameHere": "nama anda di sini...",
+      "unsavedChangesLostDiscard":"Perubahan yang belum disimpan dalam laporan anda akan hilang jika anda membatalkan laporan ini sekarang. Adakah anda pasti mahu meneruskan?"
     }
   },
   "academy": {
