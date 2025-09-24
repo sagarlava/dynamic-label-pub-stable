@@ -1476,7 +1476,8 @@
         "someComponentsSelected":"您选择的一些组件已经属于一个父资产。继续操作将会把它们的父资产更改为",
         "wouldYouAlsoLikeToUpdate": "您是否还要更新此资产组件中的相关字段？",
         "respectiveFieldsOverridden": "如果在上方选择，相应的组件字段将被覆盖",
-        "youCanCheckOnceOneFilterSelected": "只有在选择至少一个筛选条件后才能勾选此项。所有已筛选的资产将被选中。注意：一次最多只能导出500个资产。"
+        "youCanCheckOnceOneFilterSelected": "只有在选择至少一个筛选条件后才能勾选此项。所有已筛选的资产将被选中。注意：一次最多只能导出500个资产。",
+        "alsoUpdateComponentStatus": "同时更新组件状态"
     },
     "emptyPage":{
       "getStartedWithAsset":"从资产开始",

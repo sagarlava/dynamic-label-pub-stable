@@ -1476,7 +1476,8 @@
         "someComponentsSelected":"Some components that you have selected already belong to a parent asset. Continuing will edit their parent asset to",
         "wouldYouAlsoLikeToUpdate": "Would you also like to update the respective fields in this asset’s components?",
         "respectiveFieldsOverridden":"The respective fields in the component will be overridden if selected above",
-        "youCanCheckOnceOneFilterSelected":"You can only check this when you have selected at least one filter. All filtered assets will be selected. Note: Only 500 assets can be exported at a time."
+        "youCanCheckOnceOneFilterSelected":"You can only check this when you have selected at least one filter. All filtered assets will be selected. Note: Only 500 assets can be exported at a time.",
+        "alsoUpdateComponentStatus":"Also update component statuses"
     },
     "emptyPage":{
       "getStartedWithAsset":"Get Started With Assets",
