@@ -14507,195 +14507,62 @@
         "setupEdit": false,
         "setupVisible": false
       },
-      "selectAll": {
-        "original": "Select All",
-        "singular": "Seleccionar todo",
-        "plural": "Seleccionar todos",
+      "rename": {
+        "original": "Rename",
+        "singular": "Renombrar",
+        "plural": "Renombrar",
         "setupEdit": false,
         "setupVisible": false
       },
-      "letStartButton": {
-        "original": "Let's Get Started",
-        "singular": "Empecemos",
-        "plural": "Empecemos",
+      "share": {
+        "original": "Share",
+        "singular": "Compartir",
+        "plural": "Compartir",
         "setupEdit": false,
         "setupVisible": false
       },
-      "freeTrainingButton": {
-        "original": "Free Training",
-        "singular": "Capacitación gratuita",
-        "plural": "Capacitaciones gratuitas",
+      "export": {
+        "original": "Export",
+        "singular": "Exportar",
+        "plural": "Exportar",
         "setupEdit": false,
         "setupVisible": false
       },
-      "bookDemoButton": {
-        "original": "Book a Demo Now",
-        "singular": "Reserva una Demostración Ahora",
-        "plural": "Reserva Demostraciones Ahora",
+      "import": {
+        "original": "Import",
+        "singular": "Importar",
+        "plural": "Importar",
         "setupEdit": false,
         "setupVisible": false
       },
-      "createAssetButton": {
-        "original": "Create Asset",
-        "singular": "Crear Activo",
-        "plural": "Crear Activos",
+      "duplicate": {
+        "original": "Duplicate",
+        "singular": "Duplicar",
+        "plural": "Duplicar",
         "setupEdit": false,
         "setupVisible": false
       },
-      "importAssetButton": {
-        "original": "Import Assets",
-        "singular": "Importar Activos",
-        "plural": "Importar Activos",
+      "favorite": {
+        "original": "Favorite",
+        "singular": "Favorito",
+        "plural": "Favoritos",
         "setupEdit": false,
         "setupVisible": false
       },
-      "createWorkOrderButton": {
-        "original": "Create Work Order",
-        "singular": "Crear Orden de Trabajo",
-        "plural": "Crear Órdenes de Trabajo",
+      "viewer": {
+        "original": "Viewer",
+        "singular": "Visualizador",
+        "plural": "Visualizadores",
         "setupEdit": false,
         "setupVisible": false
       },
-      "inviteTeamButton": {
-        "original": "Invite Team",
-        "singular": "Invitar al Equipo",
-        "plural": "Invitar a los Equipos",
+      "editor": {
+        "original": "Editor",
+        "singular": "Editor",
+        "plural": "Editores",
         "setupEdit": false,
         "setupVisible": false
-      },
-      "inviteButton": {
-        "original": "Invite",
-        "singular": "Invitar",
-        "plural": "Invitar",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "changeButton": {
-        "original": "Change",
-        "singular": "Cambiar",
-        "plural": "Cambiar",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "ignoreButton": {
-        "original": "Ignore",
-        "singular": "Ignorar",
-        "plural": "Ignorar",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "addAnotherType":{
-        "original": "Add another type",
-        "singular": "Agregar otro tipo",
-        "plural": "Agregar otros tipos",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "addAnotherStatusButton": {
-        "original": "Add another status",
-        "singular": "Agregar otro estado",
-        "plural": "Agregar otros estados",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "addAnotherFaultButton": {
-        "original": "Add another fault",
-        "singular": "Agregar otra falla",
-        "plural": "Agregar otras fallas",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "addAnotherResolutionButton": {
-        "original": "Add another resolution",
-        "singular": "Agregar otra solución",
-        "plural": "Agregar otras soluciones",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "upgradeButton": {
-        "original": "Upgrade",
-        "singular": "Actualizar",
-        "plural": "Actualizar",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "14DayProTrialButton": {
-        "original": "14-Day Pro Trial",
-        "singular": "Prueba Pro de 14 Días",
-        "plural": "Pruebas Pro de 14 Días",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "contactUsButton": {
-        "original": "Contact Us",
-        "singular": "Contáctanos",
-        "plural": "Contáctanos",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "changePlanButton": {
-        "original": "Change Plan",
-        "singular": "Cambiar Plan",
-        "plural": "Cambiar Planes",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "managePaymentButton": {
-        "original": "Manage Payment",
-        "singular": "Gestionar Pago",
-        "plural": "Gestionar Pagos",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "contactSalesButton": {
-        "original": "Contact Sales",
-        "singular": "Contactar con Ventas",
-        "plural": "Contactar con Ventas",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "cancelPlanButton": {
-        "original": "Cancel Plan",
-        "singular": "Cancelar Plan",
-        "plural": "Cancelar Planes",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "upgradeProButton": {
-        "original": "Upgrade to Pro",
-        "singular": "Actualizar a Pro",
-        "plural": "Actualizar a Pro",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "requestOrgDeletion": {
-        "original": "Request Organization Deletion",
-        "singular": "Solicitar eliminación de la organización",
-        "plural": "Solicitar eliminación de las organización",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "tryProForFree": {
-        "original": "Try Pro for Free",
-        "singular": "Prueba Pro gratis",
-        "plural": "Prueba Pro gratis",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "upgradeNow": {
-        "original": "Upgrade Now",
-        "singular": "Actualizar ahora",
-        "plural": "Actualizar ahora",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "learn": {
-        "original": "Learn",
-        "singular": "Aprender",
-        "plural": "Aprendizajes",
-        "setupEdit": false,
-        "setupVisible": false
-      }
+      }	
     },
     "status": {
       "setupVisible": false,
@@ -25949,6 +25816,253 @@
       "plural": "Reportes",
       "setupEdit": true,
       "setupVisible": false
+    },
+    "sections":{
+      "setupEdit": false,
+      "setupVisible": false,
+      "sec0":{
+        "original": "Folders",
+        "singular": "Carpeta",
+        "plural": "Carpetas",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec1": {
+        "original": "Sharing Options",
+        "singular": "Opción de Compartir",
+        "plural": "Opciones de Compartir",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec2": {
+        "original": "Builder",
+        "singular": "Constructor",
+        "plural": "Constructores",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec3": {
+        "original": "Select Module",
+        "singular": "Seleccionar módulo",
+        "plural": "Seleccionar módulos",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec4": {
+        "original": "Select Fields",
+        "singular": "Seleccionar campo",
+        "plural": "Seleccionar campos",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec5": {
+        "original": "Sorting",
+        "singular": "Ordenación",
+        "plural": "Ordenaciones",
+        "setupEdit": false,
+        "setupVisible": false
+      }
+    },
+    "fields":{
+      "setupEdit": false,
+      "setupVisible": false,
+      "name": {
+        "original": "Name",
+        "singular": "Nombre",
+        "plural": "Nombres",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "lastModifiedBy": {
+        "original": "Last Modified By",
+        "singular": "Última Modificación Por",
+        "plural": "Última Modificación Por",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "lastModifiedDate": {
+        "original": "Last Modified Date",
+        "singular": "Fecha de Última Modificación",
+        "plural": "Fechas de Última Modificación",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "createdBy": {
+        "original": "Created By",
+        "singular": "Creado Por",
+        "plural": "Creado Por",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "createdDate": {
+        "original": "Created Date",
+        "singular": "Fecha de Creación",
+        "plural": "Fechas de Creación",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "standard": {
+        "original": "Standard",
+        "singular": "Estándar",
+        "plural": "Estándares",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "favorite": {
+        "original": "Favorites",
+        "singular": "Favorito",
+        "plural": "Favoritos",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "csv":{
+        "original": "CSV",
+        "singular": "CSV",
+        "plural": "CSV",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "excel":{
+        "original": "Excel",
+        "singular": "Excel",
+        "plural": "Excel",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "pdf":{
+        "original": "PDF",
+        "singular": "PDF",
+        "plural": "PDF",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "field": {
+        "original": "Fields",
+        "singular": "Campo",
+        "plural": "Campos",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "operator": {
+        "original": "Operators",
+        "singular": "Operador",
+        "plural": "Operadores",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "value": {
+        "original": "Values",
+        "singular": "Valor",
+        "plural": "Valores",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "overview": {
+        "original": "Overview",
+        "singular": "Resumen",
+        "plural": "Resúmenes",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "filter": {
+        "original": "Filter",
+        "singular": "Filtro",
+        "plural": "Filtros",
+        "setupEdit": false,
+        "setupVisible": false
+      }
+    },
+    "tooltips":{
+      "setupEdit": false,
+      "setupVisible": false,
+      "newFolder": {
+        "original": "New Folder",
+        "singular": "Nueva Carpeta",
+        "plural": "Nuevas Carpetas",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "renameFolder": {
+        "original": "Rename Folder",
+        "singular": "Renombrar Carpeta",
+        "plural": "Renombrar Carpetas",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "shareFolder": {
+        "original": "Share Folder",
+        "singular": "Compartir Carpeta",
+        "plural": "Compartir Carpetas",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "deleteFolder": {
+        "original": "Delete Folder",
+        "singular": "Eliminar Carpeta",
+        "plural": "Eliminar Carpetas",
+        "setupEdit": false,
+        "setupVisible": false
+      }
+    },
+    "messages":{
+      "generateExistingReports": "Genere informes existentes o cree nuevos con sus datos de FieldEx para obtener más información sobre sus operaciones y ayudarle a tomar decisiones",
+      "thereAreNoReports": "Todavía no hay informes en esta carpeta",
+      "createAReport": "Cree un informe para verlo aquí",
+      "noRecordsDisplayedYet": "Aún no se muestran registros. Ejecute el informe para verlos",
+      "noRecordsFoundForSelectedFields": "No se encontraron registros para los campos seleccionados",
+      "noteRunningTheReportRecords": "Nota: Al ejecutar el informe solo se mostrarán hasta 2000 registros. Exporte el informe para ver todos los registros",
+      "noteRunningTheReportRows": "Al ejecutar el informe solo se mostrarán hasta 2000 filas de registros. Exporte el informe para ver todos los registros",
+      "youHaveNotSelectedAnyFields": "Aún no ha seleccionado ningún campo",
+      "selectedFieldsColumnsInSection": "Los campos seleccionados se mostrarán como columnas en esta sección",
+      "createSomeRecords": "Cree algunos registros para verlos al ejecutar este informe",
+      "enterNameForFolder": "Ingrese un nombre para esta carpeta",
+      "folderCreatedIn": "Esta carpeta se creará en",
+      "willBe": "será",
+      "permanentlyDeleted": "eliminada permanentemente",
+      "areYouSureProceed": "¿Está seguro de que desea continuar?",
+      "enterFolderNameHere": "Ingrese el nombre de su carpeta aquí...",
+      "addUsersHere": "Agregue usuarios aquí...",
+      "addGroupsHere": "Agregue grupos aquí...",
+      "whichUsersToShareFile": "¿Con qué usuarios desea compartir este archivo?",
+      "whichGroupsToShareFile": "¿Con qué grupos desea compartir este archivo?",
+      "peopleWithAccess": "Personas con acceso",
+      "folderCurrentlyIn": "Esta carpeta se encuentra actualmente en",
+      "whichUsersToShareFileHelpText": "Aquí puedes gestionar los usuarios con los que se comparte este archivo y establecer su nivel de acceso",
+      "whichGroupsToShareFileHelpText": "Aquí puedes gestionar los grupos con los que se comparte este archivo y establecer su nivel de acceso",
+      "changeOwnerConfirmation": "Confirmación de Cambio de Propietario",
+      "areYouSureChangeOwnership": "¿Estás seguro de que quieres cambiar la propiedad de esta carpeta? Esta acción no se puede deshacer.",
+      "deleteFolderConfirmation": "Confirmación de Eliminación de Carpeta",
+      "selectModuleToUse": "Selecciona un módulo que se usará para esto",
+      "fieldsAvailable": "Campos disponibles en el",
+      "basedOnSelection": "se basarán en tu selección",
+      "selectModuleUsedIn": "Selecciona el módulo que se usará en el",
+      "selectModuleToUseReport": "Selecciona un módulo que se usará para este informe",
+      "fieldsAvailableReport": "Los campos disponibles en el informe se basarán en tu selección",
+      "selectModuleUsedInReport": "Selecciona el módulo que se usará en el informe...",
+      "moveCaps": "Mover",
+      "toCaps": "A",
+      "fromLower": "de",
+      "selectAFileType": "Selecciona un tipo de archivo",
+      "selectTypeFileToExport": "Selecciona el tipo de archivo en el que deseas exportar tu informe",
+      "csvDescription": "Un archivo de texto plano en el que cada línea representa una fila de datos donde los valores están separados por comas.",
+      "excelDescription": "Un archivo de hoja de cálculo con información organizada en filas y columnas.",
+      "pdfDescription": "Un formato de archivo que conserva el formato de los documentos.",
+      "this": "Este",
+      "isCurrentlyIn": "se encuentra en",
+      "enterYour": "Introduce tu",
+      "nameHere": "nombre aquí...",
+      "unsavedChangesLostDiscard": "Los cambios no guardados en tu informe se perderán si descartas este informe ahora. ¿Estás seguro de que deseas continuar?",
+      "fieldsAvailableBasedOnSelection": "Los campos disponibles en este informe se basarán en esta selección",
+      "fieldsSelectedAsColumns": "Los campos seleccionados aquí se mostrarán como columnas. Puedes reorganizar las columnas en el generador de informes",
+      "sortYourReportBySelectedField": "Hacer una selección de ordenación ordenará tu informe por el campo seleccionado.",
+      "filterReportOptional": "Filtra tu informe seleccionando filtros aquí. Este paso es opcional.",
+      "userCanEditForThisReport": "Los usuarios pueden editar los filtros para este informe",
+      "userMustSelectValues": "Los usuarios deben seleccionar los valores de este filtro antes de ejecutar el informe",
+      "addField": "Agregar campo...",
+      "addGroup": "Agregar grupo...",
+      "addFilter": "Agregar filtro...",
+      "selectAField": "Selecciona un campo",
+      "doYouRemoveFilter": "¿Quieres eliminar este filtro?"
     }
   },
   "academy": {
