@@ -1464,7 +1464,8 @@
         "someComponentsSelected":"Algunos componentes que has seleccionado ya pertenecen a un activo principal. Si continúas, se modificará su activo principal a",
         "wouldYouAlsoLikeToUpdate": "¿También deseas actualizar los campos correspondientes en los componentes de este activo?",
         "respectiveFieldsOverridden": "Los campos correspondientes en el componente se sobrescribirán si se selecciona arriba",
-        "youCanCheckOnceOneFilterSelected": "Solo puedes marcar esto cuando hayas seleccionado al menos un filtro. Todos los activos filtrados serán seleccionados. Nota: Solo se pueden exportar 500 activos a la vez."
+        "youCanCheckOnceOneFilterSelected": "Solo puedes marcar esto cuando hayas seleccionado al menos un filtro. Todos los activos filtrados serán seleccionados. Nota: Solo se pueden exportar 500 activos a la vez.",
+        "alsoUpdateComponentStatus": "También actualizar los estados de los componentes"
     }
   },
   "analytic": {
