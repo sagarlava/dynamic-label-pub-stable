@@ -14184,7 +14184,14 @@
         "plural": "Alle auswählen",
         "setupEdit": false,
         "setupVisible": false
-      }			
+      },
+      "bulkApprove": {
+        "original": "Bulk Approve",
+        "singular": "Sammelgenehmigung",
+        "plural": "Sammelgenehmigungen",
+        "setupEdit": false,
+        "setupVisible": false
+      }
     },
     "status": {
       "setupVisible": false,

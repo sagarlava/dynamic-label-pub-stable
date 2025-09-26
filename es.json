@@ -14184,6 +14184,13 @@
         "plural": "Seleccionar todos",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "bulkApprove": {
+        "original": "Bulk Approve",
+        "singular": "Aprobación en bloque",
+        "plural": "Aprobaciones en bloque",
+        "setupEdit": false,
+        "setupVisible": false
       }	
     },
     "status": {
