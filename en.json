@@ -10448,6 +10448,13 @@
         "plural": "To",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "requestedDateTime": {
+        "original": "Requested Date & Time",
+        "singular": "Requested Date & Time",
+        "plural": "Requested Date & Time",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "tooltips": {
@@ -10562,7 +10569,9 @@
       "aBinTransferInitiate":"A Bin Transfer record will be created for the approved items. Are you sure you want to initiate this bin transfer?",
       "max50SerialNumbers":"You can enter a maximum of 50 serial numbers/SKUs.",
       "selectedAssetManagedBySameGroup":"Selected assets must be from bins managed by the same user group",
-      "selectedSparePartsManagedBySameGroup":"Selected spare parts must be from bins managed by the same user group"
+      "selectedSparePartsManagedBySameGroup":"Selected spare parts must be from bins managed by the same user group",
+      "quantityTransferExceedsStock":"Quantity to transfer exceeds available stock in the marked field(s). Reduce the quantity to proceed.",
+      "areYouSureYouWantToProceed":"Are you sure you want to proceed with the"
     }
   },
   "checkAvailibility": {

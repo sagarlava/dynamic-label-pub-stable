@@ -10448,6 +10448,13 @@
         "plural": "A",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "requestedDateTime": {
+        "original": "Requested Date & Time",
+        "singular": "Fecha y hora solicitada",
+        "plural": "Fechas y horas solicitadas",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "tooltips": {
@@ -10562,7 +10569,9 @@
       "aBinTransferInitiate":"Se creará un registro de transferencia de contenedor para los artículos aprobados. ¿Estás seguro de que deseas iniciar esta transferencia?",
       "max50SerialNumbers":"Puedes introducir un máximo de 50 números de serie/SKU.",
       "selectedAssetManagedBySameGroup": "Los activos seleccionados deben provenir de contenedores gestionados por el mismo grupo de usuarios",
-      "selectedSparePartsManagedBySameGroup": "Los repuestos seleccionados deben provenir de contenedores gestionados por el mismo grupo de usuarios"
+      "selectedSparePartsManagedBySameGroup": "Los repuestos seleccionados deben provenir de contenedores gestionados por el mismo grupo de usuarios",
+      "quantityTransferExceedsStock": "La cantidad a transferir excede el stock disponible en los campos marcados. Reduzca la cantidad para continuar.",
+      "areYouSureYouWantToProceed": "¿Está seguro de que desea continuar con"
     }
   },
   "checkAvailibility": {

@@ -10448,6 +10448,13 @@
         "plural": "至",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "requestedDateTime": {
+        "original": "Requested Date & Time",
+        "singular": "请求的日期和时间",
+        "plural": "请求的日期和时间",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "tooltips": {
@@ -10562,7 +10569,9 @@
       "aBinTransferInitiate":"将为已批准的项目创建一个箱位转移记录。您确定要启动此次转移吗？",
       "max50SerialNumbers":"您最多可以输入 50 个序列号/SKU。",
       "selectedAssetManagedBySameGroup": "所选资产必须来自由同一用户组管理的存储箱",
-      "selectedSparePartsManagedBySameGroup": "所选备件必须来自由同一用户组管理的存储箱"
+      "selectedSparePartsManagedBySameGroup": "所选备件必须来自由同一用户组管理的存储箱",
+      "quantityTransferExceedsStock": "要转移的数量超过了标记字段中的可用库存。请减少数量后再继续。",
+      "areYouSureYouWantToProceed": "您确定要继续进行"
     }
   },
   "checkAvailibility": {

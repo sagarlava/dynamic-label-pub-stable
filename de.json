@@ -10448,7 +10448,14 @@
         "plural": "An",
         "setupEdit": false,
         "setupVisible": false
-      }
+      },
+    "requestedDateTime": {
+      "original": "Requested Date & Time",
+      "singular": "Angefordertes Datum & Uhrzeit",
+      "plural": "Angeforderte Daten & Uhrzeiten",
+      "setupEdit": false,
+      "setupVisible": false
+    }
   },
   "tooltips": {
     "binLookup": {
@@ -10562,7 +10569,9 @@
       "aBinTransferInitiate":"Ein Behälterübertragungsdatensatz wird für die genehmigten Artikel erstellt. Möchten Sie diesen Behältertransfer wirklich starten?",
       "max50SerialNumbers":"Sie können maximal 50 Seriennummern/SKUs eingeben.",
       "selectedAssetManagedBySameGroup": "Ausgewählte Assets müssen aus Behälter stammen, die von derselben Benutzergruppe verwaltet werden",
-      "selectedSparePartsManagedBySameGroup": "Ausgewählte Ersatzteile müssen aus Bins stammen, die von derselben Benutzergruppe verwaltet werden"
+      "selectedSparePartsManagedBySameGroup": "Ausgewählte Ersatzteile müssen aus Bins stammen, die von derselben Benutzergruppe verwaltet werden",
+      "quantityTransferExceedsStock": "Die zu übertragende Menge überschreitet den verfügbaren Bestand in den markierten Feldern. Reduzieren Sie die Menge, um fortzufahren.",
+    "areYouSureYouWantToProceed": "Sind Sie sicher, dass Sie mit dem Vorgang fortfahren möchten"
   }
 },
   "checkAvailibility": {
