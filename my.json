@@ -10729,6 +10729,27 @@
         "plural": "Kepada",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "requestedDateTime": {
+        "original": "Requested Date & Time",
+        "singular": "Tarikh & Masa Diminta",
+        "plural": "Tarikh & Masa Diminta",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "bulk": {
+        "original": "Bulk",
+        "singular": "Pukal",
+        "plural": "Pukal",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "approval": {
+        "original": "Approval",
+        "singular": "Kelulusan",
+        "plural": "Kelulusan",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "tooltips": {
@@ -10843,7 +10864,9 @@
       "aBinTransferInitiate":"Rekod Pemindahan Bin akan dicipta untuk item yang diluluskan. Adakah anda pasti mahu memulakan pemindahan ini?",
       "max50SerialNumbers":"Anda boleh memasukkan maksimum 50 nombor siri/SKU.",
       "selectedAssetManagedBySameGroup": "Aset yang dipilih mestilah daripada bin yang diurus oleh kumpulan pengguna yang sama",
-      "selectedSparePartsManagedBySameGroup": "Alat ganti yang dipilih mestilah daripada bin yang diurus oleh kumpulan pengguna yang sama"
+      "selectedSparePartsManagedBySameGroup": "Alat ganti yang dipilih mestilah daripada bin yang diurus oleh kumpulan pengguna yang sama",
+      "quantityTransferExceedsStock": "Kuantiti untuk dipindahkan melebihi stok yang tersedia dalam medan yang ditanda. Kurangkan kuantiti untuk meneruskan.",
+      "areYouSureYouWantToProceed": "Adakah anda pasti mahu meneruskan dengan"
     },
     "emptyPage":{ 
       "manageTransfers": "Urus Pemindahan",
@@ -14749,6 +14772,13 @@
         "original": "Editor",
         "singular": "Penyunting",
         "plural": "Penyunting",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "bulkApprove": {
+        "original": "Bulk Approve",
+        "singular": "Lulus Pukal",
+        "plural": "Lulus Pukal",
         "setupEdit": false,
         "setupVisible": false
       }

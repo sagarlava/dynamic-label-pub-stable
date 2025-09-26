@@ -10729,7 +10729,28 @@
         "plural": "An",
         "setupEdit": false,
         "setupVisible": false
-      }
+      },
+    "requestedDateTime": {
+      "original": "Requested Date & Time",
+      "singular": "Angefordertes Datum & Uhrzeit",
+      "plural": "Angeforderte Daten & Uhrzeiten",
+      "setupEdit": false,
+      "setupVisible": false
+    },
+    "bulk": {
+      "original": "Bulk",
+      "singular": "Sammel",
+      "plural": "Sammel",
+      "setupEdit": false,
+      "setupVisible": false
+    },
+    "approval": {
+      "original": "Approval",
+      "singular": "Genehmigung",
+      "plural": "Genehmigungen",
+      "setupEdit": false,
+      "setupVisible": false
+    }
   },
   "tooltips": {
     "binLookup": {
@@ -10843,7 +10864,9 @@
       "aBinTransferInitiate":"Ein Behälterübertragungsdatensatz wird für die genehmigten Artikel erstellt. Möchten Sie diesen Behältertransfer wirklich starten?",
       "max50SerialNumbers":"Sie können maximal 50 Seriennummern/SKUs eingeben.",
       "selectedAssetManagedBySameGroup": "Ausgewählte Assets müssen aus Behälter stammen, die von derselben Benutzergruppe verwaltet werden",
-      "selectedSparePartsManagedBySameGroup": "Ausgewählte Ersatzteile müssen aus Bins stammen, die von derselben Benutzergruppe verwaltet werden"
+      "selectedSparePartsManagedBySameGroup": "Ausgewählte Ersatzteile müssen aus Bins stammen, die von derselben Benutzergruppe verwaltet werden",
+      "quantityTransferExceedsStock": "Die zu übertragende Menge überschreitet den verfügbaren Bestand in den markierten Feldern. Reduzieren Sie die Menge, um fortzufahren.",
+    "areYouSureYouWantToProceed": "Sind Sie sicher, dass Sie mit dem Vorgang fortfahren möchten"
   },
     "emptyPage":{ 
       "manageTransfers": "Übertragungen verwalten",
@@ -14507,6 +14530,13 @@
         "setupEdit": false,
         "setupVisible": false
       },
+      "selectAll": {
+        "original": "Select All",
+        "singular": "Alle auswählen",
+        "plural": "Alle auswählen",
+        "setupEdit": false,
+        "setupVisible": false
+      },
         "rename": {
         "original": "Rename",
         "singular": "Umbenennen",
@@ -14562,7 +14592,14 @@
         "plural": "Editoren",
         "setupEdit": false,
         "setupVisible": false
-      }			
+      },
+      "bulkApprove": {
+        "original": "Bulk Approve",
+        "singular": "Sammelgenehmigung",
+        "plural": "Sammelgenehmigungen",
+        "setupEdit": false,
+        "setupVisible": false
+      }
     },
     "status": {
       "setupVisible": false,
