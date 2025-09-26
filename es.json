@@ -10455,6 +10455,20 @@
         "plural": "Fechas y horas solicitadas",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "bulk": {
+        "original": "Bulk",
+        "singular": "Volumen",
+        "plural": "Volúmenes",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "approval": {
+        "original": "Approval",
+        "singular": "Aprobación",
+        "plural": "Aprobaciones",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "tooltips": {

@@ -10455,6 +10455,20 @@
         "plural": "Tarikh & Masa Diminta",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "bulk": {
+        "original": "Bulk",
+        "singular": "Pukal",
+        "plural": "Pukal",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "approval": {
+        "original": "Approval",
+        "singular": "Kelulusan",
+        "plural": "Kelulusan",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "tooltips": {

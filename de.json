@@ -10455,6 +10455,20 @@
       "plural": "Angeforderte Daten & Uhrzeiten",
       "setupEdit": false,
       "setupVisible": false
+    },
+    "bulk": {
+      "original": "Bulk",
+      "singular": "Sammel",
+      "plural": "Sammel",
+      "setupEdit": false,
+      "setupVisible": false
+    },
+    "approval": {
+      "original": "Approval",
+      "singular": "Genehmigung",
+      "plural": "Genehmigungen",
+      "setupEdit": false,
+      "setupVisible": false
     }
   },
   "tooltips": {

@@ -10455,6 +10455,20 @@
         "plural": "Requested Date & Time",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "bulk": {
+        "original": "Bulk",
+        "singular": "Bulk",
+        "plural": "Bulk",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "approval": {
+        "original": "Approval",
+        "singular": "Approval",
+        "plural": "Approvals",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "tooltips": {

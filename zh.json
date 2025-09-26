@@ -10455,6 +10455,20 @@
         "plural": "请求的日期和时间",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "bulk": {
+        "original": "Bulk",
+        "singular": "批量",
+        "plural": "批量",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "approval": {
+        "original": "Approval",
+        "singular": "审批",
+        "plural": "审批",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "tooltips": {
