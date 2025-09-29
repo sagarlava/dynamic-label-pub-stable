@@ -1445,6 +1445,27 @@
         "plural": "Transferencias Pendientes de Aprobación",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "binLocationUpdate": {
+        "original": "Bin Location Update",
+        "singular": "Actualizar ubicación de contenedor",
+        "plural": "Actualizar ubicaciones de contenedor",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "binLocationChange": {
+        "original": "Bin Location Change",
+        "singular": "Cambiar ubicación de contenedor",
+        "plural": "Cambiar ubicaciones de contenedor",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "binLocationRemove": {
+        "original": "Bin Location Remove",
+        "singular": "Eliminar ubicación de contenedor",
+        "plural": "Eliminar ubicaciones de contenedor",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "messages": {
@@ -1477,7 +1498,9 @@
         "wouldYouAlsoLikeToUpdate": "¿También deseas actualizar los campos correspondientes en los componentes de este activo?",
         "respectiveFieldsOverridden": "Los campos correspondientes en el componente se sobrescribirán si se selecciona arriba",
         "youCanCheckOnceOneFilterSelected": "Solo puedes marcar esto cuando hayas seleccionado al menos un filtro. Todos los activos filtrados serán seleccionados. Nota: Solo se pueden exportar 500 activos a la vez.",
-        "alsoUpdateComponentStatus": "También actualizar los estados de los componentes"
+        "alsoUpdateComponentStatus": "También actualizar los estados de los componentes",
+        "wouldYouAlsoUpdateFields": "¿También desea actualizar los campos correspondientes en este",
+        "component": "componente"
     },
     "emptyPage":{
       "getStartedWithAsset": "Comienza con los activos",

@@ -1445,6 +1445,27 @@
         "plural": "Pemindahan Menunggu Kelulusan",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "binLocationUpdate": {
+        "original": "Bin Location Update",
+        "singular": "Kemas Kini Lokasi Bin",
+        "plural": "Kemas Kini Lokasi Bin",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "binLocationChange": {
+        "original": "Bin Location Change",
+        "singular": "Tukar Lokasi Bin",
+        "plural": "Tukar Lokasi Bin",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "binLocationRemove": {
+        "original": "Bin Location Remove",
+        "singular": "Alih Keluar Lokasi Bin",
+        "plural": "Alih Keluar Lokasi Bin",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "messages": {
@@ -1477,7 +1498,9 @@
         "wouldYouAlsoLikeToUpdate": "Adakah anda juga ingin mengemas kini medan berkaitan dalam komponen aset ini?",
         "respectiveFieldsOverridden": "Medan berkaitan dalam komponen akan ditimpa jika dipilih di atas",
         "youCanCheckOnceOneFilterSelected": "Anda hanya boleh semak ini apabila anda telah memilih sekurang-kurangnya satu penapis. Semua aset yang ditapis akan dipilih. Nota: Hanya 500 aset boleh dieksport pada satu masa.",
-        "alsoUpdateComponentStatus": "Juga kemas kini status komponen"
+        "alsoUpdateComponentStatus": "Juga kemas kini status komponen",
+        "wouldYouAlsoUpdateFields": "Adakah anda juga mahu mengemas kini medan berkaitan dalam",
+        "component": "komponen"
     },
     "emptyPage":{
       "getStartedWithAsset":"Mulakan Dengan Aset",

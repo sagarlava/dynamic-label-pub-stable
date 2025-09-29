@@ -1445,6 +1445,27 @@
         "plural": "Pending Approval Transfer",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "binLocationUpdate": {
+        "original": "Bin Location Update",
+        "singular": "Bin Location Update",
+        "plural": "Bin Location Update",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "binLocationChange": {
+        "original": "Bin Location Change",
+        "singular": "Bin Location Change",
+        "plural": "Bin Location Change",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "binLocationRemove": {
+        "original": "Bin Location Remove",
+        "singular": "Bin Location Remove",
+        "plural": "Bin Location Remove",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "messages": {
@@ -1477,7 +1498,9 @@
         "wouldYouAlsoLikeToUpdate": "Would you also like to update the respective fields in this asset’s components?",
         "respectiveFieldsOverridden":"The respective fields in the component will be overridden if selected above",
         "youCanCheckOnceOneFilterSelected":"You can only check this when you have selected at least one filter. All filtered assets will be selected. Note: Only 500 assets can be exported at a time.",
-        "alsoUpdateComponentStatus":"Also update component statuses"
+        "alsoUpdateComponentStatus":"Also update component statuses",
+        "wouldYouAlsoUpdateFields":"Would you also like up to update the respective fields in this",
+        "component":"component"
     },
     "emptyPage":{
       "getStartedWithAsset":"Get Started With Assets",
