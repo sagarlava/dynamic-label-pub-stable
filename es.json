@@ -14214,7 +14214,14 @@
         "plural": "Aprobaciones en bloque",
         "setupEdit": false,
         "setupVisible": false
-      }	
+      },
+      "clearFilter": {
+        "original": "Clear Filters",
+        "singular": "Borrar filtro",
+        "plural": "Borrar filtros",
+        "setupEdit": false,
+        "setupVisible": false
+      }
     },
     "status": {
       "setupVisible": false,
