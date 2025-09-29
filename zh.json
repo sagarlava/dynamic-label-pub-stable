@@ -14804,6 +14804,13 @@
         "plural": "批量批准",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "clearFilter": {
+        "original": "Clear Filters",
+        "singular": "清除筛选器",
+        "plural": "清除筛选器",
+        "setupEdit": false,
+        "setupVisible": false
       }	
     },
     "status": {

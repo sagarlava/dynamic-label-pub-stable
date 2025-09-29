@@ -14804,6 +14804,13 @@
         "plural": "Bulk Approve",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "clearFilter": {
+        "original": "Clear Filters",
+        "singular": "Clear Filter",
+        "plural": "Clear Filters",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "status": {

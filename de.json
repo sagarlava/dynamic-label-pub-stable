@@ -14622,6 +14622,13 @@
         "plural": "Sammelgenehmigungen",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "clearFilter": {
+        "original": "Clear Filters",
+        "singular": "Filter löschen",
+        "plural": "Filter löschen",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "status": {
