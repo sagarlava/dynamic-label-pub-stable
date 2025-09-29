@@ -1465,7 +1465,9 @@
         "wouldYouAlsoLikeToUpdate": "您是否还要更新此资产组件中的相关字段？",
         "respectiveFieldsOverridden": "如果在上方选择，相应的组件字段将被覆盖",
         "youCanCheckOnceOneFilterSelected": "只有在选择至少一个筛选条件后才能勾选此项。所有已筛选的资产将被选中。注意：一次最多只能导出500个资产。",
-        "alsoUpdateComponentStatus": "同时更新组件状态"
+        "alsoUpdateComponentStatus": "同时更新组件状态",
+        "wouldYouAlsoUpdateFields": "您是否还要更新此中的相应字段",
+        "component": "组件"
     }
   },
   "analytic": {

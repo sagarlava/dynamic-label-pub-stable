@@ -1465,7 +1465,9 @@
         "wouldYouAlsoLikeToUpdate": "Möchten Sie auch die entsprechenden Felder in den Komponenten dieses Assets aktualisieren?",
         "respectiveFieldsOverridden": "Die entsprechenden Felder in der Komponente werden überschrieben, wenn oben ausgewählt",
         "youCanCheckOnceOneFilterSelected": "Sie können dies nur auswählen, wenn Sie mindestens einen Filter ausgewählt haben. Alle gefilterten Assets werden ausgewählt. Hinweis: Es können jeweils nur 500 Assets exportiert werden.",
-        "alsoUpdateComponentStatus": "Komponentenstatus ebenfalls aktualisieren"
+        "alsoUpdateComponentStatus": "Komponentenstatus ebenfalls aktualisieren",
+        "wouldYouAlsoUpdateFields": "Möchten Sie auch die entsprechenden Felder in diesem aktualisieren",
+        "component": "Komponente"
     }
   },
   "analytic": {
