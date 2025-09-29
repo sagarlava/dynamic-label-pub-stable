@@ -1433,6 +1433,27 @@
         "plural": "待审批转移",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "binLocationUpdate": {
+        "original": "Bin Location Update",
+        "singular": "更新库位",
+        "plural": "更新库位",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "binLocationChange": {
+        "original": "Bin Location Change",
+        "singular": "更改库位",
+        "plural": "更改库位",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "binLocationRemove": {
+        "original": "Bin Location Remove",
+        "singular": "移除库位",
+        "plural": "移除库位",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "messages": {

@@ -1433,6 +1433,27 @@
         "plural": "Ausstehende Genehmigungsübertragungen",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "binLocationUpdate": {
+        "original": "Bin Location Update",
+        "singular": "Ablageort aktualisieren",
+        "plural": "Ablageorte aktualisieren",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "binLocationChange": {
+        "original": "Bin Location Change",
+        "singular": "Ablageort ändern",
+        "plural": "Ablageorte ändern",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "binLocationRemove": {
+        "original": "Bin Location Remove",
+        "singular": "Ablageort entfernen",
+        "plural": "Ablageorte entfernen",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "messages": {

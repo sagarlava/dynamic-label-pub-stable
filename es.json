@@ -1433,6 +1433,27 @@
         "plural": "Transferencias Pendientes de Aprobación",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "binLocationUpdate": {
+        "original": "Bin Location Update",
+        "singular": "Actualizar ubicación de contenedor",
+        "plural": "Actualizar ubicaciones de contenedor",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "binLocationChange": {
+        "original": "Bin Location Change",
+        "singular": "Cambiar ubicación de contenedor",
+        "plural": "Cambiar ubicaciones de contenedor",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "binLocationRemove": {
+        "original": "Bin Location Remove",
+        "singular": "Eliminar ubicación de contenedor",
+        "plural": "Eliminar ubicaciones de contenedor",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "messages": {
