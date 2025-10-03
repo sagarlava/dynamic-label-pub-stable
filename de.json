@@ -443,15 +443,15 @@
         "setupVisible": true
       },
       "sec1": {
-        "original": "Ownership & Location",
-        "singular": "Eigentum & Standort",
+        "original": "Hierarchy and Classification",
+        "singular": "Hierarchie und Klassifizierung",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "sec2": {
-        "original": "Coverage Period & Acquisition",
-        "singular": "Deckungszeitraum & Anschaffung",
+        "original": "Coverage Period",
+        "singular": "Deckungszeitraum",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
@@ -572,6 +572,20 @@
         "original": "QR Codes",
         "singular": "QR-Codes",
         "plural": "QR-Codes",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec20": {
+        "original": "Components",
+        "singular": "Komponente",
+        "plural": "Komponenten",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec21": {
+        "original": "Meters",
+        "singular": "Zähler",
+        "plural": "Zähler",
         "setupEdit": false,
         "setupVisible": false
       }
@@ -713,8 +727,8 @@
         "setupVisible": false
       },
       "acquisitionDate": {
-        "original": "Acquisition Date",
-        "singular": "Erwerbsdatum",
+        "original": "Purchase Date",
+        "singular": "Kaufdatum",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
@@ -1089,6 +1103,34 @@
         "plural": "Marke",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "createDate": {
+        "original": "Create Date",
+        "singular": "Erstellungsdatum",
+        "plural": "Erstellungsdatum",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "numberAssetSelected":{
+        "original": "assets have been selected",
+        "singular": "Asset wurde ausgewählt",
+        "plural": "Assets wurden ausgewählt",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "latest": {
+        "original": "Latest",
+        "singular": "Neueste",
+        "plural": "Neueste",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "reading": {
+        "original": "Reading",
+        "singular": "Messwert",
+        "plural": "Messwerte",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "validationFE": {
@@ -1384,6 +1426,34 @@
         "plural": "Ermöglicht dem Benutzer, ein anderes Asset als übergeordnetes Element für dieses Asset zuzuweisen.",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "pendingApprovalTransfer": {
+        "original": "Pending Approval Transfer",
+        "singular": "Ausstehende Genehmigungsübertragung",
+        "plural": "Ausstehende Genehmigungsübertragungen",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "binLocationUpdate": {
+        "original": "Bin Location Update",
+        "singular": "Ablageort aktualisieren",
+        "plural": "Ablageorte aktualisieren",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "binLocationChange": {
+        "original": "Bin Location Change",
+        "singular": "Ablageort ändern",
+        "plural": "Ablageorte ändern",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "binLocationRemove": {
+        "original": "Bin Location Remove",
+        "singular": "Ablageort entfernen",
+        "plural": "Ablageorte entfernen",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "messages": {
@@ -1404,7 +1474,21 @@
         "logs": "Protokolle",
       "showUpdatesRelated":"Zeige Updates zu:",
         "filterSelectAsset":"Filtern und wählen Sie die Assets aus, für die Sie QR-Codes exportieren möchten",
-        "exportQrForAll":"QR-Codes auch für alle Komponenten exportieren"
+        "exportQrForAll":"QR-Codes auch für alle Komponenten exportieren",
+        "exportQrSettings":"QR-Einstellungen exportieren",
+        "selectQrCodeSize":"QR-Code-Größe auswählen",
+        "selectFileFormat":"Dateiformat auswählen",
+        "uncheckSelectAll":"Deaktivieren Sie „Alle auswählen“, um die gesamte Liste erneut anzuzeigen",
+        "addComponents": "Komponenten hinzufügen",
+        "selectComponentsToAdd": "Wähle die Komponenten aus, die du zu diesem Asset hinzufügen möchtest",
+        "updateFieldsOfComponents": "Aktualisiere die Felder der Komponenten, um sie dem übergeordneten Asset anzupassen.",
+        "someComponentsSelected":"Einige der von Ihnen ausgewählten Komponenten gehören bereits zu einem übergeordneten Asset. Wenn Sie fortfahren, wird ihr übergeordnetes Asset geändert zu",
+        "wouldYouAlsoLikeToUpdate": "Möchten Sie auch die entsprechenden Felder in den Komponenten dieses Assets aktualisieren?",
+        "respectiveFieldsOverridden": "Die entsprechenden Felder in der Komponente werden überschrieben, wenn oben ausgewählt",
+        "youCanCheckOnceOneFilterSelected": "Sie können dies nur auswählen, wenn Sie mindestens einen Filter ausgewählt haben. Alle gefilterten Assets werden ausgewählt. Hinweis: Es können jeweils nur 500 Assets exportiert werden.",
+        "alsoUpdateComponentStatus": "Komponentenstatus ebenfalls aktualisieren",
+        "wouldYouAlsoUpdateFields": "Möchten Sie auch die entsprechenden Felder in diesem aktualisieren",
+        "component": "Komponente"
     }
   },
   "analytic": {
@@ -3612,6 +3696,49 @@
       "totalAmount": "Gesamtbetrag",
        "groupByTask": "Gruppieren nach Aufgabe",
       "deleteTaskTemplateRemoveSpareParts":"Das Löschen dieser Aufgaben-Vorlage entfernt auch alle zugehörigen Ersatzteile"
+    }
+  },
+  "usage":{
+    "setupVisible": false,
+    "setupEdit": false,
+    "label": {
+      "original": "Usage",
+      "singular": "Nutzung",
+      "plural": "Nutzungen",
+      "setupEdit": false,
+      "setupVisible": false
+    },
+    "fields":{
+      "setupVisible": false,
+      "setupEdit": false,
+      "name":{
+        "original": "Name",
+        "singular": "Name",
+        "plural": "Namen",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "qtyUsed":{
+        "original": "Qty Used",
+        "singular": "Verwendete Menge",
+        "plural": "Verwendete Mengen",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "usedBy":{
+        "original": "Used By",
+        "singular": "Verwendet von",
+        "plural": "Verwendet von",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "usageDate":{
+        "original": "Usage Date",
+        "singular": "Nutzungsdatum",
+        "plural": "Nutzungsdaten",
+        "setupEdit": false,
+        "setupVisible": false
+      }
     }
   },
   "task": {
@@ -9669,6 +9796,13 @@
         "original": "Transferred Items",
         "singular": "Übertragene Artikel",
         "plural": "Übertragene Artikel",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec4": {
+        "original": "Items in",
+        "singular": "Artikel im",
+        "plural": "Artikel im",
         "setupEdit": true,
         "setupVisible": true
       }
@@ -9826,6 +9960,13 @@
         "original": "Display Name",
         "singular": "Anzeigename",
         "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "shortCode": {
+        "original": "Short Code",
+        "singular": "Kurzcode",
+        "plural": "Kurzcodes",
         "setupEdit": true,
         "setupVisible": true
       }
@@ -10019,7 +10160,21 @@
         "plural": "Zusätzliche Details",
         "setupEdit": false,
         "setupVisible": false
-      }
+    },
+    "sec23": {
+      "original": "Approval Details",
+      "singular": "Genehmigungsdetail",
+      "plural": "Genehmigungsdetails",
+      "setupEdit": false,
+      "setupVisible": false
+    },
+    "sec24": {
+      "original": "Details",
+      "singular": "Detail",
+      "plural": "Details",
+      "setupEdit": false,
+      "setupVisible": false
+    }
   },
   "fields": {
     "setupVisible": false,
@@ -10281,12 +10436,75 @@
       "plural": "",
       "setupEdit": false,
       "setupVisible": false
+    },
+    "includeChildAsset": {
+      "original": "Include Child Assets",
+      "singular": "Untergeordnete Assets einbeziehen",
+      "plural": "",
+      "setupEdit": false,
+      "setupVisible": false
+    },
+    "requestSentTo": {
+      "original": "Request Sent To",
+      "singular": "Anfrage gesendet an",
+      "plural": "Anfragen gesendet an",
+      "setupEdit": false,
+      "setupVisible": false
+    },
+    "requestedBy": {
+      "original": "Requested By",
+      "singular": "Angefordert von",
+      "plural": "Angefordert von",
+      "setupEdit": false,
+      "setupVisible": false
+    },
+    "requestDate": {
+      "original": "Request Date",
+      "singular": "Anfragedatum",
+      "plural": "Anfragedaten",
+      "setupEdit": false,
+      "setupVisible": false
+    },
+    "to": {
+        "original": "To",
+        "singular": "An",
+        "plural": "An",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+    "requestedDateTime": {
+      "original": "Requested Date & Time",
+      "singular": "Angefordertes Datum & Uhrzeit",
+      "plural": "Angeforderte Daten & Uhrzeiten",
+      "setupEdit": false,
+      "setupVisible": false
+    },
+    "bulk": {
+      "original": "Bulk",
+      "singular": "Sammel",
+      "plural": "Sammel",
+      "setupEdit": false,
+      "setupVisible": false
+    },
+    "approval": {
+      "original": "Approval",
+      "singular": "Genehmigung",
+      "plural": "Genehmigungen",
+      "setupEdit": false,
+      "setupVisible": false
     }
   },
   "tooltips": {
     "binLookup": {
       "original": "Bin Lookup",
       "singular": "Lager Suche",
+      "plural": "",
+      "setupEdit": false,
+      "setupVisible": false
+    },
+    "includeChildAsset": {
+      "original": "Includes child assets of selected assets in the transfer. Only child assets in the same bin as their parent will be included.",
+      "singular": "Beinhaltet untergeordnete Assets der ausgewählten Assets im Transfer. Es werden nur untergeordnete Assets einbezogen, die sich im selben Bin wie ihr übergeordnetes Asset befinden",
       "plural": "",
       "setupEdit": false,
       "setupVisible": false
@@ -10300,7 +10518,8 @@
       "oneSelectionToProceed":"Wählen Sie mindestens eine Option aus, um fortzufahren",
       "exceededTotalSerialNoAdded":"Sie haben die maximale Anzahl an Seriennummern überschritten, die auf einmal hinzugefügt werden können. Bitte geben Sie nur bis zu 50 Seriennummern ein.",
       "assetHasBeenSelected":"Dieses Asset wurde bereits ausgewählt, bitte wählen Sie ein anderes Asset.",
-      "selectBinToProceed":"Wählen Sie einen Behälter, um fortzufahren"
+      "selectBinToProceed":"Wählen Sie einen Behälter, um fortzufahren",
+      "noSparePartFoundSKU": "Kein Ersatzteil mit dieser SKU gefunden"
   },
   "validationBE": {
     "binTransferIdExists": "Eine neue Lagerübertragung kann nicht bereits eine ID haben",
@@ -10376,7 +10595,7 @@
     "selectSparePartsToBeTransferred":"Wählen Sie die zu übertragenden Ersatzteile aus",
     "selectBinTransferSparePartFrom":"Wählen Sie den Behälter aus, aus dem Sie Ersatzteile übertragen möchten",
     "selectBinToTransferSpareParts":"Wählen Sie den Behälter aus, in den Sie die Ersatzteile übertragen möchten",
-    "specifySparePartQuantity":"Sie können die Menge der Ersatzteile im nächsten Schritt angeben",
+    "specifySparePartQuantity":"Sie können die Menge der Ersatzteile im nächsten Schritt angeben.",
     "addQuantitiesTransferred":"Fügen Sie die zu übertragenden Mengen hinzu",
     "enterSerialNumberHere":"Geben Sie hier die Seriennummern ein. Eg. 128371253ABC",
     "enterSKUHere":"Geben Sie hier die SKUs ein. Eg. 128371253ABC",
@@ -10384,7 +10603,12 @@
     "selectedBinNoLongerContains":"Der ausgewählte Behälter enthält die folgenden Artikel nicht mehr",
     "needTransferItemManually":"Sie müssen diese Artikel manuell auswählen und übertragen. Die anderen ausgewählten Artikel werden übertragen.",
     "transferCannotContinue":"Die Übertragung kann nicht fortgesetzt werden, da der ausgewählte Behälter die folgenden Artikel nicht mehr enthält",
-      "aBinTransferInitiate":"Ein Behälterübertragungsdatensatz wird für die genehmigten Artikel erstellt. Möchten Sie diesen Behältertransfer wirklich starten?"
+      "aBinTransferInitiate":"Ein Behälterübertragungsdatensatz wird für die genehmigten Artikel erstellt. Möchten Sie diesen Behältertransfer wirklich starten?",
+      "max50SerialNumbers":"Sie können maximal 50 Seriennummern/SKUs eingeben.",
+      "selectedAssetManagedBySameGroup": "Ausgewählte Assets müssen aus Behälter stammen, die von derselben Benutzergruppe verwaltet werden",
+      "selectedSparePartsManagedBySameGroup": "Ausgewählte Ersatzteile müssen aus Bins stammen, die von derselben Benutzergruppe verwaltet werden",
+      "quantityTransferExceedsStock": "Die zu übertragende Menge überschreitet den verfügbaren Bestand in den markierten Feldern. Reduzieren Sie die Menge, um fortzufahren.",
+    "areYouSureYouWantToProceed": "Sind Sie sicher, dass Sie mit dem Vorgang fortfahren möchten"
   }
 },
   "checkAvailibility": {
@@ -13096,9 +13320,9 @@
         "setupVisible": false
       },
       "checkAvailability": {
-        "original": "Check availability",
+        "original": "Check Availability",
         "singular": "Verfügbarkeit Prüfen",
-        "plural": "",
+        "plural": "Verfügbarkeit Prüfen",
         "setupEdit": true,
         "setupVisible": false
       },
@@ -13976,7 +14200,28 @@
         "plural": "Enterprise",
         "setupEdit": false,
         "setupVisible": false
-      }			
+      },
+      "selectAll": {
+        "original": "Select All",
+        "singular": "Alle auswählen",
+        "plural": "Alle auswählen",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "bulkApprove": {
+        "original": "Bulk Approve",
+        "singular": "Sammelgenehmigung",
+        "plural": "Sammelgenehmigungen",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "clearFilter": {
+        "original": "Clear Filters",
+        "singular": "Filter löschen",
+        "plural": "Filter löschen",
+        "setupEdit": false,
+        "setupVisible": false
+      }
     },
     "status": {
       "setupVisible": false,
@@ -14705,7 +14950,9 @@
       "tip":"Tipp",
       "tips":"Tipps",
       "makeFilterSelections":"Treffen Sie Filterauswahlen, um Assets zu finden",
-      "confirmation":"Bestätigung"
+      "confirmation":"Bestätigung",
+      "makeFilterSelectionsCheckAvail":"Treffen Sie Filterauswahlen, um die Verfügbarkeit zu prüfen",
+      "updateConfirmation":"Aktualisierungsbestätigung"
     },
     "currency": {
       "australianDollar": "AUD",
@@ -21026,6 +21273,93 @@
         "validationFE": {},
         "messages": {
           "partUpdatedSuccessfully": "Teil erfolgreich aktualisiert"
+        }
+      },
+      "meter":{
+        "setupEdit": false,
+        "setupVisible": false,
+        "label":{
+          "original": "Meters",
+          "singular": "Zähler", 
+          "plural": "Zähler",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "sections":{
+          "setupEdit": false,
+          "setupVisible": false,
+          "sec0":{
+            "original": "Meter Details",
+            "singular": "Zählerdetails", 
+            "plural": "Zählerdetails",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec1":{
+            "original": "Asset Types",
+            "singular": "Asset-Typ", 
+            "plural": "Asset-Typen",
+            "setupEdit": false,
+            "setupVisible": false
+          }
+        },
+        "fields":{
+          "setupEdit": false,
+          "setupVisible": false,
+          "name":{
+            "original": "Name",
+            "singular": "Name", 
+            "plural": "Namen",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "type":{
+            "original": "Type",
+            "singular": "Typ", 
+            "plural": "Typen",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "unitOfMeasurement":{
+            "original": "Unit of Measurement",
+            "singular": "Maßeinheit", 
+            "plural": "Maßeinheiten",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "readingSource":{
+            "original": "Reading Source",
+            "singular": "Messquelle", 
+            "plural": "Messquellen",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "allTypes":{
+            "original": "All Types",
+            "singular": "Alle Typen", 
+            "plural": "Alle Typen",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "includeMeterForType":{
+            "original": "Include this meter for assets of types",
+            "singular": "Diesen Zähler für Assets des Typs einbeziehen", 
+            "plural": "Diesen Zähler für Assets der Typen einbeziehen",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "applyToExisting":{
+            "original": "Apply to all existing",
+            "singular": "Auf alle bestehenden anwenden", 
+            "plural": "Auf alle bestehenden anwenden",
+            "setupEdit": false,
+            "setupVisible": false
+          }
+        },
+        "messages":{
+          "selectType": "Typ auswählen",
+          "selectSource": "Quelle auswählen",
+          "chooseAssetTypes": "Wählen Sie die Asset-Typen, für die dieser Zähler gelten soll. Jedes Asset des ausgewählten Typs enthält automatisch diesen Zähler."
         }
       }
     },
