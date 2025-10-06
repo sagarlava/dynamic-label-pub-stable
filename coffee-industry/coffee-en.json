@@ -1,0 +1,1693 @@
+{
+  "asset": {
+    "setupVisible": true,
+    "setupEdit": true,
+    "label": {
+      "original": "Asset",
+      "singular": "Asset",
+      "plural": "Assets",
+      "setupEdit": true,
+      "setupVisible": true
+    },
+    "sections": {
+      "setupVisible": true,
+      "setupEdit": true,
+      "sec0": {
+        "original": "General Details",
+        "singular": "General Details",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "sec1": {
+        "original": "Hierarchy and Classification",
+        "singular": "Hierarchy and Classification",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "sec2": {
+        "original": "Coverage Period",
+        "singular": "Coverage & Acquisition",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "sec3": {
+        "original": "Equipment Details",
+        "singular": "Equipment Details",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "sec4": {
+        "original": "Additional Details",
+        "singular": "Additional Details",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "sec5": {
+        "original": "Overview",
+        "singular": "Overview",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec6": {
+        "original": "Timeline",
+        "singular": "Timeline",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec7": {
+        "original": "Current Meter Reading",
+        "singular": "Current Meter Reading",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec8": {
+        "original": "Current Contract",
+        "singular": "Current Contract",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec9": {
+        "original": "QR/Barcode",
+        "singular": "QR/Barcode",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec10": {
+        "original": "Filter By",
+        "singular": "Filter By",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec11": {
+        "original": "Details",
+        "singular": "Details",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec12": {
+        "original": "Accessory Details",
+        "singular": "Accessory Details",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec13": {
+        "original": "Asset Log",
+        "singular": "Asset Log",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec14": {
+        "original": "Log Details",
+        "singular": "Log Details",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec15": {
+        "original": "New Entry",
+        "singular": "New Entry",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec16": {
+        "original": "Asset Details",
+        "singular": "Asset Details",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec17": {
+        "original": "Change Status",
+        "singular": "Change Status",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec18": {
+        "original": "Location Details",
+        "singular": "Location Details",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "sec19": {
+        "original": "QR Codes",
+        "singular": "QR Codes",
+        "plural": "QR Codes",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec20": {
+        "original": "Components",
+        "singular": "Component",
+        "plural": "Components",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec21": {
+        "original": "Meters",
+        "singular": "Meter",
+        "plural": "Meters",
+        "setupEdit": false,
+        "setupVisible": false
+      }
+    },
+    "fields": {
+      "category": {
+        "original": "Category",
+        "singular": "Category",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "subCategory": {
+        "original": "Sub Category",
+        "singular": "Sub Category",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "setupVisible": true,
+      "setupEdit": true,
+      "type": {
+        "original": "Type",
+        "singular": "Type",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "equipmentNumber": {
+        "original": "Equipment Number",
+        "singular": "Equipment Number",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "code": {
+        "original": "Code",
+        "singular": "Code",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "engineNumberOne": {
+        "original": "Engine Number 1",
+        "singular": "Boiler Serial No.",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "engineNumberTwo": {
+        "original": "Engine Number 2",
+        "singular": "Secondary Serial No.",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "extId": {
+        "original": "External ID",
+        "singular": "External ID",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "assetName": {
+        "original": "Asset Name",
+        "singular": "Asset Name",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "name": {
+        "original": "Name",
+        "singular": "Name",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "status": {
+        "original": "Status",
+        "singular": "Condition",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "serialNo": {
+        "original": "Serial No",
+        "singular": "Serial No",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "serialNumber": {
+        "original": "Serial Number",
+        "singular": "Serial Number",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "assetCode": {
+        "original": "Asset Code",
+        "singular": "Asset Code",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "description": {
+        "original": "Description",
+        "singular": "Description",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "photo": {
+        "original": "Photo",
+        "singular": "Photo",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "custodian": {
+        "original": "Custodian",
+        "singular": "Custodian",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "warrantyStartDate": {
+        "original": "Warranty Start Date",
+        "singular": "Warranty Start Date",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "warrantyEndDate": {
+        "original": "Warranty End Date",
+        "singular": "Warranty End Date",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "acquisitionDate": {
+        "original": "Purchase Date",
+        "singular": "Purchase Date",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "equipmentType": {
+        "original": "Equipment Type",
+        "singular": "Equipment Type",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "engineMake": {
+        "original": "Engine Make",
+        "singular": "Boiler Make / Heating System",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "manufacturer": {
+        "original": "Manufacturer",
+        "singular": "Manufacturer",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "engineModel": {
+        "original": "Engine Model",
+        "singular": "Boiler Model / Heating Model",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "makeModel": {
+        "original": "Make/Model",
+        "singular": "Make/Model",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "engineNumber": {
+        "original": "Engine Number",
+        "singular": "Engine Number",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "manufacturerYear": {
+        "original": "Manufacture Year",
+        "singular": "Manufacture Year",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "note": {
+        "original": "Note",
+        "singular": "Note",
+        "plural": "Notes",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "upcoming": {
+        "original": "Upcoming",
+        "singular": "Upcoming",
+        "plural": "Upcoming",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "lastCompleted": {
+        "original": "Last Completed",
+        "singular": "Last Completed",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "next": {
+        "original": "Next",
+        "singular": "Next",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "finish": {
+        "original": "Finish",
+        "singular": "Finish",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "next30Days": {
+        "original": "Next 30 Days",
+        "singular": "Next 30 Days",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "overdue": {
+        "original": "Overdue",
+        "singular": "Overdue",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "dueOn": {
+        "original": "Due on",
+        "singular": "Due on",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "expiresIn": {
+        "original": "Expires in",
+        "singular": "Expires in",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "latestActiveContract": {
+        "original": "Latest Active Contract",
+        "singular": "Latest Active Contract",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "updatedBy": {
+        "original": "Updated by",
+        "singular": "Updated by",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "transferredBy": {
+        "original": "Transferred By",
+        "singular": "Transferred By",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "assetId": {
+        "original": "Asset ID",
+        "singular": "Asset ID",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "nextMaintenanceDate": {
+        "original": "Next Maintenance Date",
+        "singular": "Next Maintenance Date",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "maintenanceStatus": {
+        "original": "Maintenance Status",
+        "singular": "Maintenance Status",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "nextMaintenanceType": {
+        "original": "Next Maintenance Type",
+        "singular": "Next Maintenance Type",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "minorMajorServiceFrequency": {
+        "original": "Minor/Major Service Frequency(Months)",
+        "singular": "Minor/Major Service Frequency(Months)",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "majorServiceFrequency": {
+        "original": "Major Service Frequency(Months)",
+        "singular": "Major Service Frequency(Months)",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "minorServiceFrequency": {
+        "original": "Minor Service Frequency(Months)",
+        "singular": "Minor Service Frequency(Months)",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "accessory": {
+        "original": "Accessory",
+        "singular": "Accessory",
+        "plural": "Accessories",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "accessoryNo": {
+        "original": "Accessory No.",
+        "singular": "Accessory No.",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "currentReading": {
+        "original": "Current Meter Reading",
+        "singular": "Current Meter Reading",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "logDateTime": {
+        "original": "Log Date & Time",
+        "singular": "Log Date & Time",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "modifiedDateTime": {
+        "original": "Modified Date & Time",
+        "singular": "Modified Date & Time",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "newValue": {
+        "original": "New Value",
+        "singular": "New Value",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "oldValue": {
+        "original": "Old Value",
+        "singular": "Old Value",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "newMeterReading": {
+        "original": "New Meter Reading",
+        "singular": "New Meter Reading",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "allAsset": {
+        "original": "All Assets",
+        "singular": "All Asset",
+        "plural": "All Assets",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "assetsByCustomer": {
+        "original": "Assets by Customer",
+        "singular": "Assets by Customer",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "day": {
+        "original": "day",
+        "singular": "day",
+        "plural": "days",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "assetNo": {
+        "original": "Asset No.",
+        "singular": "Asset No.",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "allAssets": {
+        "original": "All Assets",
+        "singular": "All Asset",
+        "plural": "All Assets",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "groupByParent": {
+        "original": "Group by Parent",
+        "singular": "Group by Parent",
+        "plural": "Group by Parent",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "assetsByParent": {
+        "original": "Assets by Parent",
+        "singular": "Assets by Parent",
+        "plural": "Assets by Parent",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "parent": {
+        "original": "Parent",
+        "singular": "Parent",
+        "plural": "Parents",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "pendingTransfer": {
+        "original": "Pending Transfers",
+        "singular": "Pending Transfer",
+        "plural": "Pending Transfers",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "group": {
+        "original": "Group",
+        "singular": "Group",
+        "plural": "Group",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "classification": {
+        "original": "Classification",
+        "singular": "Classification",
+        "plural": "Classification",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "offlineSince": {
+        "original": "Offline Since",
+        "singular": "Offline Since",
+        "plural": "Offline Since",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "model": {
+        "original": "Model",
+        "singular": "Model",
+        "plural": "Model",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "createdDate": {
+        "original": "Created Date",
+        "singular": "Created Date",
+        "plural": "Created Date",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "chooseFileFormat": {
+        "original": "Choose File Format",
+        "singular": "Choose File Format",
+        "plural": "Choose File Format",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "setQrCodeSize": {
+        "original": "Set QR Code Size",
+        "singular": "Set QR Code Size",
+        "plural": "Set QR Code Size",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "selectPageLayout": {
+        "original": "Select Page Layout",
+        "singular": "Select Page Layout",
+        "plural": "Select Page Layout",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "installationDate": {
+        "original": "Installation Date",
+        "singular": "Installation Date",
+        "plural": "Installation Date",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "brand": {
+        "original": "Brand",
+        "singular": "Brand",
+        "plural": "Brand",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "createDate": {
+        "original": "Create Date",
+        "singular": "Create Date",
+        "plural": "Create Date",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "numberAssetSelected": {
+        "original": "assets have been selected",
+        "singular": "asset have been selected",
+        "plural": "assets have been selected",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "latest": {
+        "original": "Latest",
+        "singular": "Latest",
+        "plural": "Latest",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "reading": {
+        "original": "Reading",
+        "singular": "Reading",
+        "plural": "Reading",
+        "setupEdit": false,
+        "setupVisible": false
+      }
+    },
+    "validationFE": {
+      "warrantyEndDateAfterStartDate": "Warranty End Date must be after the Start Date.",
+      "serialNumberMustBeUnique": "Serial Number must be unique. The entered value is already in use.",
+      "serialNumberContain": "Serial Number must be contain only letters and numbers.",
+      "temporarySerialNumberGenerationFailed": "Temporary Serial Number generation failed. Please try again.",
+      "warrantyEndDateMustBeGreater": "Warranty end date must be greater than the start date",
+      "warrantyStartDateMustBeEarlier": "Warranty start date should be earlier than the end date"
+    },
+    "validationBE": {
+      "assetIdNotFound": "Id not found",
+      "assetIdExidNotFound": "Id/AssetExternalId not found",
+      "assetNotFound": "Assets not found",
+      "assetConditionNotFound": "Condition not found",
+      "assetHasStockHistory": "Stock History Data exists in the system for the Assets",
+      "assetIdExists": "A new asset cannot already have an ID",
+      "assetSerialIdExists": "Serial No. already exists in the system",
+      "assetExidExists": "Assets External Id already exists in the system",
+      "assetHasContracts": "Contract Data exists in the system for the Assets",
+      "assetHasMaintenance": "Maintenance Data exists in the system for the Assets",
+      "assetHasFaultMapping": "Fault Mapping Data exists in the system for the Assets",
+      "assetHasResolutionMapping": "Resolution Mapping Data exists in the system for the Assets",
+      "assetHasTicket": "Ticket Data exists in the system for the Assets",
+      "assetHasInventory": "Inventory Data exists in the system for the Assets",
+      "assetHasConsignment": "Consignment Data exists in the system for the Assets",
+      "assetHasRequisition": "Requisition Data exists in the system for the Assets",
+      "assetHasBinInventory": "Bin Inventory Data exists in the system for the Assets",
+      "assetHasMachineSpecialist": "Machine Specialist Data exists in the system for the Assets",
+      "assetTableSetupNotFound": "Assets Table Setup not found, please contact support",
+      "assetCustomerNotFound": "Assets customer not found",
+      "assetServiceZoneNotFound": "Assets service zone not found",
+      "assetProductNotFound": "Assets Spare Part not found",
+      "assetTypeNotFound": "Assets type not found",
+      "assetStatusNotFound": "Assets status not found",
+      "assetProjectNotFound": "Assets project not found",
+      "assetBuildingNotFound": "Assets building not found",
+      "assetFloorNotFound": "Assets floor not found",
+      "assetRoomNotFound": "Assets room not found",
+      "assetCustodianNotFound": "Assets custodian not found",
+      "assetSiteNotFound": "Assets site not found",
+      "assetCategoryNotFound": "Assets category not found",
+      "assetSubCategoryNotFound": "Assets sub category not found",
+      "assetCategoryExists": "Asset Category already exists",
+      "assetCategorySystemGenerated": "System generated Asset Category are not allowed to be deleted",
+      "assetCategoryCannotDeleteByAssetSubCategory": "Unable to delete: Asset Category is used in one or more Asset Sub Category",
+      "assetSubCategoryExists": "Asset Sub Category already exists",
+      "assetSubCategorySystemGenerated": "System generated Asset Sub Category are not allowed to be deleted",
+      "assetCategoryIdExists": "A new Asset Category cannot already have an ID",
+      "assetSubCategoryIdExists": "A new Asset Sub Category cannot already have an ID",
+      "assetCategoryCannotDeleteByAssets": "Unable to delete: Asset Category is used in one or more Assets",
+      "assetSubCategoryCannotDeleteByAssets": "Unable to delete: Asset Sub Category is used in one or more Assets",
+      "assetParentInvalid": "The chosen parent is already in the asset hierarchy",
+      "assetHasChildAssets": "This asset cannot be deleted because it has dependent child assets. Please unlink them first",
+      "assetHasBinTransfer": "This asset cannot be deleted because it has dependent bin transfers. Please unlink them first"
+    },
+    "tooltips": {
+      "setupVisible": false,
+      "setupEdit": false,
+      "assetLookup": {
+        "original": "Asset Lookup",
+        "singular": "Asset Lookup",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "binLookup": {
+        "original": "Bin Lookup",
+        "singular": "Bin Lookup",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "serialNo": {
+        "original": "This is a unique number that can be used to identify your Asset across the system",
+        "singular": "This is a unique number that can be used to identify your Asset across the system",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "custodian": {
+        "original": "The custodian is the person within your organization that's responsible for this Asset",
+        "singular": "The custodian is the person within your organization that's responsible for this Asset",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "assetSummary": {
+        "original": "Asset Summary",
+        "singular": "Asset Summary",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "assetStatusName": {
+        "original": "Asset Status Name",
+        "singular": "Asset Status Name",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "statusChange": {
+        "original": "Status Change",
+        "singular": "Status Change",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "custodianName": {
+        "original": "Custodian Name",
+        "singular": "Custodian Name",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "changeOfCustodian": {
+        "original": "Change of Custodian",
+        "singular": "Change of Custodian",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "externalIdRemoved": {
+        "original": "External ID Removed",
+        "singular": "External ID Removed",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "warrantyRemoved": {
+        "original": "Warranty Removed",
+        "singular": "Warranty Removed",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "serviceZoneRemoved": {
+        "original": "Service Zone Removed",
+        "singular": "Service Zone Removed",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "custodianRemoved": {
+        "original": "Custodian Removed",
+        "singular": "Custodian Removed",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "siteRemoved": {
+        "original": "Site Removed",
+        "singular": "Site Removed",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "customerRemoved": {
+        "original": "Customer Removed",
+        "singular": "Customer Removed",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "streetRemoved": {
+        "original": "Street Removed",
+        "singular": "Street Removed",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "cityRemoved": {
+        "original": "City Removed",
+        "singular": "City Removed",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "stateRemoved": {
+        "original": "State Removed",
+        "singular": "State Removed",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "countryRemoved": {
+        "original": "Country Removed",
+        "singular": "Country Removed",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "externalIdUpdate": {
+        "original": "External ID Update",
+        "singular": "External ID Update",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "changeOfAddress": {
+        "original": "Change of Address",
+        "singular": "Change of Address",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "nameUpdate": {
+        "original": "Name Update",
+        "singular": "Name Update",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "siteUpdate": {
+        "original": "Site Update",
+        "singular": "Site Update",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "customerUpdate": {
+        "original": "Customer Update",
+        "singular": "Customer Update",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "serviceZoneChange": {
+        "original": "Service Zone Change",
+        "singular": "Service Zone Change",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "serviceZoneName": {
+        "original": "Service Zone Name",
+        "singular": "Service Zone Name",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "siteName": {
+        "original": "Site Name",
+        "singular": "Site Name",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "parentUpdate": {
+        "original": "Parent Update",
+        "singular": "Parent Update",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "parentChange": {
+        "original": "Parent Change",
+        "singular": "Parent Change",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "parentRemove": {
+        "original": "Parent Remove",
+        "singular": "Parent Remove",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "pendingTransfer": {
+        "original": "Show only Assets with a pending transfer",
+        "singular": "Show only Assets with a pending transfer",
+        "plural": "Show only Assets with a pending transfer",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "transferRequestApproval": {
+        "original": "A transfer request is pending approval for this asset. The location will be updated to",
+        "singular": "A transfer request is pending approval for this asset. The location will be updated to",
+        "plural": "A transfer request is pending approval for this asset. The location will be updated to",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "uponArrival": {
+        "original": "upon arrival.",
+        "singular": "upon arrival.",
+        "plural": "upon arrival.",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "parentForAsset": {
+        "original": "Allows the user to assign another asset as the parent for this asset.",
+        "singular": "Allows the user to assign another asset as the parent for this asset.",
+        "plural": "Allows the user to assign another asset as the parent for this asset.",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "pendingApprovalTransfer": {
+        "original": "Pending Approval Transfer",
+        "singular": "Pending Approval Transfer",
+        "plural": "Pending Approval Transfer",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "binLocationUpdate": {
+        "original": "Bin Location Update",
+        "singular": "Bin Location Update",
+        "plural": "Bin Location Update",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "binLocationChange": {
+        "original": "Bin Location Change",
+        "singular": "Bin Location Change",
+        "plural": "Bin Location Change",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "binLocationRemove": {
+        "original": "Bin Location Remove",
+        "singular": "Bin Location Remove",
+        "plural": "Bin Location Remove",
+        "setupEdit": false,
+        "setupVisible": false
+      }
+    },
+    "messages": {
+      "configureQrBarcodeInAssetSetup": "To set up a QR/Barcode go to Asset Configuration in Setup",
+      "resetMeterForLowerReading": "Select 'Reset Meter' if your new meter reading is smaller than the current reading",
+      "futureDateTimeEntryNotAllowed": "Entry cannot be made for future date and time",
+      "maintenanceAppliesToAllContractAssets": "This Maintenance will be applied to all Assets within this Contract",
+      "errorFetchingAssetDetails": "Error fetching asset details",
+      "noAssetsFound": "No Assets Found",
+      "noScheduledMaintenance": "No Scheduled Maintenance",
+      "noPriorMaintenance": "No Prior Maintenances",
+      "noUpcomingJobs": "No Upcoming Jobs",
+      "previously": "Previously",
+      "from": "From",
+      "warrantyStartDate": "Warranty start date should not be greater than warranty end date",
+      "errorFetchingAllAssets": "Error fetching all assets",
+      "errorOccuredWhileFetchingAccessories": "Error occured while fetching accessories",
+      "logs": "Logs",
+      "showUpdatesRelated": "Show Updates Related To:",
+      "filterSelectAsset": "Filter and select the assets you want to export QR codes for",
+      "exportQrForAll": "Export QR codes for all components too",
+      "exportQrSettings": "Export QR Settings",
+      "selectQrCodeSize": "Select QR Code Size",
+      "selectFileFormat": "Select File Format",
+      "uncheckSelectAll": "Uncheck “select all” to view the whole list again",
+      "addComponents": "Add Components",
+      "selectComponentsToAdd": "Select components that you’d like to add to this asset",
+      "updateFieldsOfComponents": "Update fields of component(s) to match the parent asset.",
+      "someComponentsSelected": "Some components that you have selected already belong to a parent asset. Continuing will edit their parent asset to",
+      "wouldYouAlsoLikeToUpdate": "Would you also like to update the respective fields in this asset’s components?",
+      "respectiveFieldsOverridden": "The respective fields in the component will be overridden if selected above",
+      "youCanCheckOnceOneFilterSelected": "You can only check this when you have selected at least one filter. All filtered assets will be selected. Note: Only 500 assets can be exported at a time.",
+      "alsoUpdateComponentStatus": "Also update component statuses",
+      "wouldYouAlsoUpdateFields": "Would you also like up to update the respective fields in this",
+      "component": "component"
+    }
+  },
+  "customer": {
+    "setupVisible": true,
+    "setupEdit": true,
+    "label": {
+      "original": "Customers",
+      "singular": "Customer",
+      "plural": "Customers",
+      "setupEdit": true,
+      "setupVisible": true
+    },
+    "sections": {
+      "setupVisible": true,
+      "setupEdit": true,
+      "sec0": {
+        "original": "General Details",
+        "singular": "General Details",
+        "plural": "",
+        "setupVisible": true,
+        "setupEdit": true
+      },
+      "sec1": {
+        "original": "Contact Details",
+        "singular": "Contact Details",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec2": {
+        "original": "Integration Details",
+        "singular": "Integration Details",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec3": {
+        "original": "Additional Details",
+        "singular": "Additional Details",
+        "plural": "",
+        "setupVisible": true,
+        "setupEdit": true
+      },
+      "sec4": {
+        "original": "Details",
+        "singular": "Details",
+        "plural": "Details",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec5": {
+        "original": "Customer Details",
+        "singular": "Customer Details",
+        "plural": "Customer Details",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec6": {
+        "original": "Overview",
+        "singular": "Overview",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      }
+    },
+    "fields": {
+      "setupVisible": true,
+      "setupEdit": true,
+      "type": {
+        "original": "Type",
+        "singular": "Type",
+        "plural": "Types",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "categoryType": {
+        "original": "Category Type",
+        "singular": "Category Type",
+        "plural": "Category Types",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sector": {
+        "original": "Sector",
+        "singular": "Sector",
+        "plural": "Sectors",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "subSector": {
+        "original": "Sub-sector",
+        "singular": "Sub-sector",
+        "plural": "Sub-sectors",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "category": {
+        "original": "Category",
+        "singular": "Category",
+        "plural": "Categories",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "extId": {
+        "original": "External ID",
+        "singular": "External ID",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "secExtId": {
+        "original": "Second External ID",
+        "singular": "Second External ID",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "systemUsed": {
+        "original": "System Used",
+        "singular": "System Used",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "patientRental": {
+        "original": "Patient Rental TV",
+        "singular": "Patient Rental TV",
+        "plural": "Patient Rental TVs",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "fixedRental": {
+        "original": "Fixed Rental TV",
+        "singular": "Fixed Rental TV",
+        "plural": "Fixed Rental TVs",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "industry": {
+        "original": "Industry",
+        "singular": "Industry",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "numberOfEmployees": {
+        "original": "Number of Employees",
+        "singular": "Number of Employees",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "area": {
+        "original": "Area",
+        "singular": "Area",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "paymentTerm": {
+        "original": "Payment Term",
+        "singular": "Payment Term",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "description": {
+        "original": "Description",
+        "singular": "Description",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "accountName": {
+        "original": "Account Name",
+        "singular": "Account Name",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "referenceNo": {
+        "original": "Reference No.",
+        "singular": "Reference No.",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "name": {
+        "original": "Name",
+        "singular": "Name",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "noOfTerminals": {
+        "original": "No. Of Terminal",
+        "singular": "No. Of Terminal",
+        "plural": "No. Of Terminals",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "terminalCount": {
+        "original": "Terminal Count",
+        "singular": "Terminal Count",
+        "plural": "Terminal Count",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "autoTieGeofence": {
+        "original": "Auto-tie Geofence",
+        "singular": "Auto-tie Geofence",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "customerNo": {
+        "original": "Customer No.",
+        "singular": "Customer No.",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "customerReferenceId": {
+        "original": "Customer Reference Id",
+        "singular": "Customer Reference Id",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "caseContactPhone": {
+        "original": "Case Contact Phone",
+        "singular": "Case Contact Phone",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "assignedTo": {
+        "original": "Assigned To",
+        "singular": "Assigned To",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "team": {
+        "original": "Team",
+        "singular": "Team",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "location": {
+        "original": "Location",
+        "singular": "Location",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "fieldExID": {
+        "original": "FieldEx ID",
+        "singular": "FieldEx ID",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "hospitalName": {
+        "original": "Hospital Name",
+        "singular": "Hospital Name",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "hospitalCode": {
+        "original": "Hospital Code",
+        "singular": "Hospital Code",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "next": {
+        "original": "Next",
+        "singular": "Next",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "currentContract": {
+        "original": "Current Contract",
+        "singular": "Current Contract",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "expiresIn": {
+        "original": "Expires in",
+        "singular": "Expires in",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "latestActiveContract": {
+        "original": "Latest Active Contract",
+        "singular": "Latest Active Contract",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "stat": {
+        "original": "Stats",
+        "singular": "Stat",
+        "plural": "Stats",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "day": {
+        "original": "day",
+        "singular": "day",
+        "plural": "days",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "customerChannel": {
+        "original": "Customer Channel",
+        "singular": "Customer Channel",
+        "plural": "Customer Channel",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "state": {
+        "original": "State",
+        "singular": "State",
+        "plural": "State",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "orderName": {
+        "original": "Order Name",
+        "singular": "Order Name",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      }
+    },
+    "validationFE": {},
+    "validationBE": {
+      "customerIdExidNotFound": "Id/CustomerExternalId not found",
+      "customerExidNotFound": "ExternalId not found",
+      "customerIdExists": "A new customer cannot already have an ID",
+      "customerIdNotFound": "Id not found",
+      "customerNotFound": "Customer not found",
+      "customerDeleted": "Customer is Deleted",
+      "customerCannotDeleteByProjects": "Unable to Delete, customer is part of one or more projects",
+      "customerLocationNotFound": "Invalid user location",
+      "customerGeoFenceNotFound": "Customer Geo Fence not found",
+      "customerServiceZoneNotFound": "Customer Service Zone not found",
+      "customerCategoryTypeNotFound": "Customer Category Type not found",
+      "customerTypeNotFound": "Customer Type not found",
+      "customerChannelNotFound": "Customer Channel not found",
+      "customerSectorNotFound": "Customer Sector not found",
+      "customerSubSectorNotFound": "Customer Sub Sector not found",
+      "customerIndustryNotFound": "Customer Industry not found",
+      "customerTableSetupNotFound": "Customer Table Setup not found, please contact support",
+      "customerContactNameLimitExceed": "Customer Contact Name cannot be longer than 255 characters",
+      "consignorConsigneeIdExists": "A new Consignor Consignee cannot already have an ID",
+      "consignorConsigneeIdNotFound": "Id not found",
+      "consignorConsigneeHasLoadingBay": "Loading Bay Data exists in the system for the Consignor Consignee",
+      "customerAnnouncementIdExists": "A new Customer Announcement cannot already have an ID",
+      "customerAnnouncementIdNotFound": "Id not found",
+      "customerChannelIdExists": "A new Customer Channel cannot already have an ID",
+      "customerPurchaseHistoryIdExists": "A new Customer Purchase History cannot already have an ID",
+      "customerPurchaseHistoryCustomerIdNotFound": "Customer Id not found",
+      "customerPurchaseHistoryNotFound": "Purchase History not found",
+      "customerPurchaseHistoryWithCusExtIdNotFound": "Invalid Customer External Id",
+      "customerPurchaseHistorySalesOrderWithSOExtIdNotFound": "Invalid Sales Order External Id",
+      "customerPurchaseHistoryProductWithProductExtIdNotFound": "Invalid Spare Part External Id",
+      "customerPurchaseHistoryIdNotFound": "Id not found",
+      "customerPurchaseHistoryWithIdNotFound": "Invalid Customer Purchase History Id",
+      "customerSectorIdExists": "A new Customer Sector cannot already have an ID",
+      "customerSectorNameExists": "Customer Sector Name already exists",
+      "customerSectorSystemGenerated": "System generated Customer Sectors are not allowed to be deleted",
+      "customerSectorHasCustomerSubSector": "Customer Sub Sector Data exists in the system for the Customer Sector",
+      "customerSubSectorIdExists": "A new Customer Sub Sector cannot already have an ID",
+      "customerSubSectorNameExists": "Customer Sub Sector Name already exists",
+      "customerSubSectorSystemGenerated": "System generated Customer Sub Sectors are not allowed to be deleted",
+      "customerSubSectorHasCustomerSector": "Customer Sector Data exists in the system for the Customer Sub Sector",
+      "customerPriceBookNotFound": "Customer Price Book not found",
+      "customerPriceBookIdNotFound": "Customer Price Book Id not found",
+      "customerPriceBookUpdateFailed": "Failed to update price book of customer",
+      "customerCannotDeleteByJobOrderTemplates": "Unable to Delete: customer is part of one or more job order templates"
+    },
+    "tooltips": {
+      "setupVisible": false,
+      "setupEdit": false,
+      "geofenceIconMessage": {
+        "original": "Checking this box will find and tie the relevant Geofence to this Customer based on the Latitude and Longitude provided in the address(es) below",
+        "singular": "Checking this box will find and tie the relevant Geofence to this Customer based on the Latitude and Longitude provided in the address(es) below",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "customerSummary": {
+        "original": "Customer Summary",
+        "singular": "Customer Summary",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "customerLookup": {
+        "original": "Customer Lookup",
+        "singular": "Customer Lookup",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      }
+    },
+    "messages": {
+      "technicianOnRoute": "Currently a user is en route to this task.",
+      "addressNotFallGeoFence": "Address does not fall under any of your geofences.",
+      "deleteMessage": "By deleting this customer, you will also be removing all associated information such as orders, contacts, and other related data. You will not be able to undo this. Do you wish to proceed?",
+      "selectGeofences": "Select Geofences",
+      "noJobOrder": "No Job Orders yet",
+      "nearestCustomers": "Nearest Customers",
+      "nearbyCustomers": "Nearby Customers",
+      "seeInMap": "See in map"
+    }
+  },
+  "contacts": {
+    "setupVisible": false,
+    "label": {
+      "original": "Contact",
+      "singular": "Contact",
+      "plural": "Contacts",
+      "setupEdit": true,
+      "setupVisible": true
+    },
+    "fields": {
+      "setupVisible": true,
+      "nameSalutation": {
+        "original": "Name & Salutation",
+        "singular": "Name & Salutation",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "salutation": {
+        "original": "Salutation",
+        "singular": "Salutation",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "name": {
+        "original": "Name",
+        "singular": "Name",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "email": {
+        "original": "Email",
+        "singular": "Email",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "designation": {
+        "original": "Designation",
+        "singular": "Designation",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "phone": {
+        "original": "Phone",
+        "singular": "Phone",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "allowAccessToPortal": {
+        "original": "Allow access to Customer Portal",
+        "singular": "Allow access to Customer Portal",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "username": {
+        "original": "Username",
+        "singular": "Username",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "contactName": {
+        "original": "Contact Name",
+        "singular": "Contact Name",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "type": {
+        "original": "Contact Type",
+        "singular": "Contact Type",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "phone1": {
+        "original": "Phone 1",
+        "singular": "Phone",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "phone2": {
+        "original": "Phone 2",
+        "singular": "Phone 2",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "website": {
+        "original": "Website",
+        "singular": "Website",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "fax": {
+        "original": "Fax",
+        "singular": "Fax",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "recipientEmail": {
+        "original": "Recipient CC Email",
+        "singular": "Recipient CC Email",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "portalStatus": {
+        "original": "Portal Status",
+        "singular": "Portal Status",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "status": {
+        "original": "Status",
+        "singular": "Status",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      }
+    },
+    "sections": {
+      "setupVisible": true,
+      "sec0": {
+        "original": "Contact Details",
+        "singular": "Contact Details",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "sec1": {
+        "original": "Customer Portal Details",
+        "singular": "Customer Portal Details",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "sec2": {
+        "original": "Details",
+        "singular": "Details",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      }
+    },
+    "tooltips": {
+      "setupVisible": true,
+      "eitherPhoneEmail": {
+        "original": "Either Phone OR Email is required to create a contact",
+        "singular": "Either Phone OR Email is required to create a contact",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      }
+    },
+    "validationFE": {},
+    "validationBE": {
+      "contactNotFound": "Contact not found",
+      "contactHasCustomerUser": "Customer User Data exists in the system for the Contact",
+      "contactHasLoadingBay": "Loading Bay Data exists in the system for the Contact",
+      "contactHasConsignorOrConsignee": "Consignor/Consignee Data exists in the system for the Contact",
+      "contactHasServiceChecklist": "Service Checklist Data exists in the system for the Contact",
+      "contactHasCustomerServiceReport": "Customer Service Report Data exists in the system for the Contact",
+      "contactHasHandoverCertificate": "Handover Certificate Data exists in the system for the Contact",
+      "contactHasTicket": "Ticket Data exists in the system for the Contact",
+      "contactHasContract": "Contract Data exists in the system for the Contact",
+      "contactWithExtIdNotFound": "Invalid ExternalId",
+      "contactCustomerNotFound": "Contact Customer not found",
+      "contactSiteNotFound": "Contact Site not found",
+      "contactProjectNotFound": "Contact Project not found",
+      "contactIdNotFound": "Id not found",
+      "contactIdExists": "A new contact cannot already have an ID",
+      "contactNameLimitExceed": "Contact Name cannot be longer than 255 characters",
+      "contactNameNotFound": "Name can not be empty",
+      "contactEmailNotFound": "Email can not be empty",
+      "contactUserNameNotFound": "Username can not be empty",
+      "contactExtIdNotFound": "ExternalId not found",
+      "contactHasSalesOrder": "Sales Order Data exists in the system for the Contact"
+    },
+    "messages": {
+      "searchContact": "Search Contact",
+      "noContactsFound": "No contacts found",
+      "confirmResendActivationEmail": "Are you sure you want to send Resend Activation Email?",
+      "confirmActivateUser": "Are you sure you want to activate this user?",
+      "confirmDeactivateUser": "Are you sure you want to deactivate this user’s account? This user cannot be activated again after deactivation.",
+      "confirmSuspendUser": "Are you sure you want to suspend this user’s account?"
+    }
+  }
+}

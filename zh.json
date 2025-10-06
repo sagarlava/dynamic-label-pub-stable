@@ -1196,7 +1196,8 @@
       "assetCategoryIdExists": "新资产类别不能已经有ID",
       "assetSubCategoryIdExists": "新资产子类别不能已经有ID",
       "assetParentInvalid":"所选父级已在资产层次结构中",
-      "assetHasChildAssets": "此资产无法删除，因为它有依赖的子资产。请先解除它们的关联"
+      "assetHasChildAssets": "此资产无法删除，因为它有依赖的子资产。请先解除它们的关联",
+      "assetHasBinTransfer": "此资产无法删除，因为它有依赖的仓位转移。请先解除关联。"
     },
     "tooltips": {
       "setupVisible": false,

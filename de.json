@@ -1196,7 +1196,8 @@
       "assetCategoryIdExists": "Eine neue Asset-Kategorie darf keine ID haben",
       "assetSubCategoryIdExists": "Eine neue Asset-Unterkategorie darf keine ID haben",
       "assetParentInvalid":"Der gewählte übergeordnete Eintrag befindet sich bereits in der Anlagenhierarchie",
-      "assetHasChildAssets": "Dieses Asset kann nicht gelöscht werden, da es abhängige untergeordnete Assets hat. Bitte trennen Sie diese zuerst"
+      "assetHasChildAssets": "Dieses Asset kann nicht gelöscht werden, da es abhängige untergeordnete Assets hat. Bitte trennen Sie diese zuerst",
+      "assetHasBinTransfer": "Dieses Asset kann nicht gelöscht werden, da es abhängige Umlagerungen hat. Bitte trennen Sie diese zuerst."
     },
     "tooltips": {
       "setupVisible": false,
