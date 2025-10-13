@@ -24833,7 +24833,24 @@
       "selectAField": "选择一个字段",
       "doYouRemoveFilter": "您要移除此筛选器吗？",
       "noFoldersCreatedYet": "尚未创建任何文件夹。",
-      "pleaseCreateOneToSeeIt": "请创建一个以在此处查看。"
+      "pleaseCreateOneToSeeIt": "请创建一个以在此处查看。",
+      "userAtATime": "一次限一位用户",
+      "groupAtATime": "每次限一组",
+      "atATime": "一次",
+      "hasShared": "已共享",
+      "withYou": "给您",
+      "removedYourAccessTo": "已移除您对以下内容的访问权限",
+      "hasMadeYouTheOwnerOf": "已将您设为以下内容的所有者",
+      "hasDeleted": "已删除",
+      "accessToItHasBeenRemoved": "您对此的访问权限已被移除",
+      "filterRequiredToViewThis": "需要筛选条件才能查看此内容",
+      "selectApplyFilter": "请选择并在筛选面板中应用筛选条件以查看",
+      "showingTotalOf": "显示总计",
+      "showingFirst2000": "显示前 2000 条，共",
+      "exportThis": "导出此内容",
+      "toViewAll": "以查看全部",
+      "filterRequiredToViewThisReport": "需要筛选条件才能查看此报告",
+      "selectApplyFilterReport": "请选择并在筛选面板中应用筛选条件以查看报告"
     }
   },
   "academy": {
