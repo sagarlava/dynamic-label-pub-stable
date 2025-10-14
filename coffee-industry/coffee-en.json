@@ -729,7 +729,7 @@
       "assetExidExists": "Equipments External Id already exists in the system",
       "assetHasContracts": "Contract Data exists in the system for the Equipments",
       "assetHasMaintenance": "Maintenance Data exists in the system for the Equipments",
-      "assetHasFaultMapping": "Fault Mapping Data exists in the system for the Equipments",
+      "assetHasFaultMapping": "Issue Mapping Data exists in the system for the Equipments",
       "assetHasResolutionMapping": "Resolution Mapping Data exists in the system for the Equipments",
       "assetHasTicket": "Ticket Data exists in the system for the Equipments",
       "assetHasInventory": "Inventory Data exists in the system for the Equipments",
@@ -1688,6 +1688,2874 @@
       "confirmActivateUser": "Are you sure you want to activate this user?",
       "confirmDeactivateUser": "Are you sure you want to deactivate this user’s account? This user cannot be activated again after deactivation.",
       "confirmSuspendUser": "Are you sure you want to suspend this user’s account?"
+    }
+  },
+  "jobOrder": {
+    "setupVisible": true,
+    "setupEdit": true,
+    "label": {
+      "original": "Job Order",
+      "singular": "Job Order",
+      "plural": "Job Orders",
+      "setupEdit": true,
+      "setupVisible": true
+    },
+    "sections": {
+      "setupVisible": true,
+      "setupEdit": true,
+      "sec0": {
+        "original": "General Details",
+        "singular": "Service Details",
+        "plural": "Service Details",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "sec1": {
+        "original": "Asset Details",
+        "singular": "Equipment Details",
+        "plural": "Equipment Details",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "sec2": {
+        "original": "Customer Details",
+        "singular": "Customer Details",
+        "plural": "Customer Details",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec3": {
+        "original": "Bin Details",
+        "singular": "Bin Details",
+        "plural": "Bin Details",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec4": {
+        "original": "Bin Transfer Details",
+        "singular": "Bin Transfer Details",
+        "plural": "Bin Transfer Details",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec5": {
+        "original": "Calendly Details",
+        "singular": "Calendly Details",
+        "plural": "Calendly Details",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec6": {
+        "original": "Case Details",
+        "singular": "Case Details",
+        "plural": "Case Details",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec7": {
+        "original": "Client Details",
+        "singular": "Client Details",
+        "plural": "Client Details",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec8": {
+        "original": "Completion Details",
+        "singular": "Completion Details",
+        "plural": "Completion Details",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec9": {
+        "original": "Contact Person Details",
+        "singular": "Contact Person Details",
+        "plural": "Contact Person Details",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec10": {
+        "original": "Customer Survey Details",
+        "singular": "Customer Survey Details",
+        "plural": "Customer Survey Details",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec11": {
+        "original": "Details",
+        "singular": "Details",
+        "plural": "Details",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec12": {
+        "original": "Fault Details",
+        "singular": "Issue Details",
+        "plural": "Issue Details",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "sec13": {
+        "original": "Fault Module",
+        "singular": "Issue Module",
+        "plural": "Issue Module",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec14": {
+        "original": "Financial Details",
+        "singular": "Billing Details",
+        "plural": "Billing Details",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "sec15": {
+        "original": "Further Details",
+        "singular": "Further Details",
+        "plural": "Further Details",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec16": {
+        "original": "Hospital Details",
+        "singular": "Hospital Details",
+        "plural": "Hospital Details",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec17": {
+        "original": "Hospital Record Information",
+        "singular": "Hospital Record Information",
+        "plural": "Hospital Record Information",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec18": {
+        "original": "Item Details",
+        "singular": "Item Details",
+        "plural": "Item Details",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec19": {
+        "original": "Job Details",
+        "singular": "Job Details",
+        "plural": "Job Details",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec20": {
+        "original": "Part Order Details",
+        "singular": "Part Order Details",
+        "plural": "Part Order Details",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec21": {
+        "original": "Payment Details",
+        "singular": "Payment Details",
+        "plural": "Payment Details",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec22": {
+        "original": "Spare Part Details",
+        "singular": "Spare Part Details",
+        "plural": "Spare Part Details",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec23": {
+        "original": "Products and Service Charges",
+        "singular": "Products and Service Charges",
+        "plural": "Products and Service Charges",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec24": {
+        "original": "Resolution Details",
+        "singular": "Service Summary",
+        "plural": "Service Summary",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "sec25": {
+        "original": "Service Checklist",
+        "singular": "Service Checklist",
+        "plural": "Service Checklist",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec26": {
+        "original": "Survey Details",
+        "singular": "Survey Details",
+        "plural": "Survey Details",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec27": {
+        "original": "System Information",
+        "singular": "System Information",
+        "plural": "System Information",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec28": {
+        "original": "System Summary",
+        "singular": "System Summary",
+        "plural": "System Summary",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec29": {
+        "original": "Handover Details",
+        "singular": "Handover Details",
+        "plural": "Handover Details",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec30": {
+        "original": "Filter By",
+        "singular": "Filter By",
+        "plural": "Filter By",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec31": {
+        "original": "Select the survey you would like to send and click 'Generate' to create it.",
+        "singular": "Select the survey you would like to send and click 'Generate' to create it.",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec32": {
+        "original": "Specify the email address of who you want this survey to be sent to",
+        "singular": "Specify the email address of who you want this survey to be sent to",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec33": {
+        "original": "SLA",
+        "singular": "SLA",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec34": {
+        "original": "Forms",
+        "singular": "Form",
+        "plural": "Forms",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec35": {
+        "original": "Fault and Resolution",
+        "singular": "Fault and Resolution",
+        "plural": "Fault and Resolution",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec36": {
+        "original": "SLA",
+        "singular": "SLA",
+        "plural": "SLA",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec37": {
+        "original": "Service Form Auto Fill",
+        "singular": "Service Form Auto Fill",
+        "plural": "Service Form Auto Fill",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec38": {
+        "original": "Additional Details",
+        "singular": "Additional Details",
+        "plural": "Additional Details",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "sec39": {
+        "original": "Required Forms",
+        "singular": "Required Forms",
+        "plural": "Required Forms",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec40": {
+        "original": "Job Order Details",
+        "singular": "Job Order Details",
+        "plural": "Job Order Details",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec41": {
+        "original": "Part Order",
+        "singular": "Part Order",
+        "plural": "Part Orders",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec42": {
+        "original": "Replaced Module",
+        "singular": "Replaced Module",
+        "plural": "Replaced Module",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec43": {
+        "original": "WO Details",
+        "singular": "WO Details",
+        "plural": "WO Details",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec44": {
+        "original": "Edit Hp Form",
+        "singular": "Edit Hp Form",
+        "plural": "Edit Hp Form",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec45": {
+        "original": "View Survey Results",
+        "singular": "View Survey Results",
+        "plural": "View Survey Results",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec46": {
+        "original": "Fault Call Unit",
+        "singular": "Issue Call Unit",
+        "plural": "Issue Call Unit",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec47": {
+        "original": "View Survey Form",
+        "singular": "View Survey Form",
+        "plural": "View Survey Form",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec48": {
+        "original": "Location Details",
+        "singular": "Location Details",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "sec49": {
+        "original": "Equipment",
+        "singular": "Equipment",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec50": {
+        "original": "Fault Module",
+        "singular": "Issue Module",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec51": {
+        "original": "Questions",
+        "singular": "Questions",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec52": {
+        "original": "Fault Call Unit",
+        "singular": "Issue Call Unit",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec53": {
+        "original": "Order Details",
+        "singular": "Order Details",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec54": {
+        "original": "Task and Spare Part Details",
+        "singular": "Task and Spare Part Details",
+        "plural": "Task and Spare Part Details",
+        "setupEdit": false,
+        "setupVisible": false
+      }
+    },
+    "fields": {
+      "setupVisible": true,
+      "setupEdit": true,
+      "orderDateTime": {
+        "original": "Date & Time",
+        "singular": "Date & Time",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "orderDate": {
+        "original": "Order Date",
+        "singular": "Order Date",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "orderTime": {
+        "original": "Order Time",
+        "singular": "Order Time",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "status": {
+        "original": "Status",
+        "singular": "Status",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sla": {
+        "original": "SLA",
+        "singular": "SLA",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "history": {
+        "original": "History",
+        "singular": "History",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "acknowledgedBy": {
+        "original": "Acknowledged by",
+        "singular": "Acknowledged by",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "action": {
+        "original": "Action",
+        "singular": "Action",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "adapter": {
+        "original": "Adapter",
+        "singular": "Adapter",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "addEquipment": {
+        "original": "Add Equipment",
+        "singular": "Add Equipment",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "editEquipment": {
+        "original": "Edit Equipment",
+        "singular": "Edit Equipment",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": false
+      },
+      "additionalParts": {
+        "original": "Additional Parts",
+        "singular": "Additional Parts",
+        "plural": "Additional Parts",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "alarmSystem": {
+        "original": "Alarm System",
+        "singular": "Alarm System",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "alarms": {
+        "original": "Alarm",
+        "singular": "Alarm",
+        "plural": "Alarms",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "arrivalTime": {
+        "original": "Arrival Time",
+        "singular": "Arrival Time",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "bed": {
+        "original": "Bed",
+        "singular": "Bed",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "bedStatus": {
+        "original": "Bed Status",
+        "singular": "Bed Status",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "branchAcknowledge": {
+        "original": "Branch Acknowledge",
+        "singular": "Branch Acknowledge",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "branchSignOff": {
+      "original": "Branch Sign Off",
+      "singular": "Branch Sign Off",
+      "plural": "",
+      "setupEdit": false,
+      "setupVisible": false
+    },
+    "assetUnderWarranty": {
+        "original": "Asset Under Warranty",
+        "singular": "Equipment Under Warranty",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "underWarranty": {
+      "original": "Under warranty",
+      "singular": "Under warranty",
+      "plural": "",
+      "setupEdit": false,
+      "setupVisible": false
+    },
+    "notUnderWarranty": {
+      "original": "Not under warranty",
+      "singular": "Not under warranty",
+      "plural": "",
+      "setupEdit": false,
+      "setupVisible": false
+    },
+    "assetWarranty": {
+      "original": "Asset Warranty",
+      "singular": "Equipment Warranty",
+      "plural": "Equipment Warranty",
+      "setupEdit": false,
+      "setupVisible": false
+    },
+    "notifyCustomer": {
+        "original": "Notify Customer",
+        "singular": "Notify Customer",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "cableCondition": {
+        "original": "Cable Condition",
+        "singular": "Cable Condition",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "nameOfSurvey": {
+      "original": "Name of survey",
+      "singular": "Name of survey",
+      "plural": "",
+      "setupEdit": false,
+      "setupVisible": false
+    },
+    "surveyResponseReceivedAt": {
+      "original": "Survey response received at",
+      "singular": "Survey response received at",
+      "plural": "",
+      "setupEdit": false,
+      "setupVisible": false
+    },
+    "calendlyLinkSentTo": {
+        "original": "Calendly link sent to",
+        "singular": "Calendly link sent to",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "calendlyStepOne": {
+        "original": "Confirm whose calendar to share for booking, and the email(s) to send to",
+        "singular": "Confirm whose calendar to share for booking, and the email(s) to send to",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "calendlyStepTwo": {
+        "original": "Define what happens when a slot is booked",
+        "singular": "Define what happens when a slot is booked",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "caller": {
+        "original": "Caller",
+        "singular": "Caller",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "cardAccess": {
+        "original": "Card Access",
+        "singular": "Card Access",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "caseDetails": {
+        "original": "Case Details",
+        "singular": "Case Details",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "caseId": {
+        "original": "Case ID",
+        "singular": "Case ID",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "cash": {
+        "original": "Cash",
+        "singular": "Cash",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "cctv": {
+        "original": "CCTV",
+        "singular": "CCTV",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "cctvSystem": {
+        "original": "CCTV System",
+        "singular": "CCTV System",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "checkInDuration": {
+        "original": "Check-in Duration",
+        "singular": "Check-in Duration",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "cheque": {
+        "original": "Cheque",
+        "singular": "Cheque",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "chequeNumber": {
+        "original": "Cheque No",
+        "singular": "Cheque No",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "clientAcknowledge": {
+        "original": "Client Acknowledge",
+        "singular": "Client Acknowledge",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "clientName": {
+        "original": "Client Name",
+        "singular": "Client Name",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "closureCode": {
+        "original": "Closure Code",
+        "singular": "Closure Code",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "cmaNo": {
+        "original": "CMA No",
+        "singular": "CMA No",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "cms": {
+        "original": "CMS",
+        "singular": "CMS",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "cmsExecutive": {
+        "original": "CMS Executive",
+        "singular": "CMS Executive",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "cmsOperatorName": {
+        "original": "CMS Operator Name",
+        "singular": "CMS Operator Name",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "cmsSystemGoodCondition": {
+        "original": "System tested with CMS in good working condition",
+        "singular": "System tested with CMS in good working condition",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "complaint": {
+        "original": "Complaint",
+        "singular": "Complaint",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "complaintFault": {
+        "original": "Complaint and Fault",
+        "singular": "Complaint and Issue",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "completionDate": {
+        "original": "Completion Date",
+        "singular": "Completion Date",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "completionDateTime": {
+        "original": "Completion Date & Time",
+        "singular": "Completion Date & Time",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "completionTime": {
+        "original": "Completion Time",
+        "singular": "Completion Time",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "completionForm": {
+        "original": "Completion Form",
+        "singular": "Completion Form",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "createTaskThisJo": {
+        "original": "Create a Task for this Job Order",
+        "singular": "Create a Task for this Job Order",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "createdBy": {
+        "original": "Created By",
+        "singular": "Created By",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "csReport": {
+        "original": "Customer Service Report",
+        "singular": "Customer Service Report",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "csrNo": {
+        "original": "CSR No",
+        "singular": "CSR No",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "custContact": {
+        "original": "Customer Contact",
+        "singular": "Customer Contact",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "custom": {
+        "original": "Custom",
+        "singular": "Custom",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "customerServiceReport": {
+        "original": "Customer Service Report",
+        "singular": "Customer Service Report",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "dateOfComissioning": {
+        "original": "Date of Commisioning",
+        "singular": "Date of Commisioning",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "dayWaiting": {
+        "original": "Open Days",
+        "singular": "Open Days",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "delayCodes": {
+        "original": "Delay Codes",
+        "singular": "Delay Codes",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "department": {
+        "original": "Department",
+        "singular": "Department",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "departureTime": {
+        "original": "Departure Time",
+        "singular": "Departure Time",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "descDamage": {
+        "original": "Description of Damage",
+        "singular": "Description of Damage",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "descFaultOthers": {
+        "original": "Description of Fault Others",
+        "singular": "Description of Issue Others",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "displayPrice": {
+        "original": "Display Price",
+        "singular": "Display Price",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "doorAccessSystem": {
+        "original": "Door Access System",
+        "singular": "Door Access System",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "downloadCost": {
+        "original": "Download with cost",
+        "singular": "Download with cost",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "downloadWithoutCost": {
+        "original": "Download without cost",
+        "singular": "Download without cost",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "dvr": {
+        "original": "DVR",
+        "singular": "DVR",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "dvrModel": {
+        "original": "DVR Model",
+        "singular": "DVR Model",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "email": {
+        "original": "Email",
+        "singular": "Email",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "equipment": {
+        "original": "Equipment",
+        "singular": "Equipment",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "equipmentPosition": {
+        "original": "Equipment Position",
+        "singular": "Equipment Position",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "escalatedTo": {
+        "original": "Escalated To",
+        "singular": "Escalated To",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "expiryDate": {
+        "original": "Expiry Date",
+        "singular": "Expiry Date",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "extender": {
+        "original": "Extender",
+        "singular": "Extender",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "files": {
+        "original": "File",
+        "singular": "File",
+        "plural": "Files",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "findings": {
+        "original": "Finding",
+        "singular": "Finding",
+        "plural": "Findings",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "firstHour": {
+        "original": "1st Hour",
+        "singular": "1st Hour",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "fixByRep": {
+        "original": "Able to be fixed by Rep",
+        "singular": "Able to be fixed by Rep",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "followUp": {
+        "original": "Follow Up",
+        "singular": "Follow Up",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "form": {
+        "original": "Form",
+        "singular": "Form",
+        "plural": "Forms",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "fromBin": {
+        "original": "From Bin",
+        "singular": "From Bin",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "fromMyDownline": {
+        "original": "From my Downline",
+        "singular": "From my Downline",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "openDays": {
+        "original": "Open Days",
+        "singular": "Open Days",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "grandTotal": {
+        "original": "Grand Total (RM)",
+        "singular": "Grand Total (RM)",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "gsmModuleAlarmPanel": {
+        "original": "GSM Module/ Alarm Panel",
+        "singular": "GSM Module/ Alarm Panel",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "handoverCertificate": {
+        "original": "Handover Certificate",
+        "singular": "Handover Certificate",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "handoverCompletionCert": {
+        "original": "Handover Completion Certificate",
+        "singular": "Handover Completion Certificate",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "hospitalCode": {
+        "original": "Hospital code",
+        "singular": "Hospital code",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "hospitalName": {
+        "original": "Hospital Name",
+        "singular": "Hospital Name",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "hpForm": {
+        "original": "HP Form",
+        "singular": "HP Form",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "hpCustomer": {
+        "original": "HP Customer",
+        "singular": "HP Customer",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "hpStatus": {
+        "original": "HP Status",
+        "singular": "HP Status",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "icPassport": {
+        "original": "IC/Passport",
+        "singular": "IC/Passport",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "inverterModelBrand": {
+        "original": "Inverter Model/Brand",
+        "singular": "Inverter Model/Brand",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "inverterNo": {
+        "original": "Inverter No",
+        "singular": "Inverter No",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "inverterSerialNumber": {
+        "original": "Inverter Serial Number",
+        "singular": "Inverter Serial Number",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "inviteSentFrom": {
+        "original": "Invite Sent From",
+        "singular": "Invite Sent From",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "inviteSentTo": {
+        "original": "Invite Sent To",
+        "singular": "Invite Sent To",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "invoiceNumber": {
+        "original": "Invoice No",
+        "singular": "Invoice No",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "ipAddress": {
+        "original": "IP Address",
+        "singular": "IP Address",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "itemDesc": {
+        "original": "Item Description",
+        "singular": "Item Description",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "joContact": {
+        "original": "Job Order Contact",
+        "singular": "Job Order Contact",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "joOwner": {
+        "original": "Job Order Owner",
+        "singular": "Job Order Owner",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "jobNumber": {
+        "original": "Job No.",
+        "singular": "Job No.",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "jobOrderCompletionForm": {
+        "original": "Job Order Completion Form",
+        "singular": "Job Order Completion Form",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "jobOrderId": {
+        "original": "Job Order ID",
+        "singular": "Job Order ID",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "jobOrderNo": {
+        "original": "Job Order No",
+        "singular": "Job Order No",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "jobStatus": {
+        "original": "Job Status",
+        "singular": "Job Status",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "jobStatusRemark": {
+        "original": "Job Status Remark",
+        "singular": "Job Status Remark",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "jobSummary": {
+        "original": "Job Summary",
+        "singular": "Job Summary",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "joType": {
+        "original": "JO Type",
+        "singular": "JO Type",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "kvm": {
+        "original": "KVM",
+        "singular": "KVM",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "lastModifiedBy": {
+        "original": "Last Modified By",
+        "singular": "Last Modified By",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "latestInviteLink": {
+        "original": "Latest invite link",
+        "singular": "Latest invite link",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "machineId": {
+        "original": "Machine ID",
+        "singular": "Machine ID",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "mandatory": {
+        "original": "Mandatory",
+        "singular": "Mandatory",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "medicalRecordNo": {
+        "original": "Medical Record Number",
+        "singular": "Medical Record Number",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "mileage": {
+        "original": "Mileage(KM)",
+        "singular": "Mileage(KM)",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "module": {
+        "original": "Module",
+        "singular": "Module",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "name": {
+        "original": "Name",
+        "singular": "Name",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "nameAndIcPassport": {
+        "original": "Name and IC/Passport",
+        "singular": "Name and IC/Passport",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "nameAndIDNumber": {
+      "original": "Name and ID Number",
+      "singular": "Name and ID Number",
+      "plural": "",
+      "setupEdit": false,
+      "setupVisible": false
+    },
+    "offCode": {
+        "original": "Off Code",
+        "singular": "Off Code",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "offCodeMessage": {
+        "original": "Off Code Message",
+        "singular": "Off Code Message",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "onCode": {
+        "original": "On Code",
+        "singular": "On Code",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "onCodeMessage": {
+        "original": "On Code Message",
+        "singular": "On Code Message",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "openCircuitVoltage": {
+        "original": "Open Circuit Voltage (VOC)",
+        "singular": "Open Circuit Voltage (VOC)",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "openCircuitVoltageTest": {
+        "original": "Open Circuit Voltage (VOC) Test",
+        "singular": "Open Circuit Voltage (VOC) Test",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "orderName": {
+        "original": "Order Name",
+        "singular": "Order Name",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "orderStatus": {
+        "original": "Order Status",
+        "singular": "Order Status",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "orderTimeDate": {
+        "original": "Order Time & Date",
+        "singular": "Scheduled Date & Time",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "orderType": {
+        "original": "Order Type",
+        "singular": "Job Type",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "origExtn": {
+        "original": "Orig. Extn",
+        "singular": "Orig. Extn",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "otherReason": {
+        "original": "Other(reason)",
+        "singular": "Other(reason)",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "owner": {
+        "original": "Owner",
+        "singular": "Owner",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "partOrderNo": {
+        "original": "Part Order No.",
+        "singular": "Part Order No.",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "patientName": {
+        "original": "Patient Name",
+        "singular": "Patient Name",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "pendingResponse": {
+        "original": "Pending Response",
+        "singular": "Pending Response",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "pesticides": {
+        "original": "Pesticides",
+        "singular": "Pesticide",
+        "plural": "Pesticides",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "phone": {
+        "original": "Phone",
+        "singular": "Phone",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "photo": {
+        "original": "Photo",
+        "singular": "Photo",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "pmChecklist": {
+        "original": "Preventive Maintenance Checklist",
+        "singular": "Preventive Maintenance Checklist",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "qty": {
+        "original": "Qty",
+        "singular": "Qty",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "quantity": {
+        "original": "Quantity",
+        "singular": "Quantity",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "reason": {
+        "original": "Reason",
+        "singular": "Reason",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "receivedDate": {
+        "original": "Received Date",
+        "singular": "Received Date",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "receivedTime": {
+        "original": "Received Time",
+        "singular": "Received Time",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "recommendation": {
+        "original": "Recommendation",
+        "singular": "Recommendation",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "recordingDays": {
+        "original": "Recording Days",
+        "singular": "Recording Days",
+        "plural": "Recording Days",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "redFlag": {
+        "original": "Red Flag",
+        "singular": "Red Flag",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "referenceChecklist": {
+        "original": "Reference Checklist",
+        "singular": "Reference Checklist",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "referenceJobOrder": {
+        "original": "Reference Job Order",
+        "singular": "Link Service Order",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "remarks": {
+        "original": "Remark",
+        "singular": "Remark",
+        "plural": "Remarks",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "requiredForms": {
+        "original": "Required Form",
+        "singular": "Required Form",
+        "plural": "Required Forms",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "rescheduleDateTo": {
+        "original": "Reschedule Date to",
+        "singular": "Reschedule Date to",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "resource": {
+        "original": "Resource",
+        "singular": "Resource",
+        "plural": "Resources",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "responseCollected": {
+        "original": "Response Collected",
+        "singular": "Response Collected",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "rms": {
+        "original": "RMS",
+        "singular": "RMS",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "scNo": {
+        "original": "SC No",
+        "singular": "SC No",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "searchAddress": {
+        "original": "Search Address",
+        "singular": "Search Address",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "selectBinToTransfer": {
+        "original": "Select Bin to transfer from",
+        "singular": "Select Bin to transfer from",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "selectCountry": {
+        "original": "Select Country",
+        "singular": "Select Country",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "selectCustomerIdToViewSalesOrder": {
+        "original": "Select Customer to view Sales Order",
+        "singular": "Select Customer to view Sales Order",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "selectFault": {
+        "original": "Select Fault",
+        "singular": "Select Issue",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "selectForm": {
+        "original": "Select Form",
+        "singular": "Select Form",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "selectOrderType": {
+        "original": "Select Order Type",
+        "singular": "Select Order Type",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "selectReason": {
+        "original": "Select Reason",
+        "singular": "Select Reason",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "selectResolution": {
+        "original": "Select Resolution",
+        "singular": "Select Action",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "selectServiceZone": {
+        "original": "Select Service Zone",
+        "singular": "Select Service Zone",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "selectSystem": {
+        "original": "Select System",
+        "singular": "Select System",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "selectToSendCalendlyLink": {
+        "original": "Send a link to your customer to book their slot for this Job Order",
+        "singular": "Send a link to your customer to book their slot for this Job Order",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "selectUserBinToTransfer": {
+        "original": "Select User Bin to transfer from",
+        "singular": "Select User Bin to transfer from",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sendCalendlyLink": {
+        "original": "Send Calendly Link",
+        "singular": "Send Calendly Link",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sendSurveyLink": {
+        "original": "Send Survey Link",
+        "singular": "Send Survey Link",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sendSurveyTo": {
+        "original": "Send survey link to",
+        "singular": "Send survey link to",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sendSurveyToCustJo": {
+        "original": "Send a survey link to your customer for this Job Order",
+        "singular": "Send a survey link to your customer for this Job Order",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sentAt": {
+        "original": "Sent at",
+        "singular": "Sent at",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "serialNo": {
+        "original": "Serial No",
+        "singular": "Serial No",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "serialNumber": {
+        "original": "Serial Number",
+        "singular": "Serial Number",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "servicingChecklist": {
+        "original": "Servicing Checklist",
+        "singular": "Servicing Checklist",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "signBy": {
+        "original": "Signed By",
+        "singular": "Signed By",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "signature": {
+        "original": "Signature",
+        "singular": "Signature",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "siteName": {
+        "original": "Site Name",
+        "singular": "Site Name",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sku": {
+        "original": "SKU",
+        "singular": "SKU",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "staffId": {
+        "original": "Staff ID",
+        "singular": "Staff ID",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "started": {
+        "original": "Started",
+        "singular": "Started",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "stringNo": {
+        "original": "String No",
+        "singular": "String No",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "subsHour": {
+        "original": "Subsequent Hours",
+        "singular": "Subsequent Hours",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "subscriber": {
+        "original": "Subscriber",
+        "singular": "Subscriber",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "surveyName": {
+        "original": "Name of Survey",
+        "singular": "Name of Survey",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "surveyLink": {
+        "original": "Survey Link",
+        "singular": "Survey Link",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "surveyResponseReceiveAt": {
+        "original": "Survey Response Received At",
+        "singular": "Survey Response Received At",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "surveyResults": {
+        "original": "Survey Results",
+        "singular": "Survey Results",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "surveySentAt": {
+        "original": "Survey Sent At",
+        "singular": "Survey Sent At",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "latestSent": {
+      "original": "Latest Sent At",
+      "singular": "Latest Sent At",
+      "plural": "",
+      "setupEdit": false,
+      "setupVisible": false
+    },
+    "surveySentFrom": {
+        "original": "Survey Sent From",
+        "singular": "Survey Sent From",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "surveySentTo": {
+        "original": "Survey Sent To",
+        "singular": "Survey Sent To",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "surveySent": {
+        "original": "Survey Sent",
+        "singular": "Survey Sent",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "surveyToSend": {
+        "original": "Survey to Send",
+        "singular": "Survey to Send",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "createTaskForThisJo": {
+        "original": "Create task for this Job Order",
+        "singular": "Create task for this Job Order",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "switchPoe": {
+        "original": "Switch POE",
+        "singular": "Switch POE",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "switcher": {
+        "original": "Switcher",
+        "singular": "Switcher",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "synchronized": {
+        "original": "Synchronized",
+        "singular": "Synchronized",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "telephoneNumber": {
+        "original": "Telephone No",
+        "singular": "Telephone No",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "tested": {
+        "original": "Tested",
+        "singular": "Tested",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "ticketNo": {
+        "original": "Ticket Number",
+        "singular": "Ticket Number",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "ticketingNumber": {
+        "original": "Ticketing No",
+        "singular": "Ticketing No",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "time": {
+        "original": "Time",
+        "singular": "Time",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "timeReceived": {
+        "original": "Time Received",
+        "singular": "Time Received",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "totalPrice": {
+        "original": "Total Price",
+        "singular": "Total Price",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "totalRinggit": {
+        "original": "Total (RM)",
+        "singular": "Total (RM)",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "totalTime": {
+        "original": "Total Time",
+        "singular": "Total Time",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "totalZone": {
+        "original": "Total Zone",
+        "singular": "Total Zone",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "transferFromBin": {
+        "original": "Transfer from Bin",
+        "singular": "Transfer from Bin",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "true": {
+        "original": "True",
+        "singular": "True",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "tvcmNo": {
+        "original": "TVCM No",
+        "singular": "TVCM No",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "typeOfControl": {
+        "original": "Type of Control",
+        "singular": "Type of Control",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "typeOfControllerAndCommunication": {
+        "original": "Type of Controller and Communication",
+        "singular": "Type of Controller and Communication",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "typeOfSystem": {
+        "original": "Type of System",
+        "singular": "Type of System",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "typeOfSystemOthers": {
+        "original": "Type of System Others",
+        "singular": "Type of System Others",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "typeYourNoteHere": {
+        "original": "Type your note here",
+        "singular": "Type your note here",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "unitPrice": {
+        "original": "Unit Price",
+        "singular": "Unit Price",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "updateJoTimeDate": {
+        "original": "Update this Job Orders's Time & Date",
+        "singular": "Update this Job Orders's Time & Date",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "updatedAt": {
+        "original": "Updated at",
+        "singular": "Updated at",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "ups": {
+        "original": "UPS",
+        "singular": "UPS",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "user": {
+        "original": "User",
+        "singular": "User",
+        "plural": "Users",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "viewSurveyResults": {
+        "original": "View Survey Results",
+        "singular": "View Survey Results",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "violation": {
+        "original": "Violation",
+        "singular": "Violation",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "ward": {
+        "original": "Ward",
+        "singular": "Ward",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "whatHappenCustBooking": {
+        "original": "What should happen when the customer makes an appointment for this Job Order?",
+        "singular": "What should happen when the customer makes an appointment for this Job Order?",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "whoCalendlySentTo": {
+        "original": "Who should the Calendly link be sent to?",
+        "singular": "Who should the Calendly link be sent to?",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "whoseCalendarSent": {
+        "original": "Whose calendar should be sent for booking?",
+        "singular": "Whose calendar should be sent for booking?",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "willUpdateSlotCustomer": {
+        "original": "Will be updated to the slot selected by the customer",
+        "singular": "Will be updated to the slot selected by the customer",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "woDetails": {
+        "original": "WO Details",
+        "singular": "WO Details",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "WONo": {
+        "original": "WO No.",
+        "singular": "WO No.",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "workDone": {
+        "original": "Work Done",
+        "singular": "Work Done",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "workNotDone": {
+        "original": "Work Not Done",
+        "singular": "Work Not Done",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "workNotDoneReason": {
+        "original": "Work Not Done Reason",
+        "singular": "Work Not Done Reason",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "openingDays": {
+      "original": "Opening Days",
+      "singular": "Opening Days",
+      "plural": "",
+      "setupEdit": false,
+      "setupVisible": false
+    },
+    "physicalDamage": {
+        "original": "Physical Damage to hills installed application?",
+        "singular": "Physical Damage to hills installed application?",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "yes": {
+        "original": "Yes",
+        "singular": "Yes",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "duration": {
+        "original": "Duration",
+        "singular": "Duration",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "slaStatus": {
+        "original": "SLA Status",
+        "singular": "SLA Status",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "violationStatus": {
+        "original": "Violation Status",
+        "singular": "Violation Status",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "address": {
+        "original": "Address",
+        "singular": "Address",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "agencyAsset": {
+        "original": "Agency Asset",
+        "singular": "Agency Equipment",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "agencyFaultCode": {
+        "original": "Agency Fault Code",
+        "singular": "Agency Issue Code",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "agencyPosition": {
+        "original": "Agency Position",
+        "singular": "Agency Position",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "alarmModel": {
+        "original": "Alarm Model",
+        "singular": "Alarm Model",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "channel": {
+        "original": "Channel",
+        "singular": "Channel",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "clientCode": {
+        "original": "Client Code",
+        "singular": "Client Code",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "cmsOperator": {
+        "original": "CMS Operator",
+        "singular": "CMS Operator",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "ddsNumber": {
+        "original": "DDS No",
+        "singular": "DDS No",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "display": {
+        "original": "Display",
+        "singular": "Display",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "endWorkDateTime": {
+        "original": "End Work Date & Time",
+        "singular": "End Work Date & Time",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "furtherDetails": {
+        "original": "Further Details",
+        "singular": "Further Details",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "hccNumber": {
+        "original": "HCC No",
+        "singular": "HCC No",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "installedSerialNo": {
+        "original": "Installed Serial No",
+        "singular": "Installed Serial No",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "installedUnit": {
+        "original": "Installed Unit",
+        "singular": "Installed Unit",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "keyboard": {
+        "original": "Keyboard",
+        "singular": "Keyboard",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "location": {
+        "original": "Location",
+        "singular": "Location",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "nameProject": {
+        "original": "Name/Project",
+        "singular": "Name/Project",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "normalWorkingEndHour": {
+        "original": "Normal Working End Hour",
+        "singular": "Normal Working End Hour",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "normalWorkingStartHour": {
+        "original": "Normal Working Start Hour",
+        "singular": "Normal Working Start Hour",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "overtimeHours": {
+        "original": "Overtime Hours",
+        "singular": "Overtime Hours",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "partNo": {
+        "original": "Part No",
+        "singular": "Part No",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "poNumber": {
+        "original": "PO Number",
+        "singular": "PO Number",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "printer": {
+        "original": "Printer",
+        "singular": "Printer",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "resourceId": {
+        "original": "Resource ID",
+        "singular": "Resource ID",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "resourceName": {
+        "original": "Resource Name",
+        "singular": "Resource Name",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "retrievedSerialNo": {
+        "original": "Retrieved Serial No",
+        "singular": "Retrieved Serial No",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "retrievedUnit": {
+        "original": "Retrieved Unit",
+        "singular": "Retrieved Unit",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "startWorkDateTime": {
+        "original": "Start Work Date & Time",
+        "singular": "Start Work Date & Time",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "telNoConnectedAlarmSystem": {
+        "original": "Telephone No connected to Alarm System",
+        "singular": "Telephone No connected to Alarm System",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "terminal": {
+        "original": "Terminal",
+        "singular": "Terminal",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "unitId": {
+        "original": "Unit ID",
+        "singular": "Unit ID",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "uploadAttachment": {
+        "original": "Upload Attachment",
+        "singular": "Upload Attachment",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "warrantyExpired": {
+        "original": "Warranty Expired",
+        "singular": "Warranty Expired",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "workshopAsset": {
+        "original": "Workshop Asset",
+        "singular": "Workshop Equipment",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "workshopFaultCode": {
+        "original": "Workshop Fault Code",
+        "singular": "Workshop Issue Code",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "workshopPosition": {
+        "original": "Workshop Position",
+        "singular": "Workshop Position",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "nameAndICPassport": {
+        "original": "Name and IC/Passport",
+        "singular": "Name and IC/Passport",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "icPassportNo": {
+        "original": "IC/Passport No",
+        "singular": "IC/Passport No",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "idNumber": {
+      "original": "ID Number",
+      "singular": "ID Number",
+      "plural": "",
+      "setupEdit": false,
+      "setupVisible": false
+    },
+    "available": {
+        "original": "Available",
+        "singular": "Available",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "serviceType": {
+        "original": "Service Type",
+        "singular": "Service Type",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "serviceChecklist": {
+        "original": "Service Checklist",
+        "singular": "Service Checklist",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "fromUser": {
+        "original": "From User",
+        "singular": "From User",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "calendyAccHolder": {
+        "original": "Calendly Account Holder",
+        "singular": "Calendly Account Holder",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "partOrder": {
+        "original": "Part Order",
+        "singular": "Part Order",
+        "plural": "Part Orders",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "itemId": {
+        "original": "Item ID",
+        "singular": "Item ID",
+        "plural": "Item IDs",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "rmaNumber": {
+        "original": "RMA Number",
+        "singular": "RMA Number",
+        "plural": "RMA Numbers",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "importExpiryDate": {
+        "original": "Import Expiry Date",
+        "singular": "Import Expiry Date",
+        "plural": "Import Expiry Dates",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "pesticidesId": {
+        "original": "Pesticides ID",
+        "singular": "Pesticides ID",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "chemicalTradeName": {
+        "original": "Chemical/Trade Name",
+        "singular": "Chemical/Trade Name",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "activeIngredientAi": {
+        "original": "Active Ingredient (a.i)",
+        "singular": "Active Ingredient (a.i)",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "class": {
+        "original": "Class",
+        "singular": "Class",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "methodOfApplication": {
+        "original": "Method of Application",
+        "singular": "Method of Application",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "chemicalRatePer4LiterMl": {
+        "original": "Chemical Rate/4 Liter (ml)",
+        "singular": "Chemical Rate/4 Liter (ml)",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "chemicalUsageMl": {
+        "original": "Chemical Usage (ml)",
+        "singular": "Chemical Usage (ml)",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "areaTreated": {
+        "original": "Area treated",
+        "singular": "Area treated",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "mainCustContact": {
+        "original": "Main Customer Contact",
+        "singular": "Main Customer Contact",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "joNumber": {
+        "original": "Job Order No.",
+        "singular": "Job Order No.",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "type": {
+        "original": "Type",
+        "singular": "Type",
+        "plural": "Types",
+        "setupVisible": false,
+        "setupEdit": false
+      },
+      "orderOwner": {
+        "original": "Order Owner",
+        "singular": "Job Owner",
+        "plural": "Job Owners",
+        "setupVisible": true,
+        "setupEdit": true
+      },
+      "note": {
+        "original": "Note",
+        "singular": "Note",
+        "plural": "",
+        "setupVisible": true,
+        "setupEdit": true
+      },
+      "system": {
+        "original": "System",
+        "singular": "Equipment Type",
+        "plural": "Equipment Types",
+        "setupVisible": true,
+        "setupEdit": true
+      },
+      "fault": {
+        "original": "Fault",
+        "singular": "Issue Reported",
+        "plural": "Issues Reported",
+        "setupVisible": true,
+        "setupEdit": true
+      },
+      "faultDetails": {
+        "original": "Fault Details",
+        "singular": "Issue Description",
+        "plural": "",
+        "setupVisible": true,
+        "setupEdit": true
+      },
+      "additionFault": {
+        "original": "Additional Faults",
+        "singular": "Additional Issues",
+        "plural": "",
+        "setupVisible": true,
+        "setupEdit": true
+      },
+      "resolution": {
+        "original": "Resolution",
+        "singular": "Action Taken",
+        "plural": "Actions Taken",
+        "setupVisible": true,
+        "setupEdit": true
+      },
+      "resolutionComment": {
+        "original": "Resolution Comments",
+        "singular": "Technician Notes",
+        "plural": "",
+        "setupVisible": true,
+        "setupEdit": true
+      },
+      "additionalResolutions": {
+        "original": "Additional Resolutions",
+        "singular": "Additional Actions",
+        "plural": "",
+        "setupVisible": true,
+        "setupEdit": true
+      },
+      "additionalComments": {
+        "original": "Additional Comments",
+        "singular": "Additional Comments",
+        "plural": "",
+        "setupVisible": true,
+        "setupEdit": true
+      },
+      "isThisBillable": {
+        "original": "Is this order billable?",
+        "singular": "Is this order billable?",
+        "plural": "",
+        "setupVisible": true,
+        "setupEdit": true
+      },
+      "invoiceNo": {
+        "original": "Invoice No.",
+        "singular": "Invoice No.",
+        "plural": "",
+        "setupVisible": true,
+        "setupEdit": true
+      },
+      "extId": {
+        "original": "External ID",
+        "singular": "External ID",
+        "plural": "",
+        "setupVisible": true,
+        "setupEdit": true
+      },
+      "violated": {
+        "original": "Violated",
+        "singular": "Violated",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "completed": {
+        "original": "Completed",
+        "singular": "Completed",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "timeLapsedSoFar": {
+        "original": "Time lapsed so far",
+        "singular": "Time lapsed so far",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "pausedAt": {
+        "original": "Paused at",
+        "singular": "Paused at",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "billable": {
+        "original": "Billlable",
+        "singular": "Billable",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "purchase": {
+        "original": "Purchase",
+        "singular": "Purchase",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "acknowledgedDate": {
+        "original": "Acknowledge Date",
+        "singular": "Acknowledge Date",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "date": {
+        "original": "Date",
+        "singular": "Date",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "assetModel": {
+        "original": "Asset Model",
+        "singular": "Equipment Model",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "charges": {
+        "original": "Charges",
+        "singular": "Charges",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      }
+    },
+    "validationFE": {
+      "endDateThanStartDate": "End date must be after start date",
+      "notAvailable": "N/A",
+      "onDemand": "On Demand",
+      "selectAProduct": "Select a Spare Part",
+      "userCalendlyNoIntegrate": "This user does not have Calendly integrated to their account",
+      "noContactFoundForThisJobOrder": "No contact found for this Job Order",
+      "noContactFoundForTheJobOrdersCustomer": "No contact found for the Job Order's Customer"
+    },
+    "validationBE": {
+      "jobOrderStatusNotFound": "Status Not Found",
+      "jobOrderNotFound": "Job Order Not Found",
+      "jobOrderIdExists": "A new jobOrder cannot already have an ID",
+      "jobOrderExidNotFound": "External Id Not Found",
+      "jobOrderIdNotFound": "Id Not Found",
+      "jobOrderSfExidNotFound": "Sf External Id Not Found",
+      "jobOrderBiDirectionalLinkFound": "Job Orders cannot be linked bidirectionally",
+      "jobOrderHasTask": "Task Data exists in the system for the Job order",
+      "jobOrderTableSetupNotFound": "Job order Table Setup not found, please contact support",
+      "jobOrderCustomerNotFound": "Customer Not Found",
+      "jobOrderSalesOrderNotFound": "Sales Order Not Found",
+      "jobOrderOwnerNotFound": "Order owner Not Found",
+      "jobOrderCustomerPurchaseHistoryNotFound": "Customer Purchase History owner Not Found",
+      "jobOrderTypeNotFound": "Job Order Type Not Found",
+      "jobOrderFaultTypeNotFound": "Job Order Issue Type Not Found",
+      "jobOrderServiceZoneNotFound": "Service Zone Not Found",
+      "jobOrderUncompletedNotFound": "Uncompleted Job Order Not Found",
+      "jobOrderAssetNotFound": "Equipment Not Found",
+      "jobOrderFaultNotFound": "Issue Not Found",
+      "jobOrderResolutionNotFound": "Resolution Not Found",
+      "jobOrderSiteNotFound": "Site Not Found",
+      "jobOrderProjectNotFound": "Project Not Found",
+      "jobOrderServiceChecklistNotFound": "Service Checklist Not Found",
+      "jobOrderCustomerServiceReportNotFound": "Customer Service Report Not Found",
+      "jobOrderHandoverCertificateNotFound": "Handover Certificate Not Found",
+      "jobOrderTicketNotFound": "Ticket Not Found",
+      "jobOrderCustomerSurveyConfigNotFound": "Customer Survey Config Not Found",
+      "jobOrderCustomerSurveyNotFound": "Customer Survey Not Found",
+      "jobOrderCustomerSurveyIdNotFound": "Customer Survey Id Not Found",
+      "jobOrderCustomerSurveyToEmailsNotFound": "Customer Survey To Emails Not Found",
+      "jobOrderAuditEventHistoryIdExists": "A new Job Order Audit Event History cannot already have an ID",
+      "jobOrderCalendlyIdExists": "A new Job Order Calendly cannot already have an ID",
+      "jobOrderCalendlyToEmailNotFound": "To-Email not found",
+      "jobOrderCalendlyIdNotFound": "Id not found",
+      "jobOrderCalendlyFromUserNotFound": "From-User not found",
+      "jobOrderCalendlyJobOrderNotFound": "Job Order not found",
+      "jobOrderCalendlyWithJobOrderIdNotFound": "Invalid Job Order Id",
+      "jobOrderChecklistIdExists": "A new Job Order Checklist cannot already have an ID",
+      "jobOrderChecklistAttachmentNotFound": "Invalid attachment",
+      "jobOrderChecklistJobOrderNotFound": "Job Order Checklist referenced Job Order not found",
+      "jobOrderChecklistIdEmailNotFound": "Id/ Email not found",
+      "jobOrderChecklistPDFGenerationError": "Error in PDF generation",
+      "jobOrderChecklistSectionItemIdExists": "A new Job Order Checklist Section Item cannot already have an ID",
+      "jobOrderChecklistSectionItemIdNotFound": "Id not found",
+      "jobOrderChecklistSectionIdExists": "A new Job Order Checklist Section cannot already have an ID",
+      "jobOrderChecklistSectionIdNotFound": "Id not found",
+      "jobOrderCompletionRecordIdExists": "A new Job Order Completion Record cannot already have an ID",
+      "jobOrderCompletionRecordIdNotFound": "Id not found",
+      "jobOrderFaultTypeIdExists": "A new Job Order Issue Type cannot already have an ID",
+      "jobOrderFaultTypeIdNotFound": "Id not found",
+      "jobOrderProductIdExists": "A new Job Order Spare Part cannot already have an ID",
+      "jobOrderProductIdNotFound": "Id not found",
+      "jobOrderProductNotFound": "Job Order Spare Part not found",
+      "jobOrderProductStatusIdExists": "A new Job Order Spare Part Status cannot already have an ID",
+      "jobOrderProductStatusIdNotFound": "Id not found",
+      "slaJobOrderIdExists": "A new Sla Job Order cannot already have an ID",
+      "jobOrderPriceBookNotFound": "Price Book not found"
+    },
+    "tooltips": {
+      "setupVisible": false,
+      "setupEdit": false,
+      "jobOrderLookup": {
+        "original": "Job Order Lookup",
+        "singular": "Job Order Lookup",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "pinSaveLocation": {
+        "original": "Pin & Save Your Location",
+        "singular": "Pin & Save Your Location",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "refJobOrderLookup": {
+        "original": "Reference Job Order Lookup",
+        "singular": "Link Service Order Lookup",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "copyLink": {
+        "original": "Copy Link",
+        "singular": "Copy Link",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      }
+    },
+    "messages": {
+      "systemTestPassed": "System tested with CMS in good working condition",
+      "newTaskForSelectedDateTime": "A new task will be created under this Job Order for the selected date and time",
+      "noJobOrderCustomerContact": "No contact found for the Job Order's Customer",
+      "noJobOrderContact": "No contact found for the Job Order",
+      "noSlaStepDefined": "No SLA step yet",
+      "createJobOrder":"Create Job Order",
+      "linkCopied":"Link Copied",
+      "beforeViolation":"before Violation",
+      "afterViolation":"after Violation",
+      "sinceViolation":"since Violation",
+      "within":"within",
+      "remaining":"remaining",
+      "delayedSoFar":"delayed so far",
+      "violationIn":"violation in",
+      "paused":"Paused",
+      "violated":"Violated",
+      "completedWithin":"Completed within",
+      "viewCompletionPdf":"View Job Order Completion form in PDF",
+      "days":"day(s)",
+      "hours":"hour(s)",
+      "mins":"min(s)",
+      "startSLA":"Start SLA",
+      "removeSparePartsLinkedTask":"Do you want to remove all spare parts linked to this task from the Job Order?",
+      "listOfTask":"List of Task(s)",
+      "listOfSparePart":"List of Spare Part(s)",
+      "changeStatusTo": "Change status to",
+      "identification" : "Identification",
+      "signOff" : "Sign off",
+      "photoUpload": "Photo Upload",
+      "viewPdf" : "View Pdf",
+      "emailPdf" : "Email Pdf"
     }
   }
 }
