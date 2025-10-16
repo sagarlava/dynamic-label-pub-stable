@@ -5,7 +5,7 @@
     "label": {
       "original": "Asset",
       "singular": "Equipment",
-      "plural": "Equipments",
+      "plural": "Equipment",
       "setupEdit": true,
       "setupVisible": true
     },
@@ -551,13 +551,13 @@
       "allAsset": {
         "original": "All Assets",
         "singular": "All Equipment",
-        "plural": "All Equipments",
+        "plural": "All Equipment",
         "setupEdit": false,
         "setupVisible": false
       },
       "assetsByCustomer": {
         "original": "Assets by Customer",
-        "singular": "Equipments by Customer",
+        "singular": "Equipment by Customer",
         "plural": "",
         "setupEdit": false,
         "setupVisible": false
@@ -579,7 +579,7 @@
       "allAssets": {
         "original": "All Assets",
         "singular": "All Equipment",
-        "plural": "All Equipments",
+        "plural": "All Equipment",
         "setupEdit": false,
         "setupVisible": false
       },
@@ -592,8 +592,8 @@
       },
       "assetsByParent": {
         "original": "Assets by Parent",
-        "singular": "Equipments by Parent",
-        "plural": "Equipments by Parent",
+        "singular": "Equipment by Parent",
+        "plural": "Equipment by Parent",
         "setupEdit": false,
         "setupVisible": false
       },
@@ -691,7 +691,7 @@
       "numberAssetSelected": {
         "original": "assets have been selected",
         "singular": "equipment have been selected",
-        "plural": "equipments have been selected",
+        "plural": "equipment have been selected",
         "setupEdit": false,
         "setupVisible": false
       },
@@ -721,36 +721,36 @@
     "validationBE": {
       "assetIdNotFound": "Id not found",
       "assetIdExidNotFound": "Id/EquipmentExternalId not found",
-      "assetNotFound": "Equipments not found",
+      "assetNotFound": "Equipment not found",
       "assetConditionNotFound": "Condition not found",
-      "assetHasStockHistory": "Stock History Data exists in the system for the Equipments",
+      "assetHasStockHistory": "Stock History Data exists in the system for the Equipment",
       "assetIdExists": "A new equipment cannot already have an ID",
       "assetSerialIdExists": "Serial No. already exists in the system",
-      "assetExidExists": "Equipments External Id already exists in the system",
-      "assetHasContracts": "Contract Data exists in the system for the Equipments",
-      "assetHasMaintenance": "Maintenance Data exists in the system for the Equipments",
-      "assetHasFaultMapping": "Issue Mapping Data exists in the system for the Equipments",
-      "assetHasResolutionMapping": "Resolution Mapping Data exists in the system for the Equipments",
-      "assetHasTicket": "Ticket Data exists in the system for the Equipments",
-      "assetHasInventory": "Inventory Data exists in the system for the Equipments",
-      "assetHasConsignment": "Consignment Data exists in the system for the Equipments",
-      "assetHasRequisition": "Requisition Data exists in the system for the Equipments",
-      "assetHasBinInventory": "Bin Inventory Data exists in the system for the Equipments",
-      "assetHasMachineSpecialist": "Machine Specialist Data exists in the system for the Equipments",
-      "assetTableSetupNotFound": "Equipments Table Setup not found, please contact support",
-      "assetCustomerNotFound": "Equipments customer not found",
-      "assetServiceZoneNotFound": "Equipments service zone not found",
-      "assetProductNotFound": "Equipments Spare Part not found",
-      "assetTypeNotFound": "Equipments type not found",
-      "assetStatusNotFound": "Equipments status not found",
-      "assetProjectNotFound": "Equipments project not found",
-      "assetBuildingNotFound": "Equipments building not found",
-      "assetFloorNotFound": "Equipments floor not found",
-      "assetRoomNotFound": "Equipments room not found",
-      "assetCustodianNotFound": "Equipments custodian not found",
-      "assetSiteNotFound": "Equipments site not found",
-      "assetCategoryNotFound": "Equipments category not found",
-      "assetSubCategoryNotFound": "Equipments sub category not found",
+      "assetExidExists": "Equipment External Id already exists in the system",
+      "assetHasContracts": "Contract Data exists in the system for the Equipment",
+      "assetHasMaintenance": "Maintenance Data exists in the system for the Equipment",
+      "assetHasFaultMapping": "Issue Mapping Data exists in the system for the Equipment",
+      "assetHasResolutionMapping": "Resolution Mapping Data exists in the system for the Equipment",
+      "assetHasTicket": "Ticket Data exists in the system for the Equipment",
+      "assetHasInventory": "Inventory Data exists in the system for the Equipment",
+      "assetHasConsignment": "Consignment Data exists in the system for the Equipment",
+      "assetHasRequisition": "Requisition Data exists in the system for the Equipment",
+      "assetHasBinInventory": "Bin Inventory Data exists in the system for the Equipment",
+      "assetHasMachineSpecialist": "Machine Specialist Data exists in the system for the Equipment",
+      "assetTableSetupNotFound": "Equipment Table Setup not found, please contact support",
+      "assetCustomerNotFound": "Equipment customer not found",
+      "assetServiceZoneNotFound": "Equipment service zone not found",
+      "assetProductNotFound": "Equipment Spare Part not found",
+      "assetTypeNotFound": "Equipment type not found",
+      "assetStatusNotFound": "Equipment status not found",
+      "assetProjectNotFound": "Equipment project not found",
+      "assetBuildingNotFound": "Equipment building not found",
+      "assetFloorNotFound": "Equipment floor not found",
+      "assetRoomNotFound": "Equipment room not found",
+      "assetCustodianNotFound": "Equipment custodian not found",
+      "assetSiteNotFound": "Equipment site not found",
+      "assetCategoryNotFound": "Equipment category not found",
+      "assetSubCategoryNotFound": "Equipment sub category not found",
       "assetCategoryExists": "Equipment Category already exists",
       "assetCategorySystemGenerated": "System generated Equipment Category are not allowed to be deleted",
       "assetCategoryCannotDeleteByAssetSubCategory": "Unable to delete: Equipment Category is used in one or more Equipment Sub Category",
@@ -758,10 +758,10 @@
       "assetSubCategorySystemGenerated": "System generated Equipment Sub Category are not allowed to be deleted",
       "assetCategoryIdExists": "A new Equipment Category cannot already have an ID",
       "assetSubCategoryIdExists": "A new Equipment Sub Category cannot already have an ID",
-      "assetCategoryCannotDeleteByAssets": "Unable to delete: Equipment Category is used in one or more Equipments",
-      "assetSubCategoryCannotDeleteByAssets": "Unable to delete: Equipment Sub Category is used in one or more Equipments",
+      "assetCategoryCannotDeleteByAssets": "Unable to delete: Equipment Category is used in one or more Equipment",
+      "assetSubCategoryCannotDeleteByAssets": "Unable to delete: Equipment Sub Category is used in one or more Equipment",
       "assetParentInvalid": "The chosen parent is already in the equipment hierarchy",
-      "assetHasChildAssets": "This equipment cannot be deleted because it has dependent child equipments. Please unlink them first",
+      "assetHasChildAssets": "This equipment cannot be deleted because it has dependent child equipment. Please unlink them first",
       "assetHasBinTransfer": "This equipment cannot be deleted because it has dependent bin transfers. Please unlink them first"
     },
     "tooltips": {
@@ -979,8 +979,8 @@
       },
       "pendingTransfer": {
         "original": "Show only Assets with a pending transfer",
-        "singular": "Show only Equipments with a pending transfer",
-        "plural": "Show only Equipments with a pending transfer",
+        "singular": "Show only Equipment with a pending transfer",
+        "plural": "Show only Equipment with a pending transfer",
         "setupEdit": false,
         "setupVisible": false
       },
@@ -1038,20 +1038,20 @@
       "configureQrBarcodeInAssetSetup": "To set up a QR/Barcode go to Equipment Configuration in Setup",
       "resetMeterForLowerReading": "Select 'Reset Meter' if your new meter reading is smaller than the current reading",
       "futureDateTimeEntryNotAllowed": "Entry cannot be made for future date and time",
-      "maintenanceAppliesToAllContractAssets": "This Maintenance will be applied to all Equipments within this Contract",
+      "maintenanceAppliesToAllContractAssets": "This Maintenance will be applied to all Equipment within this Contract",
       "errorFetchingAssetDetails": "Error fetching equipment details",
-      "noAssetsFound": "No Equipments Found",
+      "noAssetsFound": "No Equipment Found",
       "noScheduledMaintenance": "No Scheduled Maintenance",
       "noPriorMaintenance": "No Prior Maintenances",
       "noUpcomingJobs": "No Upcoming Jobs",
       "previously": "Previously",
       "from": "From",
       "warrantyStartDate": "Warranty start date should not be greater than warranty end date",
-      "errorFetchingAllAssets": "Error fetching all equipments",
+      "errorFetchingAllAssets": "Error fetching all equipment",
       "errorOccuredWhileFetchingAccessories": "Error occured while fetching accessories",
       "logs": "Logs",
       "showUpdatesRelated": "Show Updates Related To:",
-      "filterSelectAsset": "Filter and select the equipments you want to export QR codes for",
+      "filterSelectAsset": "Filter and select the equipment you want to export QR codes for",
       "exportQrForAll": "Export QR codes for all components too",
       "exportQrSettings": "Export QR Settings",
       "selectQrCodeSize": "Select QR Code Size",
@@ -1063,13 +1063,12 @@
       "someComponentsSelected": "Some components that you have selected already belong to a parent equipment. Continuing will edit their parent equipment to",
       "wouldYouAlsoLikeToUpdate": "Would you also like to update the respective fields in this equipment’s components?",
       "respectiveFieldsOverridden": "The respective fields in the component will be overridden if selected above",
-      "youCanCheckOnceOneFilterSelected": "You can only check this when you have selected at least one filter. All filtered equipments will be selected. Note: Only 500 equipments can be exported at a time.",
+      "youCanCheckOnceOneFilterSelected": "You can only check this when you have selected at least one filter. All filtered equipment will be selected. Note: Only 500 equipment can be exported at a time.",
       "alsoUpdateComponentStatus": "Also update component statuses",
       "wouldYouAlsoUpdateFields": "Would you also like up to update the respective fields in this",
       "component": "component"
     }
   },
-  
   "assetLog": {
     "setupVisible": true,
     "setupEdit": true,
@@ -1173,7 +1172,7 @@
       }
     },
     "validationBE": {
-      "assetLogIdExists": "A new equipmentLog cannot already have an ID",
+      "assetLogIdExists": "A new Equipment Log cannot already have an ID",
       "assetLogIdNotFound": "Id not found"
     },
     "messages": {
@@ -1184,7 +1183,6 @@
       "errorOccuredWhileSigning":"An error occured while signing"
     }
   },
-  
   "accessories": {
     "setupVisible": true,
     "setupEdit": true,
@@ -1312,8 +1310,7 @@
     "messages": {
       "quantityCantBeZero": "Quantity Cannot be Zero"
     }
-  },
-  
+  },  
   "bin": {
     "setupVisible": false,
     "label": {
@@ -1372,8 +1369,8 @@
       },
       "addAssetsToBin": {
         "original": "Add Assets to Bin",
-        "singular": "Add Equipments to Bin",
-        "plural": "Add Equipments to Bin",
+        "singular": "Add Equipment to Bin",
+        "plural": "Add Equipment to Bin",
         "setupEdit": true,
         "setupVisible": true
       },
@@ -1619,7 +1616,7 @@
       },
       "sec9": {
         "original": "Spare Part/Assets Transfer",
-        "singular": "Spare Part/Equipments Transfer",
+        "singular": "Spare Part/Equipment Transfer",
         "plural": "",
         "setupEdit": false,
         "setupVisible": false
@@ -1647,7 +1644,7 @@
       },
       "sec13": {
         "original": "Asset(s) to Transfer",
-        "singular": "Equipment(s) to Transfer",
+        "singular": "Equipment to Transfer",
         "plural": "",
         "setupEdit": false,
         "setupVisible": false
@@ -1661,15 +1658,15 @@
       },
       "sec15": {
         "original": "Transfer by Assets",
-        "singular": "Transfer by Equipments",
-        "plural": "Transfer by Equipments",
+        "singular": "Transfer by Equipment",
+        "plural": "Transfer by Equipment",
         "setupEdit": false,
         "setupVisible": false
       },
       "sec16": {
         "original": "Add Assets Via Serial Number",
-        "singular": "Add Equipments Via Serial Number",
-        "plural": "Add Equipments Via Serial Number",
+        "singular": "Add Equipment Via Serial Number",
+        "plural": "Add Equipment Via Serial Number",
         "setupEdit": false,
         "setupVisible": false
       },
@@ -1944,7 +1941,7 @@
       },
       "removeSelectedAsset": {
         "original": "Remove selected assets from their respective bins",
-        "singular": "Remove selected Equipments from their respective bins",
+        "singular": "Remove selected Equipment from their respective bins",
         "plural": "",
         "setupEdit": false,
         "setupVisible": false
@@ -1993,7 +1990,7 @@
       },
       "includeChildAsset": {
         "original": "Include Child Assets",
-        "singular": "Include Child Equipments",
+        "singular": "Include Child Equipment",
         "plural": "",
         "setupEdit": false,
         "setupVisible": false
@@ -2058,7 +2055,7 @@
       },
       "includeChildAsset": {
         "original": "Includes child assets of selected assets in the transfer. Only child assets in the same bin as their parent will be included.",
-        "singular": "Includes child equipments of selected equipments in the transfer. Only child equipments in the same bin as their parent will be included",
+        "singular": "Includes child equipment of selected equipment in the transfer. Only child equipment in the same bin as their parent will be included",
         "plural": "",
         "setupEdit": false,
         "setupVisible": false
@@ -2081,7 +2078,7 @@
       "binTransferNotAuthorized": "You are only authorized to perform transactions across your Bin(s)",
       "binTransferBinNotFound": "Bin Transfer Bin not found",
       "binTransferProductNotFound": "Bin Transfer Spare Part not found",
-      "binTransferAssetsNotFound": "Bin Transfer Equipments not found",
+      "binTransferAssetsNotFound": "Bin Transfer Equipment not found",
       "binTransferInvalidStatus": "Only allowed statuses: ACCEPTED/DECLINED/CANCEL",
       "binTransferNotFound": "Bin Transfer not found",
       "binTransferItemIdExists": "A new Bin Transfer Item cannot already have an ID",
@@ -2115,15 +2112,15 @@
       "binTransfer":"Bin Transfer",
       "transferQtyIsGreaterThanAvailableQuantityFor":"Transfer quantity is greater than available quantity for one or more transfer.",
       "binTransferSavedSuccessfully":"Bin Transfer saved successfully",
-      "assetsTransferred":"Equipment(s) transferred",
+      "assetsTransferred":"Equipment transferred",
       "productsTransferred":"Spare Part(s) transferred",
-      "assetsAreNotAllowedToTransfer": "Equipments are not allowed to transfer to Job order",
-      "selectAssetsToTransfer":"Select the equipments you want to transfer",
-      "selectBinToTransferAssets":"Select the bin you want to transfer the equipments to",
+      "assetsAreNotAllowedToTransfer": "Equipment are not allowed to transfer to Job order",
+      "selectAssetsToTransfer":"Select the equipment you want to transfer",
+      "selectBinToTransferAssets":"Select the bin you want to transfer the equipment to",
       "confirmAssetToTransfer":"Confirm the equipment you want to transfer",
       "selectBinToTransferAboveAsset":"Select the bin you want to transfer the above equipment to",
-      "typePasteSerialNumbers":"Type or paste serial numbers of the equipments you want to transfer with a maximum of 50 serial numbers at a time. Note: Separate serial numbers with ',' or a new line.",
-      "inputSerialNumbers":"Type or paste serial numbers of the equipments you want to transfer with a maximum of 50 serial numbers at a time.",
+      "typePasteSerialNumbers":"Type or paste serial numbers of the equipment you want to transfer with a maximum of 50 serial numbers at a time. Note: Separate serial numbers with ',' or a new line.",
+      "inputSerialNumbers":"Type or paste serial numbers of the equipment you want to transfer with a maximum of 50 serial numbers at a time.",
       "inputSKU":"Type or paste SKUs of the spare parts you want to transfer with a maximum of 50 SKUs at a time. ",
       "serialNumberNote":"Note",
       "serialNumberSeparation":"Separate serial numbers with ',' or a new line.",
@@ -2138,14 +2135,14 @@
       "selectOptionTo":"Select this option to",
       "browseAssetList":"Browsing your equipment list",
       "browseSparePartsList":"Browsing your Spare Parts list",
-      "selectAssetsViaSerialNo":"Selecting equipments via serial number",
+      "selectAssetsViaSerialNo":"Selecting equipment via serial number",
       "addingViaSku":"Adding via SKU",
       "bulkTransferBetweenBins":"Bulk transfer items between bins",
       "reorganizeStorageSystem":"Reorganize your storage system",
-      "moveAssetsFromOneBinToAnother":"Move equipments from one bin to another",
+      "moveAssetsFromOneBinToAnother":"Move equipment from one bin to another",
       "moveSparePartsFromOneBinToAnother":"Move spare parts from one bin to another",
-      "selectBinTransferAssetFrom":"Select the bin you want to transfer equipments from",
-      "selectAssetsToBeTransferred":"Select the equipments to be transferred",
+      "selectBinTransferAssetFrom":"Select the bin you want to transfer equipment from",
+      "selectAssetsToBeTransferred":"Select the equipment to be transferred",
       "selectSparePartsToBeTransferred":"Select the spare parts to be transferred",
       "selectBinTransferSparePartFrom":"Select the bin you want to transfer spare parts from",
       "selectBinToTransferSpareParts":"Select the bin you want to transfer the spare parts to",
@@ -2159,7 +2156,7 @@
       "transferCannotContinue":"The transfer cannot continue since the selected bin no longer contains the following items",
       "aBinTransferInitiate":"A Bin Transfer record will be created for the approved items. Are you sure you want to initiate this bin transfer?",
       "max50SerialNumbers":"You can enter a maximum of 50 serial numbers/SKUs.",
-      "selectedAssetManagedBySameGroup":"Selected equipments must be from bins managed by the same user group",
+      "selectedAssetManagedBySameGroup":"Selected equipment must be from bins managed by the same user group",
       "selectedSparePartsManagedBySameGroup":"Selected spare parts must be from bins managed by the same user group",
       "quantityTransferExceedsStock":"Quantity to transfer exceeds available stock in the marked field(s). Reduce the quantity to proceed.",
       "areYouSureYouWantToProceed":"Are you sure you want to proceed with the"
@@ -3359,7 +3356,7 @@
       "contractCannotDeleteDueToRateCard":"Cannot delete contract: Delete the rate card first",
       "contractCustomerNotFound": "Contract Customer not found",
       "contractStatusNotFound": "Invalid Contract status",
-      "contractAssetsNotFound": "Contract Equipments not found",
+      "contractAssetsNotFound": "Contract Equipment not found",
       "contractTableSetupNotFound": "Contract Table Setup not found, please contact support",
       "contractContactNotFound": "Contract Contact not found",
       "contractIdNotFound": "Id not found",
@@ -6679,7 +6676,7 @@
       }
     },
     "validationFE": {
-      "pleaseSelectOne":"Please select one Spare Part or one asset"
+      "pleaseSelectOne":"Please select one Spare Part or one Equipment"
     },
     "validationBE": {
       "inventoryIdExists": "A new Inventory cannot already have an ID",
@@ -6687,11 +6684,11 @@
       "inventoryBinNotFound": "Bin not found",
       "inventoryZoneNotFound": "Zone not found",
       "inventoryLocationNotFound": "Location not found",
-      "inventoryAssetsNotFound": "Assets not found",
+      "inventoryAssetsNotFound": "Equipment not found",
       "inventoryProductNotFound": "Spare Part not found",
       "inventoryNotFound": "Inventory not found",
       "inventoryFilterRequired": "Please select at least one filter",
-      "inventoryStockInsufficient": "Insufficient Spare Part/Assets inventory stock",
+      "inventoryStockInsufficient": "Insufficient Spare Part/Equipment inventory stock",
       "inventoryTableSetupNotFound": "Inventory Table Setup not found, please contact support"
     },
     "messages": {
@@ -6991,7 +6988,7 @@
       }
     },
     "messages": {
-      "maintenanceAppliesToAllContractAssets": "This Maintenance will be applied to all Equipments within this Contract",
+      "maintenanceAppliesToAllContractAssets": "This Maintenance will be applied to all Equipment within this Contract",
       "unableSetStatusActive": "Cannot set status to 'Active' with a past end date",
       "startDateNotGreaterThenEnd": "Start date should not be greater than end date",
       "noMaintenanceItemsToDisplay": "No schedule maintenance items to display",
@@ -7461,7 +7458,7 @@
       },
       "includeChildAsset": {
         "original": "Includes child assets of selected assets in the transfer. Only child assets in the same bin as their parent will be included.",
-        "singular": "Includes child equipments of selected equipments in the transfer. Only child equipments in the same bin as their parent will be included",
+        "singular": "Includes child equipment of selected equipment in the transfer. Only child equipment in the same bin as their parent will be included",
         "plural": "",
         "setupEdit": false,
         "setupVisible": false
@@ -7490,7 +7487,7 @@
       "userGroupNotFoundOfToBin": "UserGroup not found for zone of To Bin",
       "fromBinNotFound": "From Bin not found",
       "toBinNotFound": "To Bin not found",
-      "noAssetsOrProductsFound": "No equipments or products found",
+      "noAssetsOrProductsFound": "No equipment or products found",
       "l1Andl2AlreadyExist": "Group Level 1 and Group Level 2 already exist",
       "cantUpdateApprovalConfigurationDueToPendingItems": "Can't update approval configuration due to pending consignments",
       "cantRemoveApprovalConfigurationDueToPendingItems": "Can't remove approval relationship due to pending consignments"
@@ -7502,19 +7499,19 @@
       "approvedCannotDelete":"Consignment Note has been approved hence unable to delete",
       "acknowledgeCannotDelete":"Consignment Note has been acknowledged hence unable to delete",
       "whatWouldYouLikeSend":"What would you like to send?",
-      "specificAssets":"Specific Equipments",
+      "specificAssets":"Specific Equipment",
       "sendByType":"Send by Type",
       "sendFromBin":"Send from Bin",
       "sendAnyAvailable":"Send Any Available",
       "chooseThisSerialNumber":"Choose this if you know the bin and equipment serial numbers.",
       "selectSparePartFromBin":"Select specific spare parts from a known bin",
       "defineCustomListOfItems":"Define a custom list of items to send",
-      "sendAssetByTypeQty":"Send equipments by type and quantity instead of serial numbers",
+      "sendAssetByTypeQty":"Send equipment by type and quantity instead of serial numbers",
       "sendSparePartAvailableFromBin":"Send spare parts from any available bin",
-      "selectBinSendingAssetFrom":"Select the bin you are sending equipments from",
+      "selectBinSendingAssetFrom":"Select the bin you are sending equipment from",
       "youCanSelectBinInCharge":"You can only select bins that you are in charge of",
       "selectItemsToBeSent":"Select the items to be sent",
-      "selectBinSendAssetTo":"Select the bin you would like to send the equipments to",
+      "selectBinSendAssetTo":"Select the bin you would like to send the equipment to",
       "reviewSelectionsMadeBeforeSubmit":"Review the selections that you have made before submitting",
       "reviewSelectionsMade":"Review the selections that you have made before submitting your request.",
       "selectBinSendingSparePartFrom":"Select the bin you are sending spare parts from",
@@ -8075,7 +8072,7 @@
       },
       "includeChildAsset": {
         "original": "Includes child assets of selected assets in the transfer. Only child assets in the same bin as their parent will be included.",
-        "singular": "Includes child equipments of selected equipments in the transfer. Only child equipments in the same bin as their parent will be included",
+        "singular": "Includes child equipment of selected equipment in the transfer. Only child equipment in the same bin as their parent will be included",
         "plural": "",
         "setupEdit": false,
         "setupVisible": false
@@ -8110,7 +8107,7 @@
       "userGroupNotFoundOfToBin": "UserGroup not found for zone of To Bin",
       "fromBinNotFound": "From Bin not found",
       "toBinNotFound": "To Bin not found",
-      "noAssetsOrProductsFound": "No equipments or products found",
+      "noAssetsOrProductsFound": "No equipment or products found",
       "l1Andl2AlreadyExist": "Group Level 1 and Group Level 2 already exist",
       "cantUpdateApprovalConfigurationDueToPendingItems": "Can't update approval configuration due to pending requisitions",
       "cantRemoveApprovalConfigurationDueToPendingItems": "Can't remove approval relationship due to pending requisitions"
@@ -8126,19 +8123,19 @@
       "requisitionSubmittedSuccessfully": "Requisition submitted successfully",
       "whatWouldYouLikeRequest":"What would you like to request?",
       "defineCustomListOfItems":"Define a custom list of items to request",
-      "specificAssets":"Specific Equipments",
+      "specificAssets":"Specific Equipment",
       "requestByType":"Request by Type",
       "requestFromBin":"Request from Bin",
       "requestAnyAvailable":"Request Any Available",
       "chooseThisSerialNumber":"Choose this if you know the bin and equipment serial numbers.",
-      "requestAssetByTypeQty":"Request equipments by type and quantity instead of serial numbers",
+      "requestAssetByTypeQty":"Request equipment by type and quantity instead of serial numbers",
       "selectSparePartFromBin":"Select specific spare parts from a known bin",
       "requestSparePartFromBin":"Request spare parts from any available bin",
-      "selectBinRequestAssetFrom":"Select the bin you are requesting equipments from",
+      "selectBinRequestAssetFrom":"Select the bin you are requesting equipment from",
       "unsureOfAssetLocation":"Not sure of equipment locations?",
-      "notSureBinAvailableAsset":"Not sure which bin the equipments are available in?",
+      "notSureBinAvailableAsset":"Not sure which bin the equipment are available in?",
       "selectItemsRequested":"Select the items to be requested",
-      "selectBinToTransferAssetTo":"Select the bin you would like to transfer the equipments to",
+      "selectBinToTransferAssetTo":"Select the bin you would like to transfer the equipment to",
       "youCanSelectBinInCharge":"You can only select bins that you are in charge of",
       "reviewSelectionsMade":"Review the selections that you have made before submitting your request.",
       "selectBinRequestSparePartFrom":"Select the bin you are requesting spare parts from",
@@ -8159,11 +8156,11 @@
       "hasCreatedRequisitionNote":"has created a Requisition Note",
       "andIsWaitingApproval":"and is awaiting your approval",
       "from":"from",
-      "selectAssetToRequest":"Select the equipments to be requested",
+      "selectAssetToRequest":"Select the equipment to be requested",
       "selectSparePartToRequest":"Select the spare parts to be requested",
       "selectItemsToRequest":"Select the items to be requested",
       "includeChildAsset":"Include Child Equipment",
-      "selectAssetWishToTransfer":"Select the equipments you wish to transfer",
+      "selectAssetWishToTransfer":"Select the equipment you wish to transfer",
       "selectSparePartWishToTransfer":"Select the spare parts you wish to transfer",
       "selectItemsWishToTransfer":"Select the items you wish to transfer",
       "filteredBySparePart":"Filtered by spare parts in selected from bin",
@@ -9523,8 +9520,8 @@
       },
       "saveConfigurationImportAsset":{
         "original": "Save Configurations & Import Assets",
-        "singular": "Save Configurations & Import Equipments",
-        "plural": "Save Configurations & Import Equipments",
+        "singular": "Save Configurations & Import Equipment",
+        "plural": "Save Configurations & Import Equipment",
         "setupEdit": false,
         "setupVisible": false
       },
@@ -9643,7 +9640,7 @@
       "locateAsset":{
         "original": "Locate Asset",
         "singular": "Locate Equipment",
-        "plural": "Locate Equipments",
+        "plural": "Locate Equipment",
         "setupEdit": false,
         "setupVisible": false
       },
@@ -10486,7 +10483,7 @@
       "anyAdditionalComments":"Any additional comments? Add them here",
       "tip":"Tip",
       "tips":"Tips",
-      "makeFilterSelections":"Make filter selections to locate equipments",
+      "makeFilterSelections":"Make filter selections to locate equipment",
       "confirmation":"Confirmation",
       "makeFilterSelectionsCheckAvail":"Make filter selections to check availability",
       "updateConfirmation":"Update Confirmation"
@@ -10797,7 +10794,7 @@
       "jobOrders": "Job Orders",
       "history": "History",
       "contacts": "Contacts",
-      "assets": "Assets",
+      "assets": "Equipment",
       "tasks": "Tasks",
       "attachments": "Attachments",
       "projects": "Projects",
@@ -11036,14 +11033,14 @@
         }
       },
       "messages":{
-        "theFollowingAssetTransferToBin":"The following equipments will be transferred to the following bins",
+        "theFollowingAssetTransferToBin":"The following equipment will be transferred to the following bins",
         "theFollowingSparePartTransferToBin":"The following spare parts will be transferred to the following bins",
-        "theFollowingAssetTransferTo":"The following equipments will be transferred to",
+        "theFollowingAssetTransferTo":"The following equipment will be transferred to",
         "theFollowingSparePartTransferTo":"The following spare parts will be transferred to",
         "willBeTransferTo":"will be transferred to",
         "willBeAdjustedInBin":"will be adjusted in the following bins",
-        "theFollowingAssetRemoveFromBin":"The following equipments will be removed from the following bins",
-        "theFollowingAssetRemoveFrom":"The following equipments will be removed from",
+        "theFollowingAssetRemoveFromBin":"The following equipment will be removed from the following bins",
+        "theFollowingAssetRemoveFrom":"The following equipment will be removed from",
         "willBeRemovedFrom":"will be removed from"
       }
     },
@@ -11942,7 +11939,7 @@
           },
           "userBinTransferReceiveProd": {
             "original": "A 'User Bin' is created for users with this access to transfer and receive Assets and Spare Parts",
-            "singular": "A 'User Bin' is created for users with this access to transfer and receive Equipments and Spare Parts",
+            "singular": "A 'User Bin' is created for users with this access to transfer and receive Equipment and Spare Parts",
             "plural": "",
             "setupEdit": true,
             "setupVisible": false
@@ -16881,8 +16878,8 @@
           },
           "includeMeterForType":{
             "original": "Include this meter for assets of types",
-            "singular": "Include this meter for equipments of type",
-            "plural": "Include this meter for equipments of type",
+            "singular": "Include this meter for equipment of type",
+            "plural": "Include this meter for equipment of type",
             "setupEdit": false,
             "setupVisible": false
           },
@@ -16928,7 +16925,7 @@
         },
         "sec2": {
           "original": "Assets that use this Checklist",
-          "singular": "Assets that use this Checklist",
+          "singular": "Equipment that use this Checklist",
           "plural": "",
           "setupEdit": true,
           "setupVisible": false
@@ -16956,7 +16953,7 @@
         },
         "sec6": {
           "original": "Specify the details of the Assets this Checklist is for. Assets matching the below values will trigger this Checklist.",
-          "singular": "Specify the details of the Equipments this Checklist is for. Equipments matching the below values will trigger this Checklist.",
+          "singular": "Specify the details of the Equipment this Checklist is for. Equipment matching the below values will trigger this Checklist.",
           "plural": "",
           "setupEdit": true,
           "setupVisible": false
@@ -16977,7 +16974,7 @@
         },
         "sec9": {
           "original": "Assets that have below criteria will trigger this checklist",
-          "singular": "Assets that have below criteria will trigger this checklist",
+          "singular": "Equipment that have below criteria will trigger this checklist",
           "plural": "",
           "setupEdit": true,
           "setupVisible": false
@@ -17721,8 +17718,8 @@
           },
           "asset": {
             "original": "Asset",
-            "singular": "Asset",
-            "plural": "Assets",
+            "singular": "Equipment",
+            "plural": "Equipment",
             "setupEdit": true,
             "setupVisible": false
           }
@@ -17780,8 +17777,8 @@
           },
           "asset": {
             "original": "Asset",
-            "singular": "Asset",
-            "plural": "Assets",
+            "singular": "Equipment",
+            "plural": "Equipment",
             "setupEdit": true,
             "setupVisible": false
           }
@@ -19712,16 +19709,16 @@
       }
     },
     "validationBE": {
-      "setupAssetsConfigIdExists": "A new Equipments Config cannot already have an ID",
+      "setupAssetsConfigIdExists": "A new Equipment Config cannot already have an ID",
       "setupAssetsConfigIdNotFound": "Id not found",
-      "setupAssetsStatusIdExists": "A new Equipments Status cannot already have an ID",
-      "setupAssetsStatusSystemGenerated": "System generated Equipments Status is not allowed to be deleted",
+      "setupAssetsStatusIdExists": "A new Equipment Status cannot already have an ID",
+      "setupAssetsStatusSystemGenerated": "System generated Equipment Status is not allowed to be deleted",
       "setupAssetsStatusNameExists": "Name already exists",
-      "setupAssetsStatusHasChecklistRecord": "Assets Status is linked with one or more checklist records, hence unable to delete",
-      "setupAssetsStatusHasAssets": "Assets Status is linked with one or more equipments, hence unable to delete",
-      "setupAssetsTypeSystemGenerated": "System generated Equipments Type is not allowed to be deleted",
-      "setupAssetsTypeHasAssets": "Assets Type is linked with one or more equipments, hence unable to delete",
-      "setupAssetsTypeHasTemplateChecklist": "Assets Type is linked with one or more template checklists, hence unable to delete",
+      "setupAssetsStatusHasChecklistRecord": "Equipment Status is linked with one or more checklist records, hence unable to delete",
+      "setupAssetsStatusHasAssets": "Equipment Status is linked with one or more equipment, hence unable to delete",
+      "setupAssetsTypeSystemGenerated": "System generated equipment Type is not allowed to be deleted",
+      "setupAssetsTypeHasAssets": "Equipment Type is linked with one or more equipment, hence unable to delete",
+      "setupAssetsTypeHasTemplateChecklist": "Equipment Type is linked with one or more template checklists, hence unable to delete",
       "setupCustomerConfigIdExists": "A new Customer Config cannot already have an ID",
       "setupCustomerConfigIdNotFound": "Id not found",
       "setupCategoryTypeIdExists": "A new Category Type cannot already have an ID",
@@ -19957,12 +19954,12 @@
       "setupTmplTaskHasJobOrder": "Unable to delete: Template used in one or more job orders",
       "setupTmplTaskHasJobOrderProduct": "Unable to delete: Template used to create one or more Job Order Products",      
       "setupAssetMeterMaxAssetsTypeReached": "Already reached the maximum number of Equipment Meters for selected Equipment Type",
-      "setupAssetMeterHasAssetsRecord": "Assets Meter is linked with one or more Equipments records, hence unable to delete"
+      "setupAssetMeterHasAssetsRecord": "Equipment Meter is linked with one or more Equipment records, hence unable to delete"
     },
     "labelBE": {
       "profileTableColumnSetup": {
         "module": {
-          "assets": "Asset",
+          "assets": "Equipment",
           "contract": "Contract",
           "customer": "Customer",
           "job_order": "Job Order",
@@ -19987,14 +19984,14 @@
               "tasks": "Task",
               "customer_payment": "Customer Payment",
               "customer_purchase_history": "Customer Purchase History",
-              "assets_tracking": "Assets Tracking",
+              "assets_tracking": "Equipment Tracking",
               "planning_hub": "Planning Hub",
               "delivery_orders": "Delivery Orders",
               "shifts": "Shifts",
               "drivers": "Drivers",
               "packages": "Packages",
               "vehicles": "Vehicles",
-              "assets": "Asset",
+              "assets": "Equipment",
               "assets_contracts": "Contract",
               "scheduled_maintenance": "Preventive Maintenance",
               "inventory": "Inventory",
@@ -21315,8 +21312,8 @@
         }
       },
       "messages":{
-        "letsImportAsset":"Lets Import your Equipments",
-        "assetAreHeartCmms":"Assets are the heart of your CMMS. Start by uploading them to manage maintenance, history, and assignments",
+        "letsImportAsset":"Lets Import your Equipment",
+        "assetAreHeartCmms":"Equipment are the heart of your CMMS. Start by uploading them to manage maintenance, history, and assignments",
         "aiPoweredImport":"AI-Powered Import",
         "automaticallyMapYourCSV":"Fieldex can automatically map your CSV columns, extract types, statuses, categories and configure your system - no manual setup required!",
         "letOurIntelligentSystem":"Let our intelligent system do the work for you. FieldEx can automatically:",
@@ -21324,14 +21321,14 @@
         "extractConfigureAssetType":"Extract and configure equipment type picklists",
         "detectSetUpStatus":"Detect and set up status values with appropriate colors",
         "configureSystemInSeconds":"Configure your system in seconds - no manual setup required",
-        "uploadExistingAsset":"Upload your existing equipments and we'll help you map the fields and configure the equipment module for you.",
+        "uploadExistingAsset":"Upload your existing equipment and we'll help you map the fields and configure the equipment module for you.",
         "dragDropCsvHere":"Drag & Drop your CSV file here",
         "needATemplate":"Need a template?",
         "downloadCsvTemplate":"Download CSV Template",
         "letAiCreateData":"Let AI Create your data & Configure Your System",
         "startBuildingMaintenanceSystem":"Start building your maintenance system in minutes",
         "helpsReduceDowntime":"FieldEx helps you reduce downtime by 37%, extend equipment lifespans, and cut maintenance costs. Set up your system in minutes and start transforming your maintenance operations today",
-        "getQuickLook":"Get a quick look at how FieldEx empowers teams to manage equipments, schedule services, and reduce downtime effortlessly.",
+        "getQuickLook":"Get a quick look at how FieldEx empowers teams to manage equipment, schedule services, and reduce downtime effortlessly.",
         "bookTrainingSession":"Book a 45 min training session",
         "withRealHumanForFree":"with a real human to get you on board for free",
         "whatYouCanDo":"What You Can Do With FieldEx",
@@ -21377,13 +21374,13 @@
         "enterNewResolution":"Enter new resolution...",
         "tip":"Tip",
         "watchDemo":"Watch a Demo: What You Can Achieve with Fieldex",
-        "quickLookEmpowersTeam":"Get a quick look at how FieldEx empowers teams to manage equipments, schedule services, and reduce downtime effortlessly",
+        "quickLookEmpowersTeam":"Get a quick look at how FieldEx empowers teams to manage equipment, schedule services, and reduce downtime effortlessly",
         "select":"Select",
         "selectRole":"Select Role",
         "aiAnalysisComplete":"AI Analysis Complete",
         "dataInsight":"Data Insights",
         "fieldMapping":"Map your CSV fields to FieldEx system fields",
-        "assetTypes":"equipment Types",
+        "assetTypes":"Equipment Types",
         "bookTrainingExperience":"Book a Training: Supercharge your FieldEx experience",
         "freeOnboardingCaps":"FREE ONBOARDING",
         "bookTwoSessions":"Book your two complimentary training sessions with our product specialists and learn how to maximize your field operations efficiency. No charges during onboarding!",
