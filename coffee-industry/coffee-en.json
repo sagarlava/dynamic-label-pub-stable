@@ -1182,6 +1182,235 @@
       "areYouSureDeleteReading":"Are you sure you want to delete this reading on",
       "errorOccuredWhileSigning":"An error occured while signing"
     }
+  },  
+  "analytic": {
+    "setupVisible": false,
+    "setupEdit": false,
+    "label": {
+      "original": "Analytics",
+      "singular": "Analytic",
+      "plural": "Analytics",
+      "setupEdit": false,
+      "setupVisible": false
+    },
+    "sections": {
+      "setupVisible": false,
+      "setupEdit": false,
+      "sec0": {
+        "original": "Lifespan and Financial Details",
+        "singular": "Lifespan and Financial Details",
+        "plural": "Lifespan and Financial Details",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec1": {
+        "original": "Operational Metrics",
+        "singular": "Operational Metrics",
+        "plural": "Operational Metrics",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec2": {
+        "original": "Downtime and Maintenance Analytics",
+        "singular": "Downtime and Maintenance Analytics",
+        "plural": "Downtime and Maintenance Analytics",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec3": {
+        "original": "Condition and Inspection Details",
+        "singular": "Condition and Inspection Details",
+        "plural": "Condition and Inspection Details",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec4": {
+        "original": "Performance and Cost Analysis",
+        "singular": "Performance and Cost Analysis",
+        "plural": "Performance and Cost Analysis",
+        "setupEdit": false,
+        "setupVisible": false
+      }
+    },
+    "fields": {
+      "setupVisible": false,
+      "setupEdit": false,
+      "estimatedLifespan": {
+        "original": "Estimated Lifespan (Months)",
+        "singular": "Estimated Lifespan (Months)",
+        "plural": "Estimated Lifespan (Months)",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "initialCost": {
+        "original": "Initial Cost",
+        "singular": "Initial Cost",
+        "plural": "Initial Cost",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "salvageValue": {
+        "original": "Salvage Value",
+        "singular": "Salvage Value",
+        "plural": "Salvage Value",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "depriciationRate": {
+        "original": "Depreciation Rate",
+        "singular": "Depreciation Rate",
+        "plural": "Depreciation Rate",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "expectedAvailableTime": {
+        "original": "Expected Available Time (Months)",
+        "singular": "Expected Available Time (Months)",
+        "plural": "Expected Available Time (Months)",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "timeUsed": {
+        "original": "Time Used",
+        "singular": "Time Used",
+        "plural": "Time Used",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "totalAvailableTime": {
+        "original": "Total Available Time",
+        "singular": "Total Available Time",
+        "plural": "Total Available Time",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "utilizationRate": {
+        "original": "Utilization Rate",
+        "singular": "Utilization Rate",
+        "plural": "Utilization Rate",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "remainingUsefulLife": {
+        "original": "Remaining Useful Life (RUL)",
+        "singular": "Remaining Useful Life (RUL)",
+        "plural": "Remaining Useful Life (RUL)",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "assetAge": {
+        "original": "Asset Age",
+        "singular": "Asset Age",
+        "plural": "Asset Age",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "totalDowntimePeriod": {
+        "original": "Total Downtime Period",
+        "singular": "Total Downtime Period",
+        "plural": "Total Downtime Period",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "avgRepairCost": {
+        "original": "Average Repair Cost",
+        "singular": "Average Repair Cost",
+        "plural": "Average Repair Cost",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "avgMaintenanceCost": {
+        "original": "Average Maintenance Cost",
+        "singular": "Average Maintenance Cost",
+        "plural": "Average Maintenance Cost",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "numberOfRepair": {
+        "original": "Number of Repairs",
+        "singular": "Number of Repair",
+        "plural": "Number of Repairs",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "totalRepairTime": {
+        "original": "Total Repair Time",
+        "singular": "Total Repair Time",
+        "plural": "Total Repair Time",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "mttr": {
+        "original": "MTTR (Mean Time To Repair)",
+        "singular": "MTTR (Mean Time To Repair)",
+        "plural": "MTTR (Mean Time To Repair)",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "mtbf": {
+        "original": "MTBF (Mean Time Between Failures)",
+        "singular": "MTBF (Mean Time Between Failures)",
+        "plural": "MTBF (Mean Time Between Failures)",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "conditionIndex": {
+        "original": "Condition Index",
+        "singular": "Condition Index",
+        "plural": "Condition Index",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "lastCalibrationDate": {
+        "original": "Last Calibration Date",
+        "singular": "Last Calibration Date",
+        "plural": "Last Calibration Date",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "latestSafetyInspection": {
+        "original": "Latest Safety Inspection",
+        "singular": "Latest Safety Inspection",
+        "plural": "Latest Safety Inspection",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "failureRate": {
+        "original": "Failure Rate",
+        "singular": "Failure Rate",
+        "plural": "Failure Rate",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "operatingCostHour": {
+        "original": "Operating Costs per Hour",
+        "singular": "Operating Costs per Hour",
+        "plural": "Operating Costs per Hour",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "repairCostHour": {
+        "original": "Repair Costs per Hour",
+        "singular": "Repair Costs per Hour",
+        "plural": "Repair Costs per Hour",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "lifetimeCostHour": {
+        "original": "Lifetime Repair Cost",
+        "singular": "Lifetime Repair Cost",
+        "plural": "Lifetime Repair Cost",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "lifetimeMaintenanceCost": {
+        "original": "Lifetime Maintenance Cost",
+        "singular": "Lifetime Maintenance Cost",
+        "plural": "Lifetime Maintenance Cost",
+        "setupEdit": false,
+        "setupVisible": false
+      }
+    }
   },
   "accessories": {
     "setupVisible": true,
@@ -7000,7 +7229,351 @@
       "haveActiveMaintenance":"Already have an Active Maintenance"
     }
   },
-  
+  "product": {
+    "setupVisible": true,
+    "setupEdit": true,
+    "label": {
+      "original": "Spare Parts",
+      "singular": "Spare Part",
+      "plural": "Spare Parts",
+      "setupEdit": true,
+      "setupVisible": true
+    },
+    "sections": {
+      "setupVisible": false,
+      "setupEdit": false,
+      "sec0": {
+        "original": "General Details",
+        "singular": "General Details",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec1": {
+        "original": "Manufacturer Details",
+        "singular": "Manufacturer Details",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec2": {
+        "original": "Price Details",
+        "singular": "Price Details",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec3": {
+        "original": "Additional Details",
+        "singular": "Additional Details",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec4": {
+        "original": "Spare Part Details",
+        "singular": "Spare Part Details",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec5": {
+        "original": "Adjust Inventory",
+        "singular": "Adjust Inventory",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec6": {
+        "original": "Check availability",
+        "singular": "Check availability",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec7": {
+        "original": "Details",
+        "singular": "Details",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec8": {
+        "original": "Add a spare part and quantity to be created under Job Orders generated from this template",
+        "singular": "Add a spare part and quantity to be created under Job Orders generated from this template",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      }
+    },
+    "fields": {
+      "setupVisible": true,
+      "setupEdit": true,
+      "name": {
+        "original": "Name",
+        "singular": "Name",
+        "plural": "Names",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "status": {
+        "original": "Status",
+        "singular": "Status",
+        "plural": "Statuses",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sku": {
+        "original": "SKU",
+        "singular": "SKU",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "type": {
+        "original": "Type",
+        "singular": "Type",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "productFamily": {
+        "original": "Spare Part Family",
+        "singular": "Spare Part Family",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "warrantyPeriod": {
+        "original": "Warranty Period",
+        "singular": "Warranty Period",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "expiryDate": {
+        "original": "Expiry Date",
+        "singular": "Expiry Date",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "serialNo": {
+        "original": "Serial Number",
+        "singular": "Serial Number",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "unitMeasurement": {
+        "original": "Unit of Measurement",
+        "singular": "Unit of Measurement",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "photo": {
+        "original": "Photo",
+        "singular": "Photo",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "makeModel": {
+        "original": "Make/Model",
+        "singular": "Make/Model",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "manufacturer": {
+        "original": "Manufacturer",
+        "singular": "Manufacturer",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "manufacturerYear": {
+        "original": "Manufacture Year",
+        "singular": "Manufacture Year",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "unitPrice": {
+        "original": "Unit Price",
+        "singular": "Unit Price",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "taxIncluded": {
+        "original": "Tax Included",
+        "singular": "Tax Included",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "notForSale": {
+        "original": "Not For Sale",
+        "singular": "Not For Sale",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "remarks": {
+        "original": "Remark",
+        "singular": "Remark",
+        "plural": "Remarks",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "monthS": {
+        "original": "Month(s)",
+        "singular": "Month(s)",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "productName": {
+        "original": "Spare Part Name",
+        "singular": "Spare Part Name",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "productType": {
+        "original": "Spare Part Type",
+        "singular": "Spare Part Type",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "productNo": {
+        "original": "Spare Part No.",
+        "singular": "Spare Part No.",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "qty": {
+        "original": "Qty",
+        "singular": "Qty",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "quantity": {
+        "original": "quantity",
+        "singular": "quantity",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "totalPrice": {
+        "original": "Total Price",
+        "singular": "Total Price",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "warranty": {
+        "original": "Warranty",
+        "singular": "Warranty",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "user": {
+        "original": "User",
+        "singular": "User",
+        "plural": "Users",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "description": {
+        "original": "Description",
+        "singular": "Description",
+        "plural": "Descriptions",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "total": {
+        "original": "Total",
+        "singular": "Total",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "totalAmount": {
+        "original": "Total Amount",
+        "singular": "Total Amount",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "subTotal": {
+        "original": "Sub-total",
+        "singular": "Sub-total",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "family": {
+        "original": "Family",
+        "singular": "Family",
+        "plural": "Families",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "model": {
+        "original": "Model",
+        "singular": "Model",
+        "plural": "Model",
+        "setupEdit": false,
+        "setupVisible": false
+      }
+    },
+    "validationFE": {},
+    "validationBE": {
+      "productNotFound": "Spare Part not found",
+      "productIdNotFound": "Id not found",
+      "productHasJobOrderOrSalesOrder": "Job Order/Sales Order Data exists in the system for the Spare Part",
+      "productHasCustomerServiceReportItem": "Customer Service Report Item Data exists in the system for the Spare Part",
+      "productHasInventoryItem": "Inventory Item Data exists in the system for the Spare Part",
+      "productHasConsignmentItem": "Consignment Item Data exists in the system for the Spare Part",
+      "productHasRequisitionItem": "Requisition Item Data exists in the system for the Spare Part",
+      "productTableSetupNotFound": "Spare Part Table Setup not found, please contact support",
+      "productWithExtIdNotFound": "Invalid ExternalId",
+      "productFamilyNotFound": "Spare Part Family not found",
+      "productTypeNotFound": "Spare Part Type not found",
+      "productMeasureUnitNotFound": "Spare Part Measure Unit not found",
+      "productIdExists": "A new Spare Part cannot already have an ID",
+      "productIdExtIdNotFound": "Id/ExternalId not found"
+    },
+    "tooltips": {
+      "setupVisible": false,
+      "setupEdit": false,
+      "productLookup": {
+        "original": "Spare Part Lookup",
+        "singular": "Spare Part Lookup",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      }
+    },
+    "messages": {
+      "productFamilyRemoved": "Spare Part family removed successfully",
+      "deleteProductFamily": "Delete Spare Part Family",
+      "deleteProductType": "Delete Spare Part Type",
+      "newProductFamily":"New Spare Part Family",
+      "newProductType":"New Spare Part Type",
+      "subTotal": "Sub Total",
+      "totalAmount": "Total Amount",
+      "groupByTask": "Group by Task",
+      "deleteTaskTemplateRemoveSpareParts":"Deleting this task template will also remove all associated spare parts"
+    }
+  },
   "consignment": {
     "setupVisible": false,
     "setupEdit": false,
@@ -8168,8 +8741,148 @@
       "areYouSureCancelRequisitionNote":"Are you sure you want to cancel this requisition note?"
     }
   },
-
-  
+  "movement": {
+    "setupEdit": false,
+    "setupVisible": false,
+    "label": {
+      "original": "Movements",
+      "singular": "Movement",
+      "plural": "Movements",
+      "setupEdit": false,
+      "setupVisible": false
+    },
+    "fields": {
+      "from": {
+        "original": "From",
+        "singular": "From",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "to": {
+        "original": "To",
+        "singular": "To",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "transferredBy": {
+        "original": "Transferred By",
+        "singular": "Transferred By",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "transferredDate": {
+        "original": "Transferred Date",
+        "singular": "Transferred Date",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "transferNo": {
+        "original": "Transfer No.",
+        "singular": "Transfer No.",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      }
+    }
+  },
+  "usage":{
+    "setupVisible": false,
+    "setupEdit": false,
+    "label": {
+      "original": "Usage",
+      "singular": "Usage",
+      "plural": "Usages",
+      "setupEdit": false,
+      "setupVisible": false
+    },
+    "fields":{
+      "setupVisible": false,
+      "setupEdit": false,
+      "name":{
+        "original": "Name",
+        "singular": "Name",
+        "plural": "Names",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "qtyUsed":{
+        "original": "Qty Used",
+        "singular": "Qty Used",
+        "plural": "Qty Used",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "usedBy":{
+        "original": "Used By",
+        "singular": "Used By",
+        "plural": "Used By",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "usageDate":{
+        "original": "Usage Date",
+        "singular": "Usage Date",
+        "plural": "Usage Dates",
+        "setupEdit": false,
+        "setupVisible": false
+      }
+    }
+  },
+   "vanLog":{
+    "setupVisible": false,
+    "label": {
+      "original": "Van Log",
+      "singular": "Van Log",
+      "plural": "Van Logs",
+      "setupEdit": true,
+      "setupVisible": true
+    },
+    "fields": {
+      "setupVisible": true,
+      "vanLogId": {
+        "original": "Van Log ID",
+        "singular": "Van Log ID",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "technician": {
+        "original": "Technician",
+        "singular": "Technician",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "fromLocation": {
+        "original": "From Location",
+        "singular": "From Location",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "endLocation": {
+        "original": "End Location",
+        "singular": "End Location",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "status": {
+        "original": "Status",
+        "singular": "Status",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      }
+    },
+    "validationFE":{
+      "customerRequiredCreateVanLog":"Customer is required to create a van log record"
+    }
+  },  
   "general": {
     "setupVisible": false,
     "label": {
