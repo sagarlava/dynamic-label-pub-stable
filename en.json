@@ -14833,6 +14833,13 @@
         "plural": "Schedule",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "sort": {
+        "original": "Sort",
+        "singular": "Sort",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "status": {
@@ -26347,6 +26354,27 @@
         "plural": "",
         "setupEdit": true,
         "setupVisible": false
+      },
+      "entryCap": {
+        "original": "Entry",
+        "singular": "Entry",
+        "plural": "Entries",
+        "setupEdit": true,
+        "setupVisible": false
+      },
+      "entryLower": {
+        "original": "entry",
+        "singular": "entry",
+        "plural": "entryies",
+        "setupEdit": true,
+        "setupVisible": false
+      },
+      "column": {
+        "original": "Column",
+        "singular": "Column",
+        "plural": "Columns",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "tooltips":{
@@ -26545,7 +26573,8 @@
       "addAggregate":"Add Aggregate",
       "makingGroupedField":"Making a grouped field selection will group your",
       "selectModuleForThis":"Select a module for this",
-      "doYouWantThis":"Do you want this"
+      "doYouWantThis":"Do you want this",
+      "showing":"Showing"
     }
   },
   "academy": {
