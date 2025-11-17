@@ -10885,6 +10885,90 @@
         "plural": "Clear Filters",
         "setupEdit": false,
         "setupVisible": false
+      },
+       "rename":{
+        "original": "Rename",
+        "singular": "Rename",
+        "plural": "Rename",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "share":{
+        "original": "Share",
+        "singular": "Share",
+        "plural": "Share",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "export":{
+        "original": "Export",
+        "singular": "Export",
+        "plural": "Export",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "import":{
+        "original": "Import",
+        "singular": "Import",
+        "plural": "Import",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "duplicate":{
+        "original": "Duplicate",
+        "singular": "Duplicate",
+        "plural": "Duplicate",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "favorite":{
+        "original": "Favorite",
+        "singular": "Favorite",
+        "plural": "Favorite",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "unfavorite":{
+        "original": "Unfavorite",
+        "singular": "Unfavorite",
+        "plural": "Unfavorite",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "viewer":{
+        "original": "Viewer",
+        "singular": "Viewer",
+        "plural": "Viewer",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "editor":{
+        "original": "Editor",
+        "singular": "Editor",
+        "plural": "Editor",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "run": {
+        "original": "Run",
+        "singular": "Run",
+        "plural": "Run",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "schedule": {
+        "original": "Schedule",
+        "singular": "Schedule",
+        "plural": "Schedule",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sort": {
+        "original": "Sort",
+        "singular": "Sort",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "status": {
