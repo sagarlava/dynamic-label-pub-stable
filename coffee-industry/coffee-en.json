@@ -22945,6 +22945,27 @@
         "plural": "",
         "setupEdit": true,
         "setupVisible": false
+      },
+       "entryCap": {
+        "original": "Entry",
+        "singular": "Entry",
+        "plural": "Entries",
+        "setupEdit": true,
+        "setupVisible": false
+      },
+      "entryLower": {
+        "original": "entry",
+        "singular": "entry",
+        "plural": "entries",
+        "setupEdit": true,
+        "setupVisible": false
+      },
+      "column": {
+        "original": "Column",
+        "singular": "Column",
+        "plural": "Columns",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "tooltips":{
@@ -23143,7 +23164,8 @@
       "addAggregate":"Add Aggregate",
       "makingGroupedField":"Making a grouped field selection will group your",
       "selectModuleForThis":"Select a module for this",
-      "doYouWantThis":"Do you want this"
+      "doYouWantThis":"Do you want this",
+      "showing":"Showing"
     }
   }
 }
