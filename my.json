@@ -2529,6 +2529,50 @@
         "setupVisible": false
       }
     },
+    "fields":{
+      "maintenance":{
+        "original": "Maintenance",
+        "singular": "Maintenance",
+        "plural": "Maintenance",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "plan":{
+        "original": "Plan",
+        "singular": "Plan",
+        "plural": "Plans",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "timeBased":{
+        "original": "Time-based",
+        "singular": "Time-based",
+        "plural": "Time-based",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "meterBased":{
+        "original": "Meter-based",
+        "singular": "Meter-based",
+        "plural": "Meter-based",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "time":{
+        "original": "Time",
+        "singular": "Time",
+        "plural": "Time",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "meter":{
+        "original": "Meter",
+        "singular": "Meter",
+        "plural": "Meter",
+        "setupEdit": false,
+        "setupVisible": false
+      }
+    },
     "messages":{
       "nameYour": "Namakan",
       "setStatusChooseWhen": "tetapkan statusnya, dan pilih bila",
