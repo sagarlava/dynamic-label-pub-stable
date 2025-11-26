@@ -2575,6 +2575,78 @@
       "setUpNotificationToPerformPm": "设置通知，定期发送给资产所有者以执行预防性维护。"
     }
   },
+  "maintenancePlan":{
+    "setupVisible": false,
+    "setupEdit": false,
+    "label": {
+      "original": "Preventive Maintenance",
+      "singular": "预防性维护",
+      "plural": "预防性维护",
+      "setupEdit": false,
+      "setupVisible": false
+    },
+    "sections": {
+      "setupVisible": false,
+      "setupEdit": false,
+      "sec0": {
+        "original": "Maintenance Jobs",
+        "singular": "维护工作",
+        "plural": "维护工作",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec1": {
+        "original": "Maintenance Plans",
+        "singular": "维护计划",
+        "plural": "维护计划",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec2": {
+        "original": "Define Your Maintenance Plan",
+        "singular": "定义您的维护计划",
+        "plural": "定义您的维护计划",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec3": {
+        "original": "Create Schedule",
+        "singular": "创建计划表",
+        "plural": "创建计划表",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec4": {
+        "original": "Configure Creation",
+        "singular": "配置创建",
+        "plural": "配置创建",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec5": {
+        "original": "Self-healing",
+        "singular": "自我修复",
+        "plural": "自我修复",
+        "setupEdit": false,
+        "setupVisible": false
+      }
+    },
+    "messages":{
+      "nameYour": "命名您的",
+      "setStatusChooseWhen": "设置其状态，并选择何时",
+      "shouldOccur": "应发生。使用基于时间的间隔、基于计量的使用触发器或两者兼用，以确保在正确的时间执行正确的工作。",
+      "start": "开始",
+      "from": "从",
+      "andEnd": "并结束",
+      "chooseHowYour": "选择您的",
+      "shouldTrigger": "应触发的方式",
+      "basedTimeIntervals": "基于时间间隔，如每周、每月或每季度。非常适合例行检查和季节性维护。",
+      "basedOnUsageMetrics": "基于使用指标，如行驶里程、运行小时或完成循环。非常适合具有可测使用量的设备。",
+      "combineBothMethods": "结合两种方法",
+      "triggersOnWhichever": "在首先满足的条件时触发，然后智能地重新安排计划。",
+      "activateYourPlan": "在添加项目或设置自动分配条件后激活您的计划。"
+    }
+  },
   "contracts": {
     "setupVisible": true,
     "setupEdit": true,
