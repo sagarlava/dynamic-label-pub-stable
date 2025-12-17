@@ -4338,6 +4338,13 @@
         "plural": "Task and Spare Part Details",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "sec55": {
+        "original": "Activity",
+        "singular": "Activity",
+        "plural": "Activities",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "fields": {
@@ -7510,7 +7517,7 @@
     "validationBE": {
       "maintenanceIdExists": "A new maintenance cannot already have an ID",
       "maintenanceNotFound": "Maintenance not found",
-      "assetHasActiveMaintenance": "The asset already has an active maintenance",
+      "assetHasActiveMaintenance": "The equipment already has an active maintenance",
       "maintenanceItemIdExists": "A new Maintenance Item cannot already have an ID",
       "maintenanceItemIdNotFound": "Id not found",
       "maintenanceItemNotFound": "Maintenance Item not found",
@@ -7525,7 +7532,7 @@
       "maintainancePlanCannotEditExpiredPlan": "Cannot modify Expired Maintenance Plan",
       "maintainancePlanCannotEditCancelledPlan": "Cannot modify Cancelled Maintenance Plan",
       "maintainancePlanCannotActivateLackOfInfo": "Not allowed to activate this maintenance plan, due to incompleted information",
-      "maintainancePlanCannotDeleteAssetCycleItem": "Cannot delete cycle item used in asset maintenance plan",
+      "maintainancePlanCannotDeleteAssetCycleItem": "Cannot delete cycle item used in equipment maintenance plan",
       "maintainancePlanCannotDeleteSiteCycleItem": "Cannot delete cycle item used in site maintenance plan",
       "maintainancePlanInvalidId": "Invalid maintenance plan id",
       "maintainancePlanStartDateTimeMustBeFuture": "Start datetime must be in the future",
@@ -7536,11 +7543,11 @@
       "maintainancePlanAssetNotPartOfPlan": "Asset is not part of the maintenance plan",
       "maintainancePlanNoSitesProvided": "No sites provided to add to maintenance plan",
       "maintainancePlanSiteNotPartOfPlan": "Site is not part of the maintenance plan",
-      "maintainancePlanInvalidAutoAddAssetCriteriaId": "Invalid auto add asset criteria ID",
-      "maintainancePlanAssetPMInvalidId": "Invalid asset maintainance plan ID",
+      "maintainancePlanInvalidAutoAddAssetCriteriaId": "Invalid auto add equipment criteria ID",
+      "maintainancePlanAssetPMInvalidId": "Invalid equipment maintainance plan ID",
       "maintainancePlanNotAllowedToAlterPastJobOrderGenerationDate": "Not allowed to alter past job order generation date",
       "maintainancePlanSitePMInvalidId": "Invalid site maintainance plan ID",
-      "maintainancePlanNoAssetNextCycleItemFound": "No next maintenance plan cycle item found for asset maintenance plan",
+      "maintainancePlanNoAssetNextCycleItemFound": "No next maintenance plan cycle item found for equipment maintenance plan",
       "maintainancePlanNoSiteNextCycleItemFound": "No next maintenance plan cycle item found for site maintenance plan",
       "maintainancePlanCannotDeleteActivePlan": "Cannot delete an active maintenance plan",
       "maintainancePlanCannotDeleteReferencedPlan": "Cannot delete maintenance plan as it is referenced by other records",
