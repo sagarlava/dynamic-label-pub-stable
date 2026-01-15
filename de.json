@@ -25424,7 +25424,8 @@
       "nameIsRequired": "Name ist erforderlich",
       "generatedSuccessfully": "erfolgreich erstellt",
       "pleaseSelectFileType": "Bitte wählen Sie einen Dateityp aus",
-      "selectEndDateOrNever": "Wählen Sie ein Enddatum oder aktivieren Sie das Kontrollkästchen „Nie“, um fortzufahren"
+      "selectEndDateOrNever": "Wählen Sie ein Enddatum oder aktivieren Sie das Kontrollkästchen „Nie“, um fortzufahren",
+      "atLeastOneIsRequired": "Mindestens ein Benutzer, eine Gruppe oder eine E-Mail-Adresse ist erforderlich"
     },
     "messages":{
       "generateExistingReports": "Vorhandene erstellen oder neue",

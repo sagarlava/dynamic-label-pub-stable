@@ -23164,7 +23164,8 @@
       "nameIsRequired":"name is required",
       "generatedSuccessfully":"generated succesfully",
       "pleaseSelectFileType":"Please select a file type",
-      "selectEndDateOrNever":"Select an End Date or check the Never checkbox to proceed"
+      "selectEndDateOrNever":"Select an End Date or check the Never checkbox to proceed",
+      "atLeastOneIsRequired": "At least one user, group or email is required"
     },
     "messages":{
       "generateExistingReports": "Generate existing or create new",
