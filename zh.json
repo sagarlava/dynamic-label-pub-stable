@@ -25571,7 +25571,11 @@
       "makingGroupedField": "进行分组字段选择将分组您的",
       "selectModuleForThis": "为此选择模块",
       "doYouWantThis": "您想要这个吗",
-      "showing": "显示"
+      "showing": "显示",
+       "selectAFrequency": "请选择频率",
+      "selectATime": "请选择时间",
+      "selectADay": "请选择日期",
+      "selectRecipientsAtLeastOne": "请选择此文件的接收者，您可以选择或输入多个值。至少需要选择一个。"
     }
   },
   "academy": {
