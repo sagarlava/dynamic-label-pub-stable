@@ -25424,7 +25424,9 @@
       "addedToFavorites":"has been added to Favorites successfully",
       "updatedSuccessfully":"has been updated succesfully",
       "nameIsRequired":"name is required",
-      "generatedSuccessfully":"generated succesfully"
+      "generatedSuccessfully":"generated succesfully",
+      "pleaseSelectFileType":"Please select a file type",
+      "selectEndDateOrNever":"Select an End Date or check the Never checkbox to proceed"
     },
     "messages":{
       "generateExistingReports": "Generate existing or create new",
@@ -25570,7 +25572,10 @@
       "makingGroupedField":"Making a grouped field selection will group your",
       "selectModuleForThis":"Select a module for this",
       "doYouWantThis":"Do you want this",
-      "showing":"Showing"
+      "showing":"Showing",
+      "selectAFrequency":"Select a frequency",
+      "selectATime":"Select a Time",
+      "selectADay":"Select a Day"
     }
   },
   "academy": {

@@ -25422,7 +25422,9 @@
       "addedToFavorites": "wurde erfolgreich zu Favoriten hinzugefügt",
       "updatedSuccessfully": "wurde erfolgreich aktualisiert",
       "nameIsRequired": "Name ist erforderlich",
-      "generatedSuccessfully": "erfolgreich erstellt"
+      "generatedSuccessfully": "erfolgreich erstellt",
+      "pleaseSelectFileType": "Bitte wählen Sie einen Dateityp aus",
+      "selectEndDateOrNever": "Wählen Sie ein Enddatum oder aktivieren Sie das Kontrollkästchen „Nie“, um fortzufahren"
     },
     "messages":{
       "generateExistingReports": "Vorhandene erstellen oder neue",

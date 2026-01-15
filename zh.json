@@ -25423,7 +25423,9 @@
       "addedToFavorites": "已成功添加到收藏夹",
       "updatedSuccessfully": "已成功更新",
       "nameIsRequired": "名称为必填项",
-      "generatedSuccessfully": "已成功生成"
+      "generatedSuccessfully": "已成功生成",
+      "pleaseSelectFileType": "请选择文件类型",
+      "selectEndDateOrNever": "请选择结束日期或勾选“从不”复选框以继续"
     },
     "messages":{
       "generateExistingReports": "生成现有或新建",

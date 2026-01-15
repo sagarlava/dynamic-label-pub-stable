@@ -23162,7 +23162,9 @@
       "addedToFavorites":"has been added to Favorites successfully",
       "updatedSuccessfully":"has been updated succesfully",
       "nameIsRequired":"name is required",
-      "generatedSuccessfully":"generated succesfully"
+      "generatedSuccessfully":"generated succesfully",
+      "pleaseSelectFileType":"Please select a file type",
+      "selectEndDateOrNever":"Select an End Date or check the Never checkbox to proceed"
     },
     "messages":{
       "generateExistingReports": "Generate existing or create new",
