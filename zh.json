@@ -25433,7 +25433,11 @@
       "generatedSuccessfully": "已成功生成",
       "pleaseSelectFileType": "请选择文件类型",
       "selectEndDateOrNever": "请选择结束日期或勾选“从不”复选框以继续",
-      "atLeastOneIsRequired": "至少需要一个用户、用户组或电子邮件"
+      "atLeastOneIsRequired": "至少需要一个用户、用户组或电子邮件",
+      "sentRecipientSuccessfully": "已成功发送给接收者",
+    "maximumUserSelectionExceeded": "已超过最大用户选择数量",
+    "maximumGroupSelectionExceeded": "已超过最大用户组选择数量",
+    "maximumEmailsExceeded": "已超过最大电子邮件数量"
     },
     "messages":{
       "generateExistingReports": "生成现有或新建",

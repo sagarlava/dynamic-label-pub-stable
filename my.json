@@ -25433,7 +25433,11 @@
       "generatedSuccessfully": "berjaya dijana",
       "pleaseSelectFileType": "Sila pilih jenis fail",
       "selectEndDateOrNever": "Pilih Tarikh Tamat atau tandakan kotak pilihan Never untuk meneruskan",
-       "atLeastOneIsRequired": "Sekurang-kurangnya satu pengguna, kumpulan atau e-mel diperlukan"
+       "atLeastOneIsRequired": "Sekurang-kurangnya satu pengguna, kumpulan atau e-mel diperlukan",
+       "sentRecipientSuccessfully": "telah berjaya dihantar kepada penerima",
+    "maximumUserSelectionExceeded": "Bilangan maksimum pengguna telah melebihi had",
+    "maximumGroupSelectionExceeded": "Bilangan maksimum kumpulan telah melebihi had",
+    "maximumEmailsExceeded": "Bilangan maksimum alamat e-mel telah melebihi had"
     },
     "messages":{
       "generateExistingReports": "Menjana laporan sedia ada atau buat baharu",

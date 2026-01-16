@@ -25432,7 +25432,11 @@
       "generatedSuccessfully": "generado correctamente",
       "pleaseSelectFileType": "Por favor seleccione un tipo de archivo",
       "selectEndDateOrNever": "Seleccione una fecha de finalización o marque la casilla Nunca para continuar",
-      "atLeastOneIsRequired": "Se requiere al menos un usuario, grupo o correo electrónico"
+      "atLeastOneIsRequired": "Se requiere al menos un usuario, grupo o correo electrónico",
+      "sentRecipientSuccessfully": "se ha enviado correctamente al/los destinatario(s)",
+      "maximumUserSelectionExceeded": "Se ha superado el número máximo de usuarios",
+      "maximumGroupSelectionExceeded": "Se ha superado el número máximo de grupos",
+      "maximumEmailsExceeded": "Se ha superado el número máximo de correos electrónicos"
     },
     "messages":{
       "generateExistingReports": "Generar existentes o crear nuevos",

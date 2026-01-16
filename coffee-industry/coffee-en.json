@@ -23172,7 +23172,11 @@
       "generatedSuccessfully":"generated succesfully",
       "pleaseSelectFileType":"Please select a file type",
       "selectEndDateOrNever":"Select an End Date or check the Never checkbox to proceed",
-      "atLeastOneIsRequired": "At least one user, group or email is required"
+      "atLeastOneIsRequired": "At least one user, group or email is required",
+      "sentRecipientSuccessfully":"has been sent to recipient(s) successfully",
+      "maximumUserSelectionExceeded":"Maximum user selection exceeded",
+      "maximumGroupSelectionExceeded":"Maximum group selection exceeded",
+      "maximumEmailsExceeded":"Maximum number of emails exceeded"
     },
     "messages":{
       "generateExistingReports": "Generate existing or create new",
