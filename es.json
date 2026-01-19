@@ -15180,9 +15180,7 @@
       "confirmation":"Confirmación",
       "makeFilterSelectionsCheckAvail":"Haz selecciones de filtro para comprobar la disponibilidad",
       "updateConfirmation":"Confirmación de Actualización",
-      "confirmProceed": "¿Está seguro de que desea continuar?",
-      "editingFieldsInSection": "Editar los campos de esta sección dará lugar a que esto",
-      "onlyBeingSentOut": "solo se envíe una vez que se cumplan las nuevas condiciones."
+      "confirmProceed": "¿Está seguro de que desea continuar?"
     },
     "currency": {
       "australianDollar": "AUD",
@@ -25645,7 +25643,9 @@
       "selectADay": "Seleccione un día",
       "selectRecipientsAtLeastOne": "Seleccione los destinatarios de este archivo; puede seleccionar o introducir varios valores. Se requiere al menos una selección.",
       "thisScheduleForThis": "La programación de esto",
-      "willBeRemoved": "será eliminada"
+      "willBeRemoved": "será eliminada",
+      "editingFieldsInSection": "Editar los campos de esta sección dará lugar a que esto",
+      "onlyBeingSentOut": "solo se envíe una vez que se cumplan las nuevas condiciones."
     }
   },
   "academy": {
