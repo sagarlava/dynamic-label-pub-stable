@@ -25487,7 +25487,9 @@
       "sentRecipientSuccessfully": "已成功发送给接收者",
     "maximumUserSelectionExceeded": "已超过最大用户选择数量",
     "maximumGroupSelectionExceeded": "已超过最大用户组选择数量",
-    "maximumEmailsExceeded": "已超过最大电子邮件数量"
+    "maximumEmailsExceeded": "已超过最大电子邮件数量",
+    "hasBeenAddedToThe": "已添加到",
+    "successfully": "成功"
     },
     "messages":{
       "generateExistingReports": "生成现有或新建",

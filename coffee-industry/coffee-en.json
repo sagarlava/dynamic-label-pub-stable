@@ -23226,7 +23226,9 @@
       "sentRecipientSuccessfully":"has been sent to recipient(s) successfully",
       "maximumUserSelectionExceeded":"Maximum user selection exceeded",
       "maximumGroupSelectionExceeded":"Maximum group selection exceeded",
-      "maximumEmailsExceeded":"Maximum number of emails exceeded"
+      "maximumEmailsExceeded":"Maximum number of emails exceeded",
+        "hasBeenAddedToThe":"has been added to the",
+      "successfully":"succesfully"
     },
     "messages":{
       "generateExistingReports": "Generate existing or create new",
