@@ -25642,7 +25642,9 @@
       "selectADay": "请选择日期",
       "selectRecipientsAtLeastOne": "请选择此文件的接收者，您可以选择或输入多个值。至少需要选择一个。",
       "thisScheduleForThis": "此项的计划",
-      "willBeRemoved": "将被移除"
+      "willBeRemoved": "将被移除",
+       "editingFieldsInSection": "编辑此部分中的字段将导致其",
+    "onlyBeingSentOut": "仅在满足新条件后才会发送。"
     }
   },
   "academy": {

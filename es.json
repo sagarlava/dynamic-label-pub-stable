@@ -15180,7 +15180,9 @@
       "confirmation":"Confirmación",
       "makeFilterSelectionsCheckAvail":"Haz selecciones de filtro para comprobar la disponibilidad",
       "updateConfirmation":"Confirmación de Actualización",
-      "confirmProceed": "¿Está seguro de que desea continuar?"
+      "confirmProceed": "¿Está seguro de que desea continuar?",
+      "editingFieldsInSection": "Editar los campos de esta sección dará lugar a que esto",
+      "onlyBeingSentOut": "solo se envíe una vez que se cumplan las nuevas condiciones."
     },
     "currency": {
       "australianDollar": "AUD",
