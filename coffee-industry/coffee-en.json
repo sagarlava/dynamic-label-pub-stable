@@ -23116,6 +23116,55 @@
         "plural": "Columns",
         "setupEdit": false,
         "setupVisible": false
+      },
+       "fileType": {
+        "original": "File Type",
+        "singular": "File Type",
+        "plural": "File Type",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "startDate": {
+        "original": "Start Date",
+        "singular": "Start Date",
+        "plural": "Start Date",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "endDate": {
+        "original": "End Date",
+        "singular": "End Date",
+        "plural": "End Date",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "scheduleType": {
+        "original": "Schedule Type",
+        "singular": "Schedule Type",
+        "plural": "Schedule Type",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "monthValue": {
+        "original": "Month Value",
+        "singular": "Month Value",
+        "plural": "Month Value",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "day": {
+        "original": "Day",
+        "singular": "Day",
+        "plural": "Days",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "time": {
+        "original": "Time",
+        "singular": "Time",
+        "plural": "Time",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "tooltips":{

@@ -25377,6 +25377,55 @@
         "plural": "列",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "fileType": {
+        "original": "File Type",
+        "singular": "文件类型",
+        "plural": "文件类型",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "startDate": {
+        "original": "Start Date",
+        "singular": "开始日期",
+        "plural": "开始日期",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "endDate": {
+        "original": "End Date",
+        "singular": "结束日期",
+        "plural": "结束日期",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "scheduleType": {
+        "original": "Schedule Type",
+        "singular": "计划类型",
+        "plural": "计划类型",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "monthValue": {
+        "original": "Month Value",
+        "singular": "月份值",
+        "plural": "月份值",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "day": {
+        "original": "Day",
+        "singular": "天",
+        "plural": "天",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "time": {
+        "original": "Time",
+        "singular": "时间",
+        "plural": "时间",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "tooltips":{

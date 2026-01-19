@@ -25376,6 +25376,55 @@
       "plural": "Columnas",
       "setupEdit": false,
       "setupVisible": false
+    },
+    "fileType": {
+      "original": "File Type",
+      "singular": "Tipo de archivo",
+      "plural": "Tipo de archivo",
+      "setupEdit": false,
+      "setupVisible": false
+    },
+    "startDate": {
+      "original": "Start Date",
+      "singular": "Fecha de inicio",
+      "plural": "Fecha de inicio",
+      "setupEdit": false,
+      "setupVisible": false
+    },
+    "endDate": {
+      "original": "End Date",
+      "singular": "Fecha de finalización",
+      "plural": "Fecha de finalización",
+      "setupEdit": false,
+      "setupVisible": false
+    },
+    "scheduleType": {
+      "original": "Schedule Type",
+      "singular": "Tipo de programación",
+      "plural": "Tipo de programación",
+      "setupEdit": false,
+      "setupVisible": false
+    },
+    "monthValue": {
+      "original": "Month Value",
+      "singular": "Valor del mes",
+      "plural": "Valor del mes",
+      "setupEdit": false,
+      "setupVisible": false
+    },
+    "day": {
+      "original": "Day",
+      "singular": "Día",
+      "plural": "Días",
+      "setupEdit": false,
+      "setupVisible": false
+    },
+    "time": {
+      "original": "Time",
+      "singular": "Hora",
+      "plural": "Hora",
+      "setupEdit": false,
+      "setupVisible": false
     }
     },
     "tooltips":{

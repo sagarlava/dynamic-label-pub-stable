@@ -25377,6 +25377,55 @@
         "plural": "Lajur",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "fileType": {
+        "original": "File Type",
+        "singular": "Jenis Fail",
+        "plural": "Jenis Fail",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "startDate": {
+        "original": "Start Date",
+        "singular": "Tarikh Mula",
+        "plural": "Tarikh Mula",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "endDate": {
+        "original": "End Date",
+        "singular": "Tarikh Tamat",
+        "plural": "Tarikh Tamat",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "scheduleType": {
+        "original": "Schedule Type",
+        "singular": "Jenis Jadual",
+        "plural": "Jenis Jadual",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "monthValue": {
+        "original": "Month Value",
+        "singular": "Nilai Bulan",
+        "plural": "Nilai Bulan",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "day": {
+        "original": "Day",
+        "singular": "Hari",
+        "plural": "Hari",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "time": {
+        "original": "Time",
+        "singular": "Masa",
+        "plural": "Masa",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "tooltips":{

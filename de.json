@@ -25376,6 +25376,55 @@
         "plural": "Spalten",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "fileType": {
+        "original": "File Type",
+        "singular": "Dateityp",
+        "plural": "Dateityp",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "startDate": {
+        "original": "Start Date",
+        "singular": "Startdatum",
+        "plural": "Startdatum",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "endDate": {
+        "original": "End Date",
+        "singular": "Enddatum",
+        "plural": "Enddatum",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "scheduleType": {
+        "original": "Schedule Type",
+        "singular": "Zeitplantyp",
+        "plural": "Zeitplantyp",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "monthValue": {
+        "original": "Month Value",
+        "singular": "Monatswert",
+        "plural": "Monatswert",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "day": {
+        "original": "Day",
+        "singular": "Tag",
+        "plural": "Tage",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "time": {
+        "original": "Time",
+        "singular": "Uhrzeit",
+        "plural": "Uhrzeit",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "tooltips":{
