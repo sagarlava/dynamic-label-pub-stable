@@ -5657,7 +5657,7 @@
             "taskAssignedByUserValidation": "Invalid assigned by user",
             "taskProductExidValidation": "Invalid Spare Part externalId",
             "taskJobOrderExidValidation": "Invalid Job Order externalId",
-            "taskSiteExidValidation": "Invalid Site externalId",
+            "taskSiteExidValidation": "Invalid Station externalId",
             "taskProjectExidValidation": "Invalid deployment externalId",
             "taskAssignedToLiteUserLoginValidation": "Invalid assigned to lite user login",
             "recommendationLimitedUsersAvailable": "Only limited users available for your criteria",
@@ -18197,7 +18197,7 @@
             "selectProductFromList": "Select a Spare Part from the list",
             "selectProjectFromList": "Select Deployment From List",
             "selectSalesOrderFromList": "Select a Sales Order from the list",
-            "selectSiteFromList": "Select Site From List",
+            "selectSiteFromList": "Select Station From List",
             "selectCustomerSurveyFromList": "Select an Customer Survey from the list",
             "selectTicketFromList": "Select an ticket from the list",
             "selectLocationBinFromList": "Select a Location Bin from the list",
@@ -18614,7 +18614,7 @@
             "tasks": "Tasks",
             "attachments": "Attachments",
             "projects": "Deployments",
-            "sites": "Sites"
+            "sites": "Stations"
         },
         "summary": {
             "setupVisible": false,
@@ -18737,7 +18737,7 @@
                 },
                 "site": {
                     "original": "Site",
-                    "singular": "Site",
+                    "singular": "Station",
                     "plural": "",
                     "setupEdit": true,
                     "setupVisible": false
@@ -18943,7 +18943,7 @@
                 },
                 "sec11": {
                     "original": "Select Site From List",
-                    "singular": "Select Site From List",
+                    "singular": "Select Station From List",
                     "plural": "",
                     "setupEdit": true,
                     "setupVisible": false
