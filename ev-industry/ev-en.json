@@ -1,0 +1,1072 @@
+{
+    "asset": {
+        "setupVisible": true,
+        "setupEdit": true,
+        "label": {
+            "original": "Asset",
+            "singular": "Equipment",
+            "plural": "Equipments",
+            "setupEdit": true,
+            "setupVisible": true
+        },
+        "sections": {
+            "setupVisible": true,
+            "setupEdit": true,
+            "sec0": {
+                "original": "General Details",
+                "singular": "General Details",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": true
+            },
+            "sec1": {
+                "original": "Hierarchy and Classification",
+                "singular": "Hierarchy and Classification",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": true
+            },
+            "sec2": {
+                "original": "Coverage Period",
+                "singular": "Coverage Period",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": true
+            },
+            "sec3": {
+                "original": "Equipment Details",
+                "singular": "Equipment Details",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": true
+            },
+            "sec4": {
+                "original": "Additional Details",
+                "singular": "Additional Details",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": true
+            },
+            "sec5": {
+                "original": "Overview",
+                "singular": "Overview",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+            },
+            "sec6": {
+                "original": "Timeline",
+                "singular": "Timeline",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+            },
+            "sec7": {
+                "original": "Current Meter Reading",
+                "singular": "Current Meter Reading",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+            },
+            "sec8": {
+                "original": "Current Contract",
+                "singular": "Current Contract",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+            },
+            "sec9": {
+                "original": "QR/Barcode",
+                "singular": "QR/Barcode",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+            },
+            "sec10": {
+                "original": "Filter By",
+                "singular": "Filter By",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+            },
+            "sec11": {
+                "original": "Details",
+                "singular": "Details",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+            },
+            "sec12": {
+                "original": "Accessory Details",
+                "singular": "Accessory Details",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+            },
+            "sec13": {
+                "original": "Asset Log",
+                "singular": "Equipment Log",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+            },
+            "sec14": {
+                "original": "Log Details",
+                "singular": "Log Details",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+            },
+            "sec15": {
+                "original": "New Entry",
+                "singular": "New Entry",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+            },
+            "sec16": {
+                "original": "Asset Details",
+                "singular": "Equipment Details",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+            },
+            "sec17": {
+                "original": "Change Status",
+                "singular": "Change Status",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+            },
+            "sec18": {
+                "original": "Location Details",
+                "singular": "Location Details",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": true
+            },
+            "sec19": {
+                "original": "QR Codes",
+                "singular": "QR Codes",
+                "plural": "QR Codes",
+                "setupEdit": false,
+                "setupVisible": false
+            },
+            "sec20": {
+                "original": "Components",
+                "singular": "Component",
+                "plural": "Components",
+                "setupEdit": false,
+                "setupVisible": false
+            },
+            "sec21": {
+                "original": "Meters",
+                "singular": "Meter",
+                "plural": "Meters",
+                "setupEdit": false,
+                "setupVisible": false
+            }
+        },
+        "fields": {
+            "category": {
+                "original": "Category",
+                "singular": "Category",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": true
+            },
+            "subCategory": {
+                "original": "Sub Category",
+                "singular": "Sub Category",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": true
+            },
+            "setupVisible": true,
+            "setupEdit": true,
+            "type": {
+                "original": "Type",
+                "singular": "Type",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": true
+            },
+            "equipmentNumber": {
+                "original": "Equipment Number",
+                "singular": "Equipment Number",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": true
+            },
+            "code": {
+                "original": "Code",
+                "singular": "Code",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": true
+            },
+            "engineNumberOne": {
+                "original": "Engine Number 1",
+                "singular": "Engine Number 1",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": true
+            },
+            "engineNumberTwo": {
+                "original": "Engine Number 2",
+                "singular": "Engine Number 2",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": true
+            },
+            "extId": {
+                "original": "External ID",
+                "singular": "External ID",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": true
+            },
+            "assetName": {
+                "original": "Asset Name",
+                "singular": "Equipment Name",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": true
+            },
+            "name": {
+                "original": "Name",
+                "singular": "Name",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": true
+            },
+            "status": {
+                "original": "Status",
+                "singular": "Status",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+            },
+            "serialNo": {
+                "original": "Serial No",
+                "singular": "Serial No",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+            },
+            "serialNumber": {
+                "original": "Serial Number",
+                "singular": "Serial Number",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+            },
+            "assetCode": {
+                "original": "Asset Code",
+                "singular": "Equipment Code",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+            },
+            "description": {
+                "original": "Description",
+                "singular": "Description",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": true
+            },
+            "photo": {
+                "original": "Photo",
+                "singular": "Photo",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+            },
+            "custodian": {
+                "original": "Custodian",
+                "singular": "Custodian",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": true
+            },
+            "warrantyStartDate": {
+                "original": "Warranty Start Date",
+                "singular": "Warranty Start Date",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+            },
+            "warrantyEndDate": {
+                "original": "Warranty End Date",
+                "singular": "Warranty End Date",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+            },
+            "acquisitionDate": {
+                "original": "Purchase Date",
+                "singular": "Purchase Date",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": true
+            },
+            "equipmentType": {
+                "original": "Equipment Type",
+                "singular": "Equipment Type",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": true
+            },
+            "engineMake": {
+                "original": "Engine Make",
+                "singular": "Engine Make",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": true
+            },
+            "manufacturer": {
+                "original": "Manufacturer",
+                "singular": "Manufacturer",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": true
+            },
+            "engineModel": {
+                "original": "Engine Model",
+                "singular": "Engine Model",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": true
+            },
+            "makeModel": {
+                "original": "Make/Model",
+                "singular": "Make/Model",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": true
+            },
+            "engineNumber": {
+                "original": "Engine Number",
+                "singular": "Engine Number",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+            },
+            "manufacturerYear": {
+                "original": "Manufacture Year",
+                "singular": "Manufacture Year",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": true
+            },
+            "note": {
+                "original": "Note",
+                "singular": "Note",
+                "plural": "Notes",
+                "setupEdit": false,
+                "setupVisible": false
+            },
+            "upcoming": {
+                "original": "Upcoming",
+                "singular": "Upcoming",
+                "plural": "Upcoming",
+                "setupEdit": false,
+                "setupVisible": false
+            },
+            "lastCompleted": {
+                "original": "Last Completed",
+                "singular": "Last Completed",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+            },
+            "next": {
+                "original": "Next",
+                "singular": "Next",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+            },
+            "finish": {
+                "original": "Finish",
+                "singular": "Finish",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+            },
+            "next30Days": {
+                "original": "Next 30 Days",
+                "singular": "Next 30 Days",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+            },
+            "overdue": {
+                "original": "Overdue",
+                "singular": "Overdue",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+            },
+            "dueOn": {
+                "original": "Due on",
+                "singular": "Due on",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+            },
+            "expiresIn": {
+                "original": "Expires in",
+                "singular": "Expires in",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+            },
+            "latestActiveContract": {
+                "original": "Latest Active Contract",
+                "singular": "Latest Active Contract",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+            },
+            "updatedBy": {
+                "original": "Updated by",
+                "singular": "Updated by",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+            },
+            "transferredBy": {
+                "original": "Transferred By",
+                "singular": "Transferred By",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+            },
+            "assetId": {
+                "original": "Asset ID",
+                "singular": "Equipment ID",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+            },
+            "nextMaintenanceDate": {
+                "original": "Next Maintenance Date",
+                "singular": "Next Maintenance Date",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+            },
+            "maintenanceStatus": {
+                "original": "Maintenance Status",
+                "singular": "Maintenance Status",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+            },
+            "nextMaintenanceType": {
+                "original": "Next Maintenance Type",
+                "singular": "Next Maintenance Type",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+            },
+            "minorMajorServiceFrequency": {
+                "original": "Minor/Major Service Frequency(Months)",
+                "singular": "Minor/Major Service Frequency(Months)",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+            },
+            "majorServiceFrequency": {
+                "original": "Major Service Frequency(Months)",
+                "singular": "Major Service Frequency(Months)",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+            },
+            "minorServiceFrequency": {
+                "original": "Minor Service Frequency(Months)",
+                "singular": "Minor Service Frequency(Months)",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+            },
+            "accessory": {
+                "original": "Accessory",
+                "singular": "Accessory",
+                "plural": "Accessories",
+                "setupEdit": false,
+                "setupVisible": false
+            },
+            "accessoryNo": {
+                "original": "Accessory No.",
+                "singular": "Accessory No.",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+            },
+            "currentReading": {
+                "original": "Current Meter Reading",
+                "singular": "Current Meter Reading",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": true
+            },
+            "logDateTime": {
+                "original": "Log Date & Time",
+                "singular": "Log Date & Time",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+            },
+            "modifiedDateTime": {
+                "original": "Modified Date & Time",
+                "singular": "Modified Date & Time",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+            },
+            "newValue": {
+                "original": "New Value",
+                "singular": "New Value",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+            },
+            "oldValue": {
+                "original": "Old Value",
+                "singular": "Old Value",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+            },
+            "newMeterReading": {
+                "original": "New Meter Reading",
+                "singular": "New Meter Reading",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+            },
+            "allAsset": {
+                "original": "All Assets",
+                "singular": "All Equipment",
+                "plural": "All Equipment",
+                "setupEdit": false,
+                "setupVisible": false
+            },
+            "assetsByCustomer": {
+                "original": "Assets by Customer",
+                "singular": "Equipment by Customer",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+            },
+            "day": {
+                "original": "day",
+                "singular": "day",
+                "plural": "days",
+                "setupEdit": false,
+                "setupVisible": false
+            },
+            "assetNo": {
+                "original": "Asset No.",
+                "singular": "Equipment No.",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+            },
+            "allAssets": {
+                "original": "All Assets",
+                "singular": "All Equipment",
+                "plural": "All Equipments",
+                "setupEdit": false,
+                "setupVisible": false
+            },
+            "groupByParent": {
+                "original": "Group by Parent",
+                "singular": "Group by Parent",
+                "plural": "Group by Parent",
+                "setupEdit": false,
+                "setupVisible": false
+            },
+            "assetsByParent": {
+                "original": "Assets by Parent",
+                "singular": "Equipments by Parent",
+                "plural": "Equipments by Parent",
+                "setupEdit": false,
+                "setupVisible": false
+            },
+            "parent": {
+                "original": "Parent",
+                "singular": "Parent",
+                "plural": "Parents",
+                "setupEdit": false,
+                "setupVisible": false
+            },
+            "pendingTransfer": {
+                "original": "Pending Transfers",
+                "singular": "Pending Transfer",
+                "plural": "Pending Transfers",
+                "setupEdit": false,
+                "setupVisible": false
+            },
+            "group": {
+                "original": "Group",
+                "singular": "Group",
+                "plural": "Group",
+                "setupEdit": false,
+                "setupVisible": false
+            },
+            "classification": {
+                "original": "Classification",
+                "singular": "Classification",
+                "plural": "Classification",
+                "setupEdit": false,
+                "setupVisible": false
+            },
+            "offlineSince": {
+                "original": "Offline Since",
+                "singular": "Offline Since",
+                "plural": "Offline Since",
+                "setupEdit": false,
+                "setupVisible": false
+            },
+            "model": {
+                "original": "Model",
+                "singular": "Model",
+                "plural": "Model",
+                "setupEdit": false,
+                "setupVisible": false
+            },
+            "createdDate": {
+                "original": "Created Date",
+                "singular": "Created Date",
+                "plural": "Created Date",
+                "setupEdit": false,
+                "setupVisible": false
+            },
+            "chooseFileFormat": {
+                "original": "Choose File Format",
+                "singular": "Choose File Format",
+                "plural": "Choose File Format",
+                "setupEdit": false,
+                "setupVisible": false
+            },
+            "setQrCodeSize": {
+                "original": "Set QR Code Size",
+                "singular": "Set QR Code Size",
+                "plural": "Set QR Code Size",
+                "setupEdit": false,
+                "setupVisible": false
+            },
+            "selectPageLayout": {
+                "original": "Select Page Layout",
+                "singular": "Select Page Layout",
+                "plural": "Select Page Layout",
+                "setupEdit": false,
+                "setupVisible": false
+            },
+            "installationDate": {
+                "original": "Installation Date",
+                "singular": "Installation Date",
+                "plural": "Installation Date",
+                "setupEdit": false,
+                "setupVisible": false
+            },
+            "brand": {
+                "original": "Brand",
+                "singular": "Brand",
+                "plural": "Brand",
+                "setupEdit": false,
+                "setupVisible": false
+            },
+            "createDate": {
+                "original": "Create Date",
+                "singular": "Create Date",
+                "plural": "Create Date",
+                "setupEdit": false,
+                "setupVisible": false
+            },
+            "numberAssetSelected": {
+                "original": "assets have been selected",
+                "singular": "equipment have been selected",
+                "plural": "equipments have been selected",
+                "setupEdit": false,
+                "setupVisible": false
+            },
+            "latest": {
+                "original": "Latest",
+                "singular": "Latest",
+                "plural": "Latest",
+                "setupEdit": false,
+                "setupVisible": false
+            },
+            "reading": {
+                "original": "Reading",
+                "singular": "Reading",
+                "plural": "Reading",
+                "setupEdit": false,
+                "setupVisible": false
+            }
+        },
+        "validationFE": {
+            "warrantyEndDateAfterStartDate": "Warranty End Date must be after the Start Date.",
+            "serialNumberMustBeUnique": "Serial Number must be unique. The entered value is already in use.",
+            "serialNumberContain": "Serial Number must be contain only letters and numbers.",
+            "temporarySerialNumberGenerationFailed": "Temporary Serial Number generation failed. Please try again.",
+            "warrantyEndDateMustBeGreater": "Warranty end date must be greater than the start date",
+            "warrantyStartDateMustBeEarlier": "Warranty start date should be earlier than the end date"
+        },
+        "validationBE": {
+            "assetIdNotFound": "Id not found",
+            "assetIdExidNotFound": "Id/EquipmentExternalId not found",
+            "assetNotFound": "Equipments not found",
+            "assetConditionNotFound": "Condition not found",
+            "assetHasStockHistory": "Stock History Data exists in the system for the Equipments",
+            "assetIdExists": "A new equipment cannot already have an ID",
+            "assetSerialIdExists": "Serial No. already exists in the system",
+            "assetExidExists": "Equipments External Id already exists in the system",
+            "assetHasContracts": "Contract Data exists in the system for the Equipments",
+            "assetHasMaintenance": "Maintenance Data exists in the system for the Equipments",
+            "assetHasFaultMapping": "Fault Mapping Data exists in the system for the Equipments",
+            "assetHasResolutionMapping": "Resolution Mapping Data exists in the system for the Equipments",
+            "assetHasTicket": "Ticket Data exists in the system for the Equipments",
+            "assetHasInventory": "Inventory Data exists in the system for the Equipments",
+            "assetHasConsignment": "Consignment Data exists in the system for the Equipments",
+            "assetHasRequisition": "Requisition Data exists in the system for the Equipments",
+            "assetHasBinInventory": "Bin Inventory Data exists in the system for the Equipments",
+            "assetHasMachineSpecialist": "Machine Specialist Data exists in the system for the Equipments",
+            "assetTableSetupNotFound": "Equipments Table Setup not found, please contact support",
+            "assetCustomerNotFound": "Equipments customer not found",
+            "assetServiceZoneNotFound": "Equipments service zone not found",
+            "assetProductNotFound": "Equipments Spare Part not found",
+            "assetTypeNotFound": "Equipments type not found",
+            "assetStatusNotFound": "Equipments status not found",
+            "assetProjectNotFound": "Equipments project not found",
+            "assetBuildingNotFound": "Equipments building not found",
+            "assetFloorNotFound": "Equipments floor not found",
+            "assetRoomNotFound": "Equipments room not found",
+            "assetCustodianNotFound": "Equipments custodian not found",
+            "assetSiteNotFound": "Equipments site not found",
+            "assetCategoryNotFound": "Equipments category not found",
+            "assetSubCategoryNotFound": "Equipments sub category not found",
+            "assetCategoryExists": "Equipment Category already exists",
+            "assetCategorySystemGenerated": "System generated Equipment Category are not allowed to be deleted",
+            "assetCategoryCannotDeleteByAssetSubCategory": "Unable to delete: Equipment Category is used in one or more Equipment Sub Category",
+            "assetSubCategoryExists": "Equipment Sub Category already exists",
+            "assetSubCategorySystemGenerated": "System generated Equipment Sub Category are not allowed to be deleted",
+            "assetCategoryIdExists": "A new Equipment Category cannot already have an ID",
+            "assetSubCategoryIdExists": "A new Equipment Sub Category cannot already have an ID",
+            "assetCategoryCannotDeleteByAssets": "Unable to delete: Equipment Category is used in one or more Equipments",
+            "assetSubCategoryCannotDeleteByAssets": "Unable to delete: Equipment Sub Category is used in one or more Equipments",
+            "assetParentInvalid": "The chosen parent is already in the equipment hierarchy",
+            "assetHasChildAssets": "This equipment cannot be deleted because it has dependent child equipments. Please unlink them first",
+            "assetHasBinTransfer": "This equipment cannot be deleted because it has dependent bin transfers. Please unlink them first"
+        },
+        "tooltips": {
+            "setupVisible": false,
+            "setupEdit": false,
+            "assetLookup": {
+                "original": "Asset Lookup",
+                "singular": "Equipment Lookup",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+            },
+            "binLookup": {
+                "original": "Bin Lookup",
+                "singular": "Bin Lookup",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+            },
+            "serialNo": {
+                "original": "This is a unique number that can be used to identify your Asset across the system",
+                "singular": "This is a unique number that can be used to identify your Equipment across the system",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+            },
+            "custodian": {
+                "original": "The custodian is the person within your organization that's responsible for this Asset",
+                "singular": "The custodian is the person within your organization that's responsible for this Equipment",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+            },
+            "assetSummary": {
+                "original": "Asset Summary",
+                "singular": "Equipment Summary",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+            },
+            "assetStatusName": {
+                "original": "Asset Status Name",
+                "singular": "Equipment Status Name",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+            },
+            "statusChange": {
+                "original": "Status Change",
+                "singular": "Status Change",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+            },
+            "custodianName": {
+                "original": "Custodian Name",
+                "singular": "Custodian Name",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+            },
+            "changeOfCustodian": {
+                "original": "Change of Custodian",
+                "singular": "Change of Custodian",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+            },
+            "externalIdRemoved": {
+                "original": "External ID Removed",
+                "singular": "External ID Removed",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+            },
+            "warrantyRemoved": {
+                "original": "Warranty Removed",
+                "singular": "Warranty Removed",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+            },
+            "serviceZoneRemoved": {
+                "original": "Service Zone Removed",
+                "singular": "Service Zone Removed",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+            },
+            "custodianRemoved": {
+                "original": "Custodian Removed",
+                "singular": "Custodian Removed",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+            },
+            "siteRemoved": {
+                "original": "Site Removed",
+                "singular": "Site Removed",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+            },
+            "customerRemoved": {
+                "original": "Customer Removed",
+                "singular": "Customer Removed",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+            },
+            "streetRemoved": {
+                "original": "Street Removed",
+                "singular": "Street Removed",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+            },
+            "cityRemoved": {
+                "original": "City Removed",
+                "singular": "City Removed",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+            },
+            "stateRemoved": {
+                "original": "State Removed",
+                "singular": "State Removed",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+            },
+            "countryRemoved": {
+                "original": "Country Removed",
+                "singular": "Country Removed",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+            },
+            "externalIdUpdate": {
+                "original": "External ID Update",
+                "singular": "External ID Update",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+            },
+            "changeOfAddress": {
+                "original": "Change of Address",
+                "singular": "Change of Address",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+            },
+            "nameUpdate": {
+                "original": "Name Update",
+                "singular": "Name Update",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+            },
+            "siteUpdate": {
+                "original": "Site Update",
+                "singular": "Site Update",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+            },
+            "customerUpdate": {
+                "original": "Customer Update",
+                "singular": "Customer Update",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+            },
+            "serviceZoneChange": {
+                "original": "Service Zone Change",
+                "singular": "Service Zone Change",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+            },
+            "serviceZoneName": {
+                "original": "Service Zone Name",
+                "singular": "Service Zone Name",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+            },
+            "siteName": {
+                "original": "Site Name",
+                "singular": "Site Name",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+            },
+            "parentUpdate": {
+                "original": "Parent Update",
+                "singular": "Parent Update",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+            },
+            "parentChange": {
+                "original": "Parent Change",
+                "singular": "Parent Change",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+            },
+            "parentRemove": {
+                "original": "Parent Remove",
+                "singular": "Parent Remove",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+            },
+            "pendingTransfer": {
+                "original": "Show only Assets with a pending transfer",
+                "singular": "Show only Equipments with a pending transfer",
+                "plural": "Show only Equipments with a pending transfer",
+                "setupEdit": false,
+                "setupVisible": false
+            },
+            "transferRequestApproval": {
+                "original": "A transfer request is pending approval for this asset. The location will be updated to",
+                "singular": "A transfer request is pending approval for this equipment. The location will be updated to",
+                "plural": "A transfer request is pending approval for this equipment. The location will be updated to",
+                "setupEdit": false,
+                "setupVisible": false
+            },
+            "uponArrival": {
+                "original": "upon arrival.",
+                "singular": "upon arrival.",
+                "plural": "upon arrival.",
+                "setupEdit": false,
+                "setupVisible": false
+            },
+            "parentForAsset": {
+                "original": "Allows the user to assign another asset as the parent for this asset.",
+                "singular": "Allows the user to assign another equipment as the parent for this equipment.",
+                "plural": "Allows the user to assign another equipment as the parent for this equipment.",
+                "setupEdit": false,
+                "setupVisible": false
+            },
+            "pendingApprovalTransfer": {
+                "original": "Pending Approval Transfer",
+                "singular": "Pending Approval Transfer",
+                "plural": "Pending Approval Transfer",
+                "setupEdit": false,
+                "setupVisible": false
+            },
+            "binLocationUpdate": {
+                "original": "Bin Location Update",
+                "singular": "Bin Location Update",
+                "plural": "Bin Location Update",
+                "setupEdit": false,
+                "setupVisible": false
+            },
+            "binLocationChange": {
+                "original": "Bin Location Change",
+                "singular": "Bin Location Change",
+                "plural": "Bin Location Change",
+                "setupEdit": false,
+                "setupVisible": false
+            },
+            "binLocationRemove": {
+                "original": "Bin Location Remove",
+                "singular": "Bin Location Remove",
+                "plural": "Bin Location Remove",
+                "setupEdit": false,
+                "setupVisible": false
+            }
+        },
+        "messages": {
+            "configureQrBarcodeInAssetSetup": "To set up a QR/Barcode go to Equipment Configuration in Setup",
+            "resetMeterForLowerReading": "Select 'Reset Meter' if your new meter reading is smaller than the current reading",
+            "futureDateTimeEntryNotAllowed": "Entry cannot be made for future date and time",
+            "maintenanceAppliesToAllContractAssets": "This Maintenance will be applied to all Equipments within this Contract",
+            "errorFetchingAssetDetails": "Error fetching equipment details",
+            "noAssetsFound": "No Equipments Found",
+            "noScheduledMaintenance": "No Scheduled Maintenance",
+            "noPriorMaintenance": "No Prior Maintenances",
+            "noUpcomingJobs": "No Upcoming Jobs",
+            "previously": "Previously",
+            "from": "From",
+            "warrantyStartDate": "Warranty start date should not be greater than warranty end date",
+            "errorFetchingAllAssets": "Error fetching all equipments",
+            "errorOccuredWhileFetchingAccessories": "Error occured while fetching accessories",
+            "logs": "Logs",
+            "showUpdatesRelated": "Show Updates Related To:",
+            "filterSelectAsset": "Filter and select the equipments you want to export QR codes for",
+            "exportQrForAll": "Export QR codes for all components too",
+            "exportQrSettings": "Export QR Settings",
+            "selectQrCodeSize": "Select QR Code Size",
+            "selectFileFormat": "Select File Format",
+            "uncheckSelectAll": "Uncheck “select all” to view the whole list again",
+            "addComponents": "Add Components",
+            "selectComponentsToAdd": "Select components that you’d like to add to this equipment",
+            "updateFieldsOfComponents": "Update fields of component(s) to match the parent equipment.",
+            "someComponentsSelected": "Some components that you have selected already belong to a parent equipment. Continuing will edit their parent equipment to",
+            "wouldYouAlsoLikeToUpdate": "Would you also like to update the respective fields in this equipment’s components?",
+            "respectiveFieldsOverridden": "The respective fields in the component will be overridden if selected above",
+            "youCanCheckOnceOneFilterSelected": "You can only check this when you have selected at least one filter. All filtered equipments will be selected. Note: Only 500 equipments can be exported at a time.",
+            "alsoUpdateComponentStatus": "Also update component statuses",
+            "wouldYouAlsoUpdateFields": "Would you also like up to update the respective fields in this",
+            "component": "component"
+        }
+    }
+}
