@@ -1514,8 +1514,8 @@
             },
             "sec1": {
                 "original": "Asset Details",
-                "singular": "Asset Details",
-                "plural": "Asset Details",
+                "singular": "Equipment Details",
+                "plural": "Equipment Details",
                 "setupEdit": true,
                 "setupVisible": true
             },
@@ -2029,7 +2029,7 @@
             },
             "assetUnderWarranty": {
                 "original": "Asset Under Warranty",
-                "singular": "Asset Under Warranty",
+                "singular": "Equipment Under Warranty",
                 "plural": "",
                 "setupEdit": false,
                 "setupVisible": false
@@ -2050,8 +2050,8 @@
             },
             "assetWarranty": {
                 "original": "Asset Warranty",
-                "singular": "Asset Warranty",
-                "plural": "Asset Warranty",
+                "singular": "Equipment Warranty",
+                "plural": "Equipment Warranty",
                 "setupEdit": false,
                 "setupVisible": false
             },
@@ -3653,7 +3653,7 @@
             },
             "agencyAsset": {
                 "original": "Agency Asset",
-                "singular": "Agency Asset",
+                "singular": "Agency Equipment",
                 "plural": "",
                 "setupEdit": false,
                 "setupVisible": false
@@ -3884,7 +3884,7 @@
             },
             "workshopAsset": {
                 "original": "Workshop Asset",
-                "singular": "Workshop Asset",
+                "singular": "Workshop Equipment",
                 "plural": "",
                 "setupEdit": false,
                 "setupVisible": false
@@ -4213,7 +4213,7 @@
             },
             "assetModel": {
                 "original": "Asset Model",
-                "singular": "Asset Model",
+                "singular": "Equipment Model",
                 "plural": "",
                 "setupEdit": false,
                 "setupVisible": false
@@ -4253,7 +4253,7 @@
             "jobOrderFaultTypeNotFound": "Job Order Fault Type Not Found",
             "jobOrderServiceZoneNotFound": "Service Zone Not Found",
             "jobOrderUncompletedNotFound": "Uncompleted Job Order Not Found",
-            "jobOrderAssetNotFound": "Asset Not Found",
+            "jobOrderAssetNotFound": "Equipment Not Found",
             "jobOrderFaultNotFound": "Fault Not Found",
             "jobOrderResolutionNotFound": "Resolution Not Found",
             "jobOrderSiteNotFound": "Station Not Found",
@@ -6076,7 +6076,7 @@
             "siteNotFound": "Station not found",
             "siteTableSetupNotFound": "Station Table Setup not found, please contact support",
             "siteHasJobOrder": "Job Order Data exists in the system for the Station",
-            "siteHasAssets": "Assets Data exists in the system for the Station",
+            "siteHasAssets": "Equipments Data exists in the system for the Station",
             "siteHasContact": "Contact Data exists in the system for the Station",
             "siteHasTicket": "Ticket Data exists in the system for the Station",
             "siteHasTask": "Task Data exists in the system for the Station",
@@ -6600,14 +6600,14 @@
             },
             "allAsset": {
                 "original": "All Assets",
-                "singular": "All Asset",
-                "plural": "All Assets",
+                "singular": "All Equipment",
+                "plural": "All Equipments",
                 "setupEdit": true,
                 "setupVisible": true
             },
             "assetsByCustomer": {
                 "original": "Assets by Customer",
-                "singular": "Assets by Customer",
+                "singular": "Equipments by Customer",
                 "plural": "",
                 "setupEdit": true,
                 "setupVisible": true
@@ -6773,7 +6773,7 @@
             "ticketFaultTypeNotFound": "Ticket Fault Type not found",
             "ticketResolutionTypeNotFound": "Ticket Resolution Type not found",
             "ticketCustomerNotFound": "Ticket Customer not found",
-            "ticketAssetsNotFound": "Ticket Assets not found",
+            "ticketAssetsNotFound": "Ticket Equipments not found",
             "ticketContactNotFound": "Ticket Contact not found",
             "ticketDuplicateTicketNotFound": "Duplicate Ticket not found",
             "ticketPriorityNotFound": "Ticket Priority not found",
@@ -17252,8 +17252,8 @@
             },
             "saveConfigurationImportAsset": {
                 "original": "Save Configurations & Import Assets",
-                "singular": "Save Configurations & Import Assets",
-                "plural": "Save Configurations & Import Assets",
+                "singular": "Save Configurations & Import Equipments",
+                "plural": "Save Configurations & Import Equipments",
                 "setupEdit": false,
                 "setupVisible": false
             },
@@ -17371,22 +17371,22 @@
             },
             "locateAsset": {
                 "original": "Locate Asset",
-                "singular": "Locate Asset",
-                "plural": "Locate Assets",
+                "singular": "Locate Equipment",
+                "plural": "Locate Equipments",
                 "setupEdit": false,
                 "setupVisible": false
             },
             "transferAsset": {
                 "original": "Transfer Asset",
-                "singular": "Transfer Asset",
-                "plural": "Transfer Asset",
+                "singular": "Transfer Equipment",
+                "plural": "Transfer Equipment",
                 "setupEdit": false,
                 "setupVisible": false
             },
             "addAsset": {
                 "original": "Add Asset",
-                "singular": "Add Asset",
-                "plural": "Add Asset",
+                "singular": "Add Equipment",
+                "plural": "Add Equipment",
                 "setupEdit": false,
                 "setupVisible": false
             },
@@ -18189,7 +18189,7 @@
             "imageUploaded": "Image uploaded successfully",
             "endDateExceeds": "End date should not exceed start date",
             "selectJobOrderFromList": "Select a Job Order from the list",
-            "selectAssetFromList": "Select an Asset from the list",
+            "selectAssetFromList": "Select an Equipment from the list",
             "selectChecklistFromList": "Select Checklist From List",
             "selectCustomerFromList": "Select a Customer from the list",
             "selectJoOrderTemplateFromList": "Select Jo Order Template From List",
@@ -18299,7 +18299,7 @@
             "anyAdditionalComments": "Any additional comments? Add them here",
             "tip": "Tip",
             "tips": "Tips",
-            "makeFilterSelections": "Make filter selections to locate assets",
+            "makeFilterSelections": "Make filter selections to locate equipments",
             "confirmation": "Confirmation",
             "makeFilterSelectionsCheckAvail": "Make filter selections to check availability",
             "updateConfirmation": "Update Confirmation"
@@ -18610,7 +18610,7 @@
             "jobOrders": "Job Orders",
             "history": "History",
             "contacts": "Contacts",
-            "assets": "Assets",
+            "assets": "Equipments",
             "tasks": "Tasks",
             "attachments": "Attachments",
             "projects": "Deployments",
@@ -18629,7 +18629,7 @@
                 "setupVisible": false,
                 "sec0": {
                     "original": "Asset Summary",
-                    "singular": "Asset Summary",
+                    "singular": "Equipment Summary",
                     "plural": "",
                     "setupEdit": true,
                     "setupVisible": false
@@ -18716,7 +18716,7 @@
                 },
                 "code": {
                     "original": "Asset Code",
-                    "singular": "Asset Code",
+                    "singular": "Equipment Code",
                     "plural": "",
                     "setupEdit": true,
                     "setupVisible": false
@@ -18849,14 +18849,14 @@
                 }
             },
             "messages": {
-                "theFollowingAssetTransferToBin": "The following assets will be transferred to the following bins",
+                "theFollowingAssetTransferToBin": "The following equipments will be transferred to the following bins",
                 "theFollowingSparePartTransferToBin": "The following spare parts will be transferred to the following bins",
-                "theFollowingAssetTransferTo": "The following assets will be transferred to",
+                "theFollowingAssetTransferTo": "The following equipments will be transferred to",
                 "theFollowingSparePartTransferTo": "The following spare parts will be transferred to",
                 "willBeTransferTo": "will be transferred to",
                 "willBeAdjustedInBin": "will be adjusted in the following bins",
-                "theFollowingAssetRemoveFromBin": "The following assets will be removed from the following bins",
-                "theFollowingAssetRemoveFrom": "The following assets will be removed from",
+                "theFollowingAssetRemoveFromBin": "The following equipments will be removed from the following bins",
+                "theFollowingAssetRemoveFrom": "The following equipments will be removed from",
                 "willBeRemovedFrom": "will be removed from"
             }
         },
@@ -18880,7 +18880,7 @@
                 },
                 "sec2": {
                     "original": "Select an Asset from the list",
-                    "singular": "Select an Asset from the list",
+                    "singular": "Select an Equipment from the list",
                     "plural": "",
                     "setupEdit": true,
                     "setupVisible": false
