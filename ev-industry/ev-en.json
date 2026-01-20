@@ -4,8 +4,8 @@
         "setupEdit": true,
         "label": {
             "original": "Customers",
-            "singular": "Customer",
-            "plural": "Customers",
+            "singular": "Site Host",
+            "plural": "Site Hosts",
             "setupEdit": true,
             "setupVisible": true
         },
@@ -49,8 +49,8 @@
             },
             "sec5": {
                 "original": "Customer Details",
-                "singular": "Customer Details",
-                "plural": "Customer Details",
+                "singular": "Site Host Details",
+                "plural": "Site Host Details",
                 "setupEdit": false,
                 "setupVisible": false
             },
@@ -214,14 +214,14 @@
             },
             "customerNo": {
                 "original": "Customer No.",
-                "singular": "Customer No.",
+                "singular": "Site Host No.",
                 "plural": "",
                 "setupEdit": false,
                 "setupVisible": false
             },
             "customerReferenceId": {
                 "original": "Customer Reference Id",
-                "singular": "Customer Reference Id",
+                "singular": "Master Service Agreement (MSA)",
                 "plural": "",
                 "setupEdit": true,
                 "setupVisible": true
@@ -319,8 +319,8 @@
             },
             "customerChannel": {
                 "original": "Customer Channel",
-                "singular": "Customer Channel",
-                "plural": "Customer Channel",
+                "singular": "Site Host Channel",
+                "plural": "Site Host Channel",
                 "setupEdit": false,
                 "setupVisible": false
             },
@@ -341,71 +341,71 @@
         },
         "validationFE": {},
         "validationBE": {
-            "customerIdExidNotFound": "Id/CustomerExternalId not found",
+            "customerIdExidNotFound": "Id/SiteHostExternalId not found",
             "customerExidNotFound": "ExternalId not found",
-            "customerIdExists": "A new customer cannot already have an ID",
+            "customerIdExists": "A new site host cannot already have an ID",
             "customerIdNotFound": "Id not found",
-            "customerNotFound": "Customer not found",
-            "customerDeleted": "Customer is Deleted",
-            "customerCannotDeleteByProjects": "Unable to Delete, customer is part of one or more deployments",
+            "customerNotFound": "Site Host not found",
+            "customerDeleted": "Site Host is Deleted",
+            "customerCannotDeleteByProjects": "Unable to Delete, site host is part of one or more deployments",
             "customerLocationNotFound": "Invalid user location",
-            "customerGeoFenceNotFound": "Customer Geo Fence not found",
-            "customerServiceZoneNotFound": "Customer Service Zone not found",
-            "customerCategoryTypeNotFound": "Customer Category Type not found",
-            "customerTypeNotFound": "Customer Type not found",
-            "customerChannelNotFound": "Customer Channel not found",
-            "customerSectorNotFound": "Customer Sector not found",
-            "customerSubSectorNotFound": "Customer Sub Sector not found",
-            "customerIndustryNotFound": "Customer Industry not found",
-            "customerTableSetupNotFound": "Customer Table Setup not found, please contact support",
-            "customerContactNameLimitExceed": "Customer Contact Name cannot be longer than 255 characters",
+            "customerGeoFenceNotFound": "Site Host Geo Fence not found",
+            "customerServiceZoneNotFound": "Site Host Service Zone not found",
+            "customerCategoryTypeNotFound": "Site Host Category Type not found",
+            "customerTypeNotFound": "Site Host Model not found",
+            "customerChannelNotFound": "Site Host Channel not found",
+            "customerSectorNotFound": "Site Host Market Vertical not found",
+            "customerSubSectorNotFound": "Site Host Facility not found",
+            "customerIndustryNotFound": "Site Host Industry not found",
+            "customerTableSetupNotFound": "Site Host Table Setup not found, please contact support",
+            "customerContactNameLimitExceed": "Site Host Contact Name cannot be longer than 255 characters",
             "consignorConsigneeIdExists": "A new Consignor Consignee cannot already have an ID",
             "consignorConsigneeIdNotFound": "Id not found",
             "consignorConsigneeHasLoadingBay": "Loading Bay Data exists in the system for the Consignor Consignee",
-            "customerAnnouncementIdExists": "A new Customer Announcement cannot already have an ID",
+            "customerAnnouncementIdExists": "A new Site Host Announcement cannot already have an ID",
             "customerAnnouncementIdNotFound": "Id not found",
-            "customerChannelIdExists": "A new Customer Channel cannot already have an ID",
-            "customerPurchaseHistoryIdExists": "A new Customer Purchase History cannot already have an ID",
-            "customerPurchaseHistoryCustomerIdNotFound": "Customer Id not found",
+            "customerChannelIdExists": "A new Site Host Channel cannot already have an ID",
+            "customerPurchaseHistoryIdExists": "A new Site Host Purchase History cannot already have an ID",
+            "customerPurchaseHistoryCustomerIdNotFound": "Site Host Id not found",
             "customerPurchaseHistoryNotFound": "Purchase History not found",
-            "customerPurchaseHistoryWithCusExtIdNotFound": "Invalid Customer External Id",
+            "customerPurchaseHistoryWithCusExtIdNotFound": "Invalid Site Host External Id",
             "customerPurchaseHistorySalesOrderWithSOExtIdNotFound": "Invalid Sales Order External Id",
             "customerPurchaseHistoryProductWithProductExtIdNotFound": "Invalid Spare Part External Id",
             "customerPurchaseHistoryIdNotFound": "Id not found",
-            "customerPurchaseHistoryWithIdNotFound": "Invalid Customer Purchase History Id",
-            "customerSectorIdExists": "A new Customer Sector cannot already have an ID",
-            "customerSectorNameExists": "Customer Sector Name already exists",
-            "customerSectorSystemGenerated": "System generated Customer Sectors are not allowed to be deleted",
-            "customerSectorHasCustomerSubSector": "Customer Sub Sector Data exists in the system for the Customer Sector",
-            "customerSubSectorIdExists": "A new Customer Sub Sector cannot already have an ID",
-            "customerSubSectorNameExists": "Customer Sub Sector Name already exists",
-            "customerSubSectorSystemGenerated": "System generated Customer Sub Sectors are not allowed to be deleted",
-            "customerSubSectorHasCustomerSector": "Customer Sector Data exists in the system for the Customer Sub Sector",
-            "customerPriceBookNotFound": "Customer Price Book not found",
-            "customerPriceBookIdNotFound": "Customer Price Book Id not found",
-            "customerPriceBookUpdateFailed": "Failed to update price book of customer",
-            "customerCannotDeleteByJobOrderTemplates": "Unable to Delete: customer is part of one or more job order templates"
+            "customerPurchaseHistoryWithIdNotFound": "Invalid Site Host Purchase History Id",
+            "customerSectorIdExists": "A new Site Host Market cannot already have an ID",
+            "customerSectorNameExists": "Site Host Market Name already exists",
+            "customerSectorSystemGenerated": "System generated Site Host Markets are not allowed to be deleted",
+            "customerSectorHasCustomerSubSector": "Site Host Facility Data exists in the system for the Site Host Market",
+            "customerSubSectorIdExists": "A new Site Host Facility cannot already have an ID",
+            "customerSubSectorNameExists": "Site Host Facility Name already exists",
+            "customerSubSectorSystemGenerated": "System generated Site Host Facilities are not allowed to be deleted",
+            "customerSubSectorHasCustomerSector": "Site Host Market Data exists in the system for the Site Host Facility",
+            "customerPriceBookNotFound": "Site Host Price Book not found",
+            "customerPriceBookIdNotFound": "Site Host Price Book Id not found",
+            "customerPriceBookUpdateFailed": "Failed to update price book of site host",
+            "customerCannotDeleteByJobOrderTemplates": "Unable to Delete: Site Host is part of one or more job order templates"
         },
         "tooltips": {
             "setupVisible": false,
             "setupEdit": false,
             "geofenceIconMessage": {
                 "original": "Checking this box will find and tie the relevant Geofence to this Customer based on the Latitude and Longitude provided in the address(es) below",
-                "singular": "Checking this box will find and tie the relevant Geofence to this Customer based on the Latitude and Longitude provided in the address(es) below",
+                "singular": "Checking this box will find and tie the relevant Geofence to this Site Host based on the Latitude and Longitude provided in the address(es) below",
                 "plural": "",
                 "setupEdit": false,
                 "setupVisible": false
             },
             "customerSummary": {
                 "original": "Customer Summary",
-                "singular": "Customer Summary",
+                "singular": "Site Host Summary",
                 "plural": "",
                 "setupEdit": false,
                 "setupVisible": false
             },
             "customerLookup": {
                 "original": "Customer Lookup",
-                "singular": "Customer Lookup",
+                "singular": "Site Host Lookup",
                 "plural": "",
                 "setupEdit": false,
                 "setupVisible": false
@@ -414,14 +414,248 @@
         "messages": {
             "technicianOnRoute": "Currently a user is en route to this task.",
             "addressNotFallGeoFence": "Address does not fall under any of your geofences.",
-            "deleteMessage": "By deleting this customer, you will also be removing all associated information such as orders, contacts, and other related data. You will not be able to undo this. Do you wish to proceed?",
+            "deleteMessage": "By deleting this site host, you will also be removing all associated information such as orders, contacts, and other related data. You will not be able to undo this. Do you wish to proceed?",
             "selectGeofences": "Select Geofences",
             "noJobOrder": "No Job Orders yet",
-            "nearestCustomers": "Nearest Customers",
-            "nearbyCustomers": "Nearby Customers",
+            "nearestCustomers": "Nearest Site Hosts",
+            "nearbyCustomers": "Nearby Site Hosts",
             "seeInMap": "See in map"
         }
     },
+      "salesOrder": {
+    "setupVisible": true,
+    "setupEdit": true,
+    "label": {
+      "original": "Sales Order",
+      "singular": "Sales Order",
+      "plural": "Sales Orders",
+      "setupEdit": true,
+      "setupVisible": true
+    },
+    "sections": {
+      "setupVisible": false,
+      "setupEdit": false,
+      "sec0": {
+        "original": "General Details",
+        "singular": "General Details",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec1": {
+        "original": "Sales Order Details",
+        "singular": "Sales Order Details",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec2": {
+        "original": "Details",
+        "singular": "Details",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec3": {
+        "original": "Filter By",
+        "singular": "Filter By",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec4": {
+        "original": "Customer Details",
+        "singular": "Site Host Details",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      }
+    },
+    "fields": {
+      "setupVisible": true,
+      "setupEdit": true,
+      "name": {
+        "original": "Name",
+        "singular": "Name",
+        "plural": "Names",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "status": {
+        "original": "Status",
+        "singular": "Status",
+        "plural": "Statuses",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "owner": {
+        "original": "Owner",
+        "singular": "Owner",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "type": {
+        "original": "Type",
+        "singular": "Type",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "orderOwner": {
+        "original": "Order Owner",
+        "singular": "Order Owner",
+        "plural": "Order Owner",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "channel": {
+        "original": "Channel",
+        "singular": "Channel",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "description": {
+        "original": "Description",
+        "singular": "Description",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "startDate": {
+        "original": "Start Date",
+        "singular": "Start Date",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "endDate": {
+        "original": "End Date",
+        "singular": "End Date",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "billToContact": {
+        "original": "Bill To Contact",
+        "singular": "Bill To Contact",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "shipToContact": {
+        "original": "Ship To Contact",
+        "singular": "Ship To Contact",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "billingAddress": {
+        "original": "Billing Address",
+        "singular": "Billing Address",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "totalAmount": {
+        "original": "Total Amount",
+        "singular": "Total Amount",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "orderName": {
+        "original": "Order Name",
+        "singular": "Order Name",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "orderDate": {
+        "original": "Order Date",
+        "singular": "Order Date",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "salesOrderNo": {
+        "original": "Sales Order No",
+        "singular": "Sales Order No",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "customerName": {
+        "original": "Customer Name",
+        "singular": "Site Host Name",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "email": {
+        "original": "Email",
+        "singular": "Email",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "extId": {
+        "original": "External ID",
+        "singular": "External ID",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      }
+    },
+    "validationFE": {},
+    "validationBE": {
+      "salesOrderIdExists": "A new salesOrder cannot already have an ID",
+      "salesOrderCustomerNotFound": "Site Host not found",
+      "salesOrderIdExidNotFound": "Id/SalesOrderExternalId not found",
+      "salesOrderNotFound": "Sales order not found",
+      "salesOrderTypeNotFound": "Sales order type not found",
+      "salesOrderNumberExidNotFound": "OrderNumber/ExternalId not found",
+      "salesOrderIdNotFound": "Id not found",
+      "salesOrderNoPermissionToView": "You do not have permission to view this record",
+      "salesOrderHasJobOrder": "Job Order Data exists in the system for the Sales order",
+      "salesOrderHasDeliveryOrder": "Delivery Order Data exists in the system for the Sales order",
+      "salesOrderHasCustomerPayment": "Site Host Payment Data exists in the system for the Sales order",
+      "salesOrderHasCustomerPurchase": "Site Host Purchase Data exists in the system for the Sales order",
+      "salesOrderHasContract": "Contract Data exists in the system for the Sales order",
+      "salesOrderChannelNotFound": "Sales order channel not found",
+      "salesOrderOwnerNotFound": "Sales order owner not found",
+      "salesOrderBillingContactNotFound": "Billing contact not found",
+      "salesOrderShippingContactNotFound": "Shipping contact not found",
+      "salesOrderCountryNotFound": "Country not found",
+      "salesOrderTableSetupNotFound": "Sales order Table Setup not found, please contact support",
+      "salesOrderAuditEventHistoryIdExists": "A new Sales Order Audit Event History cannot already have an ID",
+      "salesOrderProductIdExists": "A new Sales Order Spare Part cannot already have an ID",
+      "salesOrderProductNotFound": "Sales Order Spare Part not found",
+      "salesOrderActivityIdExists": "A new Sales Order Activity cannot already have an ID"
+    },
+    "tooltips": {
+      "setupVisible": false,
+      "setupEdit": false,
+      "salesOrderLookup": {
+        "original": "Sales Order Lookup",
+        "singular": "Sales Order Lookup",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      }
+    },
+    "messages": {
+      "orderEndDateAfterStart": "Order End Date must be after Order Start Date",
+      "pleaseSelectOneOrMoreProducts":"Please select one or more Spare Parts",
+      "doYouWantToRemoveThisSalesOrder": "Do you want to remove this sales order?",
+      "doYouWantToRemoveThisProduct": "Do you want to remove this Spare Part?",
+      "searchSalesOrders" : "Search Sales Orders",
+      "salesOrderFilter" : "Sales Order Filter",
+      "filterByCustomer": "Filter By Site Host",
+      "soRequiresMinimumOneProduct": "Sales order requires minimum one Spare Part"
+    }
+  },
     "asset": {
         "setupVisible": true,
         "setupEdit": true,
@@ -980,7 +1214,7 @@
             },
             "assetsByCustomer": {
                 "original": "Assets by Customer",
-                "singular": "Equipment by Customer",
+                "singular": "Equipment by Site Host",
                 "plural": "",
                 "setupEdit": false,
                 "setupVisible": false
@@ -1161,7 +1395,7 @@
             "assetHasBinInventory": "Bin Inventory Data exists in the system for the Equipments",
             "assetHasMachineSpecialist": "Machine Specialist Data exists in the system for the Equipments",
             "assetTableSetupNotFound": "Equipments Table Setup not found, please contact support",
-            "assetCustomerNotFound": "Equipments customer not found",
+            "assetCustomerNotFound": "Equipments site host not found",
             "assetServiceZoneNotFound": "Equipments service zone not found",
             "assetProductNotFound": "Equipments Spare Part not found",
             "assetTypeNotFound": "Equipments type not found",
@@ -1290,7 +1524,7 @@
             },
             "customerRemoved": {
                 "original": "Customer Removed",
-                "singular": "Customer Removed",
+                "singular": "Site Host Removed",
                 "plural": "",
                 "setupEdit": false,
                 "setupVisible": false
@@ -1353,7 +1587,7 @@
             },
             "customerUpdate": {
                 "original": "Customer Update",
-                "singular": "Customer Update",
+                "singular": "Site Host Update",
                 "plural": "",
                 "setupEdit": false,
                 "setupVisible": false
@@ -1521,8 +1755,8 @@
             },
             "sec2": {
                 "original": "Customer Details",
-                "singular": "Customer Details",
-                "plural": "Customer Details",
+                "singular": "Site Host Details",
+                "plural": "Site Host Details",
                 "setupEdit": false,
                 "setupVisible": false
             },
@@ -2057,7 +2291,7 @@
             },
             "notifyCustomer": {
                 "original": "Notify Customer",
-                "singular": "Notify Customer",
+                "singular": "Notify Site Host",
                 "plural": "",
                 "setupEdit": false,
                 "setupVisible": false
@@ -3072,7 +3306,7 @@
             },
             "selectCustomerIdToViewSalesOrder": {
                 "original": "Select Customer to view Sales Order",
-                "singular": "Select Customer to view Sales Order",
+                "singular": "Select Site Host to view Sales Order",
                 "plural": "",
                 "setupEdit": false,
                 "setupVisible": false
@@ -3128,7 +3362,7 @@
             },
             "selectToSendCalendlyLink": {
                 "original": "Send a link to your customer to book their slot for this Job Order",
-                "singular": "Send a link to your customer to book their slot for this Job Order",
+                "singular": "Send a link to your site host to book their slot for this Job Order",
                 "plural": "",
                 "setupEdit": false,
                 "setupVisible": false
@@ -3163,7 +3397,7 @@
             },
             "sendSurveyToCustJo": {
                 "original": "Send a survey link to your customer for this Job Order",
-                "singular": "Send a survey link to your customer for this Job Order",
+                "singular": "Send a survey link to your site host for this Job Order",
                 "plural": "",
                 "setupEdit": false,
                 "setupVisible": false
@@ -3541,7 +3775,7 @@
             },
             "whatHappenCustBooking": {
                 "original": "What should happen when the customer makes an appointment for this Job Order?",
-                "singular": "What should happen when the customer makes an appointment for this Job Order?",
+                "singular": "What should happen when the site host makes an appointment for this Job Order?",
                 "plural": "",
                 "setupEdit": false,
                 "setupVisible": false
@@ -3562,7 +3796,7 @@
             },
             "willUpdateSlotCustomer": {
                 "original": "Will be updated to the slot selected by the customer",
-                "singular": "Will be updated to the slot selected by the customer",
+                "singular": "Will be updated to the slot selected by the site host",
                 "plural": "",
                 "setupEdit": false,
                 "setupVisible": false
@@ -4045,7 +4279,7 @@
             },
             "mainCustContact": {
                 "original": "Main Customer Contact",
-                "singular": "Main Customer Contact",
+                "singular": "Main Site Host Contact",
                 "plural": "",
                 "setupEdit": false,
                 "setupVisible": false
@@ -4233,7 +4467,7 @@
             "selectAProduct": "Select a Spare Part",
             "userCalendlyNoIntegrate": "This user does not have Calendly integrated to their account",
             "noContactFoundForThisJobOrder": "No contact found for this Job Order",
-            "noContactFoundForTheJobOrdersCustomer": "No contact found for the Job Order's Customer"
+            "noContactFoundForTheJobOrdersCustomer": "No contact found for the Job Order's Site Host"
         },
         "validationBE": {
             "jobOrderStatusNotFound": "Status Not Found",
@@ -4245,10 +4479,10 @@
             "jobOrderBiDirectionalLinkFound": "Job Orders cannot be linked bidirectionally",
             "jobOrderHasTask": "Task Data exists in the system for the Job order",
             "jobOrderTableSetupNotFound": "Job order Table Setup not found, please contact support",
-            "jobOrderCustomerNotFound": "Customer Not Found",
+            "jobOrderCustomerNotFound": "Site Host Not Found",
             "jobOrderSalesOrderNotFound": "Sales Order Not Found",
             "jobOrderOwnerNotFound": "Order owner Not Found",
-            "jobOrderCustomerPurchaseHistoryNotFound": "Customer Purchase History owner Not Found",
+            "jobOrderCustomerPurchaseHistoryNotFound": "Site Host Purchase History owner Not Found",
             "jobOrderTypeNotFound": "Job Order Type Not Found",
             "jobOrderFaultTypeNotFound": "Job Order Fault Type Not Found",
             "jobOrderServiceZoneNotFound": "Service Zone Not Found",
@@ -4329,7 +4563,7 @@
         "messages": {
             "systemTestPassed": "System tested with CMS in good working condition",
             "newTaskForSelectedDateTime": "A new task will be created under this Job Order for the selected date and time",
-            "noJobOrderCustomerContact": "No contact found for the Job Order's Customer",
+            "noJobOrderCustomerContact": "No contact found for the Job Order's Site Host",
             "noJobOrderContact": "No contact found for the Job Order",
             "noSlaStepDefined": "No SLA step yet",
             "createJobOrder": "Create Job Order",
@@ -5650,7 +5884,7 @@
             "taskTeamIdNotFound": "Task team id not found",
             "taskTableSetupNotFound": "Task Table Setup not found, please contact support",
             "taskExidValidation": "Invalid Task externalId",
-            "taskCustomerExidValidation": "Invalid customer externalId",
+            "taskCustomerExidValidation": "Invalid site host externalId",
             "taskAssignedToUserLoginValidation": "Invalid assigned to user login",
             "taskTeamExidValidation": "Invalid Team externalId",
             "taskStockCheckRunningNoValidation": "Invalid Stock Check runningNo",
@@ -6082,7 +6316,7 @@
             "siteHasTask": "Task Data exists in the system for the Station",
             "siteHasJobOrderTemplate": "Job Order Template Data exists in the system for the Station",
             "siteHasTaskTemplate": "Task Template Data exists in the system for the Station",
-            "siteCustomerNotFound": "Station Customer not found",
+            "siteCustomerNotFound": "Station Site Host not found",
             "siteTypeNotFound": "Station Electrical Topology not found",
             "siteCategoryNotFound": "Station Classification not found",
             "siteSubCategoryNotFound": "Station Physical Environment not found",
@@ -6333,7 +6567,7 @@
             "projectServiceZoneNotFound": "Deployment Service Zone not found",
             "projectCategoryNotFound": "Deployment Scope not found",
             "projectStatusNotFound": "Deployment Status not found",
-            "projectCustomerNotFound": "Deployment Customer not found",
+            "projectCustomerNotFound": "Deployment Site Host not found",
             "projectTypeNotFound": "Deployment Class not found",
             "projectIdExists": "A new deployment cannot already have an ID",
             "projectExtidNotFound": "Deployment ExternalId not found",
@@ -6394,7 +6628,7 @@
             },
             "sec3": {
                 "original": "Customer Details",
-                "singular": "Customer Details",
+                "singular": "Site Host Details",
                 "plural": "",
                 "setupEdit": true,
                 "setupVisible": true
@@ -6607,7 +6841,7 @@
             },
             "assetsByCustomer": {
                 "original": "Assets by Customer",
-                "singular": "Equipments by Customer",
+                "singular": "Equipments by Site Host",
                 "plural": "",
                 "setupEdit": true,
                 "setupVisible": true
@@ -6705,7 +6939,7 @@
             },
             "replyThisToCustomer": {
                 "original": "Reply this to customer",
-                "singular": "Reply this to customer",
+                "singular": "Reply this to site host",
                 "plural": "",
                 "setupEdit": true,
                 "setupVisible": true
@@ -6772,7 +7006,7 @@
             "ticketDepartmentNotFound": "Ticket Department not found",
             "ticketFaultTypeNotFound": "Ticket Fault Type not found",
             "ticketResolutionTypeNotFound": "Ticket Resolution Type not found",
-            "ticketCustomerNotFound": "Ticket Customer not found",
+            "ticketCustomerNotFound": "Ticket Site Host not found",
             "ticketAssetsNotFound": "Ticket Equipments not found",
             "ticketContactNotFound": "Ticket Contact not found",
             "ticketDuplicateTicketNotFound": "Duplicate Ticket not found",
@@ -6990,7 +7224,7 @@
         "validationFE": {},
         "validationBE": {
             "contactNotFound": "Contact not found",
-            "contactHasCustomerUser": "Customer User Data exists in the system for the Contact",
+            "contactHasCustomerUser": "Site Host User Data exists in the system for the Contact",
             "contactHasLoadingBay": "Loading Bay Data exists in the system for the Contact",
             "contactHasConsignorOrConsignee": "Consignor/Consignee Data exists in the system for the Contact",
             "contactHasServiceChecklist": "Service Checklist Data exists in the system for the Contact",
@@ -6999,7 +7233,7 @@
             "contactHasTicket": "Ticket Data exists in the system for the Contact",
             "contactHasContract": "Contract Data exists in the system for the Contact",
             "contactWithExtIdNotFound": "Invalid ExternalId",
-            "contactCustomerNotFound": "Contact Customer not found",
+            "contactCustomerNotFound": "Contact Site Host not found",
             "contactSiteNotFound": "Contact Station not found",
             "contactProjectNotFound": "Contact Deployment not found",
             "contactIdNotFound": "Id not found",
@@ -7744,7 +7978,7 @@
                     },
                     "allowUserSendViewSurvey": {
                         "original": "Allow users of this profile to send and view customer surveys",
-                        "singular": "Allow users of this profile to send and view customer surveys",
+                        "singular": "Allow users of this profile to send and view site host surveys",
                         "plural": "",
                         "setupEdit": true,
                         "setupVisible": false
@@ -7786,7 +8020,7 @@
                     },
                     "usersNotifiedPendingPayments": {
                         "original": "Users will be notified if the customer they are meeting has any pending payments to make",
-                        "singular": "Users will be notified if the customer they are meeting has any pending payments to make",
+                        "singular": "Users will be notified if the site host they are meeting has any pending payments to make",
                         "plural": "",
                         "setupEdit": true,
                         "setupVisible": false
@@ -12131,8 +12365,8 @@
                     },
                     "customer": {
                         "original": "Customer",
-                        "singular": "Customer",
-                        "plural": "Customers",
+                        "singular": "Site Host",
+                        "plural": "Site Hosts",
                         "setupEdit": true,
                         "setupVisible": false
                     },
@@ -13453,7 +13687,7 @@
                     },
                     "enableForCustomers": {
                         "original": "Enable for all customers",
-                        "singular": "Enable for all customers",
+                        "singular": "Enable for all site hosts",
                         "plural": "",
                         "setupEdit": true,
                         "setupVisible": false
@@ -13488,8 +13722,8 @@
                     },
                     "customer": {
                         "original": "Customer",
-                        "singular": "Customer",
-                        "plural": "Customers",
+                        "singular": "Site Host",
+                        "plural": "Site Hosts",
                         "setupEdit": true,
                         "setupVisible": false
                     },
@@ -13528,8 +13762,8 @@
                 "setupVisible": false,
                 "label": {
                     "original": "SLA Customer",
-                    "singular": "SLA Customer",
-                    "plural": "SLA Customers",
+                    "singular": "SLA Site Host",
+                    "plural": "SLA Site Hosts",
                     "setupEdit": true,
                     "setupVisible": false
                 },
@@ -13547,8 +13781,8 @@
                     "setupVisible": false,
                     "customer": {
                         "original": "Customer",
-                        "singular": "Customer",
-                        "plural": "Customers",
+                        "singular": "Site Host",
+                        "plural": "Site Hosts",
                         "setupEdit": true,
                         "setupVisible": false
                     },
@@ -13576,8 +13810,8 @@
                 },
                 "validationFE": {},
                 "messages": {
-                    "customerCreatedSuccessfully": "Customer saved successfully",
-                    "customerUpdatedSuccessfully": "Customer updated successfully"
+                    "customerCreatedSuccessfully": "Site Host saved successfully",
+                    "customerUpdatedSuccessfully": "Site Host updated successfully"
                 }
             },
             "steps": {
@@ -14041,7 +14275,7 @@
                 },
                 "sec4": {
                     "original": "Update the logo, background and font color that will appear when your customers book their time slots",
-                    "singular": "Update the logo, background and font color that will appear when your customers book their time slots",
+                    "singular": "Update the logo, background and font color that will appear when your Site Hosts book their time slots",
                     "plural": "",
                     "setupEdit": true,
                     "setupVisible": false
@@ -14128,7 +14362,7 @@
                 },
                 "updateLogoColor": {
                     "original": "Update the logo and color scheme that will appear when your customers book their time slots",
-                    "singular": "Update the logo and color scheme that will appear when your customers book their time slots",
+                    "singular": "Update the logo and color scheme that will appear when your site hosts book their time slots",
                     "plural": "",
                     "setupEdit": true,
                     "setupVisible": false
@@ -14226,7 +14460,7 @@
                 },
                 "onceAssignAutoUpdateJobOrderTask": {
                     "original": "Once set up, your customers can book slots (events) through Calendly that will automatically update your Job Order Date and Time, as well as create and",
-                    "singular": "Once set up, your customers can book slots (events) through Calendly that will automatically update your Job Order Date and Time, as well as create and",
+                    "singular": "Once set up, your site hosts can book slots (events) through Calendly that will automatically update your Job Order Date and Time, as well as create and",
                     "plural": "",
                     "setupEdit": true,
                     "setupVisible": false
@@ -14254,7 +14488,7 @@
                 },
                 "syncCustomer": {
                     "original": "Sync Customer",
-                    "singular": "Sync Customer",
+                    "singular": "Sync Site Host",
                     "plural": "",
                     "setupEdit": true,
                     "setupVisible": false
@@ -14311,7 +14545,7 @@
             "messages": {
                 "companyName": "Company Name",
                 "confirmYourSlot": "Confirm your slot",
-                "sampleCustomerBookTime": "This is a sample of what customers will see when booking time slots with you",
+                "sampleCustomerBookTime": "This is a sample of what site hosts will see when booking time slots with you",
                 "selectDateTime": "Select a Date & Time - Calendly",
                 "connecting": "Connecting",
                 "windowCloseIn": "This window will close in",
@@ -14584,7 +14818,7 @@
                 },
                 "sec2": {
                     "original": "Would you like this survey to be automatically sent out to your customers? If so, configure it below.",
-                    "singular": "Would you like this survey to be automatically sent out to your customers? If so, configure it below.",
+                    "singular": "Would you like this survey to be automatically sent out to your site hosts? If so, configure it below.",
                     "plural": "",
                     "setupEdit": true,
                     "setupVisible": false
@@ -14598,7 +14832,7 @@
                 },
                 "sec4": {
                     "original": "Whether or not this form will be automatically sent out to customers",
-                    "singular": "Whether or not this form will be automatically sent out to customers",
+                    "singular": "Whether or not this form will be automatically sent out to site hosts",
                     "plural": "",
                     "setupEdit": true,
                     "setupVisible": false
@@ -14622,7 +14856,7 @@
                 },
                 "autoSendToCustomer": {
                     "original": "Automatically send this survey to my customers",
-                    "singular": "Automatically send this survey to my customers",
+                    "singular": "Automatically send this survey to my site hosts",
                     "plural": "",
                     "setupEdit": true,
                     "setupVisible": false
@@ -14678,7 +14912,7 @@
                 },
                 "mainCustContact": {
                     "original": "Main Customer Contact",
-                    "singular": "Main Customer Contact",
+                    "singular": "Main Site Host Contact",
                     "plural": "",
                     "setupEdit": true,
                     "setupVisible": false
@@ -14720,9 +14954,9 @@
                 }
             },
             "messages": {
-                "autoSendSurvey": "Automatically send this survey to customers when the following conditions are met",
+                "autoSendSurvey": "Automatically send this survey to site hosts when the following conditions are met",
                 "surveySentToEmailAddress": "The survey will be sent to the email address of the contact specified in the Job Order (if given)",
-                "surveySentToJobOrderMainContact": "The survey will be sent to the email address of the Job Order Customer's main contact (shown in the customer detail page)"
+                "surveySentToJobOrderMainContact": "The survey will be sent to the email address of the Job Order Site Host's main contact (shown in the site host detail page)"
             }
         },
         "devices": {
@@ -15071,7 +15305,7 @@
                 "inAppNotificationsDesc": "Write custom messsages to notify FieldEx users directly in the web or mobile app when conditions are met.",
                 "emailNotifications": "Email Notifications:",
                 "emailNotificationsDesc": "Design custom email templates with field values to notify FieldEx users or external contacts.",
-                "whetherRemindersCustomer": "Whether it's reminders, customer updates, or team alerts, workflows make staying connected simple and effective.",
+                "whetherRemindersCustomer": "Whether it's reminders, site host updates, or team alerts, workflows make staying connected simple and effective.",
                 "useThisPageToCreateNewWorkflows": "Use this page to create new workflows or manage the ones you've already set up.",
                 "triggerWhenNewRecordCreated": "The workflow will trigger when a new record is added and the set conditions are met.",
                 "triggerWhenUpdatedFirstTime": "The workflow triggers the first time changes are made to the record and meet the specified conditions.",
@@ -15510,23 +15744,23 @@
             "setupAssetsTypeSystemGenerated": "System generated Equipments Type is not allowed to be deleted",
             "setupAssetsTypeHasAssets": "Equipments Type is linked with one or more equipments, hence unable to delete",
             "setupAssetsTypeHasTemplateChecklist": "Equipments Type is linked with one or more template checklists, hence unable to delete",
-            "setupCustomerConfigIdExists": "A new Customer Config cannot already have an ID",
+            "setupCustomerConfigIdExists": "A new Site Host Config cannot already have an ID",
             "setupCustomerConfigIdNotFound": "Id not found",
             "setupCategoryTypeIdExists": "A new Category Type cannot already have an ID",
             "setupCategoryTypeIdNotFound": "Id not found",
             "setupCategoryTypeNameExists": "Name already exists",
             "setupCategoryTypeSystemGenerated": "System generated Category Types are not allowed to be deleted",
-            "setupCustomerTypeIdExists": "A new Customer Type cannot already have an ID",
+            "setupCustomerTypeIdExists": "A new Site Host Type cannot already have an ID",
             "setupCustomerTypeIdNotFound": "Id not found",
             "setupCustomerTypeNameExists": "Name already exists",
-            "setupCustomerTypeSystemGenerated": "System generated Customer Types are not allowed to be deleted",
-            "setupCustomerTypeHasCustomer": "Customer Data exists in the system for the Customer Type",
+            "setupCustomerTypeSystemGenerated": "System generated Site Host Types are not allowed to be deleted",
+            "setupCustomerTypeHasCustomer": "Site Host Data exists in the system for the Site Host Type",
             "setupServiceZoneIdExists": "A new Service Zone cannot already have an ID",
             "setupServiceZoneNameExists": "Name already exists",
             "setupServiceZoneNotFound": "Service Zone not found",
             "setupServiceZoneSystemGenerated": "System generated Service Zones is not allowed to be deleted",
             "setupServiceZoneHasAsset": "Equipment Data exists in the system for the Service Zone",
-            "setupServiceZoneHasCustomer": "Customer Data exists in the system for the Service Zone",
+            "setupServiceZoneHasCustomer": "Site Host Data exists in the system for the Service Zone",
             "setupServiceZoneHasJobOrder": "Job Order Data exists in the system for the Service Zone",
             "setupServiceZoneHasProject": "Deployment Data exists in the system for the Service Zone",
             "setupServiceZoneHasJobOrderTemplate": "Job Order Template Data exists in the system for the Service Zone",
@@ -15625,9 +15859,9 @@
             "setupResolutionTypeSystemGenerated": "System generated Resolution Type are not allowed to be deleted",
             "setupCalendlyConfigIdNotFound": "Id not found",
             "setupCountryIdExists": "A new Country cannot already have an ID",
-            "setupCustomerSurveyConfigIdExists": "A new Customer Survey Config cannot already have an ID",
+            "setupCustomerSurveyConfigIdExists": "A new Site Host Survey Config cannot already have an ID",
             "setupCustomerSurveyConfigHasJobOrderSurvey": "This survey cannot be deleted because it is currently linked to one or more job orders.",
-            "setupCustomerSurveyConfigWorkflowIdExists": "A new Customer Survey Config Workflow cannot already have an ID",
+            "setupCustomerSurveyConfigWorkflowIdExists": "A new Site Host Survey Config Workflow cannot already have an ID",
             "setupFaultJobOrderMappingIdExists": "A new Fault Job Order Mapping cannot already have an ID",
             "setupFaultJobOrderMappingIdNotFound": "Id not found",
             "setupFaultMappingIdExists": "A new Fault Mapping cannot already have an ID",
@@ -15752,7 +15986,7 @@
                 "module": {
                     "assets": "Equipment",
                     "contract": "Contract",
-                    "customer": "Customer",
+                    "customer": "Site Host",
                     "job_order": "Job Order",
                     "maintenance_item": "Preventive Maintenance",
                     "product": "Product",
@@ -15767,14 +16001,14 @@
                 "moduleAccessFeatures": {
                     "feature": {
                         "name": {
-                            "customers": "Customer",
+                            "customers": "Site Host",
                             "sales_order": "Sales Order",
                             "job_order": "Job Order",
                             "products": "Spare Part",
                             "teams": "Teams",
                             "tasks": "Task",
-                            "customer_payment": "Customer Payment",
-                            "customer_purchase_history": "Customer Purchase History",
+                            "customer_payment": "Site Host Payment",
+                            "customer_purchase_history": "Site Host Purchase History",
                             "assets_tracking": "Equipments Tracking",
                             "planning_hub": "Planning Hub",
                             "delivery_orders": "Delivery Orders",
@@ -15840,7 +16074,7 @@
                         "job_order_assigned": "Sent to a user when they have been assigned as order owner for a Job Order",
                         "job_order_completed": "Sent to an order owner's manager when a Job Order status has changed to 'Completed' (or equivalent)",
                         "job_order_appointment_updated": "Sent to the Job Order owner when its time and date has been updated through Calendly",
-                        "survey_responded": "Sent to the owner when a Job Order receives a Survey response from a Customer"
+                        "survey_responded": "Sent to the owner when a Job Order receives a Survey response from a Site Host"
                     },
                     "name": {
                         "job_order_assigned": "Job Order Assignment",
@@ -18191,7 +18425,7 @@
             "selectJobOrderFromList": "Select a Job Order from the list",
             "selectAssetFromList": "Select an Equipment from the list",
             "selectChecklistFromList": "Select Checklist From List",
-            "selectCustomerFromList": "Select a Customer from the list",
+            "selectCustomerFromList": "Select a Site Host from the list",
             "selectJoOrderTemplateFromList": "Select Jo Order Template From List",
             "selectMachineSpecialistFromList": "Select a Machine Specialist from the list",
             "selectProductFromList": "Select a Spare Part from the list",
@@ -18202,7 +18436,7 @@
             "selectTicketFromList": "Select an ticket from the list",
             "selectLocationBinFromList": "Select a Location Bin from the list",
             "selectUserFromList": "Select a User from the list",
-            "selectCustomer": "Select a Customer",
+            "selectCustomer": "Select a Site Host",
             "selectBinLocation": "Select a Bin Location",
             "noJobOrderFound": "No Job Order found",
             "noSalesOrdersFound": "No Sales Orders found",
@@ -18594,11 +18828,11 @@
             "slaLineItemHasSLAPackage": "SLA Package Data exists in the system for the SlaLine Item",
             "slaLineItemWithSlaLineItemIdNotFound": "Invalid slaLineItemId",
             "slaNotificationIdExists": "A new SlaNotification cannot already have an ID",
-            "slaPackageCustomerIdExists": "A new SlaPackage Customer cannot already have an ID",
+            "slaPackageCustomerIdExists": "A new SlaPackage Site Host cannot already have an ID",
             "slaPackageIdExists": "A new SlaPackage cannot already have an ID",
             "slaPackageIdNotFound": "Id not found",
             "slaPackageNotFound": "SlaPackage not found",
-            "slaPackageHasCustomer": "Customer Data exists in the system for the SlaPackage",
+            "slaPackageHasCustomer": "Site Host Data exists in the system for the SlaPackage",
             "slaPackageHasSLATicket": "SLA Ticket Data exists in the system for the SlaPackage",
             "slaPackageHasSLAJobOrder": "SLA Job Order Data exists in the system for the SlaPackage",
             "slaBusinessHoursNotFound": "Business hours not defined"
@@ -18657,7 +18891,7 @@
                 },
                 "sec4": {
                     "original": "Customer Summary",
-                    "singular": "Customer Summary",
+                    "singular": "Site Host Summary",
                     "plural": "",
                     "setupEdit": true,
                     "setupVisible": false
@@ -18730,7 +18964,7 @@
                 },
                 "customer": {
                     "original": "Customer",
-                    "singular": "Customer",
+                    "singular": "Site Host",
                     "plural": "",
                     "setupEdit": true,
                     "setupVisible": false
@@ -18901,7 +19135,7 @@
                 },
                 "sec5": {
                     "original": "Select a Customer from the list",
-                    "singular": "Select a Customer from the list",
+                    "singular": "Select a Site Host from the list",
                     "plural": "",
                     "setupEdit": true,
                     "setupVisible": false
