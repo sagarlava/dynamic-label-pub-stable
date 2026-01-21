@@ -3241,14 +3241,14 @@
             },
             "type": {
                 "original": "Type",
-                "singular": "Type",
+                "singular": "Logistics Class",
                 "plural": "",
                 "setupEdit": true,
                 "setupVisible": true
             },
             "productFamily": {
                 "original": "Spare Part Family",
-                "singular": "Spare Part Family",
+                "singular": "Commodity Group",
                 "plural": "",
                 "setupEdit": true,
                 "setupVisible": true
