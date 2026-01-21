@@ -422,240 +422,240 @@
             "seeInMap": "See in map"
         }
     },
-      "salesOrder": {
-    "setupVisible": true,
-    "setupEdit": true,
-    "label": {
-      "original": "Sales Order",
-      "singular": "Sales Order",
-      "plural": "Sales Orders",
-      "setupEdit": true,
-      "setupVisible": true
-    },
-    "sections": {
-      "setupVisible": false,
-      "setupEdit": false,
-      "sec0": {
-        "original": "General Details",
-        "singular": "General Details",
-        "plural": "",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "sec1": {
-        "original": "Sales Order Details",
-        "singular": "Sales Order Details",
-        "plural": "",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "sec2": {
-        "original": "Details",
-        "singular": "Details",
-        "plural": "",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "sec3": {
-        "original": "Filter By",
-        "singular": "Filter By",
-        "plural": "",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "sec4": {
-        "original": "Customer Details",
-        "singular": "Site Host Details",
-        "plural": "",
-        "setupEdit": false,
-        "setupVisible": false
-      }
-    },
-    "fields": {
-      "setupVisible": true,
-      "setupEdit": true,
-      "name": {
-        "original": "Name",
-        "singular": "Name",
-        "plural": "Names",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "status": {
-        "original": "Status",
-        "singular": "Status",
-        "plural": "Statuses",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "owner": {
-        "original": "Owner",
-        "singular": "Owner",
-        "plural": "",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "type": {
-        "original": "Type",
-        "singular": "Type",
-        "plural": "",
+    "salesOrder": {
+        "setupVisible": true,
         "setupEdit": true,
-        "setupVisible": true
-      },
-      "orderOwner": {
-        "original": "Order Owner",
-        "singular": "Order Owner",
-        "plural": "Order Owner",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "channel": {
-        "original": "Channel",
-        "singular": "Channel",
-        "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
-      },
-      "description": {
-        "original": "Description",
-        "singular": "Description",
-        "plural": "",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "startDate": {
-        "original": "Start Date",
-        "singular": "Start Date",
-        "plural": "",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "endDate": {
-        "original": "End Date",
-        "singular": "End Date",
-        "plural": "",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "billToContact": {
-        "original": "Bill To Contact",
-        "singular": "Bill To Contact",
-        "plural": "",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "shipToContact": {
-        "original": "Ship To Contact",
-        "singular": "Ship To Contact",
-        "plural": "",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "billingAddress": {
-        "original": "Billing Address",
-        "singular": "Billing Address",
-        "plural": "",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "totalAmount": {
-        "original": "Total Amount",
-        "singular": "Total Amount",
-        "plural": "",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "orderName": {
-        "original": "Order Name",
-        "singular": "Order Name",
-        "plural": "",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "orderDate": {
-        "original": "Order Date",
-        "singular": "Order Date",
-        "plural": "",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "salesOrderNo": {
-        "original": "Sales Order No",
-        "singular": "Sales Order No",
-        "plural": "",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "customerName": {
-        "original": "Customer Name",
-        "singular": "Site Host Name",
-        "plural": "",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "email": {
-        "original": "Email",
-        "singular": "Email",
-        "plural": "",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "extId": {
-        "original": "External ID",
-        "singular": "External ID",
-        "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
-      }
+        "label": {
+            "original": "Sales Order",
+            "singular": "Sales Order",
+            "plural": "Sales Orders",
+            "setupEdit": true,
+            "setupVisible": true
+        },
+        "sections": {
+            "setupVisible": false,
+            "setupEdit": false,
+            "sec0": {
+                "original": "General Details",
+                "singular": "General Details",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+            },
+            "sec1": {
+                "original": "Sales Order Details",
+                "singular": "Sales Order Details",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+            },
+            "sec2": {
+                "original": "Details",
+                "singular": "Details",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+            },
+            "sec3": {
+                "original": "Filter By",
+                "singular": "Filter By",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+            },
+            "sec4": {
+                "original": "Customer Details",
+                "singular": "Site Host Details",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+            }
+        },
+        "fields": {
+            "setupVisible": true,
+            "setupEdit": true,
+            "name": {
+                "original": "Name",
+                "singular": "Name",
+                "plural": "Names",
+                "setupEdit": false,
+                "setupVisible": false
+            },
+            "status": {
+                "original": "Status",
+                "singular": "Status",
+                "plural": "Statuses",
+                "setupEdit": false,
+                "setupVisible": false
+            },
+            "owner": {
+                "original": "Owner",
+                "singular": "Owner",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+            },
+            "type": {
+                "original": "Type",
+                "singular": "Type",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": true
+            },
+            "orderOwner": {
+                "original": "Order Owner",
+                "singular": "Order Owner",
+                "plural": "Order Owner",
+                "setupEdit": false,
+                "setupVisible": false
+            },
+            "channel": {
+                "original": "Channel",
+                "singular": "Channel",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": true
+            },
+            "description": {
+                "original": "Description",
+                "singular": "Description",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+            },
+            "startDate": {
+                "original": "Start Date",
+                "singular": "Start Date",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+            },
+            "endDate": {
+                "original": "End Date",
+                "singular": "End Date",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+            },
+            "billToContact": {
+                "original": "Bill To Contact",
+                "singular": "Bill To Contact",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+            },
+            "shipToContact": {
+                "original": "Ship To Contact",
+                "singular": "Ship To Contact",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+            },
+            "billingAddress": {
+                "original": "Billing Address",
+                "singular": "Billing Address",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+            },
+            "totalAmount": {
+                "original": "Total Amount",
+                "singular": "Total Amount",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+            },
+            "orderName": {
+                "original": "Order Name",
+                "singular": "Order Name",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+            },
+            "orderDate": {
+                "original": "Order Date",
+                "singular": "Order Date",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+            },
+            "salesOrderNo": {
+                "original": "Sales Order No",
+                "singular": "Sales Order No",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+            },
+            "customerName": {
+                "original": "Customer Name",
+                "singular": "Site Host Name",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+            },
+            "email": {
+                "original": "Email",
+                "singular": "Email",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+            },
+            "extId": {
+                "original": "External ID",
+                "singular": "External ID",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": true
+            }
+        },
+        "validationFE": {},
+        "validationBE": {
+            "salesOrderIdExists": "A new salesOrder cannot already have an ID",
+            "salesOrderCustomerNotFound": "Site Host not found",
+            "salesOrderIdExidNotFound": "Id/SalesOrderExternalId not found",
+            "salesOrderNotFound": "Sales order not found",
+            "salesOrderTypeNotFound": "Sales order type not found",
+            "salesOrderNumberExidNotFound": "OrderNumber/ExternalId not found",
+            "salesOrderIdNotFound": "Id not found",
+            "salesOrderNoPermissionToView": "You do not have permission to view this record",
+            "salesOrderHasJobOrder": "Job Order Data exists in the system for the Sales order",
+            "salesOrderHasDeliveryOrder": "Delivery Order Data exists in the system for the Sales order",
+            "salesOrderHasCustomerPayment": "Site Host Payment Data exists in the system for the Sales order",
+            "salesOrderHasCustomerPurchase": "Site Host Purchase Data exists in the system for the Sales order",
+            "salesOrderHasContract": "Contract Data exists in the system for the Sales order",
+            "salesOrderChannelNotFound": "Sales order channel not found",
+            "salesOrderOwnerNotFound": "Sales order owner not found",
+            "salesOrderBillingContactNotFound": "Billing contact not found",
+            "salesOrderShippingContactNotFound": "Shipping contact not found",
+            "salesOrderCountryNotFound": "Country not found",
+            "salesOrderTableSetupNotFound": "Sales order Table Setup not found, please contact support",
+            "salesOrderAuditEventHistoryIdExists": "A new Sales Order Audit Event History cannot already have an ID",
+            "salesOrderProductIdExists": "A new Sales Order Spare Part cannot already have an ID",
+            "salesOrderProductNotFound": "Sales Order Spare Part not found",
+            "salesOrderActivityIdExists": "A new Sales Order Activity cannot already have an ID"
+        },
+        "tooltips": {
+            "setupVisible": false,
+            "setupEdit": false,
+            "salesOrderLookup": {
+                "original": "Sales Order Lookup",
+                "singular": "Sales Order Lookup",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+            }
+        },
+        "messages": {
+            "orderEndDateAfterStart": "Order End Date must be after Order Start Date",
+            "pleaseSelectOneOrMoreProducts": "Please select one or more Spare Parts",
+            "doYouWantToRemoveThisSalesOrder": "Do you want to remove this sales order?",
+            "doYouWantToRemoveThisProduct": "Do you want to remove this Spare Part?",
+            "searchSalesOrders": "Search Sales Orders",
+            "salesOrderFilter": "Sales Order Filter",
+            "filterByCustomer": "Filter By Site Host",
+            "soRequiresMinimumOneProduct": "Sales order requires minimum one Spare Part"
+        }
     },
-    "validationFE": {},
-    "validationBE": {
-      "salesOrderIdExists": "A new salesOrder cannot already have an ID",
-      "salesOrderCustomerNotFound": "Site Host not found",
-      "salesOrderIdExidNotFound": "Id/SalesOrderExternalId not found",
-      "salesOrderNotFound": "Sales order not found",
-      "salesOrderTypeNotFound": "Sales order type not found",
-      "salesOrderNumberExidNotFound": "OrderNumber/ExternalId not found",
-      "salesOrderIdNotFound": "Id not found",
-      "salesOrderNoPermissionToView": "You do not have permission to view this record",
-      "salesOrderHasJobOrder": "Job Order Data exists in the system for the Sales order",
-      "salesOrderHasDeliveryOrder": "Delivery Order Data exists in the system for the Sales order",
-      "salesOrderHasCustomerPayment": "Site Host Payment Data exists in the system for the Sales order",
-      "salesOrderHasCustomerPurchase": "Site Host Purchase Data exists in the system for the Sales order",
-      "salesOrderHasContract": "Contract Data exists in the system for the Sales order",
-      "salesOrderChannelNotFound": "Sales order channel not found",
-      "salesOrderOwnerNotFound": "Sales order owner not found",
-      "salesOrderBillingContactNotFound": "Billing contact not found",
-      "salesOrderShippingContactNotFound": "Shipping contact not found",
-      "salesOrderCountryNotFound": "Country not found",
-      "salesOrderTableSetupNotFound": "Sales order Table Setup not found, please contact support",
-      "salesOrderAuditEventHistoryIdExists": "A new Sales Order Audit Event History cannot already have an ID",
-      "salesOrderProductIdExists": "A new Sales Order Spare Part cannot already have an ID",
-      "salesOrderProductNotFound": "Sales Order Spare Part not found",
-      "salesOrderActivityIdExists": "A new Sales Order Activity cannot already have an ID"
-    },
-    "tooltips": {
-      "setupVisible": false,
-      "setupEdit": false,
-      "salesOrderLookup": {
-        "original": "Sales Order Lookup",
-        "singular": "Sales Order Lookup",
-        "plural": "",
-        "setupEdit": false,
-        "setupVisible": false
-      }
-    },
-    "messages": {
-      "orderEndDateAfterStart": "Order End Date must be after Order Start Date",
-      "pleaseSelectOneOrMoreProducts":"Please select one or more Spare Parts",
-      "doYouWantToRemoveThisSalesOrder": "Do you want to remove this sales order?",
-      "doYouWantToRemoveThisProduct": "Do you want to remove this Spare Part?",
-      "searchSalesOrders" : "Search Sales Orders",
-      "salesOrderFilter" : "Sales Order Filter",
-      "filterByCustomer": "Filter By Site Host",
-      "soRequiresMinimumOneProduct": "Sales order requires minimum one Spare Part"
-    }
-  },
     "asset": {
         "setupVisible": true,
         "setupEdit": true,
@@ -1726,6 +1726,303 @@
             "component": "component"
         }
     },
+    "contracts": {
+    "setupVisible": true,
+    "setupEdit": true,
+    "label": {
+      "original": "Contract",
+      "singular": "Contract",
+      "plural": "Contracts",
+      "setupEdit": true,
+      "setupVisible": true
+    },
+    "sections": {
+      "setupVisible": false,
+      "setupEdit": false,
+      "sec0": {
+        "original": "General Details",
+        "singular": "General Details",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec1": {
+        "original": "Contract Details",
+        "singular": "Contract Details",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec4": {
+        "original": "Select an asset to be added to the contract",
+        "singular": "Select an asset to be added to the contract",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec5": {
+        "original": "Select an accessory to be added to the contract",
+        "singular": "Select an accessory to be added to the contract",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec6": {
+        "original": "Select Bin to transfer from",
+        "singular": "Select Bin to transfer from",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec7": {
+        "original": "Details",
+        "singular": "Details",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec8": {
+        "original": "Filter By",
+        "singular": "Filter By",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec9": {
+        "original": "Contract Validity",
+        "singular": "Contract Validity",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec10": {
+        "original": "Cancel Contract",
+        "singular": "Cancel Contract",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec11": {
+        "original": "Contract Item Details",
+        "singular": "Contract Item Details",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      }
+    },
+    "fields": {
+      "setupVisible": true,
+      "setupEdit": true,
+      "status": {
+        "original": "Status",
+        "singular": "Status",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "custodian": {
+        "original": "Custodian",
+        "singular": "Custodian",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "startDate": {
+        "original": "Start Date",
+        "singular": "Start Date",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "endDate": {
+        "original": "End Date",
+        "singular": "End Date",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "refNo": {
+        "original": "Ref No",
+        "singular": "Ref No",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "assetName": {
+        "original": "Asset Name",
+        "singular": "Asset Name",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "assetCode": {
+        "original": "Asset Code",
+        "singular": "Asset Code",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "accessoryName": {
+        "original": "Accessory Name",
+        "singular": "Accessory Name",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "accessoryCode": {
+        "original": "Accessory Code",
+        "singular": "Accessory Code",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "serialNo": {
+        "original": "Serial No",
+        "singular": "Serial No",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "serialNumber": {
+        "original": "Serial Number",
+        "singular": "Serial Number",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "bin": {
+        "original": "Bin",
+        "singular": "Bin",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "available": {
+        "original": "Available",
+        "singular": "Available",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "qty": {
+        "original": "Qty",
+        "singular": "Qty",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "quantity": {
+        "original": "Quantity",
+        "singular": "Quantity",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "returnQty": {
+        "original": "Return Quantity",
+        "singular": "Return Quantity",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "updateInventory": {
+        "original": "Update Inventory",
+        "singular": "Update Inventory",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "active": {
+        "original": "Active",
+        "singular": "Active",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "contractItemNo": {
+        "original": "Contract Item No.",
+        "singular": "Contract Item No.",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "transferredFromBin": {
+        "original": "Transfered from Bin",
+        "singular": "Transfered from Bin",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "type": {
+        "original": "Type",
+        "singular": "Type",
+        "plural": "Types",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "contractItemId": {
+        "original": "Contract Item ID",
+        "singular": "Contract Item ID",
+        "plural": "Contract Items ID",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "contractItem": {
+        "original": "Contract Item",
+        "singular": "Contract Item",
+        "plural": "Contract Items",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "contractNo": {
+        "original": "Contract No.",
+        "singular": "Contract No.",
+        "plural": "Contract No.",
+        "setupEdit": false,
+        "setupVisible": false
+      }
+    },
+    "validationFE": {},
+    "validationBE": {
+      "contractNotFound": "Contract not found",
+      "contractHasMaintenance": "Maintenance Data exists in the system for the Contract",
+      "contractCannotDeleteDueToRateCard":"Cannot delete contract: Delete the rate card first",
+      "contractCustomerNotFound": "Contract Site Host not found",
+      "contractStatusNotFound": "Invalid Contract status",
+      "contractAssetsNotFound": "Contract Assets not found",
+      "contractTableSetupNotFound": "Contract Table Setup not found, please contact support",
+      "contractContactNotFound": "Contract Contact not found",
+      "contractIdNotFound": "Id not found",
+      "contractIdExists": "A new contract cannot already have an ID",
+      "contractPriceBookNotFound": "Contract Price Book not found",
+      "contractPriceBookIdNotFound": "Contract Price Book Id not found",
+      "contractPriceBookUpdateFailed": "Failed to update price book of contract",
+      "contractAssetsSerialNumberExists": "Asset Serial Number is already assigned to an overlapping active contract"
+    },
+    "tooltips": {
+      "setupVisible": false,
+      "setupEdit": false,
+      "contractLookup": {
+        "original": "Contracts Lookup",
+        "singular": "Contracts Lookup",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      }
+    },
+    "messages": {
+      "pleaseSelectAccessoryName": "Please select an Accessory Name",
+      "selectCustomerFirst": "Select site host first",
+      "contractItems": "Contract Items",
+      "contractItem": "Contract Item",
+      "errorFetchingAllContractItems":"Error fetching all contract items.",
+      "errorFetchingContractData": "Error occured while fetching contract data",
+      "selectedQtyGreater":"Selected 'Quantity' is greater than 'Quantity Available'",
+      "removeItems":"Remove items that need to be returned",
+      "pleaseSelectAssetName":"Please select an Asset Name",
+      "qtyGreaterThanZero":"Quantity should be greater than 0"
+    }
+  },
     "jobOrder": {
         "setupVisible": true,
         "setupEdit": true,
