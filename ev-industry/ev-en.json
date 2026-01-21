@@ -6057,8 +6057,8 @@
             },
             "orderOwner": {
                 "original": "Order Owner",
-                "singular": "Order Owner",
-                "plural": "Order Owners",
+                "singular": "Scheduler",
+                "plural": "Scheduler",
                 "setupVisible": true,
                 "setupEdit": true
             },
@@ -6071,21 +6071,21 @@
             },
             "system": {
                 "original": "System",
-                "singular": "System",
-                "plural": "Systems",
+                "singular": "Affected Subsystem",
+                "plural": "Affected Subsystem",
                 "setupVisible": true,
                 "setupEdit": true
             },
             "fault": {
                 "original": "Fault",
-                "singular": "Fault",
-                "plural": "Faults",
+                "singular": "Failure Code",
+                "plural": "Failure Code",
                 "setupVisible": true,
                 "setupEdit": true
             },
             "faultDetails": {
                 "original": "Fault Details",
-                "singular": "Fault Details",
+                "singular": "Diagnosis",
                 "plural": "",
                 "setupVisible": true,
                 "setupEdit": true
@@ -6141,7 +6141,7 @@
             },
             "extId": {
                 "original": "External ID",
-                "singular": "External ID",
+                "singular": "CPMS Ticket ID",
                 "plural": "",
                 "setupVisible": true,
                 "setupEdit": true
