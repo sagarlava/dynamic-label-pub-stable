@@ -4338,6 +4338,13 @@
         "plural": "Task and Spare Part Details",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "sec55": {
+        "original": "Activity",
+        "singular": "Activity",
+        "plural": "Activities",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "fields": {
@@ -6741,7 +6748,8 @@
       "jobOrderProductStatusIdExists": "A new Job Order Spare Part Status cannot already have an ID",
       "jobOrderProductStatusIdNotFound": "Id not found",
       "slaJobOrderIdExists": "A new Sla Job Order cannot already have an ID",
-      "jobOrderPriceBookNotFound": "Price Book not found"
+      "jobOrderPriceBookNotFound": "Price Book not found",
+      "mandatoryTasksNotCompleted": "One or more mandatory tasks have still not been completed. Complete them before completing this job order.",
     },
     "tooltips": {
       "setupVisible": false,
