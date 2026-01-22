@@ -67,8 +67,8 @@
             "setupEdit": true,
             "type": {
                 "original": "Type",
-                "singular": "Type",
-                "plural": "Types",
+                "singular": "SLA Tier",
+                "plural": "SLA Tier",
                 "setupEdit": true,
                 "setupVisible": true
             },
@@ -81,22 +81,22 @@
             },
             "sector": {
                 "original": "Sector",
-                "singular": "Sector",
-                "plural": "Sectors",
+                "singular": "Market Vertical",
+                "plural": "Market Vertical",
                 "setupEdit": true,
                 "setupVisible": true
             },
             "subSector": {
                 "original": "Sub-sector",
-                "singular": "Sub-sector",
-                "plural": "Sub-sectors",
+                "singular": "Facility Classification",
+                "plural": "Facility Classification",
                 "setupEdit": true,
                 "setupVisible": true
             },
             "category": {
                 "original": "Category",
-                "singular": "Category",
-                "plural": "Categories",
+                "singular": "Ownership Model",
+                "plural": "Ownership Model",
                 "setupEdit": true,
                 "setupVisible": true
             },
@@ -151,7 +151,7 @@
             },
             "area": {
                 "original": "Area",
-                "singular": "Area",
+                "singular": "Utility Territory",
                 "plural": "",
                 "setupEdit": true,
                 "setupVisible": true
