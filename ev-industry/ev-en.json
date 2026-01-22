@@ -8907,8 +8907,8 @@
             },
             "type": {
                 "original": "Type",
-                "singular": "Type",
-                "plural": "Types",
+                "singular": "Deployment Class",
+                "plural": "Deployment Classes",
                 "setupEdit": true,
                 "setupVisible": true
             },
