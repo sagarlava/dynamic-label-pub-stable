@@ -15187,7 +15187,8 @@
       "makeFilterSelections":"进行筛选以定位资产",
       "confirmation":"确认",
       "makeFilterSelectionsCheckAvail":"进行筛选以检查可用性",
-      "updateConfirmation":"更新确认"
+      "updateConfirmation":"更新确认",
+      "confirmProceed": "您确定要继续吗"
     },
     "currency": {
       "australianDollar": "AUD",
@@ -25178,6 +25179,13 @@
         "plural": "汇总字段",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "sec11": {
+        "original": "Schedules",
+        "singular": "计划",
+        "plural": "计划",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "fields":{
@@ -25378,6 +25386,55 @@
         "plural": "列",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "fileType": {
+        "original": "File Type",
+        "singular": "文件类型",
+        "plural": "文件类型",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "startDate": {
+        "original": "Start Date",
+        "singular": "开始日期",
+        "plural": "开始日期",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "endDate": {
+        "original": "End Date",
+        "singular": "结束日期",
+        "plural": "结束日期",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "scheduleType": {
+        "original": "Schedule Type",
+        "singular": "计划类型",
+        "plural": "计划类型",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "monthValue": {
+        "original": "Month Value",
+        "singular": "月份值",
+        "plural": "月份值",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "day": {
+        "original": "Day",
+        "singular": "天",
+        "plural": "天",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "time": {
+        "original": "Time",
+        "singular": "时间",
+        "plural": "时间",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "tooltips":{
@@ -25431,7 +25488,16 @@
       "addedToFavorites": "已成功添加到收藏夹",
       "updatedSuccessfully": "已成功更新",
       "nameIsRequired": "名称为必填项",
-      "generatedSuccessfully": "已成功生成"
+      "generatedSuccessfully": "已成功生成",
+      "pleaseSelectFileType": "请选择文件类型",
+      "selectEndDateOrNever": "请选择结束日期或勾选“从不”复选框以继续",
+      "atLeastOneIsRequired": "至少需要一个用户、用户组或电子邮件",
+      "sentRecipientSuccessfully": "已成功发送给接收者",
+    "maximumUserSelectionExceeded": "已超过最大用户选择数量",
+    "maximumGroupSelectionExceeded": "已超过最大用户组选择数量",
+    "maximumEmailsExceeded": "已超过最大电子邮件数量",
+    "hasBeenAddedToThe": "已添加到",
+    "successfully": "成功"
     },
     "messages":{
       "generateExistingReports": "生成现有或新建",
@@ -25558,12 +25624,15 @@
       "selectUser": "选择用户",
       "selectGroup": "选择群组",
       "enterEmailAddr": "输入电子邮件地址",
+       "enterEmailAddresses": "请输入电子邮件地址",
       "never": "从不",
       "doYouWantToSendThis": "您想发送此项",
       "to": "给",
       "viaEmail": "通过电子邮件",
       "selectEmailRecipient": "选择电子邮件收件人",
       "whenShouldThisRecordCreated": "此报告应何时创建？",
+      "whenShouldThis": "何时应",
+      "beCreated": "创建",
       "scheduleDuration": "计划持续时间",
       "selectFileType": "选择文件类型",
       "aggregatedFields": "以包含汇总字段？",
@@ -25577,7 +25646,15 @@
       "makingGroupedField": "进行分组字段选择将分组您的",
       "selectModuleForThis": "为此选择模块",
       "doYouWantThis": "您想要这个吗",
-      "showing": "显示"
+      "showing": "显示",
+       "selectAFrequency": "请选择频率",
+      "selectATime": "请选择时间",
+      "selectADay": "请选择日期",
+      "selectRecipientsAtLeastOne": "请选择此文件的接收者，您可以选择或输入多个值。至少需要选择一个。",
+      "thisScheduleForThis": "此项的计划",
+      "willBeRemoved": "将被移除",
+       "editingFieldsInSection": "编辑此部分中的字段将导致其",
+    "onlyBeingSentOut": "仅在满足新条件后才会发送。"
     }
   },
   "academy": {
