@@ -20732,6 +20732,10 @@
                 "setupEdit": false,
                 "setupVisible": false
               }
+            },
+            "messages":{
+            "quantityUnitThat": "La cantidad o unidad en la que",
+            "isMeasuredIn": "se mide"
             }
           }
         },

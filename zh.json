@@ -20732,6 +20732,10 @@
                 "setupEdit": false,
                 "setupVisible": false
               }
+            },
+            "messages":{
+               "quantityUnitThat": "用于衡量的数量或单位",
+               "isMeasuredIn": ""
             }
           }
         },

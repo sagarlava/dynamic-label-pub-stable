@@ -17397,6 +17397,10 @@
                 "setupEdit": false,
                 "setupVisible": false
               }
+            },
+            "messages":{
+                "quantityUnitThat":"Quantity or Unit that the",
+                "isMeasuredIn":"is measured in"
             }
           }
         },

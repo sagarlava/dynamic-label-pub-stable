@@ -20733,6 +20733,10 @@
                 "setupEdit": false,
                 "setupVisible": false
               }
+            },
+            "messages":{
+                "quantityUnitThat": "Kuantiti atau unit yang",
+                "isMeasuredIn": "digunakan untuk mengukur"
             }
           }
         },
