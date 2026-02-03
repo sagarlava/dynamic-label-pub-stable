@@ -20653,6 +20653,10 @@
                 "setupEdit": false,
                 "setupVisible": false
               }
+            },
+            "messages":{
+              "describesAGroupOf": "Beschreibt eine Gruppe von",
+              "whichHaveSimilarFunction": "die eine ähnliche Funktionalität haben"
             }
           },
           "unitMeasurement": {

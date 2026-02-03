@@ -20653,6 +20653,10 @@
                 "setupEdit": false,
                 "setupVisible": false
               }
+            },
+            "messages":{
+              "describesAGroupOf": "描述一组",
+              "whichHaveSimilarFunction": "具有相似功能的"
             }
           },
           "unitMeasurement": {

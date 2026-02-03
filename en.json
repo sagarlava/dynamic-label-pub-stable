@@ -20654,6 +20654,10 @@
                 "setupEdit": false,
                 "setupVisible": false
               }
+            },
+            "messages":{
+              "describesAGroupOf":"Describes a group of",
+              "whichHaveSimilarFunction":"which have a similar functionality"
             }
           },
           "unitMeasurement": {
