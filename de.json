@@ -25770,6 +25770,137 @@
         "themeUpdated": "Thema erfolgreich aktualisiert",
         "areYouSureRemoveLogo": "Sind Sie sicher, dass Sie das Logo entfernen möchten?",
         "removeLogo": "Logo entfernen"
+      },
+      "oauth": {
+        "setupEdit": false,
+        "setupVisible": false,
+        "label": {
+          "original": "OAuth",
+          "singular": "OAuth",
+          "plural": "OAuth",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "sections": {
+          "setupVisible": false,
+          "sec0": {
+            "original": "Configuration",
+            "singular": "Konfiguration",
+            "plural": "Konfigurationen",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec1": {
+            "original": "Apps",
+            "singular": "App",
+            "plural": "Apps",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec2": {
+            "original": "Basic Information",
+            "singular": "Grundlegende Informationen",
+            "plural": "Grundlegende Informationen",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec3": {
+            "original": "OAuth Scopes",
+            "singular": "OAuth-Bereich",
+            "plural": "OAuth-Bereiche",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec4": {
+            "original": "Credentials",
+            "singular": "Anmeldeinformation",
+            "plural": "Anmeldeinformationen",
+            "setupEdit": false,
+            "setupVisible": false
+          }
+        },
+        "fields": {
+          "setupEdit": false,
+          "setupVisible": false,
+          "name": {
+            "original": "Name",
+            "singular": "Name",
+            "plural": "Name",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "callbackUrl": {
+            "original": "Callback URL",
+            "singular": "Callback-URL",
+            "plural": "Callback-URL",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "description": {
+            "original": "Description",
+            "singular": "Beschreibung",
+            "plural": "Beschreibung",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "owner": {
+            "original": "Owner",
+            "singular": "Eigentümer",
+            "plural": "Eigentümer",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "oauthScope": {
+            "original": "OAuth Scopes",
+            "singular": "OAuth-Bereich",
+            "plural": "OAuth-Bereiche",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "oauthAppName": {
+            "original": "OAuth App Name",
+            "singular": "OAuth-App-Name",
+            "plural": "OAuth-App-Name",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "available": {
+            "original": "Available",
+            "singular": "Verfügbar",
+            "plural": "Verfügbar",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "selected": {
+            "original": "Selected",
+            "singular": "Ausgewählt",
+            "plural": "Ausgewählt",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "consumerKey": {
+            "original": "Consumer Key",
+            "singular": "Consumer-Schlüssel",
+            "plural": "Consumer-Schlüssel",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "secretKey": {
+            "original": "Secret Key",
+            "singular": "Geheimer Schlüssel",
+            "plural": "Geheimer Schlüssel",
+            "setupEdit": false,
+            "setupVisible": false
+          }
+        },
+         "messages": {
+          "createClientApp": "Erstellen Sie eine Client-App und definieren Sie Berechtigungsbereiche für Integrationen.",
+          "giveYourIntegrationApp": "Geben Sie Ihrer Integrations-App einen Namen und definieren Sie die Callback-URL",
+          "chooseThePermission": "Wählen Sie die Berechtigungen aus, auf die Ihre Integration zugreifen kann. Halten Sie die Bereiche aus Sicherheitsgründen minimal.",
+          "basicInformationRelated": "Grundlegende Informationen zu Ihrer Integrations-App.",
+          "redirectUri": "Verwenden Sie die Weiterleitungs-URI Ihrer Integration (z. B. https://yourapp.com/oauth/callback)",
+          "selectedUser": "Der ausgewählte Benutzer wird als Ersteller und Bearbeiter der Datensätze für Prüfzwecke verwendet."
+        }
       }
     },
     "importExport": {

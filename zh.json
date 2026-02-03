@@ -25770,6 +25770,137 @@
         "themeUpdated": "主题更新成功",
         "areYouSureRemoveLogo": "您确定要移除徽标吗？",
         "removeLogo": "移除徽标"
+      },
+      "oauth": {
+        "setupEdit": false,
+        "setupVisible": false,
+        "label": {
+          "original": "OAuth",
+          "singular": "OAuth",
+          "plural": "OAuth",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "sections": {
+          "setupVisible": false,
+          "sec0": {
+            "original": "Configuration",
+            "singular": "配置",
+            "plural": "配置",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec1": {
+            "original": "Apps",
+            "singular": "应用",
+            "plural": "应用",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec2": {
+            "original": "Basic Information",
+            "singular": "基本信息",
+            "plural": "基本信息",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec3": {
+            "original": "OAuth Scopes",
+            "singular": "OAuth 权限范围",
+            "plural": "OAuth 权限范围",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec4": {
+            "original": "Credentials",
+            "singular": "凭证",
+            "plural": "凭证",
+            "setupEdit": false,
+            "setupVisible": false
+          }
+        },
+         "fields": {
+          "setupEdit": false,
+          "setupVisible": false,
+          "name": {
+            "original": "Name",
+            "singular": "名称",
+            "plural": "名称",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "callbackUrl": {
+            "original": "Callback URL",
+            "singular": "回调 URL",
+            "plural": "回调 URL",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "description": {
+            "original": "Description",
+            "singular": "描述",
+            "plural": "描述",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "owner": {
+            "original": "Owner",
+            "singular": "所有者",
+            "plural": "所有者",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "oauthScope": {
+            "original": "OAuth Scopes",
+            "singular": "OAuth 权限范围",
+            "plural": "OAuth 权限范围",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "oauthAppName": {
+            "original": "OAuth App Name",
+            "singular": "OAuth 应用名称",
+            "plural": "OAuth 应用名称",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "available": {
+            "original": "Available",
+            "singular": "可用",
+            "plural": "可用",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "selected": {
+            "original": "Selected",
+            "singular": "已选择",
+            "plural": "已选择",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "consumerKey": {
+            "original": "Consumer Key",
+            "singular": "使用者密钥",
+            "plural": "使用者密钥",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "secretKey": {
+            "original": "Secret Key",
+            "singular": "密钥",
+            "plural": "密钥",
+            "setupEdit": false,
+            "setupVisible": false
+          }
+        },
+        "messages": {
+          "createClientApp": "创建客户端应用并定义集成的权限范围。",
+          "giveYourIntegrationApp": "为您的集成应用命名并定义回调 URL",
+          "chooseThePermission": "选择您的集成可以访问的权限。出于安全考虑，请尽量减少权限范围。",
+          "basicInformationRelated": "与您的集成应用相关的基本信息。",
+          "redirectUri": "使用您的集成重定向 URI（例如：https://yourapp.com/oauth/callback）",
+          "selectedUser": "所选用户将作为记录的创建者和修改者，用于审计。"
+        }
       }
     },
     "importExport": {

@@ -25770,6 +25770,137 @@
         "themeUpdated": "Tema berjaya dikemas kini",
         "areYouSureRemoveLogo": "Adakah anda pasti mahu membuang logo?",
         "removeLogo": "Buang logo"
+      },
+      "oauth": {
+        "setupEdit": false,
+        "setupVisible": false,
+        "label": {
+          "original": "OAuth",
+          "singular": "OAuth",
+          "plural": "OAuth",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "sections": {
+          "setupVisible": false,
+          "sec0": {
+            "original": "Configuration",
+            "singular": "Konfigurasi",
+            "plural": "Konfigurasi",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec1": {
+            "original": "Apps",
+            "singular": "Aplikasi",
+            "plural": "Aplikasi",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec2": {
+            "original": "Basic Information",
+            "singular": "Maklumat Asas",
+            "plural": "Maklumat Asas",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec3": {
+            "original": "OAuth Scopes",
+            "singular": "Skop OAuth",
+            "plural": "Skop OAuth",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec4": {
+            "original": "Credentials",
+            "singular": "Kelayakan",
+            "plural": "Kelayakan",
+            "setupEdit": false,
+            "setupVisible": false
+          }
+        },
+         "fields": {
+          "setupEdit": false,
+          "setupVisible": false,
+          "name": {
+            "original": "Name",
+            "singular": "Nama",
+            "plural": "Nama",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "callbackUrl": {
+            "original": "Callback URL",
+            "singular": "URL Panggilan Balik",
+            "plural": "URL Panggilan Balik",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "description": {
+            "original": "Description",
+            "singular": "Penerangan",
+            "plural": "Penerangan",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "owner": {
+            "original": "Owner",
+            "singular": "Pemilik",
+            "plural": "Pemilik",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "oauthScope": {
+            "original": "OAuth Scopes",
+            "singular": "Skop OAuth",
+            "plural": "Skop OAuth",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "oauthAppName": {
+            "original": "OAuth App Name",
+            "singular": "Nama Aplikasi OAuth",
+            "plural": "Nama Aplikasi OAuth",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "available": {
+            "original": "Available",
+            "singular": "Tersedia",
+            "plural": "Tersedia",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "selected": {
+            "original": "Selected",
+            "singular": "Dipilih",
+            "plural": "Dipilih",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "consumerKey": {
+            "original": "Consumer Key",
+            "singular": "Kunci Pengguna",
+            "plural": "Kunci Pengguna",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "secretKey": {
+            "original": "Secret Key",
+            "singular": "Kunci Rahsia",
+            "plural": "Kunci Rahsia",
+            "setupEdit": false,
+            "setupVisible": false
+          }
+        },
+         "messages": {
+          "createClientApp": "Cipta aplikasi klien dan tentukan skop untuk integrasi.",
+          "giveYourIntegrationApp": "Berikan nama kepada aplikasi integrasi anda dan tentukan URL panggilan balik",
+          "chooseThePermission": "Pilih kebenaran yang boleh diakses oleh integrasi anda. Kekalkan skop minimum demi keselamatan.",
+          "basicInformationRelated": "Maklumat asas berkaitan aplikasi integrasi anda.",
+          "redirectUri": "Gunakan URI ubah hala integrasi anda (cth., https://yourapp.com/oauth/callback)",
+          "selectedUser": "Pengguna yang dipilih akan menjadi pengguna yang mencipta dan mengubah suai rekod untuk tujuan audit."
+        }
       }
     },
     "importExport": {

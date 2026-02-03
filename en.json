@@ -25771,6 +25771,137 @@
         "themeUpdated":"Theme updated successfully",
         "areYouSureRemoveLogo":"Are you sure you want to remove logo?",
         "removeLogo":"Remove logo"
+      },
+      "oauth":{
+        "setupEdit": false,
+        "setupVisible": false,
+        "label": {
+          "original": "OAuth",
+          "singular": "OAuth",
+          "plural": "OAuth",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "sections": {
+          "setupVisible": false,
+          "sec0": {
+            "original": "Configuration",
+            "singular": "Configuration",
+            "plural": "Configurations",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec1": {
+            "original": "Apps",
+            "singular": "App",
+            "plural": "Apps",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec2": {
+            "original": "Basic Information",
+            "singular": "Basic Information",
+            "plural": "Basic Information",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec3": {
+            "original": "OAuth Scopes",
+            "singular": "OAuth Scope",
+            "plural": "OAuth Scopes",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec4": {
+            "original": "Credentials",
+            "singular": "Credential",
+            "plural": "Credentials",
+            "setupEdit": false,
+            "setupVisible": false
+          }
+        },
+        "fields": {
+            "setupEdit": false,
+            "setupVisible": false,
+            "name": {
+              "original": "Name",
+              "singular": "Name",
+              "plural": "Name",
+              "setupEdit": false,
+              "setupVisible": false
+            },
+            "callbackUrl": {
+              "original": "Callback URL",
+              "singular": "Callback URL",
+              "plural": "Callback URL",
+              "setupEdit": false,
+              "setupVisible": false
+            },
+            "description": {
+              "original": "Description",
+              "singular": "Description",
+              "plural": "Description",
+              "setupEdit": false,
+              "setupVisible": false
+            },
+            "owner": {
+              "original": "Owner",
+              "singular": "Owner",
+              "plural": "Owners",
+              "setupEdit": false,
+              "setupVisible": false
+            },
+            "oauthScope": {
+              "original": "OAuth Scopes",
+              "singular": "OAuth Scope",
+              "plural": "OAuth Scopes",
+              "setupEdit": false,
+              "setupVisible": false
+            },
+            "oauthAppName": {
+              "original": "OAuth App Name",
+              "singular": "OAuth App Name",
+              "plural": "OAuth App Name",
+              "setupEdit": false,
+              "setupVisible": false
+            },
+            "available": {
+              "original": "Available",
+              "singular": "Available",
+              "plural": "Available",
+              "setupEdit": false,
+              "setupVisible": false
+            },
+            "selected": {
+              "original": "Selected",
+              "singular": "Selected",
+              "plural": "Selected",
+              "setupEdit": false,
+              "setupVisible": false
+            },
+            "consumerKey": {
+              "original": "Consumer Key",
+              "singular": "Consumer Key",
+              "plural": "Consumer Key",
+              "setupEdit": false,
+              "setupVisible": false
+            },
+            "secretKey": {
+              "original": "Secret Key",
+              "singular": "Secret Key",
+              "plural": "Secret Key",
+              "setupEdit": false,
+              "setupVisible": false
+            }
+          },
+          "messages":{
+            "createClientApp":"Create a client app and define scopes for integrations.",
+            "giveYourIntegrationApp":"Give your integration app a name and define the call back url",
+            "chooseThePermission":"Choose the permissions your integration can access. Keep scopes minimal for security.",
+            "basicInformationRelated":"Basic information related to your integration app.",
+            "redirectUri":"Use your integration's redirect URI (e.g., https://yourapp.com/oauth/callback)",
+            "selectedUser":"Selected user will be the created by and modified by for the records for audits."
+          }
       }
     },
     "importExport": {
