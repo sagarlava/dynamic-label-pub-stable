@@ -22037,7 +22037,7 @@
             "original": "Type",
             "singular": "Tipo",
             "plural": "Tipos",
-            "setupEdit": true,
+            "setupEdit": false,
             "setupVisible": false
           },
           "sections": {
@@ -22046,21 +22046,21 @@
               "original": "Type Details",
               "singular": "Detalles del tipo",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": false
             },
             "sec1": {
               "original": "Available Statuses for this Type",
               "singular": "Estados disponibles para este tipo",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": false
             },
             "sec2": {
               "original": "Specify the statuses that apply to this Job Order Type. Those in the right hand box will be displayed in the status picklist when this Job Order Type is selected",
               "singular": "Especifique los estados que se aplican a este tipo de orden de trabajo. Los de la caja de la derecha se mostrarán en la lista de selección de estado cuando se seleccione este tipo de orden de trabajo.",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": false
             }
           },
@@ -22070,42 +22070,42 @@
               "original": "Label",
               "singular": "Etiqueta",
               "plural": "Etiquetas",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": false
             },
             "description": {
               "original": "Description",
               "singular": "Descripción",
               "plural": "Descripciones",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": false
             },
             "code": {
               "original": "Code",
               "singular": "Código",
               "plural": "Códigos",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": false
             },
             "order": {
               "original": "Order",
               "singular": "Orden",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": false
             },
             "status": {
               "original": "Status",
               "singular": "Estado",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": false
             },
             "default": {
               "original": "Default",
               "singular": "Predeterminado",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": false
             }
           },
@@ -22126,7 +22126,7 @@
             "original": "Status",
             "singular": "Estado",
             "plural": "",
-            "setupEdit": true,
+            "setupEdit": false,
             "setupVisible": false
           },
           "sections": {
@@ -22135,7 +22135,7 @@
               "original": "Status Details",
               "singular": "Detalles del estado",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": false
             }
           },
@@ -22145,42 +22145,42 @@
               "original": "Label",
               "singular": "Etiqueta",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": false
             },
             "code": {
               "original": "Code",
               "singular": "Código",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": false
             },
             "order": {
               "original": "Order",
               "singular": "Orden",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": false
             },
             "status": {
               "original": "Status",
               "singular": "Estado",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": false
             },
             "default": {
               "original": "Default",
               "singular": "Predeterminado",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": false
             },
             "colorCode": {
               "original": "Color Code",
               "singular": "Código de color",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": false
             }
           },
@@ -22195,7 +22195,7 @@
             "original": "Channel",
             "singular": "Canal",
             "plural": "Canales",
-            "setupEdit": true,
+            "setupEdit": false,
             "setupVisible": false
           },
           "sections": {
@@ -22204,7 +22204,7 @@
               "original": "Channel Details",
               "singular": "Detalles del canal",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": false
             }
           },
@@ -22214,35 +22214,35 @@
               "original": "Label",
               "singular": "Etiqueta",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": false
             },
             "code": {
               "original": "Code",
               "singular": "Código",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": false
             },
             "order": {
               "original": "Order",
               "singular": "Orden",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": false
             },
             "status": {
               "original": "Status",
               "singular": "Estado",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": false
             },
             "default": {
               "original": "Default",
               "singular": "Predeterminado",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": false
             }
           },
@@ -22257,7 +22257,7 @@
             "original": "Area",
             "singular": "Área",
             "plural": "Áreas",
-            "setupEdit": true,
+            "setupEdit": false,
             "setupVisible": false
           },
           "sections": {
@@ -22266,7 +22266,7 @@
               "original": "Area Details",
               "singular": "Detalles del área",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": false
             }
           },
@@ -22276,35 +22276,35 @@
               "original": "Label",
               "singular": "Etiqueta",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": false
             },
             "code": {
               "original": "Code",
               "singular": "Código",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": false
             },
             "order": {
               "original": "Order",
               "singular": "Orden",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": false
             },
             "status": {
               "original": "Status",
               "singular": "Estado",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": false
             },
             "default": {
               "original": "Default",
               "singular": "Predeterminado",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": false
             }
           },
@@ -22319,7 +22319,7 @@
             "original": "Category",
             "singular": "Categoría",
             "plural": "Categorías",
-            "setupEdit": true,
+            "setupEdit": false,
             "setupVisible": false
           },
           "sections": {
@@ -22328,7 +22328,7 @@
               "original": "Category Details",
               "singular": "Detalles de la categoría",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": false
             }
           },
@@ -22338,35 +22338,35 @@
               "original": "Label",
               "singular": "Etiqueta",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": false
             },
             "code": {
               "original": "Code",
               "singular": "Código",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": false
             },
             "order": {
               "original": "Order",
               "singular": "Orden",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": false
             },
             "status": {
               "original": "Status",
               "singular": "Estado",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": false
             },
             "default": {
               "original": "Default",
               "singular": "Predeterminado",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": false
             }
           },
@@ -22381,7 +22381,7 @@
             "original": "Sub Category",
             "singular": "Subcategoría",
             "plural": "Subcategorías",
-            "setupEdit": true,
+            "setupEdit": false,
             "setupVisible": false
           },
           "sections": {
@@ -22390,7 +22390,7 @@
               "original": "Sub Category Details",
               "singular": "Detalles de la subcategoría",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": false
             }
           },
@@ -22400,42 +22400,42 @@
               "original": "Label",
               "singular": "Etiqueta",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": false
             },
             "code": {
               "original": "Code",
               "singular": "Código",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": false
             },
             "order": {
               "original": "Order",
               "singular": "Orden",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": false
             },
             "category": {
               "original": "Category",
               "singular": "Categoría",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": false
             },
             "status": {
               "original": "Status",
               "singular": "Estado",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": false
             },
             "default": {
               "original": "Default",
               "singular": "Predeterminado",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": false
             }
           },
@@ -22449,7 +22449,7 @@
             "original": "Department",
             "singular": "Departamento",
             "plural": "Departamentos",
-            "setupEdit": true,
+            "setupEdit": false,
             "setupVisible": false
           },
           "sections": {
@@ -22458,7 +22458,7 @@
               "original": "Department Details",
               "singular": "Detalles del departamento",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": false
             }
           },
@@ -22468,21 +22468,21 @@
               "original": "Label",
               "singular": "Etiqueta",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": false
             },
             "status": {
               "original": "Status",
               "singular": "Estado",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": false
             },
             "default": {
               "original": "Default",
               "singular": "Predeterminado",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": false
             }
           },
@@ -22497,7 +22497,7 @@
             "original": "Fault",
             "singular": "Falla",
             "plural": "Fallas",
-            "setupEdit": true,
+            "setupEdit": false,
             "setupVisible": false
           },
           "sections": {
@@ -22506,14 +22506,14 @@
               "original": "Fault Type",
               "singular": "Tipo de falla",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": false
             },
             "sec1": {
               "original": "Fault Type Details",
               "singular": "Detalles del tipo de falla",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": false
             }
           },
@@ -22523,42 +22523,42 @@
               "original": "Label",
               "singular": "Etiqueta",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": false
             },
             "displayName": {
               "original": "Display Name",
               "singular": "Nombre para mostrar",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": false
             },
             "order": {
               "original": "Order",
               "singular": "Orden",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": false
             },
             "status": {
               "original": "Status",
               "singular": "Estado",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": false
             },
             "default": {
               "original": "Default",
               "singular": "Predeterminado",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": false
             },
             "code": {
               "original": "Code",
               "singular": "Código",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": false
             }
           },
@@ -22572,7 +22572,7 @@
             "original": "Priority",
             "singular": "Prioridad",
             "plural": "Prioridades",
-            "setupEdit": true,
+            "setupEdit": false,
             "setupVisible": false
           },
           "sections": {
@@ -22581,7 +22581,7 @@
               "original": "Priority Details",
               "singular": "Detalles de la prioridad",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": false
             }
           },
@@ -22591,28 +22591,28 @@
               "original": "Name",
               "singular": "Nombre",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": false
             },
             "order": {
               "original": "Order",
               "singular": "Orden",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": false
             },
             "status": {
               "original": "Status",
               "singular": "Estado",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": false
             },
             "default": {
               "original": "Default",
               "singular": "Predeterminado",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": false
             }
           },
@@ -22626,7 +22626,7 @@
             "original": "Resolution",
             "singular": "Resolución",
             "plural": "Resoluciones",
-            "setupEdit": true,
+            "setupEdit": false,
             "setupVisible": false
           },
           "sections": {
@@ -22635,14 +22635,14 @@
               "original": "Resolution",
               "singular": "Resolución",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": false
             },
             "sec1": {
               "original": "Resolution Type Details",
               "singular": "Detalles del tipo de resolución",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": false
             }
           },
@@ -22652,42 +22652,42 @@
               "original": "Name",
               "singular": "Nombre",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": false
             },
             "label": {
               "original": "Label",
               "singular": "Etiqueta",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": false
             },
             "code": {
               "original": "Code",
               "singular": "Código",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": false
             },
             "order": {
               "original": "Order",
               "singular": "Orden",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": false
             },
             "status": {
               "original": "Status",
               "singular": "Estado",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": false
             },
             "default": {
               "original": "Default",
               "singular": "Predeterminado",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": false
             }
           },
@@ -22701,7 +22701,7 @@
             "original": "System",
             "singular": "Sistema",
             "plural": "Sistemas",
-            "setupEdit": true,
+            "setupEdit": false,
             "setupVisible": false
           },
           "sections": {
@@ -22710,14 +22710,14 @@
               "original": "System",
               "singular": "Sistema",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": false
             },
             "sec1": {
               "original": "System Details",
               "singular": "Detalles del sistema",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": false
             }
           },
@@ -22727,35 +22727,35 @@
               "original": "Label",
               "singular": "Etiqueta",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": false
             },
             "order": {
               "original": "Order",
               "singular": "Orden",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": false
             },
             "status": {
               "original": "Status",
               "singular": "Estado",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": false
             },
             "code": {
               "original": "Code",
               "singular": "Código",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": false
             },
             "default": {
               "original": "Default",
               "singular": "Predeterminado",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": false
             }
           },
@@ -22770,7 +22770,7 @@
             "original": "Family",
             "singular": "Familia",
             "plural": "Familias",
-            "setupEdit": true,
+            "setupEdit": false,
             "setupVisible": false
           },
           "sections": {
@@ -22779,7 +22779,7 @@
               "original": "Family Details",
               "singular": "Detalles de la familia",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": false
             }
           },
@@ -22789,42 +22789,42 @@
               "original": "Name",
               "singular": "Nombre",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": false
             },
             "label": {
               "original": "Label",
               "singular": "Etiqueta",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": false
             },
             "order": {
               "original": "Order",
               "singular": "Orden",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": false
             },
             "status": {
               "original": "Status",
               "singular": "Estado",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": false
             },
             "code": {
               "original": "Code",
               "singular": "Código",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": false
             },
             "default": {
               "original": "Default",
               "singular": "Predeterminado",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": false
             }
           }
@@ -22835,7 +22835,7 @@
             "original": "Unit of Measurement",
             "singular": "Unidad de Medida",
             "plural": "Unidades de Medida",
-            "setupEdit": true,
+            "setupEdit": false,
             "setupVisible": false
           },
           "sections": {
@@ -22844,7 +22844,7 @@
               "original": "Unit Details",
               "singular": "Detalles de la Unidad",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": false
             }
           },
@@ -22854,42 +22854,42 @@
               "original": "Name",
               "singular": "Nombre",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": false
             },
             "label": {
               "original": "Label",
               "singular": "Etiqueta",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": false
             },
             "order": {
               "original": "Order",
               "singular": "Orden",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": false
             },
             "status": {
               "original": "Status",
               "singular": "Estado",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": false
             },
             "code": {
               "original": "Code",
               "singular": "Código",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": false
             },
             "default": {
               "original": "Default",
               "singular": "Predeterminado",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": false
             }
           }
