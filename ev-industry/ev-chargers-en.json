@@ -13288,8 +13288,8 @@
                     "setupVisible": false,
                     "label": {
                         "original": "Type",
-                        "singular": "Type",
-                        "plural": "Types",
+                        "singular": "Asset Class",
+                        "plural": "Asset Classes",
                         "setupEdit": false,
                         "setupVisible": false
                     },
@@ -13298,21 +13298,21 @@
                         "setupVisible": false,
                         "sec0": {
                             "original": "Type Details",
-                            "singular": "Type Details",
+                            "singular": "Asset Class Details",
                             "plural": "",
                             "setupEdit": false,
                             "setupVisible": false
                         },
                         "sec1": {
                             "original": "Available Statuses for this Type",
-                            "singular": "Available Statuses for this Type",
+                            "singular": "Available Statuses for this Asset Class",
                             "plural": "",
                             "setupEdit": false,
                             "setupVisible": false
                         },
                         "sec2": {
                             "original": "Specify the statuses that apply to this Job Order Type. Those in the right hand box will be displayed in the status picklist when this Job Order Type is selected",
-                            "singular": "Specify the statuses that apply to this Job Order Type. Those in the right hand box will be displayed in the status picklist when this Job Order Type is selected",
+                            "singular": "Specify the statuses that apply to this Work Order Asset Class. Those in the right hand box will be displayed in the status picklist when this Work Order Asset Class is selected",
                             "plural": "",
                             "setupEdit": false,
                             "setupVisible": false
@@ -13372,14 +13372,14 @@
                         }
                     },
                     "messages": {
-                        "describeType": "Describe the types of",
+                        "describeType": "Describe the classes of",
                         "youReceive": "you receive",
                         "youHave": "you have",
                         "raisedToTeam": "raised to your team",
-                        "availableStatus": "Available Statuses for this Type",
-                        "specifyStatusJobOrder": "Specify the statuses that apply to this Job Order Type. Those in the right hand box will be displayed in the status picklist when this Job Order Type is selected",
-                        "notForThisJobType": "Not for this Job Order Type",
-                        "forThisJobType": "For this Job Order Type"
+                        "availableStatus": "Available Statuses for this Asset Class",
+                        "specifyStatusJobOrder": "Specify the statuses that apply to this Work Order Asset Class. Those in the right hand box will be displayed in the status picklist when this Work Order Asset Class is selected",
+                        "notForThisJobType": "Not for this Work Order Asset Class",
+                        "forThisJobType": "For this Work Order Asset Class"
                     }
                 },
                 "category": {
@@ -13387,8 +13387,8 @@
                     "setupVisible": false,
                     "label": {
                         "original": "Category",
-                        "singular": "Category",
-                        "plural": "Categories",
+                        "singular": "Power Rating",
+                        "plural": "Power Ratings",
                         "setupEdit": false,
                         "setupVisible": false
                     },
@@ -13397,7 +13397,7 @@
                         "setupVisible": false,
                         "sec0": {
                             "original": "Category Details",
-                            "singular": "Category Details",
+                            "singular": "Power Rating Details",
                             "plural": "",
                             "setupEdit": false,
                             "setupVisible": false
@@ -13459,8 +13459,8 @@
                     "setupVisible": false,
                     "label": {
                         "original": "Sub Category",
-                        "singular": "Sub Category",
-                        "plural": "Sub Categories",
+                        "singular": "Connector Type",
+                        "plural": "Connector Type",
                         "setupEdit": false,
                         "setupVisible": false
                     },
@@ -13469,7 +13469,7 @@
                         "setupVisible": false,
                         "sec0": {
                             "original": "Sub Category Details",
-                            "singular": "Sub Category Details",
+                            "singular": "Connector Type Details",
                             "plural": "",
                             "setupEdit": false,
                             "setupVisible": false
@@ -13529,7 +13529,7 @@
                         }
                     },
                     "messages": {
-                        "divisionCategory": "The divisions you have within each category"
+                        "divisionCategory": "The divisions you have within each power rating"
                     }
                 }
             },
@@ -13541,8 +13541,8 @@
                     "setupVisible": false,
                     "label": {
                         "original": "Type",
-                        "singular": "Type",
-                        "plural": "Types",
+                        "singular": "SLA Tier",
+                        "plural": "SLA Tiers",
                         "setupEdit": false,
                         "setupVisible": false
                     },
@@ -13551,21 +13551,21 @@
                         "setupVisible": false,
                         "sec0": {
                             "original": "Type Details",
-                            "singular": "Type Details",
+                            "singular": "SLA Tier Details",
                             "plural": "",
                             "setupEdit": false,
                             "setupVisible": false
                         },
                         "sec1": {
                             "original": "Available Statuses for this Type",
-                            "singular": "Available Statuses for this Type",
+                            "singular": "Available Statuses for this SLA Tier",
                             "plural": "",
                             "setupEdit": false,
                             "setupVisible": false
                         },
                         "sec2": {
                             "original": "Specify the statuses that apply to this Job Order Type. Those in the right hand box will be displayed in the status picklist when this Job Order Type is selected",
-                            "singular": "Specify the statuses that apply to this Job Order Type. Those in the right hand box will be displayed in the status picklist when this Job Order Type is selected",
+                            "singular": "Specify the statuses that apply to this Work Order SLA Tier. Those in the right hand box will be displayed in the status picklist when this Work Order SLA Tier is selected",
                             "plural": "",
                             "setupEdit": false,
                             "setupVisible": false
@@ -13625,14 +13625,14 @@
                         }
                     },
                     "messages": {
-                        "describeType": "Describe the types of",
+                        "describeType": "Describe the SLA Tier of",
                         "youReceive": "you receive",
                         "youHave": "you have",
                         "raisedToTeam": "raised to your team",
-                        "availableStatus": "Available Statuses for this Type",
-                        "specifyStatusJobOrder": "Specify the statuses that apply to this Job Order Type. Those in the right hand box will be displayed in the status picklist when this Job Order Type is selected",
-                        "notForThisJobType": "Not for this Job Order Type",
-                        "forThisJobType": "For this Job Order Type"
+                        "availableStatus": "Available Statuses for this SLA Tier",
+                        "specifyStatusJobOrder": "Specify the statuses that apply to this Work Order SLA Tier. Those in the right hand box will be displayed in the status picklist when this Work Order SLA Tier is selected",
+                        "notForThisJobType": "Not for this Work Order SLA Tier",
+                        "forThisJobType": "For this Work Order SLA Tier"
                     }
                 },
                 "category": {
@@ -13640,8 +13640,8 @@
                     "setupVisible": false,
                     "label": {
                         "original": "Category",
-                        "singular": "Category",
-                        "plural": "Categories",
+                        "singular": "Ownership Model",
+                        "plural": "Ownership Models",
                         "setupEdit": false,
                         "setupVisible": false
                     },
@@ -13650,7 +13650,7 @@
                         "setupVisible": false,
                         "sec0": {
                             "original": "Category Details",
-                            "singular": "Category Details",
+                            "singular": "Ownership Model Details",
                             "plural": "",
                             "setupEdit": false,
                             "setupVisible": false
@@ -13704,7 +13704,7 @@
                     },
                     "messages": {
                         "differentWays": "The different ways your",
-                        "categorized": "categorized"
+                        "categorized": "tiered"
                     }
                 },
                 "sector": {
@@ -13712,8 +13712,8 @@
                     "setupVisible": false,
                     "label": {
                         "original": "Sector",
-                        "singular": "Sector",
-                        "plural": "Sector",
+                        "singular": "Market Vertical",
+                        "plural": "Market Vertical",
                         "setupEdit": false,
                         "setupVisible": false
                     },
@@ -13722,7 +13722,7 @@
                         "setupVisible": false,
                         "sec0": {
                             "original": "Sector Details",
-                            "singular": "Sector Details",
+                            "singular": "Market Vertical Details",
                             "plural": "",
                             "setupEdit": false,
                             "setupVisible": false
@@ -13775,7 +13775,7 @@
                         }
                     },
                     "messages": {
-                        "broadCategoryIndustry": "The broad category or industry in which a",
+                        "broadCategoryIndustry": "The broad model or industry in which a",
                         "operates": "operates"
                     }
                 },
@@ -13784,8 +13784,8 @@
                     "setupVisible": false,
                     "label": {
                         "original": "Sub-sector",
-                        "singular": "Sub-sector",
-                        "plural": "Sub-sectors",
+                        "singular": "Facility Classification",
+                        "plural": "Facility Classification",
                         "setupEdit": false,
                         "setupVisible": false
                     },
@@ -13794,7 +13794,7 @@
                         "setupVisible": false,
                         "sec0": {
                             "original": "Sub-sector Details",
-                            "singular": "Sub-sector Details",
+                            "singular": "Facility Classification Details",
                             "plural": "",
                             "setupEdit": false,
                             "setupVisible": false
@@ -13854,7 +13854,7 @@
                         }
                     },
                     "messages": {
-                        "aMoreSpecificSubCategory": "A more specific sub-category within the"
+                        "aMoreSpecificSubCategory": "A more specific facility classification within the"
                     }
                 }
             },
@@ -13945,8 +13945,8 @@
                     "setupVisible": false,
                     "label": {
                         "original": "Fault",
-                        "singular": "Fault",
-                        "plural": "Faults",
+                        "singular": "Failure Code",
+                        "plural": "Failure Code",
                         "setupEdit": false,
                         "setupVisible": false
                     },
@@ -13955,14 +13955,14 @@
                         "setupVisible": false,
                         "sec0": {
                             "original": "Fault Type",
-                            "singular": "Fault Type",
+                            "singular": "Failure Code Type",
                             "plural": "",
                             "setupEdit": false,
                             "setupVisible": false
                         },
                         "sec1": {
                             "original": "Fault Type Details",
-                            "singular": "Fault Type Details",
+                            "singular": "Failure Code Type Details",
                             "plural": "",
                             "setupEdit": false,
                             "setupVisible": false
@@ -14022,7 +14022,7 @@
                         }
                     },
                     "messages": {
-                        "commonFaultsRaised": "The list of most common faults raised"
+                        "commonFaultsRaised": "The list of most common failure code raised"
                     }
                 },
                 "resolution": {
@@ -14115,8 +14115,8 @@
                     "setupVisible": false,
                     "label": {
                         "original": "System",
-                        "singular": "System",
-                        "plural": "Systems",
+                        "singular": "Affected Subsystem",
+                        "plural": "Affected Subsystems",
                         "setupEdit": false,
                         "setupVisible": false
                     },
@@ -14125,7 +14125,7 @@
                         "setupVisible": false,
                         "sec0": {
                             "original": "System Details",
-                            "singular": "System Details",
+                            "singular": "Affected Subsystem Details",
                             "plural": "",
                             "setupEdit": false,
                             "setupVisible": false
@@ -14178,7 +14178,7 @@
                         }
                     },
                     "messages": {
-                        "differentSystem": "The different systems by which your",
+                        "differentSystem": "The different affected subsystem by which your",
                         "areCategorized": "are categorized"
                     }
                 }
@@ -14191,8 +14191,8 @@
                     "setupVisible": false,
                     "label": {
                         "original": "Type",
-                        "singular": "Type",
-                        "plural": "Types",
+                        "singular": "Logistics Class",
+                        "plural": "Logistics Class",
                         "setupEdit": false,
                         "setupVisible": false
                     },
@@ -14201,21 +14201,21 @@
                         "setupVisible": false,
                         "sec0": {
                             "original": "Type Details",
-                            "singular": "Type Details",
+                            "singular": "Logistics Class Details",
                             "plural": "",
                             "setupEdit": false,
                             "setupVisible": false
                         },
                         "sec1": {
                             "original": "Available Statuses for this Type",
-                            "singular": "Available Statuses for this Type",
+                            "singular": "Available Statuses for this Logistics Class",
                             "plural": "",
                             "setupEdit": false,
                             "setupVisible": false
                         },
                         "sec2": {
                             "original": "Specify the statuses that apply to this Job Order Type. Those in the right hand box will be displayed in the status picklist when this Job Order Type is selected",
-                            "singular": "Specify the statuses that apply to this Job Order Type. Those in the right hand box will be displayed in the status picklist when this Job Order Type is selected",
+                            "singular": "Specify the statuses that apply to this Work Order Logistics Class. Those in the right hand box will be displayed in the status picklist when this Work Order Logistics Class is selected",
                             "plural": "",
                             "setupEdit": false,
                             "setupVisible": false
@@ -14275,14 +14275,14 @@
                         }
                     },
                     "messages": {
-                        "describeType": "Describe the types of",
+                        "describeType": "Describe the logistics class of",
                         "youReceive": "you receive",
                         "youHave": "you have",
                         "raisedToTeam": "raised to your team",
-                        "availableStatus": "Available Statuses for this Type",
-                        "specifyStatusJobOrder": "Specify the statuses that apply to this Job Order Type. Those in the right hand box will be displayed in the status picklist when this Job Order Type is selected",
-                        "notForThisJobType": "Not for this Job Order Type",
-                        "forThisJobType": "For this Job Order Type"
+                        "availableStatus": "Available Statuses for this Logistics Class",
+                        "specifyStatusJobOrder": "Specify the statuses that apply to this Work Order Logistics Class. Those in the right hand box will be displayed in the status picklist when this Work Order Logistics Class is selected",
+                        "notForThisJobType": "Not for this Work Order Logistics Class",
+                        "forThisJobType": "For this Work Order Logistics Class"
                     }
                 },
                 "family": {
@@ -14290,8 +14290,8 @@
                     "setupVisible": false,
                     "label": {
                         "original": "Family",
-                        "singular": "Family",
-                        "plural": "Family",
+                        "singular": "Commodity Group",
+                        "plural": "Commodity Group",
                         "setupEdit": false,
                         "setupVisible": false
                     },
@@ -14300,7 +14300,7 @@
                         "setupVisible": false,
                         "sec0": {
                             "original": "Family Details",
-                            "singular": "Family Details",
+                            "singular": "Commodity Group Details",
                             "plural": "",
                             "setupEdit": false,
                             "setupVisible": false
@@ -14444,8 +14444,8 @@
                     "setupVisible": false,
                     "label": {
                         "original": "Type",
-                        "singular": "Type",
-                        "plural": "Types",
+                        "singular": "Deployment Class",
+                        "plural": "Deployment Class",
                         "setupEdit": false,
                         "setupVisible": false
                     },
@@ -14454,21 +14454,21 @@
                         "setupVisible": false,
                         "sec0": {
                             "original": "Type Details",
-                            "singular": "Type Details",
+                            "singular": "Deployment Class Details",
                             "plural": "",
                             "setupEdit": false,
                             "setupVisible": false
                         },
                         "sec1": {
                             "original": "Available Statuses for this Type",
-                            "singular": "Available Statuses for this Type",
+                            "singular": "Available Statuses for this Deployment Class",
                             "plural": "",
                             "setupEdit": false,
                             "setupVisible": false
                         },
                         "sec2": {
                             "original": "Specify the statuses that apply to this Job Order Type. Those in the right hand box will be displayed in the status picklist when this Job Order Type is selected",
-                            "singular": "Specify the statuses that apply to this Job Order Type. Those in the right hand box will be displayed in the status picklist when this Job Order Type is selected",
+                            "singular": "Specify the statuses that apply to this Work Order Deployment Class. Those in the right hand box will be displayed in the status picklist when this Work Order Deployment Class is selected",
                             "plural": "",
                             "setupEdit": false,
                             "setupVisible": false
@@ -14528,14 +14528,14 @@
                         }
                     },
                     "messages": {
-                        "describeType": "Describe the types of",
+                        "describeType": "Describe the deployment class of",
                         "youReceive": "you receive",
                         "youHave": "you have",
                         "raisedToTeam": "raised to your team",
-                        "availableStatus": "Available Statuses for this Type",
-                        "specifyStatusJobOrder": "Specify the statuses that apply to this Job Order Type. Those in the right hand box will be displayed in the status picklist when this Job Order Type is selected",
-                        "notForThisJobType": "Not for this Job Order Type",
-                        "forThisJobType": "For this Job Order Type"
+                        "availableStatus": "Available Statuses for this Deployment Class",
+                        "specifyStatusJobOrder": "Specify the statuses that apply to this Work Order Deployment Class. Those in the right hand box will be displayed in the status picklist when this Work Order Deployment Class is selected",
+                        "notForThisJobType": "Not for this Work Order Deployment Class",
+                        "forThisJobType": "For this Work Order Deployment Class"
                     }
                 },
                 "category": {
@@ -14543,8 +14543,8 @@
                     "setupVisible": false,
                     "label": {
                         "original": "Category",
-                        "singular": "Category",
-                        "plural": "Categories",
+                        "singular": "Construction Scope",
+                        "plural": "Construction Scope",
                         "setupEdit": false,
                         "setupVisible": false
                     },
@@ -14553,7 +14553,7 @@
                         "setupVisible": false,
                         "sec0": {
                             "original": "Category Details",
-                            "singular": "Category Details",
+                            "singular": "Construction Scope Details",
                             "plural": "",
                             "setupEdit": false,
                             "setupVisible": false
@@ -14607,7 +14607,7 @@
                     },
                     "messages": {
                         "differentWays": "The different ways your",
-                        "categorized": "categorized"
+                        "categorized": "scoped"
                     }
                 }
             },
@@ -14873,8 +14873,8 @@
                     "setupVisible": false,
                     "label": {
                         "original": "Type",
-                        "singular": "Type",
-                        "plural": "Types",
+                        "singular": "Electrical Topology",
+                        "plural": "Electrical Topology",
                         "setupEdit": false,
                         "setupVisible": false
                     },
@@ -14883,21 +14883,21 @@
                         "setupVisible": false,
                         "sec0": {
                             "original": "Type Details",
-                            "singular": "Type Details",
+                            "singular": "Electrical Topology Details",
                             "plural": "",
                             "setupEdit": false,
                             "setupVisible": false
                         },
                         "sec1": {
                             "original": "Available Statuses for this Type",
-                            "singular": "Available Statuses for this Type",
+                            "singular": "Available Statuses for this Electrical Topology",
                             "plural": "",
                             "setupEdit": false,
                             "setupVisible": false
                         },
                         "sec2": {
                             "original": "Specify the statuses that apply to this Job Order Type. Those in the right hand box will be displayed in the status picklist when this Job Order Type is selected",
-                            "singular": "Specify the statuses that apply to this Job Order Type. Those in the right hand box will be displayed in the status picklist when this Job Order Type is selected",
+                            "singular": "Specify the statuses that apply to this Work Order Topology. Those in the right hand box will be displayed in the status picklist when this Work Order Topology is selected",
                             "plural": "",
                             "setupEdit": false,
                             "setupVisible": false
@@ -14957,14 +14957,14 @@
                         }
                     },
                     "messages": {
-                        "describeType": "Describe the types of",
+                        "describeType": "Describe the Electrical Topology of",
                         "youReceive": "you receive",
                         "youHave": "you have",
                         "raisedToTeam": "raised to your team",
-                        "availableStatus": "Available Statuses for this Type",
-                        "specifyStatusJobOrder": "Specify the statuses that apply to this Job Order Type. Those in the right hand box will be displayed in the status picklist when this Job Order Type is selected",
-                        "notForThisJobType": "Not for this Job Order Type",
-                        "forThisJobType": "For this Job Order Type"
+                        "availableStatus": "Available Statuses for this Electrical Topology",
+                        "specifyStatusJobOrder": "Specify the statuses that apply to this Work Order Topology. Those in the right hand box will be displayed in the status picklist when this Work Order Topology is selected",
+                        "notForThisJobType": "Not for this Work Order Topology",
+                        "forThisJobType": "For this Work Order Topology"
                     }
                 },
                 "category": {
@@ -14972,8 +14972,8 @@
                     "setupVisible": false,
                     "label": {
                         "original": "Category",
-                        "singular": "Category",
-                        "plural": "Categories",
+                        "singular": "Site Classification",
+                        "plural": "Site Classifications",
                         "setupEdit": false,
                         "setupVisible": false
                     },
@@ -14982,7 +14982,7 @@
                         "setupVisible": false,
                         "sec0": {
                             "original": "Category Details",
-                            "singular": "Category Details",
+                            "singular": "Site Classification Details",
                             "plural": "",
                             "setupEdit": false,
                             "setupVisible": false
@@ -15036,7 +15036,7 @@
                     },
                     "messages": {
                         "differentWays": "The different ways your",
-                        "categorized": "categorized"
+                        "categorized": "classified"
                     }
                 },
                 "subCategory": {
@@ -15044,8 +15044,8 @@
                     "setupVisible": false,
                     "label": {
                         "original": "Sub Category",
-                        "singular": "Sub Category",
-                        "plural": "Sub Categories",
+                        "singular": "Physical Environment",
+                        "plural": "Physical Environment",
                         "setupEdit": false,
                         "setupVisible": false
                     },
@@ -15054,7 +15054,7 @@
                         "setupVisible": false,
                         "sec0": {
                             "original": "Sub Category Details",
-                            "singular": "Sub Category Details",
+                            "singular": "Physical Environment Details",
                             "plural": "",
                             "setupEdit": false,
                             "setupVisible": false
@@ -15114,7 +15114,7 @@
                         }
                     },
                     "messages": {
-                        "divisionCategory": "The divisions you have within each category"
+                        "divisionCategory": "The divisions you have within each classification"
                     }
                 },
                 "area": {
@@ -15122,8 +15122,8 @@
                     "setupVisible": false,
                     "label": {
                         "original": "Area",
-                        "singular": "Area",
-                        "plural": "Areas",
+                        "singular": "DNO",
+                        "plural": "DNO",
                         "setupEdit": false,
                         "setupVisible": false
                     },
@@ -15132,7 +15132,7 @@
                         "setupVisible": false,
                         "sec0": {
                             "original": "Area Details",
-                            "singular": "Area Details",
+                            "singular": "DNO Details",
                             "plural": "",
                             "setupEdit": false,
                             "setupVisible": false
@@ -15185,7 +15185,7 @@
                         }
                     },
                     "messages": {
-                        "yourListOf": "Your list of areas your",
+                        "yourListOf": "Your list of DNOs your",
                         "resideIn": "reside in"
                     }
                 }
