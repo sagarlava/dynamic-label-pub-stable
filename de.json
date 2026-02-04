@@ -20476,6 +20476,105 @@
               "differentSystem": "Die verschiedenen Systeme, durch die Ihre",
               "areCategorized": "kategorisiert werden"
             }
+          },
+            "type": {
+            "setupEdit": false,
+            "setupVisible": false,
+            "label": {
+              "original": "Type",
+              "singular": "Typ",
+            "plural": "Typen",
+              "setupEdit": false,
+              "setupVisible": false
+            },
+            "sections": {
+              "setupEdit": false,
+              "setupVisible": false,
+              "sec0": {
+                "original": "Type Details",
+                "singular": "Typdetails",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+              },
+              "sec1": {
+                "original": "Available Statuses for this Type",
+              "singular": "Verfügbare Status für diesen Typ",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+              },
+              "sec2": {
+                "original": "Specify the statuses that apply to this Job Order Type. Those in the right hand box will be displayed in the status picklist when this Job Order Type is selected",
+                "singular": "Geben Sie die Status an, die für diesen Auftragsart gelten. Diejenigen im rechten Feld werden in der Statusauswahlliste angezeigt, wenn dieser Auftragsart ausgewählt wird",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+              },
+              "sec3": {
+                "original": "Details",
+                "singular": "Details",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+              }
+            },
+            "fields": {
+              "setupEdit": false,
+              "setupVisible": false,
+              "label": {
+                "original": "Label",
+                "singular": "Bezeichnung",
+                "plural": "Bezeichnungen",
+                "setupEdit": false,
+                "setupVisible": false
+              },
+              "description": {
+                "original": "Description",
+                "singular": "Beschreibung",
+                "plural": "Beschreibungen",
+                "setupEdit": false,
+                "setupVisible": false
+              },
+              "code": {
+                "original": "Code",
+                "singular": "Code",
+                "plural": "Codes",
+                "setupEdit": false,
+                "setupVisible": false
+              },
+              "order": {
+                "original": "Order",
+                "singular": "Reihenfolge",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+              },
+              "status": {
+                "original": "Status",
+                "singular": "Status",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+              },
+              "default": {
+                "original": "Default",
+                "singular": "Standard",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+              }
+            },
+            "messages": {
+              "describeType": "Beschreiben Sie die Typen von",
+              "youReceive": "die Sie erhalten",
+              "youHave": "die Sie haben",
+              "raisedToTeam": "an Ihr Team übermittelt",
+              "availableStatus": "Verfügbare Status für diesen Typ",
+              "specifyStatusJobOrder": "Geben Sie die Status an, die für diesen Auftragsart gelten. Diejenigen im rechten Feld werden in der Statusauswahlliste angezeigt, wenn dieser Auftragsart ausgewählt wird",
+              "notForThisJobType": "Nicht für diesen Auftragsart",
+              "forThisJobType": "Für diesen Auftragsart"
+            }
           }
         },
         "product": {

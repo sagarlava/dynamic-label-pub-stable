@@ -20476,6 +20476,105 @@
               "differentSystem": "不同的系统，通过这些系统",
               "areCategorized": "被分类"
             }
+          },
+          "type": {
+            "setupEdit": false,
+            "setupVisible": false,
+            "label": {
+              "original": "Type",
+              "singular": "类型",
+            "plural": "类型",
+              "setupEdit": false,
+              "setupVisible": false
+            },
+            "sections": {
+              "setupEdit": false,
+              "setupVisible": false,
+              "sec0": {
+                "original": "Type Details",
+                "singular": "类型详情",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+              },
+              "sec1": {
+                "original": "Available Statuses for this Type",
+                "singular": "此类型的可用状态",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+              },
+              "sec2": {
+                "original": "Specify the statuses that apply to this Job Order Type. Those in the right hand box will be displayed in the status picklist when this Job Order Type is selected",
+                "singular": "指定适用于此工作订单类型的状态。右侧框中的状态将在选择此工作订单类型时显示在状态选择列表中",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+              },
+              "sec3": {
+                "original": "Details",
+                "singular": "详情",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+              }
+            },
+            "fields": {
+              "setupEdit": false,
+              "setupVisible": false,
+              "label": {
+                "original": "Label",
+                "singular": "标签",
+                "plural": "标签",
+                "setupEdit": false,
+                "setupVisible": false
+              },
+              "description": {
+                "original": "Description",
+                "singular": "描述",
+                "plural": "描述",
+                "setupEdit": false,
+                "setupVisible": false
+              },
+              "code": {
+                "original": "Code",
+                "singular": "代码",
+                "plural": "代码",
+                "setupEdit": false,
+                "setupVisible": false
+              },
+              "order": {
+                "original": "Order",
+                "singular": "顺序",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+              },
+              "status": {
+                "original": "Status",
+                "singular": "状态",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+              },
+              "default": {
+                "original": "Default",
+                "singular": "默认",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+              }
+            },
+            "messages": {
+              "describeType": "描述类型",
+              "youReceive": "你收到的",
+              "youHave": "你有",
+              "raisedToTeam": "提升到您的团队",
+              "availableStatus": "此类型的可用状态",
+              "specifyStatusJobOrder": "指定适用于此工作订单类型的状态。右侧框中的状态将在选择此工作订单类型时显示在状态选择列表中",
+              "notForThisJobType": "不适用于此工作订单类型",
+              "forThisJobType": "适用于此工作订单类型"
+            }
           }
         },
         "product": {

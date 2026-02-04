@@ -20476,6 +20476,105 @@
               "differentSystem": "Los diferentes sistemas por los cuales tu",
               "areCategorized": "están categorizados"
             }
+          },
+          "type": {
+            "setupEdit": false,
+            "setupVisible": false,
+            "label": {
+              "original": "Type",
+              "singular": "Tipo",
+            "plural": "Tipos",
+              "setupEdit": false,
+              "setupVisible": false
+            },
+            "sections": {
+              "setupEdit": false,
+              "setupVisible": false,
+              "sec0": {
+                "original": "Type Details",
+                "singular": "Detalles del tipo",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+              },
+              "sec1": {
+                "original": "Available Statuses for this Type",
+                "singular": "Estados disponibles para este tipo",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+              },
+              "sec2": {
+                "original": "Specify the statuses that apply to this Job Order Type. Those in the right hand box will be displayed in the status picklist when this Job Order Type is selected",
+                "singular": "Especifique los estados que se aplican a este tipo de orden de trabajo. Los de la caja de la derecha se mostrarán en la lista de selección de estado cuando se seleccione este tipo de orden de trabajo.",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+              },
+              "sec3": {
+                "original": "Details",
+                "singular": "Detalles",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+              }
+            },
+            "fields": {
+              "setupEdit": false,
+              "setupVisible": false,
+              "label": {
+                "original": "Label",
+                "singular": "Etiqueta",
+                "plural": "Etiquetas",
+                "setupEdit": false,
+                "setupVisible": false
+              },
+              "description": {
+                "original": "Description",
+                "singular": "Descripción",
+                "plural": "Descripciones",
+                "setupEdit": false,
+                "setupVisible": false
+              },
+              "code": {
+                "original": "Code",
+                "singular": "Código",
+                "plural": "Códigos",
+                "setupEdit": false,
+                "setupVisible": false
+              },
+              "order": {
+                "original": "Order",
+                "singular": "Orden",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+              },
+              "status": {
+                "original": "Status",
+                "singular": "Estado",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+              },
+              "default": {
+                "original": "Default",
+                "singular": "Predeterminado",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+              }
+            },
+            "messages": {
+              "describeType": "Describa los tipos de",
+              "youReceive": "que recibe",
+              "youHave": "que tiene",
+              "raisedToTeam": "elevado a su equipo",
+              "availableStatus": "Estados disponibles para este tipo",
+              "specifyStatusJobOrder": "Especifique los estados que se aplican a este tipo de orden de trabajo. Los de la caja de la derecha se mostrarán en la lista de selección de estado cuando se seleccione este tipo de orden de trabajo.",
+              "notForThisJobType": "No para este tipo de orden de trabajo",
+              "forThisJobType": "Para este tipo de orden de trabajo"
+            }
           }
         },
         "product": {

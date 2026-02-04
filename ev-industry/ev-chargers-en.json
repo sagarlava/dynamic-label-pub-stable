@@ -14181,6 +14181,105 @@
                         "differentSystem": "The different affected subsystem by which your",
                         "areCategorized": "are categorized"
                     }
+                },
+                 "type": {
+                    "setupEdit": false,
+                    "setupVisible": false,
+                    "label": {
+                        "original": "Type",
+                        "singular": "Logistics Class",
+                        "plural": "Logistics Class",
+                        "setupEdit": false,
+                        "setupVisible": false
+                    },
+                    "sections": {
+                        "setupEdit": false,
+                        "setupVisible": false,
+                        "sec0": {
+                            "original": "Type Details",
+                            "singular": "Logistics Class Details",
+                            "plural": "",
+                            "setupEdit": false,
+                            "setupVisible": false
+                        },
+                        "sec1": {
+                            "original": "Available Statuses for this Type",
+                            "singular": "Available Statuses for this Logistics Class",
+                            "plural": "",
+                            "setupEdit": false,
+                            "setupVisible": false
+                        },
+                        "sec2": {
+                            "original": "Specify the statuses that apply to this Job Order Type. Those in the right hand box will be displayed in the status picklist when this Job Order Type is selected",
+                            "singular": "Specify the statuses that apply to this Work Order Logistics Class. Those in the right hand box will be displayed in the status picklist when this Work Order Logistics Class is selected",
+                            "plural": "",
+                            "setupEdit": false,
+                            "setupVisible": false
+                        },
+                        "sec3": {
+                            "original": "Details",
+                            "singular": "Details",
+                            "plural": "",
+                            "setupEdit": false,
+                            "setupVisible": false
+                        }
+                    },
+                    "fields": {
+                        "setupEdit": false,
+                        "setupVisible": false,
+                        "label": {
+                            "original": "Label",
+                            "singular": "Label",
+                            "plural": "Labels",
+                            "setupEdit": false,
+                            "setupVisible": false
+                        },
+                        "description": {
+                            "original": "Description",
+                            "singular": "Description",
+                            "plural": "Descriptions",
+                            "setupEdit": false,
+                            "setupVisible": false
+                        },
+                        "code": {
+                            "original": "Code",
+                            "singular": "Code",
+                            "plural": "Codes",
+                            "setupEdit": false,
+                            "setupVisible": false
+                        },
+                        "order": {
+                            "original": "Order",
+                            "singular": "Order",
+                            "plural": "",
+                            "setupEdit": false,
+                            "setupVisible": false
+                        },
+                        "status": {
+                            "original": "Status",
+                            "singular": "Status",
+                            "plural": "",
+                            "setupEdit": false,
+                            "setupVisible": false
+                        },
+                        "default": {
+                            "original": "Default",
+                            "singular": "Default",
+                            "plural": "",
+                            "setupEdit": false,
+                            "setupVisible": false
+                        }
+                    },
+                    "messages": {
+                        "describeType": "Describe the logistics class of",
+                        "youReceive": "you receive",
+                        "youHave": "you have",
+                        "raisedToTeam": "raised to your team",
+                        "availableStatus": "Available Statuses for this Logistics Class",
+                        "specifyStatusJobOrder": "Specify the statuses that apply to this Work Order Logistics Class. Those in the right hand box will be displayed in the status picklist when this Work Order Logistics Class is selected",
+                        "notForThisJobType": "Not for this Work Order Logistics Class",
+                        "forThisJobType": "For this Work Order Logistics Class"
+                    }
                 }
             },
             "product": {

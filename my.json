@@ -20080,8 +20080,8 @@
             "setupVisible": false,
             "label": {
               "original": "Sub-sector",
-              "singular": "Sub-sector",
-              "plural": "Sub-sectors",
+              "singular": "Sub-sektor",
+              "plural": "Sub-sektor",
               "setupEdit": false,
               "setupVisible": false
             },
@@ -20090,14 +20090,14 @@
               "setupVisible": false,
               "sec0": {
                 "original": "Sub-sector Details",
-                "singular": "Sub-sector Details",
+                "singular": "Butiran Sub-sektor",
                 "plural": "",
                 "setupEdit": false,
                 "setupVisible": false
               },
               "sec1": {
                 "original": "Details",
-                "singular": "Details",
+                "singular": "Butiran",
                 "plural": "",
                 "setupEdit": false,
                 "setupVisible": false
@@ -20476,6 +20476,105 @@
             "messages": {
               "differentSystem": "Sistem yang berbeza mengikut mana",
               "areCategorized": "dikategorikan"
+            }
+          }, 
+          "type": {
+            "setupEdit": false,
+            "setupVisible": false,
+            "label": {
+              "original": "Type",
+              "singular": "Jenis",
+              "plural": "Jenis",
+              "setupEdit": false,
+              "setupVisible": false
+            },
+            "sections": {
+              "setupEdit": false,
+              "setupVisible": false,
+              "sec0": {
+                "original": "Type Details",
+                "singular": "Butiran Jenis",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+              },
+              "sec1": {
+                "original": "Available Statuses for this Type",
+                "singular": "Status Tersedia untuk Jenis Ini",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+              },
+              "sec2": {
+                "original": "Specify the statuses that apply to this Job Order Type. Those in the right hand box will be displayed in the status picklist when this Job Order Type is selected",
+                "singular": "Nyatakan status yang digunakan untuk Jenis Pesanan Kerja ini. Status di sebelah kanan akan dipaparkan dalam senarai status apabila Jenis Pesanan Kerja ini dipilih",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+              },
+              "sec3": {
+                "original": "Details",
+                "singular": "Butiran",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+              }
+            },
+            "fields": {
+              "setupEdit": false,
+              "setupVisible": false,
+              "label": {
+                "original": "Label",
+                "singular": "Label",
+                "plural": "Label",
+                "setupEdit": false,
+                "setupVisible": false
+              },
+              "description": {
+                "original": "Description",
+                "singular": "Penerangan",
+                "plural": "Penerangan",
+                "setupEdit": false,
+                "setupVisible": false
+              },
+              "code": {
+                "original": "Code",
+                "singular": "Kod",
+                "plural": "Kod",
+                "setupEdit": false,
+                "setupVisible": false
+              },
+              "order": {
+                "original": "Order",
+                "singular": "Susunan",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+              },
+              "status": {
+                "original": "Status",
+                "singular": "Status",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+              },
+              "default": {
+                "original": "Default",
+                "singular": "Lalai",
+                "plural": "",
+                "setupEdit": false,
+                "setupVisible": false
+              }
+            },
+            "messages": {
+              "describeType": "Terangkan jenis",
+              "youReceive": "yang anda terima",
+              "youHave": "yang anda miliki",
+              "raisedToTeam": "dikemukakan kepada pasukan anda",
+              "availableStatus": "Status Tersedia untuk Jenis Ini",
+              "specifyStatusJobOrder": "Nyatakan status yang digunakan untuk Jenis Pesanan Kerja ini. Status di sebelah kanan akan dipaparkan dalam senarai status apabila Jenis Pesanan Kerja ini dipilih",
+              "notForThisJobType": "Tidak untuk Jenis Pesanan Kerja ini",
+              "forThisJobType": "Untuk Jenis Pesanan Kerja ini"
             }
           }
         },
