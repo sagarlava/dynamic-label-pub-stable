@@ -827,14 +827,14 @@
         "fields": {
             "category": {
                 "original": "Category",
-                "singular": "Power Rating",
+                "singular": "Category",
                 "plural": "",
                 "setupEdit": true,
                 "setupVisible": true
             },
             "subCategory": {
                 "original": "Sub Category",
-                "singular": "Connector Type",
+                "singular": "Sub Category",
                 "plural": "",
                 "setupEdit": true,
                 "setupVisible": true
@@ -850,7 +850,7 @@
             },
             "equipmentNumber": {
                 "original": "Equipment Number",
-                "singular": "CPMS ID",
+                "singular": "Equipment Number",
                 "plural": "",
                 "setupEdit": true,
                 "setupVisible": true
@@ -1242,22 +1242,22 @@
             },
             "groupByParent": {
                 "original": "Group by Parent",
-                "singular": "Group by Upstream Power Source",
-                "plural": "Group by Upstream Power Source",
+                "singular": "Group by Parent",
+                "plural": "Group by Parent",
                 "setupEdit": false,
                 "setupVisible": false
             },
             "assetsByParent": {
                 "original": "Assets by Parent",
-                "singular": "Equipments by Upstream Power Source",
-                "plural": "Equipments by Upstream Power Source",
+                "singular": "Equipments by Parent",
+                "plural": "Equipments by Parent",
                 "setupEdit": false,
                 "setupVisible": false
             },
             "parent": {
                 "original": "Parent",
-                "singular": "Upstream Power Source",
-                "plural": "Upstream Power Source",
+                "singular": "Parent",
+                "plural": "Parents",
                 "setupEdit": false,
                 "setupVisible": false
             },
@@ -13387,8 +13387,8 @@
                     "setupVisible": false,
                     "label": {
                         "original": "Category",
-                        "singular": "Power Rating",
-                        "plural": "Power Ratings",
+                        "singular": "Category",
+                        "plural": "Categories",
                         "setupEdit": false,
                         "setupVisible": false
                     },
@@ -13397,7 +13397,7 @@
                         "setupVisible": false,
                         "sec0": {
                             "original": "Category Details",
-                            "singular": "Power Rating Details",
+                            "singular": "Category Details",
                             "plural": "",
                             "setupEdit": false,
                             "setupVisible": false
@@ -13459,8 +13459,8 @@
                     "setupVisible": false,
                     "label": {
                         "original": "Sub Category",
-                        "singular": "Connector Type",
-                        "plural": "Connector Type",
+                        "singular": "Sub Category",
+                        "plural": "Sub Categories",
                         "setupEdit": false,
                         "setupVisible": false
                     },
@@ -13469,7 +13469,7 @@
                         "setupVisible": false,
                         "sec0": {
                             "original": "Sub Category Details",
-                            "singular": "Connector Type Details",
+                            "singular": "Sub Category Details",
                             "plural": "",
                             "setupEdit": false,
                             "setupVisible": false
@@ -13529,7 +13529,7 @@
                         }
                     },
                     "messages": {
-                        "divisionCategory": "The divisions you have within each power rating"
+                        "divisionCategory": "The divisions you have within each category"
                     }
                 }
             },
