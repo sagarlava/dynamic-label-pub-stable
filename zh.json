@@ -27153,6 +27153,34 @@
               "plural": "",
               "setupEdit": true,
               "setupVisible": false
+            },
+            "enable":{
+              "original": "Enable",
+              "singular": "启用",
+              "plural": "启用",
+              "setupEdit": false,
+              "setupVisible": false
+            },
+            "disable":{
+              "original": "Disable",
+              "singular": "禁用",
+              "plural": "禁用",
+              "setupEdit": false,
+              "setupVisible": false
+            },
+            "activate":{
+              "original": "Activate",
+              "singular": "激活",
+              "plural": "激活",
+              "setupEdit": false,
+              "setupVisible": false
+            },
+            "deactivate":{
+              "original": "Deactivate",
+              "singular": "停用",
+              "plural": "停用",
+              "setupEdit": false,
+              "setupVisible": false
             }
           },
           "tooltips": {

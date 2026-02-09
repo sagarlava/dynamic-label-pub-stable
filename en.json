@@ -14457,6 +14457,41 @@
         "plural": "",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "filterBy": {
+        "original": "Filter by",
+        "singular": "Filter By",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "enable":{
+        "original": "Enable",
+        "singular": "Enable",
+        "plural": "Enable",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "disable":{
+        "original": "Disable",
+        "singular": "Disable",
+        "plural": "Disable",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "activate":{
+        "original": "Activate",
+        "singular": "Activate",
+        "plural": "Activate",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "deactivate":{
+        "original": "Deactivate",
+        "singular": "Deactivate",
+        "plural": "Deactivate",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "status": {

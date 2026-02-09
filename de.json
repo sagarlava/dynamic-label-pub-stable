@@ -27153,7 +27153,35 @@
               "plural": "",
               "setupEdit": true,
               "setupVisible": false
-            }
+            },
+            "enable":{
+              "original": "Enable",
+              "singular": "Aktivieren",
+              "plural": "Aktivieren",
+              "setupEdit": false,
+              "setupVisible": false
+            },
+            "disable":{
+              "original": "Disable",
+              "singular": "Deaktivieren",
+              "plural": "Deaktivieren",
+              "setupEdit": false,
+              "setupVisible": false
+            },
+            "activate":{
+              "original": "Activate",
+              "singular": "Aktivieren",
+              "plural": "Aktivieren",
+              "setupEdit": false,
+              "setupVisible": false
+            },
+            "deactivate":{
+              "original": "Deactivate",
+              "singular": "Deaktivieren",
+              "plural": "Deaktivieren",
+              "setupEdit": false,
+              "setupVisible": false
+            } 
           },
           "tooltips": {
             "setupVisible": false,
