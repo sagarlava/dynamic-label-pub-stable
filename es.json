@@ -26000,13 +26000,27 @@
             "setupVisible": false
           }
         },
+        "validationFE":{
+            "selectAtLeastOneScope":"Por favor, seleccione al menos un alcance",
+            "areYouSureChangeTo":"¿Está seguro de que desea cambiar el estado a"
+        },
          "messages": {
           "createClientApp": "Cree una aplicación cliente y defina los ámbitos para las integraciones.",
           "giveYourIntegrationApp": "Asigne un nombre a su aplicación de integración y defina la URL de devolución de llamada",
           "chooseThePermission": "Elija los permisos a los que puede acceder su integración. Mantenga los ámbitos al mínimo por seguridad.",
           "basicInformationRelated": "Información básica relacionada con su aplicación de integración.",
           "redirectUri": "Utilice el URI de redirección de su integración (p. ej., https://yourapp.com/oauth/callback)",
-          "selectedUser": "El usuario seleccionado será el creador y el modificador de los registros para fines de auditoría."
+          "selectedUser": "El usuario seleccionado será el creador y el modificador de los registros para fines de auditoría.",
+           "please":"Por favor",
+            "securely":"de forma segura",
+            "storeThe":"guarde el",
+            "thisIsThe":"Esta es la",
+            "only":"única",
+            "timeDisplayed":"vez que se mostrará",
+            "ifYouLose":"Si pierde el",
+            "youCanGenerateNew":"puede generar uno nuevo en cualquier momento",
+            "theCaps":"El",
+            "canBeViewed":"se puede ver en cualquier momento"
         }
       }
     },

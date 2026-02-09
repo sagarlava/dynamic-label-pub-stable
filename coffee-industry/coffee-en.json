@@ -22665,13 +22665,27 @@
               "setupVisible": false
             }
           },
+          "validationFE":{
+              "selectAtLeastOneScope":"Please select at least one scope",
+              "areYouSureChangeTo":"Are you sure you want to change status to"
+          },
           "messages":{
             "createClientApp":"Create a client app and define scopes for integrations.",
             "giveYourIntegrationApp":"Give your integration app a name and define the call back url",
             "chooseThePermission":"Choose the permissions your integration can access. Keep scopes minimal for security.",
             "basicInformationRelated":"Basic information related to your integration app.",
             "redirectUri":"Use your integration's redirect URI (e.g., https://yourapp.com/oauth/callback)",
-            "selectedUser":"Selected user will be the created by and modified by for the records for audits."
+            "selectedUser":"Selected user will be the created by and modified by for the records for audits.",
+             "please":"Please",
+            "securely":"securely",
+            "storeThe":"store the",
+            "thisIsThe":"This is the",
+            "only":"only",
+            "timeDisplayed":"time it will be displayed",
+            "ifYouLose":"If you lose the",
+            "youCanGenerateNew":"you can generate a new one at any time",
+            "theCaps":"The",
+            "canBeViewed":"can be viewed at any time"
           }
       }
     },

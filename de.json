@@ -26000,13 +26000,27 @@
             "setupVisible": false
           }
         },
+        "validationFE":{
+          "selectAtLeastOneScope":"Bitte wählen Sie mindestens einen Bereich aus",
+          "areYouSureChangeTo":"Möchten Sie den Status wirklich ändern in"
+        },
          "messages": {
           "createClientApp": "Erstellen Sie eine Client-App und definieren Sie Berechtigungsbereiche für Integrationen.",
           "giveYourIntegrationApp": "Geben Sie Ihrer Integrations-App einen Namen und definieren Sie die Callback-URL",
           "chooseThePermission": "Wählen Sie die Berechtigungen aus, auf die Ihre Integration zugreifen kann. Halten Sie die Bereiche aus Sicherheitsgründen minimal.",
           "basicInformationRelated": "Grundlegende Informationen zu Ihrer Integrations-App.",
           "redirectUri": "Verwenden Sie die Weiterleitungs-URI Ihrer Integration (z. B. https://yourapp.com/oauth/callback)",
-          "selectedUser": "Der ausgewählte Benutzer wird als Ersteller und Bearbeiter der Datensätze für Prüfzwecke verwendet."
+          "selectedUser": "Der ausgewählte Benutzer wird als Ersteller und Bearbeiter der Datensätze für Prüfzwecke verwendet.",
+           "please":"Bitte",
+            "securely":"sicher",
+            "storeThe":"speichern Sie den",
+            "thisIsThe":"Dies ist das",
+            "only":"einzige",
+            "timeDisplayed":"Mal, dass dies angezeigt wird",
+            "ifYouLose":"Wenn Sie den",
+            "youCanGenerateNew":"können Sie jederzeit ein neues generieren",
+            "theCaps":"Das",
+            "canBeViewed":"kann jederzeit eingesehen werden"
         }
       }
     },

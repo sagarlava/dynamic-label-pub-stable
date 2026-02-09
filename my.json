@@ -26000,13 +26000,27 @@
             "setupVisible": false
           }
         },
+        "validationFE":{
+          "selectAtLeastOneScope":"Sila pilih sekurang-kurangnya satu skop",
+          "areYouSureChangeTo":"Adakah anda pasti mahu menukar status kepada"
+        },
          "messages": {
           "createClientApp": "Cipta aplikasi klien dan tentukan skop untuk integrasi.",
           "giveYourIntegrationApp": "Berikan nama kepada aplikasi integrasi anda dan tentukan URL panggilan balik",
           "chooseThePermission": "Pilih kebenaran yang boleh diakses oleh integrasi anda. Kekalkan skop minimum demi keselamatan.",
           "basicInformationRelated": "Maklumat asas berkaitan aplikasi integrasi anda.",
           "redirectUri": "Gunakan URI ubah hala integrasi anda (cth., https://yourapp.com/oauth/callback)",
-          "selectedUser": "Pengguna yang dipilih akan menjadi pengguna yang mencipta dan mengubah suai rekod untuk tujuan audit."
+          "selectedUser": "Pengguna yang dipilih akan menjadi pengguna yang mencipta dan mengubah suai rekod untuk tujuan audit.",
+           "please":"Sila",
+            "securely":"dengan selamat",
+            "storeThe":"simpan",
+            "thisIsThe":"Ini adalah",
+            "only":"satu-satunya",
+            "timeDisplayed":"waktu ia akan dipaparkan",
+            "ifYouLose":"Jika anda kehilangan",
+            "youCanGenerateNew":"anda boleh menjana yang baru pada bila-bila masa",
+            "theCaps":"Maklumat",
+            "canBeViewed":"boleh dilihat pada bila-bila masa"
         }
       }
     },

@@ -26000,13 +26000,27 @@
             "setupVisible": false
           }
         },
+        "validationFE":{
+          "selectAtLeastOneScope":"请至少选择一个范围",
+          "areYouSureChangeTo":"您确定要将状态更改为"
+        },
         "messages": {
           "createClientApp": "创建客户端应用并定义集成的权限范围。",
           "giveYourIntegrationApp": "为您的集成应用命名并定义回调 URL",
           "chooseThePermission": "选择您的集成可以访问的权限。出于安全考虑，请尽量减少权限范围。",
           "basicInformationRelated": "与您的集成应用相关的基本信息。",
           "redirectUri": "使用您的集成重定向 URI（例如：https://yourapp.com/oauth/callback）",
-          "selectedUser": "所选用户将作为记录的创建者和修改者，用于审计。"
+          "selectedUser": "所选用户将作为记录的创建者和修改者，用于审计。",
+           "please":"请",
+            "securely":"安全地",
+            "storeThe":"妥善保存",
+            "thisIsThe":"这是",
+            "only":"唯一",
+            "timeDisplayed":"一次显示",
+            "ifYouLose":"如果您丢失了",
+            "youCanGenerateNew":"您可以随时生成一个新的",
+            "theCaps":"该",
+            "canBeViewed":"可以随时查看"
         }
       }
     },
