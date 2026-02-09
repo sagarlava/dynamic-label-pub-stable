@@ -26005,6 +26005,13 @@
             "plural": "Status",
             "setupEdit": false,
             "setupVisible": false
+          },
+          "key": {
+            "original": "Key",
+            "singular": "Kunci",
+            "plural": "Kunci",
+            "setupEdit": false,
+            "setupVisible": false
           }
         },
         "validationFE":{

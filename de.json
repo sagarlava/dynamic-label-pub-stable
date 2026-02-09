@@ -26005,6 +26005,13 @@
             "plural": "Status",
             "setupEdit": false,
             "setupVisible": false
+          },
+          "key": {
+            "original": "Key",
+            "singular": "Schlüssel",
+            "plural": "Schlüssel",
+            "setupEdit": false,
+            "setupVisible": false
           }
         },
         "validationFE":{

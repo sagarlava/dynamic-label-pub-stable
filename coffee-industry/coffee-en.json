@@ -22735,12 +22735,19 @@
               "setupVisible": false
             },
            "status": {
-            "original": "Status",
-            "singular": "Status",
-            "plural": "Status",
-            "setupEdit": false,
-            "setupVisible": false
-          }
+              "original": "Status",
+              "singular": "Status",
+              "plural": "Status",
+              "setupEdit": false,
+              "setupVisible": false
+            },
+            "key": {
+              "original": "Key",
+              "singular": "Key",
+              "plural": "Key",
+              "setupEdit": false,
+              "setupVisible": false
+            }
           },
           "validationFE":{
               "selectAtLeastOneScope":"Please select at least one scope",

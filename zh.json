@@ -26005,6 +26005,13 @@
             "plural": "状态",
             "setupEdit": false,
             "setupVisible": false
+          },
+          "key": {
+            "original": "Key",
+            "singular": "密钥",
+            "plural": "密钥",
+            "setupEdit": false,
+            "setupVisible": false
           }
         },
         "validationFE":{

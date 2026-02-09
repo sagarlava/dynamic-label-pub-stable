@@ -26076,6 +26076,13 @@
               "plural": "Status",
               "setupEdit": false,
               "setupVisible": false
+            },
+            "key": {
+              "original": "Key",
+              "singular": "Key",
+              "plural": "Key",
+              "setupEdit": false,
+              "setupVisible": false
             }
           },
           "validationFE":{

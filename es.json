@@ -26005,6 +26005,13 @@
             "plural": "Estados",
             "setupEdit": false,
             "setupVisible": false
+          },
+          "key": {
+            "original": "Key",
+            "singular": "Clave",
+            "plural": "Clave",
+            "setupEdit": false,
+            "setupVisible": false
           }
         },
         "validationFE":{
