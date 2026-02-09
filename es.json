@@ -25998,6 +25998,13 @@
             "plural": "Clave secreta",
             "setupEdit": false,
             "setupVisible": false
+          },
+           "status": {
+            "original": "Status",
+            "singular": "Estado",
+            "plural": "Estados",
+            "setupEdit": false,
+            "setupVisible": false
           }
         },
         "validationFE":{

@@ -25998,6 +25998,13 @@
             "plural": "密钥",
             "setupEdit": false,
             "setupVisible": false
+          },
+          "status": {
+            "original": "Status",
+            "singular": "状态",
+            "plural": "状态",
+            "setupEdit": false,
+            "setupVisible": false
           }
         },
         "validationFE":{

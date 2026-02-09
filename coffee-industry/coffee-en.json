@@ -22663,7 +22663,14 @@
               "plural": "Secret Key",
               "setupEdit": false,
               "setupVisible": false
-            }
+            },
+           "status": {
+            "original": "Status",
+            "singular": "Status",
+            "plural": "Status",
+            "setupEdit": false,
+            "setupVisible": false
+          }
           },
           "validationFE":{
               "selectAtLeastOneScope":"Please select at least one scope",
