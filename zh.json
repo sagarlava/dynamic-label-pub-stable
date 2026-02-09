@@ -27181,6 +27181,41 @@
               "plural": "停用",
               "setupEdit": false,
               "setupVisible": false
+            },
+            "hide":{
+              "original": "Hide",
+              "singular": "隐藏",
+              "plural": "隐藏",
+              "setupEdit": false,
+              "setupVisible": false
+            },
+            "show":{
+              "original": "Show",
+              "singular": "显示",
+              "plural": "显示",
+              "setupEdit": false,
+              "setupVisible": false
+            },
+            "display":{
+              "original": "Display",
+              "singular": "展示",
+              "plural": "展示",
+              "setupEdit": false,
+              "setupVisible": false
+            },
+            "hidden":{
+              "original": "Hidden",
+              "singular": "已隐藏",
+              "plural": "已隐藏",
+              "setupEdit": false,
+              "setupVisible": false
+            },
+            "regenerate":{
+              "original": "Regenerate",
+              "singular": "重新生成",
+              "plural": "重新生成",
+              "setupEdit": false,
+              "setupVisible": false
             }
           },
           "tooltips": {

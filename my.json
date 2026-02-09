@@ -27181,6 +27181,41 @@
               "plural": "Nyahaktifkan",
               "setupEdit": false,
               "setupVisible": false
+            },
+            "hide": {
+              "original": "Hide",
+              "singular": "Sembunyi",
+              "plural": "Sembunyi",
+              "setupEdit": false,
+              "setupVisible": false
+            },
+            "show": {
+              "original": "Show",
+              "singular": "Papar",
+              "plural": "Papar",
+              "setupEdit": false,
+              "setupVisible": false
+            },
+            "display": {
+              "original": "Display",
+              "singular": "Paparan",
+              "plural": "Paparan",
+              "setupEdit": false,
+              "setupVisible": false
+            },
+            "hidden":{
+              "original": "Hidden",
+              "singular": "Tersembunyi",
+              "plural": "Tersembunyi",
+              "setupEdit": false,
+              "setupVisible": false
+            },
+            "regenerate":{
+              "original": "Regenerate",
+              "singular": "Jana semula",
+              "plural": "Jana semula",
+              "setupEdit": false,
+              "setupVisible": false
             }
           },
           "tooltips": {
