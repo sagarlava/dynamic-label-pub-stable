@@ -2327,6 +2327,120 @@
             "activateYourPlan": "Activate your plan after adding items or setting up auto-assignment conditions."
         }
     },
+     "assetLog": {
+        "setupVisible": true,
+        "setupEdit": true,
+        "label": {
+        "original": "Asset Log",
+        "singular": "Equipment Log",
+        "plural": "Equipment Logs",
+        "setupEdit": true,
+        "setupVisible": true
+        },
+        "sections": {
+        "setupVisible": false,
+        "setupEdit": false,
+        "sec0": {
+            "original": "Log Details",
+            "singular": "Log Details",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": false
+        },
+        "sec1": {
+            "original": "New Entry",
+            "singular": "New Entry",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": false
+        },
+        "sec2": {
+            "original": "Filter By",
+            "singular": "Filter By",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": false
+        }
+        },
+        "fields": {
+        "setupVisible": false,
+        "setupEdit": false,
+        "currentReading": {
+            "original": "Current Reading",
+            "singular": "Current Reading",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": false
+        },
+        "logDate": {
+            "original": "Log Date",
+            "singular": "Log Date",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": false
+        },
+        "logDateTime": {
+            "original": "Log Date & Time",
+            "singular": "Log Date & Time",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": false
+        },
+        "modifiedBy": {
+            "original": "Modified By",
+            "singular": "Modified By",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": false
+        },
+        "modifiedDateTime": {
+            "original": "Modified Date & Time",
+            "singular": "Modified Date & Time",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": false
+        },
+        "newValue": {
+            "original": "New Value",
+            "singular": "New Value",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": false
+        },
+        "oldValue": {
+            "original": "Old Value",
+            "singular": "Old Value",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": false
+        },
+        "newMeterReading": {
+            "original": "New Meter Reading",
+            "singular": "New Meter Reading",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": false
+        },
+        "resetMeter": {
+            "original": "Reset Meter",
+            "singular": "Reset Meter",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": false
+        }
+        },
+        "validationBE": {
+        "assetLogIdExists": "A new equipmentLog cannot already have an ID",
+        "assetLogIdNotFound": "Id not found"
+        },
+        "messages": {
+        "resetMeterForLowerReading": "Select 'Reset Meter' if your new meter reading is smaller than the current reading",
+        "futureDateTimeEntryNotAllowed": "Entry cannot be made for future date and time",
+        "entryCannotBeNegativeValue": "Entry cannot be made with minus values",
+        "areYouSureDeleteReading":"Are you sure you want to delete this reading on",
+        "errorOccuredWhileSigning":"An error occured while signing"
+        }
+    },
     "contracts": {
         "setupVisible": true,
         "setupEdit": true,
@@ -2356,7 +2470,7 @@
             },
             "sec4": {
                 "original": "Select an asset to be added to the contract",
-                "singular": "Select an asset to be added to the contract",
+                "singular": "Select an Equipment to be added to the contract",
                 "plural": "",
                 "setupEdit": false,
                 "setupVisible": false
@@ -2451,14 +2565,14 @@
             },
             "assetName": {
                 "original": "Asset Name",
-                "singular": "Asset Name",
+                "singular": "Equipment Name",
                 "plural": "",
                 "setupEdit": false,
                 "setupVisible": false
             },
             "assetCode": {
                 "original": "Asset Code",
-                "singular": "Asset Code",
+                "singular": "Equipment Code",
                 "plural": "",
                 "setupEdit": false,
                 "setupVisible": false
@@ -2590,7 +2704,7 @@
             "contractCannotDeleteDueToRateCard": "Cannot delete contract: Delete the rate card first",
             "contractCustomerNotFound": "Contract Site Host not found",
             "contractStatusNotFound": "Invalid Contract status",
-            "contractAssetsNotFound": "Contract Assets not found",
+            "contractAssetsNotFound": "Contract Equipments not found",
             "contractTableSetupNotFound": "Contract Table Setup not found, please contact support",
             "contractContactNotFound": "Contract Contact not found",
             "contractIdNotFound": "Id not found",
@@ -2598,7 +2712,7 @@
             "contractPriceBookNotFound": "Contract Price Book not found",
             "contractPriceBookIdNotFound": "Contract Price Book Id not found",
             "contractPriceBookUpdateFailed": "Failed to update price book of contract",
-            "contractAssetsSerialNumberExists": "Asset Serial Number is already assigned to an overlapping active contract"
+            "contractAssetsSerialNumberExists": "Equipment Serial Number is already assigned to an overlapping active contract"
         },
         "tooltips": {
             "setupVisible": false,
@@ -2620,7 +2734,7 @@
             "errorFetchingContractData": "Error occured while fetching contract data",
             "selectedQtyGreater": "Selected 'Quantity' is greater than 'Quantity Available'",
             "removeItems": "Remove items that need to be returned",
-            "pleaseSelectAssetName": "Please select an Asset Name",
+            "pleaseSelectAssetName": "Please select an Equipment Name",
             "qtyGreaterThanZero": "Quantity should be greater than 0"
         }
     },
@@ -2825,7 +2939,7 @@
             "contractMaintenanceIdNotFound": "Id not found"
         },
         "messages": {
-            "maintenanceAppliesToAllContractAssets": "This Maintenance will be applied to all Assets within this Contract"
+            "maintenanceAppliesToAllContractAssets": "This Maintenance will be applied to all Equipments within this Contract"
         }
     },
     "checklist": {
@@ -2857,14 +2971,14 @@
             },
             "sec2": {
                 "original": "Select the checklist you'd like to generate for this Asset",
-                "singular": "Select the checklist you'd like to generate for this Asset",
+                "singular": "Select the checklist you'd like to generate for this Equipment",
                 "plural": "",
                 "setupEdit": false,
                 "setupVisible": false
             },
             "sec3": {
                 "original": "Updating the Asset within Checklist",
-                "singular": "Updating the Asset within Checklist",
+                "singular": "Updating the Equipment within Checklist",
                 "plural": "",
                 "setupEdit": false,
                 "setupVisible": false
@@ -2878,7 +2992,7 @@
             },
             "sec5": {
                 "original": "Asset Summary",
-                "singular": "Asset Summary",
+                "singular": "Equipment Summary",
                 "plural": "",
                 "setupEdit": false,
                 "setupVisible": false
@@ -2899,7 +3013,7 @@
             },
             "sec8": {
                 "original": "Asset Details",
-                "singular": "Asset Details",
+                "singular": "Equipment Details",
                 "plural": "",
                 "setupEdit": false,
                 "setupVisible": false
@@ -2913,7 +3027,7 @@
             },
             "sec10": {
                 "original": "Asset Updates",
-                "singular": "Asset Updates",
+                "singular": "Equipment Updates",
                 "plural": "",
                 "setupEdit": false,
                 "setupVisible": false
@@ -2966,14 +3080,14 @@
             },
             "assetType": {
                 "original": "Asset Type",
-                "singular": "Asset Type",
+                "singular": "Equipment Type",
                 "plural": "",
                 "setupEdit": false,
                 "setupVisible": false
             },
             "assetStatus": {
                 "original": "Asset Status",
-                "singular": "Asset Status",
+                "singular": "Equipment Status",
                 "plural": "",
                 "setupEdit": false,
                 "setupVisible": false
@@ -3008,14 +3122,14 @@
             },
             "selectAsset": {
                 "original": "Select Asset",
-                "singular": "Select Asset",
+                "singular": "Select Equipment",
                 "plural": "",
                 "setupEdit": false,
                 "setupVisible": false
             },
             "selectChecklistToGenerate": {
                 "original": "Select the checklist you'd like to generate for this Asset",
-                "singular": "Select the checklist you'd like to generate for this Asset",
+                "singular": "Select the checklist you'd like to generate for this Equipment",
                 "plural": "",
                 "setupEdit": false,
                 "setupVisible": false
@@ -3064,14 +3178,14 @@
             },
             "assetStatusBeforeChecklist": {
                 "original": "Asset status before checklist",
-                "singular": "Asset status before checklist",
+                "singular": "Equipment status before checklist",
                 "plural": "",
                 "setupEdit": false,
                 "setupVisible": false
             },
             "assetStatusAfterChecklist": {
                 "original": "Asset status after checklist",
-                "singular": "Asset status after checklist",
+                "singular": "Equipment status after checklist",
                 "plural": "",
                 "setupEdit": false,
                 "setupVisible": false
@@ -3107,7 +3221,7 @@
             "checklistQuestionChecklistRecordTmplChecklistNotFound": "Checklist Record, Checklist Record.TmplChecklist not found",
             "checklistQuestionChecklistRecordNotFound": "Checklist Record not found",
             "checklistQuestionIdExists": "A new Checklist Question cannot already have an ID",
-            "checklistQuestionAssetNotFound": "Checklist Question Asset not found",
+            "checklistQuestionAssetNotFound": "Checklist Question Equipment not found",
             "checklistAnsIdExists": "A new Checklist Answer cannot already have an ID",
             "checklistCannotDeleteByRecords": "Unable to Delete, this record is associated with one or more records"
         },
@@ -3125,7 +3239,7 @@
         "messages": {
             "selectOneChecklist": "Please select one Checklist Template",
             "addNewChecklist": "Add New Checklist",
-            "selectAsset": "Select Asset",
+            "selectAsset": "Select Equipment",
             "selectChecklistToGenerate": "Select Checklist to Generate",
             "noQuestionsFound": "No Questions Found",
             "updateTheStatusOf": "Update the status of:",
@@ -3135,7 +3249,7 @@
             "updateStatusTo": "Update status to",
             "noStatusToDisplay": "No Status to Display",
             "updateChecklistStatus": "Update Checklist Status",
-            "updateAsset": "Update Asset"
+            "updateAsset": "Update Equipment"
         }
     },
     "product": {
@@ -6428,7 +6542,7 @@
             },
             "sec9": {
                 "original": "Spare Part/Assets Transfer",
-                "singular": "Spare Part/Assets Transfer",
+                "singular": "Spare Part/Equipments Transfer",
                 "plural": "",
                 "setupEdit": false,
                 "setupVisible": false
@@ -6456,7 +6570,7 @@
             },
             "sec13": {
                 "original": "Asset(s) to Transfer",
-                "singular": "Asset(s) to Transfer",
+                "singular": "Equipment(s) to Transfer",
                 "plural": "",
                 "setupEdit": false,
                 "setupVisible": false
@@ -6470,15 +6584,15 @@
             },
             "sec15": {
                 "original": "Transfer by Assets",
-                "singular": "Transfer by Assets",
-                "plural": "Transfer by Assets",
+                "singular": "Transfer by Equipments",
+                "plural": "Transfer by Equipments",
                 "setupEdit": false,
                 "setupVisible": false
             },
             "sec16": {
                 "original": "Add Assets Via Serial Number",
-                "singular": "Add Assets Via Serial Number",
-                "plural": "Add Assets Via Serial Number",
+                "singular": "Add Equipments Via Serial Number",
+                "plural": "Add Equipments Via Serial Number",
                 "setupEdit": false,
                 "setupVisible": false
             },
@@ -6585,7 +6699,7 @@
             },
             "assetName": {
                 "original": "Asset Name",
-                "singular": "Asset Name",
+                "singular": "Equipment Name",
                 "plural": "",
                 "setupEdit": false,
                 "setupVisible": false
@@ -6753,7 +6867,7 @@
             },
             "removeSelectedAsset": {
                 "original": "Remove selected assets from their respective bins",
-                "singular": "Remove selected assets from their respective bins",
+                "singular": "Remove selected equipments from their respective bins",
                 "plural": "",
                 "setupEdit": false,
                 "setupVisible": false
@@ -6788,7 +6902,7 @@
             },
             "selectAsset": {
                 "original": "Select Asset",
-                "singular": "Select Asset",
+                "singular": "Select Equipment",
                 "plural": "",
                 "setupEdit": false,
                 "setupVisible": false
@@ -6802,7 +6916,7 @@
             },
             "includeChildAsset": {
                 "original": "Include Child Assets",
-                "singular": "Include Child Assets",
+                "singular": "Include Child Equipments",
                 "plural": "",
                 "setupEdit": false,
                 "setupVisible": false
@@ -6867,20 +6981,20 @@
             },
             "includeChildAsset": {
                 "original": "Includes child assets of selected assets in the transfer. Only child assets in the same bin as their parent will be included.",
-                "singular": "Includes child assets of selected assets in the transfer. Only child assets in the same bin as their parent will be included",
+                "singular": "Includes child equipments of selected equipments in the transfer. Only child equipments in the same bin as their parent will be included",
                 "plural": "",
                 "setupEdit": false,
                 "setupVisible": false
             }
         },
         "validationFE": {
-            "assetNotFound": "Asset not found",
+            "assetNotFound": "Equipment not found",
             "sparePartNotFound": "Spare Part Not Found",
-            "addAtLeastOneAsset": "Add at least one asset to proceed",
+            "addAtLeastOneAsset": "Add at least one equipment to proceed",
             "addAtLeastOneSparePart": "Add at least one spare part to proceed",
             "oneSelectionToProceed": "Make at least one selection to proceed",
             "exceededTotalSerialNoAdded": "You have exceeded the total number of serial numbers that can be added at a time. Please enter only up to 50 serial numbers.",
-            "assetHasBeenSelected": "This asset has already been selected, please select a different asset.",
+            "assetHasBeenSelected": "This equipment has already been selected, please select a different equipment.",
             "selectBinToProceed": "Select a bin to proceed",
             "noSparePartFoundSKU": "No Spare Part was found with this SKU"
         },
@@ -6890,7 +7004,7 @@
             "binTransferNotAuthorized": "You are only authorized to perform transactions across your Bin(s)",
             "binTransferBinNotFound": "Bin Transfer Bin not found",
             "binTransferProductNotFound": "Bin Transfer Spare Part not found",
-            "binTransferAssetsNotFound": "Bin Transfer Assets not found",
+            "binTransferAssetsNotFound": "Bin Transfer Equipments not found",
             "binTransferInvalidStatus": "Only allowed statuses: ACCEPTED/DECLINED/CANCEL",
             "binTransferNotFound": "Bin Transfer not found",
             "binTransferItemIdExists": "A new Bin Transfer Item cannot already have an ID",
@@ -6901,7 +7015,7 @@
             "enterBinName": "Enter Bin Name",
             "enterUserName": "Enter User Name",
             "enterProductName": "Enter Spare Part Name",
-            "enterAssetName": "Enter Asset Name",
+            "enterAssetName": "Enter Equipment Name",
             "selectBin": "Select Bin",
             "confirmAcceptance": "Confirm Acceptance",
             "confirmRejection": "Confirm Rejection",
@@ -6910,9 +7024,9 @@
             "declineTransfer": "Are you sure you want to decline this transfer?",
             "acceptTransfer": "Are you sure you want to accept this transfer?",
             "cancelTransfer": "Are you sure you want to cancel this transfer?",
-            "minAddProductAsset": "Minimum add 1 Spare Part or asset to be transferred",
+            "minAddProductAsset": "Minimum add 1 Spare Part or Equipment to be transferred",
             "attemptTransferMoreThanAvailable": "You are attempting to transfer more than available quantity, Do you want to proceed?",
-            "sameAssetBinTransferNotAllowed": "You are not allowed to select the same asset in a bin transfer",
+            "sameAssetBinTransferNotAllowed": "You are not allowed to select the same equipment in a bin transfer",
             "transferAcceptedSuccessfully": "Transfer accepted successfully",
             "transferDeclinedSuccessfully": "Transfer declined successfully",
             "pleaseSelectFromBinTransfer": "Please select from  bin transfer.",
@@ -6924,15 +7038,15 @@
             "binTransfer": "Bin Transfer",
             "transferQtyIsGreaterThanAvailableQuantityFor": "Transfer quantity is greater than available quantity for one or more transfer.",
             "binTransferSavedSuccessfully": "Bin Transfer saved successfully",
-            "assetsTransferred": "Asset(s) transferred",
+            "assetsTransferred": "Equipment(s) transferred",
             "productsTransferred": "Spare Part(s) transferred",
-            "assetsAreNotAllowedToTransfer": "Assets are not allowed to transfer to Work order",
-            "selectAssetsToTransfer": "Select the assets you want to transfer",
-            "selectBinToTransferAssets": "Select the bin you want to transfer the assets to",
-            "confirmAssetToTransfer": "Confirm the asset you want to transfer",
-            "selectBinToTransferAboveAsset": "Select the bin you want to transfer the above asset to",
-            "typePasteSerialNumbers": "Type or paste serial numbers of the assets you want to transfer with a maximum of 50 serial numbers at a time. Note: Separate serial numbers with ',' or a new line.",
-            "inputSerialNumbers": "Type or paste serial numbers of the assets you want to transfer with a maximum of 50 serial numbers at a time.",
+            "assetsAreNotAllowedToTransfer": "Equipments are not allowed to transfer to Work order",
+            "selectAssetsToTransfer": "Select the equipments you want to transfer",
+            "selectBinToTransferAssets": "Select the bin you want to transfer the equipments to",
+            "confirmAssetToTransfer": "Confirm the equipment you want to transfer",
+            "selectBinToTransferAboveAsset": "Select the bin you want to transfer the above equipment to",
+            "typePasteSerialNumbers": "Type or paste serial numbers of the equipments you want to transfer with a maximum of 50 serial numbers at a time. Note: Separate serial numbers with ',' or a new line.",
+            "inputSerialNumbers": "Type or paste serial numbers of the equipments you want to transfer with a maximum of 50 serial numbers at a time.",
             "inputSKU": "Type or paste SKUs of the spare parts you want to transfer with a maximum of 50 SKUs at a time. ",
             "serialNumberNote": "Note",
             "serialNumberSeparation": "Separate serial numbers with ',' or a new line.",
@@ -6945,16 +7059,16 @@
             "selectBinsToAdjustSpareParts": "Select the bins you want to adjust spare parts in",
             "selectOptionTransferSpecificItems": "Select this option to transfer specific items by",
             "selectOptionTo": "Select this option to",
-            "browseAssetList": "Browsing your Asset list",
+            "browseAssetList": "Browsing your Equipment list",
             "browseSparePartsList": "Browsing your Spare Parts list",
-            "selectAssetsViaSerialNo": "Selecting Assets via serial number",
+            "selectAssetsViaSerialNo": "Selecting Equipments via serial number",
             "addingViaSku": "Adding via SKU",
             "bulkTransferBetweenBins": "Bulk transfer items between bins",
             "reorganizeStorageSystem": "Reorganize your storage system",
-            "moveAssetsFromOneBinToAnother": "Move assets from one bin to another",
+            "moveAssetsFromOneBinToAnother": "Move equipments from one bin to another",
             "moveSparePartsFromOneBinToAnother": "Move spare parts from one bin to another",
-            "selectBinTransferAssetFrom": "Select the bin you want to transfer assets from",
-            "selectAssetsToBeTransferred": "Select the assets to be transferred",
+            "selectBinTransferAssetFrom": "Select the bin you want to transfer equipments from",
+            "selectAssetsToBeTransferred": "Select the equipments to be transferred",
             "selectSparePartsToBeTransferred": "Select the spare parts to be transferred",
             "selectBinTransferSparePartFrom": "Select the bin you want to transfer spare parts from",
             "selectBinToTransferSpareParts": "Select the bin you want to transfer the spare parts to",
@@ -6968,7 +7082,7 @@
             "transferCannotContinue": "The transfer cannot continue since the selected bin no longer contains the following items",
             "aBinTransferInitiate": "A Bin Transfer record will be created for the approved items. Are you sure you want to initiate this bin transfer?",
             "max50SerialNumbers": "You can enter a maximum of 50 serial numbers/SKUs.",
-            "selectedAssetManagedBySameGroup": "Selected assets must be from bins managed by the same user group",
+            "selectedAssetManagedBySameGroup": "Selected equipments must be from bins managed by the same user group",
             "selectedSparePartsManagedBySameGroup": "Selected spare parts must be from bins managed by the same user group",
             "quantityTransferExceedsStock": "Quantity to transfer exceeds available stock in the marked field(s). Reduce the quantity to proceed.",
             "areYouSureYouWantToProceed": "Are you sure you want to proceed with the"
