@@ -26010,7 +26010,9 @@
           },
           "validationFE":{
             "selectAtLeastOneScope":"Please select at least one scope",
-            "areYouSureChangeTo":"Are you sure you want to change status to"
+            "areYouSureChangeTo":"Are you sure you want to change status to",
+            "keyCopiedSuccessfully":"Key copied succesfully",
+            "unableCopyKey":"Unable to copy key. Please try again."
           },
           "messages":{
             "createClientApp":"Create a client app and define scopes for integrations.",

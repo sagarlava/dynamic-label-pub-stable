@@ -26009,7 +26009,9 @@
         },
         "validationFE":{
           "selectAtLeastOneScope":"Bitte wählen Sie mindestens einen Bereich aus",
-          "areYouSureChangeTo":"Möchten Sie den Status wirklich ändern in"
+          "areYouSureChangeTo":"Möchten Sie den Status wirklich ändern in",
+          "keyCopiedSuccessfully":"Schlüssel erfolgreich kopiert",
+          "unableCopyKey":"Schlüssel konnte nicht kopiert werden. Bitte versuchen Sie es erneut."
         },
          "messages": {
           "createClientApp": "Erstellen Sie eine Client-App und definieren Sie Berechtigungsbereiche für Integrationen.",

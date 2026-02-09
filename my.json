@@ -26009,7 +26009,9 @@
         },
         "validationFE":{
           "selectAtLeastOneScope":"Sila pilih sekurang-kurangnya satu skop",
-          "areYouSureChangeTo":"Adakah anda pasti mahu menukar status kepada"
+          "areYouSureChangeTo":"Adakah anda pasti mahu menukar status kepada",
+          "keyCopiedSuccessfully":"Kunci berjaya disalin",
+          "unableCopyKey":"Gagal menyalin kunci. Sila cuba lagi."
         },
          "messages": {
           "createClientApp": "Cipta aplikasi klien dan tentukan skop untuk integrasi.",

@@ -26009,7 +26009,9 @@
         },
         "validationFE":{
           "selectAtLeastOneScope":"请至少选择一个范围",
-          "areYouSureChangeTo":"您确定要将状态更改为"
+          "areYouSureChangeTo":"您确定要将状态更改为",
+          "keyCopiedSuccessfully":"密钥复制成功",
+          "unableCopyKey":"无法复制密钥。请重试。"
         },
         "messages": {
           "createClientApp": "创建客户端应用并定义集成的权限范围。",

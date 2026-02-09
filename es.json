@@ -26009,7 +26009,9 @@
         },
         "validationFE":{
             "selectAtLeastOneScope":"Por favor, seleccione al menos un alcance",
-            "areYouSureChangeTo":"¿Está seguro de que desea cambiar el estado a"
+            "areYouSureChangeTo":"¿Está seguro de que desea cambiar el estado a",
+            "keyCopiedSuccessfully":"Clave copiada con éxito",
+            "unableCopyKey":"No se pudo copiar la clave. Por favor, inténtelo de nuevo."
         },
          "messages": {
           "createClientApp": "Cree una aplicación cliente y defina los ámbitos para las integraciones.",
