@@ -15469,7 +15469,8 @@
       "thisFieldIsRequired": "Este campo es obligatorio",
       "pleaseMakeOneSelection": "Por favor, haga una selección para continuar",
       "itemExists": "Este elemento ya existe en la lista",
-      "filenameMustNotContain":"El nombre del archivo no debe contener espacios ni caracteres especiales (p. ej., ! @ # $ % ^ & ( ) )."
+      "filenameMustNotContain":"El nombre del archivo no debe contener espacios ni caracteres especiales (p. ej., ! @ # $ % ^ & ( ) ).",
+      "pleaseEnterValidUrl":"Por favor, introduzca una URL de sitio web válida. Solo se permite añadir 1 URL."
     },
     "validationBE": {
       "sendGridEmailTenantReferenceIdExists": "Una nueva referencia de inquilino de correo electrónico de Send Grid no puede tener ya un ID",

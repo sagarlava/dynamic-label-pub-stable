@@ -15469,7 +15469,8 @@
       "filenameMustNotContain":"Dateiname darf keine Leerzeichen oder Sonderzeichen enthalten (z. B. ! @ # $ % ^ & ( ) ).",
       "thisFieldIsRequired":"Dieses Feld ist erforderlich",
       "pleaseMakeOneSelection":"Bitte treffen Sie eine Auswahl, um fortzufahren",
-      "itemExists":"Dieses Element existiert bereits in der Liste"
+      "itemExists":"Dieses Element existiert bereits in der Liste",
+      "pleaseEnterValidUrl":"PleBitte geben Sie eine gültige Website-URL ein. Sie dürfen nur 1 URL hinzufügen."
     },
     "validationBE": {
       "sendGridEmailTenantReferenceIdExists": "Eine neue Send Grid E-Mail-Mieterreferenz kann nicht bereits eine ID haben",
