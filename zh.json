@@ -15470,7 +15470,8 @@
       "thisFieldIsRequired":"此字段为必填项",
       "pleaseMakeOneSelection":"请选择一项以继续",
       "itemExists":"此项目已存在于列表中",
-      "pleaseEnterValidUrl":"请输入有效的网站 URL。您只能添加 1 个 URL。"
+      "pleaseEnterValidUrl":"请输入有效的网站 URL。您只能添加 1 个 URL。",
+      "capacityReached":"容量已满"
     },
     "validationBE": {
       "sendGridEmailTenantReferenceIdExists": "新的Send Grid电子邮件租户引用不能已有ID",

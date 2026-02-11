@@ -12204,7 +12204,8 @@
       "thisFieldIsRequired":"This field is required",
       "pleaseMakeOneSelection":"Please make one selection to proceed",
       "itemExists":"This item already exists in the list",
-      "pleaseEnterValidUrl":"Please enter valid website URL. You are only allowed to add 1 URL"
+      "pleaseEnterValidUrl":"Please enter valid website URL. You are only allowed to add 1 URL",
+      "capacityReached":"Capacity Reached"
     },
     "validationBE": {
       "sendGridEmailTenantReferenceIdExists": "A new Send Grid Email Tenant Reference cannot already have an ID",
