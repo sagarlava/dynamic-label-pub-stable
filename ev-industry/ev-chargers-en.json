@@ -89,14 +89,14 @@
             "subSector": {
                 "original": "Sub-sector",
                 "singular": "Sub-sector",
-                "plural": "Sub-sector",
+                "plural": "Sub-sectors",
                 "setupEdit": true,
                 "setupVisible": true
             },
             "category": {
                 "original": "Category",
-                "singular": "Ownership Model",
-                "plural": "Ownership Model",
+                "singular": "Category",
+                "plural": "Categories",
                 "setupEdit": true,
                 "setupVisible": true
             },
@@ -221,7 +221,7 @@
             },
             "customerReferenceId": {
                 "original": "Customer Reference Id",
-                "singular": "Master Service Agreement (MSA)",
+                "singular": "Reference Id",
                 "plural": "",
                 "setupEdit": true,
                 "setupVisible": true
@@ -352,10 +352,10 @@
             "customerGeoFenceNotFound": "Site Host Geo Fence not found",
             "customerServiceZoneNotFound": "Site Host Service Zone not found",
             "customerCategoryTypeNotFound": "Site Host Category Type not found",
-            "customerTypeNotFound": "Site Host Model not found",
+            "customerTypeNotFound": "Site Host Type not found",
             "customerChannelNotFound": "Site Host Channel not found",
-            "customerSectorNotFound": "Site Host Market Vertical not found",
-            "customerSubSectorNotFound": "Site Host Facility not found",
+            "customerSectorNotFound": "Site Host Sector not found",
+            "customerSubSectorNotFound": "Site Host Sub-Sector not found",
             "customerIndustryNotFound": "Site Host Industry not found",
             "customerTableSetupNotFound": "Site Host Table Setup not found, please contact support",
             "customerContactNameLimitExceed": "Site Host Contact Name cannot be longer than 255 characters",
@@ -373,14 +373,14 @@
             "customerPurchaseHistoryProductWithProductExtIdNotFound": "Invalid Spare Part External Id",
             "customerPurchaseHistoryIdNotFound": "Id not found",
             "customerPurchaseHistoryWithIdNotFound": "Invalid Site Host Purchase History Id",
-            "customerSectorIdExists": "A new Site Host Market cannot already have an ID",
-            "customerSectorNameExists": "Site Host Market Name already exists",
-            "customerSectorSystemGenerated": "System generated Site Host Markets are not allowed to be deleted",
-            "customerSectorHasCustomerSubSector": "Site Host Facility Data exists in the system for the Site Host Market",
-            "customerSubSectorIdExists": "A new Site Host Facility cannot already have an ID",
-            "customerSubSectorNameExists": "Site Host Facility Name already exists",
+            "customerSectorIdExists": "A new Site Host Sector cannot already have an ID",
+            "customerSectorNameExists": "Site Host Sector Name already exists",
+            "customerSectorSystemGenerated": "System generated Site Host Sectors are not allowed to be deleted",
+            "customerSectorHasCustomerSubSector": "Site Host Sub-Sector Data exists in the system for the Site Host Sector",
+            "customerSubSectorIdExists": "A new Site Host Sub-Sector cannot already have an ID",
+            "customerSubSectorNameExists": "Site Host Sub-Sector Name already exists",
             "customerSubSectorSystemGenerated": "System generated Site Host Facilities are not allowed to be deleted",
-            "customerSubSectorHasCustomerSector": "Site Host Market Data exists in the system for the Site Host Facility",
+            "customerSubSectorHasCustomerSector": "Site Host Sector Data exists in the system for the Site Host Sub-Sector",
             "customerPriceBookNotFound": "Site Host Price Book not found",
             "customerPriceBookIdNotFound": "Site Host Price Book Id not found",
             "customerPriceBookUpdateFailed": "Failed to update price book of site host",
@@ -416,7 +416,7 @@
             "addressNotFallGeoFence": "Address does not fall under any of your geofences.",
             "deleteMessage": "By deleting this site host, you will also be removing all associated information such as orders, contacts, and other related data. You will not be able to undo this. Do you wish to proceed?",
             "selectGeofences": "Select Geofences",
-            "noJobOrder": "No Work Orders yet",
+            "noJobOrder": "No Job Orders yet",
             "nearestCustomers": "Nearest Site Hosts",
             "nearbyCustomers": "Nearby Site Hosts",
             "seeInMap": "See in map"
@@ -14822,8 +14822,8 @@
                     "setupVisible": false,
                     "label": {
                         "original": "Type",
-                        "singular": "SLA Tier",
-                        "plural": "SLA Tiers",
+                        "singular": "Type",
+                        "plural": "Types",
                         "setupEdit": false,
                         "setupVisible": false
                     },
@@ -14832,21 +14832,21 @@
                         "setupVisible": false,
                         "sec0": {
                             "original": "Type Details",
-                            "singular": "SLA Tier Details",
+                            "singular": "Type Details",
                             "plural": "",
                             "setupEdit": false,
                             "setupVisible": false
                         },
                         "sec1": {
                             "original": "Available Statuses for this Type",
-                            "singular": "Available Statuses for this SLA Tier",
+                            "singular": "Available Statuses for this Type",
                             "plural": "",
                             "setupEdit": false,
                             "setupVisible": false
                         },
                         "sec2": {
                             "original": "Specify the statuses that apply to this Job Order Type. Those in the right hand box will be displayed in the status picklist when this Job Order Type is selected",
-                            "singular": "Specify the statuses that apply to this Work Order SLA Tier. Those in the right hand box will be displayed in the status picklist when this Work Order SLA Tier is selected",
+                            "singular": "Specify the statuses that apply to this Job Order Type. Those in the right hand box will be displayed in the status picklist when this Job Order Type is selected",
                             "plural": "",
                             "setupEdit": false,
                             "setupVisible": false
@@ -14906,14 +14906,14 @@
                         }
                     },
                     "messages": {
-                        "describeType": "Describe the SLA Tier of",
+                        "describeType": "Describe the Type of",
                         "youReceive": "you receive",
                         "youHave": "you have",
                         "raisedToTeam": "raised to your team",
-                        "availableStatus": "Available Statuses for this SLA Tier",
-                        "specifyStatusJobOrder": "Specify the statuses that apply to this Work Order SLA Tier. Those in the right hand box will be displayed in the status picklist when this Work Order SLA Tier is selected",
-                        "notForThisJobType": "Not for this Work Order SLA Tier",
-                        "forThisJobType": "For this Work Order SLA Tier"
+                        "availableStatus": "Available Statuses for this Type",
+                        "specifyStatusJobOrder": "Specify the statuses that apply to this Job Order Type. Those in the right hand box will be displayed in the status picklist when this Job Order Type is selected",
+                        "notForThisJobType": "Not for this Job Order Type",
+                        "forThisJobType": "For this Job Order Type"
                     }
                 },
                 "category": {
@@ -14921,8 +14921,8 @@
                     "setupVisible": false,
                     "label": {
                         "original": "Category",
-                        "singular": "Ownership Model",
-                        "plural": "Ownership Models",
+                        "singular": "Category",
+                        "plural": "Categories",
                         "setupEdit": false,
                         "setupVisible": false
                     },
@@ -14931,7 +14931,7 @@
                         "setupVisible": false,
                         "sec0": {
                             "original": "Category Details",
-                            "singular": "Ownership Model Details",
+                            "singular": "Category Details",
                             "plural": "",
                             "setupEdit": false,
                             "setupVisible": false
@@ -14993,8 +14993,8 @@
                     "setupVisible": false,
                     "label": {
                         "original": "Sector",
-                        "singular": "Market Vertical",
-                        "plural": "Market Vertical",
+                        "singular": "Sector",
+                        "plural": "Sector",
                         "setupEdit": false,
                         "setupVisible": false
                     },
@@ -15003,7 +15003,7 @@
                         "setupVisible": false,
                         "sec0": {
                             "original": "Sector Details",
-                            "singular": "Market Vertical Details",
+                            "singular": "Sector Details",
                             "plural": "",
                             "setupEdit": false,
                             "setupVisible": false
@@ -15065,8 +15065,8 @@
                     "setupVisible": false,
                     "label": {
                         "original": "Sub-sector",
-                        "singular": "Facility Classification",
-                        "plural": "Facility Classification",
+                        "singular": "Sub-sector",
+                        "plural": "Sub-sector",
                         "setupEdit": false,
                         "setupVisible": false
                     },
@@ -15075,7 +15075,7 @@
                         "setupVisible": false,
                         "sec0": {
                             "original": "Sub-sector Details",
-                            "singular": "Facility Classification Details",
+                            "singular": "Sub-sector Details",
                             "plural": "",
                             "setupEdit": false,
                             "setupVisible": false
@@ -15135,7 +15135,7 @@
                         }
                     },
                     "messages": {
-                        "aMoreSpecificSubCategory": "A more specific facility classification within the"
+                        "aMoreSpecificSubCategory": "A more specific sub-category within the"
                     }
                 }
             },
