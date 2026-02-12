@@ -857,7 +857,7 @@
             },
             "code": {
                 "original": "Code",
-                "singular": "Asset Tag",
+                "singular": "Code",
                 "plural": "",
                 "setupEdit": true,
                 "setupVisible": true
@@ -927,7 +927,7 @@
             },
             "description": {
                 "original": "Description",
-                "singular": "Access Protocols",
+                "singular": "Description",
                 "plural": "",
                 "setupEdit": true,
                 "setupVisible": true
@@ -4522,14 +4522,14 @@
             },
             "type": {
                 "original": "Type",
-                "singular": "Logistics Class",
+                "singular": "Type",
                 "plural": "",
                 "setupEdit": true,
                 "setupVisible": true
             },
             "productFamily": {
                 "original": "Spare Part Family",
-                "singular": "Commodity Group",
+                "singular": "Spare Part Family",
                 "plural": "",
                 "setupEdit": true,
                 "setupVisible": true
@@ -4634,7 +4634,7 @@
             },
             "productType": {
                 "original": "Spare Part Type",
-                "singular": "Spare Part Logistic Class",
+                "singular": "Spare Part Type",
                 "plural": "",
                 "setupEdit": false,
                 "setupVisible": false
@@ -4735,7 +4735,7 @@
             "productHasRequisitionItem": "Requisition Item Data exists in the system for the Spare Part",
             "productTableSetupNotFound": "Spare Part Table Setup not found, please contact support",
             "productWithExtIdNotFound": "Invalid ExternalId",
-            "productFamilyNotFound": "Commodity Group not found",
+            "productFamilyNotFound": "Family not found",
             "productTypeNotFound": "Spare Part Type not found",
             "productMeasureUnitNotFound": "Spare Part Measure Unit not found",
             "productIdExists": "A new Spare Part cannot already have an ID",
@@ -4753,11 +4753,11 @@
             }
         },
         "messages": {
-            "productFamilyRemoved": "Commodity Group removed successfully",
-            "deleteProductFamily": "Delete Commodity Group",
-            "deleteProductType": "Delete Spare Part Logistic Class",
-            "newProductFamily": "New Commodity Group",
-            "newProductType": "New Spare Part Logistic Class",
+            "productFamilyRemoved": "Family removed successfully",
+            "deleteProductFamily": "Delete Family",
+            "deleteProductType": "Delete Spare Part Type",
+            "newProductFamily": "New Family",
+            "newProductType": "New Spare Part Type",
             "subTotal": "Sub Total",
             "totalAmount": "Total Amount",
             "groupByTask": "Group by Task",
@@ -7338,8 +7338,8 @@
             },
             "orderOwner": {
                 "original": "Order Owner",
-                "singular": "Scheduler",
-                "plural": "Scheduler",
+                "singular": "Order Owner",
+                "plural": "Order Owner",
                 "setupVisible": true,
                 "setupEdit": true
             },
@@ -7352,21 +7352,21 @@
             },
             "system": {
                 "original": "System",
-                "singular": "Affected Subsystem",
-                "plural": "Affected Subsystem",
+                "singular": "System",
+                "plural": "System",
                 "setupVisible": true,
                 "setupEdit": true
             },
             "fault": {
                 "original": "Fault",
-                "singular": "Failure Code",
-                "plural": "Failure Code",
+                "singular": "Fault",
+                "plural": "Fault",
                 "setupVisible": true,
                 "setupEdit": true
             },
             "faultDetails": {
                 "original": "Fault Details",
-                "singular": "Diagnosis",
+                "singular": "Fault Details",
                 "plural": "",
                 "setupVisible": true,
                 "setupEdit": true
@@ -7422,7 +7422,7 @@
             },
             "extId": {
                 "original": "External ID",
-                "singular": "CPMS Ticket ID",
+                "singular": "External ID",
                 "plural": "",
                 "setupVisible": true,
                 "setupEdit": true
@@ -9860,28 +9860,28 @@
             },
             "type": {
                 "original": "Type",
-                "singular": "Electrical Topology",
+                "singular": "Type",
                 "plural": "",
                 "setupEdit": true,
                 "setupVisible": true
             },
             "referenceNo": {
                 "original": "Reference No.",
-                "singular": "Meter ID",
+                "singular": "Reference No.",
                 "plural": "",
                 "setupEdit": true,
                 "setupVisible": true
             },
             "area": {
                 "original": "Area",
-                "singular": "DNO",
+                "singular": "Area",
                 "plural": "",
                 "setupEdit": true,
                 "setupVisible": true
             },
             "category": {
                 "original": "Category",
-                "singular": "Site Classification",
+                "singular": "Category",
                 "plural": "",
                 "setupEdit": true,
                 "setupVisible": true
@@ -9895,7 +9895,7 @@
             },
             "subCategory": {
                 "original": "Sub Category",
-                "singular": "Physical Environment",
+                "singular": "Sub Category",
                 "plural": "",
                 "setupEdit": true,
                 "setupVisible": true
@@ -9978,9 +9978,9 @@
             "siteHasJobOrderTemplate": "Job Order Template Data exists in the system for the Station",
             "siteHasTaskTemplate": "Task Template Data exists in the system for the Station",
             "siteCustomerNotFound": "Station Host not found",
-            "siteTypeNotFound": "Station Electrical Topology not found",
+            "siteTypeNotFound": "Station Type not found",
             "siteCategoryNotFound": "Station Classification not found",
-            "siteSubCategoryNotFound": "Station Physical Environment not found",
+            "siteSubCategoryNotFound": "Station Sub Category not found",
             "siteAreaNotFound": "Station Area not found",
             "siteGeoFenceNotFound": "Station GeoFence not found",
             "siteServiceZoneNotFound": "Station Service Zone not found",
@@ -9999,12 +9999,12 @@
             "siteStatusIdExists": "A new Station Status cannot already have an ID",
             "siteStatusExists": "Station Status already exist",
             "siteStatusSystemGenerated": "System generated Station Status are not allowed to be deleted",
-            "siteSubCategoryExists": "Station Physical Environment already exist",
-            "siteSubCategorySystemGenerated": "System generated Station Physical Environment are not allowed to be deleted",
-            "siteSubCategoryIdExists": "A new Station Physical Environment cannot already have an ID",
-            "siteTypeExists": "Station Electrical Topology already exist",
-            "siteTypeSystemGenerated": "System generated Station Electrical Topology are not allowed to be deleted",
-            "siteTypeIdExists": "A new Station Electrical Topology cannot already have an ID"
+            "siteSubCategoryExists": "Station Sub Category already exist",
+            "siteSubCategorySystemGenerated": "System generated Station Sub Category are not allowed to be deleted",
+            "siteSubCategoryIdExists": "A new Station Sub Category cannot already have an ID",
+            "siteTypeExists": "Station Type already exist",
+            "siteTypeSystemGenerated": "System generated Station Type are not allowed to be deleted",
+            "siteTypeIdExists": "A new Station Type cannot already have an ID"
         },
         "tooltips": {
             "setupVisible": false,
@@ -10083,14 +10083,14 @@
             "setupVisible": true,
             "category": {
                 "original": "Category",
-                "singular": "Construction Scope",
-                "plural": "Construction Scope",
+                "singular": "Category",
+                "plural": "Category",
                 "setupEdit": true,
                 "setupVisible": true
             },
             "description": {
                 "original": "Description",
-                "singular": "Scope of Work",
+                "singular": "Description",
                 "plural": "",
                 "setupEdit": true,
                 "setupVisible": true
@@ -10104,7 +10104,7 @@
             },
             "extId": {
                 "original": "External ID",
-                "singular": "Permit Number",
+                "singular": "External ID",
                 "plural": "",
                 "setupEdit": true,
                 "setupVisible": true
@@ -10167,7 +10167,7 @@
             },
             "referenceNo": {
                 "original": "Reference No.",
-                "singular": "Utility Job Number",
+                "singular": "Reference No.",
                 "plural": "",
                 "setupEdit": true,
                 "setupVisible": true
@@ -10181,15 +10181,15 @@
             },
             "source": {
                 "original": "Source",
-                "singular": "Funding Program",
+                "singular": "Source",
                 "plural": "",
                 "setupEdit": true,
                 "setupVisible": true
             },
             "type": {
                 "original": "Type",
-                "singular": "Deployment Class",
-                "plural": "Deployment Classes",
+                "singular": "Type",
+                "plural": "Type",
                 "setupEdit": true,
                 "setupVisible": true
             },
@@ -10202,7 +10202,7 @@
             },
             "paymentTerm": {
                 "original": "Payment Term",
-                "singular": "Milestone Schedule",
+                "singular": "Payment Term",
                 "plural": "",
                 "setupEdit": true,
                 "setupVisible": true
@@ -10226,10 +10226,10 @@
             "projectWithSFExtIdNotFound": "Invalid SF ExternalId",
             "projectGeoFenceNotFound": "Deployment GeoFence not found",
             "projectServiceZoneNotFound": "Deployment Service Zone not found",
-            "projectCategoryNotFound": "Deployment Scope not found",
+            "projectCategoryNotFound": "Deployment Category not found",
             "projectStatusNotFound": "Deployment Status not found",
             "projectCustomerNotFound": "Deployment Site Host not found",
-            "projectTypeNotFound": "Deployment Class not found",
+            "projectTypeNotFound": "Deployment Type not found",
             "projectIdExists": "A new deployment cannot already have an ID",
             "projectExtidNotFound": "Deployment ExternalId not found",
             "projectCannotDeleteBySites": "Unable to delete, Deployment is used in one or more Stations",
@@ -14570,7 +14570,7 @@
                     "label": {
                         "original": "Type",
                         "singular": "Type",
-                        "plural": "Type",
+                        "plural": "Types",
                         "setupEdit": false,
                         "setupVisible": false
                     },
@@ -15226,8 +15226,8 @@
                     "setupVisible": false,
                     "label": {
                         "original": "Fault",
-                        "singular": "Failure Code",
-                        "plural": "Failure Code",
+                        "singular": "Fault",
+                        "plural": "Faults",
                         "setupEdit": false,
                         "setupVisible": false
                     },
@@ -15236,14 +15236,14 @@
                         "setupVisible": false,
                         "sec0": {
                             "original": "Fault Type",
-                            "singular": "Failure Code Type",
+                            "singular": "Fault Type",
                             "plural": "",
                             "setupEdit": false,
                             "setupVisible": false
                         },
                         "sec1": {
                             "original": "Fault Type Details",
-                            "singular": "Failure Code Type Details",
+                            "singular": "Fault Type Details",
                             "plural": "",
                             "setupEdit": false,
                             "setupVisible": false
@@ -15303,7 +15303,7 @@
                         }
                     },
                     "messages": {
-                        "commonFaultsRaised": "The list of most common failure code raised"
+                        "commonFaultsRaised": "The list of most common fault raised"
                     }
                 },
                 "resolution": {
@@ -15396,8 +15396,8 @@
                     "setupVisible": false,
                     "label": {
                         "original": "System",
-                        "singular": "Affected Subsystem",
-                        "plural": "Affected Subsystems",
+                        "singular": "System",
+                        "plural": "Systems",
                         "setupEdit": false,
                         "setupVisible": false
                     },
@@ -15406,7 +15406,7 @@
                         "setupVisible": false,
                         "sec0": {
                             "original": "System Details",
-                            "singular": "Affected Subsystem Details",
+                            "singular": "System Details",
                             "plural": "",
                             "setupEdit": false,
                             "setupVisible": false
@@ -15459,7 +15459,7 @@
                         }
                     },
                     "messages": {
-                        "differentSystem": "The different affected subsystem by which your",
+                        "differentSystem": "The different system by which your",
                         "areCategorized": "are categorized"
                     }
                 },
@@ -15468,8 +15468,8 @@
                     "setupVisible": false,
                     "label": {
                         "original": "Type",
-                        "singular": "Logistics Class",
-                        "plural": "Logistics Class",
+                        "singular": "Type",
+                        "plural": "Types",
                         "setupEdit": false,
                         "setupVisible": false
                     },
@@ -15478,21 +15478,21 @@
                         "setupVisible": false,
                         "sec0": {
                             "original": "Type Details",
-                            "singular": "Logistics Class Details",
+                            "singular": "Type Details",
                             "plural": "",
                             "setupEdit": false,
                             "setupVisible": false
                         },
                         "sec1": {
                             "original": "Available Statuses for this Type",
-                            "singular": "Available Statuses for this Logistics Class",
+                            "singular": "Available Statuses for this Type",
                             "plural": "",
                             "setupEdit": false,
                             "setupVisible": false
                         },
                         "sec2": {
                             "original": "Specify the statuses that apply to this Job Order Type. Those in the right hand box will be displayed in the status picklist when this Job Order Type is selected",
-                            "singular": "Specify the statuses that apply to this Job Order Logistics Class. Those in the right hand box will be displayed in the status picklist when this Job Order Logistics Class is selected",
+                            "singular": "Specify the statuses that apply to this Job Order Type. Those in the right hand box will be displayed in the status picklist when this Job Order Type is selected",
                             "plural": "",
                             "setupEdit": false,
                             "setupVisible": false
@@ -15552,14 +15552,14 @@
                         }
                     },
                     "messages": {
-                        "describeType": "Describe the logistics class of",
+                        "describeType": "Describe the Type of",
                         "youReceive": "you receive",
                         "youHave": "you have",
                         "raisedToTeam": "raised to your team",
-                        "availableStatus": "Available Statuses for this Logistics Class",
-                        "specifyStatusJobOrder": "Specify the statuses that apply to this Job Order Logistics Class. Those in the right hand box will be displayed in the status picklist when this Job Order Logistics Class is selected",
-                        "notForThisJobType": "Not for this Job Order Logistics Class",
-                        "forThisJobType": "For this Job Order Logistics Class"
+                        "availableStatus": "Available Statuses for this Type",
+                        "specifyStatusJobOrder": "Specify the statuses that apply to this Job Order Type. Those in the right hand box will be displayed in the status picklist when this Job Order Type is selected",
+                        "notForThisJobType": "Not for this Job Order Type",
+                        "forThisJobType": "For this Job Order Type"
                     }
                 }
             },
@@ -15571,8 +15571,8 @@
                     "setupVisible": false,
                     "label": {
                         "original": "Type",
-                        "singular": "Logistics Class",
-                        "plural": "Logistics Class",
+                        "singular": "Type",
+                        "plural": "Types",
                         "setupEdit": false,
                         "setupVisible": false
                     },
@@ -15581,21 +15581,21 @@
                         "setupVisible": false,
                         "sec0": {
                             "original": "Type Details",
-                            "singular": "Logistics Class Details",
+                            "singular": "Type Details",
                             "plural": "",
                             "setupEdit": false,
                             "setupVisible": false
                         },
                         "sec1": {
                             "original": "Available Statuses for this Type",
-                            "singular": "Available Statuses for this Logistics Class",
+                            "singular": "Available Statuses for this Type",
                             "plural": "",
                             "setupEdit": false,
                             "setupVisible": false
                         },
                         "sec2": {
                             "original": "Specify the statuses that apply to this Job Order Type. Those in the right hand box will be displayed in the status picklist when this Job Order Type is selected",
-                            "singular": "Specify the statuses that apply to this Job Order Logistics Class. Those in the right hand box will be displayed in the status picklist when this Job Order Logistics Class is selected",
+                            "singular": "Specify the statuses that apply to this Job Order Type. Those in the right hand box will be displayed in the status picklist when this Job Order Type is selected",
                             "plural": "",
                             "setupEdit": false,
                             "setupVisible": false
@@ -15655,14 +15655,14 @@
                         }
                     },
                     "messages": {
-                        "describeType": "Describe the logistics class of",
+                        "describeType": "Describe the Type of",
                         "youReceive": "you receive",
                         "youHave": "you have",
                         "raisedToTeam": "raised to your team",
-                        "availableStatus": "Available Statuses for this Logistics Class",
-                        "specifyStatusJobOrder": "Specify the statuses that apply to this Job Order Logistics Class. Those in the right hand box will be displayed in the status picklist when this Job Order Logistics Class is selected",
-                        "notForThisJobType": "Not for this Job Order Logistics Class",
-                        "forThisJobType": "For this Job Order Logistics Class"
+                        "availableStatus": "Available Statuses for this Type",
+                        "specifyStatusJobOrder": "Specify the statuses that apply to this Job Order Type. Those in the right hand box will be displayed in the status picklist when this Job Order Type is selected",
+                        "notForThisJobType": "Not for this Job Order Type",
+                        "forThisJobType": "For this Job Order Type"
                     }
                 },
                 "family": {
@@ -15670,8 +15670,8 @@
                     "setupVisible": false,
                     "label": {
                         "original": "Family",
-                        "singular": "Commodity Group",
-                        "plural": "Commodity Group",
+                        "singular": "Family",
+                        "plural": "Family",
                         "setupEdit": false,
                         "setupVisible": false
                     },
@@ -15680,7 +15680,7 @@
                         "setupVisible": false,
                         "sec0": {
                             "original": "Family Details",
-                            "singular": "Commodity Group Details",
+                            "singular": "Family Details",
                             "plural": "",
                             "setupEdit": false,
                             "setupVisible": false
@@ -15832,8 +15832,8 @@
                     "setupVisible": false,
                     "label": {
                         "original": "Type",
-                        "singular": "Deployment Class",
-                        "plural": "Deployment Class",
+                        "singular": "Type",
+                        "plural": "Types",
                         "setupEdit": false,
                         "setupVisible": false
                     },
@@ -15842,21 +15842,21 @@
                         "setupVisible": false,
                         "sec0": {
                             "original": "Type Details",
-                            "singular": "Deployment Class Details",
+                            "singular": "Type Details",
                             "plural": "",
                             "setupEdit": false,
                             "setupVisible": false
                         },
                         "sec1": {
                             "original": "Available Statuses for this Type",
-                            "singular": "Available Statuses for this Deployment Class",
+                            "singular": "Available Statuses for this Type",
                             "plural": "",
                             "setupEdit": false,
                             "setupVisible": false
                         },
                         "sec2": {
                             "original": "Specify the statuses that apply to this Job Order Type. Those in the right hand box will be displayed in the status picklist when this Job Order Type is selected",
-                            "singular": "Specify the statuses that apply to this Job Order Deployment Class. Those in the right hand box will be displayed in the status picklist when this Job Order Deployment Class is selected",
+                            "singular": "Specify the statuses that apply to this Job Order Type. Those in the right hand box will be displayed in the status picklist when this Job Order Type is selected",
                             "plural": "",
                             "setupEdit": false,
                             "setupVisible": false
@@ -15916,14 +15916,14 @@
                         }
                     },
                     "messages": {
-                        "describeType": "Describe the deployment class of",
+                        "describeType": "Describe the Type of",
                         "youReceive": "you receive",
                         "youHave": "you have",
                         "raisedToTeam": "raised to your team",
-                        "availableStatus": "Available Statuses for this Deployment Class",
-                        "specifyStatusJobOrder": "Specify the statuses that apply to this Job Order Deployment Class. Those in the right hand box will be displayed in the status picklist when this Job Order Deployment Class is selected",
-                        "notForThisJobType": "Not for this Job Order Deployment Class",
-                        "forThisJobType": "For this Job Order Deployment Class"
+                        "availableStatus": "Available Statuses for this Type",
+                        "specifyStatusJobOrder": "Specify the statuses that apply to this Job Order Type. Those in the right hand box will be displayed in the status picklist when this Job Order Type is selected",
+                        "notForThisJobType": "Not for this Job Order Type",
+                        "forThisJobType": "For this Job Order Type"
                     }
                 },
                 "category": {
@@ -15931,8 +15931,8 @@
                     "setupVisible": false,
                     "label": {
                         "original": "Category",
-                        "singular": "Construction Scope",
-                        "plural": "Construction Scope",
+                        "singular": "Category",
+                        "plural": "Category",
                         "setupEdit": false,
                         "setupVisible": false
                     },
@@ -15941,7 +15941,7 @@
                         "setupVisible": false,
                         "sec0": {
                             "original": "Category Details",
-                            "singular": "Construction Scope Details",
+                            "singular": "Category Details",
                             "plural": "",
                             "setupEdit": false,
                             "setupVisible": false
@@ -15995,7 +15995,7 @@
                     },
                     "messages": {
                         "differentWays": "The different ways your",
-                        "categorized": "scoped"
+                        "categorized": "categorized"
                     }
                 }
             },
@@ -16261,8 +16261,8 @@
                     "setupVisible": false,
                     "label": {
                         "original": "Type",
-                        "singular": "Electrical Topology",
-                        "plural": "Electrical Topology",
+                        "singular": "Type",
+                        "plural": "Types",
                         "setupEdit": false,
                         "setupVisible": false
                     },
@@ -16271,14 +16271,14 @@
                         "setupVisible": false,
                         "sec0": {
                             "original": "Type Details",
-                            "singular": "Electrical Topology Details",
+                            "singular": "Type Details",
                             "plural": "",
                             "setupEdit": false,
                             "setupVisible": false
                         },
                         "sec1": {
                             "original": "Available Statuses for this Type",
-                            "singular": "Available Statuses for this Electrical Topology",
+                            "singular": "Available Statuses for this Type",
                             "plural": "",
                             "setupEdit": false,
                             "setupVisible": false
@@ -16345,11 +16345,11 @@
                         }
                     },
                     "messages": {
-                        "describeType": "Describe the Electrical Topology of",
+                        "describeType": "Describe the Type of",
                         "youReceive": "you receive",
                         "youHave": "you have",
                         "raisedToTeam": "raised to your team",
-                        "availableStatus": "Available Statuses for this Electrical Topology",
+                        "availableStatus": "Available Statuses for this Type",
                         "specifyStatusJobOrder": "Specify the statuses that apply to this Job Order Topology. Those in the right hand box will be displayed in the status picklist when this Job Order Topology is selected",
                         "notForThisJobType": "Not for this Job Order Topology",
                         "forThisJobType": "For this Job Order Topology"
@@ -16360,8 +16360,8 @@
                     "setupVisible": false,
                     "label": {
                         "original": "Category",
-                        "singular": "Site Classification",
-                        "plural": "Site Classifications",
+                        "singular": "Category",
+                        "plural": "Categories",
                         "setupEdit": false,
                         "setupVisible": false
                     },
@@ -16370,7 +16370,7 @@
                         "setupVisible": false,
                         "sec0": {
                             "original": "Category Details",
-                            "singular": "Site Classification Details",
+                            "singular": "Category Details",
                             "plural": "",
                             "setupEdit": false,
                             "setupVisible": false
@@ -16432,8 +16432,8 @@
                     "setupVisible": false,
                     "label": {
                         "original": "Sub Category",
-                        "singular": "Physical Environment",
-                        "plural": "Physical Environment",
+                        "singular": "Sub Category",
+                        "plural": "Sub Category",
                         "setupEdit": false,
                         "setupVisible": false
                     },
@@ -16442,7 +16442,7 @@
                         "setupVisible": false,
                         "sec0": {
                             "original": "Sub Category Details",
-                            "singular": "Physical Environment Details",
+                            "singular": "Sub Category Details",
                             "plural": "",
                             "setupEdit": false,
                             "setupVisible": false
@@ -16510,8 +16510,8 @@
                     "setupVisible": false,
                     "label": {
                         "original": "Area",
-                        "singular": "DNO",
-                        "plural": "DNO",
+                        "singular": "Area",
+                        "plural": "Area",
                         "setupEdit": false,
                         "setupVisible": false
                     },
@@ -16520,7 +16520,7 @@
                         "setupVisible": false,
                         "sec0": {
                             "original": "Area Details",
-                            "singular": "DNO Details",
+                            "singular": "Area Details",
                             "plural": "",
                             "setupEdit": false,
                             "setupVisible": false
@@ -16573,7 +16573,7 @@
                         }
                     },
                     "messages": {
-                        "yourListOf": "Your list of DNOs your",
+                        "yourListOf": "Your list of areas your",
                         "resideIn": "reside in"
                     }
                 }
@@ -22348,9 +22348,9 @@
             "setupPreventiveMaintenanceNotificationSetupIdExists": "A new Preventive Maintenance Notification Setup cannot already have an ID",
             "setupProductConfigIdExists": "A new Spare Part Config cannot already have an ID",
             "setupProductConfigIdNotFound": "Id not found",
-            "setupProductFamilyIdExists": "A new Commodity Group cannot already have an ID",
-            "setupProductFamilyHasProduct": "Spare Part Data exists in the system for the Commodity Group",
-            "setupProductFamilyNotFound": "Commodity Group not found",
+            "setupProductFamilyIdExists": "A new Family cannot already have an ID",
+            "setupProductFamilyHasProduct": "Spare Part Data exists in the system for the Family",
+            "setupProductFamilyNotFound": "Family not found",
             "setupProductMeasureUnitIdExists": "A new Spare Part Measure Unit cannot already have an ID",
             "setupProductMeasureUnitNameExists": "Name already exists",
             "setupProductTypeIdExists": "A new Spare Part Type cannot already have an ID",
@@ -22362,7 +22362,7 @@
             "setupProjectCategorySystemGenerated": "System generated Deployment Scope are not allowed to be deleted",
             "setupProjectConfigIdExists": "A new Deployment Config cannot already have an ID",
             "setupProjectStatusIdExists": "A new Deployment Status cannot already have an ID",
-            "setupProjectTypeIdExists": "A new Deployment Class cannot already have an ID",
+            "setupProjectTypeIdExists": "A new Type cannot already have an ID",
             "setupProjectTypeNameLabelExists": "Name/ Label already exists",
             "setupRegionalHolidayIdExists": "A new Regional Holiday cannot already have an ID",
             "setupRegionalHolidayHolidayNotFound": "Holiday not found",
