@@ -1700,7 +1700,7 @@
             "noAssetsFound": "No Equipments Found",
             "noScheduledMaintenance": "No Scheduled Maintenance",
             "noPriorMaintenance": "No Prior Maintenances",
-            "noUpcomingJobs": "No Upcoming Works",
+            "noUpcomingJobs": "No Upcoming Jobs",
             "previously": "Previously",
             "from": "From",
             "warrantyStartDate": "Warranty start date should not be greater than warranty end date",
@@ -2226,8 +2226,8 @@
             "setupEdit": false,
             "sec0": {
                 "original": "Maintenance Jobs",
-                "singular": "Maintenance Work",
-                "plural": "Maintenance Works",
+                "singular": "Maintenance Job",
+                "plural": "Maintenance Jobs",
                 "setupEdit": false,
                 "setupVisible": false
             },
@@ -3244,7 +3244,7 @@
             "noQuestionsFound": "No Questions Found",
             "updateTheStatusOf": "Update the status of:",
             "updateStatus": "Update Status",
-            "forIncompleteChecklists": "For incomplete checklists to be updated in the future. No Works or Tasks will be triggered using this status",
+            "forIncompleteChecklists": "For incomplete checklists to be updated in the future. No Jobsor Tasks will be triggered using this status",
             "thisStatusWillTrigger": "This status will trigger any Job Orders and Tasks related to this checklist’s answers",
             "updateStatusTo": "Update status to",
             "noStatusToDisplay": "No Status to Display",
@@ -4912,8 +4912,8 @@
             },
             "sec19": {
                 "original": "Job Details",
-                "singular": "Work Details",
-                "plural": "Work Details",
+                "singular": "Job Details",
+                "plural": "Job Details",
                 "setupEdit": false,
                 "setupVisible": false
             },
@@ -5931,7 +5931,7 @@
             },
             "jobNumber": {
                 "original": "Job No.",
-                "singular": "Work No.",
+                "singular": "Job No.",
                 "plural": "",
                 "setupEdit": false,
                 "setupVisible": false
@@ -5959,21 +5959,21 @@
             },
             "jobStatus": {
                 "original": "Job Status",
-                "singular": "Work Status",
+                "singular": "Job Status",
                 "plural": "",
                 "setupEdit": false,
                 "setupVisible": false
             },
             "jobStatusRemark": {
                 "original": "Job Status Remark",
-                "singular": "Work Status Remark",
+                "singular": "Job Status Remark",
                 "plural": "",
                 "setupEdit": false,
                 "setupVisible": false
             },
             "jobSummary": {
                 "original": "Job Summary",
-                "singular": "Work Summary",
+                "singular": "Job Summary",
                 "plural": "",
                 "setupEdit": false,
                 "setupVisible": false
@@ -9605,7 +9605,7 @@
             },
             "skillsUsedToFind": {
                 "original": "Skills are used to find the best staff for the job when using Smart Assign",
-                "singular": "Skills are used to find the best staff for the Work when using Smart Assign",
+                "singular": "Skills are used to find the best staff for the job when using Smart Assign",
                 "plural": "",
                 "setupEdit": false,
                 "setupVisible": false
@@ -11660,7 +11660,7 @@
                     },
                     "usersIntegrateCalendly": {
                         "original": "Users will be able to integrate to Calendly for Job scheduling",
-                        "singular": "Users will be able to integrate to Calendly for Work scheduling",
+                        "singular": "Users will be able to integrate to Calendly for Job scheduling",
                         "plural": "",
                         "setupEdit": true,
                         "setupVisible": false
@@ -12557,7 +12557,7 @@
                     },
                     "connectToCalendly": {
                         "original": "Connect your Calendly account to your FieldEx calendar for job scheduling",
-                        "singular": "Connect your Calendly account to your FieldEx calendar for Work scheduling",
+                        "singular": "Connect your Calendly account to your FieldEx calendar for Job scheduling",
                         "plural": "",
                         "setupEdit": true,
                         "setupVisible": false
@@ -13821,15 +13821,15 @@
                     },
                     "dailyJobRundown": {
                         "original": "Daily Job Rundown",
-                        "singular": "Daily Work Rundown",
-                        "plural": "Daily Work Rundown",
+                        "singular": "Daily Job Rundown",
+                        "plural": "Daily Job Rundown",
                         "setupEdit": false,
                         "setupVisible": false
                     },
                     "postJobSummary": {
                         "original": "Post-Job Summary",
-                        "singular": "Post-Work Summary",
-                        "plural": "Post-Work Summaries",
+                        "singular": "Post-Job Summary",
+                        "plural": "Post-Job Summaries",
                         "setupEdit": false,
                         "setupVisible": false
                     },
@@ -13870,9 +13870,9 @@
                     "completedBy": "Completed by",
                     "beta": "beta",
                     "enableOrDisableSuggestions": "Enable or disable suggestions and features powered by our friendly AI, Finley. Features that are enabled will be accessible to all users in your organization, allowing them to customize their preferences by turning specific features on or off.",
-                    "aCategorizedSummary": "A categorized summary of your works for today.",
+                    "aCategorizedSummary":"A categorized summary of your jobs for today.",
                     "conciseSummaryKeyDetails": "A concise summary of key details for completed job orders, displayed in the job order view",
-                    "taskTimeSuggestions": "Task time suggestions based on previous work and task data.",
+                    "taskTimeSuggestions": "Task time suggestions based on previous job and task data.",
                     "useAiToGenerateChecklist": "Use AI to generate checklist questions from a brief prompt or sample forms.",
                     "web": "Web",
                     "mobile": "Mobile",
@@ -13881,8 +13881,8 @@
                     "tips": "Tips",
                     "onHowTo": "on how to make the most out of this feature.",
                     "storage": "Storage",
-                    "allowAiSuggestJob": "Allow AI to suggest work completion steps based on the training materials you have uploaded to FieldEx.",
-                    "allowAiSuggestJobSpareParts": "Allow AI to suggest work spare parts based on the training materials you have uploaded to FieldEx.",
+                    "allowAiSuggestJob": "Allow AI to suggest job completion steps based on the training materials you have uploaded to FieldEx.",
+                    "allowAiSuggestJobSpareParts": "Allow AI to suggest job spare parts based on the training materials you have uploaded to FieldEx.",
                     "of": "of",
                     "selectAFileDropHere": "Select a file or drag and drop here",
                     "txtPdfNoMore15Mb": "TXT or PDF file size no more than 15MB",
@@ -19755,7 +19755,7 @@
                 }
             },
             "messages": {
-                "noJobOrderCreatedForThisSelection": "No Works Order created if this answer is selected",
+                "noJobOrderCreatedForThisSelection": "No JobsOrder created if this answer is selected",
                 "createsJobOrder": "Creates Job Order",
                 "defaultAnswer": "Default answer"
             }
@@ -22339,9 +22339,9 @@
             "setupIndustryIdExists": "A new Industry cannot already have an ID",
             "setupIntergrationLogIdExists": "A new Integration Log cannot already have an ID",
             "setupJobOrderSurveyIdExists": "A new Job Order Survey cannot already have an ID",
-            "setupJobTypeIdExists": "A new Work Type cannot already have an ID",
+            "setupJobTypeIdExists": "A new Job Type cannot already have an ID",
             "setupJobTypeIdNotFound": "Id not found",
-            "setupJobTypeSkillsIdExists": "A new Work Type Skill cannot already have an ID",
+            "setupJobTypeSkillsIdExists": "A new Job Type Skill cannot already have an ID",
             "setupJobTypeSkillsIdNotFound": "Id not found",
             "setupLeaveOutTurnCodeIdExists": "A new Leave Out Turn Code cannot already have an ID",
             "setupOutTurnCodeIdExists": "A new Out Turn Code cannot already have an ID",
@@ -24911,7 +24911,7 @@
                 "setupVisible": false
             },
             "messages": {
-                "forIncompleteChecklists": "For incomplete checklists to be updated in the future. No Works or Tasks will be triggered using this status",
+                "forIncompleteChecklists": "For incomplete checklists to be updated in the future. No Jobsor Tasks will be triggered using this status",
                 "thisStatusWillTriggerAnyJobOrders": "This status will trigger any Job Orders and Tasks related to this checklist's answers",
                 "updateStatusTo": "Update status to",
                 "updateStatus": "Update Status",
@@ -26208,7 +26208,7 @@
                 },
                 "totalJobs": {
                     "original": "Total Jobs",
-                    "singular": "Total Works",
+                    "singular": "Total Jobs",
                     "plural": "",
                     "setupEdit": true,
                     "setupVisible": false
@@ -26303,7 +26303,7 @@
                 },
                 "sec2": {
                     "original": "Technician Jobs",
-                    "singular": "Technician Works",
+                    "singular": "Technician Jobs",
                     "plural": "",
                     "setupEdit": true,
                     "setupVisible": false
