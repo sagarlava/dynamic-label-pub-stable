@@ -384,7 +384,7 @@
             "customerPriceBookNotFound": "Site Host Price Book not found",
             "customerPriceBookIdNotFound": "Site Host Price Book Id not found",
             "customerPriceBookUpdateFailed": "Failed to update price book of site host",
-            "customerCannotDeleteByJobOrderTemplates": "Unable to Delete: Site Host is part of one or more work order templates"
+            "customerCannotDeleteByJobOrderTemplates": "Unable to Delete: Site Host is part of one or more job order templates"
         },
         "tooltips": {
             "setupVisible": false,
@@ -618,7 +618,7 @@
             "salesOrderNumberExidNotFound": "OrderNumber/ExternalId not found",
             "salesOrderIdNotFound": "Id not found",
             "salesOrderNoPermissionToView": "You do not have permission to view this record",
-            "salesOrderHasJobOrder": "Work Order Data exists in the system for the Sales order",
+            "salesOrderHasJobOrder": "Job Order Data exists in the system for the Sales order",
             "salesOrderHasDeliveryOrder": "Delivery Order Data exists in the system for the Sales order",
             "salesOrderHasCustomerPayment": "Site Host Payment Data exists in the system for the Sales order",
             "salesOrderHasCustomerPurchase": "Site Host Purchase Data exists in the system for the Sales order",
@@ -1857,7 +1857,7 @@
             },
             "autoCreateJobOrder": {
                 "original": "Automatically Generate Job Order",
-                "singular": "Automatically Generate Work Order",
+                "singular": "Automatically Generate Job Order",
                 "plural": "",
                 "setupEdit": false,
                 "setupVisible": false
@@ -1962,7 +1962,7 @@
             },
             "generateJobOrder": {
                 "original": "Generate Job Order",
-                "singular": "Generate Work Order",
+                "singular": "Generate Job Order",
                 "plural": "",
                 "setupEdit": false,
                 "setupVisible": false
@@ -1977,8 +1977,8 @@
             "maintenanceItemIdNotFound": "Id not found",
             "maintenanceItemNotFound": "Maintenance Item not found",
             "maintenanceItemInvalidStatus": "Only allowed statuses: COMPLETED/PENDING/OVER_DUE",
-            "maintenanceItemHasJobOrderOrMaintenanceStatus": "Active Work Order or COMPLETED/OVERDUE Schedules Data exists in the system for the Maintenance Item",
-            "maintenanceItemHasJobOrder": "Work Order Data exists in the system for the Maintenance Item",
+            "maintenanceItemHasJobOrderOrMaintenanceStatus": "Active Job Order or COMPLETED/OVERDUE Schedules Data exists in the system for the Maintenance Item",
+            "maintenanceItemHasJobOrder": "Job Order Data exists in the system for the Maintenance Item",
             "maintenanceItemUnableToDelete": "Only allowed to delete PENDING Maintenance Status",
             "maintenanceItemTableSetupNotFound": "Maintenance Item Table Setup not found, please contact support",
             "maintainancePlanNotFound": "Maintenance Plan not found",
@@ -2000,13 +2000,13 @@
             "maintainancePlanSiteNotPartOfPlan": "Site is not part of the maintenance plan",
             "maintainancePlanInvalidAutoAddAssetCriteriaId": "Invalid auto add asset criteria ID",
             "maintainancePlanAssetPMInvalidId": "Invalid asset maintainance plan ID",
-            "maintainancePlanNotAllowedToAlterPastJobOrderGenerationDate": "Not allowed to alter past work order generation date",
+            "maintainancePlanNotAllowedToAlterPastJobOrderGenerationDate": "Not allowed to alter past Job Order generation date",
             "maintainancePlanSitePMInvalidId": "Invalid site maintainance plan ID",
             "maintainancePlanNoAssetNextCycleItemFound": "No next maintenance plan cycle item found for asset maintenance plan",
             "maintainancePlanNoSiteNextCycleItemFound": "No next maintenance plan cycle item found for site maintenance plan",
             "maintainancePlanCannotDeleteActivePlan": "Cannot delete an active maintenance plan",
             "maintainancePlanCannotDeleteReferencedPlan": "Cannot delete maintenance plan as it is referenced by other records",
-            "maintainancePlanJobOrderCannotDeleteLinkedActivePlan": "Work Order linked to active Maintenance Plan cannot be deleted"
+            "maintainancePlanJobOrderCannotDeleteLinkedActivePlan": "Job Order linked to active Maintenance Plan cannot be deleted"
         },
         "tooltips": {
             "setupVisible": false,
@@ -2107,7 +2107,7 @@
             },
             "generateJobOrder": {
                 "original": "Generate Job Order",
-                "singular": "Generate Work Order",
+                "singular": "Generate Job Order",
                 "plural": "",
                 "setupEdit": false,
                 "setupVisible": false
@@ -2880,7 +2880,7 @@
             },
             "autoCreateJobOrder": {
                 "original": "Automatically Generate Job Order",
-                "singular": "Automatically Generate Work Order",
+                "singular": "Automatically Generate Job Order",
                 "plural": "",
                 "setupEdit": true,
                 "setupVisible": true
@@ -3062,8 +3062,8 @@
             },
             "sec15": {
                 "original": "Select the Checklist(s) you'd like to add to this Job Order",
-                "singular": "Select the Checklist(s) you'd like to add to this Work Order",
-                "plural": "Select the Checklist(s) you'd like to add to this Work Order",
+                "singular": "Select the Checklist(s) you'd like to add to this Job Order",
+                "plural": "Select the Checklist(s) you'd like to add to this Job Order",
                 "setupEdit": false,
                 "setupVisible": false
             }
@@ -3171,7 +3171,7 @@
             },
             "jobOrderType": {
                 "original": "Job Order Type",
-                "singular": "Work Order Type",
+                "singular": "Job Order Type",
                 "plural": "",
                 "setupEdit": false,
                 "setupVisible": false
@@ -3245,7 +3245,7 @@
             "updateTheStatusOf": "Update the status of:",
             "updateStatus": "Update Status",
             "forIncompleteChecklists": "For incomplete checklists to be updated in the future. No Works or Tasks will be triggered using this status",
-            "thisStatusWillTrigger": "This status will trigger any Work Orders and Tasks related to this checklist’s answers",
+            "thisStatusWillTrigger": "This status will trigger any Job Orders and Tasks related to this checklist’s answers",
             "updateStatusTo": "Update status to",
             "noStatusToDisplay": "No Status to Display",
             "updateChecklistStatus": "Update Checklist Status",
@@ -4490,7 +4490,7 @@
             },
             "sec8": {
                 "original": "Add a spare part and quantity to be created under Job Orders generated from this template",
-                "singular": "Add a spare part and quantity to be created under Work Orders generated from this template",
+                "singular": "Add a spare part and quantity to be created under Job Orders generated from this template",
                 "plural": "",
                 "setupEdit": false,
                 "setupVisible": false
@@ -4728,7 +4728,7 @@
         "validationBE": {
             "productNotFound": "Spare Part not found",
             "productIdNotFound": "Id not found",
-            "productHasJobOrderOrSalesOrder": "Work Order/Sales Order Data exists in the system for the Spare Part",
+            "productHasJobOrderOrSalesOrder": "Job Order/Sales Order Data exists in the system for the Spare Part",
             "productHasCustomerServiceReportItem": "Customer Service Report Item Data exists in the system for the Spare Part",
             "productHasInventoryItem": "Inventory Item Data exists in the system for the Spare Part",
             "productHasConsignmentItem": "Consignment Item Data exists in the system for the Spare Part",
@@ -4769,8 +4769,8 @@
         "setupEdit": true,
         "label": {
             "original": "Job Order",
-            "singular": "Work Order",
-            "plural": "Work Orders",
+            "singular": "Job Order",
+            "plural": "Job Orders",
             "setupEdit": true,
             "setupVisible": true
         },
@@ -5059,8 +5059,8 @@
             },
             "sec40": {
                 "original": "Job Order Details",
-                "singular": "Work Order Details",
-                "plural": "Work Order Details",
+                "singular": "Job Order Details",
+                "plural": "Job Order Details",
                 "setupEdit": false,
                 "setupVisible": false
             },
@@ -5546,7 +5546,7 @@
             },
             "createTaskThisJo": {
                 "original": "Create a Task for this Job Order",
-                "singular": "Create a Task for this Work Order",
+                "singular": "Create a Task for this Job Order",
                 "plural": "",
                 "setupEdit": false,
                 "setupVisible": false
@@ -5917,14 +5917,14 @@
             },
             "joContact": {
                 "original": "Job Order Contact",
-                "singular": "Work Order Contact",
+                "singular": "Job Order Contact",
                 "plural": "",
                 "setupEdit": false,
                 "setupVisible": false
             },
             "joOwner": {
                 "original": "Job Order Owner",
-                "singular": "Work Order Owner",
+                "singular": "Job Order Owner",
                 "plural": "",
                 "setupEdit": false,
                 "setupVisible": false
@@ -5938,21 +5938,21 @@
             },
             "jobOrderCompletionForm": {
                 "original": "Job Order Completion Form",
-                "singular": "Work Order Completion Form",
+                "singular": "Job Order Completion Form",
                 "plural": "",
                 "setupEdit": false,
                 "setupVisible": false
             },
             "jobOrderId": {
                 "original": "Job Order ID",
-                "singular": "Work Order ID",
+                "singular": "Job Order ID",
                 "plural": "",
                 "setupEdit": false,
                 "setupVisible": false
             },
             "jobOrderNo": {
                 "original": "Job Order No",
-                "singular": "Work Order No",
+                "singular": "Job Order No",
                 "plural": "",
                 "setupEdit": false,
                 "setupVisible": false
@@ -6267,7 +6267,7 @@
             },
             "referenceJobOrder": {
                 "original": "Reference Job Order",
-                "singular": "Reference Work Order",
+                "singular": "Reference Job Order",
                 "plural": "",
                 "setupEdit": false,
                 "setupVisible": false
@@ -6400,7 +6400,7 @@
             },
             "selectToSendCalendlyLink": {
                 "original": "Send a link to your customer to book their slot for this Job Order",
-                "singular": "Send a link to your site host to book their slot for this Work Order",
+                "singular": "Send a link to your site host to book their slot for this Job Order",
                 "plural": "",
                 "setupEdit": false,
                 "setupVisible": false
@@ -6435,7 +6435,7 @@
             },
             "sendSurveyToCustJo": {
                 "original": "Send a survey link to your customer for this Job Order",
-                "singular": "Send a survey link to your site host for this Work Order",
+                "singular": "Send a survey link to your site host for this Job Order",
                 "plural": "",
                 "setupEdit": false,
                 "setupVisible": false
@@ -6603,7 +6603,7 @@
             },
             "createTaskForThisJo": {
                 "original": "Create task for this Job Order",
-                "singular": "Create task for this Work Order",
+                "singular": "Create task for this Job Order",
                 "plural": "",
                 "setupEdit": false,
                 "setupVisible": false
@@ -6764,7 +6764,7 @@
             },
             "updateJoTimeDate": {
                 "original": "Update this Job Orders's Time & Date",
-                "singular": "Update this Work Orders's Time & Date",
+                "singular": "Update this Job Orders's Time & Date",
                 "plural": "",
                 "setupEdit": false,
                 "setupVisible": false
@@ -6813,7 +6813,7 @@
             },
             "whatHappenCustBooking": {
                 "original": "What should happen when the customer makes an appointment for this Job Order?",
-                "singular": "What should happen when the site host makes an appointment for this Work Order?",
+                "singular": "What should happen when the site host makes an appointment for this Job Order?",
                 "plural": "",
                 "setupEdit": false,
                 "setupVisible": false
@@ -7324,7 +7324,7 @@
             },
             "joNumber": {
                 "original": "Job Order No.",
-                "singular": "Work Order No.",
+                "singular": "Job Order No.",
                 "plural": "",
                 "setupEdit": false,
                 "setupVisible": false
@@ -7504,27 +7504,27 @@
             "onDemand": "On Demand",
             "selectAProduct": "Select a Spare Part",
             "userCalendlyNoIntegrate": "This user does not have Calendly integrated to their account",
-            "noContactFoundForThisJobOrder": "No contact found for this Work Order",
-            "noContactFoundForTheJobOrdersCustomer": "No contact found for the Work Order's Site Host"
+            "noContactFoundForThisJobOrder": "No contact found for this Job Order",
+            "noContactFoundForTheJobOrdersCustomer": "No contact found for the Job Order's Site Host"
         },
         "validationBE": {
             "jobOrderStatusNotFound": "Status Not Found",
-            "jobOrderNotFound": "Work Order Not Found",
+            "jobOrderNotFound": "Job Order Not Found",
             "jobOrderIdExists": "A new WorkOrder cannot already have an ID",
             "jobOrderExidNotFound": "External Id Not Found",
             "jobOrderIdNotFound": "Id Not Found",
             "jobOrderSfExidNotFound": "Sf External Id Not Found",
-            "jobOrderBiDirectionalLinkFound": "Work Orders cannot be linked bidirectionally",
-            "jobOrderHasTask": "Task Data exists in the system for the Work order",
-            "jobOrderTableSetupNotFound": "Work order Table Setup not found, please contact support",
+            "jobOrderBiDirectionalLinkFound": "Job Orders cannot be linked bidirectionally",
+            "jobOrderHasTask": "Task Data exists in the system for the Job Order",
+            "jobOrderTableSetupNotFound": "Job Order Table Setup not found, please contact support",
             "jobOrderCustomerNotFound": "Site Host Not Found",
             "jobOrderSalesOrderNotFound": "Sales Order Not Found",
             "jobOrderOwnerNotFound": "Order owner Not Found",
             "jobOrderCustomerPurchaseHistoryNotFound": "Site Host Purchase History owner Not Found",
-            "jobOrderTypeNotFound": "Work Order Type Not Found",
-            "jobOrderFaultTypeNotFound": "Work Order Fault Type Not Found",
+            "jobOrderTypeNotFound": "Job Order Type Not Found",
+            "jobOrderFaultTypeNotFound": "Job Order Fault Type Not Found",
             "jobOrderServiceZoneNotFound": "Service Zone Not Found",
-            "jobOrderUncompletedNotFound": "Uncompleted Work Order Not Found",
+            "jobOrderUncompletedNotFound": "Uncompleted Job Order Not Found",
             "jobOrderAssetNotFound": "Equipment Not Found",
             "jobOrderFaultNotFound": "Fault Not Found",
             "jobOrderResolutionNotFound": "Resolution Not Found",
@@ -7538,32 +7538,32 @@
             "jobOrderCustomerSurveyNotFound": "Customer Survey Not Found",
             "jobOrderCustomerSurveyIdNotFound": "Customer Survey Id Not Found",
             "jobOrderCustomerSurveyToEmailsNotFound": "Customer Survey To Emails Not Found",
-            "jobOrderAuditEventHistoryIdExists": "A new Work Order Audit Event History cannot already have an ID",
-            "jobOrderCalendlyIdExists": "A new Work Order Calendly cannot already have an ID",
+            "jobOrderAuditEventHistoryIdExists": "A new Job Order Audit Event History cannot already have an ID",
+            "jobOrderCalendlyIdExists": "A new Job Order Calendly cannot already have an ID",
             "jobOrderCalendlyToEmailNotFound": "To-Email not found",
             "jobOrderCalendlyIdNotFound": "Id not found",
             "jobOrderCalendlyFromUserNotFound": "From-User not found",
-            "jobOrderCalendlyJobOrderNotFound": "Work Order not found",
-            "jobOrderCalendlyWithJobOrderIdNotFound": "Invalid Work Order Id",
-            "jobOrderChecklistIdExists": "A new Work Order Checklist cannot already have an ID",
+            "jobOrderCalendlyJobOrderNotFound": "Job Order not found",
+            "jobOrderCalendlyWithJobOrderIdNotFound": "Invalid Job Order Id",
+            "jobOrderChecklistIdExists": "A new Job Order Checklist cannot already have an ID",
             "jobOrderChecklistAttachmentNotFound": "Invalid attachment",
-            "jobOrderChecklistJobOrderNotFound": "Work Order Checklist referenced Work Order not found",
+            "jobOrderChecklistJobOrderNotFound": "Job Order Checklist referenced Job Order not found",
             "jobOrderChecklistIdEmailNotFound": "Id/ Email not found",
             "jobOrderChecklistPDFGenerationError": "Error in PDF generation",
-            "jobOrderChecklistSectionItemIdExists": "A new Work Order Checklist Section Item cannot already have an ID",
+            "jobOrderChecklistSectionItemIdExists": "A new Job Order Checklist Section Item cannot already have an ID",
             "jobOrderChecklistSectionItemIdNotFound": "Id not found",
-            "jobOrderChecklistSectionIdExists": "A new Work Order Checklist Section cannot already have an ID",
+            "jobOrderChecklistSectionIdExists": "A new Job Order Checklist Section cannot already have an ID",
             "jobOrderChecklistSectionIdNotFound": "Id not found",
-            "jobOrderCompletionRecordIdExists": "A new Work Order Completion Record cannot already have an ID",
+            "jobOrderCompletionRecordIdExists": "A new Job Order Completion Record cannot already have an ID",
             "jobOrderCompletionRecordIdNotFound": "Id not found",
-            "jobOrderFaultTypeIdExists": "A new Work Order Fault Type cannot already have an ID",
+            "jobOrderFaultTypeIdExists": "A new Job Order Fault Type cannot already have an ID",
             "jobOrderFaultTypeIdNotFound": "Id not found",
-            "jobOrderProductIdExists": "A new Work Order Spare Part cannot already have an ID",
+            "jobOrderProductIdExists": "A new Job Order Spare Part cannot already have an ID",
             "jobOrderProductIdNotFound": "Id not found",
-            "jobOrderProductNotFound": "Work Order Spare Part not found",
-            "jobOrderProductStatusIdExists": "A new Work Order Spare Part Status cannot already have an ID",
+            "jobOrderProductNotFound": "Job Order Spare Part not found",
+            "jobOrderProductStatusIdExists": "A new Job Order Spare Part Status cannot already have an ID",
             "jobOrderProductStatusIdNotFound": "Id not found",
-            "slaJobOrderIdExists": "A new Sla Work Order cannot already have an ID",
+            "slaJobOrderIdExists": "A new Sla Job Order cannot already have an ID",
             "jobOrderPriceBookNotFound": "Price Book not found"
         },
         "tooltips": {
@@ -7571,7 +7571,7 @@
             "setupEdit": false,
             "jobOrderLookup": {
                 "original": "Job Order Lookup",
-                "singular": "Work Order Lookup",
+                "singular": "Job Order Lookup",
                 "plural": "",
                 "setupEdit": false,
                 "setupVisible": false
@@ -7585,7 +7585,7 @@
             },
             "refJobOrderLookup": {
                 "original": "Reference Job Order Lookup",
-                "singular": "Reference Work Order Lookup",
+                "singular": "Reference Job Order Lookup",
                 "plural": "",
                 "setupEdit": false,
                 "setupVisible": false
@@ -7600,11 +7600,11 @@
         },
         "messages": {
             "systemTestPassed": "System tested with CMS in good working condition",
-            "newTaskForSelectedDateTime": "A new task will be created under this Work Order for the selected date and time",
-            "noJobOrderCustomerContact": "No contact found for the Work Order's Site Host",
-            "noJobOrderContact": "No contact found for the Work Order",
+            "newTaskForSelectedDateTime": "A new task will be created under this Job Order for the selected date and time",
+            "noJobOrderCustomerContact": "No contact found for the Job Order's Site Host",
+            "noJobOrderContact": "No contact found for the Job Order",
             "noSlaStepDefined": "No SLA step yet",
-            "createJobOrder": "Create Work Order",
+            "createJobOrder": "Create Job Order",
             "linkCopied": "Link Copied",
             "beforeViolation": "before Violation",
             "afterViolation": "after Violation",
@@ -7616,12 +7616,12 @@
             "paused": "Paused",
             "violated": "Violated",
             "completedWithin": "Completed within",
-            "viewCompletionPdf": "View Work Order Completion form in PDF",
+            "viewCompletionPdf": "View Job Order Completion form in PDF",
             "days": "day(s)",
             "hours": "hour(s)",
             "mins": "min(s)",
             "startSLA": "Start SLA",
-            "removeSparePartsLinkedTask": "Do you want to remove all spare parts linked to this task from the Work Order?",
+            "removeSparePartsLinkedTask": "Do you want to remove all spare parts linked to this task from the Job Order?",
             "listOfTask": "List of Task(s)",
             "listOfSparePart": "List of Spare Part(s)",
             "changeStatusTo": "Change status to",
@@ -8186,7 +8186,7 @@
             "selectBin": "Select Bin",
             "confirmAcceptance": "Confirm Acceptance",
             "confirmRejection": "Confirm Rejection",
-            "enterJobOrderNumber": "Enter Work Order Number",
+            "enterJobOrderNumber": "Enter Job Order Number",
             "reasonOptional": "Reason (Optional)",
             "declineTransfer": "Are you sure you want to decline this transfer?",
             "acceptTransfer": "Are you sure you want to accept this transfer?",
@@ -8199,7 +8199,7 @@
             "pleaseSelectFromBinTransfer": "Please select from  bin transfer.",
             "pleaseSelectFromTransfer": "Please select from transfer",
             "pleaseSelectBinTransferType": "Please select to  bin transfer type",
-            "pleaseSelectToTransJoType": "Please select to transfer work order type",
+            "pleaseSelectToTransJoType": "Please select to transfer Job Order type",
             "pleaseSelectToTransfer": "Please select to transfer.",
             "pleaseSelectAtLeastOneTransItem": "Please select at least one transfer item.",
             "binTransfer": "Bin Transfer",
@@ -8207,7 +8207,7 @@
             "binTransferSavedSuccessfully": "Bin Transfer saved successfully",
             "assetsTransferred": "Equipment(s) transferred",
             "productsTransferred": "Spare Part(s) transferred",
-            "assetsAreNotAllowedToTransfer": "Equipments are not allowed to transfer to Work order",
+            "assetsAreNotAllowedToTransfer": "Equipments are not allowed to transfer to Job Order",
             "selectAssetsToTransfer": "Select the equipments you want to transfer",
             "selectBinToTransferAssets": "Select the bin you want to transfer the equipments to",
             "confirmAssetToTransfer": "Confirm the equipment you want to transfer",
@@ -9324,7 +9324,7 @@
             },
             "generateJobOrder": {
                 "original": "Generate Job Order",
-                "singular": "Generate Work Order",
+                "singular": "Generate Job Order",
                 "plural": "",
                 "setupEdit": false,
                 "setupVisible": false
@@ -9551,7 +9551,7 @@
             "taskStockCheckRunningNoValidation": "Invalid Stock Check runningNo",
             "taskAssignedByUserValidation": "Invalid assigned by user",
             "taskProductExidValidation": "Invalid Spare Part externalId",
-            "taskJobOrderExidValidation": "Invalid Work Order externalId",
+            "taskJobOrderExidValidation": "Invalid Job Order externalId",
             "taskSiteExidValidation": "Invalid Station externalId",
             "taskProjectExidValidation": "Invalid deployment externalId",
             "taskAssignedToLiteUserLoginValidation": "Invalid assigned to lite user login",
@@ -9781,7 +9781,7 @@
             "areYouSureWantToRemoveMember": "Are you sure you want to remove the member?",
             "changeOwner": "Change Owner",
             "areYouSureWantToMakeOwner": "Are you sure you want to change the owner?",
-            "generateJobOrderForThisTask": " A Work order will be generated for this task",
+            "generateJobOrderForThisTask": " A Job Order will be generated for this task",
             "selectDateRange": "Please select a date range"
         }
     },
@@ -9970,12 +9970,12 @@
             "siteWithExtIdNotFound": "Invalid ExternalId",
             "siteNotFound": "Station not found",
             "siteTableSetupNotFound": "Station Table Setup not found, please contact support",
-            "siteHasJobOrder": "Work Order Data exists in the system for the Station",
+            "siteHasJobOrder": "Job Order Data exists in the system for the Station",
             "siteHasAssets": "Equipments Data exists in the system for the Station",
             "siteHasContact": "Contact Data exists in the system for the Station",
             "siteHasTicket": "Ticket Data exists in the system for the Station",
             "siteHasTask": "Task Data exists in the system for the Station",
-            "siteHasJobOrderTemplate": "Work Order Template Data exists in the system for the Station",
+            "siteHasJobOrderTemplate": "Job Order Template Data exists in the system for the Station",
             "siteHasTaskTemplate": "Task Template Data exists in the system for the Station",
             "siteCustomerNotFound": "Station Host not found",
             "siteTypeNotFound": "Station Electrical Topology not found",
@@ -10233,8 +10233,8 @@
             "projectIdExists": "A new deployment cannot already have an ID",
             "projectExtidNotFound": "Deployment ExternalId not found",
             "projectCannotDeleteBySites": "Unable to delete, Deployment is used in one or more Stations",
-            "projectCannotDeleteByJobOrders": "Unable to delete, Deployment is used in one or more Work Order",
-            "projectCannotDeleteByJobOrderTemplates": "Unable to delete, Deployment is used in one or more work order templates",
+            "projectCannotDeleteByJobOrders": "Unable to delete, Deployment is used in one or more Job Order",
+            "projectCannotDeleteByJobOrderTemplates": "Unable to delete, Deployment is used in one or more job order templates",
             "projectCannotDeleteByTaskTemplates": "Unable to delete, Deployment is used in one or more task templates",
             "projectHasContact": "Unable to delete, Deployment is used in one or more Contact",
             "projectHasTicket": "Unable to delete, Deployment is used in one or more Ticket"
@@ -10338,7 +10338,7 @@
             },
             "sec10": {
                 "original": "Latest Escalated Job Order",
-                "singular": "Latest Escalated Work Order",
+                "singular": "Latest Escalated Job Order",
                 "plural": "",
                 "setupEdit": true,
                 "setupVisible": true
@@ -11220,21 +11220,21 @@
                     },
                     "sec4": {
                         "original": "Job Order Statuses",
-                        "singular": "Work Order Statuses",
+                        "singular": "Job Order Statuses",
                         "plural": "",
                         "setupEdit": true,
                         "setupVisible": false
                     },
                     "sec5": {
                         "original": "Not allowed to update Job Order status to",
-                        "singular": "Not allowed to update Work Order status to",
+                        "singular": "Not allowed to update Job Order status to",
                         "plural": "",
                         "setupEdit": true,
                         "setupVisible": false
                     },
                     "sec6": {
                         "original": "Allowed to update Job Order status to",
-                        "singular": "Allowed to update Work Order status to",
+                        "singular": "Allowed to update Job Order status to",
                         "plural": "",
                         "setupEdit": true,
                         "setupVisible": false
@@ -11297,7 +11297,7 @@
                     },
                     "sec15": {
                         "original": "Add the statuses that are available to this access profile in the Job Order. Items in the right-side box will be visible in the Job order status picklist for this access profile",
-                        "singular": "Add the statuses that are available to this access profile in the Work Order. Items in the right-side box will be visible in the Work order status picklist for this access profile",
+                        "singular": "Add the statuses that are available to this access profile in the Job Order. Items in the right-side box will be visible in the Job Order status picklist for this access profile",
                         "plural": "",
                         "setupEdit": true,
                         "setupVisible": false
@@ -11377,7 +11377,7 @@
                     },
                     "jobOrderStatus": {
                         "original": "Job Order Status",
-                        "singular": "Work Order Status",
+                        "singular": "Job Order Status",
                         "plural": "",
                         "setupEdit": true,
                         "setupVisible": false
@@ -11721,7 +11721,7 @@
                     "goTo": "Go to",
                     "toSetUpOrContactAdmin": "to set these up or contact your Admin for assistance.",
                     "selectAtLeaseOneModule": "Select at least one Module Access checkbox",
-                    "enableOneJobOrder": "Please enable at least one work order status for profiles with create access",
+                    "enableOneJobOrder": "Please enable at least one job order status for profiles with create access",
                     "viewOnlyAccess": "View Only Access",
                     "profileCloned": "Profile cloned successfully",
                     "selectAccessPermission": "Please select an Access Permissions",
@@ -13202,7 +13202,7 @@
                     "selectWhereLikeNotificationNavigate": "Pick where the notification should link to.",
                     "textWithinCurly": "Note: The text within the curly braces ({{}}) will be replaced by the actual field values when the notification is sent",
                     "selectEmailTemplate": "Choose the email template you want to use for this notification.",
-                    "defineEmailRecipients": "Choose who will receive this email by selecting system users, specific email addresses, or contacts from fields (e.g. a work order's contact email)",
+                    "defineEmailRecipients": "Choose who will receive this email by selecting system users, specific email addresses, or contacts from fields (e.g. a job order's contact email)",
                     "defineAppRecipients": "Choose who will receive this email by selecting system users or groups",
                     "makeKeyDataBold": "Make key data bold",
                     "createEmailTemplate": "Create an Email Template",
@@ -13406,7 +13406,7 @@
                     },
                     "jobOrderType": {
                         "original": "Job Order Type",
-                        "singular": "Work Order Type",
+                        "singular": "Job Order Type",
                         "plural": "",
                         "setupEdit": true,
                         "setupVisible": false
@@ -13849,15 +13849,15 @@
                     },
                     "jobOrderNoteSuggestions": {
                         "original": "Job Order Note Suggestions",
-                        "singular": "Work Order Note Suggestions",
-                        "plural": "Work Order Note Suggestions",
+                        "singular": "Job Order Note Suggestions",
+                        "plural": "Job Order Note Suggestions",
                         "setupEdit": false,
                         "setupVisible": false
                     },
                     "jobOrderSparePartSuggestions": {
                         "original": "Job Order Spare Part Suggestions",
-                        "singular": "Work Order Spare Part Suggestions",
-                        "plural": "Work Order Spare Part Suggestions",
+                        "singular": "Job Order Spare Part Suggestions",
+                        "plural": "Job Order Spare Part Suggestions",
                         "setupEdit": false,
                         "setupVisible": false
                     }
@@ -13871,7 +13871,7 @@
                     "beta": "beta",
                     "enableOrDisableSuggestions": "Enable or disable suggestions and features powered by our friendly AI, Finley. Features that are enabled will be accessible to all users in your organization, allowing them to customize their preferences by turning specific features on or off.",
                     "aCategorizedSummary": "A categorized summary of your works for today.",
-                    "conciseSummaryKeyDetails": "A concise summary of key details for completed work orders, displayed in the work order view",
+                    "conciseSummaryKeyDetails": "A concise summary of key details for completed job orders, displayed in the job order view",
                     "taskTimeSuggestions": "Task time suggestions based on previous work and task data.",
                     "useAiToGenerateChecklist": "Use AI to generate checklist questions from a brief prompt or sample forms.",
                     "web": "Web",
@@ -14593,7 +14593,7 @@
                         },
                         "sec2": {
                             "original": "Specify the statuses that apply to this Job Order Type. Those in the right hand box will be displayed in the status picklist when this Job Order Type is selected",
-                            "singular": "Specify the statuses that apply to this Work Order Type. Those in the right hand box will be displayed in the status picklist when this Work Order Type is selected",
+                            "singular": "Specify the statuses that apply to this Job Order Type. Those in the right hand box will be displayed in the status picklist when this Job Order Type is selected",
                             "plural": "",
                             "setupEdit": false,
                             "setupVisible": false
@@ -14658,9 +14658,9 @@
                         "youHave": "you have",
                         "raisedToTeam": "raised to your team",
                         "availableStatus": "Available Statuses for this Type",
-                        "specifyStatusJobOrder": "Specify the statuses that apply to this Work Order Type. Those in the right hand box will be displayed in the status picklist when this Work Order Type is selected",
-                        "notForThisJobType": "Not for this Work Order Type",
-                        "forThisJobType": "For this Work Order Type"
+                        "specifyStatusJobOrder": "Specify the statuses that apply to this Job Order Type. Those in the right hand box will be displayed in the status picklist when this Job Order Type is selected",
+                        "notForThisJobType": "Not for this Job Order Type",
+                        "forThisJobType": "For this Job Order Type"
                     }
                 },
                 "category": {
@@ -15492,7 +15492,7 @@
                         },
                         "sec2": {
                             "original": "Specify the statuses that apply to this Job Order Type. Those in the right hand box will be displayed in the status picklist when this Job Order Type is selected",
-                            "singular": "Specify the statuses that apply to this Work Order Logistics Class. Those in the right hand box will be displayed in the status picklist when this Work Order Logistics Class is selected",
+                            "singular": "Specify the statuses that apply to this Job Order Logistics Class. Those in the right hand box will be displayed in the status picklist when this Job Order Logistics Class is selected",
                             "plural": "",
                             "setupEdit": false,
                             "setupVisible": false
@@ -15557,9 +15557,9 @@
                         "youHave": "you have",
                         "raisedToTeam": "raised to your team",
                         "availableStatus": "Available Statuses for this Logistics Class",
-                        "specifyStatusJobOrder": "Specify the statuses that apply to this Work Order Logistics Class. Those in the right hand box will be displayed in the status picklist when this Work Order Logistics Class is selected",
-                        "notForThisJobType": "Not for this Work Order Logistics Class",
-                        "forThisJobType": "For this Work Order Logistics Class"
+                        "specifyStatusJobOrder": "Specify the statuses that apply to this Job Order Logistics Class. Those in the right hand box will be displayed in the status picklist when this Job Order Logistics Class is selected",
+                        "notForThisJobType": "Not for this Job Order Logistics Class",
+                        "forThisJobType": "For this Job Order Logistics Class"
                     }
                 }
             },
@@ -15595,7 +15595,7 @@
                         },
                         "sec2": {
                             "original": "Specify the statuses that apply to this Job Order Type. Those in the right hand box will be displayed in the status picklist when this Job Order Type is selected",
-                            "singular": "Specify the statuses that apply to this Work Order Logistics Class. Those in the right hand box will be displayed in the status picklist when this Work Order Logistics Class is selected",
+                            "singular": "Specify the statuses that apply to this Job Order Logistics Class. Those in the right hand box will be displayed in the status picklist when this Job Order Logistics Class is selected",
                             "plural": "",
                             "setupEdit": false,
                             "setupVisible": false
@@ -15660,9 +15660,9 @@
                         "youHave": "you have",
                         "raisedToTeam": "raised to your team",
                         "availableStatus": "Available Statuses for this Logistics Class",
-                        "specifyStatusJobOrder": "Specify the statuses that apply to this Work Order Logistics Class. Those in the right hand box will be displayed in the status picklist when this Work Order Logistics Class is selected",
-                        "notForThisJobType": "Not for this Work Order Logistics Class",
-                        "forThisJobType": "For this Work Order Logistics Class"
+                        "specifyStatusJobOrder": "Specify the statuses that apply to this Job Order Logistics Class. Those in the right hand box will be displayed in the status picklist when this Job Order Logistics Class is selected",
+                        "notForThisJobType": "Not for this Job Order Logistics Class",
+                        "forThisJobType": "For this Job Order Logistics Class"
                     }
                 },
                 "family": {
@@ -15856,7 +15856,7 @@
                         },
                         "sec2": {
                             "original": "Specify the statuses that apply to this Job Order Type. Those in the right hand box will be displayed in the status picklist when this Job Order Type is selected",
-                            "singular": "Specify the statuses that apply to this Work Order Deployment Class. Those in the right hand box will be displayed in the status picklist when this Work Order Deployment Class is selected",
+                            "singular": "Specify the statuses that apply to this Job Order Deployment Class. Those in the right hand box will be displayed in the status picklist when this Job Order Deployment Class is selected",
                             "plural": "",
                             "setupEdit": false,
                             "setupVisible": false
@@ -15921,9 +15921,9 @@
                         "youHave": "you have",
                         "raisedToTeam": "raised to your team",
                         "availableStatus": "Available Statuses for this Deployment Class",
-                        "specifyStatusJobOrder": "Specify the statuses that apply to this Work Order Deployment Class. Those in the right hand box will be displayed in the status picklist when this Work Order Deployment Class is selected",
-                        "notForThisJobType": "Not for this Work Order Deployment Class",
-                        "forThisJobType": "For this Work Order Deployment Class"
+                        "specifyStatusJobOrder": "Specify the statuses that apply to this Job Order Deployment Class. Those in the right hand box will be displayed in the status picklist when this Job Order Deployment Class is selected",
+                        "notForThisJobType": "Not for this Job Order Deployment Class",
+                        "forThisJobType": "For this Job Order Deployment Class"
                     }
                 },
                 "category": {
@@ -16285,7 +16285,7 @@
                         },
                         "sec2": {
                             "original": "Specify the statuses that apply to this Job Order Type. Those in the right hand box will be displayed in the status picklist when this Job Order Type is selected",
-                            "singular": "Specify the statuses that apply to this Work Order Topology. Those in the right hand box will be displayed in the status picklist when this Work Order Topology is selected",
+                            "singular": "Specify the statuses that apply to this Job Order Topology. Those in the right hand box will be displayed in the status picklist when this Job Order Topology is selected",
                             "plural": "",
                             "setupEdit": false,
                             "setupVisible": false
@@ -16350,9 +16350,9 @@
                         "youHave": "you have",
                         "raisedToTeam": "raised to your team",
                         "availableStatus": "Available Statuses for this Electrical Topology",
-                        "specifyStatusJobOrder": "Specify the statuses that apply to this Work Order Topology. Those in the right hand box will be displayed in the status picklist when this Work Order Topology is selected",
-                        "notForThisJobType": "Not for this Work Order Topology",
-                        "forThisJobType": "For this Work Order Topology"
+                        "specifyStatusJobOrder": "Specify the statuses that apply to this Job Order Topology. Those in the right hand box will be displayed in the status picklist when this Job Order Topology is selected",
+                        "notForThisJobType": "Not for this Job Order Topology",
+                        "forThisJobType": "For this Job Order Topology"
                     }
                 },
                 "category": {
@@ -18506,14 +18506,14 @@
                     "setupVisible": false,
                     "sec0": {
                         "original": "Job Order Template Details",
-                        "singular": "Work Order Template Details",
+                        "singular": "Job Order Template Details",
                         "plural": "",
                         "setupEdit": true,
                         "setupVisible": false
                     },
                     "sec1": {
                         "original": "Job Order Details",
-                        "singular": "Work Order Details",
+                        "singular": "Job Order Details",
                         "plural": "",
                         "setupEdit": true,
                         "setupVisible": false
@@ -18555,7 +18555,7 @@
                     },
                     "sec7": {
                         "original": "Please fill up the fields and their details to be populated in the Job Orders created from this template",
-                        "singular": "Please fill up the fields and their details to be populated in the Work Orders created from this template",
+                        "singular": "Please fill up the fields and their details to be populated in the Job Orders created from this template",
                         "plural": "",
                         "setupEdit": true,
                         "setupVisible": false
@@ -18817,7 +18817,7 @@
                     },
                     "prependJobName": {
                         "original": "Prepend Job Order Name",
-                        "singular": "Prepend Work Order Name",
+                        "singular": "Prepend Job Order Name",
                         "plural": "",
                         "setupEdit": true,
                         "setupVisible": false
@@ -18852,7 +18852,7 @@
                     },
                     "sameAsJobOrderDate": {
                         "original": "Same as Job Order Date",
-                        "singular": "Same as Work Order Date",
+                        "singular": "Same as Job Order Date",
                         "plural": "",
                         "setupEdit": false,
                         "setupVisible": false
@@ -18873,21 +18873,21 @@
                     "setupVisible": false,
                     "prependJobName": {
                         "original": "The Task Name will attach the name of the Job Order it is tied to before it. I.e. Job Order Name - Task Name",
-                        "singular": "The Task Name will attach the name of the Work Order it is tied to before it. I.e. Work Order Name - Task Name",
+                        "singular": "The Task Name will attach the name of the Job Order it is tied to before it. I.e. Job Order Name - Task Name",
                         "plural": "",
                         "setupEdit": true,
                         "setupVisible": false
                     },
                     "jobTemplateLookup": {
                         "original": "Job Order Templates Lookup",
-                        "singular": "Work Order Templates Lookup",
+                        "singular": "Job Order Templates Lookup",
                         "plural": "",
                         "setupEdit": true,
                         "setupVisible": false
                     },
                     "dateOptions": {
                         "original": "You can set the Task template date by choosing either the 'Date Calculation' option to set a number of days after the Job Order is created or have it match the Job Order Date by choosing 'Same as Job Order Date'.",
-                        "singular": "You can set the Task template date by choosing either the 'Date Calculation' option to set a number of days after the Work Order is created or have it match the Work Order Date by choosing 'Same as Work Order Date'.",
+                        "singular": "You can set the Task template date by choosing either the 'Date Calculation' option to set a number of days after the Job Order is created or have it match the Job Order Date by choosing 'Same as Job Order Date'.",
                         "plural": "",
                         "setupEdit": false,
                         "setupVisible": false
@@ -19024,7 +19024,7 @@
                     },
                     "sec1": {
                         "original": "Job Order Details",
-                        "singular": "Work Order Details",
+                        "singular": "Job Order Details",
                         "plural": "",
                         "setupEdit": true,
                         "setupVisible": false
@@ -19055,14 +19055,14 @@
                     },
                     "jobOrderType": {
                         "original": "Job Order Type",
-                        "singular": "Work Order Type",
+                        "singular": "Job Order Type",
                         "plural": "",
                         "setupEdit": true,
                         "setupVisible": false
                     },
                     "autoGeneratedJobOrder": {
                         "original": "Auto-generate Job Order",
-                        "singular": "Auto-generate Work Order",
+                        "singular": "Auto-generate Job Order",
                         "plural": "",
                         "setupEdit": true,
                         "setupVisible": false
@@ -19346,7 +19346,7 @@
                 },
                 "sec15": {
                     "original": "Specify the details of the Job Orders this Checklist is for. Job Orders matching the below values will trigger this Checklist.",
-                    "singular": "Specify the details of the Work Orders this Checklist is for. Work Orders matching the below values will trigger this Checklist.",
+                    "singular": "Specify the details of the Job Orders this Checklist is for. Job Orders matching the below values will trigger this Checklist.",
                     "plural": "",
                     "setupEdit": true,
                     "setupVisible": false
@@ -19608,7 +19608,7 @@
                 },
                 "sec3": {
                     "original": "Add the answers to the above question and the respective template to be triggered by each answer (where applicable). Each answer will generate a new Job Order based on the selected template",
-                    "singular": "Add the answers to the above question and the respective template to be triggered by each answer (where applicable). Each answer will generate a new Work Order based on the selected template",
+                    "singular": "Add the answers to the above question and the respective template to be triggered by each answer (where applicable). Each answer will generate a new Job Order based on the selected template",
                     "plural": "",
                     "setupEdit": true,
                     "setupVisible": false
@@ -19622,7 +19622,7 @@
                 },
                 "sec5": {
                     "original": "Additional Job Order Spare Parts generated by this answer",
-                    "singular": "Additional Work Order Spare Parts generated by this answer",
+                    "singular": "Additional Job Order Spare Parts generated by this answer",
                     "plural": "",
                     "setupEdit": true,
                     "setupVisible": false
@@ -19660,7 +19660,7 @@
                 },
                 "jobOrderTemplates": {
                     "original": "Job Order Templates",
-                    "singular": "Work Order Templates",
+                    "singular": "Job Order Templates",
                     "plural": "",
                     "setupEdit": true,
                     "setupVisible": false
@@ -19734,7 +19734,7 @@
                 },
                 "aJobOrderGeneratedSelectedTemplate": {
                     "original": "A Job Order and it's associated Tasks and Spare Parts will be generated from the selected template if the answer is submitted",
-                    "singular": "A Work Order and it's associated Tasks and Spare Parts will be generated from the selected template if the answer is submitted",
+                    "singular": "A Job Order and it's associated Tasks and Spare Parts will be generated from the selected template if the answer is submitted",
                     "plural": "",
                     "setupEdit": true,
                     "setupVisible": false
@@ -19748,7 +19748,7 @@
                 },
                 "enterRangeOfNumbers": {
                     "original": "Enter the range of numbers that act as a threshold in the From and To fields. If the values fall within this range, the selected Job Order Template will be triggered. Note that the 'To' value must be equal to or greater than the 'From' value.",
-                    "singular": "Enter the range of numbers that act as a threshold in the From and To fields. If the values fall within this range, the selected Work Order Template will be triggered. Note that the 'To' value must be equal to or greater than the 'From' value.",
+                    "singular": "Enter the range of numbers that act as a threshold in the From and To fields. If the values fall within this range, the selected Job Order Template will be triggered. Note that the 'To' value must be equal to or greater than the 'From' value.",
                     "plural": "",
                     "setupEdit": true,
                     "setupVisible": false
@@ -19756,7 +19756,7 @@
             },
             "messages": {
                 "noJobOrderCreatedForThisSelection": "No Works Order created if this answer is selected",
-                "createsJobOrder": "Creates Work Order",
+                "createsJobOrder": "Creates Job Order",
                 "defaultAnswer": "Default answer"
             }
         },
@@ -20601,14 +20601,14 @@
                 },
                 "sec7": {
                     "original": "Update the mappings between your Job Order Types and Calendly Events",
-                    "singular": "Update the mappings between your Work Order Types and Calendly Events",
+                    "singular": "Update the mappings between your Job Order Types and Calendly Events",
                     "plural": "",
                     "setupEdit": true,
                     "setupVisible": false
                 },
                 "sec8": {
                     "original": "Connect each Job Order Type to a Calendly Event",
-                    "singular": "Connect each Work Order Type to a Calendly Event",
+                    "singular": "Connect each Job Order Type to a Calendly Event",
                     "plural": "",
                     "setupEdit": true,
                     "setupVisible": false
@@ -20674,7 +20674,7 @@
                 },
                 "updateMappingsJobOrderCalendlyEvents": {
                     "original": "Update the mappings between your Job Order Types and Calendly Events",
-                    "singular": "Update the mappings between your Work Order Types and Calendly Events",
+                    "singular": "Update the mappings between your Job Order Types and Calendly Events",
                     "plural": "",
                     "setupEdit": true,
                     "setupVisible": false
@@ -20716,7 +20716,7 @@
                 },
                 "jobOrderType": {
                     "original": "Job Order Type",
-                    "singular": "Work Order Type",
+                    "singular": "Job Order Type",
                     "plural": "",
                     "setupEdit": true,
                     "setupVisible": false
@@ -20765,7 +20765,7 @@
                 },
                 "onceAssignAutoUpdateJobOrderTask": {
                     "original": "Once set up, your customers can book slots (events) through Calendly that will automatically update your Job Order Date and Time, as well as create and",
-                    "singular": "Once set up, your site hosts can book slots (events) through Calendly that will automatically update your Work Order Date and Time, as well as create and",
+                    "singular": "Once set up, your site hosts can book slots (events) through Calendly that will automatically update your Job Order Date and Time, as well as create and",
                     "plural": "",
                     "setupEdit": true,
                     "setupVisible": false
@@ -20807,7 +20807,7 @@
                 },
                 "syncJobOrders": {
                     "original": "Sync Job Orders",
-                    "singular": "Sync Work Orders",
+                    "singular": "Sync Job Orders",
                     "plural": "",
                     "setupEdit": true,
                     "setupVisible": false
@@ -21352,14 +21352,14 @@
                 },
                 "whenJobOrderType": {
                     "original": "When Job Order Type is",
-                    "singular": "When Work Order Type is",
+                    "singular": "When Job Order Type is",
                     "plural": "",
                     "setupEdit": true,
                     "setupVisible": false
                 },
                 "andJobOrderStatus": {
                     "original": "And Job Order Status is",
-                    "singular": "And Work Order Status is",
+                    "singular": "And Job Order Status is",
                     "plural": "",
                     "setupEdit": true,
                     "setupVisible": false
@@ -21373,7 +21373,7 @@
                 },
                 "jobOrderContact": {
                     "original": "Job Order Contact",
-                    "singular": "Work Order Contact",
+                    "singular": "Job Order Contact",
                     "plural": "",
                     "setupEdit": true,
                     "setupVisible": false
@@ -21408,14 +21408,14 @@
                 },
                 "jobOrderType": {
                     "original": "Job Order Type",
-                    "singular": "Work Order Type",
+                    "singular": "Job Order Type",
                     "plural": "",
                     "setupEdit": true,
                     "setupVisible": false
                 },
                 "jobOrderStatus": {
                     "original": "Job Order Status",
-                    "singular": "Work Order Status",
+                    "singular": "Job Order Status",
                     "plural": "",
                     "setupEdit": true,
                     "setupVisible": false
@@ -21423,8 +21423,8 @@
             },
             "messages": {
                 "autoSendSurvey": "Automatically send this survey to site hosts when the following conditions are met",
-                "surveySentToEmailAddress": "The survey will be sent to the email address of the contact specified in the Work Order (if given)",
-                "surveySentToJobOrderMainContact": "The survey will be sent to the email address of the Work Order Site Host's main contact (shown in the site host detail page)"
+                "surveySentToEmailAddress": "The survey will be sent to the email address of the contact specified in the Job Order (if given)",
+                "surveySentToJobOrderMainContact": "The survey will be sent to the email address of the Job Order Site Host's main contact (shown in the site host detail page)"
             }
         },
         "devices": {
@@ -22229,9 +22229,9 @@
             "setupServiceZoneSystemGenerated": "System generated Service Zones is not allowed to be deleted",
             "setupServiceZoneHasAsset": "Equipment Data exists in the system for the Service Zone",
             "setupServiceZoneHasCustomer": "Site Host Data exists in the system for the Service Zone",
-            "setupServiceZoneHasJobOrder": "Work Order Data exists in the system for the Service Zone",
+            "setupServiceZoneHasJobOrder": "Job Order Data exists in the system for the Service Zone",
             "setupServiceZoneHasProject": "Deployment Data exists in the system for the Service Zone",
-            "setupServiceZoneHasJobOrderTemplate": "Work Order Template Data exists in the system for the Service Zone",
+            "setupServiceZoneHasJobOrderTemplate": "Job Order Template Data exists in the system for the Service Zone",
             "setupGeoFenceIdExists": "A new Geo Fence cannot already have an ID",
             "setupGeoFenceNotFound": "Geo Fence not found",
             "setupWareHouseLocationIdExists": "A new Ware House Location cannot already have an ID",
@@ -22248,44 +22248,44 @@
             "setupZoneHasBin": "Bin Data exists in the system for the Zone",
             "setupZoneExternalIdExists": "External Id already exists",
             "setupZoneWithExtIdNotFound": "Invalid External Id",
-            "setupJobOrderConfigIdExists": "A new Work Order Config cannot already have an ID",
+            "setupJobOrderConfigIdExists": "A new Job Order Config cannot already have an ID",
             "setupJobOrderConfigIdNotFound": "Id not found",
             "setupFaultIdExists": "A new Fault cannot already have an ID",
             "setupFaultIdNotFound": "Id not found",
             "setupFaultNameExists": "Name already exists",
             "setupFaultUnableToDelete": "Not allowed to delete system values",
-            "setupFaultHasJobOrder": "Work Order Data exists in the system for the Fault",
+            "setupFaultHasJobOrder": "Job Order Data exists in the system for the Fault",
             "setupFaultHasFaultMapping": "Fault Mapping Data exists in the system for the Fault",
-            "setupFaultHasFaultJobOrderMapping": "Fault Work Order Mapping Data exists in the system for the Fault",
-            "setupFaultHasJobOrderTemplate": "Work Order Template Data exists in the system for the Fault",
+            "setupFaultHasFaultJobOrderMapping": "Fault Job Order Mapping Data exists in the system for the Fault",
+            "setupFaultHasJobOrderTemplate": "Job Order Template Data exists in the system for the Fault",
             "setupResolutionIdExists": "A new Resolution cannot already have an ID",
             "setupResolutionIdNotFound": "Id not found",
             "setupResolutionNameExists": "Name already exists",
             "setupResolutionUnableToDelete": "Not allowed to delete system values",
-            "setupResolutionHasJobOrder": "Work Order Data exists in the system for the Resolution",
+            "setupResolutionHasJobOrder": "Job Order Data exists in the system for the Resolution",
             "setupResolutionHasResolutionMapping": "Resolution Mapping Data exists in the system for the Resolution",
-            "setupResolutionHasResolutionJobOrderMapping": "Resolution Work Order Mapping Data exists in the system for the Resolution",
-            "setupResolutionHasJobOrderTemplate": "Work Order Template Data exists in the system for the Resolution",
-            "setupJobOrderStatusIdExists": "A new Work Order Status cannot already have an ID",
+            "setupResolutionHasResolutionJobOrderMapping": "Resolution Job Order Mapping Data exists in the system for the Resolution",
+            "setupResolutionHasJobOrderTemplate": "Job Order Template Data exists in the system for the Resolution",
+            "setupJobOrderStatusIdExists": "A new Job Order Status cannot already have an ID",
             "setupJobOrderStatusIdNotFound": "Id not found",
             "setupJobOrderStatusNameNotFound": "Name not found",
             "setupJobOrderStatusDisplayNameNotFound": "Display Name not found",
             "setupJobOrderStatusNameExists": "Name already exists",
-            "setupJobOrderStatusUnableToDeactivate": "System generated Work Order Statuses are not allowed to be inactive",
-            "setupJobOrderStatusUnableToDelete": "System generated Work Order Statuses are not allowed to be deleted",
-            "setupJobOrderStatusCannotDeleteByJobOrderTemplates": "Unable to Delete: Work Order Status is part of one or more work order templates",
+            "setupJobOrderStatusUnableToDeactivate": "System generated Job Order Statuses are not allowed to be inactive",
+            "setupJobOrderStatusUnableToDelete": "System generated Job Order Statuses are not allowed to be deleted",
+            "setupJobOrderStatusCannotDeleteByJobOrderTemplates": "Unable to Delete: Job Order Status is part of one or more job order templates",
             "setupSystemCategoryIdExists": "A new System Category cannot already have an ID",
             "setupSystemCategoryIdNotFound": "Id not found",
             "setupSystemCategoryNameExists": "Name already exists",
-            "setupSystemCategoryCannotDeleteByJobOrderTemplates": "Unable to Delete: system category is part of one or more work order templates",
-            "setupJobOrderTypeIdExists": "A new Work Order Type cannot already have an ID",
+            "setupSystemCategoryCannotDeleteByJobOrderTemplates": "Unable to Delete: system category is part of one or more job order templates",
+            "setupJobOrderTypeIdExists": "A new Job Order Type cannot already have an ID",
             "setupJobOrderTypeIdNotFound": "Id not found",
             "setupJobOrderTypeNameExists": "Name already exists",
             "setupJobOrderTypeUnableToDelete": "Not allowed to delete system values",
-            "setupJobOrderTypeHasDynamicFormConfig": "Dynamic Form Config Data exists in the system for the Work Order Type",
-            "setupJobOrderTypeHasJobOrder": "Work Order Data exists in the system for the Work Order Type",
-            "setupJobOrderTypeHasCalendlyEventJobOrder": "Calendly Event Work Order Data exists in the system for the Work Order Type",
-            "setupJobOrderTypeHasJobOrderTemplate": "Work Order Template Data exists in the system for the Work Order Type",
+            "setupJobOrderTypeHasDynamicFormConfig": "Dynamic Form Config Data exists in the system for the Job Order Type",
+            "setupJobOrderTypeHasJobOrder": "Job Order Data exists in the system for the Job Order Type",
+            "setupJobOrderTypeHasCalendlyEventJobOrder": "Calendly Event Job Order Data exists in the system for the Job Order Type",
+            "setupJobOrderTypeHasJobOrderTemplate": "Job Order Template Data exists in the system for the Job Order Type",
             "setupSalesOrderConfigIdExists": "A new Sales Order Config cannot already have an ID",
             "setupSalesOrderConfigIdNotFound": "Id not found",
             "setupSalesOrderChannelIdExists": "A new Sales Order Channel cannot already have an ID",
@@ -22328,9 +22328,9 @@
             "setupCalendlyConfigIdNotFound": "Id not found",
             "setupCountryIdExists": "A new Country cannot already have an ID",
             "setupCustomerSurveyConfigIdExists": "A new Site Host Survey Config cannot already have an ID",
-            "setupCustomerSurveyConfigHasJobOrderSurvey": "This survey cannot be deleted because it is currently linked to one or more work orders.",
+            "setupCustomerSurveyConfigHasJobOrderSurvey": "This survey cannot be deleted because it is currently linked to one or more job orders.",
             "setupCustomerSurveyConfigWorkflowIdExists": "A new Site Host Survey Config Workflow cannot already have an ID",
-            "setupFaultJobOrderMappingIdExists": "A new Fault Work Order Mapping cannot already have an ID",
+            "setupFaultJobOrderMappingIdExists": "A new Fault Job Order Mapping cannot already have an ID",
             "setupFaultJobOrderMappingIdNotFound": "Id not found",
             "setupFaultMappingIdExists": "A new Fault Mapping cannot already have an ID",
             "setupFaultMappingIdNotFound": "Id not found",
@@ -22338,7 +22338,7 @@
             "setupGeoFenceMappingIdExists": "A new Geo Fence Mapping cannot already have an ID",
             "setupIndustryIdExists": "A new Industry cannot already have an ID",
             "setupIntergrationLogIdExists": "A new Integration Log cannot already have an ID",
-            "setupJobOrderSurveyIdExists": "A new Work Order Survey cannot already have an ID",
+            "setupJobOrderSurveyIdExists": "A new Job Order Survey cannot already have an ID",
             "setupJobTypeIdExists": "A new Work Type cannot already have an ID",
             "setupJobTypeIdNotFound": "Id not found",
             "setupJobTypeSkillsIdExists": "A new Work Type Skill cannot already have an ID",
@@ -22369,7 +22369,7 @@
             "setupRegionalHolidayRegionNotFound": "Region not found",
             "setupRegionalHolidayAlreadyExist": "Regional holiday already exist",
             "setupRegionalHolidayIdNotFound": "Id not found",
-            "setupResolutionJobOrderMappingIdExists": "A new Resolution Work Order Mapping cannot already have an ID",
+            "setupResolutionJobOrderMappingIdExists": "A new Resolution Job Order Mapping cannot already have an ID",
             "setupResolutionJobOrderMappingIdNotFound": "Id not found",
             "setupResolutionMappingIdExists": "A new Resolution Mapping cannot already have an ID",
             "setupResolutionMappingIdNotFound": "Id not found",
@@ -22444,8 +22444,8 @@
             "setupWorkflowEmailUserGroupMax": "Maximum allowed users reached for workflow notification",
             "setupTmplJobOrderLimitReached": "You have exceeded the limit of 50 active templates. Set the status of an unused template to 'Inactive' to add another active template.",
             "tmplTaskLimitExceeded": "You have exceeded the limit of 50 active templates. Set the status of an unused template to 'Inactive' to add another active template.",
-            "setupTmplTaskHasJobOrder": "Unable to delete: Template used in one or more work orders",
-            "setupTmplTaskHasJobOrderProduct": "Unable to delete: Template used to create one or more Work Order Products",
+            "setupTmplTaskHasJobOrder": "Unable to delete: Template used in one or more Job Orders",
+            "setupTmplTaskHasJobOrderProduct": "Unable to delete: Template used to create one or more Job Order Products",
             "setupAssetMeterMaxAssetsTypeReached": "Already reached the maximum number of Equipment Meters for selected Equipment Type",
             "setupAssetMeterHasAssetsRecord": "Equipments Meter is linked with one or more Equipments records, hence unable to delete"
         },
@@ -22455,7 +22455,7 @@
                     "assets": "Equipment",
                     "contract": "Contract",
                     "customer": "Site Host",
-                    "job_order": "Work Order",
+                    "job_order": "Job Order",
                     "maintenance_item": "Preventive Maintenance",
                     "product": "Product",
                     "project": "Deployment",
@@ -22471,7 +22471,7 @@
                         "name": {
                             "customers": "Site Host",
                             "sales_order": "Sales Order",
-                            "job_order": "Work Order",
+                            "job_order": "Job Order",
                             "products": "Spare Part",
                             "teams": "Teams",
                             "tasks": "Task",
@@ -22539,14 +22539,14 @@
                 },
                 "job_order": {
                     "description": {
-                        "job_order_assigned": "Sent to a user when they have been assigned as order owner for a Work Order",
-                        "job_order_completed": "Sent to an order owner's manager when a Work Order status has changed to 'Completed' (or equivalent)",
-                        "job_order_appointment_updated": "Sent to the Work Order owner when its time and date has been updated through Calendly",
-                        "survey_responded": "Sent to the owner when a Work Order receives a Survey response from a Site Host"
+                        "job_order_assigned": "Sent to a user when they have been assigned as order owner for a Job Order",
+                        "job_order_completed": "Sent to an order owner's manager when a Job Order status has changed to 'Completed' (or equivalent)",
+                        "job_order_appointment_updated": "Sent to the Job Order owner when its time and date has been updated through Calendly",
+                        "survey_responded": "Sent to the owner when a Job Order receives a Survey response from a Site Host"
                     },
                     "name": {
-                        "job_order_assigned": "Work Order Assignment",
-                        "job_order_completed": "Work Order Completion",
+                        "job_order_assigned": "Job Order Assignment",
+                        "job_order_completed": "Job Order Completion",
                         "job_order_appointment_updated": "Appointment Updated through Calendly",
                         "survey_responded": "Survey Response Received"
                     }
@@ -22616,8 +22616,8 @@
         "messages": {
             "weRequireTheFollowingAccess": "We require the following access from your mobile device while using respective features in our application for a good user experience:",
             "toCollectAndRecordBackground": "To collect and record background location data for journey tracking, task check-in/out locations and live proximity location data while using the app and when it is running in the background. Location data will not be tracked if you go offline in FieldEx.",
-            "toRetrieveImages": "To retrieve images, videos or documents from device storage to upload in tasks or work orders.",
-            "toCaptureImages": "To capture images from your device camera and upload to tasks or work orders.",
+            "toRetrieveImages": "To retrieve images, videos or documents from device storage to upload in tasks or job orders.",
+            "toCaptureImages": "To capture images from your device camera and upload to tasks or job orders.",
             "toCallTheTaskAssigner": "To call the task assigner or site host's contact directly from the applicaton.",
             "locationPermission": "Location Permission:",
             "fileStoragePermission": "File/Storage Permission:",
@@ -22651,8 +22651,8 @@
             "messageThreadWithIdNotFound": "Invalid Message Thread Id",
             "messageThreadUserIdExists": "A new Message Thread User cannot already have an ID",
             "calendlyNotConnected": "This user does not have Calendly integrated to their account",
-            "calendlyJobOrderTypeNotFound": "Job Order Required to Have a Work OrderType Selected",
-            "calendlyJobOrderTypeNotMappedToEvent": "Work Order : Work OrderType Does not have a configured value to map the calendly event",
+            "calendlyJobOrderTypeNotFound": "Job Order Required to Have a Job OrderType Selected",
+            "calendlyJobOrderTypeNotMappedToEvent": "Job Order : Job OrderType Does not have a configured value to map the calendly event",
             "calendlyEventIdNotSharedToUser": "Event slug is not shared with user in calendly system. please contact your Calendly Account Manager"
         }
     },
@@ -24912,7 +24912,7 @@
             },
             "messages": {
                 "forIncompleteChecklists": "For incomplete checklists to be updated in the future. No Works or Tasks will be triggered using this status",
-                "thisStatusWillTriggerAnyJobOrders": "This status will trigger any Work Orders and Tasks related to this checklist's answers",
+                "thisStatusWillTriggerAnyJobOrders": "This status will trigger any Job Orders and Tasks related to this checklist's answers",
                 "updateStatusTo": "Update status to",
                 "updateStatus": "Update Status",
                 "confirmMarkTaskComplete": "Would you like to mark this task as complete?",
@@ -25012,7 +25012,7 @@
             "statusUpdated": "Status Updated",
             "imageUploaded": "Image uploaded successfully",
             "endDateExceeds": "End date should not exceed start date",
-            "selectJobOrderFromList": "Select a Work Order from the list",
+            "selectJobOrderFromList": "Select a Job Order from the list",
             "selectAssetFromList": "Select an Equipment from the list",
             "selectChecklistFromList": "Select Checklist From List",
             "selectCustomerFromList": "Select a Site Host from the list",
@@ -25028,9 +25028,9 @@
             "selectUserFromList": "Select a User from the list",
             "selectCustomer": "Select a Site Host",
             "selectBinLocation": "Select a Bin Location",
-            "noJobOrderFound": "No Work Order found",
+            "noJobOrderFound": "No Job Order found",
             "noSalesOrdersFound": "No Sales Orders found",
-            "noJobOrdersToDisplay": "No Work Orders to display",
+            "noJobOrdersToDisplay": "No Job Orders to display",
             "noProductsFound": "No Spare Parts found",
             "noHistoriesToDisplay": "No Histories to display",
             "noProductsToDisplay": "No Spare Parts to display",
@@ -25426,14 +25426,14 @@
             "slaPackageNotFound": "SlaPackage not found",
             "slaPackageHasCustomer": "Site Host Data exists in the system for the SlaPackage",
             "slaPackageHasSLATicket": "SLA Ticket Data exists in the system for the SlaPackage",
-            "slaPackageHasSLAJobOrder": "SLA Work Order Data exists in the system for the SlaPackage",
+            "slaPackageHasSLAJobOrder": "SLA Job Order Data exists in the system for the SlaPackage",
             "slaBusinessHoursNotFound": "Business hours not defined"
         },
         "tabs": {
             "details": "Details",
             "purchaseHistory": "Purchase History",
             "products": "Products",
-            "jobOrders": "Work Orders",
+            "jobOrders": "Job Orders",
             "history": "History",
             "contacts": "Contacts",
             "assets": "Equipments",
@@ -25734,14 +25734,14 @@
                 },
                 "sec6": {
                     "original": "Select Job Order Template From List",
-                    "singular": "Select Work Order Template From List",
+                    "singular": "Select Job Order Template From List",
                     "plural": "",
                     "setupEdit": true,
                     "setupVisible": false
                 },
                 "sec7": {
                     "original": "Select a Job Order from the list",
-                    "singular": "Select a Work Order from the list",
+                    "singular": "Select a Job Order from the list",
                     "plural": "",
                     "setupEdit": true,
                     "setupVisible": false
@@ -25804,8 +25804,8 @@
                 },
                 "sec16": {
                     "original": "Job Order Template Selection",
-                    "singular": "Work Order Template Selection",
-                    "plural": "Work Order Template Selection",
+                    "singular": "Job Order Template Selection",
+                    "plural": "Job Order Template Selection",
                     "setupEdit": false,
                     "setupVisible": false
                 },
@@ -26018,7 +26018,7 @@
             "addYourOfficeAddress": "Add your office address",
             "passwordUpdatedSuccessfully": "Password updated successfully",
             "personalInformation": "Personal Information",
-            "dailyJobOrderSummary": "Daily Work Order Summary",
+            "dailyJobOrderSummary": "Daily Job Order Summary",
             "sparePartRecommendations": "Spare Part Recommendations",
             "resolutionSuggestions": "Resolution Suggestions"
         },
@@ -26067,8 +26067,8 @@
             "setupVisible": false
         },
         "messages": {
-            "pendingJobOrders": "Pending Work Orders",
-            "pendingWorkOrders": "Pending Work Orders",
+            "pendingJobOrders": "Pending Job Orders",
+            "pendingWorkOrders": "Pending Job Orders",
             "todaysTasks": "Today's Tasks",
             "tasksToAcceptDecline": "Tasks to Accept/Decline",
             "toAccept": "To Accept",
@@ -27401,7 +27401,7 @@
                 "inviteManageUser": "Invite and manage users",
                 "configureSettings": "Configure checklists, work templates, and preventive maintenance settings",
                 "updateSystemWideSetting": "Update system-wide settings that affect the entire account",
-                "createAssignJobOrder": "Create and assign work orders to the right technicians",
+                "createAssignJobOrder": "Create and assign job orders to the right technicians",
                 "trackProgressCompletion": "Track work progress and completion in real-time",
                 "monitorUpdates": "Monitor updates from the field, including:",
                 "assetMeterLogs": "Meter logs",
