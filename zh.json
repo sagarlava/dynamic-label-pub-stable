@@ -9380,7 +9380,8 @@
       "jobOrderProductStatusIdExists": "新的作业订单备件状态不能已有ID",
       "jobOrderProductStatusIdNotFound": "未找到ID",
       "slaJobOrderIdExists": "新的SLA作业订单不能已有ID",
-      "jobOrderPriceBookNotFound": "未找到价格手册"
+      "jobOrderPriceBookNotFound": "未找到价格手册",
+      "assetHasJobOrder": "系统中已存在该资产的工单数据"
     },
     "tooltips": {
       "setupVisible": false,

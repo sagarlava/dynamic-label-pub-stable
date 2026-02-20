@@ -9381,7 +9381,8 @@
       "jobOrderProductStatusIdExists": "A new Job Order Spare Part Status cannot already have an ID",
       "jobOrderProductStatusIdNotFound": "Id not found",
       "slaJobOrderIdExists": "A new Sla Job Order cannot already have an ID",
-      "jobOrderPriceBookNotFound": "Price Book not found"
+      "jobOrderPriceBookNotFound": "Price Book not found",
+      "assetHasJobOrder": "Job Order Data exists in the system for the Assets"
     },
     "tooltips": {
       "setupVisible": false,

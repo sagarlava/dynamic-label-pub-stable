@@ -9380,7 +9380,8 @@
       "jobOrderProductStatusIdExists": "Un nuevo Estado de Pieza de Repuesto de Orden de Trabajo no puede ya tener un ID",
       "jobOrderProductStatusIdNotFound": "ID no encontrado",
       "slaJobOrderIdExists": "Una nueva Orden de Trabajo SLA no puede ya tener un ID",
-      "jobOrderPriceBookNotFound": "Libro de precios no encontrado"
+      "jobOrderPriceBookNotFound": "Libro de precios no encontrado",
+      "assetHasJobOrder": "Existen datos de órdenes de trabajo en el sistema para los activos"
     },
     "tooltips": {
       "setupVisible": false,
