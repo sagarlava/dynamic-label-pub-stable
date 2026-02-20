@@ -9599,7 +9599,8 @@
       "jobOrderProductStatusIdNotFound": "ID tidak dijumpai",
       "slaJobOrderIdExists": "Pesanan Kerja SLA baru tidak boleh sudah mempunyai ID",
       "jobOrderPriceBookNotFound": "Buku Harga tidak dijumpai",
-      "mandatoryTasksNotCompleted" : "Satu atau lebih tugas mandatori masih belum diselesaikan. Selesaikan sebelum menyelesaikan pesanan kerja ini."
+      "mandatoryTasksNotCompleted" : "Satu atau lebih tugas mandatori masih belum diselesaikan. Selesaikan sebelum menyelesaikan pesanan kerja ini.",
+      "assetHasJobOrder": "Data Pesanan Kerja wujud dalam sistem untuk aset"
     },
     "tooltips": {
       "setupVisible": false,

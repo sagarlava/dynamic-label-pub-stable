@@ -9598,7 +9598,8 @@
       "jobOrderProductStatusIdNotFound": "ID no encontrado",
       "slaJobOrderIdExists": "Una nueva Orden de Trabajo SLA no puede ya tener un ID",
       "jobOrderPriceBookNotFound": "Libro de precios no encontrado",
-      "mandatoryTasksNotCompleted": "Una o más tareas obligatorias aún no se han completado. Complételas antes de completar esta orden de trabajo."
+      "mandatoryTasksNotCompleted": "Una o más tareas obligatorias aún no se han completado. Complételas antes de completar esta orden de trabajo.",
+      "assetHasJobOrder": "Existen datos de órdenes de trabajo en el sistema para los activos"
     },
     "tooltips": {
       "setupVisible": false,

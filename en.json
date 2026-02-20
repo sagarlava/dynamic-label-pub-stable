@@ -9599,7 +9599,8 @@
       "jobOrderProductStatusIdNotFound": "Id not found",
       "slaJobOrderIdExists": "A new Sla Job Order cannot already have an ID",
       "jobOrderPriceBookNotFound": "Price Book not found",
-      "mandatoryTasksNotCompleted": "One or more mandatory tasks have still not been completed. Complete them before completing this job order."
+      "mandatoryTasksNotCompleted": "One or more mandatory tasks have still not been completed. Complete them before completing this job order.",
+      "assetHasJobOrder": "Job Order Data exists in the system for the Assets"
     },
     "tooltips": {
       "setupVisible": false,

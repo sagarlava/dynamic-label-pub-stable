@@ -9598,7 +9598,8 @@
       "jobOrderProductStatusIdNotFound": "未找到ID",
       "slaJobOrderIdExists": "新的SLA作业订单不能已有ID",
       "jobOrderPriceBookNotFound": "未找到价格手册",
-      "mandatoryTasksNotCompleted": "一个或多个强制性任务尚未完成。请在完成此工作订单之前完成它们。"
+      "mandatoryTasksNotCompleted": "一个或多个强制性任务尚未完成。请在完成此工作订单之前完成它们。",
+      "assetHasJobOrder": "系统中已存在该资产的工单数据"
     },
     "tooltips": {
       "setupVisible": false,
