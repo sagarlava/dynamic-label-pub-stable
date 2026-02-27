@@ -19344,6 +19344,20 @@
             "plural": "",
             "setupEdit": true,
             "setupVisible": false
+          },
+          "sec11": {
+            "original": "Enable Public",
+            "singular": "启用公众",
+            "plural": "启用公众",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec12": {
+            "original": "Form",
+            "singular": "表单",
+            "plural": "表单",
+            "setupEdit": false,
+            "setupVisible": false
           }
         },
         "fields": {
@@ -19451,7 +19465,11 @@
           "monthVariable": "M字符表示票据创建日期的月份数字（'01' = 一月，'02' = 二月）",
           "dayVariable": "D字符表示记录创建日期的月份数字天数（例如，一月为'01'到'31'）",
           "autoCloseAfterNoActivity": "在没有活动后自动关闭票据（小时）",
-          "hereExamples": "以下是一些示例："
+          "hereExamples": "以下是一些示例：",
+          "enablingThePublic": "允许公众",
+          "allowsUserScan": "允许用户扫描",
+          "or": "或",
+          "qrCodesCreate": "二维码以创建"
         }
       },
       "listView": {

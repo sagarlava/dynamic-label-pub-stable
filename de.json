@@ -19344,6 +19344,20 @@
             "plural": "",
             "setupEdit": true,
             "setupVisible": false
+          },
+          "sec11": {
+            "original": "Enable Public",
+            "singular": "Öffentlich Aktivieren",
+            "plural": "Öffentlich Aktivieren",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec12": {
+            "original": "Form",
+            "singular": "Formular",
+            "plural": "Formulare",
+            "setupEdit": false,
+            "setupVisible": false
           }
         },
         "fields": {
@@ -19451,7 +19465,11 @@
           "monthVariable": "M-Zeichen repräsentieren den numerischen Monat des Ticket-Erstellungsdatums ('01' = Jan, '02' = Feb)",
           "dayVariable": "D-Zeichen repräsentieren den numerischen Tag des Monats des Datensatz-Erstellungsdatums (z. B. '01' bis '31' für Januar)",
           "autoCloseAfterNoActivity": "Ticket automatisch nach Inaktivität schließen (Std.)",
-          "hereExamples": "Hier sind einige Beispiele:"
+          "hereExamples": "Hier sind einige Beispiele:",
+          "enablingThePublic": "Die Öffentlichkeit aktivieren",
+          "allowsUserScan": "ermöglicht Benutzern das Scannen von",
+          "or": "oder",
+          "qrCodesCreate": "QR-Codes zum Erstellen von"
         }
       },
       "listView": {

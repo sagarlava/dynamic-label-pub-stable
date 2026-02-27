@@ -19344,6 +19344,20 @@
             "plural": "",
             "setupEdit": true,
             "setupVisible": false
+          },
+          "sec11": {
+            "original": "Enable Public",
+            "singular": "Habilitar Público",
+            "plural": "Habilitar Público",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec12": {
+            "original": "Form",
+            "singular": "Formulario",
+            "plural": "Formularios",
+            "setupEdit": false,
+            "setupVisible": false
           }
         },
         "fields": {
@@ -19451,7 +19465,11 @@
           "monthVariable": "Los caracteres M representan el mes numérico de la fecha de creación del ticket ('01' = Ene, '02' = Feb).",
           "dayVariable": "Los caracteres D representan el día numérico del mes de la fecha de creación del registro (p. ej., '01' a '31' para Ene).",
           "autoCloseAfterNoActivity": "Cierre automático del ticket tras inactividad (Hrs)",
-          "hereExamples": "Aquí hay algunos ejemplos:"
+          "hereExamples": "Aquí hay algunos ejemplos:",
+          "enablingThePublic": "Permitir al público",
+          "allowsUserScan": "permite a los usuarios escanear",
+          "or": "o",
+          "qrCodesCreate": "códigos QR para crear"
         }
       },
       "listView": {

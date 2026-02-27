@@ -14500,6 +14500,20 @@
                         "plural": "",
                         "setupEdit": true,
                         "setupVisible": false
+                    },
+                    "sec11": {
+                        "original": "Enable Public",
+                        "singular": "Enable Public",
+                        "plural": "Enable Public",
+                        "setupEdit": false,
+                        "setupVisible": false
+                    },
+                    "sec12": {
+                        "original": "Form",
+                        "singular": "Form",
+                        "plural": "Forms",
+                        "setupEdit": false,
+                        "setupVisible": false
                     }
                 },
                 "fields": {
@@ -14607,7 +14621,11 @@
                     "monthVariable": "M characters represent the numeric month of the ticket creation date ('01' = Jan, '02' = Feb)",
                     "dayVariable": "D characters represent the numeric day of the month of the record creation date (E.g. '01' to '31' for Jan)",
                     "autoCloseAfterNoActivity": "Auto-close ticket after no activity (Hrs)",
-                    "hereExamples": "Here are some examples:"
+                    "hereExamples": "Here are some examples:",
+                    "enablingThePublic":"Enabling the public",
+                    "allowsUserScan":"allows users to scan",
+                    "or":"or",
+                    "qrCodesCreate":"QR codes to create"
                 }
             },
             "listView": {
