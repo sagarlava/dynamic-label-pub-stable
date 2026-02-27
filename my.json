@@ -19439,6 +19439,20 @@
             "plural": "",
             "setupEdit": true,
             "setupVisible": false
+          },
+          "defaultLanguage": {
+            "original": "Default Language",
+            "singular": "Bahasa Lalai",
+            "plural": "Bahasa Lalai",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "default": {
+            "original": "Default",
+            "singular": "Lalai",
+            "plural": "Lalai",
+            "setupEdit": false,
+            "setupVisible": false
           }
         },
         "tooltips": {
@@ -19470,7 +19484,8 @@
           "enablingThePublic": "Membolehkan orang awam",
           "allowsUserScan": "membenarkan pengguna mengimbas",
           "or": "atau",
-          "qrCodesCreate": "kod QR untuk mencipta"
+          "qrCodesCreate": "kod QR untuk mencipta",
+          "publicFormLink": "Pautan Borang Awam"
         }
       },
       "listView": {

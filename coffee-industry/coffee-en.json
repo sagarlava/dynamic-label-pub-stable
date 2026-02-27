@@ -16117,6 +16117,20 @@
             "plural": "",
             "setupEdit": true,
             "setupVisible": false
+          },
+          "defaultLanguage": {
+            "original": "Default Language",
+            "singular": "Default Language",
+            "plural": "Default Language",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "default": {
+            "original": "Default",
+            "singular": "Default",
+            "plural": "Default",
+            "setupEdit": false,
+            "setupVisible": false
           }
         },
         "tooltips": {
@@ -16148,7 +16162,8 @@
           "enablingThePublic":"Enabling the public",
           "allowsUserScan":"allows users to scan",
           "or":"or",
-          "qrCodesCreate":"QR codes to create"
+          "qrCodesCreate":"QR codes to create",
+          "publicFormLink":"Public Form Link"
         }
       },
       "listView": {

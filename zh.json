@@ -19438,6 +19438,20 @@
             "plural": "",
             "setupEdit": true,
             "setupVisible": false
+          },
+          "defaultLanguage": {
+            "original": "Default Language",
+            "singular": "默认语言",
+            "plural": "默认语言",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "default": {
+            "original": "Default",
+            "singular": "默认",
+            "plural": "默认",
+            "setupEdit": false,
+            "setupVisible": false
           }
         },
         "tooltips": {
@@ -19469,7 +19483,8 @@
           "enablingThePublic": "允许公众",
           "allowsUserScan": "允许用户扫描",
           "or": "或",
-          "qrCodesCreate": "二维码以创建"
+          "qrCodesCreate": "二维码以创建",
+          "publicFormLink": "公开表单链接"
         }
       },
       "listView": {
