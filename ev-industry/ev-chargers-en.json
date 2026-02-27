@@ -2441,6 +2441,319 @@
         "errorOccuredWhileSigning":"An error occured while signing"
         }
     },
+    "analytic": {
+        "setupVisible": false,
+        "setupEdit": false,
+        "label": {
+            "original": "Analytics",
+            "singular": "Analytic",
+            "plural": "Analytics",
+            "setupEdit": false,
+            "setupVisible": false
+        },
+        "sections": {
+            "setupVisible": false,
+            "setupEdit": false,
+            "sec0": {
+                "original": "Lifespan and Financial Details",
+                "singular": "Lifespan and Financial Details",
+                "plural": "Lifespan and Financial Details",
+                "setupEdit": false,
+                "setupVisible": false
+            },
+            "sec1": {
+                "original": "Operational Metrics",
+                "singular": "Operational Metrics",
+                "plural": "Operational Metrics",
+                "setupEdit": false,
+                "setupVisible": false
+            },
+            "sec2": {
+                "original": "Downtime and Maintenance Analytics",
+                "singular": "Downtime and Maintenance Analytics",
+                "plural": "Downtime and Maintenance Analytics",
+                "setupEdit": false,
+                "setupVisible": false
+            },
+            "sec3": {
+                "original": "Condition and Inspection Details",
+                "singular": "Condition and Inspection Details",
+                "plural": "Condition and Inspection Details",
+                "setupEdit": false,
+                "setupVisible": false
+            },
+            "sec4": {
+                "original": "Performance and Cost Analysis",
+                "singular": "Performance and Cost Analysis",
+                "plural": "Performance and Cost Analysis",
+                "setupEdit": false,
+                "setupVisible": false
+            },
+            "sec5": {
+                "original": "Performance & Reliability",
+                "singular": "Performance & Reliability",
+                "plural": "Performance & Reliability",
+                "setupEdit": false,
+                "setupVisible": false
+            },
+            "sec6": {
+                "original": "Financial Health",
+                "singular": "Financial Health",
+                "plural": "Financial Health",
+                "setupEdit": false,
+                "setupVisible": false
+            },
+            "sec7": {
+                "original": "Lifecycle",
+                "singular": "Lifecycle",
+                "plural": "Lifecycle",
+                "setupEdit": false,
+                "setupVisible": false
+            },
+            "sec8": {
+                "original": "Running Costs",
+                "singular": "Running Cost",
+                "plural": "Running Costs",
+                "setupEdit": false,
+                "setupVisible": false
+            },
+            "sec9": {
+                "original": "Total Spend Breakdown",
+                "singular": "Total Spend Breakdown",
+                "plural": "Total Spend Breakdown",
+                "setupEdit": false,
+                "setupVisible": false
+            }
+        },
+        "fields": {
+            "setupVisible": false,
+            "setupEdit": false,
+            "estimatedLifespan": {
+                "original": "Estimated Lifespan (Months)",
+                "singular": "Estimated Lifespan (Months)",
+                "plural": "Estimated Lifespan (Months)",
+                "setupEdit": false,
+                "setupVisible": false
+            },
+            "initialCost": {
+                "original": "Initial Cost",
+                "singular": "Initial Cost",
+                "plural": "Initial Cost",
+                "setupEdit": false,
+                "setupVisible": false
+            },
+            "salvageValue": {
+                "original": "Salvage Value",
+                "singular": "Salvage Value",
+                "plural": "Salvage Value",
+                "setupEdit": false,
+                "setupVisible": false
+            },
+            "depriciationRate": {
+                "original": "Depreciation Rate",
+                "singular": "Depreciation Rate",
+                "plural": "Depreciation Rate",
+                "setupEdit": false,
+                "setupVisible": false
+            },
+            "expectedAvailableTime": {
+                "original": "Expected Available Time (Months)",
+                "singular": "Expected Available Time (Months)",
+                "plural": "Expected Available Time (Months)",
+                "setupEdit": false,
+                "setupVisible": false
+            },
+            "timeUsed": {
+                "original": "Time Used",
+                "singular": "Time Used",
+                "plural": "Time Used",
+                "setupEdit": false,
+                "setupVisible": false
+            },
+            "totalAvailableTime": {
+                "original": "Total Available Time",
+                "singular": "Total Available Time",
+                "plural": "Total Available Time",
+                "setupEdit": false,
+                "setupVisible": false
+            },
+            "utilizationRate": {
+                "original": "Utilization Rate",
+                "singular": "Utilization Rate",
+                "plural": "Utilization Rate",
+                "setupEdit": false,
+                "setupVisible": false
+            },
+            "remainingUsefulLife": {
+                "original": "Remaining Useful Life",
+                "singular": "Remaining Useful Life",
+                "plural": "Remaining Useful Life",
+                "setupEdit": false,
+                "setupVisible": false
+            },
+            "assetAge": {
+                "original": "Asset Age",
+                "singular": "Equipment Age",
+                "plural": "Equipment Age",
+                "setupEdit": false,
+                "setupVisible": false
+            },
+            "totalDowntimePeriod": {
+                "original": "Total Downtime Period",
+                "singular": "Total Downtime Period",
+                "plural": "Total Downtime Period",
+                "setupEdit": false,
+                "setupVisible": false
+            },
+            "avgRepairCost": {
+                "original": "Average Repair Cost",
+                "singular": "Average Repair Cost",
+                "plural": "Average Repair Cost",
+                "setupEdit": false,
+                "setupVisible": false
+            },
+            "avgMaintenanceCost": {
+                "original": "Average Maintenance Cost",
+                "singular": "Average Maintenance Cost",
+                "plural": "Average Maintenance Cost",
+                "setupEdit": false,
+                "setupVisible": false
+            },
+            "numberOfRepair": {
+                "original": "Repairs",
+                "singular": "Repair",
+                "plural": "Repairs",
+                "setupEdit": false,
+                "setupVisible": false
+            },
+            "totalRepairTime": {
+                "original": "Total Repair Time",
+                "singular": "Total Repair Time",
+                "plural": "Total Repair Time",
+                "setupEdit": false,
+                "setupVisible": false
+            },
+            "mttr": {
+                "original": "MTTR (Mean Time To Repair)",
+                "singular": "MTTR (Mean Time To Repair)",
+                "plural": "MTTR (Mean Time To Repair)",
+                "setupEdit": false,
+                "setupVisible": false
+            },
+            "mtbf": {
+                "original": "MTBF (Mean Time Between Failures)",
+                "singular": "MTBF (Mean Time Between Failures)",
+                "plural": "MTBF (Mean Time Between Failures)",
+                "setupEdit": false,
+                "setupVisible": false
+            },
+            "conditionIndex": {
+                "original": "Condition Index",
+                "singular": "Condition Index",
+                "plural": "Condition Index",
+                "setupEdit": false,
+                "setupVisible": false
+            },
+            "lastCalibrationDate": {
+                "original": "Last Calibration Date",
+                "singular": "Last Calibration Date",
+                "plural": "Last Calibration Date",
+                "setupEdit": false,
+                "setupVisible": false
+            },
+            "latestSafetyInspection": {
+                "original": "Latest Safety Inspection",
+                "singular": "Latest Safety Inspection",
+                "plural": "Latest Safety Inspection",
+                "setupEdit": false,
+                "setupVisible": false
+            },
+            "failureRate": {
+                "original": "Failure Rate",
+                "singular": "Failure Rate",
+                "plural": "Failure Rate",
+                "setupEdit": false,
+                "setupVisible": false
+            },
+            "operatingCostHour": {
+                "original": "Operational Cost/Hour",
+                "singular": "Operational Cost/Hour",
+                "plural": "Operational Cost/Hour",
+                "setupEdit": false,
+                "setupVisible": false
+            },
+            "repairCostHour": {
+                "original": "Repair Cost/Hour",
+                "singular": "Repair Cost/Hour",
+                "plural": "Repair Cost/Hour",
+                "setupEdit": false,
+                "setupVisible": false
+            },
+            "lifetimeCostHour": {
+                "original": "Lifetime Repair Cost",
+                "singular": "Lifetime Repair Cost",
+                "plural": "Lifetime Repair Cost",
+                "setupEdit": false,
+                "setupVisible": false
+            },
+            "lifetimeMaintenanceCost": {
+                "original": "Lifetime Maintenance Cost",
+                "singular": "Lifetime Maintenance Cost",
+                "plural": "Lifetime Maintenance Cost",
+                "setupEdit": false,
+                "setupVisible": false
+            },
+            "totalJob": {
+                "original": "Total Jobs",
+                "singular": "Total Job",
+                "plural": "Total Jobs",
+                "setupEdit": false,
+                "setupVisible": false
+            },
+            "totalRepair": {
+                "original": "Total Repairs",
+                "singular": "Total Repair",
+                "plural": "Total Repairs",
+                "setupEdit": false,
+                "setupVisible": false
+            },
+            "downtime": {
+                "original": "Downtime",
+                "singular": "Downtime",
+                "plural": "Downtime",
+                "setupEdit": false,
+                "setupVisible": false
+            },
+            "totalTimeUsed": {
+                "original": "Total Time Used",
+                "singular": "Total Time Used",
+                "plural": "Total Time Used",
+                "setupEdit": false,
+                "setupVisible": false
+            },
+            "currentBookValue": {
+                "original": "Current Book Value",
+                "singular": "Current Book Value",
+                "plural": "Current Book Value",
+                "setupEdit": false,
+                "setupVisible": false
+            },
+            "last": {
+                "original": "Last",
+                "singular": "Last",
+                "plural": "Last",
+                "setupEdit": false,
+                "setupVisible": false
+            },
+            "date": {
+                "original": "Date",
+                "singular": "Date",
+                "plural": "Date",
+                "setupEdit": false,
+                "setupVisible": false
+            }
+        }
+    },
     "contracts": {
         "setupVisible": true,
         "setupEdit": true,

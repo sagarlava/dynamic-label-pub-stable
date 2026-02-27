@@ -1182,7 +1182,7 @@
       "areYouSureDeleteReading":"Are you sure you want to delete this reading on",
       "errorOccuredWhileSigning":"An error occured while signing"
     }
-  },  
+  },
   "analytic": {
     "setupVisible": false,
     "setupEdit": false,
@@ -1228,6 +1228,41 @@
         "original": "Performance and Cost Analysis",
         "singular": "Performance and Cost Analysis",
         "plural": "Performance and Cost Analysis",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+       "sec5": {
+        "original": "Performance & Reliability",
+        "singular": "Performance & Reliability",
+        "plural": "Performance & Reliability",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec6": {
+        "original": "Financial Health",
+        "singular": "Financial Health",
+        "plural": "Financial Health",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec7": {
+        "original": "Lifecycle",
+        "singular": "Lifecycle",
+        "plural": "Lifecycle",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec8": {
+        "original": "Running Costs",
+        "singular": "Running Cost",
+        "plural": "Running Costs",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec9": {
+        "original": "Total Spend Breakdown",
+        "singular": "Total Spend Breakdown",
+        "plural": "Total Spend Breakdown",
         "setupEdit": false,
         "setupVisible": false
       }
@@ -1292,9 +1327,9 @@
         "setupVisible": false
       },
       "remainingUsefulLife": {
-        "original": "Remaining Useful Life (RUL)",
-        "singular": "Remaining Useful Life (RUL)",
-        "plural": "Remaining Useful Life (RUL)",
+        "original": "Remaining Useful Life",
+        "singular": "Remaining Useful Life",
+        "plural": "Remaining Useful Life",
         "setupEdit": false,
         "setupVisible": false
       },
@@ -1327,9 +1362,9 @@
         "setupVisible": false
       },
       "numberOfRepair": {
-        "original": "Number of Repairs",
-        "singular": "Number of Repair",
-        "plural": "Number of Repairs",
+        "original": "Repairs",
+        "singular": "Repair",
+        "plural": "Repairs",
         "setupEdit": false,
         "setupVisible": false
       },
@@ -1383,16 +1418,16 @@
         "setupVisible": false
       },
       "operatingCostHour": {
-        "original": "Operating Costs per Hour",
-        "singular": "Operating Costs per Hour",
-        "plural": "Operating Costs per Hour",
+        "original": "Operational Cost/Hour",
+        "singular": "Operational Cost/Hour",
+        "plural": "Operational Cost/Hour",
         "setupEdit": false,
         "setupVisible": false
       },
       "repairCostHour": {
-        "original": "Repair Costs per Hour",
-        "singular": "Repair Costs per Hour",
-        "plural": "Repair Costs per Hour",
+        "original": "Repair Cost/Hour",
+        "singular": "Repair Cost/Hour",
+        "plural": "Repair Cost/Hour",
         "setupEdit": false,
         "setupVisible": false
       },
@@ -1407,6 +1442,55 @@
         "original": "Lifetime Maintenance Cost",
         "singular": "Lifetime Maintenance Cost",
         "plural": "Lifetime Maintenance Cost",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "totalJob": {
+        "original": "Total Jobs",
+        "singular": "Total Job",
+        "plural": "Total Jobs",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "totalRepair": {
+        "original": "Total Repairs",
+        "singular": "Total Repair",
+        "plural": "Total Repairs",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "downtime": {
+        "original": "Downtime",
+        "singular": "Downtime",
+        "plural": "Downtime",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "totalTimeUsed": {
+        "original": "Total Time Used",
+        "singular": "Total Time Used",
+        "plural": "Total Time Used",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "currentBookValue": {
+        "original": "Current Book Value",
+        "singular": "Current Book Value",
+        "plural": "Current Book Value",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "last": {
+        "original": "Last",
+        "singular": "Last",
+        "plural": "Last",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "date": {
+        "original": "Date",
+        "singular": "Date",
+        "plural": "Date",
         "setupEdit": false,
         "setupVisible": false
       }
