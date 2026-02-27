@@ -29988,7 +29988,8 @@
       "userLoginNotFound": "未找到用户的登录信息",
       "userNameExists": "用户名已被使用",
       "userNotAllowedInMobile": "您不允许登录移动应用程序。请使用网页应用程序",
-      "deviceNotAllowed": "此设备不允许登录。请联系您的管理员"
+      "deviceNotAllowed": "此设备不允许登录。请联系您的管理员",
+      "usernameLeadingSpace": "请删除用户名前的空格并重试。"
     }
   },
   "resetPassword": {

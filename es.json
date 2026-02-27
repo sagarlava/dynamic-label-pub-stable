@@ -29988,7 +29988,8 @@
       "userLoginNotFound": "Inicio de sesión del usuario no encontrado.",
       "userNameExists": "El nombre de usuario ya está en uso.",
       "userNotAllowedInMobile": "No se le permite iniciar sesión en la aplicación móvil. Por favor, proceda con la aplicación web.",
-      "deviceNotAllowed": "Este dispositivo no está permitido para iniciar sesión. Comuníquese con su administrador."
+      "deviceNotAllowed": "Este dispositivo no está permitido para iniciar sesión. Comuníquese con su administrador.",
+      "usernameLeadingSpace": "Elimine los espacios al inicio del nombre de usuario y vuelva a intentarlo."
     }
   },
   "resetPassword": {

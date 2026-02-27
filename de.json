@@ -29988,7 +29988,8 @@
       "userLoginNotFound": "Anmeldung des Benutzers nicht gefunden",
       "userNameExists": "Benutzername bereits vergeben",
       "userNotAllowedInMobile": "Sie sind nicht berechtigt, sich in der mobilen App anzumelden. Bitte nutzen Sie die Webanwendung",
-      "deviceNotAllowed": "Dieses Gerät ist nicht berechtigt, sich anzumelden. Bitte kontaktieren Sie Ihren Administrator"
+      "deviceNotAllowed": "Dieses Gerät ist nicht berechtigt, sich anzumelden. Bitte kontaktieren Sie Ihren Administrator",
+      "usernameLeadingSpace": "Bitte entfernen Sie Leerzeichen am Anfang des Benutzernamens und versuchen Sie es erneut."
     }
   },
   "resetPassword": {
