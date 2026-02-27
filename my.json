@@ -1796,6 +1796,30 @@
         "setupEdit": false,
         "setupVisible": false
       }
+    },
+    "messages": {
+      "mtbfDesc": "Berdasarkan Jumlah Masa Operasi dan Bilangan Kegagalan. MTBF = Jumlah Masa Tersedia ÷ Bilangan Pembaikan",
+      "totalJobsDesc": "Kiraan semua Pesanan Kerja dalam sistem. Jumlah Kerja = Kiraan semua Pesanan Kerja",
+      "failureRateDesc": "Dikira berdasarkan Jumlah Tempoh Masa Henti dan Bilangan Kegagalan. Kadar Kegagalan = (Jumlah Masa Henti ÷ Jumlah Masa Tersedia) x 100",
+      "mttrDesc": "Dikira berdasarkan Bilangan Pembaikan dan Jumlah Masa Pembaikan. MTTR = Jumlah Masa Pembaikan ÷ Bilangan Pembaikan",
+      "totalRepairDesc": "Jumlah masa terkumpul untuk semua pembaikan. Jumlah Masa Pembaikan = Jumlah semua masa daftar masuk PK Kategori 'Pembetulan/Pembaikan'",
+      "downtimeDesc": "Masa henti terkumpul dari mula penggunaan. Jumlah Masa Henti = Jumlah (Tempoh di mana kategori status = 'Masa Henti')",
+      "utilizationRateDesc": "Peratusan penggunaan berdasarkan Masa Digunakan dan Jumlah Masa Tersedia. Kadar Penggunaan = (Masa Digunakan ÷ Jumlah Masa Tersedia) x 100",
+      "totalAvailTimeDesc": "Masa operasi terkumpul dari mula penggunaan. Jumlah Masa Tersedia = Jumlah (Tempoh di mana kumpulan status = 'Aktif' ATAU 'Tidak Aktif')",
+      "timeUsedDesc": "Masa sebenar aset telah digunakan. Masa Digunakan = Jumlah (Tempoh di mana kumpulan status = 'Aktif')",
+      "currentBookValueDesc": "Nilai perakaunan semasa aset. Nilai Buku = Kos Awal - Susut Nilai Terkumpul",
+      "initialCostDesc": "Masukkan kos pembelian atau pemerolehan aset. Kos Awal = Input Pengguna (Harga Aset)",
+      "depreciationRateDesc": "Mengukur kehilangan nilai aset dari semasa ke semasa. Kadar Susut Nilai % = Input Pengguna (Kadar Susut Nilai Tahunan Aset)",
+      "operationalCostHourDesc": "Dikira menggunakan Jumlah Jam Aktif dan Jumlah Kos Operasi. Kos Operasi/Jam = (Jumlah Kos Pembaikan Sepanjang Hayat + Jumlah Kos Penyelenggaraan Sepanjang Hayat) ÷ Jumlah Masa Tersedia",
+      "repairCostHourDesc": "Memaparkan purata kos pembaikan bagi setiap jam aset beroperasi. Kos Pembaikan/Jam = Jumlah Kos Pembaikan Sepanjang Hayat ÷ Jumlah Masa Tersedia",
+      "lifetimeMaintenanceDesc": "Kos Penyelenggaraan Sepanjang Hayat = (Jika (Kategori PK ialah 'Penyelenggaraan Pencegahan' && Status adalah Selesai) Jumlah (Harga Alat Ganti PK x kuantiti))",
+      "avgMaintenanceCostDesc": "Kos untuk setiap peristiwa penyelenggaraan. Purata Kos Penyelenggaraan = Purata (Jika (Kategori PK ialah 'Penyelenggaraan Pencegahan' && Status adalah Selesai) Jumlah (Harga Alat Ganti PK x kuantiti))",
+      "repairsDesc": "Kos Pembaikan Sepanjang Hayat = (Jika (Kategori PK ialah 'Pembetulan/Pembaikan' && Status adalah Selesai) Jumlah (Harga Alat Ganti PK x kuantiti))",
+      "avgRepairCostDesc": "Kos untuk setiap peristiwa pembaikan. Purata Kos Pembaikan = Purata (Jika (Kategori PK ialah 'Pembetulan/Pembaikan' && Status adalah Selesai) Jumlah (Harga Alat Ganti PK x kuantiti))",
+      "assetAgeDesc": "Masa yang berlalu sejak tarikh pembelian aset. Umur Aset = Tarikh Semasa - Tarikh Pembelian",
+      "remainingUsefulLifeDesc": "Dikira berdasarkan Tarikh Pembelian dan Jangka Hayat Anggaran. Baki Hayat Berguna (BHB) = Jangka Hayat Anggaran - Umur Aset",
+      "lastMaintenanceDateDesc": "Tarikh penyelenggaraan terakhir. Tarikh Penyelenggaraan Terkini = Tarikh kerja terakhir di mana Kategori PK = 'Penyelenggaraan Pencegahan'",
+      "lastRepairDateDesc": "Tarikh pembaikan terakhir. Tarikh Pembaikan Terakhir = Tarikh kerja terakhir di mana Kategori PK = 'Pembetulan/Pembaikan'"
     }
   },
   "assetLog": {

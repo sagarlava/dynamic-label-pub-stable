@@ -1796,6 +1796,30 @@
         "setupEdit": false,
         "setupVisible": false
       }
+    },
+    "messages": {
+      "mtbfDesc": "Basado en el Tiempo Operativo Total y el Número de Fallos. MTBF = Tiempo Total Disponible ÷ Número de Reparaciones",
+      "totalJobsDesc": "Recuento de todas las Órdenes de Trabajo en el sistema. Total de Trabajos = Recuento de todas las Órdenes de Trabajo",
+      "failureRateDesc": "Calculado en base al Período Total de Inactividad y el Número de Fallos. Tasa de Fallos = (Tiempo Total de Inactividad ÷ Tiempo Total Disponible) x 100",
+      "mttrDesc": "Calculado en base al Número de Reparaciones y el Tiempo Total de Reparación. MTTR = Tiempo Total de Reparación ÷ Número de Reparaciones",
+      "totalRepairDesc": "Tiempo acumulado para todas las reparaciones. Tiempo Total de Reparación = Suma de todos los tiempos de entrada OT Categoría 'Correctivo/Reparación'",
+      "downtimeDesc": "Tiempo de inactividad acumulado desde el inicio del uso. Tiempo Total de Inactividad = Suma (Duración donde categoría de estado = 'Inactividad')",
+      "utilizationRateDesc": "Porcentaje de uso basado en el Tiempo Utilizado y el Tiempo Total Disponible. Tasa de Utilización = (Tiempo Utilizado ÷ Tiempo Total Disponible) x 100",
+      "totalAvailTimeDesc": "Tiempo operativo acumulado desde el inicio del uso. Tiempo Total Disponible = Suma (Duración donde grupo de estado = 'Activo' O 'Inactivo')",
+      "timeUsedDesc": "Tiempo real que el activo ha estado en uso. Tiempo Utilizado = Suma (Duración donde grupo de estado = 'Activo')",
+      "currentBookValueDesc": "Valor contable actual de un activo. Valor Contable = Costo Inicial - Depreciación Acumulada",
+      "initialCostDesc": "Ingrese el costo de compra o adquisición del activo. Costo Inicial = Entrada del Usuario (Precio del Activo)",
+      "depreciationRateDesc": "Mide la pérdida de valor del activo con el tiempo. Tasa de Depreciación % = Entrada del Usuario (Tasa de Depreciación Anual del Activo)",
+      "operationalCostHourDesc": "Calculado por el Total de Horas Activas y el Costo Operativo Total. Costo Operativo/Hora = (Suma de Costos de Reparación de por Vida + Suma de Costos de Mantenimiento de por Vida) ÷ Tiempo Total Disponible",
+      "repairCostHourDesc": "Muestra el costo promedio de reparaciones por cada hora que el activo ha estado operativo. Costo de Reparación/Hora = Suma de Costos de Reparación de por Vida ÷ Tiempo Total Disponible",
+      "lifetimeMaintenanceDesc": "Costo de Mantenimiento de por Vida = (Si (Categoría OT es 'Mantenimiento Preventivo' && Estado es Completo) Suma (Precios de Repuestos OT x cant))",
+      "avgMaintenanceCostDesc": "Costo por cada evento de mantenimiento. Costo Promedio de Mantenimiento = Promedio de (Si (Categoría OT es 'Mantenimiento Preventivo' && Estado es Completo) Suma (Precios de Repuestos OT x cant))",
+      "repairsDesc": "Costo de Reparación de por Vida = (Si (Categoría OT es 'Correctivo/Reparación' && Estado es Completo) Suma (Precios de Repuestos OT x cant))",
+      "avgRepairCostDesc": "Costo por cada evento de reparación. Costo Promedio de Reparación = Promedio de (Si (Categoría OT es 'Correctivo/Reparación' && Estado es Completo) Suma (Precios de Repuestos OT x cant))",
+      "assetAgeDesc": "Tiempo transcurrido desde la fecha de compra del activo. Antigüedad del Activo = Fecha Actual - Fecha de Compra",
+      "remainingUsefulLifeDesc": "Calculado en base a la Fecha de Compra y la Vida Útil Estimada. Vida Útil Restante (VUR) = Vida Útil Estimada - Antigüedad del Activo",
+      "lastMaintenanceDateDesc": "Fecha del último mantenimiento. Fecha de Último Mantenimiento = Fecha del último trabajo donde Categoría OT = 'Mantenimiento Preventivo'",
+      "lastRepairDateDesc": "Fecha de la última reparación. Fecha de Última Reparación = Fecha del último trabajo donde Categoría OT = 'Correctivo/Reparación'"
     }
   },
   "assetLog": {

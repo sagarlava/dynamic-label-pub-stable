@@ -2752,6 +2752,30 @@
                 "setupEdit": false,
                 "setupVisible": false
             }
+        },
+         "messages":{
+            "mtbfDesc":"Based on Total Operational Time and Number of Failures. MTBF = Total Available Time ÷ Number of Repairs",
+            "totalJobsDesc":"Count of all Job Orders in the system. Total Jobs = Count of all Job Orders",
+            "failureRateDesc":"Calculated based on Total Downtime Period and Number of Failures. Failure Rate = (Total Downtime ÷ Total Available Time) x 100",
+            "mttrDesc":"Calculated based on Number of Repairs and Total Repair Time. MTTR = Total Repair Time ÷ Number of Repairs",
+            "totalRepairDesc":"Cumulative time taken for all repairs. Total Repair Time = Sum of all check-in time JO Category is ‘Corrective/Repair’",
+            "downtimeDesc":"Cumulative downtime from the start of use. Total Downtime = Sum (Duration where status category = 'Downtime')",
+            "utilizationRateDesc":"Percentage usage based on Time Used and Total Available Time. Utilization Rate = (Time Used ÷ Total Available Time) x 100",
+            "totalAvailTimeDesc":"Cumulative operational time from the start of use. Total Available Time = Sum (Duration where status group = 'Active' OR 'Idle')",
+            "timeUsedDesc":"Actual time the equipment has been in use. Time Used = Sum (Duration where status group = ’Active’)",
+            "currentBookValueDesc":"Current accounting value of an equipment. Book Value = Initial Cost - Accumulated Depreciation",
+            "initialCostDesc":"Enter the purchase or acquisition cost of the equipment. Initial Cost = User Input (Price of Equipment)",
+            "depreciationRateDesc":"Measures loss in equipment value over time. Depreciation Rate % = User Input(Yearly Depreciation Rate of Equipment)",
+            "operationalCostHourDesc":"Calculated by Total Active Hours and Total Operating Cost. Operating Cost/Hour = (Sum of Lifetime Repair Costs + Sum of Lifetime Maintenance Costs) ÷ Total Available Time",
+            "repairCostHourDesc":"Displays the average cost of repairs for every hour the equipment has been operational. Repair Cost/Hour = Sum of Lifetime Repair Costs ÷ Total Available Time",
+            "lifetimeMaintenanceDesc":"Lifetime Maintenance Cost = (If (JO Category is ‘Preventive Maintenance’ && Status is Complete) Sum (JO Spare Part prices x qty))",
+            "avgMaintenanceCostDesc":"Cost for each maintenance event. Average Maintenance Cost = Average of (If (JO Category is ‘Preventive Maintenance’ && Status is Complete) Sum (JO Spare Part prices x qty))",
+            "repairsDesc":"Lifetime Repair Cost = (If (JO Category is ‘Corrective/Repair’ && Status is Complete) Sum (JO Spare Part prices x qty))",
+            "avgRepairCostDesc":"Cost for each repair event. Average Repair Cost = Average of (If (JO Category is ‘Corrective/Repair’ && Status is Complete) Sum (JO Spare Part prices x qty))",
+            "assetAgeDesc":"Time elapsed since the equipment's purchase date. Equipment Age = Current Date - Purchase Date",
+            "remainingUsefulLifeDesc":"Calculated based on Purchase Date and Estimated Lifespan. Remaining Useful Life (RUL) = Estimated Lifespan - Equipment Age",
+            "lastMaintenanceDateDesc":"Date of the last maintenance. Latest Maintenance Date = Date of the last job where JO Category = ‘Preventive Maintenance’",
+            "lastRepairDateDesc":"Date of the last repair. Last Repair Date = Date of the last job where JO Category = ‘Corrective/Repair’"
         }
     },
     "contracts": {

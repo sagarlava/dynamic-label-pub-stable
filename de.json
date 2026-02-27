@@ -1796,6 +1796,30 @@
         "setupEdit": false,
         "setupVisible": false
       }
+    },
+    "messages": {
+      "mtbfDesc": "Basierend auf der gesamten Betriebszeit und der Anzahl der Ausfälle. MTBF = Gesamte verfügbare Zeit ÷ Anzahl der Reparaturen",
+      "totalJobsDesc": "Anzahl aller Arbeitsaufträge im System. Gesamtaufträge = Anzahl aller Arbeitsaufträge",
+      "failureRateDesc": "Berechnet auf Basis der gesamten Ausfallzeit und der Anzahl der Ausfälle. Ausfallrate = (Gesamte Ausfallzeit ÷ Gesamte verfügbare Zeit) x 100",
+      "mttrDesc": "Berechnet auf Basis der Anzahl der Reparaturen und der gesamten Reparaturzeit. MTTR = Gesamte Reparaturzeit ÷ Anzahl der Reparaturen",
+      "totalRepairDesc": "Kumulierte Zeit für alle Reparaturen. Gesamte Reparaturzeit = Summe aller Eincheckzeiten AA-Kategorie 'Korrektur/Reparatur'",
+      "downtimeDesc": "Kumulierte Ausfallzeit seit Beginn der Nutzung. Gesamte Ausfallzeit = Summe (Dauer, bei der Statuskategorie = 'Ausfallzeit')",
+      "utilizationRateDesc": "Prozentuale Nutzung basierend auf genutzter Zeit und gesamter verfügbarer Zeit. Auslastungsrate = (Genutzte Zeit ÷ Gesamte verfügbare Zeit) x 100",
+      "totalAvailTimeDesc": "Kumulierte Betriebszeit seit Beginn der Nutzung. Gesamte verfügbare Zeit = Summe (Dauer, bei der Statusgruppe = 'Aktiv' ODER 'Inaktiv')",
+      "timeUsedDesc": "Tatsächliche Nutzungszeit des Assets. Genutzte Zeit = Summe (Dauer, bei der Statusgruppe = 'Aktiv')",
+      "currentBookValueDesc": "Aktueller Buchwert eines Assets. Buchwert = Anschaffungskosten - Kumulierte Abschreibung",
+      "initialCostDesc": "Geben Sie die Kauf- oder Anschaffungskosten des Assets ein. Anschaffungskosten = Benutzereingabe (Preis des Assets)",
+      "depreciationRateDesc": "Misst den Wertverlust des Assets über die Zeit. Abschreibungsrate % = Benutzereingabe (Jährliche Abschreibungsrate des Assets)",
+      "operationalCostHourDesc": "Berechnet durch die gesamten aktiven Stunden und die gesamten Betriebskosten. Betriebskosten/Stunde = (Summe der Reparaturkosten über die Lebensdauer + Summe der Wartungskosten über die Lebensdauer) ÷ Gesamte verfügbare Zeit",
+      "repairCostHourDesc": "Zeigt die durchschnittlichen Reparaturkosten für jede Betriebsstunde des Assets. Reparaturkosten/Stunde = Summe der Reparaturkosten über die Lebensdauer ÷ Gesamte verfügbare Zeit",
+      "lifetimeMaintenanceDesc": "Wartungskosten über die Lebensdauer = (Wenn (AA-Kategorie ist 'Vorbeugende Wartung' && Status ist Abgeschlossen) Summe (AA-Ersatzteilpreise x Menge))",
+      "avgMaintenanceCostDesc": "Kosten für jedes Wartungsereignis. Durchschnittliche Wartungskosten = Durchschnitt von (Wenn (AA-Kategorie ist 'Vorbeugende Wartung' && Status ist Abgeschlossen) Summe (AA-Ersatzteilpreise x Menge))",
+      "repairsDesc": "Reparaturkosten über die Lebensdauer = (Wenn (AA-Kategorie ist 'Korrektur/Reparatur' && Status ist Abgeschlossen) Summe (AA-Ersatzteilpreise x Menge))",
+      "avgRepairCostDesc": "Kosten für jedes Reparaturereignis. Durchschnittliche Reparaturkosten = Durchschnitt von (Wenn (AA-Kategorie ist 'Korrektur/Reparatur' && Status ist Abgeschlossen) Summe (AA-Ersatzteilpreise x Menge))",
+      "assetAgeDesc": "Verstrichene Zeit seit dem Kaufdatum des Assets. Asset-Alter = Aktuelles Datum - Kaufdatum",
+      "remainingUsefulLifeDesc": "Berechnet auf Basis des Kaufdatums und der geschätzten Nutzungsdauer. Verbleibende Nutzungsdauer (VND) = Geschätzte Nutzungsdauer - Asset-Alter",
+      "lastMaintenanceDateDesc": "Datum der letzten Wartung. Letztes Wartungsdatum = Datum des letzten Auftrags, bei dem AA-Kategorie = 'Vorbeugende Wartung'",
+      "lastRepairDateDesc": "Datum der letzten Reparatur. Letztes Reparaturdatum = Datum des letzten Auftrags, bei dem AA-Kategorie = 'Korrektur/Reparatur'"
     }
   },
   "assetLog": {
