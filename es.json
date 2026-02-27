@@ -1753,6 +1753,27 @@
         "plural": "Costos de mantenimiento durante la vida útil",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "totalRepair": {
+        "original": "Total Repairs",
+        "singular": "Reparación Total",
+        "plural": "Reparaciones Totales",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "downtime": {
+        "original": "Downtime",
+        "singular": "Tiempo de Inactividad",
+        "plural": "Tiempos de Inactividad",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "totalTimeUsed": {
+        "original": "Total Time Used",
+        "singular": "Tiempo Total Utilizado",
+        "plural": "Tiempo Total Utilizado",
+        "setupEdit": false,
+        "setupVisible": false
       }
     }
   },

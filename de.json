@@ -1753,6 +1753,27 @@
         "plural": "Lebenslange Wartungskosten",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "totalRepair": {
+        "original": "Total Repairs",
+        "singular": "Gesamtreparatur",
+        "plural": "Gesamtreparaturen",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "downtime": {
+        "original": "Downtime",
+        "singular": "Ausfallzeit",
+        "plural": "Ausfallzeiten",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "totalTimeUsed": {
+        "original": "Total Time Used",
+        "singular": "Gesamte Nutzungszeit",
+        "plural": "Gesamte Nutzungszeit",
+        "setupEdit": false,
+        "setupVisible": false
       }
     }
   },

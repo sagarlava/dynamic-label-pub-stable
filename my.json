@@ -1753,6 +1753,27 @@
         "plural": "Kos Penyelenggaraan Sepanjang Hayat",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "totalRepair": {
+        "original": "Total Repairs",
+        "singular": "Jumlah Pembaikan",
+        "plural": "Jumlah Pembaikan",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "downtime": {
+        "original": "Downtime",
+        "singular": "Masa Henti",
+        "plural": "Masa Henti",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "totalTimeUsed": {
+        "original": "Total Time Used",
+        "singular": "Jumlah Masa Digunakan",
+        "plural": "Jumlah Masa Digunakan",
+        "setupEdit": false,
+        "setupVisible": false
       }
     }
   },

@@ -1753,6 +1753,27 @@
         "plural": "生命周期维护成本",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "totalRepair": {
+        "original": "Total Repairs",
+        "singular": "维修总计",
+        "plural": "维修总计",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "downtime": {
+        "original": "Downtime",
+        "singular": "停机时间",
+        "plural": "停机时间",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "totalTimeUsed": {
+        "original": "Total Time Used",
+        "singular": "总使用时间",
+        "plural": "总使用时间",
+        "setupEdit": false,
+        "setupVisible": false
       }
     }
   },

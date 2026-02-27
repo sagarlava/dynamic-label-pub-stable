@@ -1760,6 +1760,27 @@
         "plural": "Total Jobs",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "totalRepair": {
+        "original": "Total Repairs",
+        "singular": "Total Repair",
+        "plural": "Total Repairs",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "downtime": {
+        "original": "Downtime",
+        "singular": "Downtime",
+        "plural": "Downtime",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "totalTimeUsed": {
+        "original": "Total Time Used",
+        "singular": "Total Time Used",
+        "plural": "Total Time Used",
+        "setupEdit": false,
+        "setupVisible": false
       }
     }
   },
