@@ -1671,12 +1671,12 @@
         "setupVisible": false
       },
       "numberOfRepair": {
-        "original": "Number of Repairs",
-        "singular": "Bilangan Pembaikan",
-        "plural": "Bilangan Pembaikan",
-        "setupEdit": false,
-        "setupVisible": false
-      },
+          "original": "Repairs",
+          "singular": "Pembaikan",
+          "plural": "Pembaikan",
+          "setupEdit": false,
+          "setupVisible": false
+        },
       "totalRepairTime": {
         "original": "Total Repair Time",
         "singular": "Jumlah Masa Pembaikan",
