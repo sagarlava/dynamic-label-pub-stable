@@ -1636,9 +1636,9 @@
         "setupVisible": false
       },
       "remainingUsefulLife": {
-        "original": "Remaining Useful Life (RUL)",
-        "singular": "剩余使用寿命 (RUL)",
-        "plural": "剩余使用寿命 (RUL)",
+        "original": "Remaining Useful Life",
+        "singular": "剩余使用寿命",
+        "plural": "剩余使用寿命",
         "setupEdit": false,
         "setupVisible": false
       },
@@ -1779,6 +1779,20 @@
         "original": "Current Book Value",
         "singular": "当前账面价值",
         "plural": "当前账面价值",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "last": {
+        "original": "Last",
+        "singular": "最近",
+        "plural": "最近",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "date": {
+        "original": "Date",
+        "singular": "日期",
+        "plural": "日期",
         "setupEdit": false,
         "setupVisible": false
       }

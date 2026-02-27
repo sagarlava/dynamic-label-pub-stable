@@ -1636,9 +1636,9 @@
         "setupVisible": false
       },
       "remainingUsefulLife": {
-        "original": "Remaining Useful Life (RUL)",
-        "singular": "Vidas útiles restantes (RUL)",
-        "plural": "Vidas útiles restantes (RUL)",
+        "original": "Remaining Useful Life",
+        "singular": "Vidas útiles restantes",
+        "plural": "Vidas útiles restantes",
         "setupEdit": false,
         "setupVisible": false
       },
@@ -1779,6 +1779,20 @@
         "original": "Current Book Value",
         "singular": "Valor Contable Actual",
         "plural": "Valores Contables Actuales",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "last": {
+        "original": "Last",
+        "singular": "Último",
+        "plural": "Últimos",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "date": {
+        "original": "Date",
+        "singular": "Fecha",
+        "plural": "Fechas",
         "setupEdit": false,
         "setupVisible": false
       }

@@ -1636,9 +1636,9 @@
         "setupVisible": false
       },
       "remainingUsefulLife": {
-        "original": "Remaining Useful Life (RUL)",
-        "singular": "Jangka Hayat Berguna Baki (RUL)",
-        "plural": "Jangka Hayat Berguna Baki (RUL)",
+        "original": "Remaining Useful Life",
+        "singular": "Jangka Hayat Berguna Baki",
+        "plural": "Jangka Hayat Berguna Baki",
         "setupEdit": false,
         "setupVisible": false
       },
@@ -1779,6 +1779,20 @@
         "original": "Current Book Value",
         "singular": "Nilai Buku Semasa",
         "plural": "Nilai Buku Semasa",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "last": {
+        "original": "Last",
+        "singular": "Terakhir",
+        "plural": "Terakhir",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "date": {
+        "original": "Date",
+        "singular": "Tarikh",
+        "plural": "Tarikh",
         "setupEdit": false,
         "setupVisible": false
       }

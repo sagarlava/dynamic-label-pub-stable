@@ -1636,9 +1636,9 @@
         "setupVisible": false
       },
       "remainingUsefulLife": {
-        "original": "Remaining Useful Life (RUL)",
-        "singular": "Verbleibende Nutzungsdauern (RUL)",
-        "plural": "Verbleibende Nutzungsdauern (RUL)",
+        "original": "Remaining Useful Life",
+        "singular": "Verbleibende Nutzungsdauern",
+        "plural": "Verbleibende Nutzungsdauern",
         "setupEdit": false,
         "setupVisible": false
       },
@@ -1779,6 +1779,20 @@
         "original": "Current Book Value",
         "singular": "Aktueller Buchwert",
         "plural": "Aktuelle Buchwerte",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "last": {
+        "original": "Last",
+        "singular": "Letzter",
+        "plural": "Letzte",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "date": {
+        "original": "Date",
+        "singular": "Datum",
+        "plural": "Daten",
         "setupEdit": false,
         "setupVisible": false
       }

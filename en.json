@@ -1636,9 +1636,9 @@
         "setupVisible": false
       },
       "remainingUsefulLife": {
-        "original": "Remaining Useful Life (RUL)",
-        "singular": "Remaining Useful Life (RUL)",
-        "plural": "Remaining Useful Life (RUL)",
+        "original": "Remaining Useful Life",
+        "singular": "Remaining Useful Life",
+        "plural": "Remaining Useful Life",
         "setupEdit": false,
         "setupVisible": false
       },
@@ -1786,6 +1786,20 @@
         "original": "Current Book Value",
         "singular": "Current Book Value",
         "plural": "Current Book Value",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "last": {
+        "original": "Last",
+        "singular": "Last",
+        "plural": "Last",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "date": {
+        "original": "Date",
+        "singular": "Date",
+        "plural": "Date",
         "setupEdit": false,
         "setupVisible": false
       }
