@@ -1727,16 +1727,16 @@
         "setupVisible": false
       },
       "operatingCostHour": {
-        "original": "Operating Costs per Hour",
-        "singular": "每小时运营成本",
-        "plural": "每小时运营成本",
+        "original": "Operational Cost/Hour",
+        "singular": "运营成本/小时",
+        "plural": "运营成本/小时",
         "setupEdit": false,
         "setupVisible": false
       },
       "repairCostHour": {
-        "original": "Repair Costs per Hour",
-        "singular": "每小时维修成本",
-        "plural": "每小时维修成本",
+        "original": "Repair Cost/Hour",
+        "singular": "维修成本/小时",
+        "plural": "维修成本/小时",
         "setupEdit": false,
         "setupVisible": false
       },
@@ -1772,6 +1772,13 @@
         "original": "Total Time Used",
         "singular": "总使用时间",
         "plural": "总使用时间",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "currentBookValue": {
+        "original": "Current Book Value",
+        "singular": "当前账面价值",
+        "plural": "当前账面价值",
         "setupEdit": false,
         "setupVisible": false
       }

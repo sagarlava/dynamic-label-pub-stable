@@ -1727,16 +1727,16 @@
         "setupVisible": false
       },
       "operatingCostHour": {
-        "original": "Operating Costs per Hour",
-        "singular": "Betriebskosten pro Stunde",
-        "plural": "Betriebskosten pro Stunde",
+        "original": "Operational Cost/Hour",
+        "singular": "Betriebskosten/Stunde",
+        "plural": "Betriebskosten/Stunde",
         "setupEdit": false,
         "setupVisible": false
       },
       "repairCostHour": {
-        "original": "Repair Costs per Hour",
-        "singular": "Reparaturkosten pro Stunde",
-        "plural": "Reparaturkosten pro Stunde",
+        "original": "Repair Cost/Hour",
+        "singular": "Reparaturkosten/Stunde",
+        "plural": "Reparaturkosten/Stunde",
         "setupEdit": false,
         "setupVisible": false
       },
@@ -1772,6 +1772,13 @@
         "original": "Total Time Used",
         "singular": "Gesamte Nutzungszeit",
         "plural": "Gesamte Nutzungszeit",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "currentBookValue": {
+        "original": "Current Book Value",
+        "singular": "Aktueller Buchwert",
+        "plural": "Aktuelle Buchwerte",
         "setupEdit": false,
         "setupVisible": false
       }

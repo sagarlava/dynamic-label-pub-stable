@@ -1727,16 +1727,16 @@
         "setupVisible": false
       },
       "operatingCostHour": {
-        "original": "Operating Costs per Hour",
-        "singular": "Kos Operasi setiap Jam",
-        "plural": "Kos Operasi setiap Jam",
+        "original": "Operational Cost/Hour",
+        "singular": "Kos Operasi/Jam",
+        "plural": "Kos Operasi/Jam",
         "setupEdit": false,
         "setupVisible": false
       },
       "repairCostHour": {
-        "original": "Repair Costs per Hour",
-        "singular": "Kos Pembaikan setiap Jam",
-        "plural": "Kos Pembaikan setiap Jam",
+        "original": "Repair Cost/Hour",
+        "singular": "Kos Pembaikan/Jam",
+        "plural": "Kos Pembaikan/Jam",
         "setupEdit": false,
         "setupVisible": false
       },
@@ -1772,6 +1772,13 @@
         "original": "Total Time Used",
         "singular": "Jumlah Masa Digunakan",
         "plural": "Jumlah Masa Digunakan",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "currentBookValue": {
+        "original": "Current Book Value",
+        "singular": "Nilai Buku Semasa",
+        "plural": "Nilai Buku Semasa",
         "setupEdit": false,
         "setupVisible": false
       }
