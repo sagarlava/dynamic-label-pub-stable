@@ -1539,6 +1539,41 @@
         "plural": "Leistungs- und Kostenanalysen",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "sec5": {
+        "original": "Performance & Reliability",
+        "singular": "Leistung & Zuverlässigkeit",
+        "plural": "Leistung & Zuverlässigkeit",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec6": {
+        "original": "Financial Health",
+        "singular": "Finanzielle Gesundheit",
+        "plural": "Finanzielle Gesundheit",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec7": {
+        "original": "Lifecycle",
+        "singular": "Lebenszyklus",
+        "plural": "Lebenszyklen",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec8": {
+        "original": "Running Costs",
+        "singular": "Betriebskosten",
+        "plural": "Betriebskosten",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec9": {
+        "original": "Total Spend Breakdown",
+        "singular": "Gesamtausgaben Aufschlüsselung",
+        "plural": "Gesamtausgaben Aufschlüsselung",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "fields": {

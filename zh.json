@@ -1539,6 +1539,41 @@
         "plural": "性能和成本分析",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "sec5": {
+        "original": "Performance & Reliability",
+        "singular": "性能与可靠性",
+        "plural": "性能与可靠性",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec6": {
+        "original": "Financial Health",
+        "singular": "财务状况",
+        "plural": "财务状况",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec7": {
+        "original": "Lifecycle",
+        "singular": "生命周期",
+        "plural": "生命周期",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec8": {
+        "original": "Running Costs",
+        "singular": "运营成本",
+        "plural": "运营成本",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec9": {
+        "original": "Total Spend Breakdown",
+        "singular": "总支出明细",
+        "plural": "总支出明细",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "fields": {

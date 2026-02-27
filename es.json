@@ -1539,6 +1539,41 @@
         "plural": "Análisis de rendimiento y costos",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "sec5": {
+        "original": "Performance & Reliability",
+        "singular": "Rendimiento y Fiabilidad",
+        "plural": "Rendimiento y Fiabilidad",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec6": {
+        "original": "Financial Health",
+        "singular": "Salud Financiera",
+        "plural": "Salud Financiera",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec7": {
+        "original": "Lifecycle",
+        "singular": "Ciclo de Vida",
+        "plural": "Ciclos de Vida",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec8": {
+        "original": "Running Costs",
+        "singular": "Costo Operativo",
+        "plural": "Costos Operativos",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec9": {
+        "original": "Total Spend Breakdown",
+        "singular": "Desglose del Gasto Total",
+        "plural": "Desglose del Gasto Total",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "fields": {

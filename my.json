@@ -1539,6 +1539,41 @@
         "plural": "Analisis Prestasi dan Kos",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "sec5": {
+        "original": "Performance & Reliability",
+        "singular": "Prestasi & Kebolehpercayaan",
+        "plural": "Prestasi & Kebolehpercayaan",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec6": {
+        "original": "Financial Health",
+        "singular": "Kesihatan Kewangan",
+        "plural": "Kesihatan Kewangan",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec7": {
+        "original": "Lifecycle",
+        "singular": "Kitaran Hayat",
+        "plural": "Kitaran Hayat",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec8": {
+        "original": "Running Costs",
+        "singular": "Kos Operasi",
+        "plural": "Kos-Kos Operasi",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec9": {
+        "original": "Total Spend Breakdown",
+        "singular": "Pecahan Jumlah Perbelanjaan",
+        "plural": "Pecahan Jumlah Perbelanjaan",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "fields": {

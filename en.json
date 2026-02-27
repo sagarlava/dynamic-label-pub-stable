@@ -1539,6 +1539,41 @@
         "plural": "Performance and Cost Analysis",
         "setupEdit": false,
         "setupVisible": false
+      },
+       "sec5": {
+        "original": "Performance & Reliability",
+        "singular": "Performance & Reliability",
+        "plural": "Performance & Reliability",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec6": {
+        "original": "Financial Health",
+        "singular": "Financial Health",
+        "plural": "Financial Health",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec7": {
+        "original": "Lifecycle",
+        "singular": "Lifecycle",
+        "plural": "Lifecycle",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec8": {
+        "original": "Running Costs",
+        "singular": "Running Cost",
+        "plural": "Running Costs",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec9": {
+        "original": "Total Spend Breakdown",
+        "singular": "Total Spend Breakdown",
+        "plural": "Total Spend Breakdown",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "fields": {
@@ -1716,6 +1751,13 @@
         "original": "Lifetime Maintenance Cost",
         "singular": "Lifetime Maintenance Cost",
         "plural": "Lifetime Maintenance Cost",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "totalJob": {
+        "original": "Total Jobs",
+        "singular": "Total Job",
+        "plural": "Total Jobs",
         "setupEdit": false,
         "setupVisible": false
       }
