@@ -1802,6 +1802,13 @@
         "plural": "Fechas",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "maintenance": {
+        "original": "Maintenance",
+        "singular": "Mantenimiento",
+        "plural": "Mantenimientos",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "messages": {

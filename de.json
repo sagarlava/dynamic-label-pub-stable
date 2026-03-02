@@ -1802,6 +1802,13 @@
         "plural": "Daten",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "maintenance": {
+        "original": "Maintenance",
+        "singular": "Wartung",
+        "plural": "Wartungen",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "messages": {

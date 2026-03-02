@@ -1802,6 +1802,13 @@
         "plural": "日期",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "maintenance": {
+        "original": "Maintenance",
+        "singular": "维护",
+        "plural": "维护",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "messages": {
