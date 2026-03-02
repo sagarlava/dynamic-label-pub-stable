@@ -19775,7 +19775,9 @@
             },
             "messages": {
               "possibleStatus": "Los estados posibles que su",
-              "mayGoThrough": "puede atravesar"
+              "mayGoThrough": "puede atravesar",
+              "statusCategories": "Las categorías de estado son una forma de agrupar tus estados. Estos grupos se utilizarán en",
+              "analyticCalc": "cálculos analíticos."
             }
           },
           "type": {

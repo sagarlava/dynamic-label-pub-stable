@@ -19775,7 +19775,9 @@
             },
             "messages": {
               "possibleStatus": "可能的状态",
-              "mayGoThrough": "可能经历的"
+              "mayGoThrough": "可能经历的",
+              "statusCategories": "状态类别是对状态进行分组的一种方式。这些分组将用于",
+              "analyticCalc": "分析计算。"
             }
           },
           "type": {

@@ -19775,7 +19775,9 @@
             },
             "messages": {
               "possibleStatus": "Die möglichen Status, die Ihre",
-              "mayGoThrough": "durchlaufen können"
+              "mayGoThrough": "durchlaufen können",
+              "statusCategories": "Statuskategorien sind eine Möglichkeit, Ihre Status zu gruppieren. Diese Gruppen werden verwendet in",
+              "analyticCalc": "analytischen Berechnungen."
             }
           },
           "type": {

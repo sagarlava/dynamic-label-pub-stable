@@ -19776,7 +19776,9 @@
             },
             "messages": {
               "possibleStatus": "Status yang mungkin dilalui oleh",
-              "mayGoThrough": ""
+              "mayGoThrough": "",
+              "statusCategories": "Kategori status adalah cara untuk mengumpulkan status anda. Kumpulan ini akan digunakan dalam",
+              "analyticCalc": "pengiraan analitik."
             }
           },
           "type": {

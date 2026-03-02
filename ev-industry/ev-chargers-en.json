@@ -14931,7 +14931,9 @@
                     },
                     "messages": {
                         "possibleStatus": "The possible statuses your",
-                        "mayGoThrough": "may go through"
+                        "mayGoThrough": "may go through",
+                        "statusCategories":"Status categories are a way to group your statuses. These groups will be used in",
+                        "analyticCalc":"analytic calculations."
                     }
                 },
                 "type": {
