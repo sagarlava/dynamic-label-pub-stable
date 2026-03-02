@@ -1375,17 +1375,17 @@
         "setupEdit": false,
         "setupVisible": false
       },
-      "mttr": {
-        "original": "MTTR (Mean Time To Repair)",
-        "singular": "MTTR (Mean Time To Repair)",
-        "plural": "MTTR (Mean Time To Repair)",
+       "mttr": {
+        "original": "MTTR",
+        "singular": "MTTR",
+        "plural": "MTTR",
         "setupEdit": false,
         "setupVisible": false
       },
       "mtbf": {
-        "original": "MTBF (Mean Time Between Failures)",
-        "singular": "MTBF (Mean Time Between Failures)",
-        "plural": "MTBF (Mean Time Between Failures)",
+        "original": "MTBF",
+        "singular": "MTBF",
+        "plural": "MTBF",
         "setupEdit": false,
         "setupVisible": false
       },

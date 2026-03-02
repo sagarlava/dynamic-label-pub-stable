@@ -1684,17 +1684,17 @@
         "setupEdit": false,
         "setupVisible": false
       },
-      "mttr": {
-        "original": "MTTR (Mean Time To Repair)",
-        "singular": "MTTR (平均维修时间)",
-        "plural": "MTTR (平均维修时间)",
+       "mttr": {
+        "original": "MTTR",
+        "singular": "MTTR",
+        "plural": "MTTR",
         "setupEdit": false,
         "setupVisible": false
       },
       "mtbf": {
-        "original": "MTBF (Mean Time Between Failures)",
-        "singular": "MTBF (平均故障间隔时间)",
-        "plural": "MTBF (平均故障间隔时间)",
+        "original": "MTBF",
+        "singular": "MTBF",
+        "plural": "MTBF",
         "setupEdit": false,
         "setupVisible": false
       },
@@ -1751,6 +1751,13 @@
         "original": "Lifetime Maintenance Cost",
         "singular": "生命周期维护成本",
         "plural": "生命周期维护成本",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "totalJob": {
+        "original": "Total Jobs",
+        "singular": "总工作数",
+        "plural": "总工作数",
         "setupEdit": false,
         "setupVisible": false
       },
