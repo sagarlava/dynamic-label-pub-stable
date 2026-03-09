@@ -12699,6 +12699,13 @@
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
+      },
+      "quantity": {
+        "original": "Quantity",
+        "singular": "Cantidad",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
       }
     }
   },
