@@ -13,6 +13,8 @@ db.dynamic_label_setup.updateMany(
 { $set: { "setup.fields.acquisitionDate.plural": "Acquisition Date" } }
 )
 
+
+
 // remainingUsefulLife
 db.dynamic_label_setup.updateMany(
 { "module": "analytic", "language": "en" },
@@ -108,3 +110,4 @@ db.dynamic_label_setup.updateMany(
 { "module": "analytic", "language": "en" },
 { $set: { "setup.fields.repairCostHour.plural": "Repair Cost/Hour" } }
 )
+
