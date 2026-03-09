@@ -12630,9 +12630,9 @@
     },
     "fields": {
       "setupVisible": true,
-      "timeDate": {
-        "original": "Time & Date",
-        "singular": "Masa & Tarikh",
+     "timeDate": {
+        "original": "Transferred Date",
+        "singular": "Tarikh Dipindahkan",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
@@ -12652,8 +12652,8 @@
         "setupVisible": true
       },
       "adjustedBy": {
-        "original": "Adjusted By",
-        "singular": "Dilaraskan Oleh",
+        "original": "Transferred By",
+        "singular": "Dipindahkan Oleh",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
@@ -12666,8 +12666,8 @@
         "setupVisible": true
       },
       "newlyAdjustedQty": {
-        "original": "Newly Adjusted Qty",
-        "singular": "Kuantiti Baru Dilaraskan",
+        "original": "New Quantity",
+        "singular": "Kuantiti Baharu",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
@@ -12687,7 +12687,7 @@
         "setupVisible": true
       },
       "oldQty": {
-        "original": "Old Qty",
+        "original": "Old Quantity",
         "singular": "Kuantiti Lama",
         "plural": "",
         "setupEdit": true,

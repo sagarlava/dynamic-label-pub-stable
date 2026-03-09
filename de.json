@@ -12630,8 +12630,8 @@
     "fields": {
       "setupVisible": true,
       "timeDate": {
-        "original": "Time & Date",
-        "singular": "Zeit & Datum",
+        "original": "Transferred Date",
+        "singular": "Übertragungsdatum",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
@@ -12651,8 +12651,8 @@
         "setupVisible": true
       },
       "adjustedBy": {
-        "original": "Adjusted By",
-        "singular": "Angepasst Von",
+        "original": "Transferred By",
+        "singular": "Übertragen Von",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
@@ -12665,8 +12665,8 @@
         "setupVisible": true
       },
       "newlyAdjustedQty": {
-        "original": "Newly Adjusted Qty",
-        "singular": "Neu Angepasste Menge",
+        "original": "New Quantity",
+        "singular": "Neue Menge",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
@@ -12686,7 +12686,7 @@
         "setupVisible": true
       },
       "oldQty": {
-        "original": "Old Qty",
+        "original": "Old Quantity",
         "singular": "Alte Menge",
         "plural": "",
         "setupEdit": true,

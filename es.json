@@ -12630,8 +12630,8 @@
     "fields": {
       "setupVisible": true,
       "timeDate": {
-        "original": "Time & Date",
-        "singular": "Hora y Fecha",
+        "original": "Transferred Date",
+        "singular": "Fecha de Transferencia",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
@@ -12651,8 +12651,8 @@
         "setupVisible": true
       },
       "adjustedBy": {
-        "original": "Adjusted By",
-        "singular": "Ajustado Por",
+        "original": "Transferred By",
+        "singular": "Transferido Por",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
@@ -12665,8 +12665,8 @@
         "setupVisible": true
       },
       "newlyAdjustedQty": {
-        "original": "Newly Adjusted Qty",
-        "singular": "Cantidad Ajustada Recientemente",
+        "original": "New Quantity",
+        "singular": "Nueva Cantidad",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
@@ -12686,7 +12686,7 @@
         "setupVisible": true
       },
       "oldQty": {
-        "original": "Old Qty",
+        "original": "Old Quantity",
         "singular": "Cantidad Anterior",
         "plural": "",
         "setupEdit": true,
