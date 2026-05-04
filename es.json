@@ -9538,7 +9538,9 @@
       "selectAProduct": "Seleccione una Pieza de Repuesto",
       "userCalendlyNoIntegrate": "Este usuario no tiene Calendly integrado en su cuenta",
       "noContactFoundForThisJobOrder": "No se encontró contacto para esta Orden de Trabajo",
-      "noContactFoundForTheJobOrdersCustomer": "No se encontró contacto para el Cliente de la Orden de Trabajo"
+      "noContactFoundForTheJobOrdersCustomer": "No se encontró contacto para el Cliente de la Orden de Trabajo",
+      "quickBooksCustomerRequired":"Se requiere un cliente válido de QuickBooks para generar una factura. Por favor, asegúrese de que la información del cliente esté completa e inténtelo de nuevo.",
+      "quickBooksProductsRequired": "Se requiere al menos un producto para generar una factura. Por favor, agregue productos a la orden de trabajo e inténtelo de nuevo."
     },
     "validationBE": {
       "jobOrderStatusNotFound": "Estado No Encontrado",

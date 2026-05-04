@@ -9539,7 +9539,9 @@
       "selectAProduct": "Pilih Alat Ganti",
       "userCalendlyNoIntegrate": "Pengguna ini tidak mempunyai integrasi Calendly dalam akaun mereka",
       "noContactFoundForThisJobOrder": "Tiada kenalan dijumpai untuk Pesanan Kerja ini",
-      "noContactFoundForTheJobOrdersCustomer": "Tiada kenalan dijumpai untuk Pelanggan Pesanan Kerja ini"
+      "noContactFoundForTheJobOrdersCustomer": "Tiada kenalan dijumpai untuk Pelanggan Pesanan Kerja ini",
+      "quickBooksCustomerRequired":"Pelanggan QuickBooks yang sah diperlukan untuk menjana invois. Sila pastikan maklumat pelanggan lengkap dan cuba lagi.",
+      "quickBooksProductsRequired": "Sekurang-kurangnya satu produk diperlukan untuk menjana invois. Sila tambah produk ke pesanan kerja dan cuba lagi."
     },
     "validationBE": {
       "jobOrderStatusNotFound": "Status Tidak Dijumpai",

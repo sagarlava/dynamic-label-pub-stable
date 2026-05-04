@@ -9538,7 +9538,9 @@
       "selectAProduct": "选择一个备件",
       "userCalendlyNoIntegrate": "该用户未将Calendly集成到他们的账户",
       "noContactFoundForThisJobOrder": "未找到此工作单的联系人",
-      "noContactFoundForTheJobOrdersCustomer": "未找到工作单客户的联系人"
+      "noContactFoundForTheJobOrdersCustomer": "未找到工作单客户的联系人",
+      "quickBooksCustomerRequired":"生成发票需要有效的QuickBooks客户。请确保客户信息完整，然后重试。",
+      "quickBooksProductsRequired": "生成发票至少需要一个产品。请将产品添加到工作订单中，然后重试。"
     },
     "validationBE": {
       "jobOrderStatusNotFound": "未找到状态",
