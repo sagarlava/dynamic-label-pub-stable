@@ -1,0 +1,110 @@
+db.dynamic_label_setup.updateMany(
+{ "module": "asset", "language": "zh" },
+{ $set: { "setup.fields.acquisitionDate.original": "Acquisition Date" } }
+)
+
+db.dynamic_label_setup.updateMany(
+{ "module": "asset", "language": "zh" },
+{ $set: { "setup.fields.acquisitionDate.singular": "采购日期" } }
+)
+
+db.dynamic_label_setup.updateMany(
+{ "module": "asset", "language": "zh" },
+{ $set: { "setup.fields.acquisitionDate.plural": "采购日期" } }
+)
+
+// remainingUsefulLife
+db.dynamic_label_setup.updateMany(
+{ "module": "analytic", "language": "zh" },
+{ $set: { "setup.fields.remainingUsefulLife.original": "Remaining Useful Life" } }
+)
+
+db.dynamic_label_setup.updateMany(
+{ "module": "analytic", "language": "zh" },
+{ $set: { "setup.fields.remainingUsefulLife.singular": "剩余使用寿命" } }
+)
+
+db.dynamic_label_setup.updateMany(
+{ "module": "analytic", "language": "zh" },
+{ $set: { "setup.fields.remainingUsefulLife.plural": "剩余使用寿命" } }
+)
+
+// numberOfRepair
+db.dynamic_label_setup.updateMany(
+{ "module": "analytic", "language": "zh" },
+{ $set: { "setup.fields.numberOfRepair.original": "Repairs" } }
+)
+
+db.dynamic_label_setup.updateMany(
+{ "module": "analytic", "language": "zh" },
+{ $set: { "setup.fields.numberOfRepair.singular": "维修" } }
+)
+
+db.dynamic_label_setup.updateMany(
+{ "module": "analytic", "language": "zh" },
+{ $set: { "setup.fields.numberOfRepair.plural": "维修" } }
+)
+
+// mttr
+db.dynamic_label_setup.updateMany(
+{ "module": "analytic", "language": "zh" },
+{ $set: { "setup.fields.mttr.original": "MTTR" } }
+)
+
+db.dynamic_label_setup.updateMany(
+{ "module": "analytic", "language": "zh" },
+{ $set: { "setup.fields.mttr.singular": "MTTR" } }
+)
+
+db.dynamic_label_setup.updateMany(
+{ "module": "analytic", "language": "zh" },
+{ $set: { "setup.fields.mttr.plural": "MTTR" } }
+)
+
+// mtbf
+db.dynamic_label_setup.updateMany(
+{ "module": "analytic", "language": "zh" },
+{ $set: { "setup.fields.mtbf.original": "MTBF" } }
+)
+
+db.dynamic_label_setup.updateMany(
+{ "module": "analytic", "language": "zh" },
+{ $set: { "setup.fields.mtbf.singular": "MTBF" } }
+)
+
+db.dynamic_label_setup.updateMany(
+{ "module": "analytic", "language": "zh" },
+{ $set: { "setup.fields.mtbf.plural": "MTBF" } }
+)
+
+// operatingCostHour
+db.dynamic_label_setup.updateMany(
+{ "module": "analytic", "language": "zh" },
+{ $set: { "setup.fields.operatingCostHour.original": "Operational Cost/Hour" } }
+)
+
+db.dynamic_label_setup.updateMany(
+{ "module": "analytic", "language": "zh" },
+{ $set: { "setup.fields.operatingCostHour.singular": "运营成本/小时" } }
+)
+
+db.dynamic_label_setup.updateMany(
+{ "module": "analytic", "language": "zh" },
+{ $set: { "setup.fields.operatingCostHour.plural": "运营成本/小时" } }
+)
+
+// repairCostHour
+db.dynamic_label_setup.updateMany(
+{ "module": "analytic", "language": "zh" },
+{ $set: { "setup.fields.repairCostHour.original": "Repair Cost/Hour" } }
+)
+
+db.dynamic_label_setup.updateMany(
+{ "module": "analytic", "language": "zh" },
+{ $set: { "setup.fields.repairCostHour.singular": "维修成本/小时" } }
+)
+
+db.dynamic_label_setup.updateMany(
+{ "module": "analytic", "language": "zh" },
+{ $set: { "setup.fields.repairCostHour.plural": "维修成本/小时" } }
+)

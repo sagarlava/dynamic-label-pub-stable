@@ -739,9 +739,16 @@
         "setupVisible": false
       },
       "acquisitionDate": {
+        "original": "Acquisition Date",
+        "singular": "Fecha de Adquisición",
+        "plural": "Fechas de Adquisición",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "purchaseDate": {
         "original": "Purchase Date",
         "singular": "Fecha de Compra",
-        "plural": "",
+        "plural": "Fechas de Compra",
         "setupEdit": true,
         "setupVisible": true
       },
@@ -1589,6 +1596,41 @@
         "plural": "Análisis de rendimiento y costos",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "sec5": {
+        "original": "Performance & Reliability",
+        "singular": "Rendimiento y Fiabilidad",
+        "plural": "Rendimiento y Fiabilidad",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec6": {
+        "original": "Financial Health",
+        "singular": "Salud Financiera",
+        "plural": "Salud Financiera",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec7": {
+        "original": "Lifecycle",
+        "singular": "Ciclo de Vida",
+        "plural": "Ciclos de Vida",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec8": {
+        "original": "Running Costs",
+        "singular": "Costo Operativo",
+        "plural": "Costos Operativos",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec9": {
+        "original": "Total Spend Breakdown",
+        "singular": "Desglose del Gasto Total",
+        "plural": "Desglose del Gasto Total",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "fields": {
@@ -1651,9 +1693,9 @@
         "setupVisible": false
       },
       "remainingUsefulLife": {
-        "original": "Remaining Useful Life (RUL)",
-        "singular": "Vidas útiles restantes (RUL)",
-        "plural": "Vidas útiles restantes (RUL)",
+        "original": "Remaining Useful Life",
+        "singular": "Vidas útiles restantes",
+        "plural": "Vidas útiles restantes",
         "setupEdit": false,
         "setupVisible": false
       },
@@ -1686,9 +1728,9 @@
         "setupVisible": false
       },
       "numberOfRepair": {
-        "original": "Number of Repairs",
-        "singular": "Número de reparaciones",
-        "plural": "Número de reparaciones",
+        "original": "Repairs",
+        "singular": "Reparación",
+        "plural": "Reparaciones",
         "setupEdit": false,
         "setupVisible": false
       },
@@ -1700,16 +1742,16 @@
         "setupVisible": false
       },
       "mttr": {
-        "original": "MTTR (Mean Time To Repair)",
-        "singular": "MTTR (Tiempos Medios de Reparación)",
-        "plural": "MTTR (Tiempos Medios de Reparación)",
+        "original": "MTTR",
+        "singular": "MTTR",
+        "plural": "MTTR",
         "setupEdit": false,
         "setupVisible": false
       },
       "mtbf": {
-        "original": "MTBF (Mean Time Between Failures)",
-        "singular": "MTBF (Tiempos Medios Entre Fallos)",
-        "plural": "MTBF (Tiempos Medios Entre Fallos)",
+        "original": "MTBF",
+        "singular": "MTBF",
+        "plural": "MTBF",
         "setupEdit": false,
         "setupVisible": false
       },
@@ -1742,16 +1784,16 @@
         "setupVisible": false
       },
       "operatingCostHour": {
-        "original": "Operating Costs per Hour",
-        "singular": "Costos operativos por hora",
-        "plural": "Costos operativos por hora",
+        "original": "Operational Cost/Hour",
+        "singular": "Costo Operativo/Hora",
+        "plural": "Costos Operativos/Hora",
         "setupEdit": false,
         "setupVisible": false
       },
       "repairCostHour": {
-        "original": "Repair Costs per Hour",
-        "singular": "Costos de reparación por hora",
-        "plural": "Costos de reparación por hora",
+        "original": "Repair Cost/Hour",
+        "singular": "Costo de Reparación/Hora",
+        "plural": "Costos de Reparación/Hora",
         "setupEdit": false,
         "setupVisible": false
       },
@@ -1768,7 +1810,88 @@
         "plural": "Costos de mantenimiento durante la vida útil",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "totalJob": {
+        "original": "Total Jobs",
+        "singular": "Trabajo Total",
+        "plural": "Trabajos Totales",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "totalRepair": {
+        "original": "Total Repairs",
+        "singular": "Reparación Total",
+        "plural": "Reparaciones Totales",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "downtime": {
+        "original": "Downtime",
+        "singular": "Tiempo de Inactividad",
+        "plural": "Tiempos de Inactividad",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "totalTimeUsed": {
+        "original": "Total Time Used",
+        "singular": "Tiempo Total Utilizado",
+        "plural": "Tiempo Total Utilizado",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "currentBookValue": {
+        "original": "Current Book Value",
+        "singular": "Valor Contable Actual",
+        "plural": "Valores Contables Actuales",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "last": {
+        "original": "Last",
+        "singular": "Último",
+        "plural": "Últimos",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "date": {
+        "original": "Date",
+        "singular": "Fecha",
+        "plural": "Fechas",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "maintenance": {
+        "original": "Maintenance",
+        "singular": "Mantenimiento",
+        "plural": "Mantenimientos",
+        "setupEdit": false,
+        "setupVisible": false
       }
+    },
+    "messages": {
+      "mtbfDesc": "Basado en el Tiempo Operativo Total y el Número de Fallos. MTBF = Tiempo Total Disponible ÷ Número de Reparaciones",
+      "totalJobsDesc": "Recuento de todas las Órdenes de Trabajo en el sistema. Total de Trabajos = Recuento de todas las Órdenes de Trabajo",
+      "failureRateDesc": "Calculado en base al Período Total de Inactividad y el Número de Fallos. Tasa de Fallos = (Tiempo Total de Inactividad ÷ Tiempo Total Disponible) x 100",
+      "mttrDesc": "Calculado en base al Número de Reparaciones y el Tiempo Total de Reparación. MTTR = Tiempo Total de Reparación ÷ Número de Reparaciones",
+      "totalRepairDesc": "Recuento de ocurrencias de reparaciones. Número de Reparaciones = Recuento de todas las Órdenes de Trabajo donde la Categoría OT es 'Correctivo/Reparación'",
+      "totalRepairTimeDesc": "Tiempo acumulado para todas las reparaciones. Tiempo Total de Reparación = Suma de todos los tiempos de entrada donde la Categoría OT es 'Correctivo/Reparación'",
+      "downtimeDesc": "Tiempo de inactividad acumulado desde el inicio del uso. Tiempo Total de Inactividad = Suma (Duración donde categoría de estado = 'Inactividad')",
+      "utilizationRateDesc": "Porcentaje de uso basado en el Tiempo Utilizado y el Tiempo Total Disponible. Tasa de Utilización = (Tiempo Utilizado ÷ Tiempo Total Disponible) x 100",
+      "totalAvailTimeDesc": "Tiempo operativo acumulado desde el inicio del uso. Tiempo Total Disponible = Suma (Duración donde grupo de estado = 'Activo' O 'Inactivo')",
+      "timeUsedDesc": "Tiempo real que el activo ha estado en uso. Tiempo Utilizado = Suma (Duración donde grupo de estado = 'Activo')",
+      "currentBookValueDesc": "Valor contable actual de un activo. Valor Contable = Costo Inicial - Depreciación Acumulada",
+      "initialCostDesc": "Ingrese el costo de compra o adquisición del activo. Costo Inicial = Entrada del Usuario (Precio del Activo)",
+      "depreciationRateDesc": "Mide la pérdida de valor del activo con el tiempo. Tasa de Depreciación % = Entrada del Usuario (Tasa de Depreciación Anual del Activo)",
+      "operationalCostHourDesc": "Calculado por el Total de Horas Activas y el Costo Operativo Total. Costo Operativo/Hora = (Suma de Costos de Reparación de por Vida + Suma de Costos de Mantenimiento de por Vida) ÷ Tiempo Total Disponible",
+      "repairCostHourDesc": "Muestra el costo promedio de reparaciones por cada hora que el activo ha estado operativo. Costo de Reparación/Hora = Suma de Costos de Reparación de por Vida ÷ Tiempo Total Disponible",
+      "lifetimeMaintenanceDesc": "Costo de Mantenimiento de por Vida = (Si (Categoría OT es 'Mantenimiento Preventivo' && Estado es Completo) Suma (Precios de Repuestos OT x cant))",
+      "avgMaintenanceCostDesc": "Costo por cada evento de mantenimiento. Costo Promedio de Mantenimiento = Promedio de (Si (Categoría OT es 'Mantenimiento Preventivo' && Estado es Completo) Suma (Precios de Repuestos OT x cant))",
+      "repairsDesc": "Costo de Reparación de por Vida = (Si (Categoría OT es 'Correctivo/Reparación' && Estado es Completo) Suma (Precios de Repuestos OT x cant))",
+      "avgRepairCostDesc": "Costo por cada evento de reparación. Costo Promedio de Reparación = Promedio de (Si (Categoría OT es 'Correctivo/Reparación' && Estado es Completo) Suma (Precios de Repuestos OT x cant))",
+      "assetAgeDesc": "Tiempo transcurrido desde la fecha de compra del activo. Antigüedad del Activo = Fecha Actual - Fecha de Compra",
+      "remainingUsefulLifeDesc": "Calculado en base a la Fecha de Compra y la Vida Útil Estimada. Vida Útil Restante (VUR) = Vida Útil Estimada - Antigüedad del Activo",
+      "lastMaintenanceDateDesc": "Fecha del último mantenimiento. Fecha de Último Mantenimiento = Fecha del último trabajo donde Categoría OT = 'Mantenimiento Preventivo'",
+      "lastRepairDateDesc": "Fecha de la última reparación. Fecha de Última Reparación = Fecha del último trabajo donde Categoría OT = 'Correctivo/Reparación'"
     }
   },
   "assetLog": {
@@ -3974,7 +4097,23 @@
       "subTotal": "Subtotal",
       "totalAmount": "Monto Total",
       "groupByTask": "Group By Task",
-      "deleteTaskTemplateRemoveSpareParts": "Eliminar esta plantilla de tarea también eliminará todas las piezas de repuesto asociadas"
+      "deleteTaskTemplateRemoveSpareParts": "Eliminar esta plantilla de tarea también eliminará todas las piezas de repuesto asociadas",
+      "filterSelectProduct": "Filtra y selecciona los repuestos para los que deseas exportar códigos QR",
+      "exportQrForAll": "Exportar códigos QR para todos los componentes también",
+      "exportQrSettings": "Configuración de Exportación QR",
+      "selectQrCodeSize": "Seleccionar Tamaño del Código QR",
+      "selectFileFormat": "Seleccionar Formato de Archivo",
+      "uncheckSelectAll": "Desmarca “seleccionar todo” para ver la lista completa nuevamente",
+      "addComponents": "Agregar Componentes",
+      "selectComponentsToAdd": "Selecciona los componentes que deseas agregar a este repuesto",
+      "updateFieldsOfComponents": "Actualiza los campos del componente para que coincidan con el repuesto principal.",
+      "someComponentsSelected": "Algunos componentes que has seleccionado ya pertenecen a un repuesto principal. Continuar editará su repuesto principal a",
+      "wouldYouAlsoLikeToUpdate": "¿También deseas actualizar los campos respectivos en los componentes de este repuesto?",
+      "respectiveFieldsOverridden": "Los campos respectivos en el componente serán reemplazados si se selecciona arriba",
+      "youCanCheckOnceOneFilterSelected": "Solo puedes marcar esto cuando hayas seleccionado al menos un filtro. Todos los repuestos filtrados serán seleccionados. Nota: Solo se pueden exportar 500 repuestos a la vez.",
+      "alsoUpdateComponentStatus": "También actualizar los estados de los componentes",
+      "wouldYouAlsoUpdateFields": "¿También deseas actualizar los campos respectivos en este",
+      "component": "componente"
     },
     "emptyPage":{
       "manageSparePart": "Gestiona tus repuestos",
@@ -9600,7 +9739,8 @@
       "jobOrderProductStatusIdNotFound": "ID no encontrado",
       "slaJobOrderIdExists": "Una nueva Orden de Trabajo SLA no puede ya tener un ID",
       "jobOrderPriceBookNotFound": "Libro de precios no encontrado",
-      "mandatoryTasksNotCompleted": "Una o más tareas obligatorias aún no se han completado. Complételas antes de completar esta orden de trabajo."
+      "mandatoryTasksNotCompleted": "Una o más tareas obligatorias aún no se han completado. Complételas antes de completar esta orden de trabajo.",
+      "assetHasJobOrder": "Existen datos de órdenes de trabajo en el sistema para los activos"
     },
     "tooltips": {
       "setupVisible": false,
@@ -12829,85 +12969,94 @@
     }
   },
   "history": {
+    "setupEdit": false,
     "setupVisible": false,
     "label": {
       "original": "History",
       "singular": "Historial",
       "plural": "Historial",
-      "setupEdit": true,
-      "setupVisible": true
+      "setupEdit": false,
+      "setupVisible": false
     },
     "fields": {
-      "setupVisible": true,
+      "setupEdit": false,
+      "setupVisible": false,
       "timeDate": {
-        "original": "Time & Date",
-        "singular": "Hora y Fecha",
+        "original": "Transferred Date",
+        "singular": "Fecha de Transferencia",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "field": {
         "original": "Field",
         "singular": "Campo",
         "plural": "Campos",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "modifiedBy": {
         "original": "Modified By",
         "singular": "Modificado Por",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "adjustedBy": {
-        "original": "Adjusted By",
-        "singular": "Ajustado Por",
+        "original": "Transferred By",
+        "singular": "Transferido Por",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "newValue": {
         "original": "New Value",
         "singular": "Nuevo Valor",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "newlyAdjustedQty": {
-        "original": "Newly Adjusted Qty",
-        "singular": "Cantidad Ajustada Recientemente",
+        "original": "New Quantity",
+        "singular": "Nueva Cantidad",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "oldValue": {
         "original": "Old Value",
         "singular": "Valor Anterior",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "newQty": {
         "original": "New Qty",
         "singular": "Nueva Cantidad",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "oldQty": {
-        "original": "Old Qty",
+        "original": "Old Quantity",
         "singular": "Cantidad Anterior",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "displayName": {
         "original": "Display Name",
         "singular": "Nombre para Mostrar",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "quantity": {
+        "original": "Quantity",
+        "singular": "Cantidad",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
       }
     }
   },
@@ -14990,6 +15139,69 @@
         "original": "Sort",
         "singular": "Ordenar",
         "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "enable":{
+        "original": "Enable",
+        "singular": "Habilitar",
+        "plural": "Habilitar",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "disable":{
+        "original": "Disable",
+        "singular": "Deshabilitar",
+        "plural": "Deshabilitar",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "activate":{
+        "original": "Activate",
+        "singular": "Activar",
+        "plural": "Activar",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "deactivate":{
+        "original": "Deactivate",
+        "singular": "Desactivar",
+        "plural": "Desactivar",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "hide":{
+        "original": "Hide",
+        "singular": "Ocultar",
+        "plural": "Ocultar",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "show":{
+        "original": "Show",
+        "singular": "Mostrar",
+        "plural": "Mostrar",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "display":{
+        "original": "Display",
+        "singular": "Mostrar",
+        "plural": "Mostrar",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "hidden":{
+        "original": "Hidden",
+        "singular": "Oculto",
+        "plural": "Oculto",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "regenerate":{
+        "original": "Regenerate",
+        "singular": "Regenerar",
+        "plural": "Regenerar",
         "setupEdit": false,
         "setupVisible": false
       }
@@ -20315,6 +20527,20 @@
             "plural": "",
             "setupEdit": true,
             "setupVisible": false
+          },
+          "sec11": {
+            "original": "Enable Public",
+            "singular": "Habilitar Público",
+            "plural": "Habilitar Público",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec12": {
+            "original": "Form",
+            "singular": "Formulario",
+            "plural": "Formularios",
+            "setupEdit": false,
+            "setupVisible": false
           }
         },
         "fields": {
@@ -20395,6 +20621,20 @@
             "plural": "",
             "setupEdit": true,
             "setupVisible": false
+          },
+          "defaultLanguage": {
+            "original": "Default Language",
+            "singular": "Idioma Predeterminado",
+            "plural": "Idiomas Predeterminados",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "default": {
+            "original": "Default",
+            "singular": "Predeterminado",
+            "plural": "Predeterminados",
+            "setupEdit": false,
+            "setupVisible": false
           }
         },
         "tooltips": {
@@ -20422,7 +20662,12 @@
           "monthVariable": "Los caracteres M representan el mes numérico de la fecha de creación del ticket ('01' = Ene, '02' = Feb).",
           "dayVariable": "Los caracteres D representan el día numérico del mes de la fecha de creación del registro (p. ej., '01' a '31' para Ene).",
           "autoCloseAfterNoActivity": "Cierre automático del ticket tras inactividad (Hrs)",
-          "hereExamples": "Aquí hay algunos ejemplos:"
+          "hereExamples": "Aquí hay algunos ejemplos:",
+          "enablingThePublic": "Permitir al público",
+          "allowsUserScan": "permite a los usuarios escanear",
+          "or": "o",
+          "qrCodesCreate": "códigos QR para crear",
+          "publicFormLink": "Enlace de Formulario Público"
         }
       },
       "listView": {
@@ -20713,7 +20958,9 @@
             },
             "messages": {
               "possibleStatus": "Los estados posibles que su",
-              "mayGoThrough": "puede atravesar"
+              "mayGoThrough": "puede atravesar",
+              "statusCategories": "Las categorías de estado son una forma de agrupar tus estados. Estos grupos se utilizarán en",
+              "analyticCalc": "cálculos analíticos."
             }
           },
           "type": {
@@ -28314,69 +28561,6 @@
               "plural": "",
               "setupEdit": true,
               "setupVisible": false
-            },
-            "enable":{
-              "original": "Enable",
-              "singular": "Habilitar",
-              "plural": "Habilitar",
-              "setupEdit": false,
-              "setupVisible": false
-            },
-            "disable":{
-              "original": "Disable",
-              "singular": "Deshabilitar",
-              "plural": "Deshabilitar",
-              "setupEdit": false,
-              "setupVisible": false
-            },
-            "activate":{
-              "original": "Activate",
-              "singular": "Activar",
-              "plural": "Activar",
-              "setupEdit": false,
-              "setupVisible": false
-            },
-            "deactivate":{
-              "original": "Deactivate",
-              "singular": "Desactivar",
-              "plural": "Desactivar",
-              "setupEdit": false,
-              "setupVisible": false
-            },
-            "hide":{
-              "original": "Hide",
-              "singular": "Ocultar",
-              "plural": "Ocultar",
-              "setupEdit": false,
-              "setupVisible": false
-            },
-            "show":{
-              "original": "Show",
-              "singular": "Mostrar",
-              "plural": "Mostrar",
-              "setupEdit": false,
-              "setupVisible": false
-            },
-            "display":{
-              "original": "Display",
-              "singular": "Mostrar",
-              "plural": "Mostrar",
-              "setupEdit": false,
-              "setupVisible": false
-            },
-            "hidden":{
-              "original": "Hidden",
-              "singular": "Oculto",
-              "plural": "Oculto",
-              "setupEdit": false,
-              "setupVisible": false
-            },
-            "regenerate":{
-              "original": "Regenerate",
-              "singular": "Regenerar",
-              "plural": "Regenerar",
-              "setupEdit": false,
-              "setupVisible": false
             }
           },
           "tooltips": {
@@ -29982,7 +30166,8 @@
       "userLoginNotFound": "Inicio de sesión del usuario no encontrado.",
       "userNameExists": "El nombre de usuario ya está en uso.",
       "userNotAllowedInMobile": "No se le permite iniciar sesión en la aplicación móvil. Por favor, proceda con la aplicación web.",
-      "deviceNotAllowed": "Este dispositivo no está permitido para iniciar sesión. Comuníquese con su administrador."
+      "deviceNotAllowed": "Este dispositivo no está permitido para iniciar sesión. Comuníquese con su administrador.",
+      "usernameLeadingSpace": "Elimine los espacios al inicio del nombre de usuario y vuelva a intentarlo."
     }
   },
   "resetPassword": {

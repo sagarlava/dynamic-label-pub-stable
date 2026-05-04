@@ -725,9 +725,16 @@
         "setupVisible": false
       },
       "acquisitionDate": {
-       "original": "Purchase Date",
+        "original": "Acquisition Date",
+        "singular": "采购日期",
+        "plural": "采购日期",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "purchaseDate": {
+        "original": "Purchase Date",
         "singular": "购买日期",
-        "plural": "",
+        "plural": "购买日期",
         "setupEdit": true,
         "setupVisible": true
       },
@@ -1589,6 +1596,41 @@
         "plural": "性能和成本分析",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "sec5": {
+        "original": "Performance & Reliability",
+        "singular": "性能与可靠性",
+        "plural": "性能与可靠性",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec6": {
+        "original": "Financial Health",
+        "singular": "财务状况",
+        "plural": "财务状况",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec7": {
+        "original": "Lifecycle",
+        "singular": "生命周期",
+        "plural": "生命周期",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec8": {
+        "original": "Running Costs",
+        "singular": "运营成本",
+        "plural": "运营成本",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec9": {
+        "original": "Total Spend Breakdown",
+        "singular": "总支出明细",
+        "plural": "总支出明细",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "fields": {
@@ -1651,9 +1693,9 @@
         "setupVisible": false
       },
       "remainingUsefulLife": {
-        "original": "Remaining Useful Life (RUL)",
-        "singular": "剩余使用寿命 (RUL)",
-        "plural": "剩余使用寿命 (RUL)",
+        "original": "Remaining Useful Life",
+        "singular": "剩余使用寿命",
+        "plural": "剩余使用寿命",
         "setupEdit": false,
         "setupVisible": false
       },
@@ -1686,9 +1728,9 @@
         "setupVisible": false
       },
       "numberOfRepair": {
-        "original": "Number of Repairs",
-        "singular": "维修次数",
-        "plural": "维修次数",
+        "original": "Repairs",
+        "singular": "维修",
+        "plural": "维修",
         "setupEdit": false,
         "setupVisible": false
       },
@@ -1699,17 +1741,17 @@
         "setupEdit": false,
         "setupVisible": false
       },
-      "mttr": {
-        "original": "MTTR (Mean Time To Repair)",
-        "singular": "MTTR (平均维修时间)",
-        "plural": "MTTR (平均维修时间)",
+       "mttr": {
+        "original": "MTTR",
+        "singular": "MTTR",
+        "plural": "MTTR",
         "setupEdit": false,
         "setupVisible": false
       },
       "mtbf": {
-        "original": "MTBF (Mean Time Between Failures)",
-        "singular": "MTBF (平均故障间隔时间)",
-        "plural": "MTBF (平均故障间隔时间)",
+        "original": "MTBF",
+        "singular": "MTBF",
+        "plural": "MTBF",
         "setupEdit": false,
         "setupVisible": false
       },
@@ -1742,16 +1784,16 @@
         "setupVisible": false
       },
       "operatingCostHour": {
-        "original": "Operating Costs per Hour",
-        "singular": "每小时运营成本",
-        "plural": "每小时运营成本",
+        "original": "Operational Cost/Hour",
+        "singular": "运营成本/小时",
+        "plural": "运营成本/小时",
         "setupEdit": false,
         "setupVisible": false
       },
       "repairCostHour": {
-        "original": "Repair Costs per Hour",
-        "singular": "每小时维修成本",
-        "plural": "每小时维修成本",
+        "original": "Repair Cost/Hour",
+        "singular": "维修成本/小时",
+        "plural": "维修成本/小时",
         "setupEdit": false,
         "setupVisible": false
       },
@@ -1768,7 +1810,88 @@
         "plural": "生命周期维护成本",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "totalJob": {
+        "original": "Total Jobs",
+        "singular": "总工作数",
+        "plural": "总工作数",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "totalRepair": {
+        "original": "Total Repairs",
+        "singular": "维修总计",
+        "plural": "维修总计",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "downtime": {
+        "original": "Downtime",
+        "singular": "停机时间",
+        "plural": "停机时间",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "totalTimeUsed": {
+        "original": "Total Time Used",
+        "singular": "总使用时间",
+        "plural": "总使用时间",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "currentBookValue": {
+        "original": "Current Book Value",
+        "singular": "当前账面价值",
+        "plural": "当前账面价值",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "last": {
+        "original": "Last",
+        "singular": "最近",
+        "plural": "最近",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "date": {
+        "original": "Date",
+        "singular": "日期",
+        "plural": "日期",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "maintenance": {
+        "original": "Maintenance",
+        "singular": "维护",
+        "plural": "维护",
+        "setupEdit": false,
+        "setupVisible": false
       }
+    },
+    "messages": {
+      "mtbfDesc": "基于总运营时间和故障次数。MTBF = 总可用时间 ÷ 维修次数",
+      "totalJobsDesc": "系统中所有工单的计数。总工作数 = 所有工单的计数",
+      "failureRateDesc": "根据总停机时间和故障次数计算。故障率 = (总停机时间 ÷ 总可用时间) x 100",
+      "mttrDesc": "根据维修次数和总维修时间计算。MTTR = 总维修时间 ÷ 维修次数",
+      "totalRepairDesc": "维修发生次数的计数。维修次数 = 工单类别为'纠正/维修'的所有工单计数",
+      "totalRepairTimeDesc": "所有维修的累计时间。总维修时间 = 工单类别为'纠正/维修'的所有签入时间之和",
+      "downtimeDesc": "从开始使用起的累计停机时间。总停机时间 = 总和（状态类别 = '停机'的持续时间）",
+      "utilizationRateDesc": "基于使用时间和总可用时间的使用百分比。利用率 = (使用时间 ÷ 总可用时间) x 100",
+      "totalAvailTimeDesc": "从开始使用起的累计运营时间。总可用时间 = 总和（状态组 = '活跃'或'空闲'的持续时间）",
+      "timeUsedDesc": "资产实际使用时间。使用时间 = 总和（状态组 = '活跃'的持续时间）",
+      "currentBookValueDesc": "资产当前账面价值。账面价值 = 初始成本 - 累计折旧",
+      "initialCostDesc": "输入资产的购买或采购成本。初始成本 = 用户输入（资产价格）",
+      "depreciationRateDesc": "衡量资产价值随时间的损失。折旧率 % = 用户输入（资产年折旧率）",
+      "operationalCostHourDesc": "通过总活跃小时数和总运营成本计算。运营成本/小时 = (终身维修成本总和 + 终身维护成本总和) ÷ 总可用时间",
+      "repairCostHourDesc": "显示资产每运营一小时的平均维修成本。维修成本/小时 = 终身维修成本总和 ÷ 总可用时间",
+      "lifetimeMaintenanceDesc": "终身维护成本 = (如果（工单类别为'预防性维护' && 状态为完成）总和（工单备件价格 x 数量）)",
+      "avgMaintenanceCostDesc": "每次维护事件的成本。平均维护成本 = 平均值（如果（工单类别为'预防性维护' && 状态为完成）总和（工单备件价格 x 数量）)",
+      "repairsDesc": "终身维修成本 = (如果（工单类别为'纠正/维修' && 状态为完成）总和（工单备件价格 x 数量）)",
+      "avgRepairCostDesc": "每次维修事件的成本。平均维修成本 = 平均值（如果（工单类别为'纠正/维修' && 状态为完成）总和（工单备件价格 x 数量）)",
+      "assetAgeDesc": "自资产购买日期以来经过的时间。资产年龄 = 当前日期 - 购买日期",
+      "remainingUsefulLifeDesc": "根据购买日期和预计使用寿命计算。剩余使用寿命（RUL）= 预计使用寿命 - 资产年龄",
+      "lastMaintenanceDateDesc": "最后一次维护的日期。最近维护日期 = 工单类别 = '预防性维护'的最后一项工作日期",
+      "lastRepairDateDesc": "最后一次维修的日期。最后维修日期 = 工单类别 = '纠正/维修'的最后一项工作日期"
     }
   },
   "assetLog": {
@@ -3974,7 +4097,23 @@
       "subTotal": "小计",
       "totalAmount": "总金额",
       "deleteTaskTemplateRemoveSpareParts":"删除此任务模板将同时移除所有相关的备件",
-       "groupByTask": "按任务分组"
+      "groupByTask": "按任务分组",
+      "filterSelectProduct": "筛选并选择您要导出二维码的备件",
+      "exportQrForAll": "同时导出所有组件的二维码",
+      "exportQrSettings": "导出二维码设置",
+      "selectQrCodeSize": "选择二维码尺寸",
+      "selectFileFormat": "选择文件格式",
+      "uncheckSelectAll": "取消勾选“全选”以再次查看完整列表",
+      "addComponents": "添加组件",
+      "selectComponentsToAdd": "选择您想添加到此备件的组件",
+      "updateFieldsOfComponents": "更新组件字段以匹配父备件。",
+      "someComponentsSelected": "您选择的某些组件已属于一个父备件。继续操作将把其父备件编辑为",
+      "wouldYouAlsoLikeToUpdate": "您是否也想更新此备件组件中的相应字段？",
+      "respectiveFieldsOverridden": "如果在上方选择，组件中的相应字段将被覆盖",
+      "youCanCheckOnceOneFilterSelected": "只有在选择至少一个筛选条件后才能勾选此项。所有已筛选的备件将被选中。注意：每次最多只能导出500个备件。",
+      "alsoUpdateComponentStatus": "同时更新组件状态",
+      "wouldYouAlsoUpdateFields": "您是否也想更新此",
+      "component": "组件"
     },
     "emptyPage":{
       "manageSparePart": "管理您的备件",
@@ -9600,7 +9739,8 @@
       "jobOrderProductStatusIdNotFound": "未找到ID",
       "slaJobOrderIdExists": "新的SLA作业订单不能已有ID",
       "jobOrderPriceBookNotFound": "未找到价格手册",
-      "mandatoryTasksNotCompleted": "一个或多个强制性任务尚未完成。请在完成此工作订单之前完成它们。"
+      "mandatoryTasksNotCompleted": "一个或多个强制性任务尚未完成。请在完成此工作订单之前完成它们。",
+      "assetHasJobOrder": "系统中已存在该资产的工单数据"
     },
     "tooltips": {
       "setupVisible": false,
@@ -12829,85 +12969,94 @@
     }
   },
   "history": {
+    "setupEdit": false,
     "setupVisible": false,
     "label": {
       "original": "History",
       "singular": "历史记录",
       "plural": "历史记录",
-      "setupEdit": true,
-      "setupVisible": true
+      "setupEdit": false,
+      "setupVisible": false
     },
     "fields": {
-      "setupVisible": true,
+      "setupEdit": false,
+      "setupVisible": false,
       "timeDate": {
-        "original": "Time & Date",
-        "singular": "时间和日期",
+        "original": "Transferred Date",
+        "singular": "转移日期",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "field": {
         "original": "Field",
         "singular": "字段",
         "plural": "字段",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "modifiedBy": {
         "original": "Modified By",
         "singular": "修改者",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "adjustedBy": {
-        "original": "Adjusted By",
-        "singular": "调整者",
+        "original": "Transferred By",
+        "singular": "转移人",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "newValue": {
         "original": "New Value",
         "singular": "新值",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "newlyAdjustedQty": {
-        "original": "Newly Adjusted Qty",
-        "singular": "新调整数量",
+        "original": "New Quantity",
+        "singular": "新数量",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "oldValue": {
         "original": "Old Value",
         "singular": "旧值",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "newQty": {
         "original": "New Qty",
         "singular": "新数量",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "oldQty": {
-        "original": "Old Qty",
+        "original": "Old Quantity",
         "singular": "旧数量",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "displayName": {
         "original": "Display Name",
         "singular": "显示名称",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "quantity": {
+        "original": "Quantity",
+        "singular": "数量",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
       }
     }
   },
@@ -14990,6 +15139,69 @@
         "original": "Sort",
         "singular": "排序",
         "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "enable":{
+        "original": "Enable",
+        "singular": "启用",
+        "plural": "启用",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "disable":{
+        "original": "Disable",
+        "singular": "禁用",
+        "plural": "禁用",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "activate":{
+        "original": "Activate",
+        "singular": "激活",
+        "plural": "激活",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "deactivate":{
+        "original": "Deactivate",
+        "singular": "停用",
+        "plural": "停用",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "hide":{
+        "original": "Hide",
+        "singular": "隐藏",
+        "plural": "隐藏",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "show":{
+        "original": "Show",
+        "singular": "显示",
+        "plural": "显示",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "display":{
+        "original": "Display",
+        "singular": "展示",
+        "plural": "展示",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "hidden":{
+        "original": "Hidden",
+        "singular": "已隐藏",
+        "plural": "已隐藏",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "regenerate":{
+        "original": "Regenerate",
+        "singular": "重新生成",
+        "plural": "重新生成",
         "setupEdit": false,
         "setupVisible": false
       }
@@ -20315,6 +20527,20 @@
             "plural": "",
             "setupEdit": true,
             "setupVisible": false
+          },
+          "sec11": {
+            "original": "Enable Public",
+            "singular": "启用公众",
+            "plural": "启用公众",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec12": {
+            "original": "Form",
+            "singular": "表单",
+            "plural": "表单",
+            "setupEdit": false,
+            "setupVisible": false
           }
         },
         "fields": {
@@ -20395,6 +20621,20 @@
             "plural": "",
             "setupEdit": true,
             "setupVisible": false
+          },
+          "defaultLanguage": {
+            "original": "Default Language",
+            "singular": "默认语言",
+            "plural": "默认语言",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "default": {
+            "original": "Default",
+            "singular": "默认",
+            "plural": "默认",
+            "setupEdit": false,
+            "setupVisible": false
           }
         },
         "tooltips": {
@@ -20422,7 +20662,12 @@
           "monthVariable": "M字符表示票据创建日期的月份数字（'01' = 一月，'02' = 二月）",
           "dayVariable": "D字符表示记录创建日期的月份数字天数（例如，一月为'01'到'31'）",
           "autoCloseAfterNoActivity": "在没有活动后自动关闭票据（小时）",
-          "hereExamples": "以下是一些示例："
+          "hereExamples": "以下是一些示例：",
+          "enablingThePublic": "允许公众",
+          "allowsUserScan": "允许用户扫描",
+          "or": "或",
+          "qrCodesCreate": "二维码以创建",
+          "publicFormLink": "公开表单链接"
         }
       },
       "listView": {
@@ -20713,7 +20958,9 @@
             },
             "messages": {
               "possibleStatus": "可能的状态",
-              "mayGoThrough": "可能经历的"
+              "mayGoThrough": "可能经历的",
+              "statusCategories": "状态类别是对状态进行分组的一种方式。这些分组将用于",
+              "analyticCalc": "分析计算。"
             }
           },
           "type": {
@@ -28314,69 +28561,6 @@
               "plural": "",
               "setupEdit": true,
               "setupVisible": false
-            },
-            "enable":{
-              "original": "Enable",
-              "singular": "启用",
-              "plural": "启用",
-              "setupEdit": false,
-              "setupVisible": false
-            },
-            "disable":{
-              "original": "Disable",
-              "singular": "禁用",
-              "plural": "禁用",
-              "setupEdit": false,
-              "setupVisible": false
-            },
-            "activate":{
-              "original": "Activate",
-              "singular": "激活",
-              "plural": "激活",
-              "setupEdit": false,
-              "setupVisible": false
-            },
-            "deactivate":{
-              "original": "Deactivate",
-              "singular": "停用",
-              "plural": "停用",
-              "setupEdit": false,
-              "setupVisible": false
-            },
-            "hide":{
-              "original": "Hide",
-              "singular": "隐藏",
-              "plural": "隐藏",
-              "setupEdit": false,
-              "setupVisible": false
-            },
-            "show":{
-              "original": "Show",
-              "singular": "显示",
-              "plural": "显示",
-              "setupEdit": false,
-              "setupVisible": false
-            },
-            "display":{
-              "original": "Display",
-              "singular": "展示",
-              "plural": "展示",
-              "setupEdit": false,
-              "setupVisible": false
-            },
-            "hidden":{
-              "original": "Hidden",
-              "singular": "已隐藏",
-              "plural": "已隐藏",
-              "setupEdit": false,
-              "setupVisible": false
-            },
-            "regenerate":{
-              "original": "Regenerate",
-              "singular": "重新生成",
-              "plural": "重新生成",
-              "setupEdit": false,
-              "setupVisible": false
             }
           },
           "tooltips": {
@@ -29982,7 +30166,8 @@
       "userLoginNotFound": "未找到用户的登录信息",
       "userNameExists": "用户名已被使用",
       "userNotAllowedInMobile": "您不允许登录移动应用程序。请使用网页应用程序",
-      "deviceNotAllowed": "此设备不允许登录。请联系您的管理员"
+      "deviceNotAllowed": "此设备不允许登录。请联系您的管理员",
+      "usernameLeadingSpace": "请删除用户名前的空格并重试。"
     }
   },
   "resetPassword": {

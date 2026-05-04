@@ -1,0 +1,110 @@
+db.dynamic_label_setup.updateMany(
+{ "module": "asset", "language": "de" },
+{ $set: { "setup.fields.acquisitionDate.original": "Acquisition Date" } }
+)
+
+db.dynamic_label_setup.updateMany(
+{ "module": "asset", "language": "de" },
+{ $set: { "setup.fields.acquisitionDate.singular": "Erwerbsdatum" } }
+)
+
+db.dynamic_label_setup.updateMany(
+{ "module": "asset", "language": "de" },
+{ $set: { "setup.fields.acquisitionDate.plural": "Erwerbsdaten" } }
+)
+
+// remainingUsefulLife
+db.dynamic_label_setup.updateMany(
+{ "module": "analytic", "language": "de" },
+{ $set: { "setup.fields.remainingUsefulLife.original": "Remaining Useful Life" } }
+)
+
+db.dynamic_label_setup.updateMany(
+{ "module": "analytic", "language": "de" },
+{ $set: { "setup.fields.remainingUsefulLife.singular": "Verbleibende Nutzungsdauern" } }
+)
+
+db.dynamic_label_setup.updateMany(
+{ "module": "analytic", "language": "de" },
+{ $set: { "setup.fields.remainingUsefulLife.plural": "Verbleibende Nutzungsdauern" } }
+)
+
+// numberOfRepair
+db.dynamic_label_setup.updateMany(
+{ "module": "analytic", "language": "de" },
+{ $set: { "setup.fields.numberOfRepair.original": "Repairs" } }
+)
+
+db.dynamic_label_setup.updateMany(
+{ "module": "analytic", "language": "de" },
+{ $set: { "setup.fields.numberOfRepair.singular": "Reparatur" } }
+)
+
+db.dynamic_label_setup.updateMany(
+{ "module": "analytic", "language": "de" },
+{ $set: { "setup.fields.numberOfRepair.plural": "Reparaturen" } }
+)
+
+// mttr
+db.dynamic_label_setup.updateMany(
+{ "module": "analytic", "language": "de" },
+{ $set: { "setup.fields.mttr.original": "MTTR" } }
+)
+
+db.dynamic_label_setup.updateMany(
+{ "module": "analytic", "language": "de" },
+{ $set: { "setup.fields.mttr.singular": "MTTR" } }
+)
+
+db.dynamic_label_setup.updateMany(
+{ "module": "analytic", "language": "de" },
+{ $set: { "setup.fields.mttr.plural": "MTTR" } }
+)
+
+// mtbf
+db.dynamic_label_setup.updateMany(
+{ "module": "analytic", "language": "de" },
+{ $set: { "setup.fields.mtbf.original": "MTBF" } }
+)
+
+db.dynamic_label_setup.updateMany(
+{ "module": "analytic", "language": "de" },
+{ $set: { "setup.fields.mtbf.singular": "MTBF" } }
+)
+
+db.dynamic_label_setup.updateMany(
+{ "module": "analytic", "language": "de" },
+{ $set: { "setup.fields.mtbf.plural": "MTBF" } }
+)
+
+// operatingCostHour
+db.dynamic_label_setup.updateMany(
+{ "module": "analytic", "language": "de" },
+{ $set: { "setup.fields.operatingCostHour.original": "Operational Cost/Hour" } }
+)
+
+db.dynamic_label_setup.updateMany(
+{ "module": "analytic", "language": "de" },
+{ $set: { "setup.fields.operatingCostHour.singular": "Betriebskosten/Stunde" } }
+)
+
+db.dynamic_label_setup.updateMany(
+{ "module": "analytic", "language": "de" },
+{ $set: { "setup.fields.operatingCostHour.plural": "Betriebskosten/Stunde" } }
+)
+
+// repairCostHour
+db.dynamic_label_setup.updateMany(
+{ "module": "analytic", "language": "de" },
+{ $set: { "setup.fields.repairCostHour.original": "Repair Cost/Hour" } }
+)
+
+db.dynamic_label_setup.updateMany(
+{ "module": "analytic", "language": "de" },
+{ $set: { "setup.fields.repairCostHour.singular": "Reparaturkosten/Stunde" } }
+)
+
+db.dynamic_label_setup.updateMany(
+{ "module": "analytic", "language": "de" },
+{ $set: { "setup.fields.repairCostHour.plural": "Reparaturkosten/Stunde" } }
+)
