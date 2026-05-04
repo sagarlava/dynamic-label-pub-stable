@@ -6812,7 +6812,9 @@
       "selectAProduct": "Select a Spare Part",
       "userCalendlyNoIntegrate": "This user does not have Calendly integrated to their account",
       "noContactFoundForThisJobOrder": "No contact found for this Job Order",
-      "noContactFoundForTheJobOrdersCustomer": "No contact found for the Job Order's Customer"
+      "noContactFoundForTheJobOrdersCustomer": "No contact found for the Job Order's Customer",
+      "quickBooksCustomerRequired":"A Valid QuickBooks Customer is required to generate an invoice. Please ensure the customer information is complete and try again.",
+      "quickBooksProductsRequired": "At least one product is required to generate an invoice. Please add products to the job order and try again."
     },
     "validationBE": {
       "jobOrderStatusNotFound": "Status Not Found",
