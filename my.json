@@ -24491,6 +24491,267 @@
           "selectSource": "Pilih Sumber",
           "chooseAssetTypes": "Pilih jenis aset yang meter ini patut digunakan. Mana-mana aset dengan jenis dipilih akan secara automatik termasuk meter ini."
         }
+      },
+      "types":{
+        "setupEdit": false,
+        "setupVisible": false,
+        "label":{
+          "original": "Type",
+          "singular": "Jenis",
+          "plural": "Jenis",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "sections":{
+          "setupEdit": false,
+          "setupVisible": false,
+          "sec0":{
+            "original": "Basics",
+            "singular": "Asas",
+            "plural": "Asas",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec1":{
+            "original": "Form Sections",
+            "singular": "Bahagian Borang",
+            "plural": "Bahagian Borang",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec2":{
+            "original": "Statuses",
+            "singular": "Status",
+            "plural": "Status",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec3":{
+            "original": "Settings",
+            "singular": "Tetapan",
+            "plural": "Tetapan",
+            "setupEdit": false,
+            "setupVisible": false
+          }
+        },
+        "fields": {
+          "setupEdit": false,
+          "setupVisible": false,
+          "selectIcon":{
+            "original": "Select Icon",
+            "singular": "Pilih Ikon",
+            "plural": "Pilih Ikon",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "basicInfo":{
+            "original": "Basic Info",
+            "singular": "Maklumat Asas",
+            "plural": "Maklumat Asas",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "field":{
+            "original": "Field",
+            "singular": "Medan",
+            "plural": "Medan",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "branch":{
+            "original": "Branch",
+            "singular": "Cawangan",
+            "plural": "Cawangan",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "floor":{
+            "original": "Floor",
+            "singular": "Tingkat",
+            "plural": "Tingkat",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "hidden":{
+            "original": "Hidden",
+            "singular": "Tersembunyi",
+            "plural": "Tersembunyi",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "visible":{
+            "original": "Visible",
+            "singular": "Kelihatan",
+            "plural": "Kelihatan",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "shown":{
+            "original": "Shown",
+            "singular": "Ditunjukkan",
+            "plural": "Ditunjukkan",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "category":{
+            "original": "Category",
+            "singular": "Kategori",
+            "plural": "Kategori",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "type":{
+            "original": "Types",
+            "singular": "Jenis",
+            "plural": "Jenis",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "label":{
+            "original": "Label",
+            "singular": "Label",
+            "plural": "Label",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "code":{
+            "original": "Code",
+            "singular": "Kod",
+            "plural": "Kod",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "color":{
+            "original": "Color",
+            "singular": "Warna",
+            "plural": "Warna",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "default":{
+            "original": "Default",
+            "singular": "Lalai",
+            "plural": "Lalai",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "available":{
+            "original": "Available",
+            "singular": "Tersedia",
+            "plural": "Tersedia",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "autoPopulateAddress":{
+            "original": "Auto-populate address from",
+            "singular": "Isi alamat secara automatik daripada",
+            "plural": "Isi alamat secara automatik daripada",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "autoPopulateContact":{
+            "original": "Auto-populate contact from",
+            "singular": "Isi kontak secara automatik daripada",
+            "plural": "Isi kontak secara automatik daripada",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "addTheStatus":{
+            "original": "Add the status to",
+            "singular": "Tambah status kepada",
+            "plural": "Tambah status kepada",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "whichProfilesCanUse":{
+            "original": "Which profiles can use the status",
+            "singular": "Profil yang boleh menggunakan status ini",
+            "plural": "Profil yang boleh menggunakan status ini",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "price":{
+            "original": "Price",
+            "singular": "Harga",
+            "plural": "Harga",
+            "setupEdit": false,
+            "setupVisible": false
+          }
+        },
+        "messages":{
+          "addDescriptionForThis":"Tambah penerangan untuk ini",
+          "here":"di sini...",
+          "untitled":"Tanpa Tajuk",
+          "configureFieldsAppear":"Tetapkan medan yang muncul apabila perancang membuat",
+          "ofThis":"bagi ini",
+          "toggleOptionsBelow":"Togol pilihan di bawah dan klik pratonton borang langsung untuk melihat kemas kini serta-merta",
+          "decideIfThis":"Tentukan sama ada ini",
+          "alwaysInvolvesSpecific":"sentiasa melibatkan yang khusus",
+          "enable":"Dayakan",
+          "and":"dan",
+          "trackingIfPlanners":"penjejakan jika perancang perlu merekodkannya",
+          "ifThis":"jika ini",
+          "requiresBulkInstallations":"memerlukan pemasangan pukal",
+          "reviewLivePreview":"Semak pratonton langsung dan klik butang 'Simpan' untuk teruskan",
+          "linkedToAn":"dipautkan kepada",
+          "turnOnIfWork":"Hidupkan jika kerja biasanya melibatkan peralatan atau aset tertentu. Biarkan dimatikan untuk kerja umum seperti pemeriksaan tapak atau tinjauan.",
+          "workDoneFor":"Kerja dilakukan untuk",
+          "turnOnToSpecify":"Hidupkan untuk menentukan yang mana",
+          "workingForWhenCreating":"anda bekerja untuk semasa membuat",
+          "doYouNeed":"Adakah anda perlukan",
+          "enableToRecord":"Dayakan untuk merekodkan yang tepat",
+          "forEach":"untuk setiap",
+          "willTheseJobsLink":"Adakah kerja-kerja ini akan dipautkan kepada",
+          "turnOnIfGroupMultipleJobs":"Hidupkan jika anda mengumpulkan beberapa kerja. Anda akan dapat menjana ringkasan semua kerja yang diselesaikan.",
+          "chooseWhatYourTeam":"Pilih apa yang pasukan anda lihat pada",
+          "formInWhatOrder":"borang dan dalam urutan apa. Kekalkan hanya yang diperlukan supaya borang cepat dan jelas.",
+          "showTheSectionsNeed":"Tunjukkan bahagian yang anda perlukan",
+          "hideSectionsTeam":"Sembunyikan bahagian yang pasukan anda tidak gunakan",
+          "orderTheseSections":"Susun bahagian ini supaya aliran terasa semula jadi untuk anda",
+          "shownTo":"Ditunjukkan kepada",
+          "whereJobHappensWhoToCall":"Di mana kerja berlaku dan siapa yang perlu dihubungi",
+          "whatsWrongHowFixed":"Apa masalahnya dan bagaimana ia diperbaiki",
+          "stepsForTechnician":"Langkah untuk juruteknik",
+          "usedForInstallationsRepairs":"digunakan untuk pemasangan atau pembaikan",
+          "extraNotesFiles":"Nota tambahan dan fail",
+          "additional":"Tambahan",
+          "information":"Maklumat",
+          "plannersSee":"Inilah yang akan dilihat oleh perancang untuk ini",
+          "addStatusesForThis":"Tambah status untuk ini",
+          "statusesControlLifecycle":"Status mengawal kitaran hayat yang ditunjukkan kepada perancang dan juruteknik",
+          "addStatusWith":"Tambah status dengan Label, Kod, dan Kod Warna Hex (contoh: #4F46E5)",
+          "availableToggle":"Tersedia: Togol status yang anda mahu jadikan tersedia untuk jenis ini",
+          "defaultSelectStatus":"Lalai: Pilih satu status yang akan menjadi lalai bagi kerja baharu jenis ini",
+          "saveYourChanges":"Simpan perubahan anda",
+          "newlyCreatedStatus":"Status yang baru dibuat akan kelihatan tetapi tidak ditetapkan sebagai",
+          "defineDetailsOfThis":"Tentukan butiran untuk ini",
+          "groupingReportingFiltering":"Pengelompokan untuk pelaporan dan penapisan",
+          "nameShownTo":"Nama dipaparkan kepada",
+          "shortUniqueIdentifier":"Pengecam unik ringkas yang digunakan oleh integrasi dan automasi",
+          "chooseWhereStatus":"Pilih di mana status ini dipaparkan",
+          "selectThe":"Pilih",
+          "whichWillUseThis":"yang akan menggunakan status ini",
+          "addStatusTo":"Tambah status kepada",
+          "thisStatusSelectable":"Status ini hanya boleh dipilih untuk",
+          "youInclude":"yang anda sertakan",
+          "selectWhoCanUseStatus":"Pilih siapa yang boleh menggunakan status ini",
+          "whoCanSetStatus":"Siapa yang boleh menetapkan status ini dalam",
+          "selectedProfilesCan":"Profil yang dipilih boleh menggunakan status ini",
+          "enterStatusLabel":"Masukkan label status...",
+          "enterStatusCode":"Masukkan kod status...",
+          "allowUserViewPriceOf":"Benarkan pengguna melihat harga",
+          "allowToSee":"Benarkan untuk melihat",
+          "enableThisIfYou":"Dayakan ini jika anda ingin memaparkan harga setiap",
+          "createdUnderThisType":"yang dicipta di bawah jenis ini akan mengikut peraturan ini",
+          "is":"ialah"
+        },
+        "validationFE":{
+          "maximum80Chars":"Panjang maksimum 80 aksara telah melebihi had",
+          "maximumCharsExceed":"Panjang maksimum aksara telah melebihi had",
+          "noDefaultStatus":"Tiada status lalai ditemui. Sila tetapkan satu status sebagai lalai.",
+          "systemStatusNotAllowedDelete":"Status sistem tidak boleh dipadam. Anda boleh menukar labelnya.",
+          "toDeleteStatus":"Untuk memadam status ini, pastikan ia dimatikan dalam semua"
+        }
       }
     },
     "checklist": {

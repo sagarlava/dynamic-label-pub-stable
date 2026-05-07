@@ -24499,6 +24499,268 @@
           "selectSource":"Select Source",
           "chooseAssetTypes":"Choose the asset types this meter should apply to. Any asset of the selected types will automatically include this meter."
         }
+      },
+      "types":{
+         "setupEdit": false,
+        "setupVisible": false,
+        "label":{
+          "original": "Type",
+          "singular": "Type",
+          "plural": "Types",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "sections":{
+          "setupEdit": false,
+          "setupVisible": false,
+          "sec0":{
+            "original": "Basics",
+            "singular": "Basic",
+            "plural": "Basics",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec1":{
+            "original": "Form Sections",
+            "singular": "Form Section",
+            "plural": "Form Sections",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec2":{
+            "original": "Statuses",
+            "singular": "Status",
+            "plural": "Statuses",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec3":{
+            "original": "Settings",
+            "singular": "Setting",
+            "plural": "Settings",
+            "setupEdit": false,
+            "setupVisible": false
+          }
+        },
+        "fields": {
+          "setupEdit": false,
+          "setupVisible": false,
+          "selectIcon":{
+            "original": "Select Icon",
+            "singular": "Select Icon",
+            "plural": "Select Icons",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "basicInfo":{
+            "original": "Basic Info",
+            "singular": "Basic Info",
+            "plural": "Basic Info",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "field":{
+            "original": "Field",
+            "singular": "Field",
+            "plural": "Fields",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "branch":{
+            "original": "Branch",
+            "singular": "Branch",
+            "plural": "Branches",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "floor":{
+            "original": "Floor",
+            "singular": "Floor",
+            "plural": "Floors",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "hidden":{
+            "original": "Hidden",
+            "singular": "Hidden",
+            "plural": "Hidden",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "visible":{
+            "original": "Visible",
+            "singular": "Visible",
+            "plural": "Visible",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "shown":{
+            "original": "Shown",
+            "singular": "Shown",
+            "plural": "Shown",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "category":{
+            "original": "Category",
+            "singular": "Category",
+            "plural": "Categories",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "type":{
+            "original": "Types",
+            "singular": "Type",
+            "plural": "Types",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "label":{
+            "original": "Label",
+            "singular": "Label",
+            "plural": "Labels",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "code":{
+            "original": "Code",
+            "singular": "Code",
+            "plural": "Codes",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "color":{
+            "original": "Color",
+            "singular": "Color",
+            "plural": "Colors",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "default":{
+            "original": "Default",
+            "singular": "Default",
+            "plural": "Default",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "available":{
+            "original": "Available",
+            "singular": "Available",
+            "plural": "Available",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "autoPopulateAddress":{
+            "original": "Auto-populate address from",
+            "singular": "Auto-populate address from",
+            "plural": "Auto-populate address from",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "autoPopulateContact":{
+            "original": "Auto-populate contact from",
+            "singular": "Auto-populate contact from",
+            "plural": "Auto-populate contact from",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "addTheStatus":{
+            "original": "Add the status to",
+            "singular": "Add the status to",
+            "plural": "Add the status to",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "whichProfilesCanUse":{
+            "original": "Which profiles can use the status",
+            "singular": "Which profiles can use the status",
+            "plural": "Which profiles can use the status",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "price":{
+            "original": "Price",
+            "singular": "Price",
+            "plural": "Prices",
+            "setupEdit": false,
+            "setupVisible": false
+          }
+        },
+        "messages":{
+          "addDescriptionForThis":"Add a description for this",
+          "here":"here...",
+          "untitled":"Untitled",
+          "configureFieldsAppear":"Configure which fields appear when planners create a",
+          "ofThis":"of this",
+          "toggleOptionsBelow":"Toggle the options below and click on the live form preview to view updates instantly",
+          "decideIfThis":"Decide if this",
+          "alwaysInvolvesSpecific":"always involves a specific",
+          "enable":"Enable",
+          "and":"and",
+          "trackingIfPlanners":"tracking if planners must capture them",
+          "ifThis":"if this",
+          "requiresBulkInstallations":"requires bulk installations",
+          "reviewLivePreview":"Review the live preview and click the 'Save' button to proceed",
+          "linkedToAn":"linked to an",
+          "turnOnIfWork":"Turn on if work usually involves a particular equipment or asset. Leave off for general work like site inspections or surveys.",
+          "workDoneFor":"Work done for a",
+          "turnOnToSpecify":"Turn on to specify which",
+          "workingForWhenCreating":"you're working for when creating",
+          "doYouNeed":"Do you need the",
+          "enableToRecord":"Enable to record the exact",
+          "forEach":"for each",
+          "willTheseJobsLink":"Will these jobs link to a",
+          "turnOnIfGroupMultipleJobs":"Turn on if you group multiple jobs. You'll be able to generate a summary of all completed jobs.",
+          "chooseWhatYourTeam":"Choose what your team sees on the",
+          "formInWhatOrder":"form and in what order. Keep only what's needed so the form is fast and clear.",
+          "showTheSectionsNeed":"Show the sections you need",
+          "hideSectionsTeam":"Hide the sections that your team doesn't use",
+          "orderTheseSections":"Order these sections so the flow feels natural to you",
+          "shownTo":"Shown to",
+          "whereJobHappensWhoToCall":"Where the job happens and who to call",
+          "whatsWrongHowFixed":"What's wrong and how it's fixed",
+          "stepsForTechnician":"Steps for the technician",
+          "usedForInstallationsRepairs":"used for installations or repairs",
+          "extraNotesFiles":"Extra notes and files",
+          "additional":"Additional",
+          "information":"Information",
+          "plannersSee":"This is what planners will see for this",
+          "addStatusesForThis":"Add the statuses for this",
+          "statusesControlLifecycle":"Statuses control the life-cycle shown to planners and technicians",
+          "addStatusWith":"Add a status with Label, Code, and Color Hex Code (Example: #4F46E5)",
+          "availableToggle":"Available: Toggle the statuses you want to make available for this type",
+          "defaultSelectStatus":"Default: Select one status that will be the default for new jobs of this type",
+          "saveYourChanges":"Save your changes",
+          "newlyCreatedStatus":"Newly created statuses will be visible but not set as",
+          "defineDetailsOfThis":"Define the details of this",
+          "groupingReportingFiltering":"Grouping for reporting and filtering",
+          "nameShownTo":"Name shown to",
+          "shortUniqueIdentifier":"Short unique identifier used by integrations and automations",
+          "chooseWhereStatus":"Choose where this status appears",
+          "selectThe":"Select the",
+          "whichWillUseThis":"which will use this status",
+          "addStatusTo":"Add the status to",
+          "thisStatusSelectable":"This status will only be selectable for the",
+          "youInclude":"you include",
+          "selectWhoCanUseStatus":"Select who can use this status",
+          "whoCanSetStatus":"Who can set this status in a",
+          "selectedProfilesCan":"Selected profiles can use this status",
+          "enterStatusLabel":"Enter a status label...",
+          "enterStatusCode":"Enter a status code...",
+          "allowUserViewPriceOf":"Allow users to view the price of",
+          "allowToSee":"Allow to see",
+          "enableThisIfYou":"Enable this if you would like to display the price of each",
+          "createdUnderThisType":"created under this type will follow this rule",
+          "is":"is"
+        },
+        "validationFE":{
+          "maximum80Chars":"Maximum length of 80 characters exceeded",
+          "maximumCharsExceed":"Maximum character length exceeded",
+          "noDefaultStatus":"No default status found. Please set a status as default.",
+          "systemStatusNotAllowedDelete":"System statuses cannot be deleted. Feel free to change the label.",
+          "toDeleteStatus":"To delete this status, ensure it's turned off in all the"
+        }
+
       }
     },
     "checklist": {

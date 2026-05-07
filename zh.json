@@ -24491,6 +24491,267 @@
           "selectSource": "选择来源",
           "chooseAssetTypes": "选择此仪表应适用的资产类型。任何属于所选类型的资产都会自动包含此仪表。"
         }
+      },
+      "types":{
+        "setupEdit": false,
+        "setupVisible": false,
+        "label":{
+          "original": "Type",
+          "singular": "类型",
+          "plural": "类型",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "sections":{
+          "setupEdit": false,
+          "setupVisible": false,
+          "sec0":{
+            "original": "Basics",
+            "singular": "基础",
+            "plural": "基础",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec1":{
+            "original": "Form Sections",
+            "singular": "表单部分",
+            "plural": "表单部分",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec2":{
+            "original": "Statuses",
+            "singular": "状态",
+            "plural": "状态",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec3":{
+            "original": "Settings",
+            "singular": "设置",
+            "plural": "设置",
+            "setupEdit": false,
+            "setupVisible": false
+          }
+        },
+        "fields": {
+          "setupEdit": false,
+          "setupVisible": false,
+          "selectIcon":{
+            "original": "Select Icon",
+            "singular": "选择图标",
+            "plural": "选择图标",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "basicInfo":{
+            "original": "Basic Info",
+            "singular": "基本信息",
+            "plural": "基本信息",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "field":{
+            "original": "Field",
+            "singular": "字段",
+            "plural": "字段",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "branch":{
+            "original": "Branch",
+            "singular": "分支",
+            "plural": "分支",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "floor":{
+            "original": "Floor",
+            "singular": "楼层",
+            "plural": "楼层",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "hidden":{
+            "original": "Hidden",
+            "singular": "隐藏",
+            "plural": "隐藏",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "visible":{
+            "original": "Visible",
+            "singular": "可见",
+            "plural": "可见",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "shown":{
+            "original": "Shown",
+            "singular": "显示",
+            "plural": "显示",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "category":{
+            "original": "Category",
+            "singular": "类别",
+            "plural": "类别",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "type":{
+            "original": "Types",
+            "singular": "类型",
+            "plural": "类型",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "label":{
+            "original": "Label",
+            "singular": "标签",
+            "plural": "标签",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "code":{
+            "original": "Code",
+            "singular": "代码",
+            "plural": "代码",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "color":{
+            "original": "Color",
+            "singular": "颜色",
+            "plural": "颜色",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "default":{
+            "original": "Default",
+            "singular": "默认",
+            "plural": "默认",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "available":{
+            "original": "Available",
+            "singular": "可用",
+            "plural": "可用",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "autoPopulateAddress":{
+            "original": "Auto-populate address from",
+            "singular": "自动填充地址来源于",
+            "plural": "自动填充地址来源于",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "autoPopulateContact":{
+            "original": "Auto-populate contact from",
+            "singular": "自动填充联系人来源于",
+            "plural": "自动填充联系人来源于",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "addTheStatus":{
+            "original": "Add the status to",
+            "singular": "将状态添加到",
+            "plural": "将状态添加到",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "whichProfilesCanUse":{
+            "original": "Which profiles can use the status",
+            "singular": "哪些角色可以使用该状态",
+            "plural": "哪些角色可以使用该状态",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "price":{
+            "original": "Price",
+            "singular": "价格",
+            "plural": "价格",
+            "setupEdit": false,
+            "setupVisible": false
+          }
+        },
+        "messages":{
+          "addDescriptionForThis":"为此项添加说明",
+          "here":"这里...",
+          "untitled":"未命名",
+          "configureFieldsAppear":"配置规划人员创建时显示的字段",
+          "ofThis":"的此项",
+          "toggleOptionsBelow":"切换以下选项并点击实时表单预览，即可立即查看更新",
+          "decideIfThis":"决定此项是否",
+          "alwaysInvolvesSpecific":"总是涉及特定的",
+          "enable":"启用",
+          "and":"和",
+          "trackingIfPlanners":"如果规划人员必须记录，则启用跟踪",
+          "ifThis":"如果此项",
+          "requiresBulkInstallations":"需要批量安装",
+          "reviewLivePreview":"查看实时预览并点击“保存”按钮继续",
+          "linkedToAn":"关联到一个",
+          "turnOnIfWork":"如果工作通常涉及特定设备或资产，请开启。对于现场检查或勘测等通用工作请关闭。",
+          "workDoneFor":"为以下对象执行的工作",
+          "turnOnToSpecify":"开启以指定",
+          "workingForWhenCreating":"创建时你服务的对象",
+          "doYouNeed":"你是否需要",
+          "enableToRecord":"启用以记录准确的",
+          "forEach":"用于每个",
+          "willTheseJobsLink":"这些工单会关联到",
+          "turnOnIfGroupMultipleJobs":"如果你会分组多个工单，请开启。你将能够生成所有已完成工单的汇总。",
+          "chooseWhatYourTeam":"选择你的团队在以下位置看到的内容",
+          "formInWhatOrder":"表单及其顺序。仅保留必要内容，让表单更快速清晰。",
+          "showTheSectionsNeed":"显示你需要的部分",
+          "hideSectionsTeam":"隐藏你的团队不使用的部分",
+          "orderTheseSections":"对这些部分排序，让流程更自然",
+          "shownTo":"显示给",
+          "whereJobHappensWhoToCall":"工作发生地点以及联系对象",
+          "whatsWrongHowFixed":"问题是什么以及如何修复",
+          "stepsForTechnician":"给技术人员的步骤",
+          "usedForInstallationsRepairs":"用于安装或维修",
+          "extraNotesFiles":"额外备注和文件",
+          "additional":"附加",
+          "information":"信息",
+          "plannersSee":"这是规划人员将看到的内容",
+          "addStatusesForThis":"为此项添加状态",
+          "statusesControlLifecycle":"状态控制向规划人员和技术人员展示的生命周期",
+          "addStatusWith":"添加状态，包含标签、代码和十六进制颜色代码（示例：#4F46E5）",
+          "availableToggle":"可用：切换你希望此类型可用的状态",
+          "defaultSelectStatus":"默认：选择一个状态作为该类型新工单的默认状态",
+          "saveYourChanges":"保存你的更改",
+          "newlyCreatedStatus":"新创建的状态将可见，但不会被设为",
+          "defineDetailsOfThis":"定义此项的详细信息",
+          "groupingReportingFiltering":"用于报表和筛选的分组",
+          "nameShownTo":"显示给以下对象的名称",
+          "shortUniqueIdentifier":"用于集成和自动化的简短唯一标识符",
+          "chooseWhereStatus":"选择此状态显示的位置",
+          "selectThe":"选择",
+          "whichWillUseThis":"将使用此状态的",
+          "addStatusTo":"将状态添加到",
+          "thisStatusSelectable":"此状态仅可供以下对象选择",
+          "youInclude":"你已包含的",
+          "selectWhoCanUseStatus":"选择谁可以使用此状态",
+          "whoCanSetStatus":"谁可以在以下对象中设置此状态",
+          "selectedProfilesCan":"所选角色可以使用此状态",
+          "enterStatusLabel":"输入状态标签...",
+          "enterStatusCode":"输入状态代码...",
+          "allowUserViewPriceOf":"允许用户查看以下对象的价格",
+          "allowToSee":"允许查看",
+          "enableThisIfYou":"如果你希望显示每个以下对象的价格，请启用此项",
+          "createdUnderThisType":"在此类型下创建的内容将遵循此规则",
+          "is":"是"
+        },
+        "validationFE":{
+          "maximum80Chars":"已超过 80 个字符的最大长度",
+          "maximumCharsExceed":"已超过最大字符长度",
+          "noDefaultStatus":"未找到默认状态。请将一个状态设为默认。",
+          "systemStatusNotAllowedDelete":"系统状态不可删除。你可以修改其标签。",
+          "toDeleteStatus":"要删除此状态，请确保它在所有以下项目中已关闭"
+        }
       }
     },
     "checklist": {
