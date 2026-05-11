@@ -1192,7 +1192,8 @@
       "assetSubCategoryCannotDeleteByAssets": "No se puede eliminar: La subcategoría de activos se utiliza en uno o más activos", 
       "assetParentInvalid":"El padre elegido ya está en la jerarquía de activos",
       "assetHasChildAssets": "Este activo no se puede eliminar porque tiene activos hijos dependientes. Por favor, desvincúlelos primero",
-      "assetHasBinTransfer": "Este activo no se puede eliminar porque tiene transferencias de contenedor dependientes. Por favor, desvincúlelas primero."
+      "assetHasBinTransfer": "Este activo no se puede eliminar porque tiene transferencias de contenedor dependientes. Por favor, desvincúlelas primero.",
+      "assetHasJobOrder": "Existen datos de órdenes de trabajo en el sistema para los activos"
     },
     "tooltips": {
       "setupVisible": false,

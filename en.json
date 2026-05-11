@@ -1192,7 +1192,8 @@
       "assetSubCategoryCannotDeleteByAssets":"Unable to delete: Asset Sub Category is used in one or more Assets",
       "assetParentInvalid":"The chosen parent is already in the asset hierarchy",
       "assetHasChildAssets": "This asset cannot be deleted because it has dependent child assets. Please unlink them first",
-      "assetHasBinTransfer": "This asset cannot be deleted because it has dependent bin transfers. Please unlink them first"
+      "assetHasBinTransfer": "This asset cannot be deleted because it has dependent bin transfers. Please unlink them first",
+      "assetHasJobOrder": "Job Order Data exists in the system for the Assets"
     },
     "tooltips": {
       "setupVisible": false,
