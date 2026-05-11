@@ -25625,6 +25625,267 @@
           "selectSource": "Quelle auswählen",
           "chooseAssetTypes": "Wählen Sie die Asset-Typen, für die dieser Zähler gelten soll. Jedes Asset des ausgewählten Typs enthält automatisch diesen Zähler."
         }
+      },
+      "types":{
+        "setupEdit": false,
+        "setupVisible": false,
+        "label":{
+          "original": "Type",
+          "singular": "Typ",
+          "plural": "Typen",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "sections":{
+          "setupEdit": false,
+          "setupVisible": false,
+          "sec0":{
+            "original": "Basics",
+            "singular": "Grundlagen",
+            "plural": "Grundlagen",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec1":{
+            "original": "Form Sections",
+            "singular": "Formularabschnitt",
+            "plural": "Formularabschnitte",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec2":{
+            "original": "Statuses",
+            "singular": "Status",
+            "plural": "Status",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec3":{
+            "original": "Settings",
+            "singular": "Einstellung",
+            "plural": "Einstellungen",
+            "setupEdit": false,
+            "setupVisible": false
+          }
+        },
+        "fields": {
+          "setupEdit": false,
+          "setupVisible": false,
+          "selectIcon":{
+            "original": "Select Icon",
+            "singular": "Symbol auswählen",
+            "plural": "Symbole auswählen",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "basicInfo":{
+            "original": "Basic Info",
+            "singular": "Grundinformationen",
+            "plural": "Grundinformationen",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "field":{
+            "original": "Field",
+            "singular": "Feld",
+            "plural": "Felder",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "branch":{
+            "original": "Branch",
+            "singular": "Niederlassung",
+            "plural": "Niederlassungen",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "floor":{
+            "original": "Floor",
+            "singular": "Etage",
+            "plural": "Etagen",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "hidden":{
+            "original": "Hidden",
+            "singular": "Ausgeblendet",
+            "plural": "Ausgeblendet",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "visible":{
+            "original": "Visible",
+            "singular": "Sichtbar",
+            "plural": "Sichtbar",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "shown":{
+            "original": "Shown",
+            "singular": "Angezeigt",
+            "plural": "Angezeigt",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "category":{
+            "original": "Category",
+            "singular": "Kategorie",
+            "plural": "Kategorien",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "type":{
+            "original": "Types",
+            "singular": "Typ",
+            "plural": "Typen",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "label":{
+            "original": "Label",
+            "singular": "Bezeichnung",
+            "plural": "Bezeichnungen",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "code":{
+            "original": "Code",
+            "singular": "Code",
+            "plural": "Codes",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "color":{
+            "original": "Color",
+            "singular": "Farbe",
+            "plural": "Farben",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "default":{
+            "original": "Default",
+            "singular": "Standard",
+            "plural": "Standard",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "available":{
+            "original": "Available",
+            "singular": "Verfügbar",
+            "plural": "Verfügbar",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "autoPopulateAddress":{
+            "original": "Auto-populate address from",
+            "singular": "Adresse automatisch ausfüllen aus",
+            "plural": "Adresse automatisch ausfüllen aus",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "autoPopulateContact":{
+            "original": "Auto-populate contact from",
+            "singular": "Kontakt automatisch ausfüllen aus",
+            "plural": "Kontakt automatisch ausfüllen aus",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "addTheStatus":{
+            "original": "Add the status to",
+            "singular": "Status hinzufügen zu",
+            "plural": "Status hinzufügen zu",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "whichProfilesCanUse":{
+            "original": "Which profiles can use the status",
+            "singular": "Welche Profile den Status verwenden können",
+            "plural": "Welche Profile den Status verwenden können",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "price":{
+            "original": "Price",
+            "singular": "Preis",
+            "plural": "Preise",
+            "setupEdit": false,
+            "setupVisible": false
+          }
+        },
+        "messages":{
+          "addDescriptionForThis":"Fügen Sie eine Beschreibung hierfür hinzu",
+          "here":"hier...",
+          "untitled":"Ohne Titel",
+          "configureFieldsAppear":"Konfigurieren Sie, welche Felder angezeigt werden, wenn Planer ein(e)",
+          "ofThis":"dieses/diese",
+          "toggleOptionsBelow":"Schalten Sie die Optionen unten um und klicken Sie auf die Live-Formularvorschau, um Aktualisierungen sofort zu sehen",
+          "decideIfThis":"Entscheiden Sie, ob dieses/diese",
+          "alwaysInvolvesSpecific":"immer ein bestimmtes/eine bestimmte",
+          "enable":"Aktivieren",
+          "and":"und",
+          "trackingIfPlanners":"Nachverfolgung, wenn Planer sie erfassen müssen",
+          "ifThis":"wenn dieses/diese",
+          "requiresBulkInstallations":"Masseninstallationen erfordert",
+          "reviewLivePreview":"Prüfen Sie die Live-Vorschau und klicken Sie auf die Schaltfläche 'Speichern', um fortzufahren",
+          "linkedToAn":"verknüpft mit einem/einer",
+          "turnOnIfWork":"Aktivieren Sie dies, wenn die Arbeit normalerweise ein bestimmtes Gerät oder Asset umfasst. Lassen Sie es für allgemeine Arbeiten wie Standortinspektionen oder Umfragen deaktiviert.",
+          "workDoneFor":"Arbeit durchgeführt für ein(e)",
+          "turnOnToSpecify":"Aktivieren Sie dies, um festzulegen, welche(s)",
+          "workingForWhenCreating":"Sie bei der Erstellung bearbeiten",
+          "doYouNeed":"Benötigen Sie die/den/das",
+          "enableToRecord":"Aktivieren, um die/den/das genaue(n)",
+          "forEach":"für jede(n/s)",
+          "willTheseJobsLink":"Werden diese Aufträge mit einem/einer",
+          "turnOnIfGroupMultipleJobs":"Aktivieren Sie dies, wenn Sie mehrere Aufträge gruppieren. Sie können dann eine Zusammenfassung aller abgeschlossenen Aufträge erstellen.",
+          "chooseWhatYourTeam":"Wählen Sie, was Ihr Team im/in der",
+          "formInWhatOrder":"Formular sieht und in welcher Reihenfolge. Behalten Sie nur das Nötigste bei, damit das Formular schnell und klar bleibt.",
+          "showTheSectionsNeed":"Zeigen Sie die Abschnitte an, die Sie benötigen",
+          "hideSectionsTeam":"Blenden Sie die Abschnitte aus, die Ihr Team nicht verwendet",
+          "orderTheseSections":"Ordnen Sie diese Abschnitte so, dass sich der Ablauf für Sie natürlich anfühlt",
+          "shownTo":"Angezeigt für",
+          "whereJobHappensWhoToCall":"Wo die Arbeit stattfindet und wen man anruft",
+          "whatsWrongHowFixed":"Was falsch ist und wie es behoben wird",
+          "stepsForTechnician":"Schritte für den Techniker",
+          "usedForInstallationsRepairs":"wird für Installationen oder Reparaturen verwendet",
+          "extraNotesFiles":"Zusätzliche Notizen und Dateien",
+          "additional":"Zusätzliche",
+          "information":"Informationen",
+          "plannersSee":"Das sehen Planer für dieses/diese",
+          "addStatusesForThis":"Status für dieses/diese hinzufügen",
+          "statusesControlLifecycle":"Status steuern den Lebenszyklus, der Planern und Technikern angezeigt wird",
+          "addStatusWith":"Fügen Sie einen Status mit Bezeichnung, Code und Hex-Farbcode hinzu (Beispiel: #4F46E5)",
+          "availableToggle":"Verfügbar: Schalten Sie die Status um, die Sie für diesen Typ verfügbar machen möchten",
+          "defaultSelectStatus":"Standard: Wählen Sie einen Status aus, der für neue Aufträge dieses Typs als Standard gesetzt wird",
+          "saveYourChanges":"Speichern Sie Ihre Änderungen",
+          "newlyCreatedStatus":"Neu erstellte Status sind sichtbar, werden aber nicht als",
+          "defineDetailsOfThis":"Definieren Sie die Details dieses/dieser",
+          "groupingReportingFiltering":"Gruppierung für Berichte und Filterung",
+          "nameShownTo":"Name angezeigt für",
+          "shortUniqueIdentifier":"Kurzer eindeutiger Bezeichner für Integrationen und Automatisierungen",
+          "chooseWhereStatus":"Wählen Sie aus, wo dieser Status angezeigt wird",
+          "selectThe":"Wählen Sie die/den/das",
+          "whichWillUseThis":"der/die/das diesen Status verwenden wird",
+          "addStatusTo":"Status hinzufügen zu",
+          "thisStatusSelectable":"Dieser Status ist nur auswählbar für die/den/das",
+          "youInclude":"die/den/das Sie einschließen",
+          "selectWhoCanUseStatus":"Wählen Sie aus, wer diesen Status verwenden kann",
+          "whoCanSetStatus":"Wer diesen Status in einem/einer setzen kann",
+          "selectedProfilesCan":"Ausgewählte Profile können diesen Status verwenden",
+          "enterStatusLabel":"Statusbezeichnung eingeben...",
+          "enterStatusCode":"Statuscode eingeben...",
+          "allowUserViewPriceOf":"Benutzern erlauben, den Preis von anzuzeigen",
+          "allowToSee":"Erlauben zu sehen",
+          "enableThisIfYou":"Aktivieren Sie dies, wenn Sie den Preis jedes/jeder",
+          "createdUnderThisType":"unter diesem Typ erstellt, folgt dieser Regel",
+          "is":"ist"
+        },
+        "validationFE":{
+          "maximum80Chars":"Maximale Länge von 80 Zeichen überschritten",
+          "maximumCharsExceed":"Maximale Zeichenlänge überschritten",
+          "noDefaultStatus":"Kein Standardstatus gefunden. Bitte setzen Sie einen Status als Standard.",
+          "systemStatusNotAllowedDelete":"Systemstatus können nicht gelöscht werden. Sie können die Bezeichnung ändern.",
+          "toDeleteStatus":"Um diesen Status zu löschen, stellen Sie sicher, dass er in allen folgenden deaktiviert ist"
+        }
       }
     },
     "checklist": {

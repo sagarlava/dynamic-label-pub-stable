@@ -9678,8 +9678,8 @@
       "userCalendlyNoIntegrate": "Este usuario no tiene Calendly integrado en su cuenta",
       "noContactFoundForThisJobOrder": "No se encontró contacto para esta Orden de Trabajo",
       "noContactFoundForTheJobOrdersCustomer": "No se encontró contacto para el Cliente de la Orden de Trabajo",
-      "quickBooksCustomerRequired":"Se requiere un cliente válido de QuickBooks para generar una factura. Por favor, asegúrese de que la información del cliente esté completa e inténtelo de nuevo.",
-      "quickBooksProductsRequired": "Se requiere al menos un producto para generar una factura. Por favor, agregue productos a la orden de trabajo e inténtelo de nuevo."
+      "quickBooksCustomerRequired":"Se requiere un Cliente válido de QuickBooks para generar una factura. Por favor, asegúrese de que la información del cliente esté completa e intente nuevamente.",
+      "quickBooksProductsRequired": "Se requiere al menos un producto para generar una factura. Por favor, agregue productos a la orden de trabajo e intente nuevamente."
     },
     "validationBE": {
       "jobOrderStatusNotFound": "Estado No Encontrado",
@@ -25624,6 +25624,267 @@
           "selectType": "Seleccionar Tipo",
           "selectSource": "Seleccionar Fuente",
           "chooseAssetTypes": "Elige los tipos de activos a los que debe aplicarse este medidor. Cualquier activo de los tipos seleccionados incluirá automáticamente este medidor."
+        }
+      },
+      "types":{
+        "setupEdit": false,
+        "setupVisible": false,
+        "label":{
+          "original": "Type",
+          "singular": "Tipo",
+          "plural": "Tipos",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "sections":{
+          "setupEdit": false,
+          "setupVisible": false,
+          "sec0":{
+            "original": "Basics",
+            "singular": "Básico",
+            "plural": "Aspectos básicos",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec1":{
+            "original": "Form Sections",
+            "singular": "Sección del formulario",
+            "plural": "Secciones del formulario",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec2":{
+            "original": "Statuses",
+            "singular": "Estado",
+            "plural": "Estados",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec3":{
+            "original": "Settings",
+            "singular": "Configuración",
+            "plural": "Configuraciones",
+            "setupEdit": false,
+            "setupVisible": false
+          }
+        },
+        "fields": {
+          "setupEdit": false,
+          "setupVisible": false,
+          "selectIcon":{
+            "original": "Select Icon",
+            "singular": "Seleccionar icono",
+            "plural": "Seleccionar iconos",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "basicInfo":{
+            "original": "Basic Info",
+            "singular": "Información básica",
+            "plural": "Información básica",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "field":{
+            "original": "Field",
+            "singular": "Campo",
+            "plural": "Campos",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "branch":{
+            "original": "Branch",
+            "singular": "Sucursal",
+            "plural": "Sucursales",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "floor":{
+            "original": "Floor",
+            "singular": "Piso",
+            "plural": "Pisos",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "hidden":{
+            "original": "Hidden",
+            "singular": "Oculto",
+            "plural": "Oculto",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "visible":{
+            "original": "Visible",
+            "singular": "Visible",
+            "plural": "Visible",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "shown":{
+            "original": "Shown",
+            "singular": "Mostrado",
+            "plural": "Mostrado",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "category":{
+            "original": "Category",
+            "singular": "Categoría",
+            "plural": "Categorías",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "type":{
+            "original": "Types",
+            "singular": "Tipo",
+            "plural": "Tipos",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "label":{
+            "original": "Label",
+            "singular": "Etiqueta",
+            "plural": "Etiquetas",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "code":{
+            "original": "Code",
+            "singular": "Código",
+            "plural": "Códigos",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "color":{
+            "original": "Color",
+            "singular": "Color",
+            "plural": "Colores",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "default":{
+            "original": "Default",
+            "singular": "Predeterminado",
+            "plural": "Predeterminado",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "available":{
+            "original": "Available",
+            "singular": "Disponible",
+            "plural": "Disponible",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "autoPopulateAddress":{
+            "original": "Auto-populate address from",
+            "singular": "Autocompletar dirección desde",
+            "plural": "Autocompletar dirección desde",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "autoPopulateContact":{
+            "original": "Auto-populate contact from",
+            "singular": "Autocompletar contacto desde",
+            "plural": "Autocompletar contacto desde",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "addTheStatus":{
+            "original": "Add the status to",
+            "singular": "Agregar el estado a",
+            "plural": "Agregar el estado a",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "whichProfilesCanUse":{
+            "original": "Which profiles can use the status",
+            "singular": "Qué perfiles pueden usar el estado",
+            "plural": "Qué perfiles pueden usar el estado",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "price":{
+            "original": "Price",
+            "singular": "Precio",
+            "plural": "Precios",
+            "setupEdit": false,
+            "setupVisible": false
+          }
+        },
+        "messages":{
+          "addDescriptionForThis":"Agrega una descripción para esto",
+          "here":"aquí...",
+          "untitled":"Sin título",
+          "configureFieldsAppear":"Configura qué campos aparecen cuando los planificadores crean un",
+          "ofThis":"de este",
+          "toggleOptionsBelow":"Activa o desactiva las opciones de abajo y haz clic en la vista previa en vivo del formulario para ver actualizaciones al instante",
+          "decideIfThis":"Decide si este",
+          "alwaysInvolvesSpecific":"siempre involucra un",
+          "enable":"Habilitar",
+          "and":"y",
+          "trackingIfPlanners":"seguimiento si los planificadores deben capturarlos",
+          "ifThis":"si este",
+          "requiresBulkInstallations":"requiere instalaciones masivas",
+          "reviewLivePreview":"Revisa la vista previa en vivo y haz clic en el botón 'Guardar' para continuar",
+          "linkedToAn":"vinculado a un",
+          "turnOnIfWork":"Activa esta opción si el trabajo suele involucrar un equipo o activo específico. Déjala desactivada para trabajos generales como inspecciones del sitio o relevamientos.",
+          "workDoneFor":"Trabajo realizado para un",
+          "turnOnToSpecify":"Activa esta opción para especificar qué",
+          "workingForWhenCreating":"estás atendiendo al crear",
+          "doYouNeed":"¿Necesitas el",
+          "enableToRecord":"Habilita para registrar el/la",
+          "forEach":"para cada",
+          "willTheseJobsLink":"¿Estos trabajos se vincularán a un",
+          "turnOnIfGroupMultipleJobs":"Activa esta opción si agrupas varios trabajos. Podrás generar un resumen de todos los trabajos completados.",
+          "chooseWhatYourTeam":"Elige lo que tu equipo ve en el",
+          "formInWhatOrder":"formulario y en qué orden. Mantén solo lo necesario para que el formulario sea rápido y claro.",
+          "showTheSectionsNeed":"Muestra las secciones que necesitas",
+          "hideSectionsTeam":"Oculta las secciones que tu equipo no usa",
+          "orderTheseSections":"Ordena estas secciones para que el flujo te resulte natural",
+          "shownTo":"Mostrado a",
+          "whereJobHappensWhoToCall":"Dónde ocurre el trabajo y a quién llamar",
+          "whatsWrongHowFixed":"Qué está mal y cómo se corrige",
+          "stepsForTechnician":"Pasos para el técnico",
+          "usedForInstallationsRepairs":"usado para instalaciones o reparaciones",
+          "extraNotesFiles":"Notas y archivos adicionales",
+          "additional":"Adicional",
+          "information":"Información",
+          "plannersSee":"Esto es lo que verán los planificadores para este",
+          "addStatusesForThis":"Agrega estados para este",
+          "statusesControlLifecycle":"Los estados controlan el ciclo de vida que se muestra a planificadores y técnicos",
+          "addStatusWith":"Agrega un estado con Etiqueta, Código y Código de Color Hex (ejemplo: #4F46E5)",
+          "availableToggle":"Disponible: Activa los estados que quieras poner a disposición para este tipo",
+          "defaultSelectStatus":"Predeterminado: Selecciona un estado que será el predeterminado para los trabajos nuevos de este tipo",
+          "saveYourChanges":"Guarda tus cambios",
+          "newlyCreatedStatus":"Los estados recién creados serán visibles, pero no se establecerán como",
+          "defineDetailsOfThis":"Define los detalles de este",
+          "groupingReportingFiltering":"Agrupación para reportes y filtrado",
+          "nameShownTo":"Nombre mostrado a",
+          "shortUniqueIdentifier":"Identificador único corto utilizado por integraciones y automatizaciones",
+          "chooseWhereStatus":"Elige dónde aparece este estado",
+          "selectThe":"Selecciona el/la",
+          "whichWillUseThis":"que usará este estado",
+          "addStatusTo":"Agregar el estado a",
+          "thisStatusSelectable":"Este estado solo se podrá seleccionar para el/la",
+          "youInclude":"que incluyas",
+          "selectWhoCanUseStatus":"Selecciona quién puede usar este estado",
+          "whoCanSetStatus":"Quién puede establecer este estado en un",
+          "selectedProfilesCan":"Los perfiles seleccionados pueden usar este estado",
+          "enterStatusLabel":"Ingresa una etiqueta de estado...",
+          "enterStatusCode":"Ingresa un código de estado...",
+          "allowUserViewPriceOf":"Permitir que los usuarios vean el precio de",
+          "allowToSee":"Permitir ver",
+          "enableThisIfYou":"Habilita esto si deseas mostrar el precio de cada",
+          "createdUnderThisType":"creado bajo este tipo seguirá esta regla",
+          "is":"es"
+        },
+        "validationFE":{
+          "maximum80Chars":"Se excedió la longitud máxima de 80 caracteres",
+          "maximumCharsExceed":"Se excedió la longitud máxima de caracteres",
+          "noDefaultStatus":"No se encontró un estado predeterminado. Establece un estado como predeterminado.",
+          "systemStatusNotAllowedDelete":"No se permite eliminar estados del sistema. Puedes cambiar la etiqueta.",
+          "toDeleteStatus":"Para eliminar este estado, asegúrate de que esté desactivado en todos los"
         }
       }
     },
