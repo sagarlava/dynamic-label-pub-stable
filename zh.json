@@ -1204,7 +1204,8 @@
       "assetSubCategoryIdExists": "新资产子类别不能已经有ID",
       "assetParentInvalid":"所选父级已在资产层次结构中",
       "assetHasChildAssets": "此资产无法删除，因为它有依赖的子资产。请先解除它们的关联",
-      "assetHasBinTransfer": "此资产无法删除，因为它有依赖的仓位转移。请先解除关联。"
+      "assetHasBinTransfer": "此资产无法删除，因为它有依赖的仓位转移。请先解除关联。",
+      "assetHasJobOrder": "系统中已存在该资产的工单数据"
     },
     "tooltips": {
       "setupVisible": false,
@@ -12966,6 +12967,135 @@
       "viewAttachmentsOnDevices": "技术人员和计划人员可以立即在网页或移动端查看附件。",
       "improveTraceability": "提高可追溯性",
       "storeSupportingDocuments": "存储签署的表格、前后对比图像和支持性文档以供审计。"
+    }
+  },
+  "document": {
+    "setupEdit": false,
+    "setupVisible": false,
+    "label": {
+      "original": "Documents",
+      "singular": "文件",
+      "plural": "文件",
+      "setupEdit": false,
+      "setupVisible": false
+    },
+    "sections": {
+      "setupEdit": false,
+      "setupVisible": false,
+      "sec0": {
+        "original": "PDF",
+        "singular": "PDF",
+        "plural": "PDFs",
+        "setupEdit": true,
+        "setupVisible": false
+      }
+    },
+    "fields":{
+      "setupEdit": false,
+      "setupVisible": false,
+      "generatedOn": {
+        "original": "Generated On",
+        "singular": "生成时间",
+        "plural": "生成时间",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "version": {
+        "original": "Version",
+        "singular": "版本",
+        "plural": "版本",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "triggerStatus": {
+        "original": "Trigger Status",
+        "singular": "触发状态",
+        "plural": "触发状态",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "triggerType": {
+        "original": "Trigger Type",
+        "singular": "触发类型",
+        "plural": "触发类型",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "notes": {
+        "original": "Notes",
+        "singular": "备注",
+        "plural": "备注",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "assignTo": {
+        "singular": "分配给",
+        "plural": "分配给",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "to": {
+        "original": "To",
+        "singular": "收件人",
+        "plural": "收件人",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "cc": {
+        "original": "CC",
+        "singular": "抄送",
+        "plural": "抄送",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "email": {
+        "original": "Email",
+        "singular": "邮箱",
+        "plural": "邮箱",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "name": {
+        "original": "Name",
+        "singular": "姓名",
+        "plural": "姓名",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "recipient": {
+        "original": "Recipient",
+        "singular": "收件人",
+        "plural": "收件人",
+        "setupEdit": false,
+        "setupVisible": false
+      }
+    },
+    "messages": {
+      "selectTemplateToGenerate": "请选择要生成的模板",
+      "selectATemplate": "请选择模板",
+      "addNotesOptional": "添加备注（可选）",
+      "selectEmailRecipients": "选择邮件收件人",
+      "selectRecipientsHint": "选择此文件的收件人，可选择多个抄送",
+      "selectAContact": "选择联系人...",
+      "enterRecipientEmail": "输入收件人邮箱",
+      "enterCCEmails": "输入邮箱地址（最多2个，用逗号分隔）",
+      "ccHint": "用逗号分隔地址。最多2个。"
+    },
+    "validationFE": {
+      "sentSuccesfully": "发送成功",
+      "generatedSuccesfully": "生成成功",
+      "regeneratedSuccesfully": "重新生成成功",
+      "failedGenerate": "生成失败",
+      "failedRegenerate": "重新生成失败",
+      "failedSend": "发送失败",
+      "maxCCExceeded": "最多允许2个抄送地址。",
+      "invalidCCEmail": "一个或多个抄送地址无效。",
+      "noUrlAvailable": "没有可用的文件链接",
+      "filePathCopied": "文件路径已复制到剪贴板",
+      "recipientRequired": "收件人必填。",
+      "emailRequired": "邮箱必填。",
+      "invalidEmail": "请输入有效的邮箱地址。",
+      "isMissing": "缺失"
     }
   },
   "history": {

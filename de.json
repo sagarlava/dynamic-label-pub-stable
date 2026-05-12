@@ -1204,7 +1204,8 @@
       "assetSubCategoryIdExists": "Eine neue Asset-Unterkategorie darf keine ID haben",
       "assetParentInvalid":"Der gewählte übergeordnete Eintrag befindet sich bereits in der Anlagenhierarchie",
       "assetHasChildAssets": "Dieses Asset kann nicht gelöscht werden, da es abhängige untergeordnete Assets hat. Bitte trennen Sie diese zuerst",
-      "assetHasBinTransfer": "Dieses Asset kann nicht gelöscht werden, da es abhängige Umlagerungen hat. Bitte trennen Sie diese zuerst."
+      "assetHasBinTransfer": "Dieses Asset kann nicht gelöscht werden, da es abhängige Umlagerungen hat. Bitte trennen Sie diese zuerst.",
+      "assetHasJobOrder": "Auftragsdaten sind im System für die Assets vorhanden"
     },
     "tooltips": {
       "setupVisible": false,
@@ -12966,6 +12967,136 @@
       "viewAttachmentsOnDevices": "Techniker und Planer können Anhänge sofort im Web oder auf Mobilgeräten ansehen.",
       "improveTraceability": "Nachvollziehbarkeit verbessern",
       "storeSupportingDocuments": "Speichern Sie unterschriebene Formulare, Vorher/Nachher-Bilder und unterstützende Dokumente für Prüfungen."
+    }
+  },
+  "document": {
+    "setupEdit": false,
+    "setupVisible": false,
+    "label": {
+      "original": "Documents",
+      "singular": "Dokument",
+      "plural": "Dokumente",
+      "setupEdit": false,
+      "setupVisible": false
+    },
+    "sections": {
+      "setupEdit": false,
+      "setupVisible": false,
+      "sec0": {
+        "original": "PDF",
+        "singular": "PDF",
+        "plural": "PDFs",
+        "setupEdit": true,
+        "setupVisible": false
+      }
+    },
+    "fields": {
+      "setupEdit": false,
+      "setupVisible": false,
+      "generatedOn": {
+        "original": "Generated On",
+        "singular": "Erstellt am",
+        "plural": "Erstellt am",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "version": {
+        "original": "Version",
+        "singular": "Version",
+        "plural": "Versionen",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "triggerStatus": {
+        "original": "Trigger Status",
+        "singular": "Auslösestatus",
+        "plural": "Auslösestatus",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "triggerType": {
+        "original": "Trigger Type",
+        "singular": "Auslösertyp",
+        "plural": "Auslösertypen",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "notes": {
+        "original": "Notes",
+        "singular": "Notiz",
+        "plural": "Notizen",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "assignTo": {
+        "original": "Assign To",
+        "singular": "Zuweisen an",
+        "plural": "Zuweisen an",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "to": {
+        "original": "To",
+        "singular": "An",
+        "plural": "An",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "cc": {
+        "original": "CC",
+        "singular": "CC",
+        "plural": "CC",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "email": {
+        "original": "Email",
+        "singular": "E-Mail",
+        "plural": "E-Mails",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "name": {
+        "original": "Name",
+        "singular": "Name",
+        "plural": "Namen",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "recipient": {
+        "original": "Recipient",
+        "singular": "Empfänger",
+        "plural": "Empfänger",
+        "setupEdit": false,
+        "setupVisible": false
+      }
+    },
+    "messages": {
+      "selectTemplateToGenerate": "Wählen Sie die zu generierende Vorlage aus",
+      "selectATemplate": "Vorlage auswählen",
+      "addNotesOptional": "Notizen hinzufügen (optional)",
+      "selectEmailRecipients": "E-Mail-Empfänger auswählen",
+      "selectRecipientsHint": "Wählen Sie die Empfänger dieser Datei aus. Sie können mehrere CC-Werte auswählen",
+      "selectAContact": "Kontakt auswählen...",
+      "enterRecipientEmail": "Empfänger-E-Mail eingeben",
+      "enterCCEmails": "E-Mail-Adressen eingeben (max. 2, kommagetrennt)",
+      "ccHint": "Adressen mit Kommas trennen. Max. 2."
+    },
+    "validationFE": {
+      "sentSuccesfully": "erfolgreich gesendet",
+      "generatedSuccesfully": "erfolgreich generiert",
+      "regeneratedSuccesfully": "erfolgreich neu generiert",
+      "failedGenerate": "Generierung fehlgeschlagen",
+      "failedRegenerate": "Neugenerierung fehlgeschlagen",
+      "failedSend": "Senden fehlgeschlagen",
+      "maxCCExceeded": "Maximal 2 CC-Adressen erlaubt.",
+      "invalidCCEmail": "Eine oder mehrere CC-Adressen sind ungültig.",
+      "noUrlAvailable": "Keine Datei-URL verfügbar für dieses",
+      "filePathCopied": "Dateipfad in die Zwischenablage kopiert",
+      "recipientRequired": "Empfänger ist erforderlich.",
+      "emailRequired": "E-Mail ist erforderlich.",
+      "invalidEmail": "Bitte geben Sie eine gültige E-Mail-Adresse ein.",
+      "isMissing": "ist nicht vorhanden"
     }
   },
   "history": {

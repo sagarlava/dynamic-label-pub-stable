@@ -1204,7 +1204,8 @@
       "assetSubCategoryCannotDeleteByAssets":"Unable to delete: Asset Sub Category is used in one or more Assets",
       "assetParentInvalid":"The chosen parent is already in the asset hierarchy",
       "assetHasChildAssets": "This asset cannot be deleted because it has dependent child assets. Please unlink them first",
-      "assetHasBinTransfer": "This asset cannot be deleted because it has dependent bin transfers. Please unlink them first"
+      "assetHasBinTransfer": "This asset cannot be deleted because it has dependent bin transfers. Please unlink them first",
+      "assetHasJobOrder": "Job Order Data exists in the system for the Assets"
     },
     "tooltips": {
       "setupVisible": false,
@@ -12967,6 +12968,136 @@
       "viewAttachmentsOnDevices": "Technicians and planners can view attachments on web or mobile instantly.",
       "improveTraceability": "Improve Traceability",
       "storeSupportingDocuments": "Store signed forms, before/after images, and supporting documents for audits."
+    }
+  },
+  "document": {
+    "setupEdit": false,
+    "setupVisible": false,
+    "label": {
+      "original": "Documents",
+      "singular": "Document",
+      "plural": "Documents",
+      "setupEdit": false,
+      "setupVisible": false
+    },
+    "sections": {
+      "setupEdit": false,
+      "setupVisible": false,
+      "sec0": {
+        "original": "PDF",
+        "singular": "PDF",
+        "plural": "PDFs",
+        "setupEdit": true,
+        "setupVisible": false
+      }
+    },
+    "fields":{
+      "setupEdit": false,
+      "setupVisible": false,
+      "generatedOn": {
+        "original": "Generated On",
+        "singular": "Generated On",
+        "plural": "Generated On",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "version": {
+        "original": "Version",
+        "singular": "Version",
+        "plural": "Versions",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "triggerStatus": {
+        "original": "Trigger Status",
+        "singular": "Trigger Status",
+        "plural": "Trigger Statuses",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "triggerType": {
+        "original": "Trigger Type",
+        "singular": "Trigger Type",
+        "plural": "Trigger Types",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "notes": {
+        "original": "Notes",
+        "singular": "Note",
+        "plural": "Notes",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "assignTo": {
+        "original": "Assign To",
+        "singular": "Assign To",
+        "plural": "Assign To",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "to": {
+        "original": "To",
+        "singular": "To",
+        "plural": "To",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "cc": {
+        "original": "CC",
+        "singular": "CC",
+        "plural": "CC",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "email": {
+        "original": "Email",
+        "singular": "Email",
+        "plural": "Emails",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "name": {
+        "original": "Name",
+        "singular": "Name",
+        "plural": "Names",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "recipient": {
+        "original": "Recipient",
+        "singular": "Recipient",
+        "plural": "Recipients",
+        "setupEdit": false,
+        "setupVisible": false
+      }
+    },
+    "messages":{
+      "selectTemplateToGenerate": "Select the template to be generated",
+      "selectATemplate": "Select a template",
+      "addNotesOptional": "Add notes (optional)",
+      "selectEmailRecipients": "Select Email Recipients",
+      "selectRecipientsHint": "Select the recipients of this file, you may select multiple cc values",
+      "selectAContact": "Select a contact...",
+      "enterRecipientEmail": "Enter recipient email",
+      "enterCCEmails": "Enter email addresses (max 2, comma separated)",
+      "ccHint": "Separate addresses with commas. Max 2."
+    },
+    "validationFE":{
+      "sentSuccesfully":"sent successfully",
+      "generatedSuccesfully":"generated successfully",
+      "regeneratedSuccesfully":"regenerated successfully",
+      "failedGenerate":"Failed to generate",
+      "failedRegenerate":"Failed to regenerate",
+      "failedSend":"Failed to send",
+      "maxCCExceeded": "Maximum 2 CC addresses allowed.",
+      "invalidCCEmail": "One or more CC addresses are invalid.",
+      "noUrlAvailable":"No file URL available for this",
+      "filePathCopied":"File path copied to clipboard",
+      "recipientRequired": "Recipient is required.",
+      "emailRequired": "Email is required.",
+      "invalidEmail": "Please enter a valid email address.",
+      "isMissing":"is missing"
     }
   },
   "history": {

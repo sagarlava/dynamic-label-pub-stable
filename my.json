@@ -1204,7 +1204,8 @@
       "assetSubCategoryIdExists": "Subkategori Aset baharu tidak boleh sudah mempunyai ID",
       "assetParentInvalid":"Induk yang dipilih sudah berada dalam hierarki aset",
       "assetHasChildAssets": "Aset ini tidak boleh dipadam kerana ia mempunyai aset anak bergantung. Sila putuskan hubungan mereka terlebih dahulu",
-      "assetHasBinTransfer": "Aset ini tidak boleh dipadam kerana ia mempunyai pemindahan bin yang bergantung. Sila nyahpautkannya terlebih dahulu."
+      "assetHasBinTransfer": "Aset ini tidak boleh dipadam kerana ia mempunyai pemindahan bin yang bergantung. Sila nyahpautkannya terlebih dahulu.",
+      "assetHasJobOrder": "Data Pesanan Kerja wujud dalam sistem untuk aset"
     },
     "tooltips": {
       "setupVisible": false,
@@ -12967,6 +12968,136 @@
       "viewAttachmentsOnDevices": "Juruteknik dan perancang boleh melihat lampiran di web atau mudah alih serta-merta.",
       "improveTraceability": "Tingkatkan Kebolehjejakkan",
       "storeSupportingDocuments": "Simpan borang ditandatangani, imej sebelum/selepas, dan dokumen sokongan untuk audit."
+    }
+  },
+  "document": {
+    "setupEdit": false,
+    "setupVisible": false,
+    "label": {
+      "original": "Documents",
+      "singular": "Dokumen",
+      "plural": "Dokumen",
+      "setupEdit": false,
+      "setupVisible": false
+    },
+    "sections": {
+      "setupEdit": false,
+      "setupVisible": false,
+      "sec0": {
+        "original": "PDF",
+        "singular": "PDF",
+        "plural": "PDF",
+        "setupEdit": true,
+        "setupVisible": false
+      }
+    },
+    "fields": {
+      "setupEdit": false,
+      "setupVisible": false,
+      "generatedOn": {
+        "original": "Generated On",
+        "singular": "Dijana Pada",
+        "plural": "Dijana Pada",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "version": {
+        "original": "Version",
+        "singular": "Versi",
+        "plural": "Versi",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "triggerStatus": {
+        "original": "Trigger Status",
+        "singular": "Status Pencetus",
+        "plural": "Status Pencetus",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "triggerType": {
+        "original": "Trigger Type",
+        "singular": "Jenis Pencetus",
+        "plural": "Jenis Pencetus",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "notes": {
+        "original": "Notes",
+        "singular": "Nota",
+        "plural": "Nota",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "assignTo": {
+        "original": "Assign To",
+        "singular": "Tugaskan Kepada",
+        "plural": "Tugaskan Kepada",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "to": {
+        "original": "To",
+        "singular": "Kepada",
+        "plural": "Kepada",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "cc": {
+        "original": "CC",
+        "singular": "CC",
+        "plural": "CC",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "email": {
+        "original": "Email",
+        "singular": "Emel",
+        "plural": "Emel",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "name": {
+        "original": "Name",
+        "singular": "Nama",
+        "plural": "Nama",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "recipient": {
+        "original": "Recipient",
+        "singular": "Penerima",
+        "plural": "Penerima",
+        "setupEdit": false,
+        "setupVisible": false
+      }
+    },
+    "messages": {
+      "selectTemplateToGenerate": "Pilih templat untuk dijana",
+      "selectATemplate": "Pilih templat",
+      "addNotesOptional": "Tambah nota (pilihan)",
+      "selectEmailRecipients": "Pilih Penerima Emel",
+      "selectRecipientsHint": "Pilih penerima fail ini, anda boleh pilih beberapa nilai cc",
+      "selectAContact": "Pilih kenalan...",
+      "enterRecipientEmail": "Masukkan emel penerima",
+      "enterCCEmails": "Masukkan alamat emel (maks 2, dipisahkan dengan koma)",
+      "ccHint": "Pisahkan alamat dengan koma. Maksimum 2."
+    },
+    "validationFE": {
+      "sentSuccesfully": "berjaya dihantar",
+      "generatedSuccesfully": "berjaya dijana",
+      "regeneratedSuccesfully": "berjaya dijana semula",
+      "failedGenerate": "Gagal menjana",
+      "failedRegenerate": "Gagal menjana semula",
+      "failedSend": "Gagal menghantar",
+      "maxCCExceeded": "Maksimum 2 alamat CC dibenarkan.",
+      "invalidCCEmail": "Satu atau lebih alamat CC tidak sah.",
+      "noUrlAvailable": "Tiada URL fail tersedia untuk ini",
+      "filePathCopied": "Laluan fail disalin ke papan klip",
+      "recipientRequired": "Penerima diperlukan.",
+      "emailRequired": "Emel diperlukan.",
+      "invalidEmail": "Sila masukkan alamat emel yang sah.",
+      "isMissing": "hilang"
     }
   },
   "history": {
