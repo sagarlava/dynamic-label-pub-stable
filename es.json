@@ -12637,6 +12637,135 @@
       "onlyAcceptImagesExt": "Solo se aceptan JPG, JPEG y PNG"
     }
   },
+  "document": {
+    "setupEdit": false,
+    "setupVisible": false,
+    "label": {
+      "original": "Documents",
+      "singular": "Documento",
+      "plural": "Documentos",
+      "setupEdit": false,
+      "setupVisible": false
+    },
+    "sections": {
+      "setupEdit": false,
+      "setupVisible": false,
+      "sec0": {
+        "original": "PDF",
+        "singular": "PDF",
+        "plural": "PDFs",
+        "setupEdit": true,
+        "setupVisible": false
+      }
+    },
+    "fields": {
+      "setupEdit": false,
+      "setupVisible": false,
+      "generatedOn": {
+        "original": "Generated On",
+        "singular": "Generado el",
+        "plural": "Generado el",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "version": {
+        "original": "Version",
+        "singular": "Versión",
+        "plural": "Versiones",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "triggerStatus": {
+        "original": "Trigger Status",
+        "singular": "Estado de activación",
+        "plural": "Estados de activación",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "triggerType": {
+        "original": "Trigger Type",
+        "singular": "Tipo de activación",
+        "plural": "Tipos de activación",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "notes": {
+        "original": "Notes",
+        "singular": "Nota",
+        "plural": "Notas",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "assignTo": {
+        "original": "Assign To",
+        "singular": "Asignar a",
+        "plural": "Asignar a",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "to": {
+        "original": "To",
+        "singular": "Para",
+        "plural": "Para",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "cc": {
+        "original": "CC",
+        "singular": "CC",
+        "plural": "CC",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "email": {
+        "original": "Email",
+        "singular": "Correo electrónico",
+        "plural": "Correos electrónicos",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "name": {
+        "original": "Name",
+        "singular": "Nombre",
+        "plural": "Nombres",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "recipient": {
+        "original": "Recipient",
+        "singular": "Destinatario",
+        "plural": "Destinatarios",
+        "setupEdit": false,
+        "setupVisible": false
+      }
+    },
+    "messages": {
+      "selectTemplateToGenerate": "Seleccione la plantilla a generar",
+      "selectATemplate": "Seleccionar una plantilla",
+      "addNotesOptional": "Agregar notas (opcional)",
+      "selectEmailRecipients": "Seleccionar destinatarios de correo",
+      "selectRecipientsHint": "Seleccione los destinatarios de este archivo, puede seleccionar múltiples valores en CC",
+      "selectAContact": "Seleccionar un contacto...",
+      "enterRecipientEmail": "Ingresar correo del destinatario",
+      "enterCCEmails": "Ingresar direcciones de correo (máx. 2, separadas por coma)",
+      "ccHint": "Separe las direcciones con comas. Máx. 2."
+    },
+    "validationFE": {
+      "sentSuccesfully": "enviado correctamente",
+      "generatedSuccesfully": "generado correctamente",
+      "regeneratedSuccesfully": "regenerado correctamente",
+      "failedGenerate": "Error al generar",
+      "failedRegenerate": "Error al regenerar",
+      "failedSend": "Error al enviar",
+      "maxCCExceeded": "Se permiten máximo 2 direcciones CC.",
+      "invalidCCEmail": "Una o más direcciones CC no son válidas.",
+      "noUrlAvailable": "No hay URL de archivo disponible para este",
+      "filePathCopied": "Ruta del archivo copiada al portapapeles",
+      "recipientRequired": "El destinatario es obligatorio.",
+      "emailRequired": "El correo electrónico es obligatorio.",
+      "invalidEmail": "Por favor ingrese una dirección de correo válida."
+    }
+  },
   "history": {
     "setupEdit": false,
     "setupVisible": false,
