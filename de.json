@@ -12745,6 +12745,13 @@
         "plural": "Empfänger",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "auditTrail": {
+        "original": "Audit Trail",
+        "singular": "Prüfpfad",
+        "plural": "Prüfpfade",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "messages": {
@@ -12756,7 +12763,9 @@
       "selectAContact": "Empfänger auswählen",
       "enterRecipientEmail": "Empfänger-E-Mail eingeben",
       "enterCCEmails": "E-Mail-Adressen eingeben",
-      "ccHint": "Adressen mit Kommas trennen. Max. 2."
+      "ccHint": "Adressen mit Kommas trennen. Maximal 2.",
+      "generateNewVersion": "Diese Aktion generiert eine neue Version dieses Dokuments mit aktualisierten Informationen.",
+      "storedOnServer": "Im Server-Dateisystem gespeichert"
     },
     "validationFE": {
       "sentSuccesfully": "erfolgreich gesendet",
@@ -12772,7 +12781,10 @@
       "recipientRequired": "Empfänger ist erforderlich.",
       "emailRequired": "E-Mail ist erforderlich.",
       "invalidEmail": "Bitte geben Sie eine gültige E-Mail-Adresse ein.",
-      "isMissing": "ist nicht vorhanden"
+      "isMissing": "ist nicht vorhanden",
+      "noFileUrlAvailable": "Keine Datei-URL für dieses PDF verfügbar",
+      "browsersCannotPreview": "Browser können lokale Pfade nicht in der Vorschau anzeigen",
+      "noAuditTrail": "Kein Prüfpfad verfügbar"
     }
   },
   "history": {

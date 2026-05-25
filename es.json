@@ -12745,6 +12745,13 @@
         "plural": "Destinatarios",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "auditTrail": {
+        "original": "Audit Trail",
+        "singular": "Registro de auditoría",
+        "plural": "Registros de auditoría",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "messages": {
@@ -12752,11 +12759,13 @@
       "selectATemplate": "Seleccionar una plantilla",
       "addNotesOptional": "Agregar notas (opcional)",
       "selectEmailRecipients": "Seleccionar destinatarios de correo",
-      "selectRecipientsHint": "Seleccione los destinatarios de este archivo, puede ingresar varios valores de cc",
+      "selectRecipientsHint": "Seleccione los destinatarios de este archivo, puede ingresar múltiples valores en CC",
       "selectAContact": "Seleccionar un destinatario",
       "enterRecipientEmail": "Ingresar correo del destinatario",
       "enterCCEmails": "Ingresar direcciones de correo",
-      "ccHint": "Separe las direcciones con comas. Máx. 2."
+      "ccHint": "Separe las direcciones con comas. Máximo 2.",
+      "generateNewVersion": "Esta acción generará una nueva versión de este documento con información actualizada.",
+      "storedOnServer": "Almacenado en el sistema de archivos del servidor"
     },
     "validationFE": {
       "sentSuccesfully": "enviado correctamente",
@@ -12772,7 +12781,10 @@
       "recipientRequired": "El destinatario es obligatorio.",
       "emailRequired": "El correo electrónico es obligatorio.",
       "invalidEmail": "Por favor ingrese una dirección de correo válida.",
-      "isMissing": "falta"
+      "isMissing": "falta",
+      "noFileUrlAvailable": "No hay URL de archivo disponible para este PDF",
+      "browsersCannotPreview": "Los navegadores no pueden previsualizar rutas locales",
+      "noAuditTrail": "No hay registro de auditoría disponible"
     }
   },
   "history": {
