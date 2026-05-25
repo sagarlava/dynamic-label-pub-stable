@@ -9530,7 +9530,15 @@
       "jobOrderProductStatusIdNotFound": "ID no encontrado",
       "slaJobOrderIdExists": "Una nueva Orden de Trabajo SLA no puede ya tener un ID",
       "jobOrderPriceBookNotFound": "Libro de precios no encontrado",
-      "mandatoryTasksNotCompleted": "Una o más tareas obligatorias aún no se han completado. Complételas antes de completar esta orden de trabajo."
+      "mandatoryTasksNotCompleted": "Una o más tareas obligatorias aún no se han completado. Complételas antes de completar esta orden de trabajo.",
+      "pdfTemplateNotFound": "Plantilla PDF no encontrada",
+      "pdfTemplateSettingMissing": "La plantilla PDF no tiene configuración",
+      "pdfTemplateNotActive": "La plantilla PDF no está activa",
+      "noValidTrigger": "No se encontró un desencadenador válido para la orden de trabajo",
+      "pdfTemplateNameRequired": "El nombre de la plantilla es obligatorio",
+      "pdfTemplateTriggerRequired": "Se requiere al menos un desencadenador",
+      "pdfTemplateNameTooLong": "El nombre de la plantilla supera la longitud máxima de 255 caracteres",
+      "pdfTemplateNamePatternMissing": "El patrón del nombre PDF generado no está configurado"
     },
     "tooltips": {
       "setupVisible": false,

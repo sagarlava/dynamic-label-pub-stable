@@ -9531,7 +9531,15 @@
       "jobOrderProductStatusIdNotFound": "ID tidak dijumpai",
       "slaJobOrderIdExists": "Pesanan Kerja SLA baru tidak boleh sudah mempunyai ID",
       "jobOrderPriceBookNotFound": "Buku Harga tidak dijumpai",
-      "mandatoryTasksNotCompleted" : "Satu atau lebih tugas mandatori masih belum diselesaikan. Selesaikan sebelum menyelesaikan pesanan kerja ini."
+      "mandatoryTasksNotCompleted" : "Satu atau lebih tugas mandatori masih belum diselesaikan. Selesaikan sebelum menyelesaikan pesanan kerja ini.",
+      "pdfTemplateNotFound": "Templat PDF tidak dijumpai",
+      "pdfTemplateSettingMissing": "Templat PDF tiada tetapan",
+      "pdfTemplateNotActive": "Templat PDF tidak aktif",
+      "noValidTrigger": "Tiada pencetus yang sah dijumpai untuk Job Order",
+      "pdfTemplateNameRequired": "Nama templat diperlukan",
+      "pdfTemplateTriggerRequired": "Sekurang-kurangnya satu pencetus diperlukan",
+      "pdfTemplateNameTooLong": "Nama templat melebihi panjang maksimum 255 aksara",
+      "pdfTemplateNamePatternMissing": "Corak nama PDF yang dijana belum dikonfigurasi"
     },
     "tooltips": {
       "setupVisible": false,
