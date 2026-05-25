@@ -9530,7 +9530,15 @@
       "jobOrderProductStatusIdNotFound": "ID nicht gefunden",
       "slaJobOrderIdExists": "Ein neuer SLA-Arbeitsauftrag kann nicht bereits eine ID haben",
       "jobOrderPriceBookNotFound": "Price Book nicht gefunden",
-      "mandatoryTasksNotCompleted": "Ein oder mehrere Pflichtaufgaben sind noch nicht abgeschlossen. Schließen Sie diese ab, bevor Sie diesen Arbeitsauftrag abschließen."
+      "mandatoryTasksNotCompleted": "Ein oder mehrere Pflichtaufgaben sind noch nicht abgeschlossen. Schließen Sie diese ab, bevor Sie diesen Arbeitsauftrag abschließen.",
+      "pdfTemplateNotFound": "PDF-Vorlage nicht gefunden",
+      "pdfTemplateSettingMissing": "PDF-Vorlage hat keine Einstellungen",
+      "pdfTemplateNotActive": "PDF-Vorlage ist nicht aktiv",
+      "noValidTrigger": "Kein gültiger Auslöser für den Arbeitsauftrag gefunden",
+      "pdfTemplateNameRequired": "Vorlagenname ist erforderlich",
+      "pdfTemplateTriggerRequired": "Mindestens ein Auslöser ist erforderlich",
+      "pdfTemplateNameTooLong": "Der Vorlagenname überschreitet die maximale Länge von 255 Zeichen",
+      "pdfTemplateNamePatternMissing": "Muster für den generierten PDF-Namen ist nicht konfiguriert"
     },
     "tooltips": {
       "setupVisible": false,

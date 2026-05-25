@@ -9531,7 +9531,15 @@
       "jobOrderProductStatusIdNotFound": "Id not found",
       "slaJobOrderIdExists": "A new Sla Job Order cannot already have an ID",
       "jobOrderPriceBookNotFound": "Price Book not found",
-      "mandatoryTasksNotCompleted": "One or more mandatory tasks have still not been completed. Complete them before completing this job order."
+      "mandatoryTasksNotCompleted": "One or more mandatory tasks have still not been completed. Complete them before completing this job order.",
+      "pdfTemplateNotFound": "PDF Template not found",
+      "pdfTemplateSettingMissing": "PDF Template has no settings",
+      "pdfTemplateNotActive": "PDF Template is not active",
+      "noValidTrigger": "No valid trigger found for Job Order",
+      "pdfTemplateNameRequired": "Template name is required",
+      "pdfTemplateTriggerRequired": "At least one trigger is required",
+      "pdfTemplateNameTooLong": "Template name exceeds maximum length of 255 characters",
+      "pdfTemplateNamePatternMissing": "Generated PDF Name pattern is not configured"
     },
     "tooltips": {
       "setupVisible": false,
