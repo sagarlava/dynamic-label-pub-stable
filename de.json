@@ -9741,7 +9741,15 @@
       "slaJobOrderIdExists": "Ein neuer SLA-Arbeitsauftrag kann nicht bereits eine ID haben",
       "jobOrderPriceBookNotFound": "Price Book nicht gefunden",
       "mandatoryTasksNotCompleted": "Ein oder mehrere Pflichtaufgaben sind noch nicht abgeschlossen. Schließen Sie diese ab, bevor Sie diesen Arbeitsauftrag abschließen.",
-      "assetHasJobOrder": "Auftragsdaten sind im System für die Assets vorhanden"
+      "assetHasJobOrder": "Auftragsdaten sind im System für die Assets vorhanden",
+      "pdfTemplateNotFound": "PDF-Vorlage nicht gefunden",
+      "pdfTemplateSettingMissing": "PDF-Vorlage hat keine Einstellungen",
+      "pdfTemplateNotActive": "PDF-Vorlage ist nicht aktiv",
+      "noValidTrigger": "Kein gültiger Auslöser für den Arbeitsauftrag gefunden",
+      "pdfTemplateNameRequired": "Vorlagenname ist erforderlich",
+      "pdfTemplateTriggerRequired": "Mindestens ein Auslöser ist erforderlich",
+      "pdfTemplateNameTooLong": "Der Vorlagenname überschreitet die maximale Länge von 255 Zeichen",
+      "pdfTemplateNamePatternMissing": "Muster für den generierten PDF-Namen ist nicht konfiguriert"
     },
     "tooltips": {
       "setupVisible": false,
@@ -13069,6 +13077,13 @@
         "plural": "Empfänger",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "auditTrail": {
+        "original": "Audit Trail",
+        "singular": "Prüfpfad",
+        "plural": "Prüfpfade",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "messages": {
@@ -13076,11 +13091,13 @@
       "selectATemplate": "Vorlage auswählen",
       "addNotesOptional": "Notizen hinzufügen (optional)",
       "selectEmailRecipients": "E-Mail-Empfänger auswählen",
-      "selectRecipientsHint": "Wählen Sie die Empfänger dieser Datei aus. Sie können mehrere CC-Werte auswählen",
-      "selectAContact": "Kontakt auswählen...",
+      "selectRecipientsHint": "Wählen Sie die Empfänger dieser Datei aus. Sie können mehrere CC-Werte eingeben",
+      "selectAContact": "Empfänger auswählen",
       "enterRecipientEmail": "Empfänger-E-Mail eingeben",
-      "enterCCEmails": "E-Mail-Adressen eingeben (max. 2, kommagetrennt)",
-      "ccHint": "Adressen mit Kommas trennen. Max. 2."
+      "enterCCEmails": "E-Mail-Adressen eingeben",
+      "ccHint": "Adressen mit Kommas trennen. Maximal 2.",
+      "generateNewVersion": "Diese Aktion generiert eine neue Version dieses Dokuments mit aktualisierten Informationen.",
+      "storedOnServer": "Im Server-Dateisystem gespeichert"
     },
     "validationFE": {
       "sentSuccesfully": "erfolgreich gesendet",
@@ -13096,7 +13113,10 @@
       "recipientRequired": "Empfänger ist erforderlich.",
       "emailRequired": "E-Mail ist erforderlich.",
       "invalidEmail": "Bitte geben Sie eine gültige E-Mail-Adresse ein.",
-      "isMissing": "ist nicht vorhanden"
+      "isMissing": "ist nicht vorhanden",
+      "noFileUrlAvailable": "Keine Datei-URL für dieses PDF verfügbar",
+      "browsersCannotPreview": "Browser können lokale Pfade nicht in der Vorschau anzeigen",
+      "noAuditTrail": "Kein Prüfpfad verfügbar"
     }
   },
   "history": {
