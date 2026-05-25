@@ -12745,11 +12745,11 @@
       "selectATemplate": "Select a template",
       "addNotesOptional": "Add notes (optional)",
       "selectEmailRecipients": "Select Email Recipients",
-      "selectRecipientsHint": "Select the recipients of this file, you may select multiple cc values",
-      "selectAContact": "Select a contact...",
+      "selectRecipientsHint": "Select the recipients of this file, you may enter multiple cc values",
+      "selectAContact": "Select a recipient",
       "enterRecipientEmail": "Enter recipient email",
-      "enterCCEmails": "Enter email addresses (max 2, comma separated)",
-      "ccHint": "Separate addresses with commas. Max 2."
+      "enterCCEmails": "Enter email addresses",
+      "ccHint": "Separate addresses with commas. Maximum 2."
     },
     "validationFE":{
       "sentSuccesfully":"sent successfully",

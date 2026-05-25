@@ -12744,10 +12744,10 @@
       "selectATemplate": "Vorlage auswählen",
       "addNotesOptional": "Notizen hinzufügen (optional)",
       "selectEmailRecipients": "E-Mail-Empfänger auswählen",
-      "selectRecipientsHint": "Wählen Sie die Empfänger dieser Datei aus. Sie können mehrere CC-Werte auswählen",
-      "selectAContact": "Kontakt auswählen...",
+      "selectRecipientsHint": "Wählen Sie die Empfänger dieser Datei aus. Sie können mehrere CC-Werte eingeben",
+      "selectAContact": "Empfänger auswählen",
       "enterRecipientEmail": "Empfänger-E-Mail eingeben",
-      "enterCCEmails": "E-Mail-Adressen eingeben (max. 2, kommagetrennt)",
+      "enterCCEmails": "E-Mail-Adressen eingeben",
       "ccHint": "Adressen mit Kommas trennen. Max. 2."
     },
     "validationFE": {
