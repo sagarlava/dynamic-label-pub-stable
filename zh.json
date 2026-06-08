@@ -24759,6 +24759,99 @@
           "systemStatusNotAllowedDelete":"系统状态不可删除。你可以修改其标签。",
           "toDeleteStatus":"要删除此状态，请确保它在所有以下项目中已关闭"
         }
+      },
+      "procedure": {
+        "setupEdit": false,
+        "setupVisible": false,
+        "label": {
+          "original": "Procedures",
+          "singular": "程序",
+          "plural": "程序",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "sections": {
+          "setupEdit": false,
+          "setupVisible": false,
+          "sec0": {
+            "original": "General Details",
+            "singular": "一般详情",
+            "plural": "一般详情",
+            "setupEdit": false,
+            "setupVisible": false
+          }
+        },
+        "fields": {
+          "setupEdit": false,
+          "setupVisible": false,
+          "name": {
+            "original": "Name",
+            "singular": "名称",
+            "plural": "名称",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "description": {
+            "original": "Description",
+            "singular": "描述",
+            "plural": "描述",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "status": {
+            "original": "Status",
+            "singular": "状态",
+            "plural": "状态",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "color": {
+            "original": "Color",
+            "singular": "颜色",
+            "plural": "颜色",
+            "setupEdit": false,
+            "setupVisible": false
+          }
+        },
+        "messages": {
+          "confirmDeleteProcedure": "您确定要删除此程序吗？此操作无法撤销。",
+          "groupOf": "是",
+          "regularBasis": "的组，您定期执行",
+          "createUse": "您可以创建和使用",
+          "for": "用于",
+          "to": "到",
+          "whereSame": "其中相同的",
+          "needToBeDone": "每次都需要完成",
+          "groupsOf": "是",
+          "performRegularly": "的组，您定期执行。使用",
+          "whenSameTasks": "当相同的",
+          "listThe": "您可以列出",
+          "mustFollowOrder": "必须按顺序",
+          "inOrder": "按顺序，并开启",
+          "ifTheyShouldDone": "如果它们需要依次完成。",
+          "usingSearchBox": "使用搜索框；添加后，您的选择将显示在下方表格中。",
+          "reorder": "重新排列",
+          "withHandles": "使用手柄。",
+          "atTopAppearFirst": "顶部的将首先显示。",
+          "setTheSlider": "将滑块设置为 '启用' 以强制执行",
+          "orderTurnOff": "顺序；关闭以允许任意顺序。",
+          "mandatory": "必填",
+          "tick": "勾选",
+          "completedBefore": "表示在关闭之前必须完成的步骤",
+          "savingMakes": "保存后，此",
+          "availablePlanners": "将可供计划人员和技术人员使用。编辑",
+          "willNotDelete": "不会从您的库中删除",
+          "fromLibrary": "或更改过去的",
+          "pastJobData": "数据。",
+          "no": "无",
+          "hasBeenSelected": "已被选择",
+          "pleaseSelect": "请选择",
+          "ifSelected": "如果选中",
+          "inThe": "在",
+          "mustBeFinished": "必须按顺序完成",
+          "each": "每个",
+          "markedComplete": "必须标记为完成，才能开始下一个。"
+        }
       }
     },
     "checklist": {

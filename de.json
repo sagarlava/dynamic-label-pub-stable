@@ -24759,6 +24759,99 @@
           "systemStatusNotAllowedDelete":"Systemstatus können nicht gelöscht werden. Sie können die Bezeichnung ändern.",
           "toDeleteStatus":"Um diesen Status zu löschen, stellen Sie sicher, dass er in allen folgenden deaktiviert ist"
         }
+      },
+      "procedure": {
+        "setupEdit": false,
+        "setupVisible": false,
+        "label": {
+          "original": "Procedures",
+          "singular": "Verfahren",
+          "plural": "Verfahren",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "sections": {
+          "setupEdit": false,
+          "setupVisible": false,
+          "sec0": {
+            "original": "General Details",
+            "singular": "Allgemeine Details",
+            "plural": "Allgemeine Details",
+            "setupEdit": false,
+            "setupVisible": false
+          }
+        },
+        "fields": {
+          "setupEdit": false,
+          "setupVisible": false,
+          "name": {
+            "original": "Name",
+            "singular": "Name",
+            "plural": "Name",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "description": {
+            "original": "Description",
+            "singular": "Beschreibung",
+            "plural": "Beschreibung",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "status": {
+            "original": "Status",
+            "singular": "Status",
+            "plural": "Status",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "color": {
+            "original": "Color",
+            "singular": "Farbe",
+            "plural": "Farbe",
+            "setupEdit": false,
+            "setupVisible": false
+          }
+        },
+        "messages": {
+          "confirmDeleteProcedure": "Sind Sie sicher, dass Sie dieses Verfahren löschen möchten? Diese Aktion kann nicht rückgängig gemacht werden.",
+          "groupOf": "sind Gruppen von",
+          "regularBasis": "die Sie regelmäßig ausführen",
+          "createUse": "Sie können erstellen und verwenden",
+          "for": "für",
+          "to": "zu",
+          "whereSame": "wo die gleichen",
+          "needToBeDone": "jedes Mal erledigt werden müssen",
+          "groupsOf": "sind Gruppen von",
+          "performRegularly": "die Sie regelmäßig ausführen. Verwenden Sie ein",
+          "whenSameTasks": "wenn die gleichen",
+          "listThe": "Sie können die",
+          "mustFollowOrder": "Reihenfolge einhalten",
+          "inOrder": "in einer Reihenfolge auflisten und aktivieren",
+          "ifTheyShouldDone": "wenn sie nacheinander erledigt werden sollen.",
+          "usingSearchBox": "über das Suchfeld hinzu; nach dem Hinzufügen wird Ihre Auswahl in der Tabelle unten angezeigt.",
+          "reorder": "Ordnen Sie die",
+          "withHandles": "mit den Griffen neu an.",
+          "atTopAppearFirst": "oben werden zuerst angezeigt.",
+          "setTheSlider": "Stellen Sie den Schieberegler auf 'aktiviert', um die",
+          "orderTurnOff": "Reihenfolge durchzusetzen; deaktivieren Sie ihn für eine beliebige Reihenfolge.",
+          "mandatory": "Pflichtfeld",
+          "tick": "Aktivieren Sie",
+          "completedBefore": "für Schritte, die abgeschlossen sein müssen, bevor ein",
+          "savingMakes": "Durch das Speichern wird dieses",
+          "availablePlanners": "für Planer und Techniker verfügbar. Das Bearbeiten eines",
+          "willNotDelete": "hier löscht keine",
+          "fromLibrary": "aus Ihrer Bibliothek oder ändert vergangene",
+          "pastJobData": "Daten.",
+          "no": "Kein",
+          "hasBeenSelected": "wurde ausgewählt",
+          "pleaseSelect": "Bitte auswählen",
+          "ifSelected": "Wenn ausgewählt",
+          "inThe": "im",
+          "mustBeFinished": "müssen der Reihe nach abgeschlossen werden",
+          "each": "Jede",
+          "markedComplete": "muss als abgeschlossen markiert werden, bevor die nächste gestartet werden kann."
+        }
       }
     },
     "checklist": {

@@ -24759,6 +24759,99 @@
           "systemStatusNotAllowedDelete":"Status sistem tidak boleh dipadam. Anda boleh menukar labelnya.",
           "toDeleteStatus":"Untuk memadam status ini, pastikan ia dimatikan dalam semua"
         }
+      },
+      "procedure": {
+        "setupEdit": false,
+        "setupVisible": false,
+        "label": {
+          "original": "Procedures",
+          "singular": "Prosedur",
+          "plural": "Prosedur-prosedur",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "sections": {
+          "setupEdit": false,
+          "setupVisible": false,
+          "sec0": {
+            "original": "General Details",
+            "singular": "Butiran Umum",
+            "plural": "Butiran Umum",
+            "setupEdit": false,
+            "setupVisible": false
+          }
+        },
+        "fields": {
+          "setupEdit": false,
+          "setupVisible": false,
+          "name": {
+            "original": "Name",
+            "singular": "Nama",
+            "plural": "Nama",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "description": {
+            "original": "Description",
+            "singular": "Penerangan",
+            "plural": "Penerangan",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "status": {
+            "original": "Status",
+            "singular": "Status",
+            "plural": "Status",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "color": {
+            "original": "Color",
+            "singular": "Warna",
+            "plural": "Warna",
+            "setupEdit": false,
+            "setupVisible": false
+          }
+        },
+        "messages": {
+          "confirmDeleteProcedure": "Adakah anda pasti mahu memadam prosedur ini? Tindakan ini tidak boleh dibatalkan.",
+          "groupOf": "adalah kumpulan",
+          "regularBasis": "yang anda lakukan secara berkala",
+          "createUse": "Anda boleh mencipta dan menggunakan",
+          "for": "untuk",
+          "to": "kepada",
+          "whereSame": "di mana",
+          "needToBeDone": "perlu dilakukan setiap kali",
+          "groupsOf": "adalah kumpulan",
+          "performRegularly": "anda lakukan secara berkala. Gunakan",
+          "whenSameTasks": "apabila",
+          "listThe": "Anda boleh menyenaraikan",
+          "mustFollowOrder": "Mesti ikut urutan",
+          "inOrder": "mengikut urutan, dan aktifkan",
+          "ifTheyShouldDone": "jika ia perlu dilakukan satu demi satu.",
+          "usingSearchBox": "menggunakan kotak carian; setelah ditambah, pilihan anda akan dipaparkan dalam jadual di bawah.",
+          "reorder": "Susun semula",
+          "withHandles": "dengan pemegang.",
+          "atTopAppearFirst": "di bahagian atas akan muncul dahulu.",
+          "setTheSlider": "Tetapkan peluncur kepada 'diaktifkan' untuk menguatkuasakan",
+          "orderTurnOff": "urutan; matikannya untuk membenarkan sebarang urutan.",
+          "mandatory": "Wajib",
+          "tick": "Tandakan",
+          "completedBefore": "untuk langkah yang mesti diselesaikan sebelum menutup",
+          "savingMakes": "Menyimpan menjadikan",
+          "availablePlanners": "ini tersedia untuk perancang dan juruteknik. Mengedit",
+          "willNotDelete": "di sini tidak akan memadam",
+          "fromLibrary": "dari pustaka anda atau mengubah data",
+          "pastJobData": "yang lalu.",
+          "no": "Tiada",
+          "hasBeenSelected": "telah dipilih",
+          "pleaseSelect": "Sila pilih",
+          "ifSelected": "Jika dipilih",
+          "inThe": "dalam",
+          "mustBeFinished": "mesti diselesaikan mengikut urutan",
+          "each": "Setiap",
+          "markedComplete": "perlu ditandakan selesai sebelum tugas seterusnya boleh dimulakan."
+        }
       }
     },
     "checklist": {
