@@ -14669,6 +14669,13 @@
         "plural": "重新生成",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "clickViewSeparate": {
+        "original": "Click to view in a separate tab",
+        "singular": "点击在新标签页中查看",
+        "plural": "点击在新标签页中查看",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "status": {

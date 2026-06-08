@@ -25067,6 +25067,13 @@
                 "plural": "Regenerate",
                 "setupEdit": false,
                 "setupVisible": false
+            },
+             "clickViewSeparate":{
+                "original": "Click to view in a separate tab",
+                "singular": "Click to view in a separate tab",
+                "plural": "Click to view in a separate tab",
+                "setupEdit": false,
+                "setupVisible": false
             }
         },
         "status": {
