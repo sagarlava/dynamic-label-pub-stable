@@ -15383,6 +15383,13 @@
         "plural": "Permitir",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "clickViewSeparate": {
+        "original": "Click to view in a separate tab",
+        "singular": "Haz clic para ver en una pestaña separada",
+        "plural": "Haz clic para ver en una pestaña separada",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "status": {
@@ -26064,6 +26071,99 @@
           "noDefaultStatus":"No se encontró un estado predeterminado. Establece un estado como predeterminado.",
           "systemStatusNotAllowedDelete":"No se permite eliminar estados del sistema. Puedes cambiar la etiqueta.",
           "toDeleteStatus":"Para eliminar este estado, asegúrate de que esté desactivado en todos los"
+        }
+      },
+      "procedure": {
+        "setupEdit": false,
+        "setupVisible": false,
+        "label": {
+          "original": "Procedures",
+          "singular": "Procedimiento",
+          "plural": "Procedimientos",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "sections": {
+          "setupEdit": false,
+          "setupVisible": false,
+          "sec0": {
+            "original": "General Details",
+            "singular": "Detalles Generales",
+            "plural": "Detalles Generales",
+            "setupEdit": false,
+            "setupVisible": false
+          }
+        },
+        "fields": {
+          "setupEdit": false,
+          "setupVisible": false,
+          "name": {
+            "original": "Name",
+            "singular": "Nombre",
+            "plural": "Nombre",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "description": {
+            "original": "Description",
+            "singular": "Descripción",
+            "plural": "Descripción",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "status": {
+            "original": "Status",
+            "singular": "Estado",
+            "plural": "Estado",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "color": {
+            "original": "Color",
+            "singular": "Color",
+            "plural": "Color",
+            "setupEdit": false,
+            "setupVisible": false
+          }
+        },
+        "messages": {
+          "confirmDeleteProcedure": "¿Estás seguro de que deseas eliminar este procedimiento? Esta acción no se puede deshacer.",
+          "groupOf": "son grupos de",
+          "regularBasis": "que realizas de forma regular",
+          "createUse": "Puedes crear y usar",
+          "for": "para",
+          "to": "a",
+          "whereSame": "donde las mismas",
+          "needToBeDone": "deben realizarse cada vez",
+          "groupsOf": "son grupos de",
+          "performRegularly": "que realizas regularmente. Usa un",
+          "whenSameTasks": "cuando las mismas",
+          "listThe": "Puedes listar las",
+          "mustFollowOrder": "Debe seguir el orden",
+          "inOrder": "en orden y activar",
+          "ifTheyShouldDone": "si deben realizarse una tras otra.",
+          "usingSearchBox": "usando el cuadro de búsqueda; una vez agregadas, tu selección se muestra en la tabla de abajo.",
+          "reorder": "Reordena las",
+          "withHandles": "con los controles.",
+          "atTopAppearFirst": "en la parte superior aparecerán primero.",
+          "setTheSlider": "Configura el control deslizante en 'habilitado' para imponer el",
+          "orderTurnOff": "orden; desactívalo para permitir cualquier secuencia.",
+          "mandatory": "Obligatorio",
+          "tick": "Marca",
+          "completedBefore": "para los pasos que deben completarse antes de cerrar un",
+          "savingMakes": "Guardar hace que este",
+          "availablePlanners": "esté disponible para planificadores y técnicos. Editar un",
+          "willNotDelete": "aquí no eliminará",
+          "fromLibrary": "de tu biblioteca ni cambiará datos pasados de",
+          "pastJobData": ".",
+          "no": "No",
+          "hasBeenSelected": "ha sido seleccionado",
+          "pleaseSelect": "Por favor selecciona",
+          "ifSelected": "Si se selecciona",
+          "inThe": "en el",
+          "mustBeFinished": "deben completarse en orden",
+          "each": "Cada",
+          "markedComplete": "debe marcarse como completada antes de que se pueda iniciar la siguiente."
         }
       }
     },
