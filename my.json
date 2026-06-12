@@ -4060,6 +4060,41 @@
         "plural": "Model",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "price": {
+        "original": "Price",
+        "singular": "Harga",
+        "plural": "Harga",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "used": {
+        "original": "Used",
+        "singular": "Digunakan",
+        "plural": "Digunakan",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "quantityCaps": {
+        "original": "Quantity",
+        "singular": "Kuantiti",
+        "plural": "Kuantiti",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "totalQuantity": {
+        "original": "Total Quantity",
+        "singular": "Jumlah Kuantiti",
+        "plural": "Jumlah Kuantiti",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "ungrouped":{
+        "original": "Ungrouped",
+        "singular": "Tidak Berkumpulan",
+        "plural": "Tidak Berkumpulan",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "validationFE": {},
@@ -5898,6 +5933,13 @@
         "plural": "",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "visit": {
+        "original": "Visit",
+        "singular": "Kunjungan",
+        "plural": "Kunjungan",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "validationFE": {},
@@ -7333,6 +7375,20 @@
         "original": "Activity",
         "singular": "Aktiviti",
         "plural": "Aktiviti",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec56": {
+        "original": "Additional Information",
+        "singular": "Informasi Tambahan",
+        "plural": "Informasi Tambahan",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec57": {
+        "original": "Record",
+        "singular": "Rekod",
+        "plural": "Rekod",
         "setupEdit": false,
         "setupVisible": false
       }
@@ -9670,6 +9726,27 @@
         "plural": "",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "order": {
+        "original": "Order",
+        "singular": "Pesanan",
+        "plural": "Pesanan",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "reference": {
+        "original": "Reference",
+        "singular": "Rujukan",
+        "plural": "Rujukan",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "recent": {
+        "original": "Recent",
+        "singular": "Terkini",
+        "plural": "Terkini",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "validationFE": {
@@ -9815,7 +9892,11 @@
       "signOff": "Log keluar",
       "photoUpload": "Muat naik foto",
       "viewPdf": "Lihat Pdf",
-      "emailPdf": "E-mel Pdf"
+      "emailPdf": "E-mel Pdf",
+      "linkThis":"Pautkan ini",
+      "jobTitle":"Judul Pekerjaan",
+      "willBeAssigned": "akan diberikan kepada ahli kumpulan secara giliran (dikongsi antara ahli pasukan secara bergilir-gilir).",
+      "toAllAdded": "kepada semua yang ditambah"
     },
     "emptyPage":{
       "getStartedWithJobOrder": "Mulakan Dengan Pesanan Kerja",
@@ -15294,6 +15375,13 @@
         "setupEdit": false,
         "setupVisible": false
       },
+      "filterBy": {
+        "original": "Filter by",
+        "singular": "Tapis berdasarkan",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
       "enable":{
         "original": "Enable",
         "singular": "Dayakan",
@@ -15389,6 +15477,27 @@
         "original": "Click to view in a separate tab",
         "singular": "Klik untuk lihat dalam tab berasingan",
         "plural": "Klik untuk lihat dalam tab berasingan",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "markOptional":{
+        "original": "Mark Optional",
+        "singular": "Tandai Opsional",
+        "plural": "Tandai Opsional",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "makeMandatory":{
+        "original": "Make Mandatory",
+        "singular": "Jadikan Wajib",
+        "plural": "Jadikan Wajib",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "reAssign":{
+        "original": "Re-Assign",
+        "singular": "Tugaskan Ulang",
+        "plural": "Tugaskan Ulang",
         "setupEdit": false,
         "setupVisible": false
       }
@@ -16174,7 +16283,37 @@
       "emailPlaceholder": "Masukkan emel di sini...",
       "selectRole": "Pilih Peranan",
       "updateConfirmation":"Pengesahan Kemas Kini",
-      "confirmProceed": "Adakah anda pasti mahu meneruskan"
+      "confirmProceed": "Adakah anda pasti mahu meneruskan",
+      "theLower": "yang",
+      "thisLower": "ini",
+      "andLower": "dan",
+      "toLower": "ke",
+      "aLower": "satu",
+      "anLower": "satu",
+      "orLower": "atau",
+      "fromLower": "dari",
+      "addClearDesc": "Tambah penerangan yang jelas untuk ini",
+      "optional":"opsional",
+      "toGetStarted": "Untuk memulakan",
+      "type": "Jenis",
+      "noHave": "Tidak ada",
+      "no": "Tidak",
+      "yes": "Ya",
+      "addedYet": "belum ditambah",
+      "any": "Mana-mana",
+      "all": "Semua",
+      "select": "Pilih",
+      "selectOption": "Pilih pilihan",
+      "selectOptions": "Pilih pilihan-pilihan",
+      "selectOne": "Pilih satu",
+      "selectOneOrMore": "Pilih satu atau lebih",
+      "selectAtLeastOne": "Pilih sekurang-kurangnya satu",
+      "last": "Terakhir",
+      "latest": "Terbaru",
+      "yetToBeScheduled": "Belum dijadualkan",
+      "scheduled": "Dijadualkan",
+      "rescheduled": "Dijadualkan semula",
+      "removeAllAssociated":"Tindakan ini juga akan memadamkan semua yang berkaitan"
     },
     "currency": {
       "australianDollar": "AUD",
@@ -16458,7 +16597,12 @@
       "pleaseMakeOneSelection":"Sila buat satu pilihan untuk meneruskan",
       "itemExists":"Item ini sudah wujud dalam senarai",
       "pleaseEnterValidUrl":"Sila masukkan URL laman web yang sah. Anda hanya dibenarkan menambah 1 URL.",
-      "capacityReached":"Had Kapasiti Dicapai"
+      "capacityReached":"Had Kapasiti Dicapai",
+      "exceedCharacterLimit":"melebihi had aksara",
+      "invalidValue":"Nilai tidak sah",
+      "selectFromList":"Sila pilih dari senarai",
+      "startDateTimeRequired":"Tarikh mula, masa, dan tempoh diperlukan",
+      "maxChar255Exceed":"Melebihi panjang aksara maksimum 255"
     },
     "validationBE": {
       "sendGridEmailTenantReferenceIdExists": "Rujukan Penyewa E-mel Send Grid baru tidak boleh sudah mempunyai ID",
@@ -25448,6 +25592,27 @@
             "plural": "",
             "setupEdit": false,
             "setupVisible": false
+          },
+          "daysAt": {
+            "original": "days at",
+            "singular": "hari pada",
+            "plural": "hari pada",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "hour": {
+            "original": "hours",
+            "singular": "jam",
+            "plural": "jam",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "item": {
+            "original": "Item",
+            "singular": "Item",
+            "plural": "Items",
+            "setupEdit": false,
+            "setupVisible": false
           }
         },
         "validationFE": {
@@ -25478,7 +25643,18 @@
             "setupVisible": false
           }
         },
-        "messages": {}
+        "messages":{
+          "tiedTo": "terikat dengan",
+          "willDisplayHere": "akan dipaparkan di sini",
+          "selectIcon": "Pilih Ikon",
+          "enterThe": "Masukkan",
+          "andChoose": "dan pilih masa untuk menjadualkan kerja",
+          "for": "untuk",
+          "to": "ke",
+          "needToComplete": "yang perlu diselesaikan",
+          "searchSelect": "Cari dan pilih",
+          "toBeAdded": "untuk ditambah"
+        }
       },
       "preventiveMaintenance": {
         "setupVisible": false,
@@ -25812,44 +25988,44 @@
           "chooseAssetTypes": "Pilih jenis aset yang meter ini patut digunakan. Mana-mana aset dengan jenis dipilih akan secara automatik termasuk meter ini."
         }
       },
-      "types":{
+     "types": {
         "setupEdit": false,
         "setupVisible": false,
-        "label":{
+        "label": {
           "original": "Type",
           "singular": "Jenis",
-          "plural": "Jenis",
+          "plural": "Jenis-jenis",
           "setupEdit": false,
           "setupVisible": false
         },
-        "sections":{
+        "sections": {
           "setupEdit": false,
           "setupVisible": false,
-          "sec0":{
+          "sec0": {
             "original": "Basics",
             "singular": "Asas",
-            "plural": "Asas",
+            "plural": "Asas-asas",
             "setupEdit": false,
             "setupVisible": false
           },
-          "sec1":{
+          "sec1": {
             "original": "Form Sections",
             "singular": "Bahagian Borang",
-            "plural": "Bahagian Borang",
+            "plural": "Bahagian-bahagian Borang",
             "setupEdit": false,
             "setupVisible": false
           },
-          "sec2":{
+          "sec2": {
             "original": "Statuses",
             "singular": "Status",
-            "plural": "Status",
+            "plural": "Status-status",
             "setupEdit": false,
             "setupVisible": false
           },
-          "sec3":{
+          "sec3": {
             "original": "Settings",
             "singular": "Tetapan",
-            "plural": "Tetapan",
+            "plural": "Tetapan-tetapan",
             "setupEdit": false,
             "setupVisible": false
           }
@@ -25857,220 +26033,302 @@
         "fields": {
           "setupEdit": false,
           "setupVisible": false,
-          "selectIcon":{
+          "selectIcon": {
             "original": "Select Icon",
             "singular": "Pilih Ikon",
-            "plural": "Pilih Ikon",
+            "plural": "Pilih Ikon-ikon",
             "setupEdit": false,
             "setupVisible": false
           },
-          "basicInfo":{
+          "basicInfo": {
             "original": "Basic Info",
             "singular": "Maklumat Asas",
             "plural": "Maklumat Asas",
             "setupEdit": false,
             "setupVisible": false
           },
-          "field":{
+          "field": {
             "original": "Field",
             "singular": "Medan",
-            "plural": "Medan",
+            "plural": "Medan-medan",
             "setupEdit": false,
             "setupVisible": false
           },
-          "branch":{
+          "branch": {
             "original": "Branch",
             "singular": "Cawangan",
-            "plural": "Cawangan",
+            "plural": "Cawangan-cawangan",
             "setupEdit": false,
             "setupVisible": false
           },
-          "floor":{
+          "floor": {
             "original": "Floor",
             "singular": "Tingkat",
-            "plural": "Tingkat",
+            "plural": "Tingkat-tingkat",
             "setupEdit": false,
             "setupVisible": false
           },
-          "hidden":{
+          "hidden": {
             "original": "Hidden",
             "singular": "Tersembunyi",
             "plural": "Tersembunyi",
             "setupEdit": false,
             "setupVisible": false
           },
-          "visible":{
+          "visible": {
             "original": "Visible",
             "singular": "Kelihatan",
             "plural": "Kelihatan",
             "setupEdit": false,
             "setupVisible": false
           },
-          "shown":{
+          "shown": {
             "original": "Shown",
             "singular": "Ditunjukkan",
             "plural": "Ditunjukkan",
             "setupEdit": false,
             "setupVisible": false
           },
-          "category":{
+          "category": {
             "original": "Category",
             "singular": "Kategori",
-            "plural": "Kategori",
+            "plural": "Kategori-kategori",
             "setupEdit": false,
             "setupVisible": false
           },
-          "type":{
+          "type": {
             "original": "Types",
             "singular": "Jenis",
-            "plural": "Jenis",
+            "plural": "Jenis-jenis",
             "setupEdit": false,
             "setupVisible": false
           },
-          "label":{
+          "label": {
             "original": "Label",
             "singular": "Label",
-            "plural": "Label",
+            "plural": "Label-label",
             "setupEdit": false,
             "setupVisible": false
           },
-          "code":{
+          "code": {
             "original": "Code",
             "singular": "Kod",
-            "plural": "Kod",
+            "plural": "Kod-kod",
             "setupEdit": false,
             "setupVisible": false
           },
-          "color":{
+          "color": {
             "original": "Color",
             "singular": "Warna",
-            "plural": "Warna",
+            "plural": "Warna-warna",
             "setupEdit": false,
             "setupVisible": false
           },
-          "default":{
+          "default": {
             "original": "Default",
             "singular": "Lalai",
             "plural": "Lalai",
             "setupEdit": false,
             "setupVisible": false
           },
-          "available":{
+          "available": {
             "original": "Available",
             "singular": "Tersedia",
             "plural": "Tersedia",
             "setupEdit": false,
             "setupVisible": false
           },
-          "autoPopulateAddress":{
+          "autoPopulateAddress": {
             "original": "Auto-populate address from",
-            "singular": "Isi alamat secara automatik daripada",
-            "plural": "Isi alamat secara automatik daripada",
+            "singular": "Isi automatik alamat dari",
+            "plural": "Isi automatik alamat dari",
             "setupEdit": false,
             "setupVisible": false
           },
-          "autoPopulateContact":{
+          "autoPopulateContact": {
             "original": "Auto-populate contact from",
-            "singular": "Isi kontak secara automatik daripada",
-            "plural": "Isi kontak secara automatik daripada",
+            "singular": "Isi automatik kenalan dari",
+            "plural": "Isi automatik kenalan dari",
             "setupEdit": false,
             "setupVisible": false
           },
-          "addTheStatus":{
+          "addTheStatus": {
             "original": "Add the status to",
-            "singular": "Tambah status kepada",
-            "plural": "Tambah status kepada",
+            "singular": "Tambah status ke",
+            "plural": "Tambah status ke",
             "setupEdit": false,
             "setupVisible": false
           },
-          "whichProfilesCanUse":{
+          "whichProfilesCanUse": {
             "original": "Which profiles can use the status",
-            "singular": "Profil yang boleh menggunakan status ini",
-            "plural": "Profil yang boleh menggunakan status ini",
+            "singular": "Profil mana yang boleh menggunakan status ini",
+            "plural": "Profil mana yang boleh menggunakan status ini",
             "setupEdit": false,
             "setupVisible": false
           },
-          "price":{
+          "price": {
             "original": "Price",
             "singular": "Harga",
-            "plural": "Harga",
+            "plural": "Harga-harga",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "job": {
+            "original": "Job",
+            "singular": "Kerja",
+            "plural": "Kerja-kerja",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "installation": {
+            "original": "Installation",
+            "singular": "Pemasangan",
+            "plural": "Pemasangan-pemasangan",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "preventiveMaintenance": {
+            "original": "Preventive Maintenance",
+            "singular": "Penyelenggaraan Pencegahan",
+            "plural": "Penyelenggaraan-penyelenggaraan Pencegahan",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "correctiveRepair": {
+            "original": "Corrective / Repair",
+            "singular": "Pembetulan / Pembaikan",
+            "plural": "Pembetulan / Pembaikan",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "inspection": {
+            "original": "Inspection",
+            "singular": "Pemeriksaan",
+            "plural": "Pemeriksaan-pemeriksaan",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "survey": {
+            "original": "Survey",
+            "singular": "Tinjauan",
+            "plural": "Tinjauan-tinjauan",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "logistics": {
+            "original": "Logistics",
+            "singular": "Logistik",
+            "plural": "Logistik",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "warehouse": {
+            "original": "Warehouse",
+            "singular": "Gudang",
+            "plural": "Gudang-gudang",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "onDemand": {
+            "original": "On-Demand",
+            "singular": "Atas Permintaan",
+            "plural": "Atas Permintaan",
             "setupEdit": false,
             "setupVisible": false
           }
         },
-        "messages":{
-          "addDescriptionForThis":"Tambah penerangan untuk ini",
-          "here":"di sini...",
-          "untitled":"Tanpa Tajuk",
-          "configureFieldsAppear":"Tetapkan medan yang muncul apabila perancang membuat",
-          "ofThis":"bagi ini",
-          "toggleOptionsBelow":"Togol pilihan di bawah dan klik pratonton borang langsung untuk melihat kemas kini serta-merta",
-          "decideIfThis":"Tentukan sama ada ini",
-          "alwaysInvolvesSpecific":"sentiasa melibatkan yang khusus",
-          "enable":"Dayakan",
-          "and":"dan",
-          "trackingIfPlanners":"penjejakan jika perancang perlu merekodkannya",
-          "ifThis":"jika ini",
-          "requiresBulkInstallations":"memerlukan pemasangan pukal",
-          "reviewLivePreview":"Semak pratonton langsung dan klik butang 'Simpan' untuk teruskan",
-          "linkedToAn":"dipautkan kepada",
-          "turnOnIfWork":"Hidupkan jika kerja biasanya melibatkan peralatan atau aset tertentu. Biarkan dimatikan untuk kerja umum seperti pemeriksaan tapak atau tinjauan.",
-          "workDoneFor":"Kerja dilakukan untuk",
-          "turnOnToSpecify":"Hidupkan untuk menentukan yang mana",
-          "workingForWhenCreating":"anda bekerja untuk semasa membuat",
-          "doYouNeed":"Adakah anda perlukan",
-          "enableToRecord":"Dayakan untuk merekodkan yang tepat",
-          "forEach":"untuk setiap",
-          "willTheseJobsLink":"Adakah kerja-kerja ini akan dipautkan kepada",
-          "turnOnIfGroupMultipleJobs":"Hidupkan jika anda mengumpulkan beberapa kerja. Anda akan dapat menjana ringkasan semua kerja yang diselesaikan.",
-          "chooseWhatYourTeam":"Pilih apa yang pasukan anda lihat pada",
-          "formInWhatOrder":"borang dan dalam urutan apa. Kekalkan hanya yang diperlukan supaya borang cepat dan jelas.",
-          "showTheSectionsNeed":"Tunjukkan bahagian yang anda perlukan",
-          "hideSectionsTeam":"Sembunyikan bahagian yang pasukan anda tidak gunakan",
-          "orderTheseSections":"Susun bahagian ini supaya aliran terasa semula jadi untuk anda",
-          "shownTo":"Ditunjukkan kepada",
-          "whereJobHappensWhoToCall":"Di mana kerja berlaku dan siapa yang perlu dihubungi",
-          "whatsWrongHowFixed":"Apa masalahnya dan bagaimana ia diperbaiki",
-          "stepsForTechnician":"Langkah untuk juruteknik",
-          "usedForInstallationsRepairs":"digunakan untuk pemasangan atau pembaikan",
-          "extraNotesFiles":"Nota tambahan dan fail",
-          "additional":"Tambahan",
-          "information":"Maklumat",
-          "plannersSee":"Inilah yang akan dilihat oleh perancang untuk ini",
-          "addStatusesForThis":"Tambah status untuk ini",
-          "statusesControlLifecycle":"Status mengawal kitaran hayat yang ditunjukkan kepada perancang dan juruteknik",
-          "addStatusWith":"Tambah status dengan Label, Kod, dan Kod Warna Hex (contoh: #4F46E5)",
-          "availableToggle":"Tersedia: Togol status yang anda mahu jadikan tersedia untuk jenis ini",
-          "defaultSelectStatus":"Lalai: Pilih satu status yang akan menjadi lalai bagi kerja baharu jenis ini",
-          "saveYourChanges":"Simpan perubahan anda",
-          "newlyCreatedStatus":"Status yang baru dibuat akan kelihatan tetapi tidak ditetapkan sebagai",
-          "defineDetailsOfThis":"Tentukan butiran untuk ini",
-          "groupingReportingFiltering":"Pengelompokan untuk pelaporan dan penapisan",
-          "nameShownTo":"Nama dipaparkan kepada",
-          "shortUniqueIdentifier":"Pengecam unik ringkas yang digunakan oleh integrasi dan automasi",
-          "chooseWhereStatus":"Pilih di mana status ini dipaparkan",
-          "selectThe":"Pilih",
-          "whichWillUseThis":"yang akan menggunakan status ini",
-          "addStatusTo":"Tambah status kepada",
-          "thisStatusSelectable":"Status ini hanya boleh dipilih untuk",
-          "youInclude":"yang anda sertakan",
-          "selectWhoCanUseStatus":"Pilih siapa yang boleh menggunakan status ini",
-          "whoCanSetStatus":"Siapa yang boleh menetapkan status ini dalam",
-          "selectedProfilesCan":"Profil yang dipilih boleh menggunakan status ini",
-          "enterStatusLabel":"Masukkan label status...",
-          "enterStatusCode":"Masukkan kod status...",
-          "allowUserViewPriceOf":"Benarkan pengguna melihat harga",
-          "allowToSee":"Benarkan untuk melihat",
-          "enableThisIfYou":"Dayakan ini jika anda ingin memaparkan harga setiap",
-          "createdUnderThisType":"yang dicipta di bawah jenis ini akan mengikut peraturan ini",
-          "is":"ialah"
+        "messages": {
+          "addDescriptionForThis": "Tambah penerangan untuk ini",
+          "here": "di sini...",
+          "untitled": "Tanpa Tajuk",
+          "configureFieldsAppear": "Konfigurasikan medan yang muncul apabila perancang membuat",
+          "ofThis": "untuk ini",
+          "toggleOptionsBelow": "Togol pilihan di bawah dan klik pratonton borang langsung untuk melihat kemas kini serta-merta",
+          "decideIfThis": "Tentukan sama ada ini",
+          "alwaysInvolvesSpecific": "sentiasa melibatkan",
+          "enable": "Aktifkan",
+          "and": "dan",
+          "trackingIfPlanners": "penjejakan jika perancang perlu menangkapnya",
+          "ifThis": "jika ini",
+          "requiresBulkInstallations": "memerlukan pemasangan pukal",
+          "reviewLivePreview": "Semak pratonton langsung dan klik butang 'Simpan' untuk meneruskan",
+          "linkedToAn": "dikaitkan dengan",
+          "turnOnIfWork": "Hidupkan jika kerja biasanya melibatkan peralatan atau",
+          "leaveOff": "Biarkan mati untuk kerja umum seperti",
+          "inspectionSurvey": "pemeriksaan atau tinjauan.",
+          "workDoneFor": "Kerja dilakukan untuk",
+          "turnOnToSpecify": "Hidupkan untuk menentukan",
+          "workingForWhenCreating": "yang anda bekerja untuk semasa membuat kerja",
+          "doYouNeed": "Adakah anda memerlukan",
+          "enableToRecord": "Aktifkan untuk merekod tepat",
+          "forEach": "untuk setiap",
+          "willTheseJobsLink": "Adakah kerja-kerja ini dikaitkan dengan",
+          "turnOnIfGroupMultipleJobs": "Hidupkan jika anda mengumpulkan beberapa kerja. Anda akan dapat menjana ringkasan semua kerja yang telah selesai.",
+          "chooseWhatYourTeam": "Pilih apa yang pasukan anda lihat pada",
+          "formInWhatOrder": "borang dan dalam susunan apa. Simpan hanya yang diperlukan supaya borang pantas dan jelas.",
+          "showTheSectionsNeed": "Tunjukkan bahagian yang anda perlukan",
+          "hideSectionsTeam": "Sembunyikan bahagian yang pasukan anda tidak gunakan",
+          "orderTheseSections": "Susun bahagian-bahagian ini supaya aliran terasa semula jadi bagi anda",
+          "shownTo": "Ditunjukkan kepada",
+          "hiddenFrom": "Disembunyikan daripada",
+          "whereJobHappensWhoToCall": "Di mana kerja berlaku dan siapa yang perlu dihubungi",
+          "whatsWrongHowFixed": "Apa yang salah dan bagaimana ia diperbaiki",
+          "stepsForTechnician": "Langkah-langkah untuk juruteknik",
+          "usedForInstallationsRepairs": "digunakan untuk pemasangan atau pembaikan",
+          "extraNotesFiles": "Nota dan fail tambahan",
+          "additional": "Tambahan",
+          "information": "Maklumat",
+          "additionalJobInfo": "Maklumat Kerja Tambahan",
+          "plannersSee": "Ini adalah apa yang perancang akan lihat untuk ini",
+          "addStatusesForThis": "Tambah status untuk ini",
+          "statusesControlLifecycle": "Status mengawal kitaran hayat yang ditunjukkan kepada perancang dan juruteknik",
+          "addStatusWith": "Tambah status dengan Label, Kod, dan Kod Hex Warna (Contoh: #4F46E5)",
+          "availableToggle": "Tersedia: Togol status yang ingin anda jadikan tersedia untuk jenis ini",
+          "defaultSelectStatus": "Lalai: Pilih satu status yang akan menjadi lalai untuk kerja baharu jenis ini",
+          "saveYourChanges": "Simpan perubahan anda",
+          "newlyCreatedStatus": "Status yang baru dibuat akan kelihatan tetapi tidak ditetapkan sebagai",
+          "defineDetailsOfThis": "Tentukan butiran untuk ini",
+          "groupingReportingFiltering": "Pengelompokan untuk pelaporan dan penapisan",
+          "nameShownTo": "Nama ditunjukkan kepada",
+          "shortUniqueIdentifier": "Pengecam unik pendek yang digunakan oleh integrasi dan automasi",
+          "chooseWhereStatus": "Pilih di mana status ini muncul",
+          "selectThe": "Pilih",
+          "whichWillUseThis": "yang akan menggunakan status ini",
+          "addStatusTo": "Tambah status ke",
+          "thisStatusSelectable": "Status ini hanya boleh dipilih untuk",
+          "youInclude": "yang anda sertakan",
+          "selectWhoCanUseStatus": "Pilih siapa yang boleh menggunakan status ini",
+          "whoCanSetStatus": "Siapa yang boleh menetapkan status ini dalam",
+          "selectedProfilesCan": "Profil yang dipilih boleh menggunakan status ini",
+          "enterStatusLabel": "Masukkan label status...",
+          "enterStatusCode": "Masukkan kod status...",
+          "allowUserViewPriceOf": "Benarkan pengguna melihat harga",
+          "allowToSee": "Benarkan untuk melihat",
+          "enableThisIfYou": "Aktifkan ini jika anda ingin memaparkan harga setiap",
+          "createdUnderThisType": "yang dibuat di bawah jenis ini akan mengikut peraturan ini",
+          "is": "adalah",
+          "asTheyShouldAppearInThe": "sebagaimana ia sepatutnya muncul dalam",
+          "dropdown": "senarai juntai bawah",
+          "any": "mana-mana",
+          "all": "semua",
+          "cloningFrom": "Mengklon dari",
+          "adjustSettings": "Laraskan tetapan dan berikan nama untuk",
+          "chooseName": "Pilih nama yang mencerminkan jenis kerja",
+          "installationDesc": "Persediaan peralatan baharu, pentauliahan, atau konfigurasi.",
+          "preventiveMaintenanceDesc": "Servis berjadual untuk mengelakkan kerosakan.",
+          "correctiveRepairDesc": "Membaiki kerosakan atau kegagalan yang dilaporkan.",
+          "inspectionDesc": "Pemeriksaan keadaan atau pematuhan, kerja minimum dilakukan.",
+          "surveyDesc": "Tinjauan tapak, penilaian, atau lawatan sebut harga sebelum kerja.",
+          "logisticsDesc": "Tugas penghantaran, pengumpulan, pemindahan, atau pengangkutan.",
+          "warehouseDesc": "Pergerakan stok dalaman, pengambilan, penyimpanan, atau pengiraan.",
+          "onDemandDesc": "Kerja ad-hoc yang tidak mengikut jadual tetap."
         },
-        "validationFE":{
-          "maximum80Chars":"Panjang maksimum 80 aksara telah melebihi had",
-          "maximumCharsExceed":"Panjang maksimum aksara telah melebihi had",
-          "noDefaultStatus":"Tiada status lalai ditemui. Sila tetapkan satu status sebagai lalai.",
-          "systemStatusNotAllowedDelete":"Status sistem tidak boleh dipadam. Anda boleh menukar labelnya.",
-          "toDeleteStatus":"Untuk memadam status ini, pastikan ia dimatikan dalam semua"
+        "validationFE": {
+          "maximum80Chars": "Panjang maksimum 80 aksara telah dilampaui",
+          "maximumCharsExceed": "Panjang aksara maksimum telah dilampaui",
+          "noDefaultStatus": "Tiada status lalai ditemui. Sila tetapkan status sebagai lalai.",
+          "systemStatusNotAllowedDelete": "Status sistem tidak boleh dipadam. Sila tukar label.",
+          "toDeleteStatus": "Untuk memadamkan status ini, pastikan ia dimatikan dalam semua"
         }
       },
       "procedure": {

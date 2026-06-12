@@ -4060,6 +4060,41 @@
         "plural": "Model",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "price": {
+        "original": "Price",
+        "singular": "Price",
+        "plural": "Prices",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "used": {
+        "original": "Used",
+        "singular": "Used",
+        "plural": "Used",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "quantityCaps": {
+        "original": "Quantity",
+        "singular": "Quantity",
+        "plural": "Quantities",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "totalQuantity": {
+        "original": "Total Quantity",
+        "singular": "Total Quantity",
+        "plural": "Total Quantities",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "ungrouped":{
+        "original": "Ungrouped",
+        "singular": "Ungrouped",
+        "plural": "Ungrouped",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "validationFE": {},
@@ -5898,6 +5933,13 @@
         "plural": "",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "visit": {
+        "original": "Visit",
+        "singular": "Visit",
+        "plural": "Visits",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "validationFE": {},
@@ -7333,6 +7375,20 @@
         "original": "Activity",
         "singular": "Activity",
         "plural": "Activities",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec56": {
+        "original": "Additional Information",
+        "singular": "Additional Information",
+        "plural": "Additional Information",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec57": {
+        "original": "Record",
+        "singular": "Record",
+        "plural": "Records",
         "setupEdit": false,
         "setupVisible": false
       }
@@ -9670,6 +9726,27 @@
         "plural": "",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "order": {
+        "original": "Order",
+        "singular": "Order",
+        "plural": "Orders",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "reference": {
+        "original": "Reference",
+        "singular": "Reference",
+        "plural": "References",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "recent": {
+        "original": "Recent",
+        "singular": "Recent",
+        "plural": "Recent",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "validationFE": {
@@ -9815,7 +9892,11 @@
       "signOff" : "Sign off",
       "photoUpload": "Photo Upload",
       "viewPdf" : "View Pdf",
-      "emailPdf" : "Email Pdf"
+      "emailPdf" : "Email Pdf",
+      "linkThis":"Link this",
+      "jobTitle":"Job Title",
+      "willBeAssigned":"will be assigned to group members in a round-robin order (shared among team members in turn).",
+      "toAllAdded":"to all added"
     },
     "emptyPage":{
       "getStartedWithJobOrder":"Get Started with Job Orders",
@@ -15398,6 +15479,27 @@
         "plural": "Click to view in a separate tab",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "markOptional":{
+        "original": "Mark Optional",
+        "singular": "Mark Optional",
+        "plural": "Mark Optional",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "makeMandatory":{
+        "original": "Make Mandatory",
+        "singular": "Make Mandatory",
+        "plural": "Make Mandatory",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "reAssign":{
+        "original": "Re-Assign",
+        "singular": "Re-Assign",
+        "plural": "Re-Assign",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "status": {
@@ -16181,7 +16283,37 @@
       "emailPlaceholder":"Enter email here...",
       "selectRole":"Select a Role",
       "updateConfirmation":"Update Confirmation",
-      "confirmProceed":"Are you sure you want to proceed"
+      "confirmProceed":"Are you sure you want to proceed",
+      "theLower":"the",
+      "thisLower":"this",
+      "andLower":"and",
+      "toLower":"to",
+      "aLower":"a",
+      "anLower":"an",
+      "orLower":"or",
+      "fromLower": "from",
+      "addClearDesc":"Add a clear description for this",
+      "optional":"optional",
+      "toGetStarted":"To get started",
+      "type":"Type",
+      "noHave":"No",
+      "no":"No",
+      "yes":"Yes",
+      "addedYet":"added yet",
+      "any":"Any",
+      "all":"All",
+      "select":"Select",
+      "selectOption":"Select an option",
+      "selectOptions":"Select options",
+      "selectOne":"Select one",
+      "selectOneOrMore":"Select one or more",
+      "selectAtLeastOne":"Select at least one",
+      "last": "Last",
+      "latest": "Latest",
+      "yetToBeScheduled": "Yet to be scheduled",
+      "scheduled": "Scheduled",
+      "rescheduled": "Rescheduled",
+      "removeAllAssociated":"This action will also remove all associated"
     },
     "currency":{
       "australianDollar": "AUD",
@@ -16465,7 +16597,12 @@
       "pleaseMakeOneSelection":"Please make one selection to proceed",
       "itemExists":"This item already exists in the list",
       "pleaseEnterValidUrl":"Please enter valid website URL. You are only allowed to add 1 URL",
-      "capacityReached":"Capacity Reached"
+      "capacityReached":"Capacity Reached",
+      "exceedCharacterLimit":"exceeds character limit",
+      "invalidValue":"Invalid value",
+      "selectFromList":"Please select from the list",
+      "startDateTimeRequired":"Start date, time, and duration is required",
+      "maxChar255Exceed":"Maximum character length of 255 exceeded"
     },
     "validationBE": {
       "sendGridEmailTenantReferenceIdExists": "A new Send Grid Email Tenant Reference cannot already have an ID",
@@ -25456,6 +25593,27 @@
             "plural": "",
             "setupEdit": false,
             "setupVisible": false
+          },
+          "daysAt": {
+            "original": "days at",
+            "singular": "days at",
+            "plural": "days at",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "hour": {
+            "original": "hours",
+            "singular": "hour",
+            "plural": "hours",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "item": {
+            "original": "Item",
+            "singular": "Item",
+            "plural": "Items",
+            "setupEdit": false,
+            "setupVisible": false
           }
         },
         "validationFE": {
@@ -25486,7 +25644,18 @@
             "setupVisible": false
           }
         },
-        "messages": {}
+        "messages":{
+          "tiedTo":"tied to",
+          "willDisplayHere":"will be displayed here",
+          "selectIcon":"Select Icon",
+          "enterThe":"Enter the",
+          "andChoose":"and choose when to schedule the work",
+          "for":"for",
+          "to":"to",
+          "needToComplete":"that need to be completed",
+          "searchSelect":"Search and select a",
+          "toBeAdded":"to be added"
+        }
       },
       "preventiveMaintenance": {
         "setupVisible": false,
@@ -26004,6 +26173,69 @@
             "plural": "Prices",
             "setupEdit": false,
             "setupVisible": false
+          },
+          "job":{
+            "original": "Job",
+            "singular": "Job",
+            "plural": "Jobs",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "installation": {
+            "original": "Installation",
+            "singular": "Installation",
+            "plural": "Installations",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "preventiveMaintenance": {
+            "original": "Preventive Maintenance",
+            "singular": "Preventive Maintenance",
+            "plural": "Preventive Maintenances",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "correctiveRepair": {
+            "original": "Corrective / Repair",
+            "singular": "Corrective / Repair",
+            "plural": "Corrective / Repairs",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "inspection": {
+            "original": "Inspection",
+            "singular": "Inspection",
+            "plural": "Inspections",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "survey": {
+            "original": "Survey",
+            "singular": "Survey",
+            "plural": "Surveys",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "logistics": {
+            "original": "Logistics",
+            "singular": "Logistics",
+            "plural": "Logistics",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "warehouse": {
+            "original": "Warehouse",
+            "singular": "Warehouse",
+            "plural": "Warehouses",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "onDemand": {
+            "original": "On-Demand",
+            "singular": "On-Demand",
+            "plural": "On-Demands",
+            "setupEdit": false,
+            "setupVisible": false
           }
         },
         "messages":{
@@ -26022,10 +26254,12 @@
           "requiresBulkInstallations":"requires bulk installations",
           "reviewLivePreview":"Review the live preview and click the 'Save' button to proceed",
           "linkedToAn":"linked to an",
-          "turnOnIfWork":"Turn on if work usually involves a particular equipment or asset. Leave off for general work like site inspections or surveys.",
+          "turnOnIfWork":"Turn on if work usually involves a particular equipment or",
+          "leaveOff":"Leave off for general work like",
+          "inspectionSurvey":"inspections or surveys.",
           "workDoneFor":"Work done for a",
           "turnOnToSpecify":"Turn on to specify which",
-          "workingForWhenCreating":"you're working for when creating",
+          "workingForWhenCreating":"you're working for when creating jobs",
           "doYouNeed":"Do you need the",
           "enableToRecord":"Enable to record the exact",
           "forEach":"for each",
@@ -26037,6 +26271,7 @@
           "hideSectionsTeam":"Hide the sections that your team doesn't use",
           "orderTheseSections":"Order these sections so the flow feels natural to you",
           "shownTo":"Shown to",
+          "hiddenFrom":"Hidden from",
           "whereJobHappensWhoToCall":"Where the job happens and who to call",
           "whatsWrongHowFixed":"What's wrong and how it's fixed",
           "stepsForTechnician":"Steps for the technician",
@@ -26044,6 +26279,7 @@
           "extraNotesFiles":"Extra notes and files",
           "additional":"Additional",
           "information":"Information",
+          "additionalJobInfo":"Additional Job Information",
           "plannersSee":"This is what planners will see for this",
           "addStatusesForThis":"Add the statuses for this",
           "statusesControlLifecycle":"Statuses control the life-cycle shown to planners and technicians",
@@ -26071,7 +26307,22 @@
           "allowToSee":"Allow to see",
           "enableThisIfYou":"Enable this if you would like to display the price of each",
           "createdUnderThisType":"created under this type will follow this rule",
-          "is":"is"
+          "is":"is",
+          "asTheyShouldAppearInThe":"as they should appear in the",
+          "dropdown":"drop-down",
+          "any": "any",
+          "all": "all",
+          "cloningFrom":"Cloning from",
+          "adjustSettings":"Adjust the settings and provide a name for your",
+          "chooseName":"Choose a name that reflects the kind of work",
+          "installationDesc": "New equipment setup, commissioning, or configuration.",
+          "preventiveMaintenanceDesc": "Planned servicing to avoid failures.",
+          "correctiveRepairDesc": "Fixing reported faults or breakdowns.",
+          "inspectionDesc": "Condition or compliance checks, minimal work done.",
+          "surveyDesc": "Site survey, assessment, or quotation visit before work.",
+          "logisticsDesc": "Delivery, collection, relocation, or transport tasks.",
+          "warehouseDesc": "Internal stock moves, picking, put-away, or counting.",
+          "onDemandDesc": "Ad-hoc jobs that don't follow a fixed schedule."
         },
         "validationFE":{
           "maximum80Chars":"Maximum length of 80 characters exceeded",
@@ -26080,7 +26331,6 @@
           "systemStatusNotAllowedDelete":"System statuses cannot be deleted. Feel free to change the label.",
           "toDeleteStatus":"To delete this status, ensure it's turned off in all the"
         }
-
       },
       "procedure":{
         "setupEdit": false,
