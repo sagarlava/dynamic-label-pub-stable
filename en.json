@@ -25109,7 +25109,10 @@
           "inThe": "in the",
           "mustBeFinished": "must be finished in order",
           "each": "Each",
-          "markedComplete": "has to be marked complete before the next one can be started."
+          "markedComplete": "has to be marked complete before the next one can be started.",
+          "nameThe":"Name the",
+          "pickAColor":"(optionally) pick a color",
+          "beDoneSpecific":"be done for specific"
         }
       }
     },
