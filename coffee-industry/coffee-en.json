@@ -11389,6 +11389,13 @@
         "plural": "Re-Assign",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "enter":{
+        "original": "Enter",
+        "singular": "Enter",
+        "plural": "Enter",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "status": {
@@ -12151,7 +12158,10 @@
       "yetToBeScheduled": "Yet to be scheduled",
       "scheduled": "Scheduled",
       "rescheduled": "Rescheduled",
-      "removeAllAssociated":"This action will also remove all associated"
+      "removeAllAssociated":"This action will also remove all associated",
+      "howToUse":"How to Use",
+      "quickSteps":"Quick steps",
+      "one":"one"
     },
     "currency":{
       "australianDollar": "AUD",
@@ -21613,7 +21623,8 @@
           "surveyDesc": "Site survey, assessment, or quotation visit before work.",
           "logisticsDesc": "Delivery, collection, relocation, or transport tasks.",
           "warehouseDesc": "Internal stock moves, picking, put-away, or counting.",
-          "onDemandDesc": "Ad-hoc jobs that don't follow a fixed schedule."
+          "onDemandDesc": "Ad-hoc jobs that don't follow a fixed schedule.",
+          "joTypeStandaloneDesc":"group jobs by work type (installation, repair, maintenance, damage). Set them up here so each job is tagged correctly. To get started, clone an existing one."
         },
         "validationFE":{
           "maximum80Chars":"Maximum length of 80 characters exceeded",

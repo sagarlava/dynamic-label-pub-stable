@@ -14786,6 +14786,13 @@
         "plural": "Tugaskan Ulang",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "enter": {
+        "original": "Enter",
+        "singular": "Masukkan",
+        "plural": "Masukkan",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "status": {
@@ -15548,7 +15555,10 @@
       "yetToBeScheduled": "Belum dijadualkan",
       "scheduled": "Dijadualkan",
       "rescheduled": "Dijadualkan semula",
-      "removeAllAssociated":"Tindakan ini juga akan memadamkan semua yang berkaitan"
+      "removeAllAssociated":"Tindakan ini juga akan memadamkan semua yang berkaitan",
+      "howToUse": "Cara Penggunaan",
+      "quickSteps": "Langkah-langkah Pantas",
+      "one": "satu"
     },
     "currency": {
       "australianDollar": "AUD",
@@ -25008,7 +25018,8 @@
           "surveyDesc": "Tinjauan tapak, penilaian, atau lawatan sebut harga sebelum kerja.",
           "logisticsDesc": "Tugas penghantaran, pengumpulan, pemindahan, atau pengangkutan.",
           "warehouseDesc": "Pergerakan stok dalaman, pengambilan, penyimpanan, atau pengiraan.",
-          "onDemandDesc": "Kerja ad-hoc yang tidak mengikut jadual tetap."
+          "onDemandDesc": "Kerja ad-hoc yang tidak mengikut jadual tetap.",
+          "joTypeStandaloneDesc": "kumpulkan kerja mengikut jenis kerja (pemasangan, pembaikan, penyelenggaraan, kerosakan). Sediakan di sini supaya setiap kerja ditandai dengan betul. Untuk memulakan, klon yang sedia ada."
         },
         "validationFE": {
           "maximum80Chars": "Panjang maksimum 80 aksara telah dilampaui",

@@ -14785,6 +14785,13 @@
         "plural": "重新分配",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "enter": {
+        "original": "Enter",
+        "singular": "输入",
+        "plural": "输入",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "status": {
@@ -15547,7 +15554,10 @@
       "yetToBeScheduled": "尚未安排",
       "scheduled": "已安排",
       "rescheduled": "已重新安排",
-      "removeAllAssociated":"此操作还将删除所有相关项目"
+      "removeAllAssociated":"此操作还将删除所有相关项目",
+      "howToUse": "使用方法",
+      "quickSteps": "快速步骤",
+      "one": "一个"
     },
     "currency": {
       "australianDollar": "AUD",
@@ -25008,7 +25018,8 @@
           "surveyDesc": "工作前的现场勘测、评估或报价访问。",
           "logisticsDesc": "交付、收取、搬迁或运输任务。",
           "warehouseDesc": "内部库存移动、拣货、上架或盘点。",
-          "onDemandDesc": "不遵循固定计划的临时工单。"
+          "onDemandDesc": "不遵循固定计划的临时工单。",
+          "joTypeStandaloneDesc": "按工作类型（安装、维修、维护、损坏）对工单进行分组。在此处进行设置，以便每个工单都能正确标记。如需开始，请克隆现有类型。"
         },
         "validationFE": {
           "maximum80Chars": "超过最大长度 80 个字符",

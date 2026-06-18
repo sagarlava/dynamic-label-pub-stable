@@ -14785,6 +14785,13 @@
         "plural": "Reasignar",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "enter": {
+        "original": "Enter",
+        "singular": "Ingresar",
+        "plural": "Ingresar",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "status": {
@@ -15547,7 +15554,10 @@
       "yetToBeScheduled": "Aún por programar",
       "scheduled": "Programado",
       "rescheduled": "Reprogramado",
-      "removeAllAssociated":"Esta acción también eliminará todos los elementos asociados"
+      "removeAllAssociated":"Esta acción también eliminará todos los elementos asociados",
+      "howToUse": "Cómo usar",
+      "quickSteps": "Pasos rápidos",
+      "one": "uno"
     },
     "currency": {
       "australianDollar": "AUD",
@@ -25008,7 +25018,8 @@
           "surveyDesc": "Visita de levantamiento, evaluación o cotización antes del trabajo.",
           "logisticsDesc": "Tareas de entrega, recolección, reubicación o transporte.",
           "warehouseDesc": "Movimientos internos de stock, picking, almacenamiento o conteo.",
-          "onDemandDesc": "Trabajos ad-hoc que no siguen un horario fijo."
+          "onDemandDesc": "Trabajos ad-hoc que no siguen un horario fijo.",
+          "joTypeStandaloneDesc": "agrupe los trabajos por tipo de trabajo (instalación, reparación, mantenimiento, daño). Configúrelos aquí para que cada trabajo esté etiquetado correctamente. Para comenzar, clone uno existente."
         },
         "validationFE": {
           "maximum80Chars": "Se superó la longitud máxima de 80 caracteres",

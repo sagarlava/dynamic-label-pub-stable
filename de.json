@@ -14785,6 +14785,13 @@
         "plural": "Neu zuweisen",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "enter": {
+        "original": "Enter",
+        "singular": "Eingeben",
+        "plural": "Eingeben",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "status": {
@@ -15547,7 +15554,10 @@
       "yetToBeScheduled": "Noch nicht geplant",
       "scheduled": "Geplant",
       "rescheduled": "Umscheduled",
-      "removeAllAssociated":"Diese Aktion wird auch alle zugehörigen Elemente entfernen"
+      "removeAllAssociated":"Diese Aktion wird auch alle zugehörigen Elemente entfernen",
+      "howToUse": "Verwendung",
+      "quickSteps": "Kurzanleitung",
+      "one": "einen"
     },
     "currency": {
       "australianDollar": "AUD",
@@ -25008,7 +25018,8 @@
           "surveyDesc": "Standortbegehung, Bewertung oder Angebotstermin vor der Arbeit.",
           "logisticsDesc": "Liefer-, Abhol-, Umzugs- oder Transportaufgaben.",
           "warehouseDesc": "Interne Lagerbewegungen, Kommissionierung, Einlagerung oder Zählung.",
-          "onDemandDesc": "Ad-hoc-Aufträge ohne festen Zeitplan."
+          "onDemandDesc": "Ad-hoc-Aufträge ohne festen Zeitplan.",
+          "joTypeStandaloneDesc": "Aufträge nach Arbeitstyp gruppieren (Installation, Reparatur, Wartung, Schaden). Richten Sie diese hier ein, damit jeder Auftrag korrekt gekennzeichnet wird. Klonen Sie zum Einstieg einen vorhandenen Typ."
         },
         "validationFE": {
           "maximum80Chars": "Maximale Länge von 80 Zeichen überschritten",
