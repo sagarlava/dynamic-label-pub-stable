@@ -5109,6 +5109,20 @@
                 "plural": "Ungrouped",
                 "setupEdit": false,
                 "setupVisible": false
+            },
+            "utilizedFromBin":{
+                "original": "Utilized From Bin",
+                "singular": "Utilized From Bin",
+                "plural": "Utilized From Bin",
+                "setupEdit": false,
+                "setupVisible": false
+            },
+            "qtyUtilized":{
+                "original": "Qty Utilized",
+                "singular": "Qty Utilized",
+                "plural": "Qty Utilized",
+                "setupEdit": false,
+                "setupVisible": false
             }
         },
         "validationFE": {},
@@ -19415,7 +19429,9 @@
                     "to":"to",
                     "needToComplete":"that need to be completed",
                     "searchSelect":"Search and select a",
-                    "toBeAdded":"to be added"
+                    "toBeAdded":"to be added",
+                    "willInitiallyBased":"Price will initially be based on Qty and will follow Qty Utilized when",
+                    "haveBeenUtilized":"have been utilized"
                 }
             },
             "preventiveMaintenance": {

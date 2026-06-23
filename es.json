@@ -3957,6 +3957,20 @@
         "plural": "Sin agrupar",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "utilizedFromBin": {
+        "original": "Utilized From Bin",
+        "singular": "Utilizado desde el contenedor",
+        "plural": "Utilizado desde el contenedor",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "qtyUtilized": {
+        "original": "Qty Utilized",
+        "singular": "Cantidad utilizada",
+        "plural": "Cantidad utilizada",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "validationFE": {},
@@ -24357,7 +24371,9 @@
           "to": "a",
           "needToComplete": "que deben completarse",
           "searchSelect": "Buscar y seleccionar",
-          "toBeAdded": "para agregar"
+          "toBeAdded": "para agregar",
+          "willInitiallyBased": "El precio se basará inicialmente en la cantidad y seguirá la cantidad utilizada cuando",
+          "haveBeenUtilized": "hayan sido utilizados"
         }
       },
       "preventiveMaintenance": {

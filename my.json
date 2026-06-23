@@ -3958,6 +3958,20 @@
         "plural": "Tidak Berkumpulan",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "utilizedFromBin": {
+        "original": "Utilized From Bin",
+        "singular": "Digunakan Dari Bekas",
+        "plural": "Digunakan Dari Bekas",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "qtyUtilized": {
+        "original": "Qty Utilized",
+        "singular": "Kuantiti Digunakan",
+        "plural": "Kuantiti Digunakan",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "validationFE": {},
@@ -24357,7 +24371,9 @@
           "to": "ke",
           "needToComplete": "yang perlu diselesaikan",
           "searchSelect": "Cari dan pilih",
-          "toBeAdded": "untuk ditambah"
+          "toBeAdded": "untuk ditambah",
+          "willInitiallyBased": "Harga pada mulanya akan berdasarkan Kuantiti dan akan mengikut Kuantiti yang Digunakan apabila",
+          "haveBeenUtilized": "telah digunakan"
         }
       },
       "preventiveMaintenance": {

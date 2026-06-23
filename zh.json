@@ -3957,6 +3957,20 @@
         "plural": "未分组",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "utilizedFromBin": {
+        "original": "Utilized From Bin",
+        "singular": "从货箱中取用",
+        "plural": "从货箱中取用",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "qtyUtilized": {
+        "original": "Qty Utilized",
+        "singular": "已使用数量",
+        "plural": "已使用数量",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "validationFE": {},
@@ -24357,7 +24371,9 @@
           "to": "到",
           "needToComplete": "需要完成的",
           "searchSelect": "搜索并选择",
-          "toBeAdded": "待添加"
+          "toBeAdded": "待添加",
+          "willInitiallyBased": "价格最初将基于数量，并在以下情况下遵循已使用数量",
+          "haveBeenUtilized": "已被使用"
         }
       },
       "preventiveMaintenance": {
