@@ -14792,6 +14792,13 @@
         "plural": "Eingeben",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "liveFormPreview": {
+        "original": "Live Form Preview",
+        "singular": "Live-Formularvorschau",
+        "plural": "Live-Formularvorschau",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "status": {
@@ -25122,7 +25129,8 @@
           "markedComplete": "muss als abgeschlossen markiert werden, bevor die nächste gestartet werden kann.",
           "nameThe": "Benennen Sie den",
           "pickAColor": "(optional) eine Farbe auswählen",
-          "beDoneSpecific": "für bestimmte durchgeführt werden"
+          "beDone": "durchgeführt werden für",
+          "specific": "bestimmte"
         }
       }
     },

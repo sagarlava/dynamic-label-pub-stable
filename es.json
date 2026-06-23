@@ -14792,6 +14792,13 @@
         "plural": "Ingresar",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "liveFormPreview": {
+        "original": "Live Form Preview",
+        "singular": "Vista previa del formulario en vivo",
+        "plural": "Vista previa del formulario en vivo",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "status": {
@@ -25122,7 +25129,8 @@
           "markedComplete": "debe marcarse como completada antes de que se pueda iniciar la siguiente.",
           "nameThe": "Nombrar el",
           "pickAColor": "(opcionalmente) elegir un color",
-          "beDoneSpecific": "realizarse para específico"
+          "beDone": "realizarse para",
+          "specific": "específico"
         }
       }
     },

@@ -14793,6 +14793,13 @@
         "plural": "Enter",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "liveFormPreview":{
+        "original": "Live Form Preview",
+        "singular": "Live Form Preview",
+        "plural": "Live Form Preview",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "status": {
@@ -25123,7 +25130,8 @@
           "markedComplete": "has to be marked complete before the next one can be started.",
           "nameThe":"Name the",
           "pickAColor":"(optionally) pick a color",
-          "beDoneSpecific":"be done for specific"
+          "beDone":"be done for",
+          "specific":"specific"
         }
       }
     },

@@ -14793,6 +14793,13 @@
         "plural": "Masukkan",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "liveFormPreview": {
+        "original": "Live Form Preview",
+        "singular": "Pratonton Borang Langsung",
+        "plural": "Pratonton Borang Langsung",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "status": {
@@ -25122,7 +25129,8 @@
           "markedComplete": "perlu ditandakan selesai sebelum tugas seterusnya boleh dimulakan.",
           "nameThe": "Namakan",
           "pickAColor": "(pilihan) pilih warna",
-          "beDoneSpecific": "dilakukan untuk yang tertentu"
+          "beDone": "dilakukan untuk",
+          "specific": "tertentu"
         }
       }
     },
