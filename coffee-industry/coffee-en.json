@@ -11427,6 +11427,20 @@
         "plural": "Re-Assign",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "enter":{
+        "original": "Enter",
+        "singular": "Enter",
+        "plural": "Enter",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "liveFormPreview":{
+        "original": "Live Form Preview",
+        "singular": "Live Form Preview",
+        "plural": "Live Form Preview",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "status": {
@@ -12189,7 +12203,10 @@
       "yetToBeScheduled": "Yet to be scheduled",
       "scheduled": "Scheduled",
       "rescheduled": "Rescheduled",
-      "removeAllAssociated":"This action will also remove all associated"
+      "removeAllAssociated":"This action will also remove all associated",
+      "howToUse":"How to Use",
+      "quickSteps":"Quick steps",
+      "one":"one"
     },
     "currency":{
       "australianDollar": "AUD",
@@ -20983,7 +21000,9 @@
           "to":"to",
           "needToComplete":"that need to be completed",
           "searchSelect":"Search and select a",
-          "toBeAdded":"to be added"
+          "toBeAdded":"to be added",
+          "willInitiallyBased":"Price will initially be based on Qty and will follow Qty Utilized when",
+          "haveBeenUtilized":"have been utilized"
         }
       },
       "preventiveMaintenance": {
@@ -21651,7 +21670,8 @@
           "surveyDesc": "Site survey, assessment, or quotation visit before work.",
           "logisticsDesc": "Delivery, collection, relocation, or transport tasks.",
           "warehouseDesc": "Internal stock moves, picking, put-away, or counting.",
-          "onDemandDesc": "Ad-hoc jobs that don't follow a fixed schedule."
+          "onDemandDesc": "Ad-hoc jobs that don't follow a fixed schedule.",
+          "joTypeStandaloneDesc":"group jobs by work type (installation, repair, maintenance, damage). Set them up here so each job is tagged correctly. To get started, clone an existing one."
         },
         "validationFE":{
           "maximum80Chars":"Maximum length of 80 characters exceeded",
@@ -21752,7 +21772,11 @@
           "inThe": "in the",
           "mustBeFinished": "must be finished in order",
           "each": "Each",
-          "markedComplete": "has to be marked complete before the next one can be started."
+          "markedComplete": "has to be marked complete before the next one can be started.",
+          "nameThe":"Name the",
+          "pickAColor":"(optionally) pick a color",
+          "beDone":"be done for",
+          "specific":"specific"
         }
       }
     },

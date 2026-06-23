@@ -4102,6 +4102,20 @@
         "plural": "未分组",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "utilizedFromBin": {
+        "original": "Utilized From Bin",
+        "singular": "从货箱中取用",
+        "plural": "从货箱中取用",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "qtyUtilized": {
+        "original": "Qty Utilized",
+        "singular": "已使用数量",
+        "plural": "已使用数量",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "validationFE": {},
@@ -15498,6 +15512,20 @@
         "plural": "重新分配",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "enter": {
+        "original": "Enter",
+        "singular": "输入",
+        "plural": "输入",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "liveFormPreview": {
+        "original": "Live Form Preview",
+        "singular": "实时表单预览",
+        "plural": "实时表单预览",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "status": {
@@ -16311,7 +16339,10 @@
       "yetToBeScheduled": "尚未安排",
       "scheduled": "已安排",
       "rescheduled": "已重新安排",
-      "removeAllAssociated":"此操作还将删除所有相关项目"
+      "removeAllAssociated":"此操作还将删除所有相关项目",
+      "howToUse": "使用方法",
+      "quickSteps": "快速步骤",
+      "one": "一个"
     },
     "currency": {
       "australianDollar": "AUD",
@@ -25652,7 +25683,9 @@
           "to": "到",
           "needToComplete": "需要完成的",
           "searchSelect": "搜索并选择",
-          "toBeAdded": "待添加"
+          "toBeAdded": "待添加",
+          "willInitiallyBased": "价格最初将基于数量，并在以下情况下遵循已使用数量",
+          "haveBeenUtilized": "已被使用"
         }
       },
       "preventiveMaintenance": {
@@ -26320,7 +26353,8 @@
           "surveyDesc": "工作前的现场勘测、评估或报价访问。",
           "logisticsDesc": "交付、收取、搬迁或运输任务。",
           "warehouseDesc": "内部库存移动、拣货、上架或盘点。",
-          "onDemandDesc": "不遵循固定计划的临时工单。"
+          "onDemandDesc": "不遵循固定计划的临时工单。",
+          "joTypeStandaloneDesc": "按工作类型（安装、维修、维护、损坏）对工单进行分组。在此处进行设置，以便每个工单都能正确标记。如需开始，请克隆现有类型。"
         },
         "validationFE": {
           "maximum80Chars": "超过最大长度 80 个字符",
@@ -26420,7 +26454,11 @@
           "inThe": "在",
           "mustBeFinished": "必须按顺序完成",
           "each": "每个",
-          "markedComplete": "必须标记为完成，才能开始下一个。"
+          "markedComplete": "必须标记为完成，才能开始下一个。",
+          "nameThe": "命名",
+          "pickAColor": "（可选）选择颜色",
+          "beDone": "为以下对象完成",
+          "specific": "特定"
         }
       }
     },

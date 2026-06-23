@@ -4094,6 +4094,20 @@
         "plural": "Nicht gruppiert",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "utilizedFromBin": {
+        "original": "Utilized From Bin",
+        "singular": "Aus Behälter entnommen",
+        "plural": "Aus Behälter entnommen",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "qtyUtilized": {
+        "original": "Qty Utilized",
+        "singular": "Verbrauchte Menge",
+        "plural": "Verbrauchte Menge",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "validationFE": {},
@@ -15499,6 +15513,20 @@
         "plural": "Neu zuweisen",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "enter": {
+        "original": "Enter",
+        "singular": "Eingeben",
+        "plural": "Eingeben",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "liveFormPreview": {
+        "original": "Live Form Preview",
+        "singular": "Live-Formularvorschau",
+        "plural": "Live-Formularvorschau",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "status": {
@@ -16312,7 +16340,10 @@
       "yetToBeScheduled": "Noch nicht geplant",
       "scheduled": "Geplant",
       "rescheduled": "Umscheduled",
-      "removeAllAssociated":"Diese Aktion wird auch alle zugehörigen Elemente entfernen"
+      "removeAllAssociated":"Diese Aktion wird auch alle zugehörigen Elemente entfernen",
+      "howToUse": "Verwendung",
+      "quickSteps": "Kurzanleitung",
+      "one": "einen"
     },
     "currency": {
       "australianDollar": "AUD",
@@ -25653,7 +25684,9 @@
           "to": "zu",
           "needToComplete": "die abgeschlossen werden müssen",
           "searchSelect": "Suchen und auswählen",
-          "toBeAdded": "hinzuzufügen"
+          "toBeAdded": "hinzuzufügen",
+          "willInitiallyBased": "Der Preis basiert zunächst auf der Menge und folgt der verbrauchten Menge, wenn",
+          "haveBeenUtilized": "verbraucht wurden"
         }
       },
       "preventiveMaintenance": {
@@ -26321,7 +26354,8 @@
           "surveyDesc": "Standortbegehung, Bewertung oder Angebotstermin vor der Arbeit.",
           "logisticsDesc": "Liefer-, Abhol-, Umzugs- oder Transportaufgaben.",
           "warehouseDesc": "Interne Lagerbewegungen, Kommissionierung, Einlagerung oder Zählung.",
-          "onDemandDesc": "Ad-hoc-Aufträge ohne festen Zeitplan."
+          "onDemandDesc": "Ad-hoc-Aufträge ohne festen Zeitplan.",
+          "joTypeStandaloneDesc": "Aufträge nach Arbeitstyp gruppieren (Installation, Reparatur, Wartung, Schaden). Richten Sie diese hier ein, damit jeder Auftrag korrekt gekennzeichnet wird. Klonen Sie zum Einstieg einen vorhandenen Typ."
         },
         "validationFE": {
           "maximum80Chars": "Maximale Länge von 80 Zeichen überschritten",
@@ -26421,7 +26455,11 @@
           "inThe": "im",
           "mustBeFinished": "müssen der Reihe nach abgeschlossen werden",
           "each": "Jede",
-          "markedComplete": "muss als abgeschlossen markiert werden, bevor die nächste gestartet werden kann."
+          "markedComplete": "muss als abgeschlossen markiert werden, bevor die nächste gestartet werden kann.",
+          "nameThe": "Benennen Sie den",
+          "pickAColor": "(optional) eine Farbe auswählen",
+          "beDone": "durchgeführt werden für",
+          "specific": "bestimmte"
         }
       }
     },
