@@ -14813,6 +14813,34 @@
         "plural": "Vista previa del formulario en vivo",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "reorder": {
+        "original": "Re-Order",
+        "singular": "Reordenar",
+        "plural": "Reordenar",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "toggleOff": {
+        "original": "Toggle Off",
+        "singular": "Desactivar",
+        "plural": "Desactivar",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "toggleOn": {
+        "original": "Toggle On",
+        "singular": "Activar",
+        "plural": "Activar",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "pick": {
+        "original": "Pick",
+        "singular": "Elegir",
+        "plural": "Elegir",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "status": {
@@ -24373,7 +24401,15 @@
           "searchSelect": "Buscar y seleccionar",
           "toBeAdded": "para agregar",
           "willInitiallyBased": "El precio se basará inicialmente en la cantidad y seguirá la cantidad utilizada cuando",
-          "haveBeenUtilized": "hayan sido utilizados"
+          "haveBeenUtilized": "hayan sido utilizados",
+          "preFilledForm": "formulario prellenado con",
+          "detailsLike": "detalles como",
+          "otherAvailableFields": "y otros campos disponibles",
+          "whenCreating": "Al crear un",
+          "justSelect": "simplemente seleccione un",
+          "everythingPrefilled": "y todo estará prellenado. Puede ajustar cualquier cosa antes de guardar.",
+          "toQuickly": "para rápidamente",
+          "withPrefillDetails": "con detalles prellenados"
         }
       },
       "preventiveMaintenance": {
@@ -25042,7 +25078,10 @@
           "logisticsDesc": "Tareas de entrega, recolección, reubicación o transporte.",
           "warehouseDesc": "Movimientos internos de stock, picking, almacenamiento o conteo.",
           "onDemandDesc": "Trabajos ad-hoc que no siguen un horario fijo.",
-          "joTypeStandaloneDesc": "agrupe los trabajos por tipo de trabajo (instalación, reparación, mantenimiento, daño). Configúrelos aquí para que cada trabajo esté etiquetado correctamente. Para comenzar, clone uno existente."
+          "joTypeStandaloneDesc": "agrupe los trabajos por tipo de trabajo (instalación, reparación, mantenimiento, daño). Configúrelos aquí para que cada trabajo esté etiquetado correctamente. Para comenzar, clone uno existente.",
+          "helpsGroup": "le ayuda a agrupar",
+          "forPlanningReporting": "para planificación e informes.",
+          "chooseOptionMatches": "Elija la opción que mejor se adapte al propósito principal de este"
         },
         "validationFE": {
           "maximum80Chars": "Se superó la longitud máxima de 80 caracteres",

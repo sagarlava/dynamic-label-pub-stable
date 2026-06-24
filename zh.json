@@ -14813,6 +14813,34 @@
         "plural": "实时表单预览",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "reorder": {
+        "original": "Re-Order",
+        "singular": "重新订购",
+        "plural": "重新订购",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "toggleOff": {
+        "original": "Toggle Off",
+        "singular": "关闭切换",
+        "plural": "关闭切换",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "toggleOn": {
+        "original": "Toggle On",
+        "singular": "开启切换",
+        "plural": "开启切换",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "pick": {
+        "original": "Pick",
+        "singular": "选取",
+        "plural": "选取",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "status": {
@@ -24373,7 +24401,15 @@
           "searchSelect": "搜索并选择",
           "toBeAdded": "待添加",
           "willInitiallyBased": "价格最初将基于数量，并在以下情况下遵循已使用数量",
-          "haveBeenUtilized": "已被使用"
+          "haveBeenUtilized": "已被使用",
+          "preFilledForm": "预填表单，包含标准",
+          "detailsLike": "详细信息，例如",
+          "otherAvailableFields": "及其他可用字段",
+          "whenCreating": "创建",
+          "justSelect": "只需选择",
+          "everythingPrefilled": "所有内容将自动预填。您可以在保存前进行任何调整。",
+          "toQuickly": "以快速",
+          "withPrefillDetails": "附带预填详情"
         }
       },
       "preventiveMaintenance": {
@@ -25042,7 +25078,10 @@
           "logisticsDesc": "交付、收取、搬迁或运输任务。",
           "warehouseDesc": "内部库存移动、拣货、上架或盘点。",
           "onDemandDesc": "不遵循固定计划的临时工单。",
-          "joTypeStandaloneDesc": "按工作类型（安装、维修、维护、损坏）对工单进行分组。在此处进行设置，以便每个工单都能正确标记。如需开始，请克隆现有类型。"
+          "joTypeStandaloneDesc": "按工作类型（安装、维修、维护、损坏）对工单进行分组。在此处进行设置，以便每个工单都能正确标记。如需开始，请克隆现有类型。",
+          "helpsGroup": "帮助您将",
+          "forPlanningReporting": "用于计划和报告。",
+          "chooseOptionMatches": "选择最符合此项主要用途的选项"
         },
         "validationFE": {
           "maximum80Chars": "超过最大长度 80 个字符",

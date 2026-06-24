@@ -14813,6 +14813,34 @@
         "plural": "Live-Formularvorschau",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "reorder": {
+        "original": "Re-Order",
+        "singular": "Nachbestellen",
+        "plural": "Nachbestellen",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "toggleOff": {
+        "original": "Toggle Off",
+        "singular": "Ausschalten",
+        "plural": "Ausschalten",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "toggleOn": {
+        "original": "Toggle On",
+        "singular": "Einschalten",
+        "plural": "Einschalten",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "pick": {
+        "original": "Pick",
+        "singular": "Auswählen",
+        "plural": "Auswählen",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "status": {
@@ -24373,7 +24401,15 @@
           "searchSelect": "Suchen und auswählen",
           "toBeAdded": "hinzuzufügen",
           "willInitiallyBased": "Der Preis basiert zunächst auf der Menge und folgt der verbrauchten Menge, wenn",
-          "haveBeenUtilized": "verbraucht wurden"
+          "haveBeenUtilized": "verbraucht wurden",
+          "preFilledForm": "vorausgefülltes Formular mit Standard-",
+          "detailsLike": "Details wie",
+          "otherAvailableFields": "und anderen verfügbaren Feldern",
+          "whenCreating": "Beim Erstellen eines",
+          "justSelect": "wählen Sie einfach einen",
+          "everythingPrefilled": "und alles wird vorausgefüllt. Sie können vor dem Speichern alles anpassen.",
+          "toQuickly": "um schnell",
+          "withPrefillDetails": "mit vorausgefüllten Details"
         }
       },
       "preventiveMaintenance": {
@@ -25042,7 +25078,10 @@
           "logisticsDesc": "Liefer-, Abhol-, Umzugs- oder Transportaufgaben.",
           "warehouseDesc": "Interne Lagerbewegungen, Kommissionierung, Einlagerung oder Zählung.",
           "onDemandDesc": "Ad-hoc-Aufträge ohne festen Zeitplan.",
-          "joTypeStandaloneDesc": "Aufträge nach Arbeitstyp gruppieren (Installation, Reparatur, Wartung, Schaden). Richten Sie diese hier ein, damit jeder Auftrag korrekt gekennzeichnet wird. Klonen Sie zum Einstieg einen vorhandenen Typ."
+          "joTypeStandaloneDesc": "Aufträge nach Arbeitstyp gruppieren (Installation, Reparatur, Wartung, Schaden). Richten Sie diese hier ein, damit jeder Auftrag korrekt gekennzeichnet wird. Klonen Sie zum Einstieg einen vorhandenen Typ.",
+          "helpsGroup": "hilft Ihnen dabei,",
+          "forPlanningReporting": "für Planung und Berichterstattung zu gruppieren.",
+          "chooseOptionMatches": "Wählen Sie die Option, die dem Hauptzweck dieses am besten entspricht"
         },
         "validationFE": {
           "maximum80Chars": "Maximale Länge von 80 Zeichen überschritten",

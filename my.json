@@ -14814,6 +14814,34 @@
         "plural": "Pratonton Borang Langsung",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "reorder": {
+        "original": "Re-Order",
+        "singular": "Pesan Semula",
+        "plural": "Pesan Semula",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "toggleOff": {
+        "original": "Toggle Off",
+        "singular": "Togol Mati",
+        "plural": "Togol Mati",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "toggleOn": {
+        "original": "Toggle On",
+        "singular": "Togol Hidup",
+        "plural": "Togol Hidup",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "pick": {
+        "original": "Pick",
+        "singular": "Pilih",
+        "plural": "Pilih",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "status": {
@@ -24373,7 +24401,15 @@
           "searchSelect": "Cari dan pilih",
           "toBeAdded": "untuk ditambah",
           "willInitiallyBased": "Harga pada mulanya akan berdasarkan Kuantiti dan akan mengikut Kuantiti yang Digunakan apabila",
-          "haveBeenUtilized": "telah digunakan"
+          "haveBeenUtilized": "telah digunakan",
+          "preFilledForm": "borang pra-isi dengan",
+          "detailsLike": "butiran seperti",
+          "otherAvailableFields": "dan medan-medan lain yang tersedia",
+          "whenCreating": "Semasa membuat",
+          "justSelect": "hanya pilih",
+          "everythingPrefilled": "dan semua maklumat akan diisi secara automatik. Anda boleh mengubah apa-apa sebelum menyimpan.",
+          "toQuickly": "untuk dengan cepat",
+          "withPrefillDetails": "dengan butiran pra-isi"
         }
       },
       "preventiveMaintenance": {
@@ -25042,7 +25078,10 @@
           "logisticsDesc": "Tugas penghantaran, pengumpulan, pemindahan, atau pengangkutan.",
           "warehouseDesc": "Pergerakan stok dalaman, pengambilan, penyimpanan, atau pengiraan.",
           "onDemandDesc": "Kerja ad-hoc yang tidak mengikut jadual tetap.",
-          "joTypeStandaloneDesc": "kumpulkan kerja mengikut jenis kerja (pemasangan, pembaikan, penyelenggaraan, kerosakan). Sediakan di sini supaya setiap kerja ditandai dengan betul. Untuk memulakan, klon yang sedia ada."
+          "joTypeStandaloneDesc": "kumpulkan kerja mengikut jenis kerja (pemasangan, pembaikan, penyelenggaraan, kerosakan). Sediakan di sini supaya setiap kerja ditandai dengan betul. Untuk memulakan, klon yang sedia ada.",
+          "helpsGroup": "membantu anda mengumpulkan",
+          "forPlanningReporting": "untuk perancangan dan pelaporan.",
+          "chooseOptionMatches": "Pilih pilihan yang paling sesuai dengan tujuan utama ini"
         },
         "validationFE": {
           "maximum80Chars": "Panjang maksimum 80 aksara telah dilampaui",

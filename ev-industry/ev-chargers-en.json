@@ -19431,7 +19431,15 @@
                     "searchSelect":"Search and select a",
                     "toBeAdded":"to be added",
                     "willInitiallyBased":"Price will initially be based on Qty and will follow Qty Utilized when",
-                    "haveBeenUtilized":"have been utilized"
+                    "haveBeenUtilized":"have been utilized",
+                    "preFilledForm":"pre-filled form with standard",
+                    "detailsLike":"details like",
+                    "otherAvailableFields":"and other available fields",
+                    "whenCreating":"When creating a",
+                    "justSelect":"just select a",
+                    "everythingPrefilled":"and everything will be prefilled. You can adjust anything before saving.",
+                    "toQuickly":"to quickly",
+                    "withPrefillDetails":"with pre-filled details"
                 }
             },
             "preventiveMaintenance": {
@@ -20100,7 +20108,10 @@
                 "logisticsDesc": "Delivery, collection, relocation, or transport tasks.",
                 "warehouseDesc": "Internal stock moves, picking, put-away, or counting.",
                 "onDemandDesc": "Ad-hoc jobs that don't follow a fixed schedule.",
-                "joTypeStandaloneDesc":"group jobs by work type (installation, repair, maintenance, damage). Set them up here so each job is tagged correctly. To get started, clone an existing one."
+                "joTypeStandaloneDesc":"group jobs by work type (installation, repair, maintenance, damage). Set them up here so each job is tagged correctly. To get started, clone an existing one.",
+          "helpsGroup":"helps you group",
+          "forPlanningReporting":"for planning and reporting.",
+          "chooseOptionMatches":"Choose the option that best matches the main purpose of this"
                 },
                 "validationFE":{
                 "maximum80Chars":"Maximum length of 80 characters exceeded",
@@ -25416,6 +25427,34 @@
                 "original": "Live Form Preview",
                 "singular": "Live Form Preview",
                 "plural": "Live Form Preview",
+                "setupEdit": false,
+                "setupVisible": false
+            },
+            "reorder":{
+                "original": "Re-Order",
+                "singular": "Re-Order",
+                "plural": "Re-Order",
+                "setupEdit": false,
+                "setupVisible": false
+            },
+            "toggleOff":{
+                "original": "Toggle Off",
+                "singular": "Toggle Off",
+                "plural": "Toggle Off",
+                "setupEdit": false,
+                "setupVisible": false
+            },
+            "toggleOn":{
+                "original": "Toggle On",
+                "singular": "Toggle On",
+                "plural": "Toggle On",
+                "setupEdit": false,
+                "setupVisible": false
+            },
+            "pick":{
+                "original": "Pick",
+                "singular": "Pick",
+                "plural": "Pick",
                 "setupEdit": false,
                 "setupVisible": false
             }
