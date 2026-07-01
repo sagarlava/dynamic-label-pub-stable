@@ -32784,7 +32784,8 @@
       "rateCardNameEmpty": "Rate Card name is mandatory",
       "rateCardFixedRateValueEmpty": "Fixed Rate Value is required for Fixed Rate Card",
       "rateCardVariableRatesEmpty": "First Hour Rate and Subsequent Hour Rate are required for Variable Rate Card",
-      "rateCardRateRoundingOffMinutesNotValid": "Valid Rounding Off Minutes is required for Variable Rate Card"
+      "rateCardRateRoundingOffMinutesNotValid": "Valid Rounding Off Minutes is required for Variable Rate Card",
+      "rateCardCannotDeleteDueToJobOrders": "Unable to delete : This rate card is currently linked to a job order. Please unlink it from all associated job orders before proceeding with deletion"
     },
     "tooltips": {
       "setupVisible": false,

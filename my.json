@@ -32783,7 +32783,8 @@
       "rateCardNameEmpty": "Nama Kad Kadar adalah wajib",
       "rateCardFixedRateValueEmpty": "Nilai Kadar Tetap diperlukan untuk Kad Kadar Tetap",
       "rateCardVariableRatesEmpty": "Kadar Jam Pertama dan Kadar Jam Seterusnya diperlukan untuk Kad Kadar Boleh Ubah",
-      "rateCardRateRoundingOffMinutesNotValid": "Minit Pembulatan Sah diperlukan untuk Kad Kadar Boleh Ubah"
+      "rateCardRateRoundingOffMinutesNotValid": "Minit Pembulatan Sah diperlukan untuk Kad Kadar Boleh Ubah",
+      "rateCardCannotDeleteDueToJobOrders": "Tidak dapat dipadam: Kad kadar ini kini dipautkan kepada pesanan kerja. Sila nyahpautkannya daripada semua pesanan kerja yang berkaitan sebelum meneruskan pemadaman"
     },
     "tooltips": {
       "setupVisible": false,

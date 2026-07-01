@@ -32782,7 +32782,8 @@
       "rateCardNameEmpty": "El nombre de la Tarjeta de Tarifas es obligatorio",
       "rateCardFixedRateValueEmpty": "Se requiere un Valor Fijo para la Tarjeta de Tarifas Fijas",
       "rateCardVariableRatesEmpty": "Se requieren la Tarifa de la Primera Hora y la Tarifa de las Horas Subsiguientes para la Tarjeta de Tarifas Variables",
-      "rateCardRateRoundingOffMinutesNotValid": "Se requieren Minutos de Redondeo Válidos para la Tarjeta de Tarifas Variables"
+      "rateCardRateRoundingOffMinutesNotValid": "Se requieren Minutos de Redondeo Válidos para la Tarjeta de Tarifas Variables",
+      "rateCardCannotDeleteDueToJobOrders": "No se puede eliminar: Esta tarjeta de tarifas está vinculada actualmente a una orden de trabajo. Desvincúlelo de todas las órdenes de trabajo asociadas antes de proceder con la eliminación"
     },
     "tooltips": {
       "setupVisible": false,

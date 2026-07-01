@@ -32782,7 +32782,8 @@
       "rateCardNameEmpty": "Der Name der Rate Card ist obligatorisch",
       "rateCardFixedRateValueEmpty": "Ein fester Wert ist für die feste Rate Card erforderlich",
       "rateCardVariableRatesEmpty": "Der Erststundensatz und der Folgestundensatz sind für die variable Rate Card erforderlich",
-      "rateCardRateRoundingOffMinutesNotValid": "Gültige Abrundungsminuten sind für die variable Rate Card erforderlich"
+      "rateCardRateRoundingOffMinutesNotValid": "Gültige Abrundungsminuten sind für die variable Rate Card erforderlich",
+      "rateCardCannotDeleteDueToJobOrders": "Löschen nicht möglich: Diese Ratekarte ist derzeit mit einem Arbeitsauftrag verknüpft. Bitte trennen Sie sie von allen zugehörigen Arbeitsaufträgen, bevor Sie fortfahren"
     },
     "tooltips": {
       "setupVisible": false,

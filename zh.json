@@ -32782,7 +32782,8 @@
       "rateCardNameEmpty": "费率卡名称为必填项",
       "rateCardFixedRateValueEmpty": "固定费率卡需要固定值",
       "rateCardVariableRatesEmpty": "可变费率卡需要第一小时费率和后续小时费率",
-      "rateCardRateRoundingOffMinutesNotValid": "可变费率卡需要有效的舍入分钟"
+      "rateCardRateRoundingOffMinutesNotValid": "可变费率卡需要有效的舍入分钟",
+      "rateCardCannotDeleteDueToJobOrders": "无法删除： 此费率卡当前已关联到工单。请在继续删除之前，将其与所有相关工单解除关联"
     },
     "tooltips": {
       "setupVisible": false,
