@@ -3923,6 +3923,55 @@
         "plural": "Modelle",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "price": {
+        "original": "Price",
+        "singular": "Preis",
+        "plural": "Preise",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "used": {
+        "original": "Used",
+        "singular": "Verwendet",
+        "plural": "Verwendet",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "quantityCaps": {
+        "original": "Quantity",
+        "singular": "Menge",
+        "plural": "Mengen",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "totalQuantity": {
+        "original": "Total Quantity",
+        "singular": "Gesamtmenge",
+        "plural": "Gesamtmengen",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "ungrouped":{
+        "original": "Ungrouped",
+        "singular": "Nicht gruppiert",
+        "plural": "Nicht gruppiert",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "utilizedFromBin": {
+        "original": "Utilized From Bin",
+        "singular": "Aus Behälter entnommen",
+        "plural": "Aus Behälter entnommen",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "qtyUtilized": {
+        "original": "Qty Utilized",
+        "singular": "Verbrauchte Menge",
+        "plural": "Verbrauchte Menge",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "validationFE": {},
@@ -5731,6 +5780,13 @@
         "plural": "",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "visit": {
+        "original": "Visit",
+        "singular": "Besuch",
+        "plural": "Besuche",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "validationFE": {},
@@ -7122,6 +7178,20 @@
         "original": "Activity",
         "singular": "Aktivität",
         "plural": "Aktivitäten",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec56": {
+        "original": "Additional Information",
+        "singular": "Zusätzliche Informationen",
+        "plural": "Zusätzliche Informationen",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec57": {
+        "original": "Record",
+        "singular": "Rekod",
+        "plural": "Rekods",
         "setupEdit": false,
         "setupVisible": false
       }
@@ -9309,7 +9379,7 @@
       "note": {
         "original": "Note",
         "singular": "Notiz",
-        "plural": "",
+        "plural": "Notizen",
         "setupVisible": true,
         "setupEdit": true
       },
@@ -9459,6 +9529,27 @@
         "plural": "",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "order": {
+        "original": "Order",
+        "singular": "Bestellung",
+        "plural": "Bestellungen",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "reference": {
+        "original": "Reference",
+        "singular": "Referenz",
+        "plural": "Referenzen",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "recent": {
+        "original": "Recent",
+        "singular": "Kürzlich",
+        "plural": "Kürzlich",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "validationFE": {
@@ -9530,7 +9621,15 @@
       "jobOrderProductStatusIdNotFound": "ID nicht gefunden",
       "slaJobOrderIdExists": "Ein neuer SLA-Arbeitsauftrag kann nicht bereits eine ID haben",
       "jobOrderPriceBookNotFound": "Price Book nicht gefunden",
-      "mandatoryTasksNotCompleted": "Ein oder mehrere Pflichtaufgaben sind noch nicht abgeschlossen. Schließen Sie diese ab, bevor Sie diesen Arbeitsauftrag abschließen."
+      "mandatoryTasksNotCompleted": "Ein oder mehrere Pflichtaufgaben sind noch nicht abgeschlossen. Schließen Sie diese ab, bevor Sie diesen Arbeitsauftrag abschließen.",
+      "pdfTemplateNotFound": "PDF-Vorlage nicht gefunden",
+      "pdfTemplateSettingMissing": "PDF-Vorlage hat keine Einstellungen",
+      "pdfTemplateNotActive": "PDF-Vorlage ist nicht aktiv",
+      "noValidTrigger": "Kein gültiger Auslöser für den Arbeitsauftrag gefunden",
+      "pdfTemplateNameRequired": "Vorlagenname ist erforderlich",
+      "pdfTemplateTriggerRequired": "Mindestens ein Auslöser ist erforderlich",
+      "pdfTemplateNameTooLong": "Der Vorlagenname überschreitet die maximale Länge von 255 Zeichen",
+      "pdfTemplateNamePatternMissing": "Muster für den generierten PDF-Namen ist nicht konfiguriert"
     },
     "tooltips": {
       "setupVisible": false,
@@ -9595,7 +9694,11 @@
       "signOff": "Abmelden",
       "photoUpload": "Foto hochladen",
       "viewPdf": "PDF anzeigen",
-      "emailPdf": "PDF per E-Mail senden"
+      "emailPdf": "PDF per E-Mail senden",
+      "linkThis":"Diesen Link verwenden",
+      "jobTitle":"Job-Titel",
+      "willBeAssigned": "wird den Gruppenmitgliedern in einer Round-Robin-Reihenfolge zugewiesen (abwechselnd unter den Teammitgliedern aufgeteilt).",
+      "toAllAdded": "an alle hinzugefügten"
     }
   },
   "inventory": {
@@ -12637,6 +12740,148 @@
       "onlyAcceptImagesExt":"Nur JPG, JPEG und PNG werden akzeptiert"
     }
   },
+  "document": {
+    "setupEdit": false,
+    "setupVisible": false,
+    "label": {
+      "original": "Documents",
+      "singular": "Dokument",
+      "plural": "Dokumente",
+      "setupEdit": false,
+      "setupVisible": false
+    },
+    "sections": {
+      "setupEdit": false,
+      "setupVisible": false,
+      "sec0": {
+        "original": "PDF",
+        "singular": "PDF",
+        "plural": "PDFs",
+        "setupEdit": true,
+        "setupVisible": false
+      }
+    },
+    "fields": {
+      "setupEdit": false,
+      "setupVisible": false,
+      "generatedOn": {
+        "original": "Generated On",
+        "singular": "Erstellt am",
+        "plural": "Erstellt am",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "version": {
+        "original": "Version",
+        "singular": "Version",
+        "plural": "Versionen",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "triggerStatus": {
+        "original": "Trigger Status",
+        "singular": "Auslösestatus",
+        "plural": "Auslösestatus",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "triggerType": {
+        "original": "Trigger Type",
+        "singular": "Auslösertyp",
+        "plural": "Auslösertypen",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "notes": {
+        "original": "Notes",
+        "singular": "Notiz",
+        "plural": "Notizen",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "assignTo": {
+        "original": "Assign To",
+        "singular": "Zuweisen an",
+        "plural": "Zuweisen an",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "to": {
+        "original": "To",
+        "singular": "An",
+        "plural": "An",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "cc": {
+        "original": "CC",
+        "singular": "CC",
+        "plural": "CC",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "email": {
+        "original": "Email",
+        "singular": "E-Mail",
+        "plural": "E-Mails",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "name": {
+        "original": "Name",
+        "singular": "Name",
+        "plural": "Namen",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "recipient": {
+        "original": "Recipient",
+        "singular": "Empfänger",
+        "plural": "Empfänger",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "auditTrail": {
+        "original": "Audit Trail",
+        "singular": "Prüfpfad",
+        "plural": "Prüfpfade",
+        "setupEdit": false,
+        "setupVisible": false
+      }
+    },
+    "messages": {
+      "selectTemplateToGenerate": "Wählen Sie die zu generierende Vorlage aus",
+      "selectATemplate": "Vorlage auswählen",
+      "addNotesOptional": "Notizen hinzufügen (optional)",
+      "selectEmailRecipients": "E-Mail-Empfänger auswählen",
+      "selectRecipientsHint": "Wählen Sie die Empfänger dieser Datei aus. Sie können mehrere CC-Werte eingeben",
+      "selectAContact": "Empfänger auswählen",
+      "enterRecipientEmail": "Empfänger-E-Mail eingeben",
+      "enterCCEmails": "E-Mail-Adressen eingeben",
+      "ccHint": "Adressen mit Kommas trennen. Maximal 2.",
+      "generateNewVersion": "Diese Aktion generiert eine neue Version dieses Dokuments mit aktualisierten Informationen.",
+      "storedOnServer": "Im Server-Dateisystem gespeichert"
+    },
+    "validationFE": {
+      "sentSuccesfully": "erfolgreich gesendet",
+      "generatedSuccesfully": "erfolgreich generiert",
+      "regeneratedSuccesfully": "erfolgreich neu generiert",
+      "failedGenerate": "Generierung fehlgeschlagen",
+      "failedRegenerate": "Neugenerierung fehlgeschlagen",
+      "failedSend": "Senden fehlgeschlagen",
+      "maxCCExceeded": "Maximal 2 CC-Adressen erlaubt.",
+      "invalidCCEmail": "Eine oder mehrere CC-Adressen sind ungültig.",
+      "noUrlAvailable": "Keine Datei-URL verfügbar für dieses",
+      "filePathCopied": "Dateipfad in die Zwischenablage kopiert",
+      "recipientRequired": "Empfänger ist erforderlich.",
+      "emailRequired": "E-Mail ist erforderlich.",
+      "invalidEmail": "Bitte geben Sie eine gültige E-Mail-Adresse ein.",
+      "isMissing": "ist nicht vorhanden",
+      "noFileUrlAvailable": "Keine Datei-URL für dieses PDF verfügbar",
+      "browsersCannotPreview": "Browser können lokale Pfade nicht in der Vorschau anzeigen",
+      "noAuditTrail": "Kein Prüfpfad verfügbar"
+    }
+  },
   "history": {
     "setupEdit": false,
     "setupVisible": false,
@@ -14608,6 +14853,13 @@
         "setupEdit": false,
         "setupVisible": false
       },
+      "filterBy": {
+        "original": "Filter by",
+        "singular": "Filtern nach",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
       "enable":{
         "original": "Enable",
         "singular": "Aktivieren",
@@ -14668,6 +14920,76 @@
         "original": "Regenerate",
         "singular": "Neu generieren",
         "plural": "Neu generieren",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "clickViewSeparate": {
+        "original": "Click to view in a separate tab",
+        "singular": "Klicken Sie hier, um es in einem separaten Tab anzuzeigen",
+        "plural": "Klicken Sie hier, um es in einem separaten Tab anzuzeigen",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "markOptional":{
+        "original": "Mark Optional",
+        "singular": "Als optional markieren",
+        "plural": "Als optional markieren",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "makeMandatory":{
+        "original": "Make Mandatory",
+        "singular": "Als obligatorisch markieren",
+        "plural": "Als obligatorisch markieren",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "reAssign":{
+        "original": "Re-Assign",
+        "singular": "Neu zuweisen",
+        "plural": "Neu zuweisen",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "enter": {
+        "original": "Enter",
+        "singular": "Eingeben",
+        "plural": "Eingeben",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "liveFormPreview": {
+        "original": "Live Form Preview",
+        "singular": "Live-Formularvorschau",
+        "plural": "Live-Formularvorschau",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "reorder": {
+        "original": "Re-Order",
+        "singular": "Nachbestellen",
+        "plural": "Nachbestellen",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "toggleOff": {
+        "original": "Toggle Off",
+        "singular": "Ausschalten",
+        "plural": "Ausschalten",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "toggleOn": {
+        "original": "Toggle On",
+        "singular": "Einschalten",
+        "plural": "Einschalten",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "pick": {
+        "original": "Pick",
+        "singular": "Auswählen",
+        "plural": "Auswählen",
         "setupEdit": false,
         "setupVisible": false
       }
@@ -15402,7 +15724,40 @@
       "confirmation":"Bestätigung",
       "makeFilterSelectionsCheckAvail":"Treffen Sie Filterauswahlen, um die Verfügbarkeit zu prüfen",
       "updateConfirmation":"Aktualisierungsbestätigung",
-      "confirmProceed": "Möchten Sie wirklich fortfahren"
+      "confirmProceed": "Möchten Sie wirklich fortfahren",
+      "theLower": "der/die/das",
+      "thisLower": "dieses",
+      "andLower": "und",
+      "toLower": "zu",
+      "aLower": "ein/eine",
+      "anLower": "ein/eine",
+      "orLower": "oder",
+      "fromLower": "von",
+      "addClearDesc": "Fügen Sie eine klare Beschreibung für dieses hinzu",
+      "optional":"optional",
+      "toGetStarted": "Um zu beginnen",
+      "type": "Typ",
+      "noHave": "Keine",
+      "no": "Nein",
+      "yes": "Ja",
+      "addedYet": "noch nicht hinzugefügt",
+      "any": "Beliebig",
+      "all": "Alle",
+      "select": "Auswählen",
+      "selectOption": "Option auswählen",
+      "selectOptions": "Optionen auswählen",
+      "selectOne": "Eine auswählen",
+      "selectOneOrMore": "Eine oder mehrere auswählen",
+      "selectAtLeastOne": "Mindestens eine auswählen",
+      "last": "Letzter",
+      "latest": "Neuester",
+      "yetToBeScheduled": "Noch nicht geplant",
+      "scheduled": "Geplant",
+      "rescheduled": "Umscheduled",
+      "removeAllAssociated":"Diese Aktion wird auch alle zugehörigen Elemente entfernen",
+      "howToUse": "Verwendung",
+      "quickSteps": "Kurzanleitung",
+      "one": "einen"
     },
     "currency": {
       "australianDollar": "AUD",
@@ -15686,7 +16041,12 @@
       "pleaseMakeOneSelection":"Bitte treffen Sie eine Auswahl, um fortzufahren",
       "itemExists":"Dieses Element existiert bereits in der Liste",
       "pleaseEnterValidUrl":"PleBitte geben Sie eine gültige Website-URL ein. Sie dürfen nur 1 URL hinzufügen.",
-      "capacityReached":"Kapazität erreicht"
+      "capacityReached":"Kapazität erreicht",
+      "exceedCharacterLimit":"Text überschreitet das Zeichenlimit",
+      "invalidValue":"Ungültiger Wert",
+      "selectFromList":"Bitte wählen Sie aus der Liste aus",
+      "startDateTimeRequired":"Startdatum, Uhrzeit und Dauer sind erforderlich",
+      "maxChar255Exceed":"Maximale Zeichenlänge von 255 überschritten"
     },
     "validationBE": {
       "sendGridEmailTenantReferenceIdExists": "Eine neue Send Grid E-Mail-Mieterreferenz kann nicht bereits eine ID haben",
@@ -24129,6 +24489,27 @@
             "plural": "",
             "setupEdit": false,
             "setupVisible": false
+          },
+          "daysAt": {
+            "original": "days at",
+            "singular": "Tage um",
+            "plural": "Tage um",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "hour": {
+            "original": "hours",
+            "singular": "stunde",
+            "plural": "stunden",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "item": {
+            "original": "Item",
+            "singular": "Element",
+            "plural": "Elemente",
+            "setupEdit": false,
+            "setupVisible": false
           }
         },
         "validationFE": {
@@ -24159,7 +24540,28 @@
             "setupVisible": false
           }
         },
-        "messages": {}
+        "messages":{
+          "tiedTo": "verknüpft mit",
+          "willDisplayHere": "wird hier angezeigt",
+          "selectIcon": "Symbol auswählen",
+          "enterThe": "Eingeben",
+          "andChoose": "und wählen Sie, wann die Arbeit geplant werden soll",
+          "for": "für",
+          "to": "zu",
+          "needToComplete": "die abgeschlossen werden müssen",
+          "searchSelect": "Suchen und auswählen",
+          "toBeAdded": "hinzuzufügen",
+          "willInitiallyBased": "Der Preis basiert zunächst auf der Menge und folgt der verbrauchten Menge, wenn",
+          "haveBeenUtilized": "verbraucht wurden",
+          "preFilledForm": "vorausgefülltes Formular mit Standard-",
+          "detailsLike": "Details wie",
+          "otherAvailableFields": "und anderen verfügbaren Feldern",
+          "whenCreating": "Beim Erstellen eines",
+          "justSelect": "wählen Sie einfach einen",
+          "everythingPrefilled": "und alles wird vorausgefüllt. Sie können vor dem Speichern alles anpassen.",
+          "toQuickly": "um schnell",
+          "withPrefillDetails": "mit vorausgefüllten Details"
+        }
       },
       "preventiveMaintenance": {
         "setupVisible": false,
@@ -24491,6 +24893,450 @@
           "selectType": "Typ auswählen",
           "selectSource": "Quelle auswählen",
           "chooseAssetTypes": "Wählen Sie die Asset-Typen, für die dieser Zähler gelten soll. Jedes Asset des ausgewählten Typs enthält automatisch diesen Zähler."
+        }
+      },
+      "types": {
+        "setupEdit": false,
+        "setupVisible": false,
+        "label": {
+          "original": "Type",
+          "singular": "Typ",
+          "plural": "Typen",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "sections": {
+          "setupEdit": false,
+          "setupVisible": false,
+          "sec0": {
+            "original": "Basics",
+            "singular": "Grundlagen",
+            "plural": "Grundlagen",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec1": {
+            "original": "Form Sections",
+            "singular": "Formularabschnitt",
+            "plural": "Formularabschnitte",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec2": {
+            "original": "Statuses",
+            "singular": "Status",
+            "plural": "Status",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec3": {
+            "original": "Settings",
+            "singular": "Einstellung",
+            "plural": "Einstellungen",
+            "setupEdit": false,
+            "setupVisible": false
+          }
+        },
+        "fields": {
+          "setupEdit": false,
+          "setupVisible": false,
+          "selectIcon": {
+            "original": "Select Icon",
+            "singular": "Symbol auswählen",
+            "plural": "Symbole auswählen",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "basicInfo": {
+            "original": "Basic Info",
+            "singular": "Grundinformationen",
+            "plural": "Grundinformationen",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "field": {
+            "original": "Field",
+            "singular": "Feld",
+            "plural": "Felder",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "branch": {
+            "original": "Branch",
+            "singular": "Niederlassung",
+            "plural": "Niederlassungen",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "floor": {
+            "original": "Floor",
+            "singular": "Etage",
+            "plural": "Etagen",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "hidden": {
+            "original": "Hidden",
+            "singular": "Ausgeblendet",
+            "plural": "Ausgeblendet",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "visible": {
+            "original": "Visible",
+            "singular": "Sichtbar",
+            "plural": "Sichtbar",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "shown": {
+            "original": "Shown",
+            "singular": "Angezeigt",
+            "plural": "Angezeigt",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "category": {
+            "original": "Category",
+            "singular": "Kategorie",
+            "plural": "Kategorien",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "type": {
+            "original": "Types",
+            "singular": "Typ",
+            "plural": "Typen",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "label": {
+            "original": "Label",
+            "singular": "Bezeichnung",
+            "plural": "Bezeichnungen",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "code": {
+            "original": "Code",
+            "singular": "Code",
+            "plural": "Codes",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "color": {
+            "original": "Color",
+            "singular": "Farbe",
+            "plural": "Farben",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "default": {
+            "original": "Default",
+            "singular": "Standard",
+            "plural": "Standards",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "available": {
+            "original": "Available",
+            "singular": "Verfügbar",
+            "plural": "Verfügbar",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "autoPopulateAddress": {
+            "original": "Auto-populate address from",
+            "singular": "Adresse automatisch befüllen von",
+            "plural": "Adresse automatisch befüllen von",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "autoPopulateContact": {
+            "original": "Auto-populate contact from",
+            "singular": "Kontakt automatisch befüllen von",
+            "plural": "Kontakt automatisch befüllen von",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "addTheStatus": {
+            "original": "Add the status to",
+            "singular": "Status hinzufügen zu",
+            "plural": "Status hinzufügen zu",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "whichProfilesCanUse": {
+            "original": "Which profiles can use the status",
+            "singular": "Welche Profile können den Status verwenden",
+            "plural": "Welche Profile können den Status verwenden",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "price": {
+            "original": "Price",
+            "singular": "Preis",
+            "plural": "Preise",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "job": {
+            "original": "Job",
+            "singular": "Auftrag",
+            "plural": "Aufträge",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "installation": {
+            "original": "Installation",
+            "singular": "Installation",
+            "plural": "Installationen",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "preventiveMaintenance": {
+            "original": "Preventive Maintenance",
+            "singular": "Vorbeugende Wartung",
+            "plural": "Vorbeugende Wartungen",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "correctiveRepair": {
+            "original": "Corrective / Repair",
+            "singular": "Korrektur / Reparatur",
+            "plural": "Korrekturen / Reparaturen",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "inspection": {
+            "original": "Inspection",
+            "singular": "Inspektion",
+            "plural": "Inspektionen",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "survey": {
+            "original": "Survey",
+            "singular": "Begehung",
+            "plural": "Begehungen",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "logistics": {
+            "original": "Logistics",
+            "singular": "Logistik",
+            "plural": "Logistik",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "warehouse": {
+            "original": "Warehouse",
+            "singular": "Lager",
+            "plural": "Lager",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "onDemand": {
+            "original": "On-Demand",
+            "singular": "Auf Anfrage",
+            "plural": "Auf Anfrage",
+            "setupEdit": false,
+            "setupVisible": false
+          }
+        },
+        "messages": {
+          "addDescriptionForThis": "Beschreibung für dieses hinzufügen",
+          "here": "hier...",
+          "untitled": "Ohne Titel",
+          "configureFieldsAppear": "Konfigurieren Sie, welche Felder angezeigt werden, wenn Planer einen erstellen",
+          "ofThis": "dieses",
+          "toggleOptionsBelow": "Schalten Sie die folgenden Optionen um und klicken Sie auf die Live-Formularvorschau, um Aktualisierungen sofort zu sehen",
+          "decideIfThis": "Entscheiden Sie, ob dieser",
+          "alwaysInvolvesSpecific": "immer ein bestimmtes beinhaltet",
+          "enable": "Aktivieren",
+          "and": "und",
+          "trackingIfPlanners": "Verfolgung, wenn Planer diese erfassen müssen",
+          "ifThis": "wenn dieser",
+          "requiresBulkInstallations": "Masseninstallationen erfordert",
+          "reviewLivePreview": "Überprüfen Sie die Live-Vorschau und klicken Sie auf die Schaltfläche 'Speichern', um fortzufahren",
+          "linkedToAn": "verknüpft mit einem",
+          "turnOnIfWork": "Einschalten, wenn die Arbeit normalerweise ein bestimmtes Gerät oder",
+          "leaveOff": "Ausschalten für allgemeine Arbeiten wie",
+          "inspectionSurvey": "Inspektionen oder Begehungen.",
+          "workDoneFor": "Arbeit erledigt für",
+          "turnOnToSpecify": "Einschalten, um anzugeben, welche",
+          "workingForWhenCreating": "Sie beim Erstellen von Aufträgen arbeiten",
+          "doYouNeed": "Benötigen Sie den",
+          "enableToRecord": "Aktivieren, um den genauen",
+          "forEach": "für jeden",
+          "willTheseJobsLink": "Werden diese Aufträge mit einem verknüpft",
+          "turnOnIfGroupMultipleJobs": "Einschalten, wenn Sie mehrere Aufträge gruppieren. Sie können eine Zusammenfassung aller abgeschlossenen Aufträge erstellen.",
+          "chooseWhatYourTeam": "Wählen Sie, was Ihr Team im",
+          "formInWhatOrder": "Formular und in welcher Reihenfolge sieht. Behalten Sie nur das Notwendige, damit das Formular schnell und übersichtlich ist.",
+          "showTheSectionsNeed": "Zeigen Sie die benötigten Abschnitte an",
+          "hideSectionsTeam": "Blenden Sie die Abschnitte aus, die Ihr Team nicht verwendet",
+          "orderTheseSections": "Ordnen Sie diese Abschnitte so, dass der Ablauf für Sie natürlich wirkt",
+          "shownTo": "Angezeigt für",
+          "hiddenFrom": "Ausgeblendet von",
+          "whereJobHappensWhoToCall": "Wo die Arbeit stattfindet und wen man anrufen soll",
+          "whatsWrongHowFixed": "Was falsch ist und wie es behoben wird",
+          "stepsForTechnician": "Schritte für den Techniker",
+          "usedForInstallationsRepairs": "verwendet für Installationen oder Reparaturen",
+          "extraNotesFiles": "Zusätzliche Notizen und Dateien",
+          "additional": "Zusätzliche",
+          "information": "Informationen",
+          "additionalJobInfo": "Zusätzliche Auftragsinformationen",
+          "plannersSee": "Das sehen Planer für diesen",
+          "addStatusesForThis": "Status für diesen hinzufügen",
+          "statusesControlLifecycle": "Status steuern den Lebenszyklus, der Planern und Technikern angezeigt wird",
+          "addStatusWith": "Status mit Bezeichnung, Code und Farb-Hex-Code hinzufügen (Beispiel: #4F46E5)",
+          "availableToggle": "Verfügbar: Schalten Sie die Status um, die Sie für diesen Typ verfügbar machen möchten",
+          "defaultSelectStatus": "Standard: Wählen Sie einen Status als Standard für neue Aufträge dieses Typs",
+          "saveYourChanges": "Änderungen speichern",
+          "newlyCreatedStatus": "Neu erstellte Status sind sichtbar, werden aber nicht als",
+          "defineDetailsOfThis": "Details dieses festlegen",
+          "groupingReportingFiltering": "Gruppierung für Berichterstattung und Filterung",
+          "nameShownTo": "Angezeigter Name für",
+          "shortUniqueIdentifier": "Kurze eindeutige Kennung für Integrationen und Automatisierungen",
+          "chooseWhereStatus": "Wählen Sie, wo dieser Status erscheint",
+          "selectThe": "Wählen Sie den",
+          "whichWillUseThis": "der diesen Status verwenden wird",
+          "addStatusTo": "Status hinzufügen zu",
+          "thisStatusSelectable": "Dieser Status ist nur auswählbar für",
+          "youInclude": "die Sie einbeziehen",
+          "selectWhoCanUseStatus": "Wählen Sie, wer diesen Status verwenden kann",
+          "whoCanSetStatus": "Wer kann diesen Status in einem setzen",
+          "selectedProfilesCan": "Ausgewählte Profile können diesen Status verwenden",
+          "enterStatusLabel": "Statusbezeichnung eingeben...",
+          "enterStatusCode": "Statuscode eingeben...",
+          "allowUserViewPriceOf": "Benutzern erlauben, den Preis von anzuzeigen",
+          "allowToSee": "Erlauben zu sehen",
+          "enableThisIfYou": "Aktivieren Sie dies, wenn Sie den Preis jedes",
+          "createdUnderThisType": "unter diesem Typ erstellte wird diese Regel befolgen",
+          "is": "ist",
+          "asTheyShouldAppearInThe": "wie sie im erscheinen sollen",
+          "dropdown": "Dropdown-Menü",
+          "any": "beliebig",
+          "all": "alle",
+          "cloningFrom": "Klonen von",
+          "adjustSettings": "Passen Sie die Einstellungen an und geben Sie einen Namen für Ihren",
+          "chooseName": "Wählen Sie einen Namen, der die Art der Arbeit widerspiegelt",
+          "installationDesc": "Neue Geräteeinrichtung, Inbetriebnahme oder Konfiguration.",
+          "preventiveMaintenanceDesc": "Geplante Wartung zur Vermeidung von Ausfällen.",
+          "correctiveRepairDesc": "Behebung gemeldeter Fehler oder Ausfälle.",
+          "inspectionDesc": "Zustands- oder Konformitätsprüfungen, minimale Arbeiten.",
+          "surveyDesc": "Standortbegehung, Bewertung oder Angebotstermin vor der Arbeit.",
+          "logisticsDesc": "Liefer-, Abhol-, Umzugs- oder Transportaufgaben.",
+          "warehouseDesc": "Interne Lagerbewegungen, Kommissionierung, Einlagerung oder Zählung.",
+          "onDemandDesc": "Ad-hoc-Aufträge ohne festen Zeitplan.",
+          "joTypeStandaloneDesc": "Aufträge nach Arbeitstyp gruppieren (Installation, Reparatur, Wartung, Schaden). Richten Sie diese hier ein, damit jeder Auftrag korrekt gekennzeichnet wird. Klonen Sie zum Einstieg einen vorhandenen Typ.",
+          "helpsGroup": "hilft Ihnen dabei,",
+          "forPlanningReporting": "für Planung und Berichterstattung zu gruppieren.",
+          "chooseOptionMatches": "Wählen Sie die Option, die dem Hauptzweck dieses am besten entspricht"
+        },
+        "validationFE": {
+          "maximum80Chars": "Maximale Länge von 80 Zeichen überschritten",
+          "maximumCharsExceed": "Maximale Zeichenlänge überschritten",
+          "noDefaultStatus": "Kein Standardstatus gefunden. Bitte setzen Sie einen Status als Standard.",
+          "systemStatusNotAllowedDelete": "Systemstatus können nicht gelöscht werden. Ändern Sie gerne die Bezeichnung.",
+          "toDeleteStatus": "Um diesen Status zu löschen, stellen Sie sicher, dass er in allen deaktiviert ist"
+        }
+      },
+      "procedure": {
+        "setupEdit": false,
+        "setupVisible": false,
+        "label": {
+          "original": "Procedures",
+          "singular": "Verfahren",
+          "plural": "Verfahren",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "sections": {
+          "setupEdit": false,
+          "setupVisible": false,
+          "sec0": {
+            "original": "General Details",
+            "singular": "Allgemeine Details",
+            "plural": "Allgemeine Details",
+            "setupEdit": false,
+            "setupVisible": false
+          }
+        },
+        "fields": {
+          "setupEdit": false,
+          "setupVisible": false,
+          "name": {
+            "original": "Name",
+            "singular": "Name",
+            "plural": "Name",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "description": {
+            "original": "Description",
+            "singular": "Beschreibung",
+            "plural": "Beschreibung",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "status": {
+            "original": "Status",
+            "singular": "Status",
+            "plural": "Status",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "color": {
+            "original": "Color",
+            "singular": "Farbe",
+            "plural": "Farbe",
+            "setupEdit": false,
+            "setupVisible": false
+          }
+        },
+        "messages": {
+          "confirmDeleteProcedure": "Sind Sie sicher, dass Sie dieses Verfahren löschen möchten? Diese Aktion kann nicht rückgängig gemacht werden.",
+          "groupOf": "sind Gruppen von",
+          "regularBasis": "die Sie regelmäßig ausführen",
+          "createUse": "Sie können erstellen und verwenden",
+          "for": "für",
+          "to": "zu",
+          "whereSame": "wo die gleichen",
+          "needToBeDone": "jedes Mal erledigt werden müssen",
+          "groupsOf": "sind Gruppen von",
+          "performRegularly": "die Sie regelmäßig ausführen. Verwenden Sie ein",
+          "whenSameTasks": "wenn die gleichen",
+          "listThe": "Sie können die",
+          "mustFollowOrder": "Reihenfolge einhalten",
+          "inOrder": "in einer Reihenfolge auflisten und aktivieren",
+          "ifTheyShouldDone": "wenn sie nacheinander erledigt werden sollen.",
+          "usingSearchBox": "über das Suchfeld hinzu; nach dem Hinzufügen wird Ihre Auswahl in der Tabelle unten angezeigt.",
+          "reorder": "Ordnen Sie die",
+          "withHandles": "mit den Griffen neu an.",
+          "atTopAppearFirst": "oben werden zuerst angezeigt.",
+          "setTheSlider": "Stellen Sie den Schieberegler auf 'aktiviert', um die",
+          "orderTurnOff": "Reihenfolge durchzusetzen; deaktivieren Sie ihn für eine beliebige Reihenfolge.",
+          "mandatory": "Pflichtfeld",
+          "tick": "Aktivieren Sie",
+          "completedBefore": "für Schritte, die abgeschlossen sein müssen, bevor ein",
+          "savingMakes": "Durch das Speichern wird dieses",
+          "availablePlanners": "für Planer und Techniker verfügbar. Das Bearbeiten eines",
+          "willNotDelete": "hier löscht keine",
+          "fromLibrary": "aus Ihrer Bibliothek oder ändert vergangene",
+          "pastJobData": "Daten.",
+          "no": "Kein",
+          "hasBeenSelected": "wurde ausgewählt",
+          "pleaseSelect": "Bitte auswählen",
+          "ifSelected": "Wenn ausgewählt",
+          "inThe": "im",
+          "mustBeFinished": "müssen der Reihe nach abgeschlossen werden",
+          "each": "Jede",
+          "markedComplete": "muss als abgeschlossen markiert werden, bevor die nächste gestartet werden kann.",
+          "nameThe": "Benennen Sie den",
+          "pickAColor": "(optional) eine Farbe auswählen",
+          "beDone": "durchgeführt werden für",
+          "specific": "bestimmte"
         }
       }
     },
@@ -27713,7 +28559,11 @@
       "setupTmplTaskHasJobOrder": "Löschen nicht möglich: Vorlage wird in einem oder mehreren Arbeitsaufträgen verwendet",
       "setupTmplTaskHasJobOrderProduct": "Löschen nicht möglich: Vorlage wird zur Erstellung eines oder mehrerer Jobauftrag-Produkte verwendet",      
       "setupAssetMeterMaxAssetsTypeReached": "Die maximale Anzahl von Asset-Zählern für den ausgewählten Asset-Typ ist bereits erreicht",
-      "setupAssetMeterHasAssetsRecord": "Asset-Zähler ist mit einem oder mehreren Asset-Datensätzen verknüpft und kann daher nicht gelöscht werden"
+      "setupAssetMeterHasAssetsRecord": "Asset-Zähler ist mit einem oder mehreren Asset-Datensätzen verknüpft und kann daher nicht gelöscht werden",
+      "SetupCustomerPortalTemplateJobOrderTypeMissing": "Der Auftragstyp, der mit der Vorlage verknüpft ist, ist im Portal nicht konfiguriert. Bitte fügen Sie ihn zu den Auftragstypen hinzu.",
+      "setupJobOrderStatusNotFound": "Auftragsstatus nicht gefunden",
+      "SetupCustomerPortalConfigNotFound": "Kundenportal-Konfiguration für diesen Mandanten nicht gefunden",
+      "SetupCustomerPortalSubDomainAlreadyInUse": "Die Subdomain wird bereits von einem anderen Mandanten verwendet"
     },
     "labelBE": {
       "profileTableColumnSetup": {
@@ -31932,7 +32782,8 @@
       "rateCardNameEmpty": "Der Name der Rate Card ist obligatorisch",
       "rateCardFixedRateValueEmpty": "Ein fester Wert ist für die feste Rate Card erforderlich",
       "rateCardVariableRatesEmpty": "Der Erststundensatz und der Folgestundensatz sind für die variable Rate Card erforderlich",
-      "rateCardRateRoundingOffMinutesNotValid": "Gültige Abrundungsminuten sind für die variable Rate Card erforderlich"
+      "rateCardRateRoundingOffMinutesNotValid": "Gültige Abrundungsminuten sind für die variable Rate Card erforderlich",
+      "rateCardCannotDeleteDueToJobOrders": "Löschen nicht möglich: Diese Ratekarte ist derzeit mit einem Arbeitsauftrag verknüpft. Bitte trennen Sie sie von allen zugehörigen Arbeitsaufträgen, bevor Sie fortfahren"
     },
     "tooltips": {
       "setupVisible": false,
