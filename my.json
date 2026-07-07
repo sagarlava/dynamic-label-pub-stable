@@ -2847,7 +2847,20 @@
       "later": "kemudian.",
       "keepTheJobInOverdueFor": "Simpan kerja dalam status Tertunggak selama",
       "daysBforeRescheduling": "hari sebelum menjadual semula, kemudian jadualkan semula kerja",
-      "afterItBecomesOverdue": "selepas ia menjadi tertunggak."
+      "afterItBecomesOverdue": "selepas ia menjadi tertunggak.",
+      "timeBasedDesc": "berjalan mengikut jadual kalendar tetap, tetapkan sekali dan ia berulang secara automatik.",
+      "timeBasedBullet1": "Berulang setiap minggu, bulanan, suku tahunan, atau pada mana-mana selang tersuai",
+      "timeBasedBullet2": "Sesuai untuk pemeriksaan rutin dengan kitaran yang boleh dijangka",
+      "timeBasedBullet3": "Kerja dicipta secara automatik sebelum setiap tarikh akhir",
+      "bestFor": "Terbaik untuk:",
+      "timeBasedBestFor": "penapis udara, pemeriksaan alat pemadam api, jadual pelinciran",
+      "timeMeterBasedDesc": "Menggabungkan jadual kalendar dengan meter penggunaan — yang mana-mana dicapai dahulu akan mencetuskan kerja.",
+      "timeMeterBasedBullet1": "Menjejak masa yang telah berlalu dan penggunaan (jam, km, kitaran)",
+      "timeMeterBasedBullet2": "Dicetuskan apabila syarat yang mana-mana dicapai dahulu",
+      "timeMeterBasedBullet3": "Dijadualkan semula secara automatik berdasarkan penggunaan sebenar",
+      "usage": "penggunaan",
+      "timeMeterBasedBestForStart": "penjana, kenderaan, pam, atau mana-mana",
+      "withRuntimeMeters": "dengan meter masa jalan"
     }
   },
   "contracts": {

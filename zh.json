@@ -2855,7 +2855,20 @@
       "later": "之后。",
       "keepTheJobInOverdueFor": "将工单保持在逾期状态",
       "daysBforeRescheduling": "天后重新安排，然后重新安排工单",
-      "afterItBecomesOverdue": "在变为逾期后。"
+      "afterItBecomesOverdue": "在变为逾期后。",
+      "timeBasedDesc": "按固定日历计划运行，设置一次后自动重复。",
+      "timeBasedBullet1": "每周、每月、每季度或按任意自定义间隔重复",
+      "timeBasedBullet2": "适合具有可预测周期的例行检查",
+      "timeBasedBullet3": "在每个到期日之前自动创建工单",
+      "bestFor": "最适合：",
+      "timeBasedBestFor": "空气过滤器、灭火器检查、润滑计划",
+      "timeMeterBasedDesc": "将日历计划与使用仪表相结合——先达到任一条件即触发工单。",
+      "timeMeterBasedBullet1": "同时跟踪已用时间和使用量（小时、公里、循环次数）",
+      "timeMeterBasedBullet2": "在最先达到的条件触发",
+      "timeMeterBasedBullet3": "根据实际",
+      "usage": "使用情况自动重新安排",
+      "timeMeterBasedBestForStart": "发电机、车辆、泵，或任何",
+      "withRuntimeMeters": "带有运行时仪表的"
     }
   },
   "contracts": {

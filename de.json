@@ -2847,7 +2847,20 @@
       "later": "später.",
       "keepTheJobInOverdueFor": "Auftrag für folgende Zeit im Status Überfällig behalten",
       "daysBforeRescheduling": "Tag(e) vor der Neuplanung, dann den Auftrag neu planen",
-      "afterItBecomesOverdue": "nachdem er überfällig geworden ist."
+      "afterItBecomesOverdue": "nachdem er überfällig geworden ist.",
+      "timeBasedDesc": "läuft nach einem festen Kalenderplan – einmal einrichten und sie wiederholt sich automatisch.",
+      "timeBasedBullet1": "Wiederholt sich wöchentlich, monatlich, vierteljährlich oder in einem beliebigen benutzerdefinierten Intervall",
+      "timeBasedBullet2": "Ideal für Routineinspektionen mit vorhersehbaren Zyklen",
+      "timeBasedBullet3": "Aufträge werden automatisch vor jedem Fälligkeitsdatum erstellt",
+      "bestFor": "Am besten geeignet für:",
+      "timeBasedBestFor": "Luftfilter, Feuerlöscherprüfungen, Schmierungspläne",
+      "timeMeterBasedDesc": "Kombiniert einen Kalenderplan mit einem Nutzungszähler – welche Bedingung auch immer zuerst erreicht wird, löst den Auftrag aus.",
+      "timeMeterBasedBullet1": "Verfolgt sowohl verstrichene Zeit als auch Nutzung (Stunden, km, Zyklen)",
+      "timeMeterBasedBullet2": "Wird ausgelöst, wenn eine der Bedingungen zuerst erreicht wird",
+      "timeMeterBasedBullet3": "Wird automatisch basierend auf der tatsächlichen",
+      "usage": "Nutzung neu geplant",
+      "timeMeterBasedBestForStart": "Generatoren, Fahrzeuge, Pumpen oder jede",
+      "withRuntimeMeters": "mit Laufzeitzählern"
     }
   },
   "contracts": {

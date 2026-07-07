@@ -3678,7 +3678,20 @@
       "later": "later.",
       "keepTheJobInOverdueFor": "Keep the job in Overdue for",
       "daysBforeRescheduling": "day(s) before rescheduling, then reschedule the job",
-      "afterItBecomesOverdue": "after it becomes overdue."
+      "afterItBecomesOverdue": "after it becomes overdue.",
+      "timeBasedDesc": "runs on a fixed calendar schedule, set it once and it repeats automatically.",
+      "timeBasedBullet1": "Repeats weekly, monthly, quarterly, or on any custom interval",
+      "timeBasedBullet2": "Ideal for routine inspections with predictable cycles",
+      "timeBasedBullet3": "Jobs are auto-created ahead of each due date",
+      "bestFor": "Best for:",
+      "timeBasedBestFor": "air filters, fire extinguisher checks, lubrication schedules",
+      "timeMeterBasedDesc": "Combines a calendar schedule with a usage meter whichever is hit first triggers the job.",
+      "timeMeterBasedBullet1": "Tracks both elapsed time and usage (hours, km, cycles)",
+      "timeMeterBasedBullet2": "Triggers on whichever condition is reached first",
+      "timeMeterBasedBullet3": "Automatically reschedules based on actual",
+      "usage": "usage",
+      "timeMeterBasedBestForStart": "generators, vehicles, pumps, or any",
+      "withRuntimeMeters": "with runtime meters"
     }
   },
   "contracts": {

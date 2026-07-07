@@ -2847,7 +2847,20 @@
       "later": "después.",
       "keepTheJobInOverdueFor": "Mantener el trabajo en estado Vencido durante",
       "daysBforeRescheduling": "día(s) antes de reprogramar, luego reprogramar el trabajo",
-      "afterItBecomesOverdue": "después de que se venza."
+      "afterItBecomesOverdue": "después de que se venza.",
+      "timeBasedDesc": "se ejecuta en un programa de calendario fijo, configúrelo una vez y se repite automáticamente.",
+      "timeBasedBullet1": "Se repite semanal, mensual, trimestral o en cualquier intervalo personalizado",
+      "timeBasedBullet2": "Ideal para inspecciones de rutina con ciclos predecibles",
+      "timeBasedBullet3": "Los trabajos se crean automáticamente antes de cada fecha de vencimiento",
+      "bestFor": "Ideal para:",
+      "timeBasedBestFor": "filtros de aire, revisiones de extintores, programas de lubricación",
+      "timeMeterBasedDesc": "Combina un programa de calendario con un medidor de uso — el que se alcance primero activa el trabajo.",
+      "timeMeterBasedBullet1": "Rastrea tanto el tiempo transcurrido como el uso (horas, km, ciclos)",
+      "timeMeterBasedBullet2": "Se activa cuando se alcanza primero cualquiera de las condiciones",
+      "timeMeterBasedBullet3": "Se reprograma automáticamente según el uso real del",
+      "usage": "uso",
+      "timeMeterBasedBestForStart": "generadores, vehículos, bombas, o cualquier",
+      "withRuntimeMeters": "con medidores de tiempo de funcionamiento"
     }
   },
   "contracts": {
